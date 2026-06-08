@@ -1,0 +1,188 @@
+{
+  "countryCode": "AM",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "AM_new_years_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "AM_christmas_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "AM_army_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.army_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 28
+      }
+    },
+    {
+      "id": "AM_womens_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.womens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 8
+      }
+    },
+    {
+      "id": "AM_easter_sunday",
+      "countryCode": "AM",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "AM_armenian_genocide_remembrance_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.armenian_genocide_remembrance_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 24
+      }
+    },
+    {
+      "id": "AM_labour_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "AM_victory_and_peace_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.victory_and_peace_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 9
+      }
+    },
+    {
+      "id": "AM_republic_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.republic_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 28
+      }
+    },
+    {
+      "id": "AM_constitution_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.constitution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 5
+      }
+    },
+    {
+      "id": "AM_independence_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 21
+      }
+    },
+    {
+      "id": "AM_new_years_eve",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "christmas_day": "Christmas Day",
+        "army_day": "Army Day",
+        "easter_sunday": "Easter Sunday",
+        "armenian_genocide_remembrance_day": "Armenian Genocide Remembrance Day",
+        "victory_and_peace_day": "Victory and Peace Day",
+        "republic_day": "Republic Day",
+        "constitution_day": "Constitution Day",
+        "independence_day": "Independence Day"
+      },
+      "hy": {
+        "new_years_day": "Ամանոր",
+        "christmas_day": "Սուրբ Ծնունդ",
+        "army_day": "Բանակի օր",
+        "easter_sunday": "Ամանոր",
+        "armenian_genocide_remembrance_day": "Եղեռնի զոհերի հիշատակի օր",
+        "victory_and_peace_day": "Հաղթանակի և Խաղաղության տոն",
+        "republic_day": "Հանրապետության օր",
+        "constitution_day": "Սահմանադրության օր",
+        "independence_day": "Անկախության օր"
+      }
+    }
+  }
+}

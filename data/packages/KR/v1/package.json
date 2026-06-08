@@ -1,0 +1,249 @@
+{
+  "countryCode": "KR",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "KR_new_years_day",
+      "countryCode": "KR",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "KR_lunar_new_year",
+      "countryCode": "KR",
+      "kind": "precomputed",
+      "labelKey": "holidays.lunar_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-18",
+          "2027": "02-09",
+          "2028": "01-28",
+          "2029": "02-14",
+          "2030": "02-05",
+          "2031": "01-24",
+          "2032": "02-12",
+          "2033": "02-01",
+          "2034": "02-21",
+          "2035": "02-09"
+        }
+      }
+    },
+    {
+      "id": "KR_independence_movement_day",
+      "countryCode": "KR",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_movement_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 1
+      }
+    },
+    {
+      "id": "KR_labour_day",
+      "countryCode": "KR",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "KR_childrens_day",
+      "countryCode": "KR",
+      "kind": "fixed",
+      "labelKey": "holidays.childrens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 5
+      }
+    },
+    {
+      "id": "KR_buddhas_birthday",
+      "countryCode": "KR",
+      "kind": "precomputed",
+      "labelKey": "holidays.buddhas_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-25",
+          "2027": "05-13",
+          "2028": "05-02",
+          "2029": "05-21",
+          "2030": "05-09",
+          "2031": "04-29",
+          "2032": "05-17",
+          "2033": "05-06",
+          "2034": "05-25",
+          "2035": "05-15"
+        }
+      }
+    },
+    {
+      "id": "KR_local_election_day",
+      "countryCode": "KR",
+      "kind": "fixed",
+      "labelKey": "holidays.local_election_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 3
+      }
+    },
+    {
+      "id": "KR_memorial_day",
+      "countryCode": "KR",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 6
+      }
+    },
+    {
+      "id": "KR_constitution_day",
+      "countryCode": "KR",
+      "kind": "fixed",
+      "labelKey": "holidays.constitution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 17
+      }
+    },
+    {
+      "id": "KR_liberation_day",
+      "countryCode": "KR",
+      "kind": "fixed",
+      "labelKey": "holidays.liberation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "KR_chuseok",
+      "countryCode": "KR",
+      "kind": "precomputed",
+      "labelKey": "holidays.chuseok",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-26",
+          "2027": "09-16",
+          "2028": "10-04",
+          "2029": "09-24",
+          "2030": "09-13",
+          "2031": "10-02",
+          "2032": "09-21",
+          "2033": "09-09",
+          "2034": "09-28",
+          "2035": "09-18"
+        }
+      }
+    },
+    {
+      "id": "KR_national_foundation_day",
+      "countryCode": "KR",
+      "kind": "fixed",
+      "labelKey": "holidays.national_foundation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 3
+      }
+    },
+    {
+      "id": "KR_hangul_day",
+      "countryCode": "KR",
+      "kind": "fixed",
+      "labelKey": "holidays.hangul_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 9
+      }
+    },
+    {
+      "id": "KR_christmas_day",
+      "countryCode": "KR",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "lunar_new_year": "Lunar New Year",
+        "independence_movement_day": "Independence Movement Day",
+        "childrens_day": "Children's Day",
+        "buddhas_birthday": "Buddha's Birthday",
+        "local_election_day": "Local Election Day",
+        "memorial_day": "Memorial Day",
+        "constitution_day": "Constitution Day",
+        "liberation_day": "Liberation Day",
+        "chuseok": "Chuseok",
+        "national_foundation_day": "National Foundation Day",
+        "hangul_day": "Hangul Day"
+      },
+      "ko": {
+        "lunar_new_year": "설날",
+        "independence_movement_day": "3·1절",
+        "childrens_day": "어린이날",
+        "buddhas_birthday": "부처님 오신 날",
+        "local_election_day": "지방 선거일",
+        "memorial_day": "현충일",
+        "constitution_day": "제헌절",
+        "liberation_day": "광복절",
+        "chuseok": "추석",
+        "national_foundation_day": "개천절",
+        "hangul_day": "한글날"
+      }
+    }
+  }
+}

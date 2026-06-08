@@ -1,0 +1,229 @@
+{
+  "countryCode": "ME",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "ME_new_years_day",
+      "countryCode": "ME",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "ME_orthodox_christmas_eve",
+      "countryCode": "ME",
+      "kind": "fixed",
+      "labelKey": "holidays.orthodox_christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "ME_christmas_day_orthodox",
+      "countryCode": "ME",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_day_orthodox",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 8
+      }
+    },
+    {
+      "id": "ME_good_friday",
+      "countryCode": "ME",
+      "kind": "precomputed",
+      "labelKey": "holidays.good_friday_me",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-10",
+          "2027": "04-30",
+          "2028": "04-14",
+          "2029": "04-06",
+          "2030": "04-26",
+          "2031": "04-11",
+          "2032": "04-30",
+          "2033": "04-22",
+          "2034": "04-07",
+          "2035": "04-27"
+        }
+      }
+    },
+    {
+      "id": "ME_easter_sunday",
+      "countryCode": "ME",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "ME_easter_monday",
+      "countryCode": "ME",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_monday_me",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-13",
+          "2027": "05-03",
+          "2028": "04-17",
+          "2029": "04-09",
+          "2030": "04-29",
+          "2031": "04-14",
+          "2032": "05-03",
+          "2033": "04-25",
+          "2034": "04-10",
+          "2035": "04-30"
+        }
+      }
+    },
+    {
+      "id": "ME_labour_day",
+      "countryCode": "ME",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day_me",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 2
+      }
+    },
+    {
+      "id": "ME_independence_day",
+      "countryCode": "ME",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 22
+      }
+    },
+    {
+      "id": "ME_statehood_day",
+      "countryCode": "ME",
+      "kind": "fixed",
+      "labelKey": "holidays.statehood_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 14
+      }
+    },
+    {
+      "id": "ME_catholic_all_saints_day",
+      "countryCode": "ME",
+      "kind": "fixed",
+      "labelKey": "holidays.catholic_all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "ME_catholic_christmas_eve",
+      "countryCode": "ME",
+      "kind": "fixed",
+      "labelKey": "holidays.catholic_christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "ME_catholic_christmas_day",
+      "countryCode": "ME",
+      "kind": "fixed",
+      "labelKey": "holidays.catholic_christmas_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "ME_catholic_st_stephens_day",
+      "countryCode": "ME",
+      "kind": "fixed",
+      "labelKey": "holidays.catholic_st_stephens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "orthodox_christmas_eve": "Orthodox Christmas Eve",
+        "christmas_day_orthodox": "Christmas Day (Orthodox)",
+        "good_friday_me": "Good Friday",
+        "easter_sunday": "Easter Sunday",
+        "easter_monday_me": "Easter Monday",
+        "labour_day_me": "Labour Day",
+        "independence_day": "Independence Day",
+        "statehood_day": "Statehood Day",
+        "catholic_all_saints_day": "Catholic All Saints' Day",
+        "catholic_christmas_eve": "Catholic Christmas Eve",
+        "catholic_christmas_day": "Catholic Christmas Day",
+        "catholic_st_stephens_day": "Catholic St. Stephen's Day"
+      },
+      "sr": {
+        "new_years_day": "Nova godina",
+        "orthodox_christmas_eve": "Badnji dan",
+        "christmas_day_orthodox": "Božić",
+        "good_friday_me": "Veliki petak",
+        "easter_sunday": "Uskrs",
+        "easter_monday_me": "Uskrs",
+        "labour_day_me": "Praznik rada",
+        "independence_day": "Dan nezavisnosti",
+        "statehood_day": "Dan državnosti",
+        "catholic_all_saints_day": "Svi Sveti",
+        "catholic_christmas_eve": "Badnji dan",
+        "catholic_christmas_day": "Božić",
+        "catholic_st_stephens_day": "Božić"
+      }
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "countryCode": "IS",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "IS_new_years_day",
+      "countryCode": "IS",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "IS_maundy_thursday",
+      "countryCode": "IS",
+      "kind": "easter_relative",
+      "labelKey": "holidays.maundy_thursday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -3
+      }
+    },
+    {
+      "id": "IS_good_friday",
+      "countryCode": "IS",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "IS_easter_sunday",
+      "countryCode": "IS",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "IS_easter_monday",
+      "countryCode": "IS",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "IS_first_day_of_summer",
+      "countryCode": "IS",
+      "kind": "precomputed",
+      "labelKey": "holidays.first_day_of_summer",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-23",
+          "2027": "04-22",
+          "2028": "04-20",
+          "2029": "04-19",
+          "2030": "04-25",
+          "2031": "04-24",
+          "2032": "04-22",
+          "2033": "04-21",
+          "2034": "04-20",
+          "2035": "04-19"
+        }
+      }
+    },
+    {
+      "id": "IS_may_day",
+      "countryCode": "IS",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "IS_ascension_day",
+      "countryCode": "IS",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ascension",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 39
+      }
+    },
+    {
+      "id": "IS_pentecost",
+      "countryCode": "IS",
+      "kind": "easter_relative",
+      "labelKey": "holidays.pentecost",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 49
+      }
+    },
+    {
+      "id": "IS_whit_monday",
+      "countryCode": "IS",
+      "kind": "easter_relative",
+      "labelKey": "holidays.whit_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 50
+      }
+    },
+    {
+      "id": "IS_icelandic_national_day",
+      "countryCode": "IS",
+      "kind": "fixed",
+      "labelKey": "holidays.icelandic_national_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 17
+      }
+    },
+    {
+      "id": "IS_commerce_day",
+      "countryCode": "IS",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.commerce_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "IS_christmas_eve",
+      "countryCode": "IS",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "IS_christmas_day",
+      "countryCode": "IS",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "IS_st_stephens_day",
+      "countryCode": "IS",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    },
+    {
+      "id": "IS_new_years_eve",
+      "countryCode": "IS",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "maundy_thursday": "Maundy Thursday",
+        "easter_sunday": "Easter Sunday",
+        "first_day_of_summer": "First Day of Summer",
+        "pentecost": "Pentecost",
+        "icelandic_national_day": "Icelandic National Day",
+        "commerce_day": "Commerce Day",
+        "christmas_eve": "Christmas Eve"
+      },
+      "is": {
+        "maundy_thursday": "Skírdagur",
+        "easter_sunday": "Páskadagur",
+        "first_day_of_summer": "Sumardagurinn fyrsti",
+        "pentecost": "Hvítasunnudagur",
+        "icelandic_national_day": "Þjóðhátíðardagurinn",
+        "commerce_day": "Frídagur verslunarmanna",
+        "christmas_eve": "Aðfangadagur"
+      }
+    }
+  }
+}

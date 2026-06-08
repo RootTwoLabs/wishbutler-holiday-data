@@ -1,0 +1,291 @@
+{
+  "countryCode": "SI",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "SI_new_years_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "SI_preseren_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.preseren_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 8
+      }
+    },
+    {
+      "id": "SI_easter_sunday",
+      "countryCode": "SI",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "SI_easter_monday",
+      "countryCode": "SI",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "SI_day_of_uprising_against_occupation",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_uprising_against_occupation",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 27
+      }
+    },
+    {
+      "id": "SI_labour_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day_si",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 2
+      }
+    },
+    {
+      "id": "SI_primoz_trubar_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.primoz_trubar_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 2
+      }
+    },
+    {
+      "id": "SI_pentecost",
+      "countryCode": "SI",
+      "kind": "easter_relative",
+      "labelKey": "holidays.pentecost",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 49
+      }
+    },
+    {
+      "id": "SI_statehood_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.statehood_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 25
+      }
+    },
+    {
+      "id": "SI_sovereignty_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.sovereignty_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 14
+      }
+    },
+    {
+      "id": "SI_assumption_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.assumption",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "SI_unification_of_prekmurje_slovenes_with_the_mother_nation",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.unification_of_prekmurje_slovenes_with_the_mother_nation",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "SI_integration_of_primorska_into_the_homeland",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.integration_of_primorska_into_the_homeland",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 15
+      }
+    },
+    {
+      "id": "SI_slovenian_sports_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.slovenian_sports_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 23
+      }
+    },
+    {
+      "id": "SI_reformation_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.reformation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 31
+      }
+    },
+    {
+      "id": "SI_day_of_the_dead",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_the_dead",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "SI_rudolf_maister_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.rudolf_maister_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 23
+      }
+    },
+    {
+      "id": "SI_christmas_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "SI_independence_and_unity_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_and_unity_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "preseren_day": "Prešeren Day",
+        "easter_sunday": "Easter Sunday",
+        "day_of_uprising_against_occupation": "Day of Uprising Against Occupation",
+        "labour_day_si": "Labour Day",
+        "primoz_trubar_day": "Primož Trubar Day",
+        "pentecost": "Pentecost",
+        "statehood_day": "Statehood Day",
+        "sovereignty_day": "Sovereignty Day",
+        "unification_of_prekmurje_slovenes_with_the_mother_nation": "Unification of Prekmurje Slovenes with the Mother Nation",
+        "integration_of_primorska_into_the_homeland": "Integration of Primorska into the Homeland",
+        "slovenian_sports_day": "Slovenian Sports Day",
+        "reformation_day": "Reformation Day",
+        "day_of_the_dead": "Day of the Dead",
+        "rudolf_maister_day": "Rudolf Maister Day",
+        "independence_and_unity_day": "Independence and Unity Day"
+      },
+      "sl": {
+        "new_years_day": "novo leto",
+        "preseren_day": "Prešernov dan",
+        "easter_sunday": "velikonočna nedelja in ponedeljek",
+        "day_of_uprising_against_occupation": "dan upora proti okupatorju",
+        "labour_day_si": "praznik dela",
+        "primoz_trubar_day": "dan Primoža Trubarja",
+        "pentecost": "binkoštna nedelja",
+        "statehood_day": "dan državnosti",
+        "sovereignty_day": "dan suverenosti",
+        "unification_of_prekmurje_slovenes_with_the_mother_nation": "združitev prekmurskih Slovencev z matičnim narodom",
+        "integration_of_primorska_into_the_homeland": "priključitev Primorske k matični domovini",
+        "slovenian_sports_day": "dan slovenskega športa",
+        "reformation_day": "dan reformacije",
+        "day_of_the_dead": "dan spomina na mrtve",
+        "rudolf_maister_day": "dan Rudolfa Maistra",
+        "independence_and_unity_day": "dan samostojnosti in enotnosti"
+      }
+    }
+  }
+}

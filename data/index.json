@@ -1,18 +1,1329 @@
 {
   "schemaVersion": 1,
   "baseUrl": "https://cdn.jsdelivr.net/gh/RootTwoLabs/wishbutler-holiday-data@main/data",
-  "generatedAt": "2026-06-08T14:47:56.036Z",
+  "generatedAt": "2026-06-08T15:36:03.213Z",
   "countries": [
     {
-      "code": "DE",
+      "code": "AD",
       "version": 1,
-      "package": "packages/DE/v1/package.json",
-      "sizeBytes": 5486,
+      "package": "packages/AD/v1/package.json",
+      "sizeBytes": 4587,
+      "locales": [
+        "ca",
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "AL",
+      "version": 1,
+      "package": "packages/AL/v1/package.json",
+      "sizeBytes": 4584,
+      "locales": [
+        "en",
+        "sq"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "AM",
+      "version": 1,
+      "package": "packages/AM/v1/package.json",
+      "sizeBytes": 4569,
+      "locales": [
+        "en",
+        "hy"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "AO",
+      "version": 1,
+      "package": "packages/AO/v1/package.json",
+      "sizeBytes": 9021,
+      "locales": [
+        "en",
+        "pt"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "AR",
+      "version": 1,
+      "package": "packages/AR/v1/package.json",
+      "sizeBytes": 7742,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "AT",
+      "version": 1,
+      "package": "packages/AT/v1/package.json",
+      "sizeBytes": 30458,
       "locales": [
         "de",
         "en"
       ],
       "hasNamedays": true
+    },
+    {
+      "code": "AU",
+      "version": 1,
+      "package": "packages/AU/v1/package.json",
+      "sizeBytes": 7180,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "AX",
+      "version": 1,
+      "package": "packages/AX/v1/package.json",
+      "sizeBytes": 5445,
+      "locales": [
+        "en",
+        "sv"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "BA",
+      "version": 1,
+      "package": "packages/BA/v1/package.json",
+      "sizeBytes": 6636,
+      "locales": [
+        "bs",
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "BB",
+      "version": 1,
+      "package": "packages/BB/v1/package.json",
+      "sizeBytes": 3816,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "BD",
+      "version": 1,
+      "package": "packages/BD/v1/package.json",
+      "sizeBytes": 2988,
+      "locales": [
+        "bn",
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "BE",
+      "version": 1,
+      "package": "packages/BE/v1/package.json",
+      "sizeBytes": 4635,
+      "locales": [
+        "en",
+        "nl"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "BG",
+      "version": 1,
+      "package": "packages/BG/v1/package.json",
+      "sizeBytes": 14358,
+      "locales": [
+        "bg",
+        "en"
+      ],
+      "hasNamedays": true
+    },
+    {
+      "code": "BJ",
+      "version": 1,
+      "package": "packages/BJ/v1/package.json",
+      "sizeBytes": 4660,
+      "locales": [
+        "en",
+        "fr"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "BO",
+      "version": 1,
+      "package": "packages/BO/v1/package.json",
+      "sizeBytes": 3953,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "BR",
+      "version": 1,
+      "package": "packages/BR/v1/package.json",
+      "sizeBytes": 5167,
+      "locales": [
+        "en",
+        "pt"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "BS",
+      "version": 1,
+      "package": "packages/BS/v1/package.json",
+      "sizeBytes": 4947,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "BW",
+      "version": 1,
+      "package": "packages/BW/v1/package.json",
+      "sizeBytes": 3513,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "BY",
+      "version": 1,
+      "package": "packages/BY/v1/package.json",
+      "sizeBytes": 3843,
+      "locales": [
+        "be",
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "BZ",
+      "version": 1,
+      "package": "packages/BZ/v1/package.json",
+      "sizeBytes": 5496,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "CA",
+      "version": 1,
+      "package": "packages/CA/v1/package.json",
+      "sizeBytes": 10551,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "CD",
+      "version": 1,
+      "package": "packages/CD/v1/package.json",
+      "sizeBytes": 4204,
+      "locales": [
+        "en",
+        "fr"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "CG",
+      "version": 1,
+      "package": "packages/CG/v1/package.json",
+      "sizeBytes": 3733,
+      "locales": [
+        "en",
+        "fr"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "CH",
+      "version": 1,
+      "package": "packages/CH/v1/package.json",
+      "sizeBytes": 8607,
+      "locales": [
+        "de",
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "CL",
+      "version": 1,
+      "package": "packages/CL/v1/package.json",
+      "sizeBytes": 6927,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "CN",
+      "version": 1,
+      "package": "packages/CN/v1/package.json",
+      "sizeBytes": 3134,
+      "locales": [
+        "en",
+        "zh"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "CO",
+      "version": 1,
+      "package": "packages/CO/v1/package.json",
+      "sizeBytes": 8247,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "CR",
+      "version": 1,
+      "package": "packages/CR/v1/package.json",
+      "sizeBytes": 4279,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "CU",
+      "version": 1,
+      "package": "packages/CU/v1/package.json",
+      "sizeBytes": 4160,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "CY",
+      "version": 1,
+      "package": "packages/CY/v1/package.json",
+      "sizeBytes": 7866,
+      "locales": [
+        "el",
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "CZ",
+      "version": 1,
+      "package": "packages/CZ/v1/package.json",
+      "sizeBytes": 19185,
+      "locales": [
+        "cs",
+        "en"
+      ],
+      "hasNamedays": true
+    },
+    {
+      "code": "DE",
+      "version": 2,
+      "package": "packages/DE/v2/package.json",
+      "sizeBytes": 35416,
+      "locales": [
+        "de",
+        "en"
+      ],
+      "hasNamedays": true
+    },
+    {
+      "code": "DK",
+      "version": 1,
+      "package": "packages/DK/v1/package.json",
+      "sizeBytes": 4651,
+      "locales": [
+        "da",
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "DO",
+      "version": 1,
+      "package": "packages/DO/v1/package.json",
+      "sizeBytes": 4745,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "EC",
+      "version": 1,
+      "package": "packages/EC/v1/package.json",
+      "sizeBytes": 3955,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "EE",
+      "version": 1,
+      "package": "packages/EE/v1/package.json",
+      "sizeBytes": 4341,
+      "locales": [
+        "en",
+        "et"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "EG",
+      "version": 1,
+      "package": "packages/EG/v1/package.json",
+      "sizeBytes": 3267,
+      "locales": [
+        "ar",
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "ES",
+      "version": 1,
+      "package": "packages/ES/v1/package.json",
+      "sizeBytes": 35706,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": true
+    },
+    {
+      "code": "FI",
+      "version": 1,
+      "package": "packages/FI/v1/package.json",
+      "sizeBytes": 22114,
+      "locales": [
+        "en",
+        "fi"
+      ],
+      "hasNamedays": true
+    },
+    {
+      "code": "FO",
+      "version": 1,
+      "package": "packages/FO/v1/package.json",
+      "sizeBytes": 5833,
+      "locales": [
+        "en",
+        "fo"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "FR",
+      "version": 1,
+      "package": "packages/FR/v1/package.json",
+      "sizeBytes": 17755,
+      "locales": [
+        "en",
+        "fr"
+      ],
+      "hasNamedays": true
+    },
+    {
+      "code": "GA",
+      "version": 1,
+      "package": "packages/GA/v1/package.json",
+      "sizeBytes": 3687,
+      "locales": [
+        "en",
+        "fr"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "GB",
+      "version": 1,
+      "package": "packages/GB/v1/package.json",
+      "sizeBytes": 4447,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "GD",
+      "version": 1,
+      "package": "packages/GD/v1/package.json",
+      "sizeBytes": 4080,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "GE",
+      "version": 1,
+      "package": "packages/GE/v1/package.json",
+      "sizeBytes": 7960,
+      "locales": [
+        "en",
+        "ka"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "GG",
+      "version": 1,
+      "package": "packages/GG/v1/package.json",
+      "sizeBytes": 3037,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "GH",
+      "version": 1,
+      "package": "packages/GH/v1/package.json",
+      "sizeBytes": 3475,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "GI",
+      "version": 1,
+      "package": "packages/GI/v1/package.json",
+      "sizeBytes": 4147,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "GL",
+      "version": 1,
+      "package": "packages/GL/v1/package.json",
+      "sizeBytes": 5298,
+      "locales": [
+        "en",
+        "kl"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "GM",
+      "version": 1,
+      "package": "packages/GM/v1/package.json",
+      "sizeBytes": 2799,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "GR",
+      "version": 1,
+      "package": "packages/GR/v1/package.json",
+      "sizeBytes": 16611,
+      "locales": [
+        "el",
+        "en"
+      ],
+      "hasNamedays": true
+    },
+    {
+      "code": "GT",
+      "version": 1,
+      "package": "packages/GT/v1/package.json",
+      "sizeBytes": 4684,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "GY",
+      "version": 1,
+      "package": "packages/GY/v1/package.json",
+      "sizeBytes": 3473,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "HK",
+      "version": 1,
+      "package": "packages/HK/v1/package.json",
+      "sizeBytes": 8771,
+      "locales": [
+        "en",
+        "zh"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "HN",
+      "version": 1,
+      "package": "packages/HN/v1/package.json",
+      "sizeBytes": 3979,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "HR",
+      "version": 1,
+      "package": "packages/HR/v1/package.json",
+      "sizeBytes": 29338,
+      "locales": [
+        "en",
+        "hr"
+      ],
+      "hasNamedays": true
+    },
+    {
+      "code": "HT",
+      "version": 1,
+      "package": "packages/HT/v1/package.json",
+      "sizeBytes": 6784,
+      "locales": [
+        "en",
+        "fr"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "HU",
+      "version": 1,
+      "package": "packages/HU/v1/package.json",
+      "sizeBytes": 20365,
+      "locales": [
+        "en",
+        "hu"
+      ],
+      "hasNamedays": true
+    },
+    {
+      "code": "ID",
+      "version": 1,
+      "package": "packages/ID/v1/package.json",
+      "sizeBytes": 2715,
+      "locales": [
+        "en",
+        "id"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "IE",
+      "version": 1,
+      "package": "packages/IE/v1/package.json",
+      "sizeBytes": 3941,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "IM",
+      "version": 1,
+      "package": "packages/IM/v1/package.json",
+      "sizeBytes": 3682,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "IS",
+      "version": 1,
+      "package": "packages/IS/v1/package.json",
+      "sizeBytes": 5666,
+      "locales": [
+        "en",
+        "is"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "IT",
+      "version": 1,
+      "package": "packages/IT/v1/package.json",
+      "sizeBytes": 25654,
+      "locales": [
+        "en",
+        "it"
+      ],
+      "hasNamedays": true
+    },
+    {
+      "code": "JE",
+      "version": 1,
+      "package": "packages/JE/v1/package.json",
+      "sizeBytes": 3071,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "JM",
+      "version": 1,
+      "package": "packages/JM/v1/package.json",
+      "sizeBytes": 3218,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "JP",
+      "version": 1,
+      "package": "packages/JP/v1/package.json",
+      "sizeBytes": 6284,
+      "locales": [
+        "en",
+        "ja"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "KE",
+      "version": 1,
+      "package": "packages/KE/v1/package.json",
+      "sizeBytes": 3101,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "KR",
+      "version": 1,
+      "package": "packages/KR/v1/package.json",
+      "sizeBytes": 5921,
+      "locales": [
+        "en",
+        "ko"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "KZ",
+      "version": 1,
+      "package": "packages/KZ/v1/package.json",
+      "sizeBytes": 4243,
+      "locales": [
+        "en",
+        "kk"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "LI",
+      "version": 1,
+      "package": "packages/LI/v1/package.json",
+      "sizeBytes": 7036,
+      "locales": [
+        "de",
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "LS",
+      "version": 1,
+      "package": "packages/LS/v1/package.json",
+      "sizeBytes": 3539,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "LT",
+      "version": 1,
+      "package": "packages/LT/v1/package.json",
+      "sizeBytes": 5337,
+      "locales": [
+        "en",
+        "lt"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "LU",
+      "version": 1,
+      "package": "packages/LU/v1/package.json",
+      "sizeBytes": 3819,
+      "locales": [
+        "en",
+        "fr"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "LV",
+      "version": 1,
+      "package": "packages/LV/v1/package.json",
+      "sizeBytes": 30508,
+      "locales": [
+        "en",
+        "lv"
+      ],
+      "hasNamedays": true
+    },
+    {
+      "code": "MA",
+      "version": 1,
+      "package": "packages/MA/v1/package.json",
+      "sizeBytes": 3902,
+      "locales": [
+        "ar",
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "MC",
+      "version": 1,
+      "package": "packages/MC/v1/package.json",
+      "sizeBytes": 3981,
+      "locales": [
+        "en",
+        "fr"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "MD",
+      "version": 1,
+      "package": "packages/MD/v1/package.json",
+      "sizeBytes": 6561,
+      "locales": [
+        "en",
+        "ro"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "ME",
+      "version": 1,
+      "package": "packages/ME/v1/package.json",
+      "sizeBytes": 5730,
+      "locales": [
+        "en",
+        "sr"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "MG",
+      "version": 1,
+      "package": "packages/MG/v1/package.json",
+      "sizeBytes": 3243,
+      "locales": [
+        "en",
+        "mg"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "MK",
+      "version": 1,
+      "package": "packages/MK/v1/package.json",
+      "sizeBytes": 6078,
+      "locales": [
+        "en",
+        "mk"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "MN",
+      "version": 1,
+      "package": "packages/MN/v1/package.json",
+      "sizeBytes": 1899,
+      "locales": [
+        "en",
+        "mn"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "MS",
+      "version": 1,
+      "package": "packages/MS/v1/package.json",
+      "sizeBytes": 3580,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "MT",
+      "version": 1,
+      "package": "packages/MT/v1/package.json",
+      "sizeBytes": 5317,
+      "locales": [
+        "en",
+        "mt"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "MX",
+      "version": 1,
+      "package": "packages/MX/v1/package.json",
+      "sizeBytes": 3762,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "MZ",
+      "version": 1,
+      "package": "packages/MZ/v1/package.json",
+      "sizeBytes": 3399,
+      "locales": [
+        "en",
+        "pt"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "NA",
+      "version": 1,
+      "package": "packages/NA/v1/package.json",
+      "sizeBytes": 4183,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "NE",
+      "version": 1,
+      "package": "packages/NE/v1/package.json",
+      "sizeBytes": 2488,
+      "locales": [
+        "en",
+        "fr"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "NG",
+      "version": 1,
+      "package": "packages/NG/v1/package.json",
+      "sizeBytes": 3173,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "NI",
+      "version": 1,
+      "package": "packages/NI/v1/package.json",
+      "sizeBytes": 4395,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "NL",
+      "version": 1,
+      "package": "packages/NL/v1/package.json",
+      "sizeBytes": 3586,
+      "locales": [
+        "en",
+        "nl"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "NO",
+      "version": 1,
+      "package": "packages/NO/v1/package.json",
+      "sizeBytes": 3909,
+      "locales": [
+        "en",
+        "nb"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "NZ",
+      "version": 1,
+      "package": "packages/NZ/v1/package.json",
+      "sizeBytes": 10831,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "PA",
+      "version": 1,
+      "package": "packages/PA/v1/package.json",
+      "sizeBytes": 4222,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "PE",
+      "version": 1,
+      "package": "packages/PE/v1/package.json",
+      "sizeBytes": 4984,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "PG",
+      "version": 1,
+      "package": "packages/PG/v1/package.json",
+      "sizeBytes": 3566,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "PH",
+      "version": 1,
+      "package": "packages/PH/v1/package.json",
+      "sizeBytes": 6345,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "PL",
+      "version": 1,
+      "package": "packages/PL/v1/package.json",
+      "sizeBytes": 40820,
+      "locales": [
+        "en",
+        "pl"
+      ],
+      "hasNamedays": true
+    },
+    {
+      "code": "PR",
+      "version": 1,
+      "package": "packages/PR/v1/package.json",
+      "sizeBytes": 8958,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "PT",
+      "version": 1,
+      "package": "packages/PT/v1/package.json",
+      "sizeBytes": 5938,
+      "locales": [
+        "en",
+        "pt"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "PY",
+      "version": 1,
+      "package": "packages/PY/v1/package.json",
+      "sizeBytes": 4062,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "RO",
+      "version": 1,
+      "package": "packages/RO/v1/package.json",
+      "sizeBytes": 7588,
+      "locales": [
+        "en",
+        "ro"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "RS",
+      "version": 1,
+      "package": "packages/RS/v1/package.json",
+      "sizeBytes": 3923,
+      "locales": [
+        "en",
+        "sr"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "RU",
+      "version": 1,
+      "package": "packages/RU/v1/package.json",
+      "sizeBytes": 3423,
+      "locales": [
+        "en",
+        "ru"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "SC",
+      "version": 1,
+      "package": "packages/SC/v1/package.json",
+      "sizeBytes": 4201,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "SE",
+      "version": 1,
+      "package": "packages/SE/v1/package.json",
+      "sizeBytes": 19901,
+      "locales": [
+        "en",
+        "sv"
+      ],
+      "hasNamedays": true
+    },
+    {
+      "code": "SG",
+      "version": 1,
+      "package": "packages/SG/v1/package.json",
+      "sizeBytes": 3380,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "SI",
+      "version": 1,
+      "package": "packages/SI/v1/package.json",
+      "sizeBytes": 7637,
+      "locales": [
+        "en",
+        "sl"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "SJ",
+      "version": 1,
+      "package": "packages/SJ/v1/package.json",
+      "sizeBytes": 3914,
+      "locales": [
+        "en",
+        "nb"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "SK",
+      "version": 1,
+      "package": "packages/SK/v1/package.json",
+      "sizeBytes": 20662,
+      "locales": [
+        "en",
+        "sk"
+      ],
+      "hasNamedays": true
+    },
+    {
+      "code": "SM",
+      "version": 1,
+      "package": "packages/SM/v1/package.json",
+      "sizeBytes": 6687,
+      "locales": [
+        "en",
+        "it"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "SR",
+      "version": 1,
+      "package": "packages/SR/v1/package.json",
+      "sizeBytes": 6728,
+      "locales": [
+        "en",
+        "nl"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "SV",
+      "version": 1,
+      "package": "packages/SV/v1/package.json",
+      "sizeBytes": 5271,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "TN",
+      "version": 1,
+      "package": "packages/TN/v1/package.json",
+      "sizeBytes": 2967,
+      "locales": [
+        "ar",
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "TR",
+      "version": 1,
+      "package": "packages/TR/v1/package.json",
+      "sizeBytes": 2911,
+      "locales": [
+        "en",
+        "tr"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "UA",
+      "version": 1,
+      "package": "packages/UA/v1/package.json",
+      "sizeBytes": 4947,
+      "locales": [
+        "en",
+        "uk"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "UG",
+      "version": 1,
+      "package": "packages/UG/v1/package.json",
+      "sizeBytes": 3814,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "US",
+      "version": 1,
+      "package": "packages/US/v1/package.json",
+      "sizeBytes": 5311,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "UY",
+      "version": 1,
+      "package": "packages/UY/v1/package.json",
+      "sizeBytes": 5572,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "VA",
+      "version": 1,
+      "package": "packages/VA/v1/package.json",
+      "sizeBytes": 5976,
+      "locales": [
+        "en",
+        "it"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "VE",
+      "version": 1,
+      "package": "packages/VE/v1/package.json",
+      "sizeBytes": 13058,
+      "locales": [
+        "en",
+        "es"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "VN",
+      "version": 1,
+      "package": "packages/VN/v1/package.json",
+      "sizeBytes": 1512,
+      "locales": [
+        "en",
+        "vi"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "ZA",
+      "version": 1,
+      "package": "packages/ZA/v1/package.json",
+      "sizeBytes": 3929,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
+    },
+    {
+      "code": "ZW",
+      "version": 1,
+      "package": "packages/ZW/v1/package.json",
+      "sizeBytes": 4512,
+      "locales": [
+        "en"
+      ],
+      "hasNamedays": false
     }
   ]
 }

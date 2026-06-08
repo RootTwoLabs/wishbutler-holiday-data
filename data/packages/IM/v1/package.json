@@ -1,0 +1,161 @@
+{
+  "countryCode": "IM",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "IM_new_years_day",
+      "countryCode": "IM",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "IM_good_friday",
+      "countryCode": "IM",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "IM_easter_monday",
+      "countryCode": "IM",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "IM_early_may_bank_holiday",
+      "countryCode": "IM",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.early_may_bank_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "IM_spring_bank_holiday",
+      "countryCode": "IM",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.spring_bank_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "nth": 5,
+        "weekday": 1,
+        "last": true
+      }
+    },
+    {
+      "id": "IM_senior_race_day",
+      "countryCode": "IM",
+      "kind": "precomputed",
+      "labelKey": "holidays.senior_race_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "06-12",
+          "2027": "06-11",
+          "2028": "06-09",
+          "2029": "06-08",
+          "2030": "06-07",
+          "2031": "06-13",
+          "2032": "06-11",
+          "2033": "06-10",
+          "2034": "06-09",
+          "2035": "06-08"
+        }
+      }
+    },
+    {
+      "id": "IM_tynwald_day",
+      "countryCode": "IM",
+      "kind": "fixed",
+      "labelKey": "holidays.tynwald_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 5
+      }
+    },
+    {
+      "id": "IM_late_summer_bank_holiday",
+      "countryCode": "IM",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.late_summer_bank_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 5,
+        "weekday": 1,
+        "last": true
+      }
+    },
+    {
+      "id": "IM_christmas_day",
+      "countryCode": "IM",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "IM_boxing_day",
+      "countryCode": "IM",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "early_may_bank_holiday": "Early May Bank Holiday",
+        "spring_bank_holiday": "Spring Bank Holiday",
+        "senior_race_day": "Senior Race Day",
+        "tynwald_day": "Tynwald Day",
+        "late_summer_bank_holiday": "Late Summer Bank Holiday"
+      }
+    }
+  }
+}

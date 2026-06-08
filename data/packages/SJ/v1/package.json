@@ -1,0 +1,172 @@
+{
+  "countryCode": "SJ",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "SJ_new_years_day",
+      "countryCode": "SJ",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "SJ_maundy_thursday",
+      "countryCode": "SJ",
+      "kind": "easter_relative",
+      "labelKey": "holidays.maundy_thursday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -3
+      }
+    },
+    {
+      "id": "SJ_good_friday",
+      "countryCode": "SJ",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "SJ_easter_sunday",
+      "countryCode": "SJ",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "SJ_easter_monday",
+      "countryCode": "SJ",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "SJ_may_day",
+      "countryCode": "SJ",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "SJ_ascension_day",
+      "countryCode": "SJ",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ascension",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 39
+      }
+    },
+    {
+      "id": "SJ_constitution_day",
+      "countryCode": "SJ",
+      "kind": "fixed",
+      "labelKey": "holidays.constitution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 17
+      }
+    },
+    {
+      "id": "SJ_pentecost",
+      "countryCode": "SJ",
+      "kind": "easter_relative",
+      "labelKey": "holidays.pentecost",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 49
+      }
+    },
+    {
+      "id": "SJ_whit_monday",
+      "countryCode": "SJ",
+      "kind": "easter_relative",
+      "labelKey": "holidays.whit_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 50
+      }
+    },
+    {
+      "id": "SJ_christmas_day",
+      "countryCode": "SJ",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "SJ_second_day_of_christmas",
+      "countryCode": "SJ",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "maundy_thursday": "Maundy Thursday",
+        "easter_sunday": "Easter Sunday",
+        "constitution_day": "Constitution Day",
+        "pentecost": "Pentecost"
+      },
+      "nb": {
+        "maundy_thursday": "Skjærtorsdag",
+        "easter_sunday": "Første påskedag",
+        "constitution_day": "Syttende mai",
+        "pentecost": "Første pinsedag"
+      }
+    }
+  }
+}

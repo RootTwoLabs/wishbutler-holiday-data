@@ -1,0 +1,301 @@
+{
+  "countryCode": "LI",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "LI_new_years_day",
+      "countryCode": "LI",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "LI_st_berchtolds_day",
+      "countryCode": "LI",
+      "kind": "fixed",
+      "labelKey": "holidays.st_berchtolds_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "LI_epiphany",
+      "countryCode": "LI",
+      "kind": "fixed",
+      "labelKey": "holidays.epiphany",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "LI_candlemas",
+      "countryCode": "LI",
+      "kind": "fixed",
+      "labelKey": "holidays.candlemas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 2
+      }
+    },
+    {
+      "id": "LI_shrove_tuesday",
+      "countryCode": "LI",
+      "kind": "easter_relative",
+      "labelKey": "holidays.shrove_tuesday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -47
+      }
+    },
+    {
+      "id": "LI_saint_josephs_day",
+      "countryCode": "LI",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_josephs_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 19
+      }
+    },
+    {
+      "id": "LI_good_friday",
+      "countryCode": "LI",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "LI_easter_monday",
+      "countryCode": "LI",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "LI_labour_day",
+      "countryCode": "LI",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "LI_ascension_day",
+      "countryCode": "LI",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ascension",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 39
+      }
+    },
+    {
+      "id": "LI_pentecost",
+      "countryCode": "LI",
+      "kind": "easter_relative",
+      "labelKey": "holidays.pentecost",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 49
+      }
+    },
+    {
+      "id": "LI_whit_monday",
+      "countryCode": "LI",
+      "kind": "easter_relative",
+      "labelKey": "holidays.whit_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 50
+      }
+    },
+    {
+      "id": "LI_corpus_christi",
+      "countryCode": "LI",
+      "kind": "easter_relative",
+      "labelKey": "holidays.corpus_christi",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 60
+      }
+    },
+    {
+      "id": "LI_national_holiday",
+      "countryCode": "LI",
+      "kind": "fixed",
+      "labelKey": "holidays.national_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "LI_nativity_of_our_lady",
+      "countryCode": "LI",
+      "kind": "fixed",
+      "labelKey": "holidays.nativity_of_our_lady",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 8
+      }
+    },
+    {
+      "id": "LI_all_saints_day",
+      "countryCode": "LI",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "LI_immaculate_conception",
+      "countryCode": "LI",
+      "kind": "fixed",
+      "labelKey": "holidays.immaculate_conception",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "LI_christmas_eve",
+      "countryCode": "LI",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "LI_christmas_day",
+      "countryCode": "LI",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "LI_st_stephens_day",
+      "countryCode": "LI",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    },
+    {
+      "id": "LI_new_years_eve",
+      "countryCode": "LI",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "st_berchtolds_day": "St. Berchtold's Day",
+        "candlemas": "Candlemas",
+        "shrove_tuesday": "Shrove Tuesday",
+        "saint_josephs_day": "Saint Joseph's Day",
+        "pentecost": "Pentecost",
+        "national_holiday": "National Holiday",
+        "nativity_of_our_lady": "Nativity of Our Lady",
+        "all_saints_day": "All Saints Day",
+        "immaculate_conception": "Immaculate Conception",
+        "christmas_eve": "Christmas Eve"
+      },
+      "de": {
+        "st_berchtolds_day": "Berchtoldstag",
+        "candlemas": "Mariä Lichtmess",
+        "shrove_tuesday": "Fasnachtsdienstag",
+        "saint_josephs_day": "Josefstag",
+        "pentecost": "Pfingstsonntag",
+        "national_holiday": "Staatsfeiertag",
+        "nativity_of_our_lady": "Maria Geburt",
+        "all_saints_day": "Allerheiligen",
+        "immaculate_conception": "Mariä Empfängnis",
+        "christmas_eve": "Heiliger Abend"
+      }
+    }
+  }
+}

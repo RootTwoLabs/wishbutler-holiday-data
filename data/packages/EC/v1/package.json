@@ -1,0 +1,157 @@
+{
+  "countryCode": "EC",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "EC_new_years_day",
+      "countryCode": "EC",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "EC_carnival",
+      "countryCode": "EC",
+      "kind": "easter_relative",
+      "labelKey": "holidays.carnival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -47
+      }
+    },
+    {
+      "id": "EC_good_friday",
+      "countryCode": "EC",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "EC_international_workers_day",
+      "countryCode": "EC",
+      "kind": "fixed",
+      "labelKey": "holidays.international_workers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "EC_the_battle_of_pichincha",
+      "countryCode": "EC",
+      "kind": "fixed",
+      "labelKey": "holidays.the_battle_of_pichincha",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 24
+      }
+    },
+    {
+      "id": "EC_declaration_of_independence_of_quito",
+      "countryCode": "EC",
+      "kind": "fixed",
+      "labelKey": "holidays.declaration_of_independence_of_quito",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 10
+      }
+    },
+    {
+      "id": "EC_independence_of_guayaquil",
+      "countryCode": "EC",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_of_guayaquil",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 9
+      }
+    },
+    {
+      "id": "EC_all_souls_day",
+      "countryCode": "EC",
+      "kind": "fixed",
+      "labelKey": "holidays.all_souls_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 2
+      }
+    },
+    {
+      "id": "EC_independence_of_cuenca",
+      "countryCode": "EC",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_of_cuenca",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 3
+      }
+    },
+    {
+      "id": "EC_christmas_day",
+      "countryCode": "EC",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "carnival": "Carnival",
+        "international_workers_day": "International Workers' Day",
+        "the_battle_of_pichincha": "The Battle of Pichincha",
+        "declaration_of_independence_of_quito": "Declaration of Independence of Quito",
+        "independence_of_guayaquil": "Independence of Guayaquil",
+        "all_souls_day": "All Souls' Day",
+        "independence_of_cuenca": "Independence of Cuenca"
+      },
+      "es": {
+        "carnival": "Carnaval",
+        "international_workers_day": "International Workers' Day",
+        "the_battle_of_pichincha": "Batalla de Pichincha",
+        "declaration_of_independence_of_quito": "Primer Grito de Independencia",
+        "independence_of_guayaquil": "Independencia de Guayaquil",
+        "all_souls_day": "Día de los Difuntos, Día de Muertos",
+        "independence_of_cuenca": "Independencia de Cuenca"
+      }
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "countryCode": "AU",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "AU_new_years_day",
+      "countryCode": "AU",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "AU_australia_day",
+      "countryCode": "AU",
+      "kind": "fixed",
+      "labelKey": "holidays.australia_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 26
+      }
+    },
+    {
+      "id": "AU_labour_day",
+      "countryCode": "AU",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.labour_day_au",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "AU_canberra_day",
+      "countryCode": "AU",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.canberra_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 3,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "AU_adelaide_cup_day",
+      "countryCode": "AU",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.adelaide_cup_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 3,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "AU_eight_hours_day",
+      "countryCode": "AU",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.eight_hours_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 3,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "AU_good_friday",
+      "countryCode": "AU",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "AU_holy_saturday",
+      "countryCode": "AU",
+      "kind": "easter_relative",
+      "labelKey": "holidays.holy_saturday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -1
+      }
+    },
+    {
+      "id": "AU_easter_sunday",
+      "countryCode": "AU",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "AU_easter_monday",
+      "countryCode": "AU",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "AU_anzac_day",
+      "countryCode": "AU",
+      "kind": "fixed",
+      "labelKey": "holidays.anzac_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 25
+      }
+    },
+    {
+      "id": "AU_may_day",
+      "countryCode": "AU",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.may_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "AU_reconciliation_day",
+      "countryCode": "AU",
+      "kind": "precomputed",
+      "labelKey": "holidays.reconciliation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "06-01",
+          "2027": "05-31",
+          "2028": "05-29",
+          "2029": "05-28",
+          "2030": "05-27",
+          "2031": "06-02",
+          "2032": "05-31",
+          "2033": "05-30",
+          "2034": "05-29",
+          "2035": "05-28"
+        }
+      }
+    },
+    {
+      "id": "AU_western_australia_day",
+      "countryCode": "AU",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.western_australia_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 6,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "AU_kings_birthday",
+      "countryCode": "AU",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.kings_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "AU_picnic_day",
+      "countryCode": "AU",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.picnic_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "AU_melbourne_cup",
+      "countryCode": "AU",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.melbourne_cup",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 11,
+        "nth": 1,
+        "weekday": 2
+      }
+    },
+    {
+      "id": "AU_christmas_day",
+      "countryCode": "AU",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "AU_st_stephens_day",
+      "countryCode": "AU",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    },
+    {
+      "id": "AU_friday_before_afl_grand_final_tentative_date",
+      "countryCode": "AU",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.friday_before_afl_grand_final_tentative_date",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "nth": 5,
+        "weekday": 5,
+        "last": true
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "australia_day": "Australia Day",
+        "labour_day_au": "Labour Day",
+        "canberra_day": "Canberra Day",
+        "adelaide_cup_day": "Adelaide Cup Day",
+        "eight_hours_day": "Eight Hours Day",
+        "holy_saturday": "Holy Saturday",
+        "easter_sunday": "Easter Sunday",
+        "anzac_day": "Anzac Day",
+        "may_day": "May Day",
+        "reconciliation_day": "Reconciliation Day",
+        "western_australia_day": "Western Australia Day",
+        "kings_birthday": "King's Birthday",
+        "picnic_day": "Picnic Day",
+        "melbourne_cup": "Melbourne Cup",
+        "friday_before_afl_grand_final_tentative_date": "Friday before AFL Grand Final (Tentative Date)"
+      }
+    }
+  }
+}

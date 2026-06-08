@@ -1,0 +1,146 @@
+{
+  "countryCode": "MZ",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "MZ_new_years_day",
+      "countryCode": "MZ",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "MZ_heroess_day",
+      "countryCode": "MZ",
+      "kind": "fixed",
+      "labelKey": "holidays.heroess_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 3
+      }
+    },
+    {
+      "id": "MZ_womens_day",
+      "countryCode": "MZ",
+      "kind": "fixed",
+      "labelKey": "holidays.womens_day_mz",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 7
+      }
+    },
+    {
+      "id": "MZ_workers_day",
+      "countryCode": "MZ",
+      "kind": "fixed",
+      "labelKey": "holidays.workers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "MZ_independence_day",
+      "countryCode": "MZ",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 25
+      }
+    },
+    {
+      "id": "MZ_victory_day",
+      "countryCode": "MZ",
+      "kind": "fixed",
+      "labelKey": "holidays.victory_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 7
+      }
+    },
+    {
+      "id": "MZ_revolution_day",
+      "countryCode": "MZ",
+      "kind": "fixed",
+      "labelKey": "holidays.revolution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 25
+      }
+    },
+    {
+      "id": "MZ_day_of_peace_and_reconciliation",
+      "countryCode": "MZ",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_peace_and_reconciliation",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 4
+      }
+    },
+    {
+      "id": "MZ_christmas_day",
+      "countryCode": "MZ",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "heroess_day": "Heroes's Day",
+        "womens_day_mz": "Women's Day",
+        "workers_day": "Worker's Day",
+        "independence_day": "Independence Day",
+        "victory_day": "Victory Day",
+        "revolution_day": "Revolution Day",
+        "day_of_peace_and_reconciliation": "Day of Peace and Reconciliation"
+      },
+      "pt": {
+        "heroess_day": "Dia do Heroi Nacional",
+        "womens_day_mz": "Dia da Mulher",
+        "workers_day": "Dia do Trabalhador",
+        "independence_day": "Dia da Independência",
+        "victory_day": "Dia da Victória",
+        "revolution_day": "Dia da Revolução",
+        "day_of_peace_and_reconciliation": "Dia da Paz e da Reconcialição"
+      }
+    }
+  }
+}

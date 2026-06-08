@@ -1,0 +1,494 @@
+{
+  "countryCode": "VE",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "VE_new_years_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "VE_epiphany",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.epiphany",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "VE_feast_of_the_divina_pastora",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.feast_of_the_divina_pastora",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 14
+      }
+    },
+    {
+      "id": "VE_teachers_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.teachers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 15
+      }
+    },
+    {
+      "id": "VE_youth_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.youth_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 12
+      }
+    },
+    {
+      "id": "VE_carnival",
+      "countryCode": "VE",
+      "kind": "easter_relative",
+      "labelKey": "holidays.carnival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -47
+      }
+    },
+    {
+      "id": "VE_international_womens_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.womens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 8
+      }
+    },
+    {
+      "id": "VE_saint_josephs_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_josephs_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 19
+      }
+    },
+    {
+      "id": "VE_slavery_abolition_anniversary",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.slavery_abolition_anniversary",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 21
+      }
+    },
+    {
+      "id": "VE_foundation_anniversary_day_of_san_cristobal_tachira",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.foundation_anniversary_day_of_san_cristobal_tachira",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 31
+      }
+    },
+    {
+      "id": "VE_beginning_of_the_independence_movement",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.beginning_of_the_independence_movement",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 19
+      }
+    },
+    {
+      "id": "VE_labour_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "VE_festival_of_the_crosses",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.festival_of_the_crosses",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 3
+      }
+    },
+    {
+      "id": "VE_mothers_day",
+      "countryCode": "VE",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.mothers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "nth": 2,
+        "weekday": 0
+      }
+    },
+    {
+      "id": "VE_ascension_day",
+      "countryCode": "VE",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ascension",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 39
+      }
+    },
+    {
+      "id": "VE_corpus_christi",
+      "countryCode": "VE",
+      "kind": "easter_relative",
+      "labelKey": "holidays.corpus_christi",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 60
+      }
+    },
+    {
+      "id": "VE_fathers_day",
+      "countryCode": "VE",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.fathers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 6,
+        "nth": 3,
+        "weekday": 0
+      }
+    },
+    {
+      "id": "VE_anniversary_of_the_battle_of_carabobo",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.anniversary_of_the_battle_of_carabobo",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 24
+      }
+    },
+    {
+      "id": "VE_journalists_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.journalists_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 27
+      }
+    },
+    {
+      "id": "VE_independence_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 5
+      }
+    },
+    {
+      "id": "VE_childrens_day",
+      "countryCode": "VE",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.childrens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 7,
+        "nth": 3,
+        "weekday": 0
+      }
+    },
+    {
+      "id": "VE_simon_bolivars_birthday",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.simon_bolivars_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 24
+      }
+    },
+    {
+      "id": "VE_caracas_city_foundation_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.caracas_city_foundation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 25
+      }
+    },
+    {
+      "id": "VE_flag_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.flag_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 3
+      }
+    },
+    {
+      "id": "VE_birth_of_the_blessed_virgin_mary",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.birth_of_the_blessed_virgin_mary",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 8
+      }
+    },
+    {
+      "id": "VE_feast_of_the_our_lady_of_mercy",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.feast_of_the_our_lady_of_mercy",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 24
+      }
+    },
+    {
+      "id": "VE_day_of_indigenous_resistance",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_indigenous_resistance",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 12
+      }
+    },
+    {
+      "id": "VE_all_saints_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "VE_all_souls_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.all_souls_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 2
+      }
+    },
+    {
+      "id": "VE_immaculate_conception_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.immaculate_conception_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "VE_christmas_eve",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "VE_christmas_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "VE_new_years_eve",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "feast_of_the_divina_pastora": "Feast of the Divina Pastora",
+        "teachers_day": "Teacher's Day",
+        "youth_day": "Youth Day",
+        "carnival": "Carnival",
+        "saint_josephs_day": "Saint Joseph's Day",
+        "slavery_abolition_anniversary": "Slavery Abolition Anniversary",
+        "foundation_anniversary_day_of_san_cristobal_tachira": "Foundation anniversary Day of San Cristóbal, Táchira",
+        "beginning_of_the_independence_movement": "Beginning of the Independence Movement",
+        "festival_of_the_crosses": "Festival of the Crosses",
+        "mothers_day": "Mother's Day",
+        "fathers_day": "Father's Day",
+        "anniversary_of_the_battle_of_carabobo": "Anniversary of the Battle of Carabobo",
+        "journalists_day": "Journalists' Day",
+        "independence_day": "Independence Day",
+        "childrens_day": "Children's Day",
+        "simon_bolivars_birthday": "Simón Bolívar's Birthday",
+        "caracas_city_foundation_day": "Caracas City Foundation Day",
+        "flag_day": "Flag Day",
+        "birth_of_the_blessed_virgin_mary": "Birth of the Blessed Virgin Mary",
+        "feast_of_the_our_lady_of_mercy": "Feast of the Our Lady of Mercy",
+        "day_of_indigenous_resistance": "Day of Indigenous Resistance",
+        "all_saints_day": "All Saints' Day",
+        "all_souls_day": "All Souls' Day",
+        "immaculate_conception_day": "Immaculate Conception Day",
+        "christmas_eve": "Christmas Eve"
+      },
+      "es": {
+        "feast_of_the_divina_pastora": "Día de la Divina Pastora",
+        "teachers_day": "Día del Maestro",
+        "youth_day": "Día de la Juventud",
+        "carnival": "Carnaval",
+        "saint_josephs_day": "Día de San José",
+        "slavery_abolition_anniversary": "Día del abolición de la esclavitud",
+        "foundation_anniversary_day_of_san_cristobal_tachira": "Aniversario del fundacion del San Cristóbal",
+        "beginning_of_the_independence_movement": "Proclamación de la Independencia",
+        "festival_of_the_crosses": "Día del Cruz del Mayo",
+        "mothers_day": "Día de las Madres",
+        "fathers_day": "Día de los Padres",
+        "anniversary_of_the_battle_of_carabobo": "Aniversario de la Batalla de Carabobo",
+        "journalists_day": "Día del Periodista y aniversario de la instauración del Decreto de Instrucción pública gratuita y obligatoria",
+        "independence_day": "Cinco de julio",
+        "childrens_day": "Dia del niño",
+        "simon_bolivars_birthday": "Natalicio del Libertador Simón Bolívar",
+        "caracas_city_foundation_day": "Aniversario del fundacion del Caracas",
+        "flag_day": "Día de la Bandera",
+        "birth_of_the_blessed_virgin_mary": "Día del Virgen del Valle",
+        "feast_of_the_our_lady_of_mercy": "Día del Virgen de las Mercedes",
+        "day_of_indigenous_resistance": "Día de la Resistencia Indígena",
+        "all_saints_day": "Día de Todos los Santos",
+        "all_souls_day": "Día de los fieles difuntos",
+        "immaculate_conception_day": "La Inmaculada Concepción",
+        "christmas_eve": "Nochebuena"
+      }
+    }
+  }
+}

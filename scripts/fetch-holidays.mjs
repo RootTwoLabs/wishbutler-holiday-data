@@ -20,7 +20,15 @@ import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { HOLIDAY_COUNTRIES, SOURCES, PRECOMPUTE_FROM_YEAR, PRECOMPUTE_YEARS } from './config.mjs';
+import {
+  HOLIDAY_COUNTRIES,
+  SOURCES,
+  PRECOMPUTE_FROM_YEAR,
+  PRECOMPUTE_YEARS,
+  localeForCountry,
+  GLOBAL_RULES,
+  HOLIDAY_SLUG_ALIASES,
+} from './config.mjs';
 import { computeEasterSunday } from './lib/easter.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -68,39 +76,161 @@ async function buildCountry(cc) {
       continue;
     }
     for (const h of holidays) {
-      const key = h.name; // local name; English `name` from Nager is stable enough as a key seed
+      // English `name` is the stable key seed across years; `localName` is the
+      // native-language label we surface to users in their locale.
+      const key = h.name;
       const mmdd = h.date.slice(5);
-      const entry = byName.get(key) ?? { years: {}, slug: slugify(h.name) };
+      const entry =
+        byName.get(key) ??
+        { years: {}, slug: slugify(h.name), name: h.name, localName: h.localName };
       entry.years[year] = mmdd;
+      if (!entry.localName && h.localName) entry.localName = h.localName;
       byName.set(key, entry);
     }
   }
 
+  const nativeLocale = localeForCountry(cc);
+  const enLabels = {};
+  const nativeLabels = {};
+
   const definitions = [];
-  for (const [name, entry] of byName) {
+  for (const [, entry] of byName) {
+    const rule = detectRule(entry);
     const id = `${cc}_${entry.slug}`;
-    const yearsPresent = Object.keys(entry.years).map(Number);
-    const allSameMmdd = new Set(Object.values(entry.years)).size === 1;
 
-    if (allSameMmdd) {
-      const [m, d] = Object.values(entry.years)[0].split('-').map(Number);
-      definitions.push(def(id, cc, entry.slug, { type: 'fixed', month: m, day: d }));
-      continue;
+    // Merge onto a bundled global holiday only when an alias AND the exact rule
+    // match (so e.g. NZ "Labour Day" in October never collapses onto May 1st).
+    const canonical = HOLIDAY_SLUG_ALIASES[entry.slug] ?? entry.slug;
+    const isGlobal =
+      GLOBAL_RULES[canonical] && rulesEqual(rule, GLOBAL_RULES[canonical]);
+
+    let labelSlug;
+    if (isGlobal) {
+      labelSlug = canonical;
+    } else if (GLOBAL_RULES[entry.slug]) {
+      // Same name as a global holiday but a different rule (e.g. NZ "Labour Day"
+      // in October): use a country-scoped key so the app doesn't dedupe it onto
+      // the global one.
+      labelSlug = `${entry.slug}_${cc.toLowerCase()}`;
+    } else {
+      labelSlug = entry.slug;
     }
 
-    // Try Easter-relative: constant offset across years?
-    const offsets = new Set(yearsPresent.map((y) => easterOffsetForDate(y, entry.years[y])));
-    if (offsets.size === 1) {
-      definitions.push(def(id, cc, entry.slug, { type: 'easter_relative', offsetDays: [...offsets][0] }));
-      continue;
-    }
+    definitions.push(def(id, cc, labelSlug, rule));
 
-    // Fallback: precomputed table.
-    definitions.push(def(id, cc, entry.slug, { type: 'precomputed', dates: entry.years }));
+    // Global holidays reuse the app's bundled (fully translated) labels/articles,
+    // so we only emit package labels for genuinely country-specific holidays.
+    // Labels are keyed by labelSlug so they line up with the labelKey/articleKey.
+    if (!isGlobal) {
+      if (entry.name) enLabels[labelSlug] = entry.name;
+      if (nativeLocale !== 'en' && entry.localName) nativeLabels[labelSlug] = entry.localName;
+    }
   }
 
-  await writePackage(cc, definitions);
-  console.log(`  ${cc}: ${definitions.length} definitions`);
+  if (definitions.length === 0) {
+    console.warn(`  ${cc}: no holidays returned, skipping`);
+    return;
+  }
+
+  const labels = {};
+  if (Object.keys(enLabels).length > 0) labels.en = enLabels;
+  if (Object.keys(nativeLabels).length > 0) labels[nativeLocale] = nativeLabels;
+
+  await writePackage(cc, definitions, labels);
+  console.log(
+    `  ${cc}: ${definitions.length} definitions, labels: ${Object.keys(labels).join('+') || 'none'}`,
+  );
+}
+
+function rulesEqual(a, b) {
+  if (a.type !== b.type) return false;
+  if (a.type === 'fixed') return a.month === b.month && a.day === b.day;
+  if (a.type === 'easter_relative') return a.offsetDays === b.offsetDays;
+  return false;
+}
+
+/**
+ * Classifies a holiday into a closed-form rule where possible so the client can
+ * compute any year offline, falling back to a precomputed year->MM-DD table.
+ *
+ * Detection order (exact rules first, fuzzy last):
+ *   1. fixed          - identical MM-DD every year
+ *   2. easter_relative- constant offset from Western Easter
+ *   3. nth_weekday    - same weekday/month and constant nth (or always "last")
+ *   4. fixed (mode)   - clear majority MM-DD; absorbs weekend-"observed" shifts
+ *                       (e.g. US New Year / Independence Day / Christmas)
+ *   5. precomputed    - everything else (genuinely table-only)
+ */
+function detectRule(entry) {
+  const years = Object.keys(entry.years)
+    .map(Number)
+    .sort((a, b) => a - b);
+  const mmdds = years.map((y) => entry.years[y]);
+
+  if (new Set(mmdds).size === 1) {
+    const [m, d] = mmdds[0].split('-').map(Number);
+    return { type: 'fixed', month: m, day: d };
+  }
+
+  const offsets = new Set(years.map((y) => easterOffsetForDate(y, entry.years[y])));
+  if (offsets.size === 1) {
+    return { type: 'easter_relative', offsetDays: [...offsets][0] };
+  }
+
+  const nth = detectNthWeekday(years, entry.years);
+  if (nth) return nth;
+
+  const modeFixed = detectModeFixed(mmdds);
+  if (modeFixed) return modeFixed;
+
+  return { type: 'precomputed', dates: entry.years };
+}
+
+/** Detects a "nth weekday of month" pattern (incl. "last weekday"). */
+function detectNthWeekday(years, byYear) {
+  let month = null;
+  let weekday = null;
+  let firstNth = null;
+  let allSameNth = true;
+  let allLast = true;
+
+  for (const y of years) {
+    const [m, d] = byYear[y].split('-').map(Number);
+    const wd = new Date(Date.UTC(y, m - 1, d)).getUTCDay();
+    const nth = Math.ceil(d / 7);
+    const daysInMonth = new Date(Date.UTC(y, m, 0)).getUTCDate();
+    const isLast = d + 7 > daysInMonth;
+
+    if (month === null) {
+      month = m;
+      weekday = wd;
+      firstNth = nth;
+    } else if (m !== month || wd !== weekday) {
+      return null;
+    }
+    if (nth !== firstNth) allSameNth = false;
+    if (!isLast) allLast = false;
+  }
+
+  if (month === null) return null;
+  if (allSameNth) return { type: 'nth_weekday', month, nth: firstNth, weekday };
+  if (allLast) return { type: 'nth_weekday', month, nth: 5, weekday, last: true };
+  return null;
+}
+
+/** Picks a fixed date when one MM-DD is a strict majority across the years. */
+function detectModeFixed(mmdds) {
+  const counts = new Map();
+  for (const mmdd of mmdds) counts.set(mmdd, (counts.get(mmdd) ?? 0) + 1);
+  let best = null;
+  for (const [mmdd, count] of counts) {
+    if (!best || count > best.count) best = { mmdd, count };
+  }
+  if (best && best.count > mmdds.length / 2) {
+    const [m, d] = best.mmdd.split('-').map(Number);
+    return { type: 'fixed', month: m, day: d };
+  }
+  return null;
 }
 
 function slugify(name) {
@@ -108,16 +238,15 @@ function slugify(name) {
     .toLowerCase()
     .normalize('NFD')
     .replace(/\p{M}/gu, '')
+    .replace(/['\u2019\u2018]/g, '') // drop apostrophes so "New Year's" -> "new_years"
     .replace(/[^a-z0-9]+/g, '_')
     .replace(/^_+|_+$/g, '');
 }
 
 function kindForRule(rule) {
-  return rule.type === 'easter_relative'
-    ? 'easter_relative'
-    : rule.type === 'precomputed'
-      ? 'precomputed'
-      : 'fixed';
+  // rule.type is one of: fixed | easter_relative | nth_weekday | precomputed,
+  // which maps 1:1 onto the HolidayKind used by the app.
+  return rule.type;
 }
 
 function def(id, cc, slug, rule) {
@@ -132,20 +261,31 @@ function def(id, cc, slug, rule) {
   };
 }
 
-async function writePackage(cc, definitions) {
+async function writePackage(cc, definitions, labels) {
   const countryDir = join(PACKAGES, cc);
   const versions = await listVersions(countryDir);
   const prev = versions.at(-1);
+  // Editorial content that the generator cannot derive is carried forward from
+  // the latest version: namedays, curated images, and hand-written articles
+  // (`i18n.holidayInfo`). Holiday *labels* (`i18n.holidays`) are always
+  // regenerated from Nager so they stay in sync with the (slug) labelKeys.
   let preserved = {};
   if (prev != null) {
     const prevPkg = JSON.parse(
       await readFile(join(countryDir, `v${prev}`, 'package.json'), 'utf8'),
     );
-    preserved = { namedays: prevPkg.namedays, i18n: prevPkg.i18n, images: prevPkg.images };
+    preserved = {
+      namedays: prevPkg.namedays,
+      images: prevPkg.images,
+      holidayInfo: prevPkg.i18n?.holidayInfo,
+    };
   }
   const next = (prev ?? 0) + 1;
   const dir = join(countryDir, `v${next}`);
   await mkdir(dir, { recursive: true });
+
+  const i18n = { holidays: labels };
+  if (preserved.holidayInfo) i18n.holidayInfo = preserved.holidayInfo;
 
   const pkg = {
     countryCode: cc,
@@ -153,7 +293,7 @@ async function writePackage(cc, definitions) {
     schemaVersion: 1,
     definitions,
     ...(preserved.namedays ? { namedays: preserved.namedays } : {}),
-    ...(preserved.i18n ? { i18n: preserved.i18n } : {}),
+    i18n,
     ...(preserved.images ? { images: preserved.images } : {}),
   };
   await writeFile(join(dir, 'package.json'), JSON.stringify(pkg, null, 2) + '\n', 'utf8');

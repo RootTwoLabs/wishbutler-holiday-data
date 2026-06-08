@@ -1,0 +1,185 @@
+{
+  "countryCode": "PA",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "PA_new_years_day",
+      "countryCode": "PA",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "PA_martyrs_day",
+      "countryCode": "PA",
+      "kind": "fixed",
+      "labelKey": "holidays.martyrs_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 9
+      }
+    },
+    {
+      "id": "PA_carnival",
+      "countryCode": "PA",
+      "kind": "easter_relative",
+      "labelKey": "holidays.carnival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -47
+      }
+    },
+    {
+      "id": "PA_good_friday",
+      "countryCode": "PA",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "PA_labour_day",
+      "countryCode": "PA",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "PA_separation_day",
+      "countryCode": "PA",
+      "kind": "fixed",
+      "labelKey": "holidays.separation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 3
+      }
+    },
+    {
+      "id": "PA_flag_day",
+      "countryCode": "PA",
+      "kind": "fixed",
+      "labelKey": "holidays.flag_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 4
+      }
+    },
+    {
+      "id": "PA_colon_day",
+      "countryCode": "PA",
+      "kind": "fixed",
+      "labelKey": "holidays.colon_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 5
+      }
+    },
+    {
+      "id": "PA_shout_in_villa_de_los_santos",
+      "countryCode": "PA",
+      "kind": "fixed",
+      "labelKey": "holidays.shout_in_villa_de_los_santos",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 10
+      }
+    },
+    {
+      "id": "PA_independence_day",
+      "countryCode": "PA",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 28
+      }
+    },
+    {
+      "id": "PA_mothers_day",
+      "countryCode": "PA",
+      "kind": "fixed",
+      "labelKey": "holidays.mothers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "PA_christmas_day",
+      "countryCode": "PA",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "martyrs_day": "Martyr's Day",
+        "carnival": "Carnival",
+        "separation_day": "Separation Day",
+        "flag_day": "Flag Day",
+        "colon_day": "Colon Day",
+        "shout_in_villa_de_los_santos": "Shout in Villa de los Santos",
+        "independence_day": "Independence Day",
+        "mothers_day": "Mother's Day"
+      },
+      "es": {
+        "martyrs_day": "Martyr's Day",
+        "carnival": "Carnival",
+        "separation_day": "Separation Day",
+        "flag_day": "Flag Day",
+        "colon_day": "Colón Day",
+        "shout_in_villa_de_los_santos": "Shout in Villa de los Santos",
+        "independence_day": "Independence Day",
+        "mothers_day": "Mother's Day"
+      }
+    }
+  }
+}

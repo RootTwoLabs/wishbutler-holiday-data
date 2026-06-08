@@ -1,0 +1,229 @@
+{
+  "countryCode": "VA",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "VA_solemnity_of_mary_mother_of_god",
+      "countryCode": "VA",
+      "kind": "fixed",
+      "labelKey": "holidays.solemnity_of_mary_mother_of_god",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "VA_epiphany",
+      "countryCode": "VA",
+      "kind": "fixed",
+      "labelKey": "holidays.epiphany",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "VA_anniversary_of_the_foundation_of_vatican_city",
+      "countryCode": "VA",
+      "kind": "fixed",
+      "labelKey": "holidays.anniversary_of_the_foundation_of_vatican_city",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 11
+      }
+    },
+    {
+      "id": "VA_anniversary_of_the_election_of_pope_francis",
+      "countryCode": "VA",
+      "kind": "fixed",
+      "labelKey": "holidays.anniversary_of_the_election_of_pope_francis",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 13
+      }
+    },
+    {
+      "id": "VA_saint_josephs_day",
+      "countryCode": "VA",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_josephs_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 19
+      }
+    },
+    {
+      "id": "VA_easter_monday",
+      "countryCode": "VA",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "VA_saint_george",
+      "countryCode": "VA",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_george",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 23
+      }
+    },
+    {
+      "id": "VA_saint_joseph_the_worker",
+      "countryCode": "VA",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_joseph_the_worker",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "VA_saint_peter_and_saint_paul",
+      "countryCode": "VA",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_peter_and_saint_paul",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 29
+      }
+    },
+    {
+      "id": "VA_assumption_day",
+      "countryCode": "VA",
+      "kind": "fixed",
+      "labelKey": "holidays.assumption",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "VA_nativity_of_mary",
+      "countryCode": "VA",
+      "kind": "fixed",
+      "labelKey": "holidays.nativity_of_mary",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 8
+      }
+    },
+    {
+      "id": "VA_all_saints_day",
+      "countryCode": "VA",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "VA_immaculate_conception",
+      "countryCode": "VA",
+      "kind": "fixed",
+      "labelKey": "holidays.immaculate_conception",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "VA_christmas_day",
+      "countryCode": "VA",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "VA_st_stephens_day",
+      "countryCode": "VA",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "solemnity_of_mary_mother_of_god": "Solemnity of Mary, Mother of God",
+        "anniversary_of_the_foundation_of_vatican_city": "Anniversary of the foundation of Vatican City",
+        "anniversary_of_the_election_of_pope_francis": "Anniversary of the election of Pope Francis",
+        "saint_josephs_day": "Saint Joseph's Day",
+        "saint_george": "Saint George",
+        "saint_joseph_the_worker": "Saint Joseph the Worker",
+        "saint_peter_and_saint_paul": "Saint Peter and Saint Paul",
+        "nativity_of_mary": "Nativity of Mary",
+        "all_saints_day": "All Saints Day",
+        "immaculate_conception": "Immaculate Conception"
+      },
+      "it": {
+        "solemnity_of_mary_mother_of_god": "Maria Santissima Madre di Dio",
+        "anniversary_of_the_foundation_of_vatican_city": "Anniversario della istituzione dello Stato della Città del Vaticano",
+        "anniversary_of_the_election_of_pope_francis": "Anniversario dell'Elezione del Santo Padre",
+        "saint_josephs_day": "San Giuseppe",
+        "saint_george": "Onomastico del Santo Padre",
+        "saint_joseph_the_worker": "San Giuseppe lavoratore",
+        "saint_peter_and_saint_paul": "Santi Pietro e Paolo",
+        "nativity_of_mary": "Festa della natività della madonna",
+        "all_saints_day": "Tutti i santi, Ognissanti",
+        "immaculate_conception": "Immacolata Concezione"
+      }
+    }
+  }
+}

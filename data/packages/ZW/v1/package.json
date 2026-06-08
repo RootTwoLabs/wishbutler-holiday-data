@@ -1,0 +1,198 @@
+{
+  "countryCode": "ZW",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "ZW_new_years_day",
+      "countryCode": "ZW",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "ZW_robert_mugabe_national_youth_day",
+      "countryCode": "ZW",
+      "kind": "fixed",
+      "labelKey": "holidays.robert_mugabe_national_youth_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 21
+      }
+    },
+    {
+      "id": "ZW_good_friday",
+      "countryCode": "ZW",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "ZW_holy_saturday",
+      "countryCode": "ZW",
+      "kind": "easter_relative",
+      "labelKey": "holidays.holy_saturday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -1
+      }
+    },
+    {
+      "id": "ZW_easter_monday",
+      "countryCode": "ZW",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "ZW_independence_day",
+      "countryCode": "ZW",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 18
+      }
+    },
+    {
+      "id": "ZW_workers_day",
+      "countryCode": "ZW",
+      "kind": "fixed",
+      "labelKey": "holidays.workers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "ZW_africa_day",
+      "countryCode": "ZW",
+      "kind": "fixed",
+      "labelKey": "holidays.africa_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 25
+      }
+    },
+    {
+      "id": "ZW_heroes_day",
+      "countryCode": "ZW",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.heroes_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "ZW_defence_forces_day",
+      "countryCode": "ZW",
+      "kind": "precomputed",
+      "labelKey": "holidays.defence_forces_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "08-11",
+          "2027": "08-10",
+          "2028": "08-15",
+          "2029": "08-14",
+          "2030": "08-13",
+          "2031": "08-12",
+          "2032": "08-10",
+          "2033": "08-09",
+          "2034": "08-15",
+          "2035": "08-14"
+        }
+      }
+    },
+    {
+      "id": "ZW_unity_day",
+      "countryCode": "ZW",
+      "kind": "fixed",
+      "labelKey": "holidays.unity_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 22
+      }
+    },
+    {
+      "id": "ZW_christmas_day",
+      "countryCode": "ZW",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "ZW_st_stephens_day",
+      "countryCode": "ZW",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "robert_mugabe_national_youth_day": "Robert Mugabe National Youth Day",
+        "holy_saturday": "Holy Saturday",
+        "independence_day": "Independence Day",
+        "workers_day": "Worker's Day",
+        "africa_day": "Africa Day",
+        "heroes_day": "Heroes' Day",
+        "defence_forces_day": "Defence Forces Day",
+        "unity_day": "Unity Day"
+      }
+    }
+  }
+}

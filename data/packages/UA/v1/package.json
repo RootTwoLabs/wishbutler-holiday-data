@@ -1,0 +1,194 @@
+{
+  "countryCode": "UA",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "UA_new_years_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "UA_international_womens_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.womens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 8
+      }
+    },
+    {
+      "id": "UA_easter_sunday",
+      "countryCode": "UA",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-12",
+          "2027": "05-02",
+          "2028": "04-16",
+          "2029": "04-08",
+          "2030": "04-28",
+          "2031": "04-13",
+          "2032": "05-02",
+          "2033": "04-24",
+          "2034": "04-09",
+          "2035": "04-29"
+        }
+      }
+    },
+    {
+      "id": "UA_international_workers_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.international_workers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "UA_victory_day_over_nazism_in_world_war_ii",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.victory_day_over_nazism_in_world_war_ii",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 8
+      }
+    },
+    {
+      "id": "UA_pentecost",
+      "countryCode": "UA",
+      "kind": "precomputed",
+      "labelKey": "holidays.pentecost",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-31",
+          "2027": "06-20",
+          "2028": "06-04",
+          "2029": "05-27",
+          "2030": "06-16",
+          "2031": "06-01",
+          "2032": "06-20",
+          "2033": "06-12",
+          "2034": "05-28",
+          "2035": "06-17"
+        }
+      }
+    },
+    {
+      "id": "UA_constitution_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.constitution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 28
+      }
+    },
+    {
+      "id": "UA_statehood_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.statehood_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 15
+      }
+    },
+    {
+      "id": "UA_independence_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 24
+      }
+    },
+    {
+      "id": "UA_defender_of_ukraine_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.defender_of_ukraine_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 1
+      }
+    },
+    {
+      "id": "UA_christmas_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "easter_sunday": "Easter Sunday",
+        "international_workers_day": "International Workers' Day",
+        "victory_day_over_nazism_in_world_war_ii": "Victory day over Nazism in World War II",
+        "pentecost": "Pentecost",
+        "constitution_day": "Constitution Day",
+        "statehood_day": "Statehood Day",
+        "independence_day": "Independence Day",
+        "defender_of_ukraine_day": "Defender of Ukraine Day"
+      },
+      "uk": {
+        "easter_sunday": "Великдень",
+        "international_workers_day": "День праці",
+        "victory_day_over_nazism_in_world_war_ii": "День перемоги над нацизмом у Другій світовій війні",
+        "pentecost": "Трійця",
+        "constitution_day": "День Конституції",
+        "statehood_day": "День Української Державності",
+        "independence_day": "День Незалежності",
+        "defender_of_ukraine_day": "День захисників і захисниць України"
+      }
+    }
+  }
+}

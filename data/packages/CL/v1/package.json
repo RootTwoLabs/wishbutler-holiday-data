@@ -1,0 +1,278 @@
+{
+  "countryCode": "CL",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "CL_new_years_day",
+      "countryCode": "CL",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "CL_good_friday",
+      "countryCode": "CL",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "CL_holy_saturday",
+      "countryCode": "CL",
+      "kind": "easter_relative",
+      "labelKey": "holidays.holy_saturday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -1
+      }
+    },
+    {
+      "id": "CL_labour_day",
+      "countryCode": "CL",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "CL_navy_day",
+      "countryCode": "CL",
+      "kind": "fixed",
+      "labelKey": "holidays.navy_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 21
+      }
+    },
+    {
+      "id": "CL_battle_of_arica",
+      "countryCode": "CL",
+      "kind": "fixed",
+      "labelKey": "holidays.battle_of_arica",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 7
+      }
+    },
+    {
+      "id": "CL_national_day_of_indigenous_peoples",
+      "countryCode": "CL",
+      "kind": "fixed",
+      "labelKey": "holidays.national_day_of_indigenous_peoples",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 21
+      }
+    },
+    {
+      "id": "CL_saint_peter_and_saint_paul",
+      "countryCode": "CL",
+      "kind": "precomputed",
+      "labelKey": "holidays.saint_peter_and_saint_paul",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "06-29",
+          "2027": "06-28",
+          "2028": "06-26",
+          "2029": "06-30",
+          "2030": "06-29",
+          "2031": "06-29",
+          "2032": "06-28",
+          "2033": "06-27",
+          "2034": "06-26",
+          "2035": "06-30"
+        }
+      }
+    },
+    {
+      "id": "CL_our_lady_of_mount_carmel",
+      "countryCode": "CL",
+      "kind": "fixed",
+      "labelKey": "holidays.our_lady_of_mount_carmel",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 16
+      }
+    },
+    {
+      "id": "CL_assumption_of_mary",
+      "countryCode": "CL",
+      "kind": "fixed",
+      "labelKey": "holidays.assumption",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "CL_national_holiday",
+      "countryCode": "CL",
+      "kind": "fixed",
+      "labelKey": "holidays.national_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 18
+      }
+    },
+    {
+      "id": "CL_army_day",
+      "countryCode": "CL",
+      "kind": "fixed",
+      "labelKey": "holidays.army_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 19
+      }
+    },
+    {
+      "id": "CL_columbus_day",
+      "countryCode": "CL",
+      "kind": "precomputed",
+      "labelKey": "holidays.columbus_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "10-12",
+          "2027": "10-11",
+          "2028": "10-09",
+          "2029": "10-13",
+          "2030": "10-12",
+          "2031": "10-12",
+          "2032": "10-11",
+          "2033": "10-10",
+          "2034": "10-09",
+          "2035": "10-13"
+        }
+      }
+    },
+    {
+      "id": "CL_reformation_day",
+      "countryCode": "CL",
+      "kind": "fixed",
+      "labelKey": "holidays.reformation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 31
+      }
+    },
+    {
+      "id": "CL_all_saints_day",
+      "countryCode": "CL",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "CL_immaculate_conception",
+      "countryCode": "CL",
+      "kind": "fixed",
+      "labelKey": "holidays.immaculate_conception",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "CL_christmas_day",
+      "countryCode": "CL",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "holy_saturday": "Holy Saturday",
+        "navy_day": "Navy Day",
+        "battle_of_arica": "Battle of Arica",
+        "national_day_of_indigenous_peoples": "National Day of Indigenous Peoples",
+        "saint_peter_and_saint_paul": "Saint Peter and Saint Paul",
+        "our_lady_of_mount_carmel": "Our Lady of Mount Carmel",
+        "national_holiday": "National holiday",
+        "army_day": "Army Day",
+        "columbus_day": "Columbus Day",
+        "reformation_day": "Reformation Day",
+        "all_saints_day": "All Saints Day",
+        "immaculate_conception": "Immaculate Conception"
+      },
+      "es": {
+        "holy_saturday": "Sábado Santo",
+        "navy_day": "Día de las Glorias Navales",
+        "battle_of_arica": "Asalto y Toma del Morro de Arica",
+        "national_day_of_indigenous_peoples": "Día Nacional de los Pueblos Indígenas",
+        "saint_peter_and_saint_paul": "San Pedro y San Pablo",
+        "our_lady_of_mount_carmel": "Virgen del Carmen",
+        "national_holiday": "Fiestas Patrias",
+        "army_day": "Día de las Glorias del Ejército",
+        "columbus_day": "Día del Descubrimiento de Dos Mundos",
+        "reformation_day": "Día Nacional de las Iglesias Evangélicas y Protestantes",
+        "all_saints_day": "Día de Todos los Santos",
+        "immaculate_conception": "Inmaculada Concepción"
+      }
+    }
+  }
+}

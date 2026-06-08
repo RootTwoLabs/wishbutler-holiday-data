@@ -1,0 +1,252 @@
+{
+  "countryCode": "PT",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "PT_new_years_day",
+      "countryCode": "PT",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "PT_carnival",
+      "countryCode": "PT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.carnival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -47
+      }
+    },
+    {
+      "id": "PT_good_friday",
+      "countryCode": "PT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "PT_easter_sunday",
+      "countryCode": "PT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "PT_freedom_day",
+      "countryCode": "PT",
+      "kind": "fixed",
+      "labelKey": "holidays.freedom_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 25
+      }
+    },
+    {
+      "id": "PT_labour_day",
+      "countryCode": "PT",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "PT_azores_day",
+      "countryCode": "PT",
+      "kind": "fixed",
+      "labelKey": "holidays.azores_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 1
+      }
+    },
+    {
+      "id": "PT_corpus_christi",
+      "countryCode": "PT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.corpus_christi",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 60
+      }
+    },
+    {
+      "id": "PT_national_day",
+      "countryCode": "PT",
+      "kind": "fixed",
+      "labelKey": "holidays.national_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 10
+      }
+    },
+    {
+      "id": "PT_madeira_day",
+      "countryCode": "PT",
+      "kind": "fixed",
+      "labelKey": "holidays.madeira_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 1
+      }
+    },
+    {
+      "id": "PT_assumption_day",
+      "countryCode": "PT",
+      "kind": "fixed",
+      "labelKey": "holidays.assumption",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "PT_republic_day",
+      "countryCode": "PT",
+      "kind": "fixed",
+      "labelKey": "holidays.republic_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 5
+      }
+    },
+    {
+      "id": "PT_all_saints_day",
+      "countryCode": "PT",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "PT_restoration_of_independence",
+      "countryCode": "PT",
+      "kind": "fixed",
+      "labelKey": "holidays.restoration_of_independence",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 1
+      }
+    },
+    {
+      "id": "PT_immaculate_conception",
+      "countryCode": "PT",
+      "kind": "fixed",
+      "labelKey": "holidays.immaculate_conception",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "PT_christmas_day",
+      "countryCode": "PT",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "PT_st_stephens_day",
+      "countryCode": "PT",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "carnival": "Carnival",
+        "easter_sunday": "Easter Sunday",
+        "freedom_day": "Freedom Day",
+        "azores_day": "Azores Day",
+        "national_day": "National Day",
+        "madeira_day": "Madeira Day",
+        "republic_day": "Republic Day",
+        "all_saints_day": "All Saints Day",
+        "restoration_of_independence": "Restoration of Independence",
+        "immaculate_conception": "Immaculate Conception"
+      },
+      "pt": {
+        "carnival": "Carnaval",
+        "easter_sunday": "Domingo de Páscoa",
+        "freedom_day": "Dia da Liberdade",
+        "azores_day": "Dia dos Açores",
+        "national_day": "Dia de Portugal, de Camões e das Comunidades Portuguesas",
+        "madeira_day": "Dia da Madeira",
+        "republic_day": "Implantação da República",
+        "all_saints_day": "Dia de Todos-os-Santos",
+        "restoration_of_independence": "Restauração da Independência",
+        "immaculate_conception": "Imaculada Conceição"
+      }
+    }
+  }
+}

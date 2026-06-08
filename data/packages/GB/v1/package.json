@@ -1,0 +1,193 @@
+{
+  "countryCode": "GB",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "GB_new_years_day",
+      "countryCode": "GB",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "GB_2_january",
+      "countryCode": "GB",
+      "kind": "fixed",
+      "labelKey": "holidays.2_january",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "GB_saint_patricks_day",
+      "countryCode": "GB",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_patricks_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 17
+      }
+    },
+    {
+      "id": "GB_good_friday",
+      "countryCode": "GB",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "GB_easter_monday",
+      "countryCode": "GB",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "GB_early_may_bank_holiday",
+      "countryCode": "GB",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.early_may_bank_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "GB_spring_bank_holiday",
+      "countryCode": "GB",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.spring_bank_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "nth": 5,
+        "weekday": 1,
+        "last": true
+      }
+    },
+    {
+      "id": "GB_world_cup_bank_holiday",
+      "countryCode": "GB",
+      "kind": "fixed",
+      "labelKey": "holidays.world_cup_bank_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 15
+      }
+    },
+    {
+      "id": "GB_battle_of_the_boyne",
+      "countryCode": "GB",
+      "kind": "fixed",
+      "labelKey": "holidays.battle_of_the_boyne",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 12
+      }
+    },
+    {
+      "id": "GB_summer_bank_holiday",
+      "countryCode": "GB",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.summer_bank_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 5,
+        "weekday": 1,
+        "last": true
+      }
+    },
+    {
+      "id": "GB_saint_andrews_day",
+      "countryCode": "GB",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_andrews_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 30
+      }
+    },
+    {
+      "id": "GB_christmas_day",
+      "countryCode": "GB",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "GB_st_stephens_day",
+      "countryCode": "GB",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "2_january": "2 January",
+        "saint_patricks_day": "Saint Patrick's Day",
+        "early_may_bank_holiday": "Early May Bank Holiday",
+        "spring_bank_holiday": "Spring Bank Holiday",
+        "world_cup_bank_holiday": "World Cup Bank Holiday",
+        "battle_of_the_boyne": "Battle of the Boyne",
+        "summer_bank_holiday": "Summer Bank Holiday",
+        "saint_andrews_day": "Saint Andrew's Day"
+      }
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "countryCode": "SR",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "SR_new_years_day",
+      "countryCode": "SR",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "SR_three_kings_day",
+      "countryCode": "SR",
+      "kind": "fixed",
+      "labelKey": "holidays.epiphany",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "SR_world_religion_day",
+      "countryCode": "SR",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.world_religion_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 1,
+        "nth": 3,
+        "weekday": 0
+      }
+    },
+    {
+      "id": "SR_chinese_new_year",
+      "countryCode": "SR",
+      "kind": "precomputed",
+      "labelKey": "holidays.chinese_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-17",
+          "2027": "02-06",
+          "2028": "01-26",
+          "2029": "02-13",
+          "2030": "02-03",
+          "2031": "01-23",
+          "2032": "02-11",
+          "2033": "01-31",
+          "2034": "02-19",
+          "2035": "02-08"
+        }
+      }
+    },
+    {
+      "id": "SR_day_of_the_revolution",
+      "countryCode": "SR",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_the_revolution",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 25
+      }
+    },
+    {
+      "id": "SR_good_friday",
+      "countryCode": "SR",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "SR_easter_sunday",
+      "countryCode": "SR",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "SR_labour_day",
+      "countryCode": "SR",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "SR_ascension_day",
+      "countryCode": "SR",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ascension",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 39
+      }
+    },
+    {
+      "id": "SR_indian_arrival_day",
+      "countryCode": "SR",
+      "kind": "fixed",
+      "labelKey": "holidays.indian_arrival_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 5
+      }
+    },
+    {
+      "id": "SR_keti_koti",
+      "countryCode": "SR",
+      "kind": "fixed",
+      "labelKey": "holidays.keti_koti",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 1
+      }
+    },
+    {
+      "id": "SR_javanese_arrival_day",
+      "countryCode": "SR",
+      "kind": "fixed",
+      "labelKey": "holidays.javanese_arrival_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 8
+      }
+    },
+    {
+      "id": "SR_indigenous_peoples_day",
+      "countryCode": "SR",
+      "kind": "fixed",
+      "labelKey": "holidays.indigenous_peoples_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 9
+      }
+    },
+    {
+      "id": "SR_day_of_the_maroons",
+      "countryCode": "SR",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_the_maroons",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 10
+      }
+    },
+    {
+      "id": "SR_chinese_arrival_day",
+      "countryCode": "SR",
+      "kind": "fixed",
+      "labelKey": "holidays.chinese_arrival_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 20
+      }
+    },
+    {
+      "id": "SR_independence_day",
+      "countryCode": "SR",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 25
+      }
+    },
+    {
+      "id": "SR_christmas_day",
+      "countryCode": "SR",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "SR_boxing_day",
+      "countryCode": "SR",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "world_religion_day": "World Religion Day",
+        "chinese_new_year": "Chinese New Year",
+        "day_of_the_revolution": "Day of the Revolution",
+        "easter_sunday": "Easter Sunday",
+        "indian_arrival_day": "Indian Arrival Day",
+        "keti_koti": "Keti Koti",
+        "javanese_arrival_day": "Javanese Arrival Day",
+        "indigenous_peoples_day": "Indigenous People's Day",
+        "day_of_the_maroons": "Day of the Maroons",
+        "chinese_arrival_day": "Chinese Arrival day",
+        "independence_day": "Independence Day"
+      },
+      "nl": {
+        "world_religion_day": "World Religion Day",
+        "chinese_new_year": "Chinese New Year",
+        "day_of_the_revolution": "Day of the Revolution",
+        "easter_sunday": "Easter Sunday",
+        "indian_arrival_day": "Indian Arrival Day",
+        "keti_koti": "Keti Koti",
+        "javanese_arrival_day": "Javanese Arrival Day",
+        "indigenous_peoples_day": "Indigenous People's Day",
+        "day_of_the_maroons": "Day of the Maroons",
+        "chinese_arrival_day": "Chinese Arrival day",
+        "independence_day": "Independence Day"
+      }
+    }
+  }
+}

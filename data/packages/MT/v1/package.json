@@ -1,0 +1,216 @@
+{
+  "countryCode": "MT",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "MT_new_years_day",
+      "countryCode": "MT",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "MT_feast_of_st_pauls_shipwreck",
+      "countryCode": "MT",
+      "kind": "fixed",
+      "labelKey": "holidays.feast_of_st_pauls_shipwreck",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 10
+      }
+    },
+    {
+      "id": "MT_feast_of_st_joseph",
+      "countryCode": "MT",
+      "kind": "fixed",
+      "labelKey": "holidays.feast_of_st_joseph",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 19
+      }
+    },
+    {
+      "id": "MT_freedom_day",
+      "countryCode": "MT",
+      "kind": "fixed",
+      "labelKey": "holidays.freedom_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 31
+      }
+    },
+    {
+      "id": "MT_good_friday",
+      "countryCode": "MT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "MT_workers_day",
+      "countryCode": "MT",
+      "kind": "fixed",
+      "labelKey": "holidays.workers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "MT_sette_giugno",
+      "countryCode": "MT",
+      "kind": "fixed",
+      "labelKey": "holidays.sette_giugno",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 7
+      }
+    },
+    {
+      "id": "MT_feast_of_st_peter_and_st_paul",
+      "countryCode": "MT",
+      "kind": "fixed",
+      "labelKey": "holidays.feast_of_st_peter_and_st_paul",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 29
+      }
+    },
+    {
+      "id": "MT_assumption_day",
+      "countryCode": "MT",
+      "kind": "fixed",
+      "labelKey": "holidays.assumption",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "MT_feast_of_our_lady_of_victories",
+      "countryCode": "MT",
+      "kind": "fixed",
+      "labelKey": "holidays.feast_of_our_lady_of_victories",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 8
+      }
+    },
+    {
+      "id": "MT_independence_day",
+      "countryCode": "MT",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 21
+      }
+    },
+    {
+      "id": "MT_feast_of_the_immaculate_conception",
+      "countryCode": "MT",
+      "kind": "fixed",
+      "labelKey": "holidays.feast_of_the_immaculate_conception",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "MT_republic_day",
+      "countryCode": "MT",
+      "kind": "fixed",
+      "labelKey": "holidays.republic_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 13
+      }
+    },
+    {
+      "id": "MT_christmas_day",
+      "countryCode": "MT",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "feast_of_st_pauls_shipwreck": "Feast of St. Paul's Shipwreck",
+        "feast_of_st_joseph": "Feast of St. Joseph",
+        "freedom_day": "Freedom Day",
+        "workers_day": "Worker's Day",
+        "sette_giugno": "Sette Giugno",
+        "feast_of_st_peter_and_st_paul": "Feast of St.Peter and St.Paul",
+        "feast_of_our_lady_of_victories": "Feast of Our Lady of Victories",
+        "independence_day": "Independence Day",
+        "feast_of_the_immaculate_conception": "Feast of the Immaculate Conception",
+        "republic_day": "Republic Day"
+      },
+      "mt": {
+        "feast_of_st_pauls_shipwreck": "In-Nawfraġju ta’ San Pawl",
+        "feast_of_st_joseph": "San Ġużepp",
+        "freedom_day": "Jum il-Ħelsien",
+        "workers_day": "Jum il-Ħaddiem",
+        "sette_giugno": "Sette Giugno",
+        "feast_of_st_peter_and_st_paul": "L-Imnarja",
+        "feast_of_our_lady_of_victories": "Il-Vittorja",
+        "independence_day": "L-Indipendenza",
+        "feast_of_the_immaculate_conception": "L-Immakulata Kunċizzjoni",
+        "republic_day": "Jum ir-Repubblika"
+      }
+    }
+  }
+}

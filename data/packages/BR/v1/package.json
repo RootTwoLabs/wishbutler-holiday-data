@@ -1,0 +1,211 @@
+{
+  "countryCode": "BR",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "BR_new_years_day",
+      "countryCode": "BR",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "BR_carnival",
+      "countryCode": "BR",
+      "kind": "easter_relative",
+      "labelKey": "holidays.carnival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -47
+      }
+    },
+    {
+      "id": "BR_good_friday",
+      "countryCode": "BR",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "BR_easter_sunday",
+      "countryCode": "BR",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "BR_tiradentes",
+      "countryCode": "BR",
+      "kind": "fixed",
+      "labelKey": "holidays.tiradentes",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 21
+      }
+    },
+    {
+      "id": "BR_labour_day",
+      "countryCode": "BR",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "BR_corpus_christi",
+      "countryCode": "BR",
+      "kind": "easter_relative",
+      "labelKey": "holidays.corpus_christi",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 60
+      }
+    },
+    {
+      "id": "BR_constitutionalist_revolution_of_1932",
+      "countryCode": "BR",
+      "kind": "fixed",
+      "labelKey": "holidays.constitutionalist_revolution_of_1932",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 9
+      }
+    },
+    {
+      "id": "BR_independence_day",
+      "countryCode": "BR",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 7
+      }
+    },
+    {
+      "id": "BR_our_lady_of_aparecida",
+      "countryCode": "BR",
+      "kind": "fixed",
+      "labelKey": "holidays.our_lady_of_aparecida",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 12
+      }
+    },
+    {
+      "id": "BR_all_souls_day",
+      "countryCode": "BR",
+      "kind": "fixed",
+      "labelKey": "holidays.all_souls_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 2
+      }
+    },
+    {
+      "id": "BR_republic_proclamation_day",
+      "countryCode": "BR",
+      "kind": "fixed",
+      "labelKey": "holidays.republic_proclamation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 15
+      }
+    },
+    {
+      "id": "BR_black_awareness_day",
+      "countryCode": "BR",
+      "kind": "fixed",
+      "labelKey": "holidays.black_awareness_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 20
+      }
+    },
+    {
+      "id": "BR_christmas_day",
+      "countryCode": "BR",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "carnival": "Carnival",
+        "easter_sunday": "Easter Sunday",
+        "tiradentes": "Tiradentes",
+        "constitutionalist_revolution_of_1932": "Constitutionalist Revolution of 1932",
+        "independence_day": "Independence Day",
+        "our_lady_of_aparecida": "Our Lady of Aparecida",
+        "all_souls_day": "All Souls' Day",
+        "republic_proclamation_day": "Republic Proclamation Day",
+        "black_awareness_day": "Black Awareness Day"
+      },
+      "pt": {
+        "carnival": "Carnaval",
+        "easter_sunday": "Domingo de Páscoa",
+        "tiradentes": "Dia de Tiradentes",
+        "constitutionalist_revolution_of_1932": "Revolução Constitucionalista de 1932",
+        "independence_day": "Dia da Independência",
+        "our_lady_of_aparecida": "Nossa Senhora Aparecida",
+        "all_souls_day": "Dia de Finados",
+        "republic_proclamation_day": "Proclamação da República",
+        "black_awareness_day": "Dia da Consciência Negra"
+      }
+    }
+  }
+}

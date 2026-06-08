@@ -1,0 +1,345 @@
+{
+  "countryCode": "AO",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "AO_new_years_day",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "AO_new_years_day_ponte",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_day_ponte",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "AO_liberation_day",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.liberation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 4
+      }
+    },
+    {
+      "id": "AO_carnival",
+      "countryCode": "AO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.carnival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -48
+      }
+    },
+    {
+      "id": "AO_international_womens_day",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.womens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 8
+      }
+    },
+    {
+      "id": "AO_day_of_the_liberation_of_southern_africa",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_the_liberation_of_southern_africa",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 23
+      }
+    },
+    {
+      "id": "AO_good_friday",
+      "countryCode": "AO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "AO_peace_day",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.peace_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 4
+      }
+    },
+    {
+      "id": "AO_labour_day",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "AO_national_heroes_day",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.national_heroes_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 17
+      }
+    },
+    {
+      "id": "AO_national_heroes_day_ponte",
+      "countryCode": "AO",
+      "kind": "precomputed",
+      "labelKey": "holidays.national_heroes_day_ponte",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-18",
+          "2030": "09-16"
+        }
+      }
+    },
+    {
+      "id": "AO_all_souls_day",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.all_souls_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 2
+      }
+    },
+    {
+      "id": "AO_independence_day",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 11
+      }
+    },
+    {
+      "id": "AO_christmas_day",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "AO_liberation_day_ponte",
+      "countryCode": "AO",
+      "kind": "precomputed",
+      "labelKey": "holidays.liberation_day_ponte",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2027": "02-05",
+          "2031": "02-03"
+        }
+      }
+    },
+    {
+      "id": "AO_day_of_the_liberation_of_southern_africa_ponte",
+      "countryCode": "AO",
+      "kind": "precomputed",
+      "labelKey": "holidays.day_of_the_liberation_of_southern_africa_ponte",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2027": "03-22",
+          "2028": "03-24",
+          "2032": "03-22",
+          "2034": "03-24"
+        }
+      }
+    },
+    {
+      "id": "AO_all_souls_day_ponte",
+      "countryCode": "AO",
+      "kind": "precomputed",
+      "labelKey": "holidays.all_souls_day_ponte",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2027": "11-01",
+          "2028": "11-03",
+          "2032": "11-01",
+          "2034": "11-03"
+        }
+      }
+    },
+    {
+      "id": "AO_independence_day_ponte",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day_ponte",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 12
+      }
+    },
+    {
+      "id": "AO_peace_day_ponte",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.peace_day_ponte",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 3
+      }
+    },
+    {
+      "id": "AO_international_womens_day_ponte",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.international_womens_day_ponte",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 9
+      }
+    },
+    {
+      "id": "AO_labour_day_ponte",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day_ponte",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 30
+      }
+    },
+    {
+      "id": "AO_christmas_day_ponte",
+      "countryCode": "AO",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_day_ponte",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day_ponte": "New Year's Day (Ponte)",
+        "liberation_day": "Liberation Day",
+        "carnival": "Carnival",
+        "day_of_the_liberation_of_southern_africa": "Day of the Liberation of Southern Africa",
+        "peace_day": "Peace Day",
+        "national_heroes_day": "National Heroes' Day",
+        "national_heroes_day_ponte": "National Heroes' Day (Ponte)",
+        "all_souls_day": "All Souls' Day",
+        "independence_day": "Independence Day",
+        "liberation_day_ponte": "Liberation Day (Ponte)",
+        "day_of_the_liberation_of_southern_africa_ponte": "Day of the Liberation of Southern Africa (Ponte)",
+        "all_souls_day_ponte": "All Souls' Day (Ponte)",
+        "independence_day_ponte": "Independence Day (Ponte)",
+        "peace_day_ponte": "Peace Day (Ponte)",
+        "international_womens_day_ponte": "International Women's Day (Ponte)",
+        "labour_day_ponte": "Labour Day (Ponte)",
+        "christmas_day_ponte": "Christmas Day (Ponte)"
+      },
+      "pt": {
+        "new_years_day_ponte": "Dia de Ano Novo (Ponte)",
+        "liberation_day": "Dia da Libertação",
+        "carnival": "Carnaval",
+        "day_of_the_liberation_of_southern_africa": "Dia da Libertação da África Austral",
+        "peace_day": "Dia da Paz",
+        "national_heroes_day": "Dia do Fundador da Nação e do Herói Nacional",
+        "national_heroes_day_ponte": "Dia do Fundador da Nação e do Herói Nacional (Ponte)",
+        "all_souls_day": "Dia de Finados",
+        "independence_day": "Dia da Independência",
+        "liberation_day_ponte": "Dia da Libertação (Ponte)",
+        "day_of_the_liberation_of_southern_africa_ponte": "Dia da Libertação da África Austral (Ponte)",
+        "all_souls_day_ponte": "Dia de Finados (Ponte)",
+        "independence_day_ponte": "Dia da Independência (Ponte)",
+        "peace_day_ponte": "Dia da Paz (Ponte)",
+        "international_womens_day_ponte": "Dia Internacional da Mulher (Ponte)",
+        "labour_day_ponte": "Dia do Trabalhador (Ponte)",
+        "christmas_day_ponte": "Dia de Natal (Ponte)"
+      }
+    }
+  }
+}

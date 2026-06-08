@@ -1,0 +1,324 @@
+{
+  "countryCode": "CO",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "CO_new_years_day",
+      "countryCode": "CO",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "CO_epiphany",
+      "countryCode": "CO",
+      "kind": "precomputed",
+      "labelKey": "holidays.epiphany_co",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-12",
+          "2027": "01-11",
+          "2028": "01-10",
+          "2029": "01-08",
+          "2030": "01-07",
+          "2031": "01-06",
+          "2032": "01-12",
+          "2033": "01-10",
+          "2034": "01-09",
+          "2035": "01-08"
+        }
+      }
+    },
+    {
+      "id": "CO_saint_josephs_day",
+      "countryCode": "CO",
+      "kind": "precomputed",
+      "labelKey": "holidays.saint_josephs_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "03-23",
+          "2027": "03-22",
+          "2028": "03-20",
+          "2029": "03-19",
+          "2030": "03-25",
+          "2031": "03-24",
+          "2032": "03-22",
+          "2033": "03-21",
+          "2034": "03-20",
+          "2035": "03-19"
+        }
+      }
+    },
+    {
+      "id": "CO_maundy_thursday",
+      "countryCode": "CO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.maundy_thursday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -3
+      }
+    },
+    {
+      "id": "CO_good_friday",
+      "countryCode": "CO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "CO_labour_day",
+      "countryCode": "CO",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "CO_ascension_day",
+      "countryCode": "CO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ascension_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 43
+      }
+    },
+    {
+      "id": "CO_corpus_christi",
+      "countryCode": "CO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.corpus_christi_co",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 64
+      }
+    },
+    {
+      "id": "CO_sacred_heart",
+      "countryCode": "CO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.sacred_heart",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 71
+      }
+    },
+    {
+      "id": "CO_saint_peter_and_saint_paul",
+      "countryCode": "CO",
+      "kind": "precomputed",
+      "labelKey": "holidays.saint_peter_and_saint_paul",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "06-29",
+          "2027": "07-05",
+          "2028": "07-03",
+          "2029": "07-02",
+          "2030": "07-01",
+          "2031": "06-30",
+          "2032": "07-05",
+          "2033": "07-04",
+          "2034": "07-03",
+          "2035": "07-02"
+        }
+      }
+    },
+    {
+      "id": "CO_declaration_of_independence",
+      "countryCode": "CO",
+      "kind": "fixed",
+      "labelKey": "holidays.declaration_of_independence",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 20
+      }
+    },
+    {
+      "id": "CO_battle_of_boyaca",
+      "countryCode": "CO",
+      "kind": "fixed",
+      "labelKey": "holidays.battle_of_boyaca",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 7
+      }
+    },
+    {
+      "id": "CO_assumption_of_mary",
+      "countryCode": "CO",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.assumption_of_mary",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "CO_columbus_day",
+      "countryCode": "CO",
+      "kind": "precomputed",
+      "labelKey": "holidays.columbus_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "10-12",
+          "2027": "10-18",
+          "2028": "10-16",
+          "2029": "10-15",
+          "2030": "10-14",
+          "2031": "10-13",
+          "2032": "10-18",
+          "2033": "10-17",
+          "2034": "10-16",
+          "2035": "10-15"
+        }
+      }
+    },
+    {
+      "id": "CO_all_saints_day",
+      "countryCode": "CO",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 11,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "CO_independence_of_cartagena",
+      "countryCode": "CO",
+      "kind": "precomputed",
+      "labelKey": "holidays.independence_of_cartagena",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-16",
+          "2027": "11-15",
+          "2028": "11-13",
+          "2029": "11-12",
+          "2030": "11-11",
+          "2031": "11-17",
+          "2032": "11-15",
+          "2033": "11-14",
+          "2034": "11-13",
+          "2035": "11-12"
+        }
+      }
+    },
+    {
+      "id": "CO_immaculate_conception",
+      "countryCode": "CO",
+      "kind": "fixed",
+      "labelKey": "holidays.immaculate_conception",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "CO_christmas_day",
+      "countryCode": "CO",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "epiphany_co": "Epiphany",
+        "saint_josephs_day": "Saint Joseph's Day",
+        "maundy_thursday": "Maundy Thursday",
+        "ascension_day": "Ascension Day",
+        "corpus_christi_co": "Corpus Christi",
+        "sacred_heart": "Sacred Heart",
+        "saint_peter_and_saint_paul": "Saint Peter and Saint Paul",
+        "declaration_of_independence": "Declaration of Independence",
+        "battle_of_boyaca": "Battle of Boyacá",
+        "assumption_of_mary": "Assumption of Mary",
+        "columbus_day": "Columbus Day",
+        "all_saints_day": "All Saints’ Day",
+        "independence_of_cartagena": "Independence of Cartagena",
+        "immaculate_conception": "Immaculate Conception"
+      },
+      "es": {
+        "epiphany_co": "Día de los Reyes Magos",
+        "saint_josephs_day": "Día de San José",
+        "maundy_thursday": "Jueves Santo",
+        "ascension_day": "Ascensión del señor",
+        "corpus_christi_co": "Corpus Christi",
+        "sacred_heart": "Sagrado Corazón",
+        "saint_peter_and_saint_paul": "San Pedro y San Pablo",
+        "declaration_of_independence": "Declaracion de la Independencia de Colombia",
+        "battle_of_boyaca": "Batalla de Boyacá",
+        "assumption_of_mary": "La Asunción",
+        "columbus_day": "Día de la Raza",
+        "all_saints_day": "Dia de los Santos",
+        "independence_of_cartagena": "Independencia de Cartagena",
+        "immaculate_conception": "La Inmaculada Concepción"
+      }
+    }
+  }
+}

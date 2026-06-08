@@ -1,8 +1,11 @@
 #!/usr/bin/env node
 /**
  * Generates nameday calendars (MM-DD -> [names]) and merges them into the
- * latest package per country. Source: abalin (extend with country-specific
- * calendars where abalin coverage is weak).
+ * latest package per country.
+ *
+ * Source: abalin (https://nameday.abalin.net). The V2/date endpoint returns the
+ * namedays of *all* countries for a single day, so we walk every day of a leap
+ * year once and bucket the results per country in a single pass.
  *
  * Usage: node scripts/fetch-namedays.mjs [CC ...]
  */
@@ -14,6 +17,9 @@ import { NAMEDAY_COUNTRIES, SOURCES } from './config.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PACKAGES = join(__dirname, '..', 'data', 'packages');
+
+/** Strings abalin returns that are not personal names. */
+const NON_NAME = /^(n\/a|support ukraine)/i;
 
 async function fetchJson(url) {
   const res = await fetch(url);
@@ -32,56 +38,59 @@ async function latestPackagePath(cc) {
   return join(countryDir, `v${versions[0]}`, 'package.json');
 }
 
-/**
- * Normalizes an abalin response into { "MM-DD": [names] }.
- * abalin returns per-day records; the exact shape is normalized defensively.
- */
-function toNamedayMap(raw) {
-  const map = {};
-  const data = raw?.data ?? raw;
-  if (!Array.isArray(data)) return map;
-  for (const row of data) {
-    const month = String(row.month ?? row.m).padStart(2, '0');
-    const day = String(row.day ?? row.d).padStart(2, '0');
-    const names = String(row.name ?? row.names ?? '')
-      .split(/[,/]/)
-      .map((s) => s.trim())
-      .filter(Boolean);
-    if (names.length === 0) continue;
-    map[`${month}-${day}`] = names;
-  }
-  return map;
-}
+const pad = (n) => String(n).padStart(2, '0');
 
-async function buildCountry(cc) {
-  const pkgPath = await latestPackagePath(cc);
-  if (!pkgPath) {
-    console.warn(`  ${cc}: no package yet, run fetch-holidays first`);
-    return;
-  }
-  let namedays = {};
-  try {
-    namedays = toNamedayMap(await fetchJson(SOURCES.abalin(cc)));
-  } catch (err) {
-    console.warn(`  ${cc}: abalin failed (${err.message})`);
-    return;
-  }
-  if (Object.keys(namedays).length === 0) {
-    console.warn(`  ${cc}: no namedays parsed`);
-    return;
-  }
-  const pkg = JSON.parse(await readFile(pkgPath, 'utf8'));
-  pkg.namedays = namedays;
-  await writeFile(pkgPath, JSON.stringify(pkg, null, 2) + '\n', 'utf8');
-  console.log(`  ${cc}: ${Object.keys(namedays).length} nameday entries`);
+/** Splits abalin's comma-separated string into clean personal names. */
+function parseNames(raw) {
+  if (typeof raw !== 'string') return [];
+  return raw
+    .split(',')
+    .map((s) => s.trim())
+    .filter((s) => s.length > 0 && !NON_NAME.test(s));
 }
 
 async function main() {
   const only = process.argv.slice(2);
-  const countries = only.length > 0 ? only : NAMEDAY_COUNTRIES;
-  console.log(`Building namedays for ${countries.length} countries...`);
-  for (const cc of countries) {
-    await buildCountry(cc);
+  const wanted = (only.length > 0 ? only : NAMEDAY_COUNTRIES).map((c) => c.toUpperCase());
+  console.log(`Building namedays for ${wanted.length} countries...`);
+
+  const maps = Object.fromEntries(wanted.map((cc) => [cc, {}]));
+
+  // Walk every day of a leap year so 02-29 is covered.
+  for (let month = 1; month <= 12; month += 1) {
+    const daysInMonth = new Date(Date.UTC(2024, month, 0)).getUTCDate();
+    for (let day = 1; day <= daysInMonth; day += 1) {
+      let json;
+      try {
+        json = await fetchJson(SOURCES.abalinDate(day, month));
+      } catch (err) {
+        console.warn(`  ${pad(month)}-${pad(day)}: ${err.message}`);
+        continue;
+      }
+      const data = json?.data ?? {};
+      const mmdd = `${pad(month)}-${pad(day)}`;
+      for (const cc of wanted) {
+        const names = parseNames(data[cc.toLowerCase()]);
+        if (names.length > 0) maps[cc][mmdd] = names;
+      }
+    }
+  }
+
+  for (const cc of wanted) {
+    const entries = Object.keys(maps[cc]).length;
+    if (entries === 0) {
+      console.warn(`  ${cc}: no namedays parsed`);
+      continue;
+    }
+    const pkgPath = await latestPackagePath(cc);
+    if (!pkgPath) {
+      console.warn(`  ${cc}: no package yet, run fetch-holidays first`);
+      continue;
+    }
+    const pkg = JSON.parse(await readFile(pkgPath, 'utf8'));
+    pkg.namedays = maps[cc];
+    await writeFile(pkgPath, JSON.stringify(pkg, null, 2) + '\n', 'utf8');
+    console.log(`  ${cc}: ${entries} nameday entries`);
   }
 }
 

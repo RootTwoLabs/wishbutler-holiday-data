@@ -1,0 +1,228 @@
+{
+  "countryCode": "GL",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "GL_new_years_day",
+      "countryCode": "GL",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "GL_epiphany",
+      "countryCode": "GL",
+      "kind": "fixed",
+      "labelKey": "holidays.epiphany",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "GL_maundy_thursday",
+      "countryCode": "GL",
+      "kind": "easter_relative",
+      "labelKey": "holidays.maundy_thursday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -3
+      }
+    },
+    {
+      "id": "GL_good_friday",
+      "countryCode": "GL",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "GL_easter_sunday",
+      "countryCode": "GL",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "GL_easter_monday",
+      "countryCode": "GL",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "GL_general_prayer_day",
+      "countryCode": "GL",
+      "kind": "easter_relative",
+      "labelKey": "holidays.general_prayer_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 26
+      }
+    },
+    {
+      "id": "GL_ascension_day",
+      "countryCode": "GL",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ascension",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 39
+      }
+    },
+    {
+      "id": "GL_bank_closing_day",
+      "countryCode": "GL",
+      "kind": "easter_relative",
+      "labelKey": "holidays.bank_closing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 40
+      }
+    },
+    {
+      "id": "GL_pentecost",
+      "countryCode": "GL",
+      "kind": "easter_relative",
+      "labelKey": "holidays.pentecost",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 49
+      }
+    },
+    {
+      "id": "GL_whit_monday",
+      "countryCode": "GL",
+      "kind": "easter_relative",
+      "labelKey": "holidays.whit_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 50
+      }
+    },
+    {
+      "id": "GL_ullortuneq",
+      "countryCode": "GL",
+      "kind": "fixed",
+      "labelKey": "holidays.ullortuneq",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 21
+      }
+    },
+    {
+      "id": "GL_christmas_eve",
+      "countryCode": "GL",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "GL_christmas_day",
+      "countryCode": "GL",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "GL_st_stephens_day",
+      "countryCode": "GL",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    },
+    {
+      "id": "GL_new_years_eve",
+      "countryCode": "GL",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "maundy_thursday": "Maundy Thursday",
+        "easter_sunday": "Easter Sunday",
+        "general_prayer_day": "General Prayer Day",
+        "bank_closing_day": "Bank closing day",
+        "pentecost": "Pentecost",
+        "ullortuneq": "Ullortuneq",
+        "christmas_eve": "Christmas Eve"
+      },
+      "kl": {
+        "maundy_thursday": "Sisamanngortoq illernartoq",
+        "easter_sunday": "Poorskip ullua",
+        "general_prayer_day": "Tussiarfik",
+        "bank_closing_day": "Atuanngiffik",
+        "pentecost": "Piinsi",
+        "ullortuneq": "Ullortuneq",
+        "christmas_eve": "Juulliaraq"
+      }
+    }
+  }
+}

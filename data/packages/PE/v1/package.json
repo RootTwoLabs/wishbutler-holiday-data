@@ -1,0 +1,200 @@
+{
+  "countryCode": "PE",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "PE_new_years_day",
+      "countryCode": "PE",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "PE_holy_thursday",
+      "countryCode": "PE",
+      "kind": "easter_relative",
+      "labelKey": "holidays.holy_thursday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -3
+      }
+    },
+    {
+      "id": "PE_maundy_thursday",
+      "countryCode": "PE",
+      "kind": "easter_relative",
+      "labelKey": "holidays.maundy_thursday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -3
+      }
+    },
+    {
+      "id": "PE_good_friday",
+      "countryCode": "PE",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "PE_easter_sunday",
+      "countryCode": "PE",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "PE_international_workers_day",
+      "countryCode": "PE",
+      "kind": "fixed",
+      "labelKey": "holidays.international_workers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "PE_saint_peter_and_saint_paul",
+      "countryCode": "PE",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_peter_and_saint_paul",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 29
+      }
+    },
+    {
+      "id": "PE_independence_day",
+      "countryCode": "PE",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 29
+      }
+    },
+    {
+      "id": "PE_santa_rosa_de_lima",
+      "countryCode": "PE",
+      "kind": "fixed",
+      "labelKey": "holidays.santa_rosa_de_lima",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 30
+      }
+    },
+    {
+      "id": "PE_battle_of_angamos",
+      "countryCode": "PE",
+      "kind": "fixed",
+      "labelKey": "holidays.battle_of_angamos",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 8
+      }
+    },
+    {
+      "id": "PE_all_saints_day",
+      "countryCode": "PE",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "PE_immaculate_conception",
+      "countryCode": "PE",
+      "kind": "fixed",
+      "labelKey": "holidays.immaculate_conception",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "PE_christmas_day",
+      "countryCode": "PE",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "holy_thursday": "Holy Thursday",
+        "maundy_thursday": "Maundy Thursday",
+        "easter_sunday": "Easter Sunday",
+        "international_workers_day": "International Workers' Day",
+        "saint_peter_and_saint_paul": "Saint Peter and Saint Paul",
+        "independence_day": "Independence Day",
+        "santa_rosa_de_lima": "Santa Rosa de Lima",
+        "battle_of_angamos": "Battle of Angamos",
+        "all_saints_day": "All Saints Day",
+        "immaculate_conception": "Immaculate Conception"
+      },
+      "es": {
+        "holy_thursday": "Jueves Santo",
+        "maundy_thursday": "Jueves Santo",
+        "easter_sunday": "Domingo Santo",
+        "international_workers_day": "Día del Trabajo",
+        "saint_peter_and_saint_paul": "Día de San Pedro y San Pablo",
+        "independence_day": "Día de la Independencia",
+        "santa_rosa_de_lima": "Día de Santa Rosa de Lima",
+        "battle_of_angamos": "Combate de Angamos",
+        "all_saints_day": "Día de Todos los Santos",
+        "immaculate_conception": "Inmaculada Concepción"
+      }
+    }
+  }
+}

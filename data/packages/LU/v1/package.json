@@ -1,0 +1,173 @@
+{
+  "countryCode": "LU",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "LU_new_years_day",
+      "countryCode": "LU",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "LU_good_friday",
+      "countryCode": "LU",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "LU_easter_monday",
+      "countryCode": "LU",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "LU_labour_day",
+      "countryCode": "LU",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "LU_europe_day",
+      "countryCode": "LU",
+      "kind": "fixed",
+      "labelKey": "holidays.europe_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 9
+      }
+    },
+    {
+      "id": "LU_ascension_day",
+      "countryCode": "LU",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ascension",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 39
+      }
+    },
+    {
+      "id": "LU_whit_monday",
+      "countryCode": "LU",
+      "kind": "easter_relative",
+      "labelKey": "holidays.whit_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 50
+      }
+    },
+    {
+      "id": "LU_sovereigns_birthday",
+      "countryCode": "LU",
+      "kind": "fixed",
+      "labelKey": "holidays.sovereigns_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 23
+      }
+    },
+    {
+      "id": "LU_assumption_day",
+      "countryCode": "LU",
+      "kind": "fixed",
+      "labelKey": "holidays.assumption",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "LU_all_saints_day",
+      "countryCode": "LU",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "LU_christmas_day",
+      "countryCode": "LU",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "LU_st_stephens_day",
+      "countryCode": "LU",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "europe_day": "Europe Day",
+        "sovereigns_birthday": "Sovereign's birthday",
+        "all_saints_day": "All Saints' Day"
+      },
+      "fr": {
+        "europe_day": "Europadag",
+        "sovereigns_birthday": "Groussherzogsgebuertsdag",
+        "all_saints_day": "Allerhellgen"
+      }
+    }
+  }
+}

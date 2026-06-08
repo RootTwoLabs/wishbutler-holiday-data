@@ -1,0 +1,176 @@
+{
+  "countryCode": "ZA",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "ZA_new_years_day",
+      "countryCode": "ZA",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "ZA_human_rights_day",
+      "countryCode": "ZA",
+      "kind": "fixed",
+      "labelKey": "holidays.human_rights_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 21
+      }
+    },
+    {
+      "id": "ZA_good_friday",
+      "countryCode": "ZA",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "ZA_family_day",
+      "countryCode": "ZA",
+      "kind": "easter_relative",
+      "labelKey": "holidays.family_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "ZA_freedom_day",
+      "countryCode": "ZA",
+      "kind": "fixed",
+      "labelKey": "holidays.freedom_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 27
+      }
+    },
+    {
+      "id": "ZA_workers_day",
+      "countryCode": "ZA",
+      "kind": "fixed",
+      "labelKey": "holidays.workers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "ZA_youth_day",
+      "countryCode": "ZA",
+      "kind": "fixed",
+      "labelKey": "holidays.youth_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 16
+      }
+    },
+    {
+      "id": "ZA_national_womens_day",
+      "countryCode": "ZA",
+      "kind": "fixed",
+      "labelKey": "holidays.national_womens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 9
+      }
+    },
+    {
+      "id": "ZA_heritage_day",
+      "countryCode": "ZA",
+      "kind": "fixed",
+      "labelKey": "holidays.heritage_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 24
+      }
+    },
+    {
+      "id": "ZA_day_of_reconciliation",
+      "countryCode": "ZA",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_reconciliation",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 16
+      }
+    },
+    {
+      "id": "ZA_christmas_day",
+      "countryCode": "ZA",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "ZA_day_of_goodwill",
+      "countryCode": "ZA",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_goodwill",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "human_rights_day": "Human Rights Day",
+        "family_day": "Family Day",
+        "freedom_day": "Freedom Day",
+        "workers_day": "Workers' Day",
+        "youth_day": "Youth Day",
+        "national_womens_day": "National Women's Day",
+        "heritage_day": "Heritage Day",
+        "day_of_reconciliation": "Day of Reconciliation",
+        "day_of_goodwill": "Day of Goodwill"
+      }
+    }
+  }
+}

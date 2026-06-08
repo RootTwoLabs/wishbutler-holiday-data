@@ -1,0 +1,270 @@
+{
+  "countryCode": "PH",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "PH_new_years_day",
+      "countryCode": "PH",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "PH_chinese_new_year",
+      "countryCode": "PH",
+      "kind": "precomputed",
+      "labelKey": "holidays.chinese_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-17",
+          "2027": "02-06",
+          "2028": "01-26",
+          "2029": "02-13",
+          "2030": "02-03",
+          "2031": "01-23",
+          "2032": "02-11",
+          "2033": "01-31",
+          "2034": "02-19",
+          "2035": "02-08"
+        }
+      }
+    },
+    {
+      "id": "PH_maundy_thursday",
+      "countryCode": "PH",
+      "kind": "easter_relative",
+      "labelKey": "holidays.maundy_thursday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -3
+      }
+    },
+    {
+      "id": "PH_good_friday",
+      "countryCode": "PH",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "PH_holy_saturday",
+      "countryCode": "PH",
+      "kind": "easter_relative",
+      "labelKey": "holidays.holy_saturday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -1
+      }
+    },
+    {
+      "id": "PH_day_of_valor",
+      "countryCode": "PH",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_valor",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 9
+      }
+    },
+    {
+      "id": "PH_labour_day",
+      "countryCode": "PH",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "PH_independence_day",
+      "countryCode": "PH",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 12
+      }
+    },
+    {
+      "id": "PH_ninoy_aquino_day",
+      "countryCode": "PH",
+      "kind": "fixed",
+      "labelKey": "holidays.ninoy_aquino_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 21
+      }
+    },
+    {
+      "id": "PH_national_heroes_day",
+      "countryCode": "PH",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.national_heroes_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 5,
+        "weekday": 1,
+        "last": true
+      }
+    },
+    {
+      "id": "PH_all_saints_day_eve",
+      "countryCode": "PH",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 31
+      }
+    },
+    {
+      "id": "PH_all_saints_day",
+      "countryCode": "PH",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "PH_bonifacio_day",
+      "countryCode": "PH",
+      "kind": "fixed",
+      "labelKey": "holidays.bonifacio_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 30
+      }
+    },
+    {
+      "id": "PH_feast_of_the_immaculate_conception_of_mary",
+      "countryCode": "PH",
+      "kind": "fixed",
+      "labelKey": "holidays.feast_of_the_immaculate_conception_of_mary",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "PH_christmas_eve",
+      "countryCode": "PH",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "PH_christmas_day",
+      "countryCode": "PH",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "PH_rizal_day",
+      "countryCode": "PH",
+      "kind": "fixed",
+      "labelKey": "holidays.rizal_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 30
+      }
+    },
+    {
+      "id": "PH_last_day_of_the_year",
+      "countryCode": "PH",
+      "kind": "fixed",
+      "labelKey": "holidays.last_day_of_the_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "chinese_new_year": "Chinese New Year",
+        "maundy_thursday": "Maundy Thursday",
+        "holy_saturday": "Holy Saturday",
+        "day_of_valor": "Day of Valor",
+        "independence_day": "Independence Day",
+        "ninoy_aquino_day": "Ninoy Aquino Day",
+        "national_heroes_day": "National Heroes Day",
+        "all_saints_day_eve": "All Saints' Day Eve",
+        "all_saints_day": "All Saints' Day",
+        "bonifacio_day": "Bonifacio Day",
+        "feast_of_the_immaculate_conception_of_mary": "Feast of the Immaculate Conception of Mary",
+        "christmas_eve": "Christmas Eve",
+        "rizal_day": "Rizal Day",
+        "last_day_of_the_year": "Last Day of The Year"
+      }
+    }
+  }
+}

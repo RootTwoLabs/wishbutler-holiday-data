@@ -1,0 +1,150 @@
+{
+  "countryCode": "SG",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "SG_new_years_day",
+      "countryCode": "SG",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "SG_chinese_new_year",
+      "countryCode": "SG",
+      "kind": "precomputed",
+      "labelKey": "holidays.chinese_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-18",
+          "2027": "02-08",
+          "2028": "01-27",
+          "2029": "02-14",
+          "2030": "02-04",
+          "2031": "01-24",
+          "2032": "02-12",
+          "2033": "02-01",
+          "2034": "02-20",
+          "2035": "02-09"
+        }
+      }
+    },
+    {
+      "id": "SG_hari_raya_puasa",
+      "countryCode": "SG",
+      "kind": "precomputed",
+      "labelKey": "holidays.hari_raya_puasa",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "03-20",
+          "2027": "03-10"
+        }
+      }
+    },
+    {
+      "id": "SG_good_friday",
+      "countryCode": "SG",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "SG_labour_day",
+      "countryCode": "SG",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "SG_hari_raya_haji_tentative_date",
+      "countryCode": "SG",
+      "kind": "precomputed",
+      "labelKey": "holidays.hari_raya_haji_tentative_date",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-27",
+          "2027": "05-17"
+        }
+      }
+    },
+    {
+      "id": "SG_national_day",
+      "countryCode": "SG",
+      "kind": "fixed",
+      "labelKey": "holidays.national_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 9
+      }
+    },
+    {
+      "id": "SG_deepavali",
+      "countryCode": "SG",
+      "kind": "precomputed",
+      "labelKey": "holidays.deepavali",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-09",
+          "2027": "10-29"
+        }
+      }
+    },
+    {
+      "id": "SG_christmas_day",
+      "countryCode": "SG",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "chinese_new_year": "Chinese New Year",
+        "hari_raya_puasa": "Hari Raya Puasa",
+        "hari_raya_haji_tentative_date": "Hari Raya Haji (Tentative Date)",
+        "national_day": "National Day",
+        "deepavali": "Deepavali"
+      }
+    }
+  }
+}

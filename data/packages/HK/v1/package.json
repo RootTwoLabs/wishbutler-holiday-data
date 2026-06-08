@@ -1,0 +1,338 @@
+{
+  "countryCode": "HK",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "HK_new_years_day",
+      "countryCode": "HK",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "HK_lunar_new_year",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.lunar_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-17",
+          "2027": "02-06",
+          "2028": "01-26",
+          "2029": "02-13",
+          "2030": "02-04",
+          "2031": "01-23",
+          "2032": "02-11",
+          "2033": "01-31",
+          "2034": "02-20",
+          "2035": "02-08"
+        }
+      }
+    },
+    {
+      "id": "HK_second_day_of_lunar_new_year",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.second_day_of_lunar_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-18",
+          "2027": "02-08",
+          "2028": "01-27",
+          "2029": "02-14",
+          "2030": "02-05",
+          "2031": "01-24",
+          "2032": "02-12",
+          "2033": "02-01",
+          "2034": "02-21",
+          "2035": "02-09"
+        }
+      }
+    },
+    {
+      "id": "HK_third_day_of_lunar_new_year",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.third_day_of_lunar_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-19",
+          "2027": "02-09",
+          "2028": "01-28",
+          "2029": "02-15",
+          "2030": "02-06",
+          "2031": "01-25",
+          "2032": "02-13",
+          "2033": "02-02",
+          "2034": "02-22",
+          "2035": "02-10"
+        }
+      }
+    },
+    {
+      "id": "HK_good_friday",
+      "countryCode": "HK",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "HK_holy_saturday",
+      "countryCode": "HK",
+      "kind": "easter_relative",
+      "labelKey": "holidays.holy_saturday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -1
+      }
+    },
+    {
+      "id": "HK_ching_ming_festival",
+      "countryCode": "HK",
+      "kind": "fixed",
+      "labelKey": "holidays.ching_ming_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 4
+      }
+    },
+    {
+      "id": "HK_easter_monday",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_monday_hk",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-07",
+          "2027": "03-29",
+          "2028": "04-17",
+          "2029": "04-02",
+          "2030": "04-22",
+          "2031": "04-14",
+          "2032": "03-29",
+          "2033": "04-18",
+          "2034": "04-10",
+          "2035": "03-26"
+        }
+      }
+    },
+    {
+      "id": "HK_labour_day",
+      "countryCode": "HK",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "HK_buddhas_birthday",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.buddhas_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-25",
+          "2027": "05-13",
+          "2028": "05-02",
+          "2029": "05-21",
+          "2030": "05-09",
+          "2031": "04-29",
+          "2032": "05-17",
+          "2033": "05-06",
+          "2034": "05-25",
+          "2035": "05-15"
+        }
+      }
+    },
+    {
+      "id": "HK_dragon_boat_festival",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.dragon_boat_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "06-19",
+          "2027": "06-09",
+          "2028": "05-29",
+          "2029": "06-16",
+          "2030": "06-05",
+          "2031": "06-24",
+          "2032": "06-12",
+          "2033": "06-01",
+          "2034": "06-20",
+          "2035": "06-11"
+        }
+      }
+    },
+    {
+      "id": "HK_hong_kong_special_administrative_region_establishment_day",
+      "countryCode": "HK",
+      "kind": "fixed",
+      "labelKey": "holidays.hong_kong_special_administrative_region_establishment_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 1
+      }
+    },
+    {
+      "id": "HK_day_following_the_mid_autumn_festival",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.day_following_the_mid_autumn_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-26",
+          "2027": "09-16",
+          "2028": "10-04",
+          "2029": "09-24",
+          "2030": "09-13",
+          "2031": "10-02",
+          "2032": "09-20",
+          "2033": "09-09",
+          "2034": "09-28",
+          "2035": "09-17"
+        }
+      }
+    },
+    {
+      "id": "HK_national_day",
+      "countryCode": "HK",
+      "kind": "fixed",
+      "labelKey": "holidays.national_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 1
+      }
+    },
+    {
+      "id": "HK_chung_yeung_festival",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.chung_yeung_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "10-19",
+          "2027": "10-08",
+          "2028": "10-26",
+          "2029": "10-16",
+          "2030": "10-05",
+          "2031": "10-24",
+          "2032": "10-12",
+          "2033": "10-01",
+          "2034": "10-20",
+          "2035": "10-09"
+        }
+      }
+    },
+    {
+      "id": "HK_christmas_day",
+      "countryCode": "HK",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "HK_boxing_day",
+      "countryCode": "HK",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "lunar_new_year": "Lunar New Year",
+        "second_day_of_lunar_new_year": "Second day of Lunar New Year",
+        "third_day_of_lunar_new_year": "Third day of Lunar New Year",
+        "holy_saturday": "Holy Saturday",
+        "ching_ming_festival": "Ching Ming Festival",
+        "easter_monday_hk": "Easter Monday",
+        "buddhas_birthday": "Buddha's Birthday",
+        "dragon_boat_festival": "Dragon Boat Festival",
+        "hong_kong_special_administrative_region_establishment_day": "Hong Kong Special Administrative Region Establishment Day",
+        "day_following_the_mid_autumn_festival": "Day following the Mid-Autumn Festival",
+        "national_day": "National Day",
+        "chung_yeung_festival": "Chung Yeung Festival"
+      },
+      "zh": {
+        "lunar_new_year": "農曆年初一",
+        "second_day_of_lunar_new_year": "農曆年初二",
+        "third_day_of_lunar_new_year": "農曆年初三",
+        "holy_saturday": "耶穌受難節翌日",
+        "ching_ming_festival": "清明節",
+        "easter_monday_hk": "復活節星期一",
+        "buddhas_birthday": "佛誕",
+        "dragon_boat_festival": "端午節",
+        "hong_kong_special_administrative_region_establishment_day": "香港特別行政區成立紀念日",
+        "day_following_the_mid_autumn_festival": "中秋節翌日",
+        "national_day": "中華人民共和國國慶日",
+        "chung_yeung_festival": "重陽節"
+      }
+    }
+  }
+}

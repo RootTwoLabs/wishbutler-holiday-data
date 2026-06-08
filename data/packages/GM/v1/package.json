@@ -1,0 +1,131 @@
+{
+  "countryCode": "GM",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "GM_new_years_day",
+      "countryCode": "GM",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "GM_independence_day",
+      "countryCode": "GM",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 18
+      }
+    },
+    {
+      "id": "GM_good_friday",
+      "countryCode": "GM",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "GM_easter_monday",
+      "countryCode": "GM",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "GM_labour_day",
+      "countryCode": "GM",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "GM_africa_day",
+      "countryCode": "GM",
+      "kind": "fixed",
+      "labelKey": "holidays.africa_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 25
+      }
+    },
+    {
+      "id": "GM_revolution_day",
+      "countryCode": "GM",
+      "kind": "fixed",
+      "labelKey": "holidays.revolution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 22
+      }
+    },
+    {
+      "id": "GM_assumption_day",
+      "countryCode": "GM",
+      "kind": "fixed",
+      "labelKey": "holidays.assumption",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "GM_christmas_day",
+      "countryCode": "GM",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "independence_day": "Independence Day",
+        "africa_day": "Africa Day",
+        "revolution_day": "Revolution Day"
+      }
+    }
+  }
+}

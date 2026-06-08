@@ -1,0 +1,237 @@
+{
+  "countryCode": "AX",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "AX_new_years_day",
+      "countryCode": "AX",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "AX_epiphany",
+      "countryCode": "AX",
+      "kind": "fixed",
+      "labelKey": "holidays.epiphany",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "AX_good_friday",
+      "countryCode": "AX",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "AX_easter_sunday",
+      "countryCode": "AX",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "AX_easter_monday",
+      "countryCode": "AX",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "AX_may_day",
+      "countryCode": "AX",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "AX_ascension_day",
+      "countryCode": "AX",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ascension",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 39
+      }
+    },
+    {
+      "id": "AX_pentecost",
+      "countryCode": "AX",
+      "kind": "easter_relative",
+      "labelKey": "holidays.pentecost",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 49
+      }
+    },
+    {
+      "id": "AX_autonomy_day",
+      "countryCode": "AX",
+      "kind": "fixed",
+      "labelKey": "holidays.autonomy_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 9
+      }
+    },
+    {
+      "id": "AX_midsummer_evey",
+      "countryCode": "AX",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.midsummer_evey",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 6,
+        "nth": 3,
+        "weekday": 5
+      }
+    },
+    {
+      "id": "AX_midsummer_day",
+      "countryCode": "AX",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.midsummer_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 6,
+        "nth": 3,
+        "weekday": 6
+      }
+    },
+    {
+      "id": "AX_all_saints_day",
+      "countryCode": "AX",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 11,
+        "nth": 1,
+        "weekday": 6
+      }
+    },
+    {
+      "id": "AX_independence_day",
+      "countryCode": "AX",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 6
+      }
+    },
+    {
+      "id": "AX_christmas_eve",
+      "countryCode": "AX",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "AX_christmas_day",
+      "countryCode": "AX",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "AX_st_stephens_day",
+      "countryCode": "AX",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "easter_sunday": "Easter Sunday",
+        "pentecost": "Pentecost",
+        "autonomy_day": "Autonomy Day",
+        "midsummer_evey": "Midsummer Evey",
+        "midsummer_day": "Midsummer Day",
+        "all_saints_day": "All Saints Day",
+        "independence_day": "Independence Day",
+        "christmas_eve": "Christmas Eve"
+      },
+      "sv": {
+        "easter_sunday": "Påskdagen",
+        "pentecost": "Pingstdagen",
+        "autonomy_day": "Självstyrelsedagen",
+        "midsummer_evey": "Midsommarafton",
+        "midsummer_day": "Midsommardagen",
+        "all_saints_day": "Alla helgons dag",
+        "independence_day": "Självständighetsdagen",
+        "christmas_eve": "Julafton"
+      }
+    }
+  }
+}

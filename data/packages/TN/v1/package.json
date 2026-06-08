@@ -1,0 +1,131 @@
+{
+  "countryCode": "TN",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "TN_new_years_day",
+      "countryCode": "TN",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "TN_independence_day",
+      "countryCode": "TN",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 20
+      }
+    },
+    {
+      "id": "TN_martyrs_day",
+      "countryCode": "TN",
+      "kind": "fixed",
+      "labelKey": "holidays.martyrs_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 9
+      }
+    },
+    {
+      "id": "TN_labour_day",
+      "countryCode": "TN",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "TN_republic_day",
+      "countryCode": "TN",
+      "kind": "fixed",
+      "labelKey": "holidays.republic_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 25
+      }
+    },
+    {
+      "id": "TN_womens_day",
+      "countryCode": "TN",
+      "kind": "fixed",
+      "labelKey": "holidays.womens_day_tn",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 13
+      }
+    },
+    {
+      "id": "TN_evacuation_day",
+      "countryCode": "TN",
+      "kind": "fixed",
+      "labelKey": "holidays.evacuation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 15
+      }
+    },
+    {
+      "id": "TN_revolution_day",
+      "countryCode": "TN",
+      "kind": "fixed",
+      "labelKey": "holidays.revolution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 17
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "independence_day": "Independence Day",
+        "martyrs_day": "Martyrs' Day",
+        "republic_day": "Republic Day",
+        "womens_day_tn": "Women's Day",
+        "evacuation_day": "Evacuation Day",
+        "revolution_day": "Revolution Day"
+      },
+      "ar": {
+        "independence_day": "عيد الاستقلال",
+        "martyrs_day": "عيد الشهداء",
+        "republic_day": "عيد الجمهورية",
+        "womens_day_tn": "عيد المرأة",
+        "evacuation_day": "عيد الجلاء",
+        "revolution_day": "عيد الثورة"
+      }
+    }
+  }
+}

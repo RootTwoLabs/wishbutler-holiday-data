@@ -1,0 +1,116 @@
+{
+  "countryCode": "TR",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "TR_new_years_day",
+      "countryCode": "TR",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "TR_national_independence_childrens_day",
+      "countryCode": "TR",
+      "kind": "fixed",
+      "labelKey": "holidays.national_independence_childrens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 23
+      }
+    },
+    {
+      "id": "TR_labour_day",
+      "countryCode": "TR",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "TR_ataturk_commemoration_youth_day",
+      "countryCode": "TR",
+      "kind": "fixed",
+      "labelKey": "holidays.ataturk_commemoration_youth_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 19
+      }
+    },
+    {
+      "id": "TR_democracy_and_national_unity_day",
+      "countryCode": "TR",
+      "kind": "fixed",
+      "labelKey": "holidays.democracy_and_national_unity_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 15
+      }
+    },
+    {
+      "id": "TR_victory_day",
+      "countryCode": "TR",
+      "kind": "fixed",
+      "labelKey": "holidays.victory_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 30
+      }
+    },
+    {
+      "id": "TR_republic_day",
+      "countryCode": "TR",
+      "kind": "fixed",
+      "labelKey": "holidays.republic_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 29
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "national_independence_childrens_day": "National Independence & Children's Day",
+        "ataturk_commemoration_youth_day": "Atatürk Commemoration & Youth Day",
+        "democracy_and_national_unity_day": "Democracy and National Unity Day",
+        "victory_day": "Victory Day",
+        "republic_day": "Republic Day"
+      },
+      "tr": {
+        "national_independence_childrens_day": "Ulusal Egemenlik ve Çocuk Bayramı",
+        "ataturk_commemoration_youth_day": "Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+        "democracy_and_national_unity_day": "Demokrasi ve Millî Birlik Günü",
+        "victory_day": "Zafer Bayramı",
+        "republic_day": "Cumhuriyet Bayramı"
+      }
+    }
+  }
+}

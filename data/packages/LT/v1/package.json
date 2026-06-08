@@ -1,0 +1,213 @@
+{
+  "countryCode": "LT",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "LT_new_years_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "LT_the_day_of_restoration_of_the_state_of_lithuania",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.the_day_of_restoration_of_the_state_of_lithuania",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 16
+      }
+    },
+    {
+      "id": "LT_day_of_restoration_of_independence_of_lithuania",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_restoration_of_independence_of_lithuania",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 11
+      }
+    },
+    {
+      "id": "LT_easter_sunday",
+      "countryCode": "LT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "LT_easter_monday",
+      "countryCode": "LT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "LT_international_working_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.international_working_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "LT_st_johns_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.st_johns_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 24
+      }
+    },
+    {
+      "id": "LT_statehood_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.statehood_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 6
+      }
+    },
+    {
+      "id": "LT_assumption_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.assumption",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "LT_all_saints_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "LT_all_souls_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.all_souls_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 2
+      }
+    },
+    {
+      "id": "LT_christmas_eve",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "LT_christmas_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "LT_st_stephens_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "the_day_of_restoration_of_the_state_of_lithuania": "The Day of Restoration of the State of Lithuania",
+        "day_of_restoration_of_independence_of_lithuania": "Day of Restoration of Independence of Lithuania",
+        "easter_sunday": "Easter Sunday",
+        "international_working_day": "International Working Day",
+        "st_johns_day": "St. John's Day",
+        "statehood_day": "Statehood Day",
+        "all_saints_day": "All Saints' Day",
+        "all_souls_day": "All Souls' Day",
+        "christmas_eve": "Christmas Eve"
+      },
+      "lt": {
+        "the_day_of_restoration_of_the_state_of_lithuania": "Lietuvos valstybės atkūrimo diena",
+        "day_of_restoration_of_independence_of_lithuania": "Lietuvos nepriklausomybės atkūrimo diena",
+        "easter_sunday": "Velykos",
+        "international_working_day": "Tarptautinė darbo diena",
+        "st_johns_day": "Joninės, Rasos",
+        "statehood_day": "Valstybės diena",
+        "all_saints_day": "Visų šventųjų diena",
+        "all_souls_day": "Vėlinės",
+        "christmas_eve": "Šv. Kūčios"
+      }
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "countryCode": "HT",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "HT_new_years_day",
+      "countryCode": "HT",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "HT_ancestry_day",
+      "countryCode": "HT",
+      "kind": "fixed",
+      "labelKey": "holidays.ancestry_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "HT_epiphany",
+      "countryCode": "HT",
+      "kind": "fixed",
+      "labelKey": "holidays.epiphany",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "HT_carnival",
+      "countryCode": "HT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.carnival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -47
+      }
+    },
+    {
+      "id": "HT_ash_wednesday",
+      "countryCode": "HT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ash_wednesday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -46
+      }
+    },
+    {
+      "id": "HT_maundy_thursday",
+      "countryCode": "HT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.maundy_thursday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -3
+      }
+    },
+    {
+      "id": "HT_good_friday",
+      "countryCode": "HT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "HT_easter_sunday",
+      "countryCode": "HT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "HT_labour_and_agriculture_day",
+      "countryCode": "HT",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_and_agriculture_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "HT_ascension_day",
+      "countryCode": "HT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ascension",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 39
+      }
+    },
+    {
+      "id": "HT_flag_and_universities_day",
+      "countryCode": "HT",
+      "kind": "fixed",
+      "labelKey": "holidays.flag_and_universities_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 18
+      }
+    },
+    {
+      "id": "HT_corpus_christi",
+      "countryCode": "HT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.corpus_christi",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 60
+      }
+    },
+    {
+      "id": "HT_assumption_of_mary",
+      "countryCode": "HT",
+      "kind": "fixed",
+      "labelKey": "holidays.assumption",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "HT_dessalines_day",
+      "countryCode": "HT",
+      "kind": "fixed",
+      "labelKey": "holidays.dessalines_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 17
+      }
+    },
+    {
+      "id": "HT_all_saints_day",
+      "countryCode": "HT",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "HT_all_souls_day",
+      "countryCode": "HT",
+      "kind": "fixed",
+      "labelKey": "holidays.all_souls_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 2
+      }
+    },
+    {
+      "id": "HT_battle_of_vertieres_day",
+      "countryCode": "HT",
+      "kind": "fixed",
+      "labelKey": "holidays.battle_of_vertieres_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 18
+      }
+    },
+    {
+      "id": "HT_discovery_day",
+      "countryCode": "HT",
+      "kind": "fixed",
+      "labelKey": "holidays.discovery_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 5
+      }
+    },
+    {
+      "id": "HT_christmas_day",
+      "countryCode": "HT",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "ancestry_day": "Ancestry Day",
+        "carnival": "Carnival",
+        "ash_wednesday": "Ash Wednesday",
+        "maundy_thursday": "Maundy Thursday",
+        "easter_sunday": "Easter Sunday",
+        "labour_and_agriculture_day": "Labour and Agriculture Day",
+        "flag_and_universities_day": "Flag and Universities Day",
+        "dessalines_day": "Dessalines Day",
+        "all_saints_day": "All Saints Day",
+        "all_souls_day": "All Souls' Day",
+        "battle_of_vertieres_day": "Battle of Vertières Day",
+        "discovery_day": "Discovery Day"
+      },
+      "fr": {
+        "ancestry_day": "Jour des Aieux",
+        "carnival": "Carnaval",
+        "ash_wednesday": "Mercredi Des Cendres",
+        "maundy_thursday": "Jeudi saint",
+        "easter_sunday": "Pâques",
+        "labour_and_agriculture_day": "Fête du Travail / Fête des Travailleurs",
+        "flag_and_universities_day": "Jour du Drapeau et de l'Université",
+        "dessalines_day": "Anniversaire de la mort de Dessalines",
+        "all_saints_day": "La Toussaint",
+        "all_souls_day": "Jour des Morts",
+        "battle_of_vertieres_day": "Vertières",
+        "discovery_day": "Découverte d'Haïti"
+      }
+    }
+  }
+}

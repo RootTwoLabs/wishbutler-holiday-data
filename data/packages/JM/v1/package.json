@@ -1,0 +1,145 @@
+{
+  "countryCode": "JM",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "JM_new_years_day",
+      "countryCode": "JM",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "JM_ash_wednesday",
+      "countryCode": "JM",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ash_wednesday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -46
+      }
+    },
+    {
+      "id": "JM_good_friday",
+      "countryCode": "JM",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "JM_easter_monday",
+      "countryCode": "JM",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "JM_labour_day",
+      "countryCode": "JM",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day_jm",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 23
+      }
+    },
+    {
+      "id": "JM_emancipation_day",
+      "countryCode": "JM",
+      "kind": "fixed",
+      "labelKey": "holidays.emancipation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 1
+      }
+    },
+    {
+      "id": "JM_independence_day",
+      "countryCode": "JM",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 6
+      }
+    },
+    {
+      "id": "JM_national_heroes_day",
+      "countryCode": "JM",
+      "kind": "fixed",
+      "labelKey": "holidays.national_heroes_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 16
+      }
+    },
+    {
+      "id": "JM_christmas_day",
+      "countryCode": "JM",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "JM_st_stephens_day",
+      "countryCode": "JM",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "ash_wednesday": "Ash Wednesday",
+        "labour_day_jm": "Labour Day",
+        "emancipation_day": "Emancipation Day",
+        "independence_day": "Independence Day",
+        "national_heroes_day": "National Heroes Day"
+      }
+    }
+  }
+}

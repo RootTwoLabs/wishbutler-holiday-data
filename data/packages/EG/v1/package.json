@@ -1,0 +1,128 @@
+{
+  "countryCode": "EG",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "EG_christmas_day_orthodox",
+      "countryCode": "EG",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_day_orthodox",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 7
+      }
+    },
+    {
+      "id": "EG_revolution_day_2011_national_police_day",
+      "countryCode": "EG",
+      "kind": "fixed",
+      "labelKey": "holidays.revolution_day_2011_national_police_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 25
+      }
+    },
+    {
+      "id": "EG_sinai_liberation_day",
+      "countryCode": "EG",
+      "kind": "fixed",
+      "labelKey": "holidays.sinai_liberation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 25
+      }
+    },
+    {
+      "id": "EG_labour_day",
+      "countryCode": "EG",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "EG_june_30_revolution",
+      "countryCode": "EG",
+      "kind": "precomputed",
+      "labelKey": "holidays.june_30_revolution",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "07-02",
+          "2027": "07-01",
+          "2028": "07-02",
+          "2029": "06-30",
+          "2030": "06-30",
+          "2031": "07-03",
+          "2032": "07-01",
+          "2033": "06-30",
+          "2034": "07-02",
+          "2035": "06-30"
+        }
+      }
+    },
+    {
+      "id": "EG_revolution_day",
+      "countryCode": "EG",
+      "kind": "fixed",
+      "labelKey": "holidays.revolution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 23
+      }
+    },
+    {
+      "id": "EG_armed_forces_day",
+      "countryCode": "EG",
+      "kind": "fixed",
+      "labelKey": "holidays.armed_forces_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 6
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "christmas_day_orthodox": "Christmas Day (Orthodox)",
+        "revolution_day_2011_national_police_day": "Revolution Day 2011 / National Police Day",
+        "sinai_liberation_day": "Sinai Liberation Day",
+        "june_30_revolution": "June 30 Revolution",
+        "revolution_day": "Revolution Day",
+        "armed_forces_day": "Armed Forces Day"
+      },
+      "ar": {
+        "christmas_day_orthodox": "عيد الميلاد المجيد",
+        "revolution_day_2011_national_police_day": "عيد الثورة 25 يناير",
+        "sinai_liberation_day": "عيد تحرير سيناء",
+        "june_30_revolution": "ثورة 30 يونيو",
+        "revolution_day": "عيد ثورة 23 يوليو",
+        "armed_forces_day": "عيد القوات المسلحة"
+      }
+    }
+  }
+}

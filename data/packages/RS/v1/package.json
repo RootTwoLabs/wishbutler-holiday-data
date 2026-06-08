@@ -1,0 +1,165 @@
+{
+  "countryCode": "RS",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "RS_new_years_day",
+      "countryCode": "RS",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "RS_christmas_day",
+      "countryCode": "RS",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 7
+      }
+    },
+    {
+      "id": "RS_statehood_day",
+      "countryCode": "RS",
+      "kind": "fixed",
+      "labelKey": "holidays.statehood_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 16
+      }
+    },
+    {
+      "id": "RS_good_friday",
+      "countryCode": "RS",
+      "kind": "precomputed",
+      "labelKey": "holidays.good_friday_rs",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-10",
+          "2027": "04-30",
+          "2028": "04-14",
+          "2029": "04-06",
+          "2030": "04-26",
+          "2031": "04-11",
+          "2032": "04-30",
+          "2033": "04-22",
+          "2034": "04-07",
+          "2035": "04-27"
+        }
+      }
+    },
+    {
+      "id": "RS_easter_sunday",
+      "countryCode": "RS",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-12",
+          "2027": "05-02",
+          "2028": "04-16",
+          "2029": "04-08",
+          "2030": "04-28",
+          "2031": "04-13",
+          "2032": "05-02",
+          "2033": "04-24",
+          "2034": "04-09",
+          "2035": "04-29"
+        }
+      }
+    },
+    {
+      "id": "RS_easter_monday",
+      "countryCode": "RS",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_monday_rs",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-13",
+          "2027": "05-03",
+          "2028": "04-17",
+          "2029": "04-09",
+          "2030": "04-29",
+          "2031": "04-14",
+          "2032": "05-03",
+          "2033": "04-25",
+          "2034": "04-10",
+          "2035": "04-30"
+        }
+      }
+    },
+    {
+      "id": "RS_labour_day",
+      "countryCode": "RS",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day_rs",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 2
+      }
+    },
+    {
+      "id": "RS_armistice_day",
+      "countryCode": "RS",
+      "kind": "fixed",
+      "labelKey": "holidays.armistice_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 11
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "christmas_day": "Christmas Day",
+        "statehood_day": "Statehood Day",
+        "good_friday_rs": "Good Friday",
+        "easter_sunday": "Easter Sunday",
+        "easter_monday_rs": "Easter Monday",
+        "labour_day_rs": "Labour Day",
+        "armistice_day": "Armistice Day"
+      },
+      "sr": {
+        "new_years_day": "Nova Godina",
+        "christmas_day": "Božić",
+        "statehood_day": "Dan državnosti Srbije",
+        "good_friday_rs": "Veliki petak",
+        "easter_sunday": "Vaskrs (Uskrs)",
+        "easter_monday_rs": "Vaskrsni (Uskrsni) ponedeljak",
+        "labour_day_rs": "Praznik rada",
+        "armistice_day": "Dan primirja"
+      }
+    }
+  }
+}

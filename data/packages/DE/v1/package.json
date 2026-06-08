@@ -139,7 +139,7 @@
     },
     "holidayInfo": {
       "de": {
-        "german_unity": {
+        "german_unity_day": {
           "intro": "Der Tag der Deutschen Einheit erinnert an die Wiedervereinigung 1990.",
           "history": "Seit 1990 ist der 3. Oktober der Nationalfeiertag Deutschlands.",
           "traditions": "Buergerfeste, Reden und ein zentrales Festwochenende in wechselnden Staedten.",
@@ -147,7 +147,7 @@
         }
       },
       "en": {
-        "german_unity": {
+        "german_unity_day": {
           "intro": "German Unity Day marks the 1990 reunification of Germany.",
           "history": "Since 1990, October 3rd has been Germany's national day.",
           "traditions": "Citizen festivals, speeches and a central celebration hosted by a rotating state.",
@@ -157,7 +157,7 @@
     }
   },
   "images": {
-    "german_unity": [
+    "german_unity_day": [
       {
         "path": "images/german_unity/01.jpg",
         "credit": "Wikimedia Commons",

@@ -1,0 +1,146 @@
+{
+  "countryCode": "NG",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "NG_new_years_day",
+      "countryCode": "NG",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "NG_good_friday",
+      "countryCode": "NG",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "NG_easter_monday",
+      "countryCode": "NG",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "NG_workers_day",
+      "countryCode": "NG",
+      "kind": "fixed",
+      "labelKey": "holidays.workers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "NG_childrens_day",
+      "countryCode": "NG",
+      "kind": "fixed",
+      "labelKey": "holidays.childrens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 27
+      }
+    },
+    {
+      "id": "NG_democracy_day",
+      "countryCode": "NG",
+      "kind": "fixed",
+      "labelKey": "holidays.democracy_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 12
+      }
+    },
+    {
+      "id": "NG_national_day",
+      "countryCode": "NG",
+      "kind": "fixed",
+      "labelKey": "holidays.national_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 1
+      }
+    },
+    {
+      "id": "NG_national_youth_day",
+      "countryCode": "NG",
+      "kind": "fixed",
+      "labelKey": "holidays.national_youth_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "NG_christmas_day",
+      "countryCode": "NG",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "NG_boxing_day",
+      "countryCode": "NG",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "workers_day": "Workers' Day",
+        "childrens_day": "Children's Day",
+        "democracy_day": "Democracy Day",
+        "national_day": "National Day",
+        "national_youth_day": "National Youth Day"
+      }
+    }
+  }
+}
