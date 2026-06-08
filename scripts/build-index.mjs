@@ -15,7 +15,7 @@ const PACKAGES = join(DATA, 'packages');
 const INDEX = join(DATA, 'index.json');
 
 const DEFAULT_BASE_URL =
-  'https://cdn.jsdelivr.net/gh/REPLACE_ORG/wishbutler-holiday-data@latest/data';
+  'https://cdn.jsdelivr.net/gh/RootTwoLabs/wishbutler-holiday-data@main/data';
 
 async function readJson(path) {
   return JSON.parse(await readFile(path, 'utf8'));

@@ -11,10 +11,11 @@ as versioned JSON and delivered worldwide for free through the
 
 ## How the app consumes it
 
-The app reads a pinned release tag so the CDN cache busts deterministically:
+The app reads a pinned release tag so the CDN cache busts deterministically
+(use `@main` until the first CI release tag exists):
 
 ```
-https://cdn.jsdelivr.net/gh/<org>/wishbutler-holiday-data@<tag>/data/index.json
+https://cdn.jsdelivr.net/gh/RootTwoLabs/wishbutler-holiday-data@main/data/index.json
 ```
 
 1. Fetch `data/index.json` — the manifest of available countries + versions.
