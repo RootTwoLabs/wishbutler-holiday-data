@@ -7,7 +7,9 @@ Domain (PD), CC0, CC-BY, or CC-BY-SA. Each image's attribution and license is
 generated automatically by `scripts/fetch-images.mjs` and listed below.
 
 <!-- BEGIN:IMAGE-CREDITS (auto-generated) -->
-_No images generated yet. Run `npm run build:images`._
+- `images/christmas/01.jpg` — Lotus Head from Johannesburg, Gauteng, South Africa (CC BY-SA 3.0)
+- `images/christmas/02.jpg` — Benh LIEU SONG (Flickr) (CC BY-SA 3.0)
+- `images/easter_monday/01.jpg` — Jan Kameníček (Public domain)
 <!-- END:IMAGE-CREDITS -->
 
 ## Data sources

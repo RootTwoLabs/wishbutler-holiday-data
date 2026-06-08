@@ -1,0 +1,172 @@
+{
+  "countryCode": "UG",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "UG_new_years_day",
+      "countryCode": "UG",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "UG_liberation_day",
+      "countryCode": "UG",
+      "kind": "fixed",
+      "labelKey": "holidays.liberation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 26
+      }
+    },
+    {
+      "id": "UG_archbishop_janani_luwum_day",
+      "countryCode": "UG",
+      "kind": "fixed",
+      "labelKey": "holidays.archbishop_janani_luwum_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 16
+      }
+    },
+    {
+      "id": "UG_international_womens_day",
+      "countryCode": "UG",
+      "kind": "fixed",
+      "labelKey": "holidays.womens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 8
+      }
+    },
+    {
+      "id": "UG_good_friday",
+      "countryCode": "UG",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "UG_easter_monday",
+      "countryCode": "UG",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "UG_labour_day",
+      "countryCode": "UG",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "UG_martyrs_day",
+      "countryCode": "UG",
+      "kind": "fixed",
+      "labelKey": "holidays.martyrs_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 3
+      }
+    },
+    {
+      "id": "UG_national_heroes_day",
+      "countryCode": "UG",
+      "kind": "fixed",
+      "labelKey": "holidays.national_heroes_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 9
+      }
+    },
+    {
+      "id": "UG_independence_day",
+      "countryCode": "UG",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 9
+      }
+    },
+    {
+      "id": "UG_christmas_day",
+      "countryCode": "UG",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "UG_boxing_day",
+      "countryCode": "UG",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "liberation_day": "Liberation Day",
+        "archbishop_janani_luwum_day": "Archbishop Janani Luwum Day",
+        "martyrs_day": "Martyrs' Day",
+        "national_heroes_day": "National Heroes' Day",
+        "independence_day": "Independence Day"
+      }
+    }
+  }
+}

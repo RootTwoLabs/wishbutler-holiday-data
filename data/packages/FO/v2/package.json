@@ -1,0 +1,246 @@
+{
+  "countryCode": "FO",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "FO_new_years_day",
+      "countryCode": "FO",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "FO_maundy_thursday",
+      "countryCode": "FO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.maundy_thursday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -3
+      }
+    },
+    {
+      "id": "FO_good_friday",
+      "countryCode": "FO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "FO_easter_sunday",
+      "countryCode": "FO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "FO_easter_monday",
+      "countryCode": "FO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "FO_national_flag_day",
+      "countryCode": "FO",
+      "kind": "fixed",
+      "labelKey": "holidays.national_flag_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 25
+      }
+    },
+    {
+      "id": "FO_general_prayer_day",
+      "countryCode": "FO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.general_prayer_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 26
+      }
+    },
+    {
+      "id": "FO_ascension_day",
+      "countryCode": "FO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ascension",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 39
+      }
+    },
+    {
+      "id": "FO_pentecost",
+      "countryCode": "FO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.pentecost",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 49
+      }
+    },
+    {
+      "id": "FO_whit_monday",
+      "countryCode": "FO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.whit_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 50
+      }
+    },
+    {
+      "id": "FO_constitution_day",
+      "countryCode": "FO",
+      "kind": "fixed",
+      "labelKey": "holidays.constitution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 5
+      }
+    },
+    {
+      "id": "FO_saint_olavs_eve",
+      "countryCode": "FO",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_olavs_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 28
+      }
+    },
+    {
+      "id": "FO_saint_olavs_day",
+      "countryCode": "FO",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_olavs_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 29
+      }
+    },
+    {
+      "id": "FO_christmas_eve",
+      "countryCode": "FO",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "FO_christmas_day",
+      "countryCode": "FO",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "FO_st_stephens_day",
+      "countryCode": "FO",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    },
+    {
+      "id": "FO_new_years_eve",
+      "countryCode": "FO",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "maundy_thursday": "Maundy Thursday",
+        "easter_sunday": "Easter Sunday",
+        "national_flag_day": "National Flag Day",
+        "general_prayer_day": "General Prayer Day",
+        "pentecost": "Pentecost",
+        "constitution_day": "Constitution Day",
+        "saint_olavs_eve": "Saint Olav's Eve",
+        "saint_olavs_day": "Saint Olav's Day",
+        "christmas_eve": "Christmas Eve"
+      },
+      "fo": {
+        "maundy_thursday": "Skírhósdagur",
+        "easter_sunday": "Páskadagur",
+        "national_flag_day": "Flaggdagur",
+        "general_prayer_day": "Dýri biðidagur",
+        "pentecost": "Hvítasunnudagur",
+        "constitution_day": "Grundlógardagur Danmarkar",
+        "saint_olavs_eve": "Ólavsøkuaftan",
+        "saint_olavs_day": "Ólavsøkudagur",
+        "christmas_eve": "Jólaaftanskvøld"
+      }
+    }
+  }
+}

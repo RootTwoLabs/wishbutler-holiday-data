@@ -1,0 +1,270 @@
+{
+  "countryCode": "AR",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "AR_new_years_day",
+      "countryCode": "AR",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "AR_carnival",
+      "countryCode": "AR",
+      "kind": "easter_relative",
+      "labelKey": "holidays.carnival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -47
+      }
+    },
+    {
+      "id": "AR_day_of_remembrance_for_truth_and_justice",
+      "countryCode": "AR",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_remembrance_for_truth_and_justice",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 24
+      }
+    },
+    {
+      "id": "AR_day_of_the_veterans_and_fallen_of_the_malvinas_war",
+      "countryCode": "AR",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_the_veterans_and_fallen_of_the_malvinas_war",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 2
+      }
+    },
+    {
+      "id": "AR_good_friday",
+      "countryCode": "AR",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "AR_labour_day",
+      "countryCode": "AR",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "AR_may_revolution",
+      "countryCode": "AR",
+      "kind": "fixed",
+      "labelKey": "holidays.may_revolution",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 25
+      }
+    },
+    {
+      "id": "AR_anniversary_of_the_passing_of_general_martin_miguel_de_guemes",
+      "countryCode": "AR",
+      "kind": "precomputed",
+      "labelKey": "holidays.anniversary_of_the_passing_of_general_martin_miguel_de_guemes",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "06-15",
+          "2027": "06-21",
+          "2028": "06-17",
+          "2029": "06-17",
+          "2030": "06-17",
+          "2031": "06-16",
+          "2032": "06-21",
+          "2033": "06-20",
+          "2034": "06-17",
+          "2035": "06-17"
+        }
+      }
+    },
+    {
+      "id": "AR_general_manuel_belgrano_memorial_day",
+      "countryCode": "AR",
+      "kind": "fixed",
+      "labelKey": "holidays.general_manuel_belgrano_memorial_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 20
+      }
+    },
+    {
+      "id": "AR_independence_day",
+      "countryCode": "AR",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 9
+      }
+    },
+    {
+      "id": "AR_general_jose_de_san_martin_memorial_day",
+      "countryCode": "AR",
+      "kind": "precomputed",
+      "labelKey": "holidays.general_jose_de_san_martin_memorial_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "08-17",
+          "2027": "08-16",
+          "2028": "08-21",
+          "2029": "08-20",
+          "2030": "08-17",
+          "2031": "08-17",
+          "2032": "08-16",
+          "2033": "08-15",
+          "2034": "08-21",
+          "2035": "08-20"
+        }
+      }
+    },
+    {
+      "id": "AR_day_of_respect_for_cultural_diversity",
+      "countryCode": "AR",
+      "kind": "precomputed",
+      "labelKey": "holidays.day_of_respect_for_cultural_diversity",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "10-12",
+          "2027": "10-11",
+          "2028": "10-16",
+          "2029": "10-15",
+          "2030": "10-12",
+          "2031": "10-12",
+          "2032": "10-11",
+          "2033": "10-10",
+          "2034": "10-16",
+          "2035": "10-15"
+        }
+      }
+    },
+    {
+      "id": "AR_national_sovereignty_day",
+      "countryCode": "AR",
+      "kind": "precomputed",
+      "labelKey": "holidays.national_sovereignty_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-23",
+          "2027": "11-20",
+          "2028": "11-20",
+          "2029": "11-19",
+          "2030": "11-18",
+          "2031": "11-24",
+          "2032": "11-20",
+          "2033": "11-20",
+          "2034": "11-20",
+          "2035": "11-19"
+        }
+      }
+    },
+    {
+      "id": "AR_immaculate_conception_day",
+      "countryCode": "AR",
+      "kind": "fixed",
+      "labelKey": "holidays.immaculate_conception_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "AR_christmas_day",
+      "countryCode": "AR",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "carnival": "Carnival",
+        "day_of_remembrance_for_truth_and_justice": "Day of Remembrance for Truth and Justice",
+        "day_of_the_veterans_and_fallen_of_the_malvinas_war": "Day of the Veterans and Fallen of the Malvinas War",
+        "may_revolution": "May Revolution",
+        "anniversary_of_the_passing_of_general_martin_miguel_de_guemes": "Anniversary of the Passing of General Martín Miguel de Güemes",
+        "general_manuel_belgrano_memorial_day": "General Manuel Belgrano Memorial Day",
+        "independence_day": "Independence Day",
+        "general_jose_de_san_martin_memorial_day": "General José de San Martín Memorial Day",
+        "day_of_respect_for_cultural_diversity": "Day of Respect for Cultural Diversity",
+        "national_sovereignty_day": "National Sovereignty Day",
+        "immaculate_conception_day": "Immaculate Conception Day"
+      },
+      "es": {
+        "carnival": "Carnaval",
+        "day_of_remembrance_for_truth_and_justice": "Día Nacional de la Memoria por la Verdad y la Justicia",
+        "day_of_the_veterans_and_fallen_of_the_malvinas_war": "Día del Veterano y de los Caídos en la Guerra de Malvinas",
+        "may_revolution": "Día de la Revolución de Mayo",
+        "anniversary_of_the_passing_of_general_martin_miguel_de_guemes": "Paso a la Inmortalidad del General Martín Miguel de Güemes",
+        "general_manuel_belgrano_memorial_day": "Paso a la Inmortalidad del General Manuel Belgrano",
+        "independence_day": "Día de la Independencia",
+        "general_jose_de_san_martin_memorial_day": "Paso a la Inmortalidad del General José de San Martín",
+        "day_of_respect_for_cultural_diversity": "Día del Respeto a la Diversidad Cultural",
+        "national_sovereignty_day": "Día de la Soberanía Nacional",
+        "immaculate_conception_day": "Día de la Inmaculada Concepción de María"
+      }
+    }
+  }
+}

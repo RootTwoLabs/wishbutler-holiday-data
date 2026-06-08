@@ -1,0 +1,188 @@
+{
+  "countryCode": "NI",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "NI_new_years_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "NI_air_force_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.air_force_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 1
+      }
+    },
+    {
+      "id": "NI_holy_thursday",
+      "countryCode": "NI",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.holy_thursday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 4,
+        "nth": 1,
+        "weekday": 4
+      }
+    },
+    {
+      "id": "NI_labour_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "NI_army_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.army_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 27
+      }
+    },
+    {
+      "id": "NI_liberation_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.liberation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 19
+      }
+    },
+    {
+      "id": "NI_battle_of_san_jacinto",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.battle_of_san_jacinto",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 14
+      }
+    },
+    {
+      "id": "NI_independence_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 15
+      }
+    },
+    {
+      "id": "NI_indigenous_resistance_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.indigenous_resistance_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 12
+      }
+    },
+    {
+      "id": "NI_immaculate_conception",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.immaculate_conception",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "NI_christmas_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "NI_new_years_eve",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "air_force_day": "Air Force Day",
+        "holy_thursday": "Holy Thursday",
+        "army_day": "Army Day",
+        "liberation_day": "Liberation Day",
+        "battle_of_san_jacinto": "Battle of San Jacinto",
+        "independence_day": "Independence Day",
+        "indigenous_resistance_day": "Indigenous Resistance Day",
+        "immaculate_conception": "Immaculate Conception"
+      },
+      "es": {
+        "air_force_day": "Air Force Day",
+        "holy_thursday": "Holy Thursday",
+        "army_day": "Army Day",
+        "liberation_day": "Liberation Day",
+        "battle_of_san_jacinto": "Battle of San Jacinto",
+        "independence_day": "Independence Day",
+        "indigenous_resistance_day": "Indigenous Resistance Day",
+        "immaculate_conception": "Immaculate Conception"
+      }
+    }
+  }
+}

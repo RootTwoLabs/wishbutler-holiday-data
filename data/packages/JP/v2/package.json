@@ -1,0 +1,257 @@
+{
+  "countryCode": "JP",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "JP_new_years_day",
+      "countryCode": "JP",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "JP_coming_of_age_day",
+      "countryCode": "JP",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.coming_of_age_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 1,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "JP_foundation_day",
+      "countryCode": "JP",
+      "kind": "fixed",
+      "labelKey": "holidays.foundation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 11
+      }
+    },
+    {
+      "id": "JP_the_emperors_birthday",
+      "countryCode": "JP",
+      "kind": "fixed",
+      "labelKey": "holidays.the_emperors_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 23
+      }
+    },
+    {
+      "id": "JP_vernal_equinox_day",
+      "countryCode": "JP",
+      "kind": "fixed",
+      "labelKey": "holidays.vernal_equinox_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 20
+      }
+    },
+    {
+      "id": "JP_showa_day",
+      "countryCode": "JP",
+      "kind": "fixed",
+      "labelKey": "holidays.showa_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 29
+      }
+    },
+    {
+      "id": "JP_constitution_memorial_day",
+      "countryCode": "JP",
+      "kind": "fixed",
+      "labelKey": "holidays.constitution_memorial_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 3
+      }
+    },
+    {
+      "id": "JP_greenery_day",
+      "countryCode": "JP",
+      "kind": "fixed",
+      "labelKey": "holidays.greenery_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 4
+      }
+    },
+    {
+      "id": "JP_childrens_day",
+      "countryCode": "JP",
+      "kind": "fixed",
+      "labelKey": "holidays.childrens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 5
+      }
+    },
+    {
+      "id": "JP_marine_day",
+      "countryCode": "JP",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.marine_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 7,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "JP_mountain_day",
+      "countryCode": "JP",
+      "kind": "fixed",
+      "labelKey": "holidays.mountain_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 11
+      }
+    },
+    {
+      "id": "JP_respect_for_the_aged_day",
+      "countryCode": "JP",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.respect_for_the_aged_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "JP_autumnal_equinox_day",
+      "countryCode": "JP",
+      "kind": "fixed",
+      "labelKey": "holidays.autumnal_equinox_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 23
+      }
+    },
+    {
+      "id": "JP_sports_day",
+      "countryCode": "JP",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.sports_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "JP_culture_day",
+      "countryCode": "JP",
+      "kind": "fixed",
+      "labelKey": "holidays.culture_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 3
+      }
+    },
+    {
+      "id": "JP_labour_thanksgiving_day",
+      "countryCode": "JP",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_thanksgiving_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 23
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "coming_of_age_day": "Coming of Age Day",
+        "foundation_day": "Foundation Day",
+        "the_emperors_birthday": "The Emperor's Birthday",
+        "vernal_equinox_day": "Vernal Equinox Day",
+        "showa_day": "Shōwa Day",
+        "constitution_memorial_day": "Constitution Memorial Day",
+        "greenery_day": "Greenery Day",
+        "childrens_day": "Children's Day",
+        "marine_day": "Marine Day",
+        "mountain_day": "Mountain Day",
+        "respect_for_the_aged_day": "Respect for the Aged Day",
+        "autumnal_equinox_day": "Autumnal Equinox Day",
+        "sports_day": "Sports Day",
+        "culture_day": "Culture Day",
+        "labour_thanksgiving_day": "Labour Thanksgiving Day"
+      },
+      "ja": {
+        "coming_of_age_day": "成人の日",
+        "foundation_day": "建国記念の日",
+        "the_emperors_birthday": "天皇誕生日",
+        "vernal_equinox_day": "春分の日",
+        "showa_day": "昭和の日",
+        "constitution_memorial_day": "憲法記念日",
+        "greenery_day": "みどりの日",
+        "childrens_day": "こどもの日",
+        "marine_day": "海の日",
+        "mountain_day": "山の日",
+        "respect_for_the_aged_day": "敬老の日",
+        "autumnal_equinox_day": "秋分の日",
+        "sports_day": "スポーツの日",
+        "culture_day": "文化の日",
+        "labour_thanksgiving_day": "勤労感謝の日"
+      }
+    }
+  }
+}

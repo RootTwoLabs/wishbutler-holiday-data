@@ -1,0 +1,143 @@
+{
+  "countryCode": "CU",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "CU_triumph_of_the_revolution",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.triumph_of_the_revolution",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "CU_victory_of_fidel_castro",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.victory_of_fidel_castro",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "CU_good_friday",
+      "countryCode": "CU",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "CU_labour_day",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "CU_day_before_the_commemoration_of_the_assault_of_the_moncada_garrison",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.day_before_the_commemoration_of_the_assault_of_the_moncada_garrison",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 25
+      }
+    },
+    {
+      "id": "CU_commemoration_of_the_assault_of_the_moncada_garrison",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.commemoration_of_the_assault_of_the_moncada_garrison",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 26
+      }
+    },
+    {
+      "id": "CU_day_after_the_commemoration_of_the_assault_of_the_moncada_garrison",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.day_after_the_commemoration_of_the_assault_of_the_moncada_garrison",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 27
+      }
+    },
+    {
+      "id": "CU_independence_day",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 10
+      }
+    },
+    {
+      "id": "CU_christmas_day",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "triumph_of_the_revolution": "Triumph of the Revolution",
+        "victory_of_fidel_castro": "Victory of Fidel Castro",
+        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "Day before the Commemoration of the Assault of the Moncada garrison",
+        "commemoration_of_the_assault_of_the_moncada_garrison": "Commemoration of the Assault of the Moncada garrison",
+        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "Day after the Commemoration of the Assault of the Moncada garrison",
+        "independence_day": "Independence Day"
+      },
+      "es": {
+        "triumph_of_the_revolution": "Triunfo de la Revolución",
+        "victory_of_fidel_castro": "Día de Victoria de las Fuerzas Armadas",
+        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "Conmemoración del asalto a Moncada",
+        "commemoration_of_the_assault_of_the_moncada_garrison": "Día de la Rebeldía Nacional",
+        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "Conmemoración del asalto a Moncada",
+        "independence_day": "Día de la Independencia"
+      }
+    }
+  }
+}

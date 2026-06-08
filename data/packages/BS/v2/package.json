@@ -1,0 +1,209 @@
+{
+  "countryCode": "BS",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "BS_new_years_day",
+      "countryCode": "BS",
+      "kind": "precomputed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-02",
+          "2027": "01-01",
+          "2028": "01-03",
+          "2029": "01-01",
+          "2030": "12-31",
+          "2031": "01-03",
+          "2032": "01-02",
+          "2033": "01-03",
+          "2034": "01-02",
+          "2035": "01-01"
+        }
+      }
+    },
+    {
+      "id": "BS_majority_rule_day",
+      "countryCode": "BS",
+      "kind": "precomputed",
+      "labelKey": "holidays.majority_rule_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-12",
+          "2027": "01-11",
+          "2028": "01-10",
+          "2029": "01-12",
+          "2030": "01-11",
+          "2031": "01-10",
+          "2032": "01-12",
+          "2033": "01-10",
+          "2034": "01-09",
+          "2035": "01-12"
+        }
+      }
+    },
+    {
+      "id": "BS_perry_christie_day",
+      "countryCode": "BS",
+      "kind": "precomputed",
+      "labelKey": "holidays.perry_christie_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-03",
+          "2027": "04-02",
+          "2028": "04-03",
+          "2029": "04-02",
+          "2030": "04-01",
+          "2031": "03-31",
+          "2032": "04-02",
+          "2033": "04-01",
+          "2034": "04-03",
+          "2035": "04-02"
+        }
+      }
+    },
+    {
+      "id": "BS_good_friday",
+      "countryCode": "BS",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "BS_easter_monday",
+      "countryCode": "BS",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "BS_whit_monday",
+      "countryCode": "BS",
+      "kind": "easter_relative",
+      "labelKey": "holidays.whit_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 50
+      }
+    },
+    {
+      "id": "BS_independence_day",
+      "countryCode": "BS",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 10
+      }
+    },
+    {
+      "id": "BS_emancipation_day",
+      "countryCode": "BS",
+      "kind": "precomputed",
+      "labelKey": "holidays.emancipation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "08-07",
+          "2027": "08-06",
+          "2028": "08-07",
+          "2029": "08-06",
+          "2030": "08-05",
+          "2031": "08-04",
+          "2032": "08-06",
+          "2033": "08-05",
+          "2034": "08-07",
+          "2035": "08-06"
+        }
+      }
+    },
+    {
+      "id": "BS_national_heroes_day",
+      "countryCode": "BS",
+      "kind": "precomputed",
+      "labelKey": "holidays.national_heroes_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "10-12",
+          "2027": "10-11",
+          "2028": "10-13",
+          "2029": "10-12",
+          "2030": "10-14",
+          "2031": "10-13",
+          "2032": "10-11",
+          "2033": "10-14",
+          "2034": "10-13",
+          "2035": "10-12"
+        }
+      }
+    },
+    {
+      "id": "BS_christmas_day",
+      "countryCode": "BS",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "BS_st_stephens_day",
+      "countryCode": "BS",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "majority_rule_day": "Majority Rule Day",
+        "perry_christie_day": "Perry Christie Day",
+        "independence_day": "Independence Day",
+        "emancipation_day": "Emancipation Day",
+        "national_heroes_day": "National Heroes' Day"
+      }
+    }
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "countryCode": "UY",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "UY_new_years_day",
+      "countryCode": "UY",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "UY_childrens_day",
+      "countryCode": "UY",
+      "kind": "fixed",
+      "labelKey": "holidays.childrens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "UY_carnival",
+      "countryCode": "UY",
+      "kind": "easter_relative",
+      "labelKey": "holidays.carnival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -47
+      }
+    },
+    {
+      "id": "UY_maundy_thursday",
+      "countryCode": "UY",
+      "kind": "easter_relative",
+      "labelKey": "holidays.maundy_thursday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -3
+      }
+    },
+    {
+      "id": "UY_good_friday",
+      "countryCode": "UY",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "UY_landing_of_the_33_patriots_day",
+      "countryCode": "UY",
+      "kind": "fixed",
+      "labelKey": "holidays.landing_of_the_33_patriots_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 19
+      }
+    },
+    {
+      "id": "UY_international_workers_day",
+      "countryCode": "UY",
+      "kind": "fixed",
+      "labelKey": "holidays.international_workers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "UY_battle_of_las_piedras",
+      "countryCode": "UY",
+      "kind": "fixed",
+      "labelKey": "holidays.battle_of_las_piedras",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 18
+      }
+    },
+    {
+      "id": "UY_birthday_of_jose_gervasio_artigas_and_never_again_day",
+      "countryCode": "UY",
+      "kind": "fixed",
+      "labelKey": "holidays.birthday_of_jose_gervasio_artigas_and_never_again_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 19
+      }
+    },
+    {
+      "id": "UY_constitution_day",
+      "countryCode": "UY",
+      "kind": "fixed",
+      "labelKey": "holidays.constitution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 18
+      }
+    },
+    {
+      "id": "UY_independence_day",
+      "countryCode": "UY",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 25
+      }
+    },
+    {
+      "id": "UY_day_of_the_race",
+      "countryCode": "UY",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_the_race",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 12
+      }
+    },
+    {
+      "id": "UY_deceased_ones_day",
+      "countryCode": "UY",
+      "kind": "fixed",
+      "labelKey": "holidays.deceased_ones_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 2
+      }
+    },
+    {
+      "id": "UY_christmas_day",
+      "countryCode": "UY",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "childrens_day": "Children's Day",
+        "carnival": "Carnival",
+        "maundy_thursday": "Maundy Thursday",
+        "landing_of_the_33_patriots_day": "Landing of the 33 Patriots Day",
+        "international_workers_day": "International Workers' Day",
+        "battle_of_las_piedras": "Battle of Las Piedras",
+        "birthday_of_jose_gervasio_artigas_and_never_again_day": "Birthday of José Gervasio Artigas and Never Again Day",
+        "constitution_day": "Constitution Day",
+        "independence_day": "Independence Day",
+        "day_of_the_race": "Day of the race",
+        "deceased_ones_day": "Deceased ones day"
+      },
+      "es": {
+        "childrens_day": "Día de los Niños",
+        "carnival": "Carnaval",
+        "maundy_thursday": "Semana de Turismo",
+        "landing_of_the_33_patriots_day": "Desembarco de los 33 Orientales",
+        "international_workers_day": "Día de los Trabajadores",
+        "battle_of_las_piedras": "Batalla de las Piedras",
+        "birthday_of_jose_gervasio_artigas_and_never_again_day": "Natalicio de Artigas y Día del Nunca Más",
+        "constitution_day": "Jura de la Constitución",
+        "independence_day": "Día de la Independencia",
+        "day_of_the_race": "Día de la Raza",
+        "deceased_ones_day": "Día de los Difuntos"
+      }
+    }
+  }
+}

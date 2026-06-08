@@ -1,0 +1,310 @@
+{
+  "countryCode": "RO",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "RO_new_years_day",
+      "countryCode": "RO",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "RO_day_after_new_years_day",
+      "countryCode": "RO",
+      "kind": "fixed",
+      "labelKey": "holidays.day_after_new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "RO_epiphany",
+      "countryCode": "RO",
+      "kind": "fixed",
+      "labelKey": "holidays.epiphany",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "RO_saint_john_the_baptist",
+      "countryCode": "RO",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_john_the_baptist",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 7
+      }
+    },
+    {
+      "id": "RO_union_day_small_union",
+      "countryCode": "RO",
+      "kind": "fixed",
+      "labelKey": "holidays.union_day_small_union",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 24
+      }
+    },
+    {
+      "id": "RO_good_friday",
+      "countryCode": "RO",
+      "kind": "precomputed",
+      "labelKey": "holidays.good_friday_ro",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-10",
+          "2027": "04-30",
+          "2028": "04-14",
+          "2029": "04-06",
+          "2030": "04-26",
+          "2031": "04-11",
+          "2032": "04-30",
+          "2033": "04-22",
+          "2034": "04-07",
+          "2035": "04-27"
+        }
+      }
+    },
+    {
+      "id": "RO_easter_sunday",
+      "countryCode": "RO",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-12",
+          "2027": "05-02",
+          "2028": "04-16",
+          "2029": "04-08",
+          "2030": "04-28",
+          "2031": "04-13",
+          "2032": "05-02",
+          "2033": "04-24",
+          "2034": "04-09",
+          "2035": "04-29"
+        }
+      }
+    },
+    {
+      "id": "RO_easter_monday",
+      "countryCode": "RO",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_monday_ro",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-13",
+          "2027": "05-03",
+          "2028": "04-17",
+          "2029": "04-09",
+          "2030": "04-29",
+          "2031": "04-14",
+          "2032": "05-03",
+          "2033": "04-25",
+          "2034": "04-10",
+          "2035": "04-30"
+        }
+      }
+    },
+    {
+      "id": "RO_labour_day",
+      "countryCode": "RO",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "RO_pentecost",
+      "countryCode": "RO",
+      "kind": "precomputed",
+      "labelKey": "holidays.pentecost",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-31",
+          "2027": "06-20",
+          "2028": "06-04",
+          "2029": "05-27",
+          "2030": "06-16",
+          "2031": "06-01",
+          "2032": "06-20",
+          "2033": "06-12",
+          "2034": "05-28",
+          "2035": "06-17"
+        }
+      }
+    },
+    {
+      "id": "RO_childrens_day",
+      "countryCode": "RO",
+      "kind": "fixed",
+      "labelKey": "holidays.childrens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 1
+      }
+    },
+    {
+      "id": "RO_whit_monday",
+      "countryCode": "RO",
+      "kind": "precomputed",
+      "labelKey": "holidays.whit_monday_ro",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "06-01",
+          "2027": "06-21",
+          "2028": "06-05",
+          "2029": "05-28",
+          "2030": "06-17",
+          "2031": "06-02",
+          "2032": "06-21",
+          "2033": "06-13",
+          "2034": "05-29",
+          "2035": "06-18"
+        }
+      }
+    },
+    {
+      "id": "RO_dormition_of_the_theotokos",
+      "countryCode": "RO",
+      "kind": "fixed",
+      "labelKey": "holidays.dormition_of_the_theotokos",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "RO_st_andrews_day",
+      "countryCode": "RO",
+      "kind": "fixed",
+      "labelKey": "holidays.st_andrews_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 30
+      }
+    },
+    {
+      "id": "RO_national_day_great_union",
+      "countryCode": "RO",
+      "kind": "fixed",
+      "labelKey": "holidays.national_day_great_union",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 1
+      }
+    },
+    {
+      "id": "RO_christmas_day",
+      "countryCode": "RO",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "RO_st_stephens_day",
+      "countryCode": "RO",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "day_after_new_years_day": "Day after New Year's Day",
+        "saint_john_the_baptist": "Saint John the Baptist",
+        "union_day_small_union": "Union Day/Small Union",
+        "good_friday_ro": "Good Friday",
+        "easter_sunday": "Easter Sunday",
+        "easter_monday_ro": "Easter Monday",
+        "pentecost": "Pentecost",
+        "childrens_day": "Children's Day",
+        "whit_monday_ro": "Whit Monday",
+        "dormition_of_the_theotokos": "Dormition of the Theotokos",
+        "st_andrews_day": "St. Andrew's Day",
+        "national_day_great_union": "National Day/Great Union"
+      },
+      "ro": {
+        "day_after_new_years_day": "Anul Nou",
+        "saint_john_the_baptist": "Sfântul Ion",
+        "union_day_small_union": "Unirea Principatelor Române/Mica Unire",
+        "good_friday_ro": "Vinerea mare",
+        "easter_sunday": "Paștele",
+        "easter_monday_ro": "Paștele",
+        "pentecost": "Rusaliile",
+        "childrens_day": "Ziua Copilului",
+        "whit_monday_ro": "Rusaliile",
+        "dormition_of_the_theotokos": "Adormirea Maicii Domnului/Sfânta Maria Mare",
+        "st_andrews_day": "Sfântul Andrei",
+        "national_day_great_union": "Ziua Națională/Marea Unire"
+      }
+    }
+  }
+}

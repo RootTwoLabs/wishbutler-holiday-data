@@ -1,0 +1,246 @@
+{
+  "countryCode": "MD",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "MD_new_years_day",
+      "countryCode": "MD",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "MD_christmas_day_orthodox",
+      "countryCode": "MD",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_day_orthodox",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 8
+      }
+    },
+    {
+      "id": "MD_day_of_veterans_of_the_armed_forces_and_law_enforcement_agencies",
+      "countryCode": "MD",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_veterans_of_the_armed_forces_and_law_enforcement_agencies",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 23
+      }
+    },
+    {
+      "id": "MD_international_womens_day",
+      "countryCode": "MD",
+      "kind": "fixed",
+      "labelKey": "holidays.womens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 8
+      }
+    },
+    {
+      "id": "MD_easter_sunday",
+      "countryCode": "MD",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-12",
+          "2027": "05-02",
+          "2028": "04-16",
+          "2029": "04-08",
+          "2030": "04-28",
+          "2031": "04-13",
+          "2032": "05-02",
+          "2033": "04-24",
+          "2034": "04-09",
+          "2035": "04-29"
+        }
+      }
+    },
+    {
+      "id": "MD_labour_day_moldova",
+      "countryCode": "MD",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day_moldova",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "MD_victory_and_commemoration_day",
+      "countryCode": "MD",
+      "kind": "fixed",
+      "labelKey": "holidays.victory_and_commemoration_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 9
+      }
+    },
+    {
+      "id": "MD_balti_day",
+      "countryCode": "MD",
+      "kind": "fixed",
+      "labelKey": "holidays.balti_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 22
+      }
+    },
+    {
+      "id": "MD_independence_day_moldova",
+      "countryCode": "MD",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day_moldova",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 27
+      }
+    },
+    {
+      "id": "MD_memorial_day",
+      "countryCode": "MD",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.memorial_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 5,
+        "weekday": 1,
+        "last": true
+      }
+    },
+    {
+      "id": "MD_limba_noastra_national_language_day",
+      "countryCode": "MD",
+      "kind": "fixed",
+      "labelKey": "holidays.limba_noastra_national_language_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 31
+      }
+    },
+    {
+      "id": "MD_day_of_the_moldovan_national_army",
+      "countryCode": "MD",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_the_moldovan_national_army",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 3
+      }
+    },
+    {
+      "id": "MD_capitals_day",
+      "countryCode": "MD",
+      "kind": "fixed",
+      "labelKey": "holidays.capitals_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 14
+      }
+    },
+    {
+      "id": "MD_south_capitals_day_cahul",
+      "countryCode": "MD",
+      "kind": "fixed",
+      "labelKey": "holidays.south_capitals_day_cahul",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 21
+      }
+    },
+    {
+      "id": "MD_christmas_day",
+      "countryCode": "MD",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "christmas_day_orthodox": "Christmas Day (Orthodox)",
+        "day_of_veterans_of_the_armed_forces_and_law_enforcement_agencies": "Day of Veterans of the Armed Forces and Law Enforcement Agencies",
+        "easter_sunday": "Easter Sunday",
+        "labour_day_moldova": "Labour Day (Moldova)",
+        "victory_and_commemoration_day": "Victory and Commemoration Day",
+        "balti_day": "Bălţi Day",
+        "independence_day_moldova": "Independence Day (Moldova)",
+        "memorial_day": "Memorial Day",
+        "limba_noastra_national_language_day": "Limba Noastra (National Language Day)",
+        "day_of_the_moldovan_national_army": "Day of the Moldovan National Army",
+        "capitals_day": "Capital's Day",
+        "south_capitals_day_cahul": "South Capital's Day Cahul"
+      },
+      "ro": {
+        "christmas_day_orthodox": "Craciun pe stil Vechi (Orthodox Christmas)",
+        "day_of_veterans_of_the_armed_forces_and_law_enforcement_agencies": "Day of Veterans of the Armed Forces and Law Enforcement Agencies",
+        "easter_sunday": "Orthodox Easter",
+        "labour_day_moldova": "Labour Day (Moldova)",
+        "victory_and_commemoration_day": "Victory and Commemoration Day",
+        "balti_day": "Bălţi Day",
+        "independence_day_moldova": "Independence Day",
+        "memorial_day": "Memorial Day",
+        "limba_noastra_national_language_day": "Limba Noastra",
+        "day_of_the_moldovan_national_army": "Day of the Moldovan National Army",
+        "capitals_day": "Capital's Day",
+        "south_capitals_day_cahul": "South Capital's Day Cahul"
+      }
+    }
+  }
+}

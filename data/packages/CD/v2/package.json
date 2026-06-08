@@ -1,0 +1,174 @@
+{
+  "countryCode": "CD",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "CD_new_years_day",
+      "countryCode": "CD",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "CD_martyrs_day",
+      "countryCode": "CD",
+      "kind": "fixed",
+      "labelKey": "holidays.martyrs_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 4
+      }
+    },
+    {
+      "id": "CD_laurent_desire_kabila_assassination",
+      "countryCode": "CD",
+      "kind": "fixed",
+      "labelKey": "holidays.laurent_desire_kabila_assassination",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 16
+      }
+    },
+    {
+      "id": "CD_patrice_lumumba_assassination",
+      "countryCode": "CD",
+      "kind": "fixed",
+      "labelKey": "holidays.patrice_lumumba_assassination",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 17
+      }
+    },
+    {
+      "id": "CD_kimbangus_day",
+      "countryCode": "CD",
+      "kind": "fixed",
+      "labelKey": "holidays.kimbangus_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 6
+      }
+    },
+    {
+      "id": "CD_labour_day",
+      "countryCode": "CD",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "CD_liberation_day",
+      "countryCode": "CD",
+      "kind": "fixed",
+      "labelKey": "holidays.liberation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 17
+      }
+    },
+    {
+      "id": "CD_independence_day",
+      "countryCode": "CD",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 30
+      }
+    },
+    {
+      "id": "CD_parents_day",
+      "countryCode": "CD",
+      "kind": "fixed",
+      "labelKey": "holidays.parents_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 1
+      }
+    },
+    {
+      "id": "CD_congolese_genocide_day",
+      "countryCode": "CD",
+      "kind": "fixed",
+      "labelKey": "holidays.congolese_genocide_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 2
+      }
+    },
+    {
+      "id": "CD_christmas_day",
+      "countryCode": "CD",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "martyrs_day": "Martyrs Day",
+        "laurent_desire_kabila_assassination": "Laurent-Désiré Kabila Assassination",
+        "patrice_lumumba_assassination": "Patrice Lumumba Assassination",
+        "kimbangus_day": "Kimbangu's Day",
+        "liberation_day": "Liberation Day",
+        "independence_day": "Independence Day",
+        "parents_day": "Parents' Day",
+        "congolese_genocide_day": "Congolese Genocide Day"
+      },
+      "fr": {
+        "martyrs_day": "Martyrs Day",
+        "laurent_desire_kabila_assassination": "Laurent-Désiré Kabila Assassination",
+        "patrice_lumumba_assassination": "Patrice Lumumba Assassination",
+        "kimbangus_day": "Kimbangu's Day",
+        "liberation_day": "Liberation Day",
+        "independence_day": "Independence Day",
+        "parents_day": "Parents' Day",
+        "congolese_genocide_day": "Congolese Genocide Day"
+      }
+    }
+  }
+}

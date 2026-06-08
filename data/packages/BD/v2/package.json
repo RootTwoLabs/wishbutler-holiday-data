@@ -1,0 +1,116 @@
+{
+  "countryCode": "BD",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "BD_international_mother_language_day",
+      "countryCode": "BD",
+      "kind": "fixed",
+      "labelKey": "holidays.international_mother_language_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 21
+      }
+    },
+    {
+      "id": "BD_independence_and_national_day",
+      "countryCode": "BD",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_and_national_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 26
+      }
+    },
+    {
+      "id": "BD_bengali_new_year",
+      "countryCode": "BD",
+      "kind": "fixed",
+      "labelKey": "holidays.bengali_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 14
+      }
+    },
+    {
+      "id": "BD_labour_day",
+      "countryCode": "BD",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "BD_july_mass_uprising_day",
+      "countryCode": "BD",
+      "kind": "fixed",
+      "labelKey": "holidays.july_mass_uprising_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 5
+      }
+    },
+    {
+      "id": "BD_victory_day",
+      "countryCode": "BD",
+      "kind": "fixed",
+      "labelKey": "holidays.victory_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 16
+      }
+    },
+    {
+      "id": "BD_christmas_day",
+      "countryCode": "BD",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "international_mother_language_day": "International Mother Language Day",
+        "independence_and_national_day": "Independence and National Day",
+        "bengali_new_year": "Bengali New Year",
+        "july_mass_uprising_day": "July Mass Uprising Day",
+        "victory_day": "Victory Day"
+      },
+      "bn": {
+        "international_mother_language_day": "শহিদ দিবস ও আন্তর্জাতিক মাতৃভাষা দিবস",
+        "independence_and_national_day": "স্বাধীনতা ও জাতীয় দিবস",
+        "bengali_new_year": "নববর্ষ",
+        "july_mass_uprising_day": "জুলাই গণঅভ্যুত্থান দিবস",
+        "victory_day": "বিজয় দিবস"
+      }
+    }
+  }
+}

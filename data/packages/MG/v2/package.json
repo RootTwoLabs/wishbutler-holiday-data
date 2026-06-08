@@ -1,0 +1,148 @@
+{
+  "countryCode": "MG",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "MG_new_years_day",
+      "countryCode": "MG",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "MG_martyrs_day",
+      "countryCode": "MG",
+      "kind": "fixed",
+      "labelKey": "holidays.martyrs_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 29
+      }
+    },
+    {
+      "id": "MG_easter_monday",
+      "countryCode": "MG",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "MG_labour_day",
+      "countryCode": "MG",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "MG_ascension_day",
+      "countryCode": "MG",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ascension",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 39
+      }
+    },
+    {
+      "id": "MG_whit_monday",
+      "countryCode": "MG",
+      "kind": "easter_relative",
+      "labelKey": "holidays.whit_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 50
+      }
+    },
+    {
+      "id": "MG_independence_day",
+      "countryCode": "MG",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 26
+      }
+    },
+    {
+      "id": "MG_assumption_day",
+      "countryCode": "MG",
+      "kind": "fixed",
+      "labelKey": "holidays.assumption",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "MG_all_saints_day",
+      "countryCode": "MG",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "MG_christmas_day",
+      "countryCode": "MG",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "martyrs_day": "Martyrs' Day",
+        "independence_day": "Independence Day",
+        "all_saints_day": "All Saints' Day"
+      },
+      "mg": {
+        "martyrs_day": "Martyrs' Day",
+        "independence_day": "Independence Day",
+        "all_saints_day": "All Saints' Day"
+      }
+    }
+  }
+}

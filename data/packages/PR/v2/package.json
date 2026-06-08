@@ -1,0 +1,333 @@
+{
+  "countryCode": "PR",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "PR_new_years_day",
+      "countryCode": "PR",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "PR_three_kings_day_epiphany",
+      "countryCode": "PR",
+      "kind": "fixed",
+      "labelKey": "holidays.three_kings_day_epiphany",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "PR_birthday_of_eugenio_maria_de_hostos",
+      "countryCode": "PR",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.birthday_of_eugenio_maria_de_hostos",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 1,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "PR_martin_luther_king_jr_day",
+      "countryCode": "PR",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.martin_luther_king_jr_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 1,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "PR_presidents_day",
+      "countryCode": "PR",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.presidents_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 2,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "PR_birthday_of_luis_munoz_marin",
+      "countryCode": "PR",
+      "kind": "fixed",
+      "labelKey": "holidays.birthday_of_luis_munoz_marin",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 18
+      }
+    },
+    {
+      "id": "PR_emancipation_day",
+      "countryCode": "PR",
+      "kind": "fixed",
+      "labelKey": "holidays.emancipation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 22
+      }
+    },
+    {
+      "id": "PR_good_friday",
+      "countryCode": "PR",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "PR_birthday_of_jose_de_diego",
+      "countryCode": "PR",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.birthday_of_jose_de_diego",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 4,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "PR_memorial_day",
+      "countryCode": "PR",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.memorial_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "nth": 5,
+        "weekday": 1,
+        "last": true
+      }
+    },
+    {
+      "id": "PR_independence_day",
+      "countryCode": "PR",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 4
+      }
+    },
+    {
+      "id": "PR_birthday_of_don_luis_munoz_rivera",
+      "countryCode": "PR",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.birthday_of_don_luis_munoz_rivera",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 7,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "PR_puerto_rico_constitution_day",
+      "countryCode": "PR",
+      "kind": "fixed",
+      "labelKey": "holidays.puerto_rico_constitution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 25
+      }
+    },
+    {
+      "id": "PR_birthday_of_dr_jose_celso_barbosa",
+      "countryCode": "PR",
+      "kind": "fixed",
+      "labelKey": "holidays.birthday_of_dr_jose_celso_barbosa",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 27
+      }
+    },
+    {
+      "id": "PR_labour_day",
+      "countryCode": "PR",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.labour_day_pr",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "PR_columbus_day",
+      "countryCode": "PR",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.columbus_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "PR_veterans_day",
+      "countryCode": "PR",
+      "kind": "fixed",
+      "labelKey": "holidays.veterans_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 11
+      }
+    },
+    {
+      "id": "PR_discovery_of_puerto_rico",
+      "countryCode": "PR",
+      "kind": "fixed",
+      "labelKey": "holidays.discovery_of_puerto_rico",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 19
+      }
+    },
+    {
+      "id": "PR_thanksgiving_day",
+      "countryCode": "PR",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.thanksgiving_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 11,
+        "nth": 4,
+        "weekday": 4
+      }
+    },
+    {
+      "id": "PR_christmas_eve",
+      "countryCode": "PR",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "PR_christmas_day",
+      "countryCode": "PR",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "three_kings_day_epiphany": "Three Kings Day / Epiphany",
+        "birthday_of_eugenio_maria_de_hostos": "Birthday of Eugenio María de Hostos",
+        "martin_luther_king_jr_day": "Martin Luther King, Jr. Day",
+        "presidents_day": "Presidents' Day",
+        "birthday_of_luis_munoz_marin": "Birthday of Luis Muñoz Marín",
+        "emancipation_day": "Emancipation Day",
+        "birthday_of_jose_de_diego": "Birthday of José de Diego",
+        "memorial_day": "Memorial Day",
+        "independence_day": "Independence Day",
+        "birthday_of_don_luis_munoz_rivera": "Birthday of Don Luis Muñoz Rivera",
+        "puerto_rico_constitution_day": "Puerto Rico Constitution Day",
+        "birthday_of_dr_jose_celso_barbosa": "Birthday of Dr. José Celso Barbosa",
+        "labour_day_pr": "Labour Day",
+        "columbus_day": "Columbus Day",
+        "veterans_day": "Veterans Day",
+        "discovery_of_puerto_rico": "Discovery of Puerto Rico",
+        "thanksgiving_day": "Thanksgiving Day",
+        "christmas_eve": "Christmas Eve"
+      },
+      "es": {
+        "three_kings_day_epiphany": "Día de Reyes",
+        "birthday_of_eugenio_maria_de_hostos": "Natalicio de Eugenio María de Hostos",
+        "martin_luther_king_jr_day": "Natalicio de Martin Luther King, Jr.",
+        "presidents_day": "Día de los Presidentes",
+        "birthday_of_luis_munoz_marin": "Natalicio de Luis Muñoz Marín",
+        "emancipation_day": "Día de la Abolición de Esclavitud",
+        "birthday_of_jose_de_diego": "Natalicio de José de Diego",
+        "memorial_day": "Recordación de los Muertos de la Guerra",
+        "independence_day": "Día de la Independencia de los Estados Unidos",
+        "birthday_of_don_luis_munoz_rivera": "Natalicio de Don Luis Muñoz Rivera",
+        "puerto_rico_constitution_day": "Constitución de Puerto Rico",
+        "birthday_of_dr_jose_celso_barbosa": "Natalicio de Dr. José Celso Barbosa",
+        "labour_day_pr": "Día del Trabajo",
+        "columbus_day": "Día de la Raza / Descubrimiento de América",
+        "veterans_day": "Día del Veterano / Día del Armisticio",
+        "discovery_of_puerto_rico": "Día del Descubrimiento de Puerto Rico",
+        "thanksgiving_day": "Día de Acción de Gracias",
+        "christmas_eve": "Noche Buena"
+      }
+    }
+  }
+}

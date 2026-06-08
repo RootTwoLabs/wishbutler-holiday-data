@@ -1,0 +1,354 @@
+{
+  "countryCode": "CH",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "CH_new_years_day",
+      "countryCode": "CH",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "CH_st_berchtolds_day",
+      "countryCode": "CH",
+      "kind": "fixed",
+      "labelKey": "holidays.st_berchtolds_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "CH_epiphany",
+      "countryCode": "CH",
+      "kind": "fixed",
+      "labelKey": "holidays.epiphany",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "CH_republic_day",
+      "countryCode": "CH",
+      "kind": "fixed",
+      "labelKey": "holidays.republic_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 1
+      }
+    },
+    {
+      "id": "CH_saint_josephs_day",
+      "countryCode": "CH",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_josephs_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 19
+      }
+    },
+    {
+      "id": "CH_good_friday",
+      "countryCode": "CH",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "CH_nafels_procession",
+      "countryCode": "CH",
+      "kind": "fixed",
+      "labelKey": "holidays.nafels_procession",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 4
+      }
+    },
+    {
+      "id": "CH_easter_monday",
+      "countryCode": "CH",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "CH_labour_day",
+      "countryCode": "CH",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "CH_ascension_day",
+      "countryCode": "CH",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ascension",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 39
+      }
+    },
+    {
+      "id": "CH_whit_monday",
+      "countryCode": "CH",
+      "kind": "easter_relative",
+      "labelKey": "holidays.whit_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 50
+      }
+    },
+    {
+      "id": "CH_corpus_christi",
+      "countryCode": "CH",
+      "kind": "easter_relative",
+      "labelKey": "holidays.corpus_christi",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 60
+      }
+    },
+    {
+      "id": "CH_saint_peter_and_saint_paul",
+      "countryCode": "CH",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_peter_and_saint_paul",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 29
+      }
+    },
+    {
+      "id": "CH_swiss_national_day",
+      "countryCode": "CH",
+      "kind": "fixed",
+      "labelKey": "holidays.swiss_national_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 1
+      }
+    },
+    {
+      "id": "CH_assumption_of_the_virgin_mary",
+      "countryCode": "CH",
+      "kind": "fixed",
+      "labelKey": "holidays.assumption",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "CH_geneva_prayday",
+      "countryCode": "CH",
+      "kind": "precomputed",
+      "labelKey": "holidays.geneva_prayday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-10",
+          "2027": "09-09",
+          "2028": "09-07",
+          "2029": "09-06",
+          "2030": "09-05",
+          "2031": "09-11",
+          "2032": "09-09",
+          "2033": "09-08",
+          "2034": "09-07",
+          "2035": "09-06"
+        }
+      }
+    },
+    {
+      "id": "CH_federal_day_of_thanksgiving",
+      "countryCode": "CH",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.federal_day_of_thanksgiving",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "nth": 3,
+        "weekday": 0
+      }
+    },
+    {
+      "id": "CH_federal_fast_monday",
+      "countryCode": "CH",
+      "kind": "precomputed",
+      "labelKey": "holidays.federal_fast_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-21",
+          "2027": "09-20",
+          "2028": "09-18",
+          "2029": "09-17",
+          "2030": "09-16",
+          "2031": "09-22",
+          "2032": "09-20",
+          "2033": "09-19",
+          "2034": "09-18",
+          "2035": "09-17"
+        }
+      }
+    },
+    {
+      "id": "CH_all_saints_day",
+      "countryCode": "CH",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "CH_immaculate_conception",
+      "countryCode": "CH",
+      "kind": "fixed",
+      "labelKey": "holidays.immaculate_conception",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "CH_christmas_day",
+      "countryCode": "CH",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "CH_st_stephens_day",
+      "countryCode": "CH",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    },
+    {
+      "id": "CH_restoration_day",
+      "countryCode": "CH",
+      "kind": "fixed",
+      "labelKey": "holidays.restoration_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "st_berchtolds_day": "St. Berchtold's Day",
+        "republic_day": "Republic Day",
+        "saint_josephs_day": "Saint Joseph's Day",
+        "nafels_procession": "Näfels procession",
+        "saint_peter_and_saint_paul": "Saint Peter and Saint Paul",
+        "swiss_national_day": "Swiss National Day",
+        "geneva_prayday": "Geneva Prayday",
+        "federal_day_of_thanksgiving": "Federal Day of Thanksgiving",
+        "federal_fast_monday": "Federal Fast Monday",
+        "all_saints_day": "All Saints' Day",
+        "immaculate_conception": "Immaculate Conception",
+        "restoration_day": "Restoration Day"
+      },
+      "de": {
+        "st_berchtolds_day": "Berchtoldstag",
+        "republic_day": "Jahrestag der Ausrufung der Republik",
+        "saint_josephs_day": "Josefstag",
+        "nafels_procession": "Näfelser Fahrt",
+        "saint_peter_and_saint_paul": "Peter und Paul",
+        "swiss_national_day": "Bundesfeier",
+        "geneva_prayday": "Jeûne genevois",
+        "federal_day_of_thanksgiving": "Eidgenössischer Dank-, Buss- und Bettag",
+        "federal_fast_monday": "Bettagsmontag",
+        "all_saints_day": "Allerheiligen",
+        "immaculate_conception": "Mariä Empfängnis",
+        "restoration_day": "Restauration de la République"
+      }
+    }
+  }
+}

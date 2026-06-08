@@ -1,0 +1,164 @@
+{
+  "countryCode": "CG",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "CG_new_years_day",
+      "countryCode": "CG",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "CG_easter_sunday",
+      "countryCode": "CG",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "CG_easter_monday",
+      "countryCode": "CG",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "CG_labour_day",
+      "countryCode": "CG",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "CG_ascension_day",
+      "countryCode": "CG",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ascension",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 39
+      }
+    },
+    {
+      "id": "CG_whit_monday",
+      "countryCode": "CG",
+      "kind": "easter_relative",
+      "labelKey": "holidays.whit_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 50
+      }
+    },
+    {
+      "id": "CG_reconciliation_day",
+      "countryCode": "CG",
+      "kind": "fixed",
+      "labelKey": "holidays.reconciliation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 10
+      }
+    },
+    {
+      "id": "CG_national_day",
+      "countryCode": "CG",
+      "kind": "fixed",
+      "labelKey": "holidays.national_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "CG_all_saints_day",
+      "countryCode": "CG",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "CG_republic_day",
+      "countryCode": "CG",
+      "kind": "fixed",
+      "labelKey": "holidays.republic_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 28
+      }
+    },
+    {
+      "id": "CG_christmas_day",
+      "countryCode": "CG",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "easter_sunday": "Easter Sunday",
+        "reconciliation_day": "Reconciliation Day",
+        "national_day": "National Day",
+        "all_saints_day": "All Saints' Day",
+        "republic_day": "Republic Day"
+      },
+      "fr": {
+        "easter_sunday": "Dimanche de Pâques",
+        "reconciliation_day": "Fête de la Réconciliation",
+        "national_day": "Fête Nationale",
+        "all_saints_day": "Toussaint",
+        "republic_day": "Jour de la République"
+      }
+    }
+  }
+}

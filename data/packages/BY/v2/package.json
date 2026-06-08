@@ -1,0 +1,156 @@
+{
+  "countryCode": "BY",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "BY_new_years_day",
+      "countryCode": "BY",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "BY_christmas_day_orthodox",
+      "countryCode": "BY",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_day_orthodox",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 7
+      }
+    },
+    {
+      "id": "BY_international_womens_day",
+      "countryCode": "BY",
+      "kind": "fixed",
+      "labelKey": "holidays.womens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 8
+      }
+    },
+    {
+      "id": "BY_commemoration_day",
+      "countryCode": "BY",
+      "kind": "precomputed",
+      "labelKey": "holidays.commemoration_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-21",
+          "2027": "05-11",
+          "2028": "04-25",
+          "2029": "04-17",
+          "2030": "05-07",
+          "2031": "04-22",
+          "2032": "05-11",
+          "2033": "05-03",
+          "2034": "04-18",
+          "2035": "05-08"
+        }
+      }
+    },
+    {
+      "id": "BY_labour_day",
+      "countryCode": "BY",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "BY_victory_day",
+      "countryCode": "BY",
+      "kind": "fixed",
+      "labelKey": "holidays.victory_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 9
+      }
+    },
+    {
+      "id": "BY_independence_day",
+      "countryCode": "BY",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 3
+      }
+    },
+    {
+      "id": "BY_october_revolution_day",
+      "countryCode": "BY",
+      "kind": "fixed",
+      "labelKey": "holidays.october_revolution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 7
+      }
+    },
+    {
+      "id": "BY_catholic_christmas_day",
+      "countryCode": "BY",
+      "kind": "fixed",
+      "labelKey": "holidays.catholic_christmas_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "christmas_day_orthodox": "Christmas Day (Orthodox)",
+        "commemoration_day": "Commemoration Day",
+        "victory_day": "Victory Day",
+        "independence_day": "Independence Day",
+        "october_revolution_day": "October Revolution Day",
+        "catholic_christmas_day": "Catholic Christmas Day"
+      },
+      "be": {
+        "new_years_day": "Новы год",
+        "christmas_day_orthodox": "Каляды праваслаўныя",
+        "commemoration_day": "Радунiца",
+        "victory_day": "Дзень Перамогi",
+        "independence_day": "Дзень Незалежнасцi",
+        "october_revolution_day": "Дзень Кастрычніцкай рэвалюцыі",
+        "catholic_christmas_day": "Каляды каталiцкiя"
+      }
+    }
+  }
+}

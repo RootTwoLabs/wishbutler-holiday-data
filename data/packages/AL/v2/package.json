@@ -1,0 +1,196 @@
+{
+  "countryCode": "AL",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "AL_new_years_day",
+      "countryCode": "AL",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "AL_summer_day",
+      "countryCode": "AL",
+      "kind": "fixed",
+      "labelKey": "holidays.summer_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 14
+      }
+    },
+    {
+      "id": "AL_nowruz",
+      "countryCode": "AL",
+      "kind": "fixed",
+      "labelKey": "holidays.nowruz",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 22
+      }
+    },
+    {
+      "id": "AL_easter_sunday",
+      "countryCode": "AL",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-12",
+          "2027": "05-02",
+          "2028": "04-16",
+          "2029": "04-08",
+          "2030": "04-28",
+          "2031": "04-13",
+          "2032": "05-02",
+          "2033": "04-24",
+          "2034": "04-09",
+          "2035": "04-29"
+        }
+      }
+    },
+    {
+      "id": "AL_easter_monday",
+      "countryCode": "AL",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_monday_al",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-13",
+          "2027": "05-03",
+          "2028": "04-17",
+          "2029": "04-09",
+          "2030": "04-29",
+          "2031": "04-14",
+          "2032": "05-03",
+          "2033": "04-25",
+          "2034": "04-10",
+          "2035": "04-30"
+        }
+      }
+    },
+    {
+      "id": "AL_may_day",
+      "countryCode": "AL",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "AL_mother_teresa_day",
+      "countryCode": "AL",
+      "kind": "fixed",
+      "labelKey": "holidays.mother_teresa_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 5
+      }
+    },
+    {
+      "id": "AL_independence_day",
+      "countryCode": "AL",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 28
+      }
+    },
+    {
+      "id": "AL_liberation_day",
+      "countryCode": "AL",
+      "kind": "fixed",
+      "labelKey": "holidays.liberation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 29
+      }
+    },
+    {
+      "id": "AL_youth_day",
+      "countryCode": "AL",
+      "kind": "fixed",
+      "labelKey": "holidays.youth_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "AL_christmas_day",
+      "countryCode": "AL",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "summer_day": "Summer Day",
+        "nowruz": "Nowruz",
+        "easter_sunday": "Easter Sunday",
+        "easter_monday_al": "Easter Monday",
+        "mother_teresa_day": "Mother Teresa Day",
+        "independence_day": "Independence Day",
+        "liberation_day": "Liberation Day",
+        "youth_day": "Youth Day"
+      },
+      "sq": {
+        "new_years_day": "Viti i Ri",
+        "summer_day": "Dita e Verës",
+        "nowruz": "Dita e Sulltan Nevruzit",
+        "easter_sunday": "Pashkët Katolike",
+        "easter_monday_al": "E hëna e Pashkëve Katolike",
+        "mother_teresa_day": "Dita e Nënë Terezës",
+        "independence_day": "Dita e Pavarësisë",
+        "liberation_day": "Dita e Çlirimit",
+        "youth_day": "Dita Kombëtare e Rinisë"
+      }
+    }
+  }
+}

@@ -1,0 +1,790 @@
+{
+  "countryCode": "BG",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "BG_new_years_day",
+      "countryCode": "BG",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "BG_currency_change_day",
+      "countryCode": "BG",
+      "kind": "fixed",
+      "labelKey": "holidays.currency_change_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "BG_liberation_day",
+      "countryCode": "BG",
+      "kind": "fixed",
+      "labelKey": "holidays.liberation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 3
+      }
+    },
+    {
+      "id": "BG_good_friday",
+      "countryCode": "BG",
+      "kind": "precomputed",
+      "labelKey": "holidays.good_friday_bg",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-10",
+          "2027": "04-30",
+          "2028": "04-14",
+          "2029": "04-06",
+          "2030": "04-26",
+          "2031": "04-11",
+          "2032": "04-30",
+          "2033": "04-22",
+          "2034": "04-07",
+          "2035": "04-27"
+        }
+      }
+    },
+    {
+      "id": "BG_holy_saturday",
+      "countryCode": "BG",
+      "kind": "precomputed",
+      "labelKey": "holidays.holy_saturday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-11",
+          "2027": "05-01",
+          "2028": "04-15",
+          "2029": "04-07",
+          "2030": "04-27",
+          "2031": "04-12",
+          "2032": "05-01",
+          "2033": "04-23",
+          "2034": "04-08",
+          "2035": "04-28"
+        }
+      }
+    },
+    {
+      "id": "BG_easter_sunday",
+      "countryCode": "BG",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-12",
+          "2027": "05-02",
+          "2028": "04-16",
+          "2029": "04-08",
+          "2030": "04-28",
+          "2031": "04-13",
+          "2032": "05-02",
+          "2033": "04-24",
+          "2034": "04-09",
+          "2035": "04-29"
+        }
+      }
+    },
+    {
+      "id": "BG_easter_monday",
+      "countryCode": "BG",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_monday_bg",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-13",
+          "2027": "05-03",
+          "2028": "04-17",
+          "2029": "04-09",
+          "2030": "04-29",
+          "2031": "04-14",
+          "2032": "05-03",
+          "2033": "04-25",
+          "2034": "04-10",
+          "2035": "04-30"
+        }
+      }
+    },
+    {
+      "id": "BG_international_workers_day",
+      "countryCode": "BG",
+      "kind": "fixed",
+      "labelKey": "holidays.international_workers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "BG_saint_georges_day",
+      "countryCode": "BG",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_georges_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 6
+      }
+    },
+    {
+      "id": "BG_saints_cyril_and_methodius_day",
+      "countryCode": "BG",
+      "kind": "fixed",
+      "labelKey": "holidays.saints_cyril_and_methodius_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 24
+      }
+    },
+    {
+      "id": "BG_unification_day",
+      "countryCode": "BG",
+      "kind": "fixed",
+      "labelKey": "holidays.unification_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 6
+      }
+    },
+    {
+      "id": "BG_independence_day",
+      "countryCode": "BG",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 22
+      }
+    },
+    {
+      "id": "BG_christmas_eve",
+      "countryCode": "BG",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "BG_christmas_day",
+      "countryCode": "BG",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "BG_second_day_of_christmas",
+      "countryCode": "BG",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "namedays": {
+    "01-01": [
+      "Vasil",
+      "Vasilena",
+      "Vesela",
+      "Veselin",
+      "Veselina"
+    ],
+    "01-04": [
+      "Tihomir"
+    ],
+    "01-06": [
+      "Bogdan",
+      "Bogdana",
+      "Bogomil",
+      "Bogomila",
+      "Iordan",
+      "Iordanka",
+      "Teodosii",
+      "Yordan",
+      "Yordanka"
+    ],
+    "01-07": [
+      "Ioan",
+      "Ioana",
+      "Ivan",
+      "Ivanka",
+      "Ivayla",
+      "Ivaylo",
+      "Ivet",
+      "Kaloyan",
+      "Vanya",
+      "Vanyo",
+      "Yoan",
+      "Yoana",
+      "Zhan",
+      "Zhana"
+    ],
+    "01-12": [
+      "Tanya",
+      "Tatyana"
+    ],
+    "01-17": [
+      "Andon",
+      "Anton",
+      "Antonia",
+      "Dona",
+      "Doncho",
+      "Donka"
+    ],
+    "01-18": [
+      "Atanas",
+      "Atanaska"
+    ],
+    "01-19": [
+      "Efimir",
+      "Evtim",
+      "Evtimiya",
+      "Momchil"
+    ],
+    "01-21": [
+      "Maksim"
+    ],
+    "01-25": [
+      "Grigor"
+    ],
+    "01-26": [
+      "Grigor"
+    ],
+    "01-27": [
+      "Grigor"
+    ],
+    "01-28": [
+      "Grigor"
+    ],
+    "01-29": [
+      "Grigor"
+    ],
+    "01-30": [
+      "Grigor"
+    ],
+    "01-31": [
+      "Grigor"
+    ],
+    "02-01": [
+      "Trifon"
+    ],
+    "02-03": [
+      "Simeon"
+    ],
+    "02-06": [
+      "Svetla",
+      "Svetlana",
+      "Svetlomir"
+    ],
+    "02-10": [
+      "Haralampi",
+      "Valentin",
+      "Valentina"
+    ],
+    "02-13": [
+      "Evlogi"
+    ],
+    "03-01": [
+      "Evdokiya",
+      "Marta",
+      "Martin",
+      "Martina"
+    ],
+    "03-04": [
+      "Gerasim"
+    ],
+    "03-07": [
+      "Bozhidar",
+      "Bozhidara",
+      "Dora",
+      "Teodor",
+      "Teodora",
+      "Todor"
+    ],
+    "03-10": [
+      "Galina"
+    ],
+    "03-13": [
+      "Nikifor"
+    ],
+    "03-22": [
+      "Rosen",
+      "Rositsa"
+    ],
+    "03-23": [
+      "Lidiya"
+    ],
+    "03-25": [
+      "Blaga",
+      "Blago",
+      "Blagovest",
+      "Blagovesta",
+      "Blaguna",
+      "Evangelina",
+      "Mariyana"
+    ],
+    "03-28": [
+      "Albena",
+      "Boyan",
+      "Boyana",
+      "Boyka",
+      "Boyko"
+    ],
+    "04-11": [
+      "Lazar",
+      "Lazo"
+    ],
+    "04-12": [
+      "Bozhan",
+      "Bozhana",
+      "Violeta",
+      "Vurban",
+      "Vurbana",
+      "Yasen",
+      "Yasna",
+      "Yavor",
+      "Zdravka",
+      "Zdravko"
+    ],
+    "04-18": [
+      "Viktor",
+      "Viktoriya"
+    ],
+    "04-19": [
+      "Velichka",
+      "Velichko",
+      "Velin",
+      "Velina"
+    ],
+    "04-25": [
+      "Marko"
+    ],
+    "04-26": [
+      "Toma",
+      "Tomislav",
+      "Tomislava"
+    ],
+    "05-01": [
+      "Ermen",
+      "Ermena",
+      "Maya"
+    ],
+    "05-02": [
+      "Boriana",
+      "Boris",
+      "Borislav",
+      "Borislava"
+    ],
+    "05-05": [
+      "Irina",
+      "Mira"
+    ],
+    "05-06": [
+      "Georgi",
+      "Georgiya",
+      "Gergana",
+      "Gyuro"
+    ],
+    "05-11": [
+      "Kiril",
+      "Kirila",
+      "Metodi"
+    ],
+    "05-21": [
+      "Elena",
+      "Konstantin",
+      "Kosta",
+      "Kostadin",
+      "Kostadinka",
+      "Lenko",
+      "Stoyan"
+    ],
+    "05-28": [
+      "Spas",
+      "Spaska"
+    ],
+    "05-30": [
+      "Emiliya"
+    ],
+    "06-01": [
+      "Doroteia"
+    ],
+    "06-07": [
+      "Valeri",
+      "Valeria"
+    ],
+    "06-21": [
+      "Asen",
+      "Chavdar"
+    ],
+    "06-22": [
+      "Goryan",
+      "Goryana"
+    ],
+    "06-24": [
+      "Enio",
+      "Yanita",
+      "Yanka",
+      "Yanko"
+    ],
+    "06-26": [
+      "David"
+    ],
+    "06-29": [
+      "Kamen",
+      "Pavel",
+      "Petar",
+      "Petra",
+      "Petrana"
+    ],
+    "06-30": [
+      "Apostol"
+    ],
+    "07-01": [
+      "Damyan",
+      "Damyana",
+      "Kozma",
+      "Kuzman"
+    ],
+    "07-07": [
+      "Nedelcho",
+      "Nedelya",
+      "Nedyalka",
+      "Nedyalko"
+    ],
+    "07-11": [
+      "Oleg",
+      "Olga"
+    ],
+    "07-15": [
+      "Vlada",
+      "Vladena",
+      "Vladimir"
+    ],
+    "07-16": [
+      "Yulian",
+      "Yuliana",
+      "Yuliya"
+    ],
+    "07-17": [
+      "Yulian",
+      "Yuliana",
+      "Yuliya"
+    ],
+    "07-18": [
+      "Emil",
+      "Emilian"
+    ],
+    "07-20": [
+      "Ilina",
+      "Iliya",
+      "Iliyana",
+      "Ilko"
+    ],
+    "07-22": [
+      "Lena",
+      "Magda",
+      "Magdalena",
+      "Miglena"
+    ],
+    "07-25": [
+      "Ana",
+      "Yana"
+    ],
+    "07-26": [
+      "Paraskeva"
+    ],
+    "07-27": [
+      "Dobra",
+      "Dobri",
+      "Dobrina",
+      "Dobrinka",
+      "Pancho",
+      "Panka"
+    ],
+    "07-29": [
+      "Kalin"
+    ],
+    "08-08": [
+      "Emil",
+      "Emilian",
+      "Emiliya"
+    ],
+    "08-15": [
+      "Mariya"
+    ],
+    "08-20": [
+      "Samuil"
+    ],
+    "08-26": [
+      "Adrian",
+      "Adriana",
+      "Adriyan",
+      "Adriyana",
+      "Natali",
+      "Nataliya"
+    ],
+    "08-29": [
+      "Anastas",
+      "Anastasi",
+      "Anastasiya"
+    ],
+    "08-30": [
+      "Aleksandar",
+      "Aleksandra"
+    ],
+    "09-01": [
+      "Simeon",
+      "Simona"
+    ],
+    "09-05": [
+      "Elisaveta",
+      "Hari",
+      "Zahari"
+    ],
+    "09-14": [
+      "Krustan",
+      "Krustina",
+      "Krustyo",
+      "Stavri"
+    ],
+    "09-16": [
+      "Lyudmil",
+      "Lyudmila"
+    ],
+    "09-17": [
+      "Lyuba",
+      "Lyuben",
+      "Lyubomir",
+      "Lyubov",
+      "Nadezhda",
+      "Nadya",
+      "Sevda",
+      "Sofiya",
+      "Vera",
+      "Vyara"
+    ],
+    "09-25": [
+      "Sergei"
+    ],
+    "10-14": [
+      "Pencho",
+      "Penka",
+      "Petka",
+      "Petko"
+    ],
+    "10-18": [
+      "Zlata",
+      "Zlatan",
+      "Zlatka",
+      "Zlatko",
+      "Zlatomir"
+    ],
+    "10-26": [
+      "Dimitar",
+      "Dimitrina",
+      "Mitko"
+    ],
+    "10-27": [
+      "Nestor"
+    ],
+    "11-08": [
+      "Angel",
+      "Gavrail",
+      "Gavril",
+      "Mihaela",
+      "Mihail",
+      "Ognyan",
+      "Ognyana",
+      "Plamen",
+      "Plamena",
+      "Rada",
+      "Radka",
+      "Radko",
+      "Rafail",
+      "Raia",
+      "Raika",
+      "Raina",
+      "Rangel"
+    ],
+    "11-11": [
+      "Minka",
+      "Minko",
+      "Viktor",
+      "Viktoriya"
+    ],
+    "11-14": [
+      "Filio",
+      "Filip",
+      "Filipa"
+    ],
+    "11-16": [
+      "Matei"
+    ],
+    "11-23": [
+      "Aleko",
+      "Aleksandar",
+      "Aleksandra"
+    ],
+    "11-24": [
+      "Ekaterina",
+      "Katerina",
+      "Katina",
+      "Katya"
+    ],
+    "11-25": [
+      "Kliment",
+      "Klimentina"
+    ],
+    "11-26": [
+      "Stilyan",
+      "Stilyana"
+    ],
+    "11-30": [
+      "Andrei"
+    ],
+    "12-04": [
+      "Varvara"
+    ],
+    "12-05": [
+      "Sava",
+      "Silva",
+      "Silvana",
+      "Silviya",
+      "Stanislav"
+    ],
+    "12-06": [
+      "Nikola",
+      "Nikolai",
+      "Nina"
+    ],
+    "12-09": [
+      "Ana",
+      "Anna",
+      "Anushka",
+      "Nusha"
+    ],
+    "12-14": [
+      "Snezhala"
+    ],
+    "12-17": [
+      "Dana",
+      "Danail",
+      "Danaila",
+      "Daniela"
+    ],
+    "12-20": [
+      "Ignat"
+    ],
+    "12-24": [
+      "Evgeni",
+      "Evgeniya"
+    ],
+    "12-25": [
+      "Hristina",
+      "Hristo"
+    ],
+    "12-26": [
+      "Iosif",
+      "Yosif"
+    ],
+    "12-27": [
+      "Stanimir",
+      "Stanka",
+      "Stanko",
+      "Stefan",
+      "Stefka",
+      "Stoycho"
+    ]
+  },
+  "i18n": {
+    "holidays": {
+      "en": {
+        "currency_change_day": "Currency change day",
+        "liberation_day": "Liberation Day",
+        "good_friday_bg": "Good Friday",
+        "holy_saturday": "Holy Saturday",
+        "easter_sunday": "Easter Sunday",
+        "easter_monday_bg": "Easter Monday",
+        "international_workers_day": "International Workers' Day",
+        "saint_georges_day": "Saint George's Day",
+        "saints_cyril_and_methodius_day": "Saints Cyril and Methodius Day",
+        "unification_day": "Unification Day",
+        "independence_day": "Independence Day",
+        "christmas_eve": "Christmas Eve"
+      },
+      "bg": {
+        "currency_change_day": "Ден на валутната смяна",
+        "liberation_day": "Ден на oсвобождението на България от Oсманско робство",
+        "good_friday_bg": "Разпети петък",
+        "holy_saturday": "Велика събота",
+        "easter_sunday": "Великден",
+        "easter_monday_bg": "Велики понеделник",
+        "international_workers_day": "Ден на труда и на международната работническа солидарност",
+        "saint_georges_day": "Гергьовден, ден на храбростта и Българската армия",
+        "saints_cyril_and_methodius_day": "Ден на Българската просвета и култура и на славянската писменост",
+        "unification_day": "Ден на съединението",
+        "independence_day": "Ден на независимостта на България",
+        "christmas_eve": "Бъдни вечер"
+      }
+    }
+  }
+}

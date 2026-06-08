@@ -1,0 +1,445 @@
+{
+  "countryCode": "CA",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "CA_new_years_day",
+      "countryCode": "CA",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "CA_louis_riel_day",
+      "countryCode": "CA",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.louis_riel_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 2,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "CA_islander_day",
+      "countryCode": "CA",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.islander_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 2,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "CA_heritage_day",
+      "countryCode": "CA",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.heritage_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "CA_family_day",
+      "countryCode": "CA",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.family_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 2,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "CA_saint_patricks_day",
+      "countryCode": "CA",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_patricks_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 17
+      }
+    },
+    {
+      "id": "CA_good_friday",
+      "countryCode": "CA",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "CA_easter_monday",
+      "countryCode": "CA",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "CA_saint_georges_day",
+      "countryCode": "CA",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_georges_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 23
+      }
+    },
+    {
+      "id": "CA_national_patriots_day",
+      "countryCode": "CA",
+      "kind": "precomputed",
+      "labelKey": "holidays.national_patriots_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-18",
+          "2027": "05-24",
+          "2028": "05-22",
+          "2029": "05-21",
+          "2030": "05-20",
+          "2031": "05-19",
+          "2032": "05-24",
+          "2033": "05-23",
+          "2034": "05-22",
+          "2035": "05-21"
+        }
+      }
+    },
+    {
+      "id": "CA_victoria_day",
+      "countryCode": "CA",
+      "kind": "precomputed",
+      "labelKey": "holidays.victoria_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-18",
+          "2027": "05-24",
+          "2028": "05-22",
+          "2029": "05-21",
+          "2030": "05-20",
+          "2031": "05-19",
+          "2032": "05-24",
+          "2033": "05-23",
+          "2034": "05-22",
+          "2035": "05-21"
+        }
+      }
+    },
+    {
+      "id": "CA_national_aboriginal_day",
+      "countryCode": "CA",
+      "kind": "fixed",
+      "labelKey": "holidays.national_aboriginal_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 21
+      }
+    },
+    {
+      "id": "CA_discovery_day",
+      "countryCode": "CA",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.discovery_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "CA_national_holiday",
+      "countryCode": "CA",
+      "kind": "fixed",
+      "labelKey": "holidays.national_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 24
+      }
+    },
+    {
+      "id": "CA_canada_day",
+      "countryCode": "CA",
+      "kind": "fixed",
+      "labelKey": "holidays.canada_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 1
+      }
+    },
+    {
+      "id": "CA_orangemens_day",
+      "countryCode": "CA",
+      "kind": "fixed",
+      "labelKey": "holidays.orangemens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 12
+      }
+    },
+    {
+      "id": "CA_civic_holiday",
+      "countryCode": "CA",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.civic_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "CA_british_columbia_day",
+      "countryCode": "CA",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.british_columbia_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "CA_new_brunswick_day",
+      "countryCode": "CA",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.new_brunswick_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "CA_natal_day",
+      "countryCode": "CA",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.natal_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "CA_saskatchewan_day",
+      "countryCode": "CA",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.saskatchewan_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "CA_gold_cup_parade_day",
+      "countryCode": "CA",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.gold_cup_parade_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "CA_labour_day",
+      "countryCode": "CA",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.labour_day_ca",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "CA_national_day_for_truth_and_reconciliation",
+      "countryCode": "CA",
+      "kind": "fixed",
+      "labelKey": "holidays.national_day_for_truth_and_reconciliation",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 30
+      }
+    },
+    {
+      "id": "CA_thanksgiving",
+      "countryCode": "CA",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.thanksgiving",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "CA_armistice_day",
+      "countryCode": "CA",
+      "kind": "fixed",
+      "labelKey": "holidays.armistice_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 11
+      }
+    },
+    {
+      "id": "CA_remembrance_day",
+      "countryCode": "CA",
+      "kind": "fixed",
+      "labelKey": "holidays.remembrance_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 11
+      }
+    },
+    {
+      "id": "CA_christmas_day",
+      "countryCode": "CA",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "CA_st_stephens_day",
+      "countryCode": "CA",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "louis_riel_day": "Louis Riel Day",
+        "islander_day": "Islander Day",
+        "heritage_day": "Heritage Day",
+        "family_day": "Family Day",
+        "saint_patricks_day": "Saint Patrick's Day",
+        "saint_georges_day": "Saint George's Day",
+        "national_patriots_day": "National Patriots' Day",
+        "victoria_day": "Victoria Day",
+        "national_aboriginal_day": "National Aboriginal Day",
+        "discovery_day": "Discovery Day",
+        "national_holiday": "National Holiday",
+        "canada_day": "Canada Day",
+        "orangemens_day": "Orangemen's Day",
+        "civic_holiday": "Civic Holiday",
+        "british_columbia_day": "British Columbia Day",
+        "new_brunswick_day": "New Brunswick Day",
+        "natal_day": "Natal Day",
+        "saskatchewan_day": "Saskatchewan Day",
+        "gold_cup_parade_day": "Gold Cup Parade Day",
+        "labour_day_ca": "Labour Day",
+        "national_day_for_truth_and_reconciliation": "National Day for Truth and Reconciliation",
+        "thanksgiving": "Thanksgiving",
+        "armistice_day": "Armistice Day",
+        "remembrance_day": "Remembrance Day"
+      }
+    }
+  }
+}

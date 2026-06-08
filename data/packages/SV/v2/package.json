@@ -1,0 +1,219 @@
+{
+  "countryCode": "SV",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "SV_labour_day",
+      "countryCode": "SV",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "SV_the_day_of_the_cross",
+      "countryCode": "SV",
+      "kind": "fixed",
+      "labelKey": "holidays.the_day_of_the_cross",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 3
+      }
+    },
+    {
+      "id": "SV_soldiers_day",
+      "countryCode": "SV",
+      "kind": "fixed",
+      "labelKey": "holidays.soldiers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 7
+      }
+    },
+    {
+      "id": "SV_mothers_day",
+      "countryCode": "SV",
+      "kind": "fixed",
+      "labelKey": "holidays.mothers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 10
+      }
+    },
+    {
+      "id": "SV_fathers_day",
+      "countryCode": "SV",
+      "kind": "fixed",
+      "labelKey": "holidays.fathers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 10
+      }
+    },
+    {
+      "id": "SV_august_festivals",
+      "countryCode": "SV",
+      "kind": "fixed",
+      "labelKey": "holidays.august_festivals",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 7
+      }
+    },
+    {
+      "id": "SV_independence_day",
+      "countryCode": "SV",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 15
+      }
+    },
+    {
+      "id": "SV_childrens_day",
+      "countryCode": "SV",
+      "kind": "fixed",
+      "labelKey": "holidays.childrens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 1
+      }
+    },
+    {
+      "id": "SV_ethnic_pride_day",
+      "countryCode": "SV",
+      "kind": "fixed",
+      "labelKey": "holidays.ethnic_pride_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 12
+      }
+    },
+    {
+      "id": "SV_day_of_the_dead",
+      "countryCode": "SV",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_the_dead",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 2
+      }
+    },
+    {
+      "id": "SV_national_pupusa_festival",
+      "countryCode": "SV",
+      "kind": "fixed",
+      "labelKey": "holidays.national_pupusa_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 13
+      }
+    },
+    {
+      "id": "SV_day_of_the_queen_of_peace",
+      "countryCode": "SV",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_the_queen_of_peace",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 21
+      }
+    },
+    {
+      "id": "SV_christmas_day",
+      "countryCode": "SV",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "SV_new_years_eve",
+      "countryCode": "SV",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "the_day_of_the_cross": "The Day of the Cross",
+        "soldiers_day": "Soldiers' Day",
+        "mothers_day": "Mother's Day",
+        "fathers_day": "Father's Day",
+        "august_festivals": "August Festivals",
+        "independence_day": "Independence Day",
+        "childrens_day": "Children's Day",
+        "ethnic_pride_day": "Ethnic Pride Day",
+        "day_of_the_dead": "Day of the Dead",
+        "national_pupusa_festival": "National Pupusa Festival",
+        "day_of_the_queen_of_peace": "Day of the Queen of Peace"
+      },
+      "es": {
+        "the_day_of_the_cross": "Día de la Cru",
+        "soldiers_day": "Día del Soldado",
+        "mothers_day": "Día de las Madres",
+        "fathers_day": "Día del Padre",
+        "august_festivals": "Fiestas de agosto",
+        "independence_day": "Día de la Independencia",
+        "childrens_day": "Día del niño",
+        "ethnic_pride_day": "Día de la raza",
+        "day_of_the_dead": "El día de los difuntos",
+        "national_pupusa_festival": "Festival Nacional De La Pupusa",
+        "day_of_the_queen_of_peace": "Dia de la Reina de la Paz"
+      }
+    }
+  }
+}

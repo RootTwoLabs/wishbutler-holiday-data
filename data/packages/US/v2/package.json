@@ -1,0 +1,227 @@
+{
+  "countryCode": "US",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "US_new_years_day",
+      "countryCode": "US",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "US_martin_luther_king_jr_day",
+      "countryCode": "US",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.martin_luther_king_jr_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 1,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "US_lincolns_birthday",
+      "countryCode": "US",
+      "kind": "fixed",
+      "labelKey": "holidays.lincolns_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 12
+      }
+    },
+    {
+      "id": "US_presidents_day",
+      "countryCode": "US",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.presidents_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 2,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "US_good_friday",
+      "countryCode": "US",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "US_truman_day",
+      "countryCode": "US",
+      "kind": "fixed",
+      "labelKey": "holidays.truman_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 8
+      }
+    },
+    {
+      "id": "US_memorial_day",
+      "countryCode": "US",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.memorial_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "nth": 5,
+        "weekday": 1,
+        "last": true
+      }
+    },
+    {
+      "id": "US_juneteenth_national_independence_day",
+      "countryCode": "US",
+      "kind": "fixed",
+      "labelKey": "holidays.juneteenth_national_independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 19
+      }
+    },
+    {
+      "id": "US_independence_day",
+      "countryCode": "US",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 4
+      }
+    },
+    {
+      "id": "US_labour_day",
+      "countryCode": "US",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.labour_day_us",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "US_columbus_day",
+      "countryCode": "US",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.columbus_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "US_indigenous_peoples_day",
+      "countryCode": "US",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.indigenous_peoples_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "US_veterans_day",
+      "countryCode": "US",
+      "kind": "fixed",
+      "labelKey": "holidays.veterans_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 11
+      }
+    },
+    {
+      "id": "US_thanksgiving_day",
+      "countryCode": "US",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.thanksgiving_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 11,
+        "nth": 4,
+        "weekday": 4
+      }
+    },
+    {
+      "id": "US_christmas_day",
+      "countryCode": "US",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "martin_luther_king_jr_day": "Martin Luther King, Jr. Day",
+        "lincolns_birthday": "Lincoln's Birthday",
+        "presidents_day": "Presidents Day",
+        "truman_day": "Truman Day",
+        "memorial_day": "Memorial Day",
+        "juneteenth_national_independence_day": "Juneteenth National Independence Day",
+        "independence_day": "Independence Day",
+        "labour_day_us": "Labour Day",
+        "columbus_day": "Columbus Day",
+        "indigenous_peoples_day": "Indigenous Peoples' Day",
+        "veterans_day": "Veterans Day",
+        "thanksgiving_day": "Thanksgiving Day"
+      }
+    }
+  }
+}

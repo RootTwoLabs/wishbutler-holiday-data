@@ -1,0 +1,184 @@
+{
+  "countryCode": "SC",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "SC_new_years_day",
+      "countryCode": "SC",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "SC_new_year_holiday",
+      "countryCode": "SC",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "SC_good_friday",
+      "countryCode": "SC",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "SC_holy_saturday",
+      "countryCode": "SC",
+      "kind": "easter_relative",
+      "labelKey": "holidays.holy_saturday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -1
+      }
+    },
+    {
+      "id": "SC_easter_monday",
+      "countryCode": "SC",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "SC_labour_day",
+      "countryCode": "SC",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "SC_corpus_christi",
+      "countryCode": "SC",
+      "kind": "easter_relative",
+      "labelKey": "holidays.corpus_christi",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 60
+      }
+    },
+    {
+      "id": "SC_constitution_day",
+      "countryCode": "SC",
+      "kind": "fixed",
+      "labelKey": "holidays.constitution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 18
+      }
+    },
+    {
+      "id": "SC_independence_day",
+      "countryCode": "SC",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 29
+      }
+    },
+    {
+      "id": "SC_assumption_day",
+      "countryCode": "SC",
+      "kind": "fixed",
+      "labelKey": "holidays.assumption",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "SC_all_saints_day",
+      "countryCode": "SC",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "SC_the_feast_of_the_immaculate_conception",
+      "countryCode": "SC",
+      "kind": "fixed",
+      "labelKey": "holidays.the_feast_of_the_immaculate_conception",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "SC_christmas_day",
+      "countryCode": "SC",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_year_holiday": "New Year Holiday",
+        "holy_saturday": "Holy Saturday",
+        "constitution_day": "Constitution Day",
+        "independence_day": "Independence Day",
+        "all_saints_day": "All Saints' Day",
+        "the_feast_of_the_immaculate_conception": "The Feast of the Immaculate Conception"
+      }
+    }
+  }
+}

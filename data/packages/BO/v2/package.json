@@ -1,0 +1,167 @@
+{
+  "countryCode": "BO",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "BO_new_years_day",
+      "countryCode": "BO",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "BO_feast_of_the_virgin_of_candelaria",
+      "countryCode": "BO",
+      "kind": "fixed",
+      "labelKey": "holidays.feast_of_the_virgin_of_candelaria",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 2
+      }
+    },
+    {
+      "id": "BO_carnival",
+      "countryCode": "BO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.carnival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -47
+      }
+    },
+    {
+      "id": "BO_good_friday",
+      "countryCode": "BO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "BO_labour_day",
+      "countryCode": "BO",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "BO_corpus_christi",
+      "countryCode": "BO",
+      "kind": "easter_relative",
+      "labelKey": "holidays.corpus_christi",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 60
+      }
+    },
+    {
+      "id": "BO_andean_new_year",
+      "countryCode": "BO",
+      "kind": "fixed",
+      "labelKey": "holidays.andean_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 21
+      }
+    },
+    {
+      "id": "BO_agrarian_reform_day",
+      "countryCode": "BO",
+      "kind": "fixed",
+      "labelKey": "holidays.agrarian_reform_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 2
+      }
+    },
+    {
+      "id": "BO_independence_day",
+      "countryCode": "BO",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 6
+      }
+    },
+    {
+      "id": "BO_all_saints_day",
+      "countryCode": "BO",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 2
+      }
+    },
+    {
+      "id": "BO_christmas_day",
+      "countryCode": "BO",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "feast_of_the_virgin_of_candelaria": "Feast of the Virgin of Candelaria",
+        "carnival": "Carnival",
+        "andean_new_year": "Andean New Year",
+        "agrarian_reform_day": "Agrarian Reform Day",
+        "independence_day": "Independence Day",
+        "all_saints_day": "All Saints' Day"
+      },
+      "es": {
+        "feast_of_the_virgin_of_candelaria": "Fiesta de la Virgen de Candelaria",
+        "carnival": "Feriado por Carnaval",
+        "andean_new_year": "Año Nuevo Andino",
+        "agrarian_reform_day": "Día de la Revolución Agraria",
+        "independence_day": "Dia de la Patria",
+        "all_saints_day": "Todos Santos"
+      }
+    }
+  }
+}

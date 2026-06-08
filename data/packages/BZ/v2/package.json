@@ -1,0 +1,233 @@
+{
+  "countryCode": "BZ",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "BZ_new_years_day",
+      "countryCode": "BZ",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "BZ_george_price_day",
+      "countryCode": "BZ",
+      "kind": "fixed",
+      "labelKey": "holidays.george_price_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 15
+      }
+    },
+    {
+      "id": "BZ_national_heroes_and_benefactors_day",
+      "countryCode": "BZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.national_heroes_and_benefactors_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "03-09",
+          "2027": "03-08",
+          "2028": "03-06",
+          "2029": "03-12",
+          "2030": "03-09",
+          "2031": "03-10",
+          "2032": "03-08",
+          "2033": "03-07",
+          "2034": "03-06",
+          "2035": "03-12"
+        }
+      }
+    },
+    {
+      "id": "BZ_good_friday",
+      "countryCode": "BZ",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "BZ_holy_saturday",
+      "countryCode": "BZ",
+      "kind": "easter_relative",
+      "labelKey": "holidays.holy_saturday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -1
+      }
+    },
+    {
+      "id": "BZ_easter_sunday",
+      "countryCode": "BZ",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "BZ_easter_monday",
+      "countryCode": "BZ",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "BZ_labour_day",
+      "countryCode": "BZ",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "BZ_emancipation_day",
+      "countryCode": "BZ",
+      "kind": "fixed",
+      "labelKey": "holidays.emancipation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 1
+      }
+    },
+    {
+      "id": "BZ_saint_georges_caye_day",
+      "countryCode": "BZ",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_georges_caye_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 10
+      }
+    },
+    {
+      "id": "BZ_independence_day",
+      "countryCode": "BZ",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 21
+      }
+    },
+    {
+      "id": "BZ_pan_america_day",
+      "countryCode": "BZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.pan_america_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "10-12",
+          "2027": "10-11",
+          "2028": "10-09",
+          "2029": "10-15",
+          "2030": "10-12",
+          "2031": "10-13",
+          "2032": "10-11",
+          "2033": "10-10",
+          "2034": "10-09",
+          "2035": "10-15"
+        }
+      }
+    },
+    {
+      "id": "BZ_garifuna_settlement_day",
+      "countryCode": "BZ",
+      "kind": "fixed",
+      "labelKey": "holidays.garifuna_settlement_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 19
+      }
+    },
+    {
+      "id": "BZ_christmas_day",
+      "countryCode": "BZ",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "BZ_boxing_day",
+      "countryCode": "BZ",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "george_price_day": "George Price Day",
+        "national_heroes_and_benefactors_day": "National Heroes and Benefactors Day",
+        "holy_saturday": "Holy Saturday",
+        "easter_sunday": "Easter Sunday",
+        "emancipation_day": "Emancipation Day",
+        "saint_georges_caye_day": "Saint George's Caye Day",
+        "independence_day": "Independence Day",
+        "pan_america_day": "Pan America Day",
+        "garifuna_settlement_day": "Garifuna Settlement Day"
+      }
+    }
+  }
+}

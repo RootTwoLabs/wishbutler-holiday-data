@@ -1,0 +1,266 @@
+{
+  "countryCode": "SM",
+  "version": 2,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "SM_new_years_day",
+      "countryCode": "SM",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "SM_epiphany",
+      "countryCode": "SM",
+      "kind": "fixed",
+      "labelKey": "holidays.epiphany",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "SM_feast_of_saint_agatha",
+      "countryCode": "SM",
+      "kind": "fixed",
+      "labelKey": "holidays.feast_of_saint_agatha",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 5
+      }
+    },
+    {
+      "id": "SM_anniversary_of_the_arengo",
+      "countryCode": "SM",
+      "kind": "fixed",
+      "labelKey": "holidays.anniversary_of_the_arengo",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 25
+      }
+    },
+    {
+      "id": "SM_easter_sunday",
+      "countryCode": "SM",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "SM_easter_monday",
+      "countryCode": "SM",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "SM_labour_day",
+      "countryCode": "SM",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "SM_corpus_christi",
+      "countryCode": "SM",
+      "kind": "easter_relative",
+      "labelKey": "holidays.corpus_christi",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 60
+      }
+    },
+    {
+      "id": "SM_liberation_from_fascism",
+      "countryCode": "SM",
+      "kind": "fixed",
+      "labelKey": "holidays.liberation_from_fascism",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 28
+      }
+    },
+    {
+      "id": "SM_ferragosto_assumption",
+      "countryCode": "SM",
+      "kind": "fixed",
+      "labelKey": "holidays.ferragosto_assumption",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "SM_the_feast_of_san_marino_and_the_republic",
+      "countryCode": "SM",
+      "kind": "fixed",
+      "labelKey": "holidays.the_feast_of_san_marino_and_the_republic",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 3
+      }
+    },
+    {
+      "id": "SM_all_saints_day",
+      "countryCode": "SM",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "SM_commemoration_of_all_those_who_died_at_war",
+      "countryCode": "SM",
+      "kind": "fixed",
+      "labelKey": "holidays.commemoration_of_all_those_who_died_at_war",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 2
+      }
+    },
+    {
+      "id": "SM_immaculate_conception",
+      "countryCode": "SM",
+      "kind": "fixed",
+      "labelKey": "holidays.immaculate_conception",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "SM_christmas_eve",
+      "countryCode": "SM",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "SM_christmas_day",
+      "countryCode": "SM",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "SM_st_stephens_day",
+      "countryCode": "SM",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    },
+    {
+      "id": "SM_new_years_eve",
+      "countryCode": "SM",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "feast_of_saint_agatha": "Feast of Saint Agatha",
+        "anniversary_of_the_arengo": "Anniversary of the Arengo",
+        "easter_sunday": "Easter Sunday",
+        "liberation_from_fascism": "Liberation from Fascism",
+        "ferragosto_assumption": "Ferragosto (Assumption)",
+        "the_feast_of_san_marino_and_the_republic": "The Feast of San Marino and the Republic",
+        "all_saints_day": "All Saints' Day",
+        "commemoration_of_all_those_who_died_at_war": "Commemoration of all those who died at war",
+        "immaculate_conception": "Immaculate Conception",
+        "christmas_eve": "Christmas Eve"
+      },
+      "it": {
+        "feast_of_saint_agatha": "Feast of Saint Agatha",
+        "anniversary_of_the_arengo": "Anniversary of the Arengo",
+        "easter_sunday": "Easter Sunday",
+        "liberation_from_fascism": "Liberation from Fascism",
+        "ferragosto_assumption": "Ferragosto (Assumption)",
+        "the_feast_of_san_marino_and_the_republic": "The Feast of San Marino and the Republic",
+        "all_saints_day": "All Saints' Day",
+        "commemoration_of_all_those_who_died_at_war": "Commemoration of all those who died at war",
+        "immaculate_conception": "Immaculate Conception",
+        "christmas_eve": "Christmas Eve"
+      }
+    }
+  }
+}
