@@ -30,6 +30,7 @@ jobs:
         run: npm run validate
 
       - name: Commit data changes
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -37,9 +38,19 @@ jobs:
             git add data/ CREDITS.md
             git commit -m "chore(data): refresh holiday packages [skip ci]"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "No data changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Purge jsDelivr cache for the manifest
+        # jsDelivr caches `@main` URLs for up to 12h. The manifest (index.json)
+        # is the single mutable entrypoint the app reads, so purge it right after
+        # pushing new data — otherwise clients keep seeing the stale country list.
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          curl -sf "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/data/index.json" || true
 
       - name: Tag release
         run: |
