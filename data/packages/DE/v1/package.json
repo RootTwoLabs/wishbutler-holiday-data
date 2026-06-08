@@ -1,0 +1,182 @@
+{
+  "countryCode": "DE",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "DE_new_year",
+      "countryCode": "DE",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": { "type": "fixed", "month": 1, "day": 1 }
+    },
+    {
+      "id": "DE_good_friday",
+      "countryCode": "DE",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "calendar-today",
+      "category": "religious",
+      "rule": { "type": "easter_relative", "offsetDays": -2 }
+    },
+    {
+      "id": "DE_easter_monday",
+      "countryCode": "DE",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "celebration",
+      "category": "religious",
+      "rule": { "type": "easter_relative", "offsetDays": 1 }
+    },
+    {
+      "id": "DE_labour_day",
+      "countryCode": "DE",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "work",
+      "category": "public",
+      "rule": { "type": "fixed", "month": 5, "day": 1 }
+    },
+    {
+      "id": "DE_mothers_day",
+      "countryCode": "DE",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.mothers_day",
+      "iconName": "favorite",
+      "category": "observance",
+      "rule": { "type": "nth_weekday", "month": 5, "nth": 2, "weekday": 0 },
+      "requiredGender": "female",
+      "requiredRelationshipTypes": ["family", "partner", "close_friend"]
+    },
+    {
+      "id": "DE_fathers_day",
+      "countryCode": "DE",
+      "kind": "easter_relative",
+      "labelKey": "holidays.fathers_day_de",
+      "iconName": "sports-soccer",
+      "category": "observance",
+      "rule": { "type": "easter_relative", "offsetDays": 39 },
+      "requiredGender": "male",
+      "requiredRelationshipTypes": ["family", "partner", "close_friend"]
+    },
+    {
+      "id": "DE_whit_monday",
+      "countryCode": "DE",
+      "kind": "easter_relative",
+      "labelKey": "holidays.whit_monday",
+      "iconName": "flare",
+      "category": "religious",
+      "rule": { "type": "easter_relative", "offsetDays": 50 }
+    },
+    {
+      "id": "DE_german_unity",
+      "countryCode": "DE",
+      "kind": "fixed",
+      "labelKey": "holidays.german_unity",
+      "iconName": "flag",
+      "category": "public",
+      "rule": { "type": "fixed", "month": 10, "day": 3 }
+    },
+    {
+      "id": "DE_christmas_eve",
+      "countryCode": "DE",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve",
+      "iconName": "nightlight",
+      "category": "religious",
+      "rule": { "type": "fixed", "month": 12, "day": 24 }
+    },
+    {
+      "id": "DE_christmas",
+      "countryCode": "DE",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "card-giftcard",
+      "category": "religious",
+      "rule": { "type": "fixed", "month": 12, "day": 25 }
+    },
+    {
+      "id": "DE_boxing_day",
+      "countryCode": "DE",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "redeem",
+      "category": "religious",
+      "rule": { "type": "fixed", "month": 12, "day": 26 }
+    }
+  ],
+  "namedays": {
+    "01-01": ["Maria", "Neujahr"],
+    "03-19": ["Josef"],
+    "06-24": ["Johannes"],
+    "12-06": ["Nikolaus"],
+    "12-26": ["Stephan", "Stefan"]
+  },
+  "i18n": {
+    "holidays": {
+      "de": {
+        "new_year": "Neujahr",
+        "good_friday": "Karfreitag",
+        "easter_monday": "Ostermontag",
+        "labour_day": "Tag der Arbeit",
+        "german_unity": "Tag der Deutschen Einheit",
+        "christmas_eve": "Heiligabend",
+        "christmas": "1. Weihnachtsfeiertag",
+        "boxing_day": "2. Weihnachtsfeiertag"
+      },
+      "en": {
+        "new_year": "New Year's Day",
+        "good_friday": "Good Friday",
+        "easter_monday": "Easter Monday",
+        "labour_day": "Labour Day",
+        "german_unity": "German Unity Day",
+        "christmas_eve": "Christmas Eve",
+        "christmas": "Christmas Day",
+        "boxing_day": "Boxing Day"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "german_unity": {
+          "intro": "Der Tag der Deutschen Einheit erinnert an die Wiedervereinigung 1990.",
+          "history": "Seit 1990 ist der 3. Oktober der Nationalfeiertag Deutschlands.",
+          "traditions": "Buergerfeste, Reden und ein zentrales Festwochenende in wechselnden Staedten.",
+          "funFacts": ["Der Feiertag wandert: Die zentrale Feier findet jaehrlich in einem anderen Bundesland statt."]
+        }
+      },
+      "en": {
+        "german_unity": {
+          "intro": "German Unity Day marks the 1990 reunification of Germany.",
+          "history": "Since 1990, October 3rd has been Germany's national day.",
+          "traditions": "Citizen festivals, speeches and a central celebration hosted by a rotating state.",
+          "funFacts": ["The main celebration rotates between federal states each year."]
+        }
+      }
+    }
+  },
+  "images": {
+    "german_unity": [
+      {
+        "path": "images/german_unity/01.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC-BY-SA-4.0",
+        "primary": true
+      }
+    ],
+    "christmas": [
+      {
+        "path": "images/christmas/01.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC0",
+        "primary": true
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC-BY-2.0"
+      }
+    ]
+  }
+}

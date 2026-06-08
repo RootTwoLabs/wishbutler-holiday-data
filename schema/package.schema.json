@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://wishbutler.app/schema/holiday-package.json",
+  "title": "WishButler Holiday Country Package",
+  "type": "object",
+  "required": ["countryCode", "version", "schemaVersion", "definitions"],
+  "additionalProperties": false,
+  "properties": {
+    "countryCode": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "version": { "type": "integer", "minimum": 1 },
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "definitions": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/holidayDefinition" }
+    },
+    "namedays": {
+      "type": "object",
+      "patternProperties": {
+        "^[0-1][0-9]-[0-3][0-9]$": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "i18n": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "holidays": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          }
+        },
+        "holidayInfo": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": true
+          }
+        }
+      }
+    },
+    "images": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/imageRef" }
+      }
+    }
+  },
+  "definitions": {
+    "imageRef": {
+      "type": "object",
+      "required": ["path"],
+      "additionalProperties": false,
+      "properties": {
+        "path": { "type": "string" },
+        "credit": { "type": "string" },
+        "license": { "type": "string" },
+        "primary": { "type": "boolean" }
+      }
+    },
+    "holidayDefinition": {
+      "type": "object",
+      "required": ["id", "countryCode", "kind", "labelKey", "iconName", "rule"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "countryCode": { "type": "string" },
+        "kind": {
+          "enum": ["fixed", "easter_relative", "nth_weekday", "nameday", "precomputed"]
+        },
+        "labelKey": { "type": "string" },
+        "iconName": { "type": "string" },
+        "category": { "enum": ["public", "religious", "observance"] },
+        "requiredGender": { "enum": ["female", "male"] },
+        "requiredRelationshipTypes": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "proOnly": { "type": "boolean" },
+        "rule": { "$ref": "#/definitions/rule" }
+      }
+    },
+    "rule": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["type", "month", "day"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "fixed" },
+            "month": { "type": "integer", "minimum": 1, "maximum": 12 },
+            "day": { "type": "integer", "minimum": 1, "maximum": 31 }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "offsetDays"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "easter_relative" },
+            "offsetDays": { "type": "integer" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "month", "nth", "weekday"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "nth_weekday" },
+            "month": { "type": "integer", "minimum": 1, "maximum": 12 },
+            "nth": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "weekday": { "type": "integer", "minimum": 0, "maximum": 6 },
+            "last": { "type": "boolean" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "countryCode"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "nameday_calendar" },
+            "countryCode": { "type": "string" }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["type", "dates"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "const": "precomputed" },
+            "dates": {
+              "type": "object",
+              "patternProperties": {
+                "^[0-9]{4}$": { "type": "string", "pattern": "^[0-1][0-9]-[0-3][0-9]$" }
+              },
+              "additionalProperties": false
+            }
+          }
+        }
+      ]
+    }
+  }
+}

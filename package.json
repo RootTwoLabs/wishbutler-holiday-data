@@ -1,0 +1,22 @@
+{
+  "name": "wishbutler-holiday-data",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Public holiday/nameday/image data packages for the WishButler app, served via jsDelivr.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build-all.mjs",
+    "build:holidays": "node scripts/fetch-holidays.mjs",
+    "build:namedays": "node scripts/fetch-namedays.mjs",
+    "build:images": "node scripts/fetch-images.mjs",
+    "build:index": "node scripts/build-index.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1"
+  }
+}

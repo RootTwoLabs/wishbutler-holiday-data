@@ -1,0 +1,48 @@
+name: Build holiday data
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Monthly refresh so precomputed tables keep a long look-ahead window.
+    - cron: '0 3 1 * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm install
+
+      - name: Generate data
+        env:
+          CALENDARIFIC_API_KEY: ${{ secrets.CALENDARIFIC_API_KEY }}
+        run: npm run build
+
+      - name: Validate
+        run: npm run validate
+
+      - name: Commit data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain data/ CREDITS.md)" ]]; then
+            git add data/ CREDITS.md
+            git commit -m "chore(data): refresh holiday packages [skip ci]"
+            git push
+          else
+            echo "No data changes."
+          fi
+
+      - name: Tag release
+        run: |
+          TAG="data-$(date +%Y%m%d-%H%M%S)"
+          git tag "$TAG"
+          git push origin "$TAG"
