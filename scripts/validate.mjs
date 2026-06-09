@@ -32,12 +32,16 @@ function checkHolidayInfo(countryCode, pkg, errors, warnings) {
   if (!holidayInfo) return;
 
   const definedSlugs = new Set(pkg.definitions.map((d) => slugFromLabelKey(d.labelKey)));
+  // The GLOBAL package intentionally ships articles without definitions (the
+  // global holiday definitions are bundled in the app), so skip the
+  // "slug not in definitions" cross-check when there are no definitions.
+  const checkDefined = definedSlugs.size > 0;
 
   for (const [locale, articles] of Object.entries(holidayInfo)) {
     for (const [slug, article] of Object.entries(articles ?? {})) {
       const prefix = `${countryCode} holidayInfo.${locale}.${slug}`;
 
-      if (!definedSlugs.has(slug)) {
+      if (checkDefined && !definedSlugs.has(slug)) {
         warnings.push(`${prefix}: article slug not in package definitions`);
       }
 
@@ -120,6 +124,30 @@ async function main() {
 
     checkHolidayInfo(country.code, pkg, errors, warnings);
     checkImages(country.code, pkg, errors);
+  }
+
+  // The GLOBAL package (global holiday articles + hero images, no definitions)
+  // lives outside `countries` under the top-level `global` field.
+  if (index.global) {
+    const g = index.global;
+    const pkgPath = join(DATA, g.package);
+    if (!existsSync(pkgPath)) {
+      errors.push(`GLOBAL: package missing at ${g.package}`);
+    } else {
+      const pkg = await readJson(pkgPath);
+      if (!validatePackage(pkg)) {
+        errors.push(`GLOBAL: ${ajv.errorsText(validatePackage.errors)}`);
+      } else {
+        if (pkg.countryCode !== 'GLOBAL') {
+          errors.push(`GLOBAL: countryCode mismatch (${pkg.countryCode})`);
+        }
+        if (pkg.version !== g.version) {
+          errors.push(`GLOBAL: version mismatch (index ${g.version} vs pkg ${pkg.version})`);
+        }
+        checkHolidayInfo('GLOBAL', pkg, errors, warnings);
+        checkImages('GLOBAL', pkg, errors);
+      }
+    }
   }
 
   if (warnings.length > 0) {

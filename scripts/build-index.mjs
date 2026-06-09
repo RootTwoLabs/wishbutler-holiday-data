@@ -32,29 +32,50 @@ function versionFromDir(name) {
   return m ? parseInt(m[1], 10) : null;
 }
 
+async function bestVersionEntry(code) {
+  const countryDir = join(PACKAGES, code);
+  let best = null;
+  for (const versionDir of await listDirs(countryDir)) {
+    const version = versionFromDir(versionDir);
+    if (version == null) continue;
+    if (!best || version > best.version) best = { version, dir: versionDir };
+  }
+  if (!best) return null;
+
+  const rel = `packages/${code}/${best.dir}/package.json`;
+  const abs = join(DATA, rel);
+  const pkg = await readJson(abs);
+  const { size } = await stat(abs);
+  return { best, rel, pkg, size };
+}
+
 async function main() {
   const countries = [];
+  let global = null;
+
   for (const code of await listDirs(PACKAGES)) {
-    const countryDir = join(PACKAGES, code);
-    let best = null;
-    for (const versionDir of await listDirs(countryDir)) {
-      const version = versionFromDir(versionDir);
-      if (version == null) continue;
-      if (!best || version > best.version) {
-        best = { version, dir: versionDir };
-      }
+    const entry = await bestVersionEntry(code);
+    if (!entry) continue;
+    const { best, rel, pkg, size } = entry;
+
+    if (code === 'GLOBAL') {
+      // The GLOBAL package lives outside the country list (it is not a country
+      // and must never appear in the country picker); the app loads it on start.
+      global = {
+        code: 'GLOBAL',
+        version: best.version,
+        package: rel,
+        sizeBytes: size,
+        locales: pkg.i18n?.holidayInfo ? Object.keys(pkg.i18n.holidayInfo).sort() : [],
+        hasInfo: Boolean(
+          pkg.i18n?.holidayInfo && Object.keys(pkg.i18n.holidayInfo).length > 0,
+        ),
+        hasImages: Boolean(pkg.images && Object.keys(pkg.images).length > 0),
+      };
+      continue;
     }
-    if (!best) continue;
 
-    const rel = `packages/${code}/${best.dir}/package.json`;
-    const abs = join(DATA, rel);
-    const pkg = await readJson(abs);
-    const { size } = await stat(abs);
-
-    const locales = pkg.i18n?.holidays
-      ? Object.keys(pkg.i18n.holidays).sort()
-      : [];
-
+    const locales = pkg.i18n?.holidays ? Object.keys(pkg.i18n.holidays).sort() : [];
     countries.push({
       code,
       version: best.version,
@@ -85,10 +106,13 @@ async function main() {
     baseUrl,
     generatedAt: new Date().toISOString(),
     countries,
+    ...(global ? { global } : {}),
   };
 
   await writeFile(INDEX, JSON.stringify(index, null, 2) + '\n', 'utf8');
-  console.log(`index.json written with ${countries.length} countries.`);
+  console.log(
+    `index.json written with ${countries.length} countries${global ? ` + GLOBAL v${global.version}` : ''}.`,
+  );
 }
 
 main().catch((err) => {

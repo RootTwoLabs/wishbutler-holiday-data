@@ -26,6 +26,20 @@
           "hasImages": { "type": "boolean" }
         }
       }
+    },
+    "global": {
+      "type": "object",
+      "required": ["code", "version", "package"],
+      "additionalProperties": false,
+      "properties": {
+        "code": { "const": "GLOBAL" },
+        "version": { "type": "integer", "minimum": 1 },
+        "package": { "type": "string" },
+        "sizeBytes": { "type": "integer", "minimum": 0 },
+        "locales": { "type": "array", "items": { "type": "string" } },
+        "hasInfo": { "type": "boolean" },
+        "hasImages": { "type": "boolean" }
+      }
     }
   }
 }

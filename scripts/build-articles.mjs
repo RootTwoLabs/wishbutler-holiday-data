@@ -5,7 +5,7 @@
  *
  * Usage: node scripts/build-articles.mjs [CC ...]
  */
-import { readFile, writeFile, readdir } from 'node:fs/promises';
+import { readFile, writeFile, readdir, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -127,6 +127,105 @@ async function mergePackage(cc, pkgPath, globalArticles, countryArticles, credit
   console.log(`  ${cc}: ${articleCount} article entries, ${imageCount} image slugs`);
 }
 
+/** Applies CREDITS.md hints to an image ref (or marks it CC0). */
+function decorateImageRef(ref, creditHints) {
+  const hint = creditHints.get(ref.path);
+  const out = { ...ref };
+  if (hint) {
+    out.credit = hint.credit;
+    out.license = hint.license;
+  } else if (!needsCredit('CC0')) {
+    out.license = 'CC0';
+  }
+  return out;
+}
+
+/** Content of a package without the (auto-incrementing) version field. */
+function packageContentKey(pkg) {
+  const { version, ...rest } = pkg;
+  return JSON.stringify(rest);
+}
+
+/**
+ * Builds the GLOBAL package: all global articles (7 locales) plus hero images
+ * for every global (non country-namespaced) slug. It carries no definitions —
+ * the global holiday definitions are bundled in the app; this package only
+ * supplies the article text + imagery the app loads on first launch so global
+ * holidays show artwork without any country package downloaded.
+ *
+ * Versioned like country packages (new v<N> dir), but only bumps when the
+ * resolved content actually changes, to avoid needless re-downloads.
+ */
+async function buildGlobalPackage(globalArticles, creditHints) {
+  const holidayInfo = {};
+  for (const locale of CONTENT_LOCALES) {
+    const bySlug = globalArticles[locale];
+    if (!bySlug) continue;
+    for (const [slug, article] of Object.entries(bySlug)) {
+      holidayInfo[locale] ??= {};
+      holidayInfo[locale][slug] = article;
+    }
+  }
+
+  // Global slug image folders are the top-level dirs under data/images that are
+  // NOT country folders (country-namespaced images live under data/images/<CC>/).
+  const imagesRoot = join(DATA, 'images');
+  const images = {};
+  for (const name of (await listDirs(imagesRoot)).sort()) {
+    if (/^[A-Z]{2}$/.test(name)) continue; // country folder, skip
+    const refs = await buildImageRefs(DATA, name, null);
+    if (refs.length > 0) {
+      images[name] = refs.map((ref) => decorateImageRef(ref, creditHints));
+    }
+  }
+
+  const globalDir = join(PACKAGES, 'GLOBAL');
+  const versions = (await listDirs(globalDir))
+    .map(versionFromDir)
+    .filter((v) => v != null)
+    .sort((a, b) => a - b);
+  const prevVersion = versions.at(-1) ?? null;
+
+  const i18n = { holidays: {} };
+  if (Object.keys(holidayInfo).length > 0) i18n.holidayInfo = holidayInfo;
+
+  const base = {
+    countryCode: 'GLOBAL',
+    schemaVersion: 1,
+    definitions: [],
+    i18n,
+    ...(Object.keys(images).length > 0 ? { images } : {}),
+  };
+
+  // Reuse the previous version when nothing changed; otherwise bump.
+  let version = prevVersion ?? 1;
+  if (prevVersion != null) {
+    try {
+      const prevPkg = await readJson(
+        join(globalDir, `v${prevVersion}`, 'package.json'),
+      );
+      if (packageContentKey({ ...prevPkg }) !== packageContentKey({ ...base, version: prevVersion })) {
+        version = prevVersion + 1;
+      }
+    } catch {
+      version = prevVersion + 1;
+    }
+  }
+
+  const pkg = { ...base, version };
+  const dir = join(globalDir, `v${version}`);
+  await mkdir(dir, { recursive: true });
+  await writeFile(join(dir, 'package.json'), JSON.stringify(pkg, null, 2) + '\n', 'utf8');
+
+  const articleCount = Object.values(holidayInfo).reduce(
+    (n, m) => n + Object.keys(m).length,
+    0,
+  );
+  console.log(
+    `  GLOBAL v${version}: ${articleCount} article entries, ${Object.keys(images).length} image slugs`,
+  );
+}
+
 async function main() {
   const only = process.argv.slice(2).filter((a) => !a.startsWith('-'));
   const globalArticles = await loadGlobalArticles(CONTENT);
@@ -145,6 +244,14 @@ async function main() {
     }
     await mergePackage(cc, pkgPath, globalArticles, countryArticles, creditHints);
   }
+
+  // The GLOBAL package is independent of the per-country build above and is only
+  // (re)built on a full run (no specific countries requested).
+  if (only.length === 0) {
+    console.log('Building GLOBAL package...');
+    await buildGlobalPackage(globalArticles, creditHints);
+  }
+
   console.log('Done.');
 }
 

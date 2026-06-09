@@ -6,7 +6,7 @@
   "required": ["countryCode", "version", "schemaVersion", "definitions"],
   "additionalProperties": false,
   "properties": {
-    "countryCode": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "countryCode": { "type": "string", "pattern": "^([A-Z]{2}|GLOBAL)$" },
     "version": { "type": "integer", "minimum": 1 },
     "schemaVersion": { "type": "integer", "minimum": 1 },
     "definitions": {
