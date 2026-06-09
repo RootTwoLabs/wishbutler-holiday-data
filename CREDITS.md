@@ -7,6 +7,7 @@ Domain (PD), CC0, CC-BY, or CC-BY-SA. Each image's attribution and license is
 generated automatically by `scripts/fetch-images.mjs` and listed below.
 
 <!-- BEGIN:IMAGE-CREDITS (auto-generated) -->
+- `images/AU/anzac_day/03.jpg` — Yu Chu Chin (CC BY-SA 4.0)
 - `images/BR/carnival/02.jpg` — Michel Renaudeau (CC BY-SA 2.0)
 - `images/BR/carnival/03.jpg` — Leandro Neumann Ciuffo (CC BY 2.0)
 - `images/BR/independence_day/02.jpg` — Jorge Andrade (CC BY 2.0)

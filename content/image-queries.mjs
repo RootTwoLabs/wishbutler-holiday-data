@@ -193,6 +193,36 @@ export const IMAGE_QUERIES = {
   battle_of_boyaca: {
     CO: ['Puente de Boyaca bridge monument Colombia', 'Battle of Boyaca Simon Bolivar'],
   },
+
+  // --- Batch 5: AU, NZ ---
+  australia_day: {
+    AU: [
+      'Australia Day Sydney celebration',
+      'flag of Australia',
+      'Australia Day fireworks Sydney Harbour',
+      'Australian flag crowd celebration',
+    ],
+  },
+  anzac_day: {
+    AU: [
+      'Anzac Day dawn service Australia',
+      'Anzac Day march Australia poppy',
+      'Australian War Memorial Anzac',
+    ],
+    NZ: [
+      'Anzac Day dawn service New Zealand',
+      'Anzac Day poppy New Zealand memorial',
+      'Auckland War Memorial Anzac',
+    ],
+  },
+  waitangi_day: {
+    NZ: [
+      'Waitangi Day New Zealand Treaty Grounds',
+      'Waitangi Treaty House New Zealand',
+      'Maori waka canoe Waitangi',
+      'New Zealand flag Waitangi celebration',
+    ],
+  },
 };
 
 /** Resolves search terms for a slug, optionally scoped to a country. */

@@ -90,6 +90,12 @@ export const COUNTRY_ARTICLE_MAP = {
   cl_navy_day: { slug: 'navy_day', countryCode: 'CL' },
   co_independence: { slug: 'declaration_of_independence', countryCode: 'CO' },
   co_boyaca: { slug: 'battle_of_boyaca', countryCode: 'CO' },
+
+  // --- Batch 5: AU, NZ (English-speaking, high purchasing power) ---
+  au_australia_day: { slug: 'australia_day', countryCode: 'AU' },
+  au_anzac_day: { slug: 'anzac_day', countryCode: 'AU' },
+  nz_waitangi_day: { slug: 'waitangi_day', countryCode: 'NZ' },
+  nz_anzac_day: { slug: 'anzac_day', countryCode: 'NZ' },
 };
 
 /** Slugs whose images and articles are namespaced per country. */
@@ -132,6 +138,10 @@ export const NAMESPACED_SLUGS = new Set([
   'navy_day',
   'declaration_of_independence',
   'battle_of_boyaca',
+  // Batch 5
+  'australia_day',
+  'anzac_day',
+  'waitangi_day',
 ]);
 
 /** Locales we ship article content for. */
