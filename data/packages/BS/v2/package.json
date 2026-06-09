@@ -204,6 +204,480 @@
         "emancipation_day": "Emancipation Day",
         "national_heroes_day": "National Heroes' Day"
       }
+    },
+    "holidayInfo": {
+      "de": {
+        "good_friday": {
+          "intro": "Karfreitag ist der höchste protestantische Trauertag und erinnert an die Kreuzigung Jesu Christi. In Deutschland ist er ein „stiller Feiertag” mit besonderen Schutzregeln.",
+          "history": "Karfreitag wird seit dem 4. Jahrhundert von Christen begangen. Das Wort „Kar” stammt vom althochdeutschen „chara” und bedeutet Klage oder Trauer. Schon früh entwickelten sich liturgische Traditionen: Verlesung der Passionsgeschichte, Kreuzverehrung und das Verstummen der Glocken. Die Reformation hob den Karfreitag besonders hervor; in lutherischen Regionen ist er bis heute der wichtigste Feiertag des Kirchenjahres.",
+          "traditions": "Viele Christen besuchen Passionsgottesdienste mit der Verlesung der Leidensgeschichte. Es gilt als Fastentag – traditionell wird Fisch statt Fleisch gegessen. In manchen Regionen ziehen Karfreitagsprozessionen durch die Straßen, etwa die berühmte „Karfreitagsprozession” in Lohr am Main. Tanzveranstaltungen und laute Musik sind in den meisten Bundesländern gesetzlich untersagt.",
+          "funFacts": [
+            "In Deutschland regelt das „Tanzverbot” das öffentliche Vergnügen am Karfreitag – seit Jahren ein gesellschaftlicher Streitpunkt.",
+            "Bach schrieb seine Matthäus-Passion 1727 für die Karfreitags-Vesper in Leipzig – heute eines der meistaufgeführten Werke der Welt.",
+            "In Bermuda lassen Familien am Karfreitag selbstgebastelte Drachen aus Bambus und Papier steigen – eine einzigartige christliche Tradition.",
+            "Im Spanischen heißt Karfreitag „Viernes Santo” – mit prachtvollen Bruderschafts-Prozessionen, etwa in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Ostermontag ist der zweite Festtag von Ostern und in den meisten europäischen Ländern arbeitsfrei. Er ist Ausklang des höchsten christlichen Festes.",
+          "history": "Ostern ist das älteste Fest der Christenheit und feiert die Auferstehung Jesu Christi am dritten Tag nach seinem Tod. Das Konzil von Nicäa legte 325 das Osterdatum auf den ersten Sonntag nach dem ersten Frühlingsvollmond. Der Ostermontag wird seit dem frühen Mittelalter als zweiter Festtag begangen – ursprünglich war die ganze Osterwoche frei. In Deutschland und Österreich blieb er als gesetzlicher Feiertag erhalten, anders als in vielen rein katholischen Ländern.",
+          "traditions": "Familien suchen gemeinsam Ostereier, frühstücken ausgiebig oder unternehmen den klassischen Osterspaziergang („Vom Eise befreit sind Strom und Bäche…”, Goethe). In Polen feiert man „Śmigus-Dyngus”: Junge bespritzen Mädchen mit Wasser. In Tschechien klopfen Burschen mit Weidenruten an Türen. In Bayern und Österreich gibt es das traditionelle „Emmausgehen”.",
+          "funFacts": [
+            "Der Brauch des Ostereiersuchens wurde erstmals von Martin Luther erwähnt, der seinen Kindern damit eine Freude machte.",
+            "Das größte Schoko-Osterei der Welt stand in Argentinien (8,5 m hoch, 4 t schwer) – verewigt im Guinness-Buch.",
+            "In Schweden ziehen Kinder am Karsamstag als „Påskkärringar” verkleidet – wie kleine Hexen – von Tür zu Tür.",
+            "Der Osterhase als Eierbringer wurde 1682 erstmals von dem Mediziner Georg Franck von Franckenau schriftlich erwähnt."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "Pfingstmontag ist der zweite Festtag von Pfingsten und in vielen christlich geprägten Ländern arbeitsfrei. Pfingsten erinnert an die Ausgießung des Heiligen Geistes über die Apostel.",
+          "history": "Das Pfingstfest („pentekostē” – griechisch für „der fünfzigste”) wird 50 Tage nach Ostern gefeiert und wurzelt im jüdischen Wochenfest Schawuot. Schon im 4. Jahrhundert wurde es als zweithöchstes christliches Fest neben Ostern und Weihnachten begangen. Der Pfingstmontag entstand aus dem mittelalterlichen Brauch, die ganze Pfingstoktav (acht Tage) zu feiern – auch wenn diese nach dem 2. Vatikanischen Konzil 1969 abgeschafft wurde, blieb der Pfingstmontag als Feiertag.",
+          "traditions": "Pfingsten ist die Zeit der Pfingstrose, der ersten lauen Frühsommertage und vieler Volksfeste. In ländlichen Regionen werden Pfingstochsen geschmückt, in der Eifel das „Pfingstkönigreich” gefeiert. Familien nutzen das verlängerte Wochenende für Ausflüge, Wanderungen und das erste Grillen im Freien.",
+          "funFacts": [
+            "Der „Pfingstochse” – ein bunt geschmücktes Rind als Frühjahrsbote – ist namensgebend für die Redensart „herausgeputzt wie ein Pfingstochse”.",
+            "In Italien wurden bei der Pfingstmesse einst Rosenblätter aus dem Pantheon-Dach gestreut, um den Heiligen Geist zu symbolisieren.",
+            "In Schweden und Skandinavien ist der Pfingstmontag seit 2005 nicht mehr arbeitsfrei – stattdessen ist der Schwedische Nationalfeiertag (6. Juni) ein Feiertag.",
+            "Pfingsten wird auch „Geburtstag der Kirche” genannt, weil an diesem Tag laut Apostelgeschichte 3.000 Menschen getauft wurden."
+          ],
+          "imageCredit": "Foto: Print made by: Virgil Solis · Public domain via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
+          "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
+          "traditions": "Familien versammeln sich zu festlichen Mahlzeiten – Truthahn, Gans, Karpfen oder Raclette. Geschenke werden ausgetauscht, Weihnachtslieder gesungen, viele besuchen den Festgottesdienst. Der geschmückte Christbaum mit Lichterketten, Kugeln und Strohsternen ist das zentrale Symbol. Adventskalender, Plätzchen und der Besuch von Weihnachtsmärkten gehören zur Vorbereitung.",
+          "funFacts": [
+            "Der erste kommerzielle Adventskalender erschien 1908 in München – Erfinder war Gerhard Lang.",
+            "Die Weihnachtsmärkte in Dresden („Striezelmarkt”, seit 1434) und Frankfurt (seit 1393) gehören zu den ältesten der Welt.",
+            "Norwegen schenkt Großbritannien seit 1947 jährlich einen riesigen Weihnachtsbaum für den Trafalgar Square – als Dank für die Hilfe im Zweiten Weltkrieg.",
+            "Die Weihnachtsfilm-Klassiker „Drei Haselnüsse für Aschenbrödel” und „Tatsächlich… Liebe” laufen weltweit jedes Jahr Dutzende Male im TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Der Stefanitag am 26. Dezember ist in Österreich der zweite Weihnachtsfeiertag und gedenkt zugleich des heiligen Stephanus, des ersten christlichen Märtyrers.",
+          "history": "Stephanus war einer der ersten sieben Diakone der Urkirche und wurde laut Apostelgeschichte zwischen 36 und 40 n. Chr. in Jerusalem gesteinigt – er gilt als „Protomärtyrer”. Das Stephanus-Fest wurde bereits im 4. Jahrhundert am 26. Dezember begangen, weil man die wichtigsten Märtyrer am Tag nach Christi Geburt ehren wollte („vom Kind zum Zeugen”). Der Wiener Stephansdom – Wahrzeichen Österreichs – ist nach ihm benannt. In Österreich ist der 26. Dezember bis heute gesetzlicher Feiertag.",
+          "traditions": "Die Kirche segnet an diesem Tag Pferde und Reiter beim sogenannten „Stephani-Ritt” oder „Stephani-Umritt”, da Stephanus der Schutzpatron der Pferde und Reiter ist. In Salzburg, Tirol und Niederösterreich ziehen geschmückte Pferde durch die Dörfer. Familien besuchen weitere Verwandte oder unternehmen einen ausgedehnten Spaziergang im Schnee.",
+          "funFacts": [
+            "Der Wiener Stephansdom (kurz „Steffl”) ist Österreichs bedeutendstes gotisches Bauwerk – sein Südturm ist 136 m hoch.",
+            "Der „Stephani-Umritt” in Asparn an der Zaya zieht jährlich mehrere hundert Reiter aus ganz Niederösterreich an.",
+            "Hafer, der am Stephanstag gesegnet und an Pferde verfüttert wird, soll diese vor Krankheiten schützen.",
+            "In Großbritannien fällt der Stefanitag mit dem „Boxing Day” zusammen – aber die Bezeichnung „Boxing Day” hat einen ganz anderen Ursprung."
+          ],
+          "imageCredit": "Foto: Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "good_friday": {
+          "intro": "Good Friday is the highest Protestant day of mourning, commemorating the crucifixion of Jesus Christ. In Germany it is a ‘silent holiday' with special legal protections.",
+          "history": "Good Friday has been observed by Christians since the 4th century. The German prefix ‘Kar' comes from Old High German ‘chara', meaning lamentation or mourning. Liturgical traditions developed early on: the reading of the Passion, veneration of the cross and the silencing of bells. The Reformation gave Good Friday particular weight; in Lutheran regions it remains the most important holiday of the church year.",
+          "traditions": "Many Christians attend Passion services with the reading of the Passion narrative. The day is traditionally one of fasting — fish replaces meat. In some regions, Good Friday processions march through the streets, such as the famous one in Lohr am Main. Dance events and loud music are forbidden by law in most German states.",
+          "funFacts": [
+            "Germany's ‘dance ban' regulates public entertainment on Good Friday — and has been a hot social topic for years.",
+            "Bach wrote his St. Matthew Passion in 1727 for Good Friday vespers in Leipzig — today one of the world's most performed works.",
+            "In Bermuda, families fly self-made bamboo and paper kites on Good Friday — a unique Christian tradition.",
+            "In Spanish-speaking countries Good Friday is ‘Viernes Santo' — with magnificent brotherhood processions, for example in Seville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Easter Monday is the second day of Easter and is a public holiday in most European countries. It marks the closing of Christianity's highest festival.",
+          "history": "Easter is the oldest festival in Christendom, celebrating the resurrection of Jesus Christ on the third day after his death. The Council of Nicaea in 325 set Easter on the first Sunday after the first spring full moon. Easter Monday has been observed since the early Middle Ages — originally the entire Easter week was a holiday. In Germany and Austria it remained a legal holiday, unlike in many purely Catholic countries.",
+          "traditions": "Families hunt for Easter eggs together, enjoy a leisurely brunch or take the classic Easter walk (immortalized in Goethe's ‘Faust'). In Poland ‘Śmigus-Dyngus' is celebrated: boys splash girls with water. In Czechia, lads tap on doors with willow whips. In Bavaria and Austria there is the traditional ‘Emmaus walk'.",
+          "funFacts": [
+            "The custom of Easter egg hunts was first mentioned by Martin Luther, who used it to delight his children.",
+            "The world's largest chocolate Easter egg stood in Argentina (8.5 m tall, 4 t) — recorded in the Guinness Book.",
+            "In Sweden, children dress up as ‘Påskkärringar' — little witches — on Holy Saturday and go door to door.",
+            "The Easter Bunny as deliverer of eggs was first mentioned in 1682 by physician Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "Whit Monday is the second day of Pentecost and a public holiday in many Christian-influenced countries. Pentecost commemorates the descent of the Holy Spirit on the Apostles.",
+          "history": "Pentecost (Greek ‘pentekostē', meaning fiftieth) is celebrated 50 days after Easter and has roots in the Jewish Feast of Weeks (Shavuot). It was honored as the second-highest Christian feast alongside Easter and Christmas as early as the 4th century. Whit Monday derives from the medieval custom of celebrating the entire Pentecost octave (eight days). Although that octave was abolished after the Second Vatican Council in 1969, Whit Monday remains a holiday.",
+          "traditions": "Pentecost is the season of peonies, the first warm early-summer days and many folk festivals. In rural regions ‘Pentecost oxen' are decorated; in the Eifel the ‘Pfingstkönigreich' is celebrated. Families use the long weekend for outings, hikes and the season's first outdoor barbecue.",
+          "funFacts": [
+            "The ‘Pfingstochse' — a colorfully decorated bull as harbinger of spring — gave rise to the German idiom ‘herausgeputzt wie ein Pfingstochse' (dressed up like a Pentecost ox).",
+            "In Italy, rose petals were once scattered from the roof of the Pantheon during the Pentecost mass to symbolize the Holy Spirit.",
+            "In Sweden and Scandinavia, Whit Monday has not been a public holiday since 2005 — replaced by Sweden's National Day on June 6th.",
+            "Pentecost is also called the ‘birthday of the Church', because Acts says 3,000 people were baptized that day."
+          ],
+          "imageCredit": "Photo: Print made by: Virgil Solis · Public domain via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
+          "history": "December 25th is documented as ‘dies natalis Christi' as early as 354 in a Roman calendar. The Church likely chose the date to give the Roman ‘Sol Invictus' winter solstice festival a Christian meaning. Gift-giving has its roots in the gifts of the Magi. The familiar Santa Claus with red coat and white beard is a mix of Saint Nicholas and a 1931 Coca-Cola advertising campaign.",
+          "traditions": "Families gather for festive meals — turkey, goose, carp or raclette. Gifts are exchanged, carols sung, many attend the festive service. The decorated Christmas tree with lights, ornaments and straw stars is the central symbol. Advent calendars, cookies and visits to Christmas markets are part of the run-up.",
+          "funFacts": [
+            "The first commercial Advent calendar appeared in 1908 in Munich — invented by Gerhard Lang.",
+            "The Christmas markets in Dresden (‘Striezelmarkt', since 1434) and Frankfurt (since 1393) are among the oldest in the world.",
+            "Norway has gifted the UK a giant Christmas tree for Trafalgar Square every year since 1947 — as thanks for help during World War II.",
+            "Holiday classics like ‘Three Wishes for Cinderella' and ‘Love Actually' run dozens of times on TV worldwide every year."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "St. Stephen's Day on December 26th is Austria's second Christmas day and also commemorates Saint Stephen, the first Christian martyr.",
+          "history": "Stephen was one of the first seven deacons of the early Church and, according to Acts, was stoned in Jerusalem between 36 and 40 AD — known as the ‘protomartyr'. The feast of Stephen has been celebrated on December 26th since the 4th century, because the Church wanted to honor the most important martyrs the day after the birth of Christ (‘from Child to witness'). Vienna's St. Stephen's Cathedral — Austria's landmark — is named after him. December 26th remains a public holiday in Austria.",
+          "traditions": "The Church blesses horses and riders on this day at the so-called ‘Stephani-Ritt' or ‘Stephani-Umritt', as Stephen is the patron saint of horses and riders. In Salzburg, Tyrol and Lower Austria, decorated horses parade through the villages. Families visit further relatives or take long walks in the snow.",
+          "funFacts": [
+            "Vienna's St. Stephen's Cathedral (‘Steffl' for short) is Austria's most important Gothic building — its south tower stands 136 m high.",
+            "The ‘Stephani-Umritt' in Asparn an der Zaya draws several hundred riders from across Lower Austria every year.",
+            "Oats blessed on St. Stephen's Day and fed to horses are said to protect them from disease.",
+            "In the United Kingdom, St. Stephen's Day coincides with ‘Boxing Day' — but ‘Boxing Day' has a completely different origin."
+          ],
+          "imageCredit": "Photo: Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "good_friday": {
+          "intro": "Le Vendredi Saint est le jour le plus solennel du protestantisme et commémore la crucifixion de Jésus-Christ. En Allemagne, il s'agit d'un ‘jour silencieux' légalement protégé.",
+          "history": "Le Vendredi Saint est célébré par les chrétiens depuis le IVe siècle. Le préfixe allemand ‘Kar' vient du vieux haut-allemand ‘chara' (lamentation, deuil). Très tôt s'élaborent les traditions liturgiques : lecture de la Passion, vénération de la Croix, silence des cloches. La Réforme protestante lui donna une importance particulière ; dans les régions luthériennes, c'est la fête la plus importante de l'année liturgique.",
+          "traditions": "De nombreux chrétiens assistent à la liturgie de la Passion. C'est traditionnellement un jour de jeûne — on mange du poisson plutôt que de la viande. Dans certaines régions ont lieu des processions du Vendredi Saint, comme la fameuse procession de Lohr am Main. En Allemagne, la danse et la musique forte sont légalement interdites dans la plupart des Länder.",
+          "funFacts": [
+            "L'interdiction de danser (‘Tanzverbot') régit les divertissements publics du Vendredi Saint en Allemagne — sujet sociétal récurrent.",
+            "Bach composa sa Passion selon saint Matthieu en 1727 pour les vêpres du Vendredi Saint à Leipzig.",
+            "Aux Bermudes, les familles font voler des cerfs-volants en bambou et papier le Vendredi Saint — tradition chrétienne unique.",
+            "En Espagne, le ‘Viernes Santo' brille par les magnifiques processions de confréries, notamment à Séville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Le lundi de Pâques est le second jour de Pâques et férié dans la plupart des pays européens. Il clôt la fête majeure du christianisme.",
+          "history": "Pâques est la plus ancienne fête de la chrétienté et célèbre la résurrection de Jésus-Christ le troisième jour. Le concile de Nicée fixa en 325 la date de Pâques au premier dimanche après la première pleine lune du printemps. Le lundi de Pâques se célèbre depuis le haut Moyen Âge — initialement, toute la semaine de Pâques était fériée. En Allemagne et en Autriche, il demeure un jour férié légal, contrairement à beaucoup de pays purement catholiques.",
+          "traditions": "Les familles font la chasse aux œufs, prennent un long brunch ou la traditionnelle promenade pascale. En Pologne, on célèbre ‘Śmigus-Dyngus' : les garçons aspergent les filles d'eau. En Tchéquie, les jeunes hommes tapent aux portes avec des branches de saule. En Bavière et en Autriche, la traditionnelle ‘marche d'Emmaüs' a lieu.",
+          "funFacts": [
+            "C'est Martin Luther qui mentionna pour la première fois la chasse aux œufs, pour amuser ses enfants.",
+            "Le plus grand œuf en chocolat du monde (8,5 m, 4 t) a été réalisé en Argentine — entré au Guinness.",
+            "En Suède, les enfants se déguisent en ‘Påskkärringar' (petites sorcières) le Samedi Saint et font du porte-à-porte.",
+            "Le lapin de Pâques en tant que livreur d'œufs fut mentionné pour la première fois en 1682 par le médecin Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "Le lundi de Pentecôte est le second jour de Pentecôte, férié dans bien des pays chrétiens. La Pentecôte commémore la descente de l'Esprit Saint sur les apôtres.",
+          "history": "La Pentecôte (du grec ‘pentekostē', cinquantième) se célèbre 50 jours après Pâques et trouve ses racines dans la fête juive de Chavouot. Dès le IVe siècle, elle était la deuxième grande fête chrétienne après Pâques et Noël. Le lundi de Pentecôte vient de la coutume médiévale de fêter toute l'octave (huit jours) ; bien que celle-ci ait été supprimée après Vatican II en 1969, le lundi est resté férié.",
+          "traditions": "La Pentecôte coïncide avec la floraison des pivoines et les premiers jours doux de l'été, et donne lieu à de nombreuses fêtes populaires. Dans les campagnes, on décore des ‘bœufs de Pentecôte' ; dans l'Eifel, on célèbre le ‘Pfingstkönigreich'. Les familles profitent du long week-end pour des excursions et les premiers barbecues.",
+          "funFacts": [
+            "Le ‘Pfingstochse' — bœuf décoré comme héraut du printemps — est à l'origine de l'expression allemande ‘herausgeputzt wie ein Pfingstochse'.",
+            "À Rome, on jetait jadis des pétales de roses depuis le toit du Panthéon pendant la messe de Pentecôte, en symbole de l'Esprit Saint.",
+            "En Suède et Scandinavie, le lundi de Pentecôte n'est plus férié depuis 2005 — remplacé par la fête nationale suédoise (6 juin).",
+            "La Pentecôte est aussi appelée ‘anniversaire de l'Église' car, selon les Actes, 3 000 personnes furent baptisées ce jour-là."
+          ],
+          "imageCredit": "Photo: Print made by: Virgil Solis · Public domain via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
+          "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
+          "traditions": "Les familles se rassemblent autour de repas festifs — dinde, oie, carpe ou raclette. On échange des cadeaux, chante des cantiques, beaucoup assistent à la messe festive. Le sapin décoré de lumières, boules et étoiles de paille est le symbole central. Calendrier de l'avent, biscuits et marchés de Noël jalonnent la préparation.",
+          "funFacts": [
+            "Le premier calendrier de l'avent commercial parut en 1908 à Munich — invention de Gerhard Lang.",
+            "Les marchés de Noël de Dresde (‘Striezelmarkt', depuis 1434) et de Francfort (depuis 1393) figurent parmi les plus anciens du monde.",
+            "La Norvège offre chaque année au Royaume-Uni un immense sapin pour Trafalgar Square depuis 1947 — en remerciement de l'aide pendant la Seconde Guerre mondiale.",
+            "Les classiques de Noël comme ‘Trois noisettes pour Cendrillon' ou ‘Love Actually' sont diffusés des dizaines de fois à la télé chaque année."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "La Saint-Étienne, le 26 décembre, est en Autriche le second jour de Noël et commémore saint Étienne, premier martyr chrétien.",
+          "history": "Étienne fut l'un des sept premiers diacres de l'Église primitive et, selon les Actes des Apôtres, fut lapidé à Jérusalem entre 36 et 40 apr. J.-C. — c'est le ‘protomartyr'. La fête se célèbre le 26 décembre depuis le IVe siècle, l'Église souhaitant honorer les grands martyrs le lendemain de la naissance du Christ (‘de l'Enfant au témoin'). La cathédrale Saint-Étienne de Vienne — symbole de l'Autriche — porte son nom. Le 26 décembre demeure férié en Autriche.",
+          "traditions": "L'Église bénit ce jour-là chevaux et cavaliers lors du ‘Stephani-Ritt' ou ‘Stephani-Umritt', Étienne étant patron des chevaux et des cavaliers. À Salzbourg, au Tyrol et en Basse-Autriche, des chevaux ornés défilent dans les villages. Les familles rendent visite à d'autres parents ou se promènent dans la neige.",
+          "funFacts": [
+            "La cathédrale Saint-Étienne (‘Steffl' familier) est le plus important monument gothique d'Autriche — sa tour sud culmine à 136 m.",
+            "Le ‘Stephani-Umritt' d'Asparn an der Zaya rassemble chaque année plusieurs centaines de cavaliers de toute la Basse-Autriche.",
+            "L'avoine bénie le jour de la Saint-Étienne et donnée aux chevaux est censée les protéger des maladies.",
+            "Au Royaume-Uni, la Saint-Étienne coïncide avec le ‘Boxing Day' — mais le ‘Boxing Day' a une origine totalement différente."
+          ],
+          "imageCredit": "Photo: Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "good_friday": {
+          "intro": "El Viernes Santo es el día de mayor luto del cristianismo y conmemora la crucifixión de Jesús. En Alemania es ‘día silencioso' con normativa especial.",
+          "history": "El Viernes Santo se celebra desde el siglo IV. La palabra alemana ‘Kar' viene del antiguo alto alemán ‘chara', que significa lamento o duelo. Pronto se desarrollaron tradiciones litúrgicas: lectura de la Pasión, veneración de la cruz y silencio de las campanas. La Reforma le dio especial relevancia y en regiones luteranas sigue siendo el día más importante del año eclesiástico.",
+          "traditions": "Muchos cristianos asisten a oficios de la Pasión con la lectura de la Pasión. Es día de ayuno: tradicionalmente se come pescado en lugar de carne. En España, las procesiones de las cofradías recorren ciudades como Sevilla. En Alemania los bailes y la música alta están legalmente prohibidos en la mayoría de estados federados.",
+          "funFacts": [
+            "El ‘Tanzverbot' (prohibición de bailar) regula el ocio público en el Viernes Santo alemán — desde hace años un debate social recurrente.",
+            "Bach compuso su Pasión según San Mateo en 1727 para las vísperas del Viernes Santo en Leipzig.",
+            "En Bermudas, las familias hacen volar cometas caseras de bambú y papel — una tradición cristiana única.",
+            "En España, el ‘Viernes Santo' destaca por las majestuosas procesiones de cofradías, especialmente en Sevilla y Málaga."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "El Lunes de Pascua es el segundo día de la Pascua y festivo en la mayoría de países europeos. Cierra la fiesta más importante del cristianismo.",
+          "history": "La Pascua es la fiesta más antigua del cristianismo y celebra la resurrección de Jesús al tercer día de su muerte. El Concilio de Nicea fijó en 325 que se celebraría el primer domingo después de la primera luna llena de primavera. El Lunes de Pascua se celebra desde la temprana Edad Media — originalmente toda la octava de Pascua era festiva. En Alemania y Austria sigue siendo festivo legal, a diferencia de muchos países católicos.",
+          "traditions": "Las familias buscan huevos de Pascua, desayunan abundantemente o dan el clásico paseo de Pascua. En Polonia se celebra ‘Śmigus-Dyngus': los chicos mojan a las chicas con agua. En Chequia los jóvenes golpean las puertas con ramas de sauce. En Baviera y Austria se hace la tradicional caminata de Emaús.",
+          "funFacts": [
+            "Martin Lutero fue el primero en mencionar la búsqueda de huevos de Pascua, para alegrar a sus hijos.",
+            "El huevo de Pascua de chocolate más grande del mundo (8,5 m, 4 t) se hizo en Argentina y figura en el Guinness.",
+            "En Suecia los niños se disfrazan de ‘Påskkärringar' — pequeñas brujas — el Sábado Santo y van de puerta en puerta.",
+            "El conejo de Pascua como portador de huevos fue mencionado por escrito por primera vez en 1682, por el médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 vía Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "El Lunes de Pentecostés es el segundo día festivo de Pentecostés, libre en muchos países cristianos. Pentecostés conmemora la venida del Espíritu Santo sobre los apóstoles.",
+          "history": "Pentecostés (del griego ‘pentekostē', el quincuagésimo) se celebra 50 días después de Pascua y arraiga en la festividad judía de Shavuot. Ya en el siglo IV se celebraba como segunda gran fiesta cristiana junto a Navidad y Pascua. El Lunes de Pentecostés deriva de la costumbre medieval de festejar toda la octava (ocho días); aunque esta fue suprimida tras el Vaticano II en 1969, el lunes se mantuvo como festivo.",
+          "traditions": "Pentecostés es la época de las peonías, los primeros días templados del verano y muchas fiestas populares. En zonas rurales se decoran ‘bueyes de Pentecostés', en la Eifel se celebra el ‘Pfingstkönigreich'. Las familias aprovechan el fin de semana largo para excursiones, caminatas y la primera barbacoa al aire libre.",
+          "funFacts": [
+            "El ‘Pfingstochse' — buey decorado como heraldo de la primavera — dio origen a la frase alemana ‘herausgeputzt wie ein Pfingstochse'.",
+            "En Italia se arrojaban antiguamente pétalos de rosas desde el techo del Panteón en la misa de Pentecostés, simbolizando al Espíritu Santo.",
+            "En Suecia y Escandinavia el Lunes de Pentecostés ya no es festivo desde 2005; en su lugar lo es el día nacional sueco (6 de junio).",
+            "Pentecostés se llama también ‘cumpleaños de la Iglesia', porque según los Hechos se bautizaron 3.000 personas ese día."
+          ],
+          "imageCredit": "Foto: Print made by: Virgil Solis · Public domain vía Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
+          "history": "Ya en el año 354 un calendario romano consigna el 25 de diciembre como ‘dies natalis Christi'. Probablemente la Iglesia eligió la fecha para reinterpretar cristianamente el ‘Sol Invictus' romano. El intercambio de regalos arraiga en los obsequios de los Magos. El moderno Papá Noel con abrigo rojo y barba blanca es una mezcla de San Nicolás con una campaña publicitaria de Coca-Cola de 1931.",
+          "traditions": "Las familias se reúnen para comidas festivas — pavo, ganso, carpa o raclette. Se intercambian regalos, se cantan villancicos y muchos asisten al servicio festivo. El árbol decorado con luces y bolas es el símbolo central. El calendario de Adviento, las galletas y los mercadillos forman parte de la preparación.",
+          "funFacts": [
+            "El primer calendario de Adviento comercial apareció en 1908 en Múnich — invento de Gerhard Lang.",
+            "Los mercadillos navideños de Dresde (‘Striezelmarkt', desde 1434) y Fráncfort (desde 1393) son de los más antiguos del mundo.",
+            "Noruega regala al Reino Unido un enorme árbol de Navidad para Trafalgar Square cada año desde 1947 — agradecimiento por la ayuda en la Segunda Guerra Mundial.",
+            "Los clásicos como ‘Tres Avellanas para Cenicienta' o ‘Love Actually' se emiten decenas de veces cada año en TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "El día de San Esteban, el 26 de diciembre, es el segundo día de Navidad en Austria y conmemora a San Esteban, primer mártir cristiano.",
+          "history": "Esteban fue uno de los siete primeros diáconos de la Iglesia y, según los Hechos de los Apóstoles, fue lapidado en Jerusalén entre el 36 y el 40 d. C. — es el ‘protomártir'. La fiesta se celebra el 26 de diciembre desde el siglo IV, porque la Iglesia quiso honrar a los grandes mártires el día siguiente al nacimiento de Cristo (‘del Niño al testigo'). La catedral de San Esteban en Viena, símbolo de Austria, lleva su nombre. En Austria sigue siendo festivo legal.",
+          "traditions": "La Iglesia bendice caballos y jinetes en el ‘Stephani-Ritt' o ‘Stephani-Umritt', pues San Esteban es patrón de caballos y jinetes. En Salzburgo, Tirol y Baja Austria caballos engalanados desfilan por los pueblos. Las familias visitan a más parientes o salen a pasear por la nieve.",
+          "funFacts": [
+            "La catedral de San Esteban (‘Steffl' coloquial) es el edificio gótico más importante de Austria — su torre sur mide 136 m.",
+            "El ‘Stephani-Umritt' de Asparn an der Zaya reúne a varios cientos de jinetes de toda Baja Austria cada año.",
+            "La avena bendecida en el día de San Esteban y dada a los caballos los protegería de enfermedades.",
+            "En el Reino Unido San Esteban coincide con ‘Boxing Day' — pero ‘Boxing Day' tiene un origen completamente distinto."
+          ],
+          "imageCredit": "Foto: Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "good_friday": {
+          "intro": "A Sexta-Feira Santa é o dia de maior luto do cristianismo e comemora a crucificação de Jesus Cristo. Em Portugal é feriado nacional, com forte tradição religiosa.",
+          "history": "A Sexta-Feira Santa é celebrada pelos cristãos desde o século IV. O prefixo alemão ‘Kar' vem do alto alemão antigo ‘chara' (lamento, luto). Cedo se desenvolveram tradições litúrgicas: leitura da Paixão, veneração da cruz e silêncio dos sinos. A Reforma deu-lhe especial relevância. Em Portugal, a tradição das procissões da Paixão é antiga e muito viva, especialmente em Braga, Óbidos e na ilha da Madeira.",
+          "traditions": "Muitos cristãos assistem a celebrações da Paixão. É tradicionalmente dia de jejum — come-se peixe (em Portugal, o típico bacalhau) em vez de carne. Em Braga e Óbidos, as procissões da Paixão são impressionantes — em Braga a ‘Procissão do Senhor Ecce Homo' é uma das maiores. Em Espanha, destacam-se as procissões das confrarias, sobretudo em Sevilha.",
+          "funFacts": [
+            "Em Braga (Portugal) a ‘Procissão do Senhor Ecce Homo' é uma das mais impressionantes da Europa.",
+            "Bach compôs a sua Paixão segundo São Mateus em 1727 para as Vésperas da Sexta-Feira Santa em Leipzig.",
+            "Nas Bermudas, as famílias fazem voar papagaios de bambu e papel feitos em casa — uma tradição cristã única.",
+            "Em Espanha, ‘Viernes Santo' destaca-se pelas magníficas procissões das confrarias, sobretudo em Sevilha."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "A Segunda-Feira de Páscoa é o segundo dia de Páscoa e feriado na maioria dos países europeus. Em Portugal, ainda que não seja feriado, é tradição almoçar com a família o folar.",
+          "history": "A Páscoa é a festa mais antiga da cristandade e celebra a ressurreição de Jesus Cristo no terceiro dia. O Concílio de Niceia em 325 fixou a Páscoa no primeiro domingo após a primeira lua cheia da primavera. A Segunda-Feira de Páscoa celebra-se desde a alta Idade Média — originalmente toda a semana de Páscoa era feriada. Em Portugal, a tradição é a do ‘folar', um bolo doce com ovo cozido por cima, que se oferece sobretudo aos afilhados.",
+          "traditions": "As famílias procuram em conjunto ovos de Páscoa, almoçam abundantemente ou fazem o clássico passeio pascal. Em Portugal, oferece-se o ‘folar' aos afilhados e organizam-se almoços em família com cabrito assado. Na Polónia celebra-se ‘Śmigus-Dyngus': os rapazes salpicam as raparigas com água. Na Chéquia, os jovens batem às portas com ramos de salgueiro.",
+          "funFacts": [
+            "O costume da caça aos ovos foi mencionado pela primeira vez por Martinho Lutero, para alegrar os filhos.",
+            "O maior ovo de chocolate do mundo (8,5 m, 4 t) foi feito na Argentina e está no Guinness.",
+            "Na Suécia, as crianças vestem-se de ‘Påskkärringar' — pequenas bruxas — no Sábado Santo e vão de porta em porta.",
+            "O coelho da Páscoa como entregador de ovos foi mencionado pela primeira vez por escrito em 1682 pelo médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "A Segunda-Feira de Pentecostes é o segundo dia de Pentecostes e feriado em vários países cristãos. O Pentecostes comemora a descida do Espírito Santo sobre os apóstolos.",
+          "history": "Pentecostes (do grego ‘pentekostē', quinquagésimo) celebra-se 50 dias depois da Páscoa e tem raízes na festa judaica de Shavuot. Já no século IV era a segunda grande festa cristã ao lado de Páscoa e Natal. A Segunda-Feira de Pentecostes deriva do costume medieval de festejar toda a oitava (oito dias). Em Portugal, é o ‘Domingo de Pentecostes' que se celebra mais — não há feriado civil específico.",
+          "traditions": "O Pentecostes é a estação das peónias, dos primeiros dias quentes do início do verão e de muitas festas populares. Nas regiões rurais alemãs decoram-se ‘bois de Pentecostes'; no Eifel celebra-se o ‘Pfingstkönigreich'. Em Portugal há tradições locais, como as ‘Festas do Espírito Santo' nos Açores, com bodos populares e a coroação do imperador.",
+          "funFacts": [
+            "As ‘Festas do Espírito Santo' nos Açores são uma das tradições populares mais ricas de Portugal — com coroas, bodos e procissões.",
+            "Em Roma, atiravam-se outrora pétalas de rosas do tejadilho do Panteão durante a missa de Pentecostes, simbolizando o Espírito Santo.",
+            "Na Suécia e Escandinávia, a Segunda-Feira de Pentecostes deixou de ser feriado em 2005 — substituída pelo Dia Nacional Sueco (6 de junho).",
+            "O Pentecostes também é chamado ‘aniversário da Igreja', porque, segundo os Atos, foram batizadas 3.000 pessoas nesse dia."
+          ],
+          "imageCredit": "Foto: Print made by: Virgil Solis · Public domain via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
+          "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
+          "traditions": "As famílias reúnem-se em refeições festivas — peru, ganso, bacalhau ou raclette nos países germânicos; em Portugal, o típico almoço de Natal com peru ou cabrito assado, e as sobremesas de bolo-rei, sonhos, rabanadas, aletria e arroz-doce. Trocam-se presentes, cantam-se cânticos, muitos vão à missa festiva. A árvore decorada e o presépio são símbolos centrais.",
+          "funFacts": [
+            "O primeiro calendário do Advento comercial apareceu em 1908 em Munique — invenção de Gerhard Lang.",
+            "Os mercados de Natal de Dresden (‘Striezelmarkt', desde 1434) e Frankfurt (desde 1393) estão entre os mais antigos do mundo.",
+            "A Noruega oferece ao Reino Unido um enorme abeto para Trafalgar Square todos os anos desde 1947 — em agradecimento pela ajuda na II Guerra.",
+            "Em Portugal, a tradição do bolo-rei remonta ao século XIX, importado da pastelaria francesa."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "O Dia de Santo Estêvão, 26 de dezembro, é na Áustria o segundo dia de Natal e comemora Santo Estêvão, primeiro mártir cristão.",
+          "history": "Estêvão foi um dos primeiros sete diáconos da Igreja primitiva e, segundo os Atos dos Apóstolos, foi apedrejado em Jerusalém entre 36 e 40 d.C. — é o ‘proto-mártir'. A festa celebra-se a 26 de dezembro desde o século IV, porque a Igreja quis honrar os grandes mártires no dia seguinte ao do nascimento de Cristo (‘da Criança à testemunha'). A Catedral de Santo Estêvão de Viena — símbolo da Áustria — tem o seu nome. Na Áustria continua a ser feriado.",
+          "traditions": "A Igreja abençoa cavalos e cavaleiros neste dia no chamado ‘Stephani-Ritt' ou ‘Stephani-Umritt', sendo Estêvão o padroeiro dos cavalos e cavaleiros. Em Salzburgo, Tirol e Baixa Áustria, cavalos enfeitados desfilam pelas aldeias. As famílias visitam outros parentes ou dão um longo passeio na neve.",
+          "funFacts": [
+            "A Catedral de Santo Estêvão (‘Steffl' familiarmente) é o mais importante edifício gótico da Áustria — a sua torre sul tem 136 m.",
+            "O ‘Stephani-Umritt' de Asparn an der Zaya reúne todos os anos várias centenas de cavaleiros de toda a Baixa Áustria.",
+            "A aveia abençoada no Dia de Santo Estêvão e dada aos cavalos seria capaz de protegê-los de doenças.",
+            "No Reino Unido, o Dia de Santo Estêvão coincide com o ‘Boxing Day' — mas o ‘Boxing Day' tem origem totalmente diferente."
+          ],
+          "imageCredit": "Foto: Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "good_friday": {
+          "intro": "Il Venerdì Santo è il giorno di lutto più importante per i protestanti e ricorda la crocifissione di Gesù Cristo. In Germania è ‘giorno silenzioso' con norme particolari.",
+          "history": "Il Venerdì Santo è celebrato dai cristiani dal IV secolo. Il prefisso tedesco ‘Kar' deriva dall'antico alto tedesco ‘chara' (lamento, lutto). Presto si svilupparono tradizioni liturgiche: lettura della Passione, venerazione della croce, silenzio delle campane. La Riforma gli diede particolare risalto; nelle regioni luterane resta la festa più importante dell'anno liturgico.",
+          "traditions": "Molti cristiani partecipano alla Liturgia della Passione. Tradizionalmente è giorno di digiuno — si mangia pesce invece di carne. In Italia, soprattutto al Sud, ci sono solenni processioni con statue del Cristo morto, come la celebre ‘Processione dei Misteri' a Trapani. In Spagna spiccano le processioni delle confraternite, soprattutto a Siviglia.",
+          "funFacts": [
+            "In Germania il ‘Tanzverbot' (divieto di ballare) regola gli intrattenimenti pubblici — tema sociale ricorrente.",
+            "Bach compose la ‘Passione secondo Matteo' nel 1727 per i vespri del Venerdì Santo a Lipsia.",
+            "Alle Bermuda le famiglie fanno volare aquiloni di bambù e carta — tradizione cristiana unica.",
+            "In Spagna il ‘Viernes Santo' è famoso per le maestose processioni delle confraternite, in particolare a Siviglia."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Il Lunedì dell'Angelo è il secondo giorno di Pasqua e festivo nella maggior parte dei paesi europei. Chiude la festa più importante del cristianesimo.",
+          "history": "La Pasqua è la festa più antica del cristianesimo e celebra la resurrezione di Gesù Cristo il terzo giorno. Il Concilio di Nicea nel 325 fissò la Pasqua alla prima domenica dopo il primo plenilunio di primavera. Il Lunedì dell'Angelo si celebra dall'alto Medioevo — originariamente era festiva l'intera ottava di Pasqua. In Italia il Lunedì dell'Angelo (Pasquetta) è giorno di gite ed è festivo nazionale.",
+          "traditions": "In Italia ‘Natale con i tuoi, Pasquetta con chi vuoi': la tradizione vuole pic-nic in campagna o gite fuori porta con grigliata. Le famiglie cercano insieme le uova di Pasqua, fanno colazione abbondante o la classica passeggiata pasquale. In Polonia si celebra ‘Śmigus-Dyngus': i ragazzi spruzzano acqua sulle ragazze.",
+          "funFacts": [
+            "L'usanza della caccia alle uova fu menzionata per la prima volta da Martin Lutero, che voleva divertire i suoi figli.",
+            "Il più grande uovo di cioccolato del mondo (8,5 m, 4 t) fu fatto in Argentina ed è nel Guinness.",
+            "In Svezia i bambini si vestono da ‘Påskkärringar' — piccole streghe — il Sabato Santo e fanno il porta a porta.",
+            "Il coniglio pasquale come portatore di uova fu menzionato per iscritto la prima volta nel 1682 dal medico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "Il Lunedì di Pentecoste è il secondo giorno di Pentecoste, festivo in molti paesi cristiani. La Pentecoste commemora la discesa dello Spirito Santo sugli apostoli.",
+          "history": "La Pentecoste (dal greco ‘pentekostē', cinquantesimo) si celebra 50 giorni dopo Pasqua e ha radici nella festa ebraica di Shavuot. Già nel IV secolo era la seconda grande festa cristiana dopo Pasqua e Natale. Il Lunedì di Pentecoste deriva dall'usanza medievale di festeggiare l'intera ottava (otto giorni); pur abolita dopo il Vaticano II nel 1969, il lunedì rimase festivo. In Italia non è festivo civilmente, ma la Pentecoste resta importante nella liturgia.",
+          "traditions": "La Pentecoste coincide con la fioritura delle peonie e i primi giorni miti dell'estate, e dà luogo a molte feste popolari. Nelle campagne tedesche si decorano ‘buoi di Pentecoste'. Le famiglie sfruttano il lungo weekend per gite, escursioni e le prime grigliate all'aperto.",
+          "funFacts": [
+            "Il ‘Pfingstochse' — bue decorato come araldo di primavera — è all'origine del modo di dire tedesco ‘herausgeputzt wie ein Pfingstochse'.",
+            "A Roma si gettavano un tempo petali di rose dal tetto del Pantheon durante la messa di Pentecoste, a simboleggiare lo Spirito Santo.",
+            "In Svezia e Scandinavia il Lunedì di Pentecoste non è più festivo dal 2005 — sostituito dalla festa nazionale svedese (6 giugno).",
+            "La Pentecoste è chiamata anche ‘compleanno della Chiesa', perché secondo gli Atti 3.000 persone furono battezzate quel giorno."
+          ],
+          "imageCredit": "Foto: Print made by: Virgil Solis · Public domain via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
+          "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
+          "traditions": "Le famiglie si riuniscono per pasti festosi — tacchino, oca, carpa o raclette al nord; pranzo natalizio con tortellini in brodo, lasagne, capponi e panettone in Italia. Si scambiano regali, si cantano canti natalizi, molti partecipano alla messa festiva. L'albero decorato e il presepe sono i simboli centrali. Calendario dell'Avvento, biscotti e mercatini scandiscono la preparazione.",
+          "funFacts": [
+            "Il primo calendario dell'Avvento commerciale apparve nel 1908 a Monaco — invenzione di Gerhard Lang.",
+            "I mercatini di Natale di Dresda (‘Striezelmarkt', dal 1434) e Francoforte (dal 1393) sono tra i più antichi al mondo.",
+            "La Norvegia regala al Regno Unito un enorme albero di Natale per Trafalgar Square ogni anno dal 1947 — come ringraziamento per l'aiuto nella Seconda Guerra Mondiale.",
+            "Il panettone milanese e il pandoro veronese sono i due dolci natalizi italiani per eccellenza."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Santo Stefano, il 26 dicembre, è in Austria e in Italia il secondo giorno di Natale e commemora Santo Stefano, primo martire cristiano.",
+          "history": "Stefano fu uno dei primi sette diaconi della Chiesa primitiva e, secondo gli Atti degli Apostoli, fu lapidato a Gerusalemme tra il 36 e il 40 d.C. — è il ‘protomartire'. La festa si celebra il 26 dicembre dal IV secolo, perché la Chiesa volle onorare i grandi martiri il giorno dopo la nascita di Cristo (‘dal Bambino al testimone'). La cattedrale di Santo Stefano a Vienna — simbolo dell'Austria — porta il suo nome. In Italia è festivo nazionale dal 1947.",
+          "traditions": "In Italia si pranza con la famiglia (avanzi del cenone della vigilia o del pranzo di Natale), si visitano parenti o si fa una lunga passeggiata. In Austria, la Chiesa benedice cavalli e cavalieri durante il ‘Stephani-Ritt', poiché Stefano è patrono dei cavalli e dei cavalieri. A Salisburgo, Tirolo e Bassa Austria, cavalli adornati sfilano per i paesi.",
+          "funFacts": [
+            "La cattedrale di Santo Stefano (‘Steffl') è il più importante edificio gotico dell'Austria — la torre sud è alta 136 m.",
+            "Lo ‘Stephani-Umritt' di Asparn an der Zaya raccoglie ogni anno diverse centinaia di cavalieri di tutta la Bassa Austria.",
+            "L'avena benedetta nel giorno di Santo Stefano e data ai cavalli li proteggerebbe dalle malattie.",
+            "Nel Regno Unito Santo Stefano coincide con il ‘Boxing Day' — ma il ‘Boxing Day' ha origine completamente diversa."
+          ],
+          "imageCredit": "Foto: Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "good_friday": {
+          "intro": "Wielki Piątek to dzień największej żałoby w protestantyzmie i upamiętnia ukrzyżowanie Jezusa Chrystusa. W Polsce nie jest dniem wolnym, ale ma głęboki wymiar religijny.",
+          "history": "Wielki Piątek obchodzony jest przez chrześcijan od IV wieku. Wcześnie rozwinęły się tradycje liturgiczne: czytanie Pasji, adoracja krzyża, milczenie dzwonów. Reformacja nadała mu szczególne znaczenie; w regionach luterańskich pozostaje najważniejszym dniem roku liturgicznego. W Polsce katolickie tradycje obejmują Drogę Krzyżową, adorację krzyża i święcenie pokarmów w Wielką Sobotę.",
+          "traditions": "Wierni uczestniczą w Liturgii Męki Pańskiej, adorują krzyż i odprawiają Drogę Krzyżową — w Polsce słynne są kalwarie (Kalwaria Zebrzydowska, Wejherowska). Tradycyjnie jest to dzień postu — je się ryby zamiast mięsa. W niektórych regionach Niemiec organizowane są procesje pasyjne, a w Hiszpanii słynne procesje bractw, np. w Sewilli.",
+          "funFacts": [
+            "W Niemczech ‘Tanzverbot' (zakaz tańczenia) reguluje publiczne rozrywki w Wielki Piątek — tematyka regularnie wraca w debacie publicznej.",
+            "Bach skomponował Pasję według św. Mateusza w 1727 roku na nieszpory wielkopiątkowe w Lipsku.",
+            "Na Bermudach rodziny puszczają w Wielki Piątek samodzielnie zrobione latawce z bambusa i papieru — unikalna chrześcijańska tradycja.",
+            "W Polsce Misterium Męki Pańskiej w Kalwarii Zebrzydowskiej wpisane jest na listę UNESCO."
+          ],
+          "imageCredit": "Zdjęcie: Pietro Perugino · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Poniedziałek Wielkanocny (Lany Poniedziałek, Śmigus-Dyngus) to drugi dzień Wielkanocy i dzień wolny w większości krajów europejskich. W Polsce słynie z tradycji oblewania wodą.",
+          "history": "Wielkanoc to najstarsze święto chrześcijaństwa i upamiętnia zmartwychwstanie Jezusa Chrystusa trzeciego dnia po jego śmierci. Sobór Nicejski w 325 roku ustalił datę Wielkanocy na pierwszą niedzielę po pierwszej wiosennej pełni księżyca. Poniedziałek Wielkanocny obchodzony jest od wczesnego średniowiecza — pierwotnie cały tydzień wielkanocny był wolny. W Polsce zachowała się żywa tradycja Śmigusa-Dyngusa, sięgająca XV wieku.",
+          "traditions": "W Polsce Lany Poniedziałek (Śmigus-Dyngus) to dzień, w którym chłopcy oblewają dziewczęta wodą — tradycyjnie symbolizująca oczyszczenie i płodność. Rodziny szukają jajek wielkanocnych, jedzą śniadanie z kiełbasą, jajkami, chrzanem, mazurkiem i babką. W niektórych regionach (np. Beskid Żywiecki) chodzą ‘śmigustnicy' w przebraniach.",
+          "funFacts": [
+            "Zwyczaj poszukiwania jajek wzmiankował po raz pierwszy Marcin Luter — chciał ucieszyć swoje dzieci.",
+            "Największe czekoladowe jajko świata stało w Argentynie (8,5 m wysokości, 4 t) — wpisane do Księgi Guinnessa.",
+            "Polski Śmigus-Dyngus ma korzenie w słowiańskim święcie wiosennym — woda symbolizowała oczyszczenie i płodność.",
+            "W Czechach chłopcy biją dziewczyny rózgami z wierzby (‘pomlázka') — niby boleśnie, ale dla zdrowia i urody."
+          ],
+          "imageCredit": "Zdjęcie: Georgi Kirichkov · CC BY-SA 3.0 przez Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "Poniedziałek Zesłania Ducha Świętego (Zielone Świątki) to drugi dzień Pięćdziesiątnicy, dzień wolny w wielu krajach chrześcijańskich. W Polsce dzień wolny w niedzielę Zesłania, ale poniedziałek już nie.",
+          "history": "Pięćdziesiątnica (z greckiego ‘pentekostē', pięćdziesiąty) obchodzona jest 50 dni po Wielkanocy i ma korzenie w żydowskim Święcie Tygodni (Szawuot). Już w IV wieku była drugim co do ważności świętem chrześcijańskim po Wielkanocy i Bożym Narodzeniu. Polskie ‘Zielone Świątki' zachowały bogate ludowe zwyczaje, m.in. majenie domów zielonymi gałęziami.",
+          "traditions": "W Polsce Zielone Świątki to czas, kiedy ludowo majono domy gałązkami brzozy i tatarakiem dla ochrony przed złem. Zielone Świątki to też pora pierwszego wypasu bydła i ‘Sobótek' — palenia ognisk. W Niemczech ozdabia się ‘woły zielonoświątkowe', a w Eifel obchodzi się ‘Pfingstkönigreich' (Królestwo Zielonych Świątek).",
+          "funFacts": [
+            "‘Pfingstochse' — kolorowo ozdobiony wół jako herold wiosny — dał początek niemieckiemu powiedzeniu ‘herausgeputzt wie ein Pfingstochse'.",
+            "W Rzymie z dachu Panteonu zrzucano podczas mszy zielonoświątkowej płatki róż jako symbol Ducha Świętego.",
+            "W Szwecji i Skandynawii Poniedziałek Zielonoświątkowy nie jest dniem wolnym od 2005 roku — zastąpił go Dzień Narodowy Szwecji (6 czerwca).",
+            "Pięćdziesiątnicę nazywa się też ‘urodzinami Kościoła', bo według Dziejów Apostolskich tego dnia ochrzczono 3 000 osób."
+          ],
+          "imageCredit": "Zdjęcie: Print made by: Virgil Solis · Public domain przez Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
+          "history": "Już w 354 roku 25 grudnia odnotowany jest jako ‘dies natalis Christi' w rzymskim kalendarzu. Kościół wybrał tę datę prawdopodobnie po to, by chrześcijańsko zinterpretować rzymskie święto ‘Sol Invictus'. Tradycja prezentów ma korzenie w darach Trzech Mędrców. Współczesny Święty Mikołaj w czerwonym płaszczu i z białą brodą to mieszanka św. Mikołaja i kampanii reklamowej Coca-Coli z 1931 roku.",
+          "traditions": "W Polsce Boże Narodzenie obchodzi się przez dwa dni (25 i 26 grudnia). Rodziny zbierają się na obfitym obiedzie — często rosół z makaronem, schab, indyk, sałatka jarzynowa, makowiec, sernik. Wymienia się prezenty (w Polsce zwykle wręczane już w Wigilię), śpiewa kolędy, wielu uczestniczy w nabożeństwach. Choinka i szopka są centralnymi symbolami.",
+          "funFacts": [
+            "Pierwszy komercyjny kalendarz adwentowy ukazał się w 1908 roku w Monachium — wynalazek Gerharda Langa.",
+            "Polskie kolędy — m.in. ‘Wśród nocnej ciszy', ‘Bóg się rodzi', ‘Lulajże, Jezuniu' — uchodzą za jedne z najpiękniejszych na świecie.",
+            "Norwegia podarowuje Wielkiej Brytanii corocznie od 1947 roku ogromną choinkę na Trafalgar Square — w podzięce za pomoc w II wojnie światowej.",
+            "Tradycja choinki dotarła do Polski z Niemiec na początku XIX wieku, a powszechna stała się po 1830 roku."
+          ],
+          "imageCredit": "Zdjęcie: Chris Olszewski · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Święty Szczepan, 26 grudnia, jest w Polsce drugim dniem Bożego Narodzenia i upamiętnia św. Szczepana, pierwszego męczennika chrześcijańskiego.",
+          "history": "Szczepan był jednym z pierwszych siedmiu diakonów wczesnego Kościoła i według Dziejów Apostolskich został ukamienowany w Jerozolimie między 36 a 40 r. n.e. — uważa się go za ‘protomęczennika'. Święto obchodzone jest 26 grudnia od IV wieku, ponieważ Kościół chciał uczcić wielkich męczenników w dzień po narodzeniu Chrystusa (‘od Dzieciątka do świadka'). W Polsce drugi dzień świąt jest dniem wolnym i poświęcony jest odwiedzinom u rodziny.",
+          "traditions": "W Polsce w drugi dzień świąt odwiedza się dalszą rodzinę i przyjaciół. Tradycyjnie dzień ten dawniej nazywany był też ‘rzucanką owsa' — w kościołach święcono ziarno owsa (Szczepan jest patronem koni). Tradycja przetrwała m.in. w niektórych regionach południowej Polski.",
+          "funFacts": [
+            "Wiedeńska katedra św. Szczepana (krótko ‘Steffl') to najważniejsza budowla gotycka Austrii — jej południowa wieża ma 136 m wysokości.",
+            "Polska tradycja ‘rzucania owsa' w kościele w święto Szczepana ma korzenie ludowe — symbolizowała urodzaj.",
+            "Owies pobłogosławiony w święto Szczepana i podany koniom miał chronić je przed chorobami.",
+            "W Wielkiej Brytanii Święty Szczepan zbiega się z ‘Boxing Day' — ale ‘Boxing Day' ma zupełnie inne pochodzenie."
+          ],
+          "imageCredit": "Zdjęcie: Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0 przez Wikimedia Commons"
+        }
+      }
     }
+  },
+  "images": {
+    "easter_monday": [
+      {
+        "path": "images/easter_monday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      }
+    ],
+    "christmas": [
+      {
+        "path": "images/christmas/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "boxing_day": [
+      {
+        "path": "images/boxing_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/boxing_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/boxing_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
   }
 }

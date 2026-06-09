@@ -21,7 +21,9 @@
           "package": { "type": "string" },
           "sizeBytes": { "type": "integer", "minimum": 0 },
           "locales": { "type": "array", "items": { "type": "string" } },
-          "hasNamedays": { "type": "boolean" }
+          "hasNamedays": { "type": "boolean" },
+          "hasInfo": { "type": "boolean" },
+          "hasImages": { "type": "boolean" }
         }
       }
     }

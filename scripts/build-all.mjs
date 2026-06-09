@@ -19,7 +19,14 @@ function run(script) {
 }
 
 async function main() {
-  const steps = ['fetch-holidays.mjs', 'fetch-namedays.mjs', 'fetch-images.mjs', 'build-index.mjs', 'validate.mjs'];
+  const steps = [
+    'fetch-holidays.mjs',
+    'fetch-namedays.mjs',
+    'fetch-images.mjs',
+    'build-articles.mjs',
+    'build-index.mjs',
+    'validate.mjs',
+  ];
   for (const step of steps) {
     console.log(`\n=== ${step} ===`);
     await run(step);

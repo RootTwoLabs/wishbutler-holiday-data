@@ -62,6 +62,10 @@ async function main() {
       sizeBytes: size,
       locales,
       hasNamedays: Boolean(pkg.namedays && Object.keys(pkg.namedays).length > 0),
+      hasInfo: Boolean(
+        pkg.i18n?.holidayInfo && Object.keys(pkg.i18n.holidayInfo).length > 0,
+      ),
+      hasImages: Boolean(pkg.images && Object.keys(pkg.images).length > 0),
     });
   }
 

@@ -1,1329 +1,1575 @@
 {
   "schemaVersion": 1,
   "baseUrl": "https://cdn.jsdelivr.net/gh/RootTwoLabs/wishbutler-holiday-data@main/data",
-  "generatedAt": "2026-06-08T22:13:56.652Z",
+  "generatedAt": "2026-06-09T07:44:59.936Z",
   "countries": [
     {
       "code": "AD",
       "version": 2,
       "package": "packages/AD/v2/package.json",
-      "sizeBytes": 4587,
+      "sizeBytes": 140711,
       "locales": [
         "ca",
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "AL",
       "version": 2,
       "package": "packages/AL/v2/package.json",
-      "sizeBytes": 4584,
+      "sizeBytes": 40904,
       "locales": [
         "en",
         "sq"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "AM",
       "version": 2,
       "package": "packages/AM/v2/package.json",
-      "sizeBytes": 4569,
+      "sizeBytes": 51543,
       "locales": [
         "en",
         "hy"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "AO",
       "version": 2,
       "package": "packages/AO/v2/package.json",
-      "sizeBytes": 9021,
+      "sizeBytes": 68931,
       "locales": [
         "en",
         "pt"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "AR",
       "version": 2,
       "package": "packages/AR/v2/package.json",
-      "sizeBytes": 7742,
+      "sizeBytes": 56120,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "AT",
       "version": 2,
       "package": "packages/AT/v2/package.json",
-      "sizeBytes": 30527,
+      "sizeBytes": 191406,
       "locales": [
         "de",
         "en"
       ],
-      "hasNamedays": true
+      "hasNamedays": true,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "AU",
       "version": 2,
       "package": "packages/AU/v2/package.json",
-      "sizeBytes": 7180,
+      "sizeBytes": 80119,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "AX",
       "version": 2,
       "package": "packages/AX/v2/package.json",
-      "sizeBytes": 5445,
+      "sizeBytes": 140326,
       "locales": [
         "en",
         "sv"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "BA",
       "version": 2,
       "package": "packages/BA/v2/package.json",
-      "sizeBytes": 6636,
+      "sizeBytes": 18589,
       "locales": [
         "bs",
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "BB",
       "version": 2,
       "package": "packages/BB/v2/package.json",
-      "sizeBytes": 3816,
+      "sizeBytes": 89562,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "BD",
       "version": 2,
       "package": "packages/BD/v2/package.json",
-      "sizeBytes": 2988,
+      "sizeBytes": 27554,
       "locales": [
         "bn",
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "BE",
       "version": 2,
       "package": "packages/BE/v2/package.json",
-      "sizeBytes": 4635,
+      "sizeBytes": 138370,
       "locales": [
         "en",
         "nl"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "BG",
       "version": 2,
       "package": "packages/BG/v2/package.json",
-      "sizeBytes": 14445,
+      "sizeBytes": 75990,
       "locales": [
         "bg",
         "en"
       ],
-      "hasNamedays": true
+      "hasNamedays": true,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "BJ",
       "version": 2,
       "package": "packages/BJ/v2/package.json",
-      "sizeBytes": 4660,
+      "sizeBytes": 126424,
       "locales": [
         "en",
         "fr"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "BO",
       "version": 2,
       "package": "packages/BO/v2/package.json",
-      "sizeBytes": 3953,
+      "sizeBytes": 77799,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "BR",
       "version": 2,
       "package": "packages/BR/v2/package.json",
-      "sizeBytes": 5167,
+      "sizeBytes": 78466,
       "locales": [
         "en",
         "pt"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "BS",
       "version": 2,
       "package": "packages/BS/v2/package.json",
-      "sizeBytes": 4947,
+      "sizeBytes": 66919,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "BW",
       "version": 2,
       "package": "packages/BW/v2/package.json",
-      "sizeBytes": 3513,
+      "sizeBytes": 88502,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "BY",
       "version": 2,
       "package": "packages/BY/v2/package.json",
-      "sizeBytes": 3843,
+      "sizeBytes": 27507,
       "locales": [
         "be",
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "BZ",
       "version": 2,
       "package": "packages/BZ/v2/package.json",
-      "sizeBytes": 5496,
+      "sizeBytes": 90368,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "CA",
       "version": 2,
       "package": "packages/CA/v2/package.json",
-      "sizeBytes": 10551,
+      "sizeBytes": 71736,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "CD",
       "version": 2,
       "package": "packages/CD/v2/package.json",
-      "sizeBytes": 4204,
+      "sizeBytes": 40611,
       "locales": [
         "en",
         "fr"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "CG",
       "version": 2,
       "package": "packages/CG/v2/package.json",
-      "sizeBytes": 3733,
+      "sizeBytes": 100856,
       "locales": [
         "en",
         "fr"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "CH",
       "version": 2,
       "package": "packages/CH/v2/package.json",
-      "sizeBytes": 8607,
+      "sizeBytes": 182386,
       "locales": [
         "de",
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "CL",
       "version": 2,
       "package": "packages/CL/v2/package.json",
-      "sizeBytes": 6927,
+      "sizeBytes": 92585,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "CN",
       "version": 2,
       "package": "packages/CN/v2/package.json",
-      "sizeBytes": 3134,
+      "sizeBytes": 27107,
       "locales": [
         "en",
         "zh"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "CO",
       "version": 2,
       "package": "packages/CO/v2/package.json",
-      "sizeBytes": 8247,
+      "sizeBytes": 81842,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "CR",
       "version": 2,
       "package": "packages/CR/v2/package.json",
-      "sizeBytes": 4279,
+      "sizeBytes": 64700,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "CU",
       "version": 2,
       "package": "packages/CU/v2/package.json",
-      "sizeBytes": 4160,
+      "sizeBytes": 40697,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "CY",
       "version": 2,
       "package": "packages/CY/v2/package.json",
-      "sizeBytes": 7866,
+      "sizeBytes": 94751,
       "locales": [
         "el",
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "CZ",
       "version": 2,
       "package": "packages/CZ/v2/package.json",
-      "sizeBytes": 19224,
+      "sizeBytes": 105081,
       "locales": [
         "cs",
         "en"
       ],
-      "hasNamedays": true
+      "hasNamedays": true,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "DE",
       "version": 3,
       "package": "packages/DE/v3/package.json",
-      "sizeBytes": 35485,
+      "sizeBytes": 218057,
       "locales": [
         "de",
         "en"
       ],
-      "hasNamedays": true
+      "hasNamedays": true,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "DK",
       "version": 2,
       "package": "packages/DK/v2/package.json",
-      "sizeBytes": 4651,
+      "sizeBytes": 126384,
       "locales": [
         "da",
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "DO",
       "version": 2,
       "package": "packages/DO/v2/package.json",
-      "sizeBytes": 4745,
+      "sizeBytes": 78333,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "EC",
       "version": 2,
       "package": "packages/EC/v2/package.json",
-      "sizeBytes": 3955,
+      "sizeBytes": 40400,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "EE",
       "version": 2,
       "package": "packages/EE/v2/package.json",
-      "sizeBytes": 4341,
+      "sizeBytes": 77857,
       "locales": [
         "en",
         "et"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "EG",
       "version": 2,
       "package": "packages/EG/v2/package.json",
-      "sizeBytes": 3267,
+      "sizeBytes": 15399,
       "locales": [
         "ar",
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "ES",
       "version": 2,
       "package": "packages/ES/v2/package.json",
-      "sizeBytes": 35796,
+      "sizeBytes": 172459,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": true
+      "hasNamedays": true,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "FI",
       "version": 2,
       "package": "packages/FI/v2/package.json",
-      "sizeBytes": 22149,
+      "sizeBytes": 157030,
       "locales": [
         "en",
         "fi"
       ],
-      "hasNamedays": true
+      "hasNamedays": true,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "FO",
       "version": 2,
       "package": "packages/FO/v2/package.json",
-      "sizeBytes": 5833,
+      "sizeBytes": 127566,
       "locales": [
         "en",
         "fo"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "FR",
       "version": 2,
       "package": "packages/FR/v2/package.json",
-      "sizeBytes": 17791,
+      "sizeBytes": 115223,
       "locales": [
         "en",
         "fr"
       ],
-      "hasNamedays": true
+      "hasNamedays": true,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "GA",
       "version": 2,
       "package": "packages/GA/v2/package.json",
-      "sizeBytes": 3687,
+      "sizeBytes": 89248,
       "locales": [
         "en",
         "fr"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "GB",
       "version": 2,
       "package": "packages/GB/v2/package.json",
-      "sizeBytes": 4447,
+      "sizeBytes": 102611,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "GD",
       "version": 2,
       "package": "packages/GD/v2/package.json",
-      "sizeBytes": 4080,
+      "sizeBytes": 102993,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "GE",
       "version": 2,
       "package": "packages/GE/v2/package.json",
-      "sizeBytes": 7960,
+      "sizeBytes": 43488,
       "locales": [
         "en",
         "ka"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "GG",
       "version": 2,
       "package": "packages/GG/v2/package.json",
-      "sizeBytes": 3037,
+      "sizeBytes": 64222,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "GH",
       "version": 2,
       "package": "packages/GH/v2/package.json",
-      "sizeBytes": 3475,
+      "sizeBytes": 76593,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "GI",
       "version": 2,
       "package": "packages/GI/v2/package.json",
-      "sizeBytes": 4147,
+      "sizeBytes": 65332,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "GL",
       "version": 2,
       "package": "packages/GL/v2/package.json",
-      "sizeBytes": 5298,
+      "sizeBytes": 140129,
       "locales": [
         "en",
         "kl"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "GM",
       "version": 2,
       "package": "packages/GM/v2/package.json",
-      "sizeBytes": 2799,
+      "sizeBytes": 75402,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "GR",
       "version": 2,
       "package": "packages/GR/v2/package.json",
-      "sizeBytes": 16649,
+      "sizeBytes": 102549,
       "locales": [
         "el",
         "en"
       ],
-      "hasNamedays": true
+      "hasNamedays": true,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "GT",
       "version": 2,
       "package": "packages/GT/v2/package.json",
-      "sizeBytes": 4684,
+      "sizeBytes": 89479,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "GY",
       "version": 2,
       "package": "packages/GY/v2/package.json",
-      "sizeBytes": 3473,
+      "sizeBytes": 76591,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "HK",
       "version": 2,
       "package": "packages/HK/v2/package.json",
-      "sizeBytes": 8771,
+      "sizeBytes": 69727,
       "locales": [
         "en",
         "zh"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "HN",
       "version": 2,
       "package": "packages/HN/v2/package.json",
-      "sizeBytes": 3979,
+      "sizeBytes": 52357,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "HR",
       "version": 2,
       "package": "packages/HR/v2/package.json",
-      "sizeBytes": 29405,
+      "sizeBytes": 141002,
       "locales": [
         "en",
         "hr"
       ],
-      "hasNamedays": true
+      "hasNamedays": true,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "HT",
       "version": 2,
       "package": "packages/HT/v2/package.json",
-      "sizeBytes": 6784,
+      "sizeBytes": 117483,
       "locales": [
         "en",
         "fr"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "HU",
       "version": 2,
       "package": "packages/HU/v2/package.json",
-      "sizeBytes": 20401,
+      "sizeBytes": 130202,
       "locales": [
         "en",
         "hu"
       ],
-      "hasNamedays": true
+      "hasNamedays": true,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "ID",
       "version": 2,
       "package": "packages/ID/v2/package.json",
-      "sizeBytes": 2715,
+      "sizeBytes": 74718,
       "locales": [
         "en",
         "id"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "IE",
       "version": 2,
       "package": "packages/IE/v2/package.json",
-      "sizeBytes": 3941,
+      "sizeBytes": 65126,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "IM",
       "version": 2,
       "package": "packages/IM/v2/package.json",
-      "sizeBytes": 3682,
+      "sizeBytes": 64867,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "IS",
       "version": 2,
       "package": "packages/IS/v2/package.json",
-      "sizeBytes": 5666,
+      "sizeBytes": 139332,
       "locales": [
         "en",
         "is"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "IT",
       "version": 2,
       "package": "packages/IT/v2/package.json",
-      "sizeBytes": 25709,
+      "sizeBytes": 149683,
       "locales": [
         "en",
         "it"
       ],
-      "hasNamedays": true
+      "hasNamedays": true,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "JE",
       "version": 2,
       "package": "packages/JE/v2/package.json",
-      "sizeBytes": 3071,
+      "sizeBytes": 64256,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "JM",
       "version": 2,
       "package": "packages/JM/v2/package.json",
-      "sizeBytes": 3218,
+      "sizeBytes": 64403,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "JP",
       "version": 2,
       "package": "packages/JP/v2/package.json",
-      "sizeBytes": 6284,
+      "sizeBytes": 18324,
       "locales": [
         "en",
         "ja"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "KE",
       "version": 2,
       "package": "packages/KE/v2/package.json",
-      "sizeBytes": 3101,
+      "sizeBytes": 76219,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "KR",
       "version": 2,
       "package": "packages/KR/v2/package.json",
-      "sizeBytes": 5921,
+      "sizeBytes": 42328,
       "locales": [
         "en",
         "ko"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "KZ",
       "version": 2,
       "package": "packages/KZ/v2/package.json",
-      "sizeBytes": 4243,
+      "sizeBytes": 15974,
       "locales": [
         "en",
         "kk"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "LI",
       "version": 2,
       "package": "packages/LI/v2/package.json",
-      "sizeBytes": 7036,
+      "sizeBytes": 180430,
       "locales": [
         "de",
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "LS",
       "version": 2,
       "package": "packages/LS/v2/package.json",
-      "sizeBytes": 3539,
+      "sizeBytes": 76595,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "LT",
       "version": 2,
       "package": "packages/LT/v2/package.json",
-      "sizeBytes": 5337,
+      "sizeBytes": 103408,
       "locales": [
         "en",
         "lt"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "LU",
       "version": 2,
       "package": "packages/LU/v2/package.json",
-      "sizeBytes": 3819,
+      "sizeBytes": 125800,
       "locales": [
         "en",
         "fr"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "LV",
       "version": 2,
       "package": "packages/LV/v2/package.json",
-      "sizeBytes": 30561,
+      "sizeBytes": 151771,
       "locales": [
         "en",
         "lv"
       ],
-      "hasNamedays": true
+      "hasNamedays": true,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "MA",
       "version": 2,
       "package": "packages/MA/v2/package.json",
-      "sizeBytes": 3902,
+      "sizeBytes": 27875,
       "locales": [
         "ar",
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "MC",
       "version": 2,
       "package": "packages/MC/v2/package.json",
-      "sizeBytes": 3981,
+      "sizeBytes": 114580,
       "locales": [
         "en",
         "fr"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "MD",
       "version": 2,
       "package": "packages/MD/v2/package.json",
-      "sizeBytes": 6561,
+      "sizeBytes": 54321,
       "locales": [
         "en",
         "ro"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "ME",
       "version": 2,
       "package": "packages/ME/v2/package.json",
-      "sizeBytes": 5730,
+      "sizeBytes": 17683,
       "locales": [
         "en",
         "sr"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "MG",
       "version": 2,
       "package": "packages/MG/v2/package.json",
-      "sizeBytes": 3243,
+      "sizeBytes": 100675,
       "locales": [
         "en",
         "mg"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "MK",
       "version": 2,
       "package": "packages/MK/v2/package.json",
-      "sizeBytes": 6078,
+      "sizeBytes": 41805,
       "locales": [
         "en",
         "mk"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "MN",
       "version": 2,
       "package": "packages/MN/v2/package.json",
-      "sizeBytes": 1899,
+      "sizeBytes": 25471,
       "locales": [
         "en",
         "mn"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "MS",
       "version": 2,
       "package": "packages/MS/v2/package.json",
-      "sizeBytes": 3580,
+      "sizeBytes": 77393,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "MT",
       "version": 2,
       "package": "packages/MT/v2/package.json",
-      "sizeBytes": 5317,
+      "sizeBytes": 53825,
       "locales": [
         "en",
         "mt"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "MX",
       "version": 2,
       "package": "packages/MX/v2/package.json",
-      "sizeBytes": 3762,
+      "sizeBytes": 52140,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "MZ",
       "version": 2,
       "package": "packages/MZ/v2/package.json",
-      "sizeBytes": 3399,
+      "sizeBytes": 27873,
       "locales": [
         "en",
         "pt"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "NA",
       "version": 2,
       "package": "packages/NA/v2/package.json",
-      "sizeBytes": 4183,
+      "sizeBytes": 64661,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "NE",
       "version": 2,
       "package": "packages/NE/v2/package.json",
-      "sizeBytes": 2488,
+      "sizeBytes": 51057,
       "locales": [
         "en",
         "fr"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "NG",
       "version": 2,
       "package": "packages/NG/v2/package.json",
-      "sizeBytes": 3173,
+      "sizeBytes": 64358,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "NI",
       "version": 2,
       "package": "packages/NI/v2/package.json",
-      "sizeBytes": 4395,
+      "sizeBytes": 65274,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "NL",
       "version": 2,
       "package": "packages/NL/v2/package.json",
-      "sizeBytes": 3586,
+      "sizeBytes": 101024,
       "locales": [
         "en",
         "nl"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "NO",
       "version": 2,
       "package": "packages/NO/v2/package.json",
-      "sizeBytes": 3909,
+      "sizeBytes": 113280,
       "locales": [
         "en",
         "nb"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "NZ",
       "version": 2,
       "package": "packages/NZ/v2/package.json",
-      "sizeBytes": 10831,
+      "sizeBytes": 72016,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "PA",
       "version": 2,
       "package": "packages/PA/v2/package.json",
-      "sizeBytes": 4222,
+      "sizeBytes": 64643,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "PE",
       "version": 2,
       "package": "packages/PE/v2/package.json",
-      "sizeBytes": 4984,
+      "sizeBytes": 78400,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "PG",
       "version": 2,
       "package": "packages/PG/v2/package.json",
-      "sizeBytes": 3566,
+      "sizeBytes": 76505,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "PH",
       "version": 2,
       "package": "packages/PH/v2/package.json",
-      "sizeBytes": 6345,
+      "sizeBytes": 79763,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "PL",
       "version": 2,
       "package": "packages/PL/v2/package.json",
-      "sizeBytes": 40987,
+      "sizeBytes": 202838,
       "locales": [
         "en",
         "pl"
       ],
-      "hasNamedays": true
+      "hasNamedays": true,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "PR",
       "version": 2,
       "package": "packages/PR/v2/package.json",
-      "sizeBytes": 8958,
+      "sizeBytes": 58142,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "PT",
       "version": 2,
       "package": "packages/PT/v2/package.json",
-      "sizeBytes": 5938,
+      "sizeBytes": 129095,
       "locales": [
         "en",
         "pt"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "PY",
       "version": 2,
       "package": "packages/PY/v2/package.json",
-      "sizeBytes": 4062,
+      "sizeBytes": 52440,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "RO",
       "version": 2,
       "package": "packages/RO/v2/package.json",
-      "sizeBytes": 7588,
+      "sizeBytes": 81425,
       "locales": [
         "en",
         "ro"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "RS",
       "version": 2,
       "package": "packages/RS/v2/package.json",
-      "sizeBytes": 3923,
+      "sizeBytes": 15876,
       "locales": [
         "en",
         "sr"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "RU",
       "version": 2,
       "package": "packages/RU/v2/package.json",
-      "sizeBytes": 3423,
+      "sizeBytes": 38928,
       "locales": [
         "en",
         "ru"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "SC",
       "version": 2,
       "package": "packages/SC/v2/package.json",
-      "sizeBytes": 4201,
+      "sizeBytes": 102272,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "SE",
       "version": 2,
       "package": "packages/SE/v2/package.json",
-      "sizeBytes": 19937,
+      "sizeBytes": 154441,
       "locales": [
         "en",
         "sv"
       ],
-      "hasNamedays": true
+      "hasNamedays": true,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "SG",
       "version": 2,
       "package": "packages/SG/v2/package.json",
-      "sizeBytes": 3380,
+      "sizeBytes": 51758,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "SI",
       "version": 2,
       "package": "packages/SI/v2/package.json",
-      "sizeBytes": 7637,
+      "sizeBytes": 56249,
       "locales": [
         "en",
         "sl"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "SJ",
       "version": 2,
       "package": "packages/SJ/v2/package.json",
-      "sizeBytes": 3914,
+      "sizeBytes": 113285,
       "locales": [
         "en",
         "nb"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "SK",
       "version": 2,
       "package": "packages/SK/v2/package.json",
-      "sizeBytes": 20699,
+      "sizeBytes": 108181,
       "locales": [
         "en",
         "sk"
       ],
-      "hasNamedays": true
+      "hasNamedays": true,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "SM",
       "version": 2,
       "package": "packages/SM/v2/package.json",
-      "sizeBytes": 6687,
+      "sizeBytes": 155365,
       "locales": [
         "en",
         "it"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "SR",
       "version": 2,
       "package": "packages/SR/v2/package.json",
-      "sizeBytes": 6728,
+      "sizeBytes": 104407,
       "locales": [
         "en",
         "nl"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "SV",
       "version": 2,
       "package": "packages/SV/v2/package.json",
-      "sizeBytes": 5271,
+      "sizeBytes": 65127,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "TN",
       "version": 2,
       "package": "packages/TN/v2/package.json",
-      "sizeBytes": 2967,
+      "sizeBytes": 26940,
       "locales": [
         "ar",
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "TR",
       "version": 2,
       "package": "packages/TR/v2/package.json",
-      "sizeBytes": 2911,
+      "sizeBytes": 26884,
       "locales": [
         "en",
         "tr"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "UA",
       "version": 2,
       "package": "packages/UA/v2/package.json",
-      "sizeBytes": 4947,
+      "sizeBytes": 52707,
       "locales": [
         "en",
         "uk"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "UG",
       "version": 2,
       "package": "packages/UG/v2/package.json",
-      "sizeBytes": 3814,
+      "sizeBytes": 88464,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "US",
       "version": 2,
       "package": "packages/US/v2/package.json",
-      "sizeBytes": 5311,
+      "sizeBytes": 116054,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "UY",
       "version": 2,
       "package": "packages/UY/v2/package.json",
-      "sizeBytes": 5572,
+      "sizeBytes": 42017,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "VA",
       "version": 2,
       "package": "packages/VA/v2/package.json",
-      "sizeBytes": 5976,
+      "sizeBytes": 93727,
       "locales": [
         "en",
         "it"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "VE",
       "version": 2,
       "package": "packages/VE/v2/package.json",
-      "sizeBytes": 13058,
+      "sizeBytes": 159463,
       "locales": [
         "en",
         "es"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "VN",
       "version": 2,
       "package": "packages/VN/v2/package.json",
-      "sizeBytes": 1512,
+      "sizeBytes": 25485,
       "locales": [
         "en",
         "vi"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "ZA",
       "version": 2,
       "package": "packages/ZA/v2/package.json",
-      "sizeBytes": 3929,
+      "sizeBytes": 40374,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     },
     {
       "code": "ZW",
       "version": 2,
       "package": "packages/ZW/v2/package.json",
-      "sizeBytes": 4512,
+      "sizeBytes": 65697,
       "locales": [
         "en"
       ],
-      "hasNamedays": false
+      "hasNamedays": false,
+      "hasInfo": true,
+      "hasImages": true
     }
   ]
 }
