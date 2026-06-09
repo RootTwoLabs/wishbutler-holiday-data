@@ -6,7 +6,8 @@
  *
  * Idempotent: skips targets that already have at least one image on disk.
  *
- * Usage: node scripts/fetch-images.mjs [--force]
+ * Usage: node scripts/fetch-images.mjs [--force] [slug ...]
+ *   - Pass one or more slugs to only (re)fetch those targets.
  */
 import { mkdir, writeFile, readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -238,29 +239,47 @@ async function fetchTarget({ slug, countryCode }) {
 }
 
 async function updateCredits(allSaved) {
-  const lines = [];
+  const md = await readFile(CREDITS, 'utf8');
+
+  // Only freshly downloaded paths are re-derived from `allSaved`; every other
+  // existing credit line is preserved. This keeps partial runs (a few slugs)
+  // and skipped (already-on-disk) images from wiping unrelated attributions.
+  const processedPaths = new Set(
+    allSaved.filter((s) => !s.skipped).map((s) => s.path),
+  );
+  const preserved = new Map();
+  const block = md.match(
+    /<!-- BEGIN:IMAGE-CREDITS \(auto-generated\) -->([\s\S]*?)<!-- END:IMAGE-CREDITS -->/,
+  );
+  if (block) {
+    for (const line of block[1].split('\n')) {
+      const m = line.match(/^- `([^`]+)` — /);
+      if (m && !processedPaths.has(m[1])) preserved.set(m[1], line.trim());
+    }
+  }
+
   for (const item of allSaved) {
     if (item.skipped) continue;
     if (!needsCredit(item.license)) continue;
-    lines.push(
-      `- \`${item.path}\` — ${item.credit} (${item.license})`,
-    );
+    preserved.set(item.path, `- \`${item.path}\` — ${item.credit} (${item.license})`);
   }
 
-  const md = await readFile(CREDITS, 'utf8');
-  const block =
+  const lines = [...preserved.entries()].sort((a, b) => a[0].localeCompare(b[0])).map((e) => e[1]);
+  const body =
     lines.length > 0
       ? lines.join('\n')
-      : '_No attributed images in this run (all CC0/Public Domain)._';
+      : '_No attributed images (all CC0/Public Domain)._';
   const updated = md.replace(
     /<!-- BEGIN:IMAGE-CREDITS \(auto-generated\) -->[\s\S]*?<!-- END:IMAGE-CREDITS -->/,
-    `<!-- BEGIN:IMAGE-CREDITS (auto-generated) -->\n${block}\n<!-- END:IMAGE-CREDITS -->`,
+    `<!-- BEGIN:IMAGE-CREDITS (auto-generated) -->\n${body}\n<!-- END:IMAGE-CREDITS -->`,
   );
   await writeFile(CREDITS, updated, 'utf8');
 }
 
 async function main() {
-  const targets = listImageTargets();
+  const onlySlugs = new Set(process.argv.slice(2).filter((a) => !a.startsWith('-')));
+  let targets = listImageTargets();
+  if (onlySlugs.size > 0) targets = targets.filter((t) => onlySlugs.has(t.slug));
   console.log(`Fetching images for ${targets.length} targets...`);
   const allSaved = [];
 

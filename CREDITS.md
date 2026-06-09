@@ -7,7 +7,8 @@ Domain (PD), CC0, CC-BY, or CC-BY-SA. Each image's attribution and license is
 generated automatically by `scripts/fetch-images.mjs` and listed below.
 
 <!-- BEGIN:IMAGE-CREDITS (auto-generated) -->
-_No attributed images in this run (all CC0/Public Domain)._
+- `images/new_years_eve/02.jpg` — Vivu Vietnam (CC BY-SA 4.0)
+- `images/new_years_eve/03.jpg` — Btezra (CC BY-SA 2.0)
 <!-- END:IMAGE-CREDITS -->
 
 ## Data sources

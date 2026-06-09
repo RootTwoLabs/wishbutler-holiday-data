@@ -925,6 +925,23 @@
         "license": "CC0"
       }
     ],
+    "whit_monday": [
+      {
+        "path": "images/whit_monday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/whit_monday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/whit_monday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
     "all_saints_day": [
       {
         "path": "images/all_saints_day/01.jpg",

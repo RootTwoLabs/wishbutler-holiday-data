@@ -1459,6 +1459,25 @@
         "primary": false,
         "license": "CC0"
       }
+    ],
+    "new_years_eve": [
+      {
+        "path": "images/new_years_eve/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_years_eve/02.jpg",
+        "primary": false,
+        "credit": "Vivu Vietnam",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "path": "images/new_years_eve/03.jpg",
+        "primary": false,
+        "credit": "Btezra",
+        "license": "CC BY-SA 2.0"
+      }
     ]
   }
 }

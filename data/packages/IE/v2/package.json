@@ -626,6 +626,23 @@
         "license": "CC0"
       }
     ],
+    "good_friday": [
+      {
+        "path": "images/good_friday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
     "easter_monday": [
       {
         "path": "images/easter_monday/01.jpg",

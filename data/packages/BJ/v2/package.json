@@ -1134,6 +1134,23 @@
         "license": "CC0"
       }
     ],
+    "whit_monday": [
+      {
+        "path": "images/whit_monday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/whit_monday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/whit_monday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
     "assumption": [
       {
         "path": "images/assumption/01.jpg",
