@@ -92,6 +92,8 @@ export const IMAGE_QUERIES = {
   constitution_day: {
     PL: ['flag of Poland Warsaw', 'Polish constitution day'],
     ES: ['Spanish Constitution day Congreso Madrid', 'flag of Spain Madrid'],
+    NO: ['Norway Constitution Day 17 May children parade bunad', 'Norwegian flag syttende mai Oslo'],
+    DK: ['Denmark Constitution Day Grundlovsdag', 'Danish flag Dannebrog gathering'],
   },
 
   // --- Batch 2: FR, IT, ES, CA, BR, PT, MX, LU, IE ---
@@ -106,6 +108,12 @@ export const IMAGE_QUERIES = {
   },
   liberation_day: {
     IT: ['Festa della Liberazione Italy 25 April', 'Italian partisans liberation memorial'],
+    NL: [
+      'Bevrijdingsdag Netherlands',
+      'Netherlands Liberation Day 5 May festival',
+      'Dutch liberation festival crowd',
+      'Wageningen liberation parade Netherlands',
+    ],
   },
   national_day_of_spain: {
     ES: ['Fiesta Nacional de Espana military parade Madrid', 'Spanish flag Madrid celebration'],
@@ -139,6 +147,23 @@ export const IMAGE_QUERIES = {
   },
   saint_brigids_day: {
     IE: ['Saint Brigid cross reeds Ireland', 'Kildare Ireland Saint Brigid'],
+  },
+
+  // --- Batch 3: NO, NL, DK, SE ---
+  kings_day: {
+    NL: [
+      'Koningsdag Amsterdam',
+      'Kings Day Netherlands orange',
+      'Amsterdam canal crowd orange festival',
+      'Netherlands King Willem-Alexander crowd',
+      'orange crowd Netherlands celebration',
+    ],
+  },
+  national_day_of_sweden: {
+    SE: ['National Day of Sweden flag Stockholm', 'Swedish flag blue yellow celebration'],
+  },
+  midsummer_eve: {
+    SE: ['Swedish Midsummer maypole dancing midsommar', 'Midsummer flower crown Sweden'],
   },
 };
 

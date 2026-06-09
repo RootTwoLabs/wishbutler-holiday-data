@@ -11,6 +11,7 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 - `images/BR/carnival/03.jpg` — Leandro Neumann Ciuffo (CC BY 2.0)
 - `images/BR/independence_day/02.jpg` — Jorge Andrade (CC BY 2.0)
 - `images/BR/independence_day/03.jpg` — Victor Soares/ABr (CC BY 3.0 br)
+- `images/DK/constitution_day/03.jpg` — Frankie Fouganthin (CC BY-SA 4.0)
 - `images/ES/constitution_day/03.jpg` — User:Error (CC BY-SA 3.0)
 - `images/ES/national_day_of_spain/01.jpg` — Barcex (CC BY-SA 3.0)
 - `images/ES/national_day_of_spain/02.jpg` — Draceane (CC BY-SA 4.0)
@@ -35,9 +36,15 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 - `images/MX/revolution_day/03.jpg` — Carlos Valenzuela (CC BY-SA 4.0)
 - `images/new_years_eve/02.jpg` — Vivu Vietnam (CC BY-SA 4.0)
 - `images/new_years_eve/03.jpg` — Btezra (CC BY-SA 2.0)
+- `images/NO/constitution_day/01.jpg` — Bjoertvedt (CC BY-SA 3.0 no)
+- `images/NO/constitution_day/02.jpg` — Bjoertvedt (CC BY-SA 3.0 no)
+- `images/NO/constitution_day/03.jpg` — Bjoertvedt. (CC BY-SA 3.0 no)
 - `images/PT/freedom_day/01.jpg` — Pedro Ribeiro Simões from Lisboa, Portugal (CC BY 2.0)
 - `images/PT/freedom_day/02.jpg` — Pedro Ribeiro Simões from Lisboa, Portugal (CC BY 2.0)
 - `images/PT/freedom_day/03.jpg` — Pedro Ribeiro Simões from Lisboa, Portugal (CC BY 2.0)
+- `images/SE/midsummer_eve/02.jpg` — Plankbil (CC BY-SA 4.0)
+- `images/SE/midsummer_eve/03.jpg` — Roger W (CC BY-SA 2.0)
+- `images/SE/national_day_of_sweden/03.jpg` — Bengt Nyman (CC BY-SA 4.0)
 <!-- END:IMAGE-CREDITS -->
 
 ## Data sources

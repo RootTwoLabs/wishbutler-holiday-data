@@ -206,6 +206,26 @@
           ],
           "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
         },
+        "kings_day": {
+          "intro": "Der Koningsdag am 27. April feiert den Geburtstag des niederländischen Königs und färbt das ganze Land orange.",
+          "history": "Die Niederlande begehen seit 1885 einen königlichen Feiertag, lange als „Koninginnedag” am 30. April. Als Willem-Alexander 2013 König wurde, wechselte er auf seinen Geburtstag, den 27. April, und wurde in Koningsdag umbenannt.",
+          "traditions": "Man kleidet sich in Orange, die Nationalfarbe, und Städte feiern mit Straßenfesten, Konzerten und vollen Grachtenbooten – besonders in Amsterdam. Beim landesweiten „vrijmarkt” darf jeder Gebrauchtes auf der Straße verkaufen.",
+          "funFacts": [
+            "Alle tragen Orange – nach dem Haus Oranien-Nassau.",
+            "Beim „vrijmarkt” darf an diesem Tag jeder steuerfrei verkaufen.",
+            "Bis 2013 war es der „Koninginnedag” am 30. April."
+          ]
+        },
+        "liberation_day": {
+          "intro": "Der Bevrijdingsdag am 5. Mai erinnert an das Ende der deutschen Besatzung der Niederlande 1945 und feiert die Freiheit.",
+          "history": "Am 5. Mai 1945 kapitulierten die deutschen Truppen in den Niederlanden und beendeten fünf Jahre Besatzung im Zweiten Weltkrieg. Der Vorabend, der 4. Mai, ist der nationale Totengedenktag; der 5. Mai feiert Befreiung und Freiheit.",
+          "traditions": "Der Tag wird vom König eröffnet und bringt landesweite „Befreiungsfestivals” mit Open-Air-Konzerten. Er folgt auf die landesweite zweiminütige Schweigeminute am Abend des 4. Mai.",
+          "funFacts": [
+            "Gedenken (4. Mai) und Befreiung (5. Mai) bilden ein Paar.",
+            "Ein offizieller freier Tag ist es nur alle fünf Jahre.",
+            "Befreiungsfestivals finden in Städten im ganzen Land statt."
+          ]
+        },
         "ascension": {
           "intro": "Christi Himmelfahrt erinnert daran, dass Jesus 40 Tage nach seiner Auferstehung in den Himmel zurückkehrte. Der Feiertag fällt immer auf einen Donnerstag, sechs Wochen vor Pfingsten.",
           "history": "Bereits Eusebius von Caesarea berichtete im 4. Jahrhundert vom Fest der Himmelfahrt. Die Berechnung leitet sich aus der Apostelgeschichte ab: Jesus erschien nach der Auferstehung 40 Tage lang seinen Jüngern, bevor er „in den Himmel aufgenommen” wurde. Im Mittelalter entwickelten sich aus den frühen Prozessionen die Flurumgänge, bei denen Pfarrer die Felder und Wege segneten – ein Brauch, der noch heute im katholischen Süddeutschland und Österreich gepflegt wird.",
@@ -303,6 +323,26 @@
             "The Easter Bunny as deliverer of eggs was first mentioned in 1682 by physician Georg Franck von Franckenau."
           ],
           "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "kings_day": {
+          "intro": "King's Day on 27 April celebrates the Dutch monarch's birthday and turns the whole country orange.",
+          "history": "The Netherlands has marked a royal day since 1885, long as ‚Queen’s Day‘ on 30 April. When Willem-Alexander became king in 2013, it moved to his birthday, 27 April, and was renamed King’s Day.",
+          "traditions": "People dress in orange, the national colour, and cities host street parties, concerts and canal boats packed with revellers — Amsterdam especially. A nationwide free ‚vrijmarkt‘ (flea market) lets anyone sell second-hand goods on the street.",
+          "funFacts": [
+            "Everyone wears orange, after the royal House of Orange-Nassau.",
+            "The ‚vrijmarkt‘ lets anyone sell goods tax-free for the day.",
+            "It was 'Queen's Day' on 30 April until 2013."
+          ]
+        },
+        "liberation_day": {
+          "intro": "Liberation Day on 5 May marks the end of the Nazi occupation of the Netherlands in 1945 and celebrates freedom.",
+          "history": "On 5 May 1945 German forces in the Netherlands surrendered, ending five years of occupation in the Second World War. The previous evening, 4 May, is the national Remembrance Day for the war’s victims; the 5th then celebrates liberation and freedom.",
+          "traditions": "The day is opened by the king and features ‚Liberation Festivals‘ with open-air concerts across the country. It follows the solemn two minutes of silence held nationwide on the evening of 4 May.",
+          "funFacts": [
+            "Remembrance (4 May) and Liberation (5 May) form a linked pair.",
+            "It is an official day off only once every five years.",
+            "Liberation Festivals are held in cities across the country."
+          ]
         },
         "ascension": {
           "intro": "Ascension Day commemorates Jesus' return to heaven 40 days after his resurrection. The holiday always falls on a Thursday, six weeks before Pentecost.",
@@ -402,6 +442,26 @@
           ],
           "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
         },
+        "kings_day": {
+          "intro": "Le Koningsdag, le 27 avril, célèbre l’anniversaire du roi des Pays-Bas et pare tout le pays d’orange.",
+          "history": "Les Pays-Bas célèbrent une fête royale depuis 1885, longtemps le « jour de la Reine » le 30 avril. Quand Willem-Alexander devint roi en 2013, elle passa à son anniversaire, le 27 avril, et fut rebaptisée jour du Roi.",
+          "traditions": "On s’habille en orange, la couleur nationale, et les villes s’animent de fêtes de rue, de concerts et de canaux bondés de bateaux — surtout à Amsterdam. Le « vrijmarkt » national permet à chacun de vendre des objets d’occasion dans la rue.",
+          "funFacts": [
+            "Tout le monde porte de l’orange, d’après la maison d’Orange-Nassau.",
+            "Le « vrijmarkt » permet à chacun de vendre sans taxe ce jour-là.",
+            "C’était le « jour de la Reine » le 30 avril jusqu’en 2013."
+          ]
+        },
+        "liberation_day": {
+          "intro": "Le Bevrijdingsdag, le 5 mai, marque la fin de l’occupation nazie des Pays-Bas en 1945 et célèbre la liberté.",
+          "history": "Le 5 mai 1945, les forces allemandes aux Pays-Bas capitulèrent, mettant fin à cinq ans d’occupation durant la Seconde Guerre mondiale. La veille, le 4 mai, est la journée nationale du souvenir des victimes ; le 5 célèbre la libération et la liberté.",
+          "traditions": "La journée est ouverte par le roi et propose des « festivals de la Libération » avec des concerts en plein air dans tout le pays. Elle suit les deux minutes de silence observées le soir du 4 mai.",
+          "funFacts": [
+            "Souvenir (4 mai) et Libération (5 mai) forment un duo.",
+            "Ce n’est un jour férié officiel qu’une fois tous les cinq ans.",
+            "Des festivals de la Libération ont lieu dans tout le pays."
+          ]
+        },
         "ascension": {
           "intro": "L'Ascension rappelle que Jésus est retourné au ciel 40 jours après sa résurrection. La fête tombe toujours un jeudi, six semaines avant la Pentecôte.",
           "history": "Eusèbe de Césarée mentionnait déjà la fête de l'Ascension au IVe siècle. La date vient des Actes des Apôtres : après sa résurrection, Jésus apparut aux disciples pendant 40 jours avant d'être ‘élevé au ciel'. Au Moyen Âge, ces premières processions devinrent les rogations dans les champs, où le prêtre bénissait cultures et chemins — coutume encore vivante en Allemagne du Sud catholique et en Autriche.",
@@ -499,6 +559,26 @@
             "El conejo de Pascua como portador de huevos fue mencionado por escrito por primera vez en 1682, por el médico Georg Franck von Franckenau."
           ],
           "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 vía Wikimedia Commons"
+        },
+        "kings_day": {
+          "intro": "El Koningsdag, el 27 de abril, celebra el cumpleaños del rey de los Países Bajos y tiñe todo el país de naranja.",
+          "history": "Los Países Bajos celebran un día real desde 1885, mucho tiempo como «Día de la Reina» el 30 de abril. Cuando Guillermo Alejandro fue rey en 2013, pasó a su cumpleaños, el 27 de abril, y se renombró Día del Rey.",
+          "traditions": "La gente viste de naranja, el color nacional, y las ciudades se llenan de fiestas callejeras, conciertos y canales repletos de barcos, sobre todo en Ámsterdam. El «vrijmarkt» nacional permite a cualquiera vender cosas de segunda mano en la calle.",
+          "funFacts": [
+            "Todos visten de naranja, por la Casa de Orange-Nassau.",
+            "El «vrijmarkt» permite vender sin impuestos ese día.",
+            "Fue el «Día de la Reina» el 30 de abril hasta 2013."
+          ]
+        },
+        "liberation_day": {
+          "intro": "El Bevrijdingsdag, el 5 de mayo, marca el fin de la ocupación nazi de los Países Bajos en 1945 y celebra la libertad.",
+          "history": "El 5 de mayo de 1945 las fuerzas alemanas en los Países Bajos capitularon, poniendo fin a cinco años de ocupación en la Segunda Guerra Mundial. La víspera, el 4 de mayo, es el día nacional del recuerdo de las víctimas; el 5 celebra la liberación y la libertad.",
+          "traditions": "El día lo inaugura el rey e incluye «festivales de la Liberación» con conciertos al aire libre por todo el país. Sigue a los dos minutos de silencio observados la tarde del 4 de mayo.",
+          "funFacts": [
+            "Recuerdo (4 de mayo) y Liberación (5 de mayo) forman una pareja.",
+            "Solo es festivo oficial una vez cada cinco años.",
+            "Hay festivales de la Liberación por todo el país."
+          ]
         },
         "ascension": {
           "intro": "La Ascensión recuerda que Jesús subió al cielo 40 días después de su resurrección. La festividad cae siempre en jueves, seis semanas antes de Pentecostés.",
@@ -598,6 +678,26 @@
           ],
           "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
         },
+        "kings_day": {
+          "intro": "O Koningsdag, 27 de abril, celebra o aniversário do rei dos Países Baixos e tinge o país inteiro de laranja.",
+          "history": "Os Países Baixos celebram um dia real desde 1885, durante muito tempo como «Dia da Rainha» a 30 de abril. Quando Guilherme Alexandre se tornou rei em 2013, passou para o seu aniversário, 27 de abril, e foi rebatizado Dia do Rei.",
+          "traditions": "As pessoas vestem-se de laranja, a cor nacional, e as cidades enchem-se de festas de rua, concertos e canais repletos de barcos, sobretudo em Amesterdão. O «vrijmarkt» nacional permite a qualquer um vender artigos em segunda mão na rua.",
+          "funFacts": [
+            "Todos vestem laranja, da Casa de Orange-Nassau.",
+            "O «vrijmarkt» permite vender sem impostos nesse dia.",
+            "Foi o «Dia da Rainha» a 30 de abril até 2013."
+          ]
+        },
+        "liberation_day": {
+          "intro": "O Bevrijdingsdag, 5 de maio, assinala o fim da ocupação nazi dos Países Baixos em 1945 e celebra a liberdade.",
+          "history": "A 5 de maio de 1945 as forças alemãs nos Países Baixos capitularam, pondo fim a cinco anos de ocupação na Segunda Guerra Mundial. A véspera, 4 de maio, é o dia nacional de memória das vítimas; o dia 5 celebra a libertação e a liberdade.",
+          "traditions": "O dia é inaugurado pelo rei e inclui «festivais da Libertação» com concertos ao ar livre por todo o país. Segue-se aos dois minutos de silêncio observados na noite de 4 de maio.",
+          "funFacts": [
+            "Memória (4 de maio) e Libertação (5 de maio) formam um par.",
+            "Só é feriado oficial uma vez de cinco em cinco anos.",
+            "Há festivais da Libertação por todo o país."
+          ]
+        },
         "ascension": {
           "intro": "A Ascensão recorda que Jesus voltou ao céu 40 dias depois da sua ressurreição. A festa cai sempre numa quinta-feira, seis semanas antes do Pentecostes.",
           "history": "Eusébio de Cesareia já mencionava no século IV a festa da Ascensão. A data deriva dos Atos dos Apóstolos: depois da ressurreição, Jesus apareceu aos discípulos durante 40 dias antes de ser ‘elevado ao céu'. Na Idade Média, dessas primeiras procissões nasceram as rogativas pelos campos, em que o sacerdote abençoava as culturas e os caminhos — costume ainda vivo no sul católico da Alemanha e na Áustria.",
@@ -696,6 +796,26 @@
           ],
           "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
         },
+        "kings_day": {
+          "intro": "Il Koningsdag, il 27 aprile, celebra il compleanno del re dei Paesi Bassi e tinge di arancione l’intero Paese.",
+          "history": "I Paesi Bassi celebrano una festa reale dal 1885, a lungo come «Giorno della Regina» il 30 aprile. Quando Guglielmo Alessandro divenne re nel 2013, passò al suo compleanno, il 27 aprile, e fu rinominata Giorno del Re.",
+          "traditions": "Ci si veste di arancione, il colore nazionale, e le città si animano di feste di strada, concerti e canali gremiti di barche, soprattutto ad Amsterdam. Il «vrijmarkt» nazionale permette a chiunque di vendere oggetti usati per strada.",
+          "funFacts": [
+            "Tutti vestono di arancione, dalla casa d’Orange-Nassau.",
+            "Il «vrijmarkt» consente a chiunque di vendere senza tasse quel giorno.",
+            "Fino al 2013 era il «Giorno della Regina» il 30 aprile."
+          ]
+        },
+        "liberation_day": {
+          "intro": "Il Bevrijdingsdag, il 5 maggio, segna la fine dell’occupazione nazista dei Paesi Bassi nel 1945 e celebra la libertà.",
+          "history": "Il 5 maggio 1945 le forze tedesche nei Paesi Bassi capitolarono, ponendo fine a cinque anni di occupazione nella Seconda guerra mondiale. La vigilia, il 4 maggio, è la giornata nazionale del ricordo delle vittime; il 5 celebra la liberazione e la libertà.",
+          "traditions": "La giornata è aperta dal re e propone «festival della Liberazione» con concerti all’aperto in tutto il Paese. Segue i due minuti di silenzio osservati la sera del 4 maggio.",
+          "funFacts": [
+            "Ricordo (4 maggio) e Liberazione (5 maggio) formano una coppia.",
+            "È giorno festivo ufficiale solo una volta ogni cinque anni.",
+            "I festival della Liberazione si tengono in tutto il Paese."
+          ]
+        },
         "ascension": {
           "intro": "L'Ascensione ricorda che Gesù tornò in cielo 40 giorni dopo la sua resurrezione. La festa cade sempre di giovedì, sei settimane prima di Pentecoste.",
           "history": "Eusebio di Cesarea menzionava già nel IV secolo la festa dell'Ascensione. La data deriva dagli Atti degli Apostoli: dopo la resurrezione, Gesù apparve ai discepoli per 40 giorni prima di essere ‘elevato in cielo'. Nel Medioevo da quelle prime processioni nacquero le rogazioni nei campi, in cui il sacerdote benediceva colture e sentieri — usanza ancora viva nel sud cattolico della Germania e in Austria. In Italia non è più festivo civile, ma resta importante liturgicamente.",
@@ -793,6 +913,26 @@
             "W Czechach chłopcy biją dziewczyny rózgami z wierzby (‘pomlázka') — niby boleśnie, ale dla zdrowia i urody."
           ],
           "imageCredit": "Zdjęcie: Georgi Kirichkov · CC BY-SA 3.0 przez Wikimedia Commons"
+        },
+        "kings_day": {
+          "intro": "Koningsdag, 27 kwietnia, świętuje urodziny króla Holandii i barwi cały kraj na pomarańczowo.",
+          "history": "Holandia obchodzi święto królewskie od 1885 roku, długo jako „Dzień Królowej” 30 kwietnia. Gdy Wilhelm Aleksander został królem w 2013 roku, przeniesiono je na jego urodziny, 27 kwietnia, i przemianowano na Dzień Króla.",
+          "traditions": "Ludzie ubierają się na pomarańczowo, kolor narodowy, a miasta wypełniają uliczne zabawy, koncerty i kanały pełne łodzi, zwłaszcza w Amsterdamie. Ogólnokrajowy „vrijmarkt” pozwala każdemu sprzedawać używane rzeczy na ulicy.",
+          "funFacts": [
+            "Wszyscy noszą pomarańcz, od dynastii Orańsko-Nassauskiej.",
+            "„Vrijmarkt” pozwala tego dnia sprzedawać bez podatku.",
+            "Do 2013 roku był to „Dzień Królowej” 30 kwietnia."
+          ]
+        },
+        "liberation_day": {
+          "intro": "Bevrijdingsdag, 5 maja, upamiętnia koniec nazistowskiej okupacji Holandii w 1945 roku i celebruje wolność.",
+          "history": "5 maja 1945 roku siły niemieckie w Holandii skapitulowały, kończąc pięć lat okupacji podczas II wojny światowej. Poprzedni wieczór, 4 maja, to narodowy dzień pamięci ofiar; 5 maja świętuje wyzwolenie i wolność.",
+          "traditions": "Dzień otwiera król, a w całym kraju odbywają się „festiwale Wyzwolenia” z koncertami plenerowymi. Następuje po dwóch minutach ciszy zachowywanych wieczorem 4 maja.",
+          "funFacts": [
+            "Pamięć (4 maja) i Wyzwolenie (5 maja) tworzą parę.",
+            "Oficjalnym dniem wolnym jest tylko raz na pięć lat.",
+            "Festiwale Wyzwolenia odbywają się w całym kraju."
+          ]
         },
         "ascension": {
           "intro": "Wniebowstąpienie Pańskie przypomina, że Jezus wrócił do nieba 40 dnia po zmartwychwstaniu. Święto wypada zawsze w czwartek, sześć tygodni przed Pięćdziesiątnicą.",
@@ -901,6 +1041,40 @@
       {
         "path": "images/easter_monday/01.jpg",
         "primary": true,
+        "license": "CC0"
+      }
+    ],
+    "kings_day": [
+      {
+        "path": "images/NL/kings_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/NL/kings_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/NL/kings_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "liberation_day": [
+      {
+        "path": "images/NL/liberation_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/NL/liberation_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/NL/liberation_day/03.jpg",
+        "primary": false,
         "license": "CC0"
       }
     ],

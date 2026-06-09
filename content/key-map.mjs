@@ -74,6 +74,14 @@ export const COUNTRY_ARTICLE_MAP = {
   lu_europe_day: { slug: 'europe_day', countryCode: 'LU' },
   ie_st_patricks_day: { slug: 'saint_patricks_day', countryCode: 'IE' },
   ie_st_brigids_day: { slug: 'saint_brigids_day', countryCode: 'IE' },
+
+  // --- Batch 3: NO, NL, DK, SE (English-language markets) ---
+  no_constitution_day: { slug: 'constitution_day', countryCode: 'NO' },
+  nl_kings_day: { slug: 'kings_day', countryCode: 'NL' },
+  nl_liberation_day: { slug: 'liberation_day', countryCode: 'NL' },
+  dk_constitution_day: { slug: 'constitution_day', countryCode: 'DK' },
+  se_national_day: { slug: 'national_day_of_sweden', countryCode: 'SE' },
+  se_midsummer_eve: { slug: 'midsummer_eve', countryCode: 'SE' },
 };
 
 /** Slugs whose images and articles are namespaced per country. */
@@ -107,6 +115,10 @@ export const NAMESPACED_SLUGS = new Set([
   'europe_day',
   'saint_patricks_day',
   'saint_brigids_day',
+  // Batch 3
+  'kings_day',
+  'national_day_of_sweden',
+  'midsummer_eve',
 ]);
 
 /** Locales we ship article content for. */
