@@ -1,0 +1,22 @@
+{
+  "bastille_day": {
+    "intro": "La fête nationale du 14 juillet commémore la prise de la Bastille en 1789 et la Fête de la Fédération de 1790 — symboles de la Révolution et de l’unité nationale.",
+    "history": "Le 14 juillet 1789, les Parisiens prennent la Bastille, symbole honni de l’absolutisme royal, déclenchant la Révolution française. Un an plus tard, la Fête de la Fédération célèbre la nation nouvelle ; en 1880, la IIIe République fait du 14 juillet la fête nationale.",
+    "traditions": "La journée s’ouvre par le plus grand défilé militaire d’Europe sur les Champs-Élysées, passé en revue par le président. La veille, les bals des pompiers animent les villes, et la soirée s’achève par un grand feu d’artifice, célèbre au-dessus de la tour Eiffel.",
+    "funFacts": [
+      "La Bastille ne comptait que sept prisonniers le jour de sa prise en 1789.",
+      "Le défilé des Champs-Élysées a lieu presque chaque année depuis 1880.",
+      "En France, on dit simplement « le 14 juillet »."
+    ]
+  },
+  "armistice_day": {
+    "intro": "Le 11 novembre commémore l’armistice de 1918 qui mit fin à la Première Guerre mondiale et honore tous les soldats français morts pour la patrie.",
+    "history": "À 11 heures, le 11 novembre 1918, l’armistice signé à Compiègne fit taire les canons du front occidental. La France perdit près de 1,4 million de soldats. Depuis 1922, la date est une journée nationale du souvenir, étendue ensuite aux morts de toutes les guerres.",
+    "traditions": "Le président dépose une gerbe sur la tombe du Soldat inconnu sous l’Arc de triomphe, où brûle une flamme éternelle. Partout, citoyens et anciens combattants se réunissent devant les monuments aux morts pour une minute de silence.",
+    "funFacts": [
+      "L’armistice est entré en vigueur à la 11e heure du 11e jour du 11e mois.",
+      "La flamme sous l’Arc de triomphe est ravivée chaque soir depuis 1923.",
+      "Le Bleuet de France est le symbole du souvenir."
+    ]
+  }
+}

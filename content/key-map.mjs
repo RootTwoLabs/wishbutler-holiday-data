@@ -54,6 +54,26 @@ export const COUNTRY_ARTICLE_MAP = {
   mothers_day_uk: { slug: 'mothers_day', countryCode: 'GB' },
   pl_constitution: { slug: 'constitution_day', countryCode: 'PL' },
   pl_independence: { slug: 'independence_day', countryCode: 'PL' },
+
+  // --- Batch 2: FR, IT, ES, CA, BR, PT, MX, LU, IE ---
+  fr_bastille_day: { slug: 'bastille_day', countryCode: 'FR' },
+  fr_armistice_day: { slug: 'armistice_day', countryCode: 'FR' },
+  it_republic_day: { slug: 'republic_day', countryCode: 'IT' },
+  it_liberation_day: { slug: 'liberation_day', countryCode: 'IT' },
+  es_national_day: { slug: 'national_day_of_spain', countryCode: 'ES' },
+  es_constitution_day: { slug: 'constitution_day', countryCode: 'ES' },
+  ca_canada_day: { slug: 'canada_day', countryCode: 'CA' },
+  ca_remembrance_day: { slug: 'remembrance_day', countryCode: 'CA' },
+  br_independence_day: { slug: 'independence_day', countryCode: 'BR' },
+  br_carnival: { slug: 'carnival', countryCode: 'BR' },
+  pt_national_day: { slug: 'national_day', countryCode: 'PT' },
+  pt_freedom_day: { slug: 'freedom_day', countryCode: 'PT' },
+  mx_independence_day: { slug: 'independence_day', countryCode: 'MX' },
+  mx_revolution_day: { slug: 'revolution_day', countryCode: 'MX' },
+  lu_national_day: { slug: 'sovereigns_birthday', countryCode: 'LU' },
+  lu_europe_day: { slug: 'europe_day', countryCode: 'LU' },
+  ie_st_patricks_day: { slug: 'saint_patricks_day', countryCode: 'IE' },
+  ie_st_brigids_day: { slug: 'saint_brigids_day', countryCode: 'IE' },
 };
 
 /** Slugs whose images and articles are namespaced per country. */
@@ -71,6 +91,22 @@ export const NAMESPACED_SLUGS = new Set([
   'spring_bank_holiday',
   'summer_bank_holiday',
   'constitution_day',
+  // Batch 2
+  'bastille_day',
+  'armistice_day',
+  'republic_day',
+  'liberation_day',
+  'national_day_of_spain',
+  'canada_day',
+  'remembrance_day',
+  'carnival',
+  'national_day',
+  'freedom_day',
+  'revolution_day',
+  'sovereigns_birthday',
+  'europe_day',
+  'saint_patricks_day',
+  'saint_brigids_day',
 ]);
 
 /** Locales we ship article content for. */

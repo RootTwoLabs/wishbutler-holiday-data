@@ -1,0 +1,22 @@
+{
+  "canada_day": {
+    "intro": "La fête du Canada, le 1er juillet, célèbre la confédération de 1867 qui unit les colonies au sein du Dominion du Canada.",
+    "history": "Le 1er juillet 1867, l’Acte de l’Amérique du Nord britannique réunit l’Ontario, le Québec, le Nouveau-Brunswick et la Nouvelle-Écosse en un seul dominion. D’abord « jour de la Confédération », la fête fut renommée fête du Canada en 1982, année du rapatriement de la Constitution.",
+    "traditions": "Les célébrations se concentrent sur la Colline du Parlement à Ottawa, avec concerts et feux d’artifice. Partout, on porte le rouge et blanc, on hisse l’unifolié et l’on se réunit pour défilés, barbecues et cérémonies de citoyenneté.",
+    "funFacts": [
+      "Elle s’appelait « jour de la Confédération » jusqu’en 1982.",
+      "Le drapeau à la feuille d’érable n’a été adopté qu’en 1965.",
+      "De nombreux nouveaux citoyens prêtent serment le jour de la fête du Canada."
+    ]
+  },
+  "remembrance_day": {
+    "intro": "Le jour du Souvenir, le 11 novembre, honore les Canadiens qui ont servi et sont morts à la guerre, symbolisé par le coquelicot rouge.",
+    "history": "Le 11 novembre rappelle l’armistice de 1918 qui mit fin à la Première Guerre mondiale. Le Canada, qui y perdit plus de 60 000 hommes, honore les morts de tous les conflits. Le coquelicot vient du poème « Au champ d’honneur » du Canadien John McCrae.",
+    "traditions": "À 11 h, les Canadiens observent deux minutes de silence. La cérémonie nationale au Monument commémoratif de guerre à Ottawa comprend des couronnes, la sonnerie aux morts et un survol ; des millions portent le coquelicot dans les semaines précédentes.",
+    "funFacts": [
+      "« Au champ d’honneur » fut écrit par le Canadien John McCrae en 1915.",
+      "On porte le coquelicot de fin octobre au 11 novembre.",
+      "La Mère décorée de la Croix d’argent dépose une couronne pour toutes les familles endeuillées."
+    ]
+  }
+}

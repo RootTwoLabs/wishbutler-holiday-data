@@ -479,6 +479,26 @@
           ],
           "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
         },
+        "canada_day": {
+          "intro": "Der Canada Day am 1. Juli feiert die Konföderation von 1867, die die Kolonien zum Dominion Kanada vereinte.",
+          "history": "Am 1. Juli 1867 vereinte der British North America Act Ontario, Québec, New Brunswick und Nova Scotia zu einem Dominion. Zunächst „Dominion Day”, wurde er 1982 in Canada Day umbenannt – im Jahr, als Kanada die volle Hoheit über seine Verfassung erhielt.",
+          "traditions": "Die Feiern konzentrieren sich auf den Parliament Hill in Ottawa mit Konzerten und Feuerwerk. Im ganzen Land trägt man Rot und Weiß, hisst die Ahornblattflagge und trifft sich zu Paraden, Grillfesten und Einbürgerungsfeiern.",
+          "funFacts": [
+            "Bis 1982 hieß der Tag „Dominion Day”.",
+            "Die Ahornblattflagge wurde erst 1965 eingeführt.",
+            "Viele Neubürger werden am Canada Day vereidigt."
+          ]
+        },
+        "remembrance_day": {
+          "intro": "Der Remembrance Day am 11. November ehrt die Kanadier, die im Krieg dienten und fielen, symbolisiert durch die rote Mohnblume.",
+          "history": "Der 11. November erinnert an den Waffenstillstand von 1918, der den Ersten Weltkrieg beendete. Kanada, das darin über 60.000 Menschen verlor, ehrt die Gefallenen aller Konflikte. Die Mohnblume stammt aus dem Gedicht „In Flanders Fields” des Kanadiers John McCrae.",
+          "traditions": "Um 11 Uhr halten die Kanadier zwei Schweigeminuten. Die nationale Zeremonie am National War Memorial in Ottawa umfasst Kränze, den Last Post und einen Überflug; Millionen tragen in den Wochen davor Mohnblumen.",
+          "funFacts": [
+            "„In Flanders Fields” schrieb der Kanadier John McCrae 1915.",
+            "Die Mohnblume wird von Ende Oktober bis zum 11. November getragen.",
+            "Die „Silver Cross Mother” legt einen Kranz für alle trauernden Familien nieder."
+          ]
+        },
         "christmas": {
           "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
           "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
@@ -540,6 +560,26 @@
             "The Easter Bunny as deliverer of eggs was first mentioned in 1682 by physician Georg Franck von Franckenau."
           ],
           "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "canada_day": {
+          "intro": "Canada Day on 1 July celebrates the 1867 confederation that united the colonies into the Dominion of Canada.",
+          "history": "On 1 July 1867 the British North America Act joined Ontario, Quebec, New Brunswick and Nova Scotia into one dominion. Originally ‚Dominion Day‘, it was renamed Canada Day in 1982, the year Canada gained full control over its constitution.",
+          "traditions": "Celebrations centre on Parliament Hill in Ottawa with concerts and fireworks. Across the country people wear red and white, fly the maple-leaf flag, and gather for parades, barbecues and citizenship ceremonies.",
+          "funFacts": [
+            "It was called Dominion Day until 1982.",
+            "The maple-leaf flag was only adopted in 1965.",
+            "Many new citizens are sworn in on Canada Day."
+          ]
+        },
+        "remembrance_day": {
+          "intro": "Remembrance Day on 11 November honours Canadians who served and died in war, symbolised by the red poppy.",
+          "history": "11 November recalls the 1918 armistice that ended the First World War. Canada, which lost more than 60,000 in that war, honours the fallen of all conflicts. The poppy comes from the poem ‚In Flanders Fields‘ by Canadian John McCrae.",
+          "traditions": "At 11 a.m. Canadians observe two minutes of silence. The national ceremony at the National War Memorial in Ottawa features wreaths, the Last Post and a flypast, and millions wear poppies in the weeks before.",
+          "funFacts": [
+            "‚In Flanders Fields‘ was written by Canadian John McCrae in 1915.",
+            "Poppies are worn from late October until 11 November.",
+            "The Silver Cross Mother lays a wreath for all bereaved families."
+          ]
         },
         "christmas": {
           "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
@@ -603,6 +643,26 @@
           ],
           "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
         },
+        "canada_day": {
+          "intro": "La fête du Canada, le 1er juillet, célèbre la confédération de 1867 qui unit les colonies au sein du Dominion du Canada.",
+          "history": "Le 1er juillet 1867, l’Acte de l’Amérique du Nord britannique réunit l’Ontario, le Québec, le Nouveau-Brunswick et la Nouvelle-Écosse en un seul dominion. D’abord « jour de la Confédération », la fête fut renommée fête du Canada en 1982, année du rapatriement de la Constitution.",
+          "traditions": "Les célébrations se concentrent sur la Colline du Parlement à Ottawa, avec concerts et feux d’artifice. Partout, on porte le rouge et blanc, on hisse l’unifolié et l’on se réunit pour défilés, barbecues et cérémonies de citoyenneté.",
+          "funFacts": [
+            "Elle s’appelait « jour de la Confédération » jusqu’en 1982.",
+            "Le drapeau à la feuille d’érable n’a été adopté qu’en 1965.",
+            "De nombreux nouveaux citoyens prêtent serment le jour de la fête du Canada."
+          ]
+        },
+        "remembrance_day": {
+          "intro": "Le jour du Souvenir, le 11 novembre, honore les Canadiens qui ont servi et sont morts à la guerre, symbolisé par le coquelicot rouge.",
+          "history": "Le 11 novembre rappelle l’armistice de 1918 qui mit fin à la Première Guerre mondiale. Le Canada, qui y perdit plus de 60 000 hommes, honore les morts de tous les conflits. Le coquelicot vient du poème « Au champ d’honneur » du Canadien John McCrae.",
+          "traditions": "À 11 h, les Canadiens observent deux minutes de silence. La cérémonie nationale au Monument commémoratif de guerre à Ottawa comprend des couronnes, la sonnerie aux morts et un survol ; des millions portent le coquelicot dans les semaines précédentes.",
+          "funFacts": [
+            "« Au champ d’honneur » fut écrit par le Canadien John McCrae en 1915.",
+            "On porte le coquelicot de fin octobre au 11 novembre.",
+            "La Mère décorée de la Croix d’argent dépose une couronne pour toutes les familles endeuillées."
+          ]
+        },
         "christmas": {
           "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
           "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
@@ -664,6 +724,26 @@
             "El conejo de Pascua como portador de huevos fue mencionado por escrito por primera vez en 1682, por el médico Georg Franck von Franckenau."
           ],
           "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 vía Wikimedia Commons"
+        },
+        "canada_day": {
+          "intro": "El Día de Canadá, el 1 de julio, celebra la confederación de 1867 que unió las colonias en el Dominio de Canadá.",
+          "history": "El 1 de julio de 1867 el Acta de Norteamérica Británica unió Ontario, Quebec, Nuevo Brunswick y Nueva Escocia en un solo dominio. Llamado al principio «Día del Dominio», pasó a ser Día de Canadá en 1982, año en que el país logró el control total de su constitución.",
+          "traditions": "Las celebraciones se centran en la Colina del Parlamento en Ottawa, con conciertos y fuegos artificiales. En todo el país se viste de rojo y blanco, se ondea la bandera de la hoja de arce y hay desfiles, barbacoas y ceremonias de ciudadanía.",
+          "funFacts": [
+            "Se llamó «Día del Dominio» hasta 1982.",
+            "La bandera de la hoja de arce se adoptó solo en 1965.",
+            "Muchos nuevos ciudadanos juran el cargo el Día de Canadá."
+          ]
+        },
+        "remembrance_day": {
+          "intro": "El Día del Recuerdo, el 11 de noviembre, honra a los canadienses que sirvieron y murieron en la guerra, simbolizado por la amapola roja.",
+          "history": "El 11 de noviembre recuerda el armisticio de 1918 que puso fin a la Primera Guerra Mundial. Canadá, que perdió más de 60.000 personas en ella, honra a los caídos de todos los conflictos. La amapola procede del poema «In Flanders Fields» del canadiense John McCrae.",
+          "traditions": "A las 11 los canadienses guardan dos minutos de silencio. La ceremonia nacional en el Monumento Nacional a los Caídos en Ottawa incluye coronas, el toque de difuntos y un vuelo; millones llevan amapolas las semanas previas.",
+          "funFacts": [
+            "«In Flanders Fields» lo escribió el canadiense John McCrae en 1915.",
+            "La amapola se lleva desde finales de octubre hasta el 11 de noviembre.",
+            "La «Madre de la Cruz de Plata» deposita una corona por todas las familias en duelo."
+          ]
         },
         "christmas": {
           "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
@@ -727,6 +807,26 @@
           ],
           "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
         },
+        "canada_day": {
+          "intro": "O Dia do Canadá, 1 de julho, celebra a confederação de 1867 que uniu as colónias no Domínio do Canadá.",
+          "history": "A 1 de julho de 1867 o Ato da América do Norte Britânica uniu Ontário, Quebec, Nova Brunswick e Nova Escócia num só domínio. Inicialmente «Dia do Domínio», passou a Dia do Canadá em 1982, ano em que o país obteve controlo total da sua constituição.",
+          "traditions": "As celebrações centram-se na Colina do Parlamento, em Otava, com concertos e fogo de artifício. Por todo o país veste-se vermelho e branco, hasteia-se a bandeira da folha de bordo e há desfiles, churrascos e cerimónias de cidadania.",
+          "funFacts": [
+            "Chamou-se «Dia do Domínio» até 1982.",
+            "A bandeira da folha de bordo só foi adotada em 1965.",
+            "Muitos novos cidadãos prestam juramento no Dia do Canadá."
+          ]
+        },
+        "remembrance_day": {
+          "intro": "O Dia da Lembrança, 11 de novembro, honra os canadianos que serviram e morreram na guerra, simbolizado pela papoila vermelha.",
+          "history": "O 11 de novembro recorda o armistício de 1918 que pôs fim à Primeira Guerra Mundial. O Canadá, que nela perdeu mais de 60 000 pessoas, honra os caídos de todos os conflitos. A papoila vem do poema «In Flanders Fields» do canadiano John McCrae.",
+          "traditions": "Às 11 horas os canadianos guardam dois minutos de silêncio. A cerimónia nacional no Monumento Nacional de Guerra, em Otava, inclui coroas, o toque de finados e um sobrevoo; milhões usam papoilas nas semanas anteriores.",
+          "funFacts": [
+            "«In Flanders Fields» foi escrito pelo canadiano John McCrae em 1915.",
+            "A papoila usa-se de fim de outubro até 11 de novembro.",
+            "A «Mãe da Cruz de Prata» deposita uma coroa por todas as famílias enlutadas."
+          ]
+        },
         "christmas": {
           "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
           "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
@@ -789,6 +889,26 @@
           ],
           "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
         },
+        "canada_day": {
+          "intro": "Il Canada Day, il 1° luglio, celebra la confederazione del 1867 che unì le colonie nel Dominion del Canada.",
+          "history": "Il 1° luglio 1867 il British North America Act unì Ontario, Québec, Nuovo Brunswick e Nuova Scozia in un unico dominion. Dapprima «Dominion Day», fu rinominato Canada Day nel 1982, anno in cui il Paese ottenne il pieno controllo della propria costituzione.",
+          "traditions": "Le celebrazioni si concentrano sulla Parliament Hill a Ottawa, con concerti e fuochi d’artificio. In tutto il Paese si indossa rosso e bianco, si issa la bandiera con la foglia d’acero e ci si riunisce per parate, barbecue e cerimonie di cittadinanza.",
+          "funFacts": [
+            "Fino al 1982 si chiamava «Dominion Day».",
+            "La bandiera con la foglia d’acero fu adottata solo nel 1965.",
+            "Molti nuovi cittadini giurano proprio il Canada Day."
+          ]
+        },
+        "remembrance_day": {
+          "intro": "Il Remembrance Day, l’11 novembre, onora i canadesi che servirono e morirono in guerra, simboleggiato dal papavero rosso.",
+          "history": "L’11 novembre ricorda l’armistizio del 1918 che pose fine alla Prima guerra mondiale. Il Canada, che vi perse oltre 60.000 persone, onora i caduti di tutti i conflitti. Il papavero deriva dalla poesia «In Flanders Fields» del canadese John McCrae.",
+          "traditions": "Alle 11 i canadesi osservano due minuti di silenzio. La cerimonia nazionale al National War Memorial di Ottawa prevede corone, il Last Post e un sorvolo; milioni indossano il papavero nelle settimane precedenti.",
+          "funFacts": [
+            "«In Flanders Fields» fu scritta dal canadese John McCrae nel 1915.",
+            "Il papavero si porta da fine ottobre all’11 novembre.",
+            "La «Silver Cross Mother» depone una corona per tutte le famiglie in lutto."
+          ]
+        },
         "christmas": {
           "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
           "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
@@ -850,6 +970,26 @@
             "W Czechach chłopcy biją dziewczyny rózgami z wierzby (‘pomlázka') — niby boleśnie, ale dla zdrowia i urody."
           ],
           "imageCredit": "Zdjęcie: Georgi Kirichkov · CC BY-SA 3.0 przez Wikimedia Commons"
+        },
+        "canada_day": {
+          "intro": "Dzień Kanady, 1 lipca, upamiętnia konfederację z 1867 roku, która zjednoczyła kolonie w Dominium Kanady.",
+          "history": "1 lipca 1867 roku Akt Brytyjskiej Ameryki Północnej połączył Ontario, Quebec, Nowy Brunszwik i Nową Szkocję w jedno dominium. Początkowo „Dzień Dominium”, w 1982 roku przemianowano go na Dzień Kanady, gdy kraj uzyskał pełną kontrolę nad swoją konstytucją.",
+          "traditions": "Obchody koncentrują się na Wzgórzu Parlamentarnym w Ottawie, z koncertami i fajerwerkami. W całym kraju nosi się czerwień i biel, wywiesza flagę z liściem klonu oraz organizuje parady, grille i ceremonie nadania obywatelstwa.",
+          "funFacts": [
+            "Do 1982 roku nazywał się „Dniem Dominium”.",
+            "Flagę z liściem klonu przyjęto dopiero w 1965 roku.",
+            "Wielu nowych obywateli składa przysięgę właśnie w Dzień Kanady."
+          ]
+        },
+        "remembrance_day": {
+          "intro": "Dzień Pamięci, 11 listopada, czci Kanadyjczyków, którzy służyli i polegli na wojnie, a jego symbolem jest czerwony mak.",
+          "history": "11 listopada przypomina rozejm z 1918 roku, który zakończył I wojnę światową. Kanada, która straciła w niej ponad 60 000 ludzi, czci poległych we wszystkich konfliktach. Mak pochodzi z wiersza „In Flanders Fields” Kanadyjczyka Johna McCrae.",
+          "traditions": "O godzinie 11 Kanadyjczycy zachowują dwie minuty ciszy. Narodowa ceremonia przy Krajowym Pomniku Wojennym w Ottawie obejmuje wieńce, sygnał Last Post i przelot; miliony noszą maki w poprzedzających tygodniach.",
+          "funFacts": [
+            "„In Flanders Fields” napisał Kanadyjczyk John McCrae w 1915 roku.",
+            "Maki nosi się od końca października do 11 listopada.",
+            "„Matka Srebrnego Krzyża” składa wieniec w imieniu wszystkich pogrążonych w żałobie rodzin."
+          ]
         },
         "christmas": {
           "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
@@ -917,6 +1057,40 @@
       {
         "path": "images/easter_monday/01.jpg",
         "primary": true,
+        "license": "CC0"
+      }
+    ],
+    "canada_day": [
+      {
+        "path": "images/CA/canada_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/CA/canada_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/CA/canada_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "remembrance_day": [
+      {
+        "path": "images/CA/remembrance_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/CA/remembrance_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/CA/remembrance_day/03.jpg",
+        "primary": false,
         "license": "CC0"
       }
     ],

@@ -71,6 +71,8 @@ export const IMAGE_QUERIES = {
   independence_day: {
     US: ['American flag fireworks july 4', 'Independence Day USA celebration'],
     PL: ['Warsaw Polish Independence Day', 'flag of Poland Warsaw'],
+    BR: ['Brazil Independence Day parade Brasilia', 'Brazilian flag Sete de Setembro'],
+    MX: ['Mexico Independence Day Zocalo flag', 'Mexican flag independence celebration'],
   },
   labour_day_us: {
     US: ['American workers labor day parade'],
@@ -89,6 +91,54 @@ export const IMAGE_QUERIES = {
   },
   constitution_day: {
     PL: ['flag of Poland Warsaw', 'Polish constitution day'],
+    ES: ['Spanish Constitution day Congreso Madrid', 'flag of Spain Madrid'],
+  },
+
+  // --- Batch 2: FR, IT, ES, CA, BR, PT, MX, LU, IE ---
+  bastille_day: {
+    FR: ['Bastille Day fireworks Eiffel Tower', '14 July military parade Champs-Elysees Paris'],
+  },
+  armistice_day: {
+    FR: ['Arc de Triomphe tomb unknown soldier Paris', 'Armistice Day 11 November wreath'],
+  },
+  republic_day: {
+    IT: ['Festa della Repubblica parade Rome', 'Frecce Tricolori Italian flag flyover'],
+  },
+  liberation_day: {
+    IT: ['Festa della Liberazione Italy 25 April', 'Italian partisans liberation memorial'],
+  },
+  national_day_of_spain: {
+    ES: ['Fiesta Nacional de Espana military parade Madrid', 'Spanish flag Madrid celebration'],
+  },
+  canada_day: {
+    CA: ['Canada Day fireworks Parliament Hill Ottawa', 'Canadian flag celebration July 1'],
+  },
+  remembrance_day: {
+    CA: ['Remembrance Day poppy wreath Canada', 'National War Memorial Ottawa'],
+  },
+  carnival: {
+    BR: ['Rio Carnival samba parade Sambadrome', 'Brazil carnival costumes dancers'],
+  },
+  national_day: {
+    PT: ['Portugal Day Lisbon celebration', 'Luis de Camoes monument Lisbon'],
+  },
+  freedom_day: {
+    PT: ['Carnation Revolution 25 April Portugal', 'Lisbon carnations freedom day'],
+  },
+  revolution_day: {
+    MX: ['Mexican Revolution Day parade', 'Monumento a la Revolucion Mexico City'],
+  },
+  sovereigns_birthday: {
+    LU: ['Luxembourg National Day celebration', 'Luxembourg City fireworks flag'],
+  },
+  europe_day: {
+    LU: ['European Union flag stars', 'Europe Day European flag'],
+  },
+  saint_patricks_day: {
+    IE: ['Saint Patricks Day parade Dublin green', 'Ireland shamrock celebration'],
+  },
+  saint_brigids_day: {
+    IE: ['Saint Brigid cross reeds Ireland', 'Kildare Ireland Saint Brigid'],
   },
 };
 

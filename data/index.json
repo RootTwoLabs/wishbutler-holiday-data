@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "baseUrl": "https://cdn.jsdelivr.net/gh/RootTwoLabs/wishbutler-holiday-data@main/data",
-  "generatedAt": "2026-06-09T08:46:09.232Z",
+  "generatedAt": "2026-06-09T09:26:49.670Z",
   "countries": [
     {
       "code": "AD",
@@ -200,7 +200,7 @@
       "code": "BR",
       "version": 2,
       "package": "packages/BR/v2/package.json",
-      "sizeBytes": 78831,
+      "sizeBytes": 94289,
       "locales": [
         "en",
         "pt"
@@ -262,7 +262,7 @@
       "code": "CA",
       "version": 2,
       "package": "packages/CA/v2/package.json",
-      "sizeBytes": 72101,
+      "sizeBytes": 86734,
       "locales": [
         "en"
       ],
@@ -482,7 +482,7 @@
       "code": "ES",
       "version": 2,
       "package": "packages/ES/v2/package.json",
-      "sizeBytes": 172824,
+      "sizeBytes": 187811,
       "locales": [
         "en",
         "es"
@@ -521,7 +521,7 @@
       "code": "FR",
       "version": 2,
       "package": "packages/FR/v2/package.json",
-      "sizeBytes": 115588,
+      "sizeBytes": 131287,
       "locales": [
         "en",
         "fr"
@@ -761,7 +761,7 @@
       "code": "IE",
       "version": 2,
       "package": "packages/IE/v2/package.json",
-      "sizeBytes": 65491,
+      "sizeBytes": 80246,
       "locales": [
         "en"
       ],
@@ -798,7 +798,7 @@
       "code": "IT",
       "version": 2,
       "package": "packages/IT/v2/package.json",
-      "sizeBytes": 150048,
+      "sizeBytes": 165268,
       "locales": [
         "en",
         "it"
@@ -924,7 +924,7 @@
       "code": "LU",
       "version": 2,
       "package": "packages/LU/v2/package.json",
-      "sizeBytes": 126530,
+      "sizeBytes": 140861,
       "locales": [
         "en",
         "fr"
@@ -1066,7 +1066,7 @@
       "code": "MX",
       "version": 2,
       "package": "packages/MX/v2/package.json",
-      "sizeBytes": 52505,
+      "sizeBytes": 67208,
       "locales": [
         "en",
         "es"
@@ -1256,7 +1256,7 @@
       "code": "PT",
       "version": 2,
       "package": "packages/PT/v2/package.json",
-      "sizeBytes": 129460,
+      "sizeBytes": 144262,
       "locales": [
         "en",
         "pt"

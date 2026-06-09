@@ -1323,6 +1323,16 @@
           ],
           "imageCredit": "Foto: Print made by: Virgil Solis · Public domain via Wikimedia Commons"
         },
+        "bastille_day": {
+          "intro": "Der französische Nationalfeiertag am 14. Juli erinnert an den Sturm auf die Bastille 1789 und das Föderationsfest 1790 – Symbole der Revolution und der nationalen Einheit.",
+          "history": "Am 14. Juli 1789 stürmten die Pariser die Bastille, ein verhasstes Symbol des königlichen Absolutismus, und lösten die Französische Revolution aus. Ein Jahr später feierte das Föderationsfest die neue Nation; 1880 machte die Dritte Republik den 14. Juli zum Nationalfeiertag.",
+          "traditions": "Der Tag beginnt mit der größten Militärparade Europas auf den Champs-Élysées, die der Präsident abnimmt. Am Vorabend laden die „Bälle der Feuerwehr” ein, und der Abend endet mit einem großen Feuerwerk, berühmt am Eiffelturm.",
+          "funFacts": [
+            "Beim Sturm 1789 saßen nur sieben Gefangene in der Bastille.",
+            "Die Parade auf den Champs-Élysées findet seit 1880 fast jährlich statt.",
+            "In Frankreich heißt der Tag einfach „le 14 juillet”."
+          ]
+        },
         "assumption": {
           "intro": "Mariä Himmelfahrt am 15. August feiert die Aufnahme Marias mit Leib und Seele in den Himmel. Der Tag gehört zu den höchsten Marienfesten der katholischen Kirche.",
           "history": "Die Lehre von der leiblichen Aufnahme Marias entwickelte sich seit dem 4. Jahrhundert in den christlichen Gemeinden. Papst Pius XII. erklärte sie 1950 in der Enzyklika „Munificentissimus Deus” zum verbindlichen Dogma. Schon im Mittelalter entstand der Brauch, an diesem Tag Kräuter zu segnen – zu einer Zeit, in der die ersten Heilkräuter blühten. Mariä Himmelfahrt ist in Österreich, im Saarland und in überwiegend katholischen Gemeinden Bayerns gesetzlicher Feiertag.",
@@ -1346,6 +1356,16 @@
             "Halloween („All Hallows' Eve”) leitet seinen Namen direkt vom Vorabend des Allerheiligenfests ab."
           ],
           "imageCredit": "Foto: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "armistice_day": {
+          "intro": "Der 11. November erinnert an den Waffenstillstand von 1918, der den Ersten Weltkrieg beendete, und ehrt alle für Frankreich gefallenen Soldaten.",
+          "history": "Um 11 Uhr am 11. November 1918 ließ der in Compiègne unterzeichnete Waffenstillstand die Geschütze der Westfront verstummen. Frankreich verlor rund 1,4 Millionen Soldaten. Seit 1922 ist der Tag ein nationaler Gedenktag, später auf die Gefallenen aller Kriege ausgeweitet.",
+          "traditions": "Der Präsident legt einen Kranz am Grab des Unbekannten Soldaten unter dem Triumphbogen nieder, wo eine ewige Flamme brennt. Im ganzen Land versammeln sich Bürger und Veteranen an Kriegerdenkmälern zu einer Schweigeminute.",
+          "funFacts": [
+            "Der Waffenstillstand trat zur 11. Stunde des 11. Tages im 11. Monat in Kraft.",
+            "Die Flamme unter dem Triumphbogen wird seit 1923 jeden Abend neu entzündet.",
+            "Die blaue Kornblume (le Bleuet) ist Frankreichs Symbol des Gedenkens."
+          ]
         },
         "christmas": {
           "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
@@ -1421,6 +1441,16 @@
           ],
           "imageCredit": "Photo: Print made by: Virgil Solis · Public domain via Wikimedia Commons"
         },
+        "bastille_day": {
+          "intro": "France's national day on 14 July recalls the storming of the Bastille in 1789 and the Fête de la Fédération of 1790 — symbols of revolution and national unity.",
+          "history": "On 14 July 1789 Parisians stormed the Bastille, a hated symbol of royal absolutism, igniting the French Revolution. A year later the Fête de la Fédération celebrated the new nation, and in 1880 the Third Republic made 14 July the official national holiday.",
+          "traditions": "The day opens with the largest military parade in Europe down the Champs-Élysées in Paris, reviewed by the President. Towns hold firefighters’ balls the night before, and the evening ends with grand fireworks, most famously over the Eiffel Tower.",
+          "funFacts": [
+            "The Bastille held only seven prisoners when it was stormed in 1789.",
+            "The Champs-Élysées parade has run almost every year since 1880.",
+            "In France the day is simply called 'le 14 juillet', not 'Bastille Day'."
+          ]
+        },
         "assumption": {
           "intro": "The Assumption of Mary on August 15th celebrates Mary being taken up body and soul into heaven. The day is one of the highest Marian feasts of the Catholic Church.",
           "history": "The teaching of Mary's bodily Assumption developed in Christian communities as early as the 4th century. Pope Pius XII declared it binding dogma in 1950 in the encyclical ‘Munificentissimus Deus'. As early as the Middle Ages, the custom of blessing herbs on this day arose — at a time when the first medicinal herbs bloomed. Assumption is a public holiday in Austria, in Saarland and in the predominantly Catholic municipalities of Bavaria.",
@@ -1444,6 +1474,16 @@
             "Halloween (‘All Hallows' Eve') derives its name directly from the eve of All Saints'."
           ],
           "imageCredit": "Photo: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "armistice_day": {
+          "intro": "11 November marks the 1918 armistice that ended the First World War and honours all French soldiers who died for the country.",
+          "history": "At 11 a.m. on 11 November 1918 the armistice signed at Compiègne silenced the guns of the Western Front. France lost some 1.4 million soldiers. Since 1922 the date has been a national day of remembrance, later extended to the fallen of all wars.",
+          "traditions": "The President lays a wreath at the Tomb of the Unknown Soldier beneath the Arc de Triomphe in Paris, where an eternal flame burns. Across the country, citizens and veterans gather at war memorials for a minute of silence.",
+          "funFacts": [
+            "The armistice took effect at the 11th hour of the 11th day of the 11th month.",
+            "The eternal flame under the Arc de Triomphe is rekindled every evening since 1923.",
+            "The blue cornflower (le Bleuet) is France’s symbol of remembrance."
+          ]
         },
         "christmas": {
           "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
@@ -1519,6 +1559,16 @@
           ],
           "imageCredit": "Photo: Print made by: Virgil Solis · Public domain via Wikimedia Commons"
         },
+        "bastille_day": {
+          "intro": "La fête nationale du 14 juillet commémore la prise de la Bastille en 1789 et la Fête de la Fédération de 1790 — symboles de la Révolution et de l’unité nationale.",
+          "history": "Le 14 juillet 1789, les Parisiens prennent la Bastille, symbole honni de l’absolutisme royal, déclenchant la Révolution française. Un an plus tard, la Fête de la Fédération célèbre la nation nouvelle ; en 1880, la IIIe République fait du 14 juillet la fête nationale.",
+          "traditions": "La journée s’ouvre par le plus grand défilé militaire d’Europe sur les Champs-Élysées, passé en revue par le président. La veille, les bals des pompiers animent les villes, et la soirée s’achève par un grand feu d’artifice, célèbre au-dessus de la tour Eiffel.",
+          "funFacts": [
+            "La Bastille ne comptait que sept prisonniers le jour de sa prise en 1789.",
+            "Le défilé des Champs-Élysées a lieu presque chaque année depuis 1880.",
+            "En France, on dit simplement « le 14 juillet »."
+          ]
+        },
         "assumption": {
           "intro": "L'Assomption de Marie, le 15 août, célèbre l'élévation de Marie corps et âme au ciel. C'est l'une des plus grandes fêtes mariales catholiques.",
           "history": "La doctrine de l'Assomption se développa dès le IVe siècle. Le pape Pie XII la déclara dogme contraignant en 1950 dans l'encyclique ‘Munificentissimus Deus'. Dès le Moyen Âge, on bénissait des herbes médicinales ce jour-là, à l'époque de leur première floraison. En France, l'Assomption est jour férié national depuis 1638 — Louis XIII y avait consacré le royaume à la Vierge. C'est aussi un jour férié en Autriche, en Sarre et dans les communes catholiques de Bavière.",
@@ -1542,6 +1592,16 @@
             "Halloween (‘All Hallows' Eve') tire son nom directement de la veille de la Toussaint."
           ],
           "imageCredit": "Photo: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "armistice_day": {
+          "intro": "Le 11 novembre commémore l’armistice de 1918 qui mit fin à la Première Guerre mondiale et honore tous les soldats français morts pour la patrie.",
+          "history": "À 11 heures, le 11 novembre 1918, l’armistice signé à Compiègne fit taire les canons du front occidental. La France perdit près de 1,4 million de soldats. Depuis 1922, la date est une journée nationale du souvenir, étendue ensuite aux morts de toutes les guerres.",
+          "traditions": "Le président dépose une gerbe sur la tombe du Soldat inconnu sous l’Arc de triomphe, où brûle une flamme éternelle. Partout, citoyens et anciens combattants se réunissent devant les monuments aux morts pour une minute de silence.",
+          "funFacts": [
+            "L’armistice est entré en vigueur à la 11e heure du 11e jour du 11e mois.",
+            "La flamme sous l’Arc de triomphe est ravivée chaque soir depuis 1923.",
+            "Le Bleuet de France est le symbole du souvenir."
+          ]
         },
         "christmas": {
           "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
@@ -1617,6 +1677,16 @@
           ],
           "imageCredit": "Foto: Print made by: Virgil Solis · Public domain vía Wikimedia Commons"
         },
+        "bastille_day": {
+          "intro": "La fiesta nacional francesa del 14 de julio recuerda la toma de la Bastilla en 1789 y la Fiesta de la Federación de 1790, símbolos de la Revolución y de la unidad nacional.",
+          "history": "El 14 de julio de 1789 los parisinos tomaron la Bastilla, símbolo odiado del absolutismo real, iniciando la Revolución francesa. Un año después, la Fiesta de la Federación celebró la nueva nación; en 1880 la Tercera República hizo del 14 de julio la fiesta nacional.",
+          "traditions": "El día se abre con el mayor desfile militar de Europa por los Campos Elíseos, presidido por el presidente. La víspera se celebran los bailes de bomberos, y la velada termina con grandes fuegos artificiales, célebres junto a la Torre Eiffel.",
+          "funFacts": [
+            "La Bastilla solo tenía siete presos cuando fue tomada en 1789.",
+            "El desfile de los Campos Elíseos se celebra casi cada año desde 1880.",
+            "En Francia el día se llama simplemente «le 14 juillet»."
+          ]
+        },
         "assumption": {
           "intro": "La Asunción de María, el 15 de agosto, celebra la elevación de María en cuerpo y alma al cielo. Es una de las máximas fiestas marianas católicas.",
           "history": "La doctrina de la Asunción se desarrolló desde el siglo IV. El papa Pío XII la declaró dogma vinculante en 1950 con la encíclica ‘Munificentissimus Deus'. Ya en la Edad Media se bendecían hierbas medicinales en este día — coincidiendo con el florecimiento de las primeras plantas curativas. Es festivo en Austria, en Sarre y en municipios mayoritariamente católicos de Baviera. En España es ‘La Asunción' y festivo nacional.",
@@ -1640,6 +1710,16 @@
             "Halloween (‘All Hallows' Eve') toma su nombre directamente de la víspera de Todos los Santos."
           ],
           "imageCredit": "Foto: MichalPL · CC0 vía Wikimedia Commons"
+        },
+        "armistice_day": {
+          "intro": "El 11 de noviembre conmemora el armisticio de 1918 que puso fin a la Primera Guerra Mundial y honra a todos los soldados franceses caídos por la patria.",
+          "history": "A las 11 de la mañana del 11 de noviembre de 1918, el armisticio firmado en Compiègne silenció los cañones del frente occidental. Francia perdió cerca de 1,4 millones de soldados. Desde 1922 es jornada nacional de memoria, extendida luego a los caídos de todas las guerras.",
+          "traditions": "El presidente deposita una corona en la Tumba del Soldado Desconocido bajo el Arco del Triunfo, donde arde una llama eterna. En todo el país, ciudadanos y veteranos se reúnen ante los monumentos a los caídos para un minuto de silencio.",
+          "funFacts": [
+            "El armisticio entró en vigor a la 11.ª hora del 11.º día del 11.º mes.",
+            "La llama bajo el Arco del Triunfo se reaviva cada tarde desde 1923.",
+            "El aciano azul (le Bleuet) es el símbolo francés del recuerdo."
+          ]
         },
         "christmas": {
           "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
@@ -1715,6 +1795,16 @@
           ],
           "imageCredit": "Foto: Print made by: Virgil Solis · Public domain via Wikimedia Commons"
         },
+        "bastille_day": {
+          "intro": "A festa nacional francesa de 14 de julho recorda a tomada da Bastilha em 1789 e a Festa da Federação de 1790 — símbolos da Revolução e da unidade nacional.",
+          "history": "A 14 de julho de 1789 os parisienses tomaram a Bastilha, símbolo odiado do absolutismo real, iniciando a Revolução Francesa. Um ano depois, a Festa da Federação celebrou a nova nação; em 1880 a Terceira República fez do 14 de julho a festa nacional.",
+          "traditions": "O dia abre com o maior desfile militar da Europa na Avenida dos Campos Elísios, presidido pelo Presidente. Na véspera há os bailes dos bombeiros, e a noite termina com um grande fogo de artifício, célebre junto à Torre Eiffel.",
+          "funFacts": [
+            "A Bastilha tinha apenas sete prisioneiros quando foi tomada em 1789.",
+            "O desfile dos Campos Elísios realiza-se quase todos os anos desde 1880.",
+            "Em França, o dia chama-se simplesmente «le 14 juillet»."
+          ]
+        },
         "assumption": {
           "intro": "A Assunção de Maria, 15 de agosto, celebra a elevação de Maria em corpo e alma ao céu. É uma das maiores festas marianas católicas. Em Portugal é feriado nacional.",
           "history": "A doutrina da Assunção desenvolveu-se desde o século IV. O Papa Pio XII declarou-a dogma vinculativo em 1950 na encíclica ‘Munificentissimus Deus'. Já na Idade Média se benziam ervas medicinais neste dia, na altura em que floresciam as primeiras plantas curativas. Em Portugal, o 15 de agosto é tradicionalmente um dia de festa em muitas localidades, com romarias e procissões marianas.",
@@ -1738,6 +1828,16 @@
             "Halloween (‘All Hallows' Eve') deriva o nome diretamente da véspera de Todos-os-Santos."
           ],
           "imageCredit": "Foto: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "armistice_day": {
+          "intro": "O 11 de novembro assinala o armistício de 1918 que pôs fim à Primeira Guerra Mundial e honra todos os soldados franceses mortos pela pátria.",
+          "history": "Às 11 horas de 11 de novembro de 1918, o armistício assinado em Compiègne silenciou os canhões da frente ocidental. A França perdeu cerca de 1,4 milhões de soldados. Desde 1922 é jornada nacional de memória, depois alargada aos mortos de todas as guerras.",
+          "traditions": "O Presidente deposita uma coroa no Túmulo do Soldado Desconhecido sob o Arco do Triunfo, onde arde uma chama eterna. Por todo o país, cidadãos e veteranos reúnem-se junto aos monumentos aos mortos para um minuto de silêncio.",
+          "funFacts": [
+            "O armistício entrou em vigor à 11.ª hora do 11.º dia do 11.º mês.",
+            "A chama sob o Arco do Triunfo é reacesa todas as noites desde 1923.",
+            "A centáurea azul (le Bleuet) é o símbolo francês da memória."
+          ]
         },
         "christmas": {
           "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
@@ -1813,6 +1913,16 @@
           ],
           "imageCredit": "Foto: Print made by: Virgil Solis · Public domain via Wikimedia Commons"
         },
+        "bastille_day": {
+          "intro": "La festa nazionale francese del 14 luglio ricorda la presa della Bastiglia del 1789 e la Festa della Federazione del 1790, simboli della Rivoluzione e dell’unità nazionale.",
+          "history": "Il 14 luglio 1789 i parigini presero la Bastiglia, simbolo odiato dell’assolutismo regio, dando inizio alla Rivoluzione francese. Un anno dopo la Festa della Federazione celebrò la nuova nazione; nel 1880 la Terza Repubblica fece del 14 luglio la festa nazionale.",
+          "traditions": "La giornata si apre con la più grande parata militare d’Europa sugli Champs-Élysées, passata in rivista dal presidente. La vigilia animano i balli dei pompieri, e la serata si chiude con grandi fuochi d’artificio, celebri presso la Tour Eiffel.",
+          "funFacts": [
+            "Nel 1789 la Bastiglia ospitava solo sette prigionieri.",
+            "La parata sugli Champs-Élysées si tiene quasi ogni anno dal 1880.",
+            "In Francia il giorno si chiama semplicemente « le 14 juillet »."
+          ]
+        },
         "assumption": {
           "intro": "L'Assunzione di Maria, il 15 agosto, celebra l'elevazione di Maria in anima e corpo al cielo. È una delle massime feste mariane cattoliche. In Italia è ‘Ferragosto', festa centrale dell'estate.",
           "history": "La dottrina dell'Assunzione si sviluppò dal IV secolo. Papa Pio XII la dichiarò dogma vincolante nel 1950 con l'enciclica ‘Munificentissimus Deus'. Il termine italiano ‘Ferragosto' viene dal latino ‘Feriae Augusti' (riposo di Augusto), istituito nel 18 a.C. dall'imperatore Augusto come pausa per i contadini dopo la mietitura. Già nel Medioevo si benedicevano erbe medicinali in questo giorno. È festivo in Italia, Austria, Saarland e nei comuni cattolici della Baviera.",
@@ -1836,6 +1946,16 @@
             "Halloween (‘All Hallows' Eve') deriva il suo nome direttamente dalla vigilia di Ognissanti."
           ],
           "imageCredit": "Foto: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "armistice_day": {
+          "intro": "L’11 novembre ricorda l’armistizio del 1918 che pose fine alla Prima guerra mondiale e onora tutti i soldati francesi caduti per la patria.",
+          "history": "Alle 11 dell’11 novembre 1918 l’armistizio firmato a Compiègne fece tacere i cannoni del fronte occidentale. La Francia perse circa 1,4 milioni di soldati. Dal 1922 è giornata nazionale della memoria, poi estesa ai caduti di tutte le guerre.",
+          "traditions": "Il presidente depone una corona sulla Tomba del Milite Ignoto sotto l’Arco di Trionfo, dove arde una fiamma eterna. In tutto il Paese cittadini e veterani si riuniscono davanti ai monumenti ai caduti per un minuto di silenzio.",
+          "funFacts": [
+            "L’armistizio entrò in vigore all’11ª ora dell’11° giorno dell’11° mese.",
+            "La fiamma sotto l’Arco di Trionfo è riaccesa ogni sera dal 1923.",
+            "Il fiordaliso azzurro (le Bleuet) è il simbolo francese del ricordo."
+          ]
         },
         "christmas": {
           "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
@@ -1911,6 +2031,16 @@
           ],
           "imageCredit": "Zdjęcie: Print made by: Virgil Solis · Public domain przez Wikimedia Commons"
         },
+        "bastille_day": {
+          "intro": "Francuskie święto narodowe 14 lipca upamiętnia zdobycie Bastylii w 1789 roku i Święto Federacji z 1790 roku — symbole rewolucji i jedności narodowej.",
+          "history": "14 lipca 1789 roku paryżanie zdobyli Bastylię, znienawidzony symbol królewskiego absolutyzmu, rozpoczynając rewolucję francuską. Rok później Święto Federacji uczciło nowy naród; w 1880 roku III Republika ustanowiła 14 lipca świętem narodowym.",
+          "traditions": "Dzień rozpoczyna największa defilada wojskowa w Europie na Polach Elizejskich, którą odbiera prezydent. W przeddzień odbywają się bale strażackie, a wieczór kończy wielki pokaz fajerwerków, słynny przy wieży Eiffla.",
+          "funFacts": [
+            "W 1789 roku w Bastylii przebywało tylko siedmiu więźniów.",
+            "Defilada na Polach Elizejskich odbywa się niemal co roku od 1880.",
+            "We Francji dzień nazywa się po prostu „le 14 juillet”."
+          ]
+        },
         "assumption": {
           "intro": "Wniebowzięcie Najświętszej Maryi Panny, 15 sierpnia, świętuje wzięcie Maryi z duszą i ciałem do nieba. W Polsce zwane Świętem Matki Boskiej Zielnej, dzień wolny od pracy.",
           "history": "Nauka o cielesnym Wniebowzięciu Maryi rozwijała się od IV wieku w wspólnotach chrześcijańskich. Papież Pius XII ogłosił ją wiążącym dogmatem w 1950 roku w encyklice ‘Munificentissimus Deus'. Już w średniowieczu powstał zwyczaj święcenia ziół tego dnia. W Polsce 15 sierpnia jest też Świętem Wojska Polskiego — upamiętnia Bitwę Warszawską 1920 roku, ‘Cud nad Wisłą'. Jest dniem wolnym od pracy.",
@@ -1934,6 +2064,16 @@
             "Halloween (‘All Hallows' Eve') wywodzi swoją nazwę bezpośrednio od wigilii Wszystkich Świętych."
           ],
           "imageCredit": "Zdjęcie: MichalPL · CC0 przez Wikimedia Commons"
+        },
+        "armistice_day": {
+          "intro": "11 listopada upamiętnia rozejm z 1918 roku, który zakończył I wojnę światową, i czci wszystkich francuskich żołnierzy poległych za ojczyznę.",
+          "history": "O godzinie 11 dnia 11 listopada 1918 roku rozejm podpisany w Compiègne uciszył działa frontu zachodniego. Francja straciła około 1,4 miliona żołnierzy. Od 1922 roku jest to narodowy dzień pamięci, później rozszerzony na poległych we wszystkich wojnach.",
+          "traditions": "Prezydent składa wieniec na Grobie Nieznanego Żołnierza pod Łukiem Triumfalnym, gdzie płonie wieczny ogień. W całym kraju obywatele i weterani gromadzą się przy pomnikach poległych, by uczcić minutą ciszy.",
+          "funFacts": [
+            "Rozejm wszedł w życie o 11. godzinie 11. dnia 11. miesiąca.",
+            "Płomień pod Łukiem Triumfalnym jest rozniecany co wieczór od 1923 roku.",
+            "Niebieski chaber (le Bleuet) to francuski symbol pamięci."
+          ]
         },
         "christmas": {
           "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
@@ -2026,6 +2166,26 @@
         "license": "CC0"
       }
     ],
+    "bastille_day": [
+      {
+        "path": "images/FR/bastille_day/01.jpg",
+        "primary": true,
+        "credit": "DiscoA340",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "path": "images/FR/bastille_day/02.jpg",
+        "primary": false,
+        "credit": "DiscoA340",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "path": "images/FR/bastille_day/03.jpg",
+        "primary": false,
+        "credit": "Kenneth Lu from San Francisco, CA",
+        "license": "CC BY 2.0"
+      }
+    ],
     "assumption": [
       {
         "path": "images/assumption/01.jpg",
@@ -2056,6 +2216,23 @@
       },
       {
         "path": "images/all_saints_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "armistice_day": [
+      {
+        "path": "images/FR/armistice_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/FR/armistice_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/FR/armistice_day/03.jpg",
         "primary": false,
         "license": "CC0"
       }
