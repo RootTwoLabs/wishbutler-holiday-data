@@ -143,6 +143,12 @@ export const IMAGE_QUERIES = {
   },
   national_day: {
     PT: ['Portugal Day Lisbon celebration', 'Luis de Camoes monument Lisbon'],
+    SG: [
+      'Singapore National Day Parade Marina Bay',
+      'Singapore flag celebration fireworks',
+      'Singapore National Day fly past',
+      'Singapore skyline Marina Bay flag',
+    ],
   },
   freedom_day: {
     PT: ['Carnation Revolution 25 April Portugal', 'Lisbon carnations freedom day'],
@@ -221,6 +227,16 @@ export const IMAGE_QUERIES = {
       'Waitangi Treaty House New Zealand',
       'Maori waka canoe Waitangi',
       'New Zealand flag Waitangi celebration',
+    ],
+  },
+
+  // --- Batch 6: SG ---
+  chinese_new_year: {
+    SG: [
+      'Singapore Chinatown Chinese New Year lights',
+      'lion dance Chinese New Year Singapore',
+      'Chinese New Year lanterns red Singapore',
+      'Chinatown Singapore decorations new year',
     ],
   },
 };

@@ -96,6 +96,10 @@ export const COUNTRY_ARTICLE_MAP = {
   au_anzac_day: { slug: 'anzac_day', countryCode: 'AU' },
   nz_waitangi_day: { slug: 'waitangi_day', countryCode: 'NZ' },
   nz_anzac_day: { slug: 'anzac_day', countryCode: 'NZ' },
+
+  // --- Batch 6: SG (English-speaking, very high purchasing power) ---
+  sg_national_day: { slug: 'national_day', countryCode: 'SG' },
+  sg_chinese_new_year: { slug: 'chinese_new_year', countryCode: 'SG' },
 };
 
 /** Slugs whose images and articles are namespaced per country. */
@@ -142,6 +146,8 @@ export const NAMESPACED_SLUGS = new Set([
   'australia_day',
   'anzac_day',
   'waitangi_day',
+  // Batch 6
+  'chinese_new_year',
 ]);
 
 /** Locales we ship article content for. */
