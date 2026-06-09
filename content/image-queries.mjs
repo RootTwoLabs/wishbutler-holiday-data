@@ -55,6 +55,13 @@ export const IMAGE_QUERIES = {
   },
   national_holiday: {
     AT: ['flag of Austria', 'Austrian national day celebration'],
+    CL: [
+      'Chile Fiestas Patrias cueca dancing fonda',
+      'Chilean flag September celebration',
+      'cueca dance Chile',
+      'flag of Chile',
+      'Chile fonda ramada celebration',
+    ],
   },
   swiss_national_day: {
     CH: ['flag of Switzerland mountain', 'Swiss national day fireworks'],
@@ -73,6 +80,13 @@ export const IMAGE_QUERIES = {
     PL: ['Warsaw Polish Independence Day', 'flag of Poland Warsaw'],
     BR: ['Brazil Independence Day parade Brasilia', 'Brazilian flag Sete de Setembro'],
     MX: ['Mexico Independence Day Zocalo flag', 'Mexican flag independence celebration'],
+    AR: [
+      'Argentina Independence Day Casa de Tucuman',
+      'flag of Argentina',
+      'Argentine flag Buenos Aires',
+      'Argentina flag celebration',
+      'Casa Historica Tucuman Argentina',
+    ],
   },
   labour_day_us: {
     US: ['American workers labor day parade'],
@@ -164,6 +178,20 @@ export const IMAGE_QUERIES = {
   },
   midsummer_eve: {
     SE: ['Swedish Midsummer maypole dancing midsommar', 'Midsummer flower crown Sweden'],
+  },
+
+  // --- Batch 4: AR, CL, CO ---
+  may_revolution: {
+    AR: ['Argentina May Revolution Cabildo Buenos Aires', '25 de Mayo Plaza de Mayo Argentina'],
+  },
+  navy_day: {
+    CL: ['Chile Navy Day Glorias Navales Iquique', 'Chilean navy ship Esmeralda Arturo Prat'],
+  },
+  declaration_of_independence: {
+    CO: ['Colombia Independence Day 20 July Bogota', 'Colombian flag celebration'],
+  },
+  battle_of_boyaca: {
+    CO: ['Puente de Boyaca bridge monument Colombia', 'Battle of Boyaca Simon Bolivar'],
   },
 };
 

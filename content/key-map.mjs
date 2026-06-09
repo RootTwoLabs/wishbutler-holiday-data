@@ -82,6 +82,14 @@ export const COUNTRY_ARTICLE_MAP = {
   dk_constitution_day: { slug: 'constitution_day', countryCode: 'DK' },
   se_national_day: { slug: 'national_day_of_sweden', countryCode: 'SE' },
   se_midsummer_eve: { slug: 'midsummer_eve', countryCode: 'SE' },
+
+  // --- Batch 4: AR, CL, CO (LATAM, Spanish-speaking) ---
+  ar_independence_day: { slug: 'independence_day', countryCode: 'AR' },
+  ar_may_revolution: { slug: 'may_revolution', countryCode: 'AR' },
+  cl_national_holiday: { slug: 'national_holiday', countryCode: 'CL' },
+  cl_navy_day: { slug: 'navy_day', countryCode: 'CL' },
+  co_independence: { slug: 'declaration_of_independence', countryCode: 'CO' },
+  co_boyaca: { slug: 'battle_of_boyaca', countryCode: 'CO' },
 };
 
 /** Slugs whose images and articles are namespaced per country. */
@@ -119,6 +127,11 @@ export const NAMESPACED_SLUGS = new Set([
   'kings_day',
   'national_day_of_sweden',
   'midsummer_eve',
+  // Batch 4
+  'may_revolution',
+  'navy_day',
+  'declaration_of_independence',
+  'battle_of_boyaca',
 ]);
 
 /** Locales we ship article content for. */
