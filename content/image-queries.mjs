@@ -239,6 +239,74 @@ export const IMAGE_QUERIES = {
       'Chinatown Singapore decorations new year',
     ],
   },
+
+  // --- Batch 7: Asia + DACH top-ups ---
+  reformation_day: {
+    DE: [
+      'Reformation Day Martin Luther Wittenberg',
+      'Wittenberg Castle Church door theses',
+      'Martin Luther statue Wittenberg',
+    ],
+  },
+  saint_martins_day: {
+    AT: [
+      'Martinsumzug Laterne',
+      'Sankt Martin Umzug',
+      'lantern procession children night',
+      'roast goose dinner',
+      'Saint Martin of Tours',
+      'Martinmas lantern',
+    ],
+  },
+  st_berchtolds_day: {
+    CH: [
+      'Switzerland winter snow village New Year',
+      'Swiss alps winter walk snow',
+      'walnuts nuts wooden table',
+    ],
+  },
+  hong_kong_special_administrative_region_establishment_day: {
+    HK: [
+      'Hong Kong flag raising ceremony',
+      'Hong Kong Victoria Harbour fireworks',
+      'Hong Kong skyline Victoria Harbour',
+    ],
+  },
+  dragon_boat_festival: {
+    HK: [
+      'dragon boat race Hong Kong',
+      'dragon boat festival paddlers drum',
+      'zongzi rice dumplings bamboo',
+    ],
+  },
+  foundation_day: {
+    JP: [
+      'Japan flag Hinomaru',
+      'Japanese flag ceremony',
+      'Japan national flag building',
+    ],
+  },
+  coming_of_age_day: {
+    JP: [
+      'Coming of Age Day furisode kimono',
+      'Japanese women kimono ceremony seijin',
+      'furisode kimono young women Japan',
+    ],
+  },
+  chuseok: {
+    KR: [
+      'Chuseok Korean harvest songpyeon',
+      'Korean hanbok family Chuseok',
+      'songpyeon rice cakes Korea',
+    ],
+  },
+  hangul_day: {
+    KR: [
+      'King Sejong statue Gwanghwamun',
+      'Hangul Korean alphabet calligraphy',
+      'Hunminjeongeum Hangul manuscript',
+    ],
+  },
 };
 
 /** Resolves search terms for a slug, optionally scoped to a country. */

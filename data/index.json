@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "baseUrl": "https://cdn.jsdelivr.net/gh/RootTwoLabs/wishbutler-holiday-data@main/data",
-  "generatedAt": "2026-06-09T11:11:20.284Z",
+  "generatedAt": "2026-06-09T11:30:56.337Z",
   "countries": [
     {
       "code": "AD",
@@ -72,7 +72,7 @@
       "code": "AT",
       "version": 2,
       "package": "packages/AT/v2/package.json",
-      "sizeBytes": 191771,
+      "sizeBytes": 199355,
       "locales": [
         "de",
         "en"
@@ -300,7 +300,7 @@
       "code": "CH",
       "version": 2,
       "package": "packages/CH/v2/package.json",
-      "sizeBytes": 183116,
+      "sizeBytes": 190097,
       "locales": [
         "de",
         "en"
@@ -404,7 +404,7 @@
       "code": "DE",
       "version": 3,
       "package": "packages/DE/v3/package.json",
-      "sizeBytes": 218787,
+      "sizeBytes": 226544,
       "locales": [
         "de",
         "en"
@@ -683,7 +683,7 @@
       "code": "HK",
       "version": 2,
       "package": "packages/HK/v2/package.json",
-      "sizeBytes": 70092,
+      "sizeBytes": 84499,
       "locales": [
         "en",
         "zh"
@@ -835,7 +835,7 @@
       "code": "JP",
       "version": 2,
       "package": "packages/JP/v2/package.json",
-      "sizeBytes": 18324,
+      "sizeBytes": 32245,
       "locales": [
         "en",
         "ja"
@@ -860,7 +860,7 @@
       "code": "KR",
       "version": 2,
       "package": "packages/KR/v2/package.json",
-      "sizeBytes": 42328,
+      "sizeBytes": 56426,
       "locales": [
         "en",
         "ko"

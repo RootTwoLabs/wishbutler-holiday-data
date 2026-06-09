@@ -271,6 +271,26 @@
           ],
           "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
         },
+        "chuseok": {
+          "intro": "Chuseok ist Koreas großes Erntedankfest – eine Zeit für Familientreffen und das Gedenken an die Vorfahren.",
+          "history": "Chuseok wird am 15. Tag des achten Mondmonats gefeiert und oft als koreanisches Erntedankfest bezeichnet. Verwurzelt in alten Erntefeiern, dankt man für die Ernte des Jahres und gedenkt der Vorfahren, die sie ermöglicht haben.",
+          "traditions": "Familien reisen nach Hause für die Gedenkriten „Charye”, besuchen die Gräber der Ahnen und teilen das Essen. Das typische Gericht ist „Songpyeon”, halbmondförmige Reiskuchen, und man spielt Volksspiele und tanzt im Kreis.",
+          "funFacts": [
+            "Es wird oft „koreanisches Erntedankfest” genannt.",
+            "Halbmondförmige Reiskuchen namens „Songpyeon” sind das Festessen.",
+            "Millionen reisen heim – Koreas größtes Verkehrsaufkommen des Jahres."
+          ]
+        },
+        "hangul_day": {
+          "intro": "Der Hangeul-Tag am 9. Oktober feiert die Erschaffung der koreanischen Schrift Hangeul.",
+          "history": "Der Tag erinnert an die Verkündung des Hunminjeongeum 1446, des unter König Sejong dem Großen geschaffenen koreanischen Alphabets, damit auch das einfache Volk lesen und schreiben konnte. Hangeul gilt als einzigartig wissenschaftliche, leicht erlernbare Schrift und als Quelle nationalen Stolzes.",
+          "traditions": "Kulturveranstaltungen, Kalligrafie-Ausstellungen und Wettbewerbe feiern das Alphabet, und es gibt Zeremonien zu Ehren König Sejongs. Es ist der einzige Nationalfeiertag der Welt, der einer Schrift gewidmet ist.",
+          "funFacts": [
+            "Hangeul entstand unter König Sejong dem Großen.",
+            "Es wurde 1446 für das einfache Volk verkündet.",
+            "Es ist der weltweit einzige Feiertag für ein Alphabet."
+          ]
+        },
         "christmas": {
           "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
           "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
@@ -308,6 +328,26 @@
             "May 1st is an official holiday in over 80 countries — but in the U.S. and Canada Labor Day falls in September."
           ],
           "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "chuseok": {
+          "intro": "Chuseok is Korea's major harvest festival, a time for family reunions and honouring ancestors.",
+          "history": "Celebrated on the 15th day of the eighth lunar month, Chuseok is often called Korean Thanksgiving. Rooted in ancient harvest celebrations, it gives thanks for the year’s crops and remembers ancestors who made the harvest possible.",
+          "traditions": "Families travel home for memorial rites called 'charye', visit ancestral graves and share food. The signature dish is 'songpyeon', half-moon rice cakes, and people play folk games and perform circle dances.",
+          "funFacts": [
+            "It is often called 'Korean Thanksgiving'.",
+            "Half-moon rice cakes called 'songpyeon' are the festival food.",
+            "Millions travel home, causing Korea's biggest traffic of the year."
+          ]
+        },
+        "hangul_day": {
+          "intro": "Hangul Day on 9 October celebrates the creation of Korea's writing system, Hangul.",
+          "history": "The day marks the 1446 proclamation of Hunminjeongeum, the Korean alphabet created under King Sejong the Great so that ordinary people could read and write. Hangul is celebrated as a uniquely scientific and accessible script and a source of national pride.",
+          "traditions": "Cultural events, calligraphy exhibitions and contests celebrate the alphabet, and there are ceremonies honouring King Sejong. It is the only national holiday in the world dedicated to a writing system.",
+          "funFacts": [
+            "Hangul was created under King Sejong the Great.",
+            "It was proclaimed in 1446 for ordinary people to use.",
+            "It is the world's only holiday celebrating an alphabet."
+          ]
         },
         "christmas": {
           "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
@@ -347,6 +387,26 @@
           ],
           "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
         },
+        "chuseok": {
+          "intro": "Le Chuseok est la grande fête des récoltes en Corée, un temps de retrouvailles familiales et d’hommage aux ancêtres.",
+          "history": "Célébré le 15e jour du huitième mois lunaire, le Chuseok est souvent appelé l’Action de grâce coréenne. Enraciné dans d’anciennes célébrations des récoltes, il rend grâce pour les moissons de l’année et honore les ancêtres qui les ont rendues possibles.",
+          "traditions": "Les familles rentrent pour les rites commémoratifs « charye », visitent les tombes des ancêtres et partagent des repas. Le plat emblématique est le « songpyeon », gâteau de riz en demi-lune, et l’on joue à des jeux folkloriques et danse en ronde.",
+          "funFacts": [
+            "On l’appelle souvent « l’Action de grâce coréenne ».",
+            "Les gâteaux de riz en demi-lune « songpyeon » sont le mets de la fête.",
+            "Des millions rentrent chez eux, le plus gros trafic de l’année en Corée."
+          ]
+        },
+        "hangul_day": {
+          "intro": "Le jour du Hangeul, le 9 octobre, célèbre la création du système d’écriture coréen, le hangeul.",
+          "history": "Le jour marque la proclamation en 1446 du Hunminjeongeum, l’alphabet coréen créé sous le roi Sejong le Grand pour que le peuple puisse lire et écrire. Le hangeul est célébré comme une écriture remarquablement scientifique et accessible, et une source de fierté nationale.",
+          "traditions": "Des événements culturels, des expositions de calligraphie et des concours célèbrent l’alphabet, et des cérémonies honorent le roi Sejong. C’est le seul jour férié national au monde consacré à un système d’écriture.",
+          "funFacts": [
+            "Le hangeul fut créé sous le roi Sejong le Grand.",
+            "Il fut proclamé en 1446 pour l’usage du peuple.",
+            "C’est le seul jour férié au monde célébrant un alphabet."
+          ]
+        },
         "christmas": {
           "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
           "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
@@ -384,6 +444,26 @@
             "El 1 de mayo es festivo en más de 80 países — pero en EE. UU. y Canadá el ‘Labor Day' se celebra en septiembre."
           ],
           "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 vía Wikimedia Commons"
+        },
+        "chuseok": {
+          "intro": "El Chuseok es la gran fiesta de la cosecha de Corea, un tiempo de reencuentros familiares y homenaje a los antepasados.",
+          "history": "Celebrado el día 15 del octavo mes lunar, el Chuseok se suele llamar el Día de Acción de Gracias coreano. Arraigado en antiguas fiestas de la cosecha, da gracias por los cultivos del año y recuerda a los antepasados que los hicieron posibles.",
+          "traditions": "Las familias viajan a casa para los ritos conmemorativos «charye», visitan las tumbas de los antepasados y comparten comida. El plato emblemático es el «songpyeon», pasteles de arroz en media luna, y se juega a juegos populares y se baila en círculo.",
+          "funFacts": [
+            "Se suele llamar el «Día de Acción de Gracias coreano».",
+            "Los pasteles de arroz en media luna «songpyeon» son la comida de la fiesta.",
+            "Millones viajan a casa, el mayor tráfico del año en Corea."
+          ]
+        },
+        "hangul_day": {
+          "intro": "El Día del Hangul, el 9 de octubre, celebra la creación del sistema de escritura coreano, el hangul.",
+          "history": "El día marca la proclamación en 1446 del Hunminjeongeum, el alfabeto coreano creado bajo el rey Sejong el Grande para que el pueblo pudiera leer y escribir. El hangul se celebra como una escritura singularmente científica y accesible, y una fuente de orgullo nacional.",
+          "traditions": "Eventos culturales, exposiciones de caligrafía y concursos celebran el alfabeto, y hay ceremonias en honor al rey Sejong. Es el único festivo nacional del mundo dedicado a un sistema de escritura.",
+          "funFacts": [
+            "El hangul se creó bajo el rey Sejong el Grande.",
+            "Se proclamó en 1446 para uso del pueblo.",
+            "Es el único festivo del mundo que celebra un alfabeto."
+          ]
         },
         "christmas": {
           "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
@@ -423,6 +503,26 @@
           ],
           "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
         },
+        "chuseok": {
+          "intro": "O Chuseok é a grande festa das colheitas da Coreia, um tempo de reencontros familiares e de homenagem aos antepassados.",
+          "history": "Celebrado no 15.º dia do oitavo mês lunar, o Chuseok é muitas vezes chamado o Dia de Ação de Graças coreano. Enraizado em antigas festas das colheitas, agradece pelas colheitas do ano e recorda os antepassados que as tornaram possíveis.",
+          "traditions": "As famílias viajam para casa para os ritos comemorativos «charye», visitam as campas dos antepassados e partilham refeições. O prato emblemático é o «songpyeon», bolos de arroz em meia-lua, e jogam-se jogos populares e dança-se em roda.",
+          "funFacts": [
+            "É muitas vezes chamado o «Dia de Ação de Graças coreano».",
+            "Os bolos de arroz em meia-lua «songpyeon» são a comida da festa.",
+            "Milhões viajam para casa, o maior trânsito do ano na Coreia."
+          ]
+        },
+        "hangul_day": {
+          "intro": "O Dia do Hangul, 9 de outubro, celebra a criação do sistema de escrita coreano, o hangul.",
+          "history": "O dia marca a proclamação em 1446 do Hunminjeongeum, o alfabeto coreano criado sob o rei Sejong, o Grande, para que o povo pudesse ler e escrever. O hangul é celebrado como uma escrita singularmente científica e acessível, e uma fonte de orgulho nacional.",
+          "traditions": "Eventos culturais, exposições de caligrafia e concursos celebram o alfabeto, e há cerimónias em honra do rei Sejong. É o único feriado nacional do mundo dedicado a um sistema de escrita.",
+          "funFacts": [
+            "O hangul foi criado sob o rei Sejong, o Grande.",
+            "Foi proclamado em 1446 para uso do povo.",
+            "É o único feriado do mundo que celebra um alfabeto."
+          ]
+        },
         "christmas": {
           "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
           "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
@@ -461,6 +561,26 @@
           ],
           "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
         },
+        "chuseok": {
+          "intro": "Il Chuseok è la grande festa del raccolto della Corea, un tempo di riunioni familiari e di omaggio agli antenati.",
+          "history": "Celebrato il 15º giorno dell’ottavo mese lunare, il Chuseok è spesso chiamato il Ringraziamento coreano. Radicato in antiche feste del raccolto, ringrazia per i raccolti dell’anno e ricorda gli antenati che li hanno resi possibili.",
+          "traditions": "Le famiglie tornano a casa per i riti commemorativi «charye», visitano le tombe degli antenati e condividono il cibo. Il piatto simbolo è il «songpyeon», dolci di riso a mezzaluna, e si fanno giochi popolari e danze in cerchio.",
+          "funFacts": [
+            "È spesso chiamato il «Ringraziamento coreano».",
+            "I dolci di riso a mezzaluna «songpyeon» sono il cibo della festa.",
+            "Milioni tornano a casa: il traffico più intenso dell’anno in Corea."
+          ]
+        },
+        "hangul_day": {
+          "intro": "Il Giorno dell’Hangul, il 9 ottobre, celebra la creazione del sistema di scrittura coreano, l’hangul.",
+          "history": "La giornata segna la proclamazione nel 1446 dello Hunminjeongeum, l’alfabeto coreano creato sotto il re Sejong il Grande affinché il popolo potesse leggere e scrivere. L’hangul è celebrato come una scrittura straordinariamente scientifica e accessibile, e una fonte di orgoglio nazionale.",
+          "traditions": "Eventi culturali, mostre di calligrafia e concorsi celebrano l’alfabeto, e si tengono cerimonie in onore del re Sejong. È l’unica festa nazionale al mondo dedicata a un sistema di scrittura.",
+          "funFacts": [
+            "L’hangul fu creato sotto il re Sejong il Grande.",
+            "Fu proclamato nel 1446 per l’uso del popolo.",
+            "È l’unica festa al mondo che celebra un alfabeto."
+          ]
+        },
         "christmas": {
           "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
           "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
@@ -498,6 +618,26 @@
             "Najwyższy maj w Bawarii postawiono w Mitterfels w 2017 roku — miał ponad 50 m."
           ],
           "imageCredit": "Zdjęcie: Joe Piette · CC BY-SA 2.0 przez Wikimedia Commons"
+        },
+        "chuseok": {
+          "intro": "Chuseok to wielkie koreańskie święto plonów — czas rodzinnych spotkań i oddawania czci przodkom.",
+          "history": "Obchodzony 15. dnia ósmego miesiąca księżycowego Chuseok bywa nazywany koreańskim Świętem Dziękczynienia. Zakorzeniony w dawnych świętach plonów, dziękuje za zbiory roku i wspomina przodków, którzy je umożliwili.",
+          "traditions": "Rodziny wracają do domów na obrzędy pamięci „charye”, odwiedzają groby przodków i dzielą się jedzeniem. Sztandarowym daniem jest „songpyeon”, ryżowe ciastka w kształcie półksiężyca; gra się w gry ludowe i tańczy w kręgu.",
+          "funFacts": [
+            "Bywa nazywany „koreańskim Świętem Dziękczynienia”.",
+            "Ciastka ryżowe „songpyeon” w kształcie półksiężyca to potrawa święta.",
+            "Miliony wracają do domów — największy ruch w roku w Korei."
+          ]
+        },
+        "hangul_day": {
+          "intro": "Dzień Hangulu, 9 października, świętuje stworzenie koreańskiego systemu pisma — hangulu.",
+          "history": "Dzień upamiętnia ogłoszenie w 1446 roku Hunminjeongeum, koreańskiego alfabetu stworzonego za króla Sejonga Wielkiego, by zwykli ludzie mogli czytać i pisać. Hangul jest sławiony jako wyjątkowo naukowe i przystępne pismo oraz źródło narodowej dumy.",
+          "traditions": "Wydarzenia kulturalne, wystawy kaligrafii i konkursy świętują alfabet, a uroczystości oddają cześć królowi Sejongowi. To jedyne święto narodowe na świecie poświęcone systemowi pisma.",
+          "funFacts": [
+            "Hangul powstał za króla Sejonga Wielkiego.",
+            "Ogłoszono go w 1446 roku do użytku zwykłych ludzi.",
+            "To jedyne święto na świecie celebrujące alfabet."
+          ]
         },
         "christmas": {
           "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
@@ -545,6 +685,42 @@
       },
       {
         "path": "images/labour_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "chuseok": [
+      {
+        "path": "images/KR/chuseok/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/KR/chuseok/02.jpg",
+        "primary": false,
+        "credit": "by Joseph Steinberg (Baltimoron in Korea) at Flickr",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "path": "images/KR/chuseok/03.jpg",
+        "primary": false,
+        "credit": "by 'Speculando",
+        "license": "CC BY 2.0"
+      }
+    ],
+    "hangul_day": [
+      {
+        "path": "images/KR/hangul_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/KR/hangul_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/KR/hangul_day/03.jpg",
         "primary": false,
         "license": "CC0"
       }

@@ -100,6 +100,20 @@ export const COUNTRY_ARTICLE_MAP = {
   // --- Batch 6: SG (English-speaking, very high purchasing power) ---
   sg_national_day: { slug: 'national_day', countryCode: 'SG' },
   sg_chinese_new_year: { slug: 'chinese_new_year', countryCode: 'SG' },
+
+  // --- Batch 7: Asia (HK, JP, KR) + top-ups (DE, AT, CH) ---
+  hk_establishment_day: {
+    slug: 'hong_kong_special_administrative_region_establishment_day',
+    countryCode: 'HK',
+  },
+  hk_dragon_boat: { slug: 'dragon_boat_festival', countryCode: 'HK' },
+  jp_foundation_day: { slug: 'foundation_day', countryCode: 'JP' },
+  jp_coming_of_age_day: { slug: 'coming_of_age_day', countryCode: 'JP' },
+  kr_chuseok: { slug: 'chuseok', countryCode: 'KR' },
+  kr_hangul_day: { slug: 'hangul_day', countryCode: 'KR' },
+  de_reformation_day: { slug: 'reformation_day', countryCode: 'DE' },
+  at_saint_martins_day: { slug: 'saint_martins_day', countryCode: 'AT' },
+  ch_st_berchtolds_day: { slug: 'st_berchtolds_day', countryCode: 'CH' },
 };
 
 /** Slugs whose images and articles are namespaced per country. */
@@ -148,6 +162,16 @@ export const NAMESPACED_SLUGS = new Set([
   'waitangi_day',
   // Batch 6
   'chinese_new_year',
+  // Batch 7
+  'hong_kong_special_administrative_region_establishment_day',
+  'dragon_boat_festival',
+  'foundation_day',
+  'coming_of_age_day',
+  'chuseok',
+  'hangul_day',
+  'reformation_day',
+  'saint_martins_day',
+  'st_berchtolds_day',
 ]);
 
 /** Locales we ship article content for. */
