@@ -41,7 +41,7 @@ function versionFromDir(name) {
   return m ? parseInt(m[1], 10) : null;
 }
 
-async function latestPackagePath(cc) {
+async function latestPackageInfo(cc) {
   const countryDir = join(PACKAGES, cc);
   let best = null;
   for (const versionDir of await listDirs(countryDir)) {
@@ -50,7 +50,10 @@ async function latestPackagePath(cc) {
     if (!best || version > best.version) best = { version, dir: versionDir };
   }
   if (!best) return null;
-  return join(countryDir, best.dir, 'package.json');
+  return {
+    version: best.version,
+    path: join(countryDir, best.dir, 'package.json'),
+  };
 }
 
 /** Reads license/credit hints from CREDITS.md for attributed images. */
@@ -70,61 +73,74 @@ async function loadCreditHints() {
   return hints;
 }
 
-async function mergePackage(cc, pkgPath, globalArticles, countryArticles, creditHints) {
-  const pkg = await readJson(pkgPath);
+async function mergePackage(cc, globalArticles, countryArticles, creditHints) {
+  const info = await latestPackageInfo(cc);
+  if (!info) {
+    console.warn(`  ${cc}: no package, skip`);
+    return;
+  }
+  const pkg = await readJson(info.path);
   const slugs = [...new Set(pkg.definitions.map((d) => slugFromLabelKey(d.labelKey)))];
 
   const holidayInfo = {};
   const images = {};
 
   for (const slug of slugs) {
-    let hasAnyArticle = false;
     for (const locale of CONTENT_LOCALES) {
       const article = resolveArticle(slug, cc, locale, globalArticles, countryArticles);
       if (!article) continue;
       holidayInfo[locale] ??= {};
       holidayInfo[locale][slug] = article;
-      hasAnyArticle = true;
     }
 
     const ns = imageNamespaceForSlug(slug, cc);
     const refs = await buildImageRefs(DATA, slug, ns);
     if (refs.length > 0) {
-      images[slug] = refs.map((ref) => {
-        const hint = creditHints.get(ref.path);
-        const out = { ...ref };
-        if (hint) {
-          out.credit = hint.credit;
-          out.license = hint.license;
-        } else if (!needsCredit('CC0')) {
-          out.license = 'CC0';
-        }
-        return out;
-      });
-    }
-
-    if (hasAnyArticle) {
-      /* articles merged above */
+      images[slug] = refs.map((ref) => decorateImageRef(ref, creditHints));
     }
   }
 
-  const next = { ...pkg };
-  next.i18n = { ...(pkg.i18n ?? {}), holidays: pkg.i18n?.holidays ?? {} };
-  if (Object.keys(holidayInfo).length > 0) {
-    next.i18n.holidayInfo = holidayInfo;
-  }
-  if (Object.keys(images).length > 0) {
-    next.images = images;
+  // Rebuild the package with a deterministic field order (mirroring the order
+  // emitted by fetch-holidays) so the content comparison below is stable across
+  // runs. The version is intentionally left off here and decided afterwards.
+  const i18n = { holidays: pkg.i18n?.holidays ?? {} };
+  if (Object.keys(holidayInfo).length > 0) i18n.holidayInfo = holidayInfo;
+
+  const base = {
+    countryCode: pkg.countryCode,
+    schemaVersion: pkg.schemaVersion,
+    definitions: pkg.definitions,
+    ...(pkg.namedays ? { namedays: pkg.namedays } : {}),
+    i18n,
+    ...(Object.keys(images).length > 0 ? { images } : {}),
+  };
+
+  // Data discipline: a content change (e.g. newly added articles/images) MUST
+  // bump the version into a new v<N> dir so the generated index advertises a
+  // higher version and clients reliably re-download. Editing the existing
+  // version in place (the previous behaviour) left stale copies on devices that
+  // had already cached that version. Reuse the version only when nothing moved.
+  let version = info.version;
+  let outPath = info.path;
+  if (packageContentKey(pkg) !== packageContentKey({ ...base, version: info.version })) {
+    version = info.version + 1;
+    const dir = join(PACKAGES, cc, `v${version}`);
+    await mkdir(dir, { recursive: true });
+    outPath = join(dir, 'package.json');
   }
 
-  await writeFile(pkgPath, JSON.stringify(next, null, 2) + '\n', 'utf8');
+  const out = { ...base, version };
+  await writeFile(outPath, JSON.stringify(out, null, 2) + '\n', 'utf8');
 
   const articleCount = Object.values(holidayInfo).reduce(
     (n, m) => n + Object.keys(m).length,
     0,
   );
   const imageCount = Object.keys(images).length;
-  console.log(`  ${cc}: ${articleCount} article entries, ${imageCount} image slugs`);
+  const bumped = version !== info.version ? ` -> v${version}` : '';
+  console.log(
+    `  ${cc}${bumped}: ${articleCount} article entries, ${imageCount} image slugs`,
+  );
 }
 
 /** Applies CREDITS.md hints to an image ref (or marks it CC0). */
@@ -237,12 +253,7 @@ async function main() {
 
   console.log(`Merging articles into ${countries.length} country packages...`);
   for (const cc of countries.sort()) {
-    const pkgPath = await latestPackagePath(cc);
-    if (!pkgPath) {
-      console.warn(`  ${cc}: no package, skip`);
-      continue;
-    }
-    await mergePackage(cc, pkgPath, globalArticles, countryArticles, creditHints);
+    await mergePackage(cc, globalArticles, countryArticles, creditHints);
   }
 
   // The GLOBAL package is independent of the per-country build above and is only
