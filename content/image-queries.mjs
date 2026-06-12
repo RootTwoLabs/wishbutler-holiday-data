@@ -31,6 +31,7 @@ export const IMAGE_QUERIES = {
   labour_day: ['workers solidarity may day'],
   mothers_day: ['mothers day flowers bouquet pink'],
   fathers_day: ['father child happy outdoors'],
+  fathers_day_de: ['Vatertag Bollerwagen Herrenpartie outing'],
   whit_monday: [
     'Pentecost stained glass window',
     'white dove sky',
@@ -42,6 +43,7 @@ export const IMAGE_QUERIES = {
   christmas_eve: ['Christmas tree lights decoration'],
   christmas: ['Christmas tree presents'],
   boxing_day: ['Christmas presents wrapped gifts'],
+  st_stephen: ['St Stephen cathedral Vienna Stephansdom'],
   epiphany: ['three kings nativity scene'],
   corpus_christi: ['corpus christi procession catholic'],
   assumption: ['Assumption Mary statue church'],
