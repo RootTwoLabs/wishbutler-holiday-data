@@ -1,0 +1,459 @@
+{
+  "countryCode": "CU",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "CU_triumph_of_the_revolution",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.triumph_of_the_revolution",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "CU_victory_of_fidel_castro",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.victory_of_fidel_castro",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "CU_good_friday",
+      "countryCode": "CU",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "CU_labour_day",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "CU_day_before_the_commemoration_of_the_assault_of_the_moncada_garrison",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.day_before_the_commemoration_of_the_assault_of_the_moncada_garrison",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 25
+      }
+    },
+    {
+      "id": "CU_commemoration_of_the_assault_of_the_moncada_garrison",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.commemoration_of_the_assault_of_the_moncada_garrison",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 26
+      }
+    },
+    {
+      "id": "CU_day_after_the_commemoration_of_the_assault_of_the_moncada_garrison",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.day_after_the_commemoration_of_the_assault_of_the_moncada_garrison",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 27
+      }
+    },
+    {
+      "id": "CU_independence_day",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 10
+      }
+    },
+    {
+      "id": "CU_christmas_day",
+      "countryCode": "CU",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "triumph_of_the_revolution": "Triumph of the Revolution",
+        "victory_of_fidel_castro": "Victory of Fidel Castro",
+        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "Day before the Commemoration of the Assault of the Moncada garrison",
+        "commemoration_of_the_assault_of_the_moncada_garrison": "Commemoration of the Assault of the Moncada garrison",
+        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "Day after the Commemoration of the Assault of the Moncada garrison",
+        "independence_day": "Independence Day"
+      },
+      "es": {
+        "triumph_of_the_revolution": "Triunfo de la Revolución",
+        "victory_of_fidel_castro": "Día de Victoria de las Fuerzas Armadas",
+        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "Conmemoración del asalto a Moncada",
+        "commemoration_of_the_assault_of_the_moncada_garrison": "Día de la Rebeldía Nacional",
+        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "Conmemoración del asalto a Moncada",
+        "independence_day": "Día de la Independencia"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "good_friday": {
+          "intro": "Karfreitag ist der höchste protestantische Trauertag und erinnert an die Kreuzigung Jesu Christi. In Deutschland ist er ein „stiller Feiertag” mit besonderen Schutzregeln.",
+          "history": "Karfreitag wird seit dem 4. Jahrhundert von Christen begangen. Das Wort „Kar” stammt vom althochdeutschen „chara” und bedeutet Klage oder Trauer. Schon früh entwickelten sich liturgische Traditionen: Verlesung der Passionsgeschichte, Kreuzverehrung und das Verstummen der Glocken. Die Reformation hob den Karfreitag besonders hervor; in lutherischen Regionen ist er bis heute der wichtigste Feiertag des Kirchenjahres.",
+          "traditions": "Viele Christen besuchen Passionsgottesdienste mit der Verlesung der Leidensgeschichte. Es gilt als Fastentag – traditionell wird Fisch statt Fleisch gegessen. In manchen Regionen ziehen Karfreitagsprozessionen durch die Straßen, etwa die berühmte „Karfreitagsprozession” in Lohr am Main. Tanzveranstaltungen und laute Musik sind in den meisten Bundesländern gesetzlich untersagt.",
+          "funFacts": [
+            "In Deutschland regelt das „Tanzverbot” das öffentliche Vergnügen am Karfreitag – seit Jahren ein gesellschaftlicher Streitpunkt.",
+            "Bach schrieb seine Matthäus-Passion 1727 für die Karfreitags-Vesper in Leipzig – heute eines der meistaufgeführten Werke der Welt.",
+            "In Bermuda lassen Familien am Karfreitag selbstgebastelte Drachen aus Bambus und Papier steigen – eine einzigartige christliche Tradition.",
+            "Im Spanischen heißt Karfreitag „Viernes Santo” – mit prachtvollen Bruderschafts-Prozessionen, etwa in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Der 1. Mai ist in vielen Ländern der „Tag der Arbeit” – ein Feiertag der Arbeiterbewegung mit Demonstrationen, Maibäumen und Frühlingsfesten.",
+          "history": "Am 1. Mai 1886 traten in Chicago hunderttausende Arbeiter für den Acht-Stunden-Tag in den Generalstreik. Die anschließenden Auseinandersetzungen am Haymarket forderten mehrere Tote. 1889 erklärte der Internationale Arbeiterkongress in Paris den 1. Mai zum „Kampftag der Arbeiterbewegung”. In Deutschland wurde er 1933 als „Tag der nationalen Arbeit” zum gesetzlichen Feiertag – nach 1945 als Symbol arbeitnehmerfreundlicher Politik beibehalten.",
+          "traditions": "Gewerkschaften organisieren Kundgebungen und Demonstrationen unter Mottos wie „Mehr Lohn, mehr Freizeit”. In vielen Dörfern wird in der Nacht zum 1. Mai ein Maibaum aufgestellt – im Süden Deutschlands ein bunt geschmückter Stamm, im Norden ein Birkenstamm vor dem Fenster der Liebsten. Beliebte Aktivitäten: Mai-Wanderungen, Grillen und Familienfeste.",
+          "funFacts": [
+            "Der höchste Maibaum Bayerns wurde 2017 in Mitterfels mit über 50 m aufgestellt.",
+            "In Frankreich verschenkt man am 1. Mai Maiglöckchen („muguet”) – ein Brauch, den König Karl IX. 1561 einführte.",
+            "Im Rheinland werden in der Mai-Nacht „Liebesmaien” – geschmückte Birken – vor das Haus der Angebeteten gestellt.",
+            "Der 1. Mai ist offizieller Feiertag in über 80 Ländern – in den USA und Kanada feiert man Labor Day jedoch erst im September."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
+          "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
+          "traditions": "Familien versammeln sich zu festlichen Mahlzeiten – Truthahn, Gans, Karpfen oder Raclette. Geschenke werden ausgetauscht, Weihnachtslieder gesungen, viele besuchen den Festgottesdienst. Der geschmückte Christbaum mit Lichterketten, Kugeln und Strohsternen ist das zentrale Symbol. Adventskalender, Plätzchen und der Besuch von Weihnachtsmärkten gehören zur Vorbereitung.",
+          "funFacts": [
+            "Der erste kommerzielle Adventskalender erschien 1908 in München – Erfinder war Gerhard Lang.",
+            "Die Weihnachtsmärkte in Dresden („Striezelmarkt”, seit 1434) und Frankfurt (seit 1393) gehören zu den ältesten der Welt.",
+            "Norwegen schenkt Großbritannien seit 1947 jährlich einen riesigen Weihnachtsbaum für den Trafalgar Square – als Dank für die Hilfe im Zweiten Weltkrieg.",
+            "Die Weihnachtsfilm-Klassiker „Drei Haselnüsse für Aschenbrödel” und „Tatsächlich… Liebe” laufen weltweit jedes Jahr Dutzende Male im TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "good_friday": {
+          "intro": "Good Friday is the highest Protestant day of mourning, commemorating the crucifixion of Jesus Christ. In Germany it is a ‘silent holiday' with special legal protections.",
+          "history": "Good Friday has been observed by Christians since the 4th century. The German prefix ‘Kar' comes from Old High German ‘chara', meaning lamentation or mourning. Liturgical traditions developed early on: the reading of the Passion, veneration of the cross and the silencing of bells. The Reformation gave Good Friday particular weight; in Lutheran regions it remains the most important holiday of the church year.",
+          "traditions": "Many Christians attend Passion services with the reading of the Passion narrative. The day is traditionally one of fasting — fish replaces meat. In some regions, Good Friday processions march through the streets, such as the famous one in Lohr am Main. Dance events and loud music are forbidden by law in most German states.",
+          "funFacts": [
+            "Germany's ‘dance ban' regulates public entertainment on Good Friday — and has been a hot social topic for years.",
+            "Bach wrote his St. Matthew Passion in 1727 for Good Friday vespers in Leipzig — today one of the world's most performed works.",
+            "In Bermuda, families fly self-made bamboo and paper kites on Good Friday — a unique Christian tradition.",
+            "In Spanish-speaking countries Good Friday is ‘Viernes Santo' — with magnificent brotherhood processions, for example in Seville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "May 1st is in many countries ‘Labour Day' — a holiday of the workers' movement with demonstrations, maypoles and spring fairs.",
+          "history": "On May 1st, 1886, hundreds of thousands of workers in Chicago went on a general strike for the eight-hour workday. The ensuing clashes at Haymarket killed several. In 1889 the International Workers' Congress in Paris declared May 1st the ‘international day of struggle for workers'. In Germany it became a legal holiday in 1933 as ‘Day of National Labour' and was kept after 1945 as a symbol of worker-friendly politics.",
+          "traditions": "Trade unions stage rallies and marches under slogans such as ‘More pay, more time off'. In many villages a maypole is raised on the night before May 1st — in southern Germany an ornately painted trunk, in the north a birch in front of a sweetheart's window. Popular activities: May hikes, barbecues and family festivals.",
+          "funFacts": [
+            "Bavaria's tallest maypole was raised in Mitterfels in 2017 at over 50 m.",
+            "In France people give lily-of-the-valley (‘muguet') on May 1st — a custom King Charles IX introduced in 1561.",
+            "In the Rhineland a ‘love May' — a decorated birch — is placed in front of the home of a sweetheart on May Eve.",
+            "May 1st is an official holiday in over 80 countries — but in the U.S. and Canada Labor Day falls in September."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
+          "history": "December 25th is documented as ‘dies natalis Christi' as early as 354 in a Roman calendar. The Church likely chose the date to give the Roman ‘Sol Invictus' winter solstice festival a Christian meaning. Gift-giving has its roots in the gifts of the Magi. The familiar Santa Claus with red coat and white beard is a mix of Saint Nicholas and a 1931 Coca-Cola advertising campaign.",
+          "traditions": "Families gather for festive meals — turkey, goose, carp or raclette. Gifts are exchanged, carols sung, many attend the festive service. The decorated Christmas tree with lights, ornaments and straw stars is the central symbol. Advent calendars, cookies and visits to Christmas markets are part of the run-up.",
+          "funFacts": [
+            "The first commercial Advent calendar appeared in 1908 in Munich — invented by Gerhard Lang.",
+            "The Christmas markets in Dresden (‘Striezelmarkt', since 1434) and Frankfurt (since 1393) are among the oldest in the world.",
+            "Norway has gifted the UK a giant Christmas tree for Trafalgar Square every year since 1947 — as thanks for help during World War II.",
+            "Holiday classics like ‘Three Wishes for Cinderella' and ‘Love Actually' run dozens of times on TV worldwide every year."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "good_friday": {
+          "intro": "Le Vendredi Saint est le jour le plus solennel du protestantisme et commémore la crucifixion de Jésus-Christ. En Allemagne, il s'agit d'un ‘jour silencieux' légalement protégé.",
+          "history": "Le Vendredi Saint est célébré par les chrétiens depuis le IVe siècle. Le préfixe allemand ‘Kar' vient du vieux haut-allemand ‘chara' (lamentation, deuil). Très tôt s'élaborent les traditions liturgiques : lecture de la Passion, vénération de la Croix, silence des cloches. La Réforme protestante lui donna une importance particulière ; dans les régions luthériennes, c'est la fête la plus importante de l'année liturgique.",
+          "traditions": "De nombreux chrétiens assistent à la liturgie de la Passion. C'est traditionnellement un jour de jeûne — on mange du poisson plutôt que de la viande. Dans certaines régions ont lieu des processions du Vendredi Saint, comme la fameuse procession de Lohr am Main. En Allemagne, la danse et la musique forte sont légalement interdites dans la plupart des Länder.",
+          "funFacts": [
+            "L'interdiction de danser (‘Tanzverbot') régit les divertissements publics du Vendredi Saint en Allemagne — sujet sociétal récurrent.",
+            "Bach composa sa Passion selon saint Matthieu en 1727 pour les vêpres du Vendredi Saint à Leipzig.",
+            "Aux Bermudes, les familles font voler des cerfs-volants en bambou et papier le Vendredi Saint — tradition chrétienne unique.",
+            "En Espagne, le ‘Viernes Santo' brille par les magnifiques processions de confréries, notamment à Séville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Le 1er mai est dans bien des pays la ‘Fête du Travail' — fête du mouvement ouvrier avec manifestations, mâts de mai et fêtes printanières.",
+          "history": "Le 1er mai 1886, des centaines de milliers de travailleurs de Chicago entrèrent en grève générale pour la journée de huit heures. Les heurts qui suivirent à Haymarket firent plusieurs morts. En 1889, le Congrès international des travailleurs à Paris déclara le 1er mai ‘journée de lutte du mouvement ouvrier'. En France, le 1er mai devient jour chômé en 1947, et c'est aussi le jour où l'on offre du muguet, tradition royale depuis Charles IX en 1561.",
+          "traditions": "Les syndicats organisent meetings et défilés sous des slogans comme ‘Plus de salaire, plus de temps libre'. En France, on s'offre des brins de muguet, porte-bonheur. Dans de nombreux villages allemands, on dresse un mât de mai dans la nuit du 1er. Randonnées, barbecues et fêtes familiales sont au programme.",
+          "funFacts": [
+            "Le mât de mai le plus haut de Bavière a été dressé en 2017 à Mitterfels avec plus de 50 m.",
+            "En France, on offre du muguet le 1er mai — coutume introduite par Charles IX en 1561.",
+            "En Rhénanie, on plante des bouleaux décorés (‘Liebesmaien') devant la maison de la bien-aimée à la nuit du 1er mai.",
+            "Le 1er mai est jour férié dans plus de 80 pays — mais aux États-Unis et au Canada, le ‘Labor Day' tombe en septembre."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
+          "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
+          "traditions": "Les familles se rassemblent autour de repas festifs — dinde, oie, carpe ou raclette. On échange des cadeaux, chante des cantiques, beaucoup assistent à la messe festive. Le sapin décoré de lumières, boules et étoiles de paille est le symbole central. Calendrier de l'avent, biscuits et marchés de Noël jalonnent la préparation.",
+          "funFacts": [
+            "Le premier calendrier de l'avent commercial parut en 1908 à Munich — invention de Gerhard Lang.",
+            "Les marchés de Noël de Dresde (‘Striezelmarkt', depuis 1434) et de Francfort (depuis 1393) figurent parmi les plus anciens du monde.",
+            "La Norvège offre chaque année au Royaume-Uni un immense sapin pour Trafalgar Square depuis 1947 — en remerciement de l'aide pendant la Seconde Guerre mondiale.",
+            "Les classiques de Noël comme ‘Trois noisettes pour Cendrillon' ou ‘Love Actually' sont diffusés des dizaines de fois à la télé chaque année."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "good_friday": {
+          "intro": "El Viernes Santo es el día de mayor luto del cristianismo y conmemora la crucifixión de Jesús. En Alemania es ‘día silencioso' con normativa especial.",
+          "history": "El Viernes Santo se celebra desde el siglo IV. La palabra alemana ‘Kar' viene del antiguo alto alemán ‘chara', que significa lamento o duelo. Pronto se desarrollaron tradiciones litúrgicas: lectura de la Pasión, veneración de la cruz y silencio de las campanas. La Reforma le dio especial relevancia y en regiones luteranas sigue siendo el día más importante del año eclesiástico.",
+          "traditions": "Muchos cristianos asisten a oficios de la Pasión con la lectura de la Pasión. Es día de ayuno: tradicionalmente se come pescado en lugar de carne. En España, las procesiones de las cofradías recorren ciudades como Sevilla. En Alemania los bailes y la música alta están legalmente prohibidos en la mayoría de estados federados.",
+          "funFacts": [
+            "El ‘Tanzverbot' (prohibición de bailar) regula el ocio público en el Viernes Santo alemán — desde hace años un debate social recurrente.",
+            "Bach compuso su Pasión según San Mateo en 1727 para las vísperas del Viernes Santo en Leipzig.",
+            "En Bermudas, las familias hacen volar cometas caseras de bambú y papel — una tradición cristiana única.",
+            "En España, el ‘Viernes Santo' destaca por las majestuosas procesiones de cofradías, especialmente en Sevilla y Málaga."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "El 1 de mayo es en muchos países el ‘Día del Trabajador' — fiesta del movimiento obrero con manifestaciones, mayos y celebraciones primaverales.",
+          "history": "El 1 de mayo de 1886, cientos de miles de trabajadores en Chicago se declararon en huelga general por la jornada de ocho horas. Los choques posteriores en Haymarket dejaron varios muertos. En 1889 el Congreso Internacional de Trabajadores de París lo declaró ‘día de lucha del movimiento obrero'. En Alemania pasó a ser festivo legal en 1933 como ‘Día Nacional del Trabajo' y se mantuvo tras 1945 como símbolo de política favorable a los trabajadores.",
+          "traditions": "Los sindicatos organizan mítines y manifestaciones bajo lemas como ‘Más sueldo, más tiempo libre'. En muchas aldeas alemanas se planta un mayo en la noche del 1 de mayo — en el sur, un tronco coloridamente decorado; en el norte, un abedul ante la ventana de la amada. Caminatas de mayo, barbacoas y fiestas familiares son populares.",
+          "funFacts": [
+            "El mayo más alto de Baviera fue erigido en Mitterfels en 2017 con más de 50 m.",
+            "En Francia se regala muguete (‘muguet') el 1 de mayo — costumbre que el rey Carlos IX introdujo en 1561.",
+            "En Renania, en la Noche de Mayo se ponen abedules decorados (‘Liebesmaien') ante la casa de la enamorada.",
+            "El 1 de mayo es festivo en más de 80 países — pero en EE. UU. y Canadá el ‘Labor Day' se celebra en septiembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 vía Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
+          "history": "Ya en el año 354 un calendario romano consigna el 25 de diciembre como ‘dies natalis Christi'. Probablemente la Iglesia eligió la fecha para reinterpretar cristianamente el ‘Sol Invictus' romano. El intercambio de regalos arraiga en los obsequios de los Magos. El moderno Papá Noel con abrigo rojo y barba blanca es una mezcla de San Nicolás con una campaña publicitaria de Coca-Cola de 1931.",
+          "traditions": "Las familias se reúnen para comidas festivas — pavo, ganso, carpa o raclette. Se intercambian regalos, se cantan villancicos y muchos asisten al servicio festivo. El árbol decorado con luces y bolas es el símbolo central. El calendario de Adviento, las galletas y los mercadillos forman parte de la preparación.",
+          "funFacts": [
+            "El primer calendario de Adviento comercial apareció en 1908 en Múnich — invento de Gerhard Lang.",
+            "Los mercadillos navideños de Dresde (‘Striezelmarkt', desde 1434) y Fráncfort (desde 1393) son de los más antiguos del mundo.",
+            "Noruega regala al Reino Unido un enorme árbol de Navidad para Trafalgar Square cada año desde 1947 — agradecimiento por la ayuda en la Segunda Guerra Mundial.",
+            "Los clásicos como ‘Tres Avellanas para Cenicienta' o ‘Love Actually' se emiten decenas de veces cada año en TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "good_friday": {
+          "intro": "A Sexta-Feira Santa é o dia de maior luto do cristianismo e comemora a crucificação de Jesus Cristo. Em Portugal é feriado nacional, com forte tradição religiosa.",
+          "history": "A Sexta-Feira Santa é celebrada pelos cristãos desde o século IV. O prefixo alemão ‘Kar' vem do alto alemão antigo ‘chara' (lamento, luto). Cedo se desenvolveram tradições litúrgicas: leitura da Paixão, veneração da cruz e silêncio dos sinos. A Reforma deu-lhe especial relevância. Em Portugal, a tradição das procissões da Paixão é antiga e muito viva, especialmente em Braga, Óbidos e na ilha da Madeira.",
+          "traditions": "Muitos cristãos assistem a celebrações da Paixão. É tradicionalmente dia de jejum — come-se peixe (em Portugal, o típico bacalhau) em vez de carne. Em Braga e Óbidos, as procissões da Paixão são impressionantes — em Braga a ‘Procissão do Senhor Ecce Homo' é uma das maiores. Em Espanha, destacam-se as procissões das confrarias, sobretudo em Sevilha.",
+          "funFacts": [
+            "Em Braga (Portugal) a ‘Procissão do Senhor Ecce Homo' é uma das mais impressionantes da Europa.",
+            "Bach compôs a sua Paixão segundo São Mateus em 1727 para as Vésperas da Sexta-Feira Santa em Leipzig.",
+            "Nas Bermudas, as famílias fazem voar papagaios de bambu e papel feitos em casa — uma tradição cristã única.",
+            "Em Espanha, ‘Viernes Santo' destaca-se pelas magníficas procissões das confrarias, sobretudo em Sevilha."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 de maio é em muitos países o ‘Dia do Trabalhador' — feriado do movimento operário com manifestações, festas de maio e celebrações primaveris. Em Portugal, é feriado nacional desde 1974.",
+          "history": "A 1 de maio de 1886, centenas de milhares de trabalhadores em Chicago entraram em greve geral pela jornada de oito horas. Os confrontos seguintes em Haymarket fizeram vários mortos. Em 1889, o Congresso Internacional dos Trabalhadores em Paris declarou o 1 de maio ‘dia de luta do movimento operário'. Em Portugal, foi assinalado clandestinamente durante o Estado Novo e tornou-se feriado oficial logo após a Revolução de 25 de Abril de 1974.",
+          "traditions": "Os sindicatos organizam comícios e desfiles com lemas como ‘Mais salário, mais tempo livre'. Em Portugal, a CGTP organiza um grande desfile no Porto e em Lisboa, com milhares de manifestantes. Muitas famílias aproveitam o feriado para piqueniques, churrascos e idas à praia.",
+          "funFacts": [
+            "Em Portugal, o 1.º de Maio de 1974 — apenas 6 dias após a Revolução dos Cravos — foi um dos primeiros grandes ajuntamentos populares livres em décadas.",
+            "Em França, oferece-se muguete (‘muguet') no 1.º de Maio — costume introduzido pelo rei Carlos IX em 1561.",
+            "Na Renânia, na noite de 1.º de Maio, colocam-se vidoeiros decorados (‘Liebesmaien') diante da casa da amada.",
+            "O 1.º de Maio é feriado em mais de 80 países — mas nos EUA e Canadá o ‘Labor Day' é em setembro."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
+          "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
+          "traditions": "As famílias reúnem-se em refeições festivas — peru, ganso, bacalhau ou raclette nos países germânicos; em Portugal, o típico almoço de Natal com peru ou cabrito assado, e as sobremesas de bolo-rei, sonhos, rabanadas, aletria e arroz-doce. Trocam-se presentes, cantam-se cânticos, muitos vão à missa festiva. A árvore decorada e o presépio são símbolos centrais.",
+          "funFacts": [
+            "O primeiro calendário do Advento comercial apareceu em 1908 em Munique — invenção de Gerhard Lang.",
+            "Os mercados de Natal de Dresden (‘Striezelmarkt', desde 1434) e Frankfurt (desde 1393) estão entre os mais antigos do mundo.",
+            "A Noruega oferece ao Reino Unido um enorme abeto para Trafalgar Square todos os anos desde 1947 — em agradecimento pela ajuda na II Guerra.",
+            "Em Portugal, a tradição do bolo-rei remonta ao século XIX, importado da pastelaria francesa."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "good_friday": {
+          "intro": "Il Venerdì Santo è il giorno di lutto più importante per i protestanti e ricorda la crocifissione di Gesù Cristo. In Germania è ‘giorno silenzioso' con norme particolari.",
+          "history": "Il Venerdì Santo è celebrato dai cristiani dal IV secolo. Il prefisso tedesco ‘Kar' deriva dall'antico alto tedesco ‘chara' (lamento, lutto). Presto si svilupparono tradizioni liturgiche: lettura della Passione, venerazione della croce, silenzio delle campane. La Riforma gli diede particolare risalto; nelle regioni luterane resta la festa più importante dell'anno liturgico.",
+          "traditions": "Molti cristiani partecipano alla Liturgia della Passione. Tradizionalmente è giorno di digiuno — si mangia pesce invece di carne. In Italia, soprattutto al Sud, ci sono solenni processioni con statue del Cristo morto, come la celebre ‘Processione dei Misteri' a Trapani. In Spagna spiccano le processioni delle confraternite, soprattutto a Siviglia.",
+          "funFacts": [
+            "In Germania il ‘Tanzverbot' (divieto di ballare) regola gli intrattenimenti pubblici — tema sociale ricorrente.",
+            "Bach compose la ‘Passione secondo Matteo' nel 1727 per i vespri del Venerdì Santo a Lipsia.",
+            "Alle Bermuda le famiglie fanno volare aquiloni di bambù e carta — tradizione cristiana unica.",
+            "In Spagna il ‘Viernes Santo' è famoso per le maestose processioni delle confraternite, in particolare a Siviglia."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Il 1° maggio è in molti paesi la ‘Festa dei Lavoratori' — festa del movimento operaio con manifestazioni, alberi di maggio e feste primaverili.",
+          "history": "Il 1° maggio 1886 centinaia di migliaia di lavoratori a Chicago entrarono in sciopero generale per la giornata di otto ore. Gli scontri di Haymarket fecero diversi morti. Nel 1889 il Congresso Internazionale dei Lavoratori a Parigi proclamò il 1° maggio ‘giornata di lotta del movimento operaio'. In Italia la festa è abolita nel 1923 dal regime fascista e ripristinata nel 1947. Il celebre ‘Concertone' di piazza San Giovanni a Roma è una tradizione dal 1990.",
+          "traditions": "I sindacati organizzano cortei e manifestazioni con slogan come ‘Più salario, più tempo libero'. In Italia il ‘Concertone' del 1° maggio a Roma riunisce centinaia di migliaia di persone in piazza San Giovanni. Famiglie organizzano gite, picnic e grigliate.",
+          "funFacts": [
+            "Il ‘Concertone' di Roma del 1° maggio dal 1990 raduna centinaia di migliaia di spettatori.",
+            "In Francia il 1° maggio si regalano mughetti (‘muguet') — tradizione che il re Carlo IX introdusse nel 1561.",
+            "In Renania nella notte del 1° maggio si pongono betulle decorate (‘Liebesmaien') davanti alla casa dell'amata.",
+            "Il 1° maggio è festivo in oltre 80 paesi — ma in USA e Canada il ‘Labor Day' è in settembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
+          "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
+          "traditions": "Le famiglie si riuniscono per pasti festosi — tacchino, oca, carpa o raclette al nord; pranzo natalizio con tortellini in brodo, lasagne, capponi e panettone in Italia. Si scambiano regali, si cantano canti natalizi, molti partecipano alla messa festiva. L'albero decorato e il presepe sono i simboli centrali. Calendario dell'Avvento, biscotti e mercatini scandiscono la preparazione.",
+          "funFacts": [
+            "Il primo calendario dell'Avvento commerciale apparve nel 1908 a Monaco — invenzione di Gerhard Lang.",
+            "I mercatini di Natale di Dresda (‘Striezelmarkt', dal 1434) e Francoforte (dal 1393) sono tra i più antichi al mondo.",
+            "La Norvegia regala al Regno Unito un enorme albero di Natale per Trafalgar Square ogni anno dal 1947 — come ringraziamento per l'aiuto nella Seconda Guerra Mondiale.",
+            "Il panettone milanese e il pandoro veronese sono i due dolci natalizi italiani per eccellenza."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "good_friday": {
+          "intro": "Wielki Piątek to dzień największej żałoby w protestantyzmie i upamiętnia ukrzyżowanie Jezusa Chrystusa. W Polsce nie jest dniem wolnym, ale ma głęboki wymiar religijny.",
+          "history": "Wielki Piątek obchodzony jest przez chrześcijan od IV wieku. Wcześnie rozwinęły się tradycje liturgiczne: czytanie Pasji, adoracja krzyża, milczenie dzwonów. Reformacja nadała mu szczególne znaczenie; w regionach luterańskich pozostaje najważniejszym dniem roku liturgicznego. W Polsce katolickie tradycje obejmują Drogę Krzyżową, adorację krzyża i święcenie pokarmów w Wielką Sobotę.",
+          "traditions": "Wierni uczestniczą w Liturgii Męki Pańskiej, adorują krzyż i odprawiają Drogę Krzyżową — w Polsce słynne są kalwarie (Kalwaria Zebrzydowska, Wejherowska). Tradycyjnie jest to dzień postu — je się ryby zamiast mięsa. W niektórych regionach Niemiec organizowane są procesje pasyjne, a w Hiszpanii słynne procesje bractw, np. w Sewilli.",
+          "funFacts": [
+            "W Niemczech ‘Tanzverbot' (zakaz tańczenia) reguluje publiczne rozrywki w Wielki Piątek — tematyka regularnie wraca w debacie publicznej.",
+            "Bach skomponował Pasję według św. Mateusza w 1727 roku na nieszpory wielkopiątkowe w Lipsku.",
+            "Na Bermudach rodziny puszczają w Wielki Piątek samodzielnie zrobione latawce z bambusa i papieru — unikalna chrześcijańska tradycja.",
+            "W Polsce Misterium Męki Pańskiej w Kalwarii Zebrzydowskiej wpisane jest na listę UNESCO."
+          ],
+          "imageCredit": "Zdjęcie: Pietro Perugino · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 maja jest w wielu krajach Świętem Pracy — świętem ruchu robotniczego z manifestacjami, majowymi uroczystościami i wiosennymi festynami. W Polsce dzień wolny od pracy.",
+          "history": "1 maja 1886 roku setki tysięcy robotników w Chicago weszło w strajk generalny domagając się ośmiogodzinnego dnia pracy. Następujące starcia na Haymarket pochłonęły kilka ofiar. W 1889 roku Międzynarodowy Kongres Robotniczy w Paryżu ogłosił 1 maja ‘dniem walki ruchu robotniczego'. W Polsce święto wprowadzono oficjalnie w 1950 roku, choć obchody były już wcześniej. Po 1989 roku zachowane jako symbol pracowniczy.",
+          "traditions": "W Polsce 1 maja to popularny dzień na pierwsze grillowanie i majowe wycieczki. Związki zawodowe organizują wiece i pochody. Wraz z 2 maja (Dzień Flagi) i 3 maja (Konstytucja) tworzy słynne ‘majówki' — najważniejszy długi weekend wiosenny w Polsce, kiedy wielu wyjeżdża nad morze, w góry lub na działkę.",
+          "funFacts": [
+            "‘Majówka' to jeden z najbardziej intensywnych weekendów turystycznych w Polsce — wiele osób ucieka z miast na wieś.",
+            "We Francji 1 maja wręcza się konwalie (‘muguet') — zwyczaj wprowadzony przez króla Karola IX w 1561 roku.",
+            "1 maja jest świętem urzędowym w ponad 80 krajach — ale w USA i Kanadzie ‘Labor Day' obchodzi się we wrześniu.",
+            "Najwyższy maj w Bawarii postawiono w Mitterfels w 2017 roku — miał ponad 50 m."
+          ],
+          "imageCredit": "Zdjęcie: Joe Piette · CC BY-SA 2.0 przez Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
+          "history": "Już w 354 roku 25 grudnia odnotowany jest jako ‘dies natalis Christi' w rzymskim kalendarzu. Kościół wybrał tę datę prawdopodobnie po to, by chrześcijańsko zinterpretować rzymskie święto ‘Sol Invictus'. Tradycja prezentów ma korzenie w darach Trzech Mędrców. Współczesny Święty Mikołaj w czerwonym płaszczu i z białą brodą to mieszanka św. Mikołaja i kampanii reklamowej Coca-Coli z 1931 roku.",
+          "traditions": "W Polsce Boże Narodzenie obchodzi się przez dwa dni (25 i 26 grudnia). Rodziny zbierają się na obfitym obiedzie — często rosół z makaronem, schab, indyk, sałatka jarzynowa, makowiec, sernik. Wymienia się prezenty (w Polsce zwykle wręczane już w Wigilię), śpiewa kolędy, wielu uczestniczy w nabożeństwach. Choinka i szopka są centralnymi symbolami.",
+          "funFacts": [
+            "Pierwszy komercyjny kalendarz adwentowy ukazał się w 1908 roku w Monachium — wynalazek Gerharda Langa.",
+            "Polskie kolędy — m.in. ‘Wśród nocnej ciszy', ‘Bóg się rodzi', ‘Lulajże, Jezuniu' — uchodzą za jedne z najpiękniejszych na świecie.",
+            "Norwegia podarowuje Wielkiej Brytanii corocznie od 1947 roku ogromną choinkę na Trafalgar Square — w podzięce za pomoc w II wojnie światowej.",
+            "Tradycja choinki dotarła do Polski z Niemiec na początku XIX wieku, a powszechna stała się po 1830 roku."
+          ],
+          "imageCredit": "Zdjęcie: Chris Olszewski · CC BY-SA 4.0 przez Wikimedia Commons"
+        }
+      }
+    }
+  },
+  "images": {
+    "good_friday": [
+      {
+        "path": "images/good_friday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "labour_day": [
+      {
+        "path": "images/labour_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas": [
+      {
+        "path": "images/christmas/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 3
+}

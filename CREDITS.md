@@ -58,6 +58,8 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 - `images/SE/midsummer_eve/03.jpg` — Roger W (CC BY-SA 2.0)
 - `images/SE/national_day_of_sweden/03.jpg` — Bengt Nyman (CC BY-SA 4.0)
 - `images/SG/chinese_new_year/03.jpg` — Anubhab91 (CC BY-SA 4.0)
+- `images/st_stephen/02.jpg` — Uoaei1 (CC BY-SA 4.0)
+- `images/st_stephen/03.jpg` — Dietmar Rabich (CC BY-SA 4.0)
 <!-- END:IMAGE-CREDITS -->
 
 ## Data sources

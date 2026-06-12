@@ -1,0 +1,1706 @@
+{
+  "countryCode": "VE",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "VE_new_years_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "VE_epiphany",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.epiphany",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "VE_feast_of_the_divina_pastora",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.feast_of_the_divina_pastora",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 14
+      }
+    },
+    {
+      "id": "VE_teachers_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.teachers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 15
+      }
+    },
+    {
+      "id": "VE_youth_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.youth_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 12
+      }
+    },
+    {
+      "id": "VE_carnival",
+      "countryCode": "VE",
+      "kind": "easter_relative",
+      "labelKey": "holidays.carnival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -47
+      }
+    },
+    {
+      "id": "VE_international_womens_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.womens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 8
+      }
+    },
+    {
+      "id": "VE_saint_josephs_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_josephs_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 19
+      }
+    },
+    {
+      "id": "VE_slavery_abolition_anniversary",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.slavery_abolition_anniversary",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 21
+      }
+    },
+    {
+      "id": "VE_foundation_anniversary_day_of_san_cristobal_tachira",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.foundation_anniversary_day_of_san_cristobal_tachira",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 31
+      }
+    },
+    {
+      "id": "VE_beginning_of_the_independence_movement",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.beginning_of_the_independence_movement",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 19
+      }
+    },
+    {
+      "id": "VE_labour_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "VE_festival_of_the_crosses",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.festival_of_the_crosses",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 3
+      }
+    },
+    {
+      "id": "VE_mothers_day",
+      "countryCode": "VE",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.mothers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "nth": 2,
+        "weekday": 0
+      }
+    },
+    {
+      "id": "VE_ascension_day",
+      "countryCode": "VE",
+      "kind": "easter_relative",
+      "labelKey": "holidays.ascension",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 39
+      }
+    },
+    {
+      "id": "VE_corpus_christi",
+      "countryCode": "VE",
+      "kind": "easter_relative",
+      "labelKey": "holidays.corpus_christi",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 60
+      }
+    },
+    {
+      "id": "VE_fathers_day",
+      "countryCode": "VE",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.fathers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 6,
+        "nth": 3,
+        "weekday": 0
+      }
+    },
+    {
+      "id": "VE_anniversary_of_the_battle_of_carabobo",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.anniversary_of_the_battle_of_carabobo",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 24
+      }
+    },
+    {
+      "id": "VE_journalists_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.journalists_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 27
+      }
+    },
+    {
+      "id": "VE_independence_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 5
+      }
+    },
+    {
+      "id": "VE_childrens_day",
+      "countryCode": "VE",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.childrens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 7,
+        "nth": 3,
+        "weekday": 0
+      }
+    },
+    {
+      "id": "VE_simon_bolivars_birthday",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.simon_bolivars_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 24
+      }
+    },
+    {
+      "id": "VE_caracas_city_foundation_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.caracas_city_foundation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 25
+      }
+    },
+    {
+      "id": "VE_flag_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.flag_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 3
+      }
+    },
+    {
+      "id": "VE_birth_of_the_blessed_virgin_mary",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.birth_of_the_blessed_virgin_mary",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 8
+      }
+    },
+    {
+      "id": "VE_feast_of_the_our_lady_of_mercy",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.feast_of_the_our_lady_of_mercy",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 24
+      }
+    },
+    {
+      "id": "VE_day_of_indigenous_resistance",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_indigenous_resistance",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 12
+      }
+    },
+    {
+      "id": "VE_all_saints_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "VE_all_souls_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.all_souls_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 2
+      }
+    },
+    {
+      "id": "VE_immaculate_conception_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.immaculate_conception_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "VE_christmas_eve",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "VE_christmas_day",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "VE_new_years_eve",
+      "countryCode": "VE",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "feast_of_the_divina_pastora": "Feast of the Divina Pastora",
+        "teachers_day": "Teacher's Day",
+        "youth_day": "Youth Day",
+        "carnival": "Carnival",
+        "saint_josephs_day": "Saint Joseph's Day",
+        "slavery_abolition_anniversary": "Slavery Abolition Anniversary",
+        "foundation_anniversary_day_of_san_cristobal_tachira": "Foundation anniversary Day of San Cristóbal, Táchira",
+        "beginning_of_the_independence_movement": "Beginning of the Independence Movement",
+        "festival_of_the_crosses": "Festival of the Crosses",
+        "mothers_day": "Mother's Day",
+        "fathers_day": "Father's Day",
+        "anniversary_of_the_battle_of_carabobo": "Anniversary of the Battle of Carabobo",
+        "journalists_day": "Journalists' Day",
+        "independence_day": "Independence Day",
+        "childrens_day": "Children's Day",
+        "simon_bolivars_birthday": "Simón Bolívar's Birthday",
+        "caracas_city_foundation_day": "Caracas City Foundation Day",
+        "flag_day": "Flag Day",
+        "birth_of_the_blessed_virgin_mary": "Birth of the Blessed Virgin Mary",
+        "feast_of_the_our_lady_of_mercy": "Feast of the Our Lady of Mercy",
+        "day_of_indigenous_resistance": "Day of Indigenous Resistance",
+        "all_saints_day": "All Saints' Day",
+        "all_souls_day": "All Souls' Day",
+        "immaculate_conception_day": "Immaculate Conception Day",
+        "christmas_eve": "Christmas Eve"
+      },
+      "es": {
+        "feast_of_the_divina_pastora": "Día de la Divina Pastora",
+        "teachers_day": "Día del Maestro",
+        "youth_day": "Día de la Juventud",
+        "carnival": "Carnaval",
+        "saint_josephs_day": "Día de San José",
+        "slavery_abolition_anniversary": "Día del abolición de la esclavitud",
+        "foundation_anniversary_day_of_san_cristobal_tachira": "Aniversario del fundacion del San Cristóbal",
+        "beginning_of_the_independence_movement": "Proclamación de la Independencia",
+        "festival_of_the_crosses": "Día del Cruz del Mayo",
+        "mothers_day": "Día de las Madres",
+        "fathers_day": "Día de los Padres",
+        "anniversary_of_the_battle_of_carabobo": "Aniversario de la Batalla de Carabobo",
+        "journalists_day": "Día del Periodista y aniversario de la instauración del Decreto de Instrucción pública gratuita y obligatoria",
+        "independence_day": "Cinco de julio",
+        "childrens_day": "Dia del niño",
+        "simon_bolivars_birthday": "Natalicio del Libertador Simón Bolívar",
+        "caracas_city_foundation_day": "Aniversario del fundacion del Caracas",
+        "flag_day": "Día de la Bandera",
+        "birth_of_the_blessed_virgin_mary": "Día del Virgen del Valle",
+        "feast_of_the_our_lady_of_mercy": "Día del Virgen de las Mercedes",
+        "day_of_indigenous_resistance": "Día de la Resistencia Indígena",
+        "all_saints_day": "Día de Todos los Santos",
+        "all_souls_day": "Día de los fieles difuntos",
+        "immaculate_conception_day": "La Inmaculada Concepción",
+        "christmas_eve": "Nochebuena"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "new_year": {
+          "intro": "Der 1. Januar markiert weltweit den Beginn eines neuen Jahres im gregorianischen Kalender. Für viele ist es ein Tag der Hoffnung, des Neuanfangs und der guten Vorsätze.",
+          "history": "Bereits 153 v. Chr. legten die Römer den Jahresbeginn auf den 1. Januar, den Antrittstag der neuen Konsuln. Im Mittelalter wechselte der Jahresanfang in vielen Regionen zu Weihnachten oder Ostern. Erst mit der Kalenderreform von Papst Gregor XIII. im Jahr 1582 setzte sich der 1. Januar wieder als europäischer Standard durch. Der Monatsname Januar geht auf den römischen Gott Janus zurück, der mit zwei Gesichtern zugleich auf das Vergangene und das Kommende blickte – ein passendes Sinnbild für diesen Tag.",
+          "traditions": "Um Mitternacht stoßen Familien und Freunde mit Sekt an und feiern den Jahreswechsel mit Feuerwerk, Glücksbringern wie Kleeblatt, Schornsteinfeger oder Marienkäfer und dem traditionellen Bleigießen (heute Wachsgießen). Beliebt sind außerdem Neujahrsbrunch und der gemeinsame Spaziergang an der frischen Luft. Viele fassen Vorsätze für das neue Jahr.",
+          "funFacts": [
+            "In Spanien isst man zu jedem der zwölf Glockenschläge eine Weintraube – eine pro Wunsch.",
+            "In Dänemark zerbricht man altes Geschirr vor den Türen guter Freunde, um Glück zu bringen.",
+            "Wiens Neujahrskonzert wird in über 90 Länder übertragen und gilt als musikalischer Auftakt des Jahres.",
+            "Auf den Pazifikinseln Kiribati beginnt das neue Jahr 26 Stunden früher als auf der Insel Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "epiphany": {
+          "intro": "Heilige Drei Könige am 6. Januar erinnert an den Besuch der Sterndeuter aus dem Morgenland beim Jesuskind in Bethlehem. Der Tag schließt die Weihnachtszeit ab.",
+          "history": "Das Fest „Epiphanias” („Erscheinung des Herrn”) ist eines der ältesten der Christenheit und wurde bereits ab dem 3. Jahrhundert gefeiert – im Osten der Kirche sogar als Hauptfest. Die Drei Könige Caspar, Melchior und Balthasar sind nicht im Bibeltext namentlich genannt; sie wurden erst im Mittelalter mit Namen versehen. Ihre Reliquien sollen seit 1164 im Kölner Dom liegen, was Köln zu einem der wichtigsten Pilgerorte des Mittelalters machte. In Deutschland ist der Tag in Bayern, Baden-Württemberg und Sachsen-Anhalt gesetzlicher Feiertag.",
+          "traditions": "Sternsinger ziehen in über 100.000 Aktionen jährlich von Haus zu Haus, sammeln Spenden für Kinder in Not und schreiben den Segen „C+M+B” („Christus mansionem benedicat” – Christus segne dieses Haus) an die Türen. In manchen Regionen wird der Christbaum erst an diesem Tag abgeschmückt („Plündern”). Festliche Gottesdienste markieren das Ende der Weihnachtszeit.",
+          "funFacts": [
+            "Die deutsche Sternsinger-Aktion ist die größte Solidaritätsaktion von Kindern für Kinder weltweit – mit über 50 Mio. Euro Spendengeld pro Jahr.",
+            "Der Kölner Dom wurde extra so groß geplant, um Pilgerströmen zu den Drei-Königen-Reliquien Platz zu bieten.",
+            "In Spanien und Lateinamerika bringen die „Reyes Magos” am Vorabend des 6. Januar die Geschenke – nicht der Weihnachtsmann.",
+            "Der traditionelle Königskuchen („Galette des Rois” in Frankreich, „Roscón de Reyes” in Spanien) enthält eine kleine Figur – wer sie findet, ist König für einen Tag."
+          ],
+          "imageCredit": "Foto: CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "Der Internationale Frauentag am 8. März steht weltweit für die Gleichberechtigung von Frauen, ihre Errungenschaften und den Kampf gegen Diskriminierung.",
+          "history": "Der Frauentag entstand aus der sozialistischen Frauenbewegung. Die deutsche Politikerin Clara Zetkin schlug 1910 in Kopenhagen einen jährlichen Aktionstag vor; bereits 1911 gingen Millionen Frauen in Europa erstmals dafür auf die Straße. 1921 setzte Lenin den 8. März fest, in Erinnerung an den Petrograder Frauenstreik vom März 1917, der die russische Februarrevolution mitauslöste. Die UNO erklärte 1975 den Tag offiziell zum „Tag der Vereinten Nationen für die Rechte der Frau”.",
+          "traditions": "Frauen erhalten Blumen – traditionell Mimosen oder Tulpen – und werden mit Karten oder kleinen Geschenken bedacht. In vielen Städten finden Demonstrationen, Vorträge und kulturelle Veranstaltungen statt. In Berlin ist der 8. März seit 2019 gesetzlicher Feiertag, in Italien schenken Männer Frauen Mimosenzweige.",
+          "funFacts": [
+            "In Russland und mehreren ehemaligen Sowjetstaaten ist der 8. März offizieller arbeitsfreier Feiertag.",
+            "Mecklenburg-Vorpommern führte 2023 als zweites deutsches Bundesland nach Berlin den Frauentag als Feiertag ein.",
+            "Die UN-Themen wechseln jährlich – z. B. „Inspire Inclusion” oder „DigitALL”.",
+            "In Italien gilt die Mimose als Symbol weiblicher Stärke, weil sie auch in widrigen Bedingungen blüht."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Der 1. Mai ist in vielen Ländern der „Tag der Arbeit” – ein Feiertag der Arbeiterbewegung mit Demonstrationen, Maibäumen und Frühlingsfesten.",
+          "history": "Am 1. Mai 1886 traten in Chicago hunderttausende Arbeiter für den Acht-Stunden-Tag in den Generalstreik. Die anschließenden Auseinandersetzungen am Haymarket forderten mehrere Tote. 1889 erklärte der Internationale Arbeiterkongress in Paris den 1. Mai zum „Kampftag der Arbeiterbewegung”. In Deutschland wurde er 1933 als „Tag der nationalen Arbeit” zum gesetzlichen Feiertag – nach 1945 als Symbol arbeitnehmerfreundlicher Politik beibehalten.",
+          "traditions": "Gewerkschaften organisieren Kundgebungen und Demonstrationen unter Mottos wie „Mehr Lohn, mehr Freizeit”. In vielen Dörfern wird in der Nacht zum 1. Mai ein Maibaum aufgestellt – im Süden Deutschlands ein bunt geschmückter Stamm, im Norden ein Birkenstamm vor dem Fenster der Liebsten. Beliebte Aktivitäten: Mai-Wanderungen, Grillen und Familienfeste.",
+          "funFacts": [
+            "Der höchste Maibaum Bayerns wurde 2017 in Mitterfels mit über 50 m aufgestellt.",
+            "In Frankreich verschenkt man am 1. Mai Maiglöckchen („muguet”) – ein Brauch, den König Karl IX. 1561 einführte.",
+            "Im Rheinland werden in der Mai-Nacht „Liebesmaien” – geschmückte Birken – vor das Haus der Angebeteten gestellt.",
+            "Der 1. Mai ist offizieller Feiertag in über 80 Ländern – in den USA und Kanada feiert man Labor Day jedoch erst im September."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "mothers_day": {
+          "intro": "Der Muttertag ehrt Mütter und ihre wichtige Rolle in Familie und Gesellschaft. Er wird in den meisten Ländern am zweiten Sonntag im Mai gefeiert.",
+          "history": "Die Amerikanerin Anna Jarvis initiierte den modernen Muttertag 1907 zum Gedenken an ihre verstorbene Mutter und kämpfte erfolgreich für seine offizielle Anerkennung – 1914 erklärte US-Präsident Woodrow Wilson den zweiten Sonntag im Mai zum nationalen Feiertag. Bereits 1923 importierte der „Verband Deutscher Blumengeschäftsinhaber” den Muttertag nach Deutschland – aus naheliegenden kommerziellen Gründen. Ironischerweise wandte sich Anna Jarvis später erbittert gegen die Kommerzialisierung des Festes.",
+          "traditions": "Kinder schenken ihren Müttern Blumen – meist Tulpen, Rosen oder eine bunte Frühlingsmischung. Selbst gebastelte Karten und gemalte Bilder sind besonders beliebt bei jüngeren Kindern. Viele Familien laden zum Muttertagsbrunch ein oder kochen das Lieblingsessen der Mutter. Restaurants sind an diesem Sonntag traditionell ausgebucht.",
+          "funFacts": [
+            "Floristen erzielen am Muttertag den höchsten Umsatz des Jahres – noch vor dem Valentinstag.",
+            "Die meisten Telefonate des Jahres werden in Nordamerika am Muttertag geführt.",
+            "Anna Jarvis ließ sich später wegen einer Kampagne gegen den kommerzialisierten Muttertag verhaften.",
+            "In Thailand fällt der Muttertag auf den 12. August – den Geburtstag von Königin Sirikit."
+          ],
+          "imageCredit": "Foto: Kor!An (Андрей Корзун) · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "ascension": {
+          "intro": "Christi Himmelfahrt erinnert daran, dass Jesus 40 Tage nach seiner Auferstehung in den Himmel zurückkehrte. Der Feiertag fällt immer auf einen Donnerstag, sechs Wochen vor Pfingsten.",
+          "history": "Bereits Eusebius von Caesarea berichtete im 4. Jahrhundert vom Fest der Himmelfahrt. Die Berechnung leitet sich aus der Apostelgeschichte ab: Jesus erschien nach der Auferstehung 40 Tage lang seinen Jüngern, bevor er „in den Himmel aufgenommen” wurde. Im Mittelalter entwickelten sich aus den frühen Prozessionen die Flurumgänge, bei denen Pfarrer die Felder und Wege segneten – ein Brauch, der noch heute im katholischen Süddeutschland und Österreich gepflegt wird.",
+          "traditions": "Festliche Gottesdienste, oft mit anschließender Flurprozession durch Wiesen und Felder, prägen den Tag. In Deutschland ist Christi Himmelfahrt zugleich der traditionelle Vatertag. Familien nutzen das verlängerte Brückentag-Wochenende für Ausflüge, Radtouren und das erste Maibaum-Hochziehen.",
+          "funFacts": [
+            "In Frankreich heißt der Tag „L'Ascension” und ist seit 1801 gesetzlicher Feiertag.",
+            "In England und einigen Pfarrgemeinden gibt es das „Beating the Bounds”: Gemeindemitglieder gehen die Pfarrgrenzen ab und schlagen mit Weidenruten auf Markierungspunkte.",
+            "In Schweden machten die Menschen früher in den Morgenstunden „Gökotta” – Vogelstimmen in der Natur lauschen.",
+            "Der Brauch des Vatertags am Himmelfahrtstag entstand im Berlin der 1870er-Jahre."
+          ],
+          "imageCredit": "Foto: Basile Morin · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "Fronleichnam („des Herrn Leib”) ist ein katholischer Hochfeiertag, der die Eucharistie und die leibhaftige Gegenwart Christi im Brot zelebriert. Er fällt auf den zweiten Donnerstag nach Pfingsten.",
+          "history": "Das Fest geht auf eine Vision der belgischen Nonne Juliana von Lüttich (1193–1258) zurück, die ein eigenes Eucharistie-Fest forderte. Papst Urban IV. führte Fronleichnam 1264 ein. Der Theologe Thomas von Aquin verfasste die liturgischen Texte und Hymnen wie „Lauda Sion Salvatorem”. Die berühmten Fronleichnams-Prozessionen entwickelten sich im 14. Jahrhundert. In Deutschland ist der Tag in den katholisch geprägten Bundesländern Bayern, Baden-Württemberg, Hessen, NRW, Rheinland-Pfalz und Saarland gesetzlicher Feiertag.",
+          "traditions": "Höhepunkt ist die feierliche Prozession, bei der die geweihte Hostie unter einem „Himmel” durch festlich geschmückte Straßen getragen wird. Häuser werden mit Birkengrün, Blumen und Heiligenbildern verziert. In manchen Orten – wie Mühlheim am Main – gibt es Wasser-Prozessionen mit Booten. Familien begleiten die Prozession im Sonntagsstaat.",
+          "funFacts": [
+            "Eines der spektakulärsten Fronleichnamsfeste findet im italienischen Genzano (bei Rom) statt: Die „Infiorata” verwandelt eine ganze Straße in einen Blumen-Teppich.",
+            "In Bayern werden in manchen Dörfern bunte Blumen-Bilder direkt auf die Straße gestreut, über die die Prozession dann läuft.",
+            "Das Wort „Fronleichnam” stammt vom mittelhochdeutschen „vrôn” (Herr) und „lîchnam” (lebendiger Leib) – nicht etwa von „Leiche”.",
+            "In Köln zieht die Mülheimer „Gottestracht” als einzige Wasser-Prozession der Welt mit Schiffen über den Rhein."
+          ],
+          "imageCredit": "Foto: Tranceliner · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "fathers_day": {
+          "intro": "Vatertag ehrt Väter und ihre Rolle in der Familie. In den USA und vielen Ländern wird er am dritten Sonntag im Juni gefeiert.",
+          "history": "Sonora Smart Dodd aus Spokane (Washington) initiierte den Vatertag 1910, inspiriert von ihrem alleinerziehenden Vater, einem Bürgerkriegsveteran, der sechs Kinder großgezogen hatte. Sie wählte den Geburtsmonat ihres Vaters. Erst 1972 erklärte Präsident Nixon den dritten Sonntag im Juni zum offiziellen US-Feiertag. In Deutschland fällt der „Vatertag” historisch mit Christi Himmelfahrt zusammen, in der Schweiz und vielen anderen Ländern folgt er dem amerikanischen Datum.",
+          "traditions": "Kinder schenken ihren Vätern Werkzeug, Krawatten, ein Buch oder selbst gemachte Karten. Viele Familien laden den Vater zum Frühstück ins Bett, organisieren ein gemeinsames Grillen, gehen wandern oder besuchen Sportveranstaltungen. Der Tag steht ganz im Zeichen entspannter Quality Time mit Papa.",
+          "funFacts": [
+            "In Australien und Neuseeland feiert man Vatertag am ersten Sonntag im September – passend zum Frühlingsbeginn.",
+            "Die erste offizielle Vatertagsfeier fand am 19. Juni 1910 in Spokane statt – mit weißen Rosen für lebende, roten für verstorbene Väter.",
+            "Schlipsverkäufer registrieren am Vatertag traditionell den höchsten Umsatz des Jahres.",
+            "Sonora Smart Dodd erlebte die offizielle Anerkennung des Tages – sie starb erst 1978 im Alter von 96 Jahren."
+          ],
+          "imageCredit": "Foto: W. Proud · Public domain via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Allerheiligen am 1. November ist ein katholischer Hochfeiertag, an dem die Kirche aller Heiligen gedenkt. In vielen Ländern besuchen Familien die Gräber ihrer Verstorbenen.",
+          "history": "Bereits im 4. Jahrhundert gab es ein gemeinsames Gedenkfest für alle Märtyrer. Papst Gregor IV. legte 837 das Fest auf den 1. November fest – wahrscheinlich, um das keltische Fest Samhain zu „christianisieren”. Im Mittelalter entwickelte sich die Verbindung zu Allerseelen am 2. November (Gedenken aller Verstorbenen). In Deutschland ist der Tag in den katholischen Bundesländern Bayern, Baden-Württemberg, NRW, Rheinland-Pfalz und Saarland gesetzlich geschützt – als „stiller Feiertag”.",
+          "traditions": "Familien besuchen am 1. und 2. November die Friedhöfe, schmücken die Gräber ihrer Verstorbenen mit Kerzen, Blumen und Gestecken aus Tannenzweigen. Priester segnen die Gräber. In Polen wird der Tag besonders intensiv gefeiert – „Wszystkich Świętych” verwandelt jede Stadt in ein Lichtermeer. Das Backen von „Allerheiligenstriezel” ist eine alte österreichische Tradition.",
+          "funFacts": [
+            "In Polen werden in der Nacht zum 1. November Millionen Kerzen auf Friedhöfen entzündet – aus dem Weltraum sichtbar.",
+            "Das mexikanische „Día de los Muertos” (1./2. November) entwickelte sich aus der Verbindung katholischer und aztekischer Traditionen.",
+            "Der „Allerheiligenstriezel” – ein Hefeteig-Zopf mit Rosinen – wird in Wien traditionell von Paten an ihre Patenkinder verschenkt.",
+            "Halloween („All Hallows' Eve”) leitet seinen Namen direkt vom Vorabend des Allerheiligenfests ab."
+          ],
+          "imageCredit": "Foto: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "Heiligabend ist im deutschsprachigen Raum der wichtigste Familientag des Weihnachtsfestes – mit Bescherung, festlichem Essen und gemeinsamem Gesang unter dem Christbaum.",
+          "history": "Bereits im 4. Jahrhundert legte die Kirche das Geburtsfest Jesu auf den 25. Dezember. Der Vorabend („Vigil”) war traditionell Tag des Fastens. In Deutschland verschob sich die zentrale Feier nach der Reformation: Martin Luther führte Anfang des 16. Jahrhunderts den Brauch ein, dass das „Christkind” am Heiligabend Geschenke bringe – als Gegenmodell zum katholischen Nikolaus. Der geschmückte Tannenbaum kam ab dem 17. Jahrhundert auf und eroberte über Königin Victoria im 19. Jahrhundert die ganze Welt.",
+          "traditions": "Am Nachmittag wird der Christbaum geschmückt, viele Familien gehen in den Kindergottesdienst oder die Christmette. Anschließend folgt die Bescherung, oft mit Weihnachtsliedern wie „Stille Nacht” oder „O Tannenbaum”. Klassische Speisen sind Kartoffelsalat mit Würstchen, Karpfen oder Gänsebraten – je nach Familientradition.",
+          "funFacts": [
+            "„Stille Nacht, heilige Nacht” wurde 1818 in Oberndorf bei Salzburg uraufgeführt – heute in über 300 Sprachen übersetzt.",
+            "In Skandinavien und Mitteleuropa findet die Bescherung an Heiligabend statt, im englischsprachigen Raum erst am Morgen des 25.",
+            "In Tschechien und der Slowakei isst man am Heiligabend traditionell Karpfen – die Schuppe steckt man danach für Geldsegen ins Portemonnaie.",
+            "Der größte natürliche Weihnachtsbaum wird jährlich in Dortmund errichtet – aus rund 1.700 einzelnen Rotfichten."
+          ],
+          "imageCredit": "Foto: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
+          "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
+          "traditions": "Familien versammeln sich zu festlichen Mahlzeiten – Truthahn, Gans, Karpfen oder Raclette. Geschenke werden ausgetauscht, Weihnachtslieder gesungen, viele besuchen den Festgottesdienst. Der geschmückte Christbaum mit Lichterketten, Kugeln und Strohsternen ist das zentrale Symbol. Adventskalender, Plätzchen und der Besuch von Weihnachtsmärkten gehören zur Vorbereitung.",
+          "funFacts": [
+            "Der erste kommerzielle Adventskalender erschien 1908 in München – Erfinder war Gerhard Lang.",
+            "Die Weihnachtsmärkte in Dresden („Striezelmarkt”, seit 1434) und Frankfurt (seit 1393) gehören zu den ältesten der Welt.",
+            "Norwegen schenkt Großbritannien seit 1947 jährlich einen riesigen Weihnachtsbaum für den Trafalgar Square – als Dank für die Hilfe im Zweiten Weltkrieg.",
+            "Die Weihnachtsfilm-Klassiker „Drei Haselnüsse für Aschenbrödel” und „Tatsächlich… Liebe” laufen weltweit jedes Jahr Dutzende Male im TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "Silvester ist der letzte Tag des Jahres und in vielen Ländern ein lautes, glanzvolles Fest mit Feuerwerk, Sekt und ausgelassenen Partys.",
+          "history": "Der Name geht auf Papst Silvester I. zurück, der am 31. Dezember 335 verstarb. Mit der Einführung des gregorianischen Kalenders 1582 wurde der 31. Dezember endgültig zum letzten Tag des Jahres in Mitteleuropa. Das Feuerwerk hat seinen Ursprung in alten Brauchtümern, mit denen man durch Lärm böse Geister vertreiben wollte. In der DDR und der BRD wurde Silvester ab den 1950er-Jahren zur großen TV-Tradition – „Dinner for One” lief erstmals 1963 im NDR.",
+          "traditions": "Um Mitternacht zählt man gemeinsam herunter, prostet sich mit Sekt zu, umarmt sich und beobachtet das Feuerwerk. Familien spielen Gesellschaftsspiele, gießen Wachs zur Vorhersage des neuen Jahres und schauen den Klassiker „Dinner for One”. Das festliche Menü ist oft Raclette, Fondue oder Berliner.",
+          "funFacts": [
+            "Der größte Silvester-Countdown findet am Times Square in New York statt – die berühmte Kristallkugel sinkt seit 1907 um Mitternacht herab.",
+            "„Dinner for One” hält den Rekord als die am häufigsten wiederholte TV-Sendung der Welt.",
+            "Sydney ist eine der ersten Großstädte, die das neue Jahr mit Feuerwerk begrüßt – bereits um 14 Uhr deutscher Zeit.",
+            "In Spanien isst man zu jedem Glockenschlag eine Traube – wer alle zwölf schafft, hat ein glückliches Jahr."
+          ],
+          "imageCredit": "Foto: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "new_year": {
+          "intro": "January 1st marks the start of a new year in the Gregorian calendar around the world. For many it's a day of hope, fresh starts and good resolutions.",
+          "history": "As early as 153 BC the Romans set the start of the year on January 1st, the day new consuls took office. During the Middle Ages, the start of the year shifted in many regions to Christmas or Easter. Only with Pope Gregory XIII's calendar reform of 1582 did January 1st become the European standard once again. The name January goes back to the Roman god Janus, who looked simultaneously at the past and the future with two faces — a fitting symbol for the day.",
+          "traditions": "At midnight, families and friends toast with sparkling wine and celebrate the turn of the year with fireworks, lucky charms (clover, chimney sweep, ladybug) and traditional lead pouring (now wax pouring). New Year's brunch and a fresh-air walk are popular too. Many people make resolutions for the year ahead.",
+          "funFacts": [
+            "In Spain, people eat one grape with each of the twelve bell strokes — one wish per grape.",
+            "In Denmark, people break old crockery in front of friends' doors to bring them luck.",
+            "Vienna's New Year's Concert is broadcast in over 90 countries and counts as the year's musical kick-off.",
+            "On the Pacific island of Kiribati, the new year arrives 26 hours earlier than on Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "epiphany": {
+          "intro": "Epiphany on January 6th commemorates the visit of the Magi from the East to the Christ Child in Bethlehem. The day closes the Christmas season.",
+          "history": "The feast of ‘Epiphany' (‘appearance of the Lord') is one of Christianity's oldest, celebrated as early as the 3rd century — in the Eastern Church even as the principal feast. The names of the Three Kings, Caspar, Melchior and Balthasar, are not given in the Bible; they were attached only in the Middle Ages. Their relics are said to have rested in Cologne Cathedral since 1164, making Cologne one of the great pilgrimage sites of the Middle Ages. In Germany Epiphany is a public holiday in Bavaria, Baden-Württemberg and Saxony-Anhalt.",
+          "traditions": "Star singers go from house to house in over 100,000 actions every year, collecting donations for children in need and writing the blessing ‘C+M+B' (‘Christus mansionem benedicat' — may Christ bless this house) on doorways. In some regions the Christmas tree is dismantled only on this day (‘plundering'). Festive services close the Christmas season.",
+          "funFacts": [
+            "Germany's Star Singers Action is the world's largest solidarity campaign by children for children — collecting over €50 million in donations annually.",
+            "Cologne Cathedral was deliberately built that large to accommodate streams of pilgrims to the relics of the Magi.",
+            "In Spain and Latin America the ‘Reyes Magos' bring gifts on the eve of January 6th — not Santa.",
+            "The traditional ‘king cake' (‘Galette des Rois' in France, ‘Roscón de Reyes' in Spain) hides a small figurine — whoever finds it is king for the day."
+          ],
+          "imageCredit": "Photo: CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "International Women's Day on March 8th stands worldwide for women's equality, their achievements and the fight against discrimination.",
+          "history": "Women's Day grew out of the socialist women's movement. German politician Clara Zetkin proposed an annual day of action in Copenhagen in 1910; by 1911 millions of women across Europe were marching for it. In 1921 Lenin fixed it on March 8th, in memory of the Petrograd women's strike of March 1917 that helped trigger the Russian February Revolution. The UN officially recognized the day in 1975 as the ‘UN Day for Women's Rights'.",
+          "traditions": "Women receive flowers — traditionally mimosas or tulips — along with cards and small gifts. Many cities host demonstrations, talks and cultural events. In Berlin, March 8th has been a public holiday since 2019; in Italy men give women sprigs of mimosa.",
+          "funFacts": [
+            "In Russia and several former Soviet states, March 8th is an official non-working public holiday.",
+            "Mecklenburg-Vorpommern in 2023 became the second German state after Berlin to make Women's Day a public holiday.",
+            "UN themes change yearly — for example ‘Inspire Inclusion' or ‘DigitALL'.",
+            "In Italy the mimosa is the symbol of women's strength because it blooms even in tough conditions."
+          ],
+          "imageCredit": "Photo: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "May 1st is in many countries ‘Labour Day' — a holiday of the workers' movement with demonstrations, maypoles and spring fairs.",
+          "history": "On May 1st, 1886, hundreds of thousands of workers in Chicago went on a general strike for the eight-hour workday. The ensuing clashes at Haymarket killed several. In 1889 the International Workers' Congress in Paris declared May 1st the ‘international day of struggle for workers'. In Germany it became a legal holiday in 1933 as ‘Day of National Labour' and was kept after 1945 as a symbol of worker-friendly politics.",
+          "traditions": "Trade unions stage rallies and marches under slogans such as ‘More pay, more time off'. In many villages a maypole is raised on the night before May 1st — in southern Germany an ornately painted trunk, in the north a birch in front of a sweetheart's window. Popular activities: May hikes, barbecues and family festivals.",
+          "funFacts": [
+            "Bavaria's tallest maypole was raised in Mitterfels in 2017 at over 50 m.",
+            "In France people give lily-of-the-valley (‘muguet') on May 1st — a custom King Charles IX introduced in 1561.",
+            "In the Rhineland a ‘love May' — a decorated birch — is placed in front of the home of a sweetheart on May Eve.",
+            "May 1st is an official holiday in over 80 countries — but in the U.S. and Canada Labor Day falls in September."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "mothers_day": {
+          "intro": "Mother's Day honors mothers and their important role in family and society. In most countries it is celebrated on the second Sunday in May.",
+          "history": "American Anna Jarvis launched the modern Mother's Day in 1907 in memory of her late mother and successfully campaigned for its official recognition — in 1914 President Woodrow Wilson declared the second Sunday in May a national holiday. By 1923 the German florists' association had imported Mother's Day to Germany — for obvious commercial reasons. Ironically, Anna Jarvis later fought bitterly against the commercialization of the festival.",
+          "traditions": "Children give their mothers flowers — usually tulips, roses or a colorful spring mix. Hand-made cards and crayoned drawings are especially popular among younger children. Many families have a Mother's Day brunch or cook the mother's favorite dish. Restaurants are traditionally fully booked on this Sunday.",
+          "funFacts": [
+            "Florists post their highest revenue of the year on Mother's Day — even higher than Valentine's.",
+            "Mother's Day generates the most phone calls of the year in North America.",
+            "Anna Jarvis was later arrested for protesting against the commercialization of Mother's Day she had created.",
+            "In Thailand Mother's Day falls on August 12th — the birthday of Queen Sirikit."
+          ],
+          "imageCredit": "Photo: Kor!An (Андрей Корзун) · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "ascension": {
+          "intro": "Ascension Day commemorates Jesus' return to heaven 40 days after his resurrection. The holiday always falls on a Thursday, six weeks before Pentecost.",
+          "history": "Eusebius of Caesarea reported the feast of the Ascension as early as the 4th century. The dating comes from the Acts of the Apostles: after his resurrection, Jesus appeared to his disciples for 40 days before being ‘taken up into heaven'. In the Middle Ages, those early processions evolved into the field walks, with priests blessing fields and paths — a custom still kept in Catholic southern Germany and Austria.",
+          "traditions": "Festive services, often followed by a field procession through meadows and pastures, mark the day. In Germany, Ascension Day is also the traditional Father's Day. Families use the long bridge weekend for outings, bike rides and the first maypole raisings.",
+          "funFacts": [
+            "In France the day is ‘L'Ascension' and has been a public holiday since 1801.",
+            "In England and some parishes there is the ‘Beating the Bounds': parishioners walk along the parish boundaries striking marker points with willow rods.",
+            "In Sweden people once practiced ‘Gökotta' in the early hours — listening to bird songs in nature.",
+            "Germany's Father's Day on Ascension Thursday originated in 1870s Berlin."
+          ],
+          "imageCredit": "Photo: Basile Morin · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "Corpus Christi (‘the body of Christ') is a Catholic high feast that celebrates the Eucharist and Christ's bodily presence in the bread. It falls on the second Thursday after Pentecost.",
+          "history": "The feast goes back to a vision of the Belgian nun Juliana of Liège (1193–1258), who called for a separate Eucharistic feast. Pope Urban IV introduced Corpus Christi in 1264. Theologian Thomas Aquinas wrote the liturgical texts and hymns such as ‘Lauda Sion Salvatorem'. Famous Corpus Christi processions developed in the 14th century. In Germany it is a public holiday in the Catholic-majority states of Bavaria, Baden-Württemberg, Hesse, NRW, Rhineland-Palatinate and Saarland.",
+          "traditions": "The highlight is the solemn procession in which the consecrated host is carried under a ‘canopy' through festively decorated streets. Houses are adorned with birch greenery, flowers and pictures of saints. In some places — like Mühlheim am Main — there are even water processions with boats. Families accompany the procession in their Sunday best.",
+          "funFacts": [
+            "One of the most spectacular Corpus Christi celebrations is held in Genzano (near Rome): the ‘Infiorata' turns an entire street into a flower carpet.",
+            "In Bavarian villages, colorful flower images are strewn directly onto the street for the procession to pass over.",
+            "The German word ‘Fronleichnam' comes from Middle High German ‘vrôn' (lord) and ‘lîchnam' (living body) — not from ‘corpse'.",
+            "Cologne's Mülheim ‘Gottestracht' is the world's only water procession on ships across the Rhine."
+          ],
+          "imageCredit": "Photo: Tranceliner · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "fathers_day": {
+          "intro": "Father's Day honors fathers and their role in the family. In the U.S. and many countries it is celebrated on the third Sunday in June.",
+          "history": "Sonora Smart Dodd of Spokane, Washington, launched Father's Day in 1910, inspired by her single father, a Civil War veteran who had raised six children. She picked the month of his birth. Only in 1972 did President Nixon declare the third Sunday in June a federal holiday. In Germany ‘Father's Day' historically coincides with Ascension Day; in Switzerland and many other countries it follows the American date.",
+          "traditions": "Children give their fathers tools, ties, books or hand-made cards. Many families bring breakfast to dad in bed, host a barbecue, go hiking or attend a sports event. The day is dedicated to relaxed quality time with father.",
+          "funFacts": [
+            "Australia and New Zealand celebrate Father's Day on the first Sunday in September — fitting for the southern spring.",
+            "The first official Father's Day celebration was held on June 19th, 1910 in Spokane — with white roses for living and red for departed fathers.",
+            "Tie merchants traditionally post their highest sales of the year on Father's Day.",
+            "Sonora Smart Dodd lived to see official recognition of the day — she died only in 1978 at age 96."
+          ],
+          "imageCredit": "Photo: W. Proud · Public domain via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "All Saints' Day on November 1st is a Catholic high feast on which the Church remembers all saints. In many countries families visit the graves of their departed.",
+          "history": "There was already a joint memorial feast for all martyrs in the 4th century. Pope Gregory IV set the feast on November 1st in 837 — likely to ‘Christianize' the Celtic festival of Samhain. In the Middle Ages a connection developed with All Souls' Day on November 2nd (commemoration of all the departed). In Germany the day is protected by law in the Catholic states of Bavaria, Baden-Württemberg, NRW, Rhineland-Palatinate and Saarland — as a ‘silent holiday'.",
+          "traditions": "On November 1st and 2nd families visit cemeteries, decorating the graves of their dead with candles, flowers and arrangements of fir branches. Priests bless the graves. In Poland the day is celebrated particularly intensely — ‘Wszystkich Świętych' turns every city into a sea of light. Baking ‘All Saints' bread' is an old Austrian tradition.",
+          "funFacts": [
+            "On the night of November 1st in Poland, millions of candles are lit on cemeteries — visible from space.",
+            "Mexico's ‘Día de los Muertos' (November 1–2) developed from the merging of Catholic and Aztec traditions.",
+            "The ‘Allerheiligenstriezel' — a yeast braid with raisins — is traditionally given by godparents to godchildren in Vienna.",
+            "Halloween (‘All Hallows' Eve') derives its name directly from the eve of All Saints'."
+          ],
+          "imageCredit": "Photo: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "Christmas Eve is the most important family day of the Christmas festival in German-speaking countries — with gift-giving, a festive meal and shared singing under the Christmas tree.",
+          "history": "As early as the 4th century, the Church set Jesus' birth on December 25th. The eve (‘Vigil') was traditionally a day of fasting. After the Reformation, Martin Luther shifted the central celebration in Germany: in the early 16th century he introduced the custom that the ‘Christ Child' brings gifts on Christmas Eve — a counter-model to the Catholic Saint Nicholas. The decorated fir tree appeared in the 17th century and conquered the world via Queen Victoria in the 19th.",
+          "traditions": "In the afternoon the Christmas tree is decorated and many families attend a children's service or midnight mass. Then comes the gift-giving, often with carols like ‘Silent Night' or ‘O Tannenbaum'. Classic dishes are potato salad with sausages, carp or roast goose — depending on family tradition.",
+          "funFacts": [
+            "‘Silent Night, Holy Night' premiered in 1818 in Oberndorf near Salzburg — today translated into over 300 languages.",
+            "In Scandinavia and central Europe, gifts are exchanged on Christmas Eve; in the English-speaking world only on the morning of the 25th.",
+            "In Czechia and Slovakia, carp is eaten on Christmas Eve — and a fish scale is then tucked into the wallet for prosperity.",
+            "The world's largest natural Christmas tree is built every year in Dortmund, Germany, from around 1,700 individual red firs."
+          ],
+          "imageCredit": "Photo: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
+          "history": "December 25th is documented as ‘dies natalis Christi' as early as 354 in a Roman calendar. The Church likely chose the date to give the Roman ‘Sol Invictus' winter solstice festival a Christian meaning. Gift-giving has its roots in the gifts of the Magi. The familiar Santa Claus with red coat and white beard is a mix of Saint Nicholas and a 1931 Coca-Cola advertising campaign.",
+          "traditions": "Families gather for festive meals — turkey, goose, carp or raclette. Gifts are exchanged, carols sung, many attend the festive service. The decorated Christmas tree with lights, ornaments and straw stars is the central symbol. Advent calendars, cookies and visits to Christmas markets are part of the run-up.",
+          "funFacts": [
+            "The first commercial Advent calendar appeared in 1908 in Munich — invented by Gerhard Lang.",
+            "The Christmas markets in Dresden (‘Striezelmarkt', since 1434) and Frankfurt (since 1393) are among the oldest in the world.",
+            "Norway has gifted the UK a giant Christmas tree for Trafalgar Square every year since 1947 — as thanks for help during World War II.",
+            "Holiday classics like ‘Three Wishes for Cinderella' and ‘Love Actually' run dozens of times on TV worldwide every year."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "New Year's Eve is the last day of the year and in many countries a loud, glittering celebration with fireworks, sparkling wine and exuberant parties.",
+          "history": "The German name ‘Silvester' goes back to Pope Sylvester I, who died on December 31st, 335. With the Gregorian calendar reform in 1582, December 31st definitively became the last day of the year in central Europe. Fireworks have their origin in old customs of using noise to drive away evil spirits. After the 1950s, New Year's Eve became a major TV tradition — the German classic ‘Dinner for One' first aired in 1963 on NDR.",
+          "traditions": "At midnight people count down together, toast with sparkling wine, hug each other and watch the fireworks. Families play board games, cast wax to predict the new year and watch the classic ‘Dinner for One'. Festive menus often include raclette, fondue or jelly-filled doughnuts.",
+          "funFacts": [
+            "The biggest New Year's countdown happens in Times Square in New York — the famous crystal ball has been dropping at midnight since 1907.",
+            "‘Dinner for One' holds the record as the most repeated TV show in the world.",
+            "Sydney is one of the first major cities to ring in the new year with fireworks — already at 2 p.m. Central European time.",
+            "In Spain people eat one grape with each strike of the bell — anyone who manages all twelve has a lucky year ahead."
+          ],
+          "imageCredit": "Photo: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "new_year": {
+          "intro": "Le 1er janvier marque le début d'une nouvelle année dans le calendrier grégorien partout dans le monde. Pour beaucoup, c'est un jour d'espoir, de renouveau et de bonnes résolutions.",
+          "history": "Dès 153 av. J.-C., les Romains fixèrent le début de l'année au 1er janvier, jour d'entrée en fonction des nouveaux consuls. Au Moyen Âge, le début de l'année se déplaça dans de nombreuses régions à Noël ou à Pâques. Ce n'est qu'avec la réforme du calendrier du pape Grégoire XIII en 1582 que le 1er janvier s'imposa à nouveau comme standard européen. Le nom janvier vient du dieu romain Janus, qui regardait simultanément le passé et l'avenir avec deux visages.",
+          "traditions": "À minuit, familles et amis trinquent au champagne et célèbrent le passage à la nouvelle année avec des feux d'artifice, des porte-bonheur (trèfle, ramoneur, coccinelle) et la traditionnelle coulée de plomb (aujourd'hui de cire). Le brunch du Nouvel An et la promenade au grand air sont aussi populaires. Beaucoup formulent des résolutions pour l'année.",
+          "funFacts": [
+            "En Espagne, on mange un grain de raisin à chacun des douze coups de minuit — un vœu par grain.",
+            "Au Danemark, on brise de la vieille vaisselle devant la porte des amis pour leur porter chance.",
+            "Le Concert du Nouvel An de Vienne est diffusé dans plus de 90 pays — coup d'envoi musical de l'année.",
+            "Sur l'île pacifique de Kiribati, le Nouvel An arrive 26 heures avant celui de l'île Howland."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "epiphany": {
+          "intro": "L'Épiphanie, le 6 janvier, rappelle la visite des Mages venus d'Orient à l'Enfant Jésus à Bethléem. Elle clôt le temps de Noël.",
+          "history": "L'Épiphanie (‘manifestation du Seigneur') est l'une des plus anciennes fêtes du christianisme, célébrée dès le IIIe siècle — dans l'Église d'Orient comme fête principale. Les noms des trois Rois Mages, Gaspard, Melchior et Balthasar, ne sont pas dans la Bible ; ils n'apparaissent qu'au Moyen Âge. Leurs reliques reposeraient depuis 1164 dans la cathédrale de Cologne, qui devint ainsi un grand lieu de pèlerinage médiéval. En France, c'est l'occasion de la galette des Rois.",
+          "traditions": "En France, on partage la traditionnelle galette des Rois — frangipane ou briochée selon la région — qui cache une fève. Celui qui la trouve est couronné roi (ou reine) du jour. En Allemagne et en Autriche, des ‘Sternsinger' (chanteurs de l'étoile) font du porte-à-porte pour collecter des dons et inscrire la bénédiction ‘C+M+B' sur les portes.",
+          "funFacts": [
+            "L'opération ‘Sternsinger' en Allemagne est la plus grande campagne de solidarité d'enfants pour enfants au monde — plus de 50 millions d'euros collectés par an.",
+            "La cathédrale de Cologne fut planifiée si grande pour accueillir les pèlerins venus voir les reliques des Mages.",
+            "En Espagne et en Amérique latine, les ‘Reyes Magos' apportent les cadeaux la veille du 6 janvier — pas le Père Noël.",
+            "La galette des Rois cache une fève — celui qui la trouve devient roi pour la journée."
+          ],
+          "imageCredit": "Photo: CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "La Journée internationale des femmes, le 8 mars, symbolise l'égalité des femmes, leurs avancées et la lutte contre les discriminations.",
+          "history": "La Journée des femmes est née du mouvement socialiste féministe. La politicienne allemande Clara Zetkin proposa en 1910, à Copenhague, une journée d'action annuelle ; dès 1911, des millions de femmes manifestaient en Europe. En 1921, Lénine fixa le 8 mars en mémoire de la grève des ouvrières de Petrograd de mars 1917, qui contribua à déclencher la révolution russe de février. L'ONU l'a officiellement reconnue en 1975 comme ‘Journée des Nations Unies pour les droits de la femme'.",
+          "traditions": "Les femmes reçoivent des fleurs — traditionnellement des mimosas ou des tulipes — accompagnées de cartes et petits cadeaux. De nombreuses villes organisent manifestations, conférences et événements culturels. À Berlin, le 8 mars est jour férié depuis 2019 ; en Italie, les hommes offrent un brin de mimosa.",
+          "funFacts": [
+            "En Russie et plusieurs anciens États soviétiques, le 8 mars est jour férié officiel.",
+            "Le Mecklembourg-Poméranie occidentale est devenu en 2023 le deuxième Land allemand, après Berlin, à ériger le 8 mars en jour férié.",
+            "Les Nations Unies définissent un thème chaque année — par exemple ‘Inspire Inclusion' ou ‘DigitALL'.",
+            "En Italie, la mimosa symbolise la force féminine car elle fleurit même dans des conditions difficiles."
+          ],
+          "imageCredit": "Photo: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Le 1er mai est dans bien des pays la ‘Fête du Travail' — fête du mouvement ouvrier avec manifestations, mâts de mai et fêtes printanières.",
+          "history": "Le 1er mai 1886, des centaines de milliers de travailleurs de Chicago entrèrent en grève générale pour la journée de huit heures. Les heurts qui suivirent à Haymarket firent plusieurs morts. En 1889, le Congrès international des travailleurs à Paris déclara le 1er mai ‘journée de lutte du mouvement ouvrier'. En France, le 1er mai devient jour chômé en 1947, et c'est aussi le jour où l'on offre du muguet, tradition royale depuis Charles IX en 1561.",
+          "traditions": "Les syndicats organisent meetings et défilés sous des slogans comme ‘Plus de salaire, plus de temps libre'. En France, on s'offre des brins de muguet, porte-bonheur. Dans de nombreux villages allemands, on dresse un mât de mai dans la nuit du 1er. Randonnées, barbecues et fêtes familiales sont au programme.",
+          "funFacts": [
+            "Le mât de mai le plus haut de Bavière a été dressé en 2017 à Mitterfels avec plus de 50 m.",
+            "En France, on offre du muguet le 1er mai — coutume introduite par Charles IX en 1561.",
+            "En Rhénanie, on plante des bouleaux décorés (‘Liebesmaien') devant la maison de la bien-aimée à la nuit du 1er mai.",
+            "Le 1er mai est jour férié dans plus de 80 pays — mais aux États-Unis et au Canada, le ‘Labor Day' tombe en septembre."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "mothers_day": {
+          "intro": "La fête des Mères honore les mères et leur rôle essentiel dans la famille et la société. Dans la plupart des pays, elle se célèbre le deuxième dimanche de mai.",
+          "history": "L'Américaine Anna Jarvis lança la fête des Mères moderne en 1907, en mémoire de sa mère défunte, et milita pour sa reconnaissance officielle — en 1914, le président Woodrow Wilson en fit une fête nationale. En France, la fête des Mères a été officialisée en 1950 par une loi proposée par René Coty, mais ses racines remontent à 1906 (initiative de l'abbé Calvet à Artas). Elle est traditionnellement le dernier dimanche de mai (ou le premier de juin si la Pentecôte tombe en même temps).",
+          "traditions": "Les enfants offrent à leur mère des fleurs — souvent tulipes, roses ou un bouquet printanier coloré. Les cartes faites main sont particulièrement appréciées des plus jeunes. Beaucoup de familles invitent à un brunch ou cuisinent le plat préféré de maman. Les restaurants sont traditionnellement complets ce dimanche-là.",
+          "funFacts": [
+            "Les fleuristes réalisent leur meilleur chiffre d'affaires de l'année à la fête des Mères — devant la Saint-Valentin.",
+            "La fête des Mères engendre le plus grand nombre d'appels téléphoniques de l'année en Amérique du Nord.",
+            "Anna Jarvis fut plus tard arrêtée pour avoir manifesté contre la commercialisation de la fête qu'elle avait elle-même créée.",
+            "En Thaïlande, la fête des Mères est le 12 août — anniversaire de la reine Sirikit."
+          ],
+          "imageCredit": "Photo: Kor!An (Андрей Корзун) · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "ascension": {
+          "intro": "L'Ascension rappelle que Jésus est retourné au ciel 40 jours après sa résurrection. La fête tombe toujours un jeudi, six semaines avant la Pentecôte.",
+          "history": "Eusèbe de Césarée mentionnait déjà la fête de l'Ascension au IVe siècle. La date vient des Actes des Apôtres : après sa résurrection, Jésus apparut aux disciples pendant 40 jours avant d'être ‘élevé au ciel'. Au Moyen Âge, ces premières processions devinrent les rogations dans les champs, où le prêtre bénissait cultures et chemins — coutume encore vivante en Allemagne du Sud catholique et en Autriche.",
+          "traditions": "Des messes solennelles, souvent suivies d'une procession à travers prés et champs, marquent le jour. En Allemagne, l'Ascension coïncide avec la fête des Pères traditionnelle. Les familles utilisent le pont pour des excursions, balades à vélo et premiers mâts de mai.",
+          "funFacts": [
+            "En France, le jour s'appelle ‘L'Ascension' et est férié depuis 1801.",
+            "En Angleterre et certaines paroisses, on pratique le ‘Beating the Bounds' : les paroissiens parcourent les limites de la paroisse en frappant des bornes avec des baguettes de saule.",
+            "En Suède, on pratiquait jadis la ‘Gökotta' aux premières heures — écouter le chant des oiseaux dans la nature.",
+            "La coutume allemande de la fête des Pères à l'Ascension est née dans le Berlin des années 1870."
+          ],
+          "imageCredit": "Photo: Basile Morin · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "La Fête-Dieu (‘corpus Christi', ‘corps du Christ') est une solennité catholique qui célèbre l'Eucharistie et la présence réelle du Christ dans le pain. Elle tombe le deuxième jeudi après la Pentecôte.",
+          "history": "La fête est issue d'une vision de la moniale belge Julienne de Liège (1193–1258), qui réclama une fête propre à l'Eucharistie. Le pape Urbain IV institua la Fête-Dieu en 1264. Thomas d'Aquin rédigea les textes liturgiques et hymnes comme ‘Lauda Sion Salvatorem'. Les célèbres processions naquirent au XIVe siècle. En France, la fête a perdu son statut férié au XIXe siècle, mais reste célébrée dans certaines paroisses et en Alsace-Moselle.",
+          "traditions": "Le sommet est la procession solennelle, où l'hostie consacrée est portée sous un dais à travers des rues parées. Les maisons sont décorées de verdure, fleurs et icônes. Dans certaines localités — comme Mühlheim am Main — il y a des processions sur l'eau, en barques. En Italie (‘Infiorata'), des rues entières sont décorées de tapis de fleurs.",
+          "funFacts": [
+            "Une des célébrations les plus spectaculaires se tient à Genzano (près de Rome) : ‘l'Infiorata' transforme une rue entière en tapis de fleurs.",
+            "En Bavière, on jette des images de fleurs colorées sur la rue avant le passage de la procession.",
+            "Le mot allemand ‘Fronleichnam' vient du moyen haut-allemand ‘vrôn' (Seigneur) et ‘lîchnam' (corps vivant) — pas de ‘cadavre'.",
+            "À Cologne, la ‘Gottestracht' de Mülheim est la seule procession au monde à se faire en bateaux sur le Rhin."
+          ],
+          "imageCredit": "Photo: Tranceliner · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "fathers_day": {
+          "intro": "La fête des Pères honore les pères et leur rôle dans la famille. Aux États-Unis et dans bien des pays, elle se célèbre le troisième dimanche de juin.",
+          "history": "L'Américaine Sonora Smart Dodd, de Spokane (Washington), lança la fête des Pères en 1910, inspirée par son père veuf, vétéran de la guerre de Sécession qui éleva seul ses six enfants. Elle choisit le mois de naissance de son père. Le président Nixon en fit un jour férié fédéral seulement en 1972. En France, la fête des Pères se célèbre le troisième dimanche de juin depuis 1952. En Allemagne, elle coïncide historiquement avec l'Ascension.",
+          "traditions": "Les enfants offrent à leur père des outils, des cravates, un livre ou des cartes faites main. De nombreuses familles servent le petit-déjeuner au lit, organisent un barbecue, partent en randonnée ou assistent à une rencontre sportive. Le jour est entièrement dédié à du temps détendu avec papa.",
+          "funFacts": [
+            "L'Australie et la Nouvelle-Zélande célèbrent la fête des Pères le premier dimanche de septembre — adaptée au début du printemps austral.",
+            "La toute première célébration officielle eut lieu le 19 juin 1910 à Spokane — avec des roses blanches pour les pères vivants et des roses rouges pour les défunts.",
+            "Les vendeurs de cravates enregistrent traditionnellement leur meilleur chiffre d'affaires de l'année à la fête des Pères.",
+            "Sonora Smart Dodd a vécu assez longtemps pour voir la reconnaissance officielle — elle est décédée en 1978 à 96 ans."
+          ],
+          "imageCredit": "Photo: W. Proud · Public domain via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "La Toussaint, le 1er novembre, est une solennité catholique où l'Église se souvient de tous les saints. Dans bien des pays, les familles visitent les tombes de leurs défunts.",
+          "history": "Dès le IVe siècle, on célébrait une fête commune pour tous les martyrs. Le pape Grégoire IV fixa la fête au 1er novembre en 837 — sans doute pour ‘christianiser' la fête celtique de Samain. Au Moyen Âge, la connexion s'établit avec le 2 novembre, jour des défunts. En France, c'est jour férié national depuis 1801 (concordat). En Allemagne, c'est férié dans les Länder catholiques.",
+          "traditions": "Les 1er et 2 novembre, les familles visitent les cimetières et fleurissent les tombes de chrysanthèmes (tradition française), de bougies et de compositions de branches de sapin. Les prêtres bénissent les tombes. En Pologne, la nuit du 1er novembre, des millions de bougies illuminent les cimetières — visibles depuis l'espace.",
+          "funFacts": [
+            "La nuit du 1er novembre en Pologne, des millions de bougies illuminent les cimetières — visibles depuis l'espace.",
+            "Le ‘Día de los Muertos' mexicain (1–2 novembre) est né de la fusion de traditions catholiques et aztèques.",
+            "L'‘Allerheiligenstriezel' — une brioche tressée aux raisins — est un cadeau traditionnel des parrains aux filleuls à Vienne.",
+            "Halloween (‘All Hallows' Eve') tire son nom directement de la veille de la Toussaint."
+          ],
+          "imageCredit": "Photo: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "La veille de Noël est le jour familial le plus important de Noël dans les pays germaniques — avec remise des cadeaux, repas festif et chants en chœur sous le sapin.",
+          "history": "Dès le IVe siècle, l'Église fixa la naissance de Jésus au 25 décembre. La veille (‘Vigile') était traditionnellement jour de jeûne. Après la Réforme, Luther déplaça en Allemagne la célébration centrale au 24 : il introduisit l'idée que ‘l'Enfant Jésus' (Christkind) apporte les cadeaux à la veille de Noël, en contre-modèle au saint Nicolas catholique. Le sapin décoré apparut au XVIIe siècle et conquit le monde au XIXe grâce à la reine Victoria.",
+          "traditions": "L'après-midi, on décore le sapin ; beaucoup de familles assistent à la messe des enfants ou de minuit. Vient ensuite la remise des cadeaux, souvent accompagnée de chants comme ‘Stille Nacht' ou ‘Mon beau sapin'. Plats classiques : salade de pommes de terre aux saucisses, carpe ou oie rôtie — selon la tradition familiale.",
+          "funFacts": [
+            "‘Douce nuit, sainte nuit' fut créée en 1818 à Oberndorf, près de Salzbourg — aujourd'hui traduite dans plus de 300 langues.",
+            "En Scandinavie et en Europe centrale, on s'offre les cadeaux le 24 au soir ; dans le monde anglo-saxon, seulement le matin du 25.",
+            "En Tchéquie et Slovaquie, on mange de la carpe à la veille de Noël — et l'on glisse une écaille dans son portefeuille pour la prospérité.",
+            "Le plus grand sapin naturel au monde s'élève chaque année à Dortmund, fait de quelque 1 700 sapins rouges individuels."
+          ],
+          "imageCredit": "Photo: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
+          "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
+          "traditions": "Les familles se rassemblent autour de repas festifs — dinde, oie, carpe ou raclette. On échange des cadeaux, chante des cantiques, beaucoup assistent à la messe festive. Le sapin décoré de lumières, boules et étoiles de paille est le symbole central. Calendrier de l'avent, biscuits et marchés de Noël jalonnent la préparation.",
+          "funFacts": [
+            "Le premier calendrier de l'avent commercial parut en 1908 à Munich — invention de Gerhard Lang.",
+            "Les marchés de Noël de Dresde (‘Striezelmarkt', depuis 1434) et de Francfort (depuis 1393) figurent parmi les plus anciens du monde.",
+            "La Norvège offre chaque année au Royaume-Uni un immense sapin pour Trafalgar Square depuis 1947 — en remerciement de l'aide pendant la Seconde Guerre mondiale.",
+            "Les classiques de Noël comme ‘Trois noisettes pour Cendrillon' ou ‘Love Actually' sont diffusés des dizaines de fois à la télé chaque année."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "La Saint-Sylvestre est le dernier jour de l'année et, dans bien des pays, une fête bruyante et étincelante avec feux d'artifice, champagne et soirées exubérantes.",
+          "history": "Le nom ‘Sylvestre' vient du pape Sylvestre Ier, mort le 31 décembre 335. Avec la réforme grégorienne de 1582, le 31 décembre s'est définitivement imposé comme dernier jour de l'année en Europe centrale. Les feux d'artifice trouvent leur origine dans des coutumes anciennes destinées à chasser les mauvais esprits par le bruit. Depuis les années 1950, la Saint-Sylvestre est devenue une grande tradition télévisée — le classique allemand ‘Dinner for One' est diffusé pour la première fois en 1963.",
+          "traditions": "À minuit, on fait le compte à rebours, on trinque au champagne, on s'embrasse et on contemple les feux. Les familles jouent à des jeux de société, coulent de la cire pour prédire l'année et regardent ‘Dinner for One'. Le menu festif est souvent raclette, fondue ou beignets fourrés.",
+          "funFacts": [
+            "Le plus grand compte à rebours du monde a lieu à Times Square, à New York — la fameuse boule de cristal descend chaque minuit depuis 1907.",
+            "‘Dinner for One' détient le record du programme télévisé le plus rediffusé au monde.",
+            "Sydney est l'une des premières grandes villes à fêter le Nouvel An en feux d'artifice — dès 14 h heure de Paris.",
+            "En Espagne, on mange un grain de raisin à chaque coup de cloche — réussir les douze annonce une année heureuse."
+          ],
+          "imageCredit": "Photo: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "new_year": {
+          "intro": "El 1 de enero marca el inicio de un nuevo año en el calendario gregoriano en todo el mundo. Para muchos es un día de esperanza, comienzos y buenos propósitos.",
+          "history": "Ya en el 153 a. C., los romanos fijaron el inicio del año el 1 de enero, día en que tomaban posesión los nuevos cónsules. En la Edad Media el comienzo del año cambió en muchas regiones a Navidad o Pascua. Solo con la reforma del calendario del papa Gregorio XIII en 1582 el 1 de enero volvió a imponerse como estándar europeo. El nombre Janus (enero en latín) evoca al dios romano de las dos caras, que miraba al pasado y al futuro a la vez.",
+          "traditions": "A medianoche, familias y amigos brindan con cava o champán y celebran con fuegos artificiales, amuletos como tréboles, deshollinadores o mariquitas, y la tradicional fundición de cera para predecir el año. También son populares el brunch de Año Nuevo y los paseos al aire libre. Muchos hacen propósitos para el año entrante.",
+          "funFacts": [
+            "En España se come una uva con cada una de las doce campanadas — un deseo por uva.",
+            "En Dinamarca se rompe vajilla vieja delante de las puertas de los amigos para darles suerte.",
+            "El Concierto de Año Nuevo de Viena se transmite en más de 90 países y se considera el arranque musical del año.",
+            "En la isla pacífica de Kiribati el Año Nuevo llega 26 horas antes que en la isla Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 vía Wikimedia Commons"
+        },
+        "epiphany": {
+          "intro": "Los Reyes Magos del 6 de enero recuerdan la visita de los magos de Oriente al Niño Jesús en Belén. Cierra el tiempo de Navidad.",
+          "history": "La fiesta de la Epifanía (‘manifestación del Señor') es de las más antiguas del cristianismo, celebrada ya en el siglo III — en la Iglesia oriental incluso como fiesta principal. Los nombres Gaspar, Melchor y Baltasar no figuran en la Biblia; se asignaron en la Edad Media. Sus reliquias estarían desde 1164 en la catedral de Colonia, lo que la convirtió en uno de los grandes destinos de peregrinación medieval. En España y Latinoamérica son la noche más mágica del año, cuando los Reyes Magos traen los regalos a los niños.",
+          "traditions": "En España la noche del 5 al 6 de enero los niños esperan a los Reyes Magos, que dejan regalos junto a los zapatos. La cabalgata de Reyes recorre las calles de cada ciudad. En Alemania y Austria, los ‘Sternsinger' (cantores estrella) van de casa en casa recaudando donativos para niños necesitados y escribiendo ‘C+M+B' (Christus mansionem benedicat) en las puertas.",
+          "funFacts": [
+            "La acción de los ‘Sternsinger' alemanes es la mayor campaña solidaria de niños para niños del mundo — más de 50 millones de euros al año.",
+            "La catedral de Colonia se planificó tan grande para albergar a los peregrinos hacia las reliquias de los Reyes.",
+            "En España y Latinoamérica los Reyes Magos traen los regalos en la noche del 5 al 6 de enero — no Papá Noel.",
+            "El ‘Roscón de Reyes' lleva una pequeña figura escondida — quien la encuentra es rey por un día."
+          ],
+          "imageCredit": "Foto: CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "El Día Internacional de la Mujer, el 8 de marzo, simboliza la igualdad de las mujeres, sus logros y la lucha contra la discriminación.",
+          "history": "El Día de la Mujer surgió del movimiento socialista de mujeres. La política alemana Clara Zetkin propuso en Copenhague en 1910 una jornada anual; ya en 1911 millones de mujeres salieron a la calle en Europa. En 1921 Lenin fijó el 8 de marzo en recuerdo de la huelga de mujeres de Petrogrado de marzo de 1917, que ayudó a desencadenar la Revolución de Febrero rusa. La ONU lo reconoció oficialmente en 1975 como ‘Día de las Naciones Unidas para los Derechos de la Mujer'.",
+          "traditions": "Las mujeres reciben flores — tradicionalmente mimosas o tulipanes — junto con tarjetas y pequeños obsequios. Muchas ciudades organizan manifestaciones, charlas y eventos culturales. En Berlín el 8 de marzo es festivo desde 2019, en Italia los hombres regalan ramitas de mimosa a las mujeres.",
+          "funFacts": [
+            "En Rusia y varios estados ex-soviéticos el 8 de marzo es festivo oficial no laborable.",
+            "En 2023 Mecklemburgo-Pomerania Occidental se convirtió en el segundo estado alemán, tras Berlín, en convertir el Día de la Mujer en festivo.",
+            "Cada año la ONU define un lema diferente — por ejemplo ‘Inspire Inclusion' o ‘DigitALL'.",
+            "En Italia la mimosa simboliza la fortaleza femenina porque florece incluso en condiciones difíciles."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "El 1 de mayo es en muchos países el ‘Día del Trabajador' — fiesta del movimiento obrero con manifestaciones, mayos y celebraciones primaverales.",
+          "history": "El 1 de mayo de 1886, cientos de miles de trabajadores en Chicago se declararon en huelga general por la jornada de ocho horas. Los choques posteriores en Haymarket dejaron varios muertos. En 1889 el Congreso Internacional de Trabajadores de París lo declaró ‘día de lucha del movimiento obrero'. En Alemania pasó a ser festivo legal en 1933 como ‘Día Nacional del Trabajo' y se mantuvo tras 1945 como símbolo de política favorable a los trabajadores.",
+          "traditions": "Los sindicatos organizan mítines y manifestaciones bajo lemas como ‘Más sueldo, más tiempo libre'. En muchas aldeas alemanas se planta un mayo en la noche del 1 de mayo — en el sur, un tronco coloridamente decorado; en el norte, un abedul ante la ventana de la amada. Caminatas de mayo, barbacoas y fiestas familiares son populares.",
+          "funFacts": [
+            "El mayo más alto de Baviera fue erigido en Mitterfels en 2017 con más de 50 m.",
+            "En Francia se regala muguete (‘muguet') el 1 de mayo — costumbre que el rey Carlos IX introdujo en 1561.",
+            "En Renania, en la Noche de Mayo se ponen abedules decorados (‘Liebesmaien') ante la casa de la enamorada.",
+            "El 1 de mayo es festivo en más de 80 países — pero en EE. UU. y Canadá el ‘Labor Day' se celebra en septiembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 vía Wikimedia Commons"
+        },
+        "mothers_day": {
+          "intro": "El Día de la Madre honra a las madres y su papel esencial en la familia y la sociedad. En la mayoría de países se celebra el segundo domingo de mayo.",
+          "history": "La estadounidense Anna Jarvis impulsó el moderno Día de la Madre en 1907 en memoria de su madre fallecida y luchó por su reconocimiento oficial — en 1914 el presidente Woodrow Wilson lo declaró fiesta nacional el segundo domingo de mayo. En 1923 la asociación alemana de floristas importó el Día de la Madre por evidentes razones comerciales. Irónicamente, Anna Jarvis combatió luego encarnizadamente la comercialización del día.",
+          "traditions": "Los hijos regalan flores a sus madres — generalmente tulipanes, rosas o un ramo primaveral. Las tarjetas hechas a mano y los dibujos pintados son favoritos entre los más pequeños. Muchas familias organizan un brunch o cocinan el plato favorito de mamá. Los restaurantes están tradicionalmente al completo ese domingo.",
+          "funFacts": [
+            "Las floristerías hacen su mayor facturación del año en el Día de la Madre — más incluso que en San Valentín.",
+            "El Día de la Madre genera el mayor número de llamadas telefónicas del año en Norteamérica.",
+            "Anna Jarvis fue arrestada por protestar contra la comercialización del propio día que había creado.",
+            "En Tailandia el Día de la Madre es el 12 de agosto — cumpleaños de la reina Sirikit."
+          ],
+          "imageCredit": "Foto: Kor!An (Андрей Корзун) · CC BY-SA 3.0 vía Wikimedia Commons"
+        },
+        "ascension": {
+          "intro": "La Ascensión recuerda que Jesús subió al cielo 40 días después de su resurrección. La festividad cae siempre en jueves, seis semanas antes de Pentecostés.",
+          "history": "Eusebio de Cesarea ya mencionaba en el siglo IV la fiesta de la Ascensión. La fecha proviene de los Hechos de los Apóstoles: tras su resurrección Jesús se apareció a los discípulos durante 40 días antes de ser ‘elevado al cielo'. En la Edad Media de aquellas primeras procesiones surgieron las rogativas por los campos, en las que el sacerdote bendecía sembrados y caminos — costumbre aún viva en el sur de Alemania y Austria católicos.",
+          "traditions": "Misas solemnes, a menudo seguidas de una procesión por los campos, marcan el día. En Alemania la Ascensión coincide con el Día del Padre tradicional. Las familias aprovechan el ‘puente' para excursiones, salidas en bicicleta y para erigir los primeros mayos.",
+          "funFacts": [
+            "En Francia el día se llama ‘L'Ascension' y es festivo desde 1801.",
+            "En Inglaterra y algunas parroquias hay ‘Beating the Bounds': los feligreses recorren los límites de la parroquia golpeando hitos con varas de sauce.",
+            "En Suecia se practicaba antiguamente el ‘Gökotta' a primera hora de la mañana — escuchar el canto de los pájaros en la naturaleza.",
+            "La costumbre alemana del Día del Padre en la Ascensión nació en el Berlín de los años 1870."
+          ],
+          "imageCredit": "Foto: Basile Morin · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "Corpus Christi (‘el cuerpo de Cristo') es una solemnidad católica que celebra la Eucaristía y la presencia real de Cristo en el pan. Cae el segundo jueves después de Pentecostés.",
+          "history": "La fiesta surge de una visión de la monja belga Juliana de Lieja (1193–1258), que pidió una fiesta propia de la Eucaristía. El papa Urbano IV instauró el Corpus Christi en 1264. Tomás de Aquino redactó los textos litúrgicos y himnos como ‘Lauda Sion Salvatorem'. Las célebres procesiones surgieron en el siglo XIV. En España, ciudades como Toledo, Sevilla y Granada celebran procesiones espectaculares. En Italia el ‘Infiorata' adorna calles enteras con alfombras de flores.",
+          "traditions": "El centro es la procesión solemne en la que la hostia consagrada se lleva bajo palio por calles engalanadas. Las casas se adornan con ramas verdes, flores y estampas. En España las calles se cubren de pétalos formando alfombras. Las familias acompañan la procesión con sus mejores ropas dominicales.",
+          "funFacts": [
+            "Una de las celebraciones más espectaculares es la ‘Infiorata' de Genzano (cerca de Roma): toda una calle queda convertida en alfombra de flores.",
+            "En Toledo la Custodia de Arfe pesa más de 180 kg de oro y plata y se saca solo en Corpus.",
+            "El término alemán ‘Fronleichnam' viene del medio alto alemán ‘vrôn' (señor) y ‘lîchnam' (cuerpo vivo) — no de ‘cadáver'.",
+            "En Colonia, la ‘Gottestracht' de Mülheim es la única procesión por agua del mundo, en barcos sobre el Rin."
+          ],
+          "imageCredit": "Foto: Tranceliner · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "fathers_day": {
+          "intro": "El Día del Padre honra a los padres y su papel en la familia. En EE. UU. y muchos países se celebra el tercer domingo de junio.",
+          "history": "Sonora Smart Dodd, de Spokane (Washington), impulsó el Día del Padre en 1910 inspirada en su padre soltero, veterano de la Guerra Civil que crió a seis hijos. Eligió el mes de su nacimiento. Solo en 1972 el presidente Nixon lo declaró fiesta federal el tercer domingo de junio. En España y muchos países católicos se celebra el 19 de marzo, día de San José; en Alemania coincide con la Ascensión.",
+          "traditions": "Los hijos regalan a sus padres herramientas, corbatas, libros o tarjetas hechas a mano. Muchas familias llevan el desayuno a la cama, organizan una barbacoa, salen de excursión o asisten a un evento deportivo. El día se dedica a un tiempo de calidad relajado con papá.",
+          "funFacts": [
+            "Australia y Nueva Zelanda celebran el Día del Padre el primer domingo de septiembre — adaptado al inicio de la primavera austral.",
+            "La primera celebración oficial fue el 19 de junio de 1910 en Spokane — con rosas blancas para padres vivos y rojas para los fallecidos.",
+            "Las corbaterías baten su mayor venta del año en el Día del Padre.",
+            "Sonora Smart Dodd vivió para ver el reconocimiento oficial — falleció en 1978 a los 96 años."
+          ],
+          "imageCredit": "Foto: W. Proud · Public domain vía Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Todos los Santos, el 1 de noviembre, es una solemnidad católica en la que la Iglesia recuerda a todos los santos. En muchos países las familias visitan las tumbas de sus difuntos.",
+          "history": "Ya en el siglo IV existía una conmemoración común de todos los mártires. El papa Gregorio IV fijó la fiesta el 1 de noviembre en 837 — probablemente para ‘cristianizar' la celta de Samhain. En la Edad Media surge la conexión con el Día de los Difuntos del 2 de noviembre. En España, Italia y Polonia es festivo nacional. En Alemania lo es en los estados federados católicos.",
+          "traditions": "El 1 y 2 de noviembre las familias visitan los cementerios y adornan las tumbas con velas, flores y composiciones de ramas de abeto. Los sacerdotes bendicen las tumbas. En España es tradición ver ‘Don Juan Tenorio' y comer huesos de santo y buñuelos. En Polonia la noche del 1 de noviembre los cementerios brillan con millones de velas — visibles desde el espacio.",
+          "funFacts": [
+            "En Polonia, en la noche del 1 de noviembre, millones de velas iluminan los cementerios — visibles desde el espacio.",
+            "El ‘Día de los Muertos' mexicano (1–2 de noviembre) nació de la fusión de tradiciones católicas y aztecas.",
+            "El ‘Allerheiligenstriezel' — un trenzado de levadura con pasas — es regalo tradicional de padrinos a ahijados en Viena.",
+            "Halloween (‘All Hallows' Eve') toma su nombre directamente de la víspera de Todos los Santos."
+          ],
+          "imageCredit": "Foto: MichalPL · CC0 vía Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "Nochebuena es el día familiar más importante de la Navidad en los países germanos: regalos, cena festiva y villancicos junto al árbol.",
+          "history": "Ya en el siglo IV la Iglesia fijó el nacimiento de Jesús el 25 de diciembre. La víspera (‘Vigilia') fue tradicionalmente día de ayuno. En Alemania la celebración central se desplazó tras la Reforma: a comienzos del siglo XVI, Lutero introdujo la costumbre de que el ‘Niño Jesús' (Christkind) traiga regalos en Nochebuena, como contrapunto al San Nicolás católico. El árbol decorado surgió en el siglo XVII y conquistó el mundo en el XIX gracias a la reina Victoria.",
+          "traditions": "Por la tarde se decora el árbol; muchas familias asisten a la misa infantil o del gallo. Después llegan los regalos, a menudo con villancicos como ‘Stille Nacht' o ‘O Tannenbaum'. Platos clásicos: ensalada de patatas con salchichas, carpa o ganso asado, según la familia.",
+          "funFacts": [
+            "‘Noche de paz, noche de amor' (‘Stille Nacht') se estrenó en 1818 en Oberndorf, cerca de Salzburgo — hoy traducida a más de 300 idiomas.",
+            "En Escandinavia y Europa central los regalos llegan en Nochebuena; en el mundo anglosajón solo la mañana del 25.",
+            "En Chequia y Eslovaquia se come carpa en Nochebuena — y se guarda una escama en la cartera para atraer dinero.",
+            "El árbol natural más grande del mundo se monta cada año en Dortmund con unos 1.700 abetos rojos."
+          ],
+          "imageCredit": "Foto: ZemplinTemplar · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
+          "history": "Ya en el año 354 un calendario romano consigna el 25 de diciembre como ‘dies natalis Christi'. Probablemente la Iglesia eligió la fecha para reinterpretar cristianamente el ‘Sol Invictus' romano. El intercambio de regalos arraiga en los obsequios de los Magos. El moderno Papá Noel con abrigo rojo y barba blanca es una mezcla de San Nicolás con una campaña publicitaria de Coca-Cola de 1931.",
+          "traditions": "Las familias se reúnen para comidas festivas — pavo, ganso, carpa o raclette. Se intercambian regalos, se cantan villancicos y muchos asisten al servicio festivo. El árbol decorado con luces y bolas es el símbolo central. El calendario de Adviento, las galletas y los mercadillos forman parte de la preparación.",
+          "funFacts": [
+            "El primer calendario de Adviento comercial apareció en 1908 en Múnich — invento de Gerhard Lang.",
+            "Los mercadillos navideños de Dresde (‘Striezelmarkt', desde 1434) y Fráncfort (desde 1393) son de los más antiguos del mundo.",
+            "Noruega regala al Reino Unido un enorme árbol de Navidad para Trafalgar Square cada año desde 1947 — agradecimiento por la ayuda en la Segunda Guerra Mundial.",
+            "Los clásicos como ‘Tres Avellanas para Cenicienta' o ‘Love Actually' se emiten decenas de veces cada año en TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "Nochevieja es el último día del año y, en muchos países, una fiesta ruidosa y brillante con fuegos artificiales, cava y celebraciones efusivas.",
+          "history": "El nombre ‘Silvester' (alemán) viene del papa Silvestre I, fallecido el 31 de diciembre del 335. Con la introducción del calendario gregoriano en 1582 el 31 de diciembre quedó definitivamente como último día del año en Europa central. Los fuegos artificiales tienen origen en costumbres antiguas para ahuyentar a los malos espíritus con ruido. Desde los años 50 se convirtió en gran tradición televisiva — el clásico alemán ‘Dinner for One' se emitió por primera vez en NDR en 1963.",
+          "traditions": "A medianoche se hace la cuenta atrás, se brinda con cava, se abrazan y se contemplan los fuegos. Las familias juegan a juegos de mesa, vierten cera para predecir el año y ven el clásico ‘Dinner for One'. El menú festivo suele ser raclette, fondue o buñuelos.",
+          "funFacts": [
+            "La mayor cuenta atrás del mundo se vive en Times Square, Nueva York: la famosa bola de cristal desciende a medianoche desde 1907.",
+            "‘Dinner for One' ostenta el récord de la emisión de TV más repetida del mundo.",
+            "Sídney es una de las primeras grandes ciudades en estrenar el año con fuegos — ya a las 14 h hora de Europa Central.",
+            "En España se come una uva con cada campanada — quien las acaba todas tendrá un año feliz."
+          ],
+          "imageCredit": "Foto: Makia Minich · CC BY-SA 3.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "new_year": {
+          "intro": "1 de janeiro marca o início de um novo ano no calendário gregoriano em todo o mundo. Para muitos é um dia de esperança, novos começos e boas resoluções.",
+          "history": "Já em 153 a.C. os romanos fixaram o início do ano em 1 de janeiro, dia em que tomavam posse os novos cônsules. Na Idade Média, o início do ano deslocou-se em muitas regiões para o Natal ou a Páscoa. Só com a reforma do calendário do Papa Gregório XIII em 1582 o 1 de janeiro voltou a impor-se como padrão europeu. O nome Janus (janeiro em latim) evoca o deus romano de duas faces, que olhava simultaneamente para o passado e o futuro.",
+          "traditions": "À meia-noite, famílias e amigos brindam com espumante e celebram com fogo de artifício, amuletos como trevos, limpa-chaminés ou joaninhas, e a tradicional fundição de cera para prever o ano. Também são populares o brunch de Ano Novo e os passeios ao ar livre. Muitos fazem resoluções para o ano que começa.",
+          "funFacts": [
+            "Em Portugal e Espanha, come-se uma uva por cada uma das doze badaladas — um desejo por uva.",
+            "Na Dinamarca, partem-se louças velhas em frente à porta dos amigos para lhes dar sorte.",
+            "O Concerto de Ano Novo de Viena é transmitido em mais de 90 países — abertura musical do ano.",
+            "Na ilha pacífica de Kiribati, o Ano Novo chega 26 horas antes do que na ilha de Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "epiphany": {
+          "intro": "A Epifania, 6 de janeiro, recorda a visita dos Magos do Oriente ao Menino Jesus em Belém. Encerra o tempo do Natal. Em Portugal é o Dia de Reis, com a tradição do bolo-rei e do cantar das janeiras.",
+          "history": "A festa da Epifania (‘manifestação do Senhor') é uma das mais antigas do cristianismo, celebrada já no século III — na Igreja oriental como festa principal. Os nomes dos três Magos, Gaspar, Belchior e Baltasar, não constam da Bíblia; foram atribuídos na Idade Média. As suas relíquias estarão desde 1164 na Catedral de Colónia. Em Portugal, o Dia de Reis encerra as festas natalícias, e é tradição cantar as Janeiras (cantigas que pedem boas-festas) e comer o bolo-rei.",
+          "traditions": "Em Portugal, no Dia de Reis come-se o bolo-rei (com fava e brinde escondidos) e cantam-se as Janeiras — grupos de pessoas vão de porta em porta cantando cantigas que pedem boas festas. Na Alemanha e Áustria, os ‘Sternsinger' (cantores da estrela) andam de porta em porta a recolher donativos para crianças necessitadas e a escrever ‘C+M+B' nas portas.",
+          "funFacts": [
+            "A ação ‘Sternsinger' alemã é a maior campanha de solidariedade de crianças para crianças no mundo — mais de 50 milhões de euros doados por ano.",
+            "Em Portugal, quem encontra a fava no bolo-rei terá de comprar o bolo-rei do ano seguinte!",
+            "Em Espanha e na América Latina os ‘Reyes Magos' trazem os presentes na noite de 5 de janeiro — não o Pai Natal.",
+            "O tradicional ‘bolo de reis' (‘Galette des Rois' em França, ‘Roscón de Reyes' em Espanha) esconde uma pequena figura — quem a encontra é rei por um dia."
+          ],
+          "imageCredit": "Foto: CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "O Dia Internacional da Mulher, 8 de março, simboliza a igualdade das mulheres, as suas conquistas e a luta contra a discriminação.",
+          "history": "O Dia da Mulher nasceu do movimento socialista feminino. A política alemã Clara Zetkin propôs em Copenhaga, em 1910, um dia anual de ação; já em 1911 milhões de mulheres na Europa saíram à rua. Em 1921, Lenine fixou o 8 de março, em memória da greve das operárias de Petrogrado em março de 1917, que ajudou a desencadear a Revolução de Fevereiro russa. A ONU reconheceu-o oficialmente em 1975 como ‘Dia das Nações Unidas para os Direitos da Mulher'.",
+          "traditions": "As mulheres recebem flores — tradicionalmente mimosas ou tulipas — junto com cartões e pequenas lembranças. Em muitas cidades realizam-se manifestações, palestras e eventos culturais. Em Berlim, o 8 de março é feriado desde 2019; em Itália, os homens oferecem ramos de mimosa às mulheres.",
+          "funFacts": [
+            "Na Rússia e em vários antigos estados soviéticos, o 8 de março é feriado oficial não trabalhado.",
+            "Em 2023, Mecklemburgo-Pomerânia Ocidental tornou-se o segundo estado alemão a seguir Berlim a tornar o Dia da Mulher feriado.",
+            "Os temas da ONU mudam todos os anos — por exemplo ‘Inspire Inclusion' ou ‘DigitALL'.",
+            "Em Itália, a mimosa simboliza a força feminina porque floresce mesmo em condições difíceis."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 de maio é em muitos países o ‘Dia do Trabalhador' — feriado do movimento operário com manifestações, festas de maio e celebrações primaveris. Em Portugal, é feriado nacional desde 1974.",
+          "history": "A 1 de maio de 1886, centenas de milhares de trabalhadores em Chicago entraram em greve geral pela jornada de oito horas. Os confrontos seguintes em Haymarket fizeram vários mortos. Em 1889, o Congresso Internacional dos Trabalhadores em Paris declarou o 1 de maio ‘dia de luta do movimento operário'. Em Portugal, foi assinalado clandestinamente durante o Estado Novo e tornou-se feriado oficial logo após a Revolução de 25 de Abril de 1974.",
+          "traditions": "Os sindicatos organizam comícios e desfiles com lemas como ‘Mais salário, mais tempo livre'. Em Portugal, a CGTP organiza um grande desfile no Porto e em Lisboa, com milhares de manifestantes. Muitas famílias aproveitam o feriado para piqueniques, churrascos e idas à praia.",
+          "funFacts": [
+            "Em Portugal, o 1.º de Maio de 1974 — apenas 6 dias após a Revolução dos Cravos — foi um dos primeiros grandes ajuntamentos populares livres em décadas.",
+            "Em França, oferece-se muguete (‘muguet') no 1.º de Maio — costume introduzido pelo rei Carlos IX em 1561.",
+            "Na Renânia, na noite de 1.º de Maio, colocam-se vidoeiros decorados (‘Liebesmaien') diante da casa da amada.",
+            "O 1.º de Maio é feriado em mais de 80 países — mas nos EUA e Canadá o ‘Labor Day' é em setembro."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "mothers_day": {
+          "intro": "O Dia da Mãe homenageia as mães e o seu papel essencial na família e na sociedade. Em Portugal celebra-se no primeiro domingo de maio.",
+          "history": "A americana Anna Jarvis lançou o moderno Dia da Mãe em 1907, em memória da sua mãe falecida, e fez campanha pelo seu reconhecimento oficial — em 1914 o Presidente Wilson declarou o segundo domingo de maio feriado nacional. Em Portugal celebra-se no primeiro domingo de maio (data diferente da maioria dos países). O dia foi originalmente celebrado a 8 de dezembro (Imaculada Conceição), mas em 1972 a data foi mudada para o primeiro domingo de maio. Ironicamente, Anna Jarvis lutou depois ferozmente contra a comercialização da festa.",
+          "traditions": "Os filhos oferecem às mães flores — geralmente tulipas, rosas ou um bouquet primaveril colorido. Cartões e desenhos feitos à mão são especialmente populares entre os mais novos. Muitas famílias organizam um almoço ou cozinham o prato favorito da mãe. Em Portugal, é tradição as crianças oferecerem trabalhos manuais feitos no infantário ou na escola.",
+          "funFacts": [
+            "As floristas registam o maior volume de vendas do ano no Dia da Mãe — mais até do que no Dia de São Valentim.",
+            "O Dia da Mãe gera o maior número de chamadas telefónicas do ano na América do Norte.",
+            "Anna Jarvis foi mais tarde detida por protestar contra a comercialização do dia que ela própria criara.",
+            "Na Tailândia, o Dia da Mãe é a 12 de agosto — aniversário da Rainha Sirikit."
+          ],
+          "imageCredit": "Foto: Kor!An (Андрей Корзун) · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "ascension": {
+          "intro": "A Ascensão recorda que Jesus voltou ao céu 40 dias depois da sua ressurreição. A festa cai sempre numa quinta-feira, seis semanas antes do Pentecostes.",
+          "history": "Eusébio de Cesareia já mencionava no século IV a festa da Ascensão. A data deriva dos Atos dos Apóstolos: depois da ressurreição, Jesus apareceu aos discípulos durante 40 dias antes de ser ‘elevado ao céu'. Na Idade Média, dessas primeiras procissões nasceram as rogativas pelos campos, em que o sacerdote abençoava as culturas e os caminhos — costume ainda vivo no sul católico da Alemanha e na Áustria.",
+          "traditions": "Missas solenes, muitas vezes seguidas de procissão pelos campos, marcam o dia. Na Alemanha, a Ascensão coincide com o tradicional Dia do Pai. As famílias aproveitam a ‘ponte' para excursões, passeios de bicicleta e o levantamento dos primeiros maios. Em Portugal não é feriado, mas a Quinta-Feira de Espiga é uma tradição popular ligada a este dia.",
+          "funFacts": [
+            "Em França o dia chama-se ‘L'Ascension' e é feriado desde 1801.",
+            "Em Inglaterra, em algumas paróquias, há o ‘Beating the Bounds': os paroquianos percorrem os limites da paróquia batendo nas marcas com varas de salgueiro.",
+            "Em Portugal a Quinta-Feira de Espiga é tradicionalmente um dia em que se deseja saúde, paz e fartura — colhe-se um ramo simbólico com espigas, papoilas e ramos de oliveira.",
+            "O costume alemão do Dia do Pai na Ascensão nasceu na Berlim dos anos 1870."
+          ],
+          "imageCredit": "Foto: Basile Morin · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "O Corpo de Deus (‘corpus Christi', ‘corpo do Senhor') é uma solenidade católica que celebra a Eucaristia e a presença real de Cristo no pão. Cai na segunda quinta-feira após o Pentecostes. Em Portugal é feriado nacional.",
+          "history": "A festa nasce de uma visão da freira belga Juliana de Liège (1193–1258), que pediu uma festa própria da Eucaristia. O Papa Urbano IV instituiu o Corpo de Deus em 1264. Tomás de Aquino redigiu os textos litúrgicos e os hinos como ‘Lauda Sion Salvatorem'. As célebres procissões nasceram no século XIV. Em Portugal, as procissões de Corpus Christi são vivas em todo o país, com destaque para as do Porto, Braga e Penafiel.",
+          "traditions": "O ponto alto é a procissão solene, em que a hóstia consagrada é levada sob um pálio por ruas adornadas. Em Portugal, as ruas são frequentemente cobertas com tapetes de pétalas de flores ao longo do percurso da procissão. As casas decoram-se com ramos verdes, flores e imagens de santos. As famílias acompanham a procissão com as suas melhores roupas.",
+          "funFacts": [
+            "Em Portugal, na ilha da Madeira (Câmara de Lobos) há tapetes de flores que se estendem por quilómetros para a procissão de Corpus Christi.",
+            "Uma das celebrações mais espetaculares é a ‘Infiorata' de Genzano (perto de Roma): toda uma rua é convertida num tapete de flores.",
+            "A palavra alemã ‘Fronleichnam' vem do médio alto alemão ‘vrôn' (Senhor) e ‘lîchnam' (corpo vivo) — não de ‘cadáver'.",
+            "Em Colónia, a ‘Gottestracht' de Mülheim é a única procissão do mundo a fazer-se em barcos sobre o Reno."
+          ],
+          "imageCredit": "Foto: Tranceliner · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "fathers_day": {
+          "intro": "O Dia do Pai homenageia os pais e o seu papel na família. Nos EUA e em muitos países celebra-se no terceiro domingo de junho. Em Portugal, celebra-se a 19 de março, dia de São José.",
+          "history": "A americana Sonora Smart Dodd, de Spokane (Washington), lançou o Dia do Pai em 1910, inspirada pelo seu pai viúvo, veterano da Guerra Civil, que criou seis filhos sozinho. Só em 1972 o Presidente Nixon o declarou feriado federal. Em Portugal, o Dia do Pai coincide com São José (19 de março), padroeiro dos pais de família, e é celebrado desde tempos imemoriais.",
+          "traditions": "Os filhos oferecem aos pais ferramentas, gravatas, livros ou cartões feitos à mão. Em Portugal, as crianças nas escolas e infantários fazem trabalhos manuais para oferecer ao pai. Muitas famílias organizam um almoço, um churrasco ou uma saída em família. O dia é dedicado a um tempo de qualidade descontraído com o pai.",
+          "funFacts": [
+            "Austrália e Nova Zelândia celebram o Dia do Pai no primeiro domingo de setembro — adaptado ao início da primavera austral.",
+            "A primeira celebração oficial do Dia do Pai foi a 19 de junho de 1910 em Spokane — com rosas brancas para os pais vivos e vermelhas para os falecidos.",
+            "Os vendedores de gravatas registam tradicionalmente o maior volume de vendas do ano no Dia do Pai.",
+            "Sonora Smart Dodd viveu para ver o reconhecimento oficial — faleceu apenas em 1978, com 96 anos."
+          ],
+          "imageCredit": "Foto: W. Proud · Public domain via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Todos-os-Santos, 1 de novembro, é uma solenidade católica em que a Igreja recorda todos os santos. Em Portugal é feriado nacional e dia de visita aos cemitérios.",
+          "history": "Já no século IV existia uma comemoração comum de todos os mártires. O Papa Gregório IV fixou a festa a 1 de novembro em 837 — provavelmente para ‘cristianizar' a celta de Samhain. Na Idade Média desenvolveu-se a ligação ao Dia dos Fiéis Defuntos a 2 de novembro. Em Portugal, o Dia de Todos-os-Santos é tradicionalmente também o dia do ‘Pão-por-Deus', em que crianças vão de porta em porta pedir pequenos pães, doces ou frutos secos.",
+          "traditions": "Em Portugal, o Pão-por-Deus é uma tradição rural ainda viva: as crianças vão de porta em porta a pedir o ‘pão-por-Deus' e recebem doces, castanhas, romãs ou pequenas moedas. As famílias visitam os cemitérios e enfeitam as sepulturas com flores (frequentemente crisântemos). Há missas solenes em muitas paróquias.",
+          "funFacts": [
+            "Em Portugal, a tradição do ‘Pão-por-Deus' lembra o Halloween anglo-saxónico — mas é muito mais antiga e enraizada no rural.",
+            "Na Polónia, na noite de 1 de novembro, milhões de velas iluminam os cemitérios — visíveis do espaço.",
+            "O ‘Día de los Muertos' mexicano (1–2 de novembro) nasceu da fusão de tradições católicas e astecas.",
+            "Halloween (‘All Hallows' Eve') deriva o nome diretamente da véspera de Todos-os-Santos."
+          ],
+          "imageCredit": "Foto: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "A Consoada é o dia em família mais importante do Natal nos países germânicos — com troca de prendas, ceia festiva e cantorias junto à árvore. Em Portugal é a noite da consoada, com bacalhau cozido e missa do galo.",
+          "history": "Já no século IV a Igreja fixou o nascimento de Jesus a 25 de dezembro. A véspera (‘Vigília') foi tradicionalmente dia de jejum. Após a Reforma, Lutero deslocou na Alemanha a celebração principal: no início do século XVI introduziu o costume de o ‘Menino Jesus' (Christkind) trazer presentes na Consoada — em contraponto ao São Nicolau católico. Em Portugal, a tradição é o bacalhau cozido com batatas e couve, e a missa do galo à meia-noite.",
+          "traditions": "Em Portugal a Consoada é uma noite de família com bacalhau cozido com batatas, couve e ovo, seguido de bolo-rei, rabanadas, sonhos e filhós. À meia-noite vai-se à Missa do Galo. Nos países germânicos, decora-se a árvore, vai-se à missa das crianças e trocam-se prendas com cantos como ‘Stille Nacht'.",
+          "funFacts": [
+            "‘Noite Feliz' (‘Stille Nacht') estreou em 1818 em Oberndorf, perto de Salzburgo — hoje traduzida em mais de 300 línguas.",
+            "Na Escandinávia e Europa Central, as prendas trocam-se na Consoada; no mundo anglófono só na manhã do dia 25.",
+            "Na Madeira, o ‘Cantar dos Reis' começa logo na noite de Consoada e estende-se por dias.",
+            "A maior árvore de Natal natural do mundo é montada todos os anos em Dortmund (Alemanha), feita com cerca de 1.700 abetos."
+          ],
+          "imageCredit": "Foto: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
+          "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
+          "traditions": "As famílias reúnem-se em refeições festivas — peru, ganso, bacalhau ou raclette nos países germânicos; em Portugal, o típico almoço de Natal com peru ou cabrito assado, e as sobremesas de bolo-rei, sonhos, rabanadas, aletria e arroz-doce. Trocam-se presentes, cantam-se cânticos, muitos vão à missa festiva. A árvore decorada e o presépio são símbolos centrais.",
+          "funFacts": [
+            "O primeiro calendário do Advento comercial apareceu em 1908 em Munique — invenção de Gerhard Lang.",
+            "Os mercados de Natal de Dresden (‘Striezelmarkt', desde 1434) e Frankfurt (desde 1393) estão entre os mais antigos do mundo.",
+            "A Noruega oferece ao Reino Unido um enorme abeto para Trafalgar Square todos os anos desde 1947 — em agradecimento pela ajuda na II Guerra.",
+            "Em Portugal, a tradição do bolo-rei remonta ao século XIX, importado da pastelaria francesa."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "A Véspera de Ano Novo é o último dia do ano e, em muitos países, uma festa ruidosa e brilhante com fogo de artifício, espumante e celebrações exuberantes.",
+          "history": "O nome alemão ‘Silvester' vem do Papa Silvestre I, falecido a 31 de dezembro de 335. Com a introdução do calendário gregoriano em 1582, o 31 de dezembro tornou-se definitivamente o último dia do ano na Europa central. O fogo de artifício tem origem em costumes antigos para afastar maus espíritos com barulho. A partir dos anos 50, tornou-se grande tradição televisiva. Em Portugal, o réveillon na Madeira é mundialmente famoso pelo seu fogo de artifício.",
+          "traditions": "À meia-noite faz-se a contagem decrescente, brinda-se com espumante, abraçam-se e contemplam-se os fogos. As famílias jogam jogos de tabuleiro, vertem cera para prever o ano e veem clássicos de TV. Em Portugal come-se 12 passas (uma por cada badalada) para os 12 desejos. O réveillon do Funchal (Madeira) é um dos maiores fogos de artifício do mundo.",
+          "funFacts": [
+            "A maior contagem decrescente do mundo é em Times Square, Nova York — a famosa bola de cristal cai à meia-noite desde 1907.",
+            "O réveillon do Funchal (Madeira) já entrou no Guinness pelo maior fogo de artifício do mundo.",
+            "Sydney é uma das primeiras grandes cidades a celebrar o Ano Novo com fogos — já às 13h hora de Lisboa.",
+            "Em Portugal e Espanha come-se uma uva a cada badalada — quem comer todas as 12 terá um ano feliz."
+          ],
+          "imageCredit": "Foto: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "new_year": {
+          "intro": "Il 1° gennaio segna l'inizio di un nuovo anno nel calendario gregoriano in tutto il mondo. Per molti è un giorno di speranza, di nuovi inizi e di buoni propositi.",
+          "history": "Già nel 153 a.C. i Romani fissarono l'inizio dell'anno al 1° gennaio, giorno dell'insediamento dei nuovi consoli. Nel Medioevo l'inizio dell'anno si spostò in molte regioni a Natale o Pasqua. Solo con la riforma del calendario di papa Gregorio XIII nel 1582 il 1° gennaio tornò ad imporsi come standard europeo. Il nome ‘gennaio' deriva dal dio romano Giano, che con due volti guardava contemporaneamente al passato e al futuro.",
+          "traditions": "A mezzanotte famiglie e amici brindano con spumante e festeggiano con fuochi d'artificio, portafortuna come quadrifogli, spazzacamini o coccinelle e la tradizionale colata di piombo (oggi di cera). Sono diffusi anche il brunch di Capodanno e la passeggiata all'aria aperta. Molti formulano buoni propositi per l'anno che inizia.",
+          "funFacts": [
+            "In Spagna si mangia un chicco d'uva a ogni rintocco delle dodici campane — un desiderio per chicco.",
+            "In Danimarca si rompono stoviglie davanti alle porte degli amici per portare loro fortuna.",
+            "Il Concerto di Capodanno di Vienna è trasmesso in oltre 90 paesi — apertura musicale dell'anno.",
+            "Sull'isola pacifica di Kiribati il Capodanno arriva 26 ore prima rispetto all'isola Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "epiphany": {
+          "intro": "L'Epifania, il 6 gennaio, ricorda la visita dei Magi venuti dall'Oriente al Bambino Gesù a Betlemme. Chiude il tempo di Natale. In Italia è anche il giorno della Befana, la vecchietta che porta dolci ai bambini.",
+          "history": "La festa dell'Epifania (‘manifestazione del Signore') è una delle più antiche del cristianesimo, celebrata già nel III secolo — nella Chiesa orientale come festa principale. I nomi dei tre Magi, Gaspare, Melchiorre e Baldassarre, non sono nella Bibbia; furono attribuiti nel Medioevo. Le loro reliquie sarebbero dal 1164 nel Duomo di Colonia. In Italia la tradizione della Befana, vecchietta che porta dolci ai bambini buoni e carbone ai cattivi, è radicata da secoli.",
+          "traditions": "In Italia la Befana lascia calze piene di dolci e carbone (di zucchero) per i bambini la notte del 5 gennaio. Si organizzano feste con cortei della Befana e mercatini. In Germania e Austria, gli ‘Sternsinger' (cantori della stella) vanno di casa in casa raccogliendo offerte e scrivendo ‘C+M+B' sulle porte. In Spagna i ‘Reyes Magos' portano i doni.",
+          "funFacts": [
+            "L'azione degli ‘Sternsinger' tedeschi è la più grande campagna solidale di bambini per bambini al mondo — oltre 50 milioni di euro l'anno.",
+            "La Befana italiana ha origini precristiane, legate a riti agricoli e di rinnovamento.",
+            "Il Duomo di Colonia fu progettato così grande per accogliere i pellegrini alle reliquie dei Magi.",
+            "La tradizionale ‘torta dei Re' (‘Galette des Rois' in Francia, ‘Roscón de Reyes' in Spagna) nasconde una piccola figura — chi la trova è re per un giorno."
+          ],
+          "imageCredit": "Foto: CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "La Giornata internazionale della donna, l'8 marzo, simboleggia la parità delle donne, le loro conquiste e la lotta contro la discriminazione.",
+          "history": "La Giornata della Donna è nata dal movimento socialista femminile. La politica tedesca Clara Zetkin propose nel 1910 a Copenaghen una giornata d'azione annuale; già nel 1911 milioni di donne in Europa scendevano in piazza. Nel 1921 Lenin fissò l'8 marzo, in memoria dello sciopero delle operaie di Pietrogrado del marzo 1917, che contribuì a far scoppiare la rivoluzione russa di febbraio. L'ONU lo ha riconosciuto ufficialmente nel 1975 come ‘Giornata delle Nazioni Unite per i diritti delle donne'.",
+          "traditions": "In Italia le donne ricevono mimose, simbolo della giornata. Si organizzano manifestazioni, conferenze ed eventi culturali. A Berlino l'8 marzo è festivo dal 2019. In Italia gli uomini regalano alle donne rametti di mimosa.",
+          "funFacts": [
+            "In Russia e in vari ex stati sovietici l'8 marzo è festivo ufficiale non lavorativo.",
+            "Nel 2023 il Meclemburgo-Pomerania Anteriore è diventato il secondo Land tedesco, dopo Berlino, a istituire la festa come festivo.",
+            "I temi delle Nazioni Unite cambiano ogni anno — ad esempio ‘Inspire Inclusion' o ‘DigitALL'.",
+            "In Italia la mimosa simboleggia la forza femminile perché fiorisce anche in condizioni difficili."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Il 1° maggio è in molti paesi la ‘Festa dei Lavoratori' — festa del movimento operaio con manifestazioni, alberi di maggio e feste primaverili.",
+          "history": "Il 1° maggio 1886 centinaia di migliaia di lavoratori a Chicago entrarono in sciopero generale per la giornata di otto ore. Gli scontri di Haymarket fecero diversi morti. Nel 1889 il Congresso Internazionale dei Lavoratori a Parigi proclamò il 1° maggio ‘giornata di lotta del movimento operaio'. In Italia la festa è abolita nel 1923 dal regime fascista e ripristinata nel 1947. Il celebre ‘Concertone' di piazza San Giovanni a Roma è una tradizione dal 1990.",
+          "traditions": "I sindacati organizzano cortei e manifestazioni con slogan come ‘Più salario, più tempo libero'. In Italia il ‘Concertone' del 1° maggio a Roma riunisce centinaia di migliaia di persone in piazza San Giovanni. Famiglie organizzano gite, picnic e grigliate.",
+          "funFacts": [
+            "Il ‘Concertone' di Roma del 1° maggio dal 1990 raduna centinaia di migliaia di spettatori.",
+            "In Francia il 1° maggio si regalano mughetti (‘muguet') — tradizione che il re Carlo IX introdusse nel 1561.",
+            "In Renania nella notte del 1° maggio si pongono betulle decorate (‘Liebesmaien') davanti alla casa dell'amata.",
+            "Il 1° maggio è festivo in oltre 80 paesi — ma in USA e Canada il ‘Labor Day' è in settembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "mothers_day": {
+          "intro": "La Festa della Mamma onora le madri e il loro ruolo essenziale nella famiglia e nella società. In Italia si celebra la seconda domenica di maggio.",
+          "history": "L'americana Anna Jarvis lanciò la moderna Festa della Mamma nel 1907 in memoria della madre defunta e si batté per il suo riconoscimento ufficiale — nel 1914 il presidente Woodrow Wilson la dichiarò festa nazionale la seconda domenica di maggio. In Italia fu istituita ufficialmente nel 1957 a Bordighera. L'iniziativa nacque dal sindaco Raul Zaccari e dal pievano Don Otto Migliorini, che proposero il giorno per onorare tutte le madri.",
+          "traditions": "I figli regalano alle madri fiori — solitamente tulipani, rose o un mazzo primaverile colorato. Biglietti fatti a mano e disegni colorati sono particolarmente apprezzati dai più piccoli. Molte famiglie invitano a un pranzo o cucinano il piatto preferito della mamma. I ristoranti sono tradizionalmente al completo questa domenica.",
+          "funFacts": [
+            "I fiorai realizzano il maggior fatturato dell'anno alla Festa della Mamma — più che a San Valentino.",
+            "La Festa della Mamma genera il maggior numero di telefonate dell'anno in Nord America.",
+            "Anna Jarvis fu poi arrestata per aver protestato contro la commercializzazione della festa che lei stessa aveva creato.",
+            "In Tailandia la Festa della Mamma è il 12 agosto — compleanno della regina Sirikit."
+          ],
+          "imageCredit": "Foto: Kor!An (Андрей Корзун) · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "ascension": {
+          "intro": "L'Ascensione ricorda che Gesù tornò in cielo 40 giorni dopo la sua resurrezione. La festa cade sempre di giovedì, sei settimane prima di Pentecoste.",
+          "history": "Eusebio di Cesarea menzionava già nel IV secolo la festa dell'Ascensione. La data deriva dagli Atti degli Apostoli: dopo la resurrezione, Gesù apparve ai discepoli per 40 giorni prima di essere ‘elevato in cielo'. Nel Medioevo da quelle prime processioni nacquero le rogazioni nei campi, in cui il sacerdote benediceva colture e sentieri — usanza ancora viva nel sud cattolico della Germania e in Austria. In Italia non è più festivo civile, ma resta importante liturgicamente.",
+          "traditions": "Messe solenni, spesso seguite da una processione attraverso prati e campi, segnano il giorno. In Germania l'Ascensione coincide con la tradizionale Festa del Papà. Le famiglie usano il ponte per gite, uscite in bicicletta e l'innalzamento dei primi alberi di maggio.",
+          "funFacts": [
+            "In Francia il giorno si chiama ‘L'Ascension' ed è festivo dal 1801.",
+            "In Inghilterra in alcune parrocchie si pratica il ‘Beating the Bounds': i parrocchiani percorrono i confini parrocchiali colpendo cippi con verghe di salice.",
+            "In Svezia si praticava un tempo il ‘Gökotta' di prima mattina — ascoltare il canto degli uccelli nella natura.",
+            "L'usanza tedesca della Festa del Papà nell'Ascensione nacque nella Berlino degli anni 1870."
+          ],
+          "imageCredit": "Foto: Basile Morin · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "Il Corpus Domini (‘corpo del Signore') è una solennità cattolica che celebra l'Eucaristia e la presenza reale di Cristo nel pane. Cade il secondo giovedì dopo Pentecoste.",
+          "history": "La festa nasce da una visione della monaca belga Giuliana di Liegi (1193–1258), che chiese una festa propria dell'Eucaristia. Papa Urbano IV istituì il Corpus Domini nel 1264. Tommaso d'Aquino redasse i testi liturgici e gli inni come ‘Lauda Sion Salvatorem'. Le celebri processioni nacquero nel XIV secolo. In Italia la festa fu spostata alla domenica successiva dopo il Concilio Vaticano II. Spettacolari le ‘Infiorate' di Genzano e Spello, dove le strade si trasformano in tappeti di fiori.",
+          "traditions": "Il momento centrale è la processione solenne, in cui l'ostia consacrata è portata sotto un baldacchino per le strade addobbate. Le case si decorano con fronde verdi, fiori e immagini sacre. In Italia le ‘Infiorate' di Genzano e Spello trasformano intere strade in coloratissimi tappeti di petali. Le famiglie accompagnano la processione vestite a festa.",
+          "funFacts": [
+            "L''Infiorata' di Genzano (vicino a Roma) è una delle celebrazioni più spettacolari: una strada intera diventa tappeto di fiori.",
+            "A Spello, in Umbria, l''Infiorata' del Corpus Domini è candidata a patrimonio UNESCO.",
+            "Il termine tedesco ‘Fronleichnam' viene dal medio alto tedesco ‘vrôn' (signore) e ‘lîchnam' (corpo vivo) — non da ‘cadavere'.",
+            "A Colonia, la ‘Gottestracht' di Mülheim è l'unica processione al mondo in barche sul Reno."
+          ],
+          "imageCredit": "Foto: Tranceliner · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "fathers_day": {
+          "intro": "La Festa del Papà onora i padri e il loro ruolo nella famiglia. Negli USA e in molti paesi si celebra la terza domenica di giugno; in Italia si celebra il 19 marzo, giorno di San Giuseppe.",
+          "history": "L'americana Sonora Smart Dodd di Spokane (Washington) lanciò la Festa del Papà nel 1910, ispirata da suo padre vedovo, veterano della Guerra Civile che crebbe sei figli da solo. Solo nel 1972 il presidente Nixon la dichiarò festa federale. In Italia la Festa del Papà coincide con San Giuseppe (19 marzo), patrono dei padri di famiglia.",
+          "traditions": "I figli regalano ai padri attrezzi, cravatte, libri o cartoline fatte a mano. In Italia il dolce tipico è la ‘zeppola di San Giuseppe', una frittella di pasta choux ripiena di crema e amarena. Molte famiglie organizzano un pranzo, una grigliata o una gita.",
+          "funFacts": [
+            "Australia e Nuova Zelanda celebrano la Festa del Papà la prima domenica di settembre — adattata all'inizio della primavera australe.",
+            "In Italia la zeppola di San Giuseppe è il dolce simbolo del 19 marzo — soprattutto a Napoli e in Campania.",
+            "I venditori di cravatte registrano tradizionalmente il maggior fatturato dell'anno alla Festa del Papà.",
+            "Sonora Smart Dodd visse abbastanza per vedere il riconoscimento ufficiale — morì nel 1978 a 96 anni."
+          ],
+          "imageCredit": "Foto: W. Proud · Public domain via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Ognissanti, il 1° novembre, è una solennità cattolica in cui la Chiesa ricorda tutti i santi. In molti paesi le famiglie visitano le tombe dei propri defunti.",
+          "history": "Già nel IV secolo c'era una festa comune per tutti i martiri. Papa Gregorio IV fissò la festa al 1° novembre nell'837 — probabilmente per ‘cristianizzare' la festa celtica di Samhain. Nel Medioevo si sviluppò la connessione con il Giorno dei Morti del 2 novembre. In Italia è festa nazionale; spesso famiglie si riuniscono per visitare i cimiteri e onorare i defunti. È festivo anche in Polonia, Spagna e Austria.",
+          "traditions": "L'1 e il 2 novembre le famiglie visitano i cimiteri e adornano le tombe dei defunti con candele, fiori (in Italia tradizionalmente crisantemi) e composizioni di rami. I sacerdoti benedicono le tombe. In Polonia la notte del 1° novembre milioni di candele illuminano i cimiteri — visibili dallo spazio. In Italia molti partecipano alla messa e portano fiori al cimitero.",
+          "funFacts": [
+            "Nella notte del 1° novembre in Polonia milioni di candele illuminano i cimiteri — visibili dallo spazio.",
+            "Il ‘Día de los Muertos' messicano (1–2 novembre) nacque dalla fusione di tradizioni cattoliche e azteche.",
+            "L'‘Allerheiligenstriezel' — una treccia lievitata con uvetta — è regalo tradizionale di padrini ai figliocci a Vienna.",
+            "Halloween (‘All Hallows' Eve') deriva il suo nome direttamente dalla vigilia di Ognissanti."
+          ],
+          "imageCredit": "Foto: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "La Vigilia di Natale è il giorno familiare più importante del Natale nei paesi germanici — con scambio di doni, cena festiva e canti sotto l'albero. In Italia è la sera del cenone in famiglia.",
+          "history": "Già nel IV secolo la Chiesa fissò la nascita di Gesù al 25 dicembre. La vigilia (‘Vigilia') era tradizionalmente giorno di digiuno. In Germania, dopo la Riforma, Lutero introdusse l'usanza che il ‘Bambino Gesù' (Christkind) porti i doni la Vigilia, in contrapposizione al cattolico San Nicola. L'albero decorato apparve nel XVII secolo e conquistò il mondo nel XIX grazie alla regina Vittoria. In Italia la tradizione del presepe risale a San Francesco d'Assisi nel 1223.",
+          "traditions": "In Italia, la sera della Vigilia si tiene il ‘cenone' con piatti di pesce — tradizionalmente magri — come spaghetti alle vongole, capitone, baccalà. A mezzanotte si va alla Messa di Mezzanotte. Nei paesi tedeschi, si decora l'albero, si va alla messa dei bambini e si scambiano i doni con canti come ‘Stille Nacht'.",
+          "funFacts": [
+            "‘Astro del ciel' (‘Stille Nacht') fu eseguito per la prima volta nel 1818 a Oberndorf, presso Salisburgo — oggi tradotto in oltre 300 lingue.",
+            "In Scandinavia ed Europa centrale i doni si scambiano la sera della Vigilia; nel mondo anglosassone solo la mattina del 25.",
+            "In Repubblica Ceca e Slovacchia si mangia carpa la Vigilia — e si infila una squama nel portafoglio per la prosperità.",
+            "Il primo presepe vivente fu creato da San Francesco d'Assisi a Greccio nel 1223."
+          ],
+          "imageCredit": "Foto: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
+          "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
+          "traditions": "Le famiglie si riuniscono per pasti festosi — tacchino, oca, carpa o raclette al nord; pranzo natalizio con tortellini in brodo, lasagne, capponi e panettone in Italia. Si scambiano regali, si cantano canti natalizi, molti partecipano alla messa festiva. L'albero decorato e il presepe sono i simboli centrali. Calendario dell'Avvento, biscotti e mercatini scandiscono la preparazione.",
+          "funFacts": [
+            "Il primo calendario dell'Avvento commerciale apparve nel 1908 a Monaco — invenzione di Gerhard Lang.",
+            "I mercatini di Natale di Dresda (‘Striezelmarkt', dal 1434) e Francoforte (dal 1393) sono tra i più antichi al mondo.",
+            "La Norvegia regala al Regno Unito un enorme albero di Natale per Trafalgar Square ogni anno dal 1947 — come ringraziamento per l'aiuto nella Seconda Guerra Mondiale.",
+            "Il panettone milanese e il pandoro veronese sono i due dolci natalizi italiani per eccellenza."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "San Silvestro è l'ultimo giorno dell'anno e in molti paesi è una festa rumorosa e brillante con fuochi d'artificio, spumante e feste esuberanti.",
+          "history": "Il nome deriva da papa Silvestro I, morto il 31 dicembre del 335. Con l'introduzione del calendario gregoriano nel 1582 il 31 dicembre divenne definitivamente l'ultimo giorno dell'anno in Europa centrale. I fuochi d'artificio hanno origine in antiche usanze per scacciare gli spiriti maligni con il rumore. Dagli anni '50 è diventato anche grande tradizione televisiva.",
+          "traditions": "A mezzanotte si fa il countdown insieme, si brinda con spumante, ci si abbraccia e si guardano i fuochi. Le famiglie giocano a giochi da tavolo, si versa la cera per predire l'anno e si guarda il classico ‘Dinner for One'. Sulla tavola: lenticchie, cotechino, panettone o pandoro.",
+          "funFacts": [
+            "Il più grande countdown del mondo è a Times Square di New York — la famosa palla di cristallo scende dal 1907.",
+            "‘Dinner for One' detiene il record del programma TV più replicato al mondo.",
+            "Sydney è una delle prime grandi città a salutare il nuovo anno coi fuochi — già alle 14 ora dell'Europa centrale.",
+            "In Spagna si mangia un chicco d'uva a ogni rintocco — chi li finisce tutti avrà un anno fortunato."
+          ],
+          "imageCredit": "Foto: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "new_year": {
+          "intro": "1 stycznia oznacza początek nowego roku w kalendarzu gregoriańskim na całym świecie. Dla wielu jest to dzień nadziei, nowych początków i postanowień.",
+          "history": "Już w 153 r. p.n.e. Rzymianie ustalili początek roku na 1 stycznia, dzień objęcia urzędu nowych konsulów. W średniowieczu początek roku w wielu regionach przesunięto na Boże Narodzenie lub Wielkanoc. Dopiero reforma kalendarza papieża Grzegorza XIII w 1582 roku przywróciła 1 stycznia jako europejski standard. Nazwa miesiąca pochodzi od rzymskiego boga Janusa, który dwiema twarzami spoglądał jednocześnie w przeszłość i przyszłość.",
+          "traditions": "O północy rodziny i przyjaciele wznoszą toast szampanem i świętują przejście do nowego roku fajerwerkami, talizmanami szczęścia (czterolistna koniczyna, kominiarz, biedronka) oraz tradycyjnym lanym ołowiem (dziś woskiem). Popularne są noworoczne brunche i spacery. Wielu składa noworoczne postanowienia.",
+          "funFacts": [
+            "W Hiszpanii zjada się winogronko z każdym z dwunastu uderzeń zegara — życzenie na każde winogronko.",
+            "W Danii rozbija się stare naczynia przed drzwiami przyjaciół, aby przyniosło im to szczęście.",
+            "Wiedeński Koncert Noworoczny transmitowany jest w ponad 90 krajach — muzyczne otwarcie roku.",
+            "Na Pacyficznej wyspie Kiribati Nowy Rok zaczyna się 26 godzin wcześniej niż na wyspie Howland."
+          ],
+          "imageCredit": "Zdjęcie: Vyacheslav Argenberg · CC BY 4.0 przez Wikimedia Commons"
+        },
+        "epiphany": {
+          "intro": "Trzech Króli, 6 stycznia, upamiętnia odwiedziny Mędrców ze Wschodu u Dzieciątka Jezus w Betlejem. W Polsce dzień wolny od pracy od 2011 roku.",
+          "history": "Święto Objawienia Pańskiego (‘Epifania') jest jednym z najstarszych w chrześcijaństwie i obchodzone było już od III wieku — w Kościele wschodnim nawet jako święto główne. Imiona Trzech Króli: Kacper, Melchior i Baltazar nie są wymienione w Biblii — przypisano je w średniowieczu. Ich relikwie miały od 1164 roku spoczywać w katedrze w Kolonii. W Polsce święto stało się dniem wolnym od pracy od 2011 roku.",
+          "traditions": "W Polsce w Trzech Króli organizuje się Orszak Trzech Króli — kolorowe procesje przez miasta, w których zwykli obywatele wcielają się w postaci biblijne. Tradycyjnie znaczy się drzwi domu kredą inicjałami ‘C+M+B+rok' (Christus mansionem benedicat — Chrystus błogosławi ten dom). Wiele rodzin uczestniczy w mszy.",
+          "funFacts": [
+            "Polskie Orszaki Trzech Króli to największe takie procesje na świecie — w setkach polskich miast biorą udział miliony osób.",
+            "Katedra w Kolonii została zaplanowana tak duża po to, by pomieścić strumienie pielgrzymów do relikwii Trzech Króli.",
+            "W Hiszpanii i Ameryce Łacińskiej to ‘Reyes Magos' przynoszą prezenty w wieczór 5 stycznia — nie Święty Mikołaj.",
+            "Tradycyjne ciasto królewskie (‘Galette des Rois' we Francji, ‘Roscón de Reyes' w Hiszpanii) zawiera ukrytą figurkę — kto ją znajdzie, jest królem na jeden dzień."
+          ],
+          "imageCredit": "Zdjęcie: CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "Międzynarodowy Dzień Kobiet, 8 marca, symbolizuje równość kobiet, ich osiągnięcia oraz walkę z dyskryminacją.",
+          "history": "Dzień Kobiet narodził się z socjalistycznego ruchu kobiecego. Niemiecka działaczka Clara Zetkin zaproponowała w Kopenhadze w 1910 roku coroczny dzień akcji; już w 1911 roku miliony kobiet w Europie wyszły na ulice. W 1921 roku Lenin ustalił 8 marca w nawiązaniu do strajku kobiet w Piotrogrodzie z marca 1917 roku, który pomógł wywołać rewolucję lutową. ONZ uznała dzień oficjalnie w 1975 roku jako ‘Dzień ONZ na rzecz Praw Kobiet'. W Polsce był obchodzony oficjalnie w PRL — choć w sposób przerysowany — i powrócił do łask w nowej formie po 1989 roku.",
+          "traditions": "W Polsce kobiety otrzymują kwiaty — tradycyjnie tulipany, goździki lub mimozy. Mężowie i synowie składają życzenia, koledzy w pracy wręczają drobne upominki. W wielu miastach odbywają się manifestacje, spotkania i wydarzenia kulturalne. W Berlinie 8 marca jest dniem wolnym od pracy od 2019 roku.",
+          "funFacts": [
+            "W Rosji i kilku byłych państwach radzieckich 8 marca jest oficjalnym dniem wolnym od pracy.",
+            "W 2023 roku Meklemburgia-Pomorze Przednie stała się drugim landem niemieckim po Berlinie, który ustanowił Dzień Kobiet dniem wolnym.",
+            "W PRL goździk był symbolem dnia — ze względu na łatwą dostępność i kolor czerwony.",
+            "We Włoszech mimoza symbolizuje siłę kobiet, ponieważ kwitnie nawet w trudnych warunkach."
+          ],
+          "imageCredit": "Zdjęcie: Alina.neve · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 maja jest w wielu krajach Świętem Pracy — świętem ruchu robotniczego z manifestacjami, majowymi uroczystościami i wiosennymi festynami. W Polsce dzień wolny od pracy.",
+          "history": "1 maja 1886 roku setki tysięcy robotników w Chicago weszło w strajk generalny domagając się ośmiogodzinnego dnia pracy. Następujące starcia na Haymarket pochłonęły kilka ofiar. W 1889 roku Międzynarodowy Kongres Robotniczy w Paryżu ogłosił 1 maja ‘dniem walki ruchu robotniczego'. W Polsce święto wprowadzono oficjalnie w 1950 roku, choć obchody były już wcześniej. Po 1989 roku zachowane jako symbol pracowniczy.",
+          "traditions": "W Polsce 1 maja to popularny dzień na pierwsze grillowanie i majowe wycieczki. Związki zawodowe organizują wiece i pochody. Wraz z 2 maja (Dzień Flagi) i 3 maja (Konstytucja) tworzy słynne ‘majówki' — najważniejszy długi weekend wiosenny w Polsce, kiedy wielu wyjeżdża nad morze, w góry lub na działkę.",
+          "funFacts": [
+            "‘Majówka' to jeden z najbardziej intensywnych weekendów turystycznych w Polsce — wiele osób ucieka z miast na wieś.",
+            "We Francji 1 maja wręcza się konwalie (‘muguet') — zwyczaj wprowadzony przez króla Karola IX w 1561 roku.",
+            "1 maja jest świętem urzędowym w ponad 80 krajach — ale w USA i Kanadzie ‘Labor Day' obchodzi się we wrześniu.",
+            "Najwyższy maj w Bawarii postawiono w Mitterfels w 2017 roku — miał ponad 50 m."
+          ],
+          "imageCredit": "Zdjęcie: Joe Piette · CC BY-SA 2.0 przez Wikimedia Commons"
+        },
+        "mothers_day": {
+          "intro": "Dzień Matki czci matki i ich istotną rolę w rodzinie i społeczeństwie. W Polsce obchodzony jest 26 maja, w innych krajach najczęściej w drugą niedzielę maja.",
+          "history": "Amerykanka Anna Jarvis zainicjowała współczesny Dzień Matki w 1907 roku ku pamięci zmarłej matki i wywalczyła oficjalne uznanie — w 1914 roku prezydent Wilson ogłosił drugą niedzielę maja świętem narodowym. Pierwszy raz w Polsce świętowano Dzień Matki w 1914 roku w Krakowie. Od tamtej pory obchodzony jest 26 maja, niezależnie od dnia tygodnia. Ironicznie, Anna Jarvis później zaciekle walczyła z komercjalizacją święta.",
+          "traditions": "Polskie dzieci wręczają mamom kwiaty — tradycyjnie tulipany, goździki lub bukiet wiosenny — ręcznie zrobione laurki, wierszyki i drobne prezenty. W przedszkolach i szkołach organizuje się specjalne akademie z występami dzieci dla mam. Wiele rodzin urządza uroczysty obiad lub gotuje ulubione danie mamy.",
+          "funFacts": [
+            "Kwiaciarnie odnotowują największe obroty roku w Dniu Matki — większe nawet niż w Walentynki.",
+            "W Polsce Dzień Matki jest zawsze 26 maja — niezależnie od dnia tygodnia.",
+            "Anna Jarvis została później aresztowana za protesty przeciwko komercjalizacji święta, które sama stworzyła.",
+            "W Tajlandii Dzień Matki przypada 12 sierpnia — w urodziny królowej Sirikit."
+          ],
+          "imageCredit": "Zdjęcie: Kor!An (Андрей Корзун) · CC BY-SA 3.0 przez Wikimedia Commons"
+        },
+        "ascension": {
+          "intro": "Wniebowstąpienie Pańskie przypomina, że Jezus wrócił do nieba 40 dnia po zmartwychwstaniu. Święto wypada zawsze w czwartek, sześć tygodni przed Pięćdziesiątnicą.",
+          "history": "Euzebiusz z Cezarei wspominał o święcie Wniebowstąpienia już w IV wieku. Datę wyprowadza się z Dziejów Apostolskich: po zmartwychwstaniu Jezus ukazywał się uczniom przez 40 dni, zanim został ‘wzięty do nieba'. W średniowieczu z tych pierwszych procesji rozwinęły się obchody pól z błogosławieństwem upraw — zwyczaj wciąż żywy w katolickich Niemczech południowych i Austrii. W Polsce święto przeniesiono w 1990 roku na najbliższą niedzielę (Wniebowstąpienie Pańskie), aby było obchodzone bez konieczności wolnego dnia w czwartek.",
+          "traditions": "Uroczyste msze, często z procesją przez łąki i pola, znaczą ten dzień. W Niemczech Wniebowstąpienie jest też tradycyjnym Dniem Ojca. Rodziny wykorzystują długi weekend na wycieczki, jazdę rowerem i pierwsze ustawianie majów.",
+          "funFacts": [
+            "We Francji dzień nazywa się ‘L'Ascension' i jest świętem państwowym od 1801 roku.",
+            "W Anglii i niektórych parafiach odbywa się ‘Beating the Bounds': parafianie obchodzą granice parafii, uderzając kamienie graniczne wierzbowymi witkami.",
+            "W Szwecji praktykowano ‘Gökottę' wczesnym rankiem — słuchanie śpiewu ptaków w naturze.",
+            "Niemiecki zwyczaj Dnia Ojca w Wniebowstąpienie powstał w Berlinie w latach 1870."
+          ],
+          "imageCredit": "Zdjęcie: Basile Morin · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "Boże Ciało (‘Corpus Christi', ‘Ciało Pańskie') to katolicka uroczystość celebrująca Eucharystię i obecność Chrystusa w chlebie. Wypada w drugi czwartek po Pięćdziesiątnicy. W Polsce dzień wolny od pracy.",
+          "history": "Święto wywodzi się z wizji belgijskiej zakonnicy Julianny z Liège (1193–1258), która domagała się odrębnego święta Eucharystii. Papież Urban IV ustanowił Boże Ciało w 1264 roku. Tomasz z Akwinu napisał teksty liturgiczne i hymny jak ‘Lauda Sion Salvatorem'. Słynne procesje rozwinęły się w XIV wieku. W Polsce Boże Ciało jest jednym z najważniejszych świąt katolickich i jest dniem wolnym od pracy.",
+          "traditions": "Najważniejszym momentem jest uroczysta procesja, w której konsekrowana hostia niesiona jest pod ‘baldachimem' przez ozdobnie udekorowane ulice. W Polsce procesja przechodzi przez cztery ołtarze ustawione na trasie. Domy ozdabia się brzozowymi gałęziami, kwiatami i obrazami świętych. W niektórych miejscowościach układa się dywany z kwiatów, np. w Spycimierzu (UNESCO).",
+          "funFacts": [
+            "Polskie dywany kwietne na procesje Bożego Ciała w Spycimierzu są wpisane na listę UNESCO niematerialnego dziedzictwa.",
+            "W Bawarii w niektórych wsiach układa się kolorowe obrazy z kwiatów bezpośrednio na ulicach.",
+            "Niemieckie słowo ‘Fronleichnam' pochodzi ze średnio-wysoko-niemieckiego ‘vrôn' (Pan) i ‘lîchnam' (żywe ciało) — nie od ‘zwłok'.",
+            "W Kolonii ‘Gottestracht' z dzielnicy Mülheim to jedyna procesja na świecie odbywająca się statkami po Renie."
+          ],
+          "imageCredit": "Zdjęcie: Tranceliner · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "fathers_day": {
+          "intro": "Dzień Ojca czci ojców i ich rolę w rodzinie. W Polsce obchodzony jest 23 czerwca, w USA i wielu krajach w trzecią niedzielę czerwca.",
+          "history": "Amerykanka Sonora Smart Dodd ze Spokane (Waszyngton) zainicjowała Dzień Ojca w 1910 roku, zainspirowana przez owdowiałego ojca, weterana wojny secesyjnej, który wychował szóstkę dzieci. Wybrała miesiąc urodzin ojca. Dopiero w 1972 roku prezydent Nixon ogłosił trzecią niedzielę czerwca świętem federalnym. W Polsce Dzień Ojca obchodzony jest od 1965 roku, zawsze 23 czerwca, niezależnie od dnia tygodnia.",
+          "traditions": "Polskie dzieci wręczają ojcom drobne prezenty, ręcznie robione laurki lub przepisy. Wiele rodzin organizuje uroczysty obiad, grilla lub wspólny wyjazd. Mniejszą popularnością niż Dzień Matki cieszy się w Polsce niż w USA, ale przedszkola i szkoły organizują akademie.",
+          "funFacts": [
+            "Australia i Nowa Zelandia obchodzą Dzień Ojca w pierwszą niedzielę września — dostosowany do południowej wiosny.",
+            "Pierwsza oficjalna obchody Dnia Ojca odbyły się 19 czerwca 1910 w Spokane — z białymi różami dla żyjących i czerwonymi dla zmarłych ojców.",
+            "Sprzedawcy krawatów tradycyjnie odnotowują największe obroty roku w Dniu Ojca.",
+            "Sonora Smart Dodd doczekała oficjalnego uznania święta — zmarła w 1978 roku w wieku 96 lat."
+          ],
+          "imageCredit": "Zdjęcie: W. Proud · Public domain przez Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Wszystkich Świętych, 1 listopada, to katolicka uroczystość, w której Kościół wspomina wszystkich świętych. W Polsce tradycyjnie odwiedza się groby najbliższych — dzień głębokiej zadumy.",
+          "history": "Już w IV wieku istniało wspólne święto ku czci wszystkich męczenników. Papież Grzegorz IV wyznaczył święto na 1 listopada w 837 roku — prawdopodobnie po to, by ‘chrystianizować' celtyckie święto Samhain. W Polsce święto jest jednym z najważniejszych w roku — masowe odwiedziny cmentarzy, gdzie miliony zniczy rozświetlają nekropolie. To dzień wolny od pracy.",
+          "traditions": "1 i 2 listopada polskie rodziny odwiedzają cmentarze, zdobią groby zniczami, kwiatami (głównie chryzantemami) i kompozycjami z gałązek. Polskie cmentarze w te dni są niezwykłym widokiem — morza świec widocznych z kosmosu. Księża błogosławią groby, organizowane są procesje. W Polsce tradycja Wszystkich Świętych jest jedna z najmocniejszych w Europie.",
+          "funFacts": [
+            "Polskie cmentarze w noc 1 listopada widoczne są z kosmosu — miliony zniczy rozświetlają niemal każdą nekropolię w kraju.",
+            "Meksykański ‘Día de los Muertos' (1–2 listopada) wyrósł z połączenia katolickich i azteckich tradycji.",
+            "Polska tradycja kwiatu chryzantemy jako symbolu pamięci jest unikalna — w innych krajach kwiat ten ma inne znaczenie.",
+            "Halloween (‘All Hallows' Eve') wywodzi swoją nazwę bezpośrednio od wigilii Wszystkich Świętych."
+          ],
+          "imageCredit": "Zdjęcie: MichalPL · CC0 przez Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "Wigilia Bożego Narodzenia to najważniejszy dzień rodzinny w Polsce — z dwunastoma potrawami, opłatkiem, kolędami i wieczerzą wigilijną.",
+          "history": "Już w IV wieku Kościół ustalił narodzenie Jezusa na 25 grudnia. Wigilia (‘Vigilia') była tradycyjnie dniem postnym. W Polsce zachowała się szczególnie bogata tradycja Wigilii — 12 potraw symbolizujących 12 apostołów, dzielenie się opłatkiem, modlitwa i pierwsza gwiazdka na niebie jako sygnał do rozpoczęcia wieczerzy. Ozdobione choinki przybyły do Polski z Niemiec na początku XIX wieku, a po 1830 roku stały się powszechne.",
+          "traditions": "W Polsce wieczerza wigilijna zaczyna się wraz z pierwszą gwiazdką. Rodzina dzieli się opłatkiem, składając życzenia, po czym podaje 12 potraw — barszcz z uszkami, pierogi, karp, śledzie, kapusta z grochem, kompot z suszu, makowiec, sernik. Dodatkowe nakrycie zostaje pozostawione dla niespodziewanego gościa. O północy idzie się na Pasterkę.",
+          "funFacts": [
+            "‘Cicha noc' (‘Stille Nacht') została wykonana po raz pierwszy w 1818 roku w Oberndorf koło Salzburga — dziś przetłumaczona na ponad 300 języków.",
+            "Polska tradycja 12 potraw wigilijnych symbolizuje 12 apostołów lub 12 miesięcy roku — żadnej nie wolno pominąć.",
+            "W Czechach i na Słowacji w Wigilię je się karpia — a łuskę wkłada się do portfela dla bogactwa.",
+            "Polska tradycja zostawiania jednego dodatkowego nakrycia dla niespodziewanego gościa to symbol gościnności i pamięci o samotnych."
+          ],
+          "imageCredit": "Zdjęcie: ZemplinTemplar · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
+          "history": "Już w 354 roku 25 grudnia odnotowany jest jako ‘dies natalis Christi' w rzymskim kalendarzu. Kościół wybrał tę datę prawdopodobnie po to, by chrześcijańsko zinterpretować rzymskie święto ‘Sol Invictus'. Tradycja prezentów ma korzenie w darach Trzech Mędrców. Współczesny Święty Mikołaj w czerwonym płaszczu i z białą brodą to mieszanka św. Mikołaja i kampanii reklamowej Coca-Coli z 1931 roku.",
+          "traditions": "W Polsce Boże Narodzenie obchodzi się przez dwa dni (25 i 26 grudnia). Rodziny zbierają się na obfitym obiedzie — często rosół z makaronem, schab, indyk, sałatka jarzynowa, makowiec, sernik. Wymienia się prezenty (w Polsce zwykle wręczane już w Wigilię), śpiewa kolędy, wielu uczestniczy w nabożeństwach. Choinka i szopka są centralnymi symbolami.",
+          "funFacts": [
+            "Pierwszy komercyjny kalendarz adwentowy ukazał się w 1908 roku w Monachium — wynalazek Gerharda Langa.",
+            "Polskie kolędy — m.in. ‘Wśród nocnej ciszy', ‘Bóg się rodzi', ‘Lulajże, Jezuniu' — uchodzą za jedne z najpiękniejszych na świecie.",
+            "Norwegia podarowuje Wielkiej Brytanii corocznie od 1947 roku ogromną choinkę na Trafalgar Square — w podzięce za pomoc w II wojnie światowej.",
+            "Tradycja choinki dotarła do Polski z Niemiec na początku XIX wieku, a powszechna stała się po 1830 roku."
+          ],
+          "imageCredit": "Zdjęcie: Chris Olszewski · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "Sylwester to ostatni dzień roku i w wielu krajach głośna, błyszcząca uroczystość z fajerwerkami, szampanem i hucznymi imprezami.",
+          "history": "Nazwa pochodzi od papieża Sylwestra I, zmarłego 31 grudnia 335 roku. Wraz z reformą gregoriańską w 1582 roku 31 grudnia stał się definitywnie ostatnim dniem roku w Europie Środkowej. Fajerwerki wywodzą się z dawnych zwyczajów odpędzania złych duchów hałasem. W Polsce Sylwester to okazja do hucznych zabaw — zarówno domowych, jak i ulicznych ‘Sylwestrów Marzeń'.",
+          "traditions": "O północy odlicza się sekundy do nowego roku, wznosi toast szampanem, ściska bliskich i ogląda fajerwerki. Rodziny grają w gry planszowe, leją wosk, by przepowiadać nadchodzący rok. W Polsce popularne są ‘Sylwestry Marzeń' organizowane przez stacje TV w największych miastach — w Zakopanem, Krakowie, Toruniu, Gdańsku. Festiwalowe menu: śledzie, sałatki, krokiety i pączki.",
+          "funFacts": [
+            "Największe odliczanie świata odbywa się na Times Square w Nowym Jorku — słynna kryształowa kula opada o północy od 1907 roku.",
+            "‘Dinner for One' dzierży rekord najczęściej powtarzanego programu TV na świecie.",
+            "Sydney to jedno z pierwszych wielkich miast witających Nowy Rok fajerwerkami — już o 14:00 czasu środkowoeuropejskiego.",
+            "W Hiszpanii zjada się winogronko z każdym uderzeniem dzwonu — kto zje wszystkie 12, ma szczęśliwy rok."
+          ],
+          "imageCredit": "Zdjęcie: Makia Minich · CC BY-SA 3.0 przez Wikimedia Commons"
+        }
+      }
+    }
+  },
+  "images": {
+    "new_year": [
+      {
+        "path": "images/new_year/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "epiphany": [
+      {
+        "path": "images/epiphany/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/epiphany/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/epiphany/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "womens_day": [
+      {
+        "path": "images/womens_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      }
+    ],
+    "labour_day": [
+      {
+        "path": "images/labour_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "mothers_day": [
+      {
+        "path": "images/mothers_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/mothers_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/mothers_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "ascension": [
+      {
+        "path": "images/ascension/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/ascension/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/ascension/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "corpus_christi": [
+      {
+        "path": "images/corpus_christi/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/corpus_christi/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/corpus_christi/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "fathers_day": [
+      {
+        "path": "images/fathers_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/fathers_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "all_saints_day": [
+      {
+        "path": "images/all_saints_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/all_saints_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/all_saints_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas_eve": [
+      {
+        "path": "images/christmas_eve/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas_eve/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas_eve/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas": [
+      {
+        "path": "images/christmas/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "new_years_eve": [
+      {
+        "path": "images/new_years_eve/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_years_eve/02.jpg",
+        "primary": false,
+        "credit": "Vivu Vietnam",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "path": "images/new_years_eve/03.jpg",
+        "primary": false,
+        "credit": "Btezra",
+        "license": "CC BY-SA 2.0"
+      }
+    ]
+  },
+  "version": 4
+}

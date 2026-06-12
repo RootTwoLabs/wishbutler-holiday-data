@@ -1,0 +1,1024 @@
+{
+  "countryCode": "LT",
+  "version": 3,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "LT_new_years_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "LT_the_day_of_restoration_of_the_state_of_lithuania",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.the_day_of_restoration_of_the_state_of_lithuania",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 16
+      }
+    },
+    {
+      "id": "LT_day_of_restoration_of_independence_of_lithuania",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_restoration_of_independence_of_lithuania",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 11
+      }
+    },
+    {
+      "id": "LT_easter_sunday",
+      "countryCode": "LT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "LT_easter_monday",
+      "countryCode": "LT",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "LT_international_working_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.international_working_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "LT_st_johns_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.st_johns_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 24
+      }
+    },
+    {
+      "id": "LT_statehood_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.statehood_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 6
+      }
+    },
+    {
+      "id": "LT_assumption_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.assumption",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "LT_all_saints_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "LT_all_souls_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.all_souls_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 2
+      }
+    },
+    {
+      "id": "LT_christmas_eve",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "LT_christmas_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "LT_st_stephens_day",
+      "countryCode": "LT",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "the_day_of_restoration_of_the_state_of_lithuania": "The Day of Restoration of the State of Lithuania",
+        "day_of_restoration_of_independence_of_lithuania": "Day of Restoration of Independence of Lithuania",
+        "easter_sunday": "Easter Sunday",
+        "international_working_day": "International Working Day",
+        "st_johns_day": "St. John's Day",
+        "statehood_day": "Statehood Day",
+        "all_saints_day": "All Saints' Day",
+        "all_souls_day": "All Souls' Day",
+        "christmas_eve": "Christmas Eve"
+      },
+      "lt": {
+        "the_day_of_restoration_of_the_state_of_lithuania": "Lietuvos valstybės atkūrimo diena",
+        "day_of_restoration_of_independence_of_lithuania": "Lietuvos nepriklausomybės atkūrimo diena",
+        "easter_sunday": "Velykos",
+        "international_working_day": "Tarptautinė darbo diena",
+        "st_johns_day": "Joninės, Rasos",
+        "statehood_day": "Valstybės diena",
+        "all_saints_day": "Visų šventųjų diena",
+        "all_souls_day": "Vėlinės",
+        "christmas_eve": "Šv. Kūčios"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "new_year": {
+          "intro": "Der 1. Januar markiert weltweit den Beginn eines neuen Jahres im gregorianischen Kalender. Für viele ist es ein Tag der Hoffnung, des Neuanfangs und der guten Vorsätze.",
+          "history": "Bereits 153 v. Chr. legten die Römer den Jahresbeginn auf den 1. Januar, den Antrittstag der neuen Konsuln. Im Mittelalter wechselte der Jahresanfang in vielen Regionen zu Weihnachten oder Ostern. Erst mit der Kalenderreform von Papst Gregor XIII. im Jahr 1582 setzte sich der 1. Januar wieder als europäischer Standard durch. Der Monatsname Januar geht auf den römischen Gott Janus zurück, der mit zwei Gesichtern zugleich auf das Vergangene und das Kommende blickte – ein passendes Sinnbild für diesen Tag.",
+          "traditions": "Um Mitternacht stoßen Familien und Freunde mit Sekt an und feiern den Jahreswechsel mit Feuerwerk, Glücksbringern wie Kleeblatt, Schornsteinfeger oder Marienkäfer und dem traditionellen Bleigießen (heute Wachsgießen). Beliebt sind außerdem Neujahrsbrunch und der gemeinsame Spaziergang an der frischen Luft. Viele fassen Vorsätze für das neue Jahr.",
+          "funFacts": [
+            "In Spanien isst man zu jedem der zwölf Glockenschläge eine Weintraube – eine pro Wunsch.",
+            "In Dänemark zerbricht man altes Geschirr vor den Türen guter Freunde, um Glück zu bringen.",
+            "Wiens Neujahrskonzert wird in über 90 Länder übertragen und gilt als musikalischer Auftakt des Jahres.",
+            "Auf den Pazifikinseln Kiribati beginnt das neue Jahr 26 Stunden früher als auf der Insel Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Ostersonntag ist das höchste Fest des Christentums – Tag der Auferstehung Jesu Christi und Höhepunkt des Kirchenjahres.",
+          "history": "Ostern entwickelte sich aus dem jüdischen Pessachfest und wird seit dem 1. Jahrhundert von Christen begangen. Die Kirche legte 325 in Nicäa fest, dass Ostern stets am ersten Sonntag nach dem ersten Frühlingsvollmond gefeiert wird – daher das wechselnde Datum zwischen 22. März und 25. April. Der Name „Ostern” geht möglicherweise auf die germanische Frühlingsgöttin Ostara zurück, oder schlicht auf das althochdeutsche „eostarum” (Morgenröte).",
+          "traditions": "Familien beginnen den Tag mit einem festlichen Osterfrühstück mit gefärbten Eiern, Hefezopf und Osterlamm. Kinder suchen die vom Osterhasen versteckten Eier und Süßigkeiten im Garten. In vielen Gemeinden gibt es Osterfeuer, Osterprozessionen und feierliche Gottesdienste mit Glockenklang.",
+          "funFacts": [
+            "Das Osterdatum kann zwischen dem 22. März und dem 25. April liegen – der nächste „frühe” Ostersonntag (22. März) findet erst 2285 wieder statt.",
+            "Der größte Osterhase der Welt steht in Brasilien und ist über 4,2 m hoch.",
+            "Russisch-Orthodoxe Christen feiern Ostern oft an einem anderen Tag als West-Christen, weil sie den julianischen Kalender benutzen.",
+            "In Polen lässt man am Karsamstag Speisen in Körben für die Ostersonntag-Mahlzeit segnen („Święconka”)."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Ostermontag ist der zweite Festtag von Ostern und in den meisten europäischen Ländern arbeitsfrei. Er ist Ausklang des höchsten christlichen Festes.",
+          "history": "Ostern ist das älteste Fest der Christenheit und feiert die Auferstehung Jesu Christi am dritten Tag nach seinem Tod. Das Konzil von Nicäa legte 325 das Osterdatum auf den ersten Sonntag nach dem ersten Frühlingsvollmond. Der Ostermontag wird seit dem frühen Mittelalter als zweiter Festtag begangen – ursprünglich war die ganze Osterwoche frei. In Deutschland und Österreich blieb er als gesetzlicher Feiertag erhalten, anders als in vielen rein katholischen Ländern.",
+          "traditions": "Familien suchen gemeinsam Ostereier, frühstücken ausgiebig oder unternehmen den klassischen Osterspaziergang („Vom Eise befreit sind Strom und Bäche…”, Goethe). In Polen feiert man „Śmigus-Dyngus”: Junge bespritzen Mädchen mit Wasser. In Tschechien klopfen Burschen mit Weidenruten an Türen. In Bayern und Österreich gibt es das traditionelle „Emmausgehen”.",
+          "funFacts": [
+            "Der Brauch des Ostereiersuchens wurde erstmals von Martin Luther erwähnt, der seinen Kindern damit eine Freude machte.",
+            "Das größte Schoko-Osterei der Welt stand in Argentinien (8,5 m hoch, 4 t schwer) – verewigt im Guinness-Buch.",
+            "In Schweden ziehen Kinder am Karsamstag als „Påskkärringar” verkleidet – wie kleine Hexen – von Tür zu Tür.",
+            "Der Osterhase als Eierbringer wurde 1682 erstmals von dem Mediziner Georg Franck von Franckenau schriftlich erwähnt."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "Mariä Himmelfahrt am 15. August feiert die Aufnahme Marias mit Leib und Seele in den Himmel. Der Tag gehört zu den höchsten Marienfesten der katholischen Kirche.",
+          "history": "Die Lehre von der leiblichen Aufnahme Marias entwickelte sich seit dem 4. Jahrhundert in den christlichen Gemeinden. Papst Pius XII. erklärte sie 1950 in der Enzyklika „Munificentissimus Deus” zum verbindlichen Dogma. Schon im Mittelalter entstand der Brauch, an diesem Tag Kräuter zu segnen – zu einer Zeit, in der die ersten Heilkräuter blühten. Mariä Himmelfahrt ist in Österreich, im Saarland und in überwiegend katholischen Gemeinden Bayerns gesetzlicher Feiertag.",
+          "traditions": "In katholischen Regionen werden „Kräuterbuschen” oder „Frauendreißiger-Kräuter” geweiht – Sträuße aus 7, 9 oder 30 Heilpflanzen, die anschließend zuhause aufbewahrt werden. Festliche Marien-Prozessionen ziehen durch die Dörfer, Wallfahrten zu Marienstätten häufen sich. In Italien („Ferragosto”) beginnt mit dem 15. August die Hauptferienzeit.",
+          "funFacts": [
+            "Der „Ferragosto” in Italien geht auf Kaiser Augustus zurück, der 18 v. Chr. eine Ruhepause der Bauern nach der Ernte verordnete.",
+            "Bayerische Frauendreißiger-Buschen enthalten oft Beifuß, Königskerze, Schafgarbe und Kornblume.",
+            "In Frankreich ist der 15. August seit 1638 Nationalfeiertag – wegen einer Marienverehrung Ludwigs XIII.",
+            "Der berühmte „Notre-Dame-Marsch” in Paris wurde 1638 zu Ehren des Tages angeordnet."
+          ],
+          "imageCredit": "Foto: Ondraness · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Allerheiligen am 1. November ist ein katholischer Hochfeiertag, an dem die Kirche aller Heiligen gedenkt. In vielen Ländern besuchen Familien die Gräber ihrer Verstorbenen.",
+          "history": "Bereits im 4. Jahrhundert gab es ein gemeinsames Gedenkfest für alle Märtyrer. Papst Gregor IV. legte 837 das Fest auf den 1. November fest – wahrscheinlich, um das keltische Fest Samhain zu „christianisieren”. Im Mittelalter entwickelte sich die Verbindung zu Allerseelen am 2. November (Gedenken aller Verstorbenen). In Deutschland ist der Tag in den katholischen Bundesländern Bayern, Baden-Württemberg, NRW, Rheinland-Pfalz und Saarland gesetzlich geschützt – als „stiller Feiertag”.",
+          "traditions": "Familien besuchen am 1. und 2. November die Friedhöfe, schmücken die Gräber ihrer Verstorbenen mit Kerzen, Blumen und Gestecken aus Tannenzweigen. Priester segnen die Gräber. In Polen wird der Tag besonders intensiv gefeiert – „Wszystkich Świętych” verwandelt jede Stadt in ein Lichtermeer. Das Backen von „Allerheiligenstriezel” ist eine alte österreichische Tradition.",
+          "funFacts": [
+            "In Polen werden in der Nacht zum 1. November Millionen Kerzen auf Friedhöfen entzündet – aus dem Weltraum sichtbar.",
+            "Das mexikanische „Día de los Muertos” (1./2. November) entwickelte sich aus der Verbindung katholischer und aztekischer Traditionen.",
+            "Der „Allerheiligenstriezel” – ein Hefeteig-Zopf mit Rosinen – wird in Wien traditionell von Paten an ihre Patenkinder verschenkt.",
+            "Halloween („All Hallows' Eve”) leitet seinen Namen direkt vom Vorabend des Allerheiligenfests ab."
+          ],
+          "imageCredit": "Foto: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "Heiligabend ist im deutschsprachigen Raum der wichtigste Familientag des Weihnachtsfestes – mit Bescherung, festlichem Essen und gemeinsamem Gesang unter dem Christbaum.",
+          "history": "Bereits im 4. Jahrhundert legte die Kirche das Geburtsfest Jesu auf den 25. Dezember. Der Vorabend („Vigil”) war traditionell Tag des Fastens. In Deutschland verschob sich die zentrale Feier nach der Reformation: Martin Luther führte Anfang des 16. Jahrhunderts den Brauch ein, dass das „Christkind” am Heiligabend Geschenke bringe – als Gegenmodell zum katholischen Nikolaus. Der geschmückte Tannenbaum kam ab dem 17. Jahrhundert auf und eroberte über Königin Victoria im 19. Jahrhundert die ganze Welt.",
+          "traditions": "Am Nachmittag wird der Christbaum geschmückt, viele Familien gehen in den Kindergottesdienst oder die Christmette. Anschließend folgt die Bescherung, oft mit Weihnachtsliedern wie „Stille Nacht” oder „O Tannenbaum”. Klassische Speisen sind Kartoffelsalat mit Würstchen, Karpfen oder Gänsebraten – je nach Familientradition.",
+          "funFacts": [
+            "„Stille Nacht, heilige Nacht” wurde 1818 in Oberndorf bei Salzburg uraufgeführt – heute in über 300 Sprachen übersetzt.",
+            "In Skandinavien und Mitteleuropa findet die Bescherung an Heiligabend statt, im englischsprachigen Raum erst am Morgen des 25.",
+            "In Tschechien und der Slowakei isst man am Heiligabend traditionell Karpfen – die Schuppe steckt man danach für Geldsegen ins Portemonnaie.",
+            "Der größte natürliche Weihnachtsbaum wird jährlich in Dortmund errichtet – aus rund 1.700 einzelnen Rotfichten."
+          ],
+          "imageCredit": "Foto: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
+          "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
+          "traditions": "Familien versammeln sich zu festlichen Mahlzeiten – Truthahn, Gans, Karpfen oder Raclette. Geschenke werden ausgetauscht, Weihnachtslieder gesungen, viele besuchen den Festgottesdienst. Der geschmückte Christbaum mit Lichterketten, Kugeln und Strohsternen ist das zentrale Symbol. Adventskalender, Plätzchen und der Besuch von Weihnachtsmärkten gehören zur Vorbereitung.",
+          "funFacts": [
+            "Der erste kommerzielle Adventskalender erschien 1908 in München – Erfinder war Gerhard Lang.",
+            "Die Weihnachtsmärkte in Dresden („Striezelmarkt”, seit 1434) und Frankfurt (seit 1393) gehören zu den ältesten der Welt.",
+            "Norwegen schenkt Großbritannien seit 1947 jährlich einen riesigen Weihnachtsbaum für den Trafalgar Square – als Dank für die Hilfe im Zweiten Weltkrieg.",
+            "Die Weihnachtsfilm-Klassiker „Drei Haselnüsse für Aschenbrödel” und „Tatsächlich… Liebe” laufen weltweit jedes Jahr Dutzende Male im TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Der Stefanitag am 26. Dezember ist in Österreich der zweite Weihnachtsfeiertag und gedenkt zugleich des heiligen Stephanus, des ersten christlichen Märtyrers.",
+          "history": "Stephanus war einer der ersten sieben Diakone der Urkirche und wurde laut Apostelgeschichte zwischen 36 und 40 n. Chr. in Jerusalem gesteinigt – er gilt als „Protomärtyrer”. Das Stephanus-Fest wurde bereits im 4. Jahrhundert am 26. Dezember begangen, weil man die wichtigsten Märtyrer am Tag nach Christi Geburt ehren wollte („vom Kind zum Zeugen”). Der Wiener Stephansdom – Wahrzeichen Österreichs – ist nach ihm benannt. In Österreich ist der 26. Dezember bis heute gesetzlicher Feiertag.",
+          "traditions": "Die Kirche segnet an diesem Tag Pferde und Reiter beim sogenannten „Stephani-Ritt” oder „Stephani-Umritt”, da Stephanus der Schutzpatron der Pferde und Reiter ist. In Salzburg, Tirol und Niederösterreich ziehen geschmückte Pferde durch die Dörfer. Familien besuchen weitere Verwandte oder unternehmen einen ausgedehnten Spaziergang im Schnee.",
+          "funFacts": [
+            "Der Wiener Stephansdom (kurz „Steffl”) ist Österreichs bedeutendstes gotisches Bauwerk – sein Südturm ist 136 m hoch.",
+            "Der „Stephani-Umritt” in Asparn an der Zaya zieht jährlich mehrere hundert Reiter aus ganz Niederösterreich an.",
+            "Hafer, der am Stephanstag gesegnet und an Pferde verfüttert wird, soll diese vor Krankheiten schützen.",
+            "In Großbritannien fällt der Stefanitag mit dem „Boxing Day” zusammen – aber die Bezeichnung „Boxing Day” hat einen ganz anderen Ursprung."
+          ],
+          "imageCredit": "Foto: Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "new_year": {
+          "intro": "January 1st marks the start of a new year in the Gregorian calendar around the world. For many it's a day of hope, fresh starts and good resolutions.",
+          "history": "As early as 153 BC the Romans set the start of the year on January 1st, the day new consuls took office. During the Middle Ages, the start of the year shifted in many regions to Christmas or Easter. Only with Pope Gregory XIII's calendar reform of 1582 did January 1st become the European standard once again. The name January goes back to the Roman god Janus, who looked simultaneously at the past and the future with two faces — a fitting symbol for the day.",
+          "traditions": "At midnight, families and friends toast with sparkling wine and celebrate the turn of the year with fireworks, lucky charms (clover, chimney sweep, ladybug) and traditional lead pouring (now wax pouring). New Year's brunch and a fresh-air walk are popular too. Many people make resolutions for the year ahead.",
+          "funFacts": [
+            "In Spain, people eat one grape with each of the twelve bell strokes — one wish per grape.",
+            "In Denmark, people break old crockery in front of friends' doors to bring them luck.",
+            "Vienna's New Year's Concert is broadcast in over 90 countries and counts as the year's musical kick-off.",
+            "On the Pacific island of Kiribati, the new year arrives 26 hours earlier than on Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Easter Sunday is Christianity's highest festival — the day of Jesus Christ's resurrection and the climax of the church year.",
+          "history": "Easter grew out of the Jewish Passover and has been observed by Christians since the 1st century. The Church set in 325 at Nicaea that Easter is always celebrated on the first Sunday after the first spring full moon — hence the moving date between March 22nd and April 25th. The English name ‘Easter' may go back to the Germanic spring goddess Eostre, or simply to the Old High German ‘eostarum' (dawn).",
+          "traditions": "Families start the day with a festive Easter breakfast featuring colored eggs, sweet braided bread and Easter lamb cake. Children search the garden for the eggs and treats hidden by the Easter Bunny. Many parishes hold Easter fires, processions and joyful services with bells.",
+          "funFacts": [
+            "Easter can fall between March 22nd and April 25th — the next ‘early' Easter (March 22nd) won't return until 2285.",
+            "The world's largest Easter Bunny stands in Brazil and is over 4.2 m tall.",
+            "Russian Orthodox Christians often celebrate Easter on a different day from Western Christians because they use the Julian calendar.",
+            "In Poland, Holy Saturday baskets of food (‘Święconka') are blessed for the Sunday meal."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Easter Monday is the second day of Easter and is a public holiday in most European countries. It marks the closing of Christianity's highest festival.",
+          "history": "Easter is the oldest festival in Christendom, celebrating the resurrection of Jesus Christ on the third day after his death. The Council of Nicaea in 325 set Easter on the first Sunday after the first spring full moon. Easter Monday has been observed since the early Middle Ages — originally the entire Easter week was a holiday. In Germany and Austria it remained a legal holiday, unlike in many purely Catholic countries.",
+          "traditions": "Families hunt for Easter eggs together, enjoy a leisurely brunch or take the classic Easter walk (immortalized in Goethe's ‘Faust'). In Poland ‘Śmigus-Dyngus' is celebrated: boys splash girls with water. In Czechia, lads tap on doors with willow whips. In Bavaria and Austria there is the traditional ‘Emmaus walk'.",
+          "funFacts": [
+            "The custom of Easter egg hunts was first mentioned by Martin Luther, who used it to delight his children.",
+            "The world's largest chocolate Easter egg stood in Argentina (8.5 m tall, 4 t) — recorded in the Guinness Book.",
+            "In Sweden, children dress up as ‘Påskkärringar' — little witches — on Holy Saturday and go door to door.",
+            "The Easter Bunny as deliverer of eggs was first mentioned in 1682 by physician Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "The Assumption of Mary on August 15th celebrates Mary being taken up body and soul into heaven. The day is one of the highest Marian feasts of the Catholic Church.",
+          "history": "The teaching of Mary's bodily Assumption developed in Christian communities as early as the 4th century. Pope Pius XII declared it binding dogma in 1950 in the encyclical ‘Munificentissimus Deus'. As early as the Middle Ages, the custom of blessing herbs on this day arose — at a time when the first medicinal herbs bloomed. Assumption is a public holiday in Austria, in Saarland and in the predominantly Catholic municipalities of Bavaria.",
+          "traditions": "In Catholic regions ‘herb bunches' or ‘Frauendreißiger herbs' are blessed — bouquets of 7, 9 or 30 medicinal plants kept at home afterwards. Festive Marian processions move through the villages and pilgrimages to Marian sites become more frequent. In Italy (‘Ferragosto') the main holiday season begins on August 15th.",
+          "funFacts": [
+            "‘Ferragosto' in Italy goes back to Emperor Augustus, who ordered a rest period for farmers after harvest in 18 BC.",
+            "Bavarian Frauendreißiger herb bouquets often contain mugwort, mullein, yarrow and cornflower.",
+            "In France August 15th has been a national holiday since 1638 — owing to a Marian devotion of Louis XIII.",
+            "The famous ‘Notre-Dame March' in Paris was ordered in 1638 in honor of the day."
+          ],
+          "imageCredit": "Photo: Ondraness · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "All Saints' Day on November 1st is a Catholic high feast on which the Church remembers all saints. In many countries families visit the graves of their departed.",
+          "history": "There was already a joint memorial feast for all martyrs in the 4th century. Pope Gregory IV set the feast on November 1st in 837 — likely to ‘Christianize' the Celtic festival of Samhain. In the Middle Ages a connection developed with All Souls' Day on November 2nd (commemoration of all the departed). In Germany the day is protected by law in the Catholic states of Bavaria, Baden-Württemberg, NRW, Rhineland-Palatinate and Saarland — as a ‘silent holiday'.",
+          "traditions": "On November 1st and 2nd families visit cemeteries, decorating the graves of their dead with candles, flowers and arrangements of fir branches. Priests bless the graves. In Poland the day is celebrated particularly intensely — ‘Wszystkich Świętych' turns every city into a sea of light. Baking ‘All Saints' bread' is an old Austrian tradition.",
+          "funFacts": [
+            "On the night of November 1st in Poland, millions of candles are lit on cemeteries — visible from space.",
+            "Mexico's ‘Día de los Muertos' (November 1–2) developed from the merging of Catholic and Aztec traditions.",
+            "The ‘Allerheiligenstriezel' — a yeast braid with raisins — is traditionally given by godparents to godchildren in Vienna.",
+            "Halloween (‘All Hallows' Eve') derives its name directly from the eve of All Saints'."
+          ],
+          "imageCredit": "Photo: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "Christmas Eve is the most important family day of the Christmas festival in German-speaking countries — with gift-giving, a festive meal and shared singing under the Christmas tree.",
+          "history": "As early as the 4th century, the Church set Jesus' birth on December 25th. The eve (‘Vigil') was traditionally a day of fasting. After the Reformation, Martin Luther shifted the central celebration in Germany: in the early 16th century he introduced the custom that the ‘Christ Child' brings gifts on Christmas Eve — a counter-model to the Catholic Saint Nicholas. The decorated fir tree appeared in the 17th century and conquered the world via Queen Victoria in the 19th.",
+          "traditions": "In the afternoon the Christmas tree is decorated and many families attend a children's service or midnight mass. Then comes the gift-giving, often with carols like ‘Silent Night' or ‘O Tannenbaum'. Classic dishes are potato salad with sausages, carp or roast goose — depending on family tradition.",
+          "funFacts": [
+            "‘Silent Night, Holy Night' premiered in 1818 in Oberndorf near Salzburg — today translated into over 300 languages.",
+            "In Scandinavia and central Europe, gifts are exchanged on Christmas Eve; in the English-speaking world only on the morning of the 25th.",
+            "In Czechia and Slovakia, carp is eaten on Christmas Eve — and a fish scale is then tucked into the wallet for prosperity.",
+            "The world's largest natural Christmas tree is built every year in Dortmund, Germany, from around 1,700 individual red firs."
+          ],
+          "imageCredit": "Photo: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
+          "history": "December 25th is documented as ‘dies natalis Christi' as early as 354 in a Roman calendar. The Church likely chose the date to give the Roman ‘Sol Invictus' winter solstice festival a Christian meaning. Gift-giving has its roots in the gifts of the Magi. The familiar Santa Claus with red coat and white beard is a mix of Saint Nicholas and a 1931 Coca-Cola advertising campaign.",
+          "traditions": "Families gather for festive meals — turkey, goose, carp or raclette. Gifts are exchanged, carols sung, many attend the festive service. The decorated Christmas tree with lights, ornaments and straw stars is the central symbol. Advent calendars, cookies and visits to Christmas markets are part of the run-up.",
+          "funFacts": [
+            "The first commercial Advent calendar appeared in 1908 in Munich — invented by Gerhard Lang.",
+            "The Christmas markets in Dresden (‘Striezelmarkt', since 1434) and Frankfurt (since 1393) are among the oldest in the world.",
+            "Norway has gifted the UK a giant Christmas tree for Trafalgar Square every year since 1947 — as thanks for help during World War II.",
+            "Holiday classics like ‘Three Wishes for Cinderella' and ‘Love Actually' run dozens of times on TV worldwide every year."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "St. Stephen's Day on December 26th is Austria's second Christmas day and also commemorates Saint Stephen, the first Christian martyr.",
+          "history": "Stephen was one of the first seven deacons of the early Church and, according to Acts, was stoned in Jerusalem between 36 and 40 AD — known as the ‘protomartyr'. The feast of Stephen has been celebrated on December 26th since the 4th century, because the Church wanted to honor the most important martyrs the day after the birth of Christ (‘from Child to witness'). Vienna's St. Stephen's Cathedral — Austria's landmark — is named after him. December 26th remains a public holiday in Austria.",
+          "traditions": "The Church blesses horses and riders on this day at the so-called ‘Stephani-Ritt' or ‘Stephani-Umritt', as Stephen is the patron saint of horses and riders. In Salzburg, Tyrol and Lower Austria, decorated horses parade through the villages. Families visit further relatives or take long walks in the snow.",
+          "funFacts": [
+            "Vienna's St. Stephen's Cathedral (‘Steffl' for short) is Austria's most important Gothic building — its south tower stands 136 m high.",
+            "The ‘Stephani-Umritt' in Asparn an der Zaya draws several hundred riders from across Lower Austria every year.",
+            "Oats blessed on St. Stephen's Day and fed to horses are said to protect them from disease.",
+            "In the United Kingdom, St. Stephen's Day coincides with ‘Boxing Day' — but ‘Boxing Day' has a completely different origin."
+          ],
+          "imageCredit": "Photo: Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "new_year": {
+          "intro": "Le 1er janvier marque le début d'une nouvelle année dans le calendrier grégorien partout dans le monde. Pour beaucoup, c'est un jour d'espoir, de renouveau et de bonnes résolutions.",
+          "history": "Dès 153 av. J.-C., les Romains fixèrent le début de l'année au 1er janvier, jour d'entrée en fonction des nouveaux consuls. Au Moyen Âge, le début de l'année se déplaça dans de nombreuses régions à Noël ou à Pâques. Ce n'est qu'avec la réforme du calendrier du pape Grégoire XIII en 1582 que le 1er janvier s'imposa à nouveau comme standard européen. Le nom janvier vient du dieu romain Janus, qui regardait simultanément le passé et l'avenir avec deux visages.",
+          "traditions": "À minuit, familles et amis trinquent au champagne et célèbrent le passage à la nouvelle année avec des feux d'artifice, des porte-bonheur (trèfle, ramoneur, coccinelle) et la traditionnelle coulée de plomb (aujourd'hui de cire). Le brunch du Nouvel An et la promenade au grand air sont aussi populaires. Beaucoup formulent des résolutions pour l'année.",
+          "funFacts": [
+            "En Espagne, on mange un grain de raisin à chacun des douze coups de minuit — un vœu par grain.",
+            "Au Danemark, on brise de la vieille vaisselle devant la porte des amis pour leur porter chance.",
+            "Le Concert du Nouvel An de Vienne est diffusé dans plus de 90 pays — coup d'envoi musical de l'année.",
+            "Sur l'île pacifique de Kiribati, le Nouvel An arrive 26 heures avant celui de l'île Howland."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Le dimanche de Pâques est la fête la plus importante du christianisme — jour de la résurrection de Jésus-Christ et sommet de l'année liturgique.",
+          "history": "Pâques est issue de la Pâque juive et célébrée par les chrétiens depuis le Ier siècle. L'Église fixa en 325 à Nicée que Pâques se célébrerait toujours le premier dimanche après la première pleine lune de printemps — d'où la date mobile entre le 22 mars et le 25 avril. Le nom ‘Easter' (anglais) viendrait de la déesse germanique du printemps Eostre, ou simplement du vieux haut-allemand ‘eostarum' (aurore).",
+          "traditions": "Les familles entament la journée par un petit-déjeuner pascal festif avec œufs colorés, brioche tressée et agneau pascal. Les enfants cherchent les œufs et friandises cachés par le lapin de Pâques. Dans de nombreuses paroisses, on allume des feux de Pâques, des processions et des messes solennelles avec carillons.",
+          "funFacts": [
+            "Pâques peut tomber entre le 22 mars et le 25 avril — le prochain Pâques ‘précoce' (22 mars) ne reviendra qu'en 2285.",
+            "Le plus grand lapin de Pâques du monde se trouve au Brésil et mesure plus de 4,2 m.",
+            "Les chrétiens orthodoxes russes célèbrent souvent Pâques un autre jour, car ils utilisent le calendrier julien.",
+            "En Pologne, on bénit le Samedi Saint des paniers de nourriture (‘Święconka') pour le repas du dimanche."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Le lundi de Pâques est le second jour de Pâques et férié dans la plupart des pays européens. Il clôt la fête majeure du christianisme.",
+          "history": "Pâques est la plus ancienne fête de la chrétienté et célèbre la résurrection de Jésus-Christ le troisième jour. Le concile de Nicée fixa en 325 la date de Pâques au premier dimanche après la première pleine lune du printemps. Le lundi de Pâques se célèbre depuis le haut Moyen Âge — initialement, toute la semaine de Pâques était fériée. En Allemagne et en Autriche, il demeure un jour férié légal, contrairement à beaucoup de pays purement catholiques.",
+          "traditions": "Les familles font la chasse aux œufs, prennent un long brunch ou la traditionnelle promenade pascale. En Pologne, on célèbre ‘Śmigus-Dyngus' : les garçons aspergent les filles d'eau. En Tchéquie, les jeunes hommes tapent aux portes avec des branches de saule. En Bavière et en Autriche, la traditionnelle ‘marche d'Emmaüs' a lieu.",
+          "funFacts": [
+            "C'est Martin Luther qui mentionna pour la première fois la chasse aux œufs, pour amuser ses enfants.",
+            "Le plus grand œuf en chocolat du monde (8,5 m, 4 t) a été réalisé en Argentine — entré au Guinness.",
+            "En Suède, les enfants se déguisent en ‘Påskkärringar' (petites sorcières) le Samedi Saint et font du porte-à-porte.",
+            "Le lapin de Pâques en tant que livreur d'œufs fut mentionné pour la première fois en 1682 par le médecin Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "L'Assomption de Marie, le 15 août, célèbre l'élévation de Marie corps et âme au ciel. C'est l'une des plus grandes fêtes mariales catholiques.",
+          "history": "La doctrine de l'Assomption se développa dès le IVe siècle. Le pape Pie XII la déclara dogme contraignant en 1950 dans l'encyclique ‘Munificentissimus Deus'. Dès le Moyen Âge, on bénissait des herbes médicinales ce jour-là, à l'époque de leur première floraison. En France, l'Assomption est jour férié national depuis 1638 — Louis XIII y avait consacré le royaume à la Vierge. C'est aussi un jour férié en Autriche, en Sarre et dans les communes catholiques de Bavière.",
+          "traditions": "Dans les régions catholiques, on bénit des ‘bouquets d'herbes' — bouquets de 7, 9 ou 30 plantes médicinales. Des processions mariales traversent les villages, les pèlerinages se multiplient. En Italie (‘Ferragosto'), c'est le grand week-end de vacances. En France, des processions ont lieu dans de nombreuses villes, notamment à Lourdes et à Lyon.",
+          "funFacts": [
+            "Le ‘Ferragosto' italien remonte à l'empereur Auguste, qui ordonna en 18 av. J.-C. un repos des paysans après la moisson.",
+            "Les bouquets bavarois renferment souvent armoise, molène, achillée et bleuet.",
+            "En France, le 15 août est fête nationale depuis 1638 — par dévotion mariale de Louis XIII.",
+            "La fameuse ‘Marche Notre-Dame' à Paris fut décrétée en 1638 en l'honneur du jour."
+          ],
+          "imageCredit": "Photo: Ondraness · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "La Toussaint, le 1er novembre, est une solennité catholique où l'Église se souvient de tous les saints. Dans bien des pays, les familles visitent les tombes de leurs défunts.",
+          "history": "Dès le IVe siècle, on célébrait une fête commune pour tous les martyrs. Le pape Grégoire IV fixa la fête au 1er novembre en 837 — sans doute pour ‘christianiser' la fête celtique de Samain. Au Moyen Âge, la connexion s'établit avec le 2 novembre, jour des défunts. En France, c'est jour férié national depuis 1801 (concordat). En Allemagne, c'est férié dans les Länder catholiques.",
+          "traditions": "Les 1er et 2 novembre, les familles visitent les cimetières et fleurissent les tombes de chrysanthèmes (tradition française), de bougies et de compositions de branches de sapin. Les prêtres bénissent les tombes. En Pologne, la nuit du 1er novembre, des millions de bougies illuminent les cimetières — visibles depuis l'espace.",
+          "funFacts": [
+            "La nuit du 1er novembre en Pologne, des millions de bougies illuminent les cimetières — visibles depuis l'espace.",
+            "Le ‘Día de los Muertos' mexicain (1–2 novembre) est né de la fusion de traditions catholiques et aztèques.",
+            "L'‘Allerheiligenstriezel' — une brioche tressée aux raisins — est un cadeau traditionnel des parrains aux filleuls à Vienne.",
+            "Halloween (‘All Hallows' Eve') tire son nom directement de la veille de la Toussaint."
+          ],
+          "imageCredit": "Photo: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "La veille de Noël est le jour familial le plus important de Noël dans les pays germaniques — avec remise des cadeaux, repas festif et chants en chœur sous le sapin.",
+          "history": "Dès le IVe siècle, l'Église fixa la naissance de Jésus au 25 décembre. La veille (‘Vigile') était traditionnellement jour de jeûne. Après la Réforme, Luther déplaça en Allemagne la célébration centrale au 24 : il introduisit l'idée que ‘l'Enfant Jésus' (Christkind) apporte les cadeaux à la veille de Noël, en contre-modèle au saint Nicolas catholique. Le sapin décoré apparut au XVIIe siècle et conquit le monde au XIXe grâce à la reine Victoria.",
+          "traditions": "L'après-midi, on décore le sapin ; beaucoup de familles assistent à la messe des enfants ou de minuit. Vient ensuite la remise des cadeaux, souvent accompagnée de chants comme ‘Stille Nacht' ou ‘Mon beau sapin'. Plats classiques : salade de pommes de terre aux saucisses, carpe ou oie rôtie — selon la tradition familiale.",
+          "funFacts": [
+            "‘Douce nuit, sainte nuit' fut créée en 1818 à Oberndorf, près de Salzbourg — aujourd'hui traduite dans plus de 300 langues.",
+            "En Scandinavie et en Europe centrale, on s'offre les cadeaux le 24 au soir ; dans le monde anglo-saxon, seulement le matin du 25.",
+            "En Tchéquie et Slovaquie, on mange de la carpe à la veille de Noël — et l'on glisse une écaille dans son portefeuille pour la prospérité.",
+            "Le plus grand sapin naturel au monde s'élève chaque année à Dortmund, fait de quelque 1 700 sapins rouges individuels."
+          ],
+          "imageCredit": "Photo: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
+          "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
+          "traditions": "Les familles se rassemblent autour de repas festifs — dinde, oie, carpe ou raclette. On échange des cadeaux, chante des cantiques, beaucoup assistent à la messe festive. Le sapin décoré de lumières, boules et étoiles de paille est le symbole central. Calendrier de l'avent, biscuits et marchés de Noël jalonnent la préparation.",
+          "funFacts": [
+            "Le premier calendrier de l'avent commercial parut en 1908 à Munich — invention de Gerhard Lang.",
+            "Les marchés de Noël de Dresde (‘Striezelmarkt', depuis 1434) et de Francfort (depuis 1393) figurent parmi les plus anciens du monde.",
+            "La Norvège offre chaque année au Royaume-Uni un immense sapin pour Trafalgar Square depuis 1947 — en remerciement de l'aide pendant la Seconde Guerre mondiale.",
+            "Les classiques de Noël comme ‘Trois noisettes pour Cendrillon' ou ‘Love Actually' sont diffusés des dizaines de fois à la télé chaque année."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "La Saint-Étienne, le 26 décembre, est en Autriche le second jour de Noël et commémore saint Étienne, premier martyr chrétien.",
+          "history": "Étienne fut l'un des sept premiers diacres de l'Église primitive et, selon les Actes des Apôtres, fut lapidé à Jérusalem entre 36 et 40 apr. J.-C. — c'est le ‘protomartyr'. La fête se célèbre le 26 décembre depuis le IVe siècle, l'Église souhaitant honorer les grands martyrs le lendemain de la naissance du Christ (‘de l'Enfant au témoin'). La cathédrale Saint-Étienne de Vienne — symbole de l'Autriche — porte son nom. Le 26 décembre demeure férié en Autriche.",
+          "traditions": "L'Église bénit ce jour-là chevaux et cavaliers lors du ‘Stephani-Ritt' ou ‘Stephani-Umritt', Étienne étant patron des chevaux et des cavaliers. À Salzbourg, au Tyrol et en Basse-Autriche, des chevaux ornés défilent dans les villages. Les familles rendent visite à d'autres parents ou se promènent dans la neige.",
+          "funFacts": [
+            "La cathédrale Saint-Étienne (‘Steffl' familier) est le plus important monument gothique d'Autriche — sa tour sud culmine à 136 m.",
+            "Le ‘Stephani-Umritt' d'Asparn an der Zaya rassemble chaque année plusieurs centaines de cavaliers de toute la Basse-Autriche.",
+            "L'avoine bénie le jour de la Saint-Étienne et donnée aux chevaux est censée les protéger des maladies.",
+            "Au Royaume-Uni, la Saint-Étienne coïncide avec le ‘Boxing Day' — mais le ‘Boxing Day' a une origine totalement différente."
+          ],
+          "imageCredit": "Photo: Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "new_year": {
+          "intro": "El 1 de enero marca el inicio de un nuevo año en el calendario gregoriano en todo el mundo. Para muchos es un día de esperanza, comienzos y buenos propósitos.",
+          "history": "Ya en el 153 a. C., los romanos fijaron el inicio del año el 1 de enero, día en que tomaban posesión los nuevos cónsules. En la Edad Media el comienzo del año cambió en muchas regiones a Navidad o Pascua. Solo con la reforma del calendario del papa Gregorio XIII en 1582 el 1 de enero volvió a imponerse como estándar europeo. El nombre Janus (enero en latín) evoca al dios romano de las dos caras, que miraba al pasado y al futuro a la vez.",
+          "traditions": "A medianoche, familias y amigos brindan con cava o champán y celebran con fuegos artificiales, amuletos como tréboles, deshollinadores o mariquitas, y la tradicional fundición de cera para predecir el año. También son populares el brunch de Año Nuevo y los paseos al aire libre. Muchos hacen propósitos para el año entrante.",
+          "funFacts": [
+            "En España se come una uva con cada una de las doce campanadas — un deseo por uva.",
+            "En Dinamarca se rompe vajilla vieja delante de las puertas de los amigos para darles suerte.",
+            "El Concierto de Año Nuevo de Viena se transmite en más de 90 países y se considera el arranque musical del año.",
+            "En la isla pacífica de Kiribati el Año Nuevo llega 26 horas antes que en la isla Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 vía Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "El Domingo de Pascua es la fiesta más importante del cristianismo: el día de la resurrección de Jesús y culmen del año litúrgico.",
+          "history": "La Pascua surgió de la fiesta judía de Pésaj y se celebra desde el siglo I. La Iglesia fijó en 325 en Nicea que se celebrara el primer domingo tras la primera luna llena de primavera — de ahí la fecha variable entre el 22 de marzo y el 25 de abril. El nombre ‘Easter' (inglés) puede derivar de la diosa germánica de la primavera Eostre, o del antiguo alto alemán ‘eostarum' (alba).",
+          "traditions": "Las familias inician el día con un desayuno festivo con huevos coloreados, trenzas dulces y cordero pascual. Los niños buscan los huevos y dulces escondidos por el Conejo de Pascua. En muchas comunidades hay hogueras de Pascua, procesiones y misas solemnes con campanas.",
+          "funFacts": [
+            "La Pascua puede caer entre el 22 de marzo y el 25 de abril — el próximo Domingo de Pascua ‘temprano' (22 de marzo) no llegará hasta 2285.",
+            "El conejo de Pascua más grande del mundo está en Brasil y mide más de 4,2 m.",
+            "Los cristianos ortodoxos rusos suelen celebrar la Pascua otro día, ya que usan el calendario juliano.",
+            "En Polonia se bendicen las cestas de comida (‘Święconka') el Sábado Santo para el almuerzo del domingo."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "El Lunes de Pascua es el segundo día de la Pascua y festivo en la mayoría de países europeos. Cierra la fiesta más importante del cristianismo.",
+          "history": "La Pascua es la fiesta más antigua del cristianismo y celebra la resurrección de Jesús al tercer día de su muerte. El Concilio de Nicea fijó en 325 que se celebraría el primer domingo después de la primera luna llena de primavera. El Lunes de Pascua se celebra desde la temprana Edad Media — originalmente toda la octava de Pascua era festiva. En Alemania y Austria sigue siendo festivo legal, a diferencia de muchos países católicos.",
+          "traditions": "Las familias buscan huevos de Pascua, desayunan abundantemente o dan el clásico paseo de Pascua. En Polonia se celebra ‘Śmigus-Dyngus': los chicos mojan a las chicas con agua. En Chequia los jóvenes golpean las puertas con ramas de sauce. En Baviera y Austria se hace la tradicional caminata de Emaús.",
+          "funFacts": [
+            "Martin Lutero fue el primero en mencionar la búsqueda de huevos de Pascua, para alegrar a sus hijos.",
+            "El huevo de Pascua de chocolate más grande del mundo (8,5 m, 4 t) se hizo en Argentina y figura en el Guinness.",
+            "En Suecia los niños se disfrazan de ‘Påskkärringar' — pequeñas brujas — el Sábado Santo y van de puerta en puerta.",
+            "El conejo de Pascua como portador de huevos fue mencionado por escrito por primera vez en 1682, por el médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 vía Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "La Asunción de María, el 15 de agosto, celebra la elevación de María en cuerpo y alma al cielo. Es una de las máximas fiestas marianas católicas.",
+          "history": "La doctrina de la Asunción se desarrolló desde el siglo IV. El papa Pío XII la declaró dogma vinculante en 1950 con la encíclica ‘Munificentissimus Deus'. Ya en la Edad Media se bendecían hierbas medicinales en este día — coincidiendo con el florecimiento de las primeras plantas curativas. Es festivo en Austria, en Sarre y en municipios mayoritariamente católicos de Baviera. En España es ‘La Asunción' y festivo nacional.",
+          "traditions": "En regiones católicas se bendicen ‘ramos de hierbas' o ‘hierbas de Frauendreißiger' — ramos de 7, 9 o 30 plantas medicinales que luego se conservan en casa. Procesiones marianas atraviesan los pueblos y aumentan las peregrinaciones a santuarios. En Italia (‘Ferragosto') comienza la temporada principal de vacaciones.",
+          "funFacts": [
+            "El ‘Ferragosto' italiano remonta al emperador Augusto, que en el 18 a. C. ordenó un descanso de los campesinos tras la cosecha.",
+            "Los ramos bávaros suelen incluir artemisa, gordolobo, milenrama y aciano.",
+            "En Francia el 15 de agosto es fiesta nacional desde 1638 — por una devoción mariana de Luis XIII.",
+            "La famosa ‘Marcha de Notre-Dame' en París se decretó en 1638 en honor del día."
+          ],
+          "imageCredit": "Foto: Ondraness · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Todos los Santos, el 1 de noviembre, es una solemnidad católica en la que la Iglesia recuerda a todos los santos. En muchos países las familias visitan las tumbas de sus difuntos.",
+          "history": "Ya en el siglo IV existía una conmemoración común de todos los mártires. El papa Gregorio IV fijó la fiesta el 1 de noviembre en 837 — probablemente para ‘cristianizar' la celta de Samhain. En la Edad Media surge la conexión con el Día de los Difuntos del 2 de noviembre. En España, Italia y Polonia es festivo nacional. En Alemania lo es en los estados federados católicos.",
+          "traditions": "El 1 y 2 de noviembre las familias visitan los cementerios y adornan las tumbas con velas, flores y composiciones de ramas de abeto. Los sacerdotes bendicen las tumbas. En España es tradición ver ‘Don Juan Tenorio' y comer huesos de santo y buñuelos. En Polonia la noche del 1 de noviembre los cementerios brillan con millones de velas — visibles desde el espacio.",
+          "funFacts": [
+            "En Polonia, en la noche del 1 de noviembre, millones de velas iluminan los cementerios — visibles desde el espacio.",
+            "El ‘Día de los Muertos' mexicano (1–2 de noviembre) nació de la fusión de tradiciones católicas y aztecas.",
+            "El ‘Allerheiligenstriezel' — un trenzado de levadura con pasas — es regalo tradicional de padrinos a ahijados en Viena.",
+            "Halloween (‘All Hallows' Eve') toma su nombre directamente de la víspera de Todos los Santos."
+          ],
+          "imageCredit": "Foto: MichalPL · CC0 vía Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "Nochebuena es el día familiar más importante de la Navidad en los países germanos: regalos, cena festiva y villancicos junto al árbol.",
+          "history": "Ya en el siglo IV la Iglesia fijó el nacimiento de Jesús el 25 de diciembre. La víspera (‘Vigilia') fue tradicionalmente día de ayuno. En Alemania la celebración central se desplazó tras la Reforma: a comienzos del siglo XVI, Lutero introdujo la costumbre de que el ‘Niño Jesús' (Christkind) traiga regalos en Nochebuena, como contrapunto al San Nicolás católico. El árbol decorado surgió en el siglo XVII y conquistó el mundo en el XIX gracias a la reina Victoria.",
+          "traditions": "Por la tarde se decora el árbol; muchas familias asisten a la misa infantil o del gallo. Después llegan los regalos, a menudo con villancicos como ‘Stille Nacht' o ‘O Tannenbaum'. Platos clásicos: ensalada de patatas con salchichas, carpa o ganso asado, según la familia.",
+          "funFacts": [
+            "‘Noche de paz, noche de amor' (‘Stille Nacht') se estrenó en 1818 en Oberndorf, cerca de Salzburgo — hoy traducida a más de 300 idiomas.",
+            "En Escandinavia y Europa central los regalos llegan en Nochebuena; en el mundo anglosajón solo la mañana del 25.",
+            "En Chequia y Eslovaquia se come carpa en Nochebuena — y se guarda una escama en la cartera para atraer dinero.",
+            "El árbol natural más grande del mundo se monta cada año en Dortmund con unos 1.700 abetos rojos."
+          ],
+          "imageCredit": "Foto: ZemplinTemplar · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
+          "history": "Ya en el año 354 un calendario romano consigna el 25 de diciembre como ‘dies natalis Christi'. Probablemente la Iglesia eligió la fecha para reinterpretar cristianamente el ‘Sol Invictus' romano. El intercambio de regalos arraiga en los obsequios de los Magos. El moderno Papá Noel con abrigo rojo y barba blanca es una mezcla de San Nicolás con una campaña publicitaria de Coca-Cola de 1931.",
+          "traditions": "Las familias se reúnen para comidas festivas — pavo, ganso, carpa o raclette. Se intercambian regalos, se cantan villancicos y muchos asisten al servicio festivo. El árbol decorado con luces y bolas es el símbolo central. El calendario de Adviento, las galletas y los mercadillos forman parte de la preparación.",
+          "funFacts": [
+            "El primer calendario de Adviento comercial apareció en 1908 en Múnich — invento de Gerhard Lang.",
+            "Los mercadillos navideños de Dresde (‘Striezelmarkt', desde 1434) y Fráncfort (desde 1393) son de los más antiguos del mundo.",
+            "Noruega regala al Reino Unido un enorme árbol de Navidad para Trafalgar Square cada año desde 1947 — agradecimiento por la ayuda en la Segunda Guerra Mundial.",
+            "Los clásicos como ‘Tres Avellanas para Cenicienta' o ‘Love Actually' se emiten decenas de veces cada año en TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "El día de San Esteban, el 26 de diciembre, es el segundo día de Navidad en Austria y conmemora a San Esteban, primer mártir cristiano.",
+          "history": "Esteban fue uno de los siete primeros diáconos de la Iglesia y, según los Hechos de los Apóstoles, fue lapidado en Jerusalén entre el 36 y el 40 d. C. — es el ‘protomártir'. La fiesta se celebra el 26 de diciembre desde el siglo IV, porque la Iglesia quiso honrar a los grandes mártires el día siguiente al nacimiento de Cristo (‘del Niño al testigo'). La catedral de San Esteban en Viena, símbolo de Austria, lleva su nombre. En Austria sigue siendo festivo legal.",
+          "traditions": "La Iglesia bendice caballos y jinetes en el ‘Stephani-Ritt' o ‘Stephani-Umritt', pues San Esteban es patrón de caballos y jinetes. En Salzburgo, Tirol y Baja Austria caballos engalanados desfilan por los pueblos. Las familias visitan a más parientes o salen a pasear por la nieve.",
+          "funFacts": [
+            "La catedral de San Esteban (‘Steffl' coloquial) es el edificio gótico más importante de Austria — su torre sur mide 136 m.",
+            "El ‘Stephani-Umritt' de Asparn an der Zaya reúne a varios cientos de jinetes de toda Baja Austria cada año.",
+            "La avena bendecida en el día de San Esteban y dada a los caballos los protegería de enfermedades.",
+            "En el Reino Unido San Esteban coincide con ‘Boxing Day' — pero ‘Boxing Day' tiene un origen completamente distinto."
+          ],
+          "imageCredit": "Foto: Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "new_year": {
+          "intro": "1 de janeiro marca o início de um novo ano no calendário gregoriano em todo o mundo. Para muitos é um dia de esperança, novos começos e boas resoluções.",
+          "history": "Já em 153 a.C. os romanos fixaram o início do ano em 1 de janeiro, dia em que tomavam posse os novos cônsules. Na Idade Média, o início do ano deslocou-se em muitas regiões para o Natal ou a Páscoa. Só com a reforma do calendário do Papa Gregório XIII em 1582 o 1 de janeiro voltou a impor-se como padrão europeu. O nome Janus (janeiro em latim) evoca o deus romano de duas faces, que olhava simultaneamente para o passado e o futuro.",
+          "traditions": "À meia-noite, famílias e amigos brindam com espumante e celebram com fogo de artifício, amuletos como trevos, limpa-chaminés ou joaninhas, e a tradicional fundição de cera para prever o ano. Também são populares o brunch de Ano Novo e os passeios ao ar livre. Muitos fazem resoluções para o ano que começa.",
+          "funFacts": [
+            "Em Portugal e Espanha, come-se uma uva por cada uma das doze badaladas — um desejo por uva.",
+            "Na Dinamarca, partem-se louças velhas em frente à porta dos amigos para lhes dar sorte.",
+            "O Concerto de Ano Novo de Viena é transmitido em mais de 90 países — abertura musical do ano.",
+            "Na ilha pacífica de Kiribati, o Ano Novo chega 26 horas antes do que na ilha de Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "O Domingo de Páscoa é a festa mais importante do cristianismo — dia da ressurreição de Jesus Cristo e ápice do ano litúrgico.",
+          "history": "A Páscoa surgiu da festa judaica de Pessach e é celebrada pelos cristãos desde o século I. A Igreja fixou em 325 em Niceia que a Páscoa se celebra sempre no primeiro domingo após a primeira lua cheia da primavera — daí a data móvel entre 22 de março e 25 de abril. Em Portugal, é uma das festas religiosas mais importantes, com missas solenes, procissões e a tradição do compasso pascal — visita do pároco às casas para abençoá-las.",
+          "traditions": "Em Portugal o Domingo de Páscoa é dia de almoço de família com cabrito assado, folar e amêndoas. Antes do almoço, em algumas regiões (sobretudo Trás-os-Montes), o pároco visita as casas levando a cruz para beijar — o ‘compasso pascal'. As crianças procuram amêndoas e ovos de chocolate escondidos. Em muitas paróquias acendem-se fogos pascais e há procissões.",
+          "funFacts": [
+            "A Páscoa pode cair entre 22 de março e 25 de abril — a próxima Páscoa ‘precoce' (22 de março) só voltará em 2285.",
+            "O maior coelho da Páscoa do mundo está no Brasil e mede mais de 4,2 m.",
+            "Os cristãos ortodoxos russos costumam celebrar a Páscoa noutro dia, pois usam o calendário juliano.",
+            "Em Portugal, no compasso pascal, o pároco visita as casas com a cruz para beijar — quem não recebe o compasso é considerado ‘casa fechada'."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "A Segunda-Feira de Páscoa é o segundo dia de Páscoa e feriado na maioria dos países europeus. Em Portugal, ainda que não seja feriado, é tradição almoçar com a família o folar.",
+          "history": "A Páscoa é a festa mais antiga da cristandade e celebra a ressurreição de Jesus Cristo no terceiro dia. O Concílio de Niceia em 325 fixou a Páscoa no primeiro domingo após a primeira lua cheia da primavera. A Segunda-Feira de Páscoa celebra-se desde a alta Idade Média — originalmente toda a semana de Páscoa era feriada. Em Portugal, a tradição é a do ‘folar', um bolo doce com ovo cozido por cima, que se oferece sobretudo aos afilhados.",
+          "traditions": "As famílias procuram em conjunto ovos de Páscoa, almoçam abundantemente ou fazem o clássico passeio pascal. Em Portugal, oferece-se o ‘folar' aos afilhados e organizam-se almoços em família com cabrito assado. Na Polónia celebra-se ‘Śmigus-Dyngus': os rapazes salpicam as raparigas com água. Na Chéquia, os jovens batem às portas com ramos de salgueiro.",
+          "funFacts": [
+            "O costume da caça aos ovos foi mencionado pela primeira vez por Martinho Lutero, para alegrar os filhos.",
+            "O maior ovo de chocolate do mundo (8,5 m, 4 t) foi feito na Argentina e está no Guinness.",
+            "Na Suécia, as crianças vestem-se de ‘Påskkärringar' — pequenas bruxas — no Sábado Santo e vão de porta em porta.",
+            "O coelho da Páscoa como entregador de ovos foi mencionado pela primeira vez por escrito em 1682 pelo médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "A Assunção de Maria, 15 de agosto, celebra a elevação de Maria em corpo e alma ao céu. É uma das maiores festas marianas católicas. Em Portugal é feriado nacional.",
+          "history": "A doutrina da Assunção desenvolveu-se desde o século IV. O Papa Pio XII declarou-a dogma vinculativo em 1950 na encíclica ‘Munificentissimus Deus'. Já na Idade Média se benziam ervas medicinais neste dia, na altura em que floresciam as primeiras plantas curativas. Em Portugal, o 15 de agosto é tradicionalmente um dia de festa em muitas localidades, com romarias e procissões marianas.",
+          "traditions": "Em Portugal há inúmeras romarias e festas em honra de Nossa Senhora da Assunção, especialmente no Norte e Centro do país. As procissões marianas atravessam as aldeias, e há feiras com comidas tradicionais e fogo de artifício. Em Itália (‘Ferragosto') começa a principal temporada de férias.",
+          "funFacts": [
+            "‘Ferragosto' em Itália remonta ao imperador Augusto, que ordenou em 18 a.C. um descanso dos camponeses depois das colheitas.",
+            "Em Portugal, a Festa de Nossa Senhora da Boa Viagem em Caminha e tantas outras ‘Senhora da Assunção' transformam o 15 de agosto numa data de grandes festas locais.",
+            "Em França, o 15 de agosto é feriado nacional desde 1638 — por devoção mariana de Luís XIII.",
+            "A famosa ‘Marcha de Notre-Dame' em Paris foi decretada em 1638 em honra do dia."
+          ],
+          "imageCredit": "Foto: Ondraness · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Todos-os-Santos, 1 de novembro, é uma solenidade católica em que a Igreja recorda todos os santos. Em Portugal é feriado nacional e dia de visita aos cemitérios.",
+          "history": "Já no século IV existia uma comemoração comum de todos os mártires. O Papa Gregório IV fixou a festa a 1 de novembro em 837 — provavelmente para ‘cristianizar' a celta de Samhain. Na Idade Média desenvolveu-se a ligação ao Dia dos Fiéis Defuntos a 2 de novembro. Em Portugal, o Dia de Todos-os-Santos é tradicionalmente também o dia do ‘Pão-por-Deus', em que crianças vão de porta em porta pedir pequenos pães, doces ou frutos secos.",
+          "traditions": "Em Portugal, o Pão-por-Deus é uma tradição rural ainda viva: as crianças vão de porta em porta a pedir o ‘pão-por-Deus' e recebem doces, castanhas, romãs ou pequenas moedas. As famílias visitam os cemitérios e enfeitam as sepulturas com flores (frequentemente crisântemos). Há missas solenes em muitas paróquias.",
+          "funFacts": [
+            "Em Portugal, a tradição do ‘Pão-por-Deus' lembra o Halloween anglo-saxónico — mas é muito mais antiga e enraizada no rural.",
+            "Na Polónia, na noite de 1 de novembro, milhões de velas iluminam os cemitérios — visíveis do espaço.",
+            "O ‘Día de los Muertos' mexicano (1–2 de novembro) nasceu da fusão de tradições católicas e astecas.",
+            "Halloween (‘All Hallows' Eve') deriva o nome diretamente da véspera de Todos-os-Santos."
+          ],
+          "imageCredit": "Foto: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "A Consoada é o dia em família mais importante do Natal nos países germânicos — com troca de prendas, ceia festiva e cantorias junto à árvore. Em Portugal é a noite da consoada, com bacalhau cozido e missa do galo.",
+          "history": "Já no século IV a Igreja fixou o nascimento de Jesus a 25 de dezembro. A véspera (‘Vigília') foi tradicionalmente dia de jejum. Após a Reforma, Lutero deslocou na Alemanha a celebração principal: no início do século XVI introduziu o costume de o ‘Menino Jesus' (Christkind) trazer presentes na Consoada — em contraponto ao São Nicolau católico. Em Portugal, a tradição é o bacalhau cozido com batatas e couve, e a missa do galo à meia-noite.",
+          "traditions": "Em Portugal a Consoada é uma noite de família com bacalhau cozido com batatas, couve e ovo, seguido de bolo-rei, rabanadas, sonhos e filhós. À meia-noite vai-se à Missa do Galo. Nos países germânicos, decora-se a árvore, vai-se à missa das crianças e trocam-se prendas com cantos como ‘Stille Nacht'.",
+          "funFacts": [
+            "‘Noite Feliz' (‘Stille Nacht') estreou em 1818 em Oberndorf, perto de Salzburgo — hoje traduzida em mais de 300 línguas.",
+            "Na Escandinávia e Europa Central, as prendas trocam-se na Consoada; no mundo anglófono só na manhã do dia 25.",
+            "Na Madeira, o ‘Cantar dos Reis' começa logo na noite de Consoada e estende-se por dias.",
+            "A maior árvore de Natal natural do mundo é montada todos os anos em Dortmund (Alemanha), feita com cerca de 1.700 abetos."
+          ],
+          "imageCredit": "Foto: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
+          "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
+          "traditions": "As famílias reúnem-se em refeições festivas — peru, ganso, bacalhau ou raclette nos países germânicos; em Portugal, o típico almoço de Natal com peru ou cabrito assado, e as sobremesas de bolo-rei, sonhos, rabanadas, aletria e arroz-doce. Trocam-se presentes, cantam-se cânticos, muitos vão à missa festiva. A árvore decorada e o presépio são símbolos centrais.",
+          "funFacts": [
+            "O primeiro calendário do Advento comercial apareceu em 1908 em Munique — invenção de Gerhard Lang.",
+            "Os mercados de Natal de Dresden (‘Striezelmarkt', desde 1434) e Frankfurt (desde 1393) estão entre os mais antigos do mundo.",
+            "A Noruega oferece ao Reino Unido um enorme abeto para Trafalgar Square todos os anos desde 1947 — em agradecimento pela ajuda na II Guerra.",
+            "Em Portugal, a tradição do bolo-rei remonta ao século XIX, importado da pastelaria francesa."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "O Dia de Santo Estêvão, 26 de dezembro, é na Áustria o segundo dia de Natal e comemora Santo Estêvão, primeiro mártir cristão.",
+          "history": "Estêvão foi um dos primeiros sete diáconos da Igreja primitiva e, segundo os Atos dos Apóstolos, foi apedrejado em Jerusalém entre 36 e 40 d.C. — é o ‘proto-mártir'. A festa celebra-se a 26 de dezembro desde o século IV, porque a Igreja quis honrar os grandes mártires no dia seguinte ao do nascimento de Cristo (‘da Criança à testemunha'). A Catedral de Santo Estêvão de Viena — símbolo da Áustria — tem o seu nome. Na Áustria continua a ser feriado.",
+          "traditions": "A Igreja abençoa cavalos e cavaleiros neste dia no chamado ‘Stephani-Ritt' ou ‘Stephani-Umritt', sendo Estêvão o padroeiro dos cavalos e cavaleiros. Em Salzburgo, Tirol e Baixa Áustria, cavalos enfeitados desfilam pelas aldeias. As famílias visitam outros parentes ou dão um longo passeio na neve.",
+          "funFacts": [
+            "A Catedral de Santo Estêvão (‘Steffl' familiarmente) é o mais importante edifício gótico da Áustria — a sua torre sul tem 136 m.",
+            "O ‘Stephani-Umritt' de Asparn an der Zaya reúne todos os anos várias centenas de cavaleiros de toda a Baixa Áustria.",
+            "A aveia abençoada no Dia de Santo Estêvão e dada aos cavalos seria capaz de protegê-los de doenças.",
+            "No Reino Unido, o Dia de Santo Estêvão coincide com o ‘Boxing Day' — mas o ‘Boxing Day' tem origem totalmente diferente."
+          ],
+          "imageCredit": "Foto: Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "new_year": {
+          "intro": "Il 1° gennaio segna l'inizio di un nuovo anno nel calendario gregoriano in tutto il mondo. Per molti è un giorno di speranza, di nuovi inizi e di buoni propositi.",
+          "history": "Già nel 153 a.C. i Romani fissarono l'inizio dell'anno al 1° gennaio, giorno dell'insediamento dei nuovi consoli. Nel Medioevo l'inizio dell'anno si spostò in molte regioni a Natale o Pasqua. Solo con la riforma del calendario di papa Gregorio XIII nel 1582 il 1° gennaio tornò ad imporsi come standard europeo. Il nome ‘gennaio' deriva dal dio romano Giano, che con due volti guardava contemporaneamente al passato e al futuro.",
+          "traditions": "A mezzanotte famiglie e amici brindano con spumante e festeggiano con fuochi d'artificio, portafortuna come quadrifogli, spazzacamini o coccinelle e la tradizionale colata di piombo (oggi di cera). Sono diffusi anche il brunch di Capodanno e la passeggiata all'aria aperta. Molti formulano buoni propositi per l'anno che inizia.",
+          "funFacts": [
+            "In Spagna si mangia un chicco d'uva a ogni rintocco delle dodici campane — un desiderio per chicco.",
+            "In Danimarca si rompono stoviglie davanti alle porte degli amici per portare loro fortuna.",
+            "Il Concerto di Capodanno di Vienna è trasmesso in oltre 90 paesi — apertura musicale dell'anno.",
+            "Sull'isola pacifica di Kiribati il Capodanno arriva 26 ore prima rispetto all'isola Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "La Domenica di Pasqua è la festa più importante del cristianesimo — giorno della resurrezione di Gesù e culmine dell'anno liturgico.",
+          "history": "La Pasqua si è sviluppata dalla festa ebraica di Pesach ed è celebrata dai cristiani dal I secolo. La Chiesa stabilì nel 325 a Nicea che la Pasqua si celebra sempre la prima domenica dopo il primo plenilunio di primavera — da qui la data variabile tra il 22 marzo e il 25 aprile. In Italia, oltre al pranzo familiare con agnello, colomba e uova di cioccolato, è tradizione la benedizione delle case.",
+          "traditions": "Le famiglie iniziano la giornata con una colazione pasquale festiva con uova colorate, colomba e agnello pasquale. I bambini cercano le uova nascoste dal coniglio pasquale. In molte parrocchie si accendono fuochi pasquali, processioni e messe solenni con suono delle campane. In Italia, è tradizione il pranzo con agnello al forno, colomba pasquale e uova di cioccolato.",
+          "funFacts": [
+            "La Pasqua può cadere tra il 22 marzo e il 25 aprile — la prossima Pasqua ‘precoce' (22 marzo) tornerà solo nel 2285.",
+            "Il più grande coniglio pasquale del mondo si trova in Brasile e supera i 4,2 m.",
+            "I cristiani ortodossi russi spesso celebrano la Pasqua in un altro giorno, perché usano il calendario giuliano.",
+            "In Polonia il Sabato Santo si benedicono cesti di cibo (‘Święconka') per il pranzo della domenica."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Il Lunedì dell'Angelo è il secondo giorno di Pasqua e festivo nella maggior parte dei paesi europei. Chiude la festa più importante del cristianesimo.",
+          "history": "La Pasqua è la festa più antica del cristianesimo e celebra la resurrezione di Gesù Cristo il terzo giorno. Il Concilio di Nicea nel 325 fissò la Pasqua alla prima domenica dopo il primo plenilunio di primavera. Il Lunedì dell'Angelo si celebra dall'alto Medioevo — originariamente era festiva l'intera ottava di Pasqua. In Italia il Lunedì dell'Angelo (Pasquetta) è giorno di gite ed è festivo nazionale.",
+          "traditions": "In Italia ‘Natale con i tuoi, Pasquetta con chi vuoi': la tradizione vuole pic-nic in campagna o gite fuori porta con grigliata. Le famiglie cercano insieme le uova di Pasqua, fanno colazione abbondante o la classica passeggiata pasquale. In Polonia si celebra ‘Śmigus-Dyngus': i ragazzi spruzzano acqua sulle ragazze.",
+          "funFacts": [
+            "L'usanza della caccia alle uova fu menzionata per la prima volta da Martin Lutero, che voleva divertire i suoi figli.",
+            "Il più grande uovo di cioccolato del mondo (8,5 m, 4 t) fu fatto in Argentina ed è nel Guinness.",
+            "In Svezia i bambini si vestono da ‘Påskkärringar' — piccole streghe — il Sabato Santo e fanno il porta a porta.",
+            "Il coniglio pasquale come portatore di uova fu menzionato per iscritto la prima volta nel 1682 dal medico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "L'Assunzione di Maria, il 15 agosto, celebra l'elevazione di Maria in anima e corpo al cielo. È una delle massime feste mariane cattoliche. In Italia è ‘Ferragosto', festa centrale dell'estate.",
+          "history": "La dottrina dell'Assunzione si sviluppò dal IV secolo. Papa Pio XII la dichiarò dogma vincolante nel 1950 con l'enciclica ‘Munificentissimus Deus'. Il termine italiano ‘Ferragosto' viene dal latino ‘Feriae Augusti' (riposo di Augusto), istituito nel 18 a.C. dall'imperatore Augusto come pausa per i contadini dopo la mietitura. Già nel Medioevo si benedicevano erbe medicinali in questo giorno. È festivo in Italia, Austria, Saarland e nei comuni cattolici della Baviera.",
+          "traditions": "In Italia il Ferragosto è giorno di gite, picnic, grigliate al mare o in montagna. Tradizionalmente molte aziende chiudono per ferie. Nelle regioni cattoliche si benedicono ‘mazzi di erbe' di 7, 9 o 30 piante medicinali. Processioni mariane attraversano i paesi e si moltiplicano i pellegrinaggi a santuari. In Francia il 15 agosto è festa nazionale dal 1638.",
+          "funFacts": [
+            "Il ‘Ferragosto' italiano risale all'imperatore Augusto, che ordinò nel 18 a.C. un riposo dei contadini dopo il raccolto.",
+            "I mazzi bavaresi contengono spesso artemisia, verbasco, achillea e fiordaliso.",
+            "In Francia il 15 agosto è festa nazionale dal 1638 — per devozione mariana di Luigi XIII.",
+            "La famosa ‘Marcia di Notre-Dame' a Parigi fu istituita nel 1638 in onore del giorno."
+          ],
+          "imageCredit": "Foto: Ondraness · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Ognissanti, il 1° novembre, è una solennità cattolica in cui la Chiesa ricorda tutti i santi. In molti paesi le famiglie visitano le tombe dei propri defunti.",
+          "history": "Già nel IV secolo c'era una festa comune per tutti i martiri. Papa Gregorio IV fissò la festa al 1° novembre nell'837 — probabilmente per ‘cristianizzare' la festa celtica di Samhain. Nel Medioevo si sviluppò la connessione con il Giorno dei Morti del 2 novembre. In Italia è festa nazionale; spesso famiglie si riuniscono per visitare i cimiteri e onorare i defunti. È festivo anche in Polonia, Spagna e Austria.",
+          "traditions": "L'1 e il 2 novembre le famiglie visitano i cimiteri e adornano le tombe dei defunti con candele, fiori (in Italia tradizionalmente crisantemi) e composizioni di rami. I sacerdoti benedicono le tombe. In Polonia la notte del 1° novembre milioni di candele illuminano i cimiteri — visibili dallo spazio. In Italia molti partecipano alla messa e portano fiori al cimitero.",
+          "funFacts": [
+            "Nella notte del 1° novembre in Polonia milioni di candele illuminano i cimiteri — visibili dallo spazio.",
+            "Il ‘Día de los Muertos' messicano (1–2 novembre) nacque dalla fusione di tradizioni cattoliche e azteche.",
+            "L'‘Allerheiligenstriezel' — una treccia lievitata con uvetta — è regalo tradizionale di padrini ai figliocci a Vienna.",
+            "Halloween (‘All Hallows' Eve') deriva il suo nome direttamente dalla vigilia di Ognissanti."
+          ],
+          "imageCredit": "Foto: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "La Vigilia di Natale è il giorno familiare più importante del Natale nei paesi germanici — con scambio di doni, cena festiva e canti sotto l'albero. In Italia è la sera del cenone in famiglia.",
+          "history": "Già nel IV secolo la Chiesa fissò la nascita di Gesù al 25 dicembre. La vigilia (‘Vigilia') era tradizionalmente giorno di digiuno. In Germania, dopo la Riforma, Lutero introdusse l'usanza che il ‘Bambino Gesù' (Christkind) porti i doni la Vigilia, in contrapposizione al cattolico San Nicola. L'albero decorato apparve nel XVII secolo e conquistò il mondo nel XIX grazie alla regina Vittoria. In Italia la tradizione del presepe risale a San Francesco d'Assisi nel 1223.",
+          "traditions": "In Italia, la sera della Vigilia si tiene il ‘cenone' con piatti di pesce — tradizionalmente magri — come spaghetti alle vongole, capitone, baccalà. A mezzanotte si va alla Messa di Mezzanotte. Nei paesi tedeschi, si decora l'albero, si va alla messa dei bambini e si scambiano i doni con canti come ‘Stille Nacht'.",
+          "funFacts": [
+            "‘Astro del ciel' (‘Stille Nacht') fu eseguito per la prima volta nel 1818 a Oberndorf, presso Salisburgo — oggi tradotto in oltre 300 lingue.",
+            "In Scandinavia ed Europa centrale i doni si scambiano la sera della Vigilia; nel mondo anglosassone solo la mattina del 25.",
+            "In Repubblica Ceca e Slovacchia si mangia carpa la Vigilia — e si infila una squama nel portafoglio per la prosperità.",
+            "Il primo presepe vivente fu creato da San Francesco d'Assisi a Greccio nel 1223."
+          ],
+          "imageCredit": "Foto: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
+          "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
+          "traditions": "Le famiglie si riuniscono per pasti festosi — tacchino, oca, carpa o raclette al nord; pranzo natalizio con tortellini in brodo, lasagne, capponi e panettone in Italia. Si scambiano regali, si cantano canti natalizi, molti partecipano alla messa festiva. L'albero decorato e il presepe sono i simboli centrali. Calendario dell'Avvento, biscotti e mercatini scandiscono la preparazione.",
+          "funFacts": [
+            "Il primo calendario dell'Avvento commerciale apparve nel 1908 a Monaco — invenzione di Gerhard Lang.",
+            "I mercatini di Natale di Dresda (‘Striezelmarkt', dal 1434) e Francoforte (dal 1393) sono tra i più antichi al mondo.",
+            "La Norvegia regala al Regno Unito un enorme albero di Natale per Trafalgar Square ogni anno dal 1947 — come ringraziamento per l'aiuto nella Seconda Guerra Mondiale.",
+            "Il panettone milanese e il pandoro veronese sono i due dolci natalizi italiani per eccellenza."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Santo Stefano, il 26 dicembre, è in Austria e in Italia il secondo giorno di Natale e commemora Santo Stefano, primo martire cristiano.",
+          "history": "Stefano fu uno dei primi sette diaconi della Chiesa primitiva e, secondo gli Atti degli Apostoli, fu lapidato a Gerusalemme tra il 36 e il 40 d.C. — è il ‘protomartire'. La festa si celebra il 26 dicembre dal IV secolo, perché la Chiesa volle onorare i grandi martiri il giorno dopo la nascita di Cristo (‘dal Bambino al testimone'). La cattedrale di Santo Stefano a Vienna — simbolo dell'Austria — porta il suo nome. In Italia è festivo nazionale dal 1947.",
+          "traditions": "In Italia si pranza con la famiglia (avanzi del cenone della vigilia o del pranzo di Natale), si visitano parenti o si fa una lunga passeggiata. In Austria, la Chiesa benedice cavalli e cavalieri durante il ‘Stephani-Ritt', poiché Stefano è patrono dei cavalli e dei cavalieri. A Salisburgo, Tirolo e Bassa Austria, cavalli adornati sfilano per i paesi.",
+          "funFacts": [
+            "La cattedrale di Santo Stefano (‘Steffl') è il più importante edificio gotico dell'Austria — la torre sud è alta 136 m.",
+            "Lo ‘Stephani-Umritt' di Asparn an der Zaya raccoglie ogni anno diverse centinaia di cavalieri di tutta la Bassa Austria.",
+            "L'avena benedetta nel giorno di Santo Stefano e data ai cavalli li proteggerebbe dalle malattie.",
+            "Nel Regno Unito Santo Stefano coincide con il ‘Boxing Day' — ma il ‘Boxing Day' ha origine completamente diversa."
+          ],
+          "imageCredit": "Foto: Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "new_year": {
+          "intro": "1 stycznia oznacza początek nowego roku w kalendarzu gregoriańskim na całym świecie. Dla wielu jest to dzień nadziei, nowych początków i postanowień.",
+          "history": "Już w 153 r. p.n.e. Rzymianie ustalili początek roku na 1 stycznia, dzień objęcia urzędu nowych konsulów. W średniowieczu początek roku w wielu regionach przesunięto na Boże Narodzenie lub Wielkanoc. Dopiero reforma kalendarza papieża Grzegorza XIII w 1582 roku przywróciła 1 stycznia jako europejski standard. Nazwa miesiąca pochodzi od rzymskiego boga Janusa, który dwiema twarzami spoglądał jednocześnie w przeszłość i przyszłość.",
+          "traditions": "O północy rodziny i przyjaciele wznoszą toast szampanem i świętują przejście do nowego roku fajerwerkami, talizmanami szczęścia (czterolistna koniczyna, kominiarz, biedronka) oraz tradycyjnym lanym ołowiem (dziś woskiem). Popularne są noworoczne brunche i spacery. Wielu składa noworoczne postanowienia.",
+          "funFacts": [
+            "W Hiszpanii zjada się winogronko z każdym z dwunastu uderzeń zegara — życzenie na każde winogronko.",
+            "W Danii rozbija się stare naczynia przed drzwiami przyjaciół, aby przyniosło im to szczęście.",
+            "Wiedeński Koncert Noworoczny transmitowany jest w ponad 90 krajach — muzyczne otwarcie roku.",
+            "Na Pacyficznej wyspie Kiribati Nowy Rok zaczyna się 26 godzin wcześniej niż na wyspie Howland."
+          ],
+          "imageCredit": "Zdjęcie: Vyacheslav Argenberg · CC BY 4.0 przez Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Niedziela Wielkanocna jest najważniejszym świętem chrześcijaństwa — dniem zmartwychwstania Jezusa Chrystusa i punktem kulminacyjnym roku liturgicznego.",
+          "history": "Wielkanoc wywodzi się z żydowskiego święta Paschy i obchodzona jest przez chrześcijan od I wieku. Kościół ustalił w 325 roku w Nicei, że Wielkanoc świętowana jest zawsze w pierwszą niedzielę po pierwszej wiosennej pełni księżyca — stąd ruchoma data między 22 marca a 25 kwietnia. W Polsce tradycja święcenia pokarmów (‘święconki') sięga XIV wieku i jest jedną z najsilniej zachowanych tradycji.",
+          "traditions": "W Polsce w Niedzielę Wielkanocną rodziny zaczynają dzień uroczystym śniadaniem z poświęconych w Wielką Sobotę pokarmów (‘święconki') — jajek, kiełbasy, szynki, chrzanu, baranka z masła czy cukru, mazurka i babki. Następnie idzie się na uroczystą mszę. Wieczorem często odbywają się rodzinne spotkania.",
+          "funFacts": [
+            "Wielkanoc może wypadać między 22 marca a 25 kwietnia — następna ‘wczesna' Wielkanoc (22 marca) wypadnie dopiero w 2285 roku.",
+            "Polskie tradycyjne palmy wielkanocne z Kurpii i Łysych potrafią mieć ponad 30 metrów wysokości — coroczny konkurs w Niedzielę Palmową.",
+            "Rosyjscy prawosławni często świętują Wielkanoc innego dnia, bo używają kalendarza juliańskiego.",
+            "Polskie ‘pisanki' to jedne z najpiękniejszych ozdób wielkanocnych świata — popularne motywy regionalne, np. opolskie, kurpiowskie."
+          ],
+          "imageCredit": "Zdjęcie: Geolina163 · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Poniedziałek Wielkanocny (Lany Poniedziałek, Śmigus-Dyngus) to drugi dzień Wielkanocy i dzień wolny w większości krajów europejskich. W Polsce słynie z tradycji oblewania wodą.",
+          "history": "Wielkanoc to najstarsze święto chrześcijaństwa i upamiętnia zmartwychwstanie Jezusa Chrystusa trzeciego dnia po jego śmierci. Sobór Nicejski w 325 roku ustalił datę Wielkanocy na pierwszą niedzielę po pierwszej wiosennej pełni księżyca. Poniedziałek Wielkanocny obchodzony jest od wczesnego średniowiecza — pierwotnie cały tydzień wielkanocny był wolny. W Polsce zachowała się żywa tradycja Śmigusa-Dyngusa, sięgająca XV wieku.",
+          "traditions": "W Polsce Lany Poniedziałek (Śmigus-Dyngus) to dzień, w którym chłopcy oblewają dziewczęta wodą — tradycyjnie symbolizująca oczyszczenie i płodność. Rodziny szukają jajek wielkanocnych, jedzą śniadanie z kiełbasą, jajkami, chrzanem, mazurkiem i babką. W niektórych regionach (np. Beskid Żywiecki) chodzą ‘śmigustnicy' w przebraniach.",
+          "funFacts": [
+            "Zwyczaj poszukiwania jajek wzmiankował po raz pierwszy Marcin Luter — chciał ucieszyć swoje dzieci.",
+            "Największe czekoladowe jajko świata stało w Argentynie (8,5 m wysokości, 4 t) — wpisane do Księgi Guinnessa.",
+            "Polski Śmigus-Dyngus ma korzenie w słowiańskim święcie wiosennym — woda symbolizowała oczyszczenie i płodność.",
+            "W Czechach chłopcy biją dziewczyny rózgami z wierzby (‘pomlázka') — niby boleśnie, ale dla zdrowia i urody."
+          ],
+          "imageCredit": "Zdjęcie: Georgi Kirichkov · CC BY-SA 3.0 przez Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "Wniebowzięcie Najświętszej Maryi Panny, 15 sierpnia, świętuje wzięcie Maryi z duszą i ciałem do nieba. W Polsce zwane Świętem Matki Boskiej Zielnej, dzień wolny od pracy.",
+          "history": "Nauka o cielesnym Wniebowzięciu Maryi rozwijała się od IV wieku w wspólnotach chrześcijańskich. Papież Pius XII ogłosił ją wiążącym dogmatem w 1950 roku w encyklice ‘Munificentissimus Deus'. Już w średniowieczu powstał zwyczaj święcenia ziół tego dnia. W Polsce 15 sierpnia jest też Świętem Wojska Polskiego — upamiętnia Bitwę Warszawską 1920 roku, ‘Cud nad Wisłą'. Jest dniem wolnym od pracy.",
+          "traditions": "W Polsce 15 sierpnia święci się ‘ziele' — bukiety z ziół leczniczych, zbóż, kwiatów polnych — które potem zachowuje się w domu jako ochrona. Odbywają się też uroczyste obchody Święta Wojska Polskiego, w tym defilada w Warszawie. Procesje maryjne przechodzą przez wsie, mnożą się pielgrzymki do sanktuariów, m.in. do Częstochowy.",
+          "funFacts": [
+            "‘Ferragosto' we Włoszech sięga cesarza Augusta, który w 18 r. p.n.e. zarządził odpoczynek rolników po żniwach.",
+            "W Polsce 15 sierpnia jest też Świętem Wojska Polskiego, upamiętnia ‘Cud nad Wisłą' z 1920 roku.",
+            "Polska tradycja święcenia ziół (‘Matka Boska Zielna') sięga średniowiecza i jest jedną z najstarszych ludowych tradycji.",
+            "Pielgrzymka na Jasną Górę w Częstochowie przyciąga corocznie miliony pątników właśnie wokół 15 sierpnia."
+          ],
+          "imageCredit": "Zdjęcie: Ondraness · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Wszystkich Świętych, 1 listopada, to katolicka uroczystość, w której Kościół wspomina wszystkich świętych. W Polsce tradycyjnie odwiedza się groby najbliższych — dzień głębokiej zadumy.",
+          "history": "Już w IV wieku istniało wspólne święto ku czci wszystkich męczenników. Papież Grzegorz IV wyznaczył święto na 1 listopada w 837 roku — prawdopodobnie po to, by ‘chrystianizować' celtyckie święto Samhain. W Polsce święto jest jednym z najważniejszych w roku — masowe odwiedziny cmentarzy, gdzie miliony zniczy rozświetlają nekropolie. To dzień wolny od pracy.",
+          "traditions": "1 i 2 listopada polskie rodziny odwiedzają cmentarze, zdobią groby zniczami, kwiatami (głównie chryzantemami) i kompozycjami z gałązek. Polskie cmentarze w te dni są niezwykłym widokiem — morza świec widocznych z kosmosu. Księża błogosławią groby, organizowane są procesje. W Polsce tradycja Wszystkich Świętych jest jedna z najmocniejszych w Europie.",
+          "funFacts": [
+            "Polskie cmentarze w noc 1 listopada widoczne są z kosmosu — miliony zniczy rozświetlają niemal każdą nekropolię w kraju.",
+            "Meksykański ‘Día de los Muertos' (1–2 listopada) wyrósł z połączenia katolickich i azteckich tradycji.",
+            "Polska tradycja kwiatu chryzantemy jako symbolu pamięci jest unikalna — w innych krajach kwiat ten ma inne znaczenie.",
+            "Halloween (‘All Hallows' Eve') wywodzi swoją nazwę bezpośrednio od wigilii Wszystkich Świętych."
+          ],
+          "imageCredit": "Zdjęcie: MichalPL · CC0 przez Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "Wigilia Bożego Narodzenia to najważniejszy dzień rodzinny w Polsce — z dwunastoma potrawami, opłatkiem, kolędami i wieczerzą wigilijną.",
+          "history": "Już w IV wieku Kościół ustalił narodzenie Jezusa na 25 grudnia. Wigilia (‘Vigilia') była tradycyjnie dniem postnym. W Polsce zachowała się szczególnie bogata tradycja Wigilii — 12 potraw symbolizujących 12 apostołów, dzielenie się opłatkiem, modlitwa i pierwsza gwiazdka na niebie jako sygnał do rozpoczęcia wieczerzy. Ozdobione choinki przybyły do Polski z Niemiec na początku XIX wieku, a po 1830 roku stały się powszechne.",
+          "traditions": "W Polsce wieczerza wigilijna zaczyna się wraz z pierwszą gwiazdką. Rodzina dzieli się opłatkiem, składając życzenia, po czym podaje 12 potraw — barszcz z uszkami, pierogi, karp, śledzie, kapusta z grochem, kompot z suszu, makowiec, sernik. Dodatkowe nakrycie zostaje pozostawione dla niespodziewanego gościa. O północy idzie się na Pasterkę.",
+          "funFacts": [
+            "‘Cicha noc' (‘Stille Nacht') została wykonana po raz pierwszy w 1818 roku w Oberndorf koło Salzburga — dziś przetłumaczona na ponad 300 języków.",
+            "Polska tradycja 12 potraw wigilijnych symbolizuje 12 apostołów lub 12 miesięcy roku — żadnej nie wolno pominąć.",
+            "W Czechach i na Słowacji w Wigilię je się karpia — a łuskę wkłada się do portfela dla bogactwa.",
+            "Polska tradycja zostawiania jednego dodatkowego nakrycia dla niespodziewanego gościa to symbol gościnności i pamięci o samotnych."
+          ],
+          "imageCredit": "Zdjęcie: ZemplinTemplar · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
+          "history": "Już w 354 roku 25 grudnia odnotowany jest jako ‘dies natalis Christi' w rzymskim kalendarzu. Kościół wybrał tę datę prawdopodobnie po to, by chrześcijańsko zinterpretować rzymskie święto ‘Sol Invictus'. Tradycja prezentów ma korzenie w darach Trzech Mędrców. Współczesny Święty Mikołaj w czerwonym płaszczu i z białą brodą to mieszanka św. Mikołaja i kampanii reklamowej Coca-Coli z 1931 roku.",
+          "traditions": "W Polsce Boże Narodzenie obchodzi się przez dwa dni (25 i 26 grudnia). Rodziny zbierają się na obfitym obiedzie — często rosół z makaronem, schab, indyk, sałatka jarzynowa, makowiec, sernik. Wymienia się prezenty (w Polsce zwykle wręczane już w Wigilię), śpiewa kolędy, wielu uczestniczy w nabożeństwach. Choinka i szopka są centralnymi symbolami.",
+          "funFacts": [
+            "Pierwszy komercyjny kalendarz adwentowy ukazał się w 1908 roku w Monachium — wynalazek Gerharda Langa.",
+            "Polskie kolędy — m.in. ‘Wśród nocnej ciszy', ‘Bóg się rodzi', ‘Lulajże, Jezuniu' — uchodzą za jedne z najpiękniejszych na świecie.",
+            "Norwegia podarowuje Wielkiej Brytanii corocznie od 1947 roku ogromną choinkę na Trafalgar Square — w podzięce za pomoc w II wojnie światowej.",
+            "Tradycja choinki dotarła do Polski z Niemiec na początku XIX wieku, a powszechna stała się po 1830 roku."
+          ],
+          "imageCredit": "Zdjęcie: Chris Olszewski · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Święty Szczepan, 26 grudnia, jest w Polsce drugim dniem Bożego Narodzenia i upamiętnia św. Szczepana, pierwszego męczennika chrześcijańskiego.",
+          "history": "Szczepan był jednym z pierwszych siedmiu diakonów wczesnego Kościoła i według Dziejów Apostolskich został ukamienowany w Jerozolimie między 36 a 40 r. n.e. — uważa się go za ‘protomęczennika'. Święto obchodzone jest 26 grudnia od IV wieku, ponieważ Kościół chciał uczcić wielkich męczenników w dzień po narodzeniu Chrystusa (‘od Dzieciątka do świadka'). W Polsce drugi dzień świąt jest dniem wolnym i poświęcony jest odwiedzinom u rodziny.",
+          "traditions": "W Polsce w drugi dzień świąt odwiedza się dalszą rodzinę i przyjaciół. Tradycyjnie dzień ten dawniej nazywany był też ‘rzucanką owsa' — w kościołach święcono ziarno owsa (Szczepan jest patronem koni). Tradycja przetrwała m.in. w niektórych regionach południowej Polski.",
+          "funFacts": [
+            "Wiedeńska katedra św. Szczepana (krótko ‘Steffl') to najważniejsza budowla gotycka Austrii — jej południowa wieża ma 136 m wysokości.",
+            "Polska tradycja ‘rzucania owsa' w kościele w święto Szczepana ma korzenie ludowe — symbolizowała urodzaj.",
+            "Owies pobłogosławiony w święto Szczepana i podany koniom miał chronić je przed chorobami.",
+            "W Wielkiej Brytanii Święty Szczepan zbiega się z ‘Boxing Day' — ale ‘Boxing Day' ma zupełnie inne pochodzenie."
+          ],
+          "imageCredit": "Zdjęcie: Osama Shukir Muhammed Amin FRCP(Glasg) · CC BY-SA 4.0 przez Wikimedia Commons"
+        }
+      }
+    }
+  },
+  "images": {
+    "new_year": [
+      {
+        "path": "images/new_year/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "easter_sunday": [
+      {
+        "path": "images/easter_sunday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/easter_sunday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/easter_sunday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "easter_monday": [
+      {
+        "path": "images/easter_monday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      }
+    ],
+    "assumption": [
+      {
+        "path": "images/assumption/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/assumption/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/assumption/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "all_saints_day": [
+      {
+        "path": "images/all_saints_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/all_saints_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/all_saints_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas_eve": [
+      {
+        "path": "images/christmas_eve/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas_eve/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas_eve/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas": [
+      {
+        "path": "images/christmas/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "boxing_day": [
+      {
+        "path": "images/boxing_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/boxing_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/boxing_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  }
+}
