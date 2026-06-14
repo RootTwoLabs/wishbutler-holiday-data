@@ -13,12 +13,14 @@
     "build:articles": "node scripts/build-articles.mjs",
     "migrate:articles": "node scripts/migrate-articles.mjs",
     "build:index": "node scripts/build-index.mjs",
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test scripts/"
   },
   "engines": {
     "node": ">=20"
   },
   "devDependencies": {
-    "ajv": "^8.17.1"
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
   }
 }

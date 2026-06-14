@@ -6,20 +6,27 @@ on:
     # Monthly refresh so precomputed tables keep a long look-ahead window.
     - cron: '0 3 1 * *'
 
+# #135: Default least-privilege; nur der build-Job erhaelt Schreibrechte.
+# (GitHub-Permissions sind job-granular; ein voller read-only-generate /
+#  write-publish Split ueber Artifacts ist der naechste Schritt.)
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v5
+      # #123: Actions auf volle Commit-SHA gepinnt (statt beweglicher Major-Tags).
+      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
 
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
         with:
           node-version: 20
 
-      - run: npm install
+      # #124: npm ci erzwingt exakt das Lockfile (reproduzierbar; schlaegt bei Drift fehl).
+      - run: npm ci
 
       - name: Generate data
         run: npm run build
@@ -42,13 +49,27 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
 
+      # #127: Purge verifizieren + retryen statt `|| true`; bei endgueltigem
+      # Fehlschlag eine sichtbare Warnung (sonst sehen Clients bis 12h ein stale Manifest).
       - name: Purge jsDelivr cache for the manifest
-        # jsDelivr caches `@main` URLs for up to 12h. The manifest (index.json)
-        # is the single mutable entrypoint the app reads, so purge it right after
-        # pushing new data — otherwise clients keep seeing the stale country list.
         if: steps.commit.outputs.changed == 'true'
+        env:
+          REPO: ${{ github.repository }}
         run: |
-          curl -sf "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/data/index.json" || true
+          url="https://purge.jsdelivr.net/gh/${REPO}@main/data/index.json"
+          ok=false
+          for attempt in 1 2 3; do
+            resp=$(curl -s -w $'\n%{http_code}' "$url" || true)
+            code=$(printf '%s' "$resp" | tail -n1)
+            body=$(printf '%s' "$resp" | sed '$d')
+            if [ "$code" = "200" ] && printf '%s' "$body" | grep -qiE 'success|"status"'; then
+              echo "Purge ok: $body"; ok=true; break
+            fi
+            echo "Purge attempt $attempt failed (HTTP $code): $body"; sleep 5
+          done
+          if [ "$ok" != true ]; then
+            echo "::warning::jsDelivr purge failed after 3 attempts - clients may see a stale manifest for up to 12h"
+          fi
 
       - name: Tag release
         run: |

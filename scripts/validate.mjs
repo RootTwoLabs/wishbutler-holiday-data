@@ -3,11 +3,12 @@
  * Validates data/index.json and every country package against the JSON schemas.
  * Also runs cross-checks the schema cannot express (referential integrity).
  */
-import { readFile } from 'node:fs/promises';
+import { readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
-import { join, dirname } from 'node:path';
+import { join, dirname, relative, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Ajv from 'ajv';
+import addFormats from 'ajv-formats';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -74,6 +75,12 @@ function checkImages(countryCode, pkg, errors) {
     const list = refs ?? [];
     for (const ref of list) {
       const abs = join(DATA, ref.path);
+      // #129: Pfad-Traversal-Guard — der aufgeloeste Pfad MUSS unter data/ bleiben.
+      const rel = relative(DATA, abs);
+      if (rel.startsWith('..') || rel.startsWith(sep) || /(^|[/\\])\.\.([/\\]|$)/.test(ref.path)) {
+        errors.push(`${countryCode} images.${slug}: unsafe path escapes data/ (${ref.path})`);
+        continue;
+      }
       if (!existsSync(abs)) {
         errors.push(`${countryCode} images.${slug}: missing file ${ref.path}`);
       }
@@ -86,6 +93,7 @@ function checkImages(countryCode, pkg, errors) {
 
 async function main() {
   const ajv = new Ajv({ allErrors: true, strict: false });
+  addFormats(ajv); // #133: aktiviert format:uri / date-time (sonst no-op in AJV v8)
   const indexSchema = await readJson(join(SCHEMA, 'index.schema.json'));
   const packageSchema = await readJson(join(SCHEMA, 'package.schema.json'));
   const validateIndex = ajv.compile(indexSchema);
@@ -148,6 +156,29 @@ async function main() {
         checkImages('GLOBAL', pkg, errors);
       }
     }
+  }
+
+  // #132: Bisher validierte nur, was index.json referenziert. Hier zusaetzlich
+  // JEDES Paket auf dem Dateisystem (inkl. aufbewahrter aelterer v<N>-Versionen,
+  // die der Client per Pfad noch erreichen koennte) gegen das Schema pruefen —
+  // damit keine Schema-Verstoesse unbemerkt im Repo liegen.
+  const PKG_ROOT = join(DATA, 'packages');
+  if (existsSync(PKG_ROOT)) {
+    const entries = await readdir(PKG_ROOT, { recursive: true });
+    const pkgFiles = entries.filter((e) => e.endsWith('package.json'));
+    for (const relPath of pkgFiles) {
+      let pkg;
+      try {
+        pkg = await readJson(join(PKG_ROOT, relPath));
+      } catch (e) {
+        errors.push(`FS packages/${relPath}: invalid JSON (${e.message})`);
+        continue;
+      }
+      if (!validatePackage(pkg)) {
+        errors.push(`FS packages/${relPath}: ${ajv.errorsText(validatePackage.errors)}`);
+      }
+    }
+    console.log(`Filesystem inventory: ${pkgFiles.length} package(s) schema-checked.`);
   }
 
   if (warnings.length > 0) {

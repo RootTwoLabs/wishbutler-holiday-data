@@ -74,7 +74,11 @@
       "required": ["path"],
       "additionalProperties": false,
       "properties": {
-        "path": { "type": "string" },
+        "path": {
+          "type": "string",
+          "description": "Relativer Pfad unter data/ — keine Traversal (..), nur images/<...>.jpg",
+          "pattern": "^(?!.*\\.\\.)images/[A-Za-z0-9_./-]+\\.(jpg|jpeg|png|webp)$"
+        },
         "credit": { "type": "string" },
         "license": { "type": "string" },
         "primary": { "type": "boolean" }
@@ -88,7 +92,7 @@
         "id": { "type": "string" },
         "countryCode": { "type": "string" },
         "kind": {
-          "enum": ["fixed", "easter_relative", "nth_weekday", "nameday", "precomputed"]
+          "enum": ["fixed", "easter_relative", "nth_weekday", "precomputed"]
         },
         "labelKey": { "type": "string" },
         "iconName": { "type": "string" },
@@ -100,7 +104,25 @@
         },
         "proOnly": { "type": "boolean" },
         "rule": { "$ref": "#/definitions/rule" }
-      }
+      },
+      "allOf": [
+        {
+          "if": { "required": ["kind"], "properties": { "kind": { "const": "fixed" } } },
+          "then": { "properties": { "rule": { "properties": { "type": { "const": "fixed" } } } } }
+        },
+        {
+          "if": { "required": ["kind"], "properties": { "kind": { "const": "easter_relative" } } },
+          "then": { "properties": { "rule": { "properties": { "type": { "const": "easter_relative" } } } } }
+        },
+        {
+          "if": { "required": ["kind"], "properties": { "kind": { "const": "nth_weekday" } } },
+          "then": { "properties": { "rule": { "properties": { "type": { "const": "nth_weekday" } } } } }
+        },
+        {
+          "if": { "required": ["kind"], "properties": { "kind": { "const": "precomputed" } } },
+          "then": { "properties": { "rule": { "properties": { "type": { "const": "precomputed" } } } } }
+        }
+      ]
     },
     "rule": {
       "oneOf": [
@@ -133,15 +155,6 @@
             "nth": { "type": "integer", "minimum": 1, "maximum": 5 },
             "weekday": { "type": "integer", "minimum": 0, "maximum": 6 },
             "last": { "type": "boolean" }
-          }
-        },
-        {
-          "type": "object",
-          "required": ["type", "countryCode"],
-          "additionalProperties": false,
-          "properties": {
-            "type": { "const": "nameday_calendar" },
-            "countryCode": { "type": "string" }
           }
         },
         {
