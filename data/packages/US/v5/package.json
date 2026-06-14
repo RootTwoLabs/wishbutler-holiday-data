@@ -1,0 +1,1201 @@
+{
+  "countryCode": "US",
+  "version": 5,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "US_new_years_day",
+      "countryCode": "US",
+      "kind": "precomputed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-01",
+          "2027": "01-01",
+          "2028": "12-31",
+          "2029": "01-01",
+          "2030": "01-01",
+          "2031": "01-01",
+          "2032": "01-01",
+          "2033": "12-31",
+          "2034": "01-02",
+          "2035": "01-01"
+        }
+      }
+    },
+    {
+      "id": "US_martin_luther_king_jr_day",
+      "countryCode": "US",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.martin_luther_king_jr_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 1,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "US_lincolns_birthday",
+      "countryCode": "US",
+      "kind": "fixed",
+      "labelKey": "holidays.lincolns_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 12
+      }
+    },
+    {
+      "id": "US_presidents_day",
+      "countryCode": "US",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.presidents_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 2,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "US_good_friday",
+      "countryCode": "US",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "US_truman_day",
+      "countryCode": "US",
+      "kind": "fixed",
+      "labelKey": "holidays.truman_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 8
+      }
+    },
+    {
+      "id": "US_memorial_day",
+      "countryCode": "US",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.memorial_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "nth": 5,
+        "weekday": 1,
+        "last": true
+      }
+    },
+    {
+      "id": "US_juneteenth_national_independence_day",
+      "countryCode": "US",
+      "kind": "precomputed",
+      "labelKey": "holidays.juneteenth_national_independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "06-19",
+          "2027": "06-18",
+          "2028": "06-19",
+          "2029": "06-19",
+          "2030": "06-19",
+          "2031": "06-19",
+          "2032": "06-18",
+          "2033": "06-20",
+          "2034": "06-19",
+          "2035": "06-19"
+        }
+      }
+    },
+    {
+      "id": "US_independence_day",
+      "countryCode": "US",
+      "kind": "precomputed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "07-03",
+          "2027": "07-05",
+          "2028": "07-04",
+          "2029": "07-04",
+          "2030": "07-04",
+          "2031": "07-04",
+          "2032": "07-05",
+          "2033": "07-04",
+          "2034": "07-04",
+          "2035": "07-04"
+        }
+      }
+    },
+    {
+      "id": "US_labour_day",
+      "countryCode": "US",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.labour_day_us",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "US_columbus_day",
+      "countryCode": "US",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.columbus_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "US_indigenous_peoples_day",
+      "countryCode": "US",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.indigenous_peoples_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "US_veterans_day",
+      "countryCode": "US",
+      "kind": "precomputed",
+      "labelKey": "holidays.veterans_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-11",
+          "2027": "11-11",
+          "2028": "11-10",
+          "2029": "11-12",
+          "2030": "11-11",
+          "2031": "11-11",
+          "2032": "11-11",
+          "2033": "11-11",
+          "2034": "11-10",
+          "2035": "11-12"
+        }
+      }
+    },
+    {
+      "id": "US_thanksgiving_day",
+      "countryCode": "US",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.thanksgiving_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 11,
+        "nth": 4,
+        "weekday": 4
+      }
+    },
+    {
+      "id": "US_christmas_day",
+      "countryCode": "US",
+      "kind": "precomputed",
+      "labelKey": "holidays.christmas_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "12-25",
+          "2027": "12-24",
+          "2028": "12-25",
+          "2029": "12-25",
+          "2030": "12-25",
+          "2031": "12-25",
+          "2032": "12-24",
+          "2033": "12-26",
+          "2034": "12-25",
+          "2035": "12-25"
+        }
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "martin_luther_king_jr_day": "Martin Luther King, Jr. Day",
+        "lincolns_birthday": "Lincoln's Birthday",
+        "presidents_day": "Presidents Day",
+        "truman_day": "Truman Day",
+        "memorial_day": "Memorial Day",
+        "juneteenth_national_independence_day": "Juneteenth National Independence Day",
+        "independence_day": "Independence Day",
+        "labour_day_us": "Labour Day",
+        "columbus_day": "Columbus Day",
+        "indigenous_peoples_day": "Indigenous Peoples' Day",
+        "veterans_day": "Veterans Day",
+        "thanksgiving_day": "Thanksgiving Day",
+        "christmas_day": "Christmas Day"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "new_year": {
+          "intro": "Der 1. Januar markiert weltweit den Beginn eines neuen Jahres im gregorianischen Kalender. Für viele ist es ein Tag der Hoffnung, des Neuanfangs und der guten Vorsätze.",
+          "history": "Bereits 153 v. Chr. legten die Römer den Jahresbeginn auf den 1. Januar, den Antrittstag der neuen Konsuln. Im Mittelalter wechselte der Jahresanfang in vielen Regionen zu Weihnachten oder Ostern. Erst mit der Kalenderreform von Papst Gregor XIII. im Jahr 1582 setzte sich der 1. Januar wieder als europäischer Standard durch. Der Monatsname Januar geht auf den römischen Gott Janus zurück, der mit zwei Gesichtern zugleich auf das Vergangene und das Kommende blickte – ein passendes Sinnbild für diesen Tag.",
+          "traditions": "Um Mitternacht stoßen Familien und Freunde mit Sekt an und feiern den Jahreswechsel mit Feuerwerk, Glücksbringern wie Kleeblatt, Schornsteinfeger oder Marienkäfer und dem traditionellen Bleigießen (heute Wachsgießen). Beliebt sind außerdem Neujahrsbrunch und der gemeinsame Spaziergang an der frischen Luft. Viele fassen Vorsätze für das neue Jahr.",
+          "funFacts": [
+            "In Spanien isst man zu jedem der zwölf Glockenschläge eine Weintraube – eine pro Wunsch.",
+            "In Dänemark zerbricht man altes Geschirr vor den Türen guter Freunde, um Glück zu bringen.",
+            "Wiens Neujahrskonzert wird in über 90 Länder übertragen und gilt als musikalischer Auftakt des Jahres.",
+            "Auf den Pazifikinseln Kiribati beginnt das neue Jahr 26 Stunden früher als auf der Insel Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "martin_luther_king_jr_day": {
+          "intro": "Der Martin Luther King Jr. Day am dritten Montag im Januar ehrt den US-Bürgerrechtler. Es ist einer der wenigen US-Feiertage, die einer einzelnen Persönlichkeit gewidmet sind.",
+          "history": "Martin Luther King Jr. wurde am 15. Januar 1929 geboren und leitete seit den 1950er-Jahren die afroamerikanische Bürgerrechtsbewegung. 1963 hielt er beim „Marsch auf Washington” seine berühmte „I Have a Dream”-Rede. 1964 erhielt er den Friedensnobelpreis, 1968 wurde er in Memphis ermordet. Erst nach 15 Jahren Lobbyarbeit – auch durch Stevie Wonders Lied „Happy Birthday” (1980) – unterzeichnete Präsident Reagan 1983 den Tag als nationalen Feiertag. Seit 2000 wird er in allen 50 Bundesstaaten begangen.",
+          "traditions": "Der Tag steht unter dem Motto „A Day On, Not a Day Off”. Statt freier Tag soll er zu freiwilligem Engagement aufrufen – Suppenküchen, Nachbarschaftshilfe, Schulpartnerschaften. In Atlanta gibt es eine große Parade und Gottesdienste in Kings ehemaliger Kirche. In Schulen werden Kings Reden gelesen und Bürgerrechts-Dokumentationen gezeigt.",
+          "funFacts": [
+            "King war der jüngste Friedensnobelpreisträger zum Zeitpunkt der Verleihung – mit nur 35 Jahren.",
+            "Seine berühmte Rede „I Have a Dream” war ursprünglich anders geplant – die berühmten Sätze improvisierte er auf Zuruf der Sängerin Mahalia Jackson.",
+            "Stevie Wonders Hit „Happy Birthday” (1980) wurde extra geschrieben, um den MLK Day als Feiertag zu erkämpfen.",
+            "King war ein begnadeter Pool-Billard-Spieler und ein leidenschaftlicher Star-Trek-Fan."
+          ],
+          "imageCredit": "Foto: Marion S. Trikosko · Public domain via Wikimedia Commons"
+        },
+        "presidents_day": {
+          "intro": "Presidents' Day am dritten Montag im Februar würdigt die US-Präsidenten – ursprünglich speziell den Geburtstag von George Washington.",
+          "history": "Der 22. Februar – Washingtons Geburtstag – wurde 1879 nationaler Feiertag. 1968 verlegte der „Uniform Monday Holiday Act” mehrere Feiertage auf einen Montag, um lange Wochenenden zu schaffen. Seitdem fällt der Tag auf den dritten Montag im Februar (zwischen 15. und 21. – Washingtons echter 22. Februar liegt also nie genau auf dem Feiertag). Inoffiziell wurde aus „Washington's Birthday” mit der Zeit „Presidents' Day”, da auch Abraham Lincolns Geburtstag (12. Februar) in den Februar fällt.",
+          "traditions": "Schulen organisieren Präsidenten-Projekte, Museen bieten freien Eintritt zu Politikgeschichte-Ausstellungen. In Mount Vernon, Washingtons Anwesen, gibt es eine zeremonielle Kranzniederlegung. Der Tag ist außerdem als großer Sale-Tag bekannt – „Presidents' Day Sales” mit Rabatten auf Möbel, Matratzen und Autos.",
+          "funFacts": [
+            "Offiziell heißt der Feiertag im Bundesgesetz weiterhin „Washington's Birthday” – die volkstümliche Umbenennung ist nicht offiziell.",
+            "Die berühmten Sales sind so groß, dass viele Amerikaner den Tag eher mit Shopping als mit Politik verbinden.",
+            "George Washington war der einzige Präsident, der nie in Washington D.C. als Präsident lebte – die Stadt wurde erst nach seinem Tod fertig.",
+            "Washingtons Lieblings-Hund hieß „Sweetlips” – ein Anekdötchen, das gerne in Schulen erwähnt wird."
+          ],
+          "imageCredit": "Foto: Gilbert Stuart · Public domain via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Karfreitag ist der höchste protestantische Trauertag und erinnert an die Kreuzigung Jesu Christi. In Deutschland ist er ein „stiller Feiertag” mit besonderen Schutzregeln.",
+          "history": "Karfreitag wird seit dem 4. Jahrhundert von Christen begangen. Das Wort „Kar” stammt vom althochdeutschen „chara” und bedeutet Klage oder Trauer. Schon früh entwickelten sich liturgische Traditionen: Verlesung der Passionsgeschichte, Kreuzverehrung und das Verstummen der Glocken. Die Reformation hob den Karfreitag besonders hervor; in lutherischen Regionen ist er bis heute der wichtigste Feiertag des Kirchenjahres.",
+          "traditions": "Viele Christen besuchen Passionsgottesdienste mit der Verlesung der Leidensgeschichte. Es gilt als Fastentag – traditionell wird Fisch statt Fleisch gegessen. In manchen Regionen ziehen Karfreitagsprozessionen durch die Straßen, etwa die berühmte „Karfreitagsprozession” in Lohr am Main. Tanzveranstaltungen und laute Musik sind in den meisten Bundesländern gesetzlich untersagt.",
+          "funFacts": [
+            "In Deutschland regelt das „Tanzverbot” das öffentliche Vergnügen am Karfreitag – seit Jahren ein gesellschaftlicher Streitpunkt.",
+            "Bach schrieb seine Matthäus-Passion 1727 für die Karfreitags-Vesper in Leipzig – heute eines der meistaufgeführten Werke der Welt.",
+            "In Bermuda lassen Familien am Karfreitag selbstgebastelte Drachen aus Bambus und Papier steigen – eine einzigartige christliche Tradition.",
+            "Im Spanischen heißt Karfreitag „Viernes Santo” – mit prachtvollen Bruderschafts-Prozessionen, etwa in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "memorial_day": {
+          "intro": "Der Memorial Day am letzten Montag im Mai ist der US-Gedenktag für gefallene US-Soldaten. Er gilt als inoffizieller Beginn des Sommers in den USA.",
+          "history": "Der Tag entstand nach dem amerikanischen Bürgerkrieg (1861–1865), in dem über 600.000 Soldaten ihr Leben verloren. Im Mai 1868 verfügte General John A. Logan einen „Decoration Day”, an dem die Gräber gefallener Soldaten mit Blumen geschmückt werden sollten. Der Brauch breitete sich nach beiden Weltkriegen aus und gedenkt heute aller in US-Kriegen gefallenen Soldaten. 1971 wurde der Tag offiziell auf den letzten Montag im Mai gelegt – um ein langes Wochenende zu schaffen.",
+          "traditions": "Auf dem Arlington National Cemetery legt der Präsident einen Kranz am Grab des unbekannten Soldaten nieder. Familien besuchen Gräber, schmücken sie mit Flaggen und Blumen. Um 15:00 Uhr Ortszeit gilt landesweit die „National Moment of Remembrance” – eine Schweigeminute. Daneben gibt es traditionelle Paraden, Grillabende und das Indianapolis-500-Autorennen.",
+          "funFacts": [
+            "Auf dem Arlington National Cemetery liegen über 400.000 Gefallene begraben.",
+            "Die rote Mohnblume wurde nach dem 1. Weltkrieg zum Erinnerungssymbol – inspiriert vom Gedicht „In Flanders Fields”.",
+            "Das Indy 500 läuft seit 1911 traditionell am Memorial-Day-Wochenende und ist eines der größten Sportevents der USA.",
+            "Vor 1971 hieß der Feiertag „Decoration Day” – der Begriff hält sich in einigen Südstaaten bis heute."
+          ],
+          "imageCredit": "Foto: Arlington National Cemetery · Public domain via Wikimedia Commons"
+        },
+        "independence_day": {
+          "intro": "Der amerikanische Independence Day am 4. Juli – „Fourth of July” – feiert die Unabhängigkeitserklärung der USA von Großbritannien im Jahr 1776.",
+          "history": "Am 4. Juli 1776 beschloss der Zweite Kontinentalkongress in Philadelphia die Unabhängigkeitserklärung, die von Thomas Jefferson hauptverfasst wurde. Eigentlich hatte das Gremium die Trennung schon zwei Tage zuvor (2. Juli) beschlossen – John Adams glaubte daher, der 2. Juli werde gefeiert. Erst 1870 wurde der „Independence Day” offizieller Feiertag, 1938 ein bezahlter. Der Krieg gegen Großbritannien dauerte allerdings bis 1783; die Unabhängigkeit wurde erst mit dem Vertrag von Paris anerkannt.",
+          "traditions": "Der Tag ist der wahrscheinlich bunteste US-Feiertag: Riesenfeuerwerke (das größte über dem East River in New York mit Macy's-Sponsoring), Paraden mit Marching Bands, Hot-Dog-Wettessen am Coney Island, BBQ in Hinterhöfen, Baseballspiele und das Singen der Nationalhymne. Das Capitol erstrahlt in Rot-Weiß-Blau, viele tragen patriotische T-Shirts.",
+          "funFacts": [
+            "Das Hot-Dog-Wettessen bei Nathan's Famous in Coney Island feiert seit 1916 jeden 4. Juli – Rekord: 76 Hotdogs in 10 Minuten (Joey Chestnut, 2021).",
+            "John Adams und Thomas Jefferson – beide ehemalige Präsidenten – starben am 4. Juli 1826, exakt 50 Jahre nach der Unterzeichnung.",
+            "Die Freiheitsglocke in Philadelphia wird symbolisch (sanft, sie ist gerissen) 13-mal angeschlagen – einmal pro Gründungs-Kolonie.",
+            "Macys Feuerwerk in New York dauert ca. 25 Minuten und schießt über 75.000 pyrotechnische Effekte ab."
+          ],
+          "imageCredit": "Foto: Seattle Cracker & Candy Company · Public domain via Wikimedia Commons"
+        },
+        "labour_day_us": {
+          "intro": "Der amerikanische Labor Day am ersten Montag im September ehrt die Arbeitnehmer. Er gilt zugleich als inoffizielles Ende des Sommers.",
+          "history": "Der Labor Day wurde 1882 von der „Central Labor Union” in New York eingeführt – als Konkurrenz zum 1. Mai, der den USA zu sozialistisch erschien. 1894 erklärte Präsident Grover Cleveland ihn nach den blutigen Pullman-Streiks zum Bundesfeiertag, um die Arbeiterschaft zu beruhigen. Ironischerweise feiern die meisten Länder den 1. Mai, der seinerseits an die Chicago-Haymarket-Affäre 1886 erinnert – ein US-Ereignis. Die USA wollten sich davon bewusst distanzieren.",
+          "traditions": "Der Tag eröffnet das verlängerte „Labor Day Weekend” – traditionell mit BBQ, Strandbesuchen und dem letzten großen Sommer-Roadtrip. Stilvoraussetzung: Nach Labor Day trägt man in den USA traditionell kein Weiß mehr. Es ist auch der Auftakt der NFL-Saison und einer der größten Sale-Tage des Jahres. In manchen Städten gibt es Gewerkschafts-Paraden.",
+          "funFacts": [
+            "Die Sitte „kein Weiß nach Labor Day” entstand in der New Yorker High Society des späten 19. Jahrhunderts – heute mehr Mode-Witz als Regel.",
+            "Der US-Labor Day wurde bewusst auf September gelegt, um sich vom 1. Mai der Arbeiterbewegung abzugrenzen.",
+            "Die NFL-Saison startet seit 1934 traditionell in der Woche nach Labor Day.",
+            "Pullman, der den Bahnstreik 1894 auslöste, war ein luxuriöses Schlafwagen-Imperium – eine Industriestadt mit eigener Post und Polizei."
+          ],
+          "imageCredit": "Foto: Bain News Service photograph · Public domain via Wikimedia Commons"
+        },
+        "thanksgiving_day": {
+          "intro": "Thanksgiving am vierten Donnerstag im November ist der wichtigste Familienfeiertag der USA – ein Erntedank- und Truthahn-Fest mit über 400 Jahren Geschichte.",
+          "history": "Das erste „Thanksgiving” feierten 1621 die Pilgerväter aus England gemeinsam mit den Wampanoag-Indianern in Plymouth (Massachusetts), nachdem die einheimische Bevölkerung den Siedlern den lokalen Anbau beigebracht hatte. Über zwei Jahrhunderte blieb es ein lokales Fest. 1863 erklärte Präsident Abraham Lincoln Thanksgiving mitten im Bürgerkrieg zum nationalen Feiertag – ein Zeichen der Hoffnung. Präsident Franklin D. Roosevelt fixierte 1941 den vierten Donnerstag im November per Bundesgesetz.",
+          "traditions": "Die Familie versammelt sich um einen festlich gedeckten Tisch mit Truthahn („Turkey”), Kürbiskuchen, Cranberry-Sauce, Süßkartoffel-Auflauf und Stuffing (Brot-Füllung). Vor dem Essen erzählt jeder, wofür er dankbar ist. In New York findet die berühmte „Macy's Thanksgiving Day Parade” mit riesigen Helium-Ballons statt, im TV laufen Football-Spiele und der Präsident „begnadigt” einen Truthahn.",
+          "funFacts": [
+            "Über 46 Millionen Truthähne werden jedes Jahr für Thanksgiving in den USA verzehrt.",
+            "Die „Turkey Pardon”-Tradition – der Präsident begnadigt einen Truthahn – wurde 1989 von George H.W. Bush offiziell etabliert.",
+            "Die Macy's-Parade läuft seit 1924 und zieht jährlich rund 3,5 Millionen Live-Zuschauer in New York an.",
+            "„Black Friday” am Tag nach Thanksgiving war ursprünglich der Tag, an dem der Handel „in die schwarzen Zahlen” ging."
+          ],
+          "imageCredit": "Foto: Mark Miller · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
+          "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
+          "traditions": "Familien versammeln sich zu festlichen Mahlzeiten – Truthahn, Gans, Karpfen oder Raclette. Geschenke werden ausgetauscht, Weihnachtslieder gesungen, viele besuchen den Festgottesdienst. Der geschmückte Christbaum mit Lichterketten, Kugeln und Strohsternen ist das zentrale Symbol. Adventskalender, Plätzchen und der Besuch von Weihnachtsmärkten gehören zur Vorbereitung.",
+          "funFacts": [
+            "Der erste kommerzielle Adventskalender erschien 1908 in München – Erfinder war Gerhard Lang.",
+            "Die Weihnachtsmärkte in Dresden („Striezelmarkt”, seit 1434) und Frankfurt (seit 1393) gehören zu den ältesten der Welt.",
+            "Norwegen schenkt Großbritannien seit 1947 jährlich einen riesigen Weihnachtsbaum für den Trafalgar Square – als Dank für die Hilfe im Zweiten Weltkrieg.",
+            "Die Weihnachtsfilm-Klassiker „Drei Haselnüsse für Aschenbrödel” und „Tatsächlich… Liebe” laufen weltweit jedes Jahr Dutzende Male im TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "new_year": {
+          "intro": "January 1st marks the start of a new year in the Gregorian calendar around the world. For many it's a day of hope, fresh starts and good resolutions.",
+          "history": "As early as 153 BC the Romans set the start of the year on January 1st, the day new consuls took office. During the Middle Ages, the start of the year shifted in many regions to Christmas or Easter. Only with Pope Gregory XIII's calendar reform of 1582 did January 1st become the European standard once again. The name January goes back to the Roman god Janus, who looked simultaneously at the past and the future with two faces — a fitting symbol for the day.",
+          "traditions": "At midnight, families and friends toast with sparkling wine and celebrate the turn of the year with fireworks, lucky charms (clover, chimney sweep, ladybug) and traditional lead pouring (now wax pouring). New Year's brunch and a fresh-air walk are popular too. Many people make resolutions for the year ahead.",
+          "funFacts": [
+            "In Spain, people eat one grape with each of the twelve bell strokes — one wish per grape.",
+            "In Denmark, people break old crockery in front of friends' doors to bring them luck.",
+            "Vienna's New Year's Concert is broadcast in over 90 countries and counts as the year's musical kick-off.",
+            "On the Pacific island of Kiribati, the new year arrives 26 hours earlier than on Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "martin_luther_king_jr_day": {
+          "intro": "Martin Luther King Jr. Day on the third Monday in January honors the U.S. civil rights leader. It is one of few U.S. holidays dedicated to a single individual.",
+          "history": "Martin Luther King Jr. was born on January 15th, 1929 and led the African-American civil rights movement from the 1950s onward. In 1963 he gave his famous ‘I Have a Dream' speech at the March on Washington. He received the Nobel Peace Prize in 1964 and was assassinated in Memphis in 1968. Only after 15 years of lobbying — including Stevie Wonder's song ‘Happy Birthday' (1980) — President Reagan signed the day into law as a national holiday in 1983. Since 2000 it has been observed in all 50 states.",
+          "traditions": "The day's motto is ‘A Day On, Not a Day Off'. Instead of a day off, it calls for volunteering — soup kitchens, neighborhood help, school partnerships. In Atlanta there is a major parade and services in King's former church. In schools King's speeches are read and civil-rights documentaries are shown.",
+          "funFacts": [
+            "King was the youngest Nobel Peace Prize laureate at the time of the award — only 35 years old.",
+            "His famous ‘I Have a Dream' speech was originally planned differently — he improvised the famous lines after singer Mahalia Jackson called out to him.",
+            "Stevie Wonder's hit ‘Happy Birthday' (1980) was written specifically to push for MLK Day as a holiday.",
+            "King was a gifted pool-billiards player and a passionate Star Trek fan."
+          ],
+          "imageCredit": "Photo: Marion S. Trikosko · Public domain via Wikimedia Commons"
+        },
+        "presidents_day": {
+          "intro": "Presidents' Day on the third Monday in February honors the U.S. presidents — originally specifically the birthday of George Washington.",
+          "history": "February 22nd — Washington's birthday — became a national holiday in 1879. In 1968 the ‘Uniform Monday Holiday Act' shifted several holidays to a Monday to create long weekends. Since then the day falls on the third Monday in February (between the 15th and 21st — Washington's actual February 22nd is therefore never the holiday itself). Informally ‘Washington's Birthday' became ‘Presidents' Day' over time, since Abraham Lincoln's birthday (February 12th) also falls in February.",
+          "traditions": "Schools organize president-themed projects; museums offer free admission to political-history exhibitions. At Mount Vernon, Washington's estate, there is a ceremonial wreath-laying. The day is also famous as a major sale day — ‘Presidents' Day Sales' with discounts on furniture, mattresses and cars.",
+          "funFacts": [
+            "In federal law the holiday is still called ‘Washington's Birthday' — the popular renaming is unofficial.",
+            "The famous sales are so big that many Americans associate the day more with shopping than with politics.",
+            "George Washington was the only president who never lived in Washington D.C. as president — the city was completed only after his death.",
+            "Washington's favorite dog was named ‘Sweetlips' — an anecdote eagerly mentioned in schools."
+          ],
+          "imageCredit": "Photo: Gilbert Stuart · Public domain via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Good Friday is the highest Protestant day of mourning, commemorating the crucifixion of Jesus Christ. In Germany it is a ‘silent holiday' with special legal protections.",
+          "history": "Good Friday has been observed by Christians since the 4th century. The German prefix ‘Kar' comes from Old High German ‘chara', meaning lamentation or mourning. Liturgical traditions developed early on: the reading of the Passion, veneration of the cross and the silencing of bells. The Reformation gave Good Friday particular weight; in Lutheran regions it remains the most important holiday of the church year.",
+          "traditions": "Many Christians attend Passion services with the reading of the Passion narrative. The day is traditionally one of fasting — fish replaces meat. In some regions, Good Friday processions march through the streets, such as the famous one in Lohr am Main. Dance events and loud music are forbidden by law in most German states.",
+          "funFacts": [
+            "Germany's ‘dance ban' regulates public entertainment on Good Friday — and has been a hot social topic for years.",
+            "Bach wrote his St. Matthew Passion in 1727 for Good Friday vespers in Leipzig — today one of the world's most performed works.",
+            "In Bermuda, families fly self-made bamboo and paper kites on Good Friday — a unique Christian tradition.",
+            "In Spanish-speaking countries Good Friday is ‘Viernes Santo' — with magnificent brotherhood processions, for example in Seville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "memorial_day": {
+          "intro": "Memorial Day on the last Monday in May is the U.S. day of remembrance for fallen American soldiers. It is also the unofficial start of summer in the U.S.",
+          "history": "The day grew out of the American Civil War (1861–1865), in which over 600,000 soldiers died. In May 1868 General John A. Logan ordered a ‘Decoration Day' on which the graves of fallen soldiers were to be decorated with flowers. The custom spread after both World Wars and today commemorates all U.S. soldiers who fell in war. In 1971 the day was officially moved to the last Monday in May — to create a long weekend.",
+          "traditions": "At Arlington National Cemetery the President lays a wreath at the Tomb of the Unknown Soldier. Families visit graves, decorating them with flags and flowers. At 3 p.m. local time the ‘National Moment of Remembrance' calls for a moment of silence nationwide. There are also traditional parades, barbecues and the Indianapolis 500 motor race.",
+          "funFacts": [
+            "Over 400,000 fallen are buried at Arlington National Cemetery.",
+            "The red poppy became a symbol of remembrance after World War I — inspired by the poem ‘In Flanders Fields'.",
+            "The Indy 500 has run on Memorial Day weekend since 1911 and is one of the largest sporting events in the U.S.",
+            "Before 1971 the holiday was called ‘Decoration Day' — the term still survives in some Southern states."
+          ],
+          "imageCredit": "Photo: Arlington National Cemetery · Public domain via Wikimedia Commons"
+        },
+        "independence_day": {
+          "intro": "American Independence Day on July 4th — the ‘Fourth of July' — celebrates the United States' Declaration of Independence from Great Britain in 1776.",
+          "history": "On July 4th, 1776, the Second Continental Congress in Philadelphia adopted the Declaration of Independence, primarily drafted by Thomas Jefferson. The body had actually voted for separation two days earlier (July 2nd) — John Adams therefore expected July 2nd to be celebrated. Only in 1870 did Independence Day become an official holiday, in 1938 a paid one. The war against Britain lasted until 1783; independence was recognized only in the Treaty of Paris.",
+          "traditions": "The day is probably the most colorful U.S. holiday: huge fireworks (the largest sponsored by Macy's over New York's East River), parades with marching bands, hot-dog eating contests on Coney Island, backyard barbecues, baseball games and the singing of the national anthem. The Capitol shines red, white and blue, and many wear patriotic T-shirts.",
+          "funFacts": [
+            "Nathan's Famous hot-dog eating contest at Coney Island has run on every July 4th since 1916 — record: 76 hot dogs in 10 minutes (Joey Chestnut, 2021).",
+            "John Adams and Thomas Jefferson — both former presidents — died on July 4th, 1826, exactly 50 years after the signing.",
+            "The Liberty Bell in Philadelphia is symbolically tapped (gently — it is cracked) 13 times — once for each founding colony.",
+            "Macy's New York fireworks display lasts about 25 minutes and fires off over 75,000 pyrotechnic effects."
+          ],
+          "imageCredit": "Photo: Seattle Cracker & Candy Company · Public domain via Wikimedia Commons"
+        },
+        "labour_day_us": {
+          "intro": "American Labor Day on the first Monday in September honors workers. It is also the unofficial end of summer.",
+          "history": "Labor Day was launched in 1882 by the Central Labor Union in New York — as a counter to May 1st, which seemed too socialist for the U.S. In 1894, after the bloody Pullman strikes, President Grover Cleveland declared it a federal holiday to placate labor. Ironically, most countries celebrate May 1st, which itself commemorates the Chicago Haymarket affair of 1886 — a U.S. event. The U.S. wanted to deliberately distance itself from that.",
+          "traditions": "The day opens the long ‘Labor Day Weekend' — traditionally with barbecues, beach trips and a final big summer road trip. Style note: after Labor Day, traditionally no white is worn in the U.S. It is also the kickoff of the NFL season and one of the biggest sale days of the year. Some cities still hold union parades.",
+          "funFacts": [
+            "The ‘no white after Labor Day' custom arose in late-19th-century New York high society — today more of a fashion joke than a rule.",
+            "U.S. Labor Day was deliberately set in September to distinguish itself from the labor movement's May 1st.",
+            "The NFL season has traditionally started in the week after Labor Day since 1934.",
+            "Pullman, who triggered the railway strike of 1894, ran a luxury sleeping-car empire — an industrial town with its own postal and police force."
+          ],
+          "imageCredit": "Photo: Bain News Service photograph · Public domain via Wikimedia Commons"
+        },
+        "thanksgiving_day": {
+          "intro": "Thanksgiving on the fourth Thursday in November is the most important family holiday in the U.S. — a harvest festival and turkey feast with over 400 years of history.",
+          "history": "The first ‘Thanksgiving' was held in 1621 by the Pilgrim Fathers from England together with the Wampanoag in Plymouth (Massachusetts), after the locals had taught the settlers how to farm the land. For more than two centuries it remained a local holiday. In 1863, in the middle of the Civil War, President Abraham Lincoln declared Thanksgiving a national holiday — a sign of hope. President Franklin D. Roosevelt fixed the fourth Thursday in November in 1941 by federal law.",
+          "traditions": "The family gathers at a festively set table with turkey, pumpkin pie, cranberry sauce, sweet-potato casserole and stuffing. Before the meal each person says what they are thankful for. In New York the famous Macy's Thanksgiving Day Parade with its giant helium balloons takes place; football games air on TV and the President ‘pardons' a turkey.",
+          "funFacts": [
+            "Over 46 million turkeys are eaten in the U.S. every Thanksgiving.",
+            "The ‘Turkey Pardon' tradition was officially established by George H.W. Bush in 1989.",
+            "The Macy's Parade has run since 1924 and draws around 3.5 million live spectators in New York every year.",
+            "‘Black Friday' the day after Thanksgiving was originally the day retail moved ‘into the black'."
+          ],
+          "imageCredit": "Photo: Mark Miller · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
+          "history": "December 25th is documented as ‘dies natalis Christi' as early as 354 in a Roman calendar. The Church likely chose the date to give the Roman ‘Sol Invictus' winter solstice festival a Christian meaning. Gift-giving has its roots in the gifts of the Magi. The familiar Santa Claus with red coat and white beard is a mix of Saint Nicholas and a 1931 Coca-Cola advertising campaign.",
+          "traditions": "Families gather for festive meals — turkey, goose, carp or raclette. Gifts are exchanged, carols sung, many attend the festive service. The decorated Christmas tree with lights, ornaments and straw stars is the central symbol. Advent calendars, cookies and visits to Christmas markets are part of the run-up.",
+          "funFacts": [
+            "The first commercial Advent calendar appeared in 1908 in Munich — invented by Gerhard Lang.",
+            "The Christmas markets in Dresden (‘Striezelmarkt', since 1434) and Frankfurt (since 1393) are among the oldest in the world.",
+            "Norway has gifted the UK a giant Christmas tree for Trafalgar Square every year since 1947 — as thanks for help during World War II.",
+            "Holiday classics like ‘Three Wishes for Cinderella' and ‘Love Actually' run dozens of times on TV worldwide every year."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "new_year": {
+          "intro": "Le 1er janvier marque le début d'une nouvelle année dans le calendrier grégorien partout dans le monde. Pour beaucoup, c'est un jour d'espoir, de renouveau et de bonnes résolutions.",
+          "history": "Dès 153 av. J.-C., les Romains fixèrent le début de l'année au 1er janvier, jour d'entrée en fonction des nouveaux consuls. Au Moyen Âge, le début de l'année se déplaça dans de nombreuses régions à Noël ou à Pâques. Ce n'est qu'avec la réforme du calendrier du pape Grégoire XIII en 1582 que le 1er janvier s'imposa à nouveau comme standard européen. Le nom janvier vient du dieu romain Janus, qui regardait simultanément le passé et l'avenir avec deux visages.",
+          "traditions": "À minuit, familles et amis trinquent au champagne et célèbrent le passage à la nouvelle année avec des feux d'artifice, des porte-bonheur (trèfle, ramoneur, coccinelle) et la traditionnelle coulée de plomb (aujourd'hui de cire). Le brunch du Nouvel An et la promenade au grand air sont aussi populaires. Beaucoup formulent des résolutions pour l'année.",
+          "funFacts": [
+            "En Espagne, on mange un grain de raisin à chacun des douze coups de minuit — un vœu par grain.",
+            "Au Danemark, on brise de la vieille vaisselle devant la porte des amis pour leur porter chance.",
+            "Le Concert du Nouvel An de Vienne est diffusé dans plus de 90 pays — coup d'envoi musical de l'année.",
+            "Sur l'île pacifique de Kiribati, le Nouvel An arrive 26 heures avant celui de l'île Howland."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "martin_luther_king_jr_day": {
+          "intro": "Le Martin Luther King Jr. Day, troisième lundi de janvier, honore le militant américain des droits civiques. C'est un des rares jours fériés américains dédié à un individu.",
+          "history": "Martin Luther King Jr. naquit le 15 janvier 1929 et dirigea dès les années 1950 le mouvement afro-américain des droits civiques. En 1963, il prononça son célèbre discours ‘I Have a Dream' à la Marche sur Washington. Prix Nobel de la paix en 1964, il fut assassiné à Memphis en 1968. Après 15 ans de pression — y compris la chanson ‘Happy Birthday' (1980) de Stevie Wonder — Reagan signa la loi du jour férié national en 1983. Depuis 2000, il est observé dans les 50 États.",
+          "traditions": "Le mot d'ordre est ‘A Day On, Not a Day Off'. Plutôt qu'un jour de repos, il invite au bénévolat — soupes populaires, aide de voisinage, parrainages scolaires. À Atlanta, grand défilé et offices dans l'ancienne église de King. Dans les écoles, on lit ses discours et l'on projette des documentaires sur les droits civiques.",
+          "funFacts": [
+            "King fut le plus jeune lauréat du prix Nobel de la paix lors de la remise — à seulement 35 ans.",
+            "Son fameux ‘I Have a Dream' était initialement prévu autrement — il improvisa les phrases-clés après que Mahalia Jackson l'eut interpellé.",
+            "‘Happy Birthday' (1980) de Stevie Wonder fut écrit pour pousser à la reconnaissance du MLK Day.",
+            "King était un excellent joueur de billard américain et un grand fan de Star Trek."
+          ],
+          "imageCredit": "Photo: Marion S. Trikosko · Public domain via Wikimedia Commons"
+        },
+        "presidents_day": {
+          "intro": "Le Presidents' Day, troisième lundi de février, honore les présidents des États-Unis — à l'origine spécifiquement l'anniversaire de George Washington.",
+          "history": "Le 22 février — anniversaire de Washington — devint fête nationale en 1879. La ‘Uniform Monday Holiday Act' de 1968 déplaça plusieurs fêtes au lundi pour créer des longs week-ends. Depuis, le jour tombe le troisième lundi de février (entre le 15 et le 21 — jamais exactement le 22). De manière informelle, ‘Washington's Birthday' est devenu ‘Presidents' Day' avec le temps, puisque l'anniversaire de Lincoln (12 février) tombe aussi en février.",
+          "traditions": "Les écoles organisent des projets sur les présidents, les musées offrent l'entrée gratuite à des expositions d'histoire politique. À Mount Vernon, domaine de Washington, on dépose une gerbe cérémonielle. Le jour est aussi célèbre pour ses énormes promotions — ‘Presidents' Day Sales' avec des rabais sur le mobilier, les matelas et les voitures.",
+          "funFacts": [
+            "Officiellement, la loi fédérale appelle toujours le férié ‘Washington's Birthday' — le renommage est populaire mais non officiel.",
+            "Les soldes sont si importants que beaucoup d'Américains associent le jour davantage au shopping qu'à la politique.",
+            "George Washington est le seul président à n'avoir jamais vécu à Washington D.C. en tant que président — la ville fut achevée après sa mort.",
+            "Le chien préféré de Washington s'appelait ‘Sweetlips' — anecdote très citée à l'école."
+          ],
+          "imageCredit": "Photo: Gilbert Stuart · Public domain via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Le Vendredi Saint est le jour le plus solennel du protestantisme et commémore la crucifixion de Jésus-Christ. En Allemagne, il s'agit d'un ‘jour silencieux' légalement protégé.",
+          "history": "Le Vendredi Saint est célébré par les chrétiens depuis le IVe siècle. Le préfixe allemand ‘Kar' vient du vieux haut-allemand ‘chara' (lamentation, deuil). Très tôt s'élaborent les traditions liturgiques : lecture de la Passion, vénération de la Croix, silence des cloches. La Réforme protestante lui donna une importance particulière ; dans les régions luthériennes, c'est la fête la plus importante de l'année liturgique.",
+          "traditions": "De nombreux chrétiens assistent à la liturgie de la Passion. C'est traditionnellement un jour de jeûne — on mange du poisson plutôt que de la viande. Dans certaines régions ont lieu des processions du Vendredi Saint, comme la fameuse procession de Lohr am Main. En Allemagne, la danse et la musique forte sont légalement interdites dans la plupart des Länder.",
+          "funFacts": [
+            "L'interdiction de danser (‘Tanzverbot') régit les divertissements publics du Vendredi Saint en Allemagne — sujet sociétal récurrent.",
+            "Bach composa sa Passion selon saint Matthieu en 1727 pour les vêpres du Vendredi Saint à Leipzig.",
+            "Aux Bermudes, les familles font voler des cerfs-volants en bambou et papier le Vendredi Saint — tradition chrétienne unique.",
+            "En Espagne, le ‘Viernes Santo' brille par les magnifiques processions de confréries, notamment à Séville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "memorial_day": {
+          "intro": "Le Memorial Day, dernier lundi de mai, est le jour de commémoration américain des soldats tombés. C'est aussi le début non officiel de l'été aux États-Unis.",
+          "history": "Le jour naquit après la guerre de Sécession (1861–1865), durant laquelle plus de 600 000 soldats périrent. En mai 1868, le général John A. Logan ordonna un ‘Decoration Day' pour fleurir les tombes des soldats tombés. La coutume s'étendit après les deux guerres mondiales et honore aujourd'hui tous les soldats américains tombés au combat. En 1971, le jour fut officiellement déplacé au dernier lundi de mai — pour créer un long week-end.",
+          "traditions": "Au cimetière national d'Arlington, le président dépose une couronne sur la tombe du Soldat Inconnu. Les familles visitent les tombes et les parent de drapeaux et de fleurs. À 15 h heure locale, la ‘National Moment of Remembrance' invite à une minute de silence nationale. Il y a aussi des défilés traditionnels, des barbecues et la course Indianapolis 500.",
+          "funFacts": [
+            "Au cimetière national d'Arlington reposent plus de 400 000 morts.",
+            "Le coquelicot rouge est devenu symbole du souvenir après la Première Guerre mondiale — inspiré du poème ‘In Flanders Fields'.",
+            "L'Indy 500 se court le week-end du Memorial Day depuis 1911, et c'est l'un des plus grands événements sportifs des États-Unis.",
+            "Avant 1971, le férié s'appelait ‘Decoration Day' — le terme survit dans certains États du Sud."
+          ],
+          "imageCredit": "Photo: Arlington National Cemetery · Public domain via Wikimedia Commons"
+        },
+        "independence_day": {
+          "intro": "Le jour de l'Indépendance américain, le 4 juillet — ‘Fourth of July' — célèbre la Déclaration d'indépendance des États-Unis vis-à-vis de la Grande-Bretagne en 1776.",
+          "history": "Le 4 juillet 1776, le deuxième Congrès continental, à Philadelphie, adopta la Déclaration d'indépendance, principalement rédigée par Thomas Jefferson. Le corps avait pourtant voté la séparation deux jours plus tôt (2 juillet) — John Adams pensait donc que ce serait le 2 qui serait fêté. Ce ne fut qu'en 1870 que l'Indépendance Day devint férié officiel, et en 1938 jour payé. La guerre contre la Grande-Bretagne dura jusqu'en 1783 ; l'indépendance fut reconnue par le traité de Paris.",
+          "traditions": "C'est probablement le jour le plus coloré aux États-Unis : feux d'artifice gigantesques (le plus grand sponsorisé par Macy's au-dessus de l'East River à New York), défilés avec fanfares, concours de hot-dogs à Coney Island, barbecues, matchs de baseball et hymne national. Le Capitole est éclairé en bleu, blanc et rouge.",
+          "funFacts": [
+            "Le concours de hot-dogs de Nathan's Famous à Coney Island se tient le 4 juillet depuis 1916 — record : 76 hot-dogs en 10 minutes (Joey Chestnut, 2021).",
+            "John Adams et Thomas Jefferson — anciens présidents — moururent tous deux le 4 juillet 1826, exactement 50 ans après la signature.",
+            "La Cloche de la Liberté à Philadelphie est symboliquement frappée (doucement : elle est fissurée) 13 fois — une par colonie fondatrice.",
+            "Le spectacle de feux d'artifice de Macy's à New York dure environ 25 minutes et tire plus de 75 000 effets pyrotechniques."
+          ],
+          "imageCredit": "Photo: Seattle Cracker & Candy Company · Public domain via Wikimedia Commons"
+        },
+        "labour_day_us": {
+          "intro": "Le Labor Day américain, premier lundi de septembre, honore les travailleurs. C'est aussi la fin non officielle de l'été.",
+          "history": "Le Labor Day fut introduit en 1882 par la Central Labor Union de New York — en alternative au 1er mai jugé trop socialiste pour les États-Unis. En 1894, après les sanglantes grèves de Pullman, le président Cleveland l'érigea en férié fédéral pour apaiser le mouvement ouvrier. Ironie : la plupart des pays célèbrent le 1er mai, qui rappelle l'affaire de Haymarket de 1886 — un événement américain dont les États-Unis ont voulu se distancier.",
+          "traditions": "Le jour ouvre le ‘Labor Day Weekend' — barbecues, plage et dernier grand road trip de l'été. Règle de style : après le Labor Day, on ne porte traditionnellement plus de blanc aux États-Unis. C'est aussi le coup d'envoi de la saison NFL et l'une des plus grosses journées de soldes de l'année. Quelques villes organisent encore des défilés syndicaux.",
+          "funFacts": [
+            "La règle ‘pas de blanc après Labor Day' apparut dans la haute société new-yorkaise de la fin du XIXe siècle — aujourd'hui plus une plaisanterie qu'une règle.",
+            "Le Labor Day fut volontairement placé en septembre pour se distinguer du 1er mai du mouvement ouvrier.",
+            "Depuis 1934, la NFL démarre traditionnellement la saison la semaine suivant le Labor Day.",
+            "Pullman, qui déclencha la grève des chemins de fer en 1894, dirigeait un empire des wagons-lits de luxe — toute une ville industrielle avec sa poste et sa police."
+          ],
+          "imageCredit": "Photo: Bain News Service photograph · Public domain via Wikimedia Commons"
+        },
+        "thanksgiving_day": {
+          "intro": "Thanksgiving, le quatrième jeudi de novembre, est la fête familiale la plus importante des États-Unis — fête de la moisson et festin de dinde, riche de plus de 400 ans d'histoire.",
+          "history": "Le premier ‘Thanksgiving' eut lieu en 1621 : les Pères pèlerins anglais le célébrèrent avec les Wampanoag à Plymouth (Massachusetts), après que les autochtones eurent appris aux colons à cultiver la terre locale. Pendant plus de deux siècles, ce ne fut qu'une fête locale. En 1863, en pleine guerre de Sécession, Lincoln en fit une fête nationale comme signe d'espoir. Roosevelt fixa en 1941 le quatrième jeudi de novembre par loi fédérale.",
+          "traditions": "La famille se réunit autour d'une table festive avec dinde, tarte au potiron, sauce aux canneberges, gratin de patates douces et stuffing (farce au pain). Avant le repas, chacun dit ce dont il est reconnaissant. À New York, le célèbre défilé Macy's avec ses ballons géants ; à la télé, des matchs de football américain et le président qui ‘gracie' une dinde.",
+          "funFacts": [
+            "Plus de 46 millions de dindes sont consommées chaque Thanksgiving aux États-Unis.",
+            "La tradition de la ‘Turkey Pardon' fut officialisée par George H.W. Bush en 1989.",
+            "Le défilé Macy's existe depuis 1924 et attire environ 3,5 millions de spectateurs en direct à New York chaque année.",
+            "‘Black Friday' désignait à l'origine le jour où le commerce passait ‘dans le vert'."
+          ],
+          "imageCredit": "Photo: Mark Miller · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
+          "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
+          "traditions": "Les familles se rassemblent autour de repas festifs — dinde, oie, carpe ou raclette. On échange des cadeaux, chante des cantiques, beaucoup assistent à la messe festive. Le sapin décoré de lumières, boules et étoiles de paille est le symbole central. Calendrier de l'avent, biscuits et marchés de Noël jalonnent la préparation.",
+          "funFacts": [
+            "Le premier calendrier de l'avent commercial parut en 1908 à Munich — invention de Gerhard Lang.",
+            "Les marchés de Noël de Dresde (‘Striezelmarkt', depuis 1434) et de Francfort (depuis 1393) figurent parmi les plus anciens du monde.",
+            "La Norvège offre chaque année au Royaume-Uni un immense sapin pour Trafalgar Square depuis 1947 — en remerciement de l'aide pendant la Seconde Guerre mondiale.",
+            "Les classiques de Noël comme ‘Trois noisettes pour Cendrillon' ou ‘Love Actually' sont diffusés des dizaines de fois à la télé chaque année."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "new_year": {
+          "intro": "El 1 de enero marca el inicio de un nuevo año en el calendario gregoriano en todo el mundo. Para muchos es un día de esperanza, comienzos y buenos propósitos.",
+          "history": "Ya en el 153 a. C., los romanos fijaron el inicio del año el 1 de enero, día en que tomaban posesión los nuevos cónsules. En la Edad Media el comienzo del año cambió en muchas regiones a Navidad o Pascua. Solo con la reforma del calendario del papa Gregorio XIII en 1582 el 1 de enero volvió a imponerse como estándar europeo. El nombre Janus (enero en latín) evoca al dios romano de las dos caras, que miraba al pasado y al futuro a la vez.",
+          "traditions": "A medianoche, familias y amigos brindan con cava o champán y celebran con fuegos artificiales, amuletos como tréboles, deshollinadores o mariquitas, y la tradicional fundición de cera para predecir el año. También son populares el brunch de Año Nuevo y los paseos al aire libre. Muchos hacen propósitos para el año entrante.",
+          "funFacts": [
+            "En España se come una uva con cada una de las doce campanadas — un deseo por uva.",
+            "En Dinamarca se rompe vajilla vieja delante de las puertas de los amigos para darles suerte.",
+            "El Concierto de Año Nuevo de Viena se transmite en más de 90 países y se considera el arranque musical del año.",
+            "En la isla pacífica de Kiribati el Año Nuevo llega 26 horas antes que en la isla Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 vía Wikimedia Commons"
+        },
+        "martin_luther_king_jr_day": {
+          "intro": "El día de Martin Luther King Jr., el tercer lunes de enero, honra al líder estadounidense de los derechos civiles. Es uno de los pocos festivos de EE. UU. dedicados a una persona.",
+          "history": "Martin Luther King Jr. nació el 15 de enero de 1929 y lideró desde los años 50 el movimiento por los derechos civiles afroamericano. En 1963 pronunció su famoso discurso ‘I Have a Dream' en la Marcha sobre Washington. Recibió el Nobel de la Paz en 1964 y fue asesinado en Memphis en 1968. Tras 15 años de presión — incluida la canción ‘Happy Birthday' (1980) de Stevie Wonder — Reagan firmó en 1983 la ley del festivo. Desde 2000 lo celebran los 50 estados.",
+          "traditions": "El lema es ‘A Day On, Not a Day Off'. Más que un día libre, busca animar al voluntariado: comedores sociales, ayuda vecinal, programas escolares. En Atlanta hay un gran desfile y misa en la antigua iglesia de King. En las escuelas se leen sus discursos y se proyectan documentales sobre derechos civiles.",
+          "funFacts": [
+            "King fue el más joven Premio Nobel de la Paz en el momento de la concesión — con solo 35 años.",
+            "Su famoso ‘I Have a Dream' originalmente se planeó distinto — improvisó las frases icónicas tras el grito de Mahalia Jackson.",
+            "‘Happy Birthday' (1980) de Stevie Wonder se compuso para impulsar el reconocimiento del MLK Day.",
+            "King era un excelente jugador de billar americano y un gran fan de Star Trek."
+          ],
+          "imageCredit": "Foto: Marion S. Trikosko · Public domain vía Wikimedia Commons"
+        },
+        "presidents_day": {
+          "intro": "El Día de los Presidentes, el tercer lunes de febrero, honra a los presidentes de EE. UU. — originalmente el cumpleaños de George Washington.",
+          "history": "El 22 de febrero — cumpleaños de Washington — fue declarado fiesta nacional en 1879. La ‘Uniform Monday Holiday Act' de 1968 trasladó varios festivos a un lunes para crear puentes largos. Desde entonces cae el tercer lunes de febrero (entre el 15 y el 21 — nunca exactamente el 22). El nombre ‘Presidents' Day' se popularizó porque también el cumpleaños de Lincoln (12 de febrero) cae en febrero.",
+          "traditions": "Las escuelas hacen proyectos sobre presidentes, los museos ofrecen entrada gratis a exposiciones de historia política. En Mount Vernon, finca de Washington, se realiza una ofrenda floral ceremonial. El día también es famoso por las grandes ofertas — ‘Presidents' Day Sales' con descuentos en muebles, colchones y coches.",
+          "funFacts": [
+            "Oficialmente la ley federal sigue llamándolo ‘Washington's Birthday' — el cambio de nombre es popular pero no oficial.",
+            "Las ofertas son tan grandes que muchos americanos asocian el día más con compras que con política.",
+            "George Washington fue el único presidente que jamás vivió en Washington D.C. como presidente — la ciudad se acabó tras su muerte.",
+            "El perro favorito de Washington se llamaba ‘Sweetlips' — anécdota muy citada en las escuelas."
+          ],
+          "imageCredit": "Foto: Gilbert Stuart · Public domain vía Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "El Viernes Santo es el día de mayor luto del cristianismo y conmemora la crucifixión de Jesús. En Alemania es ‘día silencioso' con normativa especial.",
+          "history": "El Viernes Santo se celebra desde el siglo IV. La palabra alemana ‘Kar' viene del antiguo alto alemán ‘chara', que significa lamento o duelo. Pronto se desarrollaron tradiciones litúrgicas: lectura de la Pasión, veneración de la cruz y silencio de las campanas. La Reforma le dio especial relevancia y en regiones luteranas sigue siendo el día más importante del año eclesiástico.",
+          "traditions": "Muchos cristianos asisten a oficios de la Pasión con la lectura de la Pasión. Es día de ayuno: tradicionalmente se come pescado en lugar de carne. En España, las procesiones de las cofradías recorren ciudades como Sevilla. En Alemania los bailes y la música alta están legalmente prohibidos en la mayoría de estados federados.",
+          "funFacts": [
+            "El ‘Tanzverbot' (prohibición de bailar) regula el ocio público en el Viernes Santo alemán — desde hace años un debate social recurrente.",
+            "Bach compuso su Pasión según San Mateo en 1727 para las vísperas del Viernes Santo en Leipzig.",
+            "En Bermudas, las familias hacen volar cometas caseras de bambú y papel — una tradición cristiana única.",
+            "En España, el ‘Viernes Santo' destaca por las majestuosas procesiones de cofradías, especialmente en Sevilla y Málaga."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "memorial_day": {
+          "intro": "El Memorial Day, último lunes de mayo, es el día de homenaje estadounidense a los soldados caídos. Marca el inicio no oficial del verano en EE. UU.",
+          "history": "El día surge tras la Guerra Civil estadounidense (1861–1865), en la que murieron más de 600.000 soldados. En mayo de 1868 el general John A. Logan instituyó un ‘Decoration Day' para adornar tumbas con flores. La costumbre se extendió tras las guerras mundiales y hoy honra a todos los soldados estadounidenses caídos. En 1971 se trasladó al último lunes de mayo para crear puente.",
+          "traditions": "En el Cementerio Nacional de Arlington el presidente deposita una corona en la Tumba del Soldado Desconocido. Las familias visitan tumbas y las decoran con banderas y flores. A las 15:00 hora local se observa el ‘National Moment of Remembrance' — minuto de silencio nacional. Hay desfiles, barbacoas y la carrera Indianapolis 500.",
+          "funFacts": [
+            "En Arlington descansan más de 400.000 caídos.",
+            "La amapola roja se convirtió en símbolo del recuerdo tras la Primera Guerra Mundial — inspirada en el poema ‘In Flanders Fields'.",
+            "La Indy 500 se corre en el fin de semana del Memorial Day desde 1911 — uno de los mayores eventos deportivos de EE. UU.",
+            "Antes de 1971 el día se llamaba ‘Decoration Day' — el término sigue vigente en algunos estados del sur."
+          ],
+          "imageCredit": "Foto: Arlington National Cemetery · Public domain vía Wikimedia Commons"
+        },
+        "independence_day": {
+          "intro": "El Día de la Independencia estadounidense del 4 de julio — ‘Fourth of July' — celebra la Declaración de Independencia de Gran Bretaña en 1776.",
+          "history": "El 4 de julio de 1776 el Segundo Congreso Continental, en Filadelfia, aprobó la Declaración de Independencia, redactada principalmente por Thomas Jefferson. El órgano había votado la separación dos días antes (2 de julio); John Adams creía que se celebraría el día 2. Solo en 1870 fue festivo oficial y en 1938 día pagado. La guerra contra Gran Bretaña duró hasta 1783; la independencia se reconoció en el Tratado de París.",
+          "traditions": "Es probablemente el festivo más vistoso de EE. UU.: enormes fuegos artificiales (los mayores patrocinados por Macy's sobre el East River de Nueva York), desfiles con bandas, concursos de comer perritos calientes en Coney Island, barbacoas en los patios traseros, partidos de béisbol y himno nacional. El Capitolio se ilumina rojo, blanco y azul.",
+          "funFacts": [
+            "El concurso de Nathan's Famous en Coney Island se celebra cada 4 de julio desde 1916 — récord: 76 perritos en 10 minutos (Joey Chestnut, 2021).",
+            "John Adams y Thomas Jefferson — ambos expresidentes — murieron el 4 de julio de 1826, exactamente 50 años después de la firma.",
+            "La Campana de la Libertad de Filadelfia se golpea simbólicamente (suave: está agrietada) 13 veces — una por cada colonia fundadora.",
+            "El espectáculo de Macy's en Nueva York dura unos 25 minutos y dispara más de 75.000 efectos pirotécnicos."
+          ],
+          "imageCredit": "Foto: Seattle Cracker & Candy Company · Public domain vía Wikimedia Commons"
+        },
+        "labour_day_us": {
+          "intro": "El Labor Day estadounidense, primer lunes de septiembre, honra a los trabajadores. Marca el final no oficial del verano.",
+          "history": "Lo introdujo en 1882 el Central Labor Union de Nueva York como contrapunto al 1 de mayo, considerado demasiado socialista para EE. UU. En 1894, tras las sangrientas huelgas de Pullman, el presidente Cleveland lo declaró festivo federal para apaciguar al movimiento obrero. Irónicamente, la mayoría de países celebran el 1 de mayo, que recuerda los sucesos de Haymarket de 1886 — un evento estadounidense del que EE. UU. quiso desmarcarse.",
+          "traditions": "El día abre el ‘Labor Day Weekend' largo — barbacoas, playa y la última gran ruta veraniega en coche. Norma de estilo: tras el Labor Day, tradicionalmente no se viste de blanco en EE. UU. También arranca la temporada de la NFL y es uno de los días de mayores ofertas. Algunas ciudades aún celebran desfiles sindicales.",
+          "funFacts": [
+            "La regla ‘nada de blanco después del Labor Day' surgió en la alta sociedad neoyorquina del siglo XIX — hoy más broma que regla.",
+            "El Labor Day se fijó en septiembre para distanciarse del 1 de mayo del movimiento obrero.",
+            "Desde 1934 la NFL inicia su temporada en la semana posterior al Labor Day.",
+            "Pullman, que provocó la huelga de 1894, era un imperio de coches cama de lujo — con su propia ciudad, correos y policía."
+          ],
+          "imageCredit": "Foto: Bain News Service photograph · Public domain vía Wikimedia Commons"
+        },
+        "thanksgiving_day": {
+          "intro": "Acción de Gracias, el cuarto jueves de noviembre, es la festividad familiar más importante de EE. UU. — un banquete de pavo y agradecimiento con más de 400 años de historia.",
+          "history": "El primer ‘Thanksgiving' fue en 1621: los Padres Peregrinos ingleses lo celebraron junto a los wampanoag en Plymouth (Massachusetts), tras enseñarles los nativos a cultivar la tierra local. Durante más de dos siglos fue celebración local. En 1863, en plena Guerra Civil, Lincoln la declaró fiesta nacional como signo de esperanza. Roosevelt fijó en 1941 el cuarto jueves de noviembre por ley federal.",
+          "traditions": "La familia se reúne en torno a una mesa festiva con pavo, pastel de calabaza, salsa de arándanos, gratinado de boniato y stuffing (relleno de pan). Antes de comer, cada uno dice por qué está agradecido. En Nueva York el famoso desfile de Macy's con globos gigantes; en TV partidos de fútbol americano y el presidente ‘indulta' a un pavo.",
+          "funFacts": [
+            "Más de 46 millones de pavos se consumen cada Acción de Gracias en EE. UU.",
+            "El ‘perdón del pavo' fue oficializado por George H.W. Bush en 1989.",
+            "El desfile de Macy's existe desde 1924 y atrae a unos 3,5 millones de espectadores en directo en Nueva York.",
+            "‘Black Friday' nació como el día en que el comercio entraba ‘en números negros'."
+          ],
+          "imageCredit": "Foto: Mark Miller · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
+          "history": "Ya en el año 354 un calendario romano consigna el 25 de diciembre como ‘dies natalis Christi'. Probablemente la Iglesia eligió la fecha para reinterpretar cristianamente el ‘Sol Invictus' romano. El intercambio de regalos arraiga en los obsequios de los Magos. El moderno Papá Noel con abrigo rojo y barba blanca es una mezcla de San Nicolás con una campaña publicitaria de Coca-Cola de 1931.",
+          "traditions": "Las familias se reúnen para comidas festivas — pavo, ganso, carpa o raclette. Se intercambian regalos, se cantan villancicos y muchos asisten al servicio festivo. El árbol decorado con luces y bolas es el símbolo central. El calendario de Adviento, las galletas y los mercadillos forman parte de la preparación.",
+          "funFacts": [
+            "El primer calendario de Adviento comercial apareció en 1908 en Múnich — invento de Gerhard Lang.",
+            "Los mercadillos navideños de Dresde (‘Striezelmarkt', desde 1434) y Fráncfort (desde 1393) son de los más antiguos del mundo.",
+            "Noruega regala al Reino Unido un enorme árbol de Navidad para Trafalgar Square cada año desde 1947 — agradecimiento por la ayuda en la Segunda Guerra Mundial.",
+            "Los clásicos como ‘Tres Avellanas para Cenicienta' o ‘Love Actually' se emiten decenas de veces cada año en TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "new_year": {
+          "intro": "1 de janeiro marca o início de um novo ano no calendário gregoriano em todo o mundo. Para muitos é um dia de esperança, novos começos e boas resoluções.",
+          "history": "Já em 153 a.C. os romanos fixaram o início do ano em 1 de janeiro, dia em que tomavam posse os novos cônsules. Na Idade Média, o início do ano deslocou-se em muitas regiões para o Natal ou a Páscoa. Só com a reforma do calendário do Papa Gregório XIII em 1582 o 1 de janeiro voltou a impor-se como padrão europeu. O nome Janus (janeiro em latim) evoca o deus romano de duas faces, que olhava simultaneamente para o passado e o futuro.",
+          "traditions": "À meia-noite, famílias e amigos brindam com espumante e celebram com fogo de artifício, amuletos como trevos, limpa-chaminés ou joaninhas, e a tradicional fundição de cera para prever o ano. Também são populares o brunch de Ano Novo e os passeios ao ar livre. Muitos fazem resoluções para o ano que começa.",
+          "funFacts": [
+            "Em Portugal e Espanha, come-se uma uva por cada uma das doze badaladas — um desejo por uva.",
+            "Na Dinamarca, partem-se louças velhas em frente à porta dos amigos para lhes dar sorte.",
+            "O Concerto de Ano Novo de Viena é transmitido em mais de 90 países — abertura musical do ano.",
+            "Na ilha pacífica de Kiribati, o Ano Novo chega 26 horas antes do que na ilha de Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "martin_luther_king_jr_day": {
+          "intro": "O Dia de Martin Luther King Jr., a terceira segunda-feira de janeiro, homenageia o ativista americano dos direitos civis. É um dos poucos feriados americanos dedicados a uma única pessoa.",
+          "history": "Martin Luther King Jr. nasceu a 15 de janeiro de 1929 e liderou o movimento afro-americano dos direitos civis a partir dos anos 50. Em 1963 fez o famoso discurso ‘I Have a Dream' na Marcha sobre Washington. Recebeu o Nobel da Paz em 1964 e foi assassinado em Memphis em 1968. Após 15 anos de pressão — incluindo a canção ‘Happy Birthday' (1980) de Stevie Wonder — Reagan assinou a lei do feriado em 1983. Desde 2000 é observado nos 50 estados.",
+          "traditions": "O lema do dia é ‘A Day On, Not a Day Off'. Em vez de um dia livre, apela ao voluntariado — sopas dos pobres, ajuda de vizinhança, parcerias escolares. Em Atlanta há um grande desfile e ofícios na antiga igreja de King. Nas escolas leem-se os seus discursos e exibem-se documentários sobre os direitos civis.",
+          "funFacts": [
+            "King foi o mais jovem laureado do Nobel da Paz à data da atribuição — com apenas 35 anos.",
+            "O famoso ‘I Have a Dream' estava planeado de outra forma — improvisou as frases icónicas a pedido da cantora Mahalia Jackson.",
+            "O êxito ‘Happy Birthday' (1980) de Stevie Wonder foi escrito para impulsionar o reconhecimento do MLK Day.",
+            "King era um excelente jogador de bilhar americano e um grande fã de Star Trek."
+          ],
+          "imageCredit": "Foto: Marion S. Trikosko · Public domain via Wikimedia Commons"
+        },
+        "presidents_day": {
+          "intro": "O Presidents' Day, na terceira segunda-feira de fevereiro, homenageia os presidentes dos EUA — originalmente o aniversário de George Washington.",
+          "history": "O 22 de fevereiro — aniversário de Washington — tornou-se feriado nacional em 1879. A ‘Uniform Monday Holiday Act' de 1968 deslocou vários feriados para uma segunda-feira para criar fins-de-semana longos. Desde então, o dia cai na terceira segunda-feira de fevereiro (entre o 15 e o 21 — nunca exatamente a 22). De forma informal, ‘Washington's Birthday' tornou-se ‘Presidents' Day' com o tempo, dado que o aniversário de Lincoln (12 de fevereiro) também é em fevereiro.",
+          "traditions": "As escolas organizam projetos sobre presidentes, e os museus oferecem entrada gratuita em exposições de história política. Em Mount Vernon, propriedade de Washington, deposita-se uma coroa cerimonial. O dia é também famoso pelas grandes promoções — ‘Presidents' Day Sales' com descontos em mobiliário, colchões e automóveis.",
+          "funFacts": [
+            "Oficialmente, a lei federal continua a chamar ao feriado ‘Washington's Birthday' — a renomeação popular não é oficial.",
+            "Os saldos são tão grandes que muitos americanos associam o dia mais a compras do que a política.",
+            "George Washington foi o único presidente que nunca viveu em Washington D.C. enquanto presidente — a cidade só foi concluída após a sua morte.",
+            "O cão favorito de Washington chamava-se ‘Sweetlips' — anedota muito repetida nas escolas."
+          ],
+          "imageCredit": "Foto: Gilbert Stuart · Public domain via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "A Sexta-Feira Santa é o dia de maior luto do cristianismo e comemora a crucificação de Jesus Cristo. Em Portugal é feriado nacional, com forte tradição religiosa.",
+          "history": "A Sexta-Feira Santa é celebrada pelos cristãos desde o século IV. O prefixo alemão ‘Kar' vem do alto alemão antigo ‘chara' (lamento, luto). Cedo se desenvolveram tradições litúrgicas: leitura da Paixão, veneração da cruz e silêncio dos sinos. A Reforma deu-lhe especial relevância. Em Portugal, a tradição das procissões da Paixão é antiga e muito viva, especialmente em Braga, Óbidos e na ilha da Madeira.",
+          "traditions": "Muitos cristãos assistem a celebrações da Paixão. É tradicionalmente dia de jejum — come-se peixe (em Portugal, o típico bacalhau) em vez de carne. Em Braga e Óbidos, as procissões da Paixão são impressionantes — em Braga a ‘Procissão do Senhor Ecce Homo' é uma das maiores. Em Espanha, destacam-se as procissões das confrarias, sobretudo em Sevilha.",
+          "funFacts": [
+            "Em Braga (Portugal) a ‘Procissão do Senhor Ecce Homo' é uma das mais impressionantes da Europa.",
+            "Bach compôs a sua Paixão segundo São Mateus em 1727 para as Vésperas da Sexta-Feira Santa em Leipzig.",
+            "Nas Bermudas, as famílias fazem voar papagaios de bambu e papel feitos em casa — uma tradição cristã única.",
+            "Em Espanha, ‘Viernes Santo' destaca-se pelas magníficas procissões das confrarias, sobretudo em Sevilha."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "memorial_day": {
+          "intro": "O Memorial Day, na última segunda-feira de maio, é o dia de evocação americano dos soldados tombados. Marca o início não oficial do verão nos EUA.",
+          "history": "O dia nasceu após a Guerra Civil americana (1861–1865), na qual morreram mais de 600.000 soldados. Em maio de 1868, o general John A. Logan instituiu um ‘Decoration Day' para enfeitar os túmulos dos tombados com flores. O costume difundiu-se após as duas guerras mundiais e hoje evoca todos os soldados americanos tombados. Em 1971 foi oficialmente passado para a última segunda-feira de maio para criar fim-de-semana prolongado.",
+          "traditions": "No Cemitério Nacional de Arlington o Presidente deposita uma coroa no Túmulo do Soldado Desconhecido. As famílias visitam túmulos, decorando-os com bandeiras e flores. Às 15h00 hora local, observa-se o ‘National Moment of Remembrance' — minuto de silêncio nacional. Há também desfiles tradicionais, churrascos e a corrida Indianapolis 500.",
+          "funFacts": [
+            "Em Arlington descansam mais de 400.000 tombados.",
+            "A papoila vermelha tornou-se símbolo da memória após a I Guerra Mundial — inspirada no poema ‘In Flanders Fields'.",
+            "A Indy 500 corre-se no fim-de-semana do Memorial Day desde 1911 — um dos maiores eventos desportivos dos EUA.",
+            "Antes de 1971, o feriado chamava-se ‘Decoration Day' — termo ainda vivo em alguns estados do Sul."
+          ],
+          "imageCredit": "Foto: Arlington National Cemetery · Public domain via Wikimedia Commons"
+        },
+        "independence_day": {
+          "intro": "O Dia da Independência americano, 4 de julho — ‘Fourth of July' — celebra a Declaração de Independência dos Estados Unidos da Grã-Bretanha em 1776.",
+          "history": "A 4 de julho de 1776, o Segundo Congresso Continental, em Filadélfia, aprovou a Declaração de Independência, redigida principalmente por Thomas Jefferson. O órgão tinha votado a separação dois dias antes (2 de julho); John Adams julgava por isso que se celebraria o dia 2. Só em 1870 o Independence Day se tornou feriado oficial e em 1938 dia pago. A guerra contra a Grã-Bretanha durou até 1783; a independência só foi reconhecida no Tratado de Paris.",
+          "traditions": "É provavelmente o feriado mais colorido dos EUA: enormes fogos de artifício (os maiores patrocinados pela Macy's sobre o East River em Nova Iorque), desfiles com bandas, concursos de comer cachorros-quentes em Coney Island, churrascos nos quintais, jogos de basebol e hino nacional. O Capitólio brilha em vermelho, branco e azul.",
+          "funFacts": [
+            "O concurso de cachorros-quentes da Nathan's Famous em Coney Island realiza-se a cada 4 de julho desde 1916 — recorde: 76 cachorros em 10 minutos (Joey Chestnut, 2021).",
+            "John Adams e Thomas Jefferson — ambos antigos presidentes — morreram a 4 de julho de 1826, exatamente 50 anos após a assinatura.",
+            "O Sino da Liberdade na Filadélfia é simbolicamente batido (suavemente: está rachado) 13 vezes — uma por colónia fundadora.",
+            "O espetáculo da Macy's em Nova Iorque dura cerca de 25 minutos e dispara mais de 75.000 efeitos pirotécnicos."
+          ],
+          "imageCredit": "Foto: Seattle Cracker & Candy Company · Public domain via Wikimedia Commons"
+        },
+        "labour_day_us": {
+          "intro": "O Labor Day americano, na primeira segunda-feira de setembro, homenageia os trabalhadores. Marca o final não oficial do verão.",
+          "history": "O Labor Day foi introduzido em 1882 pela Central Labor Union de Nova Iorque — como alternativa ao 1.º de Maio, considerado demasiado socialista nos EUA. Em 1894, após as sangrentas greves Pullman, o presidente Cleveland declarou-o feriado federal para apaziguar o movimento operário. Ironicamente, a maioria dos países celebra o 1.º de Maio, que recorda a Haymarket de Chicago em 1886 — evento americano do qual os EUA quiseram distanciar-se.",
+          "traditions": "O dia abre o ‘Labor Day Weekend' prolongado — com churrascos, praia e a última grande viagem de verão. Regra de estilo: depois do Labor Day, tradicionalmente não se usa branco nos EUA. É também o pontapé de saída da NFL e um dos maiores dias de promoções do ano. Algumas cidades ainda fazem desfiles sindicais.",
+          "funFacts": [
+            "A regra ‘nada de branco depois do Labor Day' surgiu na alta sociedade nova-iorquina do final do século XIX — hoje mais piada do que regra.",
+            "O Labor Day americano foi propositadamente colocado em setembro para se distanciar do 1.º de Maio do movimento operário.",
+            "A NFL começa a sua época, desde 1934, na semana após o Labor Day.",
+            "Pullman, que provocou a greve ferroviária de 1894, comandava um império de carruagens-cama de luxo — uma cidade industrial com correios e polícia próprios."
+          ],
+          "imageCredit": "Foto: Bain News Service photograph · Public domain via Wikimedia Commons"
+        },
+        "thanksgiving_day": {
+          "intro": "O Thanksgiving, na quarta quinta-feira de novembro, é o feriado familiar mais importante dos EUA — um banquete de peru e ação de graças com mais de 400 anos de história.",
+          "history": "O primeiro ‘Thanksgiving' foi celebrado em 1621 pelos Pais Peregrinos ingleses juntamente com os Wampanoag em Plymouth (Massachusetts), depois de os nativos terem ensinado aos colonos a agricultura local. Durante mais de dois séculos foi festa local. Em 1863, em plena Guerra Civil, o presidente Lincoln declarou o Thanksgiving feriado nacional — sinal de esperança. Roosevelt fixou em 1941, por lei federal, a quarta quinta-feira de novembro.",
+          "traditions": "A família reúne-se à volta de uma mesa festiva com peru, tarte de abóbora, molho de arando, gratinado de batata-doce e stuffing (recheio de pão). Antes da refeição cada um diz por que está grato. Em Nova Iorque acontece o famoso desfile da Macy's com balões gigantes; na TV, jogos de futebol americano e o presidente ‘perdoa' um peru.",
+          "funFacts": [
+            "Mais de 46 milhões de perus são consumidos a cada Thanksgiving nos EUA.",
+            "A tradição do ‘Turkey Pardon' foi oficialmente instituída por George H.W. Bush em 1989.",
+            "O desfile da Macy's existe desde 1924 e atrai cerca de 3,5 milhões de espectadores ao vivo em Nova Iorque todos os anos.",
+            "‘Black Friday', no dia seguinte ao Thanksgiving, foi originalmente o dia em que o comércio passava ‘aos números pretos'."
+          ],
+          "imageCredit": "Foto: Mark Miller · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
+          "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
+          "traditions": "As famílias reúnem-se em refeições festivas — peru, ganso, bacalhau ou raclette nos países germânicos; em Portugal, o típico almoço de Natal com peru ou cabrito assado, e as sobremesas de bolo-rei, sonhos, rabanadas, aletria e arroz-doce. Trocam-se presentes, cantam-se cânticos, muitos vão à missa festiva. A árvore decorada e o presépio são símbolos centrais.",
+          "funFacts": [
+            "O primeiro calendário do Advento comercial apareceu em 1908 em Munique — invenção de Gerhard Lang.",
+            "Os mercados de Natal de Dresden (‘Striezelmarkt', desde 1434) e Frankfurt (desde 1393) estão entre os mais antigos do mundo.",
+            "A Noruega oferece ao Reino Unido um enorme abeto para Trafalgar Square todos os anos desde 1947 — em agradecimento pela ajuda na II Guerra.",
+            "Em Portugal, a tradição do bolo-rei remonta ao século XIX, importado da pastelaria francesa."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "new_year": {
+          "intro": "Il 1° gennaio segna l'inizio di un nuovo anno nel calendario gregoriano in tutto il mondo. Per molti è un giorno di speranza, di nuovi inizi e di buoni propositi.",
+          "history": "Già nel 153 a.C. i Romani fissarono l'inizio dell'anno al 1° gennaio, giorno dell'insediamento dei nuovi consoli. Nel Medioevo l'inizio dell'anno si spostò in molte regioni a Natale o Pasqua. Solo con la riforma del calendario di papa Gregorio XIII nel 1582 il 1° gennaio tornò ad imporsi come standard europeo. Il nome ‘gennaio' deriva dal dio romano Giano, che con due volti guardava contemporaneamente al passato e al futuro.",
+          "traditions": "A mezzanotte famiglie e amici brindano con spumante e festeggiano con fuochi d'artificio, portafortuna come quadrifogli, spazzacamini o coccinelle e la tradizionale colata di piombo (oggi di cera). Sono diffusi anche il brunch di Capodanno e la passeggiata all'aria aperta. Molti formulano buoni propositi per l'anno che inizia.",
+          "funFacts": [
+            "In Spagna si mangia un chicco d'uva a ogni rintocco delle dodici campane — un desiderio per chicco.",
+            "In Danimarca si rompono stoviglie davanti alle porte degli amici per portare loro fortuna.",
+            "Il Concerto di Capodanno di Vienna è trasmesso in oltre 90 paesi — apertura musicale dell'anno.",
+            "Sull'isola pacifica di Kiribati il Capodanno arriva 26 ore prima rispetto all'isola Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "martin_luther_king_jr_day": {
+          "intro": "Il Martin Luther King Jr. Day, il terzo lunedì di gennaio, onora il leader statunitense dei diritti civili. È uno dei pochi festivi USA dedicati a un singolo individuo.",
+          "history": "Martin Luther King Jr. nacque il 15 gennaio 1929 e guidò dagli anni '50 il movimento afroamericano dei diritti civili. Nel 1963 pronunciò il celebre discorso ‘I Have a Dream' alla Marcia su Washington. Premio Nobel per la Pace nel 1964, fu assassinato a Memphis nel 1968. Dopo 15 anni di pressioni — incluso il pezzo ‘Happy Birthday' (1980) di Stevie Wonder — Reagan firmò la legge sul festivo nel 1983. Dal 2000 è osservato in tutti i 50 stati.",
+          "traditions": "Il motto è ‘A Day On, Not a Day Off'. Più che un giorno di riposo, invita al volontariato — mense per i poveri, aiuto vicinato, gemellaggi scolastici. Ad Atlanta grande parata e funzioni nella vecchia chiesa di King. Nelle scuole si leggono i suoi discorsi e si proiettano documentari sui diritti civili.",
+          "funFacts": [
+            "King fu il più giovane Nobel per la Pace al momento del conferimento — solo 35 anni.",
+            "Il celebre ‘I Have a Dream' era originariamente diverso — improvvisò le frasi iconiche dopo il grido di Mahalia Jackson.",
+            "‘Happy Birthday' (1980) di Stevie Wonder fu scritto per spingere al riconoscimento del MLK Day.",
+            "King era un ottimo giocatore di biliardo americano e un appassionato fan di Star Trek."
+          ],
+          "imageCredit": "Foto: Marion S. Trikosko · Public domain via Wikimedia Commons"
+        },
+        "presidents_day": {
+          "intro": "Il Presidents' Day, il terzo lunedì di febbraio, onora i presidenti degli Stati Uniti — originariamente specificamente il compleanno di George Washington.",
+          "history": "Il 22 febbraio — compleanno di Washington — divenne festa nazionale nel 1879. La ‘Uniform Monday Holiday Act' del 1968 spostò vari festivi al lunedì per creare ponti lunghi. Da allora cade il terzo lunedì di febbraio (tra il 15 e il 21 — mai esattamente il 22). Informalmente ‘Washington's Birthday' divenne ‘Presidents' Day' col tempo, dato che anche il compleanno di Lincoln (12 febbraio) cade in febbraio.",
+          "traditions": "Le scuole organizzano progetti sui presidenti, i musei offrono ingresso gratuito a mostre di storia politica. A Mount Vernon, tenuta di Washington, si depone una corona cerimoniale. Il giorno è famoso anche per i grandi sconti — ‘Presidents' Day Sales' su mobili, materassi e auto.",
+          "funFacts": [
+            "Ufficialmente la legge federale chiama ancora il festivo ‘Washington's Birthday' — il rinominarlo è popolare ma non ufficiale.",
+            "Le offerte sono così grandi che molti americani associano il giorno più allo shopping che alla politica.",
+            "George Washington fu l'unico presidente che non visse mai a Washington D.C. da presidente — la città fu completata solo dopo la sua morte.",
+            "Il cane preferito di Washington si chiamava ‘Sweetlips' — aneddoto molto citato a scuola."
+          ],
+          "imageCredit": "Foto: Gilbert Stuart · Public domain via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Il Venerdì Santo è il giorno di lutto più importante per i protestanti e ricorda la crocifissione di Gesù Cristo. In Germania è ‘giorno silenzioso' con norme particolari.",
+          "history": "Il Venerdì Santo è celebrato dai cristiani dal IV secolo. Il prefisso tedesco ‘Kar' deriva dall'antico alto tedesco ‘chara' (lamento, lutto). Presto si svilupparono tradizioni liturgiche: lettura della Passione, venerazione della croce, silenzio delle campane. La Riforma gli diede particolare risalto; nelle regioni luterane resta la festa più importante dell'anno liturgico.",
+          "traditions": "Molti cristiani partecipano alla Liturgia della Passione. Tradizionalmente è giorno di digiuno — si mangia pesce invece di carne. In Italia, soprattutto al Sud, ci sono solenni processioni con statue del Cristo morto, come la celebre ‘Processione dei Misteri' a Trapani. In Spagna spiccano le processioni delle confraternite, soprattutto a Siviglia.",
+          "funFacts": [
+            "In Germania il ‘Tanzverbot' (divieto di ballare) regola gli intrattenimenti pubblici — tema sociale ricorrente.",
+            "Bach compose la ‘Passione secondo Matteo' nel 1727 per i vespri del Venerdì Santo a Lipsia.",
+            "Alle Bermuda le famiglie fanno volare aquiloni di bambù e carta — tradizione cristiana unica.",
+            "In Spagna il ‘Viernes Santo' è famoso per le maestose processioni delle confraternite, in particolare a Siviglia."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "memorial_day": {
+          "intro": "Il Memorial Day, ultimo lunedì di maggio, è il giorno commemorativo statunitense per i soldati caduti. Segna anche l'inizio non ufficiale dell'estate negli USA.",
+          "history": "La festa nasce dopo la guerra civile americana (1861–1865), in cui morirono oltre 600.000 soldati. Nel maggio del 1868 il generale John A. Logan istituì un ‘Decoration Day' per ornare con fiori le tombe dei caduti. La consuetudine si estese dopo le due guerre mondiali e oggi commemora tutti i soldati americani caduti. Nel 1971 fu spostato ufficialmente all'ultimo lunedì di maggio per creare un weekend lungo.",
+          "traditions": "Al cimitero nazionale di Arlington il presidente depone una corona alla Tomba del Milite Ignoto. Le famiglie visitano le tombe e le adornano di bandiere e fiori. Alle 15:00 ora locale si osserva il ‘National Moment of Remembrance' — minuto di silenzio nazionale. Ci sono parate, grigliate e la corsa Indianapolis 500.",
+          "funFacts": [
+            "Ad Arlington riposano oltre 400.000 caduti.",
+            "Il papavero rosso divenne simbolo del ricordo dopo la Prima Guerra Mondiale — ispirato dalla poesia ‘In Flanders Fields'.",
+            "L'Indy 500 si corre nel weekend del Memorial Day dal 1911 — uno dei più grandi eventi sportivi degli USA.",
+            "Prima del 1971 il festivo si chiamava ‘Decoration Day' — termine ancora vivo in alcuni stati del Sud."
+          ],
+          "imageCredit": "Foto: Arlington National Cemetery · Public domain via Wikimedia Commons"
+        },
+        "independence_day": {
+          "intro": "Il Giorno dell'Indipendenza statunitense del 4 luglio — ‘Fourth of July' — celebra la Dichiarazione di Indipendenza degli Stati Uniti dalla Gran Bretagna nel 1776.",
+          "history": "Il 4 luglio 1776 il Secondo Congresso Continentale, a Filadelfia, approvò la Dichiarazione di Indipendenza, redatta principalmente da Thomas Jefferson. L'organo aveva votato la separazione due giorni prima (2 luglio); John Adams credeva quindi che si sarebbe celebrato il 2. Solo nel 1870 divenne festivo ufficiale, nel 1938 giorno pagato. La guerra contro la Gran Bretagna durò fino al 1783; l'indipendenza fu riconosciuta col Trattato di Parigi.",
+          "traditions": "È probabilmente il festivo americano più colorato: enormi fuochi d'artificio (i più grandi sponsorizzati da Macy's sopra l'East River di New York), parate con marching band, gare di hot dog a Coney Island, grigliate nei cortili, partite di baseball e inno nazionale. Il Campidoglio si illumina di rosso, bianco e blu.",
+          "funFacts": [
+            "La gara di hot dog di Nathan's Famous a Coney Island si tiene ogni 4 luglio dal 1916 — record: 76 hot dog in 10 minuti (Joey Chestnut, 2021).",
+            "John Adams e Thomas Jefferson — entrambi ex presidenti — morirono entrambi il 4 luglio 1826, esattamente 50 anni dopo la firma.",
+            "La Liberty Bell di Filadelfia è simbolicamente battuta (delicatamente: è incrinata) 13 volte — una per ogni colonia fondatrice.",
+            "Lo spettacolo pirotecnico Macy's a New York dura circa 25 minuti e spara oltre 75.000 effetti pirotecnici."
+          ],
+          "imageCredit": "Foto: Seattle Cracker & Candy Company · Public domain via Wikimedia Commons"
+        },
+        "labour_day_us": {
+          "intro": "Il Labor Day americano, primo lunedì di settembre, onora i lavoratori. Segna la fine non ufficiale dell'estate.",
+          "history": "Il Labor Day fu introdotto nel 1882 dalla Central Labor Union di New York — come alternativa al 1° maggio, ritenuto troppo socialista per gli USA. Nel 1894, dopo i sanguinosi scioperi Pullman, il presidente Cleveland lo proclamò festivo federale per placare il movimento operaio. Ironicamente, la maggior parte dei paesi celebra il 1° maggio, che ricorda la Haymarket affair di Chicago del 1886 — un evento USA da cui l'America volle prendere le distanze.",
+          "traditions": "Il giorno apre il ‘Labor Day Weekend' — barbecue, spiagge e l'ultimo grande viaggio estivo in auto. Regola di stile: dopo Labor Day, tradizionalmente non si indossa più il bianco negli USA. È anche il calcio d'inizio della stagione NFL e uno dei maggiori giorni di sconti dell'anno. Alcune città organizzano ancora parate sindacali.",
+          "funFacts": [
+            "La regola ‘niente bianco dopo Labor Day' nacque nell'alta società newyorkese di fine Ottocento — oggi più scherzo che regola.",
+            "Il Labor Day fu volutamente posto a settembre per distanziarsi dal 1° maggio del movimento operaio.",
+            "Dal 1934 la NFL inizia tradizionalmente la stagione la settimana dopo il Labor Day.",
+            "Pullman, che provocò lo sciopero ferroviario del 1894, gestiva un impero di vagoni letto di lusso — una città industriale con poste e polizia proprie."
+          ],
+          "imageCredit": "Foto: Bain News Service photograph · Public domain via Wikimedia Commons"
+        },
+        "thanksgiving_day": {
+          "intro": "Il Thanksgiving, il quarto giovedì di novembre, è la festa familiare più importante degli Stati Uniti — un banchetto di tacchino e ringraziamento con oltre 400 anni di storia.",
+          "history": "Il primo ‘Thanksgiving' fu nel 1621: i Padri Pellegrini inglesi lo celebrarono con i Wampanoag a Plymouth (Massachusetts), dopo che i nativi avevano insegnato loro a coltivare la terra. Per oltre due secoli rimase festa locale. Nel 1863, in piena guerra civile, Lincoln la dichiarò festa nazionale come segno di speranza. Roosevelt fissò nel 1941 il quarto giovedì di novembre per legge federale.",
+          "traditions": "La famiglia si riunisce attorno a una tavola festiva con tacchino, torta di zucca, salsa di mirtilli, gratin di patate dolci e stuffing (ripieno di pane). Prima del pasto ognuno dice di cosa è grato. A New York la celebre parata di Macy's con palloni giganti; in TV partite di football americano e il presidente ‘grazia' un tacchino.",
+          "funFacts": [
+            "Oltre 46 milioni di tacchini sono consumati ogni Thanksgiving negli USA.",
+            "La tradizione del ‘Turkey Pardon' fu istituzionalizzata da George H.W. Bush nel 1989.",
+            "La parata di Macy's esiste dal 1924 e attira circa 3,5 milioni di spettatori dal vivo a New York ogni anno.",
+            "‘Black Friday' indicava originariamente il giorno in cui il commercio passava ‘in attivo'."
+          ],
+          "imageCredit": "Foto: Mark Miller · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
+          "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
+          "traditions": "Le famiglie si riuniscono per pasti festosi — tacchino, oca, carpa o raclette al nord; pranzo natalizio con tortellini in brodo, lasagne, capponi e panettone in Italia. Si scambiano regali, si cantano canti natalizi, molti partecipano alla messa festiva. L'albero decorato e il presepe sono i simboli centrali. Calendario dell'Avvento, biscotti e mercatini scandiscono la preparazione.",
+          "funFacts": [
+            "Il primo calendario dell'Avvento commerciale apparve nel 1908 a Monaco — invenzione di Gerhard Lang.",
+            "I mercatini di Natale di Dresda (‘Striezelmarkt', dal 1434) e Francoforte (dal 1393) sono tra i più antichi al mondo.",
+            "La Norvegia regala al Regno Unito un enorme albero di Natale per Trafalgar Square ogni anno dal 1947 — come ringraziamento per l'aiuto nella Seconda Guerra Mondiale.",
+            "Il panettone milanese e il pandoro veronese sono i due dolci natalizi italiani per eccellenza."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "new_year": {
+          "intro": "1 stycznia oznacza początek nowego roku w kalendarzu gregoriańskim na całym świecie. Dla wielu jest to dzień nadziei, nowych początków i postanowień.",
+          "history": "Już w 153 r. p.n.e. Rzymianie ustalili początek roku na 1 stycznia, dzień objęcia urzędu nowych konsulów. W średniowieczu początek roku w wielu regionach przesunięto na Boże Narodzenie lub Wielkanoc. Dopiero reforma kalendarza papieża Grzegorza XIII w 1582 roku przywróciła 1 stycznia jako europejski standard. Nazwa miesiąca pochodzi od rzymskiego boga Janusa, który dwiema twarzami spoglądał jednocześnie w przeszłość i przyszłość.",
+          "traditions": "O północy rodziny i przyjaciele wznoszą toast szampanem i świętują przejście do nowego roku fajerwerkami, talizmanami szczęścia (czterolistna koniczyna, kominiarz, biedronka) oraz tradycyjnym lanym ołowiem (dziś woskiem). Popularne są noworoczne brunche i spacery. Wielu składa noworoczne postanowienia.",
+          "funFacts": [
+            "W Hiszpanii zjada się winogronko z każdym z dwunastu uderzeń zegara — życzenie na każde winogronko.",
+            "W Danii rozbija się stare naczynia przed drzwiami przyjaciół, aby przyniosło im to szczęście.",
+            "Wiedeński Koncert Noworoczny transmitowany jest w ponad 90 krajach — muzyczne otwarcie roku.",
+            "Na Pacyficznej wyspie Kiribati Nowy Rok zaczyna się 26 godzin wcześniej niż na wyspie Howland."
+          ],
+          "imageCredit": "Zdjęcie: Vyacheslav Argenberg · CC BY 4.0 przez Wikimedia Commons"
+        },
+        "martin_luther_king_jr_day": {
+          "intro": "Dzień Martina Luthera Kinga Jr., trzeci poniedziałek stycznia, czci amerykańskiego działacza praw obywatelskich. To jedno z nielicznych świąt USA dedykowanych pojedynczej osobie.",
+          "history": "Martin Luther King Jr. urodził się 15 stycznia 1929 roku i od lat 50. kierował afroamerykańskim ruchem praw obywatelskich. W 1963 roku wygłosił słynne przemówienie ‘I Have a Dream' podczas Marszu na Waszyngton. Otrzymał Pokojową Nagrodę Nobla w 1964 roku, a w 1968 został zamordowany w Memphis. Po 15 latach lobbowania — m.in. piosenką Stevie Wondera ‘Happy Birthday' (1980) — Reagan podpisał ustawę o święcie narodowym w 1983 roku.",
+          "traditions": "Dzień przebiega pod hasłem ‘A Day On, Not a Day Off'. Zamiast wolnego, ma zachęcać do wolontariatu — kuchnie dla ubogich, sąsiedzka pomoc, partnerstwa szkolne. W Atlancie odbywa się duża parada i nabożeństwa w dawnym kościele Kinga. W szkołach czyta się przemowy Kinga i pokazuje filmy o ruchach obywatelskich.",
+          "funFacts": [
+            "King był najmłodszym laureatem Pokojowej Nagrody Nobla w momencie jej przyznania — miał zaledwie 35 lat.",
+            "Słynne ‘I Have a Dream' miało być pierwotnie inne — słynne zdania King zaimprowizował na zawołanie Mahalii Jackson.",
+            "Hit ‘Happy Birthday' Stevie Wondera (1980) napisany był specjalnie po to, by przeforsować ustanowienie MLK Day świętem.",
+            "King był utalentowanym graczem w bilarda i namiętnym fanem Star Trek."
+          ],
+          "imageCredit": "Zdjęcie: Marion S. Trikosko · Public domain przez Wikimedia Commons"
+        },
+        "presidents_day": {
+          "intro": "Presidents' Day, trzeci poniedziałek lutego, oddaje hołd prezydentom USA — pierwotnie konkretnie urodzinom George'a Washingtona.",
+          "history": "22 lutego — urodziny Washingtona — stał się świętem narodowym w 1879 roku. ‘Uniform Monday Holiday Act' z 1968 roku przesunął kilka świąt na poniedziałek, by stworzyć długie weekendy. Od tego czasu dzień przypada na trzeci poniedziałek lutego (między 15. a 21. — nigdy dokładnie 22.). Nieoficjalnie ‘Washington's Birthday' z czasem stał się ‘Presidents' Day', bo również urodziny Lincolna (12 lutego) wypadają w lutym.",
+          "traditions": "Szkoły organizują projekty o prezydentach, muzea oferują darmowy wstęp na wystawy historii politycznej. W Mount Vernon, posiadłości Washingtona, odbywa się uroczyste złożenie wieńca. Dzień jest też znany jako wielki dzień wyprzedaży — ‘Presidents' Day Sales' z rabatami na meble, materace i samochody.",
+          "funFacts": [
+            "Oficjalnie w prawie federalnym święto wciąż nazywa się ‘Washington's Birthday' — popularna zmiana nazwy nie jest oficjalna.",
+            "Wyprzedaże są tak duże, że wielu Amerykanów kojarzy dzień bardziej z zakupami niż polityką.",
+            "George Washington był jedynym prezydentem, który nigdy nie mieszkał w Waszyngtonie jako prezydent — miasto wybudowano dopiero po jego śmierci.",
+            "Ulubiony pies Washingtona nazywał się ‘Sweetlips' — anegdota chętnie powtarzana w szkołach."
+          ],
+          "imageCredit": "Zdjęcie: Gilbert Stuart · Public domain przez Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Wielki Piątek to dzień największej żałoby w protestantyzmie i upamiętnia ukrzyżowanie Jezusa Chrystusa. W Polsce nie jest dniem wolnym, ale ma głęboki wymiar religijny.",
+          "history": "Wielki Piątek obchodzony jest przez chrześcijan od IV wieku. Wcześnie rozwinęły się tradycje liturgiczne: czytanie Pasji, adoracja krzyża, milczenie dzwonów. Reformacja nadała mu szczególne znaczenie; w regionach luterańskich pozostaje najważniejszym dniem roku liturgicznego. W Polsce katolickie tradycje obejmują Drogę Krzyżową, adorację krzyża i święcenie pokarmów w Wielką Sobotę.",
+          "traditions": "Wierni uczestniczą w Liturgii Męki Pańskiej, adorują krzyż i odprawiają Drogę Krzyżową — w Polsce słynne są kalwarie (Kalwaria Zebrzydowska, Wejherowska). Tradycyjnie jest to dzień postu — je się ryby zamiast mięsa. W niektórych regionach Niemiec organizowane są procesje pasyjne, a w Hiszpanii słynne procesje bractw, np. w Sewilli.",
+          "funFacts": [
+            "W Niemczech ‘Tanzverbot' (zakaz tańczenia) reguluje publiczne rozrywki w Wielki Piątek — tematyka regularnie wraca w debacie publicznej.",
+            "Bach skomponował Pasję według św. Mateusza w 1727 roku na nieszpory wielkopiątkowe w Lipsku.",
+            "Na Bermudach rodziny puszczają w Wielki Piątek samodzielnie zrobione latawce z bambusa i papieru — unikalna chrześcijańska tradycja.",
+            "W Polsce Misterium Męki Pańskiej w Kalwarii Zebrzydowskiej wpisane jest na listę UNESCO."
+          ],
+          "imageCredit": "Zdjęcie: Pietro Perugino · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "memorial_day": {
+          "intro": "Memorial Day, ostatni poniedziałek maja, to amerykański dzień pamięci o poległych żołnierzach. Uważany jest za nieoficjalny początek lata w USA.",
+          "history": "Dzień powstał po amerykańskiej wojnie domowej (1861–1865), w której zginęło ponad 600 000 żołnierzy. W maju 1868 roku generał John A. Logan zarządził ‘Decoration Day', podczas którego groby poległych miały być zdobione kwiatami. Zwyczaj rozprzestrzenił się po obu wojnach światowych i dziś upamiętnia wszystkich amerykańskich żołnierzy poległych w wojnach. W 1971 roku przeniesiono go na ostatni poniedziałek maja, by stworzyć długi weekend.",
+          "traditions": "Na Cmentarzu Narodowym w Arlington prezydent składa wieniec na Grobie Nieznanego Żołnierza. Rodziny odwiedzają groby, zdobiąc je flagami i kwiatami. O 15:00 czasu lokalnego obchodzony jest ‘National Moment of Remembrance' — minuta ciszy w całym kraju. Odbywają się też tradycyjne parady, grille i wyścig Indianapolis 500.",
+          "funFacts": [
+            "Na Cmentarzu Narodowym w Arlington spoczywa ponad 400 000 poległych.",
+            "Czerwony mak stał się symbolem pamięci po I wojnie światowej — zainspirowany wierszem ‘In Flanders Fields'.",
+            "Indy 500 odbywa się tradycyjnie w weekend Memorial Day od 1911 roku — to jeden z największych wydarzeń sportowych w USA.",
+            "Przed 1971 rokiem święto nazywało się ‘Decoration Day' — termin do dziś używany w niektórych stanach Południa."
+          ],
+          "imageCredit": "Zdjęcie: Arlington National Cemetery · Public domain przez Wikimedia Commons"
+        },
+        "independence_day": {
+          "intro": "Amerykański Dzień Niepodległości 4 lipca — ‘Fourth of July' — świętuje Deklarację Niepodległości USA od Wielkiej Brytanii w 1776 roku.",
+          "history": "4 lipca 1776 roku Drugi Kongres Kontynentalny w Filadelfii uchwalił Deklarację Niepodległości, której głównym autorem był Thomas Jefferson. Faktycznie głosowanie nad rozdzieleniem miało miejsce dwa dni wcześniej (2 lipca) — John Adams sądził więc, że to 2 lipca będzie obchodzony. Dopiero w 1870 roku Independence Day został oficjalnym świętem, a w 1938 dniem płatnym. Wojna z Wielką Brytanią trwała aż do 1783; niepodległość uznano dopiero w pokoju paryskim.",
+          "traditions": "To prawdopodobnie najbardziej kolorowe święto USA: ogromne fajerwerki (największe sponsorowane przez Macy's nad East River w Nowym Jorku), parady z orkiestrami, konkursy w jedzeniu hot dogów na Coney Island, grille w ogrodach, mecze baseballa i hymn narodowy. Capitol świeci się na czerwono, biało i niebiesko.",
+          "funFacts": [
+            "Konkurs hot dogów Nathan's Famous na Coney Island odbywa się co 4 lipca od 1916 roku — rekord: 76 hot dogów w 10 minut (Joey Chestnut, 2021).",
+            "John Adams i Thomas Jefferson — obaj byli prezydenci — zmarli 4 lipca 1826 roku, dokładnie 50 lat po podpisaniu Deklaracji.",
+            "Dzwon Wolności w Filadelfii uderza się symbolicznie (delikatnie: jest pęknięty) 13 razy — raz na każdą kolonię założycielską.",
+            "Pokaz fajerwerków Macy's w Nowym Jorku trwa około 25 minut i odpala ponad 75 000 efektów pirotechnicznych."
+          ],
+          "imageCredit": "Zdjęcie: Seattle Cracker & Candy Company · Public domain przez Wikimedia Commons"
+        },
+        "labour_day_us": {
+          "intro": "Amerykański Labor Day, pierwszy poniedziałek września, oddaje hołd pracownikom. To też nieoficjalny koniec lata.",
+          "history": "Labor Day wprowadzony został w 1882 roku przez Central Labor Union w Nowym Jorku — jako alternatywa dla 1 maja, który wydawał się Amerykanom zbyt socjalistyczny. W 1894 roku, po krwawych strajkach Pullmanowskich, prezydent Cleveland ogłosił go świętem federalnym, by uspokoić ruch robotniczy. Ironicznie, większość krajów obchodzi 1 maja, który upamiętnia Haymarket affair w Chicago z 1886 roku — wydarzenie amerykańskie, od którego USA chciały się zdystansować.",
+          "traditions": "Dzień otwiera długi ‘Labor Day Weekend' — z grillem, plażą i ostatnią wielką letnią podróżą. Zasada stylu: po Labor Day tradycyjnie nie nosi się już bieli w USA. To także otwarcie sezonu NFL i jeden z największych dni wyprzedaży w roku. W niektórych miastach wciąż odbywają się parady związkowe.",
+          "funFacts": [
+            "Zasada ‘nie biel po Labor Day' powstała w nowojorskim wyższym towarzystwie końca XIX wieku — dziś bardziej żart niż reguła.",
+            "Amerykański Labor Day świadomie umieszczono we wrześniu, by zdystansować się od 1 maja ruchu robotniczego.",
+            "NFL od 1934 roku tradycyjnie zaczyna sezon w tygodniu po Labor Day.",
+            "Pullman, który spowodował strajk kolejowy 1894, prowadził luksusowe imperium wagonów sypialnianych — całe miasto przemysłowe z własną pocztą i policją."
+          ],
+          "imageCredit": "Zdjęcie: Bain News Service photograph · Public domain przez Wikimedia Commons"
+        },
+        "thanksgiving_day": {
+          "intro": "Thanksgiving, czwarty czwartek listopada, to najważniejsze święto rodzinne USA — uczta indyka i dziękczynienia z ponad 400-letnią historią.",
+          "history": "Pierwszy ‘Thanksgiving' obchodzono w 1621 roku przez angielskich Pielgrzymów wraz z plemieniem Wampanoag w Plymouth (Massachusetts), po tym jak rdzenni mieszkańcy nauczyli osadników uprawy lokalnej ziemi. Przez ponad dwa stulecia było to święto regionalne. W 1863 roku, w środku wojny secesyjnej, prezydent Lincoln ogłosił Thanksgiving świętem narodowym — znakiem nadziei. Roosevelt ustalił w 1941 roku czwarty czwartek listopada ustawą federalną.",
+          "traditions": "Rodzina zbiera się przy uroczyście nakrytym stole z indykiem, ciastem dyniowym, sosem żurawinowym, zapiekanką ze słodkich ziemniaków i nadzieniem chlebowym (stuffing). Przed posiłkiem każdy mówi, za co jest wdzięczny. W Nowym Jorku odbywa się słynna parada Macy's z gigantycznymi balonami, w TV mecze futbolu amerykańskiego, a prezydent ‘ułaskawia' indyka.",
+          "funFacts": [
+            "Ponad 46 milionów indyków jest spożywanych corocznie na Thanksgiving w USA.",
+            "Tradycja ‘Turkey Pardon' została oficjalnie wprowadzona przez George'a H.W. Busha w 1989 roku.",
+            "Parada Macy's odbywa się od 1924 roku i przyciąga rocznie około 3,5 miliona widzów na żywo w Nowym Jorku.",
+            "‘Black Friday' następujący po Thanksgiving był pierwotnie dniem, w którym handel przechodził ‘na zysk'."
+          ],
+          "imageCredit": "Zdjęcie: Mark Miller · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
+          "history": "Już w 354 roku 25 grudnia odnotowany jest jako ‘dies natalis Christi' w rzymskim kalendarzu. Kościół wybrał tę datę prawdopodobnie po to, by chrześcijańsko zinterpretować rzymskie święto ‘Sol Invictus'. Tradycja prezentów ma korzenie w darach Trzech Mędrców. Współczesny Święty Mikołaj w czerwonym płaszczu i z białą brodą to mieszanka św. Mikołaja i kampanii reklamowej Coca-Coli z 1931 roku.",
+          "traditions": "W Polsce Boże Narodzenie obchodzi się przez dwa dni (25 i 26 grudnia). Rodziny zbierają się na obfitym obiedzie — często rosół z makaronem, schab, indyk, sałatka jarzynowa, makowiec, sernik. Wymienia się prezenty (w Polsce zwykle wręczane już w Wigilię), śpiewa kolędy, wielu uczestniczy w nabożeństwach. Choinka i szopka są centralnymi symbolami.",
+          "funFacts": [
+            "Pierwszy komercyjny kalendarz adwentowy ukazał się w 1908 roku w Monachium — wynalazek Gerharda Langa.",
+            "Polskie kolędy — m.in. ‘Wśród nocnej ciszy', ‘Bóg się rodzi', ‘Lulajże, Jezuniu' — uchodzą za jedne z najpiękniejszych na świecie.",
+            "Norwegia podarowuje Wielkiej Brytanii corocznie od 1947 roku ogromną choinkę na Trafalgar Square — w podzięce za pomoc w II wojnie światowej.",
+            "Tradycja choinki dotarła do Polski z Niemiec na początku XIX wieku, a powszechna stała się po 1830 roku."
+          ],
+          "imageCredit": "Zdjęcie: Chris Olszewski · CC BY-SA 4.0 przez Wikimedia Commons"
+        }
+      }
+    }
+  },
+  "images": {
+    "new_year": [
+      {
+        "path": "images/new_year/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "martin_luther_king_jr_day": [
+      {
+        "path": "images/US/martin_luther_king_jr_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/US/martin_luther_king_jr_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/US/martin_luther_king_jr_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "presidents_day": [
+      {
+        "path": "images/US/presidents_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/US/presidents_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/US/presidents_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "good_friday": [
+      {
+        "path": "images/good_friday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "memorial_day": [
+      {
+        "path": "images/US/memorial_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/US/memorial_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/US/memorial_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "independence_day": [
+      {
+        "path": "images/US/independence_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/US/independence_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/US/independence_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "labour_day_us": [
+      {
+        "path": "images/US/labour_day_us/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/US/labour_day_us/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/US/labour_day_us/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "thanksgiving_day": [
+      {
+        "path": "images/US/thanksgiving_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/US/thanksgiving_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/US/thanksgiving_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas": [
+      {
+        "path": "images/christmas/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  }
+}

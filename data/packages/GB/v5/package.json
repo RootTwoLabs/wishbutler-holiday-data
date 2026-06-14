@@ -1,0 +1,1077 @@
+{
+  "countryCode": "GB",
+  "version": 5,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "GB_new_years_day",
+      "countryCode": "GB",
+      "kind": "precomputed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-01",
+          "2027": "01-01",
+          "2028": "01-03",
+          "2029": "01-01",
+          "2030": "01-01",
+          "2031": "01-01",
+          "2032": "01-01",
+          "2033": "01-03",
+          "2034": "01-02",
+          "2035": "01-01"
+        }
+      }
+    },
+    {
+      "id": "GB_2_january",
+      "countryCode": "GB",
+      "kind": "precomputed",
+      "labelKey": "holidays.2_january",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-02",
+          "2027": "01-02",
+          "2028": "01-04",
+          "2029": "01-02",
+          "2030": "01-02",
+          "2031": "01-02",
+          "2032": "01-02",
+          "2033": "01-04",
+          "2034": "01-03",
+          "2035": "01-02"
+        }
+      }
+    },
+    {
+      "id": "GB_saint_patricks_day",
+      "countryCode": "GB",
+      "kind": "precomputed",
+      "labelKey": "holidays.saint_patricks_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "03-17",
+          "2027": "03-17",
+          "2028": "03-17",
+          "2029": "03-19",
+          "2030": "03-18",
+          "2031": "03-17",
+          "2032": "03-17",
+          "2033": "03-17",
+          "2034": "03-17",
+          "2035": "03-19"
+        }
+      }
+    },
+    {
+      "id": "GB_good_friday",
+      "countryCode": "GB",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "GB_easter_monday",
+      "countryCode": "GB",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "GB_early_may_bank_holiday",
+      "countryCode": "GB",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.early_may_bank_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "GB_spring_bank_holiday",
+      "countryCode": "GB",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.spring_bank_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "nth": 5,
+        "weekday": 1,
+        "last": true
+      }
+    },
+    {
+      "id": "GB_world_cup_bank_holiday",
+      "countryCode": "GB",
+      "kind": "fixed",
+      "labelKey": "holidays.world_cup_bank_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 15
+      }
+    },
+    {
+      "id": "GB_battle_of_the_boyne",
+      "countryCode": "GB",
+      "kind": "precomputed",
+      "labelKey": "holidays.battle_of_the_boyne",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "07-13",
+          "2027": "07-12",
+          "2028": "07-12",
+          "2029": "07-12",
+          "2030": "07-12",
+          "2031": "07-14",
+          "2032": "07-12",
+          "2033": "07-12",
+          "2034": "07-12",
+          "2035": "07-12"
+        }
+      }
+    },
+    {
+      "id": "GB_summer_bank_holiday",
+      "countryCode": "GB",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.summer_bank_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 5,
+        "weekday": 1,
+        "last": true
+      }
+    },
+    {
+      "id": "GB_saint_andrews_day",
+      "countryCode": "GB",
+      "kind": "precomputed",
+      "labelKey": "holidays.saint_andrews_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-30",
+          "2027": "11-30",
+          "2028": "11-30",
+          "2029": "11-30",
+          "2030": "12-02",
+          "2031": "12-01",
+          "2032": "11-30",
+          "2033": "11-30",
+          "2034": "11-30",
+          "2035": "11-30"
+        }
+      }
+    },
+    {
+      "id": "GB_christmas_day",
+      "countryCode": "GB",
+      "kind": "precomputed",
+      "labelKey": "holidays.christmas_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "12-25",
+          "2027": "12-27",
+          "2028": "12-25",
+          "2029": "12-25",
+          "2030": "12-25",
+          "2031": "12-25",
+          "2032": "12-27",
+          "2033": "12-27",
+          "2034": "12-25",
+          "2035": "12-25"
+        }
+      }
+    },
+    {
+      "id": "GB_st_stephens_day",
+      "countryCode": "GB",
+      "kind": "precomputed",
+      "labelKey": "holidays.st_stephens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "12-28",
+          "2027": "12-28",
+          "2028": "12-26",
+          "2029": "12-26",
+          "2030": "12-26",
+          "2031": "12-26",
+          "2032": "12-28",
+          "2033": "12-26",
+          "2034": "12-26",
+          "2035": "12-26"
+        }
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "2_january": "2 January",
+        "saint_patricks_day": "Saint Patrick's Day",
+        "early_may_bank_holiday": "Early May Bank Holiday",
+        "spring_bank_holiday": "Spring Bank Holiday",
+        "world_cup_bank_holiday": "World Cup Bank Holiday",
+        "battle_of_the_boyne": "Battle of the Boyne",
+        "summer_bank_holiday": "Summer Bank Holiday",
+        "saint_andrews_day": "Saint Andrew's Day",
+        "christmas_day": "Christmas Day",
+        "st_stephens_day": "St. Stephen's Day"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "new_year": {
+          "intro": "Der 1. Januar markiert weltweit den Beginn eines neuen Jahres im gregorianischen Kalender. Für viele ist es ein Tag der Hoffnung, des Neuanfangs und der guten Vorsätze.",
+          "history": "Bereits 153 v. Chr. legten die Römer den Jahresbeginn auf den 1. Januar, den Antrittstag der neuen Konsuln. Im Mittelalter wechselte der Jahresanfang in vielen Regionen zu Weihnachten oder Ostern. Erst mit der Kalenderreform von Papst Gregor XIII. im Jahr 1582 setzte sich der 1. Januar wieder als europäischer Standard durch. Der Monatsname Januar geht auf den römischen Gott Janus zurück, der mit zwei Gesichtern zugleich auf das Vergangene und das Kommende blickte – ein passendes Sinnbild für diesen Tag.",
+          "traditions": "Um Mitternacht stoßen Familien und Freunde mit Sekt an und feiern den Jahreswechsel mit Feuerwerk, Glücksbringern wie Kleeblatt, Schornsteinfeger oder Marienkäfer und dem traditionellen Bleigießen (heute Wachsgießen). Beliebt sind außerdem Neujahrsbrunch und der gemeinsame Spaziergang an der frischen Luft. Viele fassen Vorsätze für das neue Jahr.",
+          "funFacts": [
+            "In Spanien isst man zu jedem der zwölf Glockenschläge eine Weintraube – eine pro Wunsch.",
+            "In Dänemark zerbricht man altes Geschirr vor den Türen guter Freunde, um Glück zu bringen.",
+            "Wiens Neujahrskonzert wird in über 90 Länder übertragen und gilt als musikalischer Auftakt des Jahres.",
+            "Auf den Pazifikinseln Kiribati beginnt das neue Jahr 26 Stunden früher als auf der Insel Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Karfreitag ist der höchste protestantische Trauertag und erinnert an die Kreuzigung Jesu Christi. In Deutschland ist er ein „stiller Feiertag” mit besonderen Schutzregeln.",
+          "history": "Karfreitag wird seit dem 4. Jahrhundert von Christen begangen. Das Wort „Kar” stammt vom althochdeutschen „chara” und bedeutet Klage oder Trauer. Schon früh entwickelten sich liturgische Traditionen: Verlesung der Passionsgeschichte, Kreuzverehrung und das Verstummen der Glocken. Die Reformation hob den Karfreitag besonders hervor; in lutherischen Regionen ist er bis heute der wichtigste Feiertag des Kirchenjahres.",
+          "traditions": "Viele Christen besuchen Passionsgottesdienste mit der Verlesung der Leidensgeschichte. Es gilt als Fastentag – traditionell wird Fisch statt Fleisch gegessen. In manchen Regionen ziehen Karfreitagsprozessionen durch die Straßen, etwa die berühmte „Karfreitagsprozession” in Lohr am Main. Tanzveranstaltungen und laute Musik sind in den meisten Bundesländern gesetzlich untersagt.",
+          "funFacts": [
+            "In Deutschland regelt das „Tanzverbot” das öffentliche Vergnügen am Karfreitag – seit Jahren ein gesellschaftlicher Streitpunkt.",
+            "Bach schrieb seine Matthäus-Passion 1727 für die Karfreitags-Vesper in Leipzig – heute eines der meistaufgeführten Werke der Welt.",
+            "In Bermuda lassen Familien am Karfreitag selbstgebastelte Drachen aus Bambus und Papier steigen – eine einzigartige christliche Tradition.",
+            "Im Spanischen heißt Karfreitag „Viernes Santo” – mit prachtvollen Bruderschafts-Prozessionen, etwa in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Ostermontag ist der zweite Festtag von Ostern und in den meisten europäischen Ländern arbeitsfrei. Er ist Ausklang des höchsten christlichen Festes.",
+          "history": "Ostern ist das älteste Fest der Christenheit und feiert die Auferstehung Jesu Christi am dritten Tag nach seinem Tod. Das Konzil von Nicäa legte 325 das Osterdatum auf den ersten Sonntag nach dem ersten Frühlingsvollmond. Der Ostermontag wird seit dem frühen Mittelalter als zweiter Festtag begangen – ursprünglich war die ganze Osterwoche frei. In Deutschland und Österreich blieb er als gesetzlicher Feiertag erhalten, anders als in vielen rein katholischen Ländern.",
+          "traditions": "Familien suchen gemeinsam Ostereier, frühstücken ausgiebig oder unternehmen den klassischen Osterspaziergang („Vom Eise befreit sind Strom und Bäche…”, Goethe). In Polen feiert man „Śmigus-Dyngus”: Junge bespritzen Mädchen mit Wasser. In Tschechien klopfen Burschen mit Weidenruten an Türen. In Bayern und Österreich gibt es das traditionelle „Emmausgehen”.",
+          "funFacts": [
+            "Der Brauch des Ostereiersuchens wurde erstmals von Martin Luther erwähnt, der seinen Kindern damit eine Freude machte.",
+            "Das größte Schoko-Osterei der Welt stand in Argentinien (8,5 m hoch, 4 t schwer) – verewigt im Guinness-Buch.",
+            "In Schweden ziehen Kinder am Karsamstag als „Påskkärringar” verkleidet – wie kleine Hexen – von Tür zu Tür.",
+            "Der Osterhase als Eierbringer wurde 1682 erstmals von dem Mediziner Georg Franck von Franckenau schriftlich erwähnt."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "Der „Early May Bank Holiday” am ersten Montag im Mai ist einer der vielen britischen Bankfeiertage – ein willkommener Frühlings-Brückentag.",
+          "history": "Bankfeiertage wurden in Großbritannien 1871 durch den Bankers' Holidays Act eingeführt – ursprünglich als arbeitsfreie Tage für Bankangestellte, später für die ganze Bevölkerung. Der erste Montag im Mai wurde 1978 von Premierminister James Callaghan eingeführt – als britisches Pendant zum kontinentalen Tag der Arbeit, ohne dessen sozialistische Konnotation. Es war damals zugleich ein politisches Symbol – die Labour-Regierung wollte die Arbeiter ehren.",
+          "traditions": "Der frühe Mai läutet in Großbritannien die Outdoor-Saison ein. Beliebt sind „May Day Fairs”, Morris-Tänze (traditionelle Volkstänze mit Glocken und Stäben), das Ehren der „May Queen” und in einigen Dörfern das Tanzen um den Maibaum („Maypole”). Pubs öffnen ihre Außenbereiche, viele machen einen Kurztrip aufs Land oder an die Küste.",
+          "funFacts": [
+            "Der „Bank Holidays Act” von 1871 ging auf den Liberalen Sir John Lubbock zurück – die Briten nannten ihn dankbar „Saint Lubbock's Days”.",
+            "Beim Padstow Obby Oss in Cornwall tanzt ein „Pferd” durch die Straßen – einer der ältesten Volksbräuche Englands.",
+            "Der „Maypole” – der Maibaum – ist nicht nur deutsch: Die Briten haben ihn seit dem Mittelalter, mit Bändertanz darum herum.",
+            "2020 wurde der Early May Bank Holiday einmalig auf Freitag verlegt – zum 75. Jahrestag des VE Day (Sieg in Europa)."
+          ],
+          "imageCredit": "Foto: Philip Platt · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "Der „Spring Bank Holiday” am letzten Montag im Mai ist einer der beliebtesten britischen Feiertage – Ankündigung des Sommers und Pfingst-Ferien-Auftakt.",
+          "history": "Der Tag löste 1971 den traditionellen „Whit Monday” (Pfingstmontag) ab. Da Pfingsten ein bewegliches Datum ist, wollte die Regierung ein verlässliches verlängertes Wochenende für Schulferien und Tourismus einrichten. Seitdem ist es einer der drei großen britischen Sommer-Bankfeiertage. 2022 fiel das verlängerte Wochenende mit dem 70. Thron-Jubiläum von Queen Elizabeth II. zusammen – mit einem zusätzlichen „Platinum Jubilee Bank Holiday” am Donnerstag.",
+          "traditions": "Das verlängerte Wochenende ist Hauptreisezeit – britische Familien fahren an die Küste (Brighton, Cornwall, Lake District), Feste wie das berühmte „Cheese Rolling” am Cooper's Hill (Gloucestershire) finden statt. Auch das Chelsea Flower Show endet meist an diesem Wochenende. Pubs sind voll, BBQs werden ausgepackt – wenn das oft launische Wetter mitspielt.",
+          "funFacts": [
+            "Beim „Cheese Rolling” am Cooper's Hill rollt ein 4 kg schwerer Doppel-Gloucester-Käse einen Hügel hinunter – Hunderte Mutige rennen ihm hinterher.",
+            "2022 gab es zum „Platinum Jubilee” der Queen einen vier-Tage-Marathon mit einem zusätzlichen Bank Holiday.",
+            "Britische Bahn- und Mautgesellschaften stellen sich auf 30 % höheres Verkehrsaufkommen ein.",
+            "Der Spring Bank Holiday ist nicht in Schottland gesetzlich – dort gibt es einen anderen Bank Holiday am ersten Montag im August."
+          ],
+          "imageCredit": "Foto: vastateparksstaff · CC BY 2.0 via Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "Der „Summer Bank Holiday” am letzten Montag im August (in Schottland am ersten Montag) markiert den Höhepunkt der britischen Sommer-Saison und das Ende der Schulferien.",
+          "history": "Wie alle britischen Bankfeiertage geht der Tag auf den „Bank Holidays Act” von 1871 zurück. Ursprünglich war es der erste Montag im August; in England, Wales und Nordirland wurde er 1971 auf den letzten Montag im August verlegt, um näher am Ende der Schulferien zu liegen. Schottland behielt das ursprüngliche Datum. Es ist – zusammen mit dem Spring Bank Holiday – einer der beliebtesten Tag-am-Strand-Feiertage des Jahres.",
+          "traditions": "Der Tag steht im Zeichen großer Festivals: Das berühmte „Notting Hill Carnival” in London – Europas größte Karibik-Parade – verwandelt das verlängerte Wochenende in eine bunte Party mit über 2 Millionen Besuchern. In Cornwall feiert man Surf-Wettbewerbe, in Edinburgh läuft das „Edinburgh Festival” auf vollen Touren. Familien planen letzte Sommerausflüge.",
+          "funFacts": [
+            "Das „Notting Hill Carnival” feiert seit 1966 die karibisch-britische Kultur – Höhepunkt ist die Steel-Pan-Parade.",
+            "An schönen Sommer-Bank-Holiday-Wochenenden brechen britische Strände regelmäßig Besucherrekorde.",
+            "Schottland feiert den Sommer-Bankfeiertag bewusst früher (Anfang August), weil das Wetter typischerweise besser ist.",
+            "Der August-Bank-Holiday ist der ÄLTESTE britische gesetzliche Bankfeiertag – seit 1871."
+          ],
+          "imageCredit": "Foto: Philip Halling · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
+          "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
+          "traditions": "Familien versammeln sich zu festlichen Mahlzeiten – Truthahn, Gans, Karpfen oder Raclette. Geschenke werden ausgetauscht, Weihnachtslieder gesungen, viele besuchen den Festgottesdienst. Der geschmückte Christbaum mit Lichterketten, Kugeln und Strohsternen ist das zentrale Symbol. Adventskalender, Plätzchen und der Besuch von Weihnachtsmärkten gehören zur Vorbereitung.",
+          "funFacts": [
+            "Der erste kommerzielle Adventskalender erschien 1908 in München – Erfinder war Gerhard Lang.",
+            "Die Weihnachtsmärkte in Dresden („Striezelmarkt”, seit 1434) und Frankfurt (seit 1393) gehören zu den ältesten der Welt.",
+            "Norwegen schenkt Großbritannien seit 1947 jährlich einen riesigen Weihnachtsbaum für den Trafalgar Square – als Dank für die Hilfe im Zweiten Weltkrieg.",
+            "Die Weihnachtsfilm-Klassiker „Drei Haselnüsse für Aschenbrödel” und „Tatsächlich… Liebe” laufen weltweit jedes Jahr Dutzende Male im TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Der zweite Weihnachtstag am 26. Dezember ist im Vereinigten Königreich als „Boxing Day” bekannt und verlängert in vielen Ländern die Weihnachtsferien.",
+          "history": "Der Name „Boxing Day” leitet sich nicht vom Sport ab, sondern von den Spendenboxen („Christmas boxes”), die in englischen Kirchen für die Armen aufgestellt und am Tag nach Weihnachten geöffnet wurden. Auch die Tradition, Hausangestellten und Postboten am 26. Dezember kleine Geld-Geschenke („boxes”) zu überreichen, prägte den Namen. In Deutschland ist der Tag der „2. Weihnachtsfeiertag” und seit 1933 gesetzlich geschützt – ursprünglich, um Familien Reisezeit zu Verwandten zu ermöglichen.",
+          "traditions": "In Großbritannien starten an diesem Tag der traditionelle Premier-League-Fußball, der Pferde-Hindernisrennsport und die berühmten „Boxing Day Sales”, bei denen Geschäfte massive Rabatte gewähren. In Deutschland wird ausgiebig gegessen, mit weiterer Familie gefeiert oder ein langer Spaziergang gemacht. In Polen und Tschechien gibt es Verwandtenbesuche und Festmahle.",
+          "funFacts": [
+            "Im Vereinigten Königreich wird seit 1860 die traditionelle Fuchsjagd am Boxing Day veranstaltet – seit 2005 nur noch als Drag Hunt ohne lebenden Fuchs.",
+            "Die Boxing-Day-Sales sind Großbritanniens umsatzstärkster Handelstag – noch vor Black Friday.",
+            "In Australien startet am Boxing Day das Sydney–Hobart-Yachtrennen, eines der härtesten Hochsee-Rennen der Welt.",
+            "In Irland heißt der Tag „St. Stephen's Day” – mit einer alten Tradition des „Wren Boys”-Brauchtums, bei dem Junge verkleidet von Tür zu Tür ziehen."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "new_year": {
+          "intro": "January 1st marks the start of a new year in the Gregorian calendar around the world. For many it's a day of hope, fresh starts and good resolutions.",
+          "history": "As early as 153 BC the Romans set the start of the year on January 1st, the day new consuls took office. During the Middle Ages, the start of the year shifted in many regions to Christmas or Easter. Only with Pope Gregory XIII's calendar reform of 1582 did January 1st become the European standard once again. The name January goes back to the Roman god Janus, who looked simultaneously at the past and the future with two faces — a fitting symbol for the day.",
+          "traditions": "At midnight, families and friends toast with sparkling wine and celebrate the turn of the year with fireworks, lucky charms (clover, chimney sweep, ladybug) and traditional lead pouring (now wax pouring). New Year's brunch and a fresh-air walk are popular too. Many people make resolutions for the year ahead.",
+          "funFacts": [
+            "In Spain, people eat one grape with each of the twelve bell strokes — one wish per grape.",
+            "In Denmark, people break old crockery in front of friends' doors to bring them luck.",
+            "Vienna's New Year's Concert is broadcast in over 90 countries and counts as the year's musical kick-off.",
+            "On the Pacific island of Kiribati, the new year arrives 26 hours earlier than on Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Good Friday is the highest Protestant day of mourning, commemorating the crucifixion of Jesus Christ. In Germany it is a ‘silent holiday' with special legal protections.",
+          "history": "Good Friday has been observed by Christians since the 4th century. The German prefix ‘Kar' comes from Old High German ‘chara', meaning lamentation or mourning. Liturgical traditions developed early on: the reading of the Passion, veneration of the cross and the silencing of bells. The Reformation gave Good Friday particular weight; in Lutheran regions it remains the most important holiday of the church year.",
+          "traditions": "Many Christians attend Passion services with the reading of the Passion narrative. The day is traditionally one of fasting — fish replaces meat. In some regions, Good Friday processions march through the streets, such as the famous one in Lohr am Main. Dance events and loud music are forbidden by law in most German states.",
+          "funFacts": [
+            "Germany's ‘dance ban' regulates public entertainment on Good Friday — and has been a hot social topic for years.",
+            "Bach wrote his St. Matthew Passion in 1727 for Good Friday vespers in Leipzig — today one of the world's most performed works.",
+            "In Bermuda, families fly self-made bamboo and paper kites on Good Friday — a unique Christian tradition.",
+            "In Spanish-speaking countries Good Friday is ‘Viernes Santo' — with magnificent brotherhood processions, for example in Seville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Easter Monday is the second day of Easter and is a public holiday in most European countries. It marks the closing of Christianity's highest festival.",
+          "history": "Easter is the oldest festival in Christendom, celebrating the resurrection of Jesus Christ on the third day after his death. The Council of Nicaea in 325 set Easter on the first Sunday after the first spring full moon. Easter Monday has been observed since the early Middle Ages — originally the entire Easter week was a holiday. In Germany and Austria it remained a legal holiday, unlike in many purely Catholic countries.",
+          "traditions": "Families hunt for Easter eggs together, enjoy a leisurely brunch or take the classic Easter walk (immortalized in Goethe's ‘Faust'). In Poland ‘Śmigus-Dyngus' is celebrated: boys splash girls with water. In Czechia, lads tap on doors with willow whips. In Bavaria and Austria there is the traditional ‘Emmaus walk'.",
+          "funFacts": [
+            "The custom of Easter egg hunts was first mentioned by Martin Luther, who used it to delight his children.",
+            "The world's largest chocolate Easter egg stood in Argentina (8.5 m tall, 4 t) — recorded in the Guinness Book.",
+            "In Sweden, children dress up as ‘Påskkärringar' — little witches — on Holy Saturday and go door to door.",
+            "The Easter Bunny as deliverer of eggs was first mentioned in 1682 by physician Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "The Early May Bank Holiday on the first Monday in May is one of the UK's many bank holidays — a welcome spring long weekend.",
+          "history": "Bank holidays were introduced in the UK by the Bankers' Holidays Act in 1871 — originally as days off for bank staff, later for the entire population. The first Monday in May was added in 1978 by Prime Minister James Callaghan — as a British counterpart to the continental Labour Day, without its socialist connotation. It was a political symbol at the time — the Labour government wanted to honor workers.",
+          "traditions": "Early May ushers in the UK's outdoor season. Popular events include ‘May Day Fairs', Morris dancing (traditional folk dances with bells and sticks), the crowning of a ‘May Queen' and in some villages dancing around a maypole. Pubs throw open their beer gardens and many people take a short trip to the countryside or coast.",
+          "funFacts": [
+            "The 1871 ‘Bank Holidays Act' was promoted by the Liberal Sir John Lubbock — the British thanked him by calling them ‘Saint Lubbock's Days'.",
+            "At the Padstow Obby Oss in Cornwall a ‘horse' dances through the streets — one of England's oldest folk customs.",
+            "The maypole isn't just German: the British have danced around it since the Middle Ages, with ribbon dances.",
+            "In 2020 the Early May Bank Holiday was moved to a Friday for one year — to mark the 75th anniversary of VE Day."
+          ],
+          "imageCredit": "Photo: Philip Platt · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "The Spring Bank Holiday on the last Monday in May is one of the UK's most popular holidays — heralding summer and the start of half-term holidays.",
+          "history": "The day replaced the traditional Whit Monday in 1971. As Pentecost falls on a moving date, the government wanted a reliable long weekend for school holidays and tourism. Since then it has been one of the three major British summer bank holidays. In 2022 the long weekend coincided with Queen Elizabeth II's Platinum Jubilee — with an additional ‘Platinum Jubilee Bank Holiday' on the Thursday.",
+          "traditions": "The long weekend is peak travel time — British families head to the coast (Brighton, Cornwall, the Lake District), and festivals such as the famous ‘Cheese Rolling' on Cooper's Hill (Gloucestershire) take place. The Chelsea Flower Show usually closes that weekend too. Pubs are busy, barbecues are fired up — when the often-fickle weather cooperates.",
+          "funFacts": [
+            "At Cooper's Hill ‘Cheese Rolling', a 4 kg double-Gloucester cheese rolls down the hill — and hundreds of brave souls chase after it.",
+            "In 2022 the Queen's ‘Platinum Jubilee' added an extra Bank Holiday for a four-day weekend.",
+            "British rail and motorway operators expect 30% higher traffic loads.",
+            "Spring Bank Holiday is not an official holiday in Scotland — Scotland has a different bank holiday on the first Monday in August."
+          ],
+          "imageCredit": "Photo: vastateparksstaff · CC BY 2.0 via Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "The Summer Bank Holiday on the last Monday in August (in Scotland the first Monday) marks the peak of the British summer season and the end of school holidays.",
+          "history": "Like all British bank holidays the day goes back to the Bank Holidays Act of 1871. Originally it was the first Monday in August; in England, Wales and Northern Ireland it was moved in 1971 to the last Monday in August to align better with the end of school holidays. Scotland kept the original date. Together with the Spring Bank Holiday it is one of the year's most popular beach holidays.",
+          "traditions": "The day is famous for its big festivals: the ‘Notting Hill Carnival' in London — Europe's biggest Caribbean parade — turns the long weekend into a colorful party with over 2 million visitors. Cornwall hosts surf contests, the Edinburgh Festival is in full swing. Families plan their last summer outings.",
+          "funFacts": [
+            "The ‘Notting Hill Carnival' has celebrated Caribbean-British culture since 1966 — its highlight is the steel-pan parade.",
+            "On a sunny Summer Bank Holiday weekend, British beaches regularly break visitor records.",
+            "Scotland deliberately keeps its summer bank holiday earlier (early August), because the weather is typically better.",
+            "The August Bank Holiday is the OLDEST British statutory bank holiday — since 1871."
+          ],
+          "imageCredit": "Photo: Philip Halling · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
+          "history": "December 25th is documented as ‘dies natalis Christi' as early as 354 in a Roman calendar. The Church likely chose the date to give the Roman ‘Sol Invictus' winter solstice festival a Christian meaning. Gift-giving has its roots in the gifts of the Magi. The familiar Santa Claus with red coat and white beard is a mix of Saint Nicholas and a 1931 Coca-Cola advertising campaign.",
+          "traditions": "Families gather for festive meals — turkey, goose, carp or raclette. Gifts are exchanged, carols sung, many attend the festive service. The decorated Christmas tree with lights, ornaments and straw stars is the central symbol. Advent calendars, cookies and visits to Christmas markets are part of the run-up.",
+          "funFacts": [
+            "The first commercial Advent calendar appeared in 1908 in Munich — invented by Gerhard Lang.",
+            "The Christmas markets in Dresden (‘Striezelmarkt', since 1434) and Frankfurt (since 1393) are among the oldest in the world.",
+            "Norway has gifted the UK a giant Christmas tree for Trafalgar Square every year since 1947 — as thanks for help during World War II.",
+            "Holiday classics like ‘Three Wishes for Cinderella' and ‘Love Actually' run dozens of times on TV worldwide every year."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "December 26th is known in the United Kingdom as ‘Boxing Day' and in many countries extends the Christmas holidays.",
+          "history": "The name ‘Boxing Day' has nothing to do with sport — it refers to the donation boxes (‘Christmas boxes') placed in English churches and opened on the day after Christmas to help the poor. The custom of giving small money gifts (‘boxes') to servants and posties on December 26th also shaped the name. In Germany the day is the ‘Second Christmas Holiday' and has been protected by law since 1933 — originally to give families travel time to relatives.",
+          "traditions": "In the UK, the day kicks off the traditional Premier League football matches, horse jump-racing and the famous ‘Boxing Day Sales' with massive store discounts. In Germany people eat extensively, visit more relatives or take a long walk. In Poland and Czechia families pay each other visits and enjoy festive meals.",
+          "funFacts": [
+            "In the UK the traditional fox hunt is held on Boxing Day since 1860 — but only as a drag hunt without a live fox since 2005.",
+            "Boxing Day Sales are the UK's highest-revenue retail day — even higher than Black Friday.",
+            "In Australia the Sydney–Hobart Yacht Race starts on Boxing Day — one of the toughest offshore races in the world.",
+            "In Ireland the day is ‘St. Stephen's Day' — with the old ‘Wren Boys' tradition of costumed lads going door to door."
+          ],
+          "imageCredit": "Photo: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "new_year": {
+          "intro": "Le 1er janvier marque le début d'une nouvelle année dans le calendrier grégorien partout dans le monde. Pour beaucoup, c'est un jour d'espoir, de renouveau et de bonnes résolutions.",
+          "history": "Dès 153 av. J.-C., les Romains fixèrent le début de l'année au 1er janvier, jour d'entrée en fonction des nouveaux consuls. Au Moyen Âge, le début de l'année se déplaça dans de nombreuses régions à Noël ou à Pâques. Ce n'est qu'avec la réforme du calendrier du pape Grégoire XIII en 1582 que le 1er janvier s'imposa à nouveau comme standard européen. Le nom janvier vient du dieu romain Janus, qui regardait simultanément le passé et l'avenir avec deux visages.",
+          "traditions": "À minuit, familles et amis trinquent au champagne et célèbrent le passage à la nouvelle année avec des feux d'artifice, des porte-bonheur (trèfle, ramoneur, coccinelle) et la traditionnelle coulée de plomb (aujourd'hui de cire). Le brunch du Nouvel An et la promenade au grand air sont aussi populaires. Beaucoup formulent des résolutions pour l'année.",
+          "funFacts": [
+            "En Espagne, on mange un grain de raisin à chacun des douze coups de minuit — un vœu par grain.",
+            "Au Danemark, on brise de la vieille vaisselle devant la porte des amis pour leur porter chance.",
+            "Le Concert du Nouvel An de Vienne est diffusé dans plus de 90 pays — coup d'envoi musical de l'année.",
+            "Sur l'île pacifique de Kiribati, le Nouvel An arrive 26 heures avant celui de l'île Howland."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Le Vendredi Saint est le jour le plus solennel du protestantisme et commémore la crucifixion de Jésus-Christ. En Allemagne, il s'agit d'un ‘jour silencieux' légalement protégé.",
+          "history": "Le Vendredi Saint est célébré par les chrétiens depuis le IVe siècle. Le préfixe allemand ‘Kar' vient du vieux haut-allemand ‘chara' (lamentation, deuil). Très tôt s'élaborent les traditions liturgiques : lecture de la Passion, vénération de la Croix, silence des cloches. La Réforme protestante lui donna une importance particulière ; dans les régions luthériennes, c'est la fête la plus importante de l'année liturgique.",
+          "traditions": "De nombreux chrétiens assistent à la liturgie de la Passion. C'est traditionnellement un jour de jeûne — on mange du poisson plutôt que de la viande. Dans certaines régions ont lieu des processions du Vendredi Saint, comme la fameuse procession de Lohr am Main. En Allemagne, la danse et la musique forte sont légalement interdites dans la plupart des Länder.",
+          "funFacts": [
+            "L'interdiction de danser (‘Tanzverbot') régit les divertissements publics du Vendredi Saint en Allemagne — sujet sociétal récurrent.",
+            "Bach composa sa Passion selon saint Matthieu en 1727 pour les vêpres du Vendredi Saint à Leipzig.",
+            "Aux Bermudes, les familles font voler des cerfs-volants en bambou et papier le Vendredi Saint — tradition chrétienne unique.",
+            "En Espagne, le ‘Viernes Santo' brille par les magnifiques processions de confréries, notamment à Séville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Le lundi de Pâques est le second jour de Pâques et férié dans la plupart des pays européens. Il clôt la fête majeure du christianisme.",
+          "history": "Pâques est la plus ancienne fête de la chrétienté et célèbre la résurrection de Jésus-Christ le troisième jour. Le concile de Nicée fixa en 325 la date de Pâques au premier dimanche après la première pleine lune du printemps. Le lundi de Pâques se célèbre depuis le haut Moyen Âge — initialement, toute la semaine de Pâques était fériée. En Allemagne et en Autriche, il demeure un jour férié légal, contrairement à beaucoup de pays purement catholiques.",
+          "traditions": "Les familles font la chasse aux œufs, prennent un long brunch ou la traditionnelle promenade pascale. En Pologne, on célèbre ‘Śmigus-Dyngus' : les garçons aspergent les filles d'eau. En Tchéquie, les jeunes hommes tapent aux portes avec des branches de saule. En Bavière et en Autriche, la traditionnelle ‘marche d'Emmaüs' a lieu.",
+          "funFacts": [
+            "C'est Martin Luther qui mentionna pour la première fois la chasse aux œufs, pour amuser ses enfants.",
+            "Le plus grand œuf en chocolat du monde (8,5 m, 4 t) a été réalisé en Argentine — entré au Guinness.",
+            "En Suède, les enfants se déguisent en ‘Påskkärringar' (petites sorcières) le Samedi Saint et font du porte-à-porte.",
+            "Le lapin de Pâques en tant que livreur d'œufs fut mentionné pour la première fois en 1682 par le médecin Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "Le ‘Early May Bank Holiday', premier lundi de mai, est l'un des nombreux jours fériés bancaires britanniques — un long week-end printanier bienvenu.",
+          "history": "Les jours fériés bancaires furent introduits au Royaume-Uni par le Bankers' Holidays Act de 1871 — d'abord pour les employés de banque, puis pour toute la population. Le premier lundi de mai fut ajouté en 1978 par le Premier ministre James Callaghan — comme contrepoint britannique à la Fête du Travail continentale, sans la connotation socialiste. C'était aussi un symbole politique — le gouvernement travailliste voulait honorer les ouvriers.",
+          "traditions": "Début mai marque l'ouverture de la saison en plein air britannique. Populaires : ‘May Day Fairs', danses Morris (avec cloches et bâtons), couronnement de la ‘May Queen' et, dans certains villages, danses autour du mât (‘Maypole'). Les pubs ouvrent leurs terrasses ; beaucoup font une virée à la campagne ou à la côte.",
+          "funFacts": [
+            "Le ‘Bank Holidays Act' de 1871 fut promu par le libéral Sir John Lubbock — les Britanniques le surnommèrent affectueusement ‘Saint Lubbock's Days'.",
+            "Au ‘Padstow Obby Oss' en Cornouailles, un ‘cheval' danse dans les rues — l'une des plus anciennes coutumes folkloriques d'Angleterre.",
+            "Le mât de mai n'est pas seulement allemand : les Britanniques le pratiquent depuis le Moyen Âge avec danses à rubans.",
+            "En 2020, le Early May Bank Holiday fut exceptionnellement déplacé au vendredi pour le 75e anniversaire du VE Day."
+          ],
+          "imageCredit": "Photo: Philip Platt · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "Le ‘Spring Bank Holiday', dernier lundi de mai, est l'un des jours fériés britanniques les plus prisés — annonce de l'été et début des half-terms scolaires.",
+          "history": "Le jour remplaça en 1971 le traditionnel lundi de Pentecôte. La Pentecôte étant à date mobile, le gouvernement voulait un long week-end fixe pour les vacances scolaires et le tourisme. Depuis, c'est l'un des trois grands fériés bancaires britanniques de l'été. En 2022, le long week-end coïncida avec le jubilé de platine de la reine Elizabeth II — avec un ‘Platinum Jubilee Bank Holiday' supplémentaire le jeudi.",
+          "traditions": "Le long week-end est haute saison de voyages — les familles britanniques partent à la côte (Brighton, Cornouailles, Lake District), des festivités comme le célèbre ‘Cheese Rolling' à Cooper's Hill (Gloucestershire) ont lieu. Le Chelsea Flower Show se termine généralement ce week-end-là. Les pubs sont pleins, les barbecues sortis — quand le temps capricieux le permet.",
+          "funFacts": [
+            "Au ‘Cheese Rolling' de Cooper's Hill, un fromage Double-Gloucester de 4 kg roule depuis le sommet — et des centaines de courageux le pourchassent.",
+            "En 2022, le ‘Platinum Jubilee' de la reine ajouta un Bank Holiday supplémentaire pour un week-end de quatre jours.",
+            "Les opérateurs ferroviaires et autoroutiers britanniques s'attendent à un trafic 30 % plus élevé.",
+            "Le Spring Bank Holiday n'est pas légalement férié en Écosse — il y existe un autre Bank Holiday le premier lundi d'août."
+          ],
+          "imageCredit": "Photo: vastateparksstaff · CC BY 2.0 via Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "Le ‘Summer Bank Holiday', dernier lundi d'août (en Écosse, premier lundi), marque le pic de la saison estivale britannique et la fin des grandes vacances.",
+          "history": "Comme tous les jours fériés bancaires britanniques, il remonte au Bank Holidays Act de 1871. À l'origine, c'était le premier lundi d'août ; en 1971, en Angleterre, au Pays de Galles et en Irlande du Nord, il fut déplacé au dernier lundi d'août pour mieux coïncider avec la fin des vacances scolaires. L'Écosse a conservé la date originale. Avec le Spring Bank Holiday, c'est l'un des jours fériés ‘plage' les plus populaires de l'année.",
+          "traditions": "Le jour est marqué par de grands festivals : le célèbre ‘Notting Hill Carnival' à Londres — la plus grande parade caribéenne d'Europe — transforme le long week-end en fête colorée avec plus de 2 millions de visiteurs. En Cornouailles, on célèbre les compétitions de surf ; le Festival d'Édimbourg bat son plein. Les familles planifient leurs dernières excursions estivales.",
+          "funFacts": [
+            "Le ‘Notting Hill Carnival' célèbre depuis 1966 la culture caribéenne-britannique — son apogée est la parade des steel pans.",
+            "Lors d'un week-end ensoleillé du Summer Bank Holiday, les plages britanniques battent régulièrement des records de fréquentation.",
+            "L'Écosse maintient son férié bancaire estival plus tôt (début août), parce que la météo est typiquement meilleure.",
+            "Le Bank Holiday d'août est le PLUS ANCIEN jour férié bancaire statutaire britannique — depuis 1871."
+          ],
+          "imageCredit": "Photo: Philip Halling · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
+          "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
+          "traditions": "Les familles se rassemblent autour de repas festifs — dinde, oie, carpe ou raclette. On échange des cadeaux, chante des cantiques, beaucoup assistent à la messe festive. Le sapin décoré de lumières, boules et étoiles de paille est le symbole central. Calendrier de l'avent, biscuits et marchés de Noël jalonnent la préparation.",
+          "funFacts": [
+            "Le premier calendrier de l'avent commercial parut en 1908 à Munich — invention de Gerhard Lang.",
+            "Les marchés de Noël de Dresde (‘Striezelmarkt', depuis 1434) et de Francfort (depuis 1393) figurent parmi les plus anciens du monde.",
+            "La Norvège offre chaque année au Royaume-Uni un immense sapin pour Trafalgar Square depuis 1947 — en remerciement de l'aide pendant la Seconde Guerre mondiale.",
+            "Les classiques de Noël comme ‘Trois noisettes pour Cendrillon' ou ‘Love Actually' sont diffusés des dizaines de fois à la télé chaque année."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Le 26 décembre est connu au Royaume-Uni comme ‘Boxing Day' et prolonge les vacances de Noël dans bien des pays.",
+          "history": "Le nom ‘Boxing Day' n'a rien à voir avec le sport — il vient des troncs de dons (‘Christmas boxes') des églises anglaises, ouverts le lendemain de Noël pour les pauvres. La coutume de remettre de petites boîtes d'argent aux domestiques et facteurs le 26 décembre a aussi influencé le nom. En Allemagne, c'est le ‘deuxième jour de Noël', férié depuis 1933 — pensé à l'origine pour permettre aux familles de voyager voir leurs proches.",
+          "traditions": "Au Royaume-Uni, c'est le coup d'envoi des matchs de Premier League traditionnels, des courses d'obstacles et des fameuses ‘Boxing Day Sales' avec d'énormes rabais. En Allemagne, on mange copieusement, on visite d'autres parents ou on fait une longue promenade. En Pologne et en Tchéquie, on rend visite à la famille et l'on tient banquet.",
+          "funFacts": [
+            "Au Royaume-Uni, la chasse au renard se court le Boxing Day depuis 1860 — depuis 2005, uniquement en ‘drag hunt' sans renard vivant.",
+            "Les ‘Boxing Day Sales' sont la journée commerçante la plus rentable au Royaume-Uni — devant le Black Friday.",
+            "En Australie, la régate Sydney–Hobart démarre le Boxing Day — l'une des plus rudes courses du large au monde.",
+            "En Irlande, le jour est ‘St. Stephen's Day' — avec la vieille tradition des ‘Wren Boys' allant déguisés de porte en porte."
+          ],
+          "imageCredit": "Photo: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "new_year": {
+          "intro": "El 1 de enero marca el inicio de un nuevo año en el calendario gregoriano en todo el mundo. Para muchos es un día de esperanza, comienzos y buenos propósitos.",
+          "history": "Ya en el 153 a. C., los romanos fijaron el inicio del año el 1 de enero, día en que tomaban posesión los nuevos cónsules. En la Edad Media el comienzo del año cambió en muchas regiones a Navidad o Pascua. Solo con la reforma del calendario del papa Gregorio XIII en 1582 el 1 de enero volvió a imponerse como estándar europeo. El nombre Janus (enero en latín) evoca al dios romano de las dos caras, que miraba al pasado y al futuro a la vez.",
+          "traditions": "A medianoche, familias y amigos brindan con cava o champán y celebran con fuegos artificiales, amuletos como tréboles, deshollinadores o mariquitas, y la tradicional fundición de cera para predecir el año. También son populares el brunch de Año Nuevo y los paseos al aire libre. Muchos hacen propósitos para el año entrante.",
+          "funFacts": [
+            "En España se come una uva con cada una de las doce campanadas — un deseo por uva.",
+            "En Dinamarca se rompe vajilla vieja delante de las puertas de los amigos para darles suerte.",
+            "El Concierto de Año Nuevo de Viena se transmite en más de 90 países y se considera el arranque musical del año.",
+            "En la isla pacífica de Kiribati el Año Nuevo llega 26 horas antes que en la isla Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 vía Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "El Viernes Santo es el día de mayor luto del cristianismo y conmemora la crucifixión de Jesús. En Alemania es ‘día silencioso' con normativa especial.",
+          "history": "El Viernes Santo se celebra desde el siglo IV. La palabra alemana ‘Kar' viene del antiguo alto alemán ‘chara', que significa lamento o duelo. Pronto se desarrollaron tradiciones litúrgicas: lectura de la Pasión, veneración de la cruz y silencio de las campanas. La Reforma le dio especial relevancia y en regiones luteranas sigue siendo el día más importante del año eclesiástico.",
+          "traditions": "Muchos cristianos asisten a oficios de la Pasión con la lectura de la Pasión. Es día de ayuno: tradicionalmente se come pescado en lugar de carne. En España, las procesiones de las cofradías recorren ciudades como Sevilla. En Alemania los bailes y la música alta están legalmente prohibidos en la mayoría de estados federados.",
+          "funFacts": [
+            "El ‘Tanzverbot' (prohibición de bailar) regula el ocio público en el Viernes Santo alemán — desde hace años un debate social recurrente.",
+            "Bach compuso su Pasión según San Mateo en 1727 para las vísperas del Viernes Santo en Leipzig.",
+            "En Bermudas, las familias hacen volar cometas caseras de bambú y papel — una tradición cristiana única.",
+            "En España, el ‘Viernes Santo' destaca por las majestuosas procesiones de cofradías, especialmente en Sevilla y Málaga."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "El Lunes de Pascua es el segundo día de la Pascua y festivo en la mayoría de países europeos. Cierra la fiesta más importante del cristianismo.",
+          "history": "La Pascua es la fiesta más antigua del cristianismo y celebra la resurrección de Jesús al tercer día de su muerte. El Concilio de Nicea fijó en 325 que se celebraría el primer domingo después de la primera luna llena de primavera. El Lunes de Pascua se celebra desde la temprana Edad Media — originalmente toda la octava de Pascua era festiva. En Alemania y Austria sigue siendo festivo legal, a diferencia de muchos países católicos.",
+          "traditions": "Las familias buscan huevos de Pascua, desayunan abundantemente o dan el clásico paseo de Pascua. En Polonia se celebra ‘Śmigus-Dyngus': los chicos mojan a las chicas con agua. En Chequia los jóvenes golpean las puertas con ramas de sauce. En Baviera y Austria se hace la tradicional caminata de Emaús.",
+          "funFacts": [
+            "Martin Lutero fue el primero en mencionar la búsqueda de huevos de Pascua, para alegrar a sus hijos.",
+            "El huevo de Pascua de chocolate más grande del mundo (8,5 m, 4 t) se hizo en Argentina y figura en el Guinness.",
+            "En Suecia los niños se disfrazan de ‘Påskkärringar' — pequeñas brujas — el Sábado Santo y van de puerta en puerta.",
+            "El conejo de Pascua como portador de huevos fue mencionado por escrito por primera vez en 1682, por el médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 vía Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "El ‘Early May Bank Holiday', primer lunes de mayo, es uno de los muchos festivos bancarios británicos — un puente primaveral muy esperado.",
+          "history": "Los festivos bancarios se introdujeron en el Reino Unido con la ‘Bankers' Holidays Act' de 1871 — al principio para los empleados de banca, después para toda la población. El primer lunes de mayo lo añadió en 1978 el primer ministro James Callaghan, como contrapunto británico al Día del Trabajo continental, sin sus connotaciones socialistas. Tenía además un guiño político — el gobierno laborista quería honrar a los trabajadores.",
+          "traditions": "Mayo abre la temporada al aire libre: ‘May Day Fairs', danzas Morris (con campanas y bastones), la ‘May Queen' y, en algunos pueblos, danzas alrededor del mayo (‘Maypole'). Los pubs abren sus terrazas y muchos hacen una escapada al campo o a la costa.",
+          "funFacts": [
+            "La ‘Bank Holidays Act' de 1871 fue impulsada por Sir John Lubbock — los británicos lo apodaron cariñosamente ‘Saint Lubbock's Days'.",
+            "En el ‘Padstow Obby Oss' de Cornualles, un ‘caballo' baila por las calles — una de las costumbres populares más antiguas de Inglaterra.",
+            "El mayo no es exclusivo de los alemanes: los británicos lo bailan desde la Edad Media con cintas.",
+            "En 2020, el Early May Bank Holiday se trasladó al viernes — para el 75º aniversario del Día de la Victoria en Europa."
+          ],
+          "imageCredit": "Foto: Philip Platt · CC BY-SA 2.0 vía Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "El ‘Spring Bank Holiday', último lunes de mayo, es uno de los festivos británicos más populares — preludio del verano y comienzo de las medio-vacaciones escolares.",
+          "history": "Sustituyó en 1971 al tradicional Lunes de Pentecostés, ya que Pentecostés cambia de fecha cada año y el gobierno quería un puente fijo para vacaciones escolares y turismo. Es uno de los tres grandes festivos bancarios estivales. En 2022 coincidió con el Jubileo de Platino de la reina Isabel II — añadiéndose un ‘Platinum Jubilee Bank Holiday' el jueves.",
+          "traditions": "El puente largo es de viaje masivo — las familias británicas van a la costa (Brighton, Cornualles, Lake District), y se celebran festividades como el famoso ‘Cheese Rolling' en Cooper's Hill (Gloucestershire). También suele cerrarse el ‘Chelsea Flower Show'. Pubs llenos, barbacoas en marcha — si el tiempo a menudo caprichoso colabora.",
+          "funFacts": [
+            "En el ‘Cheese Rolling' de Cooper's Hill, un queso Doble-Gloucester de 4 kg rueda colina abajo — y cientos de valientes corren detrás.",
+            "En 2022 hubo cuatro días seguidos de festivo por el Jubileo de Platino de la Reina.",
+            "Las compañías ferroviarias y de autopistas británicas esperan un 30% más de tráfico.",
+            "El Spring Bank Holiday no es festivo legal en Escocia — allí lo es el primer lunes de agosto."
+          ],
+          "imageCredit": "Foto: vastateparksstaff · CC BY 2.0 vía Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "El ‘Summer Bank Holiday', último lunes de agosto (en Escocia, primer lunes), marca el clímax del verano británico y el final de las vacaciones escolares.",
+          "history": "Como todos los festivos bancarios, se remonta a la ‘Bank Holidays Act' de 1871. Originalmente era el primer lunes de agosto; en 1971 se trasladó en Inglaterra, Gales e Irlanda del Norte al último lunes de agosto, para acercarlo al fin de las vacaciones escolares. Escocia mantuvo la fecha original. Junto al Spring Bank Holiday es uno de los festivos más populares del año en la playa.",
+          "traditions": "Es día de grandes festivales: el famoso ‘Notting Hill Carnival' de Londres — el mayor desfile caribeño de Europa — convierte el puente en una fiesta colorida con más de 2 millones de visitantes. En Cornualles se celebran competiciones de surf; el Festival de Edimburgo está en pleno apogeo. Las familias planean las últimas excursiones del verano.",
+          "funFacts": [
+            "El ‘Notting Hill Carnival' celebra desde 1966 la cultura caribeña-británica — su clímax es el desfile de ‘steel pan'.",
+            "En fines de semana soleados, las playas británicas baten récords de visitantes.",
+            "Escocia mantiene su festivo bancario veraniego antes (principios de agosto), porque el tiempo suele ser mejor.",
+            "El festivo bancario de agosto es el MÁS ANTIGUO del Reino Unido — desde 1871."
+          ],
+          "imageCredit": "Foto: Philip Halling · CC BY-SA 2.0 vía Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
+          "history": "Ya en el año 354 un calendario romano consigna el 25 de diciembre como ‘dies natalis Christi'. Probablemente la Iglesia eligió la fecha para reinterpretar cristianamente el ‘Sol Invictus' romano. El intercambio de regalos arraiga en los obsequios de los Magos. El moderno Papá Noel con abrigo rojo y barba blanca es una mezcla de San Nicolás con una campaña publicitaria de Coca-Cola de 1931.",
+          "traditions": "Las familias se reúnen para comidas festivas — pavo, ganso, carpa o raclette. Se intercambian regalos, se cantan villancicos y muchos asisten al servicio festivo. El árbol decorado con luces y bolas es el símbolo central. El calendario de Adviento, las galletas y los mercadillos forman parte de la preparación.",
+          "funFacts": [
+            "El primer calendario de Adviento comercial apareció en 1908 en Múnich — invento de Gerhard Lang.",
+            "Los mercadillos navideños de Dresde (‘Striezelmarkt', desde 1434) y Fráncfort (desde 1393) son de los más antiguos del mundo.",
+            "Noruega regala al Reino Unido un enorme árbol de Navidad para Trafalgar Square cada año desde 1947 — agradecimiento por la ayuda en la Segunda Guerra Mundial.",
+            "Los clásicos como ‘Tres Avellanas para Cenicienta' o ‘Love Actually' se emiten decenas de veces cada año en TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "El 26 de diciembre se conoce en el Reino Unido como ‘Boxing Day' y prolonga las vacaciones navideñas en muchos países.",
+          "history": "El nombre ‘Boxing Day' no proviene del deporte, sino de las cajas de donativos (‘Christmas boxes') de las iglesias inglesas que se abrían el día después de Navidad para los pobres. También influyó la costumbre de regalar pequeñas cajas con dinero a los empleados domésticos y carteros el 26 de diciembre. En Alemania es el ‘2º día de Navidad', festivo legal desde 1933 — pensado originalmente para que las familias viajaran a ver parientes.",
+          "traditions": "En el Reino Unido empiezan los partidos tradicionales de la Premier League, las carreras de obstáculos hípicos y las famosas ‘Boxing Day Sales' con grandes descuentos. En Alemania se come en abundancia, se visita a más familia o se da un largo paseo. En Polonia y Chequia hay visitas familiares y banquetes.",
+          "funFacts": [
+            "En el Reino Unido la tradicional caza del zorro se hace desde 1860 en Boxing Day — desde 2005 solo como ‘drag hunt' sin zorro vivo.",
+            "Las ‘Boxing Day Sales' son el día de mayores ventas del año del comercio británico — más que el Black Friday.",
+            "En Australia el 26 de diciembre arranca la regata Sídney–Hobart, una de las más duras de altura del mundo.",
+            "En Irlanda el día se llama ‘Día de San Esteban' — con la antigua tradición de los ‘Wren Boys' yendo disfrazados de puerta en puerta."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "new_year": {
+          "intro": "1 de janeiro marca o início de um novo ano no calendário gregoriano em todo o mundo. Para muitos é um dia de esperança, novos começos e boas resoluções.",
+          "history": "Já em 153 a.C. os romanos fixaram o início do ano em 1 de janeiro, dia em que tomavam posse os novos cônsules. Na Idade Média, o início do ano deslocou-se em muitas regiões para o Natal ou a Páscoa. Só com a reforma do calendário do Papa Gregório XIII em 1582 o 1 de janeiro voltou a impor-se como padrão europeu. O nome Janus (janeiro em latim) evoca o deus romano de duas faces, que olhava simultaneamente para o passado e o futuro.",
+          "traditions": "À meia-noite, famílias e amigos brindam com espumante e celebram com fogo de artifício, amuletos como trevos, limpa-chaminés ou joaninhas, e a tradicional fundição de cera para prever o ano. Também são populares o brunch de Ano Novo e os passeios ao ar livre. Muitos fazem resoluções para o ano que começa.",
+          "funFacts": [
+            "Em Portugal e Espanha, come-se uma uva por cada uma das doze badaladas — um desejo por uva.",
+            "Na Dinamarca, partem-se louças velhas em frente à porta dos amigos para lhes dar sorte.",
+            "O Concerto de Ano Novo de Viena é transmitido em mais de 90 países — abertura musical do ano.",
+            "Na ilha pacífica de Kiribati, o Ano Novo chega 26 horas antes do que na ilha de Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "A Sexta-Feira Santa é o dia de maior luto do cristianismo e comemora a crucificação de Jesus Cristo. Em Portugal é feriado nacional, com forte tradição religiosa.",
+          "history": "A Sexta-Feira Santa é celebrada pelos cristãos desde o século IV. O prefixo alemão ‘Kar' vem do alto alemão antigo ‘chara' (lamento, luto). Cedo se desenvolveram tradições litúrgicas: leitura da Paixão, veneração da cruz e silêncio dos sinos. A Reforma deu-lhe especial relevância. Em Portugal, a tradição das procissões da Paixão é antiga e muito viva, especialmente em Braga, Óbidos e na ilha da Madeira.",
+          "traditions": "Muitos cristãos assistem a celebrações da Paixão. É tradicionalmente dia de jejum — come-se peixe (em Portugal, o típico bacalhau) em vez de carne. Em Braga e Óbidos, as procissões da Paixão são impressionantes — em Braga a ‘Procissão do Senhor Ecce Homo' é uma das maiores. Em Espanha, destacam-se as procissões das confrarias, sobretudo em Sevilha.",
+          "funFacts": [
+            "Em Braga (Portugal) a ‘Procissão do Senhor Ecce Homo' é uma das mais impressionantes da Europa.",
+            "Bach compôs a sua Paixão segundo São Mateus em 1727 para as Vésperas da Sexta-Feira Santa em Leipzig.",
+            "Nas Bermudas, as famílias fazem voar papagaios de bambu e papel feitos em casa — uma tradição cristã única.",
+            "Em Espanha, ‘Viernes Santo' destaca-se pelas magníficas procissões das confrarias, sobretudo em Sevilha."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "A Segunda-Feira de Páscoa é o segundo dia de Páscoa e feriado na maioria dos países europeus. Em Portugal, ainda que não seja feriado, é tradição almoçar com a família o folar.",
+          "history": "A Páscoa é a festa mais antiga da cristandade e celebra a ressurreição de Jesus Cristo no terceiro dia. O Concílio de Niceia em 325 fixou a Páscoa no primeiro domingo após a primeira lua cheia da primavera. A Segunda-Feira de Páscoa celebra-se desde a alta Idade Média — originalmente toda a semana de Páscoa era feriada. Em Portugal, a tradição é a do ‘folar', um bolo doce com ovo cozido por cima, que se oferece sobretudo aos afilhados.",
+          "traditions": "As famílias procuram em conjunto ovos de Páscoa, almoçam abundantemente ou fazem o clássico passeio pascal. Em Portugal, oferece-se o ‘folar' aos afilhados e organizam-se almoços em família com cabrito assado. Na Polónia celebra-se ‘Śmigus-Dyngus': os rapazes salpicam as raparigas com água. Na Chéquia, os jovens batem às portas com ramos de salgueiro.",
+          "funFacts": [
+            "O costume da caça aos ovos foi mencionado pela primeira vez por Martinho Lutero, para alegrar os filhos.",
+            "O maior ovo de chocolate do mundo (8,5 m, 4 t) foi feito na Argentina e está no Guinness.",
+            "Na Suécia, as crianças vestem-se de ‘Påskkärringar' — pequenas bruxas — no Sábado Santo e vão de porta em porta.",
+            "O coelho da Páscoa como entregador de ovos foi mencionado pela primeira vez por escrito em 1682 pelo médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "O ‘Early May Bank Holiday', primeira segunda-feira de maio, é um dos vários feriados bancários britânicos — um bem-vindo prolongamento da primavera.",
+          "history": "Os feriados bancários foram introduzidos no Reino Unido pela ‘Bankers' Holidays Act' de 1871 — inicialmente como dias de folga para os funcionários dos bancos, depois para toda a população. A primeira segunda-feira de maio foi acrescentada em 1978 pelo Primeiro-Ministro James Callaghan — como contraponto britânico ao Dia do Trabalho continental, sem a conotação socialista. Foi também símbolo político — o governo trabalhista quis homenagear os trabalhadores.",
+          "traditions": "O início de maio abre a temporada ao ar livre britânica. Populares são as ‘May Day Fairs', danças Morris (com sinos e bastões), a ‘May Queen' e, em algumas aldeias, danças à volta do mastro (‘Maypole'). Os pubs abrem as esplanadas; muitos fazem uma escapada ao campo ou à costa.",
+          "funFacts": [
+            "O ‘Bank Holidays Act' de 1871 deveu-se ao liberal Sir John Lubbock — os britânicos chamam-lhes carinhosamente ‘Saint Lubbock's Days'.",
+            "No ‘Padstow Obby Oss', na Cornualha, um ‘cavalo' dança pelas ruas — uma das mais antigas tradições populares de Inglaterra.",
+            "O mastro de maio não é só alemão: os britânicos praticam-no desde a Idade Média com danças de fitas.",
+            "Em 2020, o Early May Bank Holiday foi excecionalmente passado para sexta-feira — para o 75.º aniversário do Dia da Vitória na Europa (VE Day)."
+          ],
+          "imageCredit": "Foto: Philip Platt · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "O ‘Spring Bank Holiday', última segunda-feira de maio, é um dos feriados britânicos mais populares — anúncio do verão e início das férias escolares de meio de período.",
+          "history": "O dia substituiu em 1971 a tradicional Segunda-Feira de Pentecostes. Sendo Pentecostes data móvel, o governo quis um fim-de-semana longo fixo para férias escolares e turismo. Desde então é um dos três grandes feriados bancários estivais britânicos. Em 2022 o fim-de-semana coincidiu com o Jubileu de Platina da Rainha Isabel II — com um ‘Platinum Jubilee Bank Holiday' adicional na quinta-feira.",
+          "traditions": "O fim-de-semana prolongado é altura de muito turismo — as famílias britânicas vão à costa (Brighton, Cornualha, Lake District), e há festividades como o famoso ‘Cheese Rolling' em Cooper's Hill (Gloucestershire). O Chelsea Flower Show termina geralmente nesse fim-de-semana. Os pubs ficam cheios, os churrascos aparecem — quando o tempo, muitas vezes caprichoso, ajuda.",
+          "funFacts": [
+            "No ‘Cheese Rolling' de Cooper's Hill, um queijo Double-Gloucester de 4 kg rola pela colina — e centenas de corajosos correm atrás.",
+            "Em 2022, o ‘Platinum Jubilee' da Rainha acrescentou um Bank Holiday extra para um fim-de-semana de quatro dias.",
+            "Companhias ferroviárias e autoestradas britânicas preveem 30% mais tráfego.",
+            "O Spring Bank Holiday não é feriado legal na Escócia — lá há outro Bank Holiday na primeira segunda-feira de agosto."
+          ],
+          "imageCredit": "Foto: vastateparksstaff · CC BY 2.0 via Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "O ‘Summer Bank Holiday', última segunda-feira de agosto (na Escócia, primeira segunda-feira), marca o auge do verão britânico e o final das férias escolares.",
+          "history": "Como todos os feriados bancários britânicos, remonta à Bank Holidays Act de 1871. Originalmente era a primeira segunda-feira de agosto; em Inglaterra, País de Gales e Irlanda do Norte foi passado em 1971 para a última segunda-feira de agosto, para coincidir melhor com o final das férias escolares. A Escócia manteve a data original. Juntamente com o Spring Bank Holiday é um dos feriados ‘de praia' mais populares.",
+          "traditions": "O dia é marcado por grandes festivais: o famoso ‘Notting Hill Carnival' em Londres — a maior parada caribenha da Europa — transforma o fim-de-semana numa festa colorida com mais de 2 milhões de visitantes. Na Cornualha realizam-se competições de surf; o Festival de Edimburgo está a todo gás. As famílias planeiam as últimas excursões do verão.",
+          "funFacts": [
+            "O ‘Notting Hill Carnival' celebra desde 1966 a cultura caribenha-britânica — o seu auge é o desfile dos steel pans.",
+            "Num fim-de-semana ensolarado de Summer Bank Holiday, as praias britânicas batem regularmente recordes de afluência.",
+            "A Escócia mantém o feriado bancário estival mais cedo (início de agosto), porque o tempo é tipicamente melhor.",
+            "O Bank Holiday de agosto é o MAIS ANTIGO feriado bancário estatutário britânico — desde 1871."
+          ],
+          "imageCredit": "Foto: Philip Halling · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
+          "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
+          "traditions": "As famílias reúnem-se em refeições festivas — peru, ganso, bacalhau ou raclette nos países germânicos; em Portugal, o típico almoço de Natal com peru ou cabrito assado, e as sobremesas de bolo-rei, sonhos, rabanadas, aletria e arroz-doce. Trocam-se presentes, cantam-se cânticos, muitos vão à missa festiva. A árvore decorada e o presépio são símbolos centrais.",
+          "funFacts": [
+            "O primeiro calendário do Advento comercial apareceu em 1908 em Munique — invenção de Gerhard Lang.",
+            "Os mercados de Natal de Dresden (‘Striezelmarkt', desde 1434) e Frankfurt (desde 1393) estão entre os mais antigos do mundo.",
+            "A Noruega oferece ao Reino Unido um enorme abeto para Trafalgar Square todos os anos desde 1947 — em agradecimento pela ajuda na II Guerra.",
+            "Em Portugal, a tradição do bolo-rei remonta ao século XIX, importado da pastelaria francesa."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "O dia 26 de dezembro é conhecido no Reino Unido como ‘Boxing Day' e em muitos países prolonga as festividades natalícias. Em Portugal não é feriado oficial.",
+          "history": "O nome ‘Boxing Day' não vem do desporto — refere-se às caixas de donativos (‘Christmas boxes') das igrejas inglesas, abertas no dia seguinte ao Natal a favor dos pobres. Também o costume de oferecer pequenas caixas com dinheiro a empregados domésticos e carteiros a 26 de dezembro influenciou o nome. Na Alemanha, o dia é o ‘2.º dia de Natal' e está protegido por lei desde 1933. Em Portugal não é feriado, mas continua-se em ambiente natalício.",
+          "traditions": "No Reino Unido começa o tradicional futebol da Premier League, as corridas de obstáculos hípicos e os famosos ‘Boxing Day Sales' com grandes descontos. Na Alemanha come-se em abundância, visita-se mais família ou faz-se um longo passeio. Na Polónia e Chéquia há visitas e banquetes.",
+          "funFacts": [
+            "No Reino Unido, a tradicional caça à raposa realiza-se no Boxing Day desde 1860 — desde 2005 só como ‘drag hunt' sem raposa viva.",
+            "‘Boxing Day Sales' é o dia de maior faturação do comércio britânico — superior ao Black Friday.",
+            "Na Austrália, a regata Sydney–Hobart parte no Boxing Day, uma das mais duras provas de oceano do mundo.",
+            "Na Irlanda o dia chama-se ‘St. Stephen's Day' — com a antiga tradição dos ‘Wren Boys' que andam mascarados de porta em porta."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "new_year": {
+          "intro": "Il 1° gennaio segna l'inizio di un nuovo anno nel calendario gregoriano in tutto il mondo. Per molti è un giorno di speranza, di nuovi inizi e di buoni propositi.",
+          "history": "Già nel 153 a.C. i Romani fissarono l'inizio dell'anno al 1° gennaio, giorno dell'insediamento dei nuovi consoli. Nel Medioevo l'inizio dell'anno si spostò in molte regioni a Natale o Pasqua. Solo con la riforma del calendario di papa Gregorio XIII nel 1582 il 1° gennaio tornò ad imporsi come standard europeo. Il nome ‘gennaio' deriva dal dio romano Giano, che con due volti guardava contemporaneamente al passato e al futuro.",
+          "traditions": "A mezzanotte famiglie e amici brindano con spumante e festeggiano con fuochi d'artificio, portafortuna come quadrifogli, spazzacamini o coccinelle e la tradizionale colata di piombo (oggi di cera). Sono diffusi anche il brunch di Capodanno e la passeggiata all'aria aperta. Molti formulano buoni propositi per l'anno che inizia.",
+          "funFacts": [
+            "In Spagna si mangia un chicco d'uva a ogni rintocco delle dodici campane — un desiderio per chicco.",
+            "In Danimarca si rompono stoviglie davanti alle porte degli amici per portare loro fortuna.",
+            "Il Concerto di Capodanno di Vienna è trasmesso in oltre 90 paesi — apertura musicale dell'anno.",
+            "Sull'isola pacifica di Kiribati il Capodanno arriva 26 ore prima rispetto all'isola Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Il Venerdì Santo è il giorno di lutto più importante per i protestanti e ricorda la crocifissione di Gesù Cristo. In Germania è ‘giorno silenzioso' con norme particolari.",
+          "history": "Il Venerdì Santo è celebrato dai cristiani dal IV secolo. Il prefisso tedesco ‘Kar' deriva dall'antico alto tedesco ‘chara' (lamento, lutto). Presto si svilupparono tradizioni liturgiche: lettura della Passione, venerazione della croce, silenzio delle campane. La Riforma gli diede particolare risalto; nelle regioni luterane resta la festa più importante dell'anno liturgico.",
+          "traditions": "Molti cristiani partecipano alla Liturgia della Passione. Tradizionalmente è giorno di digiuno — si mangia pesce invece di carne. In Italia, soprattutto al Sud, ci sono solenni processioni con statue del Cristo morto, come la celebre ‘Processione dei Misteri' a Trapani. In Spagna spiccano le processioni delle confraternite, soprattutto a Siviglia.",
+          "funFacts": [
+            "In Germania il ‘Tanzverbot' (divieto di ballare) regola gli intrattenimenti pubblici — tema sociale ricorrente.",
+            "Bach compose la ‘Passione secondo Matteo' nel 1727 per i vespri del Venerdì Santo a Lipsia.",
+            "Alle Bermuda le famiglie fanno volare aquiloni di bambù e carta — tradizione cristiana unica.",
+            "In Spagna il ‘Viernes Santo' è famoso per le maestose processioni delle confraternite, in particolare a Siviglia."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Il Lunedì dell'Angelo è il secondo giorno di Pasqua e festivo nella maggior parte dei paesi europei. Chiude la festa più importante del cristianesimo.",
+          "history": "La Pasqua è la festa più antica del cristianesimo e celebra la resurrezione di Gesù Cristo il terzo giorno. Il Concilio di Nicea nel 325 fissò la Pasqua alla prima domenica dopo il primo plenilunio di primavera. Il Lunedì dell'Angelo si celebra dall'alto Medioevo — originariamente era festiva l'intera ottava di Pasqua. In Italia il Lunedì dell'Angelo (Pasquetta) è giorno di gite ed è festivo nazionale.",
+          "traditions": "In Italia ‘Natale con i tuoi, Pasquetta con chi vuoi': la tradizione vuole pic-nic in campagna o gite fuori porta con grigliata. Le famiglie cercano insieme le uova di Pasqua, fanno colazione abbondante o la classica passeggiata pasquale. In Polonia si celebra ‘Śmigus-Dyngus': i ragazzi spruzzano acqua sulle ragazze.",
+          "funFacts": [
+            "L'usanza della caccia alle uova fu menzionata per la prima volta da Martin Lutero, che voleva divertire i suoi figli.",
+            "Il più grande uovo di cioccolato del mondo (8,5 m, 4 t) fu fatto in Argentina ed è nel Guinness.",
+            "In Svezia i bambini si vestono da ‘Påskkärringar' — piccole streghe — il Sabato Santo e fanno il porta a porta.",
+            "Il coniglio pasquale come portatore di uova fu menzionato per iscritto la prima volta nel 1682 dal medico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "L'‘Early May Bank Holiday', primo lunedì di maggio, è uno dei tanti festivi bancari britannici — un benvenuto ponte primaverile.",
+          "history": "I festivi bancari furono introdotti nel Regno Unito con il Bankers' Holidays Act del 1871 — inizialmente per gli impiegati bancari, poi per tutta la popolazione. Il primo lunedì di maggio fu aggiunto nel 1978 dal Primo Ministro James Callaghan — come contrappunto britannico alla Festa del Lavoro continentale, senza la connotazione socialista. Era anche un simbolo politico — il governo laburista voleva onorare i lavoratori.",
+          "traditions": "Inizio maggio apre la stagione all'aperto britannica. Popolari le ‘May Day Fairs', i Morris dances (con campanelli e bastoni), l'incoronazione della ‘May Queen' e in alcuni villaggi i balli intorno al palo (‘Maypole'). I pub aprono i giardini esterni; molti fanno una breve gita in campagna o al mare.",
+          "funFacts": [
+            "Il ‘Bank Holidays Act' del 1871 fu promosso dal liberale Sir John Lubbock — i britannici lo chiamarono affettuosamente ‘Saint Lubbock's Days'.",
+            "Al ‘Padstow Obby Oss' in Cornovaglia un ‘cavallo' danza per le strade — una delle più antiche usanze popolari d'Inghilterra.",
+            "Il palo di maggio non è solo tedesco: i britannici lo praticano dal Medioevo con balli a nastro.",
+            "Nel 2020 l'Early May Bank Holiday fu eccezionalmente spostato al venerdì per il 75° anniversario del VE Day."
+          ],
+          "imageCredit": "Foto: Philip Platt · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "Lo ‘Spring Bank Holiday', ultimo lunedì di maggio, è uno dei festivi britannici più popolari — preludio dell'estate e inizio delle vacanze scolastiche di metà semestre.",
+          "history": "Il giorno sostituì nel 1971 il tradizionale Lunedì di Pentecoste. Essendo Pentecoste a data mobile, il governo voleva un weekend lungo fisso per le vacanze scolastiche e il turismo. Da allora è uno dei tre grandi festivi bancari estivi britannici. Nel 2022 il weekend lungo coincise col Giubileo di Platino della Regina Elisabetta II — con un ‘Platinum Jubilee Bank Holiday' aggiuntivo il giovedì.",
+          "traditions": "Il weekend lungo è alta stagione di viaggi — le famiglie britanniche partono per la costa (Brighton, Cornovaglia, Lake District), e si tengono festeggiamenti come il celebre ‘Cheese Rolling' a Cooper's Hill (Gloucestershire). Il Chelsea Flower Show si chiude di solito quel weekend. Pub pieni, grigliate accese — quando il tempo spesso capriccioso lo permette.",
+          "funFacts": [
+            "Al ‘Cheese Rolling' di Cooper's Hill, una forma di Doppio Gloucester di 4 kg rotola giù — e centinaia di temerari le corrono dietro.",
+            "Nel 2022 il ‘Platinum Jubilee' della Regina aggiunse un Bank Holiday extra per un weekend di quattro giorni.",
+            "Le compagnie ferroviarie e autostradali britanniche prevedono un traffico maggiore del 30%.",
+            "Lo Spring Bank Holiday non è festivo legale in Scozia — c'è un altro Bank Holiday il primo lunedì di agosto."
+          ],
+          "imageCredit": "Foto: vastateparksstaff · CC BY 2.0 via Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "Il ‘Summer Bank Holiday', ultimo lunedì di agosto (in Scozia, primo lunedì), segna il culmine della stagione estiva britannica e la fine delle vacanze scolastiche.",
+          "history": "Come tutti i festivi bancari britannici, risale al Bank Holidays Act del 1871. Originariamente era il primo lunedì di agosto; nel 1971 in Inghilterra, Galles e Irlanda del Nord fu spostato all'ultimo lunedì di agosto, per coincidere meglio con la fine delle vacanze scolastiche. La Scozia ha mantenuto la data originale. Insieme allo Spring Bank Holiday è uno dei festivi ‘da spiaggia' più popolari dell'anno.",
+          "traditions": "Il giorno è caratterizzato da grandi festival: il famoso ‘Notting Hill Carnival' a Londra — la più grande parata caraibica d'Europa — trasforma il lungo weekend in una festa colorata con oltre 2 milioni di visitatori. In Cornovaglia si svolgono gare di surf, il Festival di Edimburgo è in pieno svolgimento. Le famiglie pianificano le ultime escursioni estive.",
+          "funFacts": [
+            "Il ‘Notting Hill Carnival' celebra dal 1966 la cultura caraibica-britannica — il suo culmine è la sfilata degli steel pan.",
+            "In un weekend del Summer Bank Holiday soleggiato, le spiagge britanniche battono regolarmente i record di affluenza.",
+            "La Scozia mantiene il festivo bancario estivo in anticipo (inizio agosto), perché il tempo è tipicamente migliore.",
+            "Il Bank Holiday di agosto è il PIÙ ANTICO festivo bancario statutario britannico — dal 1871."
+          ],
+          "imageCredit": "Foto: Philip Halling · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
+          "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
+          "traditions": "Le famiglie si riuniscono per pasti festosi — tacchino, oca, carpa o raclette al nord; pranzo natalizio con tortellini in brodo, lasagne, capponi e panettone in Italia. Si scambiano regali, si cantano canti natalizi, molti partecipano alla messa festiva. L'albero decorato e il presepe sono i simboli centrali. Calendario dell'Avvento, biscotti e mercatini scandiscono la preparazione.",
+          "funFacts": [
+            "Il primo calendario dell'Avvento commerciale apparve nel 1908 a Monaco — invenzione di Gerhard Lang.",
+            "I mercatini di Natale di Dresda (‘Striezelmarkt', dal 1434) e Francoforte (dal 1393) sono tra i più antichi al mondo.",
+            "La Norvegia regala al Regno Unito un enorme albero di Natale per Trafalgar Square ogni anno dal 1947 — come ringraziamento per l'aiuto nella Seconda Guerra Mondiale.",
+            "Il panettone milanese e il pandoro veronese sono i due dolci natalizi italiani per eccellenza."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Il 26 dicembre è noto nel Regno Unito come ‘Boxing Day' e in molti paesi prolunga le vacanze natalizie. In Italia è Santo Stefano.",
+          "history": "Il nome ‘Boxing Day' non viene dallo sport — deriva dalle cassette delle offerte (‘Christmas boxes') delle chiese inglesi, aperte il giorno dopo Natale per i poveri. Anche l'usanza di regalare piccole scatole con denaro a domestici e postini il 26 dicembre influenzò il nome. In Italia il giorno è dedicato a Santo Stefano, primo martire cristiano. È festivo nazionale dal 1947.",
+          "traditions": "Nel Regno Unito iniziano le partite di Premier League, le corse di siepi e i famosi ‘Boxing Day Sales' con grandi sconti. In Italia si pranza con la famiglia (avanzi del giorno prima riadattati con creatività), si visitano parenti o si fa una lunga passeggiata. In Polonia e Repubblica Ceca ci sono visite e banchetti.",
+          "funFacts": [
+            "Nel Regno Unito la tradizionale caccia alla volpe si tiene il Boxing Day dal 1860 — dal 2005 solo come ‘drag hunt' senza volpe viva.",
+            "I ‘Boxing Day Sales' sono il giorno di maggior fatturato del commercio britannico — più del Black Friday.",
+            "In Australia il 26 dicembre parte la regata Sydney–Hobart, una delle più dure d'altura al mondo.",
+            "In Irlanda il giorno si chiama ‘St. Stephen's Day' — con l'antica tradizione dei ‘Wren Boys' che vanno mascherati di porta in porta."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "new_year": {
+          "intro": "1 stycznia oznacza początek nowego roku w kalendarzu gregoriańskim na całym świecie. Dla wielu jest to dzień nadziei, nowych początków i postanowień.",
+          "history": "Już w 153 r. p.n.e. Rzymianie ustalili początek roku na 1 stycznia, dzień objęcia urzędu nowych konsulów. W średniowieczu początek roku w wielu regionach przesunięto na Boże Narodzenie lub Wielkanoc. Dopiero reforma kalendarza papieża Grzegorza XIII w 1582 roku przywróciła 1 stycznia jako europejski standard. Nazwa miesiąca pochodzi od rzymskiego boga Janusa, który dwiema twarzami spoglądał jednocześnie w przeszłość i przyszłość.",
+          "traditions": "O północy rodziny i przyjaciele wznoszą toast szampanem i świętują przejście do nowego roku fajerwerkami, talizmanami szczęścia (czterolistna koniczyna, kominiarz, biedronka) oraz tradycyjnym lanym ołowiem (dziś woskiem). Popularne są noworoczne brunche i spacery. Wielu składa noworoczne postanowienia.",
+          "funFacts": [
+            "W Hiszpanii zjada się winogronko z każdym z dwunastu uderzeń zegara — życzenie na każde winogronko.",
+            "W Danii rozbija się stare naczynia przed drzwiami przyjaciół, aby przyniosło im to szczęście.",
+            "Wiedeński Koncert Noworoczny transmitowany jest w ponad 90 krajach — muzyczne otwarcie roku.",
+            "Na Pacyficznej wyspie Kiribati Nowy Rok zaczyna się 26 godzin wcześniej niż na wyspie Howland."
+          ],
+          "imageCredit": "Zdjęcie: Vyacheslav Argenberg · CC BY 4.0 przez Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Wielki Piątek to dzień największej żałoby w protestantyzmie i upamiętnia ukrzyżowanie Jezusa Chrystusa. W Polsce nie jest dniem wolnym, ale ma głęboki wymiar religijny.",
+          "history": "Wielki Piątek obchodzony jest przez chrześcijan od IV wieku. Wcześnie rozwinęły się tradycje liturgiczne: czytanie Pasji, adoracja krzyża, milczenie dzwonów. Reformacja nadała mu szczególne znaczenie; w regionach luterańskich pozostaje najważniejszym dniem roku liturgicznego. W Polsce katolickie tradycje obejmują Drogę Krzyżową, adorację krzyża i święcenie pokarmów w Wielką Sobotę.",
+          "traditions": "Wierni uczestniczą w Liturgii Męki Pańskiej, adorują krzyż i odprawiają Drogę Krzyżową — w Polsce słynne są kalwarie (Kalwaria Zebrzydowska, Wejherowska). Tradycyjnie jest to dzień postu — je się ryby zamiast mięsa. W niektórych regionach Niemiec organizowane są procesje pasyjne, a w Hiszpanii słynne procesje bractw, np. w Sewilli.",
+          "funFacts": [
+            "W Niemczech ‘Tanzverbot' (zakaz tańczenia) reguluje publiczne rozrywki w Wielki Piątek — tematyka regularnie wraca w debacie publicznej.",
+            "Bach skomponował Pasję według św. Mateusza w 1727 roku na nieszpory wielkopiątkowe w Lipsku.",
+            "Na Bermudach rodziny puszczają w Wielki Piątek samodzielnie zrobione latawce z bambusa i papieru — unikalna chrześcijańska tradycja.",
+            "W Polsce Misterium Męki Pańskiej w Kalwarii Zebrzydowskiej wpisane jest na listę UNESCO."
+          ],
+          "imageCredit": "Zdjęcie: Pietro Perugino · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Poniedziałek Wielkanocny (Lany Poniedziałek, Śmigus-Dyngus) to drugi dzień Wielkanocy i dzień wolny w większości krajów europejskich. W Polsce słynie z tradycji oblewania wodą.",
+          "history": "Wielkanoc to najstarsze święto chrześcijaństwa i upamiętnia zmartwychwstanie Jezusa Chrystusa trzeciego dnia po jego śmierci. Sobór Nicejski w 325 roku ustalił datę Wielkanocy na pierwszą niedzielę po pierwszej wiosennej pełni księżyca. Poniedziałek Wielkanocny obchodzony jest od wczesnego średniowiecza — pierwotnie cały tydzień wielkanocny był wolny. W Polsce zachowała się żywa tradycja Śmigusa-Dyngusa, sięgająca XV wieku.",
+          "traditions": "W Polsce Lany Poniedziałek (Śmigus-Dyngus) to dzień, w którym chłopcy oblewają dziewczęta wodą — tradycyjnie symbolizująca oczyszczenie i płodność. Rodziny szukają jajek wielkanocnych, jedzą śniadanie z kiełbasą, jajkami, chrzanem, mazurkiem i babką. W niektórych regionach (np. Beskid Żywiecki) chodzą ‘śmigustnicy' w przebraniach.",
+          "funFacts": [
+            "Zwyczaj poszukiwania jajek wzmiankował po raz pierwszy Marcin Luter — chciał ucieszyć swoje dzieci.",
+            "Największe czekoladowe jajko świata stało w Argentynie (8,5 m wysokości, 4 t) — wpisane do Księgi Guinnessa.",
+            "Polski Śmigus-Dyngus ma korzenie w słowiańskim święcie wiosennym — woda symbolizowała oczyszczenie i płodność.",
+            "W Czechach chłopcy biją dziewczyny rózgami z wierzby (‘pomlázka') — niby boleśnie, ale dla zdrowia i urody."
+          ],
+          "imageCredit": "Zdjęcie: Georgi Kirichkov · CC BY-SA 3.0 przez Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "‘Early May Bank Holiday', pierwszy poniedziałek maja, to jedno z wielu brytyjskich świąt bankowych — mile widziany wiosenny długi weekend.",
+          "history": "Święta bankowe wprowadzono w Wielkiej Brytanii ustawą Bankers' Holidays Act z 1871 roku — pierwotnie jako dni wolne dla pracowników banków, później dla całej ludności. Pierwszy poniedziałek maja dodano w 1978 roku przez premiera Jamesa Callaghana — jako brytyjski odpowiednik kontynentalnego Święta Pracy, bez socjalistycznej konotacji. Był to też symbol polityczny — rząd laburzystowski chciał uhonorować pracowników.",
+          "traditions": "Początek maja otwiera brytyjski sezon na świeżym powietrzu. Popularne są ‘May Day Fairs', tańce Morris (tradycyjne tańce ludowe z dzwonkami i kijami), koronacja ‘May Queen' i w niektórych wsiach tańce wokół majowego słupa (‘Maypole'). Puby otwierają ogródki, wielu wybiera się na krótki wypad na wieś lub nad morze.",
+          "funFacts": [
+            "‘Bank Holidays Act' z 1871 promował liberał Sir John Lubbock — Brytyjczycy nazwali je z wdzięcznością ‘Saint Lubbock's Days'.",
+            "Na ‘Padstow Obby Oss' w Kornwalii ‘koń' tańczy ulicami — jeden z najstarszych zwyczajów ludowych Anglii.",
+            "Słup majowy nie jest tylko niemiecki: Brytyjczycy mają go od średniowiecza, z tańcami ze wstążkami.",
+            "W 2020 roku Early May Bank Holiday wyjątkowo przesunięto na piątek — z okazji 75. rocznicy VE Day (Zwycięstwo w Europie)."
+          ],
+          "imageCredit": "Zdjęcie: Philip Platt · CC BY-SA 2.0 przez Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "‘Spring Bank Holiday', ostatni poniedziałek maja, to jedno z najpopularniejszych brytyjskich świąt bankowych — zapowiedź lata i początek wakacji szkolnych ‘half-term'.",
+          "history": "Dzień zastąpił w 1971 roku tradycyjny Poniedziałek Zielonoświątkowy. Ponieważ Pięćdziesiątnica jest datą ruchomą, rząd chciał stałego długiego weekendu dla wakacji szkolnych i turystyki. Od tego czasu jest to jedno z trzech wielkich brytyjskich letnich świąt bankowych. W 2022 roku długi weekend zbiegł się z Platynowym Jubileuszem królowej Elżbiety II — z dodatkowym ‘Platinum Jubilee Bank Holiday' w czwartek.",
+          "traditions": "Długi weekend to szczyt sezonu podróży — brytyjskie rodziny jadą nad morze (Brighton, Kornwalia, Lake District), odbywają się festyny jak słynne ‘Cheese Rolling' na Cooper's Hill (Gloucestershire). Chelsea Flower Show zwykle kończy się tego weekendu. Puby pełne, grille rozpalone — kiedy często kapryśna pogoda pozwala.",
+          "funFacts": [
+            "Na ‘Cheese Rolling' na Cooper's Hill 4-kilogramowy ser Double-Gloucester toczy się ze wzgórza — setki śmiałków biegnie za nim.",
+            "W 2022 roku ‘Platinum Jubilee' królowej dodał dodatkowy Bank Holiday dla czterodniowego weekendu.",
+            "Brytyjskie spółki kolejowe i autostradowe spodziewają się 30% wyższego natężenia ruchu.",
+            "Spring Bank Holiday nie jest świętem ustawowym w Szkocji — tam jest inny Bank Holiday w pierwszy poniedziałek sierpnia."
+          ],
+          "imageCredit": "Zdjęcie: vastateparksstaff · CC BY 2.0 przez Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "‘Summer Bank Holiday', ostatni poniedziałek sierpnia (w Szkocji pierwszy poniedziałek), znaczy szczyt brytyjskiego lata i koniec wakacji szkolnych.",
+          "history": "Jak wszystkie brytyjskie święta bankowe, sięga Bank Holidays Act z 1871 roku. Pierwotnie był to pierwszy poniedziałek sierpnia; w Anglii, Walii i Irlandii Północnej w 1971 roku przeniesiono go na ostatni poniedziałek sierpnia, by lepiej zbiegał się z końcem wakacji szkolnych. Szkocja zachowała pierwotną datę. Wraz ze Spring Bank Holiday jest to jedno z najpopularniejszych ‘plażowych' świąt roku.",
+          "traditions": "Dzień stoi pod znakiem wielkich festiwali: słynny ‘Notting Hill Carnival' w Londynie — największa karaibska parada Europy — zamienia długi weekend w kolorową imprezę z ponad 2 milionami zwiedzających. W Kornwalii odbywają się zawody surfingu, festiwal w Edynburgu jest w pełni. Rodziny planują ostatnie letnie wycieczki.",
+          "funFacts": [
+            "‘Notting Hill Carnival' świętuje od 1966 roku karaibsko-brytyjską kulturę — punktem kulminacyjnym jest parada steel pan.",
+            "W słoneczne weekendy Summer Bank Holiday brytyjskie plaże regularnie biją rekordy frekwencji.",
+            "Szkocja celowo zachowuje letnie święto bankowe wcześniej (początek sierpnia), bo pogoda jest typowo lepsza.",
+            "Sierpniowy Bank Holiday to NAJSTARSZE brytyjskie ustawowe święto bankowe — od 1871 roku."
+          ],
+          "imageCredit": "Zdjęcie: Philip Halling · CC BY-SA 2.0 przez Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
+          "history": "Już w 354 roku 25 grudnia odnotowany jest jako ‘dies natalis Christi' w rzymskim kalendarzu. Kościół wybrał tę datę prawdopodobnie po to, by chrześcijańsko zinterpretować rzymskie święto ‘Sol Invictus'. Tradycja prezentów ma korzenie w darach Trzech Mędrców. Współczesny Święty Mikołaj w czerwonym płaszczu i z białą brodą to mieszanka św. Mikołaja i kampanii reklamowej Coca-Coli z 1931 roku.",
+          "traditions": "W Polsce Boże Narodzenie obchodzi się przez dwa dni (25 i 26 grudnia). Rodziny zbierają się na obfitym obiedzie — często rosół z makaronem, schab, indyk, sałatka jarzynowa, makowiec, sernik. Wymienia się prezenty (w Polsce zwykle wręczane już w Wigilię), śpiewa kolędy, wielu uczestniczy w nabożeństwach. Choinka i szopka są centralnymi symbolami.",
+          "funFacts": [
+            "Pierwszy komercyjny kalendarz adwentowy ukazał się w 1908 roku w Monachium — wynalazek Gerharda Langa.",
+            "Polskie kolędy — m.in. ‘Wśród nocnej ciszy', ‘Bóg się rodzi', ‘Lulajże, Jezuniu' — uchodzą za jedne z najpiękniejszych na świecie.",
+            "Norwegia podarowuje Wielkiej Brytanii corocznie od 1947 roku ogromną choinkę na Trafalgar Square — w podzięce za pomoc w II wojnie światowej.",
+            "Tradycja choinki dotarła do Polski z Niemiec na początku XIX wieku, a powszechna stała się po 1830 roku."
+          ],
+          "imageCredit": "Zdjęcie: Chris Olszewski · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "26 grudnia znany jest w Wielkiej Brytanii jako ‘Boxing Day', a w wielu krajach przedłuża święta Bożego Narodzenia. W Polsce to drugi dzień świąt — Święty Szczepan.",
+          "history": "Nazwa ‘Boxing Day' nie pochodzi od sportu — odnosi się do skarbon (‘Christmas boxes') w angielskich kościołach, otwieranych następnego dnia po Bożym Narodzeniu na rzecz biednych. Także zwyczaj wręczania służbie i listonoszom drobnych pudełek z pieniędzmi 26 grudnia ukształtował nazwę. W Polsce dzień ten jest świętem Świętego Szczepana, pierwszego męczennika chrześcijańskiego. Jest dniem wolnym od pracy.",
+          "traditions": "W Polsce drugi dzień świąt to tradycyjnie czas odwiedzin u dalszej rodziny i przyjaciół, dzielenie się opłatkiem (jeśli nie zostało zrobione w Wigilię) oraz wspólne posiłki. W Wielkiej Brytanii zaczynają się tradycyjne mecze Premier League, biegi z przeszkodami i słynne ‘Boxing Day Sales' z ogromnymi wyprzedażami.",
+          "funFacts": [
+            "W Wielkiej Brytanii tradycyjne polowanie na lisa odbywa się w Boxing Day od 1860 roku — od 2005 roku tylko jako ‘drag hunt' bez żywego lisa.",
+            "‘Boxing Day Sales' to dzień największej sprzedaży detalicznej w Wielkiej Brytanii — większy nawet niż Black Friday.",
+            "W Australii w Boxing Day rusza regata Sydney–Hobart, jedna z najtrudniejszych regat oceanicznych świata.",
+            "W Irlandii dzień nazywa się ‘St. Stephen's Day' — z dawną tradycją ‘Wren Boys' chodzących przebranych od domu do domu."
+          ],
+          "imageCredit": "Zdjęcie: Bim24 · CC0 przez Wikimedia Commons"
+        }
+      }
+    }
+  },
+  "images": {
+    "new_year": [
+      {
+        "path": "images/new_year/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "good_friday": [
+      {
+        "path": "images/good_friday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "easter_monday": [
+      {
+        "path": "images/easter_monday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      }
+    ],
+    "early_may_bank_holiday": [
+      {
+        "path": "images/GB/early_may_bank_holiday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/GB/early_may_bank_holiday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/GB/early_may_bank_holiday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "spring_bank_holiday": [
+      {
+        "path": "images/GB/spring_bank_holiday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/GB/spring_bank_holiday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/GB/spring_bank_holiday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "summer_bank_holiday": [
+      {
+        "path": "images/GB/summer_bank_holiday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/GB/summer_bank_holiday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/GB/summer_bank_holiday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas": [
+      {
+        "path": "images/christmas/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "boxing_day": [
+      {
+        "path": "images/boxing_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/boxing_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/boxing_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  }
+}
