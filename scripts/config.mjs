@@ -120,9 +120,6 @@ export const PRECOMPUTE_YEARS = 10;
 export const SOURCES = {
   nagerDate: (year, cc) => `https://date.nager.at/api/v3/PublicHolidays/${year}/${cc}`,
   openHolidays: 'https://openholidaysapi.org',
-  // Calendarific requires an API key (set CALENDARIFIC_API_KEY in CI secrets).
-  calendarific: (year, cc, key) =>
-    `https://calendarific.com/api/v2/holidays?api_key=${key}&country=${cc}&year=${year}`,
   // abalin namedays: V2/date returns all countries for a given day at once.
   abalinDate: (day, month) =>
     `https://nameday.abalin.net/api/V2/date?day=${day}&month=${month}`,
