@@ -32,7 +32,7 @@ export const NAMEDAY_COUNTRIES = [
 ];
 
 /** Locales we try to provide i18n strings for. */
-export const LOCALES = ['de', 'en', 'fr', 'es', 'pt', 'it', 'pl'];
+export const LOCALES = ['de', 'en', 'fr', 'es', 'pt', 'it', 'pl', 'nl', 'sv', 'ja', 'ko', 'zh-Hant'];
 
 /**
  * Maps a country to the locale of its `localName` field from Nager.Date.

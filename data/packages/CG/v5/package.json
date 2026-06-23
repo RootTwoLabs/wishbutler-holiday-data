@@ -153,10 +153,80 @@
       },
       "fr": {
         "easter_sunday": "Dimanche de Pâques",
-        "reconciliation_day": "Fête de la Réconciliation",
-        "national_day": "Fête Nationale",
+        "reconciliation_day": "Journée de réconciliation",
+        "national_day": "Fête nationale",
         "all_saints_day": "Toussaint",
-        "republic_day": "Jour de la République"
+        "republic_day": "Fête de la République"
+      },
+      "de": {
+        "easter_sunday": "Ostersonntag",
+        "reconciliation_day": "Tag der Versöhnung",
+        "national_day": "Nationalfeiertag",
+        "all_saints_day": "Allerheiligen",
+        "republic_day": "Tag der Republik"
+      },
+      "es": {
+        "easter_sunday": "Domingo de Pascua",
+        "reconciliation_day": "Día de la Reconciliación",
+        "national_day": "Día Nacional",
+        "all_saints_day": "Día de Todos los Santos",
+        "republic_day": "Día de la República"
+      },
+      "pt": {
+        "easter_sunday": "Domingo de Páscoa",
+        "reconciliation_day": "Dia da Reconciliação",
+        "national_day": "Dia Nacional",
+        "all_saints_day": "Dia de Todos os Santos",
+        "republic_day": "Dia da República"
+      },
+      "it": {
+        "easter_sunday": "Domenica di Pasqua",
+        "reconciliation_day": "Giornata della riconciliazione",
+        "national_day": "Festa nazionale",
+        "all_saints_day": "Giorno di Ognissanti",
+        "republic_day": "Festa della Repubblica"
+      },
+      "pl": {
+        "easter_sunday": "Niedziela Wielkanocna",
+        "reconciliation_day": "Dzień Pojednania",
+        "national_day": "Święto Narodowe",
+        "all_saints_day": "Wszystkich Świętych",
+        "republic_day": "Dzień Republiki"
+      },
+      "nl": {
+        "easter_sunday": "Paaszondag",
+        "reconciliation_day": "Verzoeningsdag",
+        "national_day": "Nationale feestdag",
+        "all_saints_day": "Allerheiligen",
+        "republic_day": "Dag van de Republiek"
+      },
+      "sv": {
+        "easter_sunday": "Påskdagen",
+        "reconciliation_day": "Försoningsdagen",
+        "national_day": "Nationaldagen",
+        "all_saints_day": "Alla helgons dag",
+        "republic_day": "Republikens dag"
+      },
+      "ja": {
+        "easter_sunday": "イースターサンデー",
+        "reconciliation_day": "和解の日",
+        "national_day": "建国記念日",
+        "all_saints_day": "諸聖人の日",
+        "republic_day": "共和国記念日"
+      },
+      "ko": {
+        "easter_sunday": "부활절 일요일",
+        "reconciliation_day": "화해의 날",
+        "national_day": "국경일",
+        "all_saints_day": "만성절",
+        "republic_day": "공화국의 날"
+      },
+      "zh-Hant": {
+        "easter_sunday": "復活節週日",
+        "reconciliation_day": "和解日",
+        "national_day": "國慶",
+        "all_saints_day": "萬聖節",
+        "republic_day": "共和國日"
       }
     },
     "holidayInfo": {

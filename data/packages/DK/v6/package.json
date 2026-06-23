@@ -194,6 +194,94 @@
         "pentecost": "Pinsedag",
         "constitution_day": "Grundlovsdag",
         "christmas_eve": "Juleaftensdag"
+      },
+      "de": {
+        "maundy_thursday": "Gründonnerstag",
+        "easter_sunday": "Ostersonntag",
+        "bank_closing_day": "Bankschlusstag",
+        "pentecost": "Pfingsten",
+        "constitution_day": "Tag der Verfassung",
+        "christmas_eve": "Heiligabend"
+      },
+      "fr": {
+        "maundy_thursday": "Jeudi Saint",
+        "easter_sunday": "Dimanche de Pâques",
+        "bank_closing_day": "Jour de fermeture de la banque",
+        "pentecost": "Pentecôte",
+        "constitution_day": "Jour de la Constitution",
+        "christmas_eve": "La veille de Noël"
+      },
+      "es": {
+        "maundy_thursday": "Jueves Santo",
+        "easter_sunday": "Domingo de Pascua",
+        "bank_closing_day": "Día de cierre del banco",
+        "pentecost": "Pentecostés",
+        "constitution_day": "Día de la Constitución",
+        "christmas_eve": "Nochebuena"
+      },
+      "pt": {
+        "maundy_thursday": "Quinta-feira Santa",
+        "easter_sunday": "Domingo de Páscoa",
+        "bank_closing_day": "Dia de encerramento do banco",
+        "pentecost": "Pentecostes",
+        "constitution_day": "Dia da Constituição",
+        "christmas_eve": "Véspera de Natal"
+      },
+      "it": {
+        "maundy_thursday": "Giovedì Santo",
+        "easter_sunday": "Domenica di Pasqua",
+        "bank_closing_day": "Giorno di chiusura della banca",
+        "pentecost": "Pentecoste",
+        "constitution_day": "Giorno della Costituzione",
+        "christmas_eve": "Vigilia di Natale"
+      },
+      "pl": {
+        "maundy_thursday": "Wielki Czwartek",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "bank_closing_day": "Dzień zamknięcia banku",
+        "pentecost": "Zesłanie Ducha Świętego",
+        "constitution_day": "Święto Konstytucji",
+        "christmas_eve": "Wigilia"
+      },
+      "nl": {
+        "maundy_thursday": "Witte Donderdag",
+        "easter_sunday": "Paaszondag",
+        "bank_closing_day": "Sluitingsdag van de bank",
+        "pentecost": "Pinksteren",
+        "constitution_day": "Dag van de Grondwet",
+        "christmas_eve": "Kerstavond"
+      },
+      "sv": {
+        "maundy_thursday": "Skärtorsdag",
+        "easter_sunday": "Påskdagen",
+        "bank_closing_day": "Bankstängningsdag",
+        "pentecost": "Pingst",
+        "constitution_day": "Konstitutionsdagen",
+        "christmas_eve": "Julafton"
+      },
+      "ja": {
+        "maundy_thursday": "聖木曜日",
+        "easter_sunday": "イースターサンデー",
+        "bank_closing_day": "銀行休業日",
+        "pentecost": "ペンテコステ",
+        "constitution_day": "憲法記念日",
+        "christmas_eve": "クリスマスイブ"
+      },
+      "ko": {
+        "maundy_thursday": "성 목요일",
+        "easter_sunday": "부활절 일요일",
+        "bank_closing_day": "은행 마감일",
+        "pentecost": "오순절",
+        "constitution_day": "제헌절",
+        "christmas_eve": "크리스마스 이브"
+      },
+      "zh-Hant": {
+        "maundy_thursday": "濯足節",
+        "easter_sunday": "復活節週日",
+        "bank_closing_day": "銀行休息日",
+        "pentecost": "五旬節",
+        "constitution_day": "憲法日",
+        "christmas_eve": "平安夜"
       }
     },
     "holidayInfo": {

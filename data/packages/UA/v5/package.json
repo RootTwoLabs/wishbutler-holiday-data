@@ -187,6 +187,116 @@
         "statehood_day": "День Української Державності",
         "independence_day": "День Незалежності",
         "defender_of_ukraine_day": "День захисників і захисниць України"
+      },
+      "de": {
+        "easter_sunday": "Ostersonntag",
+        "international_workers_day": "Internationaler Tag der Arbeit",
+        "victory_day_over_nazism_in_world_war_ii": "Tag des Sieges über den Nationalsozialismus im Zweiten Weltkrieg",
+        "pentecost": "Pfingsten",
+        "constitution_day": "Tag der Verfassung",
+        "statehood_day": "Tag der Eigenstaatlichkeit",
+        "independence_day": "Unabhängigkeitstag",
+        "defender_of_ukraine_day": "Tag des Verteidigers der Ukraine"
+      },
+      "fr": {
+        "easter_sunday": "Dimanche de Pâques",
+        "international_workers_day": "Journée internationale des travailleurs",
+        "victory_day_over_nazism_in_world_war_ii": "Jour de la victoire sur le nazisme pendant la Seconde Guerre mondiale",
+        "pentecost": "Pentecôte",
+        "constitution_day": "Jour de la Constitution",
+        "statehood_day": "Journée de l'État",
+        "independence_day": "Jour de l'Indépendance",
+        "defender_of_ukraine_day": "Journée du défenseur de l'Ukraine"
+      },
+      "es": {
+        "easter_sunday": "Domingo de Pascua",
+        "international_workers_day": "Día Internacional de los Trabajadores",
+        "victory_day_over_nazism_in_world_war_ii": "Día de la victoria sobre el nazismo en la Segunda Guerra Mundial",
+        "pentecost": "Pentecostés",
+        "constitution_day": "Día de la Constitución",
+        "statehood_day": "Día de la Estadidad",
+        "independence_day": "Día de la Independencia",
+        "defender_of_ukraine_day": "Día del Defensor de Ucrania"
+      },
+      "pt": {
+        "easter_sunday": "Domingo de Páscoa",
+        "international_workers_day": "Dia Internacional do Trabalhador",
+        "victory_day_over_nazism_in_world_war_ii": "Dia da vitória sobre o nazismo na II Guerra Mundial",
+        "pentecost": "Pentecostes",
+        "constitution_day": "Dia da Constituição",
+        "statehood_day": "Dia do Estado",
+        "independence_day": "Dia da Independência",
+        "defender_of_ukraine_day": "Dia do Defensor da Ucrânia"
+      },
+      "it": {
+        "easter_sunday": "Domenica di Pasqua",
+        "international_workers_day": "Giornata internazionale dei lavoratori",
+        "victory_day_over_nazism_in_world_war_ii": "Giorno della vittoria sul nazismo nella seconda guerra mondiale",
+        "pentecost": "Pentecoste",
+        "constitution_day": "Giorno della Costituzione",
+        "statehood_day": "Giornata dello Stato",
+        "independence_day": "Giorno dell'Indipendenza",
+        "defender_of_ukraine_day": "Giornata dei difensori dell'Ucraina"
+      },
+      "pl": {
+        "easter_sunday": "Niedziela Wielkanocna",
+        "international_workers_day": "Międzynarodowy Dzień Pracy",
+        "victory_day_over_nazism_in_world_war_ii": "Dzień zwycięstwa nad nazizmem podczas II wojny światowej",
+        "pentecost": "Zesłanie Ducha Świętego",
+        "constitution_day": "Święto Konstytucji",
+        "statehood_day": "Dzień Państwowości",
+        "independence_day": "Święto Niepodległości",
+        "defender_of_ukraine_day": "Dzień Obrońcy Ukrainy"
+      },
+      "nl": {
+        "easter_sunday": "Paaszondag",
+        "international_workers_day": "Internationale Dag van de Arbeid",
+        "victory_day_over_nazism_in_world_war_ii": "Dag van de overwinning op het nazisme in de Tweede Wereldoorlog",
+        "pentecost": "Pinksteren",
+        "constitution_day": "Dag van de Grondwet",
+        "statehood_day": "Dag van de staat",
+        "independence_day": "Onafhankelijkheidsdag",
+        "defender_of_ukraine_day": "Dag van de Verdediger van Oekraïne"
+      },
+      "sv": {
+        "easter_sunday": "Påskdagen",
+        "international_workers_day": "Internationella arbetardagen",
+        "victory_day_over_nazism_in_world_war_ii": "Segerdagen över nazismen i andra världskriget",
+        "pentecost": "Pingst",
+        "constitution_day": "Konstitutionsdagen",
+        "statehood_day": "Statens dag",
+        "independence_day": "Självständighetsdagen",
+        "defender_of_ukraine_day": "Ukrainas försvarares dag"
+      },
+      "ja": {
+        "easter_sunday": "イースターサンデー",
+        "international_workers_day": "国際労働者の日",
+        "victory_day_over_nazism_in_world_war_ii": "第二次世界大戦におけるナチズムに対する戦勝記念日",
+        "pentecost": "ペンテコステ",
+        "constitution_day": "憲法記念日",
+        "statehood_day": "州就任記念日",
+        "independence_day": "独立記念日",
+        "defender_of_ukraine_day": "ウクライナ擁護者の日"
+      },
+      "ko": {
+        "easter_sunday": "부활절 일요일",
+        "international_workers_day": "세계 노동자의 날",
+        "victory_day_over_nazism_in_world_war_ii": "제2차 세계대전 나치즘 승리의 날",
+        "pentecost": "오순절",
+        "constitution_day": "제헌절",
+        "statehood_day": "건국 기념일",
+        "independence_day": "독립기념일",
+        "defender_of_ukraine_day": "우크라이나 수비수의 날"
+      },
+      "zh-Hant": {
+        "easter_sunday": "復活節週日",
+        "international_workers_day": "國際勞動節",
+        "victory_day_over_nazism_in_world_war_ii": "第二次世界大戰戰勝納粹主義勝利日",
+        "pentecost": "五旬節",
+        "constitution_day": "憲法日",
+        "statehood_day": "建州日",
+        "independence_day": "獨立日",
+        "defender_of_ukraine_day": "烏克蘭捍衛者日"
       }
     },
     "holidayInfo": {

@@ -1351,13 +1351,113 @@
       },
       "sv": {
         "easter_sunday": "Påskdagen",
-        "international_workers_day": "Första maj",
-        "pentecost": "Pingstdagen",
+        "international_workers_day": "Internationella arbetardagen",
+        "pentecost": "Pingst",
         "national_day_of_sweden": "Sveriges nationaldag",
         "midsummer_eve": "Midsommarafton",
         "midsummer_day": "Midsommardagen",
         "all_saints_day": "Alla helgons dag",
         "christmas_eve": "Julafton"
+      },
+      "de": {
+        "easter_sunday": "Ostersonntag",
+        "international_workers_day": "Internationaler Tag der Arbeit",
+        "pentecost": "Pfingsten",
+        "national_day_of_sweden": "Nationalfeiertag von Schweden",
+        "midsummer_eve": "Mittsommerabend",
+        "midsummer_day": "Mittsommertag",
+        "all_saints_day": "Allerheiligen",
+        "christmas_eve": "Heiligabend"
+      },
+      "fr": {
+        "easter_sunday": "Dimanche de Pâques",
+        "international_workers_day": "Journée internationale des travailleurs",
+        "pentecost": "Pentecôte",
+        "national_day_of_sweden": "Fête nationale de la Suède",
+        "midsummer_eve": "Veille d'été",
+        "midsummer_day": "Saint-Jean",
+        "all_saints_day": "Toussaint",
+        "christmas_eve": "La veille de Noël"
+      },
+      "es": {
+        "easter_sunday": "Domingo de Pascua",
+        "international_workers_day": "Día Internacional de los Trabajadores",
+        "pentecost": "Pentecostés",
+        "national_day_of_sweden": "Día Nacional de Suecia",
+        "midsummer_eve": "Víspera de San Juan",
+        "midsummer_day": "Día de verano",
+        "all_saints_day": "Día de Todos los Santos",
+        "christmas_eve": "Nochebuena"
+      },
+      "pt": {
+        "easter_sunday": "Domingo de Páscoa",
+        "international_workers_day": "Dia Internacional do Trabalhador",
+        "pentecost": "Pentecostes",
+        "national_day_of_sweden": "Dia Nacional da Suécia",
+        "midsummer_eve": "Véspera de Verão",
+        "midsummer_day": "Solstício de Verão",
+        "all_saints_day": "Dia de Todos os Santos",
+        "christmas_eve": "Véspera de Natal"
+      },
+      "it": {
+        "easter_sunday": "Domenica di Pasqua",
+        "international_workers_day": "Giornata internazionale dei lavoratori",
+        "pentecost": "Pentecoste",
+        "national_day_of_sweden": "Festa Nazionale della Svezia",
+        "midsummer_eve": "Vigilia di mezza estate",
+        "midsummer_day": "Giorno di mezza estate",
+        "all_saints_day": "Giorno di Ognissanti",
+        "christmas_eve": "Vigilia di Natale"
+      },
+      "pl": {
+        "easter_sunday": "Niedziela Wielkanocna",
+        "international_workers_day": "Międzynarodowy Dzień Pracy",
+        "pentecost": "Zesłanie Ducha Świętego",
+        "national_day_of_sweden": "Święto Narodowe Szwecji",
+        "midsummer_eve": "Noc Świętojańska",
+        "midsummer_day": "Święto Świętojańskie",
+        "all_saints_day": "Wszystkich Świętych",
+        "christmas_eve": "Wigilia"
+      },
+      "nl": {
+        "easter_sunday": "Paaszondag",
+        "international_workers_day": "Internationale Dag van de Arbeid",
+        "pentecost": "Pinksteren",
+        "national_day_of_sweden": "Nationale feestdag van Zweden",
+        "midsummer_eve": "Midzomeravond",
+        "midsummer_day": "Midzomerdag",
+        "all_saints_day": "Allerheiligen",
+        "christmas_eve": "Kerstavond"
+      },
+      "ja": {
+        "easter_sunday": "イースターサンデー",
+        "international_workers_day": "国際労働者の日",
+        "pentecost": "ペンテコステ",
+        "national_day_of_sweden": "スウェーデン建国記念日",
+        "midsummer_eve": "真夏の前夜",
+        "midsummer_day": "真夏の日",
+        "all_saints_day": "諸聖人の日",
+        "christmas_eve": "クリスマスイブ"
+      },
+      "ko": {
+        "easter_sunday": "부활절 일요일",
+        "international_workers_day": "세계 노동자의 날",
+        "pentecost": "오순절",
+        "national_day_of_sweden": "스웨덴 국경일",
+        "midsummer_eve": "한여름의 이브",
+        "midsummer_day": "한여름날",
+        "all_saints_day": "만성절",
+        "christmas_eve": "크리스마스 이브"
+      },
+      "zh-Hant": {
+        "easter_sunday": "復活節週日",
+        "international_workers_day": "國際勞動節",
+        "pentecost": "五旬節",
+        "national_day_of_sweden": "瑞典國慶日",
+        "midsummer_eve": "仲夏夜",
+        "midsummer_day": "仲夏節",
+        "all_saints_day": "萬聖節",
+        "christmas_eve": "平安夜"
       }
     },
     "holidayInfo": {

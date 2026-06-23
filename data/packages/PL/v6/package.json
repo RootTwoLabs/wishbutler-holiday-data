@@ -2602,12 +2602,92 @@
         "christmas_eve": "Christmas Eve"
       },
       "pl": {
-        "easter_sunday": "Wielkanoc",
-        "constitution_day": "Święto Konstytucji 3 Maja",
-        "pentecost": "Zielone Świątki",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "constitution_day": "Święto Konstytucji",
+        "pentecost": "Zesłanie Ducha Świętego",
         "all_saints_day": "Wszystkich Świętych",
-        "independence_day": "Narodowe Święto Niepodległości",
-        "christmas_eve": "Wigilia Bożego Narodzenia"
+        "independence_day": "Święto Niepodległości",
+        "christmas_eve": "Wigilia"
+      },
+      "de": {
+        "easter_sunday": "Ostersonntag",
+        "constitution_day": "Tag der Verfassung",
+        "pentecost": "Pfingsten",
+        "all_saints_day": "Allerheiligen",
+        "independence_day": "Unabhängigkeitstag",
+        "christmas_eve": "Heiligabend"
+      },
+      "fr": {
+        "easter_sunday": "Dimanche de Pâques",
+        "constitution_day": "Jour de la Constitution",
+        "pentecost": "Pentecôte",
+        "all_saints_day": "Toussaint",
+        "independence_day": "Jour de l'Indépendance",
+        "christmas_eve": "La veille de Noël"
+      },
+      "es": {
+        "easter_sunday": "Domingo de Pascua",
+        "constitution_day": "Día de la Constitución",
+        "pentecost": "Pentecostés",
+        "all_saints_day": "Día de Todos los Santos",
+        "independence_day": "Día de la Independencia",
+        "christmas_eve": "Nochebuena"
+      },
+      "pt": {
+        "easter_sunday": "Domingo de Páscoa",
+        "constitution_day": "Dia da Constituição",
+        "pentecost": "Pentecostes",
+        "all_saints_day": "Dia de Todos os Santos",
+        "independence_day": "Dia da Independência",
+        "christmas_eve": "Véspera de Natal"
+      },
+      "it": {
+        "easter_sunday": "Domenica di Pasqua",
+        "constitution_day": "Giorno della Costituzione",
+        "pentecost": "Pentecoste",
+        "all_saints_day": "Giorno di Ognissanti",
+        "independence_day": "Giorno dell'Indipendenza",
+        "christmas_eve": "Vigilia di Natale"
+      },
+      "nl": {
+        "easter_sunday": "Paaszondag",
+        "constitution_day": "Dag van de Grondwet",
+        "pentecost": "Pinksteren",
+        "all_saints_day": "Allerheiligen",
+        "independence_day": "Onafhankelijkheidsdag",
+        "christmas_eve": "Kerstavond"
+      },
+      "sv": {
+        "easter_sunday": "Påskdagen",
+        "constitution_day": "Konstitutionsdagen",
+        "pentecost": "Pingst",
+        "all_saints_day": "Alla helgons dag",
+        "independence_day": "Självständighetsdagen",
+        "christmas_eve": "Julafton"
+      },
+      "ja": {
+        "easter_sunday": "イースターサンデー",
+        "constitution_day": "憲法記念日",
+        "pentecost": "ペンテコステ",
+        "all_saints_day": "諸聖人の日",
+        "independence_day": "独立記念日",
+        "christmas_eve": "クリスマスイブ"
+      },
+      "ko": {
+        "easter_sunday": "부활절 일요일",
+        "constitution_day": "제헌절",
+        "pentecost": "오순절",
+        "all_saints_day": "만성절",
+        "independence_day": "독립기념일",
+        "christmas_eve": "크리스마스 이브"
+      },
+      "zh-Hant": {
+        "easter_sunday": "復活節週日",
+        "constitution_day": "憲法日",
+        "pentecost": "五旬節",
+        "all_saints_day": "萬聖節",
+        "independence_day": "獨立日",
+        "christmas_eve": "平安夜"
       }
     },
     "holidayInfo": {

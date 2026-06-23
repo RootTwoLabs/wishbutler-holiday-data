@@ -149,6 +149,105 @@
         "independence_day": "Дзень Незалежнасцi",
         "october_revolution_day": "Дзень Кастрычніцкай рэвалюцыі",
         "catholic_christmas_day": "Каляды каталiцкiя"
+      },
+      "de": {
+        "new_years_day": "Neujahr",
+        "christmas_day_orthodox": "Weihnachtstag (orthodox)",
+        "commemoration_day": "Gedenktag",
+        "victory_day": "Tag des Sieges",
+        "independence_day": "Unabhängigkeitstag",
+        "october_revolution_day": "Tag der Oktoberrevolution",
+        "catholic_christmas_day": "Katholischer Weihnachtstag"
+      },
+      "fr": {
+        "new_years_day": "Jour de l'An",
+        "christmas_day_orthodox": "Jour de Noël (orthodoxe)",
+        "commemoration_day": "Journée de commémoration",
+        "victory_day": "Jour de la Victoire",
+        "independence_day": "Jour de l'Indépendance",
+        "october_revolution_day": "Jour de la Révolution d'Octobre",
+        "catholic_christmas_day": "Jour de Noël catholique"
+      },
+      "es": {
+        "new_years_day": "Día de Año Nuevo",
+        "christmas_day_orthodox": "Día de Navidad (ortodoxo)",
+        "commemoration_day": "Día de Conmemoración",
+        "victory_day": "Día de la Victoria",
+        "independence_day": "Día de la Independencia",
+        "october_revolution_day": "Día de la Revolución de Octubre",
+        "catholic_christmas_day": "Navidad católica"
+      },
+      "pt": {
+        "new_years_day": "Dia de Ano Novo",
+        "christmas_day_orthodox": "Dia de Natal (Ortodoxo)",
+        "commemoration_day": "Dia de Comemoração",
+        "victory_day": "Dia da Vitória",
+        "independence_day": "Dia da Independência",
+        "october_revolution_day": "Dia da Revolução de Outubro",
+        "catholic_christmas_day": "Dia de Natal Católico"
+      },
+      "it": {
+        "new_years_day": "Capodanno",
+        "christmas_day_orthodox": "Giorno di Natale (ortodosso)",
+        "commemoration_day": "Giorno della commemorazione",
+        "victory_day": "Giorno della Vittoria",
+        "independence_day": "Giorno dell'Indipendenza",
+        "october_revolution_day": "Giorno della Rivoluzione d'Ottobre",
+        "catholic_christmas_day": "Giorno di Natale cattolico"
+      },
+      "pl": {
+        "new_years_day": "Nowy Rok",
+        "christmas_day_orthodox": "Boże Narodzenie (prawosławne)",
+        "commemoration_day": "Dzień Pamięci",
+        "victory_day": "Dzień Zwycięstwa",
+        "independence_day": "Święto Niepodległości",
+        "october_revolution_day": "Dzień Rewolucji Październikowej",
+        "catholic_christmas_day": "Katolickie Boże Narodzenie"
+      },
+      "nl": {
+        "new_years_day": "Nieuwjaarsdag",
+        "christmas_day_orthodox": "Eerste Kerstdag (Orthodox)",
+        "commemoration_day": "Herdenkingsdag",
+        "victory_day": "Dag van de Overwinning",
+        "independence_day": "Onafhankelijkheidsdag",
+        "october_revolution_day": "Oktoberrevolutiedag",
+        "catholic_christmas_day": "Katholieke Kerstdag"
+      },
+      "sv": {
+        "new_years_day": "Nyårsdagen",
+        "christmas_day_orthodox": "Juldagen (ortodox)",
+        "commemoration_day": "minnesdag",
+        "victory_day": "Segerdagen",
+        "independence_day": "Självständighetsdagen",
+        "october_revolution_day": "Oktoberrevolutionens dag",
+        "catholic_christmas_day": "Katolska juldagen"
+      },
+      "ja": {
+        "new_years_day": "元旦",
+        "christmas_day_orthodox": "クリスマスの日（正統派）",
+        "commemoration_day": "記念日",
+        "victory_day": "戦勝記念日",
+        "independence_day": "独立記念日",
+        "october_revolution_day": "10 月革命記念日",
+        "catholic_christmas_day": "カトリックのクリスマスの日"
+      },
+      "ko": {
+        "new_years_day": "설날",
+        "christmas_day_orthodox": "크리스마스(정교회)",
+        "commemoration_day": "기념일",
+        "victory_day": "승전기념일",
+        "independence_day": "독립기념일",
+        "october_revolution_day": "10월 혁명기념일",
+        "catholic_christmas_day": "가톨릭 성탄절"
+      },
+      "zh-Hant": {
+        "new_years_day": "元旦",
+        "christmas_day_orthodox": "聖誕節（東正教）",
+        "commemoration_day": "紀念日",
+        "victory_day": "勝利日",
+        "independence_day": "獨立日",
+        "october_revolution_day": "十月革命日",
+        "catholic_christmas_day": "天主教聖誕節"
       }
     },
     "holidayInfo": {

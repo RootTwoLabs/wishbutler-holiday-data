@@ -182,15 +182,125 @@
         "christmas_eve": "Christmas Eve"
       },
       "es": {
-        "maundy_thursday": "Maundy Thursday",
-        "holy_saturday": "Holy Saturday",
-        "easter_sunday": "Easter Sunday",
-        "international_workers_day": "International Workers' Day",
-        "army_day": "Army Day",
-        "independence_day": "Independence Day",
-        "revolution_day": "Revolution Day",
-        "all_saints_day": "All Saints' Day",
-        "christmas_eve": "Christmas Eve"
+        "maundy_thursday": "Jueves Santo",
+        "holy_saturday": "Sábado Santo",
+        "easter_sunday": "Domingo de Pascua",
+        "international_workers_day": "Día Internacional de los Trabajadores",
+        "army_day": "Día del Ejército",
+        "independence_day": "Día de la Independencia",
+        "revolution_day": "Día de la Revolución",
+        "all_saints_day": "Día de Todos los Santos",
+        "christmas_eve": "Nochebuena"
+      },
+      "de": {
+        "maundy_thursday": "Gründonnerstag",
+        "holy_saturday": "Karsamstag",
+        "easter_sunday": "Ostersonntag",
+        "international_workers_day": "Internationaler Tag der Arbeit",
+        "army_day": "Tag der Armee",
+        "independence_day": "Unabhängigkeitstag",
+        "revolution_day": "Tag der Revolution",
+        "all_saints_day": "Allerheiligen",
+        "christmas_eve": "Heiligabend"
+      },
+      "fr": {
+        "maundy_thursday": "Jeudi Saint",
+        "holy_saturday": "Samedi Saint",
+        "easter_sunday": "Dimanche de Pâques",
+        "international_workers_day": "Journée internationale des travailleurs",
+        "army_day": "Journée de l'Armée",
+        "independence_day": "Jour de l'Indépendance",
+        "revolution_day": "Jour de la Révolution",
+        "all_saints_day": "Toussaint",
+        "christmas_eve": "La veille de Noël"
+      },
+      "pt": {
+        "maundy_thursday": "Quinta-feira Santa",
+        "holy_saturday": "Sábado Santo",
+        "easter_sunday": "Domingo de Páscoa",
+        "international_workers_day": "Dia Internacional do Trabalhador",
+        "army_day": "Dia do Exército",
+        "independence_day": "Dia da Independência",
+        "revolution_day": "Dia da Revolução",
+        "all_saints_day": "Dia de Todos os Santos",
+        "christmas_eve": "Véspera de Natal"
+      },
+      "it": {
+        "maundy_thursday": "Giovedì Santo",
+        "holy_saturday": "Sabato Santo",
+        "easter_sunday": "Domenica di Pasqua",
+        "international_workers_day": "Giornata internazionale dei lavoratori",
+        "army_day": "Festa dell'esercito",
+        "independence_day": "Giorno dell'Indipendenza",
+        "revolution_day": "Giorno della Rivoluzione",
+        "all_saints_day": "Giorno di Ognissanti",
+        "christmas_eve": "Vigilia di Natale"
+      },
+      "pl": {
+        "maundy_thursday": "Wielki Czwartek",
+        "holy_saturday": "Wielka Sobota",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "international_workers_day": "Międzynarodowy Dzień Pracy",
+        "army_day": "Święto Armii",
+        "independence_day": "Święto Niepodległości",
+        "revolution_day": "Dzień Rewolucji",
+        "all_saints_day": "Wszystkich Świętych",
+        "christmas_eve": "Wigilia"
+      },
+      "nl": {
+        "maundy_thursday": "Witte Donderdag",
+        "holy_saturday": "Stille Zaterdag",
+        "easter_sunday": "Paaszondag",
+        "international_workers_day": "Internationale Dag van de Arbeid",
+        "army_day": "Legerdag",
+        "independence_day": "Onafhankelijkheidsdag",
+        "revolution_day": "Dag van de Revolutie",
+        "all_saints_day": "Allerheiligen",
+        "christmas_eve": "Kerstavond"
+      },
+      "sv": {
+        "maundy_thursday": "Skärtorsdag",
+        "holy_saturday": "Heliga lördag",
+        "easter_sunday": "Påskdagen",
+        "international_workers_day": "Internationella arbetardagen",
+        "army_day": "Arméns dag",
+        "independence_day": "Självständighetsdagen",
+        "revolution_day": "Revolutionsdagen",
+        "all_saints_day": "Alla helgons dag",
+        "christmas_eve": "Julafton"
+      },
+      "ja": {
+        "maundy_thursday": "聖木曜日",
+        "holy_saturday": "聖土曜日",
+        "easter_sunday": "イースターサンデー",
+        "international_workers_day": "国際労働者の日",
+        "army_day": "陸軍記念日",
+        "independence_day": "独立記念日",
+        "revolution_day": "革命記念日",
+        "all_saints_day": "諸聖人の日",
+        "christmas_eve": "クリスマスイブ"
+      },
+      "ko": {
+        "maundy_thursday": "성 목요일",
+        "holy_saturday": "성토요일",
+        "easter_sunday": "부활절 일요일",
+        "international_workers_day": "세계 노동자의 날",
+        "army_day": "육군의 날",
+        "independence_day": "독립기념일",
+        "revolution_day": "혁명의 날",
+        "all_saints_day": "만성절",
+        "christmas_eve": "크리스마스 이브"
+      },
+      "zh-Hant": {
+        "maundy_thursday": "濯足節",
+        "holy_saturday": "聖週六",
+        "easter_sunday": "復活節週日",
+        "international_workers_day": "國際勞動節",
+        "army_day": "建軍節",
+        "independence_day": "獨立日",
+        "revolution_day": "革命日",
+        "all_saints_day": "萬聖節",
+        "christmas_eve": "平安夜"
       }
     },
     "holidayInfo": {

@@ -2220,13 +2220,113 @@
       },
       "de": {
         "easter_sunday": "Ostersonntag",
-        "pentecost": "Pfingstsonntag",
+        "pentecost": "Pfingsten",
         "world_childrens_day": "Weltkindertag",
         "german_unity_day": "Tag der Deutschen Einheit",
         "reformation_day": "Reformationstag",
         "all_saints_day": "Allerheiligen",
-        "repentance_and_prayer_day": "Buß- und Bettag",
-        "75th_anniversary_of_the_uprising_of_june_17_1953": "75. Jahrestag des Aufstandes vom 17. Juni 1953"
+        "repentance_and_prayer_day": "Buß- und Gebetstag",
+        "75th_anniversary_of_the_uprising_of_june_17_1953": "75. Jahrestag des Aufstands vom 17. Juni 1953"
+      },
+      "fr": {
+        "easter_sunday": "Dimanche de Pâques",
+        "pentecost": "Pentecôte",
+        "world_childrens_day": "Journée mondiale de l'enfance",
+        "german_unity_day": "Journée de l'unité allemande",
+        "reformation_day": "Jour de la Réforme",
+        "all_saints_day": "Toussaint",
+        "repentance_and_prayer_day": "Journée de repentance et de prière",
+        "75th_anniversary_of_the_uprising_of_june_17_1953": "75ème anniversaire du soulèvement du 17 juin 1953"
+      },
+      "es": {
+        "easter_sunday": "Domingo de Pascua",
+        "pentecost": "Pentecostés",
+        "world_childrens_day": "Día Mundial del Niño",
+        "german_unity_day": "Día de la Unidad Alemana",
+        "reformation_day": "Día de la Reforma",
+        "all_saints_day": "Día de Todos los Santos",
+        "repentance_and_prayer_day": "Día del Arrepentimiento y la Oración",
+        "75th_anniversary_of_the_uprising_of_june_17_1953": "75 aniversario del levantamiento del 17 de junio de 1953"
+      },
+      "pt": {
+        "easter_sunday": "Domingo de Páscoa",
+        "pentecost": "Pentecostes",
+        "world_childrens_day": "Dia Mundial da Criança",
+        "german_unity_day": "Dia da Unidade Alemã",
+        "reformation_day": "Dia da Reforma",
+        "all_saints_day": "Dia de Todos os Santos",
+        "repentance_and_prayer_day": "Dia de Arrependimento e Oração",
+        "75th_anniversary_of_the_uprising_of_june_17_1953": "75º aniversário da revolta de 17 de Junho de 1953"
+      },
+      "it": {
+        "easter_sunday": "Domenica di Pasqua",
+        "pentecost": "Pentecoste",
+        "world_childrens_day": "Giornata mondiale dei bambini",
+        "german_unity_day": "Giorno dell'Unità Tedesca",
+        "reformation_day": "Giorno della Riforma",
+        "all_saints_day": "Giorno di Ognissanti",
+        "repentance_and_prayer_day": "Giornata del pentimento e della preghiera",
+        "75th_anniversary_of_the_uprising_of_june_17_1953": "75° anniversario della rivolta del 17 giugno 1953"
+      },
+      "pl": {
+        "easter_sunday": "Niedziela Wielkanocna",
+        "pentecost": "Zesłanie Ducha Świętego",
+        "world_childrens_day": "Światowy Dzień Dziecka",
+        "german_unity_day": "Dzień Jedności Niemiec",
+        "reformation_day": "Dzień Reformacji",
+        "all_saints_day": "Wszystkich Świętych",
+        "repentance_and_prayer_day": "Dzień pokuty i modlitwy",
+        "75th_anniversary_of_the_uprising_of_june_17_1953": "75. rocznica powstania z 17 czerwca 1953 r."
+      },
+      "nl": {
+        "easter_sunday": "Paaszondag",
+        "pentecost": "Pinksteren",
+        "world_childrens_day": "Wereldkinderdag",
+        "german_unity_day": "Dag van de Duitse Eenheid",
+        "reformation_day": "Hervormingsdag",
+        "all_saints_day": "Allerheiligen",
+        "repentance_and_prayer_day": "Dag van bekering en gebed",
+        "75th_anniversary_of_the_uprising_of_june_17_1953": "75e verjaardag van de opstand van 17 juni 1953"
+      },
+      "sv": {
+        "easter_sunday": "Påskdagen",
+        "pentecost": "Pingst",
+        "world_childrens_day": "Världsbarndagen",
+        "german_unity_day": "German Unity Day",
+        "reformation_day": "reformationsdagen",
+        "all_saints_day": "Alla helgons dag",
+        "repentance_and_prayer_day": "Omvändelse- och bönedag",
+        "75th_anniversary_of_the_uprising_of_june_17_1953": "75-årsdagen av upproret den 17 juni 1953"
+      },
+      "ja": {
+        "easter_sunday": "イースターサンデー",
+        "pentecost": "ペンテコステ",
+        "world_childrens_day": "世界こどもの日",
+        "german_unity_day": "ドイツ統一デー",
+        "reformation_day": "宗教改革記念日",
+        "all_saints_day": "諸聖人の日",
+        "repentance_and_prayer_day": "悔い改めと祈りの日",
+        "75th_anniversary_of_the_uprising_of_june_17_1953": "1953 年 6 月 17 日の蜂起 75 周年"
+      },
+      "ko": {
+        "easter_sunday": "부활절 일요일",
+        "pentecost": "오순절",
+        "world_childrens_day": "세계 어린이날",
+        "german_unity_day": "독일 통일의 날",
+        "reformation_day": "종교개혁기념일",
+        "all_saints_day": "만성절",
+        "repentance_and_prayer_day": "회개와 기도의 날",
+        "75th_anniversary_of_the_uprising_of_june_17_1953": "1953년 6월 17일 항쟁 75주년"
+      },
+      "zh-Hant": {
+        "easter_sunday": "復活節週日",
+        "pentecost": "五旬節",
+        "world_childrens_day": "世界兒童節",
+        "german_unity_day": "德國統一日",
+        "reformation_day": "宗教改革日",
+        "all_saints_day": "萬聖節",
+        "repentance_and_prayer_day": "悔改和祈禱日",
+        "75th_anniversary_of_the_uprising_of_june_17_1953": "1953 年 6 月 17 日起義 75 週年"
       }
     },
     "holidayInfo": {

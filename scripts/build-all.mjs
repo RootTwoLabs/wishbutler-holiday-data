@@ -24,6 +24,7 @@ async function main() {
     'fetch-namedays.mjs',
     'fetch-images.mjs',
     'build-articles.mjs',
+    'build-labels.mjs',
     'build-index.mjs',
     'validate.mjs',
   ];

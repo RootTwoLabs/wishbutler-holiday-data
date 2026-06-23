@@ -177,6 +177,116 @@
         "midsummer_day": "jaanipäev",
         "day_of_restoration_of_independence": "taasiseseisvumispäev",
         "christmas_eve": "jõululaupäev"
+      },
+      "de": {
+        "independence_day": "Unabhängigkeitstag",
+        "easter_sunday": "Ostersonntag",
+        "spring_day": "Frühlingstag",
+        "pentecost": "Pfingsten",
+        "victory_day": "Tag des Sieges",
+        "midsummer_day": "Mittsommertag",
+        "day_of_restoration_of_independence": "Tag der Wiederherstellung der Unabhängigkeit",
+        "christmas_eve": "Heiligabend"
+      },
+      "fr": {
+        "independence_day": "Jour de l'Indépendance",
+        "easter_sunday": "Dimanche de Pâques",
+        "spring_day": "Printemps",
+        "pentecost": "Pentecôte",
+        "victory_day": "Jour de la Victoire",
+        "midsummer_day": "Saint-Jean",
+        "day_of_restoration_of_independence": "Journée de Restauration de l'Indépendance",
+        "christmas_eve": "La veille de Noël"
+      },
+      "es": {
+        "independence_day": "Día de la Independencia",
+        "easter_sunday": "Domingo de Pascua",
+        "spring_day": "Día de Primavera",
+        "pentecost": "Pentecostés",
+        "victory_day": "Día de la Victoria",
+        "midsummer_day": "Día de verano",
+        "day_of_restoration_of_independence": "Día de la Restauración de la Independencia",
+        "christmas_eve": "Nochebuena"
+      },
+      "pt": {
+        "independence_day": "Dia da Independência",
+        "easter_sunday": "Domingo de Páscoa",
+        "spring_day": "Primavera da Europa",
+        "pentecost": "Pentecostes",
+        "victory_day": "Dia da Vitória",
+        "midsummer_day": "Solstício de Verão",
+        "day_of_restoration_of_independence": "Dia da Restauração da Independência",
+        "christmas_eve": "Véspera de Natal"
+      },
+      "it": {
+        "independence_day": "Giorno dell'Indipendenza",
+        "easter_sunday": "Domenica di Pasqua",
+        "spring_day": "Giornata di Primavera",
+        "pentecost": "Pentecoste",
+        "victory_day": "Giorno della Vittoria",
+        "midsummer_day": "Giorno di mezza estate",
+        "day_of_restoration_of_independence": "Giorno della Restaurazione dell'Indipendenza",
+        "christmas_eve": "Vigilia di Natale"
+      },
+      "pl": {
+        "independence_day": "Święto Niepodległości",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "spring_day": "Dzień Wiosny",
+        "pentecost": "Zesłanie Ducha Świętego",
+        "victory_day": "Dzień Zwycięstwa",
+        "midsummer_day": "Święto Świętojańskie",
+        "day_of_restoration_of_independence": "Dzień Odzyskania Niepodległości",
+        "christmas_eve": "Wigilia"
+      },
+      "nl": {
+        "independence_day": "Onafhankelijkheidsdag",
+        "easter_sunday": "Paaszondag",
+        "spring_day": "Lente",
+        "pentecost": "Pinksteren",
+        "victory_day": "Dag van de Overwinning",
+        "midsummer_day": "Midzomerdag",
+        "day_of_restoration_of_independence": "Dag van het herstel van de onafhankelijkheid",
+        "christmas_eve": "Kerstavond"
+      },
+      "sv": {
+        "independence_day": "Självständighetsdagen",
+        "easter_sunday": "Påskdagen",
+        "spring_day": "Vår i dag",
+        "pentecost": "Pingst",
+        "victory_day": "Segerdagen",
+        "midsummer_day": "Midsommardagen",
+        "day_of_restoration_of_independence": "Dag för återupprättande av självständighet",
+        "christmas_eve": "Julafton"
+      },
+      "ja": {
+        "independence_day": "独立記念日",
+        "easter_sunday": "イースターサンデー",
+        "spring_day": "春の日",
+        "pentecost": "ペンテコステ",
+        "victory_day": "戦勝記念日",
+        "midsummer_day": "真夏の日",
+        "day_of_restoration_of_independence": "独立回復の日",
+        "christmas_eve": "クリスマスイブ"
+      },
+      "ko": {
+        "independence_day": "독립기념일",
+        "easter_sunday": "부활절 일요일",
+        "spring_day": "봄날",
+        "pentecost": "오순절",
+        "victory_day": "승전기념일",
+        "midsummer_day": "한여름날",
+        "day_of_restoration_of_independence": "광복절",
+        "christmas_eve": "크리스마스 이브"
+      },
+      "zh-Hant": {
+        "independence_day": "獨立日",
+        "easter_sunday": "復活節週日",
+        "spring_day": "春日",
+        "pentecost": "五旬節",
+        "victory_day": "勝利日",
+        "midsummer_day": "仲夏節",
+        "day_of_restoration_of_independence": "Day of Restoration of Independence",
+        "christmas_eve": "平安夜"
       }
     },
     "holidayInfo": {

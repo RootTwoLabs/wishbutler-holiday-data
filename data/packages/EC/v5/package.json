@@ -144,12 +144,102 @@
       },
       "es": {
         "carnival": "Carnaval",
-        "international_workers_day": "International Workers' Day",
-        "the_battle_of_pichincha": "Batalla de Pichincha",
-        "declaration_of_independence_of_quito": "Primer Grito de Independencia",
+        "international_workers_day": "Día Internacional de los Trabajadores",
+        "the_battle_of_pichincha": "La Batalla de Pichincha",
+        "declaration_of_independence_of_quito": "Declaración de Independencia de Quito",
         "independence_of_guayaquil": "Independencia de Guayaquil",
-        "all_souls_day": "Día de los Difuntos, Día de Muertos",
+        "all_souls_day": "Día de Todos los Difuntos",
         "independence_of_cuenca": "Independencia de Cuenca"
+      },
+      "de": {
+        "carnival": "Karneval",
+        "international_workers_day": "Internationaler Tag der Arbeit",
+        "the_battle_of_pichincha": "Die Schlacht von Pichincha",
+        "declaration_of_independence_of_quito": "Unabhängigkeitserklärung von Quito",
+        "independence_of_guayaquil": "Unabhängigkeit von Guayaquil",
+        "all_souls_day": "Allerseelen",
+        "independence_of_cuenca": "Unabhängigkeit von Cuenca"
+      },
+      "fr": {
+        "carnival": "Carnaval",
+        "international_workers_day": "Journée internationale des travailleurs",
+        "the_battle_of_pichincha": "La bataille de Pichincha",
+        "declaration_of_independence_of_quito": "Déclaration d'indépendance de Quito",
+        "independence_of_guayaquil": "Indépendance de Guayaquil",
+        "all_souls_day": "Jour de la Toussaint",
+        "independence_of_cuenca": "Indépendance de Cuenca"
+      },
+      "pt": {
+        "carnival": "Carnaval",
+        "international_workers_day": "Dia Internacional do Trabalhador",
+        "the_battle_of_pichincha": "A Batalha de Pichincha",
+        "declaration_of_independence_of_quito": "Declaração de Independência de Quito",
+        "independence_of_guayaquil": "Independência de Guayaquil",
+        "all_souls_day": "Dia de Finados",
+        "independence_of_cuenca": "Independência de Cuenca"
+      },
+      "it": {
+        "carnival": "Carnevale",
+        "international_workers_day": "Giornata internazionale dei lavoratori",
+        "the_battle_of_pichincha": "La battaglia di Pichincha",
+        "declaration_of_independence_of_quito": "Dichiarazione di Indipendenza di Quito",
+        "independence_of_guayaquil": "Indipendenza di Guayaquil",
+        "all_souls_day": "Giorno dei defunti",
+        "independence_of_cuenca": "Indipendenza di Cuenca"
+      },
+      "pl": {
+        "carnival": "Karnawał",
+        "international_workers_day": "Międzynarodowy Dzień Pracy",
+        "the_battle_of_pichincha": "Bitwa pod Pichincha",
+        "declaration_of_independence_of_quito": "Deklaracja Niepodległości Quito",
+        "independence_of_guayaquil": "Niepodległość Guayaquil",
+        "all_souls_day": "Zaduszki",
+        "independence_of_cuenca": "Niepodległość Cuenca"
+      },
+      "nl": {
+        "carnival": "Carnaval",
+        "international_workers_day": "Internationale Dag van de Arbeid",
+        "the_battle_of_pichincha": "De slag om Pichincha",
+        "declaration_of_independence_of_quito": "Onafhankelijkheidsverklaring van Quito",
+        "independence_of_guayaquil": "Onafhankelijkheid van Guayaquil",
+        "all_souls_day": "Allerzielen",
+        "independence_of_cuenca": "Onafhankelijkheid van Cuenca"
+      },
+      "sv": {
+        "carnival": "Karneval",
+        "international_workers_day": "Internationella arbetardagen",
+        "the_battle_of_pichincha": "Slaget vid Pichincha",
+        "declaration_of_independence_of_quito": "Quitos självständighetsförklaring",
+        "independence_of_guayaquil": "Guayaquils oberoende",
+        "all_souls_day": "Alla själars dag",
+        "independence_of_cuenca": "Cuencas oberoende"
+      },
+      "ja": {
+        "carnival": "カーニバル",
+        "international_workers_day": "国際労働者の日",
+        "the_battle_of_pichincha": "ピチンチャの戦い",
+        "declaration_of_independence_of_quito": "キトの独立宣言",
+        "independence_of_guayaquil": "グアヤキルの独立",
+        "all_souls_day": "諸魂の日",
+        "independence_of_cuenca": "クエンカの独立"
+      },
+      "ko": {
+        "carnival": "카니발",
+        "international_workers_day": "세계 노동자의 날",
+        "the_battle_of_pichincha": "피친차 전투",
+        "declaration_of_independence_of_quito": "키토 독립선언",
+        "independence_of_guayaquil": "과야킬의 독립",
+        "all_souls_day": "위령의 날",
+        "independence_of_cuenca": "쿠엥카 독립"
+      },
+      "zh-Hant": {
+        "carnival": "嘉年華",
+        "international_workers_day": "國際勞動節",
+        "the_battle_of_pichincha": "皮欽查之戰",
+        "declaration_of_independence_of_quito": "基多獨立宣言",
+        "independence_of_guayaquil": "瓜亞基爾獨立",
+        "all_souls_day": "萬靈節",
+        "independence_of_cuenca": "昆卡獨立"
       }
     },
     "holidayInfo": {

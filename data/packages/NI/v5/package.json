@@ -173,14 +173,114 @@
         "immaculate_conception": "Immaculate Conception"
       },
       "es": {
-        "air_force_day": "Air Force Day",
-        "holy_thursday": "Holy Thursday",
-        "army_day": "Army Day",
-        "liberation_day": "Liberation Day",
-        "battle_of_san_jacinto": "Battle of San Jacinto",
-        "independence_day": "Independence Day",
-        "indigenous_resistance_day": "Indigenous Resistance Day",
-        "immaculate_conception": "Immaculate Conception"
+        "air_force_day": "Día de la Fuerza Aérea",
+        "holy_thursday": "Jueves Santo",
+        "army_day": "Día del Ejército",
+        "liberation_day": "Día de la Liberación",
+        "battle_of_san_jacinto": "Batalla de San Jacinto",
+        "independence_day": "Día de la Independencia",
+        "indigenous_resistance_day": "Día de la Resistencia Indígena",
+        "immaculate_conception": "Inmaculada Concepción"
+      },
+      "de": {
+        "air_force_day": "Tag der Luftwaffe",
+        "holy_thursday": "Gründonnerstag",
+        "army_day": "Tag der Armee",
+        "liberation_day": "Tag der Befreiung",
+        "battle_of_san_jacinto": "Schlacht von San Jacinto",
+        "independence_day": "Unabhängigkeitstag",
+        "indigenous_resistance_day": "Tag des indigenen Widerstands",
+        "immaculate_conception": "Unbefleckte Empfängnis"
+      },
+      "fr": {
+        "air_force_day": "Journée de l'Armée de l'Air",
+        "holy_thursday": "Jeudi Saint",
+        "army_day": "Journée de l'Armée",
+        "liberation_day": "Jour de la Libération",
+        "battle_of_san_jacinto": "Bataille de San Jacinto",
+        "independence_day": "Jour de l'Indépendance",
+        "indigenous_resistance_day": "Journée de la résistance autochtone",
+        "immaculate_conception": "Immaculée Conception"
+      },
+      "pt": {
+        "air_force_day": "Dia da Força Aérea",
+        "holy_thursday": "Quinta-feira Santa",
+        "army_day": "Dia do Exército",
+        "liberation_day": "Dia da Libertação",
+        "battle_of_san_jacinto": "Batalha de São Jacinto",
+        "independence_day": "Dia da Independência",
+        "indigenous_resistance_day": "Dia da Resistência Indígena",
+        "immaculate_conception": "Imaculada Conceição"
+      },
+      "it": {
+        "air_force_day": "Giornata dell'Aeronautica Militare",
+        "holy_thursday": "Giovedì Santo",
+        "army_day": "Festa dell'esercito",
+        "liberation_day": "Festa della Liberazione",
+        "battle_of_san_jacinto": "Battaglia di San Jacinto",
+        "independence_day": "Giorno dell'Indipendenza",
+        "indigenous_resistance_day": "Giornata della Resistenza Indigena",
+        "immaculate_conception": "Immacolata Concezione"
+      },
+      "pl": {
+        "air_force_day": "Dzień Sił Powietrznych",
+        "holy_thursday": "Wielki Czwartek",
+        "army_day": "Święto Armii",
+        "liberation_day": "Dzień Wyzwolenia",
+        "battle_of_san_jacinto": "Bitwa pod San Jacinto",
+        "independence_day": "Święto Niepodległości",
+        "indigenous_resistance_day": "Dzień rdzennego ruchu oporu",
+        "immaculate_conception": "Niepokalane Poczęcie"
+      },
+      "nl": {
+        "air_force_day": "Luchtmachtdag",
+        "holy_thursday": "Witte Donderdag",
+        "army_day": "Legerdag",
+        "liberation_day": "Bevrijdingsdag",
+        "battle_of_san_jacinto": "Slag om San Jacinto",
+        "independence_day": "Onafhankelijkheidsdag",
+        "indigenous_resistance_day": "Dag van het Inheemse Verzet",
+        "immaculate_conception": "Onbevlekte Ontvangenis"
+      },
+      "sv": {
+        "air_force_day": "Flygvapnets dag",
+        "holy_thursday": "påsk torsdag",
+        "army_day": "Arméns dag",
+        "liberation_day": "Befrielsedagen",
+        "battle_of_san_jacinto": "Slaget vid San Jacinto",
+        "independence_day": "Självständighetsdagen",
+        "indigenous_resistance_day": "Ursprungsmotståndets dag",
+        "immaculate_conception": "Obefläckad befruktning"
+      },
+      "ja": {
+        "air_force_day": "空軍の日",
+        "holy_thursday": "聖木曜日",
+        "army_day": "陸軍記念日",
+        "liberation_day": "解放記念日",
+        "battle_of_san_jacinto": "サンジャシントの戦い",
+        "independence_day": "独立記念日",
+        "indigenous_resistance_day": "先住民抵抗デー",
+        "immaculate_conception": "無原罪懐胎"
+      },
+      "ko": {
+        "air_force_day": "공군의 날",
+        "holy_thursday": "성목요일",
+        "army_day": "육군의 날",
+        "liberation_day": "광복절",
+        "battle_of_san_jacinto": "샌재신토 전투",
+        "independence_day": "독립기념일",
+        "indigenous_resistance_day": "원주민 저항의 날",
+        "immaculate_conception": "원죄없는 잉태"
+      },
+      "zh-Hant": {
+        "air_force_day": "空軍日",
+        "holy_thursday": "聖週四",
+        "army_day": "建軍節",
+        "liberation_day": "解放日",
+        "battle_of_san_jacinto": "聖哈辛托戰役",
+        "independence_day": "獨立日",
+        "indigenous_resistance_day": "原住民抵抗日",
+        "immaculate_conception": "聖母無染原罪"
       }
     },
     "holidayInfo": {

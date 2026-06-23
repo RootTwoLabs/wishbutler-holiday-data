@@ -1468,13 +1468,103 @@
         "immaculate_conception": "Immaculate Conception"
       },
       "it": {
-        "easter_sunday": "Pasqua",
+        "easter_sunday": "Domenica di Pasqua",
         "liberation_day": "Festa della Liberazione",
-        "international_workers_day": "Festa del Lavoro",
+        "international_workers_day": "Giornata internazionale dei lavoratori",
         "republic_day": "Festa della Repubblica",
-        "st_francis_of_assisis_day": "San Francesco d'Assisi",
-        "all_saints_day": "Tutti i santi",
+        "st_francis_of_assisis_day": "Festa di San Francesco d'Assisi",
+        "all_saints_day": "Giorno di Ognissanti",
         "immaculate_conception": "Immacolata Concezione"
+      },
+      "de": {
+        "easter_sunday": "Ostersonntag",
+        "liberation_day": "Tag der Befreiung",
+        "international_workers_day": "Internationaler Tag der Arbeit",
+        "republic_day": "Tag der Republik",
+        "st_francis_of_assisis_day": "Tag des Heiligen Franziskus von Assisi",
+        "all_saints_day": "Allerheiligen",
+        "immaculate_conception": "Unbefleckte Empfängnis"
+      },
+      "fr": {
+        "easter_sunday": "Dimanche de Pâques",
+        "liberation_day": "Jour de la Libération",
+        "international_workers_day": "Journée internationale des travailleurs",
+        "republic_day": "Fête de la République",
+        "st_francis_of_assisis_day": "Fête de Saint François d'Assise",
+        "all_saints_day": "Toussaint",
+        "immaculate_conception": "Immaculée Conception"
+      },
+      "es": {
+        "easter_sunday": "Domingo de Pascua",
+        "liberation_day": "Día de la Liberación",
+        "international_workers_day": "Día Internacional de los Trabajadores",
+        "republic_day": "Día de la República",
+        "st_francis_of_assisis_day": "Día de San Francisco de Asís",
+        "all_saints_day": "Día de Todos los Santos",
+        "immaculate_conception": "Inmaculada Concepción"
+      },
+      "pt": {
+        "easter_sunday": "Domingo de Páscoa",
+        "liberation_day": "Dia da Libertação",
+        "international_workers_day": "Dia Internacional do Trabalhador",
+        "republic_day": "Dia da República",
+        "st_francis_of_assisis_day": "Dia de São Francisco de Assis",
+        "all_saints_day": "Dia de Todos os Santos",
+        "immaculate_conception": "Imaculada Conceição"
+      },
+      "pl": {
+        "easter_sunday": "Niedziela Wielkanocna",
+        "liberation_day": "Dzień Wyzwolenia",
+        "international_workers_day": "Międzynarodowy Dzień Pracy",
+        "republic_day": "Dzień Republiki",
+        "st_francis_of_assisis_day": "Dzień Św. Franciszka z Asyżu",
+        "all_saints_day": "Wszystkich Świętych",
+        "immaculate_conception": "Niepokalane Poczęcie"
+      },
+      "nl": {
+        "easter_sunday": "Paaszondag",
+        "liberation_day": "Bevrijdingsdag",
+        "international_workers_day": "Internationale Dag van de Arbeid",
+        "republic_day": "Dag van de Republiek",
+        "st_francis_of_assisis_day": "Dag van Sint Franciscus van Assisi",
+        "all_saints_day": "Allerheiligen",
+        "immaculate_conception": "Onbevlekte Ontvangenis"
+      },
+      "sv": {
+        "easter_sunday": "Påskdagen",
+        "liberation_day": "Befrielsedagen",
+        "international_workers_day": "Internationella arbetardagen",
+        "republic_day": "Republikens dag",
+        "st_francis_of_assisis_day": "St Francis av Assisis dag",
+        "all_saints_day": "Alla helgons dag",
+        "immaculate_conception": "Obefläckad befruktning"
+      },
+      "ja": {
+        "easter_sunday": "イースターサンデー",
+        "liberation_day": "解放記念日",
+        "international_workers_day": "国際労働者の日",
+        "republic_day": "共和国記念日",
+        "st_francis_of_assisis_day": "アッシジの聖フランシスコの日",
+        "all_saints_day": "諸聖人の日",
+        "immaculate_conception": "無原罪懐胎"
+      },
+      "ko": {
+        "easter_sunday": "부활절 일요일",
+        "liberation_day": "광복절",
+        "international_workers_day": "세계 노동자의 날",
+        "republic_day": "공화국의 날",
+        "st_francis_of_assisis_day": "아시시의 성 프란치스코 축일",
+        "all_saints_day": "만성절",
+        "immaculate_conception": "원죄없는 잉태"
+      },
+      "zh-Hant": {
+        "easter_sunday": "復活節週日",
+        "liberation_day": "解放日",
+        "international_workers_day": "國際勞動節",
+        "republic_day": "共和國日",
+        "st_francis_of_assisis_day": "阿西西聖方濟各日",
+        "all_saints_day": "萬聖節",
+        "immaculate_conception": "聖母無染原罪"
       }
     },
     "holidayInfo": {

@@ -237,6 +237,127 @@
         "farmers_day": "Farmers' Day",
         "christmas_day": "Christmas Day",
         "boxing_day_gh": "Boxing Day"
+      },
+      "de": {
+        "new_years_day": "Neujahr",
+        "constitution_day": "Tag der Verfassung",
+        "independence_day": "Unabhängigkeitstag",
+        "may_day": "Maifeiertag",
+        "republic_day": "Tag der Republik",
+        "founders_day": "Gründertag",
+        "farmers_day": "Bauerntag",
+        "christmas_day": "Weihnachtstag",
+        "boxing_day_gh": "Boxing Day"
+      },
+      "fr": {
+        "new_years_day": "Jour de l'An",
+        "constitution_day": "Jour de la Constitution",
+        "independence_day": "Jour de l'Indépendance",
+        "may_day": "1er mai",
+        "republic_day": "Fête de la République",
+        "founders_day": "Journée des Fondateurs",
+        "farmers_day": "Journée des agriculteurs",
+        "christmas_day": "Jour de Noël",
+        "boxing_day_gh": "Le lendemain de Noël"
+      },
+      "es": {
+        "new_years_day": "Día de Año Nuevo",
+        "constitution_day": "Día de la Constitución",
+        "independence_day": "Día de la Independencia",
+        "may_day": "Primero de Mayo",
+        "republic_day": "Día de la República",
+        "founders_day": "Día de los Fundadores",
+        "farmers_day": "Día del Agricultor",
+        "christmas_day": "Día de Navidad",
+        "boxing_day_gh": "Día del Boxeo"
+      },
+      "pt": {
+        "new_years_day": "Dia de Ano Novo",
+        "constitution_day": "Dia da Constituição",
+        "independence_day": "Dia da Independência",
+        "may_day": "Primeiro de Maio",
+        "republic_day": "Dia da República",
+        "founders_day": "Dia dos Fundadores",
+        "farmers_day": "Dia dos Agricultores",
+        "christmas_day": "Dia de Natal",
+        "boxing_day_gh": "Boxing Day"
+      },
+      "it": {
+        "new_years_day": "Capodanno",
+        "constitution_day": "Giorno della Costituzione",
+        "independence_day": "Giorno dell'Indipendenza",
+        "may_day": "Primo Maggio",
+        "republic_day": "Festa della Repubblica",
+        "founders_day": "Festa dei Fondatori",
+        "farmers_day": "Festa degli agricoltori",
+        "christmas_day": "Il giorno di Natale",
+        "boxing_day_gh": "Santo Stefano"
+      },
+      "pl": {
+        "new_years_day": "Nowy Rok",
+        "constitution_day": "Święto Konstytucji",
+        "independence_day": "Święto Niepodległości",
+        "may_day": "Majówka",
+        "republic_day": "Dzień Republiki",
+        "founders_day": "Dzień Założycieli",
+        "farmers_day": "Dzień Rolnika",
+        "christmas_day": "Boże Narodzenie",
+        "boxing_day_gh": "Drugi dzień świąt"
+      },
+      "nl": {
+        "new_years_day": "Nieuwjaarsdag",
+        "constitution_day": "Dag van de Grondwet",
+        "independence_day": "Onafhankelijkheidsdag",
+        "may_day": "Meidag",
+        "republic_day": "Dag van de Republiek",
+        "founders_day": "Oprichtersdag",
+        "farmers_day": "Boerendag",
+        "christmas_day": "Eerste Kerstdag",
+        "boxing_day_gh": "Tweede Kerstdag"
+      },
+      "sv": {
+        "new_years_day": "Nyårsdagen",
+        "constitution_day": "Konstitutionsdagen",
+        "independence_day": "Självständighetsdagen",
+        "may_day": "första maj",
+        "republic_day": "Republikens dag",
+        "founders_day": "Founders Day",
+        "farmers_day": "Bondens dag",
+        "christmas_day": "Juldagen",
+        "boxing_day_gh": "Annandag jul"
+      },
+      "ja": {
+        "new_years_day": "元旦",
+        "constitution_day": "憲法記念日",
+        "independence_day": "独立記念日",
+        "may_day": "メーデー",
+        "republic_day": "共和国記念日",
+        "founders_day": "創立者の日",
+        "farmers_day": "ファーマーズ デー",
+        "christmas_day": "クリスマスの日",
+        "boxing_day_gh": "ボクシングデー"
+      },
+      "ko": {
+        "new_years_day": "설날",
+        "constitution_day": "제헌절",
+        "independence_day": "독립기념일",
+        "may_day": "메이데이",
+        "republic_day": "공화국의 날",
+        "founders_day": "창립기념일",
+        "farmers_day": "농민의 날",
+        "christmas_day": "크리스마스",
+        "boxing_day_gh": "박싱데이"
+      },
+      "zh-Hant": {
+        "new_years_day": "元旦",
+        "constitution_day": "憲法日",
+        "independence_day": "獨立日",
+        "may_day": "五一節",
+        "republic_day": "共和國日",
+        "founders_day": "創辦人日",
+        "farmers_day": "農民節",
+        "christmas_day": "聖誕節",
+        "boxing_day_gh": "節禮日"
       }
     },
     "holidayInfo": {

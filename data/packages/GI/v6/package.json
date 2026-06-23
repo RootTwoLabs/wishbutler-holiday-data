@@ -173,6 +173,105 @@
         "queens_birthday": "Queen's Birthday",
         "summer_bank_holiday": "Summer Bank Holiday",
         "gibraltar_national_day": "Gibraltar National Day"
+      },
+      "de": {
+        "commonwealth_day": "Commonwealth-Tag",
+        "workers_memorial_day": "Gedenktag der Arbeiter",
+        "may_day_bank_holiday": "Feiertag am 1. Mai",
+        "spring_bank_holiday": "Frühlingsfeiertag",
+        "queens_birthday": "Geburtstag der Königin",
+        "summer_bank_holiday": "Sommerfeiertag",
+        "gibraltar_national_day": "Nationalfeiertag von Gibraltar"
+      },
+      "fr": {
+        "commonwealth_day": "Journée du Commonwealth",
+        "workers_memorial_day": "Journée commémorative des travailleurs",
+        "may_day_bank_holiday": "Jour férié du 1er mai",
+        "spring_bank_holiday": "Jour férié du printemps",
+        "queens_birthday": "Anniversaire de la Reine",
+        "summer_bank_holiday": "Jours fériés d'été",
+        "gibraltar_national_day": "Fête nationale de Gibraltar"
+      },
+      "es": {
+        "commonwealth_day": "Día de la Commonwealth",
+        "workers_memorial_day": "Día Conmemorativo de los Trabajadores",
+        "may_day_bank_holiday": "Día festivo del Primero de Mayo",
+        "spring_bank_holiday": "Día festivo de primavera",
+        "queens_birthday": "Cumpleaños de la Reina",
+        "summer_bank_holiday": "Día festivo de verano",
+        "gibraltar_national_day": "Día Nacional de Gibraltar"
+      },
+      "pt": {
+        "commonwealth_day": "Dia da Comunidade",
+        "workers_memorial_day": "Dia da Memória dos Trabalhadores",
+        "may_day_bank_holiday": "Feriado bancário do primeiro de maio",
+        "spring_bank_holiday": "Feriado de Primavera",
+        "queens_birthday": "Aniversário da Rainha",
+        "summer_bank_holiday": "Feriado de Verão",
+        "gibraltar_national_day": "Dia Nacional de Gibraltar"
+      },
+      "it": {
+        "commonwealth_day": "Giornata del Commonwealth",
+        "workers_memorial_day": "Giornata della Memoria dei Lavoratori",
+        "may_day_bank_holiday": "Giorno festivo del Primo Maggio",
+        "spring_bank_holiday": "Festività primaverili",
+        "queens_birthday": "Compleanno della regina",
+        "summer_bank_holiday": "Vacanze estive",
+        "gibraltar_national_day": "Festa nazionale di Gibilterra"
+      },
+      "pl": {
+        "commonwealth_day": "Dzień Wspólnoty Narodów",
+        "workers_memorial_day": "Dzień Pamięci Robotników",
+        "may_day_bank_holiday": "Święto majowe",
+        "spring_bank_holiday": "Wiosenne święto państwowe",
+        "queens_birthday": "Urodziny królowej",
+        "summer_bank_holiday": "Letnie święto państwowe",
+        "gibraltar_national_day": "Święto Narodowe Gibraltaru"
+      },
+      "nl": {
+        "commonwealth_day": "Dag van het Gemenebest",
+        "workers_memorial_day": "Herdenkingsdag voor de arbeiders",
+        "may_day_bank_holiday": "Feestdag op 1 mei",
+        "spring_bank_holiday": "Lentefeestdag",
+        "queens_birthday": "Koninginnedag",
+        "summer_bank_holiday": "Zomerfeestdag",
+        "gibraltar_national_day": "Nationale feestdag van Gibraltar"
+      },
+      "sv": {
+        "commonwealth_day": "Commonwealth Day",
+        "workers_memorial_day": "Arbetarnas minnesdag",
+        "may_day_bank_holiday": "Första maj helgdag",
+        "spring_bank_holiday": "Vårens helgdag",
+        "queens_birthday": "Drottningens födelsedag",
+        "summer_bank_holiday": "Bank Holiday",
+        "gibraltar_national_day": "Gibraltars nationaldag"
+      },
+      "ja": {
+        "commonwealth_day": "コモンウェルスデー",
+        "workers_memorial_day": "労働者記念日",
+        "may_day_bank_holiday": "メーデーの祝日",
+        "spring_bank_holiday": "春の銀行休暇",
+        "queens_birthday": "女王の誕生日",
+        "summer_bank_holiday": "夏休み",
+        "gibraltar_national_day": "ジブラルタル建国記念日"
+      },
+      "ko": {
+        "commonwealth_day": "영연방의 날",
+        "workers_memorial_day": "근로자의 날",
+        "may_day_bank_holiday": "메이데이 공휴일",
+        "spring_bank_holiday": "스프링 뱅크 홀리데이",
+        "queens_birthday": "여왕 탄신일",
+        "summer_bank_holiday": "여름 은행 휴일",
+        "gibraltar_national_day": "지브롤터 국경일"
+      },
+      "zh-Hant": {
+        "commonwealth_day": "英聯邦日",
+        "workers_memorial_day": "工人陣亡將士紀念日",
+        "may_day_bank_holiday": "五一銀行假期",
+        "spring_bank_holiday": "春季銀行假期",
+        "queens_birthday": "女王生日",
+        "summer_bank_holiday": "銀行暑假",
+        "gibraltar_national_day": "直布罗陀国庆日"
       }
     },
     "holidayInfo": {

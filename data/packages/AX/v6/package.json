@@ -223,13 +223,113 @@
       },
       "sv": {
         "easter_sunday": "Påskdagen",
-        "pentecost": "Pingstdagen",
-        "autonomy_day": "Självstyrelsedagen",
+        "pentecost": "Pingst",
+        "autonomy_day": "Autonomy Day",
         "midsummer_evey": "Midsommarafton",
         "midsummer_day": "Midsommardagen",
         "all_saints_day": "Alla helgons dag",
         "independence_day": "Självständighetsdagen",
         "christmas_eve": "Julafton"
+      },
+      "de": {
+        "easter_sunday": "Ostersonntag",
+        "pentecost": "Pfingsten",
+        "autonomy_day": "Tag der Autonomie",
+        "midsummer_evey": "Mittsommerabend",
+        "midsummer_day": "Mittsommertag",
+        "all_saints_day": "Allerheiligen",
+        "independence_day": "Unabhängigkeitstag",
+        "christmas_eve": "Heiligabend"
+      },
+      "fr": {
+        "easter_sunday": "Dimanche de Pâques",
+        "pentecost": "Pentecôte",
+        "autonomy_day": "Journée de l'Autonomie",
+        "midsummer_evey": "Le réveillon du solstice d'été",
+        "midsummer_day": "Saint-Jean",
+        "all_saints_day": "Toussaint",
+        "independence_day": "Jour de l'Indépendance",
+        "christmas_eve": "La veille de Noël"
+      },
+      "es": {
+        "easter_sunday": "Domingo de Pascua",
+        "pentecost": "Pentecostés",
+        "autonomy_day": "Día de la Autonomía",
+        "midsummer_evey": "pleno verano todos los días",
+        "midsummer_day": "Día de verano",
+        "all_saints_day": "Día de Todos los Santos",
+        "independence_day": "Día de la Independencia",
+        "christmas_eve": "Nochebuena"
+      },
+      "pt": {
+        "easter_sunday": "Domingo de Páscoa",
+        "pentecost": "Pentecostes",
+        "autonomy_day": "Dia da Autonomia",
+        "midsummer_evey": "Véspera de verão",
+        "midsummer_day": "Solstício de Verão",
+        "all_saints_day": "Dia de Todos os Santos",
+        "independence_day": "Dia da Independência",
+        "christmas_eve": "Véspera de Natal"
+      },
+      "it": {
+        "easter_sunday": "Domenica di Pasqua",
+        "pentecost": "Pentecoste",
+        "autonomy_day": "Festa dell'autonomia",
+        "midsummer_evey": "Vigilia di mezza estate",
+        "midsummer_day": "Giorno di mezza estate",
+        "all_saints_day": "Giorno di Ognissanti",
+        "independence_day": "Giorno dell'Indipendenza",
+        "christmas_eve": "Vigilia di Natale"
+      },
+      "pl": {
+        "easter_sunday": "Niedziela Wielkanocna",
+        "pentecost": "Zesłanie Ducha Świętego",
+        "autonomy_day": "Dzień Autonomii",
+        "midsummer_evey": "Noc Świętojańska",
+        "midsummer_day": "Święto Świętojańskie",
+        "all_saints_day": "Wszystkich Świętych",
+        "independence_day": "Święto Niepodległości",
+        "christmas_eve": "Wigilia"
+      },
+      "nl": {
+        "easter_sunday": "Paaszondag",
+        "pentecost": "Pinksteren",
+        "autonomy_day": "Dag van de Autonomie",
+        "midsummer_evey": "Midzomeravond",
+        "midsummer_day": "Midzomerdag",
+        "all_saints_day": "Allerheiligen",
+        "independence_day": "Onafhankelijkheidsdag",
+        "christmas_eve": "Kerstavond"
+      },
+      "ja": {
+        "easter_sunday": "イースターサンデー",
+        "pentecost": "ペンテコステ",
+        "autonomy_day": "自治デー",
+        "midsummer_evey": "真夏のイブイ",
+        "midsummer_day": "真夏の日",
+        "all_saints_day": "諸聖人の日",
+        "independence_day": "独立記念日",
+        "christmas_eve": "クリスマスイブ"
+      },
+      "ko": {
+        "easter_sunday": "부활절 일요일",
+        "pentecost": "오순절",
+        "autonomy_day": "자치의 날",
+        "midsummer_evey": "한여름의 이비",
+        "midsummer_day": "한여름날",
+        "all_saints_day": "만성절",
+        "independence_day": "독립기념일",
+        "christmas_eve": "크리스마스 이브"
+      },
+      "zh-Hant": {
+        "easter_sunday": "復活節週日",
+        "pentecost": "五旬節",
+        "autonomy_day": "自治日",
+        "midsummer_evey": "仲夏艾薇",
+        "midsummer_day": "仲夏節",
+        "all_saints_day": "萬聖節",
+        "independence_day": "獨立日",
+        "christmas_eve": "平安夜"
       }
     },
     "holidayInfo": {

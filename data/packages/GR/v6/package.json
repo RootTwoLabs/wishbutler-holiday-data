@@ -980,6 +980,127 @@
         "pentecost": "Πεντηκοστή",
         "whit_monday_gr": "Δευτέρα Πεντηκοστής",
         "ochi_day": "Το Όχι"
+      },
+      "de": {
+        "clean_monday": "Sauberer Montag",
+        "annunciation": "Ankündigung",
+        "independence_day": "Unabhängigkeitstag",
+        "good_friday_gr": "Karfreitag",
+        "easter_sunday": "Ostersonntag",
+        "easter_monday_gr": "Ostermontag",
+        "pentecost": "Pfingsten",
+        "whit_monday_gr": "Pfingstmontag",
+        "ochi_day": "Ochi-Tag"
+      },
+      "fr": {
+        "clean_monday": "Lundi propre",
+        "annunciation": "Annonciation",
+        "independence_day": "Jour de l'Indépendance",
+        "good_friday_gr": "Vendredi Saint",
+        "easter_sunday": "Dimanche de Pâques",
+        "easter_monday_gr": "Lundi de Pâques",
+        "pentecost": "Pentecôte",
+        "whit_monday_gr": "Lundi de Pentecôte",
+        "ochi_day": "Journée Ochi"
+      },
+      "es": {
+        "clean_monday": "Lunes Limpio",
+        "annunciation": "Anunciación",
+        "independence_day": "Día de la Independencia",
+        "good_friday_gr": "Viernes Santo",
+        "easter_sunday": "Domingo de Pascua",
+        "easter_monday_gr": "Lunes de Pascua",
+        "pentecost": "Pentecostés",
+        "whit_monday_gr": "Lunes de Pentecostés",
+        "ochi_day": "Día de Ochi"
+      },
+      "pt": {
+        "clean_monday": "Segunda-feira limpa",
+        "annunciation": "Anunciação",
+        "independence_day": "Dia da Independência",
+        "good_friday_gr": "Sexta-feira Santa",
+        "easter_sunday": "Domingo de Páscoa",
+        "easter_monday_gr": "Segunda-feira de Páscoa",
+        "pentecost": "Pentecostes",
+        "whit_monday_gr": "Segunda-feira de Pentecostes",
+        "ochi_day": "Dia de Ochi"
+      },
+      "it": {
+        "clean_monday": "Lunedì pulito",
+        "annunciation": "Annunciazione",
+        "independence_day": "Giorno dell'Indipendenza",
+        "good_friday_gr": "Venerdì Santo",
+        "easter_sunday": "Domenica di Pasqua",
+        "easter_monday_gr": "Lunedì di Pasquetta",
+        "pentecost": "Pentecoste",
+        "whit_monday_gr": "Lunedì di Pentecoste",
+        "ochi_day": "Giorno dell'Ochi"
+      },
+      "pl": {
+        "clean_monday": "Czysty poniedziałek",
+        "annunciation": "Zwiastowanie",
+        "independence_day": "Święto Niepodległości",
+        "good_friday_gr": "Dobry piątek",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "easter_monday_gr": "Poniedziałek Wielkanocny",
+        "pentecost": "Zesłanie Ducha Świętego",
+        "whit_monday_gr": "Zielone Świątki",
+        "ochi_day": "Dzień Ochi"
+      },
+      "nl": {
+        "clean_monday": "Schone maandag",
+        "annunciation": "Aankondiging",
+        "independence_day": "Onafhankelijkheidsdag",
+        "good_friday_gr": "Goede Vrijdag",
+        "easter_sunday": "Paaszondag",
+        "easter_monday_gr": "Paasmaandag",
+        "pentecost": "Pinksteren",
+        "whit_monday_gr": "Tweede Pinksterdag",
+        "ochi_day": "Ochi-dag"
+      },
+      "sv": {
+        "clean_monday": "Ren måndag",
+        "annunciation": "Tillkännagivande",
+        "independence_day": "Självständighetsdagen",
+        "good_friday_gr": "Långfredag",
+        "easter_sunday": "Påskdagen",
+        "easter_monday_gr": "Annandag påsk",
+        "pentecost": "Pingst",
+        "whit_monday_gr": "pingstmåndag",
+        "ochi_day": "Ochi-dagen"
+      },
+      "ja": {
+        "clean_monday": "クリーンマンデー",
+        "annunciation": "発表",
+        "independence_day": "独立記念日",
+        "good_friday_gr": "グッドフライデー",
+        "easter_sunday": "イースターサンデー",
+        "easter_monday_gr": "イースターマンデー",
+        "pentecost": "ペンテコステ",
+        "whit_monday_gr": "聖霊降臨祭の月曜日",
+        "ochi_day": "越智の日"
+      },
+      "ko": {
+        "clean_monday": "깨끗한 월요일",
+        "annunciation": "수태고지",
+        "independence_day": "독립기념일",
+        "good_friday_gr": "성금요일",
+        "easter_sunday": "부활절 일요일",
+        "easter_monday_gr": "부활절 월요일",
+        "pentecost": "오순절",
+        "whit_monday_gr": "오순절 월요일",
+        "ochi_day": "오치데이"
+      },
+      "zh-Hant": {
+        "clean_monday": "清潔星期一",
+        "annunciation": "天使報喜",
+        "independence_day": "獨立日",
+        "good_friday_gr": "耶稣受难日",
+        "easter_sunday": "復活節週日",
+        "easter_monday_gr": "復活節星期一",
+        "pentecost": "五旬節",
+        "whit_monday_gr": "聖靈降臨節星期一",
+        "ochi_day": "大智日"
       }
     },
     "holidayInfo": {

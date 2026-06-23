@@ -181,6 +181,127 @@
         "republic_day": "Հանրապետության օր",
         "constitution_day": "Սահմանադրության օր",
         "independence_day": "Անկախության օր"
+      },
+      "de": {
+        "new_years_day": "Neujahr",
+        "christmas_day": "Weihnachtstag",
+        "army_day": "Tag der Armee",
+        "easter_sunday": "Ostersonntag",
+        "armenian_genocide_remembrance_day": "Gedenktag zum Völkermord an den Armeniern",
+        "victory_and_peace_day": "Tag des Sieges und des Friedens",
+        "republic_day": "Tag der Republik",
+        "constitution_day": "Tag der Verfassung",
+        "independence_day": "Unabhängigkeitstag"
+      },
+      "fr": {
+        "new_years_day": "Jour de l'An",
+        "christmas_day": "Jour de Noël",
+        "army_day": "Journée de l'Armée",
+        "easter_sunday": "Dimanche de Pâques",
+        "armenian_genocide_remembrance_day": "Journée de commémoration du génocide arménien",
+        "victory_and_peace_day": "Journée de la Victoire et de la Paix",
+        "republic_day": "Fête de la République",
+        "constitution_day": "Jour de la Constitution",
+        "independence_day": "Jour de l'Indépendance"
+      },
+      "es": {
+        "new_years_day": "Día de Año Nuevo",
+        "christmas_day": "Día de Navidad",
+        "army_day": "Día del Ejército",
+        "easter_sunday": "Domingo de Pascua",
+        "armenian_genocide_remembrance_day": "Día en Memoria del Genocidio Armenio",
+        "victory_and_peace_day": "Día de la Victoria y la Paz",
+        "republic_day": "Día de la República",
+        "constitution_day": "Día de la Constitución",
+        "independence_day": "Día de la Independencia"
+      },
+      "pt": {
+        "new_years_day": "Dia de Ano Novo",
+        "christmas_day": "Dia de Natal",
+        "army_day": "Dia do Exército",
+        "easter_sunday": "Domingo de Páscoa",
+        "armenian_genocide_remembrance_day": "Dia em Memória do Genocídio Arménio",
+        "victory_and_peace_day": "Dia da Vitória e da Paz",
+        "republic_day": "Dia da República",
+        "constitution_day": "Dia da Constituição",
+        "independence_day": "Dia da Independência"
+      },
+      "it": {
+        "new_years_day": "Capodanno",
+        "christmas_day": "Il giorno di Natale",
+        "army_day": "Festa dell'esercito",
+        "easter_sunday": "Domenica di Pasqua",
+        "armenian_genocide_remembrance_day": "Giornata della memoria del genocidio armeno",
+        "victory_and_peace_day": "Giornata della Vittoria e della Pace",
+        "republic_day": "Festa della Repubblica",
+        "constitution_day": "Giorno della Costituzione",
+        "independence_day": "Giorno dell'Indipendenza"
+      },
+      "pl": {
+        "new_years_day": "Nowy Rok",
+        "christmas_day": "Boże Narodzenie",
+        "army_day": "Święto Armii",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "armenian_genocide_remembrance_day": "Dzień Pamięci o Ludobójstwie Ormian",
+        "victory_and_peace_day": "Dzień Zwycięstwa i Pokoju",
+        "republic_day": "Dzień Republiki",
+        "constitution_day": "Święto Konstytucji",
+        "independence_day": "Święto Niepodległości"
+      },
+      "nl": {
+        "new_years_day": "Nieuwjaarsdag",
+        "christmas_day": "Eerste Kerstdag",
+        "army_day": "Legerdag",
+        "easter_sunday": "Paaszondag",
+        "armenian_genocide_remembrance_day": "Herdenkingsdag voor de Armeense genocide",
+        "victory_and_peace_day": "Dag van Overwinning en Vrede",
+        "republic_day": "Dag van de Republiek",
+        "constitution_day": "Dag van de Grondwet",
+        "independence_day": "Onafhankelijkheidsdag"
+      },
+      "sv": {
+        "new_years_day": "Nyårsdagen",
+        "christmas_day": "Juldagen",
+        "army_day": "Arméns dag",
+        "easter_sunday": "Påskdagen",
+        "armenian_genocide_remembrance_day": "Minnesdagen för det armeniska folkmordet",
+        "victory_and_peace_day": "Seger- och fredsdagen",
+        "republic_day": "Republikens dag",
+        "constitution_day": "Konstitutionsdagen",
+        "independence_day": "Självständighetsdagen"
+      },
+      "ja": {
+        "new_years_day": "元旦",
+        "christmas_day": "クリスマスの日",
+        "army_day": "陸軍記念日",
+        "easter_sunday": "イースターサンデー",
+        "armenian_genocide_remembrance_day": "アルメニア人虐殺記念日",
+        "victory_and_peace_day": "勝利と平和の日",
+        "republic_day": "共和国記念日",
+        "constitution_day": "憲法記念日",
+        "independence_day": "独立記念日"
+      },
+      "ko": {
+        "new_years_day": "설날",
+        "christmas_day": "크리스마스",
+        "army_day": "육군의 날",
+        "easter_sunday": "부활절 일요일",
+        "armenian_genocide_remembrance_day": "아르메니아 대량 학살 현충일",
+        "victory_and_peace_day": "승리와 평화의 날",
+        "republic_day": "공화국의 날",
+        "constitution_day": "제헌절",
+        "independence_day": "독립기념일"
+      },
+      "zh-Hant": {
+        "new_years_day": "元旦",
+        "christmas_day": "聖誕節",
+        "army_day": "建軍節",
+        "easter_sunday": "復活節週日",
+        "armenian_genocide_remembrance_day": "亞美尼亞種族滅絕紀念日",
+        "victory_and_peace_day": "勝利與和平日",
+        "republic_day": "共和國日",
+        "constitution_day": "憲法日",
+        "independence_day": "獨立日"
       }
     },
     "holidayInfo": {

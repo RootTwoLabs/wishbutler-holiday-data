@@ -11,6 +11,8 @@
     "build:namedays": "node scripts/fetch-namedays.mjs",
     "build:images": "node scripts/fetch-images.mjs",
     "build:articles": "node scripts/build-articles.mjs",
+    "build:labels": "node scripts/build-labels.mjs",
+    "translate:labels": "node scripts/translate-holiday-labels.mjs",
     "migrate:articles": "node scripts/migrate-articles.mjs",
     "build:index": "node scripts/build-index.mjs",
     "validate": "node scripts/validate.mjs",

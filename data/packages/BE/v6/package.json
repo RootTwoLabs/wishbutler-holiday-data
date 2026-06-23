@@ -189,11 +189,81 @@
         "armistice_day": "Armistice Day"
       },
       "nl": {
-        "easter_sunday": "Pasen",
-        "day_after_ascension_day": "Day after Ascension Day",
-        "belgian_national_day": "Nationale feestdag",
+        "easter_sunday": "Paaszondag",
+        "day_after_ascension_day": "Dag na Hemelvaartsdag",
+        "belgian_national_day": "Belgische Nationale Feestdag",
         "all_saints_day": "Allerheiligen",
-        "armistice_day": "Wapenstilstand"
+        "armistice_day": "Wapenstilstandsdag"
+      },
+      "de": {
+        "easter_sunday": "Ostersonntag",
+        "day_after_ascension_day": "Tag nach Christi Himmelfahrt",
+        "belgian_national_day": "Belgischer Nationalfeiertag",
+        "all_saints_day": "Allerheiligen",
+        "armistice_day": "Tag des Waffenstillstands"
+      },
+      "fr": {
+        "easter_sunday": "Dimanche de Pâques",
+        "day_after_ascension_day": "Le lendemain de l'Ascension",
+        "belgian_national_day": "Fête nationale belge",
+        "all_saints_day": "Toussaint",
+        "armistice_day": "Jour de l'Armistice"
+      },
+      "es": {
+        "easter_sunday": "Domingo de Pascua",
+        "day_after_ascension_day": "Día después del Día de la Ascensión",
+        "belgian_national_day": "Día Nacional Belga",
+        "all_saints_day": "Día de Todos los Santos",
+        "armistice_day": "Día del Armisticio"
+      },
+      "pt": {
+        "easter_sunday": "Domingo de Páscoa",
+        "day_after_ascension_day": "Dia após o Dia da Ascensão",
+        "belgian_national_day": "Dia Nacional Belga",
+        "all_saints_day": "Dia de Todos os Santos",
+        "armistice_day": "Dia do Armistício"
+      },
+      "it": {
+        "easter_sunday": "Domenica di Pasqua",
+        "day_after_ascension_day": "Il giorno dopo l'Ascensione",
+        "belgian_national_day": "Festa nazionale belga",
+        "all_saints_day": "Giorno di Ognissanti",
+        "armistice_day": "Giorno dell'Armistizio"
+      },
+      "pl": {
+        "easter_sunday": "Niedziela Wielkanocna",
+        "day_after_ascension_day": "Dzień po Dniu Wniebowstąpienia",
+        "belgian_national_day": "Belgijskie Święto Narodowe",
+        "all_saints_day": "Wszystkich Świętych",
+        "armistice_day": "Dzień zawieszenia broni"
+      },
+      "sv": {
+        "easter_sunday": "Påskdagen",
+        "day_after_ascension_day": "Dag efter Kristi Himmelsfärdsdag",
+        "belgian_national_day": "Belgiens nationaldag",
+        "all_saints_day": "Alla helgons dag",
+        "armistice_day": "Vapenstilleståndsdag"
+      },
+      "ja": {
+        "easter_sunday": "イースターサンデー",
+        "day_after_ascension_day": "昇天の日の翌日",
+        "belgian_national_day": "ベルギー建国記念日",
+        "all_saints_day": "諸聖人の日",
+        "armistice_day": "休戦記念日"
+      },
+      "ko": {
+        "easter_sunday": "부활절 일요일",
+        "day_after_ascension_day": "승천일 다음날",
+        "belgian_national_day": "벨기에 국경일",
+        "all_saints_day": "만성절",
+        "armistice_day": "휴전일"
+      },
+      "zh-Hant": {
+        "easter_sunday": "復活節週日",
+        "day_after_ascension_day": "耶穌升天日後的第二天",
+        "belgian_national_day": "比利時國慶節",
+        "all_saints_day": "萬聖節",
+        "armistice_day": "停戰日"
       }
     },
     "holidayInfo": {

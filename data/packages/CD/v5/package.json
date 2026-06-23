@@ -159,14 +159,114 @@
         "congolese_genocide_day": "Congolese Genocide Day"
       },
       "fr": {
-        "martyrs_day": "Martyrs Day",
-        "laurent_desire_kabila_assassination": "Laurent-Désiré Kabila Assassination",
-        "patrice_lumumba_assassination": "Patrice Lumumba Assassination",
-        "kimbangus_day": "Kimbangu's Day",
-        "liberation_day": "Liberation Day",
-        "independence_day": "Independence Day",
-        "parents_day": "Parents' Day",
-        "congolese_genocide_day": "Congolese Genocide Day"
+        "martyrs_day": "Journée des martyrs",
+        "laurent_desire_kabila_assassination": "Assassinat de Laurent-Désiré Kabila",
+        "patrice_lumumba_assassination": "Assassinat de Patrice Lumumba",
+        "kimbangus_day": "Fête du Kimbangu",
+        "liberation_day": "Jour de la Libération",
+        "independence_day": "Jour de l'Indépendance",
+        "parents_day": "Fête des parents",
+        "congolese_genocide_day": "Journée du Génocide Congolais"
+      },
+      "de": {
+        "martyrs_day": "Märtyrertag",
+        "laurent_desire_kabila_assassination": "Ermordung von Laurent-Désiré Kabila",
+        "patrice_lumumba_assassination": "Ermordung von Patrice Lumumba",
+        "kimbangus_day": "Kimbangus Tag",
+        "liberation_day": "Tag der Befreiung",
+        "independence_day": "Unabhängigkeitstag",
+        "parents_day": "Elterntag",
+        "congolese_genocide_day": "Tag des kongolesischen Völkermords"
+      },
+      "es": {
+        "martyrs_day": "Día de los Mártires",
+        "laurent_desire_kabila_assassination": "Laurent-Désiré Kabila Asesinato",
+        "patrice_lumumba_assassination": "Patrice Lumumba Asesinato",
+        "kimbangus_day": "Día de Kimbangu",
+        "liberation_day": "Día de la Liberación",
+        "independence_day": "Día de la Independencia",
+        "parents_day": "Día de los Padres",
+        "congolese_genocide_day": "Día del Genocidio Congoleño"
+      },
+      "pt": {
+        "martyrs_day": "Dia dos Mártires",
+        "laurent_desire_kabila_assassination": "Assassinato de Laurent-Désiré Kabila",
+        "patrice_lumumba_assassination": "Assassinato de Patrice Lumumba",
+        "kimbangus_day": "Dia de Kimbangu",
+        "liberation_day": "Dia da Libertação",
+        "independence_day": "Dia da Independência",
+        "parents_day": "Dia do Pai",
+        "congolese_genocide_day": "Dia do Genocídio Congolês"
+      },
+      "it": {
+        "martyrs_day": "Festa dei Martiri",
+        "laurent_desire_kabila_assassination": "Laurent-Désiré Kabila Assassinio",
+        "patrice_lumumba_assassination": "Assassinio di Patrice Lumumba",
+        "kimbangus_day": "Giorno di Kimbangu",
+        "liberation_day": "Festa della Liberazione",
+        "independence_day": "Giorno dell'Indipendenza",
+        "parents_day": "Festa dei genitori",
+        "congolese_genocide_day": "Giornata del genocidio congolese"
+      },
+      "pl": {
+        "martyrs_day": "Dzień Męczenników",
+        "laurent_desire_kabila_assassination": "Zabójstwo Laurenta-Désiré Kabili",
+        "patrice_lumumba_assassination": "Zabójstwo Patrice'a Lumumby",
+        "kimbangus_day": "Dzień Kimbangu",
+        "liberation_day": "Dzień Wyzwolenia",
+        "independence_day": "Święto Niepodległości",
+        "parents_day": "Dzień Rodziców",
+        "congolese_genocide_day": "Dzień Ludobójstwa w Kongu"
+      },
+      "nl": {
+        "martyrs_day": "Martelarendag",
+        "laurent_desire_kabila_assassination": "Moord op Laurent-Désiré Kabila",
+        "patrice_lumumba_assassination": "Moord op Patrice Lumumba",
+        "kimbangus_day": "Kimbangu's dag",
+        "liberation_day": "Bevrijdingsdag",
+        "independence_day": "Onafhankelijkheidsdag",
+        "parents_day": "Ouderdag",
+        "congolese_genocide_day": "Congolese genocidedag"
+      },
+      "sv": {
+        "martyrs_day": "Martyrernas dag",
+        "laurent_desire_kabila_assassination": "Mordet på Laurent-Désiré Kabila",
+        "patrice_lumumba_assassination": "Mordet på Patrice Lumumba",
+        "kimbangus_day": "Kimbangus dag",
+        "liberation_day": "Befrielsedagen",
+        "independence_day": "Självständighetsdagen",
+        "parents_day": "Föräldradag",
+        "congolese_genocide_day": "Kongolesisk folkmordsdag"
+      },
+      "ja": {
+        "martyrs_day": "殉教者の日",
+        "laurent_desire_kabila_assassination": "ローラン・デジレ・カビラ暗殺",
+        "patrice_lumumba_assassination": "パトリス・ルムンバ暗殺",
+        "kimbangus_day": "キンバングの日",
+        "liberation_day": "解放記念日",
+        "independence_day": "独立記念日",
+        "parents_day": "両親の日",
+        "congolese_genocide_day": "コンゴ虐殺の日"
+      },
+      "ko": {
+        "martyrs_day": "순교자의 날",
+        "laurent_desire_kabila_assassination": "로랑-데지레 카빌라 암살",
+        "patrice_lumumba_assassination": "파트리스 루뭄바 암살",
+        "kimbangus_day": "김반구의 하루",
+        "liberation_day": "광복절",
+        "independence_day": "독립기념일",
+        "parents_day": "어버이날",
+        "congolese_genocide_day": "콩고 대량 학살의 날"
+      },
+      "zh-Hant": {
+        "martyrs_day": "烈士節",
+        "laurent_desire_kabila_assassination": "洛朗-德西雷·卡比拉暗殺",
+        "patrice_lumumba_assassination": "帕特里斯·盧蒙巴暗殺",
+        "kimbangus_day": "金班古節",
+        "liberation_day": "解放日",
+        "independence_day": "獨立日",
+        "parents_day": "雙親節",
+        "congolese_genocide_day": "剛果種族滅絕日"
       }
     },
     "holidayInfo": {

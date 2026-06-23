@@ -168,6 +168,94 @@
         "june_holiday": "June Holiday",
         "august_holiday": "August Holiday",
         "october_holiday": "October Holiday"
+      },
+      "de": {
+        "saint_brigids_day": "Tag der Heiligen Brigid",
+        "saint_patricks_day": "St. Patrick's Day",
+        "may_day": "Maifeiertag",
+        "june_holiday": "Juni-Feiertag",
+        "august_holiday": "Augusturlaub",
+        "october_holiday": "Oktoberferien"
+      },
+      "fr": {
+        "saint_brigids_day": "Fête de la Sainte Brigitte",
+        "saint_patricks_day": "Saint Patrick",
+        "may_day": "1er mai",
+        "june_holiday": "Vacances de juin",
+        "august_holiday": "Vacances d'août",
+        "october_holiday": "Vacances d'octobre"
+      },
+      "es": {
+        "saint_brigids_day": "Día de Santa Brígida",
+        "saint_patricks_day": "Día de San Patricio",
+        "may_day": "Primero de Mayo",
+        "june_holiday": "Vacaciones de junio",
+        "august_holiday": "Vacaciones de agosto",
+        "october_holiday": "Vacaciones de Octubre"
+      },
+      "pt": {
+        "saint_brigids_day": "Dia de Santa Brígida",
+        "saint_patricks_day": "Dia de São Patrício",
+        "may_day": "Primeiro de Maio",
+        "june_holiday": "Feriado de junho",
+        "august_holiday": "Feriado de agosto",
+        "october_holiday": "Feriado de outubro"
+      },
+      "it": {
+        "saint_brigids_day": "Giorno di Santa Brigida",
+        "saint_patricks_day": "Giorno di San Patrizio",
+        "may_day": "Primo Maggio",
+        "june_holiday": "Vacanze di giugno",
+        "august_holiday": "Vacanze di agosto",
+        "october_holiday": "Vacanze di ottobre"
+      },
+      "pl": {
+        "saint_brigids_day": "Dzień Św. Brygidy",
+        "saint_patricks_day": "Dzień Świętego Patryka",
+        "may_day": "Majówka",
+        "june_holiday": "Czerwcowe święto",
+        "august_holiday": "Święto sierpniowe",
+        "october_holiday": "Październikowe święto"
+      },
+      "nl": {
+        "saint_brigids_day": "Sint Brigid's Day",
+        "saint_patricks_day": "Sint Patrick'sdag",
+        "may_day": "Meidag",
+        "june_holiday": "Junivakantie",
+        "august_holiday": "Augustusvakantie",
+        "october_holiday": "Oktobervakantie"
+      },
+      "sv": {
+        "saint_brigids_day": "Saint Brigid's Day",
+        "saint_patricks_day": "Saint Patrick's Day",
+        "may_day": "första maj",
+        "june_holiday": "Junilov",
+        "august_holiday": "Augusti semester",
+        "october_holiday": "Oktoberlov"
+      },
+      "ja": {
+        "saint_brigids_day": "聖ブリジッドの日",
+        "saint_patricks_day": "聖パトリックの日",
+        "may_day": "メーデー",
+        "june_holiday": "6月のお休み",
+        "august_holiday": "8月のお休み",
+        "october_holiday": "10月のお休み"
+      },
+      "ko": {
+        "saint_brigids_day": "성 브리기드의 날",
+        "saint_patricks_day": "성 패트릭의 날",
+        "may_day": "메이데이",
+        "june_holiday": "6월 휴무",
+        "august_holiday": "8월 휴무",
+        "october_holiday": "10월 휴무"
+      },
+      "zh-Hant": {
+        "saint_brigids_day": "聖布里吉德節",
+        "saint_patricks_day": "聖派翠克節",
+        "may_day": "五一節",
+        "june_holiday": "六月假期",
+        "august_holiday": "八月假期",
+        "october_holiday": "十月假期"
       }
     },
     "holidayInfo": {

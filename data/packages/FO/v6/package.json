@@ -239,6 +239,127 @@
         "saint_olavs_eve": "Ólavsøkuaftan",
         "saint_olavs_day": "Ólavsøkudagur",
         "christmas_eve": "Jólaaftanskvøld"
+      },
+      "de": {
+        "maundy_thursday": "Gründonnerstag",
+        "easter_sunday": "Ostersonntag",
+        "national_flag_day": "Tag der Nationalflagge",
+        "general_prayer_day": "Allgemeiner Gebetstag",
+        "pentecost": "Pfingsten",
+        "constitution_day": "Tag der Verfassung",
+        "saint_olavs_eve": "Vorabend des Heiligen Olav",
+        "saint_olavs_day": "Tag des Heiligen Olav",
+        "christmas_eve": "Heiligabend"
+      },
+      "fr": {
+        "maundy_thursday": "Jeudi Saint",
+        "easter_sunday": "Dimanche de Pâques",
+        "national_flag_day": "Journée du drapeau national",
+        "general_prayer_day": "Journée de prière générale",
+        "pentecost": "Pentecôte",
+        "constitution_day": "Jour de la Constitution",
+        "saint_olavs_eve": "Réveillon de Saint Olav",
+        "saint_olavs_day": "Fête de la Saint Olav",
+        "christmas_eve": "La veille de Noël"
+      },
+      "es": {
+        "maundy_thursday": "Jueves Santo",
+        "easter_sunday": "Domingo de Pascua",
+        "national_flag_day": "Día de la Bandera Nacional",
+        "general_prayer_day": "Día General de Oración",
+        "pentecost": "Pentecostés",
+        "constitution_day": "Día de la Constitución",
+        "saint_olavs_eve": "Víspera de San Olav",
+        "saint_olavs_day": "Día de San Olav",
+        "christmas_eve": "Nochebuena"
+      },
+      "pt": {
+        "maundy_thursday": "Quinta-feira Santa",
+        "easter_sunday": "Domingo de Páscoa",
+        "national_flag_day": "Dia da Bandeira Nacional",
+        "general_prayer_day": "Dia Geral de Oração",
+        "pentecost": "Pentecostes",
+        "constitution_day": "Dia da Constituição",
+        "saint_olavs_eve": "Véspera de Santo Olavo",
+        "saint_olavs_day": "Dia de Santo Olavo",
+        "christmas_eve": "Véspera de Natal"
+      },
+      "it": {
+        "maundy_thursday": "Giovedì Santo",
+        "easter_sunday": "Domenica di Pasqua",
+        "national_flag_day": "Giornata della bandiera nazionale",
+        "general_prayer_day": "Giornata di preghiera generale",
+        "pentecost": "Pentecoste",
+        "constitution_day": "Giorno della Costituzione",
+        "saint_olavs_eve": "Vigilia di Sant'Olav",
+        "saint_olavs_day": "Giorno di Sant'Olav",
+        "christmas_eve": "Vigilia di Natale"
+      },
+      "pl": {
+        "maundy_thursday": "Wielki Czwartek",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "national_flag_day": "Dzień Flagi Narodowej",
+        "general_prayer_day": "Dzień Modlitwy Ogólnej",
+        "pentecost": "Zesłanie Ducha Świętego",
+        "constitution_day": "Święto Konstytucji",
+        "saint_olavs_eve": "Wigilia Świętego Olafa",
+        "saint_olavs_day": "Dzień Świętego Olafa",
+        "christmas_eve": "Wigilia"
+      },
+      "nl": {
+        "maundy_thursday": "Witte Donderdag",
+        "easter_sunday": "Paaszondag",
+        "national_flag_day": "Nationale Vlaggendag",
+        "general_prayer_day": "Algemene gebedsdag",
+        "pentecost": "Pinksteren",
+        "constitution_day": "Dag van de Grondwet",
+        "saint_olavs_eve": "Sint-Olavsavond",
+        "saint_olavs_day": "Sint-Olavsdag",
+        "christmas_eve": "Kerstavond"
+      },
+      "sv": {
+        "maundy_thursday": "Skärtorsdag",
+        "easter_sunday": "Påskdagen",
+        "national_flag_day": "Nationella flaggdagen",
+        "general_prayer_day": "Allmän bönedag",
+        "pentecost": "Pingst",
+        "constitution_day": "Konstitutionsdagen",
+        "saint_olavs_eve": "Olavshelgen",
+        "saint_olavs_day": "Sankt Olavs dag",
+        "christmas_eve": "Julafton"
+      },
+      "ja": {
+        "maundy_thursday": "聖木曜日",
+        "easter_sunday": "イースターサンデー",
+        "national_flag_day": "国旗の日",
+        "general_prayer_day": "一般祈祷日",
+        "pentecost": "ペンテコステ",
+        "constitution_day": "憲法記念日",
+        "saint_olavs_eve": "聖オラフの前夜",
+        "saint_olavs_day": "聖オラフの日",
+        "christmas_eve": "クリスマスイブ"
+      },
+      "ko": {
+        "maundy_thursday": "성 목요일",
+        "easter_sunday": "부활절 일요일",
+        "national_flag_day": "국기의 날",
+        "general_prayer_day": "일반기도일",
+        "pentecost": "오순절",
+        "constitution_day": "제헌절",
+        "saint_olavs_eve": "성 올라브의 전야",
+        "saint_olavs_day": "성 올라프의 날",
+        "christmas_eve": "크리스마스 이브"
+      },
+      "zh-Hant": {
+        "maundy_thursday": "濯足節",
+        "easter_sunday": "復活節週日",
+        "national_flag_day": "國旗日",
+        "general_prayer_day": "通用祈禱日",
+        "pentecost": "五旬節",
+        "constitution_day": "憲法日",
+        "saint_olavs_eve": "聖奧拉夫之夜",
+        "saint_olavs_day": "聖奧拉夫節",
+        "christmas_eve": "平安夜"
       }
     },
     "holidayInfo": {

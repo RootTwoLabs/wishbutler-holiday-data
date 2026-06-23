@@ -131,11 +131,91 @@
       },
       "es": {
         "triumph_of_the_revolution": "Triunfo de la Revolución",
-        "victory_of_fidel_castro": "Día de Victoria de las Fuerzas Armadas",
-        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "Conmemoración del asalto a Moncada",
-        "commemoration_of_the_assault_of_the_moncada_garrison": "Día de la Rebeldía Nacional",
-        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "Conmemoración del asalto a Moncada",
+        "victory_of_fidel_castro": "Victoria de Fidel Castro",
+        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "Día previo a la Conmemoración del Asalto al Cuartel Moncada",
+        "commemoration_of_the_assault_of_the_moncada_garrison": "Conmemoración del Asalto al Cuartel Moncada",
+        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "Día después de la Conmemoración del Asalto al Cuartel Moncada",
         "independence_day": "Día de la Independencia"
+      },
+      "de": {
+        "triumph_of_the_revolution": "Triumph der Revolution",
+        "victory_of_fidel_castro": "Sieg von Fidel Castro",
+        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "Tag vor dem Gedenken an den Angriff auf die Moncada-Garnison",
+        "commemoration_of_the_assault_of_the_moncada_garrison": "Gedenken an den Angriff auf die Moncada-Garnison",
+        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "Tag nach dem Gedenken an den Angriff auf die Moncada-Garnison",
+        "independence_day": "Unabhängigkeitstag"
+      },
+      "fr": {
+        "triumph_of_the_revolution": "Triomphe de la Révolution",
+        "victory_of_fidel_castro": "Victoire de Fidel Castro",
+        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "La veille de la Commémoration de l'Assaut de la garnison de Moncada",
+        "commemoration_of_the_assault_of_the_moncada_garrison": "Commémoration de l'assaut de la garnison Moncada",
+        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "Jour après la Commémoration de l'Assaut de la garnison Moncada",
+        "independence_day": "Jour de l'Indépendance"
+      },
+      "pt": {
+        "triumph_of_the_revolution": "Triunfo da Revolução",
+        "victory_of_fidel_castro": "Vitória de Fidel Castro",
+        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "Dia anterior à Comemoração do Assalto à guarnição de Moncada",
+        "commemoration_of_the_assault_of_the_moncada_garrison": "Comemoração do Assalto à guarnição de Moncada",
+        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "Dia seguinte à Comemoração do Assalto à guarnição de Moncada",
+        "independence_day": "Dia da Independência"
+      },
+      "it": {
+        "triumph_of_the_revolution": "Trionfo della Rivoluzione",
+        "victory_of_fidel_castro": "Vittoria di Fidel Castro",
+        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "Giorno prima della commemorazione dell'assalto alla guarnigione Moncada",
+        "commemoration_of_the_assault_of_the_moncada_garrison": "Commemorazione dell'Assalto al presidio Moncada",
+        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "Giorno dopo la commemorazione dell'assalto al presidio Moncada",
+        "independence_day": "Giorno dell'Indipendenza"
+      },
+      "pl": {
+        "triumph_of_the_revolution": "Triumf rewolucji",
+        "victory_of_fidel_castro": "Zwycięstwo Fidela Castro",
+        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "Dzień przed upamiętnieniem szturmu garnizonu Moncada",
+        "commemoration_of_the_assault_of_the_moncada_garrison": "Upamiętnienie szturmu garnizonu Moncada",
+        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "Dzień po upamiętnieniu szturmu garnizonu Moncada",
+        "independence_day": "Święto Niepodległości"
+      },
+      "nl": {
+        "triumph_of_the_revolution": "Triomf van de revolutie",
+        "victory_of_fidel_castro": "Overwinning van Fidel Castro",
+        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "Dag vóór de herdenking van de aanval op het garnizoen van Moncada",
+        "commemoration_of_the_assault_of_the_moncada_garrison": "Herdenking van de aanval op het garnizoen van Moncada",
+        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "Dag na de herdenking van de aanval op het garnizoen van Moncada",
+        "independence_day": "Onafhankelijkheidsdag"
+      },
+      "sv": {
+        "triumph_of_the_revolution": "Revolutionens triumf",
+        "victory_of_fidel_castro": "Fidel Castros seger",
+        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "Dagen före minnet av anfallet på Moncada-garnisonen",
+        "commemoration_of_the_assault_of_the_moncada_garrison": "Åminnelse av överfallet på Moncada-garnisonen",
+        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "Dagen efter minnet av anfallet på Moncada-garnisonen",
+        "independence_day": "Självständighetsdagen"
+      },
+      "ja": {
+        "triumph_of_the_revolution": "革命の勝利",
+        "victory_of_fidel_castro": "フィデル・カストロの勝利",
+        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "モンカダ守備隊襲撃記念前日",
+        "commemoration_of_the_assault_of_the_moncada_garrison": "モンカダ守備隊襲撃記念",
+        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "モンカダ守備隊襲撃記念の翌日",
+        "independence_day": "独立記念日"
+      },
+      "ko": {
+        "triumph_of_the_revolution": "혁명의 승리",
+        "victory_of_fidel_castro": "피델 카스트로의 승리",
+        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "몬카다 수비대 습격 기념일 전날",
+        "commemoration_of_the_assault_of_the_moncada_garrison": "몬카다 수비대 습격 기념",
+        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "몬카다 수비대 습격 다음날",
+        "independence_day": "독립기념일"
+      },
+      "zh-Hant": {
+        "triumph_of_the_revolution": "革命的勝利",
+        "victory_of_fidel_castro": "菲德爾·卡斯特羅的勝利",
+        "day_before_the_commemoration_of_the_assault_of_the_moncada_garrison": "紀念襲擊蒙卡達駐軍的前一天",
+        "commemoration_of_the_assault_of_the_moncada_garrison": "蒙卡達駐軍攻擊紀念活動",
+        "day_after_the_commemoration_of_the_assault_of_the_moncada_garrison": "蒙卡達駐軍攻擊紀念日",
+        "independence_day": "獨立日"
       }
     },
     "holidayInfo": {

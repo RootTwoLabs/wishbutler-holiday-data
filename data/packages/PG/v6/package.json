@@ -152,6 +152,94 @@
         "remembrance_day": "Remembrance Day",
         "repentance_day": "Repentance Day",
         "independence_day": "Independence Day"
+      },
+      "de": {
+        "holy_saturday": "Karsamstag",
+        "easter_sunday": "Ostersonntag",
+        "queens_birthday": "Geburtstag der Königin",
+        "remembrance_day": "Gedenktag",
+        "repentance_day": "Bußtag",
+        "independence_day": "Unabhängigkeitstag"
+      },
+      "fr": {
+        "holy_saturday": "Samedi Saint",
+        "easter_sunday": "Dimanche de Pâques",
+        "queens_birthday": "Anniversaire de la Reine",
+        "remembrance_day": "Jour du Souvenir",
+        "repentance_day": "Jour du repentir",
+        "independence_day": "Jour de l'Indépendance"
+      },
+      "es": {
+        "holy_saturday": "Sábado Santo",
+        "easter_sunday": "Domingo de Pascua",
+        "queens_birthday": "Cumpleaños de la Reina",
+        "remembrance_day": "Día del Recuerdo",
+        "repentance_day": "Día del Arrepentimiento",
+        "independence_day": "Día de la Independencia"
+      },
+      "pt": {
+        "holy_saturday": "Sábado Santo",
+        "easter_sunday": "Domingo de Páscoa",
+        "queens_birthday": "Aniversário da Rainha",
+        "remembrance_day": "Dia da Memória",
+        "repentance_day": "Dia do Arrependimento",
+        "independence_day": "Dia da Independência"
+      },
+      "it": {
+        "holy_saturday": "Sabato Santo",
+        "easter_sunday": "Domenica di Pasqua",
+        "queens_birthday": "Compleanno della regina",
+        "remembrance_day": "Giorno della Memoria",
+        "repentance_day": "Giorno del pentimento",
+        "independence_day": "Giorno dell'Indipendenza"
+      },
+      "pl": {
+        "holy_saturday": "Wielka Sobota",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "queens_birthday": "Urodziny królowej",
+        "remembrance_day": "Dzień Pamięci",
+        "repentance_day": "Dzień pokuty",
+        "independence_day": "Święto Niepodległości"
+      },
+      "nl": {
+        "holy_saturday": "Stille Zaterdag",
+        "easter_sunday": "Paaszondag",
+        "queens_birthday": "Koninginnedag",
+        "remembrance_day": "Dodenherdenking",
+        "repentance_day": "Dag van Bekering",
+        "independence_day": "Onafhankelijkheidsdag"
+      },
+      "sv": {
+        "holy_saturday": "Heliga lördag",
+        "easter_sunday": "Påskdagen",
+        "queens_birthday": "Drottningens födelsedag",
+        "remembrance_day": "Åminnelsedagen",
+        "repentance_day": "Ångerdagen",
+        "independence_day": "Självständighetsdagen"
+      },
+      "ja": {
+        "holy_saturday": "聖土曜日",
+        "easter_sunday": "イースターサンデー",
+        "queens_birthday": "女王の誕生日",
+        "remembrance_day": "記念日",
+        "repentance_day": "悔い改めの日",
+        "independence_day": "独立記念日"
+      },
+      "ko": {
+        "holy_saturday": "성토요일",
+        "easter_sunday": "부활절 일요일",
+        "queens_birthday": "여왕 탄신일",
+        "remembrance_day": "현충일",
+        "repentance_day": "참회의 날",
+        "independence_day": "독립기념일"
+      },
+      "zh-Hant": {
+        "holy_saturday": "聖週六",
+        "easter_sunday": "復活節週日",
+        "queens_birthday": "女王生日",
+        "remembrance_day": "陣亡將士紀念日",
+        "repentance_day": "悔改日",
+        "independence_day": "獨立日"
       }
     },
     "holidayInfo": {

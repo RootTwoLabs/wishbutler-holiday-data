@@ -155,13 +155,103 @@
         "army_day": "Army Day"
       },
       "es": {
-        "maundy_thursday": "Holy Thursday",
-        "holy_saturday": "Holy Saturday",
-        "americas_day": "America's Day",
-        "independence_day": "Independence Day",
-        "francisco_morazans_day_soldiers_day": "Francisco Morazán's Day/Soldier's Day",
+        "maundy_thursday": "Jueves Santo",
+        "holy_saturday": "Sábado Santo",
+        "americas_day": "Día de América",
+        "independence_day": "Día de la Independencia",
+        "francisco_morazans_day_soldiers_day": "Día de Francisco Morazán/Día del Soldado",
+        "columbus_day": "Día de la Raza",
+        "army_day": "Día del Ejército"
+      },
+      "de": {
+        "maundy_thursday": "Gründonnerstag",
+        "holy_saturday": "Karsamstag",
+        "americas_day": "Amerikatag",
+        "independence_day": "Unabhängigkeitstag",
+        "francisco_morazans_day_soldiers_day": "Francisco Morazáns Tag/Soldatentag",
+        "columbus_day": "Columbus-Tag",
+        "army_day": "Tag der Armee"
+      },
+      "fr": {
+        "maundy_thursday": "Jeudi Saint",
+        "holy_saturday": "Samedi Saint",
+        "americas_day": "Fête de l'Amérique",
+        "independence_day": "Jour de l'Indépendance",
+        "francisco_morazans_day_soldiers_day": "Fête de Francisco Morazán/Journée du Soldat",
+        "columbus_day": "Jour de Colomb",
+        "army_day": "Journée de l'Armée"
+      },
+      "pt": {
+        "maundy_thursday": "Quinta-feira Santa",
+        "holy_saturday": "Sábado Santo",
+        "americas_day": "Dia da América",
+        "independence_day": "Dia da Independência",
+        "francisco_morazans_day_soldiers_day": "Dia de Francisco Morazán/Dia do Soldado",
+        "columbus_day": "Dia de Colombo",
+        "army_day": "Dia do Exército"
+      },
+      "it": {
+        "maundy_thursday": "Giovedì Santo",
+        "holy_saturday": "Sabato Santo",
+        "americas_day": "Festa dell'America",
+        "independence_day": "Giorno dell'Indipendenza",
+        "francisco_morazans_day_soldiers_day": "Festa di Francisco Morazán/Festa del Soldato",
+        "columbus_day": "Giorno di Cristoforo Colombo",
+        "army_day": "Festa dell'esercito"
+      },
+      "pl": {
+        "maundy_thursday": "Wielki Czwartek",
+        "holy_saturday": "Wielka Sobota",
+        "americas_day": "Dzień Ameryki",
+        "independence_day": "Święto Niepodległości",
+        "francisco_morazans_day_soldiers_day": "Dzień Francisco Morazána/Dzień Żołnierza",
+        "columbus_day": "Dzień Kolumba",
+        "army_day": "Święto Armii"
+      },
+      "nl": {
+        "maundy_thursday": "Witte Donderdag",
+        "holy_saturday": "Stille Zaterdag",
+        "americas_day": "Amerika's Dag",
+        "independence_day": "Onafhankelijkheidsdag",
+        "francisco_morazans_day_soldiers_day": "Francisco Morazán's Day/Soldatendag",
+        "columbus_day": "Columbus-dag",
+        "army_day": "Legerdag"
+      },
+      "sv": {
+        "maundy_thursday": "Skärtorsdag",
+        "holy_saturday": "Heliga lördag",
+        "americas_day": "Amerikas dag",
+        "independence_day": "Självständighetsdagen",
+        "francisco_morazans_day_soldiers_day": "Francisco Morazáns dag/soldatens dag",
         "columbus_day": "Columbus Day",
-        "army_day": "Army Day"
+        "army_day": "Arméns dag"
+      },
+      "ja": {
+        "maundy_thursday": "聖木曜日",
+        "holy_saturday": "聖土曜日",
+        "americas_day": "アメリカの日",
+        "independence_day": "独立記念日",
+        "francisco_morazans_day_soldiers_day": "フランシスコ・モラザンの日/兵士の日",
+        "columbus_day": "コロンバスデー",
+        "army_day": "陸軍記念日"
+      },
+      "ko": {
+        "maundy_thursday": "성 목요일",
+        "holy_saturday": "성토요일",
+        "americas_day": "미국의 날",
+        "independence_day": "독립기념일",
+        "francisco_morazans_day_soldiers_day": "프란시스코 모라잔의 날/군인의 날",
+        "columbus_day": "콜럼버스 데이",
+        "army_day": "육군의 날"
+      },
+      "zh-Hant": {
+        "maundy_thursday": "濯足節",
+        "holy_saturday": "聖週六",
+        "americas_day": "美國日",
+        "independence_day": "獨立日",
+        "francisco_morazans_day_soldiers_day": "Francisco Morazán's Day/Soldier's Day",
+        "columbus_day": "哥倫布日",
+        "army_day": "建軍節"
       }
     },
     "holidayInfo": {

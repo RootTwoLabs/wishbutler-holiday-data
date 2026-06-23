@@ -153,6 +153,83 @@
         "independence_day": "Independence Day",
         "caricom_day": "Caricom Day",
         "emancipation_day": "Emancipation Day"
+      },
+      "de": {
+        "republic_day": "Tag der Republik",
+        "arrival_day": "Anreisetag",
+        "independence_day": "Unabhängigkeitstag",
+        "caricom_day": "Caricom-Tag",
+        "emancipation_day": "Tag der Emanzipation"
+      },
+      "fr": {
+        "republic_day": "Fête de la République",
+        "arrival_day": "Jour d'arrivée",
+        "independence_day": "Jour de l'Indépendance",
+        "caricom_day": "Journée de la Caricom",
+        "emancipation_day": "Journée de l'émancipation"
+      },
+      "es": {
+        "republic_day": "Día de la República",
+        "arrival_day": "Día de llegada",
+        "independence_day": "Día de la Independencia",
+        "caricom_day": "Día del Caricom",
+        "emancipation_day": "Día de la Emancipación"
+      },
+      "pt": {
+        "republic_day": "Dia da República",
+        "arrival_day": "Dia de Chegada",
+        "independence_day": "Dia da Independência",
+        "caricom_day": "Dia da Caricom",
+        "emancipation_day": "Dia da Emancipação"
+      },
+      "it": {
+        "republic_day": "Festa della Repubblica",
+        "arrival_day": "Giorno di arrivo",
+        "independence_day": "Giorno dell'Indipendenza",
+        "caricom_day": "Giornata del Caricom",
+        "emancipation_day": "Giornata dell'emancipazione"
+      },
+      "pl": {
+        "republic_day": "Dzień Republiki",
+        "arrival_day": "Dzień przyjazdu",
+        "independence_day": "Święto Niepodległości",
+        "caricom_day": "Dzień Caricomu",
+        "emancipation_day": "Dzień Emancypacji"
+      },
+      "nl": {
+        "republic_day": "Dag van de Republiek",
+        "arrival_day": "Aankomstdag",
+        "independence_day": "Onafhankelijkheidsdag",
+        "caricom_day": "Caricom-dag",
+        "emancipation_day": "Emancipatiedag"
+      },
+      "sv": {
+        "republic_day": "Republikens dag",
+        "arrival_day": "Ankomstdag",
+        "independence_day": "Självständighetsdagen",
+        "caricom_day": "Caricom-dagen",
+        "emancipation_day": "Emancipationsdagen"
+      },
+      "ja": {
+        "republic_day": "共和国記念日",
+        "arrival_day": "到着日",
+        "independence_day": "独立記念日",
+        "caricom_day": "カリコムデー",
+        "emancipation_day": "解放の日"
+      },
+      "ko": {
+        "republic_day": "공화국의 날",
+        "arrival_day": "도착일",
+        "independence_day": "독립기념일",
+        "caricom_day": "캐리콤데이",
+        "emancipation_day": "해방의 날"
+      },
+      "zh-Hant": {
+        "republic_day": "共和國日",
+        "arrival_day": "抵達日",
+        "independence_day": "獨立日",
+        "caricom_day": "加勒比共同體日",
+        "emancipation_day": "解放日"
       }
     },
     "holidayInfo": {

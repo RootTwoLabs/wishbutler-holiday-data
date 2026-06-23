@@ -154,11 +154,81 @@
         "all_saints_day": "All Saints' Day"
       },
       "fr": {
-        "renovation_day": "Renovation Day",
-        "womens_day_ga": "Women's Day",
-        "martyrs_day": "Martyr's Day",
-        "independence_day": "Independence Day",
-        "all_saints_day": "All Saints' Day"
+        "renovation_day": "Journée de la Rénovation",
+        "womens_day_ga": "Journée de la femme",
+        "martyrs_day": "Journée des martyrs",
+        "independence_day": "Jour de l'Indépendance",
+        "all_saints_day": "Toussaint"
+      },
+      "de": {
+        "renovation_day": "Renovierungstag",
+        "womens_day_ga": "Frauentag",
+        "martyrs_day": "Märtyrertag",
+        "independence_day": "Unabhängigkeitstag",
+        "all_saints_day": "Allerheiligen"
+      },
+      "es": {
+        "renovation_day": "Día de renovación",
+        "womens_day_ga": "Día de la Mujer",
+        "martyrs_day": "Día de los Mártires",
+        "independence_day": "Día de la Independencia",
+        "all_saints_day": "Día de Todos los Santos"
+      },
+      "pt": {
+        "renovation_day": "Dia da Renovação",
+        "womens_day_ga": "Dia da Mulher",
+        "martyrs_day": "Dia dos Mártires",
+        "independence_day": "Dia da Independência",
+        "all_saints_day": "Dia de Todos os Santos"
+      },
+      "it": {
+        "renovation_day": "Giorno della ristrutturazione",
+        "womens_day_ga": "Festa della donna",
+        "martyrs_day": "Festa dei Martiri",
+        "independence_day": "Giorno dell'Indipendenza",
+        "all_saints_day": "Giorno di Ognissanti"
+      },
+      "pl": {
+        "renovation_day": "Dzień Remontu",
+        "womens_day_ga": "Dzień Kobiet",
+        "martyrs_day": "Dzień Męczenników",
+        "independence_day": "Święto Niepodległości",
+        "all_saints_day": "Wszystkich Świętych"
+      },
+      "nl": {
+        "renovation_day": "Renovatiedag",
+        "womens_day_ga": "Vrouwendag",
+        "martyrs_day": "Martelarendag",
+        "independence_day": "Onafhankelijkheidsdag",
+        "all_saints_day": "Allerheiligen"
+      },
+      "sv": {
+        "renovation_day": "Renoveringsdagen",
+        "womens_day_ga": "Kvinnodagen",
+        "martyrs_day": "Martyrernas dag",
+        "independence_day": "Självständighetsdagen",
+        "all_saints_day": "Alla helgons dag"
+      },
+      "ja": {
+        "renovation_day": "改装の日",
+        "womens_day_ga": "女性の日",
+        "martyrs_day": "殉教者の日",
+        "independence_day": "独立記念日",
+        "all_saints_day": "諸聖人の日"
+      },
+      "ko": {
+        "renovation_day": "리노베이션 데이",
+        "womens_day_ga": "여성의 날",
+        "martyrs_day": "순교자의 날",
+        "independence_day": "독립기념일",
+        "all_saints_day": "만성절"
+      },
+      "zh-Hant": {
+        "renovation_day": "裝修日",
+        "womens_day_ga": "婦女節",
+        "martyrs_day": "烈士節",
+        "independence_day": "獨立日",
+        "all_saints_day": "萬聖節"
       }
     },
     "holidayInfo": {

@@ -1254,10 +1254,70 @@
         "armistice_day": "Armistice Day"
       },
       "fr": {
-        "victory_in_europe_day": "Victoire 1945",
-        "bastille_day": "Fête nationale",
+        "victory_in_europe_day": "Journée de la Victoire en Europe",
+        "bastille_day": "14 juillet",
         "all_saints_day": "Toussaint",
-        "armistice_day": "Armistice 1918"
+        "armistice_day": "Jour de l'Armistice"
+      },
+      "de": {
+        "victory_in_europe_day": "Tag des Sieges in Europa",
+        "bastille_day": "Tag der Bastille",
+        "all_saints_day": "Allerheiligen",
+        "armistice_day": "Tag des Waffenstillstands"
+      },
+      "es": {
+        "victory_in_europe_day": "Día de la Victoria en Europa",
+        "bastille_day": "Día de la Bastilla",
+        "all_saints_day": "Día de Todos los Santos",
+        "armistice_day": "Día del Armisticio"
+      },
+      "pt": {
+        "victory_in_europe_day": "Dia da Vitória na Europa",
+        "bastille_day": "Dia da Bastilha",
+        "all_saints_day": "Dia de Todos os Santos",
+        "armistice_day": "Dia do Armistício"
+      },
+      "it": {
+        "victory_in_europe_day": "Festa della Vittoria in Europa",
+        "bastille_day": "Il giorno della Bastiglia",
+        "all_saints_day": "Giorno di Ognissanti",
+        "armistice_day": "Giorno dell'Armistizio"
+      },
+      "pl": {
+        "victory_in_europe_day": "Dzień Zwycięstwa w Europie",
+        "bastille_day": "Dzień Bastylii",
+        "all_saints_day": "Wszystkich Świętych",
+        "armistice_day": "Dzień zawieszenia broni"
+      },
+      "nl": {
+        "victory_in_europe_day": "Dag van de overwinning in Europa",
+        "bastille_day": "Bastille-dag",
+        "all_saints_day": "Allerheiligen",
+        "armistice_day": "Wapenstilstandsdag"
+      },
+      "sv": {
+        "victory_in_europe_day": "Seger på Europadagen",
+        "bastille_day": "Bastilledagen",
+        "all_saints_day": "Alla helgons dag",
+        "armistice_day": "Vapenstilleståndsdag"
+      },
+      "ja": {
+        "victory_in_europe_day": "ヨーロッパ戦勝デー",
+        "bastille_day": "フランス革命記念日",
+        "all_saints_day": "諸聖人の日",
+        "armistice_day": "休戦記念日"
+      },
+      "ko": {
+        "victory_in_europe_day": "유럽 승리의 날",
+        "bastille_day": "바스티유 데이",
+        "all_saints_day": "만성절",
+        "armistice_day": "휴전일"
+      },
+      "zh-Hant": {
+        "victory_in_europe_day": "歐洲勝利日",
+        "bastille_day": "巴士底日",
+        "all_saints_day": "萬聖節",
+        "armistice_day": "停戰日"
       }
     },
     "holidayInfo": {

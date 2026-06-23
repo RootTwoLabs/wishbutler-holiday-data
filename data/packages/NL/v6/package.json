@@ -159,10 +159,70 @@
         "pentecost": "Pentecost"
       },
       "nl": {
-        "easter_sunday": "Eerste Paasdag",
+        "easter_sunday": "Paaszondag",
         "kings_day": "Koningsdag",
         "liberation_day": "Bevrijdingsdag",
-        "pentecost": "Eerste Pinksterdag"
+        "pentecost": "Pinksteren"
+      },
+      "de": {
+        "easter_sunday": "Ostersonntag",
+        "kings_day": "Königstag",
+        "liberation_day": "Tag der Befreiung",
+        "pentecost": "Pfingsten"
+      },
+      "fr": {
+        "easter_sunday": "Dimanche de Pâques",
+        "kings_day": "Fête du Roi",
+        "liberation_day": "Jour de la Libération",
+        "pentecost": "Pentecôte"
+      },
+      "es": {
+        "easter_sunday": "Domingo de Pascua",
+        "kings_day": "Día del Rey",
+        "liberation_day": "Día de la Liberación",
+        "pentecost": "Pentecostés"
+      },
+      "pt": {
+        "easter_sunday": "Domingo de Páscoa",
+        "kings_day": "Dia de Rei",
+        "liberation_day": "Dia da Libertação",
+        "pentecost": "Pentecostes"
+      },
+      "it": {
+        "easter_sunday": "Domenica di Pasqua",
+        "kings_day": "Giorno del Re",
+        "liberation_day": "Festa della Liberazione",
+        "pentecost": "Pentecoste"
+      },
+      "pl": {
+        "easter_sunday": "Niedziela Wielkanocna",
+        "kings_day": "Dzień Króla",
+        "liberation_day": "Dzień Wyzwolenia",
+        "pentecost": "Zesłanie Ducha Świętego"
+      },
+      "sv": {
+        "easter_sunday": "Påskdagen",
+        "kings_day": "Kungens dag",
+        "liberation_day": "Befrielsedagen",
+        "pentecost": "Pingst"
+      },
+      "ja": {
+        "easter_sunday": "イースターサンデー",
+        "kings_day": "国王の日",
+        "liberation_day": "解放記念日",
+        "pentecost": "ペンテコステ"
+      },
+      "ko": {
+        "easter_sunday": "부활절 일요일",
+        "kings_day": "국왕의 날",
+        "liberation_day": "광복절",
+        "pentecost": "오순절"
+      },
+      "zh-Hant": {
+        "easter_sunday": "復活節週日",
+        "kings_day": "國王節",
+        "liberation_day": "解放日",
+        "pentecost": "五旬節"
       }
     },
     "holidayInfo": {

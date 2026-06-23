@@ -234,6 +234,105 @@
         "icelandic_national_day": "Þjóðhátíðardagurinn",
         "commerce_day": "Frídagur verslunarmanna",
         "christmas_eve": "Aðfangadagur"
+      },
+      "de": {
+        "maundy_thursday": "Gründonnerstag",
+        "easter_sunday": "Ostersonntag",
+        "first_day_of_summer": "Erster Sommertag",
+        "pentecost": "Pfingsten",
+        "icelandic_national_day": "Isländischer Nationalfeiertag",
+        "commerce_day": "Handelstag",
+        "christmas_eve": "Heiligabend"
+      },
+      "fr": {
+        "maundy_thursday": "Jeudi Saint",
+        "easter_sunday": "Dimanche de Pâques",
+        "first_day_of_summer": "Premier jour de l'été",
+        "pentecost": "Pentecôte",
+        "icelandic_national_day": "Fête nationale islandaise",
+        "commerce_day": "Journée du commerce",
+        "christmas_eve": "La veille de Noël"
+      },
+      "es": {
+        "maundy_thursday": "Jueves Santo",
+        "easter_sunday": "Domingo de Pascua",
+        "first_day_of_summer": "Primer día de verano",
+        "pentecost": "Pentecostés",
+        "icelandic_national_day": "Día Nacional de Islandia",
+        "commerce_day": "Día del Comercio",
+        "christmas_eve": "Nochebuena"
+      },
+      "pt": {
+        "maundy_thursday": "Quinta-feira Santa",
+        "easter_sunday": "Domingo de Páscoa",
+        "first_day_of_summer": "Primeiro dia de Verão",
+        "pentecost": "Pentecostes",
+        "icelandic_national_day": "Dia Nacional da Islândia",
+        "commerce_day": "Dia do Comércio",
+        "christmas_eve": "Véspera de Natal"
+      },
+      "it": {
+        "maundy_thursday": "Giovedì Santo",
+        "easter_sunday": "Domenica di Pasqua",
+        "first_day_of_summer": "Primo giorno d'estate",
+        "pentecost": "Pentecoste",
+        "icelandic_national_day": "Festa nazionale islandese",
+        "commerce_day": "Giornata del commercio",
+        "christmas_eve": "Vigilia di Natale"
+      },
+      "pl": {
+        "maundy_thursday": "Wielki Czwartek",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "first_day_of_summer": "Pierwszy dzień lata",
+        "pentecost": "Zesłanie Ducha Świętego",
+        "icelandic_national_day": "Islandzkie Święto Narodowe",
+        "commerce_day": "Dzień Handlu",
+        "christmas_eve": "Wigilia"
+      },
+      "nl": {
+        "maundy_thursday": "Witte Donderdag",
+        "easter_sunday": "Paaszondag",
+        "first_day_of_summer": "Eerste zomerdag",
+        "pentecost": "Pinksteren",
+        "icelandic_national_day": "IJslandse nationale feestdag",
+        "commerce_day": "Handelsdag",
+        "christmas_eve": "Kerstavond"
+      },
+      "sv": {
+        "maundy_thursday": "Skärtorsdag",
+        "easter_sunday": "Påskdagen",
+        "first_day_of_summer": "Första sommardagen",
+        "pentecost": "Pingst",
+        "icelandic_national_day": "Islands nationaldag",
+        "commerce_day": "Handelsdagen",
+        "christmas_eve": "Julafton"
+      },
+      "ja": {
+        "maundy_thursday": "聖木曜日",
+        "easter_sunday": "イースターサンデー",
+        "first_day_of_summer": "夏の初日",
+        "pentecost": "ペンテコステ",
+        "icelandic_national_day": "アイスランド建国記念日",
+        "commerce_day": "コマースデー",
+        "christmas_eve": "クリスマスイブ"
+      },
+      "ko": {
+        "maundy_thursday": "성 목요일",
+        "easter_sunday": "부활절 일요일",
+        "first_day_of_summer": "여름의 첫날",
+        "pentecost": "오순절",
+        "icelandic_national_day": "아이슬란드 국경일",
+        "commerce_day": "상업의 날",
+        "christmas_eve": "크리스마스 이브"
+      },
+      "zh-Hant": {
+        "maundy_thursday": "濯足節",
+        "easter_sunday": "復活節週日",
+        "first_day_of_summer": "夏日的第一天",
+        "pentecost": "五旬節",
+        "icelandic_national_day": "冰島國慶日",
+        "commerce_day": "商業日",
+        "christmas_eve": "平安夜"
       }
     },
     "holidayInfo": {

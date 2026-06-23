@@ -188,6 +188,116 @@
         "easter_monday_rs": "Vaskrsni (Uskrsni) ponedeljak",
         "labour_day_rs": "Praznik rada",
         "armistice_day": "Dan primirja"
+      },
+      "de": {
+        "new_years_day": "Neujahr",
+        "christmas_day": "Weihnachtstag",
+        "statehood_day": "Tag der Eigenstaatlichkeit",
+        "good_friday_rs": "Karfreitag",
+        "easter_sunday": "Ostersonntag",
+        "easter_monday_rs": "Ostermontag",
+        "labour_day_rs": "Tag der Arbeit",
+        "armistice_day": "Tag des Waffenstillstands"
+      },
+      "fr": {
+        "new_years_day": "Jour de l'An",
+        "christmas_day": "Jour de Noël",
+        "statehood_day": "Journée de l'État",
+        "good_friday_rs": "Vendredi Saint",
+        "easter_sunday": "Dimanche de Pâques",
+        "easter_monday_rs": "Lundi de Pâques",
+        "labour_day_rs": "Fête du Travail",
+        "armistice_day": "Jour de l'Armistice"
+      },
+      "es": {
+        "new_years_day": "Día de Año Nuevo",
+        "christmas_day": "Día de Navidad",
+        "statehood_day": "Día de la Estadidad",
+        "good_friday_rs": "Viernes Santo",
+        "easter_sunday": "Domingo de Pascua",
+        "easter_monday_rs": "Lunes de Pascua",
+        "labour_day_rs": "Día del Trabajo",
+        "armistice_day": "Día del Armisticio"
+      },
+      "pt": {
+        "new_years_day": "Dia de Ano Novo",
+        "christmas_day": "Dia de Natal",
+        "statehood_day": "Dia do Estado",
+        "good_friday_rs": "Sexta-feira Santa",
+        "easter_sunday": "Domingo de Páscoa",
+        "easter_monday_rs": "Segunda-feira de Páscoa",
+        "labour_day_rs": "Dia do Trabalhador",
+        "armistice_day": "Dia do Armistício"
+      },
+      "it": {
+        "new_years_day": "Capodanno",
+        "christmas_day": "Il giorno di Natale",
+        "statehood_day": "Giornata dello Stato",
+        "good_friday_rs": "Venerdì Santo",
+        "easter_sunday": "Domenica di Pasqua",
+        "easter_monday_rs": "Lunedì di Pasquetta",
+        "labour_day_rs": "Festa dei lavoratori",
+        "armistice_day": "Giorno dell'Armistizio"
+      },
+      "pl": {
+        "new_years_day": "Nowy Rok",
+        "christmas_day": "Boże Narodzenie",
+        "statehood_day": "Dzień Państwowości",
+        "good_friday_rs": "Dobry piątek",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "easter_monday_rs": "Poniedziałek Wielkanocny",
+        "labour_day_rs": "Święto Pracy",
+        "armistice_day": "Dzień zawieszenia broni"
+      },
+      "nl": {
+        "new_years_day": "Nieuwjaarsdag",
+        "christmas_day": "Eerste Kerstdag",
+        "statehood_day": "Dag van de staat",
+        "good_friday_rs": "Goede Vrijdag",
+        "easter_sunday": "Paaszondag",
+        "easter_monday_rs": "Paasmaandag",
+        "labour_day_rs": "Dag van de Arbeid",
+        "armistice_day": "Wapenstilstandsdag"
+      },
+      "sv": {
+        "new_years_day": "Nyårsdagen",
+        "christmas_day": "Juldagen",
+        "statehood_day": "Statens dag",
+        "good_friday_rs": "Långfredag",
+        "easter_sunday": "Påskdagen",
+        "easter_monday_rs": "Annandag påsk",
+        "labour_day_rs": "Labor Day",
+        "armistice_day": "Vapenstilleståndsdag"
+      },
+      "ja": {
+        "new_years_day": "元旦",
+        "christmas_day": "クリスマスの日",
+        "statehood_day": "州就任記念日",
+        "good_friday_rs": "グッドフライデー",
+        "easter_sunday": "イースターサンデー",
+        "easter_monday_rs": "イースターマンデー",
+        "labour_day_rs": "レイバーデー",
+        "armistice_day": "休戦記念日"
+      },
+      "ko": {
+        "new_years_day": "설날",
+        "christmas_day": "크리스마스",
+        "statehood_day": "건국 기념일",
+        "good_friday_rs": "성금요일",
+        "easter_sunday": "부활절 일요일",
+        "easter_monday_rs": "부활절 월요일",
+        "labour_day_rs": "노동절",
+        "armistice_day": "휴전일"
+      },
+      "zh-Hant": {
+        "new_years_day": "元旦",
+        "christmas_day": "聖誕節",
+        "statehood_day": "建州日",
+        "good_friday_rs": "耶稣受难日",
+        "easter_sunday": "復活節週日",
+        "easter_monday_rs": "復活節星期一",
+        "labour_day_rs": "勞動節",
+        "armistice_day": "停戰日"
       }
     },
     "holidayInfo": {

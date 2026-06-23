@@ -197,13 +197,123 @@
       "pt": {
         "carnival": "Carnaval",
         "easter_sunday": "Domingo de Páscoa",
-        "tiradentes": "Dia de Tiradentes",
+        "tiradentes": "Tiradentes",
         "constitutionalist_revolution_of_1932": "Revolução Constitucionalista de 1932",
         "independence_day": "Dia da Independência",
         "our_lady_of_aparecida": "Nossa Senhora Aparecida",
         "all_souls_day": "Dia de Finados",
-        "republic_proclamation_day": "Proclamação da República",
+        "republic_proclamation_day": "Dia da Proclamação da República",
         "black_awareness_day": "Dia da Consciência Negra"
+      },
+      "de": {
+        "carnival": "Karneval",
+        "easter_sunday": "Ostersonntag",
+        "tiradentes": "Tiradentes",
+        "constitutionalist_revolution_of_1932": "Konstitutionelle Revolution von 1932",
+        "independence_day": "Unabhängigkeitstag",
+        "our_lady_of_aparecida": "Unsere Liebe Frau von Aparecida",
+        "all_souls_day": "Allerseelen",
+        "republic_proclamation_day": "Tag der Ausrufung der Republik",
+        "black_awareness_day": "Black Awareness Day"
+      },
+      "fr": {
+        "carnival": "Carnaval",
+        "easter_sunday": "Dimanche de Pâques",
+        "tiradentes": "Tiradentes",
+        "constitutionalist_revolution_of_1932": "Révolution constitutionnaliste de 1932",
+        "independence_day": "Jour de l'Indépendance",
+        "our_lady_of_aparecida": "Notre-Dame d'Aparecida",
+        "all_souls_day": "Jour de la Toussaint",
+        "republic_proclamation_day": "Jour de proclamation de la République",
+        "black_awareness_day": "Journée de sensibilisation aux Noirs"
+      },
+      "es": {
+        "carnival": "Carnaval",
+        "easter_sunday": "Domingo de Pascua",
+        "tiradentes": "Tiradentes",
+        "constitutionalist_revolution_of_1932": "Revolución Constitucionalista de 1932",
+        "independence_day": "Día de la Independencia",
+        "our_lady_of_aparecida": "Nuestra Señora de Aparecida",
+        "all_souls_day": "Día de Todos los Difuntos",
+        "republic_proclamation_day": "Día de la Proclamación de la República",
+        "black_awareness_day": "Día de la Conciencia Negra"
+      },
+      "it": {
+        "carnival": "Carnevale",
+        "easter_sunday": "Domenica di Pasqua",
+        "tiradentes": "Tiradentes",
+        "constitutionalist_revolution_of_1932": "Rivoluzione costituzionalista del 1932",
+        "independence_day": "Giorno dell'Indipendenza",
+        "our_lady_of_aparecida": "Nostra Signora di Aparecida",
+        "all_souls_day": "Giorno dei defunti",
+        "republic_proclamation_day": "Giorno della Proclamazione della Repubblica",
+        "black_awareness_day": "Giornata della consapevolezza del nero"
+      },
+      "pl": {
+        "carnival": "Karnawał",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "tiradentes": "Tiradentes",
+        "constitutionalist_revolution_of_1932": "Rewolucja konstytucjonalistyczna 1932 roku",
+        "independence_day": "Święto Niepodległości",
+        "our_lady_of_aparecida": "Matka Boża z Aparecidy",
+        "all_souls_day": "Zaduszki",
+        "republic_proclamation_day": "Dzień Proklamacji Republiki",
+        "black_awareness_day": "Dzień świadomości czarnej ludności"
+      },
+      "nl": {
+        "carnival": "Carnaval",
+        "easter_sunday": "Paaszondag",
+        "tiradentes": "Tiradentes",
+        "constitutionalist_revolution_of_1932": "Constitutionalistische revolutie van 1932",
+        "independence_day": "Onafhankelijkheidsdag",
+        "our_lady_of_aparecida": "Onze Lieve Vrouw van Aparecida",
+        "all_souls_day": "Allerzielen",
+        "republic_proclamation_day": "Dag van de proclamatie van de Republiek",
+        "black_awareness_day": "Dag van de zwarte bewustwording"
+      },
+      "sv": {
+        "carnival": "Karneval",
+        "easter_sunday": "Påskdagen",
+        "tiradentes": "Tiradentes",
+        "constitutionalist_revolution_of_1932": "Konstitutionalistiska revolutionen 1932",
+        "independence_day": "Självständighetsdagen",
+        "our_lady_of_aparecida": "Vår Fru av Aparecida",
+        "all_souls_day": "Alla själars dag",
+        "republic_proclamation_day": "Republikens proklamationsdag",
+        "black_awareness_day": "Black Awareness Day"
+      },
+      "ja": {
+        "carnival": "カーニバル",
+        "easter_sunday": "イースターサンデー",
+        "tiradentes": "チラデンテス",
+        "constitutionalist_revolution_of_1932": "1932 年の立憲主義革命",
+        "independence_day": "独立記念日",
+        "our_lady_of_aparecida": "アパレシーダの聖母",
+        "all_souls_day": "諸魂の日",
+        "republic_proclamation_day": "共和国宣言の日",
+        "black_awareness_day": "黒人啓発デー"
+      },
+      "ko": {
+        "carnival": "카니발",
+        "easter_sunday": "부활절 일요일",
+        "tiradentes": "티라덴테스",
+        "constitutionalist_revolution_of_1932": "1932년 입헌주의 혁명",
+        "independence_day": "독립기념일",
+        "our_lady_of_aparecida": "아파레시다의 성모",
+        "all_souls_day": "위령의 날",
+        "republic_proclamation_day": "공화국 선포일",
+        "black_awareness_day": "흑인 인식의 날"
+      },
+      "zh-Hant": {
+        "carnival": "嘉年華",
+        "easter_sunday": "復活節週日",
+        "tiradentes": "蒂拉登特斯",
+        "constitutionalist_revolution_of_1932": "1932年立憲革命",
+        "independence_day": "獨立日",
+        "our_lady_of_aparecida": "阿帕雷西達聖母",
+        "all_souls_day": "萬靈節",
+        "republic_proclamation_day": "共和國宣告日",
+        "black_awareness_day": "黑人意識日"
       }
     },
     "holidayInfo": {

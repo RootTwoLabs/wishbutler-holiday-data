@@ -170,14 +170,114 @@
         "mothers_day": "Mother's Day"
       },
       "es": {
-        "martyrs_day": "Martyr's Day",
-        "carnival": "Carnival",
-        "separation_day": "Separation Day",
-        "flag_day": "Flag Day",
-        "colon_day": "Colón Day",
-        "shout_in_villa_de_los_santos": "Shout in Villa de los Santos",
-        "independence_day": "Independence Day",
-        "mothers_day": "Mother's Day"
+        "martyrs_day": "Día de los Mártires",
+        "carnival": "Carnaval",
+        "separation_day": "Día de Separación",
+        "flag_day": "Día de la Bandera",
+        "colon_day": "Día de Colón",
+        "shout_in_villa_de_los_santos": "Grito en Villa de los Santos",
+        "independence_day": "Día de la Independencia",
+        "mothers_day": "Día de la Madre"
+      },
+      "de": {
+        "martyrs_day": "Märtyrertag",
+        "carnival": "Karneval",
+        "separation_day": "Tag der Trennung",
+        "flag_day": "Tag der Flagge",
+        "colon_day": "Colon-Tag",
+        "shout_in_villa_de_los_santos": "Schrei in Villa de los Santos",
+        "independence_day": "Unabhängigkeitstag",
+        "mothers_day": "Muttertag"
+      },
+      "fr": {
+        "martyrs_day": "Journée des martyrs",
+        "carnival": "Carnaval",
+        "separation_day": "Jour de séparation",
+        "flag_day": "Jour du drapeau",
+        "colon_day": "Fête du côlon",
+        "shout_in_villa_de_los_santos": "Cri à Villa de los Santos",
+        "independence_day": "Jour de l'Indépendance",
+        "mothers_day": "Fête des Mères"
+      },
+      "pt": {
+        "martyrs_day": "Dia dos Mártires",
+        "carnival": "Carnaval",
+        "separation_day": "Dia da Separação",
+        "flag_day": "Dia da Bandeira",
+        "colon_day": "Dia do Cólon",
+        "shout_in_villa_de_los_santos": "Grite em Villa de los Santos",
+        "independence_day": "Dia da Independência",
+        "mothers_day": "Dia da Mãe"
+      },
+      "it": {
+        "martyrs_day": "Festa dei Martiri",
+        "carnival": "Carnevale",
+        "separation_day": "Il giorno della separazione",
+        "flag_day": "Giorno della bandiera",
+        "colon_day": "Giornata del colon",
+        "shout_in_villa_de_los_santos": "Grida a Villa de los Santos",
+        "independence_day": "Giorno dell'Indipendenza",
+        "mothers_day": "Festa della mamma"
+      },
+      "pl": {
+        "martyrs_day": "Dzień Męczenników",
+        "carnival": "Karnawał",
+        "separation_day": "Dzień separacji",
+        "flag_day": "Dzień Flagi",
+        "colon_day": "Dzień okrężnicy",
+        "shout_in_villa_de_los_santos": "Krzycz w Villa de los Santos",
+        "independence_day": "Święto Niepodległości",
+        "mothers_day": "Dzień Matki"
+      },
+      "nl": {
+        "martyrs_day": "Martelarendag",
+        "carnival": "Carnaval",
+        "separation_day": "Scheidingsdag",
+        "flag_day": "Vlaggendag",
+        "colon_day": "Dikkedarmdag",
+        "shout_in_villa_de_los_santos": "Schreeuw in Villa de los Santos",
+        "independence_day": "Onafhankelijkheidsdag",
+        "mothers_day": "Moederdag"
+      },
+      "sv": {
+        "martyrs_day": "Martyrernas dag",
+        "carnival": "Karneval",
+        "separation_day": "Separationsdag",
+        "flag_day": "Flaggdag",
+        "colon_day": "Kolondagen",
+        "shout_in_villa_de_los_santos": "Ropa i Villa de los Santos",
+        "independence_day": "Självständighetsdagen",
+        "mothers_day": "Mors dag"
+      },
+      "ja": {
+        "martyrs_day": "殉教者の日",
+        "carnival": "カーニバル",
+        "separation_day": "離別の日",
+        "flag_day": "フラッグデー",
+        "colon_day": "コロンの日",
+        "shout_in_villa_de_los_santos": "ビジャ・デ・ロス・サントスで叫ぶ",
+        "independence_day": "独立記念日",
+        "mothers_day": "母の日"
+      },
+      "ko": {
+        "martyrs_day": "순교자의 날",
+        "carnival": "카니발",
+        "separation_day": "이별의 날",
+        "flag_day": "국기의 날",
+        "colon_day": "콜론데이",
+        "shout_in_villa_de_los_santos": "비야 데 로스 산토스에서 외침",
+        "independence_day": "독립기념일",
+        "mothers_day": "어버이날"
+      },
+      "zh-Hant": {
+        "martyrs_day": "烈士節",
+        "carnival": "嘉年華",
+        "separation_day": "分離日",
+        "flag_day": "賣旗日",
+        "colon_day": "冒號日",
+        "shout_in_villa_de_los_santos": "洛斯桑托斯別墅的吶喊",
+        "independence_day": "獨立日",
+        "mothers_day": "母親節"
       }
     },
     "holidayInfo": {

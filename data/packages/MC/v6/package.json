@@ -206,12 +206,92 @@
         "christmas_day": "Christmas Day"
       },
       "fr": {
-        "new_years_day": "Le jour de l’An",
-        "saint_devotas_day": "La Sainte Dévote",
-        "all_saints_day": "La Toussaint",
-        "national_day": "La Fête du Prince",
-        "the_immaculate_conception": "L’Immaculée Conception",
-        "christmas_day": "Noël"
+        "new_years_day": "Jour de l'An",
+        "saint_devotas_day": "Fête de Sainte Dévote",
+        "all_saints_day": "Toussaint",
+        "national_day": "Fête nationale",
+        "the_immaculate_conception": "L'Immaculée Conception",
+        "christmas_day": "Jour de Noël"
+      },
+      "de": {
+        "new_years_day": "Neujahr",
+        "saint_devotas_day": "Tag des Heiligen Devota",
+        "all_saints_day": "Allerheiligen",
+        "national_day": "Nationalfeiertag",
+        "the_immaculate_conception": "Die Unbefleckte Empfängnis",
+        "christmas_day": "Weihnachtstag"
+      },
+      "es": {
+        "new_years_day": "Día de Año Nuevo",
+        "saint_devotas_day": "Día de Santa Devota",
+        "all_saints_day": "Día de Todos los Santos",
+        "national_day": "Día Nacional",
+        "the_immaculate_conception": "La Inmaculada Concepción",
+        "christmas_day": "Día de Navidad"
+      },
+      "pt": {
+        "new_years_day": "Dia de Ano Novo",
+        "saint_devotas_day": "Dia de Santa Devota",
+        "all_saints_day": "Dia de Todos os Santos",
+        "national_day": "Dia Nacional",
+        "the_immaculate_conception": "A Imaculada Conceição",
+        "christmas_day": "Dia de Natal"
+      },
+      "it": {
+        "new_years_day": "Capodanno",
+        "saint_devotas_day": "Festa di Santa Devota",
+        "all_saints_day": "Giorno di Ognissanti",
+        "national_day": "Festa nazionale",
+        "the_immaculate_conception": "L'Immacolata Concezione",
+        "christmas_day": "Il giorno di Natale"
+      },
+      "pl": {
+        "new_years_day": "Nowy Rok",
+        "saint_devotas_day": "Dzień Świętego Dewoty",
+        "all_saints_day": "Wszystkich Świętych",
+        "national_day": "Święto Narodowe",
+        "the_immaculate_conception": "Niepokalane Poczęcie",
+        "christmas_day": "Boże Narodzenie"
+      },
+      "nl": {
+        "new_years_day": "Nieuwjaarsdag",
+        "saint_devotas_day": "Sint-Devotadag",
+        "all_saints_day": "Allerheiligen",
+        "national_day": "Nationale feestdag",
+        "the_immaculate_conception": "De Onbevlekte Ontvangenis",
+        "christmas_day": "Eerste Kerstdag"
+      },
+      "sv": {
+        "new_years_day": "Nyårsdagen",
+        "saint_devotas_day": "Saint Devotas dag",
+        "all_saints_day": "Alla helgons dag",
+        "national_day": "Nationaldagen",
+        "the_immaculate_conception": "Den obefläckade avlelsen",
+        "christmas_day": "Juldagen"
+      },
+      "ja": {
+        "new_years_day": "元旦",
+        "saint_devotas_day": "聖デヴォータの日",
+        "all_saints_day": "諸聖人の日",
+        "national_day": "建国記念日",
+        "the_immaculate_conception": "無原罪懐胎",
+        "christmas_day": "クリスマスの日"
+      },
+      "ko": {
+        "new_years_day": "설날",
+        "saint_devotas_day": "성 데보타의 날",
+        "all_saints_day": "만성절",
+        "national_day": "국경일",
+        "the_immaculate_conception": "무염시태",
+        "christmas_day": "크리스마스"
+      },
+      "zh-Hant": {
+        "new_years_day": "元旦",
+        "saint_devotas_day": "聖德沃塔節",
+        "all_saints_day": "萬聖節",
+        "national_day": "國慶",
+        "the_immaculate_conception": "聖母無染原罪",
+        "christmas_day": "聖誕節"
       }
     },
     "holidayInfo": {

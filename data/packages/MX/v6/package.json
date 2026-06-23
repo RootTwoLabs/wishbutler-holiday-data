@@ -167,14 +167,114 @@
         "inauguration_day": "Inauguration Day"
       },
       "es": {
-        "new_years_day": "Año Nuevo",
+        "new_years_day": "Día de Año Nuevo",
         "constitution_day": "Día de la Constitución",
-        "benito_juarezs_birthday": "Natalicio de Benito Juárez",
+        "benito_juarezs_birthday": "cumpleaños de Benito Juárez",
         "maundy_thursday": "Jueves Santo",
         "labour_day_mx": "Día del Trabajo",
         "independence_day": "Día de la Independencia",
         "revolution_day": "Día de la Revolución",
-        "inauguration_day": "Transmisión del Poder Ejecutivo Federal"
+        "inauguration_day": "Día de la Inauguración"
+      },
+      "de": {
+        "new_years_day": "Neujahr",
+        "constitution_day": "Tag der Verfassung",
+        "benito_juarezs_birthday": "Geburtstag von Benito Juárez",
+        "maundy_thursday": "Gründonnerstag",
+        "labour_day_mx": "Tag der Arbeit",
+        "independence_day": "Unabhängigkeitstag",
+        "revolution_day": "Tag der Revolution",
+        "inauguration_day": "Tag der Amtseinführung"
+      },
+      "fr": {
+        "new_years_day": "Jour de l'An",
+        "constitution_day": "Jour de la Constitution",
+        "benito_juarezs_birthday": "Anniversaire de Benito Juárez",
+        "maundy_thursday": "Jeudi Saint",
+        "labour_day_mx": "Fête du Travail",
+        "independence_day": "Jour de l'Indépendance",
+        "revolution_day": "Jour de la Révolution",
+        "inauguration_day": "Jour d'inauguration"
+      },
+      "pt": {
+        "new_years_day": "Dia de Ano Novo",
+        "constitution_day": "Dia da Constituição",
+        "benito_juarezs_birthday": "Aniversário de Benito Juárez",
+        "maundy_thursday": "Quinta-feira Santa",
+        "labour_day_mx": "Dia do Trabalhador",
+        "independence_day": "Dia da Independência",
+        "revolution_day": "Dia da Revolução",
+        "inauguration_day": "Dia de inauguração"
+      },
+      "it": {
+        "new_years_day": "Capodanno",
+        "constitution_day": "Giorno della Costituzione",
+        "benito_juarezs_birthday": "Compleanno di Benito Juárez",
+        "maundy_thursday": "Giovedì Santo",
+        "labour_day_mx": "Festa dei lavoratori",
+        "independence_day": "Giorno dell'Indipendenza",
+        "revolution_day": "Giorno della Rivoluzione",
+        "inauguration_day": "Giorno dell'inaugurazione"
+      },
+      "pl": {
+        "new_years_day": "Nowy Rok",
+        "constitution_day": "Święto Konstytucji",
+        "benito_juarezs_birthday": "Urodziny Benito Juáreza",
+        "maundy_thursday": "Wielki Czwartek",
+        "labour_day_mx": "Święto Pracy",
+        "independence_day": "Święto Niepodległości",
+        "revolution_day": "Dzień Rewolucji",
+        "inauguration_day": "Dzień inauguracyjny"
+      },
+      "nl": {
+        "new_years_day": "Nieuwjaarsdag",
+        "constitution_day": "Dag van de Grondwet",
+        "benito_juarezs_birthday": "Benito Juárez's verjaardag",
+        "maundy_thursday": "Witte Donderdag",
+        "labour_day_mx": "Dag van de Arbeid",
+        "independence_day": "Onafhankelijkheidsdag",
+        "revolution_day": "Dag van de Revolutie",
+        "inauguration_day": "Inauguratiedag"
+      },
+      "sv": {
+        "new_years_day": "Nyårsdagen",
+        "constitution_day": "Konstitutionsdagen",
+        "benito_juarezs_birthday": "Benito Juárez födelsedag",
+        "maundy_thursday": "Skärtorsdag",
+        "labour_day_mx": "Labor Day",
+        "independence_day": "Självständighetsdagen",
+        "revolution_day": "Revolutionsdagen",
+        "inauguration_day": "Invigningsdagen"
+      },
+      "ja": {
+        "new_years_day": "元旦",
+        "constitution_day": "憲法記念日",
+        "benito_juarezs_birthday": "ベニート フアレスの誕生日",
+        "maundy_thursday": "聖木曜日",
+        "labour_day_mx": "レイバーデー",
+        "independence_day": "独立記念日",
+        "revolution_day": "革命記念日",
+        "inauguration_day": "就任式の日"
+      },
+      "ko": {
+        "new_years_day": "설날",
+        "constitution_day": "제헌절",
+        "benito_juarezs_birthday": "베니토 후아레스의 생일",
+        "maundy_thursday": "성 목요일",
+        "labour_day_mx": "노동절",
+        "independence_day": "독립기념일",
+        "revolution_day": "혁명의 날",
+        "inauguration_day": "취임식 날"
+      },
+      "zh-Hant": {
+        "new_years_day": "元旦",
+        "constitution_day": "憲法日",
+        "benito_juarezs_birthday": "貝尼托·胡亞雷斯的生日",
+        "maundy_thursday": "濯足節",
+        "labour_day_mx": "勞動節",
+        "independence_day": "獨立日",
+        "revolution_day": "革命日",
+        "inauguration_day": "就職日"
       }
     },
     "holidayInfo": {

@@ -192,12 +192,92 @@
         "national_day": "National Day"
       },
       "fr": {
-        "traditional_day": "Traditional Day",
-        "easter_sunday": "Easter Sunday",
-        "independence_day": "Independence Day",
-        "armed_forces_day": "Armed Forces Day",
-        "all_saints_day": "All Saints' Day",
-        "national_day": "National Day"
+        "traditional_day": "Journée traditionnelle",
+        "easter_sunday": "Dimanche de Pâques",
+        "independence_day": "Jour de l'Indépendance",
+        "armed_forces_day": "Journée des Forces armées",
+        "all_saints_day": "Toussaint",
+        "national_day": "Fête nationale"
+      },
+      "de": {
+        "traditional_day": "Traditioneller Tag",
+        "easter_sunday": "Ostersonntag",
+        "independence_day": "Unabhängigkeitstag",
+        "armed_forces_day": "Tag der Streitkräfte",
+        "all_saints_day": "Allerheiligen",
+        "national_day": "Nationalfeiertag"
+      },
+      "es": {
+        "traditional_day": "Día Tradicional",
+        "easter_sunday": "Domingo de Pascua",
+        "independence_day": "Día de la Independencia",
+        "armed_forces_day": "Día de las Fuerzas Armadas",
+        "all_saints_day": "Día de Todos los Santos",
+        "national_day": "Día Nacional"
+      },
+      "pt": {
+        "traditional_day": "Dia Tradicional",
+        "easter_sunday": "Domingo de Páscoa",
+        "independence_day": "Dia da Independência",
+        "armed_forces_day": "Dia das Forças Armadas",
+        "all_saints_day": "Dia de Todos os Santos",
+        "national_day": "Dia Nacional"
+      },
+      "it": {
+        "traditional_day": "Giornata tradizionale",
+        "easter_sunday": "Domenica di Pasqua",
+        "independence_day": "Giorno dell'Indipendenza",
+        "armed_forces_day": "Giornata delle Forze Armate",
+        "all_saints_day": "Giorno di Ognissanti",
+        "national_day": "Festa nazionale"
+      },
+      "pl": {
+        "traditional_day": "Dzień Tradycyjny",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "independence_day": "Święto Niepodległości",
+        "armed_forces_day": "Święto Sił Zbrojnych",
+        "all_saints_day": "Wszystkich Świętych",
+        "national_day": "Święto Narodowe"
+      },
+      "nl": {
+        "traditional_day": "Traditionele dag",
+        "easter_sunday": "Paaszondag",
+        "independence_day": "Onafhankelijkheidsdag",
+        "armed_forces_day": "Dag van de strijdkrachten",
+        "all_saints_day": "Allerheiligen",
+        "national_day": "Nationale feestdag"
+      },
+      "sv": {
+        "traditional_day": "Traditionell dag",
+        "easter_sunday": "Påskdagen",
+        "independence_day": "Självständighetsdagen",
+        "armed_forces_day": "Försvarsmaktens dag",
+        "all_saints_day": "Alla helgons dag",
+        "national_day": "Nationaldagen"
+      },
+      "ja": {
+        "traditional_day": "伝統的な日",
+        "easter_sunday": "イースターサンデー",
+        "independence_day": "独立記念日",
+        "armed_forces_day": "国軍の日",
+        "all_saints_day": "諸聖人の日",
+        "national_day": "建国記念日"
+      },
+      "ko": {
+        "traditional_day": "전통일",
+        "easter_sunday": "부활절 일요일",
+        "independence_day": "독립기념일",
+        "armed_forces_day": "국군의 날",
+        "all_saints_day": "만성절",
+        "national_day": "국경일"
+      },
+      "zh-Hant": {
+        "traditional_day": "傳統日",
+        "easter_sunday": "復活節週日",
+        "independence_day": "獨立日",
+        "armed_forces_day": "武裝部隊日",
+        "all_saints_day": "萬聖節",
+        "national_day": "國慶"
       }
     },
     "holidayInfo": {

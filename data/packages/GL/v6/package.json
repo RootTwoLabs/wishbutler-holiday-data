@@ -221,6 +221,105 @@
         "pentecost": "Piinsi",
         "ullortuneq": "Ullortuneq",
         "christmas_eve": "Juulliaraq"
+      },
+      "de": {
+        "maundy_thursday": "Gründonnerstag",
+        "easter_sunday": "Ostersonntag",
+        "general_prayer_day": "Allgemeiner Gebetstag",
+        "bank_closing_day": "Bankschlusstag",
+        "pentecost": "Pfingsten",
+        "ullortuneq": "Ullortuneq",
+        "christmas_eve": "Heiligabend"
+      },
+      "fr": {
+        "maundy_thursday": "Jeudi Saint",
+        "easter_sunday": "Dimanche de Pâques",
+        "general_prayer_day": "Journée de prière générale",
+        "bank_closing_day": "Jour de fermeture de la banque",
+        "pentecost": "Pentecôte",
+        "ullortuneq": "Ullortuneq",
+        "christmas_eve": "La veille de Noël"
+      },
+      "es": {
+        "maundy_thursday": "Jueves Santo",
+        "easter_sunday": "Domingo de Pascua",
+        "general_prayer_day": "Día General de Oración",
+        "bank_closing_day": "Día de cierre del banco",
+        "pentecost": "Pentecostés",
+        "ullortuneq": "Ullortuneq",
+        "christmas_eve": "Nochebuena"
+      },
+      "pt": {
+        "maundy_thursday": "Quinta-feira Santa",
+        "easter_sunday": "Domingo de Páscoa",
+        "general_prayer_day": "Dia Geral de Oração",
+        "bank_closing_day": "Dia de encerramento do banco",
+        "pentecost": "Pentecostes",
+        "ullortuneq": "Ullortuneq",
+        "christmas_eve": "Véspera de Natal"
+      },
+      "it": {
+        "maundy_thursday": "Giovedì Santo",
+        "easter_sunday": "Domenica di Pasqua",
+        "general_prayer_day": "Giornata di preghiera generale",
+        "bank_closing_day": "Giorno di chiusura della banca",
+        "pentecost": "Pentecoste",
+        "ullortuneq": "Ullortuneq",
+        "christmas_eve": "Vigilia di Natale"
+      },
+      "pl": {
+        "maundy_thursday": "Wielki Czwartek",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "general_prayer_day": "Dzień Modlitwy Ogólnej",
+        "bank_closing_day": "Dzień zamknięcia banku",
+        "pentecost": "Zesłanie Ducha Świętego",
+        "ullortuneq": "Ullortuneq",
+        "christmas_eve": "Wigilia"
+      },
+      "nl": {
+        "maundy_thursday": "Witte Donderdag",
+        "easter_sunday": "Paaszondag",
+        "general_prayer_day": "Algemene gebedsdag",
+        "bank_closing_day": "Sluitingsdag van de bank",
+        "pentecost": "Pinksteren",
+        "ullortuneq": "Ullortuneq",
+        "christmas_eve": "Kerstavond"
+      },
+      "sv": {
+        "maundy_thursday": "Skärtorsdag",
+        "easter_sunday": "Påskdagen",
+        "general_prayer_day": "Allmän bönedag",
+        "bank_closing_day": "Bankstängningsdag",
+        "pentecost": "Pingst",
+        "ullortuneq": "Ullortuneq",
+        "christmas_eve": "Julafton"
+      },
+      "ja": {
+        "maundy_thursday": "聖木曜日",
+        "easter_sunday": "イースターサンデー",
+        "general_prayer_day": "一般祈祷日",
+        "bank_closing_day": "銀行休業日",
+        "pentecost": "ペンテコステ",
+        "ullortuneq": "Ullortuneq",
+        "christmas_eve": "クリスマスイブ"
+      },
+      "ko": {
+        "maundy_thursday": "성 목요일",
+        "easter_sunday": "부활절 일요일",
+        "general_prayer_day": "일반기도일",
+        "bank_closing_day": "은행 마감일",
+        "pentecost": "오순절",
+        "ullortuneq": "울로튠크",
+        "christmas_eve": "크리스마스 이브"
+      },
+      "zh-Hant": {
+        "maundy_thursday": "濯足節",
+        "easter_sunday": "復活節週日",
+        "general_prayer_day": "通用祈禱日",
+        "bank_closing_day": "銀行休息日",
+        "pentecost": "五旬節",
+        "ullortuneq": "Ullortuneq",
+        "christmas_eve": "平安夜"
       }
     },
     "holidayInfo": {

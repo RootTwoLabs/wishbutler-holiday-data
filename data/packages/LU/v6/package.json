@@ -163,9 +163,59 @@
         "all_saints_day": "All Saints' Day"
       },
       "fr": {
-        "europe_day": "Europadag",
-        "sovereigns_birthday": "Groussherzogsgebuertsdag",
-        "all_saints_day": "Allerhellgen"
+        "europe_day": "Journée de l'Europe",
+        "sovereigns_birthday": "Anniversaire du souverain",
+        "all_saints_day": "Toussaint"
+      },
+      "de": {
+        "europe_day": "Europatag",
+        "sovereigns_birthday": "Sovereigns Geburtstag",
+        "all_saints_day": "Allerheiligen"
+      },
+      "es": {
+        "europe_day": "Día de Europa",
+        "sovereigns_birthday": "Cumpleaños del soberano",
+        "all_saints_day": "Día de Todos los Santos"
+      },
+      "pt": {
+        "europe_day": "Dia da Europa",
+        "sovereigns_birthday": "Aniversário do Soberano",
+        "all_saints_day": "Dia de Todos os Santos"
+      },
+      "it": {
+        "europe_day": "Festa dell'Europa",
+        "sovereigns_birthday": "Compleanno di Sovereign",
+        "all_saints_day": "Giorno di Ognissanti"
+      },
+      "pl": {
+        "europe_day": "Dzień Europy",
+        "sovereigns_birthday": "Urodziny Suwerena",
+        "all_saints_day": "Wszystkich Świętych"
+      },
+      "nl": {
+        "europe_day": "Dag van Europa",
+        "sovereigns_birthday": "Verjaardag van de soeverein",
+        "all_saints_day": "Allerheiligen"
+      },
+      "sv": {
+        "europe_day": "Europadagen",
+        "sovereigns_birthday": "Sovereigns födelsedag",
+        "all_saints_day": "Alla helgons dag"
+      },
+      "ja": {
+        "europe_day": "ヨーロッパの日",
+        "sovereigns_birthday": "ソブリンの誕生日",
+        "all_saints_day": "諸聖人の日"
+      },
+      "ko": {
+        "europe_day": "유럽의 날",
+        "sovereigns_birthday": "소버린의 생일",
+        "all_saints_day": "만성절"
+      },
+      "zh-Hant": {
+        "europe_day": "歐洲日",
+        "sovereigns_birthday": "君主生日",
+        "all_saints_day": "萬聖節"
       }
     },
     "holidayInfo": {

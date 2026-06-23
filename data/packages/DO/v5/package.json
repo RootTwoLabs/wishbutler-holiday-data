@@ -184,13 +184,113 @@
       },
       "es": {
         "day_of_kings": "Día de Reyes",
-        "our_lady_of_altagracia": "Día de Nuestra Señora de la Altagracia",
-        "duartes_birthday": "Día del Natalicio de Juan Pablo Duarte",
-        "independence_day": "Día de la Independencia de la República Dominicana",
-        "mothers_day": "Día de las Madres",
-        "restoration_day": "Día de la Restauración Dominicana",
-        "our_lady_of_mercy": "Nuestra Senora de las Mercedes",
+        "our_lady_of_altagracia": "Nuestra Señora de la Altagracia",
+        "duartes_birthday": "Cumpleaños de Duarte",
+        "independence_day": "Día de la Independencia",
+        "mothers_day": "Día de la Madre",
+        "restoration_day": "Día de Restauración",
+        "our_lady_of_mercy": "Nuestra Señora de la Merced",
         "constitution_day": "Día de la Constitución"
+      },
+      "de": {
+        "day_of_kings": "Tag der Könige",
+        "our_lady_of_altagracia": "Unsere Liebe Frau von Altagracia",
+        "duartes_birthday": "Duartes Geburtstag",
+        "independence_day": "Unabhängigkeitstag",
+        "mothers_day": "Muttertag",
+        "restoration_day": "Tag der Wiederherstellung",
+        "our_lady_of_mercy": "Unsere Liebe Frau der Barmherzigkeit",
+        "constitution_day": "Tag der Verfassung"
+      },
+      "fr": {
+        "day_of_kings": "Jour des Rois",
+        "our_lady_of_altagracia": "Notre-Dame d'Altagracia",
+        "duartes_birthday": "Anniversaire de Duarte",
+        "independence_day": "Jour de l'Indépendance",
+        "mothers_day": "Fête des Mères",
+        "restoration_day": "Jour de la Restauration",
+        "our_lady_of_mercy": "Notre-Dame de Miséricorde",
+        "constitution_day": "Jour de la Constitution"
+      },
+      "pt": {
+        "day_of_kings": "Dia dos Reis",
+        "our_lady_of_altagracia": "Nossa Senhora de Altagracia",
+        "duartes_birthday": "Aniversário do Duarte",
+        "independence_day": "Dia da Independência",
+        "mothers_day": "Dia da Mãe",
+        "restoration_day": "Dia da Restauração",
+        "our_lady_of_mercy": "Nossa Senhora da Misericórdia",
+        "constitution_day": "Dia da Constituição"
+      },
+      "it": {
+        "day_of_kings": "Giorno dei Re",
+        "our_lady_of_altagracia": "Nostra Signora di Altagracia",
+        "duartes_birthday": "Compleanno di Duarte",
+        "independence_day": "Giorno dell'Indipendenza",
+        "mothers_day": "Festa della mamma",
+        "restoration_day": "Giorno della Restaurazione",
+        "our_lady_of_mercy": "Nostra Signora della Misericordia",
+        "constitution_day": "Giorno della Costituzione"
+      },
+      "pl": {
+        "day_of_kings": "Dzień Królów",
+        "our_lady_of_altagracia": "Matka Boża z Altagracji",
+        "duartes_birthday": "Urodziny Duarte",
+        "independence_day": "Święto Niepodległości",
+        "mothers_day": "Dzień Matki",
+        "restoration_day": "Dzień Restauracji",
+        "our_lady_of_mercy": "Matka Boża Miłosierdzia",
+        "constitution_day": "Święto Konstytucji"
+      },
+      "nl": {
+        "day_of_kings": "Dag van Koningen",
+        "our_lady_of_altagracia": "Onze Lieve Vrouw van Altagracia",
+        "duartes_birthday": "Duarte's verjaardag",
+        "independence_day": "Onafhankelijkheidsdag",
+        "mothers_day": "Moederdag",
+        "restoration_day": "Hersteldag",
+        "our_lady_of_mercy": "Onze Lieve Vrouw van Barmhartigheid",
+        "constitution_day": "Dag van de Grondwet"
+      },
+      "sv": {
+        "day_of_kings": "Kungadagen",
+        "our_lady_of_altagracia": "Vår Fru av Altagracia",
+        "duartes_birthday": "Duartes födelsedag",
+        "independence_day": "Självständighetsdagen",
+        "mothers_day": "Mors dag",
+        "restoration_day": "Restaureringsdagen",
+        "our_lady_of_mercy": "Our Lady of Mercy",
+        "constitution_day": "Konstitutionsdagen"
+      },
+      "ja": {
+        "day_of_kings": "王の日",
+        "our_lady_of_altagracia": "アルタグラシアの聖母",
+        "duartes_birthday": "ドゥアルテの誕生日",
+        "independence_day": "独立記念日",
+        "mothers_day": "母の日",
+        "restoration_day": "復興の日",
+        "our_lady_of_mercy": "慈悲の聖母",
+        "constitution_day": "憲法記念日"
+      },
+      "ko": {
+        "day_of_kings": "왕의 날",
+        "our_lady_of_altagracia": "알타그라시아의 성모님",
+        "duartes_birthday": "두아르테의 생일",
+        "independence_day": "독립기념일",
+        "mothers_day": "어버이날",
+        "restoration_day": "복원의 날",
+        "our_lady_of_mercy": "자비의 성모님",
+        "constitution_day": "제헌절"
+      },
+      "zh-Hant": {
+        "day_of_kings": "國王日",
+        "our_lady_of_altagracia": "阿爾塔格拉西亞聖母",
+        "duartes_birthday": "杜阿爾特生日",
+        "independence_day": "獨立日",
+        "mothers_day": "母親節",
+        "restoration_day": "恢復日",
+        "our_lady_of_mercy": "慈悲聖母",
+        "constitution_day": "憲法日"
       }
     },
     "holidayInfo": {

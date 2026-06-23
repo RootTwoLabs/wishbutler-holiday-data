@@ -186,6 +186,116 @@
         "national_day": "National Day",
         "deepavali": "Deepavali",
         "christmas_day": "Christmas Day"
+      },
+      "de": {
+        "new_years_day": "Neujahr",
+        "chinese_new_year": "Chinesisches Neujahr",
+        "hari_raya_puasa": "Hari Raya Puasa",
+        "labour_day_sg": "Tag der Arbeit",
+        "hari_raya_haji_tentative_date": "Hari Raya Haji (vorläufiges Datum)",
+        "national_day": "Nationalfeiertag",
+        "deepavali": "Deepavali",
+        "christmas_day": "Weihnachtstag"
+      },
+      "fr": {
+        "new_years_day": "Jour de l'An",
+        "chinese_new_year": "Nouvel An chinois",
+        "hari_raya_puasa": "Hari Raya Puasa",
+        "labour_day_sg": "Fête du Travail",
+        "hari_raya_haji_tentative_date": "Hari Raya Haji (date provisoire)",
+        "national_day": "Fête nationale",
+        "deepavali": "Deepavali",
+        "christmas_day": "Jour de Noël"
+      },
+      "es": {
+        "new_years_day": "Día de Año Nuevo",
+        "chinese_new_year": "Año Nuevo Chino",
+        "hari_raya_puasa": "Hari Raya Puasa",
+        "labour_day_sg": "Día del Trabajo",
+        "hari_raya_haji_tentative_date": "Hari Raya Haji (Fecha provisional)",
+        "national_day": "Día Nacional",
+        "deepavali": "Deepavali",
+        "christmas_day": "Día de Navidad"
+      },
+      "pt": {
+        "new_years_day": "Dia de Ano Novo",
+        "chinese_new_year": "Ano Novo Chinês",
+        "hari_raya_puasa": "Hari Raya Puasa",
+        "labour_day_sg": "Dia do Trabalhador",
+        "hari_raya_haji_tentative_date": "Hari Raya Haji (data provisória)",
+        "national_day": "Dia Nacional",
+        "deepavali": "Deepavali",
+        "christmas_day": "Dia de Natal"
+      },
+      "it": {
+        "new_years_day": "Capodanno",
+        "chinese_new_year": "Capodanno cinese",
+        "hari_raya_puasa": "Hari Raya Puasa",
+        "labour_day_sg": "Festa dei lavoratori",
+        "hari_raya_haji_tentative_date": "Hari Raya Haji (data provvisoria)",
+        "national_day": "Festa nazionale",
+        "deepavali": "Deepavali",
+        "christmas_day": "Il giorno di Natale"
+      },
+      "pl": {
+        "new_years_day": "Nowy Rok",
+        "chinese_new_year": "Chiński Nowy Rok",
+        "hari_raya_puasa": "Hari Raya Puasa",
+        "labour_day_sg": "Święto Pracy",
+        "hari_raya_haji_tentative_date": "Hari Raya Haji (data wstępna)",
+        "national_day": "Święto Narodowe",
+        "deepavali": "Deepavali",
+        "christmas_day": "Boże Narodzenie"
+      },
+      "nl": {
+        "new_years_day": "Nieuwjaarsdag",
+        "chinese_new_year": "Chinees Nieuwjaar",
+        "hari_raya_puasa": "Hari Raya Puasa",
+        "labour_day_sg": "Dag van de Arbeid",
+        "hari_raya_haji_tentative_date": "Hari Raya Haji (voorlopige datum)",
+        "national_day": "Nationale feestdag",
+        "deepavali": "Diepavali",
+        "christmas_day": "Eerste Kerstdag"
+      },
+      "sv": {
+        "new_years_day": "Nyårsdagen",
+        "chinese_new_year": "Kinesiska nyåret",
+        "hari_raya_puasa": "Hari Raya Puasa",
+        "labour_day_sg": "Labor Day",
+        "hari_raya_haji_tentative_date": "Hari Raya Haji (preliminärt datum)",
+        "national_day": "Nationaldagen",
+        "deepavali": "Deepavali",
+        "christmas_day": "Juldagen"
+      },
+      "ja": {
+        "new_years_day": "元旦",
+        "chinese_new_year": "旧正月",
+        "hari_raya_puasa": "ハリラヤ プアサ",
+        "labour_day_sg": "レイバーデー",
+        "hari_raya_haji_tentative_date": "Hari Raya Haji (予定日)",
+        "national_day": "建国記念日",
+        "deepavali": "ディーパバリ",
+        "christmas_day": "クリスマスの日"
+      },
+      "ko": {
+        "new_years_day": "설날",
+        "chinese_new_year": "구정",
+        "hari_raya_puasa": "하리 라야 푸아사",
+        "labour_day_sg": "노동절",
+        "hari_raya_haji_tentative_date": "하리 라야 하지(예정일)",
+        "national_day": "국경일",
+        "deepavali": "디파발리",
+        "christmas_day": "크리스마스"
+      },
+      "zh-Hant": {
+        "new_years_day": "元旦",
+        "chinese_new_year": "農曆新年",
+        "hari_raya_puasa": "開齋節",
+        "labour_day_sg": "勞動節",
+        "hari_raya_haji_tentative_date": "哈芝节（暂定日期）",
+        "national_day": "國慶",
+        "deepavali": "屠妖節",
+        "christmas_day": "聖誕節"
       }
     },
     "holidayInfo": {
