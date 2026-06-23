@@ -1,0 +1,1089 @@
+{
+  "countryCode": "GB",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "GB_new_years_day",
+      "countryCode": "GB",
+      "kind": "precomputed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-01",
+          "2027": "01-01",
+          "2028": "01-03",
+          "2029": "01-01",
+          "2030": "01-01",
+          "2031": "01-01",
+          "2032": "01-01",
+          "2033": "01-03",
+          "2034": "01-02",
+          "2035": "01-01"
+        }
+      }
+    },
+    {
+      "id": "GB_2_january",
+      "countryCode": "GB",
+      "kind": "precomputed",
+      "labelKey": "holidays.2_january",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-02",
+          "2027": "01-02",
+          "2028": "01-04",
+          "2029": "01-02",
+          "2030": "01-02",
+          "2031": "01-02",
+          "2032": "01-02",
+          "2033": "01-04",
+          "2034": "01-03",
+          "2035": "01-02"
+        }
+      }
+    },
+    {
+      "id": "GB_saint_patricks_day",
+      "countryCode": "GB",
+      "kind": "precomputed",
+      "labelKey": "holidays.saint_patricks_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "03-17",
+          "2027": "03-17",
+          "2028": "03-17",
+          "2029": "03-19",
+          "2030": "03-18",
+          "2031": "03-17",
+          "2032": "03-17",
+          "2033": "03-17",
+          "2034": "03-17",
+          "2035": "03-19"
+        }
+      }
+    },
+    {
+      "id": "GB_good_friday",
+      "countryCode": "GB",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "GB_easter_monday",
+      "countryCode": "GB",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "GB_early_may_bank_holiday",
+      "countryCode": "GB",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.early_may_bank_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "GB_spring_bank_holiday",
+      "countryCode": "GB",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.spring_bank_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 5,
+        "nth": 5,
+        "weekday": 1,
+        "last": true
+      }
+    },
+    {
+      "id": "GB_world_cup_bank_holiday",
+      "countryCode": "GB",
+      "kind": "fixed",
+      "labelKey": "holidays.world_cup_bank_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 15
+      }
+    },
+    {
+      "id": "GB_battle_of_the_boyne",
+      "countryCode": "GB",
+      "kind": "precomputed",
+      "labelKey": "holidays.battle_of_the_boyne",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "07-13",
+          "2027": "07-12",
+          "2028": "07-12",
+          "2029": "07-12",
+          "2030": "07-12",
+          "2031": "07-14",
+          "2032": "07-12",
+          "2033": "07-12",
+          "2034": "07-12",
+          "2035": "07-12"
+        }
+      }
+    },
+    {
+      "id": "GB_summer_bank_holiday",
+      "countryCode": "GB",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.summer_bank_holiday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 5,
+        "weekday": 1,
+        "last": true
+      }
+    },
+    {
+      "id": "GB_saint_andrews_day",
+      "countryCode": "GB",
+      "kind": "precomputed",
+      "labelKey": "holidays.saint_andrews_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-30",
+          "2027": "11-30",
+          "2028": "11-30",
+          "2029": "11-30",
+          "2030": "12-02",
+          "2031": "12-01",
+          "2032": "11-30",
+          "2033": "11-30",
+          "2034": "11-30",
+          "2035": "11-30"
+        }
+      }
+    },
+    {
+      "id": "GB_christmas_day",
+      "countryCode": "GB",
+      "kind": "precomputed",
+      "labelKey": "holidays.christmas_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "12-25",
+          "2027": "12-27",
+          "2028": "12-25",
+          "2029": "12-25",
+          "2030": "12-25",
+          "2031": "12-25",
+          "2032": "12-27",
+          "2033": "12-27",
+          "2034": "12-25",
+          "2035": "12-25"
+        }
+      }
+    },
+    {
+      "id": "GB_st_stephens_day",
+      "countryCode": "GB",
+      "kind": "precomputed",
+      "labelKey": "holidays.st_stephens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "12-28",
+          "2027": "12-28",
+          "2028": "12-26",
+          "2029": "12-26",
+          "2030": "12-26",
+          "2031": "12-26",
+          "2032": "12-28",
+          "2033": "12-26",
+          "2034": "12-26",
+          "2035": "12-26"
+        }
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "2_january": "2 January",
+        "saint_patricks_day": "Saint Patrick's Day",
+        "early_may_bank_holiday": "Early May Bank Holiday",
+        "spring_bank_holiday": "Spring Bank Holiday",
+        "world_cup_bank_holiday": "World Cup Bank Holiday",
+        "battle_of_the_boyne": "Battle of the Boyne",
+        "summer_bank_holiday": "Summer Bank Holiday",
+        "saint_andrews_day": "Saint Andrew's Day",
+        "christmas_day": "Christmas Day",
+        "st_stephens_day": "St. Stephen's Day"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "good_friday": {
+          "intro": "Karfreitag ist der höchste protestantische Trauertag und erinnert an die Kreuzigung Jesu Christi. In Deutschland ist er ein „stiller Feiertag” mit besonderen Schutzregeln.",
+          "history": "Karfreitag wird seit dem 4. Jahrhundert von Christen begangen. Das Wort „Kar” stammt vom althochdeutschen „chara” und bedeutet Klage oder Trauer. Schon früh entwickelten sich liturgische Traditionen: Verlesung der Passionsgeschichte, Kreuzverehrung und das Verstummen der Glocken. Die Reformation hob den Karfreitag besonders hervor; in lutherischen Regionen ist er bis heute der wichtigste Feiertag des Kirchenjahres.",
+          "traditions": "Viele Christen besuchen Passionsgottesdienste mit der Verlesung der Leidensgeschichte. Es gilt als Fastentag – traditionell wird Fisch statt Fleisch gegessen. In manchen Regionen ziehen Karfreitagsprozessionen durch die Straßen, etwa die berühmte „Karfreitagsprozession” in Lohr am Main. Tanzveranstaltungen und laute Musik sind in den meisten Bundesländern gesetzlich untersagt.",
+          "funFacts": [
+            "In Deutschland regelt das „Tanzverbot” das öffentliche Vergnügen am Karfreitag – seit Jahren ein gesellschaftlicher Streitpunkt.",
+            "Bach schrieb seine Matthäus-Passion 1727 für die Karfreitags-Vesper in Leipzig – heute eines der meistaufgeführten Werke der Welt.",
+            "In Bermuda lassen Familien am Karfreitag selbstgebastelte Drachen aus Bambus und Papier steigen – eine einzigartige christliche Tradition.",
+            "Im Spanischen heißt Karfreitag „Viernes Santo” – mit prachtvollen Bruderschafts-Prozessionen, etwa in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Ostermontag ist der zweite Festtag von Ostern und in den meisten europäischen Ländern arbeitsfrei. Er ist Ausklang des höchsten christlichen Festes.",
+          "history": "Ostern ist das älteste Fest der Christenheit und feiert die Auferstehung Jesu Christi am dritten Tag nach seinem Tod. Das Konzil von Nicäa legte 325 das Osterdatum auf den ersten Sonntag nach dem ersten Frühlingsvollmond. Der Ostermontag wird seit dem frühen Mittelalter als zweiter Festtag begangen – ursprünglich war die ganze Osterwoche frei. In Deutschland und Österreich blieb er als gesetzlicher Feiertag erhalten, anders als in vielen rein katholischen Ländern.",
+          "traditions": "Familien suchen gemeinsam Ostereier, frühstücken ausgiebig oder unternehmen den klassischen Osterspaziergang („Vom Eise befreit sind Strom und Bäche…”, Goethe). In Polen feiert man „Śmigus-Dyngus”: Junge bespritzen Mädchen mit Wasser. In Tschechien klopfen Burschen mit Weidenruten an Türen. In Bayern und Österreich gibt es das traditionelle „Emmausgehen”.",
+          "funFacts": [
+            "Der Brauch des Ostereiersuchens wurde erstmals von Martin Luther erwähnt, der seinen Kindern damit eine Freude machte.",
+            "Das größte Schoko-Osterei der Welt stand in Argentinien (8,5 m hoch, 4 t schwer) – verewigt im Guinness-Buch.",
+            "In Schweden ziehen Kinder am Karsamstag als „Påskkärringar” verkleidet – wie kleine Hexen – von Tür zu Tür.",
+            "Der Osterhase als Eierbringer wurde 1682 erstmals von dem Mediziner Georg Franck von Franckenau schriftlich erwähnt."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "Der „Early May Bank Holiday” am ersten Montag im Mai ist einer der vielen britischen Bankfeiertage – ein willkommener Frühlings-Brückentag.",
+          "history": "Bankfeiertage wurden in Großbritannien 1871 durch den Bankers' Holidays Act eingeführt – ursprünglich als arbeitsfreie Tage für Bankangestellte, später für die ganze Bevölkerung. Der erste Montag im Mai wurde 1978 von Premierminister James Callaghan eingeführt – als britisches Pendant zum kontinentalen Tag der Arbeit, ohne dessen sozialistische Konnotation. Es war damals zugleich ein politisches Symbol – die Labour-Regierung wollte die Arbeiter ehren.",
+          "traditions": "Der frühe Mai läutet in Großbritannien die Outdoor-Saison ein. Beliebt sind „May Day Fairs”, Morris-Tänze (traditionelle Volkstänze mit Glocken und Stäben), das Ehren der „May Queen” und in einigen Dörfern das Tanzen um den Maibaum („Maypole”). Pubs öffnen ihre Außenbereiche, viele machen einen Kurztrip aufs Land oder an die Küste.",
+          "funFacts": [
+            "Der „Bank Holidays Act” von 1871 ging auf den Liberalen Sir John Lubbock zurück – die Briten nannten ihn dankbar „Saint Lubbock's Days”.",
+            "Beim Padstow Obby Oss in Cornwall tanzt ein „Pferd” durch die Straßen – einer der ältesten Volksbräuche Englands.",
+            "Der „Maypole” – der Maibaum – ist nicht nur deutsch: Die Briten haben ihn seit dem Mittelalter, mit Bändertanz darum herum.",
+            "2020 wurde der Early May Bank Holiday einmalig auf Freitag verlegt – zum 75. Jahrestag des VE Day (Sieg in Europa)."
+          ],
+          "imageCredit": "Foto: Philip Platt · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "Der „Spring Bank Holiday” am letzten Montag im Mai ist einer der beliebtesten britischen Feiertage – Ankündigung des Sommers und Pfingst-Ferien-Auftakt.",
+          "history": "Der Tag löste 1971 den traditionellen „Whit Monday” (Pfingstmontag) ab. Da Pfingsten ein bewegliches Datum ist, wollte die Regierung ein verlässliches verlängertes Wochenende für Schulferien und Tourismus einrichten. Seitdem ist es einer der drei großen britischen Sommer-Bankfeiertage. 2022 fiel das verlängerte Wochenende mit dem 70. Thron-Jubiläum von Queen Elizabeth II. zusammen – mit einem zusätzlichen „Platinum Jubilee Bank Holiday” am Donnerstag.",
+          "traditions": "Das verlängerte Wochenende ist Hauptreisezeit – britische Familien fahren an die Küste (Brighton, Cornwall, Lake District), Feste wie das berühmte „Cheese Rolling” am Cooper's Hill (Gloucestershire) finden statt. Auch das Chelsea Flower Show endet meist an diesem Wochenende. Pubs sind voll, BBQs werden ausgepackt – wenn das oft launische Wetter mitspielt.",
+          "funFacts": [
+            "Beim „Cheese Rolling” am Cooper's Hill rollt ein 4 kg schwerer Doppel-Gloucester-Käse einen Hügel hinunter – Hunderte Mutige rennen ihm hinterher.",
+            "2022 gab es zum „Platinum Jubilee” der Queen einen vier-Tage-Marathon mit einem zusätzlichen Bank Holiday.",
+            "Britische Bahn- und Mautgesellschaften stellen sich auf 30 % höheres Verkehrsaufkommen ein.",
+            "Der Spring Bank Holiday ist nicht in Schottland gesetzlich – dort gibt es einen anderen Bank Holiday am ersten Montag im August."
+          ],
+          "imageCredit": "Foto: vastateparksstaff · CC BY 2.0 via Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "Der „Summer Bank Holiday” am letzten Montag im August (in Schottland am ersten Montag) markiert den Höhepunkt der britischen Sommer-Saison und das Ende der Schulferien.",
+          "history": "Wie alle britischen Bankfeiertage geht der Tag auf den „Bank Holidays Act” von 1871 zurück. Ursprünglich war es der erste Montag im August; in England, Wales und Nordirland wurde er 1971 auf den letzten Montag im August verlegt, um näher am Ende der Schulferien zu liegen. Schottland behielt das ursprüngliche Datum. Es ist – zusammen mit dem Spring Bank Holiday – einer der beliebtesten Tag-am-Strand-Feiertage des Jahres.",
+          "traditions": "Der Tag steht im Zeichen großer Festivals: Das berühmte „Notting Hill Carnival” in London – Europas größte Karibik-Parade – verwandelt das verlängerte Wochenende in eine bunte Party mit über 2 Millionen Besuchern. In Cornwall feiert man Surf-Wettbewerbe, in Edinburgh läuft das „Edinburgh Festival” auf vollen Touren. Familien planen letzte Sommerausflüge.",
+          "funFacts": [
+            "Das „Notting Hill Carnival” feiert seit 1966 die karibisch-britische Kultur – Höhepunkt ist die Steel-Pan-Parade.",
+            "An schönen Sommer-Bank-Holiday-Wochenenden brechen britische Strände regelmäßig Besucherrekorde.",
+            "Schottland feiert den Sommer-Bankfeiertag bewusst früher (Anfang August), weil das Wetter typischerweise besser ist.",
+            "Der August-Bank-Holiday ist der ÄLTESTE britische gesetzliche Bankfeiertag – seit 1871."
+          ],
+          "imageCredit": "Foto: Philip Halling · CC BY-SA 2.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "good_friday": {
+          "intro": "Good Friday is the highest Protestant day of mourning, commemorating the crucifixion of Jesus Christ. In Germany it is a ‘silent holiday' with special legal protections.",
+          "history": "Good Friday has been observed by Christians since the 4th century. The German prefix ‘Kar' comes from Old High German ‘chara', meaning lamentation or mourning. Liturgical traditions developed early on: the reading of the Passion, veneration of the cross and the silencing of bells. The Reformation gave Good Friday particular weight; in Lutheran regions it remains the most important holiday of the church year.",
+          "traditions": "Many Christians attend Passion services with the reading of the Passion narrative. The day is traditionally one of fasting — fish replaces meat. In some regions, Good Friday processions march through the streets, such as the famous one in Lohr am Main. Dance events and loud music are forbidden by law in most German states.",
+          "funFacts": [
+            "Germany's ‘dance ban' regulates public entertainment on Good Friday — and has been a hot social topic for years.",
+            "Bach wrote his St. Matthew Passion in 1727 for Good Friday vespers in Leipzig — today one of the world's most performed works.",
+            "In Bermuda, families fly self-made bamboo and paper kites on Good Friday — a unique Christian tradition.",
+            "In Spanish-speaking countries Good Friday is ‘Viernes Santo' — with magnificent brotherhood processions, for example in Seville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Easter Monday is the second day of Easter and is a public holiday in most European countries. It marks the closing of Christianity's highest festival.",
+          "history": "Easter is the oldest festival in Christendom, celebrating the resurrection of Jesus Christ on the third day after his death. The Council of Nicaea in 325 set Easter on the first Sunday after the first spring full moon. Easter Monday has been observed since the early Middle Ages — originally the entire Easter week was a holiday. In Germany and Austria it remained a legal holiday, unlike in many purely Catholic countries.",
+          "traditions": "Families hunt for Easter eggs together, enjoy a leisurely brunch or take the classic Easter walk (immortalized in Goethe's ‘Faust'). In Poland ‘Śmigus-Dyngus' is celebrated: boys splash girls with water. In Czechia, lads tap on doors with willow whips. In Bavaria and Austria there is the traditional ‘Emmaus walk'.",
+          "funFacts": [
+            "The custom of Easter egg hunts was first mentioned by Martin Luther, who used it to delight his children.",
+            "The world's largest chocolate Easter egg stood in Argentina (8.5 m tall, 4 t) — recorded in the Guinness Book.",
+            "In Sweden, children dress up as ‘Påskkärringar' — little witches — on Holy Saturday and go door to door.",
+            "The Easter Bunny as deliverer of eggs was first mentioned in 1682 by physician Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "The Early May Bank Holiday on the first Monday in May is one of the UK's many bank holidays — a welcome spring long weekend.",
+          "history": "Bank holidays were introduced in the UK by the Bankers' Holidays Act in 1871 — originally as days off for bank staff, later for the entire population. The first Monday in May was added in 1978 by Prime Minister James Callaghan — as a British counterpart to the continental Labour Day, without its socialist connotation. It was a political symbol at the time — the Labour government wanted to honor workers.",
+          "traditions": "Early May ushers in the UK's outdoor season. Popular events include ‘May Day Fairs', Morris dancing (traditional folk dances with bells and sticks), the crowning of a ‘May Queen' and in some villages dancing around a maypole. Pubs throw open their beer gardens and many people take a short trip to the countryside or coast.",
+          "funFacts": [
+            "The 1871 ‘Bank Holidays Act' was promoted by the Liberal Sir John Lubbock — the British thanked him by calling them ‘Saint Lubbock's Days'.",
+            "At the Padstow Obby Oss in Cornwall a ‘horse' dances through the streets — one of England's oldest folk customs.",
+            "The maypole isn't just German: the British have danced around it since the Middle Ages, with ribbon dances.",
+            "In 2020 the Early May Bank Holiday was moved to a Friday for one year — to mark the 75th anniversary of VE Day."
+          ],
+          "imageCredit": "Photo: Philip Platt · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "The Spring Bank Holiday on the last Monday in May is one of the UK's most popular holidays — heralding summer and the start of half-term holidays.",
+          "history": "The day replaced the traditional Whit Monday in 1971. As Pentecost falls on a moving date, the government wanted a reliable long weekend for school holidays and tourism. Since then it has been one of the three major British summer bank holidays. In 2022 the long weekend coincided with Queen Elizabeth II's Platinum Jubilee — with an additional ‘Platinum Jubilee Bank Holiday' on the Thursday.",
+          "traditions": "The long weekend is peak travel time — British families head to the coast (Brighton, Cornwall, the Lake District), and festivals such as the famous ‘Cheese Rolling' on Cooper's Hill (Gloucestershire) take place. The Chelsea Flower Show usually closes that weekend too. Pubs are busy, barbecues are fired up — when the often-fickle weather cooperates.",
+          "funFacts": [
+            "At Cooper's Hill ‘Cheese Rolling', a 4 kg double-Gloucester cheese rolls down the hill — and hundreds of brave souls chase after it.",
+            "In 2022 the Queen's ‘Platinum Jubilee' added an extra Bank Holiday for a four-day weekend.",
+            "British rail and motorway operators expect 30% higher traffic loads.",
+            "Spring Bank Holiday is not an official holiday in Scotland — Scotland has a different bank holiday on the first Monday in August."
+          ],
+          "imageCredit": "Photo: vastateparksstaff · CC BY 2.0 via Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "The Summer Bank Holiday on the last Monday in August (in Scotland the first Monday) marks the peak of the British summer season and the end of school holidays.",
+          "history": "Like all British bank holidays the day goes back to the Bank Holidays Act of 1871. Originally it was the first Monday in August; in England, Wales and Northern Ireland it was moved in 1971 to the last Monday in August to align better with the end of school holidays. Scotland kept the original date. Together with the Spring Bank Holiday it is one of the year's most popular beach holidays.",
+          "traditions": "The day is famous for its big festivals: the ‘Notting Hill Carnival' in London — Europe's biggest Caribbean parade — turns the long weekend into a colorful party with over 2 million visitors. Cornwall hosts surf contests, the Edinburgh Festival is in full swing. Families plan their last summer outings.",
+          "funFacts": [
+            "The ‘Notting Hill Carnival' has celebrated Caribbean-British culture since 1966 — its highlight is the steel-pan parade.",
+            "On a sunny Summer Bank Holiday weekend, British beaches regularly break visitor records.",
+            "Scotland deliberately keeps its summer bank holiday earlier (early August), because the weather is typically better.",
+            "The August Bank Holiday is the OLDEST British statutory bank holiday — since 1871."
+          ],
+          "imageCredit": "Photo: Philip Halling · CC BY-SA 2.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "good_friday": {
+          "intro": "Le Vendredi Saint est le jour le plus solennel du protestantisme et commémore la crucifixion de Jésus-Christ. En Allemagne, il s'agit d'un ‘jour silencieux' légalement protégé.",
+          "history": "Le Vendredi Saint est célébré par les chrétiens depuis le IVe siècle. Le préfixe allemand ‘Kar' vient du vieux haut-allemand ‘chara' (lamentation, deuil). Très tôt s'élaborent les traditions liturgiques : lecture de la Passion, vénération de la Croix, silence des cloches. La Réforme protestante lui donna une importance particulière ; dans les régions luthériennes, c'est la fête la plus importante de l'année liturgique.",
+          "traditions": "De nombreux chrétiens assistent à la liturgie de la Passion. C'est traditionnellement un jour de jeûne — on mange du poisson plutôt que de la viande. Dans certaines régions ont lieu des processions du Vendredi Saint, comme la fameuse procession de Lohr am Main. En Allemagne, la danse et la musique forte sont légalement interdites dans la plupart des Länder.",
+          "funFacts": [
+            "L'interdiction de danser (‘Tanzverbot') régit les divertissements publics du Vendredi Saint en Allemagne — sujet sociétal récurrent.",
+            "Bach composa sa Passion selon saint Matthieu en 1727 pour les vêpres du Vendredi Saint à Leipzig.",
+            "Aux Bermudes, les familles font voler des cerfs-volants en bambou et papier le Vendredi Saint — tradition chrétienne unique.",
+            "En Espagne, le ‘Viernes Santo' brille par les magnifiques processions de confréries, notamment à Séville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Le lundi de Pâques est le second jour de Pâques et férié dans la plupart des pays européens. Il clôt la fête majeure du christianisme.",
+          "history": "Pâques est la plus ancienne fête de la chrétienté et célèbre la résurrection de Jésus-Christ le troisième jour. Le concile de Nicée fixa en 325 la date de Pâques au premier dimanche après la première pleine lune du printemps. Le lundi de Pâques se célèbre depuis le haut Moyen Âge — initialement, toute la semaine de Pâques était fériée. En Allemagne et en Autriche, il demeure un jour férié légal, contrairement à beaucoup de pays purement catholiques.",
+          "traditions": "Les familles font la chasse aux œufs, prennent un long brunch ou la traditionnelle promenade pascale. En Pologne, on célèbre ‘Śmigus-Dyngus' : les garçons aspergent les filles d'eau. En Tchéquie, les jeunes hommes tapent aux portes avec des branches de saule. En Bavière et en Autriche, la traditionnelle ‘marche d'Emmaüs' a lieu.",
+          "funFacts": [
+            "C'est Martin Luther qui mentionna pour la première fois la chasse aux œufs, pour amuser ses enfants.",
+            "Le plus grand œuf en chocolat du monde (8,5 m, 4 t) a été réalisé en Argentine — entré au Guinness.",
+            "En Suède, les enfants se déguisent en ‘Påskkärringar' (petites sorcières) le Samedi Saint et font du porte-à-porte.",
+            "Le lapin de Pâques en tant que livreur d'œufs fut mentionné pour la première fois en 1682 par le médecin Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "Le ‘Early May Bank Holiday', premier lundi de mai, est l'un des nombreux jours fériés bancaires britanniques — un long week-end printanier bienvenu.",
+          "history": "Les jours fériés bancaires furent introduits au Royaume-Uni par le Bankers' Holidays Act de 1871 — d'abord pour les employés de banque, puis pour toute la population. Le premier lundi de mai fut ajouté en 1978 par le Premier ministre James Callaghan — comme contrepoint britannique à la Fête du Travail continentale, sans la connotation socialiste. C'était aussi un symbole politique — le gouvernement travailliste voulait honorer les ouvriers.",
+          "traditions": "Début mai marque l'ouverture de la saison en plein air britannique. Populaires : ‘May Day Fairs', danses Morris (avec cloches et bâtons), couronnement de la ‘May Queen' et, dans certains villages, danses autour du mât (‘Maypole'). Les pubs ouvrent leurs terrasses ; beaucoup font une virée à la campagne ou à la côte.",
+          "funFacts": [
+            "Le ‘Bank Holidays Act' de 1871 fut promu par le libéral Sir John Lubbock — les Britanniques le surnommèrent affectueusement ‘Saint Lubbock's Days'.",
+            "Au ‘Padstow Obby Oss' en Cornouailles, un ‘cheval' danse dans les rues — l'une des plus anciennes coutumes folkloriques d'Angleterre.",
+            "Le mât de mai n'est pas seulement allemand : les Britanniques le pratiquent depuis le Moyen Âge avec danses à rubans.",
+            "En 2020, le Early May Bank Holiday fut exceptionnellement déplacé au vendredi pour le 75e anniversaire du VE Day."
+          ],
+          "imageCredit": "Photo: Philip Platt · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "Le ‘Spring Bank Holiday', dernier lundi de mai, est l'un des jours fériés britanniques les plus prisés — annonce de l'été et début des half-terms scolaires.",
+          "history": "Le jour remplaça en 1971 le traditionnel lundi de Pentecôte. La Pentecôte étant à date mobile, le gouvernement voulait un long week-end fixe pour les vacances scolaires et le tourisme. Depuis, c'est l'un des trois grands fériés bancaires britanniques de l'été. En 2022, le long week-end coïncida avec le jubilé de platine de la reine Elizabeth II — avec un ‘Platinum Jubilee Bank Holiday' supplémentaire le jeudi.",
+          "traditions": "Le long week-end est haute saison de voyages — les familles britanniques partent à la côte (Brighton, Cornouailles, Lake District), des festivités comme le célèbre ‘Cheese Rolling' à Cooper's Hill (Gloucestershire) ont lieu. Le Chelsea Flower Show se termine généralement ce week-end-là. Les pubs sont pleins, les barbecues sortis — quand le temps capricieux le permet.",
+          "funFacts": [
+            "Au ‘Cheese Rolling' de Cooper's Hill, un fromage Double-Gloucester de 4 kg roule depuis le sommet — et des centaines de courageux le pourchassent.",
+            "En 2022, le ‘Platinum Jubilee' de la reine ajouta un Bank Holiday supplémentaire pour un week-end de quatre jours.",
+            "Les opérateurs ferroviaires et autoroutiers britanniques s'attendent à un trafic 30 % plus élevé.",
+            "Le Spring Bank Holiday n'est pas légalement férié en Écosse — il y existe un autre Bank Holiday le premier lundi d'août."
+          ],
+          "imageCredit": "Photo: vastateparksstaff · CC BY 2.0 via Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "Le ‘Summer Bank Holiday', dernier lundi d'août (en Écosse, premier lundi), marque le pic de la saison estivale britannique et la fin des grandes vacances.",
+          "history": "Comme tous les jours fériés bancaires britanniques, il remonte au Bank Holidays Act de 1871. À l'origine, c'était le premier lundi d'août ; en 1971, en Angleterre, au Pays de Galles et en Irlande du Nord, il fut déplacé au dernier lundi d'août pour mieux coïncider avec la fin des vacances scolaires. L'Écosse a conservé la date originale. Avec le Spring Bank Holiday, c'est l'un des jours fériés ‘plage' les plus populaires de l'année.",
+          "traditions": "Le jour est marqué par de grands festivals : le célèbre ‘Notting Hill Carnival' à Londres — la plus grande parade caribéenne d'Europe — transforme le long week-end en fête colorée avec plus de 2 millions de visiteurs. En Cornouailles, on célèbre les compétitions de surf ; le Festival d'Édimbourg bat son plein. Les familles planifient leurs dernières excursions estivales.",
+          "funFacts": [
+            "Le ‘Notting Hill Carnival' célèbre depuis 1966 la culture caribéenne-britannique — son apogée est la parade des steel pans.",
+            "Lors d'un week-end ensoleillé du Summer Bank Holiday, les plages britanniques battent régulièrement des records de fréquentation.",
+            "L'Écosse maintient son férié bancaire estival plus tôt (début août), parce que la météo est typiquement meilleure.",
+            "Le Bank Holiday d'août est le PLUS ANCIEN jour férié bancaire statutaire britannique — depuis 1871."
+          ],
+          "imageCredit": "Photo: Philip Halling · CC BY-SA 2.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "good_friday": {
+          "intro": "El Viernes Santo es el día de mayor luto del cristianismo y conmemora la crucifixión de Jesús. En Alemania es ‘día silencioso' con normativa especial.",
+          "history": "El Viernes Santo se celebra desde el siglo IV. La palabra alemana ‘Kar' viene del antiguo alto alemán ‘chara', que significa lamento o duelo. Pronto se desarrollaron tradiciones litúrgicas: lectura de la Pasión, veneración de la cruz y silencio de las campanas. La Reforma le dio especial relevancia y en regiones luteranas sigue siendo el día más importante del año eclesiástico.",
+          "traditions": "Muchos cristianos asisten a oficios de la Pasión con la lectura de la Pasión. Es día de ayuno: tradicionalmente se come pescado en lugar de carne. En España, las procesiones de las cofradías recorren ciudades como Sevilla. En Alemania los bailes y la música alta están legalmente prohibidos en la mayoría de estados federados.",
+          "funFacts": [
+            "El ‘Tanzverbot' (prohibición de bailar) regula el ocio público en el Viernes Santo alemán — desde hace años un debate social recurrente.",
+            "Bach compuso su Pasión según San Mateo en 1727 para las vísperas del Viernes Santo en Leipzig.",
+            "En Bermudas, las familias hacen volar cometas caseras de bambú y papel — una tradición cristiana única.",
+            "En España, el ‘Viernes Santo' destaca por las majestuosas procesiones de cofradías, especialmente en Sevilla y Málaga."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "El Lunes de Pascua es el segundo día de la Pascua y festivo en la mayoría de países europeos. Cierra la fiesta más importante del cristianismo.",
+          "history": "La Pascua es la fiesta más antigua del cristianismo y celebra la resurrección de Jesús al tercer día de su muerte. El Concilio de Nicea fijó en 325 que se celebraría el primer domingo después de la primera luna llena de primavera. El Lunes de Pascua se celebra desde la temprana Edad Media — originalmente toda la octava de Pascua era festiva. En Alemania y Austria sigue siendo festivo legal, a diferencia de muchos países católicos.",
+          "traditions": "Las familias buscan huevos de Pascua, desayunan abundantemente o dan el clásico paseo de Pascua. En Polonia se celebra ‘Śmigus-Dyngus': los chicos mojan a las chicas con agua. En Chequia los jóvenes golpean las puertas con ramas de sauce. En Baviera y Austria se hace la tradicional caminata de Emaús.",
+          "funFacts": [
+            "Martin Lutero fue el primero en mencionar la búsqueda de huevos de Pascua, para alegrar a sus hijos.",
+            "El huevo de Pascua de chocolate más grande del mundo (8,5 m, 4 t) se hizo en Argentina y figura en el Guinness.",
+            "En Suecia los niños se disfrazan de ‘Påskkärringar' — pequeñas brujas — el Sábado Santo y van de puerta en puerta.",
+            "El conejo de Pascua como portador de huevos fue mencionado por escrito por primera vez en 1682, por el médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 vía Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "El ‘Early May Bank Holiday', primer lunes de mayo, es uno de los muchos festivos bancarios británicos — un puente primaveral muy esperado.",
+          "history": "Los festivos bancarios se introdujeron en el Reino Unido con la ‘Bankers' Holidays Act' de 1871 — al principio para los empleados de banca, después para toda la población. El primer lunes de mayo lo añadió en 1978 el primer ministro James Callaghan, como contrapunto británico al Día del Trabajo continental, sin sus connotaciones socialistas. Tenía además un guiño político — el gobierno laborista quería honrar a los trabajadores.",
+          "traditions": "Mayo abre la temporada al aire libre: ‘May Day Fairs', danzas Morris (con campanas y bastones), la ‘May Queen' y, en algunos pueblos, danzas alrededor del mayo (‘Maypole'). Los pubs abren sus terrazas y muchos hacen una escapada al campo o a la costa.",
+          "funFacts": [
+            "La ‘Bank Holidays Act' de 1871 fue impulsada por Sir John Lubbock — los británicos lo apodaron cariñosamente ‘Saint Lubbock's Days'.",
+            "En el ‘Padstow Obby Oss' de Cornualles, un ‘caballo' baila por las calles — una de las costumbres populares más antiguas de Inglaterra.",
+            "El mayo no es exclusivo de los alemanes: los británicos lo bailan desde la Edad Media con cintas.",
+            "En 2020, el Early May Bank Holiday se trasladó al viernes — para el 75º aniversario del Día de la Victoria en Europa."
+          ],
+          "imageCredit": "Foto: Philip Platt · CC BY-SA 2.0 vía Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "El ‘Spring Bank Holiday', último lunes de mayo, es uno de los festivos británicos más populares — preludio del verano y comienzo de las medio-vacaciones escolares.",
+          "history": "Sustituyó en 1971 al tradicional Lunes de Pentecostés, ya que Pentecostés cambia de fecha cada año y el gobierno quería un puente fijo para vacaciones escolares y turismo. Es uno de los tres grandes festivos bancarios estivales. En 2022 coincidió con el Jubileo de Platino de la reina Isabel II — añadiéndose un ‘Platinum Jubilee Bank Holiday' el jueves.",
+          "traditions": "El puente largo es de viaje masivo — las familias británicas van a la costa (Brighton, Cornualles, Lake District), y se celebran festividades como el famoso ‘Cheese Rolling' en Cooper's Hill (Gloucestershire). También suele cerrarse el ‘Chelsea Flower Show'. Pubs llenos, barbacoas en marcha — si el tiempo a menudo caprichoso colabora.",
+          "funFacts": [
+            "En el ‘Cheese Rolling' de Cooper's Hill, un queso Doble-Gloucester de 4 kg rueda colina abajo — y cientos de valientes corren detrás.",
+            "En 2022 hubo cuatro días seguidos de festivo por el Jubileo de Platino de la Reina.",
+            "Las compañías ferroviarias y de autopistas británicas esperan un 30% más de tráfico.",
+            "El Spring Bank Holiday no es festivo legal en Escocia — allí lo es el primer lunes de agosto."
+          ],
+          "imageCredit": "Foto: vastateparksstaff · CC BY 2.0 vía Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "El ‘Summer Bank Holiday', último lunes de agosto (en Escocia, primer lunes), marca el clímax del verano británico y el final de las vacaciones escolares.",
+          "history": "Como todos los festivos bancarios, se remonta a la ‘Bank Holidays Act' de 1871. Originalmente era el primer lunes de agosto; en 1971 se trasladó en Inglaterra, Gales e Irlanda del Norte al último lunes de agosto, para acercarlo al fin de las vacaciones escolares. Escocia mantuvo la fecha original. Junto al Spring Bank Holiday es uno de los festivos más populares del año en la playa.",
+          "traditions": "Es día de grandes festivales: el famoso ‘Notting Hill Carnival' de Londres — el mayor desfile caribeño de Europa — convierte el puente en una fiesta colorida con más de 2 millones de visitantes. En Cornualles se celebran competiciones de surf; el Festival de Edimburgo está en pleno apogeo. Las familias planean las últimas excursiones del verano.",
+          "funFacts": [
+            "El ‘Notting Hill Carnival' celebra desde 1966 la cultura caribeña-británica — su clímax es el desfile de ‘steel pan'.",
+            "En fines de semana soleados, las playas británicas baten récords de visitantes.",
+            "Escocia mantiene su festivo bancario veraniego antes (principios de agosto), porque el tiempo suele ser mejor.",
+            "El festivo bancario de agosto es el MÁS ANTIGUO del Reino Unido — desde 1871."
+          ],
+          "imageCredit": "Foto: Philip Halling · CC BY-SA 2.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "good_friday": {
+          "intro": "A Sexta-Feira Santa é o dia de maior luto do cristianismo e comemora a crucificação de Jesus Cristo. Em Portugal é feriado nacional, com forte tradição religiosa.",
+          "history": "A Sexta-Feira Santa é celebrada pelos cristãos desde o século IV. O prefixo alemão ‘Kar' vem do alto alemão antigo ‘chara' (lamento, luto). Cedo se desenvolveram tradições litúrgicas: leitura da Paixão, veneração da cruz e silêncio dos sinos. A Reforma deu-lhe especial relevância. Em Portugal, a tradição das procissões da Paixão é antiga e muito viva, especialmente em Braga, Óbidos e na ilha da Madeira.",
+          "traditions": "Muitos cristãos assistem a celebrações da Paixão. É tradicionalmente dia de jejum — come-se peixe (em Portugal, o típico bacalhau) em vez de carne. Em Braga e Óbidos, as procissões da Paixão são impressionantes — em Braga a ‘Procissão do Senhor Ecce Homo' é uma das maiores. Em Espanha, destacam-se as procissões das confrarias, sobretudo em Sevilha.",
+          "funFacts": [
+            "Em Braga (Portugal) a ‘Procissão do Senhor Ecce Homo' é uma das mais impressionantes da Europa.",
+            "Bach compôs a sua Paixão segundo São Mateus em 1727 para as Vésperas da Sexta-Feira Santa em Leipzig.",
+            "Nas Bermudas, as famílias fazem voar papagaios de bambu e papel feitos em casa — uma tradição cristã única.",
+            "Em Espanha, ‘Viernes Santo' destaca-se pelas magníficas procissões das confrarias, sobretudo em Sevilha."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "A Segunda-Feira de Páscoa é o segundo dia de Páscoa e feriado na maioria dos países europeus. Em Portugal, ainda que não seja feriado, é tradição almoçar com a família o folar.",
+          "history": "A Páscoa é a festa mais antiga da cristandade e celebra a ressurreição de Jesus Cristo no terceiro dia. O Concílio de Niceia em 325 fixou a Páscoa no primeiro domingo após a primeira lua cheia da primavera. A Segunda-Feira de Páscoa celebra-se desde a alta Idade Média — originalmente toda a semana de Páscoa era feriada. Em Portugal, a tradição é a do ‘folar', um bolo doce com ovo cozido por cima, que se oferece sobretudo aos afilhados.",
+          "traditions": "As famílias procuram em conjunto ovos de Páscoa, almoçam abundantemente ou fazem o clássico passeio pascal. Em Portugal, oferece-se o ‘folar' aos afilhados e organizam-se almoços em família com cabrito assado. Na Polónia celebra-se ‘Śmigus-Dyngus': os rapazes salpicam as raparigas com água. Na Chéquia, os jovens batem às portas com ramos de salgueiro.",
+          "funFacts": [
+            "O costume da caça aos ovos foi mencionado pela primeira vez por Martinho Lutero, para alegrar os filhos.",
+            "O maior ovo de chocolate do mundo (8,5 m, 4 t) foi feito na Argentina e está no Guinness.",
+            "Na Suécia, as crianças vestem-se de ‘Påskkärringar' — pequenas bruxas — no Sábado Santo e vão de porta em porta.",
+            "O coelho da Páscoa como entregador de ovos foi mencionado pela primeira vez por escrito em 1682 pelo médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "O ‘Early May Bank Holiday', primeira segunda-feira de maio, é um dos vários feriados bancários britânicos — um bem-vindo prolongamento da primavera.",
+          "history": "Os feriados bancários foram introduzidos no Reino Unido pela ‘Bankers' Holidays Act' de 1871 — inicialmente como dias de folga para os funcionários dos bancos, depois para toda a população. A primeira segunda-feira de maio foi acrescentada em 1978 pelo Primeiro-Ministro James Callaghan — como contraponto britânico ao Dia do Trabalho continental, sem a conotação socialista. Foi também símbolo político — o governo trabalhista quis homenagear os trabalhadores.",
+          "traditions": "O início de maio abre a temporada ao ar livre britânica. Populares são as ‘May Day Fairs', danças Morris (com sinos e bastões), a ‘May Queen' e, em algumas aldeias, danças à volta do mastro (‘Maypole'). Os pubs abrem as esplanadas; muitos fazem uma escapada ao campo ou à costa.",
+          "funFacts": [
+            "O ‘Bank Holidays Act' de 1871 deveu-se ao liberal Sir John Lubbock — os britânicos chamam-lhes carinhosamente ‘Saint Lubbock's Days'.",
+            "No ‘Padstow Obby Oss', na Cornualha, um ‘cavalo' dança pelas ruas — uma das mais antigas tradições populares de Inglaterra.",
+            "O mastro de maio não é só alemão: os britânicos praticam-no desde a Idade Média com danças de fitas.",
+            "Em 2020, o Early May Bank Holiday foi excecionalmente passado para sexta-feira — para o 75.º aniversário do Dia da Vitória na Europa (VE Day)."
+          ],
+          "imageCredit": "Foto: Philip Platt · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "O ‘Spring Bank Holiday', última segunda-feira de maio, é um dos feriados britânicos mais populares — anúncio do verão e início das férias escolares de meio de período.",
+          "history": "O dia substituiu em 1971 a tradicional Segunda-Feira de Pentecostes. Sendo Pentecostes data móvel, o governo quis um fim-de-semana longo fixo para férias escolares e turismo. Desde então é um dos três grandes feriados bancários estivais britânicos. Em 2022 o fim-de-semana coincidiu com o Jubileu de Platina da Rainha Isabel II — com um ‘Platinum Jubilee Bank Holiday' adicional na quinta-feira.",
+          "traditions": "O fim-de-semana prolongado é altura de muito turismo — as famílias britânicas vão à costa (Brighton, Cornualha, Lake District), e há festividades como o famoso ‘Cheese Rolling' em Cooper's Hill (Gloucestershire). O Chelsea Flower Show termina geralmente nesse fim-de-semana. Os pubs ficam cheios, os churrascos aparecem — quando o tempo, muitas vezes caprichoso, ajuda.",
+          "funFacts": [
+            "No ‘Cheese Rolling' de Cooper's Hill, um queijo Double-Gloucester de 4 kg rola pela colina — e centenas de corajosos correm atrás.",
+            "Em 2022, o ‘Platinum Jubilee' da Rainha acrescentou um Bank Holiday extra para um fim-de-semana de quatro dias.",
+            "Companhias ferroviárias e autoestradas britânicas preveem 30% mais tráfego.",
+            "O Spring Bank Holiday não é feriado legal na Escócia — lá há outro Bank Holiday na primeira segunda-feira de agosto."
+          ],
+          "imageCredit": "Foto: vastateparksstaff · CC BY 2.0 via Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "O ‘Summer Bank Holiday', última segunda-feira de agosto (na Escócia, primeira segunda-feira), marca o auge do verão britânico e o final das férias escolares.",
+          "history": "Como todos os feriados bancários britânicos, remonta à Bank Holidays Act de 1871. Originalmente era a primeira segunda-feira de agosto; em Inglaterra, País de Gales e Irlanda do Norte foi passado em 1971 para a última segunda-feira de agosto, para coincidir melhor com o final das férias escolares. A Escócia manteve a data original. Juntamente com o Spring Bank Holiday é um dos feriados ‘de praia' mais populares.",
+          "traditions": "O dia é marcado por grandes festivais: o famoso ‘Notting Hill Carnival' em Londres — a maior parada caribenha da Europa — transforma o fim-de-semana numa festa colorida com mais de 2 milhões de visitantes. Na Cornualha realizam-se competições de surf; o Festival de Edimburgo está a todo gás. As famílias planeiam as últimas excursões do verão.",
+          "funFacts": [
+            "O ‘Notting Hill Carnival' celebra desde 1966 a cultura caribenha-britânica — o seu auge é o desfile dos steel pans.",
+            "Num fim-de-semana ensolarado de Summer Bank Holiday, as praias britânicas batem regularmente recordes de afluência.",
+            "A Escócia mantém o feriado bancário estival mais cedo (início de agosto), porque o tempo é tipicamente melhor.",
+            "O Bank Holiday de agosto é o MAIS ANTIGO feriado bancário estatutário britânico — desde 1871."
+          ],
+          "imageCredit": "Foto: Philip Halling · CC BY-SA 2.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "good_friday": {
+          "intro": "Il Venerdì Santo è il giorno di lutto più importante per i protestanti e ricorda la crocifissione di Gesù Cristo. In Germania è ‘giorno silenzioso' con norme particolari.",
+          "history": "Il Venerdì Santo è celebrato dai cristiani dal IV secolo. Il prefisso tedesco ‘Kar' deriva dall'antico alto tedesco ‘chara' (lamento, lutto). Presto si svilupparono tradizioni liturgiche: lettura della Passione, venerazione della croce, silenzio delle campane. La Riforma gli diede particolare risalto; nelle regioni luterane resta la festa più importante dell'anno liturgico.",
+          "traditions": "Molti cristiani partecipano alla Liturgia della Passione. Tradizionalmente è giorno di digiuno — si mangia pesce invece di carne. In Italia, soprattutto al Sud, ci sono solenni processioni con statue del Cristo morto, come la celebre ‘Processione dei Misteri' a Trapani. In Spagna spiccano le processioni delle confraternite, soprattutto a Siviglia.",
+          "funFacts": [
+            "In Germania il ‘Tanzverbot' (divieto di ballare) regola gli intrattenimenti pubblici — tema sociale ricorrente.",
+            "Bach compose la ‘Passione secondo Matteo' nel 1727 per i vespri del Venerdì Santo a Lipsia.",
+            "Alle Bermuda le famiglie fanno volare aquiloni di bambù e carta — tradizione cristiana unica.",
+            "In Spagna il ‘Viernes Santo' è famoso per le maestose processioni delle confraternite, in particolare a Siviglia."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Il Lunedì dell'Angelo è il secondo giorno di Pasqua e festivo nella maggior parte dei paesi europei. Chiude la festa più importante del cristianesimo.",
+          "history": "La Pasqua è la festa più antica del cristianesimo e celebra la resurrezione di Gesù Cristo il terzo giorno. Il Concilio di Nicea nel 325 fissò la Pasqua alla prima domenica dopo il primo plenilunio di primavera. Il Lunedì dell'Angelo si celebra dall'alto Medioevo — originariamente era festiva l'intera ottava di Pasqua. In Italia il Lunedì dell'Angelo (Pasquetta) è giorno di gite ed è festivo nazionale.",
+          "traditions": "In Italia ‘Natale con i tuoi, Pasquetta con chi vuoi': la tradizione vuole pic-nic in campagna o gite fuori porta con grigliata. Le famiglie cercano insieme le uova di Pasqua, fanno colazione abbondante o la classica passeggiata pasquale. In Polonia si celebra ‘Śmigus-Dyngus': i ragazzi spruzzano acqua sulle ragazze.",
+          "funFacts": [
+            "L'usanza della caccia alle uova fu menzionata per la prima volta da Martin Lutero, che voleva divertire i suoi figli.",
+            "Il più grande uovo di cioccolato del mondo (8,5 m, 4 t) fu fatto in Argentina ed è nel Guinness.",
+            "In Svezia i bambini si vestono da ‘Påskkärringar' — piccole streghe — il Sabato Santo e fanno il porta a porta.",
+            "Il coniglio pasquale come portatore di uova fu menzionato per iscritto la prima volta nel 1682 dal medico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "L'‘Early May Bank Holiday', primo lunedì di maggio, è uno dei tanti festivi bancari britannici — un benvenuto ponte primaverile.",
+          "history": "I festivi bancari furono introdotti nel Regno Unito con il Bankers' Holidays Act del 1871 — inizialmente per gli impiegati bancari, poi per tutta la popolazione. Il primo lunedì di maggio fu aggiunto nel 1978 dal Primo Ministro James Callaghan — come contrappunto britannico alla Festa del Lavoro continentale, senza la connotazione socialista. Era anche un simbolo politico — il governo laburista voleva onorare i lavoratori.",
+          "traditions": "Inizio maggio apre la stagione all'aperto britannica. Popolari le ‘May Day Fairs', i Morris dances (con campanelli e bastoni), l'incoronazione della ‘May Queen' e in alcuni villaggi i balli intorno al palo (‘Maypole'). I pub aprono i giardini esterni; molti fanno una breve gita in campagna o al mare.",
+          "funFacts": [
+            "Il ‘Bank Holidays Act' del 1871 fu promosso dal liberale Sir John Lubbock — i britannici lo chiamarono affettuosamente ‘Saint Lubbock's Days'.",
+            "Al ‘Padstow Obby Oss' in Cornovaglia un ‘cavallo' danza per le strade — una delle più antiche usanze popolari d'Inghilterra.",
+            "Il palo di maggio non è solo tedesco: i britannici lo praticano dal Medioevo con balli a nastro.",
+            "Nel 2020 l'Early May Bank Holiday fu eccezionalmente spostato al venerdì per il 75° anniversario del VE Day."
+          ],
+          "imageCredit": "Foto: Philip Platt · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "Lo ‘Spring Bank Holiday', ultimo lunedì di maggio, è uno dei festivi britannici più popolari — preludio dell'estate e inizio delle vacanze scolastiche di metà semestre.",
+          "history": "Il giorno sostituì nel 1971 il tradizionale Lunedì di Pentecoste. Essendo Pentecoste a data mobile, il governo voleva un weekend lungo fisso per le vacanze scolastiche e il turismo. Da allora è uno dei tre grandi festivi bancari estivi britannici. Nel 2022 il weekend lungo coincise col Giubileo di Platino della Regina Elisabetta II — con un ‘Platinum Jubilee Bank Holiday' aggiuntivo il giovedì.",
+          "traditions": "Il weekend lungo è alta stagione di viaggi — le famiglie britanniche partono per la costa (Brighton, Cornovaglia, Lake District), e si tengono festeggiamenti come il celebre ‘Cheese Rolling' a Cooper's Hill (Gloucestershire). Il Chelsea Flower Show si chiude di solito quel weekend. Pub pieni, grigliate accese — quando il tempo spesso capriccioso lo permette.",
+          "funFacts": [
+            "Al ‘Cheese Rolling' di Cooper's Hill, una forma di Doppio Gloucester di 4 kg rotola giù — e centinaia di temerari le corrono dietro.",
+            "Nel 2022 il ‘Platinum Jubilee' della Regina aggiunse un Bank Holiday extra per un weekend di quattro giorni.",
+            "Le compagnie ferroviarie e autostradali britanniche prevedono un traffico maggiore del 30%.",
+            "Lo Spring Bank Holiday non è festivo legale in Scozia — c'è un altro Bank Holiday il primo lunedì di agosto."
+          ],
+          "imageCredit": "Foto: vastateparksstaff · CC BY 2.0 via Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "Il ‘Summer Bank Holiday', ultimo lunedì di agosto (in Scozia, primo lunedì), segna il culmine della stagione estiva britannica e la fine delle vacanze scolastiche.",
+          "history": "Come tutti i festivi bancari britannici, risale al Bank Holidays Act del 1871. Originariamente era il primo lunedì di agosto; nel 1971 in Inghilterra, Galles e Irlanda del Nord fu spostato all'ultimo lunedì di agosto, per coincidere meglio con la fine delle vacanze scolastiche. La Scozia ha mantenuto la data originale. Insieme allo Spring Bank Holiday è uno dei festivi ‘da spiaggia' più popolari dell'anno.",
+          "traditions": "Il giorno è caratterizzato da grandi festival: il famoso ‘Notting Hill Carnival' a Londra — la più grande parata caraibica d'Europa — trasforma il lungo weekend in una festa colorata con oltre 2 milioni di visitatori. In Cornovaglia si svolgono gare di surf, il Festival di Edimburgo è in pieno svolgimento. Le famiglie pianificano le ultime escursioni estive.",
+          "funFacts": [
+            "Il ‘Notting Hill Carnival' celebra dal 1966 la cultura caraibica-britannica — il suo culmine è la sfilata degli steel pan.",
+            "In un weekend del Summer Bank Holiday soleggiato, le spiagge britanniche battono regolarmente i record di affluenza.",
+            "La Scozia mantiene il festivo bancario estivo in anticipo (inizio agosto), perché il tempo è tipicamente migliore.",
+            "Il Bank Holiday di agosto è il PIÙ ANTICO festivo bancario statutario britannico — dal 1871."
+          ],
+          "imageCredit": "Foto: Philip Halling · CC BY-SA 2.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "good_friday": {
+          "intro": "Wielki Piątek to dzień największej żałoby w protestantyzmie i upamiętnia ukrzyżowanie Jezusa Chrystusa. W Polsce nie jest dniem wolnym, ale ma głęboki wymiar religijny.",
+          "history": "Wielki Piątek obchodzony jest przez chrześcijan od IV wieku. Wcześnie rozwinęły się tradycje liturgiczne: czytanie Pasji, adoracja krzyża, milczenie dzwonów. Reformacja nadała mu szczególne znaczenie; w regionach luterańskich pozostaje najważniejszym dniem roku liturgicznego. W Polsce katolickie tradycje obejmują Drogę Krzyżową, adorację krzyża i święcenie pokarmów w Wielką Sobotę.",
+          "traditions": "Wierni uczestniczą w Liturgii Męki Pańskiej, adorują krzyż i odprawiają Drogę Krzyżową — w Polsce słynne są kalwarie (Kalwaria Zebrzydowska, Wejherowska). Tradycyjnie jest to dzień postu — je się ryby zamiast mięsa. W niektórych regionach Niemiec organizowane są procesje pasyjne, a w Hiszpanii słynne procesje bractw, np. w Sewilli.",
+          "funFacts": [
+            "W Niemczech ‘Tanzverbot' (zakaz tańczenia) reguluje publiczne rozrywki w Wielki Piątek — tematyka regularnie wraca w debacie publicznej.",
+            "Bach skomponował Pasję według św. Mateusza w 1727 roku na nieszpory wielkopiątkowe w Lipsku.",
+            "Na Bermudach rodziny puszczają w Wielki Piątek samodzielnie zrobione latawce z bambusa i papieru — unikalna chrześcijańska tradycja.",
+            "W Polsce Misterium Męki Pańskiej w Kalwarii Zebrzydowskiej wpisane jest na listę UNESCO."
+          ],
+          "imageCredit": "Zdjęcie: Pietro Perugino · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Poniedziałek Wielkanocny (Lany Poniedziałek, Śmigus-Dyngus) to drugi dzień Wielkanocy i dzień wolny w większości krajów europejskich. W Polsce słynie z tradycji oblewania wodą.",
+          "history": "Wielkanoc to najstarsze święto chrześcijaństwa i upamiętnia zmartwychwstanie Jezusa Chrystusa trzeciego dnia po jego śmierci. Sobór Nicejski w 325 roku ustalił datę Wielkanocy na pierwszą niedzielę po pierwszej wiosennej pełni księżyca. Poniedziałek Wielkanocny obchodzony jest od wczesnego średniowiecza — pierwotnie cały tydzień wielkanocny był wolny. W Polsce zachowała się żywa tradycja Śmigusa-Dyngusa, sięgająca XV wieku.",
+          "traditions": "W Polsce Lany Poniedziałek (Śmigus-Dyngus) to dzień, w którym chłopcy oblewają dziewczęta wodą — tradycyjnie symbolizująca oczyszczenie i płodność. Rodziny szukają jajek wielkanocnych, jedzą śniadanie z kiełbasą, jajkami, chrzanem, mazurkiem i babką. W niektórych regionach (np. Beskid Żywiecki) chodzą ‘śmigustnicy' w przebraniach.",
+          "funFacts": [
+            "Zwyczaj poszukiwania jajek wzmiankował po raz pierwszy Marcin Luter — chciał ucieszyć swoje dzieci.",
+            "Największe czekoladowe jajko świata stało w Argentynie (8,5 m wysokości, 4 t) — wpisane do Księgi Guinnessa.",
+            "Polski Śmigus-Dyngus ma korzenie w słowiańskim święcie wiosennym — woda symbolizowała oczyszczenie i płodność.",
+            "W Czechach chłopcy biją dziewczyny rózgami z wierzby (‘pomlázka') — niby boleśnie, ale dla zdrowia i urody."
+          ],
+          "imageCredit": "Zdjęcie: Georgi Kirichkov · CC BY-SA 3.0 przez Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "‘Early May Bank Holiday', pierwszy poniedziałek maja, to jedno z wielu brytyjskich świąt bankowych — mile widziany wiosenny długi weekend.",
+          "history": "Święta bankowe wprowadzono w Wielkiej Brytanii ustawą Bankers' Holidays Act z 1871 roku — pierwotnie jako dni wolne dla pracowników banków, później dla całej ludności. Pierwszy poniedziałek maja dodano w 1978 roku przez premiera Jamesa Callaghana — jako brytyjski odpowiednik kontynentalnego Święta Pracy, bez socjalistycznej konotacji. Był to też symbol polityczny — rząd laburzystowski chciał uhonorować pracowników.",
+          "traditions": "Początek maja otwiera brytyjski sezon na świeżym powietrzu. Popularne są ‘May Day Fairs', tańce Morris (tradycyjne tańce ludowe z dzwonkami i kijami), koronacja ‘May Queen' i w niektórych wsiach tańce wokół majowego słupa (‘Maypole'). Puby otwierają ogródki, wielu wybiera się na krótki wypad na wieś lub nad morze.",
+          "funFacts": [
+            "‘Bank Holidays Act' z 1871 promował liberał Sir John Lubbock — Brytyjczycy nazwali je z wdzięcznością ‘Saint Lubbock's Days'.",
+            "Na ‘Padstow Obby Oss' w Kornwalii ‘koń' tańczy ulicami — jeden z najstarszych zwyczajów ludowych Anglii.",
+            "Słup majowy nie jest tylko niemiecki: Brytyjczycy mają go od średniowiecza, z tańcami ze wstążkami.",
+            "W 2020 roku Early May Bank Holiday wyjątkowo przesunięto na piątek — z okazji 75. rocznicy VE Day (Zwycięstwo w Europie)."
+          ],
+          "imageCredit": "Zdjęcie: Philip Platt · CC BY-SA 2.0 przez Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "‘Spring Bank Holiday', ostatni poniedziałek maja, to jedno z najpopularniejszych brytyjskich świąt bankowych — zapowiedź lata i początek wakacji szkolnych ‘half-term'.",
+          "history": "Dzień zastąpił w 1971 roku tradycyjny Poniedziałek Zielonoświątkowy. Ponieważ Pięćdziesiątnica jest datą ruchomą, rząd chciał stałego długiego weekendu dla wakacji szkolnych i turystyki. Od tego czasu jest to jedno z trzech wielkich brytyjskich letnich świąt bankowych. W 2022 roku długi weekend zbiegł się z Platynowym Jubileuszem królowej Elżbiety II — z dodatkowym ‘Platinum Jubilee Bank Holiday' w czwartek.",
+          "traditions": "Długi weekend to szczyt sezonu podróży — brytyjskie rodziny jadą nad morze (Brighton, Kornwalia, Lake District), odbywają się festyny jak słynne ‘Cheese Rolling' na Cooper's Hill (Gloucestershire). Chelsea Flower Show zwykle kończy się tego weekendu. Puby pełne, grille rozpalone — kiedy często kapryśna pogoda pozwala.",
+          "funFacts": [
+            "Na ‘Cheese Rolling' na Cooper's Hill 4-kilogramowy ser Double-Gloucester toczy się ze wzgórza — setki śmiałków biegnie za nim.",
+            "W 2022 roku ‘Platinum Jubilee' królowej dodał dodatkowy Bank Holiday dla czterodniowego weekendu.",
+            "Brytyjskie spółki kolejowe i autostradowe spodziewają się 30% wyższego natężenia ruchu.",
+            "Spring Bank Holiday nie jest świętem ustawowym w Szkocji — tam jest inny Bank Holiday w pierwszy poniedziałek sierpnia."
+          ],
+          "imageCredit": "Zdjęcie: vastateparksstaff · CC BY 2.0 przez Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "‘Summer Bank Holiday', ostatni poniedziałek sierpnia (w Szkocji pierwszy poniedziałek), znaczy szczyt brytyjskiego lata i koniec wakacji szkolnych.",
+          "history": "Jak wszystkie brytyjskie święta bankowe, sięga Bank Holidays Act z 1871 roku. Pierwotnie był to pierwszy poniedziałek sierpnia; w Anglii, Walii i Irlandii Północnej w 1971 roku przeniesiono go na ostatni poniedziałek sierpnia, by lepiej zbiegał się z końcem wakacji szkolnych. Szkocja zachowała pierwotną datę. Wraz ze Spring Bank Holiday jest to jedno z najpopularniejszych ‘plażowych' świąt roku.",
+          "traditions": "Dzień stoi pod znakiem wielkich festiwali: słynny ‘Notting Hill Carnival' w Londynie — największa karaibska parada Europy — zamienia długi weekend w kolorową imprezę z ponad 2 milionami zwiedzających. W Kornwalii odbywają się zawody surfingu, festiwal w Edynburgu jest w pełni. Rodziny planują ostatnie letnie wycieczki.",
+          "funFacts": [
+            "‘Notting Hill Carnival' świętuje od 1966 roku karaibsko-brytyjską kulturę — punktem kulminacyjnym jest parada steel pan.",
+            "W słoneczne weekendy Summer Bank Holiday brytyjskie plaże regularnie biją rekordy frekwencji.",
+            "Szkocja celowo zachowuje letnie święto bankowe wcześniej (początek sierpnia), bo pogoda jest typowo lepsza.",
+            "Sierpniowy Bank Holiday to NAJSTARSZE brytyjskie ustawowe święto bankowe — od 1871 roku."
+          ],
+          "imageCredit": "Zdjęcie: Philip Halling · CC BY-SA 2.0 przez Wikimedia Commons"
+        }
+      },
+      "nl": {
+        "good_friday": {
+          "intro": "Goede Vrijdag is de belangrijkste protestantse rouwdag, ter herdenking van de kruisiging van Jezus Christus. In Duitsland is het een ‘stille feestdag’ met speciale wettelijke bescherming.",
+          "history": "Goede Vrijdag wordt al sinds de 4e eeuw door christenen gevierd. Het Duitse voorvoegsel ‘Kar’ is afgeleid van het Oudhoogduitse ‘chara’, wat ‘klaagzang’ of ‘rouw’ betekent. Al vroeg ontwikkelden zich liturgische tradities: het voorlezen van de Passie, de verering van het kruis en het stilleggen van de klokken. Door de Reformatie kreeg Goede Vrijdag een bijzondere betekenis; in lutherse regio’s blijft het de belangrijkste feestdag van het kerkelijk jaar.",
+          "traditions": "Veel christenen wonen passiediensten bij waarbij het passieverhaal wordt voorgelezen. Deze dag is van oudsher een vastendag — vis vervangt vlees. In sommige regio’s vinden er op Goede Vrijdag processies door de straten plaats, zoals de beroemde processie in Lohr am Main. Dansfeesten en luide muziek zijn in de meeste Duitse deelstaten bij wet verboden.",
+          "funFacts": [
+            "Het Duitse ‘dansverbod’ regelt het openbare vermaak op Goede Vrijdag — en is al jaren een veelbesproken onderwerp in de samenleving.",
+            "Bach componeerde zijn Matthäus-Passion in 1727 voor de Goede Vrijdagvesper in Leipzig — tegenwoordig een van de meest uitgevoerde werken ter wereld.",
+            "Op Goede Vrijdag laten gezinnen op Bermuda zelfgemaakte vliegers van bamboe en papier op — een unieke christelijke traditie.",
+            "In Spaanstalige landen heet Goede Vrijdag ‘Viernes Santo’ — met prachtige processies van broederschappen, bijvoorbeeld in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Paasmaandag is de tweede dag van Pasen en is in de meeste Europese landen een officiële feestdag. Deze dag markeert het einde van het belangrijkste christelijke feest.",
+          "history": "Pasen is het oudste feest in het christendom, waarbij de opstanding van Jezus Christus op de derde dag na zijn dood wordt gevierd. Het Concilie van Nicea stelde in 325 vast dat Pasen op de eerste zondag na de eerste volle maan van de lente valt. Paasmaandag wordt al sinds de vroege middeleeuwen gevierd — oorspronkelijk was de hele paasweek een feestdag. In Duitsland en Oostenrijk bleef het een wettelijke feestdag, in tegenstelling tot veel puur katholieke landen.",
+          "traditions": "Gezinnen gaan samen op zoek naar paaseieren, genieten van een ontspannen brunch of maken de klassieke paaswandeling (vereeuwigd in Goethes ‘Faust’). In Polen wordt ‘Śmigus-Dyngus’ gevierd: jongens bespatten meisjes met water. In Tsjechië kloppen jongens met wilgentakken op deuren. In Beieren en Oostenrijk is er de traditionele ‘Emmaus-wandeling’.",
+          "funFacts": [
+            "De traditie van het paaseieren zoeken werd voor het eerst genoemd door Maarten Luther, die het gebruikte om zijn kinderen een plezier te doen.",
+            "Het grootste chocolade-paasei ter wereld stond in Argentinië (8,5 m hoog, 4 t) — en werd opgenomen in het Guinness Book of Records.",
+            "In Zweden verkleden kinderen zich op Paaszaterdag als ‘Påskkärringar’ — kleine heksjes — en gaan ze van deur tot deur.",
+            "De paashaas als brenger van eieren werd voor het eerst genoemd in 1682 door de arts Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "De Early May Bank Holiday, op de eerste maandag van mei, is een van de vele feestdagen in het Verenigd Koninkrijk — een welkom lang voorjaarsweekend.",
+          "history": "Feestdagen werden in het Verenigd Koninkrijk ingevoerd door de Bankers’ Holidays Act van 1871 — aanvankelijk als vrije dagen voor bankpersoneel, later voor de gehele bevolking. De eerste maandag van mei werd in 1978 door premier James Callaghan toegevoegd — als Britse tegenhanger van de Dag van de Arbeid op het vasteland, maar dan zonder de socialistische connotatie. Het was destijds een politiek symbool — de Labour-regering wilde de arbeiders eren.",
+          "traditions": "Begin mei luidt het buitenseizoen in het Verenigd Koninkrijk in. Populaire evenementen zijn onder meer de ‘May Day Fairs’, Morris-dansen (traditionele volksdansen met bellen en stokken), de kroning van een ‘May Queen’ en in sommige dorpen het dansen rond een meiboom. Pubs openen hun biertuinen en veel mensen maken een uitstapje naar het platteland of de kust.",
+          "funFacts": [
+            "De ‘Bank Holidays Act’ uit 1871 werd door de liberaal Sir John Lubbock tot stand gebracht — de Britten bedankten hem door deze dagen ‘Saint Lubbock’s Days’ te noemen.",
+            "Tijdens het Obby Oss-feest in Padstow, Cornwall, danst een ‘paard’ door de straten — een van de oudste volksgebruiken van Engeland.",
+            "De meiboom is niet alleen een Duitse traditie: ook de Britten dansen er al sinds de middeleeuwen omheen, met lintdansen.",
+            "In 2020 werd de feestdag begin mei voor één jaar verplaatst naar een vrijdag — ter gelegenheid van de 75e verjaardag van VE Day."
+          ],
+          "imageCredit": "Foto: Philip Platt · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "De Spring Bank Holiday op de laatste maandag van mei is een van de populairste feestdagen in het Verenigd Koninkrijk — deze luidt de zomer in en markeert het begin van de herfstvakantie.",
+          "history": "Deze dag verving in 1971 de traditionele Pinkstermaandag. Aangezien Pinksteren op een wisselende datum valt, wilde de regering een vast lang weekend voor schoolvakanties en toerisme. Sindsdien is het een van de drie belangrijkste Britse zomervakantiedagen. In 2022 viel het lange weekend samen met het platina-jubileum van koningin Elizabeth II — met een extra ‘Platinum Jubilee Bank Holiday’ op donderdag.",
+          "traditions": "Het lange weekend is het drukste reisperiode — Britse gezinnen trekken naar de kust (Brighton, Cornwall, het Lake District), en er vinden festivals plaats, zoals de beroemde ‘Cheese Rolling’ op Cooper’s Hill (Gloucestershire). Ook de Chelsea Flower Show sluit meestal dat weekend haar deuren. Het is druk in de pubs en de barbecues worden aangestoken — als het vaak wisselvallige weer het toelaat.",
+          "funFacts": [
+            "Tijdens het ‘Cheese Rolling’ op Cooper’s Hill rolt een dubbele Gloucester-kaas van 4 kg de heuvel af — en honderden dappere zielen rennen erachteraan.",
+            "In 2022 zorgde het ‘platina jubileum’ van de koningin voor een extra feestdag, waardoor er een vierdaags weekend ontstond.",
+            "Britse spoorweg- en snelwegexploitanten verwachten een toename van het verkeersvolume met 30%.",
+            "Spring Bank Holiday is geen officiële feestdag in Schotland — Schotland heeft een andere feestdag op de eerste maandag van augustus."
+          ],
+          "imageCredit": "Foto: vastateparksstaff · CC BY 2.0 via Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "De zomervakantie op de laatste maandag van augustus (in Schotland de eerste maandag) markeert het hoogtepunt van het Britse zomerseizoen en het einde van de schoolvakantie.",
+          "history": "Net als alle Britse feestdagen vindt deze dag zijn oorsprong in de Bank Holidays Act van 1871. Oorspronkelijk viel deze dag op de eerste maandag van augustus; in Engeland, Wales en Noord-Ierland werd de datum in 1971 verplaatst naar de laatste maandag van augustus, om beter aan te sluiten bij het einde van de schoolvakantie. Schotland behield de oorspronkelijke datum. Samen met de Spring Bank Holiday is het een van de populairste strandvakanties van het jaar.",
+          "traditions": "Deze dag staat bekend om zijn grote festivals: het ‘Notting Hill Carnival’ in Londen — de grootste Caribische parade van Europa — maakt van het lange weekend een kleurrijk feest met meer dan 2 miljoen bezoekers. In Cornwall worden surfwedstrijden gehouden en het Edinburgh Festival is in volle gang. Gezinnen plannen hun laatste zomerse uitstapjes.",
+          "funFacts": [
+            "Het ‘Notting Hill Carnival’ viert al sinds 1966 de Caribisch-Britse cultuur — het hoogtepunt is de steelpanparade.",
+            "Tijdens een zonnig zomerweekend met een feestdag breken de Britse stranden regelmatig bezoekersrecords.",
+            "Schotland houdt zijn zomervakantie bewust eerder (begin augustus), omdat het weer dan doorgaans beter is.",
+            "De Bank Holiday in augustus is de OUDSTE wettelijke feestdag in Groot-Brittannië — al sinds 1871."
+          ],
+          "imageCredit": "Foto: Philip Halling · CC BY-SA 2.0 via Wikimedia Commons"
+        }
+      },
+      "sv": {
+        "good_friday": {
+          "intro": "Långfredagen är den viktigaste protestantiska sorgedagen, då man minns Jesu Kristi korsfästelse. I Tyskland är det en ”tyst helgdag” med särskilt rättsligt skydd.",
+          "history": "Långfredagen har firats av kristna sedan 400-talet. Det tyska prefixet ”Kar” kommer från fornhögtyska ”chara”, som betyder klagan eller sorg. Liturgiska traditioner utvecklades tidigt: uppläsningen av passionsberättelsen, vördnaden av korset och tystnaden bland klockorna. Reformationen gav Långfredagen särskild betydelse; i lutherska regioner är den fortfarande den viktigaste högtiden under kyrkoåret.",
+          "traditions": "Många kristna deltar i passionsgudstjänster där passionsberättelsen läses upp. Dagen är traditionellt en fastedag – fisk ersätter kött. I vissa regioner hålls processioner på långfredagen genom gatorna, till exempel den berömda processionen i Lohr am Main. Dansarrangemang och hög musik är förbjudna enligt lag i de flesta tyska delstater.",
+          "funFacts": [
+            "Tysklands ”dansförbud” reglerar offentlig underhållning på långfredagen – och har varit ett hett samhällsämne i flera år.",
+            "Bach komponerade sin Matteuspassion år 1727 för vespergudstjänsten på långfredagen i Leipzig – idag ett av världens mest framförda verk.",
+            "På Bermuda flyger familjerna på långfredagen med självgjorda drakar av bambu och papper – en unik kristen tradition.",
+            "I spansktalande länder kallas långfredagen för ”Viernes Santo” – med storslagna brödraskapsprocessioner, till exempel i Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Påskmåndagen är den andra dagen under påskhelgen och är en allmän helgdag i de flesta europeiska länder. Den markerar avslutningen på kristendomens viktigaste högtid.",
+          "history": "Påsken är den äldsta högtiden inom kristendomen och firar Jesu Kristi uppståndelse den tredje dagen efter hans död. Vid kyrkomötet i Nikea år 325 fastställdes att påsken skulle infalla den första söndagen efter vårens första fullmåne. Påskmåndagen har firats sedan tidig medeltid – ursprungligen var hela påskveckan en helgdag. I Tyskland och Österrike förblev den en lagstadgad helgdag, till skillnad från i många rent katolska länder.",
+          "traditions": "Familjer letar efter påskägg tillsammans, njuter av en lugn brunch eller tar den klassiska påskpromenaden (som förevigats i Goethes ”Faust”). I Polen firas ”Śmigus-Dyngus”: pojkar stänker vatten på flickor. I Tjeckien knackar pojkar på dörrarna med pilkvistar. I Bayern och Österrike hålls den traditionella ”Emmaus-vandringen”.",
+          "funFacts": [
+            "Traditionen med påskäggsjakt nämndes för första gången av Martin Luther, som använde den för att glädja sina barn.",
+            "Världens största chokladpåskägg stod i Argentina (8,5 m högt, 4 t) — och finns med i Guinness rekordbok.",
+            "I Sverige klär sig barnen ut till ”påskkärringar” – små häxor – på påskafton och går från dörr till dörr.",
+            "Påskharen som äggutdelare omnämndes för första gången år 1682 av läkaren Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "early_may_bank_holiday": {
+          "intro": "Helgdagen i början av maj, som infaller den första måndagen i maj, är en av Storbritanniens många helgdagar – en välkommen långhelg på våren.",
+          "history": "Helgdagar infördes i Storbritannien genom lagen ”Bankers’ Holidays Act” år 1871 – ursprungligen som lediga dagar för bankpersonal, senare för hela befolkningen. Den första måndagen i maj infördes 1978 av premiärminister James Callaghan – som en brittisk motsvarighet till den kontinentala arbetardagen, utan dess socialistiska konnotation. Det var en politisk symbol vid den tiden – Labourregeringen ville hedra arbetarna.",
+          "traditions": "I början av maj inleds utomhussäsongen i Storbritannien. Populära evenemang är bland annat ”May Day Fairs”, morrisdans (traditionella folkdanser med klockor och käppar), kröningen av en ”majdrottning” och i vissa byar dans runt en majstång. Pubarna öppnar sina uteserveringar och många människor gör en kort utflykt till landsbygden eller kusten.",
+          "funFacts": [
+            "”Bank Holidays Act” från 1871 drevs igenom av liberalen Sir John Lubbock – britterna tackade honom genom att kalla helgdagarna för ”Saint Lubbock’s Days”.",
+            "Vid Padstow Obby Oss i Cornwall dansar en ”häst” genom gatorna – en av Englands äldsta folktraditioner.",
+            "Majstången är inte bara en tysk tradition: britterna har dansat runt den ända sedan medeltiden, med banddanser.",
+            "År 2020 flyttades helgdagen i början av maj till en fredag under ett år — för att uppmärksamma 75-årsdagen av VE-dagen."
+          ],
+          "imageCredit": "Foto: Philip Platt · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "spring_bank_holiday": {
+          "intro": "Vårhelgen, som infaller den sista måndagen i maj, är en av Storbritanniens mest populära helgdagar – den markerar början på sommaren och halvterminslovet.",
+          "history": "Dagen ersatte den traditionella pingstmåndagen år 1971. Eftersom pingstdagen infaller på ett rörligt datum ville regeringen ha en fast långhelg för skolans lov och turismen. Sedan dess har den varit en av de tre stora brittiska sommarhelgdagarna. År 2022 sammanföll den långa helgen med drottning Elizabeth II:s platinajubileum – med en extra ”Platinum Jubilee Bank Holiday” på torsdagen.",
+          "traditions": "Den långa helgen är högsäsong för resor – brittiska familjer beger sig till kusten (Brighton, Cornwall, Lake District), och festivaler som den berömda ”Cheese Rolling” på Cooper’s Hill (Gloucestershire) går av stapeln. Chelsea Flower Show avslutas vanligtvis också den helgen. Pubarna är fullsatta, grillarna tänds – när det ofta ombytliga vädret tillåter.",
+          "funFacts": [
+            "Vid ”Cheese Rolling” på Cooper’s Hill rullar en 4 kg tung dubbel-Gloucester-ost nerför backen – och hundratals modiga människor jagar efter den.",
+            "År 2022 innebar drottningens ”platina-jubileum” en extra helgdag, vilket resulterade i en fyra dagar lång helg.",
+            "De brittiska järnvägs- och motorvägsoperatörerna räknar med en trafikökning på 30 procent.",
+            "Spring Bank Holiday är ingen officiell helgdag i Skottland – i Skottland infaller en annan helgdag den första måndagen i augusti."
+          ],
+          "imageCredit": "Foto: vastateparksstaff · CC BY 2.0 via Wikimedia Commons"
+        },
+        "summer_bank_holiday": {
+          "intro": "Sommarhelgen den sista måndagen i augusti (i Skottland den första måndagen) markerar höjdpunkten på den brittiska sommarsäsongen och slutet på skollovet.",
+          "history": "Precis som alla brittiska helgdagar har denna dag sitt ursprung i lagen om helgdagar från 1871. Ursprungligen inföll den den första måndagen i augusti; i England, Wales och Nordirland flyttades den 1971 till den sista måndagen i augusti för att bättre sammanfalla med slutet på skollovet. Skottland behöll det ursprungliga datumet. Tillsammans med Spring Bank Holiday är det en av årets mest populära strandhelger.",
+          "traditions": "Denna dag är känd för sina stora festivaler: ”Notting Hill Carnival” i London – Europas största karibiska parad – förvandlar den långa helgen till en färgsprakande fest med över 2 miljoner besökare. I Cornwall hålls surftävlingar, och Edinburgh-festivalen är i full gång. Familjerna planerar sina sista sommarutflykter.",
+          "funFacts": [
+            "”Notting Hill Carnival” har firat den karibisk-brittiska kulturen sedan 1966 – höjdpunkten är steelpan-paraden.",
+            "Under en solig sommarhelg slår de brittiska stränderna ofta besöksrekord.",
+            "Skottland väljer medvetet att lägga sin sommarhelgdag tidigare (i början av augusti), eftersom vädret då brukar vara bättre.",
+            "Bankhelgen i augusti är den ÄLDSTA brittiska lagstadgade bankhelgen – sedan 1871."
+          ],
+          "imageCredit": "Foto: Philip Halling · CC BY-SA 2.0 via Wikimedia Commons"
+        }
+      },
+      "ja": {
+        "good_friday": {
+          "intro": "聖金曜日は、イエス・キリストの磔刑を記念する、プロテスタントにとって最も重要な追悼の日です。ドイツでは、この日は特別な法的保護が設けられた「静寂の祝日」とされています。",
+          "history": "聖金曜日は、4世紀以来、キリスト教徒によって祝われてきました。 ドイツ語の接頭辞「Kar」は、嘆きや哀悼を意味する古高ドイツ語の「chara」に由来しています。典礼の伝統は早くから確立され、受難物語の朗読、十字架の礼拝、鐘の鳴らし止めなどが行われてきました。宗教改革により、聖金曜日は特に重要な日となりました。ルーテル派の地域では、今もなお教会暦の中で最も重要な祝日となっています。",
+          "traditions": "多くのキリスト教徒が、受難の物語が朗読される受難礼拝に出席します。この日は伝統的に断食の日とされており、肉料理の代わりに魚料理が供されます。一部の地域では、ロア・アム・マインで行われる有名な行列のように、聖金曜日の行列が街中を練り歩きます。ドイツのほとんどの州では、ダンスイベントや大音量の音楽が法律で禁止されています。",
+          "funFacts": [
+            "ドイツの「ダンス禁止令」は、聖金曜日の公共の場での娯楽を規制するもので、長年にわたり社会的な話題となっている。",
+            "バッハは1727年、ライプツィヒの聖金曜日晩課のために『マタイ受難曲』を作曲した。この作品は今日、世界で最も頻繁に演奏されている作品の一つとなっている。",
+            "バミューダでは、聖金曜日に家族で手作りした竹と紙の凧を飛ばすという、キリスト教ならではの伝統行事が行われています。",
+            "スペイン語圏の国々では、聖金曜日は「Viernes Santo」と呼ばれ、セビリアなどで壮麗な兄弟団の行列が行われます。"
+          ],
+          "imageCredit": "写真：ピエトロ・ペルジーノ · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "easter_monday": {
+          "intro": "イースター・マンデーはイースターの2日目で、ヨーロッパのほとんどの国で祝日となっています。この日は、キリスト教における最も重要な祭りの締めくくりを告げる日です。",
+          "history": "イースターはキリスト教世界最古の祭りで、イエス・キリストの死から3日目に起こった復活を祝うものです。325年のニカイア公会議において、イースターは春の最初の満月の後の最初の日曜日に定められました。イースター・マンデーは中世初期から祝われており、もともとイースター週間全体が休日とされていました。 ドイツやオーストリアでは、純粋にカトリック教国が多いのとは異なり、イースターは現在も法定休日として残っています。",
+          "traditions": "家族で一緒にイースターエッグ探しをしたり、ゆったりとしたブランチを楽しんだり、伝統的なイースターの散歩（ゲーテの『ファウスト』にも描かれている）に出かけたりします。ポーランドでは「シュミグス・ディンガス」が祝われ、少年たちが少女たちに水をかけます。チェコでは、若者たちが柳の鞭でドアを叩きます。 バイエルン州やオーストリアでは、伝統的な「エマオの散歩」が行われます。",
+          "funFacts": [
+            "イースターエッグハントの習慣について初めて言及したのはマルティン・ルターであり、彼はこの習慣を利用して子供たちを楽しませていた。",
+            "アルゼンチンには、世界最大のチョコレートのイースターエッグ（高さ8.5 m、重さ4 t）が設置され、ギネスブックに登録された。",
+            "スウェーデンでは、聖土曜日に子供たちが「ポースカーリンガー」（小さな魔女）に扮して、家々を回ります。",
+            "イースターバニーが卵を届ける存在として初めて言及されたのは、1682年のことで、医師ゲオルク・フランク・フォン・フランケナウによるものでした。"
+          ],
+          "imageCredit": "写真：ゲオルギ・キリチコフ · CC BY-SA 3.0（ウィキメディア・コモンズ経由）"
+        },
+        "early_may_bank_holiday": {
+          "intro": "5月の第1月曜日にある「5月初旬の銀行休業日」は、英国の数ある銀行休業日のひとつであり、春を祝う嬉しい3連休です。",
+          "history": "英国では、1871年の「銀行休業日法（Bankers' Holidays Act）」によって銀行休業日が導入されました。当初は銀行職員の休日として設けられましたが、後に国民全体を対象とする休日となりました。 5月の第1月曜日は、1978年にジェームズ・キャラハン首相によって追加されました。これは、大陸ヨーロッパの「メーデー」に相当する英国独自の祝日として、社会主義的な意味合いを排除したものです。当時は政治的な象徴でもあり、労働党政権は労働者を称えることを意図していました。",
+          "traditions": "5月上旬になると、英国ではアウトドアの季節が幕を開けます。人気のイベントとしては、「メイ・デイ・フェア」、モリス・ダンス（鈴や棒を使った伝統的なフォークダンス）、「メイ・クイーン」の戴冠式、そして一部の村ではメイポールを囲んでのダンスなどが挙げられます。 パブではビアガーデンがオープンし、多くの人々が田舎や海岸へ小旅行に出かけます。",
+          "funFacts": [
+            "1871年の「銀行休業日法」は、自由党のジョン・ラブック卿によって推進された。英国の人々は彼に感謝の意を表し、その休日を「聖ラブックの日」と呼んだ。",
+            "コーンウォールのパドストウ・オビー・オスでは、「馬」が街中を踊りながら練り歩く――これはイングランドで最も古い民俗行事の一つである。",
+            "メイポールはドイツだけのものではありません。イギリスでも中世の頃から、リボンを使った踊りを交えながらその周りを踊ってきました。",
+            "2020年、VEデー（ヨーロッパ戦勝記念日）の75周年を記念して、5月上旬の銀行休業日が1年間限り、金曜日に変更されました。"
+          ],
+          "imageCredit": "写真：フィリップ・プラット · CC BY-SA 2.0（ウィキメディア・コモンズ経由）"
+        },
+        "spring_bank_holiday": {
+          "intro": "5月の最終月曜日にある「スプリング・バンク・ホリデー」は、英国で最も人気のある祝日の一つであり、夏の訪れと半期休暇の始まりを告げるものです。",
+          "history": "この日は1971年に、伝統的な「聖霊降臨祭の月曜日（Whit Monday）」に取って代わりました。聖霊降臨祭の日付は毎年変動するため、政府は学校の休暇や観光のために、確実な3連休を設けることを望んだのです。それ以来、この日は英国の夏の3大銀行休業日の一つとなっています。 2022年には、この3連休がエリザベス2世女王のプラチナ・ジュビリーと重なり、木曜日には追加の「プラチナ・ジュビリー・バンクホリデー」が設けられました。",
+          "traditions": "この連休は旅行のピークシーズンです。イギリスの家族連れは海岸（ブライトン、コーンウォール、湖水地方）へと向かい、クーパーズ・ヒル（グロスターシャー）で行われる有名な「チーズ・ローリング」などのフェスティバルも開催されます。チェルシー・フラワー・ショーも通常、この週末に閉幕します。 パブは賑わい、バーベキューの火も燃え盛ります――もちろん、変わりやすい天気が味方してくれるならの話ですが。",
+          "funFacts": [
+            "クーパーズ・ヒルで行われる「チーズ・ローリング」では、重さ4kgのダブル・グロスターチーズが丘を転がり落ち、何百人もの勇敢な人々がそれを追いかけます。",
+            "2022年には、女王の「プラチナ・ジュビリー」を記念して、追加の祝日が設けられ、4連休となりました。",
+            "英国の鉄道および高速道路の運営事業者は、交通量が30％増加すると見込んでいる。",
+            "スプリング・バンク・ホリデーは、スコットランドでは公式の祝日ではありません。スコットランドでは、8月の第1月曜日が別のバンク・ホリデーとなっています。"
+          ],
+          "imageCredit": "写真：vastateparksstaff · CC BY 2.0（ウィキメディア・コモンズ経由）"
+        },
+        "summer_bank_holiday": {
+          "intro": "8月の最終月曜日（スコットランドでは第1月曜日）のサマー・バンク・ホリデーは、英国の夏のピークであり、学校休暇の終わりを告げる日です。",
+          "history": "イギリスの他の祝日と同様、この祝日の起源は1871年の「祝日法」にさかのぼります。当初は8月の第1月曜日でしたが、イングランド、ウェールズ、北アイルランドでは、学校の夏休み終了時期とより整合させるため、1971年に8月の最終月曜日に変更されました。 スコットランドでは当初の日付が維持されました。春の銀行休業日と並んで、この祝日は年間を通じて最も人気のあるビーチでの休暇の一つとなっています。",
+          "traditions": "この日は大規模なフェスティバルで知られています。ロンドンで開催される「ノッティング・ヒル・カーニバル」――ヨーロッパ最大級のカリブ海パレード――は、200万人以上の来場者を集め、この連休を色鮮やかなお祭りへと変えます。コーンウォールではサーフィン大会が開催され、エディンバラ・フェスティバルも真っ盛りです。家族連れは、夏の最後のお出かけの計画を立てています。",
+          "funFacts": [
+            "「ノッティング・ヒル・カーニバル」は1966年以来、カリブ系英国人の文化を祝ってきた。その見どころは、スティールパン・パレードだ。",
+            "晴れた夏の銀行休業日の週末には、イギリスのビーチでは常に観光客数が過去最高を更新している。",
+            "スコットランドでは、一般的に天気が良いことから、夏の銀行休業日を意図的に早い時期（8月上旬）に設定している。",
+            "8月のバンクホリデーは、1871年以来続く、英国で最も歴史のある法定祝日です。"
+          ],
+          "imageCredit": "写真：フィリップ・ハリング · CC BY-SA 2.0（ウィキメディア・コモンズ経由）"
+        }
+      },
+      "ko": {
+        "good_friday": {
+          "intro": "성금요일은 예수 그리스도의 십자가 처형을 기리는 개신교에서 가장 엄숙한 추모의 날입니다. 독일에서는 이 날이 특별한 법적 보호를 받는 ‘침묵의 휴일’로 지정되어 있습니다.",
+          "history": "성금요일은 4세기부터 기독교인들에 의해 기념되어 왔습니다. 독일어 접두사 ‘Kar’는 ‘애도’나 ‘애도하는 마음’을 뜻하는 고대 고지독일어 ‘chara’에서 유래했습니다. 전례 전통은 일찍부터 정립되었는데, 여기에는 수난기 낭독, 십자가 숭배, 종을 울리지 않는 관습 등이 포함됩니다. 종교개혁을 계기로 성금요일은 특별한 의미를 갖게 되었으며, 루터교 지역에서는 여전히 교회 연중 가장 중요한 축일로 여겨지고 있습니다.",
+          "traditions": "많은 기독교인들이 수난 이야기를 낭독하는 수난 예배에 참석합니다. 이날은 전통적으로 금식하는 날로, 고기 대신 생선을 먹습니다. 일부 지역에서는 ‘로르 암 마인(Lohr am Main)’의 유명한 행렬과 같이 성금요일 행렬이 거리를 누비기도 합니다. 대부분의 독일 주에서는 법에 따라 춤 행사나 시끄러운 음악이 금지되어 있습니다.",
+          "funFacts": [
+            "독일의 ‘춤 금지령’은 성금요일에 이루어지는 공공 오락 활동을 규제하는 것으로, 수년 동안 뜨거운 사회적 화제가 되어 왔다.",
+            "바흐는 1727년 라이프치히의 성금요일 저녁 기도회를 위해 《마태 수난곡》을 작곡했는데, 이 작품은 오늘날 전 세계에서 가장 많이 연주되는 작품 중 하나이다.",
+            "버뮤다에서는 성금요일에 가족들이 직접 만든 대나무와 종이로 만든 연을 날리는데, 이는 기독교의 독특한 전통입니다.",
+            "스페인어권 국가들에서 성금요일은 ‘비에르네스 산토(Viernes Santo)’라고 불리며, 예를 들어 세비야에서는 웅장한 형제회 행렬이 펼쳐집니다."
+          ],
+          "imageCredit": "사진: 피에트로 페루지노 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "easter_monday": {
+          "intro": "부활절 다음 날인 부활절 월요일은 대부분의 유럽 국가에서 공휴일입니다. 이 날은 기독교에서 가장 중요한 축제가 끝나는 날을 의미합니다.",
+          "history": "부활절은 기독교 세계에서 가장 오래된 축제로, 예수 그리스도가 죽은 지 사흘 만에 부활하신 것을 기념하는 날입니다. 325년에 열린 니케아 공의회는 부활절을 봄의 첫 보름달이 뜬 후 첫 번째 일요일로 정했습니다. 부활절 다음 날인 월요일은 중세 초기부터 휴일로 지켜져 왔으며, 원래는 부활절 주간 전체가 휴일이었으나, 독일과 오스트리아에서는 순수 가톨릭 국가들과 달리 부활절이 여전히 법정 공휴일로 남아 있습니다.",
+          "traditions": "가족들은 함께 부활절 달걀을 찾거나, 여유로운 브런치를 즐기거나, 고트헤의 『파우스트』에 영원히 기록된 고전적인 부활절 산책을 즐깁니다. 폴란드에서는 ‘슈미구스-딩구스’ 축제가 열리는데, 소년들이 소녀들에게 물을 뿌립니다. 체코에서는 청년들이 버드나무 채로 문을 두드립니다. 바이에른과 오스트리아에서는 전통적인 ‘엠마우스 산책’이 열립니다.",
+          "funFacts": [
+            "부활절 달걀 찾기 풍습은 마틴 루터가 처음 언급했는데, 그는 이 풍습을 통해 자녀들을 기쁘게 해주곤 했다.",
+            "세계에서 가장 큰 초콜릿 부활절 달걀이 아르헨티나에 세워졌으며(높이 8.5m, 무게 4t), 이는 기네스북에 등재되었다.",
+            "스웨덴에서는 성토일에 아이들이 ‘파스크케링(Påskkärringar)’—작은 마녀—로 분장하고 집집마다 돌아다닙니다.",
+            "달걀을 배달하는 부활절 토끼에 대한 첫 언급은 1682년 의사 게오르크 프랑크 폰 프랑케나우에 의해 이루어졌다."
+          ],
+          "imageCredit": "사진: 게오르기 키리치코프 · CC BY-SA 3.0 (위키미디어 공용 제공)"
+        },
+        "early_may_bank_holiday": {
+          "intro": "5월 첫 번째 월요일에 있는 ‘5월 초 공휴일’은 영국의 수많은 공휴일 중 하나로, 봄을 맞이하는 반가운 긴 주말입니다.",
+          "history": "영국에서 공휴일은 1871년 ‘은행원 휴일법(Bankers’ Holidays Act)’에 따라 도입되었는데, 원래는 은행 직원을 위한 휴일이었으나 나중에는 전체 국민을 위한 휴일로 확대되었다. 1978년 제임스 캘러헌 총리는 5월 첫 번째 월요일을 공휴일로 지정했는데, 이는 유럽 대륙의 노동절에 대응하는 영국식 기념일로서, 사회주의적 함의를 배제하기 위함이었습니다. 이는 당시 정치적 상징이었으며, 노동당 정부는 노동자들을 기리고자 했습니다.",
+          "traditions": "5월 초가 되면 영국에서는 야외 활동의 계절이 시작됩니다. 인기 있는 행사로는 ‘메이 데이 페어(May Day Fairs)’, 모리스 댄스(종과 막대기를 사용하는 전통 민속 무용), ‘메이 퀸(May Queen)’ 선출, 그리고 일부 마을에서는 메이폴 주위를 돌며 추는 춤 등이 있습니다. 펍들은 야외 테라스를 개방하고, 많은 사람들이 시골이나 해안가로 짧은 여행을 떠납니다.",
+          "funFacts": [
+            "1871년 제정된 ‘공휴일법(Bank Holidays Act)’은 자유당 소속의 존 러벅 경이 주도하여 통과시켰으며, 영국인들은 이에 감사의 뜻으로 이 날들을 ‘성 러벅의 날’이라고 불렀다.",
+            "콘월의 패드스토 ‘오비 오스(Obby Oss)’ 축제에서는 ‘말’이 거리를 누비며 춤을 추는데, 이는 영국에서 가장 오래된 민속 풍습 중 하나다.",
+            "메이폴은 독일만의 전통이 아닙니다. 영국인들도 중세 시대부터 리본 춤을 추며 메이폴 주위를 맴돌았습니다.",
+            "2020년에는 VE 데이 75주년을 기념하기 위해 5월 초 공휴일이 1년 한정으로 금요일로 변경되었습니다."
+          ],
+          "imageCredit": "사진: 필립 플랫 · CC BY-SA 2.0 (위키미디어 공용 제공)"
+        },
+        "spring_bank_holiday": {
+          "intro": "5월 마지막 월요일에 있는 ‘스프링 뱅크 홀리데이’는 영국에서 가장 인기 있는 공휴일 중 하나로, 여름의 시작과 학기 중 중간 방학의 시작을 알립니다.",
+          "history": "이 날은 1971년에 전통적인 ‘화이트 먼데이(Whit Monday)’를 대체했습니다. 성령강림절은 매년 날짜가 달라지기 때문에, 정부는 학교 방학과 관광을 위해 일정하게 보장되는 긴 주말을 마련하고자 했습니다. 그 이후로 이 날은 영국의 3대 여름 공휴일 중 하나로 자리 잡았습니다. 2022년에는 이 연휴가 엘리자베스 2세 여왕의 플래티넘 주빌리(재위 70주년)와 겹쳤으며, 목요일에는 추가로 ‘플래티넘 주빌리 공휴일’이 지정되었습니다.",
+          "traditions": "긴 주말은 여행 성수기입니다. 영국 가족들은 해안가(브라이튼, 콘월, 레이크 디스트릭트)로 향하고, 쿠퍼스 힐(글로스터셔)에서 열리는 유명한 ‘치즈 롤링’과 같은 축제가 열립니다. 첼시 플라워 쇼도 보통 그 주말에 막을 내립니다. 펍은 북적이고, 바비큐 불도 활활 타오릅니다 — 변덕스러운 날씨가 협조해 준다면 말이죠.",
+          "funFacts": [
+            "쿠퍼스 힐에서 열리는 ‘치즈 롤링’ 행사에서는 4kg짜리 더블 글로스터 치즈가 언덕을 굴러 내려가고, 수백 명의 용감한 참가자들이 그 뒤를 쫓아갑니다.",
+            "2022년에는 여왕의 ‘백금 즉위 기념일’을 맞아 공휴일이 하루 더 추가되어 4일간의 연휴가 되었습니다.",
+            "영국의 철도 및 고속도로 운영사들은 교통량이 30% 증가할 것으로 예상하고 있다.",
+            "스프링 뱅크 홀리데이는 스코틀랜드에서는 공휴일이 아닙니다. 스코틀랜드는 8월 첫 번째 월요일에 별도의 뱅크 홀리데이를 지냅니다."
+          ],
+          "imageCredit": "사진: vastateparksstaff · CC BY 2.0 (위키미디어 공용 제공)"
+        },
+        "summer_bank_holiday": {
+          "intro": "8월 마지막 월요일(스코틀랜드에서는 첫 번째 월요일)에 있는 여름 공휴일은 영국 여름 성수기의 정점이자 학교 방학의 끝을 알리는 날입니다.",
+          "history": "영국의 모든 공휴일과 마찬가지로, 이 날은 1871년 공휴일법(Bank Holidays Act)으로 거슬러 올라갑니다. 원래는 8월 첫 번째 월요일이었으나, 잉글랜드, 웨일스, 북아일랜드에서는 1971년에 학교 방학 종료 시기와 더 잘 맞추기 위해 8월 마지막 월요일로 변경되었습니다. 스코틀랜드는 원래 날짜를 그대로 유지했습니다. 봄 공휴일과 함께 이 날은 일 년 중 가장 인기 있는 해변 휴가 중 하나입니다.",
+          "traditions": "이 날은 대규모 축제로 유명합니다. 유럽 최대 규모의 카리브해 퍼레이드인 런던의 ‘노팅힐 카니발’은 200만 명 이상의 방문객이 몰려들어 긴 주말을 다채로운 축제의 장으로 물들입니다. 콘월에서는 서핑 대회가 열리고, 에든버러 페스티벌도 한창입니다. 가족들은 여름의 마지막 나들이 계획을 세웁니다.",
+          "funFacts": [
+            "‘노팅힐 카니발’은 1966년부터 카리브-영국 문화를 기념해 왔으며, 이 행사의 하이라이트는 스틸팬 퍼레이드입니다.",
+            "화창한 여름 공휴일 주말이면, 영국의 해변들은 종종 방문객 수 신기록을 경신하곤 한다.",
+            "스코틀랜드는 날씨가 대개 더 좋기 때문에 여름 공휴일을 의도적으로 더 이른 시기(8월 초)로 정하고 있습니다.",
+            "8월 공휴일은 1871년부터 이어져 온 영국에서 가장 오래된 법정 공휴일입니다."
+          ],
+          "imageCredit": "사진: 필립 할링 · CC BY-SA 2.0 (위키미디어 공용 제공)"
+        }
+      },
+      "zh-Hant": {
+        "good_friday": {
+          "intro": "「受難日」是新教最重要的哀悼日，用以紀念耶穌基督被釘十字架。在德國，這是一個享有特殊法律保障的「靜默假日」。",
+          "history": "自四世紀以來，基督徒便一直慶祝「受難日」。 德語前綴「Kar」源自古高地德語「chara」，意為哀悼或悲慟。相關禮儀傳統很早就已形成：誦讀受難記、敬禮十字架以及停止鐘聲。宗教改革賦予了「受難日」特殊的意義；在路德宗地區，它至今仍是教會年曆中最重要的節日。",
+          "traditions": "許多基督徒會參加宣讀受難敘事的受難禮拜。這一天傳統上是禁食日——以魚類代替肉類。在某些地區，會舉行聖週五遊行隊伍穿梭街頭，例如美因河畔洛爾（Lohr am Main）那場著名的遊行。在德國大多數邦，法律明文禁止舉辦舞蹈活動及播放大聲音樂。",
+          "funFacts": [
+            "德國的「禁舞令」規範了聖週五當天的公共娛樂活動——這項規定多年來一直是社會熱議的話題。",
+            "巴赫於1727年為萊比錫的「受難日」晚禱創作了《馬太受難曲》——這部作品如今已成為全球演出頻率最高的樂曲之一。",
+            "在百慕達，各家各戶會在耶穌受難日放飛自製的竹製與紙製風箏——這是一項獨特的基督教傳統。",
+            "在西班牙語系國家，耶穌受難日被稱為「Viernes Santo」——屆時會舉行壯觀的兄弟會遊行，例如在塞維利亞。"
+          ],
+          "imageCredit": "圖片：皮耶特羅·佩魯吉諾 · 經維基共享資源提供，採用 CC BY-SA 4.0 授權"
+        },
+        "easter_monday": {
+          "intro": "復活節星期一即為復活節的第二天，在大多數歐洲國家均屬法定假日。這一天標誌著基督教最重要的節日圓滿落幕。",
+          "history": "復活節是基督教世界最古老的節日，用以慶祝耶穌基督在逝世後第三天復活。325年的尼西亞大公會議將復活節定為春季首次滿月後的第一个星期日。自中世紀早期起，復活節星期一便被視為節日——最初整個復活節週都是假期。 在德國和奧地利，復活節至今仍是法定假日，這與許多純天主教國家的情況不同。",
+          "traditions": "家人們會一起尋找復活節彩蛋、享受悠閒的早午餐，或是進行經典的復活節漫步（這項傳統在歌德的《浮士德》中被永恆地銘記）。在波蘭，人們慶祝「Śmigus-Dyngus」節：男孩們會向女孩們潑水。在捷克，年輕小夥子們則會用柳條鞭輕敲門戶。 在巴伐利亞和奧地利，則有傳統的「艾瑪烏斯漫步」。",
+          "funFacts": [
+            "復活節彩蛋尋寶活動的習俗最早是由馬丁·路德提及的，他當時是為了讓自己的孩子們開心而舉辦這項活動。",
+            "世界上最大的巧克力復活節彩蛋矗立在阿根廷（高8.5公尺，重4公噸）——並被載入《金氏世界紀錄》。",
+            "在瑞典，孩子們會在聖週六打扮成「Påskkärringar」——也就是小女巫——並挨家挨戶拜訪。",
+            "1682年，醫師喬治·弗蘭克·馮·弗蘭肯瑙（Georg Franck von Franckenau）首次提及復活節兔子作為送蛋者的角色。"
+          ],
+          "imageCredit": "照片：Georgi Kirichkov · 經維基共享資源提供，採用 CC BY-SA 3.0 授權"
+        },
+        "early_may_bank_holiday": {
+          "intro": "五月初的銀行假日（即五月的第一個星期一）是英國眾多銀行假日之一——這是一個令人期待的春季長週末。",
+          "history": "英國的銀行假日是根據1871年的《銀行假日法案》設立的——最初是作為銀行員工的休假日，後來擴展至全體民眾。 1978年，時任首相詹姆斯·卡拉漢將五月的第一個星期一增列為銀行假日——作為英國對應歐洲大陸「勞動節」的節日，卻不帶有社會主義的意涵。這在當時具有政治象徵意義——工黨政府希望藉此向勞工致敬。",
+          "traditions": "五月初標誌著英國戶外活動季的來臨。熱門活動包括「五月節市集」、莫里斯舞（一種配有鈴鐺和木棍的傳統民間舞蹈）、「五月女王」加冕儀式，以及在某些村莊圍繞五月柱跳舞的活動。 酒吧紛紛開放露天啤酒花園，許多人則會前往鄉間或海濱來趟短途旅行。",
+          "funFacts": [
+            "1871年的《銀行假日法案》是由自由黨的約翰·盧博克爵士推動的——英國人為了感謝他，將這些假日稱為「聖盧博克日」。",
+            "在康沃爾郡的帕德斯托「奧比·奧斯」節上，一匹「馬」在街頭翩然起舞——這是英格蘭最古老的民間習俗之一。",
+            "五月柱並非僅見於德國：自中世紀起，英國人便圍著它跳起緞帶舞。",
+            "2020年，為紀念歐洲戰勝日（VE Day）75週年，五月初的銀行假日特別調整為週五，此安排僅限該年一次。"
+          ],
+          "imageCredit": "照片：Philip Platt · 經維基共享資源提供，採用 CC BY-SA 2.0 授權"
+        },
+        "spring_bank_holiday": {
+          "intro": "五月的最後一個星期一「春季銀行假日」是英國最受歡迎的節日之一——它預示著夏天的來臨，也標誌著學期中假期的開始。",
+          "history": "該節日於1971年取代了傳統的「聖靈降臨節星期一」。由於聖靈降臨節的日期每年不固定，政府希望為學校假期和旅遊業設定一個固定且可靠的长周末。自此，它便成為英國三大夏季銀行假日之一。 2022年，這個長週末恰逢伊莉莎白二世女王的白金禧年慶典——當週的星期四還增設了「白金禧年銀行假日」。",
+          "traditions": "這個長週末是旅遊旺季——英國家庭紛紛前往海岸地區（布萊頓、康沃爾、湖區），而諸如格洛斯特郡庫珀山（Cooper's Hill）著名的「滾奶酪」節等慶典活動也在此時舉行。切爾西花展通常也在那個週末落幕。 酒吧人潮湧動，烤肉爐也紛紛點燃——前提是這變幻莫測的天氣配合得當。",
+          "funFacts": [
+            "在庫珀山（Cooper's Hill）的「滾奶酪」活動中，一塊重達 4 公斤的雙格洛斯特奶酪沿著山坡滾下——而數百名勇敢的參與者則緊追其後。",
+            "2022年，由於女王的「白金禧年」慶典，當月額外增加了一個銀行假日，形成了一個為期四天的週末。",
+            "英國的鐵路及高速公路營運商預期交通流量將增加 30%。",
+            "春季銀行假日並非蘇格蘭的法定假日——蘇格蘭的銀行假日定於八月的第一個星期一。"
+          ],
+          "imageCredit": "照片來源：vastateparksstaff · CC BY 2.0，經由維基共享資源提供"
+        },
+        "summer_bank_holiday": {
+          "intro": "八月最後一個星期一（蘇格蘭則是第一個星期一）的夏季銀行假日，標誌著英國夏季旅遊旺季的高峰，同時也標誌著學校假期的結束。",
+          "history": "與所有英國銀行假日一樣，這個節日的起源可追溯至 1871 年的《銀行假日法案》。最初定於 8 月的第一個星期一；1971 年，英格蘭、威爾斯和北愛爾蘭將其改為 8 月的最後一個星期一，以便與學校假期結束的時間更為吻合。 蘇格蘭則保留了原來的日期。與「春季銀行假日」並列，這是全年最受歡迎的海灘假期之一。",
+          "traditions": "這一天以盛大的節慶活動聞名：倫敦的「諾丁山嘉年華」——歐洲規模最大的加勒比海風情遊行——將這個長週末化為一場繽紛多彩的派對，吸引超過200萬名遊客。康沃爾郡舉辦衝浪比賽，愛丁堡藝術節則正熱鬧非凡。各家各戶正規劃著今夏的最後一次出遊。",
+          "funFacts": [
+            "「諾丁山嘉年華」自1966年起便持續慶祝加勒比海與英國的融合文化——其重頭戲是鋼鼓遊行。",
+            "在一個陽光普照的夏季銀行假日週末，英國的海灘往往會刷新遊客人數紀錄。",
+            "蘇格蘭刻意將夏季銀行假日安排在較早的時間（八月初），因為那時候的天氣通常較好。",
+            "八月銀行假日是英國歷史最悠久的法定銀行假日——自1871年起便已存在。"
+          ],
+          "imageCredit": "照片：Philip Halling · 透過維基共享資源，採用 CC BY-SA 2.0 授權"
+        }
+      }
+    }
+  },
+  "images": {
+    "good_friday": [
+      {
+        "path": "images/good_friday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "easter_monday": [
+      {
+        "path": "images/easter_monday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      }
+    ],
+    "early_may_bank_holiday": [
+      {
+        "path": "images/GB/early_may_bank_holiday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/GB/early_may_bank_holiday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/GB/early_may_bank_holiday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "spring_bank_holiday": [
+      {
+        "path": "images/GB/spring_bank_holiday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/GB/spring_bank_holiday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/GB/spring_bank_holiday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "summer_bank_holiday": [
+      {
+        "path": "images/GB/summer_bank_holiday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/GB/summer_bank_holiday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/GB/summer_bank_holiday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 7
+}

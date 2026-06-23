@@ -14,7 +14,7 @@
     "migrate:articles": "node scripts/migrate-articles.mjs",
     "build:index": "node scripts/build-index.mjs",
     "validate": "node scripts/validate.mjs",
-    "test": "node --test scripts/"
+    "test": "node --test scripts/*.test.mjs scripts/lib/*.test.mjs"
   },
   "engines": {
     "node": ">=20"

@@ -1,0 +1,479 @@
+{
+  "countryCode": "AL",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "AL_new_years_day",
+      "countryCode": "AL",
+      "kind": "precomputed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-02",
+          "2027": "01-04",
+          "2028": "01-03",
+          "2029": "01-02",
+          "2030": "01-02",
+          "2031": "01-02",
+          "2032": "01-02",
+          "2033": "01-03",
+          "2034": "01-02",
+          "2035": "01-02"
+        }
+      }
+    },
+    {
+      "id": "AL_summer_day",
+      "countryCode": "AL",
+      "kind": "precomputed",
+      "labelKey": "holidays.summer_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "03-16",
+          "2027": "03-15",
+          "2028": "03-14",
+          "2029": "03-14",
+          "2030": "03-14",
+          "2031": "03-14",
+          "2032": "03-15",
+          "2033": "03-14",
+          "2034": "03-14",
+          "2035": "03-14"
+        }
+      }
+    },
+    {
+      "id": "AL_nowruz",
+      "countryCode": "AL",
+      "kind": "precomputed",
+      "labelKey": "holidays.nowruz",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "03-23",
+          "2027": "03-22",
+          "2028": "03-22",
+          "2029": "03-22",
+          "2030": "03-22",
+          "2031": "03-24",
+          "2032": "03-22",
+          "2033": "03-22",
+          "2034": "03-22",
+          "2035": "03-22"
+        }
+      }
+    },
+    {
+      "id": "AL_easter_sunday",
+      "countryCode": "AL",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-12",
+          "2027": "05-02",
+          "2028": "04-16",
+          "2029": "04-08",
+          "2030": "04-28",
+          "2031": "04-13",
+          "2032": "05-02",
+          "2033": "04-24",
+          "2034": "04-09",
+          "2035": "04-29"
+        }
+      }
+    },
+    {
+      "id": "AL_easter_monday",
+      "countryCode": "AL",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_monday_al",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-13",
+          "2027": "05-03",
+          "2028": "04-17",
+          "2029": "04-09",
+          "2030": "04-29",
+          "2031": "04-14",
+          "2032": "05-03",
+          "2033": "04-25",
+          "2034": "04-10",
+          "2035": "04-30"
+        }
+      }
+    },
+    {
+      "id": "AL_may_day",
+      "countryCode": "AL",
+      "kind": "precomputed",
+      "labelKey": "holidays.may_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-01",
+          "2027": "05-03",
+          "2028": "05-01",
+          "2029": "05-01",
+          "2030": "05-01",
+          "2031": "05-01",
+          "2032": "05-03",
+          "2033": "05-02",
+          "2034": "05-01",
+          "2035": "05-01"
+        }
+      }
+    },
+    {
+      "id": "AL_mother_teresa_day",
+      "countryCode": "AL",
+      "kind": "precomputed",
+      "labelKey": "holidays.mother_teresa_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-07",
+          "2027": "09-06",
+          "2028": "09-05",
+          "2029": "09-05",
+          "2030": "09-05",
+          "2031": "09-05",
+          "2032": "09-06",
+          "2033": "09-05",
+          "2034": "09-05",
+          "2035": "09-05"
+        }
+      }
+    },
+    {
+      "id": "AL_independence_day",
+      "countryCode": "AL",
+      "kind": "precomputed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-30",
+          "2027": "11-29",
+          "2028": "11-28",
+          "2029": "11-28",
+          "2030": "11-28",
+          "2031": "11-28",
+          "2032": "11-29",
+          "2033": "11-28",
+          "2034": "11-28",
+          "2035": "11-28"
+        }
+      }
+    },
+    {
+      "id": "AL_liberation_day",
+      "countryCode": "AL",
+      "kind": "precomputed",
+      "labelKey": "holidays.liberation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-30",
+          "2027": "11-29",
+          "2028": "11-29",
+          "2029": "11-29",
+          "2030": "11-29",
+          "2031": "12-01",
+          "2032": "11-29",
+          "2033": "11-29",
+          "2034": "11-29",
+          "2035": "11-29"
+        }
+      }
+    },
+    {
+      "id": "AL_youth_day",
+      "countryCode": "AL",
+      "kind": "precomputed",
+      "labelKey": "holidays.youth_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "12-08",
+          "2027": "12-08",
+          "2028": "12-08",
+          "2029": "12-10",
+          "2030": "12-09",
+          "2031": "12-08",
+          "2032": "12-08",
+          "2033": "12-08",
+          "2034": "12-08",
+          "2035": "12-10"
+        }
+      }
+    },
+    {
+      "id": "AL_christmas_day",
+      "countryCode": "AL",
+      "kind": "precomputed",
+      "labelKey": "holidays.christmas_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "12-25",
+          "2027": "12-27",
+          "2028": "12-25",
+          "2029": "12-25",
+          "2030": "12-25",
+          "2031": "12-25",
+          "2032": "12-27",
+          "2033": "12-26",
+          "2034": "12-25",
+          "2035": "12-25"
+        }
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "summer_day": "Summer Day",
+        "nowruz": "Nowruz",
+        "easter_sunday": "Easter Sunday",
+        "easter_monday_al": "Easter Monday",
+        "may_day": "May Day",
+        "mother_teresa_day": "Mother Teresa Day",
+        "independence_day": "Independence Day",
+        "liberation_day": "Liberation Day",
+        "youth_day": "Youth Day",
+        "christmas_day": "Christmas Day"
+      },
+      "sq": {
+        "new_years_day": "Viti i Ri",
+        "summer_day": "Dita e Verës",
+        "nowruz": "Dita e Sulltan Nevruzit",
+        "easter_sunday": "Pashkët Katolike",
+        "easter_monday_al": "E hëna e Pashkëve Katolike",
+        "may_day": "Dita Ndërkombëtare e Punonjësve",
+        "mother_teresa_day": "Dita e Nënë Terezës",
+        "independence_day": "Dita e Pavarësisë",
+        "liberation_day": "Dita e Çlirimit",
+        "youth_day": "Dita Kombëtare e Rinisë",
+        "christmas_day": "Krishtlindjet"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "easter_sunday": {
+          "intro": "Ostersonntag ist das höchste Fest des Christentums – Tag der Auferstehung Jesu Christi und Höhepunkt des Kirchenjahres.",
+          "history": "Ostern entwickelte sich aus dem jüdischen Pessachfest und wird seit dem 1. Jahrhundert von Christen begangen. Die Kirche legte 325 in Nicäa fest, dass Ostern stets am ersten Sonntag nach dem ersten Frühlingsvollmond gefeiert wird – daher das wechselnde Datum zwischen 22. März und 25. April. Der Name „Ostern” geht möglicherweise auf die germanische Frühlingsgöttin Ostara zurück, oder schlicht auf das althochdeutsche „eostarum” (Morgenröte).",
+          "traditions": "Familien beginnen den Tag mit einem festlichen Osterfrühstück mit gefärbten Eiern, Hefezopf und Osterlamm. Kinder suchen die vom Osterhasen versteckten Eier und Süßigkeiten im Garten. In vielen Gemeinden gibt es Osterfeuer, Osterprozessionen und feierliche Gottesdienste mit Glockenklang.",
+          "funFacts": [
+            "Das Osterdatum kann zwischen dem 22. März und dem 25. April liegen – der nächste „frühe” Ostersonntag (22. März) findet erst 2285 wieder statt.",
+            "Der größte Osterhase der Welt steht in Brasilien und ist über 4,2 m hoch.",
+            "Russisch-Orthodoxe Christen feiern Ostern oft an einem anderen Tag als West-Christen, weil sie den julianischen Kalender benutzen.",
+            "In Polen lässt man am Karsamstag Speisen in Körben für die Ostersonntag-Mahlzeit segnen („Święconka”)."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "easter_sunday": {
+          "intro": "Easter Sunday is Christianity's highest festival — the day of Jesus Christ's resurrection and the climax of the church year.",
+          "history": "Easter grew out of the Jewish Passover and has been observed by Christians since the 1st century. The Church set in 325 at Nicaea that Easter is always celebrated on the first Sunday after the first spring full moon — hence the moving date between March 22nd and April 25th. The English name ‘Easter' may go back to the Germanic spring goddess Eostre, or simply to the Old High German ‘eostarum' (dawn).",
+          "traditions": "Families start the day with a festive Easter breakfast featuring colored eggs, sweet braided bread and Easter lamb cake. Children search the garden for the eggs and treats hidden by the Easter Bunny. Many parishes hold Easter fires, processions and joyful services with bells.",
+          "funFacts": [
+            "Easter can fall between March 22nd and April 25th — the next ‘early' Easter (March 22nd) won't return until 2285.",
+            "The world's largest Easter Bunny stands in Brazil and is over 4.2 m tall.",
+            "Russian Orthodox Christians often celebrate Easter on a different day from Western Christians because they use the Julian calendar.",
+            "In Poland, Holy Saturday baskets of food (‘Święconka') are blessed for the Sunday meal."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "easter_sunday": {
+          "intro": "Le dimanche de Pâques est la fête la plus importante du christianisme — jour de la résurrection de Jésus-Christ et sommet de l'année liturgique.",
+          "history": "Pâques est issue de la Pâque juive et célébrée par les chrétiens depuis le Ier siècle. L'Église fixa en 325 à Nicée que Pâques se célébrerait toujours le premier dimanche après la première pleine lune de printemps — d'où la date mobile entre le 22 mars et le 25 avril. Le nom ‘Easter' (anglais) viendrait de la déesse germanique du printemps Eostre, ou simplement du vieux haut-allemand ‘eostarum' (aurore).",
+          "traditions": "Les familles entament la journée par un petit-déjeuner pascal festif avec œufs colorés, brioche tressée et agneau pascal. Les enfants cherchent les œufs et friandises cachés par le lapin de Pâques. Dans de nombreuses paroisses, on allume des feux de Pâques, des processions et des messes solennelles avec carillons.",
+          "funFacts": [
+            "Pâques peut tomber entre le 22 mars et le 25 avril — le prochain Pâques ‘précoce' (22 mars) ne reviendra qu'en 2285.",
+            "Le plus grand lapin de Pâques du monde se trouve au Brésil et mesure plus de 4,2 m.",
+            "Les chrétiens orthodoxes russes célèbrent souvent Pâques un autre jour, car ils utilisent le calendrier julien.",
+            "En Pologne, on bénit le Samedi Saint des paniers de nourriture (‘Święconka') pour le repas du dimanche."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "easter_sunday": {
+          "intro": "El Domingo de Pascua es la fiesta más importante del cristianismo: el día de la resurrección de Jesús y culmen del año litúrgico.",
+          "history": "La Pascua surgió de la fiesta judía de Pésaj y se celebra desde el siglo I. La Iglesia fijó en 325 en Nicea que se celebrara el primer domingo tras la primera luna llena de primavera — de ahí la fecha variable entre el 22 de marzo y el 25 de abril. El nombre ‘Easter' (inglés) puede derivar de la diosa germánica de la primavera Eostre, o del antiguo alto alemán ‘eostarum' (alba).",
+          "traditions": "Las familias inician el día con un desayuno festivo con huevos coloreados, trenzas dulces y cordero pascual. Los niños buscan los huevos y dulces escondidos por el Conejo de Pascua. En muchas comunidades hay hogueras de Pascua, procesiones y misas solemnes con campanas.",
+          "funFacts": [
+            "La Pascua puede caer entre el 22 de marzo y el 25 de abril — el próximo Domingo de Pascua ‘temprano' (22 de marzo) no llegará hasta 2285.",
+            "El conejo de Pascua más grande del mundo está en Brasil y mide más de 4,2 m.",
+            "Los cristianos ortodoxos rusos suelen celebrar la Pascua otro día, ya que usan el calendario juliano.",
+            "En Polonia se bendicen las cestas de comida (‘Święconka') el Sábado Santo para el almuerzo del domingo."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "easter_sunday": {
+          "intro": "O Domingo de Páscoa é a festa mais importante do cristianismo — dia da ressurreição de Jesus Cristo e ápice do ano litúrgico.",
+          "history": "A Páscoa surgiu da festa judaica de Pessach e é celebrada pelos cristãos desde o século I. A Igreja fixou em 325 em Niceia que a Páscoa se celebra sempre no primeiro domingo após a primeira lua cheia da primavera — daí a data móvel entre 22 de março e 25 de abril. Em Portugal, é uma das festas religiosas mais importantes, com missas solenes, procissões e a tradição do compasso pascal — visita do pároco às casas para abençoá-las.",
+          "traditions": "Em Portugal o Domingo de Páscoa é dia de almoço de família com cabrito assado, folar e amêndoas. Antes do almoço, em algumas regiões (sobretudo Trás-os-Montes), o pároco visita as casas levando a cruz para beijar — o ‘compasso pascal'. As crianças procuram amêndoas e ovos de chocolate escondidos. Em muitas paróquias acendem-se fogos pascais e há procissões.",
+          "funFacts": [
+            "A Páscoa pode cair entre 22 de março e 25 de abril — a próxima Páscoa ‘precoce' (22 de março) só voltará em 2285.",
+            "O maior coelho da Páscoa do mundo está no Brasil e mede mais de 4,2 m.",
+            "Os cristãos ortodoxos russos costumam celebrar a Páscoa noutro dia, pois usam o calendário juliano.",
+            "Em Portugal, no compasso pascal, o pároco visita as casas com a cruz para beijar — quem não recebe o compasso é considerado ‘casa fechada'."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "easter_sunday": {
+          "intro": "La Domenica di Pasqua è la festa più importante del cristianesimo — giorno della resurrezione di Gesù e culmine dell'anno liturgico.",
+          "history": "La Pasqua si è sviluppata dalla festa ebraica di Pesach ed è celebrata dai cristiani dal I secolo. La Chiesa stabilì nel 325 a Nicea che la Pasqua si celebra sempre la prima domenica dopo il primo plenilunio di primavera — da qui la data variabile tra il 22 marzo e il 25 aprile. In Italia, oltre al pranzo familiare con agnello, colomba e uova di cioccolato, è tradizione la benedizione delle case.",
+          "traditions": "Le famiglie iniziano la giornata con una colazione pasquale festiva con uova colorate, colomba e agnello pasquale. I bambini cercano le uova nascoste dal coniglio pasquale. In molte parrocchie si accendono fuochi pasquali, processioni e messe solenni con suono delle campane. In Italia, è tradizione il pranzo con agnello al forno, colomba pasquale e uova di cioccolato.",
+          "funFacts": [
+            "La Pasqua può cadere tra il 22 marzo e il 25 aprile — la prossima Pasqua ‘precoce' (22 marzo) tornerà solo nel 2285.",
+            "Il più grande coniglio pasquale del mondo si trova in Brasile e supera i 4,2 m.",
+            "I cristiani ortodossi russi spesso celebrano la Pasqua in un altro giorno, perché usano il calendario giuliano.",
+            "In Polonia il Sabato Santo si benedicono cesti di cibo (‘Święconka') per il pranzo della domenica."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "easter_sunday": {
+          "intro": "Niedziela Wielkanocna jest najważniejszym świętem chrześcijaństwa — dniem zmartwychwstania Jezusa Chrystusa i punktem kulminacyjnym roku liturgicznego.",
+          "history": "Wielkanoc wywodzi się z żydowskiego święta Paschy i obchodzona jest przez chrześcijan od I wieku. Kościół ustalił w 325 roku w Nicei, że Wielkanoc świętowana jest zawsze w pierwszą niedzielę po pierwszej wiosennej pełni księżyca — stąd ruchoma data między 22 marca a 25 kwietnia. W Polsce tradycja święcenia pokarmów (‘święconki') sięga XIV wieku i jest jedną z najsilniej zachowanych tradycji.",
+          "traditions": "W Polsce w Niedzielę Wielkanocną rodziny zaczynają dzień uroczystym śniadaniem z poświęconych w Wielką Sobotę pokarmów (‘święconki') — jajek, kiełbasy, szynki, chrzanu, baranka z masła czy cukru, mazurka i babki. Następnie idzie się na uroczystą mszę. Wieczorem często odbywają się rodzinne spotkania.",
+          "funFacts": [
+            "Wielkanoc może wypadać między 22 marca a 25 kwietnia — następna ‘wczesna' Wielkanoc (22 marca) wypadnie dopiero w 2285 roku.",
+            "Polskie tradycyjne palmy wielkanocne z Kurpii i Łysych potrafią mieć ponad 30 metrów wysokości — coroczny konkurs w Niedzielę Palmową.",
+            "Rosyjscy prawosławni często świętują Wielkanoc innego dnia, bo używają kalendarza juliańskiego.",
+            "Polskie ‘pisanki' to jedne z najpiękniejszych ozdób wielkanocnych świata — popularne motywy regionalne, np. opolskie, kurpiowskie."
+          ],
+          "imageCredit": "Zdjęcie: Geolina163 · CC BY-SA 4.0 przez Wikimedia Commons"
+        }
+      },
+      "nl": {
+        "easter_sunday": {
+          "intro": "Paaszondag is het belangrijkste feest in het christendom — de dag van de verrijzenis van Jezus Christus en het hoogtepunt van het kerkelijk jaar.",
+          "history": "Pasen is voortgekomen uit het joodse Pesach en wordt al sinds de 1e eeuw door christenen gevierd. In 325 besloot de Kerk in Nicea dat Pasen altijd wordt gevierd op de eerste zondag na de eerste volle maan van de lente — vandaar dat de datum varieert tussen 22 maart en 25 april. De Engelse naam ‘Easter’ zou kunnen teruggaan op de Germaanse lentegodin Eostre, of simpelweg op het Oudhoogduitse ‘eostarum’ (dageraad).",
+          "traditions": "Gezinnen beginnen de dag met een feestelijk paasontbijt met gekleurde eieren, zoet gevlochten brood en paaslamscake. Kinderen zoeken in de tuin naar de eieren en lekkernijen die door de paashaas zijn verstopt. Veel parochies organiseren paasvuren, processies en vrolijke diensten met klokken.",
+          "funFacts": [
+            "Pasen kan tussen 22 maart en 25 april vallen — de volgende ‘vroege’ Pasen (22 maart) valt pas weer in 2285.",
+            "De grootste paashaas ter wereld staat in Brazilië en is meer dan 4,2 m hoog.",
+            "Russisch-orthodoxe christenen vieren Pasen vaak op een andere dag dan westerse christenen, omdat ze de Juliaanse kalender gebruiken.",
+            "In Polen worden op Paaszaterdag manden met etenswaren (‘Święconka’) gezegend voor de maaltijd op zondag."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "sv": {
+        "easter_sunday": {
+          "intro": "Påskdagen är kristendomens viktigaste högtid – dagen då Jesus Kristus uppstod från de döda och kyrkoårets höjdpunkt.",
+          "history": "Påsken har sitt ursprung i den judiska påskhögtiden och har firats av kristna sedan 1:a århundradet. År 325 fastställde kyrkan vid kyrkomötet i Nikea att påsken alltid ska firas den första söndagen efter vårens första fullmåne – därav det varierande datumet mellan den 22 mars och den 25 april. Det engelska namnet ”Easter” kan härledas till den germanska vårgudinnan Eostre, eller helt enkelt till det fornhögtyska ordet ”eostarum” (gryning).",
+          "traditions": "Familjerna inleder dagen med en festlig påskfrukost med färgade ägg, söta flätade bröd och påsklammkaka. Barnen letar i trädgården efter ägg och godsaker som påskharen har gömt. Många församlingar anordnar påskeldar, processioner och glada gudstjänster med klockklang.",
+          "funFacts": [
+            "Påsken kan infalla mellan den 22 mars och den 25 april – nästa ”tidiga” påsk (den 22 mars) infaller inte förrän år 2285.",
+            "Världens största påskhare står i Brasilien och är över 4,2 m hög.",
+            "Rysk-ortodoxa kristna firar ofta påsk en annan dag än västerländska kristna, eftersom de använder den julianska kalendern.",
+            "I Polen välsignas matkorgar (”Święconka”) på påsklördagen inför söndagens måltid."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "ja": {
+        "easter_sunday": {
+          "intro": "イースターの日曜日は、キリスト教において最も重要な祭日であり、イエス・キリストの復活の日であり、教会暦のクライマックスでもあります。",
+          "history": "イースターはユダヤ教の過越祭に由来し、1世紀以来、キリスト教徒によって祝われてきました。教会は325年にニカイアで、イースターを常に春の最初の満月の後の最初の日曜日に祝うことを定めました。そのため、その日付は3月22日から4月25日の間で変動します。 英語の「イースター（Easter）」という名称は、ゲルマン神話の春の女神エオストレ（Eostre）に由来する可能性もあれば、単に古高ドイツ語の「eostarum」（夜明け）に由来する可能性もあります。",
+          "traditions": "各家庭では、色とりどりの卵や甘い編み込みパン、イースター・ラムケーキなどが並ぶ、お祝いのイースター朝食で一日を始めます。子供たちは、イースター・バニーが庭に隠した卵やお菓子を探し回ります。多くの教区では、イースターの焚き火や行列、鐘の音を伴う賑やかな礼拝が行われます。",
+          "funFacts": [
+            "イースターは3月22日から4月25日までの間に当たることがあります。次に「早い」イースター（3月22日）が訪れるのは、2285年になってからです。",
+            "世界最大のイースターバニーはブラジルにあり、高さは4.2メートル以上あります。",
+            "ロシア正教徒はユリウス暦を採用しているため、西洋のキリスト教徒とは異なる日に復活祭を祝うことがよくあります。",
+            "ポーランドでは、聖土曜日に、日曜日の食事用に用意された食べ物の入ったかご（「シュヴィェコンカ」）が祝福されます。"
+          ],
+          "imageCredit": "写真：Geolina163 · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        }
+      },
+      "ko": {
+        "easter_sunday": {
+          "intro": "부활절 주일은 기독교에서 가장 중요한 축일로서, 예수 그리스도의 부활을 기념하는 날이자 교회 연중의 절정입니다.",
+          "history": "부활절은 유대교의 유월절에서 유래했으며, 1세기부터 기독교인들에 의해 기념되어 왔다. 교회는 325년 니케아 공의회에서 부활절을 항상 봄의 첫 보름달이 뜬 후 첫 번째 일요일에 기념하기로 정했다. 따라서 부활절 날짜는 3월 22일부터 4월 25일 사이로 매년 달라진다. 영어 이름 ‘Easter’는 게르만족의 봄의 여신 에오스트레(Eostre)에서 유래했을 수도 있고, 단순히 고대 고지 독일어 ‘eostarum’(새벽)에서 비롯되었을 수도 있습니다.",
+          "traditions": "가족들은 색칠한 달걀, 달콤한 땋은 빵, 부활절 양 모양 케이크가 어우러진 축제 분위기의 부활절 아침 식사로 하루를 시작합니다. 아이들은 정원에서 부활절 토끼가 숨겨 놓은 달걀과 간식을 찾아 헤맵니다. 많은 본당에서는 부활절 모닥불을 피우고, 행렬을 벌이며, 종소리가 울려 퍼지는 즐거운 미사를 거행합니다.",
+          "funFacts": [
+            "부활절은 3월 22일부터 4월 25일 사이에 찾아올 수 있는데, 다음 ‘이른’ 부활절(3월 22일)은 2285년이 되어야 다시 찾아옵니다.",
+            "세계에서 가장 큰 부활절 토끼 조각상이 브라질에 세워져 있으며, 높이는 4.2m가 넘는다.",
+            "러시아 정교회 신자들은 율리우스력을 사용하기 때문에 서방 기독교인들과는 다른 날에 부활절을 기념하는 경우가 많습니다.",
+            "폴란드에서는 성토일에 일요일 식사를 위해 준비한 음식 바구니('Święconka')에 축복을 받습니다."
+          ],
+          "imageCredit": "사진: Geolina163 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        }
+      },
+      "zh-Hant": {
+        "easter_sunday": {
+          "intro": "復活節主日是基督教最重要的節日——這一天是耶穌基督復活的日子，也是教會年曆的高潮。",
+          "history": "復活節源自猶太教的逾越節，自一世紀起便為基督徒所慶祝。教會於西元325年在尼西亞會議上規定，復活節應固定在春季首次滿月後的第一个星期日慶祝——因此日期會在3月22日至4月25日之間變動。 英文名稱「Easter」可能源自日耳曼春季女神伊奧斯特雷（Eostre），也可能單純源自古高地德語「eostarum」（黎明）。",
+          "traditions": "各家各戶會以一頓充滿節日氣氛的復活節早餐開啟新的一天，餐桌上擺滿彩蛋、甜味編織麵包和復活節羔羊蛋糕。孩子們會在花園裡尋找復活節兔子藏起來的彩蛋和點心。許多教區都會舉行復活節篝火、遊行，以及伴隨著鐘聲的歡樂禮拜。",
+          "funFacts": [
+            "復活節的日期可能落在 3 月 22 日至 4 月 25 日之間——下一個「較早」的復活節（3 月 22 日）要等到 2285 年才會再次出現。",
+            "世界上最大的復活節兔子矗立在巴西，高度超過 4.2 公尺。",
+            "俄羅斯東正教信徒慶祝復活節的日子通常與西方基督徒不同，因為他們使用儒略曆。",
+            "在波蘭，人們會在聖週六將裝有食物的籃子（「Święconka」）帶去接受祝福，以便用於週日的餐宴。"
+          ],
+          "imageCredit": "照片：Geolina163 · 透過維基共享資源，採用 CC BY-SA 4.0 授權"
+        }
+      }
+    }
+  },
+  "images": {
+    "easter_sunday": [
+      {
+        "path": "images/easter_sunday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/easter_sunday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/easter_sunday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 6
+}

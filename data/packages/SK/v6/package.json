@@ -1,0 +1,2500 @@
+{
+  "countryCode": "SK",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "SK_day_of_the_establishment_of_the_slovak_republic",
+      "countryCode": "SK",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_the_establishment_of_the_slovak_republic",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "SK_epiphany",
+      "countryCode": "SK",
+      "kind": "fixed",
+      "labelKey": "holidays.epiphany",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "SK_good_friday",
+      "countryCode": "SK",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "SK_easter_monday",
+      "countryCode": "SK",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "SK_international_workers_day",
+      "countryCode": "SK",
+      "kind": "fixed",
+      "labelKey": "holidays.international_workers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "SK_day_of_victory_over_fascism",
+      "countryCode": "SK",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_victory_over_fascism",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 8
+      }
+    },
+    {
+      "id": "SK_st_cyril_and_methodius_day",
+      "countryCode": "SK",
+      "kind": "fixed",
+      "labelKey": "holidays.st_cyril_and_methodius_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 5
+      }
+    },
+    {
+      "id": "SK_slovak_national_uprising_anniversary",
+      "countryCode": "SK",
+      "kind": "fixed",
+      "labelKey": "holidays.slovak_national_uprising_anniversary",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 29
+      }
+    },
+    {
+      "id": "SK_day_of_the_constitution_of_the_slovak_republic",
+      "countryCode": "SK",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_the_constitution_of_the_slovak_republic",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 1
+      }
+    },
+    {
+      "id": "SK_day_of_our_lady_of_the_seven_sorrows",
+      "countryCode": "SK",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_our_lady_of_the_seven_sorrows",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 15
+      }
+    },
+    {
+      "id": "SK_all_saints_day",
+      "countryCode": "SK",
+      "kind": "fixed",
+      "labelKey": "holidays.all_saints_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "SK_struggle_for_freedom_and_democracy_day",
+      "countryCode": "SK",
+      "kind": "fixed",
+      "labelKey": "holidays.struggle_for_freedom_and_democracy_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 17
+      }
+    },
+    {
+      "id": "SK_christmas_eve",
+      "countryCode": "SK",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "SK_christmas_day",
+      "countryCode": "SK",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "SK_st_stephens_day",
+      "countryCode": "SK",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "namedays": {
+    "01-01": [
+      "Nový rok"
+    ],
+    "01-02": [
+      "Alexandra"
+    ],
+    "01-03": [
+      "Daniela"
+    ],
+    "01-04": [
+      "Drahoslav"
+    ],
+    "01-05": [
+      "Andrea"
+    ],
+    "01-06": [
+      "Antónia"
+    ],
+    "01-07": [
+      "Bohuslava"
+    ],
+    "01-08": [
+      "Severín"
+    ],
+    "01-09": [
+      "Alexej"
+    ],
+    "01-10": [
+      "Dáša"
+    ],
+    "01-11": [
+      "Malvína"
+    ],
+    "01-12": [
+      "Ernest"
+    ],
+    "01-13": [
+      "Rastislav"
+    ],
+    "01-14": [
+      "Radovan"
+    ],
+    "01-15": [
+      "Dobroslav"
+    ],
+    "01-16": [
+      "Kristína"
+    ],
+    "01-17": [
+      "Nataša"
+    ],
+    "01-18": [
+      "Bohdana"
+    ],
+    "01-19": [
+      "Drahomíra"
+    ],
+    "01-20": [
+      "Dalibor"
+    ],
+    "01-21": [
+      "Vincent"
+    ],
+    "01-22": [
+      "Zora"
+    ],
+    "01-23": [
+      "Miloš"
+    ],
+    "01-24": [
+      "Timotej"
+    ],
+    "01-25": [
+      "Gejza"
+    ],
+    "01-26": [
+      "Tamara"
+    ],
+    "01-27": [
+      "Bohuš"
+    ],
+    "01-28": [
+      "Alfonz"
+    ],
+    "01-29": [
+      "Gašpar"
+    ],
+    "01-30": [
+      "Ema"
+    ],
+    "01-31": [
+      "Emil"
+    ],
+    "02-01": [
+      "Tatiana"
+    ],
+    "02-02": [
+      "Erika",
+      "Erik"
+    ],
+    "02-03": [
+      "Blažej"
+    ],
+    "02-04": [
+      "Veronika"
+    ],
+    "02-05": [
+      "Agáta"
+    ],
+    "02-06": [
+      "Dorota"
+    ],
+    "02-07": [
+      "Vanda"
+    ],
+    "02-08": [
+      "Zoja"
+    ],
+    "02-09": [
+      "Zdenko"
+    ],
+    "02-10": [
+      "Gabriela"
+    ],
+    "02-11": [
+      "Dezider"
+    ],
+    "02-12": [
+      "Perla"
+    ],
+    "02-13": [
+      "Arpád"
+    ],
+    "02-14": [
+      "Valentín"
+    ],
+    "02-15": [
+      "Pravoslav"
+    ],
+    "02-16": [
+      "Ida"
+    ],
+    "02-17": [
+      "Miloslava"
+    ],
+    "02-18": [
+      "Jaromír"
+    ],
+    "02-19": [
+      "Vlasta"
+    ],
+    "02-20": [
+      "Lívia"
+    ],
+    "02-21": [
+      "Eleonóra"
+    ],
+    "02-22": [
+      "Etela"
+    ],
+    "02-23": [
+      "Roman",
+      "Romana"
+    ],
+    "02-24": [
+      "Matej"
+    ],
+    "02-25": [
+      "Frederik",
+      "Frederika"
+    ],
+    "02-26": [
+      "Viktor"
+    ],
+    "02-27": [
+      "Alexander"
+    ],
+    "02-28": [
+      "Zlatica"
+    ],
+    "02-29": [
+      "Radomír"
+    ],
+    "03-01": [
+      "Albín"
+    ],
+    "03-02": [
+      "Anežka"
+    ],
+    "03-03": [
+      "Bohumil",
+      "Bohumila"
+    ],
+    "03-04": [
+      "Kazimír"
+    ],
+    "03-05": [
+      "Fridrich"
+    ],
+    "03-06": [
+      "Radoslav",
+      "Radoslava"
+    ],
+    "03-07": [
+      "Tomáš"
+    ],
+    "03-08": [
+      "Alan",
+      "Alana"
+    ],
+    "03-09": [
+      "Františka"
+    ],
+    "03-10": [
+      "Branislav",
+      "Bruno"
+    ],
+    "03-11": [
+      "Angela",
+      "Angelika"
+    ],
+    "03-12": [
+      "Gregor"
+    ],
+    "03-13": [
+      "Vlastimil"
+    ],
+    "03-14": [
+      "Matilda"
+    ],
+    "03-15": [
+      "Svetlana"
+    ],
+    "03-16": [
+      "Boleslav"
+    ],
+    "03-17": [
+      "Ľubica"
+    ],
+    "03-18": [
+      "Eduard"
+    ],
+    "03-19": [
+      "Jozef"
+    ],
+    "03-20": [
+      "Víťazoslav"
+    ],
+    "03-21": [
+      "Blahoslav"
+    ],
+    "03-22": [
+      "Beňadik"
+    ],
+    "03-23": [
+      "Adrián"
+    ],
+    "03-24": [
+      "Gabriel"
+    ],
+    "03-25": [
+      "Marián"
+    ],
+    "03-26": [
+      "Emanuel"
+    ],
+    "03-27": [
+      "Alena"
+    ],
+    "03-28": [
+      "Soňa"
+    ],
+    "03-29": [
+      "Miroslav"
+    ],
+    "03-30": [
+      "Vieroslava"
+    ],
+    "03-31": [
+      "Benjamín"
+    ],
+    "04-01": [
+      "Hugo"
+    ],
+    "04-02": [
+      "Zita"
+    ],
+    "04-03": [
+      "Richard"
+    ],
+    "04-04": [
+      "Izidor"
+    ],
+    "04-05": [
+      "Miroslava"
+    ],
+    "04-06": [
+      "Irena"
+    ],
+    "04-07": [
+      "Zoltán"
+    ],
+    "04-08": [
+      "Albert"
+    ],
+    "04-09": [
+      "Milena"
+    ],
+    "04-10": [
+      "Igor"
+    ],
+    "04-11": [
+      "Július"
+    ],
+    "04-12": [
+      "Estera"
+    ],
+    "04-13": [
+      "Aleš"
+    ],
+    "04-14": [
+      "Justína"
+    ],
+    "04-15": [
+      "Fedor"
+    ],
+    "04-16": [
+      "Dana",
+      "Danica"
+    ],
+    "04-17": [
+      "Rudolf"
+    ],
+    "04-18": [
+      "Valér"
+    ],
+    "04-19": [
+      "Jela"
+    ],
+    "04-20": [
+      "Marcel"
+    ],
+    "04-21": [
+      "Ervín"
+    ],
+    "04-22": [
+      "Slavomír"
+    ],
+    "04-23": [
+      "Vojtech"
+    ],
+    "04-24": [
+      "Juraj"
+    ],
+    "04-25": [
+      "Marek"
+    ],
+    "04-26": [
+      "Jaroslava"
+    ],
+    "04-27": [
+      "Jaroslav"
+    ],
+    "04-28": [
+      "Jarmila"
+    ],
+    "04-29": [
+      "Lea"
+    ],
+    "04-30": [
+      "Anastázia"
+    ],
+    "05-01": [
+      "Sviatok práce"
+    ],
+    "05-02": [
+      "Žigmund"
+    ],
+    "05-03": [
+      "Galina"
+    ],
+    "05-04": [
+      "Florián"
+    ],
+    "05-05": [
+      "Lesana",
+      "Lesia"
+    ],
+    "05-06": [
+      "Hermína"
+    ],
+    "05-07": [
+      "Monika"
+    ],
+    "05-08": [
+      "Ingrida"
+    ],
+    "05-09": [
+      "Roland"
+    ],
+    "05-10": [
+      "Viktória"
+    ],
+    "05-11": [
+      "Blažena"
+    ],
+    "05-12": [
+      "Pankrác"
+    ],
+    "05-13": [
+      "Servác"
+    ],
+    "05-14": [
+      "Bonifác"
+    ],
+    "05-15": [
+      "Žofia"
+    ],
+    "05-16": [
+      "Svetozár"
+    ],
+    "05-17": [
+      "Gizela"
+    ],
+    "05-18": [
+      "Viola"
+    ],
+    "05-19": [
+      "Gertrúda"
+    ],
+    "05-20": [
+      "Bernard"
+    ],
+    "05-21": [
+      "Zina"
+    ],
+    "05-22": [
+      "Júlia",
+      "Juliana"
+    ],
+    "05-23": [
+      "Želmíra"
+    ],
+    "05-24": [
+      "Ela"
+    ],
+    "05-25": [
+      "Urban"
+    ],
+    "05-26": [
+      "Dušan"
+    ],
+    "05-27": [
+      "Iveta"
+    ],
+    "05-28": [
+      "Viliam"
+    ],
+    "05-29": [
+      "Vilma"
+    ],
+    "05-30": [
+      "Ferdinand"
+    ],
+    "05-31": [
+      "Petronela",
+      "Petrana"
+    ],
+    "06-01": [
+      "Žaneta"
+    ],
+    "06-02": [
+      "Xénia"
+    ],
+    "06-03": [
+      "Karolína"
+    ],
+    "06-04": [
+      "Lenka"
+    ],
+    "06-05": [
+      "Laura"
+    ],
+    "06-06": [
+      "Norbert"
+    ],
+    "06-07": [
+      "Róbert"
+    ],
+    "06-08": [
+      "Medard"
+    ],
+    "06-09": [
+      "Stanislava"
+    ],
+    "06-10": [
+      "Margaréta"
+    ],
+    "06-11": [
+      "Dobroslava"
+    ],
+    "06-12": [
+      "Zlatko"
+    ],
+    "06-13": [
+      "Anton"
+    ],
+    "06-14": [
+      "Vasil"
+    ],
+    "06-15": [
+      "Vít"
+    ],
+    "06-16": [
+      "Blanka"
+    ],
+    "06-17": [
+      "Adolf"
+    ],
+    "06-18": [
+      "Vratislav"
+    ],
+    "06-19": [
+      "Alfréd"
+    ],
+    "06-20": [
+      "Valéria"
+    ],
+    "06-21": [
+      "Alojz"
+    ],
+    "06-22": [
+      "Paulína"
+    ],
+    "06-23": [
+      "Sidónia"
+    ],
+    "06-24": [
+      "Ján"
+    ],
+    "06-25": [
+      "Tadeáš"
+    ],
+    "06-26": [
+      "Adriana"
+    ],
+    "06-27": [
+      "Ladislav",
+      "Ladislava"
+    ],
+    "06-28": [
+      "Beata"
+    ],
+    "06-29": [
+      "Peter",
+      "Pavol",
+      "Petra"
+    ],
+    "06-30": [
+      "Melánia"
+    ],
+    "07-01": [
+      "Diana"
+    ],
+    "07-02": [
+      "Berta"
+    ],
+    "07-03": [
+      "Miloslav"
+    ],
+    "07-04": [
+      "Prokop"
+    ],
+    "07-05": [
+      "Cyril"
+    ],
+    "07-06": [
+      "Patrik",
+      "Patrícia"
+    ],
+    "07-07": [
+      "Oliver"
+    ],
+    "07-08": [
+      "Ivan"
+    ],
+    "07-09": [
+      "Lujza"
+    ],
+    "07-10": [
+      "Amália"
+    ],
+    "07-11": [
+      "Milota"
+    ],
+    "07-12": [
+      "Nina"
+    ],
+    "07-13": [
+      "Margita"
+    ],
+    "07-14": [
+      "Kamil"
+    ],
+    "07-15": [
+      "Henrich"
+    ],
+    "07-16": [
+      "Drahomír"
+    ],
+    "07-17": [
+      "Bohuslav"
+    ],
+    "07-18": [
+      "Kamila"
+    ],
+    "07-19": [
+      "Dušana"
+    ],
+    "07-20": [
+      "Iľja",
+      "Eliáš"
+    ],
+    "07-21": [
+      "Daniel"
+    ],
+    "07-22": [
+      "Magdaléna"
+    ],
+    "07-23": [
+      "Oľga"
+    ],
+    "07-24": [
+      "Vladimír"
+    ],
+    "07-25": [
+      "Jakub"
+    ],
+    "07-26": [
+      "Anna",
+      "Hana"
+    ],
+    "07-27": [
+      "Božena"
+    ],
+    "07-28": [
+      "Krištof"
+    ],
+    "07-29": [
+      "Marta"
+    ],
+    "07-30": [
+      "Libuša"
+    ],
+    "07-31": [
+      "Ignác"
+    ],
+    "08-01": [
+      "Božidara"
+    ],
+    "08-02": [
+      "Gustáv"
+    ],
+    "08-03": [
+      "Jerguš"
+    ],
+    "08-04": [
+      "Dominik",
+      "Dominika"
+    ],
+    "08-05": [
+      "Hortenzia"
+    ],
+    "08-06": [
+      "Jozefína"
+    ],
+    "08-07": [
+      "Štefánia"
+    ],
+    "08-08": [
+      "Oskar"
+    ],
+    "08-09": [
+      "Ľubomíra"
+    ],
+    "08-10": [
+      "Vavrinec"
+    ],
+    "08-11": [
+      "Zuzana"
+    ],
+    "08-12": [
+      "Darina"
+    ],
+    "08-13": [
+      "Ľubomír"
+    ],
+    "08-14": [
+      "Mojmír"
+    ],
+    "08-15": [
+      "Marcela"
+    ],
+    "08-16": [
+      "Leonard"
+    ],
+    "08-17": [
+      "Milica"
+    ],
+    "08-18": [
+      "Elena",
+      "Helena"
+    ],
+    "08-19": [
+      "Lýdia"
+    ],
+    "08-20": [
+      "Anabela"
+    ],
+    "08-21": [
+      "Jana"
+    ],
+    "08-22": [
+      "Tichomír"
+    ],
+    "08-23": [
+      "Filip"
+    ],
+    "08-24": [
+      "Bartolomej"
+    ],
+    "08-25": [
+      "Ľudovít"
+    ],
+    "08-26": [
+      "Samuel"
+    ],
+    "08-27": [
+      "Silvia"
+    ],
+    "08-28": [
+      "Augustín"
+    ],
+    "08-29": [
+      "Nikola",
+      "Nikolaj"
+    ],
+    "08-30": [
+      "Ružena"
+    ],
+    "08-31": [
+      "Nora"
+    ],
+    "09-01": [
+      "Drahoslava"
+    ],
+    "09-02": [
+      "Linda"
+    ],
+    "09-03": [
+      "Belo"
+    ],
+    "09-04": [
+      "Rozália"
+    ],
+    "09-05": [
+      "Regína"
+    ],
+    "09-06": [
+      "Alica"
+    ],
+    "09-07": [
+      "Marianna"
+    ],
+    "09-08": [
+      "Miriama"
+    ],
+    "09-09": [
+      "Martina"
+    ],
+    "09-10": [
+      "Oleg"
+    ],
+    "09-11": [
+      "Bystrík"
+    ],
+    "09-12": [
+      "Mária"
+    ],
+    "09-13": [
+      "Ctibor"
+    ],
+    "09-14": [
+      "Ľudomil"
+    ],
+    "09-15": [
+      "Jolana"
+    ],
+    "09-16": [
+      "Ľudmila"
+    ],
+    "09-17": [
+      "Olympia"
+    ],
+    "09-18": [
+      "Eugénia"
+    ],
+    "09-19": [
+      "Konštantín"
+    ],
+    "09-20": [
+      "Ľuboslav",
+      "Ľuboslava"
+    ],
+    "09-21": [
+      "Matúš"
+    ],
+    "09-22": [
+      "Móric"
+    ],
+    "09-23": [
+      "Zdenka"
+    ],
+    "09-24": [
+      "Ľuboš",
+      "Ľubor"
+    ],
+    "09-25": [
+      "Vladislav"
+    ],
+    "09-26": [
+      "Edita"
+    ],
+    "09-27": [
+      "Cyprián"
+    ],
+    "09-28": [
+      "Václav"
+    ],
+    "09-29": [
+      "Michal",
+      "Michaela"
+    ],
+    "09-30": [
+      "Jarolím"
+    ],
+    "10-01": [
+      "Arnold"
+    ],
+    "10-02": [
+      "Levoslav"
+    ],
+    "10-03": [
+      "Stela"
+    ],
+    "10-04": [
+      "František"
+    ],
+    "10-05": [
+      "Viera"
+    ],
+    "10-06": [
+      "Natália"
+    ],
+    "10-07": [
+      "Eliška"
+    ],
+    "10-08": [
+      "Brigita"
+    ],
+    "10-09": [
+      "Dionýz"
+    ],
+    "10-10": [
+      "Slavomíra"
+    ],
+    "10-11": [
+      "Valentína"
+    ],
+    "10-12": [
+      "Maximilián"
+    ],
+    "10-13": [
+      "Koloman"
+    ],
+    "10-14": [
+      "Boris"
+    ],
+    "10-15": [
+      "Terézia"
+    ],
+    "10-16": [
+      "Vladimíra"
+    ],
+    "10-17": [
+      "Hedviga"
+    ],
+    "10-18": [
+      "Lukáš"
+    ],
+    "10-19": [
+      "Kristián"
+    ],
+    "10-20": [
+      "Vendelín"
+    ],
+    "10-21": [
+      "Uršuľa"
+    ],
+    "10-22": [
+      "Sergej"
+    ],
+    "10-23": [
+      "Alojzia"
+    ],
+    "10-24": [
+      "Kvetoslava"
+    ],
+    "10-25": [
+      "Aurel"
+    ],
+    "10-26": [
+      "Demeter"
+    ],
+    "10-27": [
+      "Sabína"
+    ],
+    "10-28": [
+      "Dobromila"
+    ],
+    "10-29": [
+      "Klára"
+    ],
+    "10-30": [
+      "Šimon",
+      "Simona"
+    ],
+    "10-31": [
+      "Aurélia"
+    ],
+    "11-01": [
+      "Denis",
+      "Denisa"
+    ],
+    "11-02": [
+      "Pamiatka zosnulých"
+    ],
+    "11-03": [
+      "Hubert"
+    ],
+    "11-04": [
+      "Karol"
+    ],
+    "11-05": [
+      "Imrich"
+    ],
+    "11-06": [
+      "Renáta"
+    ],
+    "11-07": [
+      "René"
+    ],
+    "11-08": [
+      "Bohumír"
+    ],
+    "11-09": [
+      "Teodor"
+    ],
+    "11-10": [
+      "Tibor"
+    ],
+    "11-11": [
+      "Martin",
+      "Maroš"
+    ],
+    "11-12": [
+      "Svätopluk"
+    ],
+    "11-13": [
+      "Stanislav"
+    ],
+    "11-14": [
+      "Irma"
+    ],
+    "11-15": [
+      "Leopold"
+    ],
+    "11-16": [
+      "Agnesa"
+    ],
+    "11-17": [
+      "Klaudia"
+    ],
+    "11-18": [
+      "Eugen"
+    ],
+    "11-19": [
+      "Alžbeta"
+    ],
+    "11-20": [
+      "Félix"
+    ],
+    "11-21": [
+      "Elvíra"
+    ],
+    "11-22": [
+      "Cecília"
+    ],
+    "11-23": [
+      "Klement"
+    ],
+    "11-24": [
+      "Emília"
+    ],
+    "11-25": [
+      "Katarína"
+    ],
+    "11-26": [
+      "Kornel"
+    ],
+    "11-27": [
+      "Milan"
+    ],
+    "11-28": [
+      "Henrieta"
+    ],
+    "11-29": [
+      "Vratko"
+    ],
+    "11-30": [
+      "Ondrej",
+      "Andrej"
+    ],
+    "12-01": [
+      "Edmund"
+    ],
+    "12-02": [
+      "Bibiána"
+    ],
+    "12-03": [
+      "Oldrich"
+    ],
+    "12-04": [
+      "Barbora"
+    ],
+    "12-05": [
+      "Oto"
+    ],
+    "12-06": [
+      "Mikuláš"
+    ],
+    "12-07": [
+      "Ambróz"
+    ],
+    "12-08": [
+      "Marína"
+    ],
+    "12-09": [
+      "Izabela"
+    ],
+    "12-10": [
+      "Radúz"
+    ],
+    "12-11": [
+      "Hilda"
+    ],
+    "12-12": [
+      "Otília"
+    ],
+    "12-13": [
+      "Lucia"
+    ],
+    "12-14": [
+      "Branislava",
+      "Bronislava"
+    ],
+    "12-15": [
+      "Ivica"
+    ],
+    "12-16": [
+      "Albína"
+    ],
+    "12-17": [
+      "Kornélia"
+    ],
+    "12-18": [
+      "Sláva",
+      "Slávka"
+    ],
+    "12-19": [
+      "Judita"
+    ],
+    "12-20": [
+      "Dagmara"
+    ],
+    "12-21": [
+      "Bohdan"
+    ],
+    "12-22": [
+      "Adela"
+    ],
+    "12-23": [
+      "Nadežda"
+    ],
+    "12-24": [
+      "Adam",
+      "Eva"
+    ],
+    "12-25": [
+      "Vianoce"
+    ],
+    "12-26": [
+      "Štefan"
+    ],
+    "12-27": [
+      "Filoména"
+    ],
+    "12-28": [
+      "Ivana",
+      "Ivona"
+    ],
+    "12-29": [
+      "Milada"
+    ],
+    "12-30": [
+      "Dávid"
+    ],
+    "12-31": [
+      "Silvester"
+    ]
+  },
+  "i18n": {
+    "holidays": {
+      "en": {
+        "day_of_the_establishment_of_the_slovak_republic": "Day of the Establishment of the Slovak Republic",
+        "international_workers_day": "International Workers' Day",
+        "day_of_victory_over_fascism": "Day of victory over fascism",
+        "st_cyril_and_methodius_day": "St. Cyril and Methodius Day",
+        "slovak_national_uprising_anniversary": "Slovak National Uprising anniversary",
+        "day_of_the_constitution_of_the_slovak_republic": "Day of the Constitution of the Slovak Republic",
+        "day_of_our_lady_of_the_seven_sorrows": "Day of Our Lady of the Seven Sorrows",
+        "all_saints_day": "All Saints’ Day",
+        "struggle_for_freedom_and_democracy_day": "Struggle for Freedom and Democracy Day",
+        "christmas_eve": "Christmas Eve"
+      },
+      "sk": {
+        "day_of_the_establishment_of_the_slovak_republic": "Deň vzniku Slovenskej republiky",
+        "international_workers_day": "Sviatok práce",
+        "day_of_victory_over_fascism": "Deň víťazstva nad fašizmom",
+        "st_cyril_and_methodius_day": "Sviatok svätého Cyrila a svätého Metoda",
+        "slovak_national_uprising_anniversary": "Výročie Slovenského národného povstania",
+        "day_of_the_constitution_of_the_slovak_republic": "Deň Ústavy Slovenskej republiky",
+        "day_of_our_lady_of_the_seven_sorrows": "Sedembolestná Panna Mária",
+        "all_saints_day": "Sviatok Všetkých svätých",
+        "struggle_for_freedom_and_democracy_day": "Deň boja za slobodu a demokraciu",
+        "christmas_eve": "Štedrý deň"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "epiphany": {
+          "intro": "Heilige Drei Könige am 6. Januar erinnert an den Besuch der Sterndeuter aus dem Morgenland beim Jesuskind in Bethlehem. Der Tag schließt die Weihnachtszeit ab.",
+          "history": "Das Fest „Epiphanias” („Erscheinung des Herrn”) ist eines der ältesten der Christenheit und wurde bereits ab dem 3. Jahrhundert gefeiert – im Osten der Kirche sogar als Hauptfest. Die Drei Könige Caspar, Melchior und Balthasar sind nicht im Bibeltext namentlich genannt; sie wurden erst im Mittelalter mit Namen versehen. Ihre Reliquien sollen seit 1164 im Kölner Dom liegen, was Köln zu einem der wichtigsten Pilgerorte des Mittelalters machte. In Deutschland ist der Tag in Bayern, Baden-Württemberg und Sachsen-Anhalt gesetzlicher Feiertag.",
+          "traditions": "Sternsinger ziehen in über 100.000 Aktionen jährlich von Haus zu Haus, sammeln Spenden für Kinder in Not und schreiben den Segen „C+M+B” („Christus mansionem benedicat” – Christus segne dieses Haus) an die Türen. In manchen Regionen wird der Christbaum erst an diesem Tag abgeschmückt („Plündern”). Festliche Gottesdienste markieren das Ende der Weihnachtszeit.",
+          "funFacts": [
+            "Die deutsche Sternsinger-Aktion ist die größte Solidaritätsaktion von Kindern für Kinder weltweit – mit über 50 Mio. Euro Spendengeld pro Jahr.",
+            "Der Kölner Dom wurde extra so groß geplant, um Pilgerströmen zu den Drei-Königen-Reliquien Platz zu bieten.",
+            "In Spanien und Lateinamerika bringen die „Reyes Magos” am Vorabend des 6. Januar die Geschenke – nicht der Weihnachtsmann.",
+            "Der traditionelle Königskuchen („Galette des Rois” in Frankreich, „Roscón de Reyes” in Spanien) enthält eine kleine Figur – wer sie findet, ist König für einen Tag."
+          ],
+          "imageCredit": "Foto: CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Karfreitag ist der höchste protestantische Trauertag und erinnert an die Kreuzigung Jesu Christi. In Deutschland ist er ein „stiller Feiertag” mit besonderen Schutzregeln.",
+          "history": "Karfreitag wird seit dem 4. Jahrhundert von Christen begangen. Das Wort „Kar” stammt vom althochdeutschen „chara” und bedeutet Klage oder Trauer. Schon früh entwickelten sich liturgische Traditionen: Verlesung der Passionsgeschichte, Kreuzverehrung und das Verstummen der Glocken. Die Reformation hob den Karfreitag besonders hervor; in lutherischen Regionen ist er bis heute der wichtigste Feiertag des Kirchenjahres.",
+          "traditions": "Viele Christen besuchen Passionsgottesdienste mit der Verlesung der Leidensgeschichte. Es gilt als Fastentag – traditionell wird Fisch statt Fleisch gegessen. In manchen Regionen ziehen Karfreitagsprozessionen durch die Straßen, etwa die berühmte „Karfreitagsprozession” in Lohr am Main. Tanzveranstaltungen und laute Musik sind in den meisten Bundesländern gesetzlich untersagt.",
+          "funFacts": [
+            "In Deutschland regelt das „Tanzverbot” das öffentliche Vergnügen am Karfreitag – seit Jahren ein gesellschaftlicher Streitpunkt.",
+            "Bach schrieb seine Matthäus-Passion 1727 für die Karfreitags-Vesper in Leipzig – heute eines der meistaufgeführten Werke der Welt.",
+            "In Bermuda lassen Familien am Karfreitag selbstgebastelte Drachen aus Bambus und Papier steigen – eine einzigartige christliche Tradition.",
+            "Im Spanischen heißt Karfreitag „Viernes Santo” – mit prachtvollen Bruderschafts-Prozessionen, etwa in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Ostermontag ist der zweite Festtag von Ostern und in den meisten europäischen Ländern arbeitsfrei. Er ist Ausklang des höchsten christlichen Festes.",
+          "history": "Ostern ist das älteste Fest der Christenheit und feiert die Auferstehung Jesu Christi am dritten Tag nach seinem Tod. Das Konzil von Nicäa legte 325 das Osterdatum auf den ersten Sonntag nach dem ersten Frühlingsvollmond. Der Ostermontag wird seit dem frühen Mittelalter als zweiter Festtag begangen – ursprünglich war die ganze Osterwoche frei. In Deutschland und Österreich blieb er als gesetzlicher Feiertag erhalten, anders als in vielen rein katholischen Ländern.",
+          "traditions": "Familien suchen gemeinsam Ostereier, frühstücken ausgiebig oder unternehmen den klassischen Osterspaziergang („Vom Eise befreit sind Strom und Bäche…”, Goethe). In Polen feiert man „Śmigus-Dyngus”: Junge bespritzen Mädchen mit Wasser. In Tschechien klopfen Burschen mit Weidenruten an Türen. In Bayern und Österreich gibt es das traditionelle „Emmausgehen”.",
+          "funFacts": [
+            "Der Brauch des Ostereiersuchens wurde erstmals von Martin Luther erwähnt, der seinen Kindern damit eine Freude machte.",
+            "Das größte Schoko-Osterei der Welt stand in Argentinien (8,5 m hoch, 4 t schwer) – verewigt im Guinness-Buch.",
+            "In Schweden ziehen Kinder am Karsamstag als „Påskkärringar” verkleidet – wie kleine Hexen – von Tür zu Tür.",
+            "Der Osterhase als Eierbringer wurde 1682 erstmals von dem Mediziner Georg Franck von Franckenau schriftlich erwähnt."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Allerheiligen am 1. November ist ein katholischer Hochfeiertag, an dem die Kirche aller Heiligen gedenkt. In vielen Ländern besuchen Familien die Gräber ihrer Verstorbenen.",
+          "history": "Bereits im 4. Jahrhundert gab es ein gemeinsames Gedenkfest für alle Märtyrer. Papst Gregor IV. legte 837 das Fest auf den 1. November fest – wahrscheinlich, um das keltische Fest Samhain zu „christianisieren”. Im Mittelalter entwickelte sich die Verbindung zu Allerseelen am 2. November (Gedenken aller Verstorbenen). In Deutschland ist der Tag in den katholischen Bundesländern Bayern, Baden-Württemberg, NRW, Rheinland-Pfalz und Saarland gesetzlich geschützt – als „stiller Feiertag”.",
+          "traditions": "Familien besuchen am 1. und 2. November die Friedhöfe, schmücken die Gräber ihrer Verstorbenen mit Kerzen, Blumen und Gestecken aus Tannenzweigen. Priester segnen die Gräber. In Polen wird der Tag besonders intensiv gefeiert – „Wszystkich Świętych” verwandelt jede Stadt in ein Lichtermeer. Das Backen von „Allerheiligenstriezel” ist eine alte österreichische Tradition.",
+          "funFacts": [
+            "In Polen werden in der Nacht zum 1. November Millionen Kerzen auf Friedhöfen entzündet – aus dem Weltraum sichtbar.",
+            "Das mexikanische „Día de los Muertos” (1./2. November) entwickelte sich aus der Verbindung katholischer und aztekischer Traditionen.",
+            "Der „Allerheiligenstriezel” – ein Hefeteig-Zopf mit Rosinen – wird in Wien traditionell von Paten an ihre Patenkinder verschenkt.",
+            "Halloween („All Hallows' Eve”) leitet seinen Namen direkt vom Vorabend des Allerheiligenfests ab."
+          ],
+          "imageCredit": "Foto: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "Heiligabend ist im deutschsprachigen Raum der wichtigste Familientag des Weihnachtsfestes – mit Bescherung, festlichem Essen und gemeinsamem Gesang unter dem Christbaum.",
+          "history": "Bereits im 4. Jahrhundert legte die Kirche das Geburtsfest Jesu auf den 25. Dezember. Der Vorabend („Vigil”) war traditionell Tag des Fastens. In Deutschland verschob sich die zentrale Feier nach der Reformation: Martin Luther führte Anfang des 16. Jahrhunderts den Brauch ein, dass das „Christkind” am Heiligabend Geschenke bringe – als Gegenmodell zum katholischen Nikolaus. Der geschmückte Tannenbaum kam ab dem 17. Jahrhundert auf und eroberte über Königin Victoria im 19. Jahrhundert die ganze Welt.",
+          "traditions": "Am Nachmittag wird der Christbaum geschmückt, viele Familien gehen in den Kindergottesdienst oder die Christmette. Anschließend folgt die Bescherung, oft mit Weihnachtsliedern wie „Stille Nacht” oder „O Tannenbaum”. Klassische Speisen sind Kartoffelsalat mit Würstchen, Karpfen oder Gänsebraten – je nach Familientradition.",
+          "funFacts": [
+            "„Stille Nacht, heilige Nacht” wurde 1818 in Oberndorf bei Salzburg uraufgeführt – heute in über 300 Sprachen übersetzt.",
+            "In Skandinavien und Mitteleuropa findet die Bescherung an Heiligabend statt, im englischsprachigen Raum erst am Morgen des 25.",
+            "In Tschechien und der Slowakei isst man am Heiligabend traditionell Karpfen – die Schuppe steckt man danach für Geldsegen ins Portemonnaie.",
+            "Der größte natürliche Weihnachtsbaum wird jährlich in Dortmund errichtet – aus rund 1.700 einzelnen Rotfichten."
+          ],
+          "imageCredit": "Foto: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
+          "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
+          "traditions": "Familien versammeln sich zu festlichen Mahlzeiten – Truthahn, Gans, Karpfen oder Raclette. Geschenke werden ausgetauscht, Weihnachtslieder gesungen, viele besuchen den Festgottesdienst. Der geschmückte Christbaum mit Lichterketten, Kugeln und Strohsternen ist das zentrale Symbol. Adventskalender, Plätzchen und der Besuch von Weihnachtsmärkten gehören zur Vorbereitung.",
+          "funFacts": [
+            "Der erste kommerzielle Adventskalender erschien 1908 in München – Erfinder war Gerhard Lang.",
+            "Die Weihnachtsmärkte in Dresden („Striezelmarkt”, seit 1434) und Frankfurt (seit 1393) gehören zu den ältesten der Welt.",
+            "Norwegen schenkt Großbritannien seit 1947 jährlich einen riesigen Weihnachtsbaum für den Trafalgar Square – als Dank für die Hilfe im Zweiten Weltkrieg.",
+            "Die Weihnachtsfilm-Klassiker „Drei Haselnüsse für Aschenbrödel” und „Tatsächlich… Liebe” laufen weltweit jedes Jahr Dutzende Male im TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Der zweite Weihnachtstag am 26. Dezember ist im Vereinigten Königreich als „Boxing Day” bekannt und verlängert in vielen Ländern die Weihnachtsferien.",
+          "history": "Der Name „Boxing Day” leitet sich nicht vom Sport ab, sondern von den Spendenboxen („Christmas boxes”), die in englischen Kirchen für die Armen aufgestellt und am Tag nach Weihnachten geöffnet wurden. Auch die Tradition, Hausangestellten und Postboten am 26. Dezember kleine Geld-Geschenke („boxes”) zu überreichen, prägte den Namen. In Deutschland ist der Tag der „2. Weihnachtsfeiertag” und seit 1933 gesetzlich geschützt – ursprünglich, um Familien Reisezeit zu Verwandten zu ermöglichen.",
+          "traditions": "In Großbritannien starten an diesem Tag der traditionelle Premier-League-Fußball, der Pferde-Hindernisrennsport und die berühmten „Boxing Day Sales”, bei denen Geschäfte massive Rabatte gewähren. In Deutschland wird ausgiebig gegessen, mit weiterer Familie gefeiert oder ein langer Spaziergang gemacht. In Polen und Tschechien gibt es Verwandtenbesuche und Festmahle.",
+          "funFacts": [
+            "Im Vereinigten Königreich wird seit 1860 die traditionelle Fuchsjagd am Boxing Day veranstaltet – seit 2005 nur noch als Drag Hunt ohne lebenden Fuchs.",
+            "Die Boxing-Day-Sales sind Großbritanniens umsatzstärkster Handelstag – noch vor Black Friday.",
+            "In Australien startet am Boxing Day das Sydney–Hobart-Yachtrennen, eines der härtesten Hochsee-Rennen der Welt.",
+            "In Irland heißt der Tag „St. Stephen's Day” – mit einer alten Tradition des „Wren Boys”-Brauchtums, bei dem Junge verkleidet von Tür zu Tür ziehen."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "epiphany": {
+          "intro": "Epiphany on January 6th commemorates the visit of the Magi from the East to the Christ Child in Bethlehem. The day closes the Christmas season.",
+          "history": "The feast of ‘Epiphany' (‘appearance of the Lord') is one of Christianity's oldest, celebrated as early as the 3rd century — in the Eastern Church even as the principal feast. The names of the Three Kings, Caspar, Melchior and Balthasar, are not given in the Bible; they were attached only in the Middle Ages. Their relics are said to have rested in Cologne Cathedral since 1164, making Cologne one of the great pilgrimage sites of the Middle Ages. In Germany Epiphany is a public holiday in Bavaria, Baden-Württemberg and Saxony-Anhalt.",
+          "traditions": "Star singers go from house to house in over 100,000 actions every year, collecting donations for children in need and writing the blessing ‘C+M+B' (‘Christus mansionem benedicat' — may Christ bless this house) on doorways. In some regions the Christmas tree is dismantled only on this day (‘plundering'). Festive services close the Christmas season.",
+          "funFacts": [
+            "Germany's Star Singers Action is the world's largest solidarity campaign by children for children — collecting over €50 million in donations annually.",
+            "Cologne Cathedral was deliberately built that large to accommodate streams of pilgrims to the relics of the Magi.",
+            "In Spain and Latin America the ‘Reyes Magos' bring gifts on the eve of January 6th — not Santa.",
+            "The traditional ‘king cake' (‘Galette des Rois' in France, ‘Roscón de Reyes' in Spain) hides a small figurine — whoever finds it is king for the day."
+          ],
+          "imageCredit": "Photo: CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Good Friday is the highest Protestant day of mourning, commemorating the crucifixion of Jesus Christ. In Germany it is a ‘silent holiday' with special legal protections.",
+          "history": "Good Friday has been observed by Christians since the 4th century. The German prefix ‘Kar' comes from Old High German ‘chara', meaning lamentation or mourning. Liturgical traditions developed early on: the reading of the Passion, veneration of the cross and the silencing of bells. The Reformation gave Good Friday particular weight; in Lutheran regions it remains the most important holiday of the church year.",
+          "traditions": "Many Christians attend Passion services with the reading of the Passion narrative. The day is traditionally one of fasting — fish replaces meat. In some regions, Good Friday processions march through the streets, such as the famous one in Lohr am Main. Dance events and loud music are forbidden by law in most German states.",
+          "funFacts": [
+            "Germany's ‘dance ban' regulates public entertainment on Good Friday — and has been a hot social topic for years.",
+            "Bach wrote his St. Matthew Passion in 1727 for Good Friday vespers in Leipzig — today one of the world's most performed works.",
+            "In Bermuda, families fly self-made bamboo and paper kites on Good Friday — a unique Christian tradition.",
+            "In Spanish-speaking countries Good Friday is ‘Viernes Santo' — with magnificent brotherhood processions, for example in Seville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Easter Monday is the second day of Easter and is a public holiday in most European countries. It marks the closing of Christianity's highest festival.",
+          "history": "Easter is the oldest festival in Christendom, celebrating the resurrection of Jesus Christ on the third day after his death. The Council of Nicaea in 325 set Easter on the first Sunday after the first spring full moon. Easter Monday has been observed since the early Middle Ages — originally the entire Easter week was a holiday. In Germany and Austria it remained a legal holiday, unlike in many purely Catholic countries.",
+          "traditions": "Families hunt for Easter eggs together, enjoy a leisurely brunch or take the classic Easter walk (immortalized in Goethe's ‘Faust'). In Poland ‘Śmigus-Dyngus' is celebrated: boys splash girls with water. In Czechia, lads tap on doors with willow whips. In Bavaria and Austria there is the traditional ‘Emmaus walk'.",
+          "funFacts": [
+            "The custom of Easter egg hunts was first mentioned by Martin Luther, who used it to delight his children.",
+            "The world's largest chocolate Easter egg stood in Argentina (8.5 m tall, 4 t) — recorded in the Guinness Book.",
+            "In Sweden, children dress up as ‘Påskkärringar' — little witches — on Holy Saturday and go door to door.",
+            "The Easter Bunny as deliverer of eggs was first mentioned in 1682 by physician Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "All Saints' Day on November 1st is a Catholic high feast on which the Church remembers all saints. In many countries families visit the graves of their departed.",
+          "history": "There was already a joint memorial feast for all martyrs in the 4th century. Pope Gregory IV set the feast on November 1st in 837 — likely to ‘Christianize' the Celtic festival of Samhain. In the Middle Ages a connection developed with All Souls' Day on November 2nd (commemoration of all the departed). In Germany the day is protected by law in the Catholic states of Bavaria, Baden-Württemberg, NRW, Rhineland-Palatinate and Saarland — as a ‘silent holiday'.",
+          "traditions": "On November 1st and 2nd families visit cemeteries, decorating the graves of their dead with candles, flowers and arrangements of fir branches. Priests bless the graves. In Poland the day is celebrated particularly intensely — ‘Wszystkich Świętych' turns every city into a sea of light. Baking ‘All Saints' bread' is an old Austrian tradition.",
+          "funFacts": [
+            "On the night of November 1st in Poland, millions of candles are lit on cemeteries — visible from space.",
+            "Mexico's ‘Día de los Muertos' (November 1–2) developed from the merging of Catholic and Aztec traditions.",
+            "The ‘Allerheiligenstriezel' — a yeast braid with raisins — is traditionally given by godparents to godchildren in Vienna.",
+            "Halloween (‘All Hallows' Eve') derives its name directly from the eve of All Saints'."
+          ],
+          "imageCredit": "Photo: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "Christmas Eve is the most important family day of the Christmas festival in German-speaking countries — with gift-giving, a festive meal and shared singing under the Christmas tree.",
+          "history": "As early as the 4th century, the Church set Jesus' birth on December 25th. The eve (‘Vigil') was traditionally a day of fasting. After the Reformation, Martin Luther shifted the central celebration in Germany: in the early 16th century he introduced the custom that the ‘Christ Child' brings gifts on Christmas Eve — a counter-model to the Catholic Saint Nicholas. The decorated fir tree appeared in the 17th century and conquered the world via Queen Victoria in the 19th.",
+          "traditions": "In the afternoon the Christmas tree is decorated and many families attend a children's service or midnight mass. Then comes the gift-giving, often with carols like ‘Silent Night' or ‘O Tannenbaum'. Classic dishes are potato salad with sausages, carp or roast goose — depending on family tradition.",
+          "funFacts": [
+            "‘Silent Night, Holy Night' premiered in 1818 in Oberndorf near Salzburg — today translated into over 300 languages.",
+            "In Scandinavia and central Europe, gifts are exchanged on Christmas Eve; in the English-speaking world only on the morning of the 25th.",
+            "In Czechia and Slovakia, carp is eaten on Christmas Eve — and a fish scale is then tucked into the wallet for prosperity.",
+            "The world's largest natural Christmas tree is built every year in Dortmund, Germany, from around 1,700 individual red firs."
+          ],
+          "imageCredit": "Photo: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
+          "history": "December 25th is documented as ‘dies natalis Christi' as early as 354 in a Roman calendar. The Church likely chose the date to give the Roman ‘Sol Invictus' winter solstice festival a Christian meaning. Gift-giving has its roots in the gifts of the Magi. The familiar Santa Claus with red coat and white beard is a mix of Saint Nicholas and a 1931 Coca-Cola advertising campaign.",
+          "traditions": "Families gather for festive meals — turkey, goose, carp or raclette. Gifts are exchanged, carols sung, many attend the festive service. The decorated Christmas tree with lights, ornaments and straw stars is the central symbol. Advent calendars, cookies and visits to Christmas markets are part of the run-up.",
+          "funFacts": [
+            "The first commercial Advent calendar appeared in 1908 in Munich — invented by Gerhard Lang.",
+            "The Christmas markets in Dresden (‘Striezelmarkt', since 1434) and Frankfurt (since 1393) are among the oldest in the world.",
+            "Norway has gifted the UK a giant Christmas tree for Trafalgar Square every year since 1947 — as thanks for help during World War II.",
+            "Holiday classics like ‘Three Wishes for Cinderella' and ‘Love Actually' run dozens of times on TV worldwide every year."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "December 26th is known in the United Kingdom as ‘Boxing Day' and in many countries extends the Christmas holidays.",
+          "history": "The name ‘Boxing Day' has nothing to do with sport — it refers to the donation boxes (‘Christmas boxes') placed in English churches and opened on the day after Christmas to help the poor. The custom of giving small money gifts (‘boxes') to servants and posties on December 26th also shaped the name. In Germany the day is the ‘Second Christmas Holiday' and has been protected by law since 1933 — originally to give families travel time to relatives.",
+          "traditions": "In the UK, the day kicks off the traditional Premier League football matches, horse jump-racing and the famous ‘Boxing Day Sales' with massive store discounts. In Germany people eat extensively, visit more relatives or take a long walk. In Poland and Czechia families pay each other visits and enjoy festive meals.",
+          "funFacts": [
+            "In the UK the traditional fox hunt is held on Boxing Day since 1860 — but only as a drag hunt without a live fox since 2005.",
+            "Boxing Day Sales are the UK's highest-revenue retail day — even higher than Black Friday.",
+            "In Australia the Sydney–Hobart Yacht Race starts on Boxing Day — one of the toughest offshore races in the world.",
+            "In Ireland the day is ‘St. Stephen's Day' — with the old ‘Wren Boys' tradition of costumed lads going door to door."
+          ],
+          "imageCredit": "Photo: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "epiphany": {
+          "intro": "L'Épiphanie, le 6 janvier, rappelle la visite des Mages venus d'Orient à l'Enfant Jésus à Bethléem. Elle clôt le temps de Noël.",
+          "history": "L'Épiphanie (‘manifestation du Seigneur') est l'une des plus anciennes fêtes du christianisme, célébrée dès le IIIe siècle — dans l'Église d'Orient comme fête principale. Les noms des trois Rois Mages, Gaspard, Melchior et Balthasar, ne sont pas dans la Bible ; ils n'apparaissent qu'au Moyen Âge. Leurs reliques reposeraient depuis 1164 dans la cathédrale de Cologne, qui devint ainsi un grand lieu de pèlerinage médiéval. En France, c'est l'occasion de la galette des Rois.",
+          "traditions": "En France, on partage la traditionnelle galette des Rois — frangipane ou briochée selon la région — qui cache une fève. Celui qui la trouve est couronné roi (ou reine) du jour. En Allemagne et en Autriche, des ‘Sternsinger' (chanteurs de l'étoile) font du porte-à-porte pour collecter des dons et inscrire la bénédiction ‘C+M+B' sur les portes.",
+          "funFacts": [
+            "L'opération ‘Sternsinger' en Allemagne est la plus grande campagne de solidarité d'enfants pour enfants au monde — plus de 50 millions d'euros collectés par an.",
+            "La cathédrale de Cologne fut planifiée si grande pour accueillir les pèlerins venus voir les reliques des Mages.",
+            "En Espagne et en Amérique latine, les ‘Reyes Magos' apportent les cadeaux la veille du 6 janvier — pas le Père Noël.",
+            "La galette des Rois cache une fève — celui qui la trouve devient roi pour la journée."
+          ],
+          "imageCredit": "Photo: CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Le Vendredi Saint est le jour le plus solennel du protestantisme et commémore la crucifixion de Jésus-Christ. En Allemagne, il s'agit d'un ‘jour silencieux' légalement protégé.",
+          "history": "Le Vendredi Saint est célébré par les chrétiens depuis le IVe siècle. Le préfixe allemand ‘Kar' vient du vieux haut-allemand ‘chara' (lamentation, deuil). Très tôt s'élaborent les traditions liturgiques : lecture de la Passion, vénération de la Croix, silence des cloches. La Réforme protestante lui donna une importance particulière ; dans les régions luthériennes, c'est la fête la plus importante de l'année liturgique.",
+          "traditions": "De nombreux chrétiens assistent à la liturgie de la Passion. C'est traditionnellement un jour de jeûne — on mange du poisson plutôt que de la viande. Dans certaines régions ont lieu des processions du Vendredi Saint, comme la fameuse procession de Lohr am Main. En Allemagne, la danse et la musique forte sont légalement interdites dans la plupart des Länder.",
+          "funFacts": [
+            "L'interdiction de danser (‘Tanzverbot') régit les divertissements publics du Vendredi Saint en Allemagne — sujet sociétal récurrent.",
+            "Bach composa sa Passion selon saint Matthieu en 1727 pour les vêpres du Vendredi Saint à Leipzig.",
+            "Aux Bermudes, les familles font voler des cerfs-volants en bambou et papier le Vendredi Saint — tradition chrétienne unique.",
+            "En Espagne, le ‘Viernes Santo' brille par les magnifiques processions de confréries, notamment à Séville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Le lundi de Pâques est le second jour de Pâques et férié dans la plupart des pays européens. Il clôt la fête majeure du christianisme.",
+          "history": "Pâques est la plus ancienne fête de la chrétienté et célèbre la résurrection de Jésus-Christ le troisième jour. Le concile de Nicée fixa en 325 la date de Pâques au premier dimanche après la première pleine lune du printemps. Le lundi de Pâques se célèbre depuis le haut Moyen Âge — initialement, toute la semaine de Pâques était fériée. En Allemagne et en Autriche, il demeure un jour férié légal, contrairement à beaucoup de pays purement catholiques.",
+          "traditions": "Les familles font la chasse aux œufs, prennent un long brunch ou la traditionnelle promenade pascale. En Pologne, on célèbre ‘Śmigus-Dyngus' : les garçons aspergent les filles d'eau. En Tchéquie, les jeunes hommes tapent aux portes avec des branches de saule. En Bavière et en Autriche, la traditionnelle ‘marche d'Emmaüs' a lieu.",
+          "funFacts": [
+            "C'est Martin Luther qui mentionna pour la première fois la chasse aux œufs, pour amuser ses enfants.",
+            "Le plus grand œuf en chocolat du monde (8,5 m, 4 t) a été réalisé en Argentine — entré au Guinness.",
+            "En Suède, les enfants se déguisent en ‘Påskkärringar' (petites sorcières) le Samedi Saint et font du porte-à-porte.",
+            "Le lapin de Pâques en tant que livreur d'œufs fut mentionné pour la première fois en 1682 par le médecin Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "La Toussaint, le 1er novembre, est une solennité catholique où l'Église se souvient de tous les saints. Dans bien des pays, les familles visitent les tombes de leurs défunts.",
+          "history": "Dès le IVe siècle, on célébrait une fête commune pour tous les martyrs. Le pape Grégoire IV fixa la fête au 1er novembre en 837 — sans doute pour ‘christianiser' la fête celtique de Samain. Au Moyen Âge, la connexion s'établit avec le 2 novembre, jour des défunts. En France, c'est jour férié national depuis 1801 (concordat). En Allemagne, c'est férié dans les Länder catholiques.",
+          "traditions": "Les 1er et 2 novembre, les familles visitent les cimetières et fleurissent les tombes de chrysanthèmes (tradition française), de bougies et de compositions de branches de sapin. Les prêtres bénissent les tombes. En Pologne, la nuit du 1er novembre, des millions de bougies illuminent les cimetières — visibles depuis l'espace.",
+          "funFacts": [
+            "La nuit du 1er novembre en Pologne, des millions de bougies illuminent les cimetières — visibles depuis l'espace.",
+            "Le ‘Día de los Muertos' mexicain (1–2 novembre) est né de la fusion de traditions catholiques et aztèques.",
+            "L'‘Allerheiligenstriezel' — une brioche tressée aux raisins — est un cadeau traditionnel des parrains aux filleuls à Vienne.",
+            "Halloween (‘All Hallows' Eve') tire son nom directement de la veille de la Toussaint."
+          ],
+          "imageCredit": "Photo: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "La veille de Noël est le jour familial le plus important de Noël dans les pays germaniques — avec remise des cadeaux, repas festif et chants en chœur sous le sapin.",
+          "history": "Dès le IVe siècle, l'Église fixa la naissance de Jésus au 25 décembre. La veille (‘Vigile') était traditionnellement jour de jeûne. Après la Réforme, Luther déplaça en Allemagne la célébration centrale au 24 : il introduisit l'idée que ‘l'Enfant Jésus' (Christkind) apporte les cadeaux à la veille de Noël, en contre-modèle au saint Nicolas catholique. Le sapin décoré apparut au XVIIe siècle et conquit le monde au XIXe grâce à la reine Victoria.",
+          "traditions": "L'après-midi, on décore le sapin ; beaucoup de familles assistent à la messe des enfants ou de minuit. Vient ensuite la remise des cadeaux, souvent accompagnée de chants comme ‘Stille Nacht' ou ‘Mon beau sapin'. Plats classiques : salade de pommes de terre aux saucisses, carpe ou oie rôtie — selon la tradition familiale.",
+          "funFacts": [
+            "‘Douce nuit, sainte nuit' fut créée en 1818 à Oberndorf, près de Salzbourg — aujourd'hui traduite dans plus de 300 langues.",
+            "En Scandinavie et en Europe centrale, on s'offre les cadeaux le 24 au soir ; dans le monde anglo-saxon, seulement le matin du 25.",
+            "En Tchéquie et Slovaquie, on mange de la carpe à la veille de Noël — et l'on glisse une écaille dans son portefeuille pour la prospérité.",
+            "Le plus grand sapin naturel au monde s'élève chaque année à Dortmund, fait de quelque 1 700 sapins rouges individuels."
+          ],
+          "imageCredit": "Photo: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
+          "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
+          "traditions": "Les familles se rassemblent autour de repas festifs — dinde, oie, carpe ou raclette. On échange des cadeaux, chante des cantiques, beaucoup assistent à la messe festive. Le sapin décoré de lumières, boules et étoiles de paille est le symbole central. Calendrier de l'avent, biscuits et marchés de Noël jalonnent la préparation.",
+          "funFacts": [
+            "Le premier calendrier de l'avent commercial parut en 1908 à Munich — invention de Gerhard Lang.",
+            "Les marchés de Noël de Dresde (‘Striezelmarkt', depuis 1434) et de Francfort (depuis 1393) figurent parmi les plus anciens du monde.",
+            "La Norvège offre chaque année au Royaume-Uni un immense sapin pour Trafalgar Square depuis 1947 — en remerciement de l'aide pendant la Seconde Guerre mondiale.",
+            "Les classiques de Noël comme ‘Trois noisettes pour Cendrillon' ou ‘Love Actually' sont diffusés des dizaines de fois à la télé chaque année."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Le 26 décembre est connu au Royaume-Uni comme ‘Boxing Day' et prolonge les vacances de Noël dans bien des pays.",
+          "history": "Le nom ‘Boxing Day' n'a rien à voir avec le sport — il vient des troncs de dons (‘Christmas boxes') des églises anglaises, ouverts le lendemain de Noël pour les pauvres. La coutume de remettre de petites boîtes d'argent aux domestiques et facteurs le 26 décembre a aussi influencé le nom. En Allemagne, c'est le ‘deuxième jour de Noël', férié depuis 1933 — pensé à l'origine pour permettre aux familles de voyager voir leurs proches.",
+          "traditions": "Au Royaume-Uni, c'est le coup d'envoi des matchs de Premier League traditionnels, des courses d'obstacles et des fameuses ‘Boxing Day Sales' avec d'énormes rabais. En Allemagne, on mange copieusement, on visite d'autres parents ou on fait une longue promenade. En Pologne et en Tchéquie, on rend visite à la famille et l'on tient banquet.",
+          "funFacts": [
+            "Au Royaume-Uni, la chasse au renard se court le Boxing Day depuis 1860 — depuis 2005, uniquement en ‘drag hunt' sans renard vivant.",
+            "Les ‘Boxing Day Sales' sont la journée commerçante la plus rentable au Royaume-Uni — devant le Black Friday.",
+            "En Australie, la régate Sydney–Hobart démarre le Boxing Day — l'une des plus rudes courses du large au monde.",
+            "En Irlande, le jour est ‘St. Stephen's Day' — avec la vieille tradition des ‘Wren Boys' allant déguisés de porte en porte."
+          ],
+          "imageCredit": "Photo: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "epiphany": {
+          "intro": "Los Reyes Magos del 6 de enero recuerdan la visita de los magos de Oriente al Niño Jesús en Belén. Cierra el tiempo de Navidad.",
+          "history": "La fiesta de la Epifanía (‘manifestación del Señor') es de las más antiguas del cristianismo, celebrada ya en el siglo III — en la Iglesia oriental incluso como fiesta principal. Los nombres Gaspar, Melchor y Baltasar no figuran en la Biblia; se asignaron en la Edad Media. Sus reliquias estarían desde 1164 en la catedral de Colonia, lo que la convirtió en uno de los grandes destinos de peregrinación medieval. En España y Latinoamérica son la noche más mágica del año, cuando los Reyes Magos traen los regalos a los niños.",
+          "traditions": "En España la noche del 5 al 6 de enero los niños esperan a los Reyes Magos, que dejan regalos junto a los zapatos. La cabalgata de Reyes recorre las calles de cada ciudad. En Alemania y Austria, los ‘Sternsinger' (cantores estrella) van de casa en casa recaudando donativos para niños necesitados y escribiendo ‘C+M+B' (Christus mansionem benedicat) en las puertas.",
+          "funFacts": [
+            "La acción de los ‘Sternsinger' alemanes es la mayor campaña solidaria de niños para niños del mundo — más de 50 millones de euros al año.",
+            "La catedral de Colonia se planificó tan grande para albergar a los peregrinos hacia las reliquias de los Reyes.",
+            "En España y Latinoamérica los Reyes Magos traen los regalos en la noche del 5 al 6 de enero — no Papá Noel.",
+            "El ‘Roscón de Reyes' lleva una pequeña figura escondida — quien la encuentra es rey por un día."
+          ],
+          "imageCredit": "Foto: CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "El Viernes Santo es el día de mayor luto del cristianismo y conmemora la crucifixión de Jesús. En Alemania es ‘día silencioso' con normativa especial.",
+          "history": "El Viernes Santo se celebra desde el siglo IV. La palabra alemana ‘Kar' viene del antiguo alto alemán ‘chara', que significa lamento o duelo. Pronto se desarrollaron tradiciones litúrgicas: lectura de la Pasión, veneración de la cruz y silencio de las campanas. La Reforma le dio especial relevancia y en regiones luteranas sigue siendo el día más importante del año eclesiástico.",
+          "traditions": "Muchos cristianos asisten a oficios de la Pasión con la lectura de la Pasión. Es día de ayuno: tradicionalmente se come pescado en lugar de carne. En España, las procesiones de las cofradías recorren ciudades como Sevilla. En Alemania los bailes y la música alta están legalmente prohibidos en la mayoría de estados federados.",
+          "funFacts": [
+            "El ‘Tanzverbot' (prohibición de bailar) regula el ocio público en el Viernes Santo alemán — desde hace años un debate social recurrente.",
+            "Bach compuso su Pasión según San Mateo en 1727 para las vísperas del Viernes Santo en Leipzig.",
+            "En Bermudas, las familias hacen volar cometas caseras de bambú y papel — una tradición cristiana única.",
+            "En España, el ‘Viernes Santo' destaca por las majestuosas procesiones de cofradías, especialmente en Sevilla y Málaga."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "El Lunes de Pascua es el segundo día de la Pascua y festivo en la mayoría de países europeos. Cierra la fiesta más importante del cristianismo.",
+          "history": "La Pascua es la fiesta más antigua del cristianismo y celebra la resurrección de Jesús al tercer día de su muerte. El Concilio de Nicea fijó en 325 que se celebraría el primer domingo después de la primera luna llena de primavera. El Lunes de Pascua se celebra desde la temprana Edad Media — originalmente toda la octava de Pascua era festiva. En Alemania y Austria sigue siendo festivo legal, a diferencia de muchos países católicos.",
+          "traditions": "Las familias buscan huevos de Pascua, desayunan abundantemente o dan el clásico paseo de Pascua. En Polonia se celebra ‘Śmigus-Dyngus': los chicos mojan a las chicas con agua. En Chequia los jóvenes golpean las puertas con ramas de sauce. En Baviera y Austria se hace la tradicional caminata de Emaús.",
+          "funFacts": [
+            "Martin Lutero fue el primero en mencionar la búsqueda de huevos de Pascua, para alegrar a sus hijos.",
+            "El huevo de Pascua de chocolate más grande del mundo (8,5 m, 4 t) se hizo en Argentina y figura en el Guinness.",
+            "En Suecia los niños se disfrazan de ‘Påskkärringar' — pequeñas brujas — el Sábado Santo y van de puerta en puerta.",
+            "El conejo de Pascua como portador de huevos fue mencionado por escrito por primera vez en 1682, por el médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 vía Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Todos los Santos, el 1 de noviembre, es una solemnidad católica en la que la Iglesia recuerda a todos los santos. En muchos países las familias visitan las tumbas de sus difuntos.",
+          "history": "Ya en el siglo IV existía una conmemoración común de todos los mártires. El papa Gregorio IV fijó la fiesta el 1 de noviembre en 837 — probablemente para ‘cristianizar' la celta de Samhain. En la Edad Media surge la conexión con el Día de los Difuntos del 2 de noviembre. En España, Italia y Polonia es festivo nacional. En Alemania lo es en los estados federados católicos.",
+          "traditions": "El 1 y 2 de noviembre las familias visitan los cementerios y adornan las tumbas con velas, flores y composiciones de ramas de abeto. Los sacerdotes bendicen las tumbas. En España es tradición ver ‘Don Juan Tenorio' y comer huesos de santo y buñuelos. En Polonia la noche del 1 de noviembre los cementerios brillan con millones de velas — visibles desde el espacio.",
+          "funFacts": [
+            "En Polonia, en la noche del 1 de noviembre, millones de velas iluminan los cementerios — visibles desde el espacio.",
+            "El ‘Día de los Muertos' mexicano (1–2 de noviembre) nació de la fusión de tradiciones católicas y aztecas.",
+            "El ‘Allerheiligenstriezel' — un trenzado de levadura con pasas — es regalo tradicional de padrinos a ahijados en Viena.",
+            "Halloween (‘All Hallows' Eve') toma su nombre directamente de la víspera de Todos los Santos."
+          ],
+          "imageCredit": "Foto: MichalPL · CC0 vía Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "Nochebuena es el día familiar más importante de la Navidad en los países germanos: regalos, cena festiva y villancicos junto al árbol.",
+          "history": "Ya en el siglo IV la Iglesia fijó el nacimiento de Jesús el 25 de diciembre. La víspera (‘Vigilia') fue tradicionalmente día de ayuno. En Alemania la celebración central se desplazó tras la Reforma: a comienzos del siglo XVI, Lutero introdujo la costumbre de que el ‘Niño Jesús' (Christkind) traiga regalos en Nochebuena, como contrapunto al San Nicolás católico. El árbol decorado surgió en el siglo XVII y conquistó el mundo en el XIX gracias a la reina Victoria.",
+          "traditions": "Por la tarde se decora el árbol; muchas familias asisten a la misa infantil o del gallo. Después llegan los regalos, a menudo con villancicos como ‘Stille Nacht' o ‘O Tannenbaum'. Platos clásicos: ensalada de patatas con salchichas, carpa o ganso asado, según la familia.",
+          "funFacts": [
+            "‘Noche de paz, noche de amor' (‘Stille Nacht') se estrenó en 1818 en Oberndorf, cerca de Salzburgo — hoy traducida a más de 300 idiomas.",
+            "En Escandinavia y Europa central los regalos llegan en Nochebuena; en el mundo anglosajón solo la mañana del 25.",
+            "En Chequia y Eslovaquia se come carpa en Nochebuena — y se guarda una escama en la cartera para atraer dinero.",
+            "El árbol natural más grande del mundo se monta cada año en Dortmund con unos 1.700 abetos rojos."
+          ],
+          "imageCredit": "Foto: ZemplinTemplar · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
+          "history": "Ya en el año 354 un calendario romano consigna el 25 de diciembre como ‘dies natalis Christi'. Probablemente la Iglesia eligió la fecha para reinterpretar cristianamente el ‘Sol Invictus' romano. El intercambio de regalos arraiga en los obsequios de los Magos. El moderno Papá Noel con abrigo rojo y barba blanca es una mezcla de San Nicolás con una campaña publicitaria de Coca-Cola de 1931.",
+          "traditions": "Las familias se reúnen para comidas festivas — pavo, ganso, carpa o raclette. Se intercambian regalos, se cantan villancicos y muchos asisten al servicio festivo. El árbol decorado con luces y bolas es el símbolo central. El calendario de Adviento, las galletas y los mercadillos forman parte de la preparación.",
+          "funFacts": [
+            "El primer calendario de Adviento comercial apareció en 1908 en Múnich — invento de Gerhard Lang.",
+            "Los mercadillos navideños de Dresde (‘Striezelmarkt', desde 1434) y Fráncfort (desde 1393) son de los más antiguos del mundo.",
+            "Noruega regala al Reino Unido un enorme árbol de Navidad para Trafalgar Square cada año desde 1947 — agradecimiento por la ayuda en la Segunda Guerra Mundial.",
+            "Los clásicos como ‘Tres Avellanas para Cenicienta' o ‘Love Actually' se emiten decenas de veces cada año en TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "El 26 de diciembre se conoce en el Reino Unido como ‘Boxing Day' y prolonga las vacaciones navideñas en muchos países.",
+          "history": "El nombre ‘Boxing Day' no proviene del deporte, sino de las cajas de donativos (‘Christmas boxes') de las iglesias inglesas que se abrían el día después de Navidad para los pobres. También influyó la costumbre de regalar pequeñas cajas con dinero a los empleados domésticos y carteros el 26 de diciembre. En Alemania es el ‘2º día de Navidad', festivo legal desde 1933 — pensado originalmente para que las familias viajaran a ver parientes.",
+          "traditions": "En el Reino Unido empiezan los partidos tradicionales de la Premier League, las carreras de obstáculos hípicos y las famosas ‘Boxing Day Sales' con grandes descuentos. En Alemania se come en abundancia, se visita a más familia o se da un largo paseo. En Polonia y Chequia hay visitas familiares y banquetes.",
+          "funFacts": [
+            "En el Reino Unido la tradicional caza del zorro se hace desde 1860 en Boxing Day — desde 2005 solo como ‘drag hunt' sin zorro vivo.",
+            "Las ‘Boxing Day Sales' son el día de mayores ventas del año del comercio británico — más que el Black Friday.",
+            "En Australia el 26 de diciembre arranca la regata Sídney–Hobart, una de las más duras de altura del mundo.",
+            "En Irlanda el día se llama ‘Día de San Esteban' — con la antigua tradición de los ‘Wren Boys' yendo disfrazados de puerta en puerta."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "epiphany": {
+          "intro": "A Epifania, 6 de janeiro, recorda a visita dos Magos do Oriente ao Menino Jesus em Belém. Encerra o tempo do Natal. Em Portugal é o Dia de Reis, com a tradição do bolo-rei e do cantar das janeiras.",
+          "history": "A festa da Epifania (‘manifestação do Senhor') é uma das mais antigas do cristianismo, celebrada já no século III — na Igreja oriental como festa principal. Os nomes dos três Magos, Gaspar, Belchior e Baltasar, não constam da Bíblia; foram atribuídos na Idade Média. As suas relíquias estarão desde 1164 na Catedral de Colónia. Em Portugal, o Dia de Reis encerra as festas natalícias, e é tradição cantar as Janeiras (cantigas que pedem boas-festas) e comer o bolo-rei.",
+          "traditions": "Em Portugal, no Dia de Reis come-se o bolo-rei (com fava e brinde escondidos) e cantam-se as Janeiras — grupos de pessoas vão de porta em porta cantando cantigas que pedem boas festas. Na Alemanha e Áustria, os ‘Sternsinger' (cantores da estrela) andam de porta em porta a recolher donativos para crianças necessitadas e a escrever ‘C+M+B' nas portas.",
+          "funFacts": [
+            "A ação ‘Sternsinger' alemã é a maior campanha de solidariedade de crianças para crianças no mundo — mais de 50 milhões de euros doados por ano.",
+            "Em Portugal, quem encontra a fava no bolo-rei terá de comprar o bolo-rei do ano seguinte!",
+            "Em Espanha e na América Latina os ‘Reyes Magos' trazem os presentes na noite de 5 de janeiro — não o Pai Natal.",
+            "O tradicional ‘bolo de reis' (‘Galette des Rois' em França, ‘Roscón de Reyes' em Espanha) esconde uma pequena figura — quem a encontra é rei por um dia."
+          ],
+          "imageCredit": "Foto: CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "A Sexta-Feira Santa é o dia de maior luto do cristianismo e comemora a crucificação de Jesus Cristo. Em Portugal é feriado nacional, com forte tradição religiosa.",
+          "history": "A Sexta-Feira Santa é celebrada pelos cristãos desde o século IV. O prefixo alemão ‘Kar' vem do alto alemão antigo ‘chara' (lamento, luto). Cedo se desenvolveram tradições litúrgicas: leitura da Paixão, veneração da cruz e silêncio dos sinos. A Reforma deu-lhe especial relevância. Em Portugal, a tradição das procissões da Paixão é antiga e muito viva, especialmente em Braga, Óbidos e na ilha da Madeira.",
+          "traditions": "Muitos cristãos assistem a celebrações da Paixão. É tradicionalmente dia de jejum — come-se peixe (em Portugal, o típico bacalhau) em vez de carne. Em Braga e Óbidos, as procissões da Paixão são impressionantes — em Braga a ‘Procissão do Senhor Ecce Homo' é uma das maiores. Em Espanha, destacam-se as procissões das confrarias, sobretudo em Sevilha.",
+          "funFacts": [
+            "Em Braga (Portugal) a ‘Procissão do Senhor Ecce Homo' é uma das mais impressionantes da Europa.",
+            "Bach compôs a sua Paixão segundo São Mateus em 1727 para as Vésperas da Sexta-Feira Santa em Leipzig.",
+            "Nas Bermudas, as famílias fazem voar papagaios de bambu e papel feitos em casa — uma tradição cristã única.",
+            "Em Espanha, ‘Viernes Santo' destaca-se pelas magníficas procissões das confrarias, sobretudo em Sevilha."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "A Segunda-Feira de Páscoa é o segundo dia de Páscoa e feriado na maioria dos países europeus. Em Portugal, ainda que não seja feriado, é tradição almoçar com a família o folar.",
+          "history": "A Páscoa é a festa mais antiga da cristandade e celebra a ressurreição de Jesus Cristo no terceiro dia. O Concílio de Niceia em 325 fixou a Páscoa no primeiro domingo após a primeira lua cheia da primavera. A Segunda-Feira de Páscoa celebra-se desde a alta Idade Média — originalmente toda a semana de Páscoa era feriada. Em Portugal, a tradição é a do ‘folar', um bolo doce com ovo cozido por cima, que se oferece sobretudo aos afilhados.",
+          "traditions": "As famílias procuram em conjunto ovos de Páscoa, almoçam abundantemente ou fazem o clássico passeio pascal. Em Portugal, oferece-se o ‘folar' aos afilhados e organizam-se almoços em família com cabrito assado. Na Polónia celebra-se ‘Śmigus-Dyngus': os rapazes salpicam as raparigas com água. Na Chéquia, os jovens batem às portas com ramos de salgueiro.",
+          "funFacts": [
+            "O costume da caça aos ovos foi mencionado pela primeira vez por Martinho Lutero, para alegrar os filhos.",
+            "O maior ovo de chocolate do mundo (8,5 m, 4 t) foi feito na Argentina e está no Guinness.",
+            "Na Suécia, as crianças vestem-se de ‘Påskkärringar' — pequenas bruxas — no Sábado Santo e vão de porta em porta.",
+            "O coelho da Páscoa como entregador de ovos foi mencionado pela primeira vez por escrito em 1682 pelo médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Todos-os-Santos, 1 de novembro, é uma solenidade católica em que a Igreja recorda todos os santos. Em Portugal é feriado nacional e dia de visita aos cemitérios.",
+          "history": "Já no século IV existia uma comemoração comum de todos os mártires. O Papa Gregório IV fixou a festa a 1 de novembro em 837 — provavelmente para ‘cristianizar' a celta de Samhain. Na Idade Média desenvolveu-se a ligação ao Dia dos Fiéis Defuntos a 2 de novembro. Em Portugal, o Dia de Todos-os-Santos é tradicionalmente também o dia do ‘Pão-por-Deus', em que crianças vão de porta em porta pedir pequenos pães, doces ou frutos secos.",
+          "traditions": "Em Portugal, o Pão-por-Deus é uma tradição rural ainda viva: as crianças vão de porta em porta a pedir o ‘pão-por-Deus' e recebem doces, castanhas, romãs ou pequenas moedas. As famílias visitam os cemitérios e enfeitam as sepulturas com flores (frequentemente crisântemos). Há missas solenes em muitas paróquias.",
+          "funFacts": [
+            "Em Portugal, a tradição do ‘Pão-por-Deus' lembra o Halloween anglo-saxónico — mas é muito mais antiga e enraizada no rural.",
+            "Na Polónia, na noite de 1 de novembro, milhões de velas iluminam os cemitérios — visíveis do espaço.",
+            "O ‘Día de los Muertos' mexicano (1–2 de novembro) nasceu da fusão de tradições católicas e astecas.",
+            "Halloween (‘All Hallows' Eve') deriva o nome diretamente da véspera de Todos-os-Santos."
+          ],
+          "imageCredit": "Foto: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "A Consoada é o dia em família mais importante do Natal nos países germânicos — com troca de prendas, ceia festiva e cantorias junto à árvore. Em Portugal é a noite da consoada, com bacalhau cozido e missa do galo.",
+          "history": "Já no século IV a Igreja fixou o nascimento de Jesus a 25 de dezembro. A véspera (‘Vigília') foi tradicionalmente dia de jejum. Após a Reforma, Lutero deslocou na Alemanha a celebração principal: no início do século XVI introduziu o costume de o ‘Menino Jesus' (Christkind) trazer presentes na Consoada — em contraponto ao São Nicolau católico. Em Portugal, a tradição é o bacalhau cozido com batatas e couve, e a missa do galo à meia-noite.",
+          "traditions": "Em Portugal a Consoada é uma noite de família com bacalhau cozido com batatas, couve e ovo, seguido de bolo-rei, rabanadas, sonhos e filhós. À meia-noite vai-se à Missa do Galo. Nos países germânicos, decora-se a árvore, vai-se à missa das crianças e trocam-se prendas com cantos como ‘Stille Nacht'.",
+          "funFacts": [
+            "‘Noite Feliz' (‘Stille Nacht') estreou em 1818 em Oberndorf, perto de Salzburgo — hoje traduzida em mais de 300 línguas.",
+            "Na Escandinávia e Europa Central, as prendas trocam-se na Consoada; no mundo anglófono só na manhã do dia 25.",
+            "Na Madeira, o ‘Cantar dos Reis' começa logo na noite de Consoada e estende-se por dias.",
+            "A maior árvore de Natal natural do mundo é montada todos os anos em Dortmund (Alemanha), feita com cerca de 1.700 abetos."
+          ],
+          "imageCredit": "Foto: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
+          "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
+          "traditions": "As famílias reúnem-se em refeições festivas — peru, ganso, bacalhau ou raclette nos países germânicos; em Portugal, o típico almoço de Natal com peru ou cabrito assado, e as sobremesas de bolo-rei, sonhos, rabanadas, aletria e arroz-doce. Trocam-se presentes, cantam-se cânticos, muitos vão à missa festiva. A árvore decorada e o presépio são símbolos centrais.",
+          "funFacts": [
+            "O primeiro calendário do Advento comercial apareceu em 1908 em Munique — invenção de Gerhard Lang.",
+            "Os mercados de Natal de Dresden (‘Striezelmarkt', desde 1434) e Frankfurt (desde 1393) estão entre os mais antigos do mundo.",
+            "A Noruega oferece ao Reino Unido um enorme abeto para Trafalgar Square todos os anos desde 1947 — em agradecimento pela ajuda na II Guerra.",
+            "Em Portugal, a tradição do bolo-rei remonta ao século XIX, importado da pastelaria francesa."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "O dia 26 de dezembro é conhecido no Reino Unido como ‘Boxing Day' e em muitos países prolonga as festividades natalícias. Em Portugal não é feriado oficial.",
+          "history": "O nome ‘Boxing Day' não vem do desporto — refere-se às caixas de donativos (‘Christmas boxes') das igrejas inglesas, abertas no dia seguinte ao Natal a favor dos pobres. Também o costume de oferecer pequenas caixas com dinheiro a empregados domésticos e carteiros a 26 de dezembro influenciou o nome. Na Alemanha, o dia é o ‘2.º dia de Natal' e está protegido por lei desde 1933. Em Portugal não é feriado, mas continua-se em ambiente natalício.",
+          "traditions": "No Reino Unido começa o tradicional futebol da Premier League, as corridas de obstáculos hípicos e os famosos ‘Boxing Day Sales' com grandes descontos. Na Alemanha come-se em abundância, visita-se mais família ou faz-se um longo passeio. Na Polónia e Chéquia há visitas e banquetes.",
+          "funFacts": [
+            "No Reino Unido, a tradicional caça à raposa realiza-se no Boxing Day desde 1860 — desde 2005 só como ‘drag hunt' sem raposa viva.",
+            "‘Boxing Day Sales' é o dia de maior faturação do comércio britânico — superior ao Black Friday.",
+            "Na Austrália, a regata Sydney–Hobart parte no Boxing Day, uma das mais duras provas de oceano do mundo.",
+            "Na Irlanda o dia chama-se ‘St. Stephen's Day' — com a antiga tradição dos ‘Wren Boys' que andam mascarados de porta em porta."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "epiphany": {
+          "intro": "L'Epifania, il 6 gennaio, ricorda la visita dei Magi venuti dall'Oriente al Bambino Gesù a Betlemme. Chiude il tempo di Natale. In Italia è anche il giorno della Befana, la vecchietta che porta dolci ai bambini.",
+          "history": "La festa dell'Epifania (‘manifestazione del Signore') è una delle più antiche del cristianesimo, celebrata già nel III secolo — nella Chiesa orientale come festa principale. I nomi dei tre Magi, Gaspare, Melchiorre e Baldassarre, non sono nella Bibbia; furono attribuiti nel Medioevo. Le loro reliquie sarebbero dal 1164 nel Duomo di Colonia. In Italia la tradizione della Befana, vecchietta che porta dolci ai bambini buoni e carbone ai cattivi, è radicata da secoli.",
+          "traditions": "In Italia la Befana lascia calze piene di dolci e carbone (di zucchero) per i bambini la notte del 5 gennaio. Si organizzano feste con cortei della Befana e mercatini. In Germania e Austria, gli ‘Sternsinger' (cantori della stella) vanno di casa in casa raccogliendo offerte e scrivendo ‘C+M+B' sulle porte. In Spagna i ‘Reyes Magos' portano i doni.",
+          "funFacts": [
+            "L'azione degli ‘Sternsinger' tedeschi è la più grande campagna solidale di bambini per bambini al mondo — oltre 50 milioni di euro l'anno.",
+            "La Befana italiana ha origini precristiane, legate a riti agricoli e di rinnovamento.",
+            "Il Duomo di Colonia fu progettato così grande per accogliere i pellegrini alle reliquie dei Magi.",
+            "La tradizionale ‘torta dei Re' (‘Galette des Rois' in Francia, ‘Roscón de Reyes' in Spagna) nasconde una piccola figura — chi la trova è re per un giorno."
+          ],
+          "imageCredit": "Foto: CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Il Venerdì Santo è il giorno di lutto più importante per i protestanti e ricorda la crocifissione di Gesù Cristo. In Germania è ‘giorno silenzioso' con norme particolari.",
+          "history": "Il Venerdì Santo è celebrato dai cristiani dal IV secolo. Il prefisso tedesco ‘Kar' deriva dall'antico alto tedesco ‘chara' (lamento, lutto). Presto si svilupparono tradizioni liturgiche: lettura della Passione, venerazione della croce, silenzio delle campane. La Riforma gli diede particolare risalto; nelle regioni luterane resta la festa più importante dell'anno liturgico.",
+          "traditions": "Molti cristiani partecipano alla Liturgia della Passione. Tradizionalmente è giorno di digiuno — si mangia pesce invece di carne. In Italia, soprattutto al Sud, ci sono solenni processioni con statue del Cristo morto, come la celebre ‘Processione dei Misteri' a Trapani. In Spagna spiccano le processioni delle confraternite, soprattutto a Siviglia.",
+          "funFacts": [
+            "In Germania il ‘Tanzverbot' (divieto di ballare) regola gli intrattenimenti pubblici — tema sociale ricorrente.",
+            "Bach compose la ‘Passione secondo Matteo' nel 1727 per i vespri del Venerdì Santo a Lipsia.",
+            "Alle Bermuda le famiglie fanno volare aquiloni di bambù e carta — tradizione cristiana unica.",
+            "In Spagna il ‘Viernes Santo' è famoso per le maestose processioni delle confraternite, in particolare a Siviglia."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Il Lunedì dell'Angelo è il secondo giorno di Pasqua e festivo nella maggior parte dei paesi europei. Chiude la festa più importante del cristianesimo.",
+          "history": "La Pasqua è la festa più antica del cristianesimo e celebra la resurrezione di Gesù Cristo il terzo giorno. Il Concilio di Nicea nel 325 fissò la Pasqua alla prima domenica dopo il primo plenilunio di primavera. Il Lunedì dell'Angelo si celebra dall'alto Medioevo — originariamente era festiva l'intera ottava di Pasqua. In Italia il Lunedì dell'Angelo (Pasquetta) è giorno di gite ed è festivo nazionale.",
+          "traditions": "In Italia ‘Natale con i tuoi, Pasquetta con chi vuoi': la tradizione vuole pic-nic in campagna o gite fuori porta con grigliata. Le famiglie cercano insieme le uova di Pasqua, fanno colazione abbondante o la classica passeggiata pasquale. In Polonia si celebra ‘Śmigus-Dyngus': i ragazzi spruzzano acqua sulle ragazze.",
+          "funFacts": [
+            "L'usanza della caccia alle uova fu menzionata per la prima volta da Martin Lutero, che voleva divertire i suoi figli.",
+            "Il più grande uovo di cioccolato del mondo (8,5 m, 4 t) fu fatto in Argentina ed è nel Guinness.",
+            "In Svezia i bambini si vestono da ‘Påskkärringar' — piccole streghe — il Sabato Santo e fanno il porta a porta.",
+            "Il coniglio pasquale come portatore di uova fu menzionato per iscritto la prima volta nel 1682 dal medico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Ognissanti, il 1° novembre, è una solennità cattolica in cui la Chiesa ricorda tutti i santi. In molti paesi le famiglie visitano le tombe dei propri defunti.",
+          "history": "Già nel IV secolo c'era una festa comune per tutti i martiri. Papa Gregorio IV fissò la festa al 1° novembre nell'837 — probabilmente per ‘cristianizzare' la festa celtica di Samhain. Nel Medioevo si sviluppò la connessione con il Giorno dei Morti del 2 novembre. In Italia è festa nazionale; spesso famiglie si riuniscono per visitare i cimiteri e onorare i defunti. È festivo anche in Polonia, Spagna e Austria.",
+          "traditions": "L'1 e il 2 novembre le famiglie visitano i cimiteri e adornano le tombe dei defunti con candele, fiori (in Italia tradizionalmente crisantemi) e composizioni di rami. I sacerdoti benedicono le tombe. In Polonia la notte del 1° novembre milioni di candele illuminano i cimiteri — visibili dallo spazio. In Italia molti partecipano alla messa e portano fiori al cimitero.",
+          "funFacts": [
+            "Nella notte del 1° novembre in Polonia milioni di candele illuminano i cimiteri — visibili dallo spazio.",
+            "Il ‘Día de los Muertos' messicano (1–2 novembre) nacque dalla fusione di tradizioni cattoliche e azteche.",
+            "L'‘Allerheiligenstriezel' — una treccia lievitata con uvetta — è regalo tradizionale di padrini ai figliocci a Vienna.",
+            "Halloween (‘All Hallows' Eve') deriva il suo nome direttamente dalla vigilia di Ognissanti."
+          ],
+          "imageCredit": "Foto: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "La Vigilia di Natale è il giorno familiare più importante del Natale nei paesi germanici — con scambio di doni, cena festiva e canti sotto l'albero. In Italia è la sera del cenone in famiglia.",
+          "history": "Già nel IV secolo la Chiesa fissò la nascita di Gesù al 25 dicembre. La vigilia (‘Vigilia') era tradizionalmente giorno di digiuno. In Germania, dopo la Riforma, Lutero introdusse l'usanza che il ‘Bambino Gesù' (Christkind) porti i doni la Vigilia, in contrapposizione al cattolico San Nicola. L'albero decorato apparve nel XVII secolo e conquistò il mondo nel XIX grazie alla regina Vittoria. In Italia la tradizione del presepe risale a San Francesco d'Assisi nel 1223.",
+          "traditions": "In Italia, la sera della Vigilia si tiene il ‘cenone' con piatti di pesce — tradizionalmente magri — come spaghetti alle vongole, capitone, baccalà. A mezzanotte si va alla Messa di Mezzanotte. Nei paesi tedeschi, si decora l'albero, si va alla messa dei bambini e si scambiano i doni con canti come ‘Stille Nacht'.",
+          "funFacts": [
+            "‘Astro del ciel' (‘Stille Nacht') fu eseguito per la prima volta nel 1818 a Oberndorf, presso Salisburgo — oggi tradotto in oltre 300 lingue.",
+            "In Scandinavia ed Europa centrale i doni si scambiano la sera della Vigilia; nel mondo anglosassone solo la mattina del 25.",
+            "In Repubblica Ceca e Slovacchia si mangia carpa la Vigilia — e si infila una squama nel portafoglio per la prosperità.",
+            "Il primo presepe vivente fu creato da San Francesco d'Assisi a Greccio nel 1223."
+          ],
+          "imageCredit": "Foto: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
+          "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
+          "traditions": "Le famiglie si riuniscono per pasti festosi — tacchino, oca, carpa o raclette al nord; pranzo natalizio con tortellini in brodo, lasagne, capponi e panettone in Italia. Si scambiano regali, si cantano canti natalizi, molti partecipano alla messa festiva. L'albero decorato e il presepe sono i simboli centrali. Calendario dell'Avvento, biscotti e mercatini scandiscono la preparazione.",
+          "funFacts": [
+            "Il primo calendario dell'Avvento commerciale apparve nel 1908 a Monaco — invenzione di Gerhard Lang.",
+            "I mercatini di Natale di Dresda (‘Striezelmarkt', dal 1434) e Francoforte (dal 1393) sono tra i più antichi al mondo.",
+            "La Norvegia regala al Regno Unito un enorme albero di Natale per Trafalgar Square ogni anno dal 1947 — come ringraziamento per l'aiuto nella Seconda Guerra Mondiale.",
+            "Il panettone milanese e il pandoro veronese sono i due dolci natalizi italiani per eccellenza."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Il 26 dicembre è noto nel Regno Unito come ‘Boxing Day' e in molti paesi prolunga le vacanze natalizie. In Italia è Santo Stefano.",
+          "history": "Il nome ‘Boxing Day' non viene dallo sport — deriva dalle cassette delle offerte (‘Christmas boxes') delle chiese inglesi, aperte il giorno dopo Natale per i poveri. Anche l'usanza di regalare piccole scatole con denaro a domestici e postini il 26 dicembre influenzò il nome. In Italia il giorno è dedicato a Santo Stefano, primo martire cristiano. È festivo nazionale dal 1947.",
+          "traditions": "Nel Regno Unito iniziano le partite di Premier League, le corse di siepi e i famosi ‘Boxing Day Sales' con grandi sconti. In Italia si pranza con la famiglia (avanzi del giorno prima riadattati con creatività), si visitano parenti o si fa una lunga passeggiata. In Polonia e Repubblica Ceca ci sono visite e banchetti.",
+          "funFacts": [
+            "Nel Regno Unito la tradizionale caccia alla volpe si tiene il Boxing Day dal 1860 — dal 2005 solo come ‘drag hunt' senza volpe viva.",
+            "I ‘Boxing Day Sales' sono il giorno di maggior fatturato del commercio britannico — più del Black Friday.",
+            "In Australia il 26 dicembre parte la regata Sydney–Hobart, una delle più dure d'altura al mondo.",
+            "In Irlanda il giorno si chiama ‘St. Stephen's Day' — con l'antica tradizione dei ‘Wren Boys' che vanno mascherati di porta in porta."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "epiphany": {
+          "intro": "Trzech Króli, 6 stycznia, upamiętnia odwiedziny Mędrców ze Wschodu u Dzieciątka Jezus w Betlejem. W Polsce dzień wolny od pracy od 2011 roku.",
+          "history": "Święto Objawienia Pańskiego (‘Epifania') jest jednym z najstarszych w chrześcijaństwie i obchodzone było już od III wieku — w Kościele wschodnim nawet jako święto główne. Imiona Trzech Króli: Kacper, Melchior i Baltazar nie są wymienione w Biblii — przypisano je w średniowieczu. Ich relikwie miały od 1164 roku spoczywać w katedrze w Kolonii. W Polsce święto stało się dniem wolnym od pracy od 2011 roku.",
+          "traditions": "W Polsce w Trzech Króli organizuje się Orszak Trzech Króli — kolorowe procesje przez miasta, w których zwykli obywatele wcielają się w postaci biblijne. Tradycyjnie znaczy się drzwi domu kredą inicjałami ‘C+M+B+rok' (Christus mansionem benedicat — Chrystus błogosławi ten dom). Wiele rodzin uczestniczy w mszy.",
+          "funFacts": [
+            "Polskie Orszaki Trzech Króli to największe takie procesje na świecie — w setkach polskich miast biorą udział miliony osób.",
+            "Katedra w Kolonii została zaplanowana tak duża po to, by pomieścić strumienie pielgrzymów do relikwii Trzech Króli.",
+            "W Hiszpanii i Ameryce Łacińskiej to ‘Reyes Magos' przynoszą prezenty w wieczór 5 stycznia — nie Święty Mikołaj.",
+            "Tradycyjne ciasto królewskie (‘Galette des Rois' we Francji, ‘Roscón de Reyes' w Hiszpanii) zawiera ukrytą figurkę — kto ją znajdzie, jest królem na jeden dzień."
+          ],
+          "imageCredit": "Zdjęcie: CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Wielki Piątek to dzień największej żałoby w protestantyzmie i upamiętnia ukrzyżowanie Jezusa Chrystusa. W Polsce nie jest dniem wolnym, ale ma głęboki wymiar religijny.",
+          "history": "Wielki Piątek obchodzony jest przez chrześcijan od IV wieku. Wcześnie rozwinęły się tradycje liturgiczne: czytanie Pasji, adoracja krzyża, milczenie dzwonów. Reformacja nadała mu szczególne znaczenie; w regionach luterańskich pozostaje najważniejszym dniem roku liturgicznego. W Polsce katolickie tradycje obejmują Drogę Krzyżową, adorację krzyża i święcenie pokarmów w Wielką Sobotę.",
+          "traditions": "Wierni uczestniczą w Liturgii Męki Pańskiej, adorują krzyż i odprawiają Drogę Krzyżową — w Polsce słynne są kalwarie (Kalwaria Zebrzydowska, Wejherowska). Tradycyjnie jest to dzień postu — je się ryby zamiast mięsa. W niektórych regionach Niemiec organizowane są procesje pasyjne, a w Hiszpanii słynne procesje bractw, np. w Sewilli.",
+          "funFacts": [
+            "W Niemczech ‘Tanzverbot' (zakaz tańczenia) reguluje publiczne rozrywki w Wielki Piątek — tematyka regularnie wraca w debacie publicznej.",
+            "Bach skomponował Pasję według św. Mateusza w 1727 roku na nieszpory wielkopiątkowe w Lipsku.",
+            "Na Bermudach rodziny puszczają w Wielki Piątek samodzielnie zrobione latawce z bambusa i papieru — unikalna chrześcijańska tradycja.",
+            "W Polsce Misterium Męki Pańskiej w Kalwarii Zebrzydowskiej wpisane jest na listę UNESCO."
+          ],
+          "imageCredit": "Zdjęcie: Pietro Perugino · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Poniedziałek Wielkanocny (Lany Poniedziałek, Śmigus-Dyngus) to drugi dzień Wielkanocy i dzień wolny w większości krajów europejskich. W Polsce słynie z tradycji oblewania wodą.",
+          "history": "Wielkanoc to najstarsze święto chrześcijaństwa i upamiętnia zmartwychwstanie Jezusa Chrystusa trzeciego dnia po jego śmierci. Sobór Nicejski w 325 roku ustalił datę Wielkanocy na pierwszą niedzielę po pierwszej wiosennej pełni księżyca. Poniedziałek Wielkanocny obchodzony jest od wczesnego średniowiecza — pierwotnie cały tydzień wielkanocny był wolny. W Polsce zachowała się żywa tradycja Śmigusa-Dyngusa, sięgająca XV wieku.",
+          "traditions": "W Polsce Lany Poniedziałek (Śmigus-Dyngus) to dzień, w którym chłopcy oblewają dziewczęta wodą — tradycyjnie symbolizująca oczyszczenie i płodność. Rodziny szukają jajek wielkanocnych, jedzą śniadanie z kiełbasą, jajkami, chrzanem, mazurkiem i babką. W niektórych regionach (np. Beskid Żywiecki) chodzą ‘śmigustnicy' w przebraniach.",
+          "funFacts": [
+            "Zwyczaj poszukiwania jajek wzmiankował po raz pierwszy Marcin Luter — chciał ucieszyć swoje dzieci.",
+            "Największe czekoladowe jajko świata stało w Argentynie (8,5 m wysokości, 4 t) — wpisane do Księgi Guinnessa.",
+            "Polski Śmigus-Dyngus ma korzenie w słowiańskim święcie wiosennym — woda symbolizowała oczyszczenie i płodność.",
+            "W Czechach chłopcy biją dziewczyny rózgami z wierzby (‘pomlázka') — niby boleśnie, ale dla zdrowia i urody."
+          ],
+          "imageCredit": "Zdjęcie: Georgi Kirichkov · CC BY-SA 3.0 przez Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Wszystkich Świętych, 1 listopada, to katolicka uroczystość, w której Kościół wspomina wszystkich świętych. W Polsce tradycyjnie odwiedza się groby najbliższych — dzień głębokiej zadumy.",
+          "history": "Już w IV wieku istniało wspólne święto ku czci wszystkich męczenników. Papież Grzegorz IV wyznaczył święto na 1 listopada w 837 roku — prawdopodobnie po to, by ‘chrystianizować' celtyckie święto Samhain. W Polsce święto jest jednym z najważniejszych w roku — masowe odwiedziny cmentarzy, gdzie miliony zniczy rozświetlają nekropolie. To dzień wolny od pracy.",
+          "traditions": "1 i 2 listopada polskie rodziny odwiedzają cmentarze, zdobią groby zniczami, kwiatami (głównie chryzantemami) i kompozycjami z gałązek. Polskie cmentarze w te dni są niezwykłym widokiem — morza świec widocznych z kosmosu. Księża błogosławią groby, organizowane są procesje. W Polsce tradycja Wszystkich Świętych jest jedna z najmocniejszych w Europie.",
+          "funFacts": [
+            "Polskie cmentarze w noc 1 listopada widoczne są z kosmosu — miliony zniczy rozświetlają niemal każdą nekropolię w kraju.",
+            "Meksykański ‘Día de los Muertos' (1–2 listopada) wyrósł z połączenia katolickich i azteckich tradycji.",
+            "Polska tradycja kwiatu chryzantemy jako symbolu pamięci jest unikalna — w innych krajach kwiat ten ma inne znaczenie.",
+            "Halloween (‘All Hallows' Eve') wywodzi swoją nazwę bezpośrednio od wigilii Wszystkich Świętych."
+          ],
+          "imageCredit": "Zdjęcie: MichalPL · CC0 przez Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "Wigilia Bożego Narodzenia to najważniejszy dzień rodzinny w Polsce — z dwunastoma potrawami, opłatkiem, kolędami i wieczerzą wigilijną.",
+          "history": "Już w IV wieku Kościół ustalił narodzenie Jezusa na 25 grudnia. Wigilia (‘Vigilia') była tradycyjnie dniem postnym. W Polsce zachowała się szczególnie bogata tradycja Wigilii — 12 potraw symbolizujących 12 apostołów, dzielenie się opłatkiem, modlitwa i pierwsza gwiazdka na niebie jako sygnał do rozpoczęcia wieczerzy. Ozdobione choinki przybyły do Polski z Niemiec na początku XIX wieku, a po 1830 roku stały się powszechne.",
+          "traditions": "W Polsce wieczerza wigilijna zaczyna się wraz z pierwszą gwiazdką. Rodzina dzieli się opłatkiem, składając życzenia, po czym podaje 12 potraw — barszcz z uszkami, pierogi, karp, śledzie, kapusta z grochem, kompot z suszu, makowiec, sernik. Dodatkowe nakrycie zostaje pozostawione dla niespodziewanego gościa. O północy idzie się na Pasterkę.",
+          "funFacts": [
+            "‘Cicha noc' (‘Stille Nacht') została wykonana po raz pierwszy w 1818 roku w Oberndorf koło Salzburga — dziś przetłumaczona na ponad 300 języków.",
+            "Polska tradycja 12 potraw wigilijnych symbolizuje 12 apostołów lub 12 miesięcy roku — żadnej nie wolno pominąć.",
+            "W Czechach i na Słowacji w Wigilię je się karpia — a łuskę wkłada się do portfela dla bogactwa.",
+            "Polska tradycja zostawiania jednego dodatkowego nakrycia dla niespodziewanego gościa to symbol gościnności i pamięci o samotnych."
+          ],
+          "imageCredit": "Zdjęcie: ZemplinTemplar · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
+          "history": "Już w 354 roku 25 grudnia odnotowany jest jako ‘dies natalis Christi' w rzymskim kalendarzu. Kościół wybrał tę datę prawdopodobnie po to, by chrześcijańsko zinterpretować rzymskie święto ‘Sol Invictus'. Tradycja prezentów ma korzenie w darach Trzech Mędrców. Współczesny Święty Mikołaj w czerwonym płaszczu i z białą brodą to mieszanka św. Mikołaja i kampanii reklamowej Coca-Coli z 1931 roku.",
+          "traditions": "W Polsce Boże Narodzenie obchodzi się przez dwa dni (25 i 26 grudnia). Rodziny zbierają się na obfitym obiedzie — często rosół z makaronem, schab, indyk, sałatka jarzynowa, makowiec, sernik. Wymienia się prezenty (w Polsce zwykle wręczane już w Wigilię), śpiewa kolędy, wielu uczestniczy w nabożeństwach. Choinka i szopka są centralnymi symbolami.",
+          "funFacts": [
+            "Pierwszy komercyjny kalendarz adwentowy ukazał się w 1908 roku w Monachium — wynalazek Gerharda Langa.",
+            "Polskie kolędy — m.in. ‘Wśród nocnej ciszy', ‘Bóg się rodzi', ‘Lulajże, Jezuniu' — uchodzą za jedne z najpiękniejszych na świecie.",
+            "Norwegia podarowuje Wielkiej Brytanii corocznie od 1947 roku ogromną choinkę na Trafalgar Square — w podzięce za pomoc w II wojnie światowej.",
+            "Tradycja choinki dotarła do Polski z Niemiec na początku XIX wieku, a powszechna stała się po 1830 roku."
+          ],
+          "imageCredit": "Zdjęcie: Chris Olszewski · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "26 grudnia znany jest w Wielkiej Brytanii jako ‘Boxing Day', a w wielu krajach przedłuża święta Bożego Narodzenia. W Polsce to drugi dzień świąt — Święty Szczepan.",
+          "history": "Nazwa ‘Boxing Day' nie pochodzi od sportu — odnosi się do skarbon (‘Christmas boxes') w angielskich kościołach, otwieranych następnego dnia po Bożym Narodzeniu na rzecz biednych. Także zwyczaj wręczania służbie i listonoszom drobnych pudełek z pieniędzmi 26 grudnia ukształtował nazwę. W Polsce dzień ten jest świętem Świętego Szczepana, pierwszego męczennika chrześcijańskiego. Jest dniem wolnym od pracy.",
+          "traditions": "W Polsce drugi dzień świąt to tradycyjnie czas odwiedzin u dalszej rodziny i przyjaciół, dzielenie się opłatkiem (jeśli nie zostało zrobione w Wigilię) oraz wspólne posiłki. W Wielkiej Brytanii zaczynają się tradycyjne mecze Premier League, biegi z przeszkodami i słynne ‘Boxing Day Sales' z ogromnymi wyprzedażami.",
+          "funFacts": [
+            "W Wielkiej Brytanii tradycyjne polowanie na lisa odbywa się w Boxing Day od 1860 roku — od 2005 roku tylko jako ‘drag hunt' bez żywego lisa.",
+            "‘Boxing Day Sales' to dzień największej sprzedaży detalicznej w Wielkiej Brytanii — większy nawet niż Black Friday.",
+            "W Australii w Boxing Day rusza regata Sydney–Hobart, jedna z najtrudniejszych regat oceanicznych świata.",
+            "W Irlandii dzień nazywa się ‘St. Stephen's Day' — z dawną tradycją ‘Wren Boys' chodzących przebranych od domu do domu."
+          ],
+          "imageCredit": "Zdjęcie: Bim24 · CC0 przez Wikimedia Commons"
+        }
+      },
+      "nl": {
+        "epiphany": {
+          "intro": "Op Driekoningen, 6 januari, wordt het bezoek van de drie wijzen uit het Oosten aan het Christuskind in Bethlehem herdacht. Deze dag markeert het einde van de kersttijd.",
+          "history": "Het feest van ‘Driekoningen’ (‘de verschijning van de Heer’) is een van de oudste feesten van het christendom; het werd al in de 3e eeuw gevierd — in de Oosterse Kerk zelfs als het belangrijkste feest. De namen van de drie koningen, Caspar, Melchior en Balthasar, komen niet voor in de Bijbel; deze namen werden pas in de middeleeuwen aan hen toegekend. Hun relikwieën zouden sinds 1164 in de Dom van Keulen rusten, waardoor Keulen een van de grote bedevaartsoorden van de middeleeuwen werd. In Duitsland is Driekoningen een officiële feestdag in Beieren, Baden-Württemberg en Saksen-Anhalt.",
+          "traditions": "Elk jaar trekken de sterrenzangers in meer dan 100.000 acties van huis tot huis om donaties in te zamelen voor kinderen in nood en de zegen ‘C+M+B’ (‘Christus mansionem benedicat’ — moge Christus dit huis zegenen) op de deuropeningen te schrijven. In sommige regio’s wordt de kerstboom pas op deze dag afgebroken (‘plundering’). Feestelijke kerkdiensten sluiten de kersttijd af.",
+          "funFacts": [
+            "De Duitse actie ‘Star Singers’ is ’s werelds grootste solidariteitscampagne van kinderen voor kinderen — er wordt jaarlijks meer dan 50 miljoen euro aan donaties ingezameld.",
+            "De Dom van Keulen is bewust zo groot gebouwd om de stromen pelgrims naar de relikwieën van de Drie Koningen te kunnen ontvangen.",
+            "In Spanje en Latijns-Amerika brengen de ‘Reyes Magos’ op de avond van 6 januari cadeautjes — niet de kerstman.",
+            "In de traditionele ‘koningstaart’ (‘Galette des Rois’ in Frankrijk, ‘Roscón de Reyes’ in Spanje) zit een klein figuurtje verstopt — wie het vindt, is die dag koning."
+          ],
+          "imageCredit": "Foto: CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Goede Vrijdag is de belangrijkste protestantse rouwdag, ter herdenking van de kruisiging van Jezus Christus. In Duitsland is het een ‘stille feestdag’ met speciale wettelijke bescherming.",
+          "history": "Goede Vrijdag wordt al sinds de 4e eeuw door christenen gevierd. Het Duitse voorvoegsel ‘Kar’ is afgeleid van het Oudhoogduitse ‘chara’, wat ‘klaagzang’ of ‘rouw’ betekent. Al vroeg ontwikkelden zich liturgische tradities: het voorlezen van de Passie, de verering van het kruis en het stilleggen van de klokken. Door de Reformatie kreeg Goede Vrijdag een bijzondere betekenis; in lutherse regio’s blijft het de belangrijkste feestdag van het kerkelijk jaar.",
+          "traditions": "Veel christenen wonen passiediensten bij waarbij het passieverhaal wordt voorgelezen. Deze dag is van oudsher een vastendag — vis vervangt vlees. In sommige regio’s vinden er op Goede Vrijdag processies door de straten plaats, zoals de beroemde processie in Lohr am Main. Dansfeesten en luide muziek zijn in de meeste Duitse deelstaten bij wet verboden.",
+          "funFacts": [
+            "Het Duitse ‘dansverbod’ regelt het openbare vermaak op Goede Vrijdag — en is al jaren een veelbesproken onderwerp in de samenleving.",
+            "Bach componeerde zijn Matthäus-Passion in 1727 voor de Goede Vrijdagvesper in Leipzig — tegenwoordig een van de meest uitgevoerde werken ter wereld.",
+            "Op Goede Vrijdag laten gezinnen op Bermuda zelfgemaakte vliegers van bamboe en papier op — een unieke christelijke traditie.",
+            "In Spaanstalige landen heet Goede Vrijdag ‘Viernes Santo’ — met prachtige processies van broederschappen, bijvoorbeeld in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Paasmaandag is de tweede dag van Pasen en is in de meeste Europese landen een officiële feestdag. Deze dag markeert het einde van het belangrijkste christelijke feest.",
+          "history": "Pasen is het oudste feest in het christendom, waarbij de opstanding van Jezus Christus op de derde dag na zijn dood wordt gevierd. Het Concilie van Nicea stelde in 325 vast dat Pasen op de eerste zondag na de eerste volle maan van de lente valt. Paasmaandag wordt al sinds de vroege middeleeuwen gevierd — oorspronkelijk was de hele paasweek een feestdag. In Duitsland en Oostenrijk bleef het een wettelijke feestdag, in tegenstelling tot veel puur katholieke landen.",
+          "traditions": "Gezinnen gaan samen op zoek naar paaseieren, genieten van een ontspannen brunch of maken de klassieke paaswandeling (vereeuwigd in Goethes ‘Faust’). In Polen wordt ‘Śmigus-Dyngus’ gevierd: jongens bespatten meisjes met water. In Tsjechië kloppen jongens met wilgentakken op deuren. In Beieren en Oostenrijk is er de traditionele ‘Emmaus-wandeling’.",
+          "funFacts": [
+            "De traditie van het paaseieren zoeken werd voor het eerst genoemd door Maarten Luther, die het gebruikte om zijn kinderen een plezier te doen.",
+            "Het grootste chocolade-paasei ter wereld stond in Argentinië (8,5 m hoog, 4 t) — en werd opgenomen in het Guinness Book of Records.",
+            "In Zweden verkleden kinderen zich op Paaszaterdag als ‘Påskkärringar’ — kleine heksjes — en gaan ze van deur tot deur.",
+            "De paashaas als brenger van eieren werd voor het eerst genoemd in 1682 door de arts Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Allerheiligen, op 1 november, is een belangrijk katholiek feest waarop de Kerk alle heiligen gedenkt. In veel landen bezoeken families de graven van hun overleden dierbaren.",
+          "history": "Al in de 4e eeuw werd er een gezamenlijk gedenkfeest voor alle martelaren gevierd. Paus Gregorius IV stelde het feest in 837 vast op 1 november — waarschijnlijk om het Keltische Samhain-feest te ‘christianiseren’. In de middeleeuwen ontstond er een verband met Allerzielen op 2 november (herdenking van alle overledenen). In Duitsland is de dag bij wet beschermd in de katholieke deelstaten Beieren, Baden-Württemberg, Noordrijn-Westfalen, Rijnland-Palts en Saarland — als een ‘stille feestdag’.",
+          "traditions": "Op 1 en 2 november bezoeken gezinnen begraafplaatsen, waar ze de graven van hun overledenen versieren met kaarsen, bloemen en versieringen van dennentakken. Priesters zegenen de graven. In Polen wordt deze dag bijzonder uitbundig gevierd — ‘Wszystkich Świętych’ verandert elke stad in een zee van licht. Het bakken van ‘Allerheiligenbrood’ is een oude Oostenrijkse traditie.",
+          "funFacts": [
+            "In de nacht van 1 november worden er in Polen miljoenen kaarsen aangestoken op begraafplaatsen — zichtbaar vanuit de ruimte.",
+            "De Mexicaanse ‘Día de los Muertos’ (1–2 november) is ontstaan uit de versmelting van katholieke en Azteekse tradities.",
+            "De ‘Allerheiligenstriezel’ — een gevlochten gistbrood met rozijnen — wordt in Wenen traditioneel door peetouders aan hun petekinderen geschonken.",
+            "Halloween (‘All Hallows’ Eve’) ontleent zijn naam rechtstreeks aan de vooravond van Allerheiligen."
+          ],
+          "imageCredit": "Foto: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "Kerstavond is in Duitstalige landen de belangrijkste familiedag van de kerstperiode — met het uitdelen van cadeautjes, een feestelijke maaltijd en samen zingen onder de kerstboom.",
+          "history": "Al in de 4e eeuw stelde de Kerk de geboortedag van Jezus vast op 25 december. De vooravond (‘Vigil’) was van oudsher een vastendag. Na de Reformatie veranderde Maarten Luther de belangrijkste viering in Duitsland: in het begin van de 16e eeuw introduceerde hij de gewoonte dat het ‘Christuskind’ op kerstavond geschenken brengt — een tegenhanger van de katholieke Sint-Nicolaas. De versierde dennenboom deed in de 17e eeuw zijn intrede en veroverde in de 19e eeuw via koningin Victoria de wereld.",
+          "traditions": "’s Middags wordt de kerstboom versierd en gaan veel gezinnen naar een kinderdienst of een middernachtmis. Daarna volgt het uitdelen van de cadeautjes, vaak begeleid door kerstliederen als ‘Stille Nacht’ of ‘O Tannenbaum’. Typische gerechten zijn aardappelsalade met worstjes, karper of gebraden gans — afhankelijk van de familietraditie.",
+          "funFacts": [
+            "‘Stille Nacht, Heilige Nacht’ ging in 1818 in première in Oberndorf bij Salzburg — en is inmiddels in meer dan 300 talen vertaald.",
+            "In Scandinavië en Midden-Europa worden cadeaus op kerstavond uitgewisseld; in de Engelstalige wereld gebeurt dat pas op de ochtend van de 25e.",
+            "In Tsjechië en Slowakije wordt op kerstavond karper gegeten — en wordt er vervolgens een visschaal in de portemonnee gestopt als geluksbrenger.",
+            "De grootste natuurlijke kerstboom ter wereld wordt elk jaar in Dortmund, Duitsland, opgebouwd uit zo’n 1.700 afzonderlijke rode sparren."
+          ],
+          "imageCredit": "Foto: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Kerstmis op 25 december is het belangrijkste christelijke feest — ter ere van de geboorte van Jezus Christus — en wereldwijd een feest van familie, vrede en cadeautjes.",
+          "history": "Al in 354 wordt 25 december in een Romeinse kalender vermeld als ‘dies natalis Christi’. De Kerk heeft deze datum waarschijnlijk gekozen om het Romeinse winterzonnewendefeest ‘Sol Invictus’ een christelijke betekenis te geven. Het geven van cadeaus vindt zijn oorsprong in de geschenken van de drie koningen. De bekende kerstman met rode jas en witte baard is een mengeling van Sint Nicolaas en een reclamecampagne van Coca-Cola uit 1931.",
+          "traditions": "Gezinnen komen samen voor feestelijke maaltijden — kalkoen, gans, karper of raclette. Er worden cadeautjes uitgewisseld, kerstliederen gezongen en velen wonen de feestelijke kerkdienst bij. De versierde kerstboom met lichtjes, kerstballen en stro-sterren vormt het centrale symbool. Adventskalenders, koekjes en bezoekjes aan kerstmarkten horen bij de aanloop naar Kerstmis.",
+          "funFacts": [
+            "De eerste commerciële adventskalender verscheen in 1908 in München — uitgevonden door Gerhard Lang.",
+            "De kerstmarkten in Dresden (‘Striezelmarkt’, sinds 1434) en Frankfurt (sinds 1393) behoren tot de oudste ter wereld.",
+            "Noorwegen schenkt het Verenigd Koninkrijk al sinds 1947 elk jaar een reusachtige kerstboom voor Trafalgar Square — als dank voor de hulp tijdens de Tweede Wereldoorlog.",
+            "Kerstklassiekers als ‘Three Wishes for Cinderella’ en ‘Love Actually’ worden elk jaar wereldwijd tientallen keren op tv uitgezonden."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "26 december staat in het Verenigd Koninkrijk bekend als ‘Boxing Day’ en vormt in veel landen een verlenging van de kerstvakantie.",
+          "history": "De naam ‘Boxing Day’ heeft niets met sport te maken — hij verwijst naar de donatieboxen (‘Christmas boxes’) die in Engelse kerken werden geplaatst en op de dag na Kerstmis werden geopend om de armen te helpen. Ook de gewoonte om op 26 december kleine geldbedragen (‘boxes’) aan bedienden en postbodes te geven, heeft de naam mede gevormd. In Duitsland is deze dag de ‘Tweede Kerstdag’ en staat hij sinds 1933 wettelijk beschermd — oorspronkelijk om gezinnen de tijd te geven om naar familieleden te reizen.",
+          "traditions": "In het Verenigd Koninkrijk luidt deze dag het begin in van de traditionele voetbalwedstrijden in de Premier League, de paardenspringwedstrijden en de beroemde ‘Boxing Day Sales’ met enorme kortingen in de winkels. In Duitsland wordt er uitgebreid gegeten, gaan mensen op bezoek bij familieleden of maken ze een lange wandeling. In Polen en Tsjechië bezoeken families elkaar en genieten ze van feestelijke maaltijden.",
+          "funFacts": [
+            "In het Verenigd Koninkrijk wordt de traditionele vossenjacht al sinds 1860 op tweede kerstdag gehouden — maar sinds 2005 alleen nog als een ‘drag hunt’ zonder levende vos.",
+            "De Boxing Day-uitverkoop is de dag met de hoogste omzet in de Britse detailhandel — zelfs hoger dan Black Friday.",
+            "In Australië gaat op tweede kerstdag de Sydney–Hobart-zeilrace van start — een van de zwaarste offshore-races ter wereld.",
+            "In Ierland heet deze dag ‘St. Stephen's Day’ — met de oude traditie van de ‘Wren Boys’, waarbij jongens in kostuum van deur tot deur gaan."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "sv": {
+        "epiphany": {
+          "intro": "Trettondagen den 6 januari firas till minne av de tre vise männens besök från öster hos Kristusbarnet i Betlehem. Dagen markerar slutet på julen.",
+          "history": "Högtiden ”Epifania” (”Herrens uppenbarelse”) är en av kristendomens äldsta och firades redan under 300-talet – i den östliga kyrkan till och med som den viktigaste högtiden. Namnen på de tre kungarna, Caspar, Melchior och Balthasar, nämns inte i Bibeln; de tillskrevs dem först under medeltiden. Deras reliker sägs ha förvarats i Kölnerdomen sedan 1164, vilket gjorde Köln till en av medeltidens stora pilgrimsorter. I Tyskland är trettondagen en allmän helgdag i Bayern, Baden-Württemberg och Sachsen-Anhalt.",
+          "traditions": "Julsångare går från hus till hus i över 100 000 tillfällen varje år, samlar in donationer till behövande barn och skriver välsignelsen ”C+M+B” (”Christus mansionem benedicat” – må Kristus välsigna detta hus) på dörrkar. I vissa regioner tas julgranen ner först denna dag (”plundring”). Festliga gudstjänster avslutar julen.",
+          "funFacts": [
+            "Den tyska kampanjen ”Star Singers Action” är världens största solidaritetskampanj som drivs av barn för barn – och samlar in över 50 miljoner euro i donationer varje år.",
+            "Kölns domkyrka byggdes medvetet så stor för att kunna ta emot de stora strömmarna av pilgrimer som kom för att besöka de tre vise männens reliker.",
+            "I Spanien och Latinamerika är det ”Reyes Magos” som delar ut julklappar på kvällen den 6 januari – inte jultomten.",
+            "I den traditionella ”kungakakan” (”Galette des Rois” i Frankrike, ”Roscón de Reyes” i Spanien) gömmer sig en liten figur – den som hittar den blir kung för dagen."
+          ],
+          "imageCredit": "Foto: CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Långfredagen är den viktigaste protestantiska sorgedagen, då man minns Jesu Kristi korsfästelse. I Tyskland är det en ”tyst helgdag” med särskilt rättsligt skydd.",
+          "history": "Långfredagen har firats av kristna sedan 400-talet. Det tyska prefixet ”Kar” kommer från fornhögtyska ”chara”, som betyder klagan eller sorg. Liturgiska traditioner utvecklades tidigt: uppläsningen av passionsberättelsen, vördnaden av korset och tystnaden bland klockorna. Reformationen gav Långfredagen särskild betydelse; i lutherska regioner är den fortfarande den viktigaste högtiden under kyrkoåret.",
+          "traditions": "Många kristna deltar i passionsgudstjänster där passionsberättelsen läses upp. Dagen är traditionellt en fastedag – fisk ersätter kött. I vissa regioner hålls processioner på långfredagen genom gatorna, till exempel den berömda processionen i Lohr am Main. Dansarrangemang och hög musik är förbjudna enligt lag i de flesta tyska delstater.",
+          "funFacts": [
+            "Tysklands ”dansförbud” reglerar offentlig underhållning på långfredagen – och har varit ett hett samhällsämne i flera år.",
+            "Bach komponerade sin Matteuspassion år 1727 för vespergudstjänsten på långfredagen i Leipzig – idag ett av världens mest framförda verk.",
+            "På Bermuda flyger familjerna på långfredagen med självgjorda drakar av bambu och papper – en unik kristen tradition.",
+            "I spansktalande länder kallas långfredagen för ”Viernes Santo” – med storslagna brödraskapsprocessioner, till exempel i Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Påskmåndagen är den andra dagen under påskhelgen och är en allmän helgdag i de flesta europeiska länder. Den markerar avslutningen på kristendomens viktigaste högtid.",
+          "history": "Påsken är den äldsta högtiden inom kristendomen och firar Jesu Kristi uppståndelse den tredje dagen efter hans död. Vid kyrkomötet i Nikea år 325 fastställdes att påsken skulle infalla den första söndagen efter vårens första fullmåne. Påskmåndagen har firats sedan tidig medeltid – ursprungligen var hela påskveckan en helgdag. I Tyskland och Österrike förblev den en lagstadgad helgdag, till skillnad från i många rent katolska länder.",
+          "traditions": "Familjer letar efter påskägg tillsammans, njuter av en lugn brunch eller tar den klassiska påskpromenaden (som förevigats i Goethes ”Faust”). I Polen firas ”Śmigus-Dyngus”: pojkar stänker vatten på flickor. I Tjeckien knackar pojkar på dörrarna med pilkvistar. I Bayern och Österrike hålls den traditionella ”Emmaus-vandringen”.",
+          "funFacts": [
+            "Traditionen med påskäggsjakt nämndes för första gången av Martin Luther, som använde den för att glädja sina barn.",
+            "Världens största chokladpåskägg stod i Argentina (8,5 m högt, 4 t) — och finns med i Guinness rekordbok.",
+            "I Sverige klär sig barnen ut till ”påskkärringar” – små häxor – på påskafton och går från dörr till dörr.",
+            "Påskharen som äggutdelare omnämndes för första gången år 1682 av läkaren Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "all_saints_day": {
+          "intro": "Alla helgons dag den 1 november är en viktig katolsk högtid då kyrkan hedrar alla helgon. I många länder besöker familjer sina avlidnas gravar.",
+          "history": "Redan på 300-talet firades en gemensam minneshögtid för alla martyrer. Påven Gregorius IV fastställde högtiden till den 1 november år 837 – troligen för att ”kristna” den keltiska högtiden Samhain. Under medeltiden uppstod en koppling till Allhelgonadagen den 2 november (minnesdagen för alla avlidna). I Tyskland är dagen skyddad enligt lag i de katolska delstaterna Bayern, Baden-Württemberg, Nordrhein-Westfalen, Rheinland-Pfalz och Saarland – som en ”tyst helgdag”.",
+          "traditions": "Den 1 och 2 november besöker familjerna kyrkogårdarna och smyckar sina avlidnas gravar med ljus, blommor och kransar av grankvistar. Prästerna välsignar gravarna. I Polen firas dagen särskilt intensivt – ”Wszystkich Świętych” förvandlar varje stad till ett hav av ljus. Att baka ”Allhelgonabröd” är en gammal österrikisk tradition.",
+          "funFacts": [
+            "På natten den 1 november tänds miljontals ljus på kyrkogårdarna i Polen – något som syns ända upp i rymden.",
+            "Mexikos ”Día de los Muertos” (1–2 november) har sitt ursprung i en sammansmältning av katolska och aztekiska traditioner.",
+            "”Allerheiligenstriezel” – en jästfläta med russin – brukar traditionellt ges av gudföräldrar till gudbarn i Wien.",
+            "Halloween (”All Hallows’ Eve”) har fått sitt namn direkt från alla helgons afton."
+          ],
+          "imageCredit": "Foto: MichalPL · CC0 via Wikimedia Commons"
+        },
+        "christmas_eve": {
+          "intro": "Julafton är den viktigaste familjedagen under julhelgen i de tyskspråkiga länderna – med utdelning av julklappar, en festmåltid och gemensam sång under julgranen.",
+          "history": "Redan på 400-talet fastställde kyrkan att Jesus föddes den 25 december. Julafton (”Vigil”) var traditionellt en fastedag. Efter reformationen förändrade Martin Luther den centrala firandet i Tyskland: i början av 1500-talet införde han sedvänjan att ”Kristusbarnet” kommer med gåvor på julafton – en motvärld till den katolska helgonet Sankt Nikolaus. Den dekorerade granen gjorde sitt intåg på 1600-talet och erövrade världen via drottning Victoria på 1800-talet.",
+          "traditions": "På eftermiddagen pyntas julgranen och många familjer deltar i en barnmässa eller midnattsmässa. Därefter följer utdelningen av julklappar, ofta till tonerna av julsånger som ”Stilla natt” eller ”O Tannenbaum”. Klassiska rätter är potatissallad med korv, karp eller stekt gås – beroende på familjetraditionen.",
+          "funFacts": [
+            "”Stilla natt, heliga natt” hade premiär 1818 i Oberndorf nära Salzburg – och har idag översatts till över 300 språk.",
+            "I Skandinavien och Centraleuropa utbyter man julklappar på julafton; i den engelsktalande världen sker detta först på morgonen den 25:e.",
+            "I Tjeckien och Slovakien äter man karp på julafton – och sedan lägger man en fiskfjäll i plånboken för att få välstånd.",
+            "Världens största naturliga julgran byggs varje år i Dortmund i Tyskland av cirka 1 700 enskilda rödgranar."
+          ],
+          "imageCredit": "Foto: ZemplinTemplar · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Juldagen den 25 december är kristendomens viktigaste högtid – då man firar Jesus Kristus födelse – och över hela världen en högtid som präglas av familj, fred och gåvor.",
+          "history": "Den 25 december omnämns som ”dies natalis Christi” redan år 354 i en romersk kalender. Kyrkan valde troligen detta datum för att ge den romerska vintersolståndsfesten ”Sol Invictus” en kristen innebörd. Traditionen att ge gåvor har sina rötter i de tre vise männens gåvor. Den välkände jultomten med röd kappa och vitt skägg är en blandning av Sankt Nikolaus och en reklamkampanj från Coca-Cola från 1931.",
+          "traditions": "Familjerna samlas för festmåltider – kalkon, gås, karp eller raclette. Man utbyter julklappar, sjunger julsånger och många deltar i julgudstjänsten. Den pyntade julgranen med ljus, julgranspynt och halmstjärnor är den centrala symbolen. Adventskalendrar, pepparkakor och besök på julmarknader är en del av förberedelserna inför julen.",
+          "funFacts": [
+            "Den första kommersiella adventskalendern kom ut 1908 i München – uppfunnen av Gerhard Lang.",
+            "Julmarknaderna i Dresden (”Striezelmarkt”, sedan 1434) och Frankfurt (sedan 1393) hör till de äldsta i världen.",
+            "Norge har varje år sedan 1947 skänkt Storbritannien en gigantisk julgran till Trafalgar Square – som tack för hjälpen under andra världskriget.",
+            "Julklassiker som ”Three Wishes for Cinderella” och ”Love Actually” visas dussintals gånger på TV världen över varje år."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Den 26 december kallas i Storbritannien för ”Boxing Day” och i många länder förlänger den julhelgen.",
+          "history": "Namnet ”Boxing Day” har inget med sport att göra – det syftar på de insamlingslådor (”Christmas boxes”) som ställs ut i engelska kyrkor och öppnas dagen efter juldagen för att hjälpa de fattiga. Seden att ge små penninggåvor (”boxes”) till tjänstefolk och brevbärare den 26 december har också bidragit till namnet. I Tyskland kallas dagen ”andra juldagen” och har varit skyddad enligt lag sedan 1933 – ursprungligen för att ge familjer tid att resa till släktingar.",
+          "traditions": "I Storbritannien inleds dagen med de traditionella fotbollsmatcherna i Premier League, hästhoppning och de berömda ”Boxing Day-reorna” med enorma rabatter i butikerna. I Tyskland äter man rikligt, besöker släktingar eller tar en lång promenad. I Polen och Tjeckien besöker familjerna varandra och njuter av festmåltider.",
+          "funFacts": [
+            "I Storbritannien har den traditionella rävjakten hållits på annandag jul sedan 1860 – men sedan 2005 endast som en dragjakt utan levande räv.",
+            "Boxing Day-rean är den dag då detaljhandeln i Storbritannien omsätter mest – till och med mer än Black Friday.",
+            "I Australien startar seglingstävlingen Sydney–Hobart på annandagen – en av världens tuffaste havskappseglingar.",
+            "I Irland kallas dagen ”St. Stephen's Day” – med den gamla traditionen ”Wren Boys”, där utklädda pojkar går från dörr till dörr."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "ja": {
+        "epiphany": {
+          "intro": "1月6日の「公現祭」は、東方から来た三賢者がベツレヘムの幼子キリストを訪ねたことを記念する日です。この日はクリスマスシーズンの締めくくりとなります。",
+          "history": "「エピファニー」（「主の顕現」）の祝日は、キリスト教で最も古い祝日の一つであり、早くも3世紀には祝われていました。東方教会では、主要な祝日として位置づけられています。 三賢者であるカスパール、メルキオール、バルタザールの名前は聖書には記載されておらず、中世になって初めて付けられたものです。彼らの遺骨は1164年以来、ケルン大聖堂に安置されているとされ、これによりケルンは中世の主要な巡礼地の一つとなりました。 ドイツでは、エピファニーはバイエルン州、バーデン＝ヴュルテンベルク州、ザクセン＝アンハルト州で祝日となっている。",
+          "traditions": "スター・シンガーたちは毎年10万件以上の家々を回り、困っている子供たちのために寄付を集め、玄関に「C+M+B」（「Christus mansionem benedicat」— キリストがこの家を祝福しますように）という祝福の言葉を書き記します。 一部の地域では、クリスマスツリーはこの日に初めて片付けられます（「解体」）。祝祭の礼拝をもって、クリスマスシーズンが幕を閉じます。",
+          "funFacts": [
+            "ドイツの「スター・シンガーズ・アクション」は、子どもたちによる、子どもたちのために行われる世界最大の連帯キャンペーンであり、毎年5,000万ユーロ以上の寄付を集めています。",
+            "ケルン大聖堂は、三賢者の聖遺物を目当てに訪れる大勢の巡礼者を受け入れるために、あえてこれほど大規模に建設された。",
+            "スペインやラテンアメリカでは、1月6日の前夜にプレゼントを届けるのは「レイエス・マゴス」であり、サンタクロースではありません。",
+            "伝統的な「キングケーキ」（フランスでは「ガレット・デ・ロワ」、スペインでは「ロスコン・デ・レイエス」）には小さな置物が隠されており、それを見つけた人はその日一日、王様になる。"
+          ],
+          "imageCredit": "写真：CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "good_friday": {
+          "intro": "聖金曜日は、イエス・キリストの磔刑を記念する、プロテスタントにとって最も重要な追悼の日です。ドイツでは、この日は特別な法的保護が設けられた「静寂の祝日」とされています。",
+          "history": "聖金曜日は、4世紀以来、キリスト教徒によって祝われてきました。 ドイツ語の接頭辞「Kar」は、嘆きや哀悼を意味する古高ドイツ語の「chara」に由来しています。典礼の伝統は早くから確立され、受難物語の朗読、十字架の礼拝、鐘の鳴らし止めなどが行われてきました。宗教改革により、聖金曜日は特に重要な日となりました。ルーテル派の地域では、今もなお教会暦の中で最も重要な祝日となっています。",
+          "traditions": "多くのキリスト教徒が、受難の物語が朗読される受難礼拝に出席します。この日は伝統的に断食の日とされており、肉料理の代わりに魚料理が供されます。一部の地域では、ロア・アム・マインで行われる有名な行列のように、聖金曜日の行列が街中を練り歩きます。ドイツのほとんどの州では、ダンスイベントや大音量の音楽が法律で禁止されています。",
+          "funFacts": [
+            "ドイツの「ダンス禁止令」は、聖金曜日の公共の場での娯楽を規制するもので、長年にわたり社会的な話題となっている。",
+            "バッハは1727年、ライプツィヒの聖金曜日晩課のために『マタイ受難曲』を作曲した。この作品は今日、世界で最も頻繁に演奏されている作品の一つとなっている。",
+            "バミューダでは、聖金曜日に家族で手作りした竹と紙の凧を飛ばすという、キリスト教ならではの伝統行事が行われています。",
+            "スペイン語圏の国々では、聖金曜日は「Viernes Santo」と呼ばれ、セビリアなどで壮麗な兄弟団の行列が行われます。"
+          ],
+          "imageCredit": "写真：ピエトロ・ペルジーノ · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "easter_monday": {
+          "intro": "イースター・マンデーはイースターの2日目で、ヨーロッパのほとんどの国で祝日となっています。この日は、キリスト教における最も重要な祭りの締めくくりを告げる日です。",
+          "history": "イースターはキリスト教世界最古の祭りで、イエス・キリストの死から3日目に起こった復活を祝うものです。325年のニカイア公会議において、イースターは春の最初の満月の後の最初の日曜日に定められました。イースター・マンデーは中世初期から祝われており、もともとイースター週間全体が休日とされていました。 ドイツやオーストリアでは、純粋にカトリック教国が多いのとは異なり、イースターは現在も法定休日として残っています。",
+          "traditions": "家族で一緒にイースターエッグ探しをしたり、ゆったりとしたブランチを楽しんだり、伝統的なイースターの散歩（ゲーテの『ファウスト』にも描かれている）に出かけたりします。ポーランドでは「シュミグス・ディンガス」が祝われ、少年たちが少女たちに水をかけます。チェコでは、若者たちが柳の鞭でドアを叩きます。 バイエルン州やオーストリアでは、伝統的な「エマオの散歩」が行われます。",
+          "funFacts": [
+            "イースターエッグハントの習慣について初めて言及したのはマルティン・ルターであり、彼はこの習慣を利用して子供たちを楽しませていた。",
+            "アルゼンチンには、世界最大のチョコレートのイースターエッグ（高さ8.5 m、重さ4 t）が設置され、ギネスブックに登録された。",
+            "スウェーデンでは、聖土曜日に子供たちが「ポースカーリンガー」（小さな魔女）に扮して、家々を回ります。",
+            "イースターバニーが卵を届ける存在として初めて言及されたのは、1682年のことで、医師ゲオルク・フランク・フォン・フランケナウによるものでした。"
+          ],
+          "imageCredit": "写真：ゲオルギ・キリチコフ · CC BY-SA 3.0（ウィキメディア・コモンズ経由）"
+        },
+        "all_saints_day": {
+          "intro": "11月1日の「諸聖人の日」は、カトリック教会の主要な祝日であり、教会はこの日にすべての聖人を記念します。多くの国では、家族が亡くなった親族の墓参りをします。",
+          "history": "4世紀には、すでにすべての殉教者を記念する合同の祝日が設けられていました。教皇グレゴリウス4世は837年にこの祝日を11月1日に定めました。これは、ケルトの祭典「サムハイン」を「キリスト教化」するためだったと考えられています。 中世になると、11月2日の「万霊節」（すべての故人を偲ぶ日）との関連性が生まれた。ドイツでは、バイエルン州、バーデン＝ヴュルテンベルク州、ノルトライン＝ヴェストファーレン州、ラインラント＝プファルツ州、ザールラント州といったカトリック系州において、この日は「静かな祝日」として法律で保護されている。",
+          "traditions": "11月1日と2日には、家族が墓地を訪れ、亡くなった人の墓にろうそくや花、モミの枝の飾りを供えます。司祭が墓に祝福を与えます。 ポーランドでは、この日がとりわけ盛大に祝われ、「Wszystkich Świętych（諸聖人の日）」により、どの都市も光の海へと変貌します。「諸聖人のパン」を焼くのは、オーストリアの古い伝統です。",
+          "funFacts": [
+            "ポーランドでは、11月1日の夜、墓地で何百万本ものろうそくが灯され、その光景は宇宙からも見えるほどだ。",
+            "メキシコの「死者の日」（11月1日～2日）は、カトリックとアステカの伝統が融合して生まれたものである。",
+            "「アラーハイリゲンシュトリーゼル」――レーズン入りのイーストパン――は、ウィーンでは伝統的に、名付け親が名付け子に贈るものです。",
+            "ハロウィン（「オール・ハロウズ・イヴ」）という名称は、直接「諸聖人の日」の前夜に由来しています。"
+          ],
+          "imageCredit": "写真：MichalPL · CC0（ウィキメディア・コモンズ経由）"
+        },
+        "christmas_eve": {
+          "intro": "ドイツ語圏では、クリスマスイブはクリスマスのお祝いの中で最も重要な家族団らんの日であり、プレゼントの交換やごちそうを囲む食事、そしてクリスマスツリーの下でみんなで歌を歌うのが恒例となっています。",
+          "history": "早くも4世紀には、教会はイエスの誕生日を12月25日と定めた。その前夜（「ヴィジル」）は、伝統的に断食の日とされていた。 宗教改革後、マルティン・ルターはドイツにおける祝祭の中心を転換させた。16世紀初頭、彼はクリスマスイブに「キリストの幼子」が贈り物をもたらすという風習を導入した。これは、カトリックの聖ニコラウスに対抗するモデルであった。 飾り付けられたモミの木は17世紀に登場し、19世紀にはヴィクトリア女王を通じて世界中に広まりました。",
+          "traditions": "午後にはクリスマスツリーの飾り付けが行われ、多くの家族が子供向けの礼拝や真夜中のミサに出席します。その後、プレゼントの交換が行われ、その際には「きよしこの夜」や「オ・タンネンバウム」といったキャロルが歌われることがよくあります。定番の料理は、ソーセージ入りのポテトサラダ、鯉、あるいはローストガチョウなどですが、これは各家庭の伝統によって異なります。",
+          "funFacts": [
+            "『きよしこの夜』は1818年、ザルツブルク近郊のオーバーンドルフで初演され、現在では300以上の言語に翻訳されている。",
+            "スカンジナビアや中央ヨーロッパでは、クリスマスイブにプレゼントを交換しますが、英語圏では25日の朝にのみ交換されます。",
+            "チェコとスロバキアでは、クリスマスイブにコイを食べる習慣があり、その後、幸運を祈って魚の鱗を財布に忍ばせる。",
+            "ドイツのドルトムントでは、毎年、約1,700本のアカマツを使って、世界最大の天然のクリスマスツリーが作られています。"
+          ],
+          "imageCredit": "写真：ZemplinTemplar · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "christmas": {
+          "intro": "12月25日のクリスマスは、キリスト教において最も重要な祭日であり、イエス・キリストの誕生を祝うもので、世界中で家族、平和、そして贈り物を祝う祭りとなっています。",
+          "history": "12月25日は、早くも354年のローマ暦において「dies natalis Christi（キリストの誕生日）」として記録されている。教会がこの日付を選んだのは、ローマの冬至祭「ソル・インヴィクトゥス」にキリスト教的な意味を持たせるためだったと考えられる。 贈り物の習慣は、東方の三博士が持参した贈り物にその起源があります。赤いコートに白いひげというお馴染みのサンタクロースは、聖ニコラウスと1931年のコカ・コーラの広告キャンペーンが融合した姿です。",
+          "traditions": "家族が集まり、七面鳥やガチョウ、鯉、あるいはラクレットといったお祝いの食事を楽しみます。贈り物を交換し、クリスマスキャロルを歌い、多くの人がクリスマス礼拝に出席します。ライトやオーナメント、わらの星で飾られたクリスマスツリーが、その中心的なシンボルです。アドベントカレンダーやクッキー、クリスマスマーケットへの訪問も、クリスマスに向けた準備の一環です。",
+          "funFacts": [
+            "最初の市販のアドベントカレンダーは、1908年にミュンヘンで登場しました。これはゲルハルト・ラングによって考案されたものです。",
+            "ドレスデン（「シュトリーツェルマルクト」、1434年より）とフランクフルト（1393年より）のクリスマスマーケットは、世界でも最も古いものの一つに数えられます。",
+            "ノルウェーは、第二次世界大戦中の支援への感謝の印として、1947年以来毎年、トラファルガー広場に飾る巨大なクリスマスツリーを英国に贈呈している。",
+            "『シンデレラの3つの願い』や『ラブ・アクチュアリー』といったホリデーシーズンの定番作品は、毎年世界中のテレビで数十回も放送されている。"
+          ],
+          "imageCredit": "写真：クリス・オルシェフスキー · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "boxing_day": {
+          "intro": "12月26日は、イギリスでは「ボクシング・デー」として知られており、多くの国ではこの日がクリスマス休暇の延長日となっています。",
+          "history": "「ボクシング・デー」という名称はスポーツとは何の関係もありません。これは、イギリスの教会に置かれ、クリスマスの翌日に貧しい人々を助けるために開かれる寄付箱（「クリスマス・ボックス」）に由来しています。また、12月26日に使用人や郵便配達員に少額の金銭（「ボックス」）を贈る習慣も、この名称の由来となっています。 ドイツでは、この日は「第2のクリスマス休暇」とされ、1933年以来法律で保護されています。もともとは、家族が親戚のもとへ旅行する時間を確保するために設けられたものです。",
+          "traditions": "イギリスでは、この日を皮切りに、伝統的なプレミアリーグのサッカー試合や障害馬術競技、そして店舗で大幅な割引が行われる有名な「ボクシング・デー・セール」が始まります。ドイツでは、人々はたっぷり食事を楽しんだり、親戚の家を回ったり、長い散歩に出かけたりします。ポーランドやチェコでは、家族同士で互いの家を訪ね合い、お祝いの食事を楽しみます。",
+          "funFacts": [
+            "英国では、1860年以来、ボクシング・デーに伝統的なキツネ狩りが行われてきたが、2005年以降は生きたキツネを使わない「ドラッグ・ハント」のみとなっている。",
+            "ボクシング・デーのセールは、英国で最も売上高が高い小売業の日であり、ブラックフライデーを上回るほどです。",
+            "オーストラリアでは、ボクシング・デーにシドニー・ホバート・ヨットレースが始まります。これは、世界でも最も過酷なオフショアレースの一つです。",
+            "アイルランドでは、この日は「聖ステファンの日」と呼ばれ、仮装した若者たちが家々を回るという古くからの「レン・ボーイズ」の伝統が行われます。"
+          ],
+          "imageCredit": "写真：Bim24 · CC0（ウィキメディア・コモンズ経由）"
+        }
+      },
+      "ko": {
+        "epiphany": {
+          "intro": "1월 6일 주현절은 동방에서 온 동방박사들이 베들레헴의 아기 예수님을 찾아온 일을 기념하는 날입니다. 이 날을 기점으로 성탄절 기간이 마무리됩니다.",
+          "history": "‘주현절’(‘주님의 현현’)은 기독교에서 가장 오래된 축일 중 하나로, 이미 3세기부터 기념되어 왔으며, 동방 교회에서는 심지어 가장 중요한 축일로 여겨지기도 했다. 동방박사인 카스파르, 멜키오르, 발타사르의 이름은 성경에 등장하지 않으며, 중세 시대에 이르러서야 붙여진 이름이다. 이들의 유물은 1164년부터 쾰른 대성당에 안치되어 있다고 전해지며, 이로 인해 쾰른은 중세 시대의 주요 순례지 중 하나가 되었다. 독일에서는 바이에른주, 바덴뷔르템베르크주, 작센안할트주에서 주현절을 공휴일로 지정하고 있다.",
+          "traditions": "매년 10만 건이 넘는 행사에서 ‘스타 가수들’이 집집마다 방문하여 어려운 처지에 있는 아이들을 위한 기부금을 모으고, 문 위에 ‘C+M+B’(‘Christus mansionem benedicat’ — 그리스도께서 이 집을 축복하시기를)라는 축복의 문구를 적습니다. 일부 지역에서는 크리스마스 트리를 바로 이날에야 비로소 해체합니다(‘plundering’). 성탄절 시즌은 성탄 미사로 막을 내립니다.",
+          "funFacts": [
+            "독일의 ‘스타 싱어스 액션(Star Singers Action)’은 어린이들이 어린이를 위해 펼치는 세계 최대 규모의 연대 캠페인으로, 매년 5,000만 유로 이상의 기부금을 모금하고 있습니다.",
+            "쾰른 대성당은 동방박사의 유물을 보러 몰려드는 수많은 순례자들을 수용하기 위해 의도적으로 그렇게 거대하게 지어졌습니다.",
+            "스페인과 라틴 아메리카에서는 1월 6일 전날 밤, 산타클로스가 아닌 ‘레예스 마고스’가 선물을 가져다줍니다.",
+            "전통적인 ‘킹 케이크’(프랑스에서는 ‘갈레트 데 로아(Galette des Rois)’, 스페인에서는 ‘로스콘 데 레예스(Roscón de Reyes)’라고 함) 안에는 작은 인형이 숨겨져 있는데, 이를 찾은 사람은 그날 하루 동안 왕이 된다."
+          ],
+          "imageCredit": "사진: 위키미디어 공용을 통해 제공된 CC BY-SA 4.0 라이선스"
+        },
+        "good_friday": {
+          "intro": "성금요일은 예수 그리스도의 십자가 처형을 기리는 개신교에서 가장 엄숙한 추모의 날입니다. 독일에서는 이 날이 특별한 법적 보호를 받는 ‘침묵의 휴일’로 지정되어 있습니다.",
+          "history": "성금요일은 4세기부터 기독교인들에 의해 기념되어 왔습니다. 독일어 접두사 ‘Kar’는 ‘애도’나 ‘애도하는 마음’을 뜻하는 고대 고지독일어 ‘chara’에서 유래했습니다. 전례 전통은 일찍부터 정립되었는데, 여기에는 수난기 낭독, 십자가 숭배, 종을 울리지 않는 관습 등이 포함됩니다. 종교개혁을 계기로 성금요일은 특별한 의미를 갖게 되었으며, 루터교 지역에서는 여전히 교회 연중 가장 중요한 축일로 여겨지고 있습니다.",
+          "traditions": "많은 기독교인들이 수난 이야기를 낭독하는 수난 예배에 참석합니다. 이날은 전통적으로 금식하는 날로, 고기 대신 생선을 먹습니다. 일부 지역에서는 ‘로르 암 마인(Lohr am Main)’의 유명한 행렬과 같이 성금요일 행렬이 거리를 누비기도 합니다. 대부분의 독일 주에서는 법에 따라 춤 행사나 시끄러운 음악이 금지되어 있습니다.",
+          "funFacts": [
+            "독일의 ‘춤 금지령’은 성금요일에 이루어지는 공공 오락 활동을 규제하는 것으로, 수년 동안 뜨거운 사회적 화제가 되어 왔다.",
+            "바흐는 1727년 라이프치히의 성금요일 저녁 기도회를 위해 《마태 수난곡》을 작곡했는데, 이 작품은 오늘날 전 세계에서 가장 많이 연주되는 작품 중 하나이다.",
+            "버뮤다에서는 성금요일에 가족들이 직접 만든 대나무와 종이로 만든 연을 날리는데, 이는 기독교의 독특한 전통입니다.",
+            "스페인어권 국가들에서 성금요일은 ‘비에르네스 산토(Viernes Santo)’라고 불리며, 예를 들어 세비야에서는 웅장한 형제회 행렬이 펼쳐집니다."
+          ],
+          "imageCredit": "사진: 피에트로 페루지노 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "easter_monday": {
+          "intro": "부활절 다음 날인 부활절 월요일은 대부분의 유럽 국가에서 공휴일입니다. 이 날은 기독교에서 가장 중요한 축제가 끝나는 날을 의미합니다.",
+          "history": "부활절은 기독교 세계에서 가장 오래된 축제로, 예수 그리스도가 죽은 지 사흘 만에 부활하신 것을 기념하는 날입니다. 325년에 열린 니케아 공의회는 부활절을 봄의 첫 보름달이 뜬 후 첫 번째 일요일로 정했습니다. 부활절 다음 날인 월요일은 중세 초기부터 휴일로 지켜져 왔으며, 원래는 부활절 주간 전체가 휴일이었으나, 독일과 오스트리아에서는 순수 가톨릭 국가들과 달리 부활절이 여전히 법정 공휴일로 남아 있습니다.",
+          "traditions": "가족들은 함께 부활절 달걀을 찾거나, 여유로운 브런치를 즐기거나, 고트헤의 『파우스트』에 영원히 기록된 고전적인 부활절 산책을 즐깁니다. 폴란드에서는 ‘슈미구스-딩구스’ 축제가 열리는데, 소년들이 소녀들에게 물을 뿌립니다. 체코에서는 청년들이 버드나무 채로 문을 두드립니다. 바이에른과 오스트리아에서는 전통적인 ‘엠마우스 산책’이 열립니다.",
+          "funFacts": [
+            "부활절 달걀 찾기 풍습은 마틴 루터가 처음 언급했는데, 그는 이 풍습을 통해 자녀들을 기쁘게 해주곤 했다.",
+            "세계에서 가장 큰 초콜릿 부활절 달걀이 아르헨티나에 세워졌으며(높이 8.5m, 무게 4t), 이는 기네스북에 등재되었다.",
+            "스웨덴에서는 성토일에 아이들이 ‘파스크케링(Påskkärringar)’—작은 마녀—로 분장하고 집집마다 돌아다닙니다.",
+            "달걀을 배달하는 부활절 토끼에 대한 첫 언급은 1682년 의사 게오르크 프랑크 폰 프랑케나우에 의해 이루어졌다."
+          ],
+          "imageCredit": "사진: 게오르기 키리치코프 · CC BY-SA 3.0 (위키미디어 공용 제공)"
+        },
+        "all_saints_day": {
+          "intro": "11월 1일 ‘모든 성인의 날’은 교회가 모든 성인을 기리는 가톨릭의 주요 축일입니다. 많은 나라에서 가족들은 세상을 떠난 이들의 묘소를 찾아갑니다.",
+          "history": "4세기에는 이미 모든 순교자를 기리는 공동 기념 축일이 존재했다. 교황 그레고리오 4세는 837년에 이 축일을 11월 1일로 정했는데, 이는 켈트족의 축제인 ‘삼하인(Samhain)’을 ‘기독교화’하기 위한 조치였을 가능성이 높다. 중세 시대에는 11월 2일 ‘모든 영혼의 날’(모든 고인을 기리는 날)과의 연관성이 형성되었다. 독일에서는 바이에른, 바덴뷔르템베르크, 노르트라인베스트팔렌, 라인란트팔츠, 자르란트 등 가톨릭 주에서 이 날을 ‘침묵의 휴일’로 법적으로 지정하여 보호하고 있다.",
+          "traditions": "11월 1일과 2일에는 가족들이 묘지를 찾아, 촛불과 꽃, 전나무 가지로 고인의 무덤을 장식합니다. 사제들은 무덤에 축복을 내립니다. 폴란드에서는 이 날을 특히 성대하게 기념하는데, ‘Wszystkich Świętych’ 덕분에 모든 도시가 빛의 바다로 변합니다. ‘모든 성인의 날 빵’을 굽는 것은 오스트리아의 오래된 전통입니다.",
+          "funFacts": [
+            "폴란드에서는 11월 1일 밤, 묘지 곳곳에 수백만 개의 촛불이 켜지는데, 이는 우주에서도 볼 수 있다.",
+            "멕시코의 ‘디아 데 로스 무에르토스’(11월 1~2일)는 가톨릭과 아즈텍 전통이 융합되어 생겨난 축제입니다.",
+            "‘알레르하이리겐스트리젤’ — 건포도가 들어간 효모 땋은 빵 — 은 비엔나에서 대부모가 대자녀에게 전통적으로 선물하는 음식입니다.",
+            "할로윈(‘All Hallows’ Eve’)이라는 이름은 바로 ‘모든 성인의 날’ 전날에서 유래한 것입니다."
+          ],
+          "imageCredit": "사진: MichalPL · CC0, 위키미디어 공용 제공"
+        },
+        "christmas_eve": {
+          "intro": "독일어권 국가에서 크리스마스 이브는 크리스마스 축제 기간 중 가장 중요한 가족의 날로, 크리스마스 트리 아래에서 선물을 주고받고, 축제 분위기의 식사를 즐기며, 함께 노래를 부르는 날입니다.",
+          "history": "이미 4세기부터 교회는 예수의 탄생일을 12월 25일로 정했습니다. 그 전날(‘Vigil’)은 전통적으로 금식하는 날이었습니다. 종교 개혁 이후, 마르틴 루터는 독일에서 크리스마스의 중심 기념 방식을 바꿨습니다. 16세기 초, 그는 ‘아기 예수’가 크리스마스 이브에 선물을 가져다준다는 관습을 도입했는데, 이는 가톨릭의 성 니콜라스에 대항하는 대안 모델이었습니다. 장식된 전나무는 17세기에 등장했으며, 19세기에 빅토리아 여왕을 통해 전 세계로 퍼져 나갔습니다.",
+          "traditions": "오후에는 크리스마스 트리를 장식하고, 많은 가족들이 어린이 미사나 자정 미사에 참석합니다. 그 다음에는 선물 교환 시간이 이어지는데, 이때는 대개 ‘고요한 밤’이나 ‘오 탄넨바움’ 같은 캐럴이 흐릅니다. 대표적인 요리로는 소시지를 곁들인 감자 샐러드, 잉어 요리, 또는 구운 거위 등이 있는데, 이는 각 가족의 전통에 따라 다릅니다.",
+          "funFacts": [
+            "‘고요한 밤, 거룩한 밤’은 1818년 잘츠부르크 인근 오베른도르프에서 처음 불렸으며, 현재 300개 이상의 언어로 번역되어 있다.",
+            "스칸디나비아와 중부 유럽에서는 크리스마스 이브에 선물을 주고받지만, 영어권 국가에서는 25일 아침에만 선물을 주고받습니다.",
+            "체코와 슬로바키아에서는 크리스마스 이브에 잉어를 먹는데, 그 후 행운을 빌기 위해 물고기 비늘 한 조각을 지갑에 넣어 둔다.",
+            "독일 도르트문트에서는 매년 약 1,700그루의 붉은 전나무를 이용해 세계 최대 규모의 천연 크리스마스 트리를 세웁니다."
+          ],
+          "imageCredit": "사진: ZemplinTemplar · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "christmas": {
+          "intro": "12월 25일의 크리스마스는 예수 그리스도의 탄생을 기념하는 기독교에서 가장 중요한 명절이며, 전 세계적으로 가족, 평화, 선물을 나누는 축제입니다.",
+          "history": "12월 25일은 빠르면 354년 로마 달력에서 ‘dies natalis Christi’로 기록되어 있다. 교회는 로마의 동지 축제인 ‘솔 인빅투스(Sol Invictus)’에 기독교적 의미를 부여하기 위해 이 날짜를 선택한 것으로 보인다. 선물 교환의 기원은 동방박사들이 가져온 선물에서 비롯됩니다. 빨간 옷과 흰 수염을 한 우리에게 친숙한 산타클로스는 성 니콜라스와 1931년 코카콜라 광고 캠페인이 결합된 모습입니다.",
+          "traditions": "가족들은 칠면조, 거위, 잉어, 라클렛 등 명절 음식을 함께 즐기기 위해 모입니다. 선물을 주고받고, 캐럴을 부르며, 많은 이들이 성탄 예배에 참석합니다. 불빛과 장식품, 짚으로 만든 별이 장식된 크리스마스 트리는 이 시기의 중심적인 상징입니다. 대림 달력, 쿠키, 크리스마스 마켓 방문 등은 성탄절을 앞둔 기간의 풍경입니다.",
+          "funFacts": [
+            "최초의 상업용 어드벤트 캘린더는 1908년 뮌헨에서 등장했는데, 게르하르트 랑이 발명했다.",
+            "드레스덴(‘스트리첼마르크트’, 1434년부터)과 프랑크푸르트(1393년부터)의 크리스마스 시장은 세계에서 가장 오래된 시장 중 하나입니다.",
+            "노르웨이는 제2차 세계대전 당시 영국이 제공한 도움에 대한 감사의 표시로, 1947년부터 매년 트라팔가 광장에 세울 거대한 크리스마스 트리를 영국에 기증해 왔다.",
+            "‘신데렐라의 세 가지 소원’이나 ‘러브 액츄얼리’와 같은 명절 명작 영화들은 매년 전 세계 TV에서 수십 차례 방영된다."
+          ],
+          "imageCredit": "사진: 크리스 올셰프스키 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "boxing_day": {
+          "intro": "12월 26일은 영국에서 ‘박싱 데이’로 알려져 있으며, 많은 나라에서 이 날을 크리스마스 연휴의 연장일로 삼고 있습니다.",
+          "history": "‘박싱 데이(Boxing Day)’라는 이름은 스포츠와는 아무런 관련이 없습니다. 이는 영국 교회에 비치되어 크리스마스 다음 날 가난한 사람들을 돕기 위해 개봉되던 기부 상자(‘크리스마스 박스’)에서 유래한 이름입니다. 12월 26일에 하인이나 우편 배달원에게 소액의 현금 선물(‘박스’)을 주는 관습도 이 이름의 유래에 한몫했습니다. 독일에서는 이 날을 ‘두 번째 크리스마스 휴일’로 부르며, 1933년부터 법으로 보호받아 왔는데, 원래는 가족들이 친척을 방문할 수 있는 시간을 확보하기 위한 것이었습니다.",
+          "traditions": "영국에서는 이날을 기점으로 전통적인 프리미어리그 축구 경기가 시작되고, 장애물 경마가 열리며, 유명 상점들이 대대적인 할인을 제공하는 ‘박싱 데이 세일’이 시작됩니다. 독일에서는 사람들이 푸짐하게 식사를 하거나 친척들을 더 많이 찾아가거나, 긴 산책을 즐기기도 합니다. 폴란드와 체코에서는 가족들이 서로 집을 방문하며 명절 음식을 즐깁니다.",
+          "funFacts": [
+            "영국에서는 1860년부터 박싱 데이에 전통적인 여우 사냥이 열려 왔으나, 2005년부터는 살아있는 여우가 없는 ‘드래그 헌트’ 형태로만 진행되고 있다.",
+            "박싱 데이 세일은 영국에서 매출이 가장 높은 소매업 날로, 블랙 프라이데이보다도 매출이 더 높습니다.",
+            "호주에서는 박싱 데이에 시드니-호바트 요트 경주가 시작되는데, 이는 세계에서 가장 험난한 원양 요트 경주 중 하나다.",
+            "아일랜드에서는 이날을 ‘성 스테판의 날’이라고 부르며, 의상을 입은 소년들이 집집마다 돌아다니는 오래된 ‘렌 보이즈’ 전통이 이어지고 있습니다."
+          ],
+          "imageCredit": "사진: Bim24 · CC0, 위키미디어 공용 제공"
+        }
+      },
+      "zh-Hant": {
+        "epiphany": {
+          "intro": "1月6日的「主顯節」紀念來自東方的三賢士造訪伯利恆的耶穌聖嬰。這一天標誌著聖誕季節的結束。",
+          "history": "「主顯節」（「主顯現」）是基督教最古老的節日之一，早在3世紀便已開始慶祝——在東方教會中，甚至被視為最重要的節日。 《聖經》中並未提及三位智者——卡斯帕、梅爾基奧爾和巴爾塔薩——的名字；這些名字是中世紀才被賦予的。據說自1164年起，他們的聖髑便安放於科隆大教堂，使科隆成為中世紀最重要的朝聖地之一。 在德國，主顯節是巴伐利亞、巴登-符騰堡及薩克森-安哈特等州的法定假日。",
+          "traditions": "每年，星光歌手們會走訪各家各戶，進行超過十萬次活動，為有需要的兒童募款，並在門楣上寫下「C+M+B」的祝福語（「Christus mansionem benedicat」——願基督賜福此屋）。 在某些地區，聖誕樹要等到這一天才會被拆下（稱為「拆樹」）。節慶禮拜則為聖誕季節畫下句點。",
+          "funFacts": [
+            "德國的「明星歌手行動」是全球規模最大的由兒童發起、為兒童而設的團結行動——每年募集的捐款超過 5,000 萬歐元。",
+            "科隆大教堂之所以建得如此宏偉，正是為了容納前來朝拜東方三博士聖物的朝聖者潮。",
+            "在西班牙和拉丁美洲，是「三賢王」（Reyes Magos）在1月6日的前夕送來禮物——而不是聖誕老人。",
+            "傳統的「國王蛋糕」（法國稱為「Galette des Rois」，西班牙稱為「Roscón de Reyes」）裡藏著一個小人偶——誰找到它，當天就是國王。"
+          ],
+          "imageCredit": "照片：CC BY-SA 4.0，來源：維基共享資源"
+        },
+        "good_friday": {
+          "intro": "「受難日」是新教最重要的哀悼日，用以紀念耶穌基督被釘十字架。在德國，這是一個享有特殊法律保障的「靜默假日」。",
+          "history": "自四世紀以來，基督徒便一直慶祝「受難日」。 德語前綴「Kar」源自古高地德語「chara」，意為哀悼或悲慟。相關禮儀傳統很早就已形成：誦讀受難記、敬禮十字架以及停止鐘聲。宗教改革賦予了「受難日」特殊的意義；在路德宗地區，它至今仍是教會年曆中最重要的節日。",
+          "traditions": "許多基督徒會參加宣讀受難敘事的受難禮拜。這一天傳統上是禁食日——以魚類代替肉類。在某些地區，會舉行聖週五遊行隊伍穿梭街頭，例如美因河畔洛爾（Lohr am Main）那場著名的遊行。在德國大多數邦，法律明文禁止舉辦舞蹈活動及播放大聲音樂。",
+          "funFacts": [
+            "德國的「禁舞令」規範了聖週五當天的公共娛樂活動——這項規定多年來一直是社會熱議的話題。",
+            "巴赫於1727年為萊比錫的「受難日」晚禱創作了《馬太受難曲》——這部作品如今已成為全球演出頻率最高的樂曲之一。",
+            "在百慕達，各家各戶會在耶穌受難日放飛自製的竹製與紙製風箏——這是一項獨特的基督教傳統。",
+            "在西班牙語系國家，耶穌受難日被稱為「Viernes Santo」——屆時會舉行壯觀的兄弟會遊行，例如在塞維利亞。"
+          ],
+          "imageCredit": "圖片：皮耶特羅·佩魯吉諾 · 經維基共享資源提供，採用 CC BY-SA 4.0 授權"
+        },
+        "easter_monday": {
+          "intro": "復活節星期一即為復活節的第二天，在大多數歐洲國家均屬法定假日。這一天標誌著基督教最重要的節日圓滿落幕。",
+          "history": "復活節是基督教世界最古老的節日，用以慶祝耶穌基督在逝世後第三天復活。325年的尼西亞大公會議將復活節定為春季首次滿月後的第一个星期日。自中世紀早期起，復活節星期一便被視為節日——最初整個復活節週都是假期。 在德國和奧地利，復活節至今仍是法定假日，這與許多純天主教國家的情況不同。",
+          "traditions": "家人們會一起尋找復活節彩蛋、享受悠閒的早午餐，或是進行經典的復活節漫步（這項傳統在歌德的《浮士德》中被永恆地銘記）。在波蘭，人們慶祝「Śmigus-Dyngus」節：男孩們會向女孩們潑水。在捷克，年輕小夥子們則會用柳條鞭輕敲門戶。 在巴伐利亞和奧地利，則有傳統的「艾瑪烏斯漫步」。",
+          "funFacts": [
+            "復活節彩蛋尋寶活動的習俗最早是由馬丁·路德提及的，他當時是為了讓自己的孩子們開心而舉辦這項活動。",
+            "世界上最大的巧克力復活節彩蛋矗立在阿根廷（高8.5公尺，重4公噸）——並被載入《金氏世界紀錄》。",
+            "在瑞典，孩子們會在聖週六打扮成「Påskkärringar」——也就是小女巫——並挨家挨戶拜訪。",
+            "1682年，醫師喬治·弗蘭克·馮·弗蘭肯瑙（Georg Franck von Franckenau）首次提及復活節兔子作為送蛋者的角色。"
+          ],
+          "imageCredit": "照片：Georgi Kirichkov · 經維基共享資源提供，採用 CC BY-SA 3.0 授權"
+        },
+        "all_saints_day": {
+          "intro": "11月1日的諸聖節是天主教的一項重要慶日，教會在此日紀念所有聖人。在許多國家，家人們會前往已故親人的墳墓前悼念。",
+          "history": "早在四世紀時，便已有一項為所有殉道者舉行的聯合紀念慶典。教宗格雷戈里四世於837年將該慶典定於11月1日——此舉很可能是為了將凱爾特人的薩溫節（Samhain）「基督教化」。 中世紀時，該節日逐漸與11月2日的「諸靈節」（紀念所有亡者）產生關聯。在德國，巴伐利亞、巴登-符騰堡、北萊茵-威斯特法倫、萊茵蘭-普法爾茨及薩爾州等天主教州，法律明文規定將此日列為「靜默假日」。",
+          "traditions": "11月1日和2日，家家戶戶會前往墓園，用蠟燭、鮮花和冷杉枝編成的花環裝飾逝者的墳墓。神父會為墳墓進行祝聖。 在波蘭，這一天的慶祝活動格外熱烈——「諸聖節」（Wszystkich Świętych）讓每座城市都化作一片光海。烘焙「諸聖節麵包」是奧地利的一項古老傳統。",
+          "funFacts": [
+            "在波蘭，每逢 11 月 1 日的夜晚，墓園裡會點燃數百萬支蠟燭——從太空中都能看見。",
+            "墨西哥的「亡靈節」（11月1日至2日）源於天主教與阿茲特克傳統的融合。",
+            "「Allerheiligenstriezel」——一種加入葡萄乾的酵母編織麵包——在維也納，傳統上是由教父教母贈送給教子的。",
+            "萬聖節（“All Hallows' Eve”）的名稱直接源自諸聖節前夕。"
+          ],
+          "imageCredit": "照片：MichalPL · CC0，來源：維基共享資源"
+        },
+        "christmas_eve": {
+          "intro": "在德語系國家，平安夜是聖誕節期間最重要的家庭團聚日——人們會互贈禮物、享用節慶大餐，並在聖誕樹下齊聲歡唱。",
+          "history": "早在4世紀，教會便將耶穌的誕辰定於12月25日。前夕（「守夜」Vigil）傳統上是一天斋戒的日子。 宗教改革後，馬丁·路德改變了德國的主要慶祝方式：16世紀初，他引進了「基督聖嬰」在平安夜送禮物的習俗——這與天主教的聖尼古拉傳說形成對比。 裝飾過的冷杉樹於17世紀出現，並在19世紀透過維多利亞女王風靡全球。",
+          "traditions": "下午時分，大家會裝飾聖誕樹，許多家庭會參加兒童禮拜或子夜彌撒。接著便是互贈禮物的環節，這時常會響起《平安夜》或《啊，松樹》等聖誕頌歌。經典菜餚包括馬鈴薯沙拉配香腸、鯉魚或烤鵝——具體取決於各家的傳統。",
+          "funFacts": [
+            "《平安夜，聖善夜》於1818年在薩爾茨堡附近的奧伯恩多夫首演——如今已被翻譯成超過300種語言。",
+            "在斯堪的納維亞和中歐，人們會在平安夜互贈禮物；而在英語世界，則僅在25日當天早上互贈禮物。",
+            "在捷克和斯洛伐克，人們會在平安夜食用鯉魚——之後會將一片魚鱗放進錢包裡，以求財運亨通。",
+            "每年在德國多特蒙德，都會用約 1,700 棵紅冷杉搭建起世界上最大的天然聖誕樹。"
+          ],
+          "imageCredit": "照片：ZemplinTemplar · 透過維基共享資源，採用 CC BY-SA 4.0 授權"
+        },
+        "christmas": {
+          "intro": "12月25日的聖誕節是基督教最重要的節日——慶祝耶穌基督的誕生——也是全球各地以家庭、和平與禮物為主題的節日。",
+          "history": "早在354年，羅馬曆法中便已將12月25日記載為「dies natalis Christi」。教會選擇這個日期，很可能是為了賦予羅馬「不敗之太陽」（Sol Invictus）冬至節慶以基督教的意義。 互贈禮物的習俗源於東方三博士所獻的禮物。大家熟悉的紅衣白鬍子聖誕老人，是聖尼古拉斯與1931年可口可樂廣告活動的融合產物。",
+          "traditions": "家人們齊聚一堂享用節日大餐——火雞、鵝肉、鯉魚或拉克雷特起司。大家互贈禮物、齊唱聖誕頌歌，許多人還會參加節日禮拜。那棵裝飾著燈飾、掛飾和稻草星星的聖誕樹，正是節日的核心象徵。降臨節倒數日曆、聖誕餅乾以及逛聖誕市集，都是節日前夕的傳統活動。",
+          "funFacts": [
+            "第一款商業化的降臨節日曆於1908年在慕尼黑問世——由格哈德·朗發明。",
+            "德累斯頓（「Striezelmarkt」，自1434年起）和法蘭克福（自1393年起）的聖誕市集，均屬世界上歷史最悠久的聖誕市集之一。",
+            "自1947年起，挪威每年都會贈送一棵巨型聖誕樹給英國，供特拉法加廣場擺放——以此感謝英國在第二次世界大戰期間提供的援助。",
+            "像《灰姑娘的三個願望》和《真愛至上》這類節日經典電影，每年在全球各地的電視上都會播出數十次。"
+          ],
+          "imageCredit": "照片：克里斯·奧爾謝夫斯基 · 經維基共享資源提供，採用 CC BY-SA 4.0 授權"
+        },
+        "boxing_day": {
+          "intro": "12月26日於英國被稱為「節禮日」（Boxing Day），在許多國家，這一天被視為聖誕假期的延續。",
+          "history": "「節禮日」（Boxing Day）這個名稱與體育運動毫無關聯——它指的是放置在英國教堂內的捐款箱（「聖誕捐款箱」），這些箱子會在聖誕節隔天開啟，用以幫助窮人。此外，12月26日向僕人和郵差贈送小額金錢禮物（「捐款箱」）的習俗，也形塑了這個名稱。 在德國，這一天被稱為「第二個聖誕假期」，自1933年起便受到法律保障——最初的目的是為了讓家庭有時間前往探望親戚。",
+          "traditions": "在英國，這一天標誌著傳統的英超足球賽、馬術障礙賽以及以大幅折扣著稱的著名「節禮日大減價」的開始。在德國，人們會大快朵頤、探訪更多親戚，或是去散個長長的步。在波蘭和捷克，家人們會互相拜訪，並享用節日大餐。",
+          "funFacts": [
+            "在英國，傳統的獵狐活動自1860年起便於節禮日舉行——但自2005年起，僅以「假狐獵」的形式進行，不再使用活狐。",
+            "「節禮日」大減價是英國營收最高的零售日——甚至比「黑色星期五」還要高。",
+            "在澳洲，雪梨至霍巴特帆船賽於節禮日揭開序幕——這是全球最艱辛的離岸帆船賽之一。",
+            "在愛爾蘭，這一天被稱為「聖史蒂芬節」——並有古老的「知更鳥男孩」傳統，即身著戲服的少年們挨家挨戶拜訪。"
+          ],
+          "imageCredit": "照片：Bim24 · CC0，經由維基共享資源提供"
+        }
+      }
+    }
+  },
+  "images": {
+    "epiphany": [
+      {
+        "path": "images/epiphany/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/epiphany/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/epiphany/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "good_friday": [
+      {
+        "path": "images/good_friday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "easter_monday": [
+      {
+        "path": "images/easter_monday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      }
+    ],
+    "all_saints_day": [
+      {
+        "path": "images/all_saints_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/all_saints_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/all_saints_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas_eve": [
+      {
+        "path": "images/christmas_eve/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas_eve/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas_eve/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas": [
+      {
+        "path": "images/christmas/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "boxing_day": [
+      {
+        "path": "images/boxing_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/boxing_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/boxing_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 6
+}

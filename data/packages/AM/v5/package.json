@@ -1,0 +1,850 @@
+{
+  "countryCode": "AM",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "AM_new_years_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "AM_christmas_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "AM_army_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.army_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 28
+      }
+    },
+    {
+      "id": "AM_womens_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.womens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 8
+      }
+    },
+    {
+      "id": "AM_easter_sunday",
+      "countryCode": "AM",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "AM_armenian_genocide_remembrance_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.armenian_genocide_remembrance_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 24
+      }
+    },
+    {
+      "id": "AM_labour_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "AM_victory_and_peace_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.victory_and_peace_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 9
+      }
+    },
+    {
+      "id": "AM_republic_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.republic_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 28
+      }
+    },
+    {
+      "id": "AM_constitution_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.constitution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 5
+      }
+    },
+    {
+      "id": "AM_independence_day",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 21
+      }
+    },
+    {
+      "id": "AM_new_years_eve",
+      "countryCode": "AM",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "christmas_day": "Christmas Day",
+        "army_day": "Army Day",
+        "easter_sunday": "Easter Sunday",
+        "armenian_genocide_remembrance_day": "Armenian Genocide Remembrance Day",
+        "victory_and_peace_day": "Victory and Peace Day",
+        "republic_day": "Republic Day",
+        "constitution_day": "Constitution Day",
+        "independence_day": "Independence Day"
+      },
+      "hy": {
+        "new_years_day": "Ամանոր",
+        "christmas_day": "Սուրբ Ծնունդ",
+        "army_day": "Բանակի օր",
+        "easter_sunday": "Ամանոր",
+        "armenian_genocide_remembrance_day": "Եղեռնի զոհերի հիշատակի օր",
+        "victory_and_peace_day": "Հաղթանակի և Խաղաղության տոն",
+        "republic_day": "Հանրապետության օր",
+        "constitution_day": "Սահմանադրության օր",
+        "independence_day": "Անկախության օր"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "womens_day": {
+          "intro": "Der Internationale Frauentag am 8. März steht weltweit für die Gleichberechtigung von Frauen, ihre Errungenschaften und den Kampf gegen Diskriminierung.",
+          "history": "Der Frauentag entstand aus der sozialistischen Frauenbewegung. Die deutsche Politikerin Clara Zetkin schlug 1910 in Kopenhagen einen jährlichen Aktionstag vor; bereits 1911 gingen Millionen Frauen in Europa erstmals dafür auf die Straße. 1921 setzte Lenin den 8. März fest, in Erinnerung an den Petrograder Frauenstreik vom März 1917, der die russische Februarrevolution mitauslöste. Die UNO erklärte 1975 den Tag offiziell zum „Tag der Vereinten Nationen für die Rechte der Frau”.",
+          "traditions": "Frauen erhalten Blumen – traditionell Mimosen oder Tulpen – und werden mit Karten oder kleinen Geschenken bedacht. In vielen Städten finden Demonstrationen, Vorträge und kulturelle Veranstaltungen statt. In Berlin ist der 8. März seit 2019 gesetzlicher Feiertag, in Italien schenken Männer Frauen Mimosenzweige.",
+          "funFacts": [
+            "In Russland und mehreren ehemaligen Sowjetstaaten ist der 8. März offizieller arbeitsfreier Feiertag.",
+            "Mecklenburg-Vorpommern führte 2023 als zweites deutsches Bundesland nach Berlin den Frauentag als Feiertag ein.",
+            "Die UN-Themen wechseln jährlich – z. B. „Inspire Inclusion” oder „DigitALL”.",
+            "In Italien gilt die Mimose als Symbol weiblicher Stärke, weil sie auch in widrigen Bedingungen blüht."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Ostersonntag ist das höchste Fest des Christentums – Tag der Auferstehung Jesu Christi und Höhepunkt des Kirchenjahres.",
+          "history": "Ostern entwickelte sich aus dem jüdischen Pessachfest und wird seit dem 1. Jahrhundert von Christen begangen. Die Kirche legte 325 in Nicäa fest, dass Ostern stets am ersten Sonntag nach dem ersten Frühlingsvollmond gefeiert wird – daher das wechselnde Datum zwischen 22. März und 25. April. Der Name „Ostern” geht möglicherweise auf die germanische Frühlingsgöttin Ostara zurück, oder schlicht auf das althochdeutsche „eostarum” (Morgenröte).",
+          "traditions": "Familien beginnen den Tag mit einem festlichen Osterfrühstück mit gefärbten Eiern, Hefezopf und Osterlamm. Kinder suchen die vom Osterhasen versteckten Eier und Süßigkeiten im Garten. In vielen Gemeinden gibt es Osterfeuer, Osterprozessionen und feierliche Gottesdienste mit Glockenklang.",
+          "funFacts": [
+            "Das Osterdatum kann zwischen dem 22. März und dem 25. April liegen – der nächste „frühe” Ostersonntag (22. März) findet erst 2285 wieder statt.",
+            "Der größte Osterhase der Welt steht in Brasilien und ist über 4,2 m hoch.",
+            "Russisch-Orthodoxe Christen feiern Ostern oft an einem anderen Tag als West-Christen, weil sie den julianischen Kalender benutzen.",
+            "In Polen lässt man am Karsamstag Speisen in Körben für die Ostersonntag-Mahlzeit segnen („Święconka”)."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Der 1. Mai ist in vielen Ländern der „Tag der Arbeit” – ein Feiertag der Arbeiterbewegung mit Demonstrationen, Maibäumen und Frühlingsfesten.",
+          "history": "Am 1. Mai 1886 traten in Chicago hunderttausende Arbeiter für den Acht-Stunden-Tag in den Generalstreik. Die anschließenden Auseinandersetzungen am Haymarket forderten mehrere Tote. 1889 erklärte der Internationale Arbeiterkongress in Paris den 1. Mai zum „Kampftag der Arbeiterbewegung”. In Deutschland wurde er 1933 als „Tag der nationalen Arbeit” zum gesetzlichen Feiertag – nach 1945 als Symbol arbeitnehmerfreundlicher Politik beibehalten.",
+          "traditions": "Gewerkschaften organisieren Kundgebungen und Demonstrationen unter Mottos wie „Mehr Lohn, mehr Freizeit”. In vielen Dörfern wird in der Nacht zum 1. Mai ein Maibaum aufgestellt – im Süden Deutschlands ein bunt geschmückter Stamm, im Norden ein Birkenstamm vor dem Fenster der Liebsten. Beliebte Aktivitäten: Mai-Wanderungen, Grillen und Familienfeste.",
+          "funFacts": [
+            "Der höchste Maibaum Bayerns wurde 2017 in Mitterfels mit über 50 m aufgestellt.",
+            "In Frankreich verschenkt man am 1. Mai Maiglöckchen („muguet”) – ein Brauch, den König Karl IX. 1561 einführte.",
+            "Im Rheinland werden in der Mai-Nacht „Liebesmaien” – geschmückte Birken – vor das Haus der Angebeteten gestellt.",
+            "Der 1. Mai ist offizieller Feiertag in über 80 Ländern – in den USA und Kanada feiert man Labor Day jedoch erst im September."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "Silvester ist der letzte Tag des Jahres und in vielen Ländern ein lautes, glanzvolles Fest mit Feuerwerk, Sekt und ausgelassenen Partys.",
+          "history": "Der Name geht auf Papst Silvester I. zurück, der am 31. Dezember 335 verstarb. Mit der Einführung des gregorianischen Kalenders 1582 wurde der 31. Dezember endgültig zum letzten Tag des Jahres in Mitteleuropa. Das Feuerwerk hat seinen Ursprung in alten Brauchtümern, mit denen man durch Lärm böse Geister vertreiben wollte. In der DDR und der BRD wurde Silvester ab den 1950er-Jahren zur großen TV-Tradition – „Dinner for One” lief erstmals 1963 im NDR.",
+          "traditions": "Um Mitternacht zählt man gemeinsam herunter, prostet sich mit Sekt zu, umarmt sich und beobachtet das Feuerwerk. Familien spielen Gesellschaftsspiele, gießen Wachs zur Vorhersage des neuen Jahres und schauen den Klassiker „Dinner for One”. Das festliche Menü ist oft Raclette, Fondue oder Berliner.",
+          "funFacts": [
+            "Der größte Silvester-Countdown findet am Times Square in New York statt – die berühmte Kristallkugel sinkt seit 1907 um Mitternacht herab.",
+            "„Dinner for One” hält den Rekord als die am häufigsten wiederholte TV-Sendung der Welt.",
+            "Sydney ist eine der ersten Großstädte, die das neue Jahr mit Feuerwerk begrüßt – bereits um 14 Uhr deutscher Zeit.",
+            "In Spanien isst man zu jedem Glockenschlag eine Traube – wer alle zwölf schafft, hat ein glückliches Jahr."
+          ],
+          "imageCredit": "Foto: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "womens_day": {
+          "intro": "International Women's Day on March 8th stands worldwide for women's equality, their achievements and the fight against discrimination.",
+          "history": "Women's Day grew out of the socialist women's movement. German politician Clara Zetkin proposed an annual day of action in Copenhagen in 1910; by 1911 millions of women across Europe were marching for it. In 1921 Lenin fixed it on March 8th, in memory of the Petrograd women's strike of March 1917 that helped trigger the Russian February Revolution. The UN officially recognized the day in 1975 as the ‘UN Day for Women's Rights'.",
+          "traditions": "Women receive flowers — traditionally mimosas or tulips — along with cards and small gifts. Many cities host demonstrations, talks and cultural events. In Berlin, March 8th has been a public holiday since 2019; in Italy men give women sprigs of mimosa.",
+          "funFacts": [
+            "In Russia and several former Soviet states, March 8th is an official non-working public holiday.",
+            "Mecklenburg-Vorpommern in 2023 became the second German state after Berlin to make Women's Day a public holiday.",
+            "UN themes change yearly — for example ‘Inspire Inclusion' or ‘DigitALL'.",
+            "In Italy the mimosa is the symbol of women's strength because it blooms even in tough conditions."
+          ],
+          "imageCredit": "Photo: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Easter Sunday is Christianity's highest festival — the day of Jesus Christ's resurrection and the climax of the church year.",
+          "history": "Easter grew out of the Jewish Passover and has been observed by Christians since the 1st century. The Church set in 325 at Nicaea that Easter is always celebrated on the first Sunday after the first spring full moon — hence the moving date between March 22nd and April 25th. The English name ‘Easter' may go back to the Germanic spring goddess Eostre, or simply to the Old High German ‘eostarum' (dawn).",
+          "traditions": "Families start the day with a festive Easter breakfast featuring colored eggs, sweet braided bread and Easter lamb cake. Children search the garden for the eggs and treats hidden by the Easter Bunny. Many parishes hold Easter fires, processions and joyful services with bells.",
+          "funFacts": [
+            "Easter can fall between March 22nd and April 25th — the next ‘early' Easter (March 22nd) won't return until 2285.",
+            "The world's largest Easter Bunny stands in Brazil and is over 4.2 m tall.",
+            "Russian Orthodox Christians often celebrate Easter on a different day from Western Christians because they use the Julian calendar.",
+            "In Poland, Holy Saturday baskets of food (‘Święconka') are blessed for the Sunday meal."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "May 1st is in many countries ‘Labour Day' — a holiday of the workers' movement with demonstrations, maypoles and spring fairs.",
+          "history": "On May 1st, 1886, hundreds of thousands of workers in Chicago went on a general strike for the eight-hour workday. The ensuing clashes at Haymarket killed several. In 1889 the International Workers' Congress in Paris declared May 1st the ‘international day of struggle for workers'. In Germany it became a legal holiday in 1933 as ‘Day of National Labour' and was kept after 1945 as a symbol of worker-friendly politics.",
+          "traditions": "Trade unions stage rallies and marches under slogans such as ‘More pay, more time off'. In many villages a maypole is raised on the night before May 1st — in southern Germany an ornately painted trunk, in the north a birch in front of a sweetheart's window. Popular activities: May hikes, barbecues and family festivals.",
+          "funFacts": [
+            "Bavaria's tallest maypole was raised in Mitterfels in 2017 at over 50 m.",
+            "In France people give lily-of-the-valley (‘muguet') on May 1st — a custom King Charles IX introduced in 1561.",
+            "In the Rhineland a ‘love May' — a decorated birch — is placed in front of the home of a sweetheart on May Eve.",
+            "May 1st is an official holiday in over 80 countries — but in the U.S. and Canada Labor Day falls in September."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "New Year's Eve is the last day of the year and in many countries a loud, glittering celebration with fireworks, sparkling wine and exuberant parties.",
+          "history": "The German name ‘Silvester' goes back to Pope Sylvester I, who died on December 31st, 335. With the Gregorian calendar reform in 1582, December 31st definitively became the last day of the year in central Europe. Fireworks have their origin in old customs of using noise to drive away evil spirits. After the 1950s, New Year's Eve became a major TV tradition — the German classic ‘Dinner for One' first aired in 1963 on NDR.",
+          "traditions": "At midnight people count down together, toast with sparkling wine, hug each other and watch the fireworks. Families play board games, cast wax to predict the new year and watch the classic ‘Dinner for One'. Festive menus often include raclette, fondue or jelly-filled doughnuts.",
+          "funFacts": [
+            "The biggest New Year's countdown happens in Times Square in New York — the famous crystal ball has been dropping at midnight since 1907.",
+            "‘Dinner for One' holds the record as the most repeated TV show in the world.",
+            "Sydney is one of the first major cities to ring in the new year with fireworks — already at 2 p.m. Central European time.",
+            "In Spain people eat one grape with each strike of the bell — anyone who manages all twelve has a lucky year ahead."
+          ],
+          "imageCredit": "Photo: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "womens_day": {
+          "intro": "La Journée internationale des femmes, le 8 mars, symbolise l'égalité des femmes, leurs avancées et la lutte contre les discriminations.",
+          "history": "La Journée des femmes est née du mouvement socialiste féministe. La politicienne allemande Clara Zetkin proposa en 1910, à Copenhague, une journée d'action annuelle ; dès 1911, des millions de femmes manifestaient en Europe. En 1921, Lénine fixa le 8 mars en mémoire de la grève des ouvrières de Petrograd de mars 1917, qui contribua à déclencher la révolution russe de février. L'ONU l'a officiellement reconnue en 1975 comme ‘Journée des Nations Unies pour les droits de la femme'.",
+          "traditions": "Les femmes reçoivent des fleurs — traditionnellement des mimosas ou des tulipes — accompagnées de cartes et petits cadeaux. De nombreuses villes organisent manifestations, conférences et événements culturels. À Berlin, le 8 mars est jour férié depuis 2019 ; en Italie, les hommes offrent un brin de mimosa.",
+          "funFacts": [
+            "En Russie et plusieurs anciens États soviétiques, le 8 mars est jour férié officiel.",
+            "Le Mecklembourg-Poméranie occidentale est devenu en 2023 le deuxième Land allemand, après Berlin, à ériger le 8 mars en jour férié.",
+            "Les Nations Unies définissent un thème chaque année — par exemple ‘Inspire Inclusion' ou ‘DigitALL'.",
+            "En Italie, la mimosa symbolise la force féminine car elle fleurit même dans des conditions difficiles."
+          ],
+          "imageCredit": "Photo: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Le dimanche de Pâques est la fête la plus importante du christianisme — jour de la résurrection de Jésus-Christ et sommet de l'année liturgique.",
+          "history": "Pâques est issue de la Pâque juive et célébrée par les chrétiens depuis le Ier siècle. L'Église fixa en 325 à Nicée que Pâques se célébrerait toujours le premier dimanche après la première pleine lune de printemps — d'où la date mobile entre le 22 mars et le 25 avril. Le nom ‘Easter' (anglais) viendrait de la déesse germanique du printemps Eostre, ou simplement du vieux haut-allemand ‘eostarum' (aurore).",
+          "traditions": "Les familles entament la journée par un petit-déjeuner pascal festif avec œufs colorés, brioche tressée et agneau pascal. Les enfants cherchent les œufs et friandises cachés par le lapin de Pâques. Dans de nombreuses paroisses, on allume des feux de Pâques, des processions et des messes solennelles avec carillons.",
+          "funFacts": [
+            "Pâques peut tomber entre le 22 mars et le 25 avril — le prochain Pâques ‘précoce' (22 mars) ne reviendra qu'en 2285.",
+            "Le plus grand lapin de Pâques du monde se trouve au Brésil et mesure plus de 4,2 m.",
+            "Les chrétiens orthodoxes russes célèbrent souvent Pâques un autre jour, car ils utilisent le calendrier julien.",
+            "En Pologne, on bénit le Samedi Saint des paniers de nourriture (‘Święconka') pour le repas du dimanche."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Le 1er mai est dans bien des pays la ‘Fête du Travail' — fête du mouvement ouvrier avec manifestations, mâts de mai et fêtes printanières.",
+          "history": "Le 1er mai 1886, des centaines de milliers de travailleurs de Chicago entrèrent en grève générale pour la journée de huit heures. Les heurts qui suivirent à Haymarket firent plusieurs morts. En 1889, le Congrès international des travailleurs à Paris déclara le 1er mai ‘journée de lutte du mouvement ouvrier'. En France, le 1er mai devient jour chômé en 1947, et c'est aussi le jour où l'on offre du muguet, tradition royale depuis Charles IX en 1561.",
+          "traditions": "Les syndicats organisent meetings et défilés sous des slogans comme ‘Plus de salaire, plus de temps libre'. En France, on s'offre des brins de muguet, porte-bonheur. Dans de nombreux villages allemands, on dresse un mât de mai dans la nuit du 1er. Randonnées, barbecues et fêtes familiales sont au programme.",
+          "funFacts": [
+            "Le mât de mai le plus haut de Bavière a été dressé en 2017 à Mitterfels avec plus de 50 m.",
+            "En France, on offre du muguet le 1er mai — coutume introduite par Charles IX en 1561.",
+            "En Rhénanie, on plante des bouleaux décorés (‘Liebesmaien') devant la maison de la bien-aimée à la nuit du 1er mai.",
+            "Le 1er mai est jour férié dans plus de 80 pays — mais aux États-Unis et au Canada, le ‘Labor Day' tombe en septembre."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "La Saint-Sylvestre est le dernier jour de l'année et, dans bien des pays, une fête bruyante et étincelante avec feux d'artifice, champagne et soirées exubérantes.",
+          "history": "Le nom ‘Sylvestre' vient du pape Sylvestre Ier, mort le 31 décembre 335. Avec la réforme grégorienne de 1582, le 31 décembre s'est définitivement imposé comme dernier jour de l'année en Europe centrale. Les feux d'artifice trouvent leur origine dans des coutumes anciennes destinées à chasser les mauvais esprits par le bruit. Depuis les années 1950, la Saint-Sylvestre est devenue une grande tradition télévisée — le classique allemand ‘Dinner for One' est diffusé pour la première fois en 1963.",
+          "traditions": "À minuit, on fait le compte à rebours, on trinque au champagne, on s'embrasse et on contemple les feux. Les familles jouent à des jeux de société, coulent de la cire pour prédire l'année et regardent ‘Dinner for One'. Le menu festif est souvent raclette, fondue ou beignets fourrés.",
+          "funFacts": [
+            "Le plus grand compte à rebours du monde a lieu à Times Square, à New York — la fameuse boule de cristal descend chaque minuit depuis 1907.",
+            "‘Dinner for One' détient le record du programme télévisé le plus rediffusé au monde.",
+            "Sydney est l'une des premières grandes villes à fêter le Nouvel An en feux d'artifice — dès 14 h heure de Paris.",
+            "En Espagne, on mange un grain de raisin à chaque coup de cloche — réussir les douze annonce une année heureuse."
+          ],
+          "imageCredit": "Photo: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "womens_day": {
+          "intro": "El Día Internacional de la Mujer, el 8 de marzo, simboliza la igualdad de las mujeres, sus logros y la lucha contra la discriminación.",
+          "history": "El Día de la Mujer surgió del movimiento socialista de mujeres. La política alemana Clara Zetkin propuso en Copenhague en 1910 una jornada anual; ya en 1911 millones de mujeres salieron a la calle en Europa. En 1921 Lenin fijó el 8 de marzo en recuerdo de la huelga de mujeres de Petrogrado de marzo de 1917, que ayudó a desencadenar la Revolución de Febrero rusa. La ONU lo reconoció oficialmente en 1975 como ‘Día de las Naciones Unidas para los Derechos de la Mujer'.",
+          "traditions": "Las mujeres reciben flores — tradicionalmente mimosas o tulipanes — junto con tarjetas y pequeños obsequios. Muchas ciudades organizan manifestaciones, charlas y eventos culturales. En Berlín el 8 de marzo es festivo desde 2019, en Italia los hombres regalan ramitas de mimosa a las mujeres.",
+          "funFacts": [
+            "En Rusia y varios estados ex-soviéticos el 8 de marzo es festivo oficial no laborable.",
+            "En 2023 Mecklemburgo-Pomerania Occidental se convirtió en el segundo estado alemán, tras Berlín, en convertir el Día de la Mujer en festivo.",
+            "Cada año la ONU define un lema diferente — por ejemplo ‘Inspire Inclusion' o ‘DigitALL'.",
+            "En Italia la mimosa simboliza la fortaleza femenina porque florece incluso en condiciones difíciles."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "El Domingo de Pascua es la fiesta más importante del cristianismo: el día de la resurrección de Jesús y culmen del año litúrgico.",
+          "history": "La Pascua surgió de la fiesta judía de Pésaj y se celebra desde el siglo I. La Iglesia fijó en 325 en Nicea que se celebrara el primer domingo tras la primera luna llena de primavera — de ahí la fecha variable entre el 22 de marzo y el 25 de abril. El nombre ‘Easter' (inglés) puede derivar de la diosa germánica de la primavera Eostre, o del antiguo alto alemán ‘eostarum' (alba).",
+          "traditions": "Las familias inician el día con un desayuno festivo con huevos coloreados, trenzas dulces y cordero pascual. Los niños buscan los huevos y dulces escondidos por el Conejo de Pascua. En muchas comunidades hay hogueras de Pascua, procesiones y misas solemnes con campanas.",
+          "funFacts": [
+            "La Pascua puede caer entre el 22 de marzo y el 25 de abril — el próximo Domingo de Pascua ‘temprano' (22 de marzo) no llegará hasta 2285.",
+            "El conejo de Pascua más grande del mundo está en Brasil y mide más de 4,2 m.",
+            "Los cristianos ortodoxos rusos suelen celebrar la Pascua otro día, ya que usan el calendario juliano.",
+            "En Polonia se bendicen las cestas de comida (‘Święconka') el Sábado Santo para el almuerzo del domingo."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "El 1 de mayo es en muchos países el ‘Día del Trabajador' — fiesta del movimiento obrero con manifestaciones, mayos y celebraciones primaverales.",
+          "history": "El 1 de mayo de 1886, cientos de miles de trabajadores en Chicago se declararon en huelga general por la jornada de ocho horas. Los choques posteriores en Haymarket dejaron varios muertos. En 1889 el Congreso Internacional de Trabajadores de París lo declaró ‘día de lucha del movimiento obrero'. En Alemania pasó a ser festivo legal en 1933 como ‘Día Nacional del Trabajo' y se mantuvo tras 1945 como símbolo de política favorable a los trabajadores.",
+          "traditions": "Los sindicatos organizan mítines y manifestaciones bajo lemas como ‘Más sueldo, más tiempo libre'. En muchas aldeas alemanas se planta un mayo en la noche del 1 de mayo — en el sur, un tronco coloridamente decorado; en el norte, un abedul ante la ventana de la amada. Caminatas de mayo, barbacoas y fiestas familiares son populares.",
+          "funFacts": [
+            "El mayo más alto de Baviera fue erigido en Mitterfels en 2017 con más de 50 m.",
+            "En Francia se regala muguete (‘muguet') el 1 de mayo — costumbre que el rey Carlos IX introdujo en 1561.",
+            "En Renania, en la Noche de Mayo se ponen abedules decorados (‘Liebesmaien') ante la casa de la enamorada.",
+            "El 1 de mayo es festivo en más de 80 países — pero en EE. UU. y Canadá el ‘Labor Day' se celebra en septiembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 vía Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "Nochevieja es el último día del año y, en muchos países, una fiesta ruidosa y brillante con fuegos artificiales, cava y celebraciones efusivas.",
+          "history": "El nombre ‘Silvester' (alemán) viene del papa Silvestre I, fallecido el 31 de diciembre del 335. Con la introducción del calendario gregoriano en 1582 el 31 de diciembre quedó definitivamente como último día del año en Europa central. Los fuegos artificiales tienen origen en costumbres antiguas para ahuyentar a los malos espíritus con ruido. Desde los años 50 se convirtió en gran tradición televisiva — el clásico alemán ‘Dinner for One' se emitió por primera vez en NDR en 1963.",
+          "traditions": "A medianoche se hace la cuenta atrás, se brinda con cava, se abrazan y se contemplan los fuegos. Las familias juegan a juegos de mesa, vierten cera para predecir el año y ven el clásico ‘Dinner for One'. El menú festivo suele ser raclette, fondue o buñuelos.",
+          "funFacts": [
+            "La mayor cuenta atrás del mundo se vive en Times Square, Nueva York: la famosa bola de cristal desciende a medianoche desde 1907.",
+            "‘Dinner for One' ostenta el récord de la emisión de TV más repetida del mundo.",
+            "Sídney es una de las primeras grandes ciudades en estrenar el año con fuegos — ya a las 14 h hora de Europa Central.",
+            "En España se come una uva con cada campanada — quien las acaba todas tendrá un año feliz."
+          ],
+          "imageCredit": "Foto: Makia Minich · CC BY-SA 3.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "womens_day": {
+          "intro": "O Dia Internacional da Mulher, 8 de março, simboliza a igualdade das mulheres, as suas conquistas e a luta contra a discriminação.",
+          "history": "O Dia da Mulher nasceu do movimento socialista feminino. A política alemã Clara Zetkin propôs em Copenhaga, em 1910, um dia anual de ação; já em 1911 milhões de mulheres na Europa saíram à rua. Em 1921, Lenine fixou o 8 de março, em memória da greve das operárias de Petrogrado em março de 1917, que ajudou a desencadear a Revolução de Fevereiro russa. A ONU reconheceu-o oficialmente em 1975 como ‘Dia das Nações Unidas para os Direitos da Mulher'.",
+          "traditions": "As mulheres recebem flores — tradicionalmente mimosas ou tulipas — junto com cartões e pequenas lembranças. Em muitas cidades realizam-se manifestações, palestras e eventos culturais. Em Berlim, o 8 de março é feriado desde 2019; em Itália, os homens oferecem ramos de mimosa às mulheres.",
+          "funFacts": [
+            "Na Rússia e em vários antigos estados soviéticos, o 8 de março é feriado oficial não trabalhado.",
+            "Em 2023, Mecklemburgo-Pomerânia Ocidental tornou-se o segundo estado alemão a seguir Berlim a tornar o Dia da Mulher feriado.",
+            "Os temas da ONU mudam todos os anos — por exemplo ‘Inspire Inclusion' ou ‘DigitALL'.",
+            "Em Itália, a mimosa simboliza a força feminina porque floresce mesmo em condições difíceis."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "O Domingo de Páscoa é a festa mais importante do cristianismo — dia da ressurreição de Jesus Cristo e ápice do ano litúrgico.",
+          "history": "A Páscoa surgiu da festa judaica de Pessach e é celebrada pelos cristãos desde o século I. A Igreja fixou em 325 em Niceia que a Páscoa se celebra sempre no primeiro domingo após a primeira lua cheia da primavera — daí a data móvel entre 22 de março e 25 de abril. Em Portugal, é uma das festas religiosas mais importantes, com missas solenes, procissões e a tradição do compasso pascal — visita do pároco às casas para abençoá-las.",
+          "traditions": "Em Portugal o Domingo de Páscoa é dia de almoço de família com cabrito assado, folar e amêndoas. Antes do almoço, em algumas regiões (sobretudo Trás-os-Montes), o pároco visita as casas levando a cruz para beijar — o ‘compasso pascal'. As crianças procuram amêndoas e ovos de chocolate escondidos. Em muitas paróquias acendem-se fogos pascais e há procissões.",
+          "funFacts": [
+            "A Páscoa pode cair entre 22 de março e 25 de abril — a próxima Páscoa ‘precoce' (22 de março) só voltará em 2285.",
+            "O maior coelho da Páscoa do mundo está no Brasil e mede mais de 4,2 m.",
+            "Os cristãos ortodoxos russos costumam celebrar a Páscoa noutro dia, pois usam o calendário juliano.",
+            "Em Portugal, no compasso pascal, o pároco visita as casas com a cruz para beijar — quem não recebe o compasso é considerado ‘casa fechada'."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 de maio é em muitos países o ‘Dia do Trabalhador' — feriado do movimento operário com manifestações, festas de maio e celebrações primaveris. Em Portugal, é feriado nacional desde 1974.",
+          "history": "A 1 de maio de 1886, centenas de milhares de trabalhadores em Chicago entraram em greve geral pela jornada de oito horas. Os confrontos seguintes em Haymarket fizeram vários mortos. Em 1889, o Congresso Internacional dos Trabalhadores em Paris declarou o 1 de maio ‘dia de luta do movimento operário'. Em Portugal, foi assinalado clandestinamente durante o Estado Novo e tornou-se feriado oficial logo após a Revolução de 25 de Abril de 1974.",
+          "traditions": "Os sindicatos organizam comícios e desfiles com lemas como ‘Mais salário, mais tempo livre'. Em Portugal, a CGTP organiza um grande desfile no Porto e em Lisboa, com milhares de manifestantes. Muitas famílias aproveitam o feriado para piqueniques, churrascos e idas à praia.",
+          "funFacts": [
+            "Em Portugal, o 1.º de Maio de 1974 — apenas 6 dias após a Revolução dos Cravos — foi um dos primeiros grandes ajuntamentos populares livres em décadas.",
+            "Em França, oferece-se muguete (‘muguet') no 1.º de Maio — costume introduzido pelo rei Carlos IX em 1561.",
+            "Na Renânia, na noite de 1.º de Maio, colocam-se vidoeiros decorados (‘Liebesmaien') diante da casa da amada.",
+            "O 1.º de Maio é feriado em mais de 80 países — mas nos EUA e Canadá o ‘Labor Day' é em setembro."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "A Véspera de Ano Novo é o último dia do ano e, em muitos países, uma festa ruidosa e brilhante com fogo de artifício, espumante e celebrações exuberantes.",
+          "history": "O nome alemão ‘Silvester' vem do Papa Silvestre I, falecido a 31 de dezembro de 335. Com a introdução do calendário gregoriano em 1582, o 31 de dezembro tornou-se definitivamente o último dia do ano na Europa central. O fogo de artifício tem origem em costumes antigos para afastar maus espíritos com barulho. A partir dos anos 50, tornou-se grande tradição televisiva. Em Portugal, o réveillon na Madeira é mundialmente famoso pelo seu fogo de artifício.",
+          "traditions": "À meia-noite faz-se a contagem decrescente, brinda-se com espumante, abraçam-se e contemplam-se os fogos. As famílias jogam jogos de tabuleiro, vertem cera para prever o ano e veem clássicos de TV. Em Portugal come-se 12 passas (uma por cada badalada) para os 12 desejos. O réveillon do Funchal (Madeira) é um dos maiores fogos de artifício do mundo.",
+          "funFacts": [
+            "A maior contagem decrescente do mundo é em Times Square, Nova York — a famosa bola de cristal cai à meia-noite desde 1907.",
+            "O réveillon do Funchal (Madeira) já entrou no Guinness pelo maior fogo de artifício do mundo.",
+            "Sydney é uma das primeiras grandes cidades a celebrar o Ano Novo com fogos — já às 13h hora de Lisboa.",
+            "Em Portugal e Espanha come-se uma uva a cada badalada — quem comer todas as 12 terá um ano feliz."
+          ],
+          "imageCredit": "Foto: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "womens_day": {
+          "intro": "La Giornata internazionale della donna, l'8 marzo, simboleggia la parità delle donne, le loro conquiste e la lotta contro la discriminazione.",
+          "history": "La Giornata della Donna è nata dal movimento socialista femminile. La politica tedesca Clara Zetkin propose nel 1910 a Copenaghen una giornata d'azione annuale; già nel 1911 milioni di donne in Europa scendevano in piazza. Nel 1921 Lenin fissò l'8 marzo, in memoria dello sciopero delle operaie di Pietrogrado del marzo 1917, che contribuì a far scoppiare la rivoluzione russa di febbraio. L'ONU lo ha riconosciuto ufficialmente nel 1975 come ‘Giornata delle Nazioni Unite per i diritti delle donne'.",
+          "traditions": "In Italia le donne ricevono mimose, simbolo della giornata. Si organizzano manifestazioni, conferenze ed eventi culturali. A Berlino l'8 marzo è festivo dal 2019. In Italia gli uomini regalano alle donne rametti di mimosa.",
+          "funFacts": [
+            "In Russia e in vari ex stati sovietici l'8 marzo è festivo ufficiale non lavorativo.",
+            "Nel 2023 il Meclemburgo-Pomerania Anteriore è diventato il secondo Land tedesco, dopo Berlino, a istituire la festa come festivo.",
+            "I temi delle Nazioni Unite cambiano ogni anno — ad esempio ‘Inspire Inclusion' o ‘DigitALL'.",
+            "In Italia la mimosa simboleggia la forza femminile perché fiorisce anche in condizioni difficili."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "La Domenica di Pasqua è la festa più importante del cristianesimo — giorno della resurrezione di Gesù e culmine dell'anno liturgico.",
+          "history": "La Pasqua si è sviluppata dalla festa ebraica di Pesach ed è celebrata dai cristiani dal I secolo. La Chiesa stabilì nel 325 a Nicea che la Pasqua si celebra sempre la prima domenica dopo il primo plenilunio di primavera — da qui la data variabile tra il 22 marzo e il 25 aprile. In Italia, oltre al pranzo familiare con agnello, colomba e uova di cioccolato, è tradizione la benedizione delle case.",
+          "traditions": "Le famiglie iniziano la giornata con una colazione pasquale festiva con uova colorate, colomba e agnello pasquale. I bambini cercano le uova nascoste dal coniglio pasquale. In molte parrocchie si accendono fuochi pasquali, processioni e messe solenni con suono delle campane. In Italia, è tradizione il pranzo con agnello al forno, colomba pasquale e uova di cioccolato.",
+          "funFacts": [
+            "La Pasqua può cadere tra il 22 marzo e il 25 aprile — la prossima Pasqua ‘precoce' (22 marzo) tornerà solo nel 2285.",
+            "Il più grande coniglio pasquale del mondo si trova in Brasile e supera i 4,2 m.",
+            "I cristiani ortodossi russi spesso celebrano la Pasqua in un altro giorno, perché usano il calendario giuliano.",
+            "In Polonia il Sabato Santo si benedicono cesti di cibo (‘Święconka') per il pranzo della domenica."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Il 1° maggio è in molti paesi la ‘Festa dei Lavoratori' — festa del movimento operaio con manifestazioni, alberi di maggio e feste primaverili.",
+          "history": "Il 1° maggio 1886 centinaia di migliaia di lavoratori a Chicago entrarono in sciopero generale per la giornata di otto ore. Gli scontri di Haymarket fecero diversi morti. Nel 1889 il Congresso Internazionale dei Lavoratori a Parigi proclamò il 1° maggio ‘giornata di lotta del movimento operaio'. In Italia la festa è abolita nel 1923 dal regime fascista e ripristinata nel 1947. Il celebre ‘Concertone' di piazza San Giovanni a Roma è una tradizione dal 1990.",
+          "traditions": "I sindacati organizzano cortei e manifestazioni con slogan come ‘Più salario, più tempo libero'. In Italia il ‘Concertone' del 1° maggio a Roma riunisce centinaia di migliaia di persone in piazza San Giovanni. Famiglie organizzano gite, picnic e grigliate.",
+          "funFacts": [
+            "Il ‘Concertone' di Roma del 1° maggio dal 1990 raduna centinaia di migliaia di spettatori.",
+            "In Francia il 1° maggio si regalano mughetti (‘muguet') — tradizione che il re Carlo IX introdusse nel 1561.",
+            "In Renania nella notte del 1° maggio si pongono betulle decorate (‘Liebesmaien') davanti alla casa dell'amata.",
+            "Il 1° maggio è festivo in oltre 80 paesi — ma in USA e Canada il ‘Labor Day' è in settembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "San Silvestro è l'ultimo giorno dell'anno e in molti paesi è una festa rumorosa e brillante con fuochi d'artificio, spumante e feste esuberanti.",
+          "history": "Il nome deriva da papa Silvestro I, morto il 31 dicembre del 335. Con l'introduzione del calendario gregoriano nel 1582 il 31 dicembre divenne definitivamente l'ultimo giorno dell'anno in Europa centrale. I fuochi d'artificio hanno origine in antiche usanze per scacciare gli spiriti maligni con il rumore. Dagli anni '50 è diventato anche grande tradizione televisiva.",
+          "traditions": "A mezzanotte si fa il countdown insieme, si brinda con spumante, ci si abbraccia e si guardano i fuochi. Le famiglie giocano a giochi da tavolo, si versa la cera per predire l'anno e si guarda il classico ‘Dinner for One'. Sulla tavola: lenticchie, cotechino, panettone o pandoro.",
+          "funFacts": [
+            "Il più grande countdown del mondo è a Times Square di New York — la famosa palla di cristallo scende dal 1907.",
+            "‘Dinner for One' detiene il record del programma TV più replicato al mondo.",
+            "Sydney è una delle prime grandi città a salutare il nuovo anno coi fuochi — già alle 14 ora dell'Europa centrale.",
+            "In Spagna si mangia un chicco d'uva a ogni rintocco — chi li finisce tutti avrà un anno fortunato."
+          ],
+          "imageCredit": "Foto: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "womens_day": {
+          "intro": "Międzynarodowy Dzień Kobiet, 8 marca, symbolizuje równość kobiet, ich osiągnięcia oraz walkę z dyskryminacją.",
+          "history": "Dzień Kobiet narodził się z socjalistycznego ruchu kobiecego. Niemiecka działaczka Clara Zetkin zaproponowała w Kopenhadze w 1910 roku coroczny dzień akcji; już w 1911 roku miliony kobiet w Europie wyszły na ulice. W 1921 roku Lenin ustalił 8 marca w nawiązaniu do strajku kobiet w Piotrogrodzie z marca 1917 roku, który pomógł wywołać rewolucję lutową. ONZ uznała dzień oficjalnie w 1975 roku jako ‘Dzień ONZ na rzecz Praw Kobiet'. W Polsce był obchodzony oficjalnie w PRL — choć w sposób przerysowany — i powrócił do łask w nowej formie po 1989 roku.",
+          "traditions": "W Polsce kobiety otrzymują kwiaty — tradycyjnie tulipany, goździki lub mimozy. Mężowie i synowie składają życzenia, koledzy w pracy wręczają drobne upominki. W wielu miastach odbywają się manifestacje, spotkania i wydarzenia kulturalne. W Berlinie 8 marca jest dniem wolnym od pracy od 2019 roku.",
+          "funFacts": [
+            "W Rosji i kilku byłych państwach radzieckich 8 marca jest oficjalnym dniem wolnym od pracy.",
+            "W 2023 roku Meklemburgia-Pomorze Przednie stała się drugim landem niemieckim po Berlinie, który ustanowił Dzień Kobiet dniem wolnym.",
+            "W PRL goździk był symbolem dnia — ze względu na łatwą dostępność i kolor czerwony.",
+            "We Włoszech mimoza symbolizuje siłę kobiet, ponieważ kwitnie nawet w trudnych warunkach."
+          ],
+          "imageCredit": "Zdjęcie: Alina.neve · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Niedziela Wielkanocna jest najważniejszym świętem chrześcijaństwa — dniem zmartwychwstania Jezusa Chrystusa i punktem kulminacyjnym roku liturgicznego.",
+          "history": "Wielkanoc wywodzi się z żydowskiego święta Paschy i obchodzona jest przez chrześcijan od I wieku. Kościół ustalił w 325 roku w Nicei, że Wielkanoc świętowana jest zawsze w pierwszą niedzielę po pierwszej wiosennej pełni księżyca — stąd ruchoma data między 22 marca a 25 kwietnia. W Polsce tradycja święcenia pokarmów (‘święconki') sięga XIV wieku i jest jedną z najsilniej zachowanych tradycji.",
+          "traditions": "W Polsce w Niedzielę Wielkanocną rodziny zaczynają dzień uroczystym śniadaniem z poświęconych w Wielką Sobotę pokarmów (‘święconki') — jajek, kiełbasy, szynki, chrzanu, baranka z masła czy cukru, mazurka i babki. Następnie idzie się na uroczystą mszę. Wieczorem często odbywają się rodzinne spotkania.",
+          "funFacts": [
+            "Wielkanoc może wypadać między 22 marca a 25 kwietnia — następna ‘wczesna' Wielkanoc (22 marca) wypadnie dopiero w 2285 roku.",
+            "Polskie tradycyjne palmy wielkanocne z Kurpii i Łysych potrafią mieć ponad 30 metrów wysokości — coroczny konkurs w Niedzielę Palmową.",
+            "Rosyjscy prawosławni często świętują Wielkanoc innego dnia, bo używają kalendarza juliańskiego.",
+            "Polskie ‘pisanki' to jedne z najpiękniejszych ozdób wielkanocnych świata — popularne motywy regionalne, np. opolskie, kurpiowskie."
+          ],
+          "imageCredit": "Zdjęcie: Geolina163 · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 maja jest w wielu krajach Świętem Pracy — świętem ruchu robotniczego z manifestacjami, majowymi uroczystościami i wiosennymi festynami. W Polsce dzień wolny od pracy.",
+          "history": "1 maja 1886 roku setki tysięcy robotników w Chicago weszło w strajk generalny domagając się ośmiogodzinnego dnia pracy. Następujące starcia na Haymarket pochłonęły kilka ofiar. W 1889 roku Międzynarodowy Kongres Robotniczy w Paryżu ogłosił 1 maja ‘dniem walki ruchu robotniczego'. W Polsce święto wprowadzono oficjalnie w 1950 roku, choć obchody były już wcześniej. Po 1989 roku zachowane jako symbol pracowniczy.",
+          "traditions": "W Polsce 1 maja to popularny dzień na pierwsze grillowanie i majowe wycieczki. Związki zawodowe organizują wiece i pochody. Wraz z 2 maja (Dzień Flagi) i 3 maja (Konstytucja) tworzy słynne ‘majówki' — najważniejszy długi weekend wiosenny w Polsce, kiedy wielu wyjeżdża nad morze, w góry lub na działkę.",
+          "funFacts": [
+            "‘Majówka' to jeden z najbardziej intensywnych weekendów turystycznych w Polsce — wiele osób ucieka z miast na wieś.",
+            "We Francji 1 maja wręcza się konwalie (‘muguet') — zwyczaj wprowadzony przez króla Karola IX w 1561 roku.",
+            "1 maja jest świętem urzędowym w ponad 80 krajach — ale w USA i Kanadzie ‘Labor Day' obchodzi się we wrześniu.",
+            "Najwyższy maj w Bawarii postawiono w Mitterfels w 2017 roku — miał ponad 50 m."
+          ],
+          "imageCredit": "Zdjęcie: Joe Piette · CC BY-SA 2.0 przez Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "Sylwester to ostatni dzień roku i w wielu krajach głośna, błyszcząca uroczystość z fajerwerkami, szampanem i hucznymi imprezami.",
+          "history": "Nazwa pochodzi od papieża Sylwestra I, zmarłego 31 grudnia 335 roku. Wraz z reformą gregoriańską w 1582 roku 31 grudnia stał się definitywnie ostatnim dniem roku w Europie Środkowej. Fajerwerki wywodzą się z dawnych zwyczajów odpędzania złych duchów hałasem. W Polsce Sylwester to okazja do hucznych zabaw — zarówno domowych, jak i ulicznych ‘Sylwestrów Marzeń'.",
+          "traditions": "O północy odlicza się sekundy do nowego roku, wznosi toast szampanem, ściska bliskich i ogląda fajerwerki. Rodziny grają w gry planszowe, leją wosk, by przepowiadać nadchodzący rok. W Polsce popularne są ‘Sylwestry Marzeń' organizowane przez stacje TV w największych miastach — w Zakopanem, Krakowie, Toruniu, Gdańsku. Festiwalowe menu: śledzie, sałatki, krokiety i pączki.",
+          "funFacts": [
+            "Największe odliczanie świata odbywa się na Times Square w Nowym Jorku — słynna kryształowa kula opada o północy od 1907 roku.",
+            "‘Dinner for One' dzierży rekord najczęściej powtarzanego programu TV na świecie.",
+            "Sydney to jedno z pierwszych wielkich miast witających Nowy Rok fajerwerkami — już o 14:00 czasu środkowoeuropejskiego.",
+            "W Hiszpanii zjada się winogronko z każdym uderzeniem dzwonu — kto zje wszystkie 12, ma szczęśliwy rok."
+          ],
+          "imageCredit": "Zdjęcie: Makia Minich · CC BY-SA 3.0 przez Wikimedia Commons"
+        }
+      },
+      "nl": {
+        "womens_day": {
+          "intro": "Internationale Vrouwendag op 8 maart staat wereldwijd symbool voor de gelijkheid van vrouwen, hun prestaties en de strijd tegen discriminatie.",
+          "history": "Vrouwendag is voortgekomen uit de socialistische vrouwenbeweging. De Duitse politica Clara Zetkin stelde in 1910 in Kopenhagen een jaarlijkse actiedag voor; in 1911 marcheerden al miljoenen vrouwen in heel Europa voor deze dag. In 1921 stelde Lenin de datum vast op 8 maart, ter nagedachtenis aan de vrouwenstaking in Petrograd van maart 1917, die mede aanleiding gaf tot de Russische Februari-revolutie. De VN erkende de dag in 1975 officieel als de ‘VN-dag voor vrouwenrechten’.",
+          "traditions": "Vrouwen krijgen bloemen — traditioneel mimosa’s of tulpen — samen met kaartjes en kleine cadeautjes. In veel steden worden demonstraties, lezingen en culturele evenementen georganiseerd. In Berlijn is 8 maart sinds 2019 een officiële feestdag; in Italië geven mannen vrouwen takjes mimosa.",
+          "funFacts": [
+            "In Rusland en verschillende voormalige Sovjetstaten is 8 maart een officiële vrije feestdag.",
+            "Mecklenburg-Vorpommern heeft in 2023, na Berlijn, als tweede Duitse deelstaat Vrouwendag tot officiële feestdag uitgeroepen.",
+            "De thema's van de VN veranderen elk jaar — bijvoorbeeld ‘Inspire Inclusion’ of ‘DigitALL’.",
+            "In Italië staat de mimosa symbool voor de kracht van vrouwen, omdat ze zelfs onder moeilijke omstandigheden bloeit."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Paaszondag is het belangrijkste feest in het christendom — de dag van de verrijzenis van Jezus Christus en het hoogtepunt van het kerkelijk jaar.",
+          "history": "Pasen is voortgekomen uit het joodse Pesach en wordt al sinds de 1e eeuw door christenen gevierd. In 325 besloot de Kerk in Nicea dat Pasen altijd wordt gevierd op de eerste zondag na de eerste volle maan van de lente — vandaar dat de datum varieert tussen 22 maart en 25 april. De Engelse naam ‘Easter’ zou kunnen teruggaan op de Germaanse lentegodin Eostre, of simpelweg op het Oudhoogduitse ‘eostarum’ (dageraad).",
+          "traditions": "Gezinnen beginnen de dag met een feestelijk paasontbijt met gekleurde eieren, zoet gevlochten brood en paaslamscake. Kinderen zoeken in de tuin naar de eieren en lekkernijen die door de paashaas zijn verstopt. Veel parochies organiseren paasvuren, processies en vrolijke diensten met klokken.",
+          "funFacts": [
+            "Pasen kan tussen 22 maart en 25 april vallen — de volgende ‘vroege’ Pasen (22 maart) valt pas weer in 2285.",
+            "De grootste paashaas ter wereld staat in Brazilië en is meer dan 4,2 m hoog.",
+            "Russisch-orthodoxe christenen vieren Pasen vaak op een andere dag dan westerse christenen, omdat ze de Juliaanse kalender gebruiken.",
+            "In Polen worden op Paaszaterdag manden met etenswaren (‘Święconka’) gezegend voor de maaltijd op zondag."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 mei is in veel landen ‘Dag van de Arbeid’ — een feestdag van de arbeidersbeweging met demonstraties, meibomen en lentefeesten.",
+          "history": "Op 1 mei 1886 gingen honderdduizenden arbeiders in Chicago in algemene staking voor de achturige werkdag. Bij de daaropvolgende confrontaties op Haymarket kwamen meerdere mensen om het leven. In 1889 riep het Internationale Arbeiderscongres in Parijs 1 mei uit tot de ‘internationale dag van de strijd voor de arbeiders’. In Duitsland werd deze dag in 1933 een wettelijke feestdag onder de naam ‘Nationale Dag van de Arbeid’ en werd na 1945 gehandhaafd als symbool van een arbeidersvriendelijk beleid.",
+          "traditions": "Vakbonden organiseren bijeenkomsten en optochten onder leuzen als ‘Meer loon, meer vrije tijd’. In veel dorpen wordt in de nacht voor 1 mei een meiboom opgericht — in Zuid-Duitsland een rijkelijk beschilderde boomstam, in het noorden een berkenboom voor het raam van de geliefde. Populaire activiteiten: meewandelingen, barbecues en familiefeesten.",
+          "funFacts": [
+            "De hoogste meiboom van Beieren werd in 2017 in Mitterfels opgericht en was meer dan 50 m hoog.",
+            "In Frankrijk geven mensen op 1 mei lelietjes-van-dalen (‘muguet’) cadeau — een gebruik dat koning Karel IX in 1561 heeft ingevoerd.",
+            "In het Rijnland wordt op de avond van 1 mei een ‘liefdesmei’ — een versierde berk — voor het huis van de geliefde geplaatst.",
+            "1 mei is een officiële feestdag in meer dan 80 landen — maar in de VS en Canada valt Labor Day in september."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "Oudejaarsavond is de laatste dag van het jaar en wordt in veel landen gevierd met een luidruchtig, schitterend feest met vuurwerk, mousserende wijn en uitbundige feesten.",
+          "history": "De Duitse naam ‘Silvester’ gaat terug op paus Sylvester I, die op 31 december 335 overleed. Met de hervorming van de Gregoriaanse kalender in 1582 werd 31 december definitief de laatste dag van het jaar in Midden-Europa. Vuurwerk vindt zijn oorsprong in oude gebruiken waarbij lawaai werd gebruikt om boze geesten te verjagen. Na de jaren vijftig werd oudejaarsavond een belangrijke televisietraditie — de Duitse klassieker ‘Dinner for One’ werd in 1963 voor het eerst uitgezonden op NDR.",
+          "traditions": "Om middernacht tellen de mensen samen af, proosten ze met mousserende wijn, omhelzen ze elkaar en kijken ze naar het vuurwerk. Gezinnen spelen bordspellen, gieten was om de toekomst voor het nieuwe jaar te voorspellen en kijken naar de klassieker ‘Dinner for One’. Op feestelijke menu’s staan vaak raclette, fondue of donuts met gelei.",
+          "funFacts": [
+            "De grootste nieuwjaarsaftelling vindt plaats op Times Square in New York — de beroemde kristallen bol daalt daar al sinds 1907 om middernacht naar beneden.",
+            "‘Dinner for One’ staat te boek als de meest herhaalde tv-show ter wereld.",
+            "Sydney is een van de eerste grote steden die het nieuwe jaar met vuurwerk inluidt — al om 14.00 uur Midden-Europese tijd.",
+            "In Spanje eet men bij elke klokslag één druif — wie er alle twaalf haalt, gaat een gelukkig jaar tegemoet."
+          ],
+          "imageCredit": "Foto: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "sv": {
+        "womens_day": {
+          "intro": "Internationella kvinnodagen den 8 mars står världen över för kvinnors jämställdhet, deras prestationer och kampen mot diskriminering.",
+          "history": "Kvinnodagen har sitt ursprung i den socialistiska kvinnorörelsen. Den tyska politikern Clara Zetkin föreslog en årlig aktionsdag i Köpenhamn 1910; redan 1911 marscherade miljontals kvinnor över hela Europa för denna sak. År 1921 fastställde Lenin den 8 mars som datum, till minne av kvinnostrejken i Petrograd i mars 1917 som bidrog till att utlösa den ryska februarirevolutionen. FN erkände officiellt dagen 1975 som ”FN:s dag för kvinnors rättigheter”.",
+          "traditions": "Kvinnor får blommor – traditionellt mimosa eller tulpaner – tillsammans med kort och små presenter. I många städer anordnas demonstrationer, föreläsningar och kulturevenemang. I Berlin har den 8 mars varit en allmän helgdag sedan 2019; i Italien ger män kvinnor mimosa-kvistar.",
+          "funFacts": [
+            "I Ryssland och flera före detta sovjetstater är den 8 mars en officiell helgdag då man inte arbetar.",
+            "Mecklenburg-Vorpommern blev 2023 den andra tyska delstaten efter Berlin som gjorde kvinnodagen till en allmän helgdag.",
+            "FN:s teman byts ut varje år – till exempel ”Inspire Inclusion” eller ”DigitALL”.",
+            "I Italien är mimosan en symbol för kvinnors styrka eftersom den blommar även under svåra förhållanden."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Påskdagen är kristendomens viktigaste högtid – dagen då Jesus Kristus uppstod från de döda och kyrkoårets höjdpunkt.",
+          "history": "Påsken har sitt ursprung i den judiska påskhögtiden och har firats av kristna sedan 1:a århundradet. År 325 fastställde kyrkan vid kyrkomötet i Nikea att påsken alltid ska firas den första söndagen efter vårens första fullmåne – därav det varierande datumet mellan den 22 mars och den 25 april. Det engelska namnet ”Easter” kan härledas till den germanska vårgudinnan Eostre, eller helt enkelt till det fornhögtyska ordet ”eostarum” (gryning).",
+          "traditions": "Familjerna inleder dagen med en festlig påskfrukost med färgade ägg, söta flätade bröd och påsklammkaka. Barnen letar i trädgården efter ägg och godsaker som påskharen har gömt. Många församlingar anordnar påskeldar, processioner och glada gudstjänster med klockklang.",
+          "funFacts": [
+            "Påsken kan infalla mellan den 22 mars och den 25 april – nästa ”tidiga” påsk (den 22 mars) infaller inte förrän år 2285.",
+            "Världens största påskhare står i Brasilien och är över 4,2 m hög.",
+            "Rysk-ortodoxa kristna firar ofta påsk en annan dag än västerländska kristna, eftersom de använder den julianska kalendern.",
+            "I Polen välsignas matkorgar (”Święconka”) på påsklördagen inför söndagens måltid."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Den 1 maj är i många länder ”Arbetarnas dag” – en helgdag inom arbetarrörelsen med demonstrationer, majstänger och vårmarknader.",
+          "history": "Den 1 maj 1886 gick hundratusentals arbetare i Chicago ut i en generalstrejk för att kräva en åtta timmars arbetsdag. De efterföljande sammandrabbningarna vid Haymarket ledde till att flera människor omkom. År 1889 utropade den internationella arbetarkongressen i Paris den 1 maj till den ”internationella kampdagen för arbetarna”. I Tyskland blev dagen en lagstadgad helgdag 1933 som ”Nationella arbetardagen” och behölls efter 1945 som en symbol för arbetarvänlig politik.",
+          "traditions": "Fackföreningarna anordnar demonstrationer och marscher under paroller som ”Högre lön, mer ledighet”. I många byar reses en majstång natten före den 1 maj – i södra Tyskland en rikt utsmyckad stam, i norr en björk framför flickvännens fönster. Populära aktiviteter: majvandringar, grillfester och familjefester.",
+          "funFacts": [
+            "Bayerns högsta majstång restes i Mitterfels år 2017 och är över 50 m hög.",
+            "I Frankrike brukar man ge bort liljekonvaljer (”muguet”) den 1 maj – en tradition som kung Karl IX införde år 1561.",
+            "I Rhenlandet ställs en ”kärleksmaj” – en pyntad björk – framför den älskades hem på majkvällen.",
+            "Den 1 maj är en officiell helgdag i över 80 länder – men i USA och Kanada infaller Labor Day i september."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "Nyårsafton är årets sista dag och firas i många länder med en högljudd, glittrande fest med fyrverkerier, mousserande vin och livliga fester.",
+          "history": "Det tyska namnet ”Silvester” härstammar från påven Sylvester I, som avled den 31 december 335. I och med den gregorianska kalenderreformen år 1582 blev den 31 december definitivt årets sista dag i Centraleuropa. Fyrverkerier har sitt ursprung i gamla seder där man använde buller för att skrämma bort onda andar. Efter 1950-talet blev nyårsafton en viktig tv-tradition – den tyska klassikern ”Dinner for One” sändes för första gången 1963 på NDR.",
+          "traditions": "Vid midnatt räknar folk ner tillsammans, skålar med mousserande vin, kramar varandra och tittar på fyrverkerierna. Familjerna spelar sällskapsspel, spår framtiden med smält vax och tittar på klassikern ”Dinner for One”. Festmenyerna består ofta av raclette, fondue eller donuts med geléfyllning.",
+          "funFacts": [
+            "Den största nyårsnedräkningen äger rum på Times Square i New York – den berömda kristallkulan har fallit vid midnatt sedan 1907.",
+            "”Dinner for One” innehar rekordet som världens mest repriserade tv-program.",
+            "Sydney är en av de första storstäderna som firar in det nya året med fyrverkerier – redan klockan 14.00 centraleuropeisk tid.",
+            "I Spanien äter man en vindruva för varje klockslag – den som klarar alla tolv kommer att ha ett lyckosamt år framför sig."
+          ],
+          "imageCredit": "Foto: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "ja": {
+        "womens_day": {
+          "intro": "3月8日の「国際女性デー」は、世界中で女性の平等、女性の功績、そして差別との闘いを象徴する日となっています。",
+          "history": "「国際女性デー」は、社会主義的な女性運動から生まれた。1910年、ドイツの政治家クララ・ツェトキンがコペンハーゲンで毎年恒例の行動の日を提案し、1911年までにはヨーロッパ各地で数百万人の女性がこの日を記念してデモ行進を行った。 1921年、レーニンは、ロシアの2月革命の引き金となった1917年3月のペトログラード女性ストライキを記念して、この日を3月8日に定めました。国連は1975年、この日を「国連女性権利の日」として正式に認定しました。",
+          "traditions": "女性たちは、カードやささやかな贈り物とともに、花（伝統的にはミモザやチューリップ）を贈られます。多くの都市では、デモ行進や講演、文化イベントが開催されます。ベルリンでは、2019年から3月8日が祝日となっています。イタリアでは、男性が女性にミモザの小枝を贈ります。",
+          "funFacts": [
+            "ロシアや旧ソ連諸国のいくつかでは、3月8日は公式の祝日であり、休業日となっています。",
+            "2023年、メクレンブルク＝フォアポンメルン州は、ベルリンに次いでドイツで2番目の州として、国際女性デーを公休日としました。",
+            "国連のテーマは毎年変わります。例えば、「Inspire Inclusion」や「DigitALL」などです。",
+            "イタリアでは、ミモザは過酷な環境でも花を咲かせることから、女性の強さの象徴とされています。"
+          ],
+          "imageCredit": "写真：Alina.neve · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "easter_sunday": {
+          "intro": "イースターの日曜日は、キリスト教において最も重要な祭日であり、イエス・キリストの復活の日であり、教会暦のクライマックスでもあります。",
+          "history": "イースターはユダヤ教の過越祭に由来し、1世紀以来、キリスト教徒によって祝われてきました。教会は325年にニカイアで、イースターを常に春の最初の満月の後の最初の日曜日に祝うことを定めました。そのため、その日付は3月22日から4月25日の間で変動します。 英語の「イースター（Easter）」という名称は、ゲルマン神話の春の女神エオストレ（Eostre）に由来する可能性もあれば、単に古高ドイツ語の「eostarum」（夜明け）に由来する可能性もあります。",
+          "traditions": "各家庭では、色とりどりの卵や甘い編み込みパン、イースター・ラムケーキなどが並ぶ、お祝いのイースター朝食で一日を始めます。子供たちは、イースター・バニーが庭に隠した卵やお菓子を探し回ります。多くの教区では、イースターの焚き火や行列、鐘の音を伴う賑やかな礼拝が行われます。",
+          "funFacts": [
+            "イースターは3月22日から4月25日までの間に当たることがあります。次に「早い」イースター（3月22日）が訪れるのは、2285年になってからです。",
+            "世界最大のイースターバニーはブラジルにあり、高さは4.2メートル以上あります。",
+            "ロシア正教徒はユリウス暦を採用しているため、西洋のキリスト教徒とは異なる日に復活祭を祝うことがよくあります。",
+            "ポーランドでは、聖土曜日に、日曜日の食事用に用意された食べ物の入ったかご（「シュヴィェコンカ」）が祝福されます。"
+          ],
+          "imageCredit": "写真：Geolina163 · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "labour_day": {
+          "intro": "5月1日は多くの国で「メーデー」として祝われ、労働者運動に由来する祝日であり、デモ行進やメイポール、春の祭りが行われます。",
+          "history": "1886年5月1日、シカゴの数十万人の労働者が、8時間労働制を求めてゼネストに突入した。その後、ヘイマーケットで発生した衝突により、数名が死亡した。1889年、パリで開催された国際労働者会議は、5月1日を「労働者のための国際闘争の日」と宣言した。 ドイツでは、1933年に「国民労働の日」として法定休日となり、1945年以降も労働者重視の政治の象徴として維持された。",
+          "traditions": "労働組合は、「賃上げ、休暇増」といったスローガンを掲げて集会やデモ行進を行う。 多くの村では、5月1日の前夜にメイポールが立てられる。南ドイツでは華やかに彩られた丸太が、北ドイツでは恋人の窓の前に白樺が立てられる。人気の行事としては、5月のハイキング、バーベキュー、家族向けのお祭りなどがある。",
+          "funFacts": [
+            "2017年、ミッターフェルスでバイエルン州で最も高いメイポール（高さ50メートル以上）が立てられた。",
+            "フランスでは、5月1日にスズラン（「ミュゲ」）を贈る習慣がある。これは1561年にシャルル9世が導入した風習である。",
+            "ラインラント地方では、5月の前夜に、恋人の家の前に「愛の5月」――飾り付けられた白樺――が置かれる。",
+            "5月1日は80カ国以上で公休日となっていますが、米国とカナダでは「労働者の日」は9月に祝われます。"
+          ],
+          "imageCredit": "写真：Joe Piette · CC BY-SA 2.0（ウィキメディア・コモンズ経由）"
+        },
+        "new_years_eve": {
+          "intro": "大晦日はその年の最後の日であり、多くの国では、花火やスパークリングワイン、そして賑やかなパーティーを伴う、華やかで賑やかなお祝い行事が行われます。",
+          "history": "ドイツ語の「シルヴェスター」という名称は、335年12月31日に亡くなった教皇シルヴェスター1世に由来しています。1582年のグレゴリオ暦への改暦により、12月31日は中央ヨーロッパにおいて正式にその年の最終日となりました。 花火の起源は、騒音で悪霊を追い払うという古い風習にあります。1950年代以降、大晦日はテレビの重要な恒例行事となりました。ドイツの定番番組『Dinner for One』は、1963年にNDRで初めて放送されました。",
+          "traditions": "真夜中になると、人々は一緒にカウントダウンをし、スパークリングワインで乾杯し、抱き合い、花火を見上げます。家族ではボードゲームを楽しんだり、蝋を流して新年の運勢を占ったり、名作『ディナー・フォー・ワン』を観たりします。お祝いのメニューには、ラクレットやフォンデュ、ゼリー入りのドーナツなどがよく並びます。",
+          "funFacts": [
+            "世界最大の新年カウントダウンは、ニューヨークのタイムズスクエアで行われます。1907年以来、真夜中になるとあの有名なクリスタルボールが落下しています。",
+            "『ディナー・フォー・ワン』は、世界で最も多く再放送されたテレビ番組としての記録を保持している。",
+            "シドニーは、花火で新年を迎える最初の主要都市の一つであり、中央ヨーロッパ時間の午後2時にはすでに花火が打ち上げられている。",
+            "スペインでは、鐘が鳴るたびにブドウを1粒ずつ食べる習慣があります。12回すべてを完食できた人は、その年は幸運に恵まれると言われています。"
+          ],
+          "imageCredit": "写真：マキア・ミニッチ · CC BY-SA 3.0（ウィキメディア・コモンズ経由）"
+        }
+      },
+      "ko": {
+        "womens_day": {
+          "intro": "3월 8일 세계 여성의 날은 전 세계적으로 여성의 평등, 여성의 업적, 그리고 차별에 맞선 투쟁을 상징합니다.",
+          "history": "여성의 날은 사회주의 여성 운동에서 비롯되었습니다. 독일의 정치인 클라라 체트킨은 1910년 코펜하겐에서 매년 기념하는 행동의 날을 제안했으며, 1911년에는 유럽 전역의 수백만 명의 여성들이 이를 위해 행진했습니다. 1921년 레닌은 러시아 2월 혁명의 도화선이 된 1917년 3월 페트로그라드 여성 파업을 기리기 위해 이 날을 3월 8일로 정했다. 유엔은 1975년 이 날을 ‘유엔 여성의 날’로 공식 지정했다.",
+          "traditions": "여성들은 전통적으로 미모사나 튤립 같은 꽃과 함께 카드 및 소소한 선물을 받습니다. 많은 도시에서 시위, 강연, 문화 행사가 열립니다. 베를린에서는 2019년부터 3월 8일이 공휴일로 지정되었으며, 이탈리아에서는 남성들이 여성들에게 미모사 가지를 선물합니다.",
+          "funFacts": [
+            "러시아와 몇몇 구소련 국가에서는 3월 8일이 공식 휴일입니다.",
+            "메클렌부르크-포어포메른주는 2023년 베를린에 이어 독일에서 두 번째로 여성의 날을 공휴일로 지정했다.",
+            "유엔의 주제는 매년 바뀝니다. 예를 들어 ‘포용을 고무하자(Inspire Inclusion)’나 ‘DigitALL’ 등이 있습니다.",
+            "이탈리아에서 미모사는 험난한 환경 속에서도 꽃을 피우기 때문에 여성의 강인함을 상징합니다."
+          ],
+          "imageCredit": "사진: Alina.neve · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "easter_sunday": {
+          "intro": "부활절 주일은 기독교에서 가장 중요한 축일로서, 예수 그리스도의 부활을 기념하는 날이자 교회 연중의 절정입니다.",
+          "history": "부활절은 유대교의 유월절에서 유래했으며, 1세기부터 기독교인들에 의해 기념되어 왔다. 교회는 325년 니케아 공의회에서 부활절을 항상 봄의 첫 보름달이 뜬 후 첫 번째 일요일에 기념하기로 정했다. 따라서 부활절 날짜는 3월 22일부터 4월 25일 사이로 매년 달라진다. 영어 이름 ‘Easter’는 게르만족의 봄의 여신 에오스트레(Eostre)에서 유래했을 수도 있고, 단순히 고대 고지 독일어 ‘eostarum’(새벽)에서 비롯되었을 수도 있습니다.",
+          "traditions": "가족들은 색칠한 달걀, 달콤한 땋은 빵, 부활절 양 모양 케이크가 어우러진 축제 분위기의 부활절 아침 식사로 하루를 시작합니다. 아이들은 정원에서 부활절 토끼가 숨겨 놓은 달걀과 간식을 찾아 헤맵니다. 많은 본당에서는 부활절 모닥불을 피우고, 행렬을 벌이며, 종소리가 울려 퍼지는 즐거운 미사를 거행합니다.",
+          "funFacts": [
+            "부활절은 3월 22일부터 4월 25일 사이에 찾아올 수 있는데, 다음 ‘이른’ 부활절(3월 22일)은 2285년이 되어야 다시 찾아옵니다.",
+            "세계에서 가장 큰 부활절 토끼 조각상이 브라질에 세워져 있으며, 높이는 4.2m가 넘는다.",
+            "러시아 정교회 신자들은 율리우스력을 사용하기 때문에 서방 기독교인들과는 다른 날에 부활절을 기념하는 경우가 많습니다.",
+            "폴란드에서는 성토일에 일요일 식사를 위해 준비한 음식 바구니('Święconka')에 축복을 받습니다."
+          ],
+          "imageCredit": "사진: Geolina163 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "labour_day": {
+          "intro": "5월 1일은 많은 나라에서 ‘노동절’로, 시위와 메이폴 행사, 봄 축제가 열리는 노동 운동의 기념일입니다.",
+          "history": "1886년 5월 1일, 시카고의 수십만 명의 노동자들이 8시간 노동제를 요구하며 총파업을 벌였습니다. 이후 헤이마켓에서 발생한 충돌로 여러 명이 사망했습니다. 1889년 파리에서 열린 국제노동자대회는 5월 1일을 ‘노동자를 위한 국제 투쟁의 날’로 선포했습니다. 독일에서는 1933년에 ‘국가 노동의 날’로 법정 공휴일이 되었으며, 1945년 이후에도 노동자 친화적 정책의 상징으로 유지되었다.",
+          "traditions": "노동조합들은 ‘임금 인상, 휴가 확대’와 같은 구호를 내걸고 집회와 행진을 벌입니다. 많은 마을에서는 5월 1일 전날 밤 메이폴을 세웁니다. 독일 남부에서는 화려하게 칠해진 나무 줄기를, 북부에서는 연인의 창문 앞에 자작나무를 세웁니다. 인기 있는 활동으로는 5월 하이킹, 바비큐, 가족 축제 등이 있습니다.",
+          "funFacts": [
+            "2017년 미터펠스에서 바이에른 주에서 가장 높은 50m가 넘는 메이폴이 세워졌다.",
+            "프랑스에서는 5월 1일에 은방울꽃(‘muguet’)을 선물하는 풍습이 있는데, 이는 1561년 샤를 9세 왕이 도입한 관습이다.",
+            "라인란트 지방에서는 5월 전야에 ‘사랑의 5월’이라 불리는 장식된 자작나무를 연인의 집 앞에 놓습니다.",
+            "5월 1일은 80여 개국에서 공휴일이지만, 미국과 캐나다에서는 노동절이 9월에 있습니다."
+          ],
+          "imageCredit": "사진: Joe Piette · CC BY-SA 2.0 (위키미디어 공용 제공)"
+        },
+        "new_years_eve": {
+          "intro": "새해 전야는 한 해의 마지막 날로, 많은 나라에서 불꽃놀이와 스파클링 와인, 활기 넘치는 파티가 어우러진 시끌벅적하고 화려한 축제가 펼쳐집니다.",
+          "history": "독일어 이름 ‘실베스터(Silvester)’는 335년 12월 31일에 세상을 떠난 교황 실베스터 1세에서 유래했습니다. 1582년 그레고리력 개혁으로 인해 12월 31일은 중부 유럽에서 공식적으로 한 해의 마지막 날이 되었습니다. 불꽃놀이는 소음을 내어 악령을 쫓아내던 옛 풍습에서 유래했습니다. 1950년대 이후, 섣달그믐날은 TV의 주요 전통이 되었는데, 독일의 고전 프로그램인 ‘Dinner for One’은 1963년 NDR에서 처음 방영되었습니다.",
+          "traditions": "자정이 되면 사람들은 함께 카운트다운을 하고, 스파클링 와인으로 건배를 나누며, 서로를 껴안고 불꽃놀이를 감상합니다. 가족들은 보드게임을 즐기거나, 왁스를 부어 새해 운세를 점치기도 하고, 고전 코미디 ‘Dinner for One’을 함께 보기도 합니다. 명절 메뉴로는 라클렛, 퐁듀, 젤리가 들어간 도넛 등이 자주 등장합니다.",
+          "funFacts": [
+            "가장 큰 규모의 새해 카운트다운 행사는 뉴욕 타임스 스퀘어에서 열리는데, 1907년부터 자정이 되면 유명한 크리스탈 볼이 내려오고 있습니다.",
+            "‘Dinner for One’은 세계에서 가장 많이 재방송된 TV 프로그램으로 기록되어 있다.",
+            "시드니는 중앙유럽 표준시 기준 오후 2시에 이미 불꽃놀이로 새해를 맞이하는 최초의 주요 도시 중 하나입니다.",
+            "스페인에서는 종이 울릴 때마다 포도 한 알씩 먹는데, 12알을 모두 먹은 사람은 그해에 행운이 따른다고 합니다."
+          ],
+          "imageCredit": "사진: 마키아 미니치 · CC BY-SA 3.0 (위키미디어 공용 제공)"
+        }
+      },
+      "zh-Hant": {
+        "womens_day": {
+          "intro": "3月8日的國際婦女節在全球範圍內象徵著婦女平等、她們的成就以及反對歧視的鬥爭。",
+          "history": "國際婦女節源於社會主義婦女運動。1910年，德國政治家克拉拉·蔡特金在哥本哈根提議設立一個年度行動日；到了1911年，全歐洲已有數百萬婦女為此走上街頭遊行。 1921年，列寧將此日定為3月8日，以紀念1917年3月彼得格勒婦女罷工——該事件有助於引發俄國二月革命。聯合國於1975年正式將該日定為「聯合國婦女權利日」。",
+          "traditions": "女性會收到鮮花——傳統上通常是含羞草或鬱金香——以及賀卡和小禮物。許多城市會舉辦示威遊行、講座和文化活動。在柏林，3月8日自2019年起即為法定假日；在義大利，男性會贈送女性含羞草枝條。",
+          "funFacts": [
+            "在俄羅斯及若干前蘇聯國家，3月8日是官方指定的非工作日。",
+            "2023年，梅克倫堡-前波美拉尼亞州成為繼柏林之後，德國第二個將婦女節定為公共假日的州。",
+            "聯合國的年度主題每年都會更換——例如「激發包容」或「DigitALL」。",
+            "在義大利，含羞草是女性力量的象徵，因為即使在艱困的環境下，它依然能綻放。"
+          ],
+          "imageCredit": "照片：Alina.neve · 透過維基共享資源，採用 CC BY-SA 4.0 授權"
+        },
+        "easter_sunday": {
+          "intro": "復活節主日是基督教最重要的節日——這一天是耶穌基督復活的日子，也是教會年曆的高潮。",
+          "history": "復活節源自猶太教的逾越節，自一世紀起便為基督徒所慶祝。教會於西元325年在尼西亞會議上規定，復活節應固定在春季首次滿月後的第一个星期日慶祝——因此日期會在3月22日至4月25日之間變動。 英文名稱「Easter」可能源自日耳曼春季女神伊奧斯特雷（Eostre），也可能單純源自古高地德語「eostarum」（黎明）。",
+          "traditions": "各家各戶會以一頓充滿節日氣氛的復活節早餐開啟新的一天，餐桌上擺滿彩蛋、甜味編織麵包和復活節羔羊蛋糕。孩子們會在花園裡尋找復活節兔子藏起來的彩蛋和點心。許多教區都會舉行復活節篝火、遊行，以及伴隨著鐘聲的歡樂禮拜。",
+          "funFacts": [
+            "復活節的日期可能落在 3 月 22 日至 4 月 25 日之間——下一個「較早」的復活節（3 月 22 日）要等到 2285 年才會再次出現。",
+            "世界上最大的復活節兔子矗立在巴西，高度超過 4.2 公尺。",
+            "俄羅斯東正教信徒慶祝復活節的日子通常與西方基督徒不同，因為他們使用儒略曆。",
+            "在波蘭，人們會在聖週六將裝有食物的籃子（「Święconka」）帶去接受祝福，以便用於週日的餐宴。"
+          ],
+          "imageCredit": "照片：Geolina163 · 透過維基共享資源，採用 CC BY-SA 4.0 授權"
+        },
+        "labour_day": {
+          "intro": "5月1日是許多國家的「勞動節」——這是工人運動的節日，期間會舉行遊行、豎立五月柱以及舉辦春季市集。",
+          "history": "1886年5月1日，芝加哥數十萬名工人為爭取八小時工作制發起總罷工。隨後在海市集（Haymarket）爆發的衝突造成數人死亡。1889年，在巴黎舉行的國際工人大會宣布5月1日為「國際工人鬥爭日」。 在德國，該日於1933年被定為法定假日，名為「國家勞動日」，並在1945年後得以保留，作為親勞工政策的象徵。",
+          "traditions": "工會以「加薪、增加休假」等口號為號召，舉辦集會和遊行。 在許多村莊，人們會在5月1日的前一晚豎起五月柱——在德國南部，是一根彩繪精美的樹幹；在北部，則是在心上人窗前豎起一棵樺樹。熱門活動包括：五月健行、烤肉聚會和家庭節慶。",
+          "funFacts": [
+            "巴伐利亞州最高的五月柱於2017年在米特費爾斯豎立，高度超過50公尺。",
+            "在法國，人們會在5月1日互贈鈴蘭（「muguet」）——這是查理九世國王於1561年所創立的習俗。",
+            "在萊茵蘭地區，人們會在五月前夕將一棵裝飾過的樺樹——即「愛情五月樹」——擺放在心上人的家門前。",
+            "5月1日是80多個國家的法定假日——但在美國和加拿大，勞動節則在9月。"
+          ],
+          "imageCredit": "照片：Joe Piette · 經維基共享資源提供，採用 CC BY-SA 2.0 授權"
+        },
+        "new_years_eve": {
+          "intro": "除夕是一年的最後一天，在許多國家，人們會舉辦熱鬧非凡、璀璨奪目的慶祝活動，包括煙火、香檳以及熱鬧非凡的派對。",
+          "history": "德語名稱「Silvester」可追溯至教宗西爾維斯特一世，他於西元335年12月31日逝世。隨著1582年格里曆改革，12月31日正式成為中歐地區的一年最後一天。 煙火的起源可追溯至古代以噪音驅趕惡靈的習俗。1950年代之後，跨年夜成為電視界的一項重要傳統——德國經典節目《Dinner for One》於1963年首度在北德廣播公司（NDR）播出。",
+          "traditions": "午夜時分，人們會一起倒數、舉起香檳乾杯、互相擁抱，並觀賞煙火。家人們會一起玩桌上遊戲、用蠟占卜來預測新年的運勢，並觀賞經典喜劇《一人晚餐》。節慶菜單中通常會包含拉克雷特起司、瑞士起司鍋或果醬甜甜圈。",
+          "funFacts": [
+            "規模最大的跨年倒數活動在紐約時代廣場舉行——那顆著名的晶球自1907年起，便一直於午夜時分緩緩降下。",
+            "《一人晚餐》創下了全球重播次數最多的電視節目紀錄。",
+            "雪梨是首批以煙火迎接新年的主要城市之一——時間早至中歐時間下午2點。",
+            "在西班牙，人們會隨著鐘聲的每一聲敲響吃下一顆葡萄——凡是能吃完全部十二顆的人，來年將會好運連連。"
+          ],
+          "imageCredit": "照片：Makia Minich · 經維基共享資源提供，採用 CC BY-SA 3.0 授權"
+        }
+      }
+    }
+  },
+  "images": {
+    "womens_day": [
+      {
+        "path": "images/womens_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      }
+    ],
+    "easter_sunday": [
+      {
+        "path": "images/easter_sunday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/easter_sunday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/easter_sunday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "labour_day": [
+      {
+        "path": "images/labour_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "new_years_eve": [
+      {
+        "path": "images/new_years_eve/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_years_eve/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_years_eve/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 5
+}
