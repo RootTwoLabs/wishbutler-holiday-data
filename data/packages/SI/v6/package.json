@@ -1,0 +1,1146 @@
+{
+  "countryCode": "SI",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "SI_new_years_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "SI_preseren_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.preseren_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 8
+      }
+    },
+    {
+      "id": "SI_easter_sunday",
+      "countryCode": "SI",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 0
+      }
+    },
+    {
+      "id": "SI_easter_monday",
+      "countryCode": "SI",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "SI_day_of_uprising_against_occupation",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_uprising_against_occupation",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 27
+      }
+    },
+    {
+      "id": "SI_labour_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day_si",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 2
+      }
+    },
+    {
+      "id": "SI_primoz_trubar_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.primoz_trubar_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 2
+      }
+    },
+    {
+      "id": "SI_pentecost",
+      "countryCode": "SI",
+      "kind": "easter_relative",
+      "labelKey": "holidays.pentecost",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 49
+      }
+    },
+    {
+      "id": "SI_statehood_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.statehood_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 25
+      }
+    },
+    {
+      "id": "SI_sovereignty_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.sovereignty_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 14
+      }
+    },
+    {
+      "id": "SI_assumption_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.assumption",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "SI_unification_of_prekmurje_slovenes_with_the_mother_nation",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.unification_of_prekmurje_slovenes_with_the_mother_nation",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    {
+      "id": "SI_integration_of_primorska_into_the_homeland",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.integration_of_primorska_into_the_homeland",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 15
+      }
+    },
+    {
+      "id": "SI_slovenian_sports_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.slovenian_sports_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 23
+      }
+    },
+    {
+      "id": "SI_reformation_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.reformation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 31
+      }
+    },
+    {
+      "id": "SI_day_of_the_dead",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_the_dead",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 1
+      }
+    },
+    {
+      "id": "SI_rudolf_maister_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.rudolf_maister_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 23
+      }
+    },
+    {
+      "id": "SI_christmas_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "SI_independence_and_unity_day",
+      "countryCode": "SI",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_and_unity_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "preseren_day": "Prešeren Day",
+        "easter_sunday": "Easter Sunday",
+        "day_of_uprising_against_occupation": "Day of Uprising Against Occupation",
+        "labour_day_si": "Labour Day",
+        "primoz_trubar_day": "Primož Trubar Day",
+        "pentecost": "Pentecost",
+        "statehood_day": "Statehood Day",
+        "sovereignty_day": "Sovereignty Day",
+        "unification_of_prekmurje_slovenes_with_the_mother_nation": "Unification of Prekmurje Slovenes with the Mother Nation",
+        "integration_of_primorska_into_the_homeland": "Integration of Primorska into the Homeland",
+        "slovenian_sports_day": "Slovenian Sports Day",
+        "reformation_day": "Reformation Day",
+        "day_of_the_dead": "Day of the Dead",
+        "rudolf_maister_day": "Rudolf Maister Day",
+        "independence_and_unity_day": "Independence and Unity Day"
+      },
+      "sl": {
+        "new_years_day": "novo leto",
+        "preseren_day": "Prešernov dan",
+        "easter_sunday": "velikonočna nedelja in ponedeljek",
+        "day_of_uprising_against_occupation": "dan upora proti okupatorju",
+        "labour_day_si": "praznik dela",
+        "primoz_trubar_day": "dan Primoža Trubarja",
+        "pentecost": "binkoštna nedelja",
+        "statehood_day": "dan državnosti",
+        "sovereignty_day": "dan suverenosti",
+        "unification_of_prekmurje_slovenes_with_the_mother_nation": "združitev prekmurskih Slovencev z matičnim narodom",
+        "integration_of_primorska_into_the_homeland": "priključitev Primorske k matični domovini",
+        "slovenian_sports_day": "dan slovenskega športa",
+        "reformation_day": "dan reformacije",
+        "day_of_the_dead": "dan spomina na mrtve",
+        "rudolf_maister_day": "dan Rudolfa Maistra",
+        "independence_and_unity_day": "dan samostojnosti in enotnosti"
+      },
+      "de": {
+        "new_years_day": "Neujahr",
+        "preseren_day": "Prešeren-Tag",
+        "easter_sunday": "Ostersonntag",
+        "day_of_uprising_against_occupation": "Tag des Aufstands gegen die Besatzung",
+        "labour_day_si": "Tag der Arbeit",
+        "primoz_trubar_day": "Primož-Trubar-Tag",
+        "pentecost": "Pfingsten",
+        "statehood_day": "Tag der Eigenstaatlichkeit",
+        "sovereignty_day": "Tag der Souveränität",
+        "unification_of_prekmurje_slovenes_with_the_mother_nation": "Vereinigung der Prekmurje-Slowenen mit der Mutternation",
+        "integration_of_primorska_into_the_homeland": "Integration von Primorska in das Heimatland",
+        "slovenian_sports_day": "Slowenischer Sporttag",
+        "reformation_day": "Reformationstag",
+        "day_of_the_dead": "Tag der Toten",
+        "rudolf_maister_day": "Rudolf-Maister-Tag",
+        "independence_and_unity_day": "Tag der Unabhängigkeit und Einheit"
+      },
+      "fr": {
+        "new_years_day": "Jour de l'An",
+        "preseren_day": "Journée Prešeren",
+        "easter_sunday": "Dimanche de Pâques",
+        "day_of_uprising_against_occupation": "Journée de soulèvement contre l'occupation",
+        "labour_day_si": "Fête du Travail",
+        "primoz_trubar_day": "Journée Primož Trubar",
+        "pentecost": "Pentecôte",
+        "statehood_day": "Journée de l'État",
+        "sovereignty_day": "Journée de la souveraineté",
+        "unification_of_prekmurje_slovenes_with_the_mother_nation": "Unification des Slovènes de Prekmurje avec la Nation Mère",
+        "integration_of_primorska_into_the_homeland": "Intégration de Primorska dans la patrie",
+        "slovenian_sports_day": "Journée sportive slovène",
+        "reformation_day": "Jour de la Réforme",
+        "day_of_the_dead": "Jour des Morts",
+        "rudolf_maister_day": "Journée Rudolf Maister",
+        "independence_and_unity_day": "Fête de l'Indépendance et de l'Unité"
+      },
+      "es": {
+        "new_years_day": "Día de Año Nuevo",
+        "preseren_day": "Día de la Prešeren",
+        "easter_sunday": "Domingo de Pascua",
+        "day_of_uprising_against_occupation": "Día del levantamiento contra la ocupación",
+        "labour_day_si": "Día del Trabajo",
+        "primoz_trubar_day": "Día de Primož Trubar",
+        "pentecost": "Pentecostés",
+        "statehood_day": "Día de la Estadidad",
+        "sovereignty_day": "Día de la Soberanía",
+        "unification_of_prekmurje_slovenes_with_the_mother_nation": "Unificación de los eslovenos de Prekmurje con la Madre Nación",
+        "integration_of_primorska_into_the_homeland": "Integración de Primorska en la Patria",
+        "slovenian_sports_day": "Día del deporte esloveno",
+        "reformation_day": "Día de la Reforma",
+        "day_of_the_dead": "Día de Muertos",
+        "rudolf_maister_day": "Día de Rudolf Maister",
+        "independence_and_unity_day": "Día de la Independencia y la Unidad"
+      },
+      "pt": {
+        "new_years_day": "Dia de Ano Novo",
+        "preseren_day": "Dia de Prešeren",
+        "easter_sunday": "Domingo de Páscoa",
+        "day_of_uprising_against_occupation": "Dia da Revolta Contra a Ocupação",
+        "labour_day_si": "Dia do Trabalhador",
+        "primoz_trubar_day": "Dia de Primož Trubar",
+        "pentecost": "Pentecostes",
+        "statehood_day": "Dia do Estado",
+        "sovereignty_day": "Dia da Soberania",
+        "unification_of_prekmurje_slovenes_with_the_mother_nation": "Unificação dos Eslovenos Prekmurje com a Nação Mãe",
+        "integration_of_primorska_into_the_homeland": "Integração da Primorska na Pátria",
+        "slovenian_sports_day": "Dia do Desporto na Eslovénia",
+        "reformation_day": "Dia da Reforma",
+        "day_of_the_dead": "Dia dos Mortos",
+        "rudolf_maister_day": "Dia de Rudolf Maister",
+        "independence_and_unity_day": "Dia da Independência e Unidade"
+      },
+      "it": {
+        "new_years_day": "Capodanno",
+        "preseren_day": "Festa di Prešeren",
+        "easter_sunday": "Domenica di Pasqua",
+        "day_of_uprising_against_occupation": "Giornata della rivolta contro l'occupazione",
+        "labour_day_si": "Festa dei lavoratori",
+        "primoz_trubar_day": "Giornata di Primož Trubar",
+        "pentecost": "Pentecoste",
+        "statehood_day": "Giornata dello Stato",
+        "sovereignty_day": "Giornata della sovranità",
+        "unification_of_prekmurje_slovenes_with_the_mother_nation": "Unificazione degli sloveni del Prekmurje con la Patria Madre",
+        "integration_of_primorska_into_the_homeland": "Integrazione della Primorska nella patria",
+        "slovenian_sports_day": "Giornata dello sport sloveno",
+        "reformation_day": "Giorno della Riforma",
+        "day_of_the_dead": "Il giorno dei morti",
+        "rudolf_maister_day": "Rudolf Maister Giorno",
+        "independence_and_unity_day": "Giorno dell'Indipendenza e dell'Unità"
+      },
+      "pl": {
+        "new_years_day": "Nowy Rok",
+        "preseren_day": "Dzień Prešerena",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "day_of_uprising_against_occupation": "Dzień Powstania Przeciw Okupacji",
+        "labour_day_si": "Święto Pracy",
+        "primoz_trubar_day": "Dzień Primoža Trubara",
+        "pentecost": "Zesłanie Ducha Świętego",
+        "statehood_day": "Dzień Państwowości",
+        "sovereignty_day": "Dzień Suwerenności",
+        "unification_of_prekmurje_slovenes_with_the_mother_nation": "Zjednoczenie Słoweńców Prekmurje z Narodem Matką",
+        "integration_of_primorska_into_the_homeland": "Integracja Primorskiej z Ojczyzną",
+        "slovenian_sports_day": "Słoweński Dzień Sportu",
+        "reformation_day": "Dzień Reformacji",
+        "day_of_the_dead": "Święto Zmarłych",
+        "rudolf_maister_day": "Dzień Rudolfa Maistera",
+        "independence_and_unity_day": "Dzień Niepodległości i Jedności"
+      },
+      "nl": {
+        "new_years_day": "Nieuwjaarsdag",
+        "preseren_day": "Prešerendag",
+        "easter_sunday": "Paaszondag",
+        "day_of_uprising_against_occupation": "Dag van de Opstand tegen de Bezetting",
+        "labour_day_si": "Dag van de Arbeid",
+        "primoz_trubar_day": "Primož Trubar-dag",
+        "pentecost": "Pinksteren",
+        "statehood_day": "Dag van de staat",
+        "sovereignty_day": "Dag van de soevereiniteit",
+        "unification_of_prekmurje_slovenes_with_the_mother_nation": "Eenwording van de Slovenen uit Prekmurje met de Moedernatie",
+        "integration_of_primorska_into_the_homeland": "Integratie van Primorska in het thuisland",
+        "slovenian_sports_day": "Sloveense sportdag",
+        "reformation_day": "Hervormingsdag",
+        "day_of_the_dead": "Dag van de Doden",
+        "rudolf_maister_day": "Rudolf Maister-dag",
+        "independence_and_unity_day": "Onafhankelijkheids- en eenheidsdag"
+      },
+      "sv": {
+        "new_years_day": "Nyårsdagen",
+        "preseren_day": "Prešeren Day",
+        "easter_sunday": "Påskdagen",
+        "day_of_uprising_against_occupation": "Upprorets dag mot ockupationen",
+        "labour_day_si": "Labor Day",
+        "primoz_trubar_day": "Primož Trubar-dagen",
+        "pentecost": "Pingst",
+        "statehood_day": "Statens dag",
+        "sovereignty_day": "Suveränitetsdag",
+        "unification_of_prekmurje_slovenes_with_the_mother_nation": "Enande av Prekmurje-slovenerna med Moder Nation",
+        "integration_of_primorska_into_the_homeland": "Primorskas integration i hemlandet",
+        "slovenian_sports_day": "Slovenska sportdagen",
+        "reformation_day": "reformationsdagen",
+        "day_of_the_dead": "De dödas dag",
+        "rudolf_maister_day": "Rudolf Maister Day",
+        "independence_and_unity_day": "Självständighets- och enhetsdag"
+      },
+      "ja": {
+        "new_years_day": "元旦",
+        "preseren_day": "プレシェレンデー",
+        "easter_sunday": "イースターサンデー",
+        "day_of_uprising_against_occupation": "占領に対する蜂起の日",
+        "labour_day_si": "レイバーデー",
+        "primoz_trubar_day": "プリモシュ トルバルの日",
+        "pentecost": "ペンテコステ",
+        "statehood_day": "州就任記念日",
+        "sovereignty_day": "主権の日",
+        "unification_of_prekmurje_slovenes_with_the_mother_nation": "プレクムルリエ・スロベニア人の母国との統一",
+        "integration_of_primorska_into_the_homeland": "沿海地方の祖国への統合",
+        "slovenian_sports_day": "スロベニアのスポーツデー",
+        "reformation_day": "宗教改革記念日",
+        "day_of_the_dead": "死者の日",
+        "rudolf_maister_day": "ルドルフマイスターデー",
+        "independence_and_unity_day": "独立と統一の日"
+      },
+      "ko": {
+        "new_years_day": "설날",
+        "preseren_day": "프레셰렌 데이",
+        "easter_sunday": "부활절 일요일",
+        "day_of_uprising_against_occupation": "점거 반대 봉기의 날",
+        "labour_day_si": "노동절",
+        "primoz_trubar_day": "프리모즈 트루바르 데이",
+        "pentecost": "오순절",
+        "statehood_day": "건국 기념일",
+        "sovereignty_day": "주권의 날",
+        "unification_of_prekmurje_slovenes_with_the_mother_nation": "프레크무르예 슬로베니아와 모국의 통일",
+        "integration_of_primorska_into_the_homeland": "프리모르스카를 본토에 통합",
+        "slovenian_sports_day": "슬로베니아 체육대회",
+        "reformation_day": "종교개혁기념일",
+        "day_of_the_dead": "망자의 날",
+        "rudolf_maister_day": "루돌프 마이스터 데이",
+        "independence_and_unity_day": "독립기념일"
+      },
+      "zh-Hant": {
+        "new_years_day": "元旦",
+        "preseren_day": "普雷舍倫日",
+        "easter_sunday": "復活節週日",
+        "day_of_uprising_against_occupation": "反抗佔領起義日",
+        "labour_day_si": "勞動節",
+        "primoz_trubar_day": "Primož Trubar 日",
+        "pentecost": "五旬節",
+        "statehood_day": "建州日",
+        "sovereignty_day": "主權日",
+        "unification_of_prekmurje_slovenes_with_the_mother_nation": "Prekmurje 斯洛維尼亞與祖國的統一",
+        "integration_of_primorska_into_the_homeland": "濱海邊疆區融入祖國",
+        "slovenian_sports_day": "斯洛維尼亞運動會",
+        "reformation_day": "宗教改革日",
+        "day_of_the_dead": "亡靈節",
+        "rudolf_maister_day": "魯道夫·邁斯特日",
+        "independence_and_unity_day": "獨立與團結日"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "easter_sunday": {
+          "intro": "Ostersonntag ist das höchste Fest des Christentums – Tag der Auferstehung Jesu Christi und Höhepunkt des Kirchenjahres.",
+          "history": "Ostern entwickelte sich aus dem jüdischen Pessachfest und wird seit dem 1. Jahrhundert von Christen begangen. Die Kirche legte 325 in Nicäa fest, dass Ostern stets am ersten Sonntag nach dem ersten Frühlingsvollmond gefeiert wird – daher das wechselnde Datum zwischen 22. März und 25. April. Der Name „Ostern” geht möglicherweise auf die germanische Frühlingsgöttin Ostara zurück, oder schlicht auf das althochdeutsche „eostarum” (Morgenröte).",
+          "traditions": "Familien beginnen den Tag mit einem festlichen Osterfrühstück mit gefärbten Eiern, Hefezopf und Osterlamm. Kinder suchen die vom Osterhasen versteckten Eier und Süßigkeiten im Garten. In vielen Gemeinden gibt es Osterfeuer, Osterprozessionen und feierliche Gottesdienste mit Glockenklang.",
+          "funFacts": [
+            "Das Osterdatum kann zwischen dem 22. März und dem 25. April liegen – der nächste „frühe” Ostersonntag (22. März) findet erst 2285 wieder statt.",
+            "Der größte Osterhase der Welt steht in Brasilien und ist über 4,2 m hoch.",
+            "Russisch-Orthodoxe Christen feiern Ostern oft an einem anderen Tag als West-Christen, weil sie den julianischen Kalender benutzen.",
+            "In Polen lässt man am Karsamstag Speisen in Körben für die Ostersonntag-Mahlzeit segnen („Święconka”)."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Ostermontag ist der zweite Festtag von Ostern und in den meisten europäischen Ländern arbeitsfrei. Er ist Ausklang des höchsten christlichen Festes.",
+          "history": "Ostern ist das älteste Fest der Christenheit und feiert die Auferstehung Jesu Christi am dritten Tag nach seinem Tod. Das Konzil von Nicäa legte 325 das Osterdatum auf den ersten Sonntag nach dem ersten Frühlingsvollmond. Der Ostermontag wird seit dem frühen Mittelalter als zweiter Festtag begangen – ursprünglich war die ganze Osterwoche frei. In Deutschland und Österreich blieb er als gesetzlicher Feiertag erhalten, anders als in vielen rein katholischen Ländern.",
+          "traditions": "Familien suchen gemeinsam Ostereier, frühstücken ausgiebig oder unternehmen den klassischen Osterspaziergang („Vom Eise befreit sind Strom und Bäche…”, Goethe). In Polen feiert man „Śmigus-Dyngus”: Junge bespritzen Mädchen mit Wasser. In Tschechien klopfen Burschen mit Weidenruten an Türen. In Bayern und Österreich gibt es das traditionelle „Emmausgehen”.",
+          "funFacts": [
+            "Der Brauch des Ostereiersuchens wurde erstmals von Martin Luther erwähnt, der seinen Kindern damit eine Freude machte.",
+            "Das größte Schoko-Osterei der Welt stand in Argentinien (8,5 m hoch, 4 t schwer) – verewigt im Guinness-Buch.",
+            "In Schweden ziehen Kinder am Karsamstag als „Påskkärringar” verkleidet – wie kleine Hexen – von Tür zu Tür.",
+            "Der Osterhase als Eierbringer wurde 1682 erstmals von dem Mediziner Georg Franck von Franckenau schriftlich erwähnt."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "Mariä Himmelfahrt am 15. August feiert die Aufnahme Marias mit Leib und Seele in den Himmel. Der Tag gehört zu den höchsten Marienfesten der katholischen Kirche.",
+          "history": "Die Lehre von der leiblichen Aufnahme Marias entwickelte sich seit dem 4. Jahrhundert in den christlichen Gemeinden. Papst Pius XII. erklärte sie 1950 in der Enzyklika „Munificentissimus Deus” zum verbindlichen Dogma. Schon im Mittelalter entstand der Brauch, an diesem Tag Kräuter zu segnen – zu einer Zeit, in der die ersten Heilkräuter blühten. Mariä Himmelfahrt ist in Österreich, im Saarland und in überwiegend katholischen Gemeinden Bayerns gesetzlicher Feiertag.",
+          "traditions": "In katholischen Regionen werden „Kräuterbuschen” oder „Frauendreißiger-Kräuter” geweiht – Sträuße aus 7, 9 oder 30 Heilpflanzen, die anschließend zuhause aufbewahrt werden. Festliche Marien-Prozessionen ziehen durch die Dörfer, Wallfahrten zu Marienstätten häufen sich. In Italien („Ferragosto”) beginnt mit dem 15. August die Hauptferienzeit.",
+          "funFacts": [
+            "Der „Ferragosto” in Italien geht auf Kaiser Augustus zurück, der 18 v. Chr. eine Ruhepause der Bauern nach der Ernte verordnete.",
+            "Bayerische Frauendreißiger-Buschen enthalten oft Beifuß, Königskerze, Schafgarbe und Kornblume.",
+            "In Frankreich ist der 15. August seit 1638 Nationalfeiertag – wegen einer Marienverehrung Ludwigs XIII.",
+            "Der berühmte „Notre-Dame-Marsch” in Paris wurde 1638 zu Ehren des Tages angeordnet."
+          ],
+          "imageCredit": "Foto: Ondraness · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
+          "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
+          "traditions": "Familien versammeln sich zu festlichen Mahlzeiten – Truthahn, Gans, Karpfen oder Raclette. Geschenke werden ausgetauscht, Weihnachtslieder gesungen, viele besuchen den Festgottesdienst. Der geschmückte Christbaum mit Lichterketten, Kugeln und Strohsternen ist das zentrale Symbol. Adventskalender, Plätzchen und der Besuch von Weihnachtsmärkten gehören zur Vorbereitung.",
+          "funFacts": [
+            "Der erste kommerzielle Adventskalender erschien 1908 in München – Erfinder war Gerhard Lang.",
+            "Die Weihnachtsmärkte in Dresden („Striezelmarkt”, seit 1434) und Frankfurt (seit 1393) gehören zu den ältesten der Welt.",
+            "Norwegen schenkt Großbritannien seit 1947 jährlich einen riesigen Weihnachtsbaum für den Trafalgar Square – als Dank für die Hilfe im Zweiten Weltkrieg.",
+            "Die Weihnachtsfilm-Klassiker „Drei Haselnüsse für Aschenbrödel” und „Tatsächlich… Liebe” laufen weltweit jedes Jahr Dutzende Male im TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "easter_sunday": {
+          "intro": "Easter Sunday is Christianity's highest festival — the day of Jesus Christ's resurrection and the climax of the church year.",
+          "history": "Easter grew out of the Jewish Passover and has been observed by Christians since the 1st century. The Church set in 325 at Nicaea that Easter is always celebrated on the first Sunday after the first spring full moon — hence the moving date between March 22nd and April 25th. The English name ‘Easter' may go back to the Germanic spring goddess Eostre, or simply to the Old High German ‘eostarum' (dawn).",
+          "traditions": "Families start the day with a festive Easter breakfast featuring colored eggs, sweet braided bread and Easter lamb cake. Children search the garden for the eggs and treats hidden by the Easter Bunny. Many parishes hold Easter fires, processions and joyful services with bells.",
+          "funFacts": [
+            "Easter can fall between March 22nd and April 25th — the next ‘early' Easter (March 22nd) won't return until 2285.",
+            "The world's largest Easter Bunny stands in Brazil and is over 4.2 m tall.",
+            "Russian Orthodox Christians often celebrate Easter on a different day from Western Christians because they use the Julian calendar.",
+            "In Poland, Holy Saturday baskets of food (‘Święconka') are blessed for the Sunday meal."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Easter Monday is the second day of Easter and is a public holiday in most European countries. It marks the closing of Christianity's highest festival.",
+          "history": "Easter is the oldest festival in Christendom, celebrating the resurrection of Jesus Christ on the third day after his death. The Council of Nicaea in 325 set Easter on the first Sunday after the first spring full moon. Easter Monday has been observed since the early Middle Ages — originally the entire Easter week was a holiday. In Germany and Austria it remained a legal holiday, unlike in many purely Catholic countries.",
+          "traditions": "Families hunt for Easter eggs together, enjoy a leisurely brunch or take the classic Easter walk (immortalized in Goethe's ‘Faust'). In Poland ‘Śmigus-Dyngus' is celebrated: boys splash girls with water. In Czechia, lads tap on doors with willow whips. In Bavaria and Austria there is the traditional ‘Emmaus walk'.",
+          "funFacts": [
+            "The custom of Easter egg hunts was first mentioned by Martin Luther, who used it to delight his children.",
+            "The world's largest chocolate Easter egg stood in Argentina (8.5 m tall, 4 t) — recorded in the Guinness Book.",
+            "In Sweden, children dress up as ‘Påskkärringar' — little witches — on Holy Saturday and go door to door.",
+            "The Easter Bunny as deliverer of eggs was first mentioned in 1682 by physician Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "The Assumption of Mary on August 15th celebrates Mary being taken up body and soul into heaven. The day is one of the highest Marian feasts of the Catholic Church.",
+          "history": "The teaching of Mary's bodily Assumption developed in Christian communities as early as the 4th century. Pope Pius XII declared it binding dogma in 1950 in the encyclical ‘Munificentissimus Deus'. As early as the Middle Ages, the custom of blessing herbs on this day arose — at a time when the first medicinal herbs bloomed. Assumption is a public holiday in Austria, in Saarland and in the predominantly Catholic municipalities of Bavaria.",
+          "traditions": "In Catholic regions ‘herb bunches' or ‘Frauendreißiger herbs' are blessed — bouquets of 7, 9 or 30 medicinal plants kept at home afterwards. Festive Marian processions move through the villages and pilgrimages to Marian sites become more frequent. In Italy (‘Ferragosto') the main holiday season begins on August 15th.",
+          "funFacts": [
+            "‘Ferragosto' in Italy goes back to Emperor Augustus, who ordered a rest period for farmers after harvest in 18 BC.",
+            "Bavarian Frauendreißiger herb bouquets often contain mugwort, mullein, yarrow and cornflower.",
+            "In France August 15th has been a national holiday since 1638 — owing to a Marian devotion of Louis XIII.",
+            "The famous ‘Notre-Dame March' in Paris was ordered in 1638 in honor of the day."
+          ],
+          "imageCredit": "Photo: Ondraness · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
+          "history": "December 25th is documented as ‘dies natalis Christi' as early as 354 in a Roman calendar. The Church likely chose the date to give the Roman ‘Sol Invictus' winter solstice festival a Christian meaning. Gift-giving has its roots in the gifts of the Magi. The familiar Santa Claus with red coat and white beard is a mix of Saint Nicholas and a 1931 Coca-Cola advertising campaign.",
+          "traditions": "Families gather for festive meals — turkey, goose, carp or raclette. Gifts are exchanged, carols sung, many attend the festive service. The decorated Christmas tree with lights, ornaments and straw stars is the central symbol. Advent calendars, cookies and visits to Christmas markets are part of the run-up.",
+          "funFacts": [
+            "The first commercial Advent calendar appeared in 1908 in Munich — invented by Gerhard Lang.",
+            "The Christmas markets in Dresden (‘Striezelmarkt', since 1434) and Frankfurt (since 1393) are among the oldest in the world.",
+            "Norway has gifted the UK a giant Christmas tree for Trafalgar Square every year since 1947 — as thanks for help during World War II.",
+            "Holiday classics like ‘Three Wishes for Cinderella' and ‘Love Actually' run dozens of times on TV worldwide every year."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "easter_sunday": {
+          "intro": "Le dimanche de Pâques est la fête la plus importante du christianisme — jour de la résurrection de Jésus-Christ et sommet de l'année liturgique.",
+          "history": "Pâques est issue de la Pâque juive et célébrée par les chrétiens depuis le Ier siècle. L'Église fixa en 325 à Nicée que Pâques se célébrerait toujours le premier dimanche après la première pleine lune de printemps — d'où la date mobile entre le 22 mars et le 25 avril. Le nom ‘Easter' (anglais) viendrait de la déesse germanique du printemps Eostre, ou simplement du vieux haut-allemand ‘eostarum' (aurore).",
+          "traditions": "Les familles entament la journée par un petit-déjeuner pascal festif avec œufs colorés, brioche tressée et agneau pascal. Les enfants cherchent les œufs et friandises cachés par le lapin de Pâques. Dans de nombreuses paroisses, on allume des feux de Pâques, des processions et des messes solennelles avec carillons.",
+          "funFacts": [
+            "Pâques peut tomber entre le 22 mars et le 25 avril — le prochain Pâques ‘précoce' (22 mars) ne reviendra qu'en 2285.",
+            "Le plus grand lapin de Pâques du monde se trouve au Brésil et mesure plus de 4,2 m.",
+            "Les chrétiens orthodoxes russes célèbrent souvent Pâques un autre jour, car ils utilisent le calendrier julien.",
+            "En Pologne, on bénit le Samedi Saint des paniers de nourriture (‘Święconka') pour le repas du dimanche."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Le lundi de Pâques est le second jour de Pâques et férié dans la plupart des pays européens. Il clôt la fête majeure du christianisme.",
+          "history": "Pâques est la plus ancienne fête de la chrétienté et célèbre la résurrection de Jésus-Christ le troisième jour. Le concile de Nicée fixa en 325 la date de Pâques au premier dimanche après la première pleine lune du printemps. Le lundi de Pâques se célèbre depuis le haut Moyen Âge — initialement, toute la semaine de Pâques était fériée. En Allemagne et en Autriche, il demeure un jour férié légal, contrairement à beaucoup de pays purement catholiques.",
+          "traditions": "Les familles font la chasse aux œufs, prennent un long brunch ou la traditionnelle promenade pascale. En Pologne, on célèbre ‘Śmigus-Dyngus' : les garçons aspergent les filles d'eau. En Tchéquie, les jeunes hommes tapent aux portes avec des branches de saule. En Bavière et en Autriche, la traditionnelle ‘marche d'Emmaüs' a lieu.",
+          "funFacts": [
+            "C'est Martin Luther qui mentionna pour la première fois la chasse aux œufs, pour amuser ses enfants.",
+            "Le plus grand œuf en chocolat du monde (8,5 m, 4 t) a été réalisé en Argentine — entré au Guinness.",
+            "En Suède, les enfants se déguisent en ‘Påskkärringar' (petites sorcières) le Samedi Saint et font du porte-à-porte.",
+            "Le lapin de Pâques en tant que livreur d'œufs fut mentionné pour la première fois en 1682 par le médecin Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "L'Assomption de Marie, le 15 août, célèbre l'élévation de Marie corps et âme au ciel. C'est l'une des plus grandes fêtes mariales catholiques.",
+          "history": "La doctrine de l'Assomption se développa dès le IVe siècle. Le pape Pie XII la déclara dogme contraignant en 1950 dans l'encyclique ‘Munificentissimus Deus'. Dès le Moyen Âge, on bénissait des herbes médicinales ce jour-là, à l'époque de leur première floraison. En France, l'Assomption est jour férié national depuis 1638 — Louis XIII y avait consacré le royaume à la Vierge. C'est aussi un jour férié en Autriche, en Sarre et dans les communes catholiques de Bavière.",
+          "traditions": "Dans les régions catholiques, on bénit des ‘bouquets d'herbes' — bouquets de 7, 9 ou 30 plantes médicinales. Des processions mariales traversent les villages, les pèlerinages se multiplient. En Italie (‘Ferragosto'), c'est le grand week-end de vacances. En France, des processions ont lieu dans de nombreuses villes, notamment à Lourdes et à Lyon.",
+          "funFacts": [
+            "Le ‘Ferragosto' italien remonte à l'empereur Auguste, qui ordonna en 18 av. J.-C. un repos des paysans après la moisson.",
+            "Les bouquets bavarois renferment souvent armoise, molène, achillée et bleuet.",
+            "En France, le 15 août est fête nationale depuis 1638 — par dévotion mariale de Louis XIII.",
+            "La fameuse ‘Marche Notre-Dame' à Paris fut décrétée en 1638 en l'honneur du jour."
+          ],
+          "imageCredit": "Photo: Ondraness · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
+          "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
+          "traditions": "Les familles se rassemblent autour de repas festifs — dinde, oie, carpe ou raclette. On échange des cadeaux, chante des cantiques, beaucoup assistent à la messe festive. Le sapin décoré de lumières, boules et étoiles de paille est le symbole central. Calendrier de l'avent, biscuits et marchés de Noël jalonnent la préparation.",
+          "funFacts": [
+            "Le premier calendrier de l'avent commercial parut en 1908 à Munich — invention de Gerhard Lang.",
+            "Les marchés de Noël de Dresde (‘Striezelmarkt', depuis 1434) et de Francfort (depuis 1393) figurent parmi les plus anciens du monde.",
+            "La Norvège offre chaque année au Royaume-Uni un immense sapin pour Trafalgar Square depuis 1947 — en remerciement de l'aide pendant la Seconde Guerre mondiale.",
+            "Les classiques de Noël comme ‘Trois noisettes pour Cendrillon' ou ‘Love Actually' sont diffusés des dizaines de fois à la télé chaque année."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "easter_sunday": {
+          "intro": "El Domingo de Pascua es la fiesta más importante del cristianismo: el día de la resurrección de Jesús y culmen del año litúrgico.",
+          "history": "La Pascua surgió de la fiesta judía de Pésaj y se celebra desde el siglo I. La Iglesia fijó en 325 en Nicea que se celebrara el primer domingo tras la primera luna llena de primavera — de ahí la fecha variable entre el 22 de marzo y el 25 de abril. El nombre ‘Easter' (inglés) puede derivar de la diosa germánica de la primavera Eostre, o del antiguo alto alemán ‘eostarum' (alba).",
+          "traditions": "Las familias inician el día con un desayuno festivo con huevos coloreados, trenzas dulces y cordero pascual. Los niños buscan los huevos y dulces escondidos por el Conejo de Pascua. En muchas comunidades hay hogueras de Pascua, procesiones y misas solemnes con campanas.",
+          "funFacts": [
+            "La Pascua puede caer entre el 22 de marzo y el 25 de abril — el próximo Domingo de Pascua ‘temprano' (22 de marzo) no llegará hasta 2285.",
+            "El conejo de Pascua más grande del mundo está en Brasil y mide más de 4,2 m.",
+            "Los cristianos ortodoxos rusos suelen celebrar la Pascua otro día, ya que usan el calendario juliano.",
+            "En Polonia se bendicen las cestas de comida (‘Święconka') el Sábado Santo para el almuerzo del domingo."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "El Lunes de Pascua es el segundo día de la Pascua y festivo en la mayoría de países europeos. Cierra la fiesta más importante del cristianismo.",
+          "history": "La Pascua es la fiesta más antigua del cristianismo y celebra la resurrección de Jesús al tercer día de su muerte. El Concilio de Nicea fijó en 325 que se celebraría el primer domingo después de la primera luna llena de primavera. El Lunes de Pascua se celebra desde la temprana Edad Media — originalmente toda la octava de Pascua era festiva. En Alemania y Austria sigue siendo festivo legal, a diferencia de muchos países católicos.",
+          "traditions": "Las familias buscan huevos de Pascua, desayunan abundantemente o dan el clásico paseo de Pascua. En Polonia se celebra ‘Śmigus-Dyngus': los chicos mojan a las chicas con agua. En Chequia los jóvenes golpean las puertas con ramas de sauce. En Baviera y Austria se hace la tradicional caminata de Emaús.",
+          "funFacts": [
+            "Martin Lutero fue el primero en mencionar la búsqueda de huevos de Pascua, para alegrar a sus hijos.",
+            "El huevo de Pascua de chocolate más grande del mundo (8,5 m, 4 t) se hizo en Argentina y figura en el Guinness.",
+            "En Suecia los niños se disfrazan de ‘Påskkärringar' — pequeñas brujas — el Sábado Santo y van de puerta en puerta.",
+            "El conejo de Pascua como portador de huevos fue mencionado por escrito por primera vez en 1682, por el médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 vía Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "La Asunción de María, el 15 de agosto, celebra la elevación de María en cuerpo y alma al cielo. Es una de las máximas fiestas marianas católicas.",
+          "history": "La doctrina de la Asunción se desarrolló desde el siglo IV. El papa Pío XII la declaró dogma vinculante en 1950 con la encíclica ‘Munificentissimus Deus'. Ya en la Edad Media se bendecían hierbas medicinales en este día — coincidiendo con el florecimiento de las primeras plantas curativas. Es festivo en Austria, en Sarre y en municipios mayoritariamente católicos de Baviera. En España es ‘La Asunción' y festivo nacional.",
+          "traditions": "En regiones católicas se bendicen ‘ramos de hierbas' o ‘hierbas de Frauendreißiger' — ramos de 7, 9 o 30 plantas medicinales que luego se conservan en casa. Procesiones marianas atraviesan los pueblos y aumentan las peregrinaciones a santuarios. En Italia (‘Ferragosto') comienza la temporada principal de vacaciones.",
+          "funFacts": [
+            "El ‘Ferragosto' italiano remonta al emperador Augusto, que en el 18 a. C. ordenó un descanso de los campesinos tras la cosecha.",
+            "Los ramos bávaros suelen incluir artemisa, gordolobo, milenrama y aciano.",
+            "En Francia el 15 de agosto es fiesta nacional desde 1638 — por una devoción mariana de Luis XIII.",
+            "La famosa ‘Marcha de Notre-Dame' en París se decretó en 1638 en honor del día."
+          ],
+          "imageCredit": "Foto: Ondraness · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
+          "history": "Ya en el año 354 un calendario romano consigna el 25 de diciembre como ‘dies natalis Christi'. Probablemente la Iglesia eligió la fecha para reinterpretar cristianamente el ‘Sol Invictus' romano. El intercambio de regalos arraiga en los obsequios de los Magos. El moderno Papá Noel con abrigo rojo y barba blanca es una mezcla de San Nicolás con una campaña publicitaria de Coca-Cola de 1931.",
+          "traditions": "Las familias se reúnen para comidas festivas — pavo, ganso, carpa o raclette. Se intercambian regalos, se cantan villancicos y muchos asisten al servicio festivo. El árbol decorado con luces y bolas es el símbolo central. El calendario de Adviento, las galletas y los mercadillos forman parte de la preparación.",
+          "funFacts": [
+            "El primer calendario de Adviento comercial apareció en 1908 en Múnich — invento de Gerhard Lang.",
+            "Los mercadillos navideños de Dresde (‘Striezelmarkt', desde 1434) y Fráncfort (desde 1393) son de los más antiguos del mundo.",
+            "Noruega regala al Reino Unido un enorme árbol de Navidad para Trafalgar Square cada año desde 1947 — agradecimiento por la ayuda en la Segunda Guerra Mundial.",
+            "Los clásicos como ‘Tres Avellanas para Cenicienta' o ‘Love Actually' se emiten decenas de veces cada año en TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "easter_sunday": {
+          "intro": "O Domingo de Páscoa é a festa mais importante do cristianismo — dia da ressurreição de Jesus Cristo e ápice do ano litúrgico.",
+          "history": "A Páscoa surgiu da festa judaica de Pessach e é celebrada pelos cristãos desde o século I. A Igreja fixou em 325 em Niceia que a Páscoa se celebra sempre no primeiro domingo após a primeira lua cheia da primavera — daí a data móvel entre 22 de março e 25 de abril. Em Portugal, é uma das festas religiosas mais importantes, com missas solenes, procissões e a tradição do compasso pascal — visita do pároco às casas para abençoá-las.",
+          "traditions": "Em Portugal o Domingo de Páscoa é dia de almoço de família com cabrito assado, folar e amêndoas. Antes do almoço, em algumas regiões (sobretudo Trás-os-Montes), o pároco visita as casas levando a cruz para beijar — o ‘compasso pascal'. As crianças procuram amêndoas e ovos de chocolate escondidos. Em muitas paróquias acendem-se fogos pascais e há procissões.",
+          "funFacts": [
+            "A Páscoa pode cair entre 22 de março e 25 de abril — a próxima Páscoa ‘precoce' (22 de março) só voltará em 2285.",
+            "O maior coelho da Páscoa do mundo está no Brasil e mede mais de 4,2 m.",
+            "Os cristãos ortodoxos russos costumam celebrar a Páscoa noutro dia, pois usam o calendário juliano.",
+            "Em Portugal, no compasso pascal, o pároco visita as casas com a cruz para beijar — quem não recebe o compasso é considerado ‘casa fechada'."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "A Segunda-Feira de Páscoa é o segundo dia de Páscoa e feriado na maioria dos países europeus. Em Portugal, ainda que não seja feriado, é tradição almoçar com a família o folar.",
+          "history": "A Páscoa é a festa mais antiga da cristandade e celebra a ressurreição de Jesus Cristo no terceiro dia. O Concílio de Niceia em 325 fixou a Páscoa no primeiro domingo após a primeira lua cheia da primavera. A Segunda-Feira de Páscoa celebra-se desde a alta Idade Média — originalmente toda a semana de Páscoa era feriada. Em Portugal, a tradição é a do ‘folar', um bolo doce com ovo cozido por cima, que se oferece sobretudo aos afilhados.",
+          "traditions": "As famílias procuram em conjunto ovos de Páscoa, almoçam abundantemente ou fazem o clássico passeio pascal. Em Portugal, oferece-se o ‘folar' aos afilhados e organizam-se almoços em família com cabrito assado. Na Polónia celebra-se ‘Śmigus-Dyngus': os rapazes salpicam as raparigas com água. Na Chéquia, os jovens batem às portas com ramos de salgueiro.",
+          "funFacts": [
+            "O costume da caça aos ovos foi mencionado pela primeira vez por Martinho Lutero, para alegrar os filhos.",
+            "O maior ovo de chocolate do mundo (8,5 m, 4 t) foi feito na Argentina e está no Guinness.",
+            "Na Suécia, as crianças vestem-se de ‘Påskkärringar' — pequenas bruxas — no Sábado Santo e vão de porta em porta.",
+            "O coelho da Páscoa como entregador de ovos foi mencionado pela primeira vez por escrito em 1682 pelo médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "A Assunção de Maria, 15 de agosto, celebra a elevação de Maria em corpo e alma ao céu. É uma das maiores festas marianas católicas. Em Portugal é feriado nacional.",
+          "history": "A doutrina da Assunção desenvolveu-se desde o século IV. O Papa Pio XII declarou-a dogma vinculativo em 1950 na encíclica ‘Munificentissimus Deus'. Já na Idade Média se benziam ervas medicinais neste dia, na altura em que floresciam as primeiras plantas curativas. Em Portugal, o 15 de agosto é tradicionalmente um dia de festa em muitas localidades, com romarias e procissões marianas.",
+          "traditions": "Em Portugal há inúmeras romarias e festas em honra de Nossa Senhora da Assunção, especialmente no Norte e Centro do país. As procissões marianas atravessam as aldeias, e há feiras com comidas tradicionais e fogo de artifício. Em Itália (‘Ferragosto') começa a principal temporada de férias.",
+          "funFacts": [
+            "‘Ferragosto' em Itália remonta ao imperador Augusto, que ordenou em 18 a.C. um descanso dos camponeses depois das colheitas.",
+            "Em Portugal, a Festa de Nossa Senhora da Boa Viagem em Caminha e tantas outras ‘Senhora da Assunção' transformam o 15 de agosto numa data de grandes festas locais.",
+            "Em França, o 15 de agosto é feriado nacional desde 1638 — por devoção mariana de Luís XIII.",
+            "A famosa ‘Marcha de Notre-Dame' em Paris foi decretada em 1638 em honra do dia."
+          ],
+          "imageCredit": "Foto: Ondraness · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
+          "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
+          "traditions": "As famílias reúnem-se em refeições festivas — peru, ganso, bacalhau ou raclette nos países germânicos; em Portugal, o típico almoço de Natal com peru ou cabrito assado, e as sobremesas de bolo-rei, sonhos, rabanadas, aletria e arroz-doce. Trocam-se presentes, cantam-se cânticos, muitos vão à missa festiva. A árvore decorada e o presépio são símbolos centrais.",
+          "funFacts": [
+            "O primeiro calendário do Advento comercial apareceu em 1908 em Munique — invenção de Gerhard Lang.",
+            "Os mercados de Natal de Dresden (‘Striezelmarkt', desde 1434) e Frankfurt (desde 1393) estão entre os mais antigos do mundo.",
+            "A Noruega oferece ao Reino Unido um enorme abeto para Trafalgar Square todos os anos desde 1947 — em agradecimento pela ajuda na II Guerra.",
+            "Em Portugal, a tradição do bolo-rei remonta ao século XIX, importado da pastelaria francesa."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "easter_sunday": {
+          "intro": "La Domenica di Pasqua è la festa più importante del cristianesimo — giorno della resurrezione di Gesù e culmine dell'anno liturgico.",
+          "history": "La Pasqua si è sviluppata dalla festa ebraica di Pesach ed è celebrata dai cristiani dal I secolo. La Chiesa stabilì nel 325 a Nicea che la Pasqua si celebra sempre la prima domenica dopo il primo plenilunio di primavera — da qui la data variabile tra il 22 marzo e il 25 aprile. In Italia, oltre al pranzo familiare con agnello, colomba e uova di cioccolato, è tradizione la benedizione delle case.",
+          "traditions": "Le famiglie iniziano la giornata con una colazione pasquale festiva con uova colorate, colomba e agnello pasquale. I bambini cercano le uova nascoste dal coniglio pasquale. In molte parrocchie si accendono fuochi pasquali, processioni e messe solenni con suono delle campane. In Italia, è tradizione il pranzo con agnello al forno, colomba pasquale e uova di cioccolato.",
+          "funFacts": [
+            "La Pasqua può cadere tra il 22 marzo e il 25 aprile — la prossima Pasqua ‘precoce' (22 marzo) tornerà solo nel 2285.",
+            "Il più grande coniglio pasquale del mondo si trova in Brasile e supera i 4,2 m.",
+            "I cristiani ortodossi russi spesso celebrano la Pasqua in un altro giorno, perché usano il calendario giuliano.",
+            "In Polonia il Sabato Santo si benedicono cesti di cibo (‘Święconka') per il pranzo della domenica."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Il Lunedì dell'Angelo è il secondo giorno di Pasqua e festivo nella maggior parte dei paesi europei. Chiude la festa più importante del cristianesimo.",
+          "history": "La Pasqua è la festa più antica del cristianesimo e celebra la resurrezione di Gesù Cristo il terzo giorno. Il Concilio di Nicea nel 325 fissò la Pasqua alla prima domenica dopo il primo plenilunio di primavera. Il Lunedì dell'Angelo si celebra dall'alto Medioevo — originariamente era festiva l'intera ottava di Pasqua. In Italia il Lunedì dell'Angelo (Pasquetta) è giorno di gite ed è festivo nazionale.",
+          "traditions": "In Italia ‘Natale con i tuoi, Pasquetta con chi vuoi': la tradizione vuole pic-nic in campagna o gite fuori porta con grigliata. Le famiglie cercano insieme le uova di Pasqua, fanno colazione abbondante o la classica passeggiata pasquale. In Polonia si celebra ‘Śmigus-Dyngus': i ragazzi spruzzano acqua sulle ragazze.",
+          "funFacts": [
+            "L'usanza della caccia alle uova fu menzionata per la prima volta da Martin Lutero, che voleva divertire i suoi figli.",
+            "Il più grande uovo di cioccolato del mondo (8,5 m, 4 t) fu fatto in Argentina ed è nel Guinness.",
+            "In Svezia i bambini si vestono da ‘Påskkärringar' — piccole streghe — il Sabato Santo e fanno il porta a porta.",
+            "Il coniglio pasquale come portatore di uova fu menzionato per iscritto la prima volta nel 1682 dal medico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "L'Assunzione di Maria, il 15 agosto, celebra l'elevazione di Maria in anima e corpo al cielo. È una delle massime feste mariane cattoliche. In Italia è ‘Ferragosto', festa centrale dell'estate.",
+          "history": "La dottrina dell'Assunzione si sviluppò dal IV secolo. Papa Pio XII la dichiarò dogma vincolante nel 1950 con l'enciclica ‘Munificentissimus Deus'. Il termine italiano ‘Ferragosto' viene dal latino ‘Feriae Augusti' (riposo di Augusto), istituito nel 18 a.C. dall'imperatore Augusto come pausa per i contadini dopo la mietitura. Già nel Medioevo si benedicevano erbe medicinali in questo giorno. È festivo in Italia, Austria, Saarland e nei comuni cattolici della Baviera.",
+          "traditions": "In Italia il Ferragosto è giorno di gite, picnic, grigliate al mare o in montagna. Tradizionalmente molte aziende chiudono per ferie. Nelle regioni cattoliche si benedicono ‘mazzi di erbe' di 7, 9 o 30 piante medicinali. Processioni mariane attraversano i paesi e si moltiplicano i pellegrinaggi a santuari. In Francia il 15 agosto è festa nazionale dal 1638.",
+          "funFacts": [
+            "Il ‘Ferragosto' italiano risale all'imperatore Augusto, che ordinò nel 18 a.C. un riposo dei contadini dopo il raccolto.",
+            "I mazzi bavaresi contengono spesso artemisia, verbasco, achillea e fiordaliso.",
+            "In Francia il 15 agosto è festa nazionale dal 1638 — per devozione mariana di Luigi XIII.",
+            "La famosa ‘Marcia di Notre-Dame' a Parigi fu istituita nel 1638 in onore del giorno."
+          ],
+          "imageCredit": "Foto: Ondraness · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
+          "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
+          "traditions": "Le famiglie si riuniscono per pasti festosi — tacchino, oca, carpa o raclette al nord; pranzo natalizio con tortellini in brodo, lasagne, capponi e panettone in Italia. Si scambiano regali, si cantano canti natalizi, molti partecipano alla messa festiva. L'albero decorato e il presepe sono i simboli centrali. Calendario dell'Avvento, biscotti e mercatini scandiscono la preparazione.",
+          "funFacts": [
+            "Il primo calendario dell'Avvento commerciale apparve nel 1908 a Monaco — invenzione di Gerhard Lang.",
+            "I mercatini di Natale di Dresda (‘Striezelmarkt', dal 1434) e Francoforte (dal 1393) sono tra i più antichi al mondo.",
+            "La Norvegia regala al Regno Unito un enorme albero di Natale per Trafalgar Square ogni anno dal 1947 — come ringraziamento per l'aiuto nella Seconda Guerra Mondiale.",
+            "Il panettone milanese e il pandoro veronese sono i due dolci natalizi italiani per eccellenza."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "easter_sunday": {
+          "intro": "Niedziela Wielkanocna jest najważniejszym świętem chrześcijaństwa — dniem zmartwychwstania Jezusa Chrystusa i punktem kulminacyjnym roku liturgicznego.",
+          "history": "Wielkanoc wywodzi się z żydowskiego święta Paschy i obchodzona jest przez chrześcijan od I wieku. Kościół ustalił w 325 roku w Nicei, że Wielkanoc świętowana jest zawsze w pierwszą niedzielę po pierwszej wiosennej pełni księżyca — stąd ruchoma data między 22 marca a 25 kwietnia. W Polsce tradycja święcenia pokarmów (‘święconki') sięga XIV wieku i jest jedną z najsilniej zachowanych tradycji.",
+          "traditions": "W Polsce w Niedzielę Wielkanocną rodziny zaczynają dzień uroczystym śniadaniem z poświęconych w Wielką Sobotę pokarmów (‘święconki') — jajek, kiełbasy, szynki, chrzanu, baranka z masła czy cukru, mazurka i babki. Następnie idzie się na uroczystą mszę. Wieczorem często odbywają się rodzinne spotkania.",
+          "funFacts": [
+            "Wielkanoc może wypadać między 22 marca a 25 kwietnia — następna ‘wczesna' Wielkanoc (22 marca) wypadnie dopiero w 2285 roku.",
+            "Polskie tradycyjne palmy wielkanocne z Kurpii i Łysych potrafią mieć ponad 30 metrów wysokości — coroczny konkurs w Niedzielę Palmową.",
+            "Rosyjscy prawosławni często świętują Wielkanoc innego dnia, bo używają kalendarza juliańskiego.",
+            "Polskie ‘pisanki' to jedne z najpiękniejszych ozdób wielkanocnych świata — popularne motywy regionalne, np. opolskie, kurpiowskie."
+          ],
+          "imageCredit": "Zdjęcie: Geolina163 · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Poniedziałek Wielkanocny (Lany Poniedziałek, Śmigus-Dyngus) to drugi dzień Wielkanocy i dzień wolny w większości krajów europejskich. W Polsce słynie z tradycji oblewania wodą.",
+          "history": "Wielkanoc to najstarsze święto chrześcijaństwa i upamiętnia zmartwychwstanie Jezusa Chrystusa trzeciego dnia po jego śmierci. Sobór Nicejski w 325 roku ustalił datę Wielkanocy na pierwszą niedzielę po pierwszej wiosennej pełni księżyca. Poniedziałek Wielkanocny obchodzony jest od wczesnego średniowiecza — pierwotnie cały tydzień wielkanocny był wolny. W Polsce zachowała się żywa tradycja Śmigusa-Dyngusa, sięgająca XV wieku.",
+          "traditions": "W Polsce Lany Poniedziałek (Śmigus-Dyngus) to dzień, w którym chłopcy oblewają dziewczęta wodą — tradycyjnie symbolizująca oczyszczenie i płodność. Rodziny szukają jajek wielkanocnych, jedzą śniadanie z kiełbasą, jajkami, chrzanem, mazurkiem i babką. W niektórych regionach (np. Beskid Żywiecki) chodzą ‘śmigustnicy' w przebraniach.",
+          "funFacts": [
+            "Zwyczaj poszukiwania jajek wzmiankował po raz pierwszy Marcin Luter — chciał ucieszyć swoje dzieci.",
+            "Największe czekoladowe jajko świata stało w Argentynie (8,5 m wysokości, 4 t) — wpisane do Księgi Guinnessa.",
+            "Polski Śmigus-Dyngus ma korzenie w słowiańskim święcie wiosennym — woda symbolizowała oczyszczenie i płodność.",
+            "W Czechach chłopcy biją dziewczyny rózgami z wierzby (‘pomlázka') — niby boleśnie, ale dla zdrowia i urody."
+          ],
+          "imageCredit": "Zdjęcie: Georgi Kirichkov · CC BY-SA 3.0 przez Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "Wniebowzięcie Najświętszej Maryi Panny, 15 sierpnia, świętuje wzięcie Maryi z duszą i ciałem do nieba. W Polsce zwane Świętem Matki Boskiej Zielnej, dzień wolny od pracy.",
+          "history": "Nauka o cielesnym Wniebowzięciu Maryi rozwijała się od IV wieku w wspólnotach chrześcijańskich. Papież Pius XII ogłosił ją wiążącym dogmatem w 1950 roku w encyklice ‘Munificentissimus Deus'. Już w średniowieczu powstał zwyczaj święcenia ziół tego dnia. W Polsce 15 sierpnia jest też Świętem Wojska Polskiego — upamiętnia Bitwę Warszawską 1920 roku, ‘Cud nad Wisłą'. Jest dniem wolnym od pracy.",
+          "traditions": "W Polsce 15 sierpnia święci się ‘ziele' — bukiety z ziół leczniczych, zbóż, kwiatów polnych — które potem zachowuje się w domu jako ochrona. Odbywają się też uroczyste obchody Święta Wojska Polskiego, w tym defilada w Warszawie. Procesje maryjne przechodzą przez wsie, mnożą się pielgrzymki do sanktuariów, m.in. do Częstochowy.",
+          "funFacts": [
+            "‘Ferragosto' we Włoszech sięga cesarza Augusta, który w 18 r. p.n.e. zarządził odpoczynek rolników po żniwach.",
+            "W Polsce 15 sierpnia jest też Świętem Wojska Polskiego, upamiętnia ‘Cud nad Wisłą' z 1920 roku.",
+            "Polska tradycja święcenia ziół (‘Matka Boska Zielna') sięga średniowiecza i jest jedną z najstarszych ludowych tradycji.",
+            "Pielgrzymka na Jasną Górę w Częstochowie przyciąga corocznie miliony pątników właśnie wokół 15 sierpnia."
+          ],
+          "imageCredit": "Zdjęcie: Ondraness · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
+          "history": "Już w 354 roku 25 grudnia odnotowany jest jako ‘dies natalis Christi' w rzymskim kalendarzu. Kościół wybrał tę datę prawdopodobnie po to, by chrześcijańsko zinterpretować rzymskie święto ‘Sol Invictus'. Tradycja prezentów ma korzenie w darach Trzech Mędrców. Współczesny Święty Mikołaj w czerwonym płaszczu i z białą brodą to mieszanka św. Mikołaja i kampanii reklamowej Coca-Coli z 1931 roku.",
+          "traditions": "W Polsce Boże Narodzenie obchodzi się przez dwa dni (25 i 26 grudnia). Rodziny zbierają się na obfitym obiedzie — często rosół z makaronem, schab, indyk, sałatka jarzynowa, makowiec, sernik. Wymienia się prezenty (w Polsce zwykle wręczane już w Wigilię), śpiewa kolędy, wielu uczestniczy w nabożeństwach. Choinka i szopka są centralnymi symbolami.",
+          "funFacts": [
+            "Pierwszy komercyjny kalendarz adwentowy ukazał się w 1908 roku w Monachium — wynalazek Gerharda Langa.",
+            "Polskie kolędy — m.in. ‘Wśród nocnej ciszy', ‘Bóg się rodzi', ‘Lulajże, Jezuniu' — uchodzą za jedne z najpiękniejszych na świecie.",
+            "Norwegia podarowuje Wielkiej Brytanii corocznie od 1947 roku ogromną choinkę na Trafalgar Square — w podzięce za pomoc w II wojnie światowej.",
+            "Tradycja choinki dotarła do Polski z Niemiec na początku XIX wieku, a powszechna stała się po 1830 roku."
+          ],
+          "imageCredit": "Zdjęcie: Chris Olszewski · CC BY-SA 4.0 przez Wikimedia Commons"
+        }
+      },
+      "nl": {
+        "easter_sunday": {
+          "intro": "Paaszondag is het belangrijkste feest in het christendom — de dag van de verrijzenis van Jezus Christus en het hoogtepunt van het kerkelijk jaar.",
+          "history": "Pasen is voortgekomen uit het joodse Pesach en wordt al sinds de 1e eeuw door christenen gevierd. In 325 besloot de Kerk in Nicea dat Pasen altijd wordt gevierd op de eerste zondag na de eerste volle maan van de lente — vandaar dat de datum varieert tussen 22 maart en 25 april. De Engelse naam ‘Easter’ zou kunnen teruggaan op de Germaanse lentegodin Eostre, of simpelweg op het Oudhoogduitse ‘eostarum’ (dageraad).",
+          "traditions": "Gezinnen beginnen de dag met een feestelijk paasontbijt met gekleurde eieren, zoet gevlochten brood en paaslamscake. Kinderen zoeken in de tuin naar de eieren en lekkernijen die door de paashaas zijn verstopt. Veel parochies organiseren paasvuren, processies en vrolijke diensten met klokken.",
+          "funFacts": [
+            "Pasen kan tussen 22 maart en 25 april vallen — de volgende ‘vroege’ Pasen (22 maart) valt pas weer in 2285.",
+            "De grootste paashaas ter wereld staat in Brazilië en is meer dan 4,2 m hoog.",
+            "Russisch-orthodoxe christenen vieren Pasen vaak op een andere dag dan westerse christenen, omdat ze de Juliaanse kalender gebruiken.",
+            "In Polen worden op Paaszaterdag manden met etenswaren (‘Święconka’) gezegend voor de maaltijd op zondag."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Paasmaandag is de tweede dag van Pasen en is in de meeste Europese landen een officiële feestdag. Deze dag markeert het einde van het belangrijkste christelijke feest.",
+          "history": "Pasen is het oudste feest in het christendom, waarbij de opstanding van Jezus Christus op de derde dag na zijn dood wordt gevierd. Het Concilie van Nicea stelde in 325 vast dat Pasen op de eerste zondag na de eerste volle maan van de lente valt. Paasmaandag wordt al sinds de vroege middeleeuwen gevierd — oorspronkelijk was de hele paasweek een feestdag. In Duitsland en Oostenrijk bleef het een wettelijke feestdag, in tegenstelling tot veel puur katholieke landen.",
+          "traditions": "Gezinnen gaan samen op zoek naar paaseieren, genieten van een ontspannen brunch of maken de klassieke paaswandeling (vereeuwigd in Goethes ‘Faust’). In Polen wordt ‘Śmigus-Dyngus’ gevierd: jongens bespatten meisjes met water. In Tsjechië kloppen jongens met wilgentakken op deuren. In Beieren en Oostenrijk is er de traditionele ‘Emmaus-wandeling’.",
+          "funFacts": [
+            "De traditie van het paaseieren zoeken werd voor het eerst genoemd door Maarten Luther, die het gebruikte om zijn kinderen een plezier te doen.",
+            "Het grootste chocolade-paasei ter wereld stond in Argentinië (8,5 m hoog, 4 t) — en werd opgenomen in het Guinness Book of Records.",
+            "In Zweden verkleden kinderen zich op Paaszaterdag als ‘Påskkärringar’ — kleine heksjes — en gaan ze van deur tot deur.",
+            "De paashaas als brenger van eieren werd voor het eerst genoemd in 1682 door de arts Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "Op 15 augustus wordt de Hemelvaart van Maria gevierd, waarbij wordt herdacht dat Maria met lichaam en ziel ten hemel is opgenomen. Deze dag is een van de belangrijkste Mariafeesten van de katholieke kerk.",
+          "history": "De leer over de tenhemelopneming van Maria met lichaam en ziel ontwikkelde zich al in de 4e eeuw binnen christelijke gemeenschappen. Paus Pius XII verklaarde deze leer in 1950 tot bindend dogma in de encycliek ‘Munificentissimus Deus’. Al in de middeleeuwen ontstond de gewoonte om op deze dag kruiden te zegenen — in een tijd waarin de eerste geneeskrachtige kruiden bloeiden. Maria-Tenhemelopneming is een officiële feestdag in Oostenrijk, in het Saarland en in de overwegend katholieke gemeenten van Beieren.",
+          "traditions": "In katholieke streken worden ‘kruidenbundels’ of ‘Frauendreißiger-kruiden’ gezegend — boeketten van 7, 9 of 30 geneeskrachtige planten die daarna thuis worden bewaard. Feestelijke Mariaprocessies trekken door de dorpen en bedevaarten naar Mariabedevaartsoorden komen vaker voor. In Italië (‘Ferragosto’) begint het belangrijkste vakantieseizoen op 15 augustus.",
+          "funFacts": [
+            "‘Ferragosto’ in Italië vindt zijn oorsprong bij keizer Augustus, die in 18 v.Chr. een rustperiode voor boeren na de oogst afkondigde.",
+            "In Beierse ‘Frauendreißiger’-kruidenboeketten zitten vaak bijvoet, koningskaars, duizendblad en korenbloem.",
+            "In Frankrijk is 15 augustus al sinds 1638 een nationale feestdag — dankzij de Mariaverering van Lodewijk XIII.",
+            "De beroemde ‘Notre-Dame-mars’ in Parijs werd in 1638 ter ere van deze dag in opdracht gegeven."
+          ],
+          "imageCredit": "Foto: Ondraness · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Kerstmis op 25 december is het belangrijkste christelijke feest — ter ere van de geboorte van Jezus Christus — en wereldwijd een feest van familie, vrede en cadeautjes.",
+          "history": "Al in 354 wordt 25 december in een Romeinse kalender vermeld als ‘dies natalis Christi’. De Kerk heeft deze datum waarschijnlijk gekozen om het Romeinse winterzonnewendefeest ‘Sol Invictus’ een christelijke betekenis te geven. Het geven van cadeaus vindt zijn oorsprong in de geschenken van de drie koningen. De bekende kerstman met rode jas en witte baard is een mengeling van Sint Nicolaas en een reclamecampagne van Coca-Cola uit 1931.",
+          "traditions": "Gezinnen komen samen voor feestelijke maaltijden — kalkoen, gans, karper of raclette. Er worden cadeautjes uitgewisseld, kerstliederen gezongen en velen wonen de feestelijke kerkdienst bij. De versierde kerstboom met lichtjes, kerstballen en stro-sterren vormt het centrale symbool. Adventskalenders, koekjes en bezoekjes aan kerstmarkten horen bij de aanloop naar Kerstmis.",
+          "funFacts": [
+            "De eerste commerciële adventskalender verscheen in 1908 in München — uitgevonden door Gerhard Lang.",
+            "De kerstmarkten in Dresden (‘Striezelmarkt’, sinds 1434) en Frankfurt (sinds 1393) behoren tot de oudste ter wereld.",
+            "Noorwegen schenkt het Verenigd Koninkrijk al sinds 1947 elk jaar een reusachtige kerstboom voor Trafalgar Square — als dank voor de hulp tijdens de Tweede Wereldoorlog.",
+            "Kerstklassiekers als ‘Three Wishes for Cinderella’ en ‘Love Actually’ worden elk jaar wereldwijd tientallen keren op tv uitgezonden."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "sv": {
+        "easter_sunday": {
+          "intro": "Påskdagen är kristendomens viktigaste högtid – dagen då Jesus Kristus uppstod från de döda och kyrkoårets höjdpunkt.",
+          "history": "Påsken har sitt ursprung i den judiska påskhögtiden och har firats av kristna sedan 1:a århundradet. År 325 fastställde kyrkan vid kyrkomötet i Nikea att påsken alltid ska firas den första söndagen efter vårens första fullmåne – därav det varierande datumet mellan den 22 mars och den 25 april. Det engelska namnet ”Easter” kan härledas till den germanska vårgudinnan Eostre, eller helt enkelt till det fornhögtyska ordet ”eostarum” (gryning).",
+          "traditions": "Familjerna inleder dagen med en festlig påskfrukost med färgade ägg, söta flätade bröd och påsklammkaka. Barnen letar i trädgården efter ägg och godsaker som påskharen har gömt. Många församlingar anordnar påskeldar, processioner och glada gudstjänster med klockklang.",
+          "funFacts": [
+            "Påsken kan infalla mellan den 22 mars och den 25 april – nästa ”tidiga” påsk (den 22 mars) infaller inte förrän år 2285.",
+            "Världens största påskhare står i Brasilien och är över 4,2 m hög.",
+            "Rysk-ortodoxa kristna firar ofta påsk en annan dag än västerländska kristna, eftersom de använder den julianska kalendern.",
+            "I Polen välsignas matkorgar (”Święconka”) på påsklördagen inför söndagens måltid."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Påskmåndagen är den andra dagen under påskhelgen och är en allmän helgdag i de flesta europeiska länder. Den markerar avslutningen på kristendomens viktigaste högtid.",
+          "history": "Påsken är den äldsta högtiden inom kristendomen och firar Jesu Kristi uppståndelse den tredje dagen efter hans död. Vid kyrkomötet i Nikea år 325 fastställdes att påsken skulle infalla den första söndagen efter vårens första fullmåne. Påskmåndagen har firats sedan tidig medeltid – ursprungligen var hela påskveckan en helgdag. I Tyskland och Österrike förblev den en lagstadgad helgdag, till skillnad från i många rent katolska länder.",
+          "traditions": "Familjer letar efter påskägg tillsammans, njuter av en lugn brunch eller tar den klassiska påskpromenaden (som förevigats i Goethes ”Faust”). I Polen firas ”Śmigus-Dyngus”: pojkar stänker vatten på flickor. I Tjeckien knackar pojkar på dörrarna med pilkvistar. I Bayern och Österrike hålls den traditionella ”Emmaus-vandringen”.",
+          "funFacts": [
+            "Traditionen med påskäggsjakt nämndes för första gången av Martin Luther, som använde den för att glädja sina barn.",
+            "Världens största chokladpåskägg stod i Argentina (8,5 m högt, 4 t) — och finns med i Guinness rekordbok.",
+            "I Sverige klär sig barnen ut till ”påskkärringar” – små häxor – på påskafton och går från dörr till dörr.",
+            "Påskharen som äggutdelare omnämndes för första gången år 1682 av läkaren Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "assumption": {
+          "intro": "Marias himmelsfärd den 15 augusti firas till minne av att Maria upptogs till himlen med kropp och själ. Dagen är en av de viktigaste mariahelgdagarna inom den katolska kyrkan.",
+          "history": "Läran om Marias himmelsfärd med kropp och själ utvecklades i de kristna gemenskaperna redan under 300-talet. Påven Pius XII förklarade den som bindande dogm år 1950 i encyklikan ”Munificentissimus Deus”. Redan under medeltiden uppstod seden att välsigna örter denna dag – vid en tidpunkt då de första medicinalväxterna blommade. Mariä himmelsfärd är en allmän helgdag i Österrike, i Saarland och i de övervägande katolska kommunerna i Bayern.",
+          "traditions": "I katolska trakter välsignas ”örtbuketter” eller ”Frauendreißiger-örter” – buketter bestående av 7, 9 eller 30 medicinalväxter som sedan förvaras hemma. Festliga mariaprocessioner går genom byarna och pilgrimsfärder till mariahelgedomar blir allt vanligare. I Italien (”Ferragosto”) inleds den stora semesterperioden den 15 augusti.",
+          "funFacts": [
+            "”Ferragosto” i Italien har sitt ursprung i kejsar Augustus, som år 18 f.Kr. beordrade en viloperiod för bönderna efter skörden.",
+            "De bayerska ”Frauendreißiger”-örtbuketterna innehåller ofta gråbo, kungsljus, rölleka och blåklint.",
+            "I Frankrike har den 15 augusti varit en nationell helgdag sedan 1638 – tack vare Ludvig XIII:s vördnad för Jungfru Maria.",
+            "Den berömda ”Notre-Dame-marschen” i Paris beställdes år 1638 för att hedra denna dag."
+          ],
+          "imageCredit": "Foto: Ondraness · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Juldagen den 25 december är kristendomens viktigaste högtid – då man firar Jesus Kristus födelse – och över hela världen en högtid som präglas av familj, fred och gåvor.",
+          "history": "Den 25 december omnämns som ”dies natalis Christi” redan år 354 i en romersk kalender. Kyrkan valde troligen detta datum för att ge den romerska vintersolståndsfesten ”Sol Invictus” en kristen innebörd. Traditionen att ge gåvor har sina rötter i de tre vise männens gåvor. Den välkände jultomten med röd kappa och vitt skägg är en blandning av Sankt Nikolaus och en reklamkampanj från Coca-Cola från 1931.",
+          "traditions": "Familjerna samlas för festmåltider – kalkon, gås, karp eller raclette. Man utbyter julklappar, sjunger julsånger och många deltar i julgudstjänsten. Den pyntade julgranen med ljus, julgranspynt och halmstjärnor är den centrala symbolen. Adventskalendrar, pepparkakor och besök på julmarknader är en del av förberedelserna inför julen.",
+          "funFacts": [
+            "Den första kommersiella adventskalendern kom ut 1908 i München – uppfunnen av Gerhard Lang.",
+            "Julmarknaderna i Dresden (”Striezelmarkt”, sedan 1434) och Frankfurt (sedan 1393) hör till de äldsta i världen.",
+            "Norge har varje år sedan 1947 skänkt Storbritannien en gigantisk julgran till Trafalgar Square – som tack för hjälpen under andra världskriget.",
+            "Julklassiker som ”Three Wishes for Cinderella” och ”Love Actually” visas dussintals gånger på TV världen över varje år."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "ja": {
+        "easter_sunday": {
+          "intro": "イースターの日曜日は、キリスト教において最も重要な祭日であり、イエス・キリストの復活の日であり、教会暦のクライマックスでもあります。",
+          "history": "イースターはユダヤ教の過越祭に由来し、1世紀以来、キリスト教徒によって祝われてきました。教会は325年にニカイアで、イースターを常に春の最初の満月の後の最初の日曜日に祝うことを定めました。そのため、その日付は3月22日から4月25日の間で変動します。 英語の「イースター（Easter）」という名称は、ゲルマン神話の春の女神エオストレ（Eostre）に由来する可能性もあれば、単に古高ドイツ語の「eostarum」（夜明け）に由来する可能性もあります。",
+          "traditions": "各家庭では、色とりどりの卵や甘い編み込みパン、イースター・ラムケーキなどが並ぶ、お祝いのイースター朝食で一日を始めます。子供たちは、イースター・バニーが庭に隠した卵やお菓子を探し回ります。多くの教区では、イースターの焚き火や行列、鐘の音を伴う賑やかな礼拝が行われます。",
+          "funFacts": [
+            "イースターは3月22日から4月25日までの間に当たることがあります。次に「早い」イースター（3月22日）が訪れるのは、2285年になってからです。",
+            "世界最大のイースターバニーはブラジルにあり、高さは4.2メートル以上あります。",
+            "ロシア正教徒はユリウス暦を採用しているため、西洋のキリスト教徒とは異なる日に復活祭を祝うことがよくあります。",
+            "ポーランドでは、聖土曜日に、日曜日の食事用に用意された食べ物の入ったかご（「シュヴィェコンカ」）が祝福されます。"
+          ],
+          "imageCredit": "写真：Geolina163 · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "easter_monday": {
+          "intro": "イースター・マンデーはイースターの2日目で、ヨーロッパのほとんどの国で祝日となっています。この日は、キリスト教における最も重要な祭りの締めくくりを告げる日です。",
+          "history": "イースターはキリスト教世界最古の祭りで、イエス・キリストの死から3日目に起こった復活を祝うものです。325年のニカイア公会議において、イースターは春の最初の満月の後の最初の日曜日に定められました。イースター・マンデーは中世初期から祝われており、もともとイースター週間全体が休日とされていました。 ドイツやオーストリアでは、純粋にカトリック教国が多いのとは異なり、イースターは現在も法定休日として残っています。",
+          "traditions": "家族で一緒にイースターエッグ探しをしたり、ゆったりとしたブランチを楽しんだり、伝統的なイースターの散歩（ゲーテの『ファウスト』にも描かれている）に出かけたりします。ポーランドでは「シュミグス・ディンガス」が祝われ、少年たちが少女たちに水をかけます。チェコでは、若者たちが柳の鞭でドアを叩きます。 バイエルン州やオーストリアでは、伝統的な「エマオの散歩」が行われます。",
+          "funFacts": [
+            "イースターエッグハントの習慣について初めて言及したのはマルティン・ルターであり、彼はこの習慣を利用して子供たちを楽しませていた。",
+            "アルゼンチンには、世界最大のチョコレートのイースターエッグ（高さ8.5 m、重さ4 t）が設置され、ギネスブックに登録された。",
+            "スウェーデンでは、聖土曜日に子供たちが「ポースカーリンガー」（小さな魔女）に扮して、家々を回ります。",
+            "イースターバニーが卵を届ける存在として初めて言及されたのは、1682年のことで、医師ゲオルク・フランク・フォン・フランケナウによるものでした。"
+          ],
+          "imageCredit": "写真：ゲオルギ・キリチコフ · CC BY-SA 3.0（ウィキメディア・コモンズ経由）"
+        },
+        "assumption": {
+          "intro": "8月15日の「聖母被昇天」は、マリアが肉体と魂ともに天に上げられたことを祝う日です。この日は、カトリック教会において最も重要なマリアの祝日の一つです。",
+          "history": "聖母マリアの肉体的な被昇天に関する教えは、早くも4世紀にはキリスト教共同体の中で広まっていました。1950年、教皇ピウス12世は回勅『ムニフィケンティッシムス・デウス』において、これを拘束力のある教義として宣言しました。 中世の早い時期から、この日に薬草を祝福する習慣が生まれました。それは、最初の薬草が花を咲かせる時期にあたります。聖母被昇天の日は、オーストリア、ザールラント州、およびバイエルン州のカトリック教徒が多数を占める自治体において祝日となっています。",
+          "traditions": "カトリック圏では、「ハーブの束」や「フラウエンドライシガー（Frauendreißiger）のハーブ」と呼ばれる、7種、9種、あるいは30種の薬草を束ねたものが祝福され、その後、家庭で保管されます。マリアを称えるお祭りの行列が村々を練り歩き、マリアの聖地への巡礼もより頻繁に行われるようになります。 イタリア（「フェラーゴスト」）では、8月15日から主要な休暇シーズンが始まります。",
+          "funFacts": [
+            "イタリアの「フェッラゴスト」の起源は、紀元前18年に農民たちに収穫後の休息期間を命じたアウグストゥス皇帝にまでさかのぼります。",
+            "バイエルン地方の「フラウエンドライジガー」と呼ばれるハーブブーケには、ヨモギ、モウセンゴケ、ノコギリソウ、コーンフラワーがよく使われます。",
+            "フランスでは、1638年以来、8月15日は国民の祝日となっている。これは、ルイ13世の聖母マリアへの信仰に由来するものである。",
+            "パリの有名な「ノートルダム行進曲」は、この日を記念して1638年に作曲された。"
+          ],
+          "imageCredit": "写真：Ondraness · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "christmas": {
+          "intro": "12月25日のクリスマスは、キリスト教において最も重要な祭日であり、イエス・キリストの誕生を祝うもので、世界中で家族、平和、そして贈り物を祝う祭りとなっています。",
+          "history": "12月25日は、早くも354年のローマ暦において「dies natalis Christi（キリストの誕生日）」として記録されている。教会がこの日付を選んだのは、ローマの冬至祭「ソル・インヴィクトゥス」にキリスト教的な意味を持たせるためだったと考えられる。 贈り物の習慣は、東方の三博士が持参した贈り物にその起源があります。赤いコートに白いひげというお馴染みのサンタクロースは、聖ニコラウスと1931年のコカ・コーラの広告キャンペーンが融合した姿です。",
+          "traditions": "家族が集まり、七面鳥やガチョウ、鯉、あるいはラクレットといったお祝いの食事を楽しみます。贈り物を交換し、クリスマスキャロルを歌い、多くの人がクリスマス礼拝に出席します。ライトやオーナメント、わらの星で飾られたクリスマスツリーが、その中心的なシンボルです。アドベントカレンダーやクッキー、クリスマスマーケットへの訪問も、クリスマスに向けた準備の一環です。",
+          "funFacts": [
+            "最初の市販のアドベントカレンダーは、1908年にミュンヘンで登場しました。これはゲルハルト・ラングによって考案されたものです。",
+            "ドレスデン（「シュトリーツェルマルクト」、1434年より）とフランクフルト（1393年より）のクリスマスマーケットは、世界でも最も古いものの一つに数えられます。",
+            "ノルウェーは、第二次世界大戦中の支援への感謝の印として、1947年以来毎年、トラファルガー広場に飾る巨大なクリスマスツリーを英国に贈呈している。",
+            "『シンデレラの3つの願い』や『ラブ・アクチュアリー』といったホリデーシーズンの定番作品は、毎年世界中のテレビで数十回も放送されている。"
+          ],
+          "imageCredit": "写真：クリス・オルシェフスキー · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        }
+      },
+      "ko": {
+        "easter_sunday": {
+          "intro": "부활절 주일은 기독교에서 가장 중요한 축일로서, 예수 그리스도의 부활을 기념하는 날이자 교회 연중의 절정입니다.",
+          "history": "부활절은 유대교의 유월절에서 유래했으며, 1세기부터 기독교인들에 의해 기념되어 왔다. 교회는 325년 니케아 공의회에서 부활절을 항상 봄의 첫 보름달이 뜬 후 첫 번째 일요일에 기념하기로 정했다. 따라서 부활절 날짜는 3월 22일부터 4월 25일 사이로 매년 달라진다. 영어 이름 ‘Easter’는 게르만족의 봄의 여신 에오스트레(Eostre)에서 유래했을 수도 있고, 단순히 고대 고지 독일어 ‘eostarum’(새벽)에서 비롯되었을 수도 있습니다.",
+          "traditions": "가족들은 색칠한 달걀, 달콤한 땋은 빵, 부활절 양 모양 케이크가 어우러진 축제 분위기의 부활절 아침 식사로 하루를 시작합니다. 아이들은 정원에서 부활절 토끼가 숨겨 놓은 달걀과 간식을 찾아 헤맵니다. 많은 본당에서는 부활절 모닥불을 피우고, 행렬을 벌이며, 종소리가 울려 퍼지는 즐거운 미사를 거행합니다.",
+          "funFacts": [
+            "부활절은 3월 22일부터 4월 25일 사이에 찾아올 수 있는데, 다음 ‘이른’ 부활절(3월 22일)은 2285년이 되어야 다시 찾아옵니다.",
+            "세계에서 가장 큰 부활절 토끼 조각상이 브라질에 세워져 있으며, 높이는 4.2m가 넘는다.",
+            "러시아 정교회 신자들은 율리우스력을 사용하기 때문에 서방 기독교인들과는 다른 날에 부활절을 기념하는 경우가 많습니다.",
+            "폴란드에서는 성토일에 일요일 식사를 위해 준비한 음식 바구니('Święconka')에 축복을 받습니다."
+          ],
+          "imageCredit": "사진: Geolina163 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "easter_monday": {
+          "intro": "부활절 다음 날인 부활절 월요일은 대부분의 유럽 국가에서 공휴일입니다. 이 날은 기독교에서 가장 중요한 축제가 끝나는 날을 의미합니다.",
+          "history": "부활절은 기독교 세계에서 가장 오래된 축제로, 예수 그리스도가 죽은 지 사흘 만에 부활하신 것을 기념하는 날입니다. 325년에 열린 니케아 공의회는 부활절을 봄의 첫 보름달이 뜬 후 첫 번째 일요일로 정했습니다. 부활절 다음 날인 월요일은 중세 초기부터 휴일로 지켜져 왔으며, 원래는 부활절 주간 전체가 휴일이었으나, 독일과 오스트리아에서는 순수 가톨릭 국가들과 달리 부활절이 여전히 법정 공휴일로 남아 있습니다.",
+          "traditions": "가족들은 함께 부활절 달걀을 찾거나, 여유로운 브런치를 즐기거나, 고트헤의 『파우스트』에 영원히 기록된 고전적인 부활절 산책을 즐깁니다. 폴란드에서는 ‘슈미구스-딩구스’ 축제가 열리는데, 소년들이 소녀들에게 물을 뿌립니다. 체코에서는 청년들이 버드나무 채로 문을 두드립니다. 바이에른과 오스트리아에서는 전통적인 ‘엠마우스 산책’이 열립니다.",
+          "funFacts": [
+            "부활절 달걀 찾기 풍습은 마틴 루터가 처음 언급했는데, 그는 이 풍습을 통해 자녀들을 기쁘게 해주곤 했다.",
+            "세계에서 가장 큰 초콜릿 부활절 달걀이 아르헨티나에 세워졌으며(높이 8.5m, 무게 4t), 이는 기네스북에 등재되었다.",
+            "스웨덴에서는 성토일에 아이들이 ‘파스크케링(Påskkärringar)’—작은 마녀—로 분장하고 집집마다 돌아다닙니다.",
+            "달걀을 배달하는 부활절 토끼에 대한 첫 언급은 1682년 의사 게오르크 프랑크 폰 프랑케나우에 의해 이루어졌다."
+          ],
+          "imageCredit": "사진: 게오르기 키리치코프 · CC BY-SA 3.0 (위키미디어 공용 제공)"
+        },
+        "assumption": {
+          "intro": "8월 15일 ‘성모 승천 대축일’은 성모 마리아께서 몸과 영혼을 온전히 하늘로 승천하신 것을 기념하는 날입니다. 이 날은 가톨릭 교회에서 가장 중요한 성모 대축일 중 하나입니다.",
+          "history": "성모 마리아의 육신 승천에 관한 가르침은 빠르면 4세기 무렵부터 기독교 공동체 내에서 발전하기 시작했습니다. 교황 비오 12세는 1950년 회칙 『Munificentissimus Deus』에서 이를 구속력 있는 교리로 선포했습니다. 중세 시대부터, 첫 약초들이 피어나는 시기에 맞춰 이날 허브에 축복을 내리는 관습이 생겨났습니다. 성모 승천 축일은 오스트리아, 자를란트주, 그리고 바이에른주 내 가톨릭 신자가 대다수인 지자체에서 공휴일로 지정되어 있습니다.",
+          "traditions": "가톨릭 지역에서는 ‘허브 다발’ 또는 ‘프라우엔드라이지거 허브’를 축복받는데, 이는 7종, 9종 또는 30종의 약용 식물로 묶은 꽃다발로, 이후 집안에 보관합니다. 마을 곳곳에서는 성모 마리아를 기리는 축제 행렬이 이어지며, 성모 마리아 성지 순례도 더욱 빈번해집니다. 이탈리아(‘페라고스토’)에서는 8월 15일부터 본격적인 휴가 시즌이 시작됩니다.",
+          "funFacts": [
+            "이탈리아의 ‘페라고스토’는 기원전 18년, 수확이 끝난 후 농부들에게 휴식 기간을 부여하도록 명령한 아우구스투스 황제 시대로 거슬러 올라갑니다.",
+            "바이에른의 ‘프라우엔드라이지거’ 허브 부케에는 대개 쑥, 멧풀, 야로우, 수레국화가 들어 있습니다.",
+            "프랑스에서는 1638년부터 8월 15일이 국경일로 지정되어 왔는데, 이는 루이 13세의 성모 마리아 숭배에서 비롯된 것이다.",
+            "파리의 유명한 ‘노트르담 행진곡’은 1638년 이 날을 기념하기 위해 작곡되도록 의뢰되었다."
+          ],
+          "imageCredit": "사진: Ondraness · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "christmas": {
+          "intro": "12월 25일의 크리스마스는 예수 그리스도의 탄생을 기념하는 기독교에서 가장 중요한 명절이며, 전 세계적으로 가족, 평화, 선물을 나누는 축제입니다.",
+          "history": "12월 25일은 빠르면 354년 로마 달력에서 ‘dies natalis Christi’로 기록되어 있다. 교회는 로마의 동지 축제인 ‘솔 인빅투스(Sol Invictus)’에 기독교적 의미를 부여하기 위해 이 날짜를 선택한 것으로 보인다. 선물 교환의 기원은 동방박사들이 가져온 선물에서 비롯됩니다. 빨간 옷과 흰 수염을 한 우리에게 친숙한 산타클로스는 성 니콜라스와 1931년 코카콜라 광고 캠페인이 결합된 모습입니다.",
+          "traditions": "가족들은 칠면조, 거위, 잉어, 라클렛 등 명절 음식을 함께 즐기기 위해 모입니다. 선물을 주고받고, 캐럴을 부르며, 많은 이들이 성탄 예배에 참석합니다. 불빛과 장식품, 짚으로 만든 별이 장식된 크리스마스 트리는 이 시기의 중심적인 상징입니다. 대림 달력, 쿠키, 크리스마스 마켓 방문 등은 성탄절을 앞둔 기간의 풍경입니다.",
+          "funFacts": [
+            "최초의 상업용 어드벤트 캘린더는 1908년 뮌헨에서 등장했는데, 게르하르트 랑이 발명했다.",
+            "드레스덴(‘스트리첼마르크트’, 1434년부터)과 프랑크푸르트(1393년부터)의 크리스마스 시장은 세계에서 가장 오래된 시장 중 하나입니다.",
+            "노르웨이는 제2차 세계대전 당시 영국이 제공한 도움에 대한 감사의 표시로, 1947년부터 매년 트라팔가 광장에 세울 거대한 크리스마스 트리를 영국에 기증해 왔다.",
+            "‘신데렐라의 세 가지 소원’이나 ‘러브 액츄얼리’와 같은 명절 명작 영화들은 매년 전 세계 TV에서 수십 차례 방영된다."
+          ],
+          "imageCredit": "사진: 크리스 올셰프스키 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        }
+      },
+      "zh-Hant": {
+        "easter_sunday": {
+          "intro": "復活節主日是基督教最重要的節日——這一天是耶穌基督復活的日子，也是教會年曆的高潮。",
+          "history": "復活節源自猶太教的逾越節，自一世紀起便為基督徒所慶祝。教會於西元325年在尼西亞會議上規定，復活節應固定在春季首次滿月後的第一个星期日慶祝——因此日期會在3月22日至4月25日之間變動。 英文名稱「Easter」可能源自日耳曼春季女神伊奧斯特雷（Eostre），也可能單純源自古高地德語「eostarum」（黎明）。",
+          "traditions": "各家各戶會以一頓充滿節日氣氛的復活節早餐開啟新的一天，餐桌上擺滿彩蛋、甜味編織麵包和復活節羔羊蛋糕。孩子們會在花園裡尋找復活節兔子藏起來的彩蛋和點心。許多教區都會舉行復活節篝火、遊行，以及伴隨著鐘聲的歡樂禮拜。",
+          "funFacts": [
+            "復活節的日期可能落在 3 月 22 日至 4 月 25 日之間——下一個「較早」的復活節（3 月 22 日）要等到 2285 年才會再次出現。",
+            "世界上最大的復活節兔子矗立在巴西，高度超過 4.2 公尺。",
+            "俄羅斯東正教信徒慶祝復活節的日子通常與西方基督徒不同，因為他們使用儒略曆。",
+            "在波蘭，人們會在聖週六將裝有食物的籃子（「Święconka」）帶去接受祝福，以便用於週日的餐宴。"
+          ],
+          "imageCredit": "照片：Geolina163 · 透過維基共享資源，採用 CC BY-SA 4.0 授權"
+        },
+        "easter_monday": {
+          "intro": "復活節星期一即為復活節的第二天，在大多數歐洲國家均屬法定假日。這一天標誌著基督教最重要的節日圓滿落幕。",
+          "history": "復活節是基督教世界最古老的節日，用以慶祝耶穌基督在逝世後第三天復活。325年的尼西亞大公會議將復活節定為春季首次滿月後的第一个星期日。自中世紀早期起，復活節星期一便被視為節日——最初整個復活節週都是假期。 在德國和奧地利，復活節至今仍是法定假日，這與許多純天主教國家的情況不同。",
+          "traditions": "家人們會一起尋找復活節彩蛋、享受悠閒的早午餐，或是進行經典的復活節漫步（這項傳統在歌德的《浮士德》中被永恆地銘記）。在波蘭，人們慶祝「Śmigus-Dyngus」節：男孩們會向女孩們潑水。在捷克，年輕小夥子們則會用柳條鞭輕敲門戶。 在巴伐利亞和奧地利，則有傳統的「艾瑪烏斯漫步」。",
+          "funFacts": [
+            "復活節彩蛋尋寶活動的習俗最早是由馬丁·路德提及的，他當時是為了讓自己的孩子們開心而舉辦這項活動。",
+            "世界上最大的巧克力復活節彩蛋矗立在阿根廷（高8.5公尺，重4公噸）——並被載入《金氏世界紀錄》。",
+            "在瑞典，孩子們會在聖週六打扮成「Påskkärringar」——也就是小女巫——並挨家挨戶拜訪。",
+            "1682年，醫師喬治·弗蘭克·馮·弗蘭肯瑙（Georg Franck von Franckenau）首次提及復活節兔子作為送蛋者的角色。"
+          ],
+          "imageCredit": "照片：Georgi Kirichkov · 經維基共享資源提供，採用 CC BY-SA 3.0 授權"
+        },
+        "assumption": {
+          "intro": "8月15日的「聖母升天節」慶祝聖母瑪利亞連同肉身與靈魂一同被接升天。這一天是天主教會最重要的聖母慶日之一。",
+          "history": "關於聖母肉身升天的教義，早在4世紀便已在基督教團體中逐漸形成。教宗庇護十二世於1950年在通諭《Munificentissimus Deus》中，將此宣告為具有約束力的教義。 早在中世紀，便已形成在這一天為草藥祝聖的習俗——此時正是首批藥用草藥開花之際。聖母升天節是奧地利、薩爾州以及巴伐利亞州以天主教徒為主的市鎮的法定假日。",
+          "traditions": "在天主教地區，人們會為「草藥束」或「Frauendreißiger 草藥」進行祝聖——這些由 7、9 或 30 種藥用植物組成的花束，之後會被供奉在家中。歡慶的聖母遊行隊伍穿梭於各村莊之間，前往聖母朝聖地的朝聖活動也日益頻繁。 在義大利（「Ferragosto」），主要的節慶季節於8月15日展開。",
+          "funFacts": [
+            "義大利的「費拉戈斯托（Ferragosto）」節日可追溯至奧古斯都皇帝，他於西元前18年下令，讓農民在收成後享有休整期。",
+            "巴伐利亞「Frauendreißiger」草藥花束中，通常包含艾草、毛蕊花、蓍草和矢車菊。",
+            "在法國，8月15日自1638年起便成為國定假日——這源於路易十三對聖母瑪利亞的虔誠敬禮。",
+            "巴黎著名的《聖母院進行曲》是於1638年為紀念該日而創作的。"
+          ],
+          "imageCredit": "照片：Ondraness · 透過維基共享資源，採用 CC BY-SA 4.0 授權"
+        },
+        "christmas": {
+          "intro": "12月25日的聖誕節是基督教最重要的節日——慶祝耶穌基督的誕生——也是全球各地以家庭、和平與禮物為主題的節日。",
+          "history": "早在354年，羅馬曆法中便已將12月25日記載為「dies natalis Christi」。教會選擇這個日期，很可能是為了賦予羅馬「不敗之太陽」（Sol Invictus）冬至節慶以基督教的意義。 互贈禮物的習俗源於東方三博士所獻的禮物。大家熟悉的紅衣白鬍子聖誕老人，是聖尼古拉斯與1931年可口可樂廣告活動的融合產物。",
+          "traditions": "家人們齊聚一堂享用節日大餐——火雞、鵝肉、鯉魚或拉克雷特起司。大家互贈禮物、齊唱聖誕頌歌，許多人還會參加節日禮拜。那棵裝飾著燈飾、掛飾和稻草星星的聖誕樹，正是節日的核心象徵。降臨節倒數日曆、聖誕餅乾以及逛聖誕市集，都是節日前夕的傳統活動。",
+          "funFacts": [
+            "第一款商業化的降臨節日曆於1908年在慕尼黑問世——由格哈德·朗發明。",
+            "德累斯頓（「Striezelmarkt」，自1434年起）和法蘭克福（自1393年起）的聖誕市集，均屬世界上歷史最悠久的聖誕市集之一。",
+            "自1947年起，挪威每年都會贈送一棵巨型聖誕樹給英國，供特拉法加廣場擺放——以此感謝英國在第二次世界大戰期間提供的援助。",
+            "像《灰姑娘的三個願望》和《真愛至上》這類節日經典電影，每年在全球各地的電視上都會播出數十次。"
+          ],
+          "imageCredit": "照片：克里斯·奧爾謝夫斯基 · 經維基共享資源提供，採用 CC BY-SA 4.0 授權"
+        }
+      }
+    }
+  },
+  "images": {
+    "easter_sunday": [
+      {
+        "path": "images/easter_sunday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/easter_sunday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/easter_sunday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "easter_monday": [
+      {
+        "path": "images/easter_monday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      }
+    ],
+    "assumption": [
+      {
+        "path": "images/assumption/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/assumption/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/assumption/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas": [
+      {
+        "path": "images/christmas/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 6
+}
