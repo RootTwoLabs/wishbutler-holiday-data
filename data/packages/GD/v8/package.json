@@ -1,0 +1,1562 @@
+{
+  "countryCode": "GD",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "GD_new_years_day",
+      "countryCode": "GD",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "GD_independence_day",
+      "countryCode": "GD",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 7
+      }
+    },
+    {
+      "id": "GD_good_friday",
+      "countryCode": "GD",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "GD_easter_monday",
+      "countryCode": "GD",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "GD_labour_day",
+      "countryCode": "GD",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "GD_indian_arrival_day",
+      "countryCode": "GD",
+      "kind": "fixed",
+      "labelKey": "holidays.indian_arrival_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "GD_whit_monday",
+      "countryCode": "GD",
+      "kind": "easter_relative",
+      "labelKey": "holidays.whit_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 50
+      }
+    },
+    {
+      "id": "GD_corpus_christi",
+      "countryCode": "GD",
+      "kind": "easter_relative",
+      "labelKey": "holidays.corpus_christi",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 60
+      }
+    },
+    {
+      "id": "GD_emancipation_day",
+      "countryCode": "GD",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.emancipation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "GD_carnival",
+      "countryCode": "GD",
+      "kind": "fixed",
+      "labelKey": "holidays.carnival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 11
+      }
+    },
+    {
+      "id": "GD_thanksgiving_day",
+      "countryCode": "GD",
+      "kind": "fixed",
+      "labelKey": "holidays.thanksgiving_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 25
+      }
+    },
+    {
+      "id": "GD_christmas_day",
+      "countryCode": "GD",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "GD_boxing_day",
+      "countryCode": "GD",
+      "kind": "fixed",
+      "labelKey": "holidays.boxing_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 26
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "independence_day": "Independence Day",
+        "indian_arrival_day": "Indian Arrival Day",
+        "emancipation_day": "Emancipation Day",
+        "carnival": "Carnival",
+        "thanksgiving_day": "Thanksgiving Day"
+      },
+      "de": {
+        "independence_day": "Unabhängigkeitstag",
+        "indian_arrival_day": "Indischer Ankunftstag",
+        "emancipation_day": "Tag der Emanzipation",
+        "carnival": "Karneval",
+        "thanksgiving_day": "Erntedankfest"
+      },
+      "fr": {
+        "independence_day": "Jour de l'Indépendance",
+        "indian_arrival_day": "Jour d'arrivée des Indiens",
+        "emancipation_day": "Journée de l'émancipation",
+        "carnival": "Carnaval",
+        "thanksgiving_day": "Thanksgiving"
+      },
+      "es": {
+        "independence_day": "Día de la Independencia",
+        "indian_arrival_day": "Día de llegada de la India",
+        "emancipation_day": "Día de la Emancipación",
+        "carnival": "Carnaval",
+        "thanksgiving_day": "Día de Acción de Gracias"
+      },
+      "pt": {
+        "independence_day": "Dia da Independência",
+        "indian_arrival_day": "Dia da Chegada Indiana",
+        "emancipation_day": "Dia da Emancipação",
+        "carnival": "Carnaval",
+        "thanksgiving_day": "Dia de Ação de Graças"
+      },
+      "it": {
+        "independence_day": "Giorno dell'Indipendenza",
+        "indian_arrival_day": "Giorno dell'arrivo indiano",
+        "emancipation_day": "Giornata dell'emancipazione",
+        "carnival": "Carnevale",
+        "thanksgiving_day": "Giorno del Ringraziamento"
+      },
+      "pl": {
+        "independence_day": "Święto Niepodległości",
+        "indian_arrival_day": "Dzień przyjazdu do Indii",
+        "emancipation_day": "Dzień Emancypacji",
+        "carnival": "Karnawał",
+        "thanksgiving_day": "Święto Dziękczynienia"
+      },
+      "nl": {
+        "independence_day": "Onafhankelijkheidsdag",
+        "indian_arrival_day": "Indiase aankomstdag",
+        "emancipation_day": "Emancipatiedag",
+        "carnival": "Carnaval",
+        "thanksgiving_day": "Thanksgiving-dag"
+      },
+      "sv": {
+        "independence_day": "Självständighetsdagen",
+        "indian_arrival_day": "Indisk ankomstdag",
+        "emancipation_day": "Emancipationsdagen",
+        "carnival": "Karneval",
+        "thanksgiving_day": "Tacksägelsedagen"
+      },
+      "ja": {
+        "independence_day": "独立記念日",
+        "indian_arrival_day": "インド到着日",
+        "emancipation_day": "解放の日",
+        "carnival": "カーニバル",
+        "thanksgiving_day": "感謝祭"
+      },
+      "ko": {
+        "independence_day": "독립기념일",
+        "indian_arrival_day": "인도 도착일",
+        "emancipation_day": "해방의 날",
+        "carnival": "카니발",
+        "thanksgiving_day": "추수감사절"
+      },
+      "zh-Hant": {
+        "independence_day": "獨立日",
+        "indian_arrival_day": "印度抵達日",
+        "emancipation_day": "解放日",
+        "carnival": "嘉年華",
+        "thanksgiving_day": "感恩節"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "new_year": {
+          "intro": "Der 1. Januar markiert weltweit den Beginn eines neuen Jahres im gregorianischen Kalender. Für viele ist es ein Tag der Hoffnung, des Neuanfangs und der guten Vorsätze.",
+          "history": "Bereits 153 v. Chr. legten die Römer den Jahresbeginn auf den 1. Januar, den Antrittstag der neuen Konsuln. Im Mittelalter wechselte der Jahresanfang in vielen Regionen zu Weihnachten oder Ostern. Erst mit der Kalenderreform von Papst Gregor XIII. im Jahr 1582 setzte sich der 1. Januar wieder als europäischer Standard durch. Der Monatsname Januar geht auf den römischen Gott Janus zurück, der mit zwei Gesichtern zugleich auf das Vergangene und das Kommende blickte – ein passendes Sinnbild für diesen Tag.",
+          "traditions": "Um Mitternacht stoßen Familien und Freunde mit Sekt an und feiern den Jahreswechsel mit Feuerwerk, Glücksbringern wie Kleeblatt, Schornsteinfeger oder Marienkäfer und dem traditionellen Bleigießen (heute Wachsgießen). Beliebt sind außerdem Neujahrsbrunch und der gemeinsame Spaziergang an der frischen Luft. Viele fassen Vorsätze für das neue Jahr.",
+          "funFacts": [
+            "In Spanien isst man zu jedem der zwölf Glockenschläge eine Weintraube – eine pro Wunsch.",
+            "In Dänemark zerbricht man altes Geschirr vor den Türen guter Freunde, um Glück zu bringen.",
+            "Wiens Neujahrskonzert wird in über 90 Länder übertragen und gilt als musikalischer Auftakt des Jahres.",
+            "Auf den Pazifikinseln Kiribati beginnt das neue Jahr 26 Stunden früher als auf der Insel Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Karfreitag ist der höchste protestantische Trauertag und erinnert an die Kreuzigung Jesu Christi. In Deutschland ist er ein „stiller Feiertag” mit besonderen Schutzregeln.",
+          "history": "Karfreitag wird seit dem 4. Jahrhundert von Christen begangen. Das Wort „Kar” stammt vom althochdeutschen „chara” und bedeutet Klage oder Trauer. Schon früh entwickelten sich liturgische Traditionen: Verlesung der Passionsgeschichte, Kreuzverehrung und das Verstummen der Glocken. Die Reformation hob den Karfreitag besonders hervor; in lutherischen Regionen ist er bis heute der wichtigste Feiertag des Kirchenjahres.",
+          "traditions": "Viele Christen besuchen Passionsgottesdienste mit der Verlesung der Leidensgeschichte. Es gilt als Fastentag – traditionell wird Fisch statt Fleisch gegessen. In manchen Regionen ziehen Karfreitagsprozessionen durch die Straßen, etwa die berühmte „Karfreitagsprozession” in Lohr am Main. Tanzveranstaltungen und laute Musik sind in den meisten Bundesländern gesetzlich untersagt.",
+          "funFacts": [
+            "In Deutschland regelt das „Tanzverbot” das öffentliche Vergnügen am Karfreitag – seit Jahren ein gesellschaftlicher Streitpunkt.",
+            "Bach schrieb seine Matthäus-Passion 1727 für die Karfreitags-Vesper in Leipzig – heute eines der meistaufgeführten Werke der Welt.",
+            "In Bermuda lassen Familien am Karfreitag selbstgebastelte Drachen aus Bambus und Papier steigen – eine einzigartige christliche Tradition.",
+            "Im Spanischen heißt Karfreitag „Viernes Santo” – mit prachtvollen Bruderschafts-Prozessionen, etwa in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Ostermontag ist der zweite Festtag von Ostern und in den meisten europäischen Ländern arbeitsfrei. Er ist Ausklang des höchsten christlichen Festes.",
+          "history": "Ostern ist das älteste Fest der Christenheit und feiert die Auferstehung Jesu Christi am dritten Tag nach seinem Tod. Das Konzil von Nicäa legte 325 das Osterdatum auf den ersten Sonntag nach dem ersten Frühlingsvollmond. Der Ostermontag wird seit dem frühen Mittelalter als zweiter Festtag begangen – ursprünglich war die ganze Osterwoche frei. In Deutschland und Österreich blieb er als gesetzlicher Feiertag erhalten, anders als in vielen rein katholischen Ländern.",
+          "traditions": "Familien suchen gemeinsam Ostereier, frühstücken ausgiebig oder unternehmen den klassischen Osterspaziergang („Vom Eise befreit sind Strom und Bäche…”, Goethe). In Polen feiert man „Śmigus-Dyngus”: Junge bespritzen Mädchen mit Wasser. In Tschechien klopfen Burschen mit Weidenruten an Türen. In Bayern und Österreich gibt es das traditionelle „Emmausgehen”.",
+          "funFacts": [
+            "Der Brauch des Ostereiersuchens wurde erstmals von Martin Luther erwähnt, der seinen Kindern damit eine Freude machte.",
+            "Das größte Schoko-Osterei der Welt stand in Argentinien (8,5 m hoch, 4 t schwer) – verewigt im Guinness-Buch.",
+            "In Schweden ziehen Kinder am Karsamstag als „Påskkärringar” verkleidet – wie kleine Hexen – von Tür zu Tür.",
+            "Der Osterhase als Eierbringer wurde 1682 erstmals von dem Mediziner Georg Franck von Franckenau schriftlich erwähnt."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Der 1. Mai ist in vielen Ländern der „Tag der Arbeit” – ein Feiertag der Arbeiterbewegung mit Demonstrationen, Maibäumen und Frühlingsfesten.",
+          "history": "Am 1. Mai 1886 traten in Chicago hunderttausende Arbeiter für den Acht-Stunden-Tag in den Generalstreik. Die anschließenden Auseinandersetzungen am Haymarket forderten mehrere Tote. 1889 erklärte der Internationale Arbeiterkongress in Paris den 1. Mai zum „Kampftag der Arbeiterbewegung”. In Deutschland wurde er 1933 als „Tag der nationalen Arbeit” zum gesetzlichen Feiertag – nach 1945 als Symbol arbeitnehmerfreundlicher Politik beibehalten.",
+          "traditions": "Gewerkschaften organisieren Kundgebungen und Demonstrationen unter Mottos wie „Mehr Lohn, mehr Freizeit”. In vielen Dörfern wird in der Nacht zum 1. Mai ein Maibaum aufgestellt – im Süden Deutschlands ein bunt geschmückter Stamm, im Norden ein Birkenstamm vor dem Fenster der Liebsten. Beliebte Aktivitäten: Mai-Wanderungen, Grillen und Familienfeste.",
+          "funFacts": [
+            "Der höchste Maibaum Bayerns wurde 2017 in Mitterfels mit über 50 m aufgestellt.",
+            "In Frankreich verschenkt man am 1. Mai Maiglöckchen („muguet”) – ein Brauch, den König Karl IX. 1561 einführte.",
+            "Im Rheinland werden in der Mai-Nacht „Liebesmaien” – geschmückte Birken – vor das Haus der Angebeteten gestellt.",
+            "Der 1. Mai ist offizieller Feiertag in über 80 Ländern – in den USA und Kanada feiert man Labor Day jedoch erst im September."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "Pfingstmontag ist der zweite Festtag von Pfingsten und in vielen christlich geprägten Ländern arbeitsfrei. Pfingsten erinnert an die Ausgießung des Heiligen Geistes über die Apostel.",
+          "history": "Das Pfingstfest („pentekostē” – griechisch für „der fünfzigste”) wird 50 Tage nach Ostern gefeiert und wurzelt im jüdischen Wochenfest Schawuot. Schon im 4. Jahrhundert wurde es als zweithöchstes christliches Fest neben Ostern und Weihnachten begangen. Der Pfingstmontag entstand aus dem mittelalterlichen Brauch, die ganze Pfingstoktav (acht Tage) zu feiern – auch wenn diese nach dem 2. Vatikanischen Konzil 1969 abgeschafft wurde, blieb der Pfingstmontag als Feiertag.",
+          "traditions": "Pfingsten ist die Zeit der Pfingstrose, der ersten lauen Frühsommertage und vieler Volksfeste. In ländlichen Regionen werden Pfingstochsen geschmückt, in der Eifel das „Pfingstkönigreich” gefeiert. Familien nutzen das verlängerte Wochenende für Ausflüge, Wanderungen und das erste Grillen im Freien.",
+          "funFacts": [
+            "Der „Pfingstochse” – ein bunt geschmücktes Rind als Frühjahrsbote – ist namensgebend für die Redensart „herausgeputzt wie ein Pfingstochse”.",
+            "In Italien wurden bei der Pfingstmesse einst Rosenblätter aus dem Pantheon-Dach gestreut, um den Heiligen Geist zu symbolisieren.",
+            "In Schweden und Skandinavien ist der Pfingstmontag seit 2005 nicht mehr arbeitsfrei – stattdessen ist der Schwedische Nationalfeiertag (6. Juni) ein Feiertag.",
+            "Pfingsten wird auch „Geburtstag der Kirche” genannt, weil an diesem Tag laut Apostelgeschichte 3.000 Menschen getauft wurden."
+          ],
+          "imageCredit": "Foto: Print made by: Virgil Solis · Public domain via Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "Fronleichnam („des Herrn Leib”) ist ein katholischer Hochfeiertag, der die Eucharistie und die leibhaftige Gegenwart Christi im Brot zelebriert. Er fällt auf den zweiten Donnerstag nach Pfingsten.",
+          "history": "Das Fest geht auf eine Vision der belgischen Nonne Juliana von Lüttich (1193–1258) zurück, die ein eigenes Eucharistie-Fest forderte. Papst Urban IV. führte Fronleichnam 1264 ein. Der Theologe Thomas von Aquin verfasste die liturgischen Texte und Hymnen wie „Lauda Sion Salvatorem”. Die berühmten Fronleichnams-Prozessionen entwickelten sich im 14. Jahrhundert. In Deutschland ist der Tag in den katholisch geprägten Bundesländern Bayern, Baden-Württemberg, Hessen, NRW, Rheinland-Pfalz und Saarland gesetzlicher Feiertag.",
+          "traditions": "Höhepunkt ist die feierliche Prozession, bei der die geweihte Hostie unter einem „Himmel” durch festlich geschmückte Straßen getragen wird. Häuser werden mit Birkengrün, Blumen und Heiligenbildern verziert. In manchen Orten – wie Mühlheim am Main – gibt es Wasser-Prozessionen mit Booten. Familien begleiten die Prozession im Sonntagsstaat.",
+          "funFacts": [
+            "Eines der spektakulärsten Fronleichnamsfeste findet im italienischen Genzano (bei Rom) statt: Die „Infiorata” verwandelt eine ganze Straße in einen Blumen-Teppich.",
+            "In Bayern werden in manchen Dörfern bunte Blumen-Bilder direkt auf die Straße gestreut, über die die Prozession dann läuft.",
+            "Das Wort „Fronleichnam” stammt vom mittelhochdeutschen „vrôn” (Herr) und „lîchnam” (lebendiger Leib) – nicht etwa von „Leiche”.",
+            "In Köln zieht die Mülheimer „Gottestracht” als einzige Wasser-Prozession der Welt mit Schiffen über den Rhein."
+          ],
+          "imageCredit": "Foto: Tranceliner · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
+          "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
+          "traditions": "Familien versammeln sich zu festlichen Mahlzeiten – Truthahn, Gans, Karpfen oder Raclette. Geschenke werden ausgetauscht, Weihnachtslieder gesungen, viele besuchen den Festgottesdienst. Der geschmückte Christbaum mit Lichterketten, Kugeln und Strohsternen ist das zentrale Symbol. Adventskalender, Plätzchen und der Besuch von Weihnachtsmärkten gehören zur Vorbereitung.",
+          "funFacts": [
+            "Der erste kommerzielle Adventskalender erschien 1908 in München – Erfinder war Gerhard Lang.",
+            "Die Weihnachtsmärkte in Dresden („Striezelmarkt”, seit 1434) und Frankfurt (seit 1393) gehören zu den ältesten der Welt.",
+            "Norwegen schenkt Großbritannien seit 1947 jährlich einen riesigen Weihnachtsbaum für den Trafalgar Square – als Dank für die Hilfe im Zweiten Weltkrieg.",
+            "Die Weihnachtsfilm-Klassiker „Drei Haselnüsse für Aschenbrödel” und „Tatsächlich… Liebe” laufen weltweit jedes Jahr Dutzende Male im TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Der zweite Weihnachtstag am 26. Dezember ist im Vereinigten Königreich als „Boxing Day” bekannt und verlängert in vielen Ländern die Weihnachtsferien.",
+          "history": "Der Name „Boxing Day” leitet sich nicht vom Sport ab, sondern von den Spendenboxen („Christmas boxes”), die in englischen Kirchen für die Armen aufgestellt und am Tag nach Weihnachten geöffnet wurden. Auch die Tradition, Hausangestellten und Postboten am 26. Dezember kleine Geld-Geschenke („boxes”) zu überreichen, prägte den Namen. In Deutschland ist der Tag der „2. Weihnachtsfeiertag” und seit 1933 gesetzlich geschützt – ursprünglich, um Familien Reisezeit zu Verwandten zu ermöglichen.",
+          "traditions": "In Großbritannien starten an diesem Tag der traditionelle Premier-League-Fußball, der Pferde-Hindernisrennsport und die berühmten „Boxing Day Sales”, bei denen Geschäfte massive Rabatte gewähren. In Deutschland wird ausgiebig gegessen, mit weiterer Familie gefeiert oder ein langer Spaziergang gemacht. In Polen und Tschechien gibt es Verwandtenbesuche und Festmahle.",
+          "funFacts": [
+            "Im Vereinigten Königreich wird seit 1860 die traditionelle Fuchsjagd am Boxing Day veranstaltet – seit 2005 nur noch als Drag Hunt ohne lebenden Fuchs.",
+            "Die Boxing-Day-Sales sind Großbritanniens umsatzstärkster Handelstag – noch vor Black Friday.",
+            "In Australien startet am Boxing Day das Sydney–Hobart-Yachtrennen, eines der härtesten Hochsee-Rennen der Welt.",
+            "In Irland heißt der Tag „St. Stephen's Day” – mit einer alten Tradition des „Wren Boys”-Brauchtums, bei dem Junge verkleidet von Tür zu Tür ziehen."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "new_year": {
+          "intro": "January 1st marks the start of a new year in the Gregorian calendar around the world. For many it's a day of hope, fresh starts and good resolutions.",
+          "history": "As early as 153 BC the Romans set the start of the year on January 1st, the day new consuls took office. During the Middle Ages, the start of the year shifted in many regions to Christmas or Easter. Only with Pope Gregory XIII's calendar reform of 1582 did January 1st become the European standard once again. The name January goes back to the Roman god Janus, who looked simultaneously at the past and the future with two faces — a fitting symbol for the day.",
+          "traditions": "At midnight, families and friends toast with sparkling wine and celebrate the turn of the year with fireworks, lucky charms (clover, chimney sweep, ladybug) and traditional lead pouring (now wax pouring). New Year's brunch and a fresh-air walk are popular too. Many people make resolutions for the year ahead.",
+          "funFacts": [
+            "In Spain, people eat one grape with each of the twelve bell strokes — one wish per grape.",
+            "In Denmark, people break old crockery in front of friends' doors to bring them luck.",
+            "Vienna's New Year's Concert is broadcast in over 90 countries and counts as the year's musical kick-off.",
+            "On the Pacific island of Kiribati, the new year arrives 26 hours earlier than on Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Good Friday is the highest Protestant day of mourning, commemorating the crucifixion of Jesus Christ. In Germany it is a ‘silent holiday' with special legal protections.",
+          "history": "Good Friday has been observed by Christians since the 4th century. The German prefix ‘Kar' comes from Old High German ‘chara', meaning lamentation or mourning. Liturgical traditions developed early on: the reading of the Passion, veneration of the cross and the silencing of bells. The Reformation gave Good Friday particular weight; in Lutheran regions it remains the most important holiday of the church year.",
+          "traditions": "Many Christians attend Passion services with the reading of the Passion narrative. The day is traditionally one of fasting — fish replaces meat. In some regions, Good Friday processions march through the streets, such as the famous one in Lohr am Main. Dance events and loud music are forbidden by law in most German states.",
+          "funFacts": [
+            "Germany's ‘dance ban' regulates public entertainment on Good Friday — and has been a hot social topic for years.",
+            "Bach wrote his St. Matthew Passion in 1727 for Good Friday vespers in Leipzig — today one of the world's most performed works.",
+            "In Bermuda, families fly self-made bamboo and paper kites on Good Friday — a unique Christian tradition.",
+            "In Spanish-speaking countries Good Friday is ‘Viernes Santo' — with magnificent brotherhood processions, for example in Seville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Easter Monday is the second day of Easter and is a public holiday in most European countries. It marks the closing of Christianity's highest festival.",
+          "history": "Easter is the oldest festival in Christendom, celebrating the resurrection of Jesus Christ on the third day after his death. The Council of Nicaea in 325 set Easter on the first Sunday after the first spring full moon. Easter Monday has been observed since the early Middle Ages — originally the entire Easter week was a holiday. In Germany and Austria it remained a legal holiday, unlike in many purely Catholic countries.",
+          "traditions": "Families hunt for Easter eggs together, enjoy a leisurely brunch or take the classic Easter walk (immortalized in Goethe's ‘Faust'). In Poland ‘Śmigus-Dyngus' is celebrated: boys splash girls with water. In Czechia, lads tap on doors with willow whips. In Bavaria and Austria there is the traditional ‘Emmaus walk'.",
+          "funFacts": [
+            "The custom of Easter egg hunts was first mentioned by Martin Luther, who used it to delight his children.",
+            "The world's largest chocolate Easter egg stood in Argentina (8.5 m tall, 4 t) — recorded in the Guinness Book.",
+            "In Sweden, children dress up as ‘Påskkärringar' — little witches — on Holy Saturday and go door to door.",
+            "The Easter Bunny as deliverer of eggs was first mentioned in 1682 by physician Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "May 1st is in many countries ‘Labour Day' — a holiday of the workers' movement with demonstrations, maypoles and spring fairs.",
+          "history": "On May 1st, 1886, hundreds of thousands of workers in Chicago went on a general strike for the eight-hour workday. The ensuing clashes at Haymarket killed several. In 1889 the International Workers' Congress in Paris declared May 1st the ‘international day of struggle for workers'. In Germany it became a legal holiday in 1933 as ‘Day of National Labour' and was kept after 1945 as a symbol of worker-friendly politics.",
+          "traditions": "Trade unions stage rallies and marches under slogans such as ‘More pay, more time off'. In many villages a maypole is raised on the night before May 1st — in southern Germany an ornately painted trunk, in the north a birch in front of a sweetheart's window. Popular activities: May hikes, barbecues and family festivals.",
+          "funFacts": [
+            "Bavaria's tallest maypole was raised in Mitterfels in 2017 at over 50 m.",
+            "In France people give lily-of-the-valley (‘muguet') on May 1st — a custom King Charles IX introduced in 1561.",
+            "In the Rhineland a ‘love May' — a decorated birch — is placed in front of the home of a sweetheart on May Eve.",
+            "May 1st is an official holiday in over 80 countries — but in the U.S. and Canada Labor Day falls in September."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "Whit Monday is the second day of Pentecost and a public holiday in many Christian-influenced countries. Pentecost commemorates the descent of the Holy Spirit on the Apostles.",
+          "history": "Pentecost (Greek ‘pentekostē', meaning fiftieth) is celebrated 50 days after Easter and has roots in the Jewish Feast of Weeks (Shavuot). It was honored as the second-highest Christian feast alongside Easter and Christmas as early as the 4th century. Whit Monday derives from the medieval custom of celebrating the entire Pentecost octave (eight days). Although that octave was abolished after the Second Vatican Council in 1969, Whit Monday remains a holiday.",
+          "traditions": "Pentecost is the season of peonies, the first warm early-summer days and many folk festivals. In rural regions ‘Pentecost oxen' are decorated; in the Eifel the ‘Pfingstkönigreich' is celebrated. Families use the long weekend for outings, hikes and the season's first outdoor barbecue.",
+          "funFacts": [
+            "The ‘Pfingstochse' — a colorfully decorated bull as harbinger of spring — gave rise to the German idiom ‘herausgeputzt wie ein Pfingstochse' (dressed up like a Pentecost ox).",
+            "In Italy, rose petals were once scattered from the roof of the Pantheon during the Pentecost mass to symbolize the Holy Spirit.",
+            "In Sweden and Scandinavia, Whit Monday has not been a public holiday since 2005 — replaced by Sweden's National Day on June 6th.",
+            "Pentecost is also called the ‘birthday of the Church', because Acts says 3,000 people were baptized that day."
+          ],
+          "imageCredit": "Photo: Print made by: Virgil Solis · Public domain via Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "Corpus Christi (‘the body of Christ') is a Catholic high feast that celebrates the Eucharist and Christ's bodily presence in the bread. It falls on the second Thursday after Pentecost.",
+          "history": "The feast goes back to a vision of the Belgian nun Juliana of Liège (1193–1258), who called for a separate Eucharistic feast. Pope Urban IV introduced Corpus Christi in 1264. Theologian Thomas Aquinas wrote the liturgical texts and hymns such as ‘Lauda Sion Salvatorem'. Famous Corpus Christi processions developed in the 14th century. In Germany it is a public holiday in the Catholic-majority states of Bavaria, Baden-Württemberg, Hesse, NRW, Rhineland-Palatinate and Saarland.",
+          "traditions": "The highlight is the solemn procession in which the consecrated host is carried under a ‘canopy' through festively decorated streets. Houses are adorned with birch greenery, flowers and pictures of saints. In some places — like Mühlheim am Main — there are even water processions with boats. Families accompany the procession in their Sunday best.",
+          "funFacts": [
+            "One of the most spectacular Corpus Christi celebrations is held in Genzano (near Rome): the ‘Infiorata' turns an entire street into a flower carpet.",
+            "In Bavarian villages, colorful flower images are strewn directly onto the street for the procession to pass over.",
+            "The German word ‘Fronleichnam' comes from Middle High German ‘vrôn' (lord) and ‘lîchnam' (living body) — not from ‘corpse'.",
+            "Cologne's Mülheim ‘Gottestracht' is the world's only water procession on ships across the Rhine."
+          ],
+          "imageCredit": "Photo: Tranceliner · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
+          "history": "December 25th is documented as ‘dies natalis Christi' as early as 354 in a Roman calendar. The Church likely chose the date to give the Roman ‘Sol Invictus' winter solstice festival a Christian meaning. Gift-giving has its roots in the gifts of the Magi. The familiar Santa Claus with red coat and white beard is a mix of Saint Nicholas and a 1931 Coca-Cola advertising campaign.",
+          "traditions": "Families gather for festive meals — turkey, goose, carp or raclette. Gifts are exchanged, carols sung, many attend the festive service. The decorated Christmas tree with lights, ornaments and straw stars is the central symbol. Advent calendars, cookies and visits to Christmas markets are part of the run-up.",
+          "funFacts": [
+            "The first commercial Advent calendar appeared in 1908 in Munich — invented by Gerhard Lang.",
+            "The Christmas markets in Dresden (‘Striezelmarkt', since 1434) and Frankfurt (since 1393) are among the oldest in the world.",
+            "Norway has gifted the UK a giant Christmas tree for Trafalgar Square every year since 1947 — as thanks for help during World War II.",
+            "Holiday classics like ‘Three Wishes for Cinderella' and ‘Love Actually' run dozens of times on TV worldwide every year."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "December 26th is known in the United Kingdom as ‘Boxing Day' and in many countries extends the Christmas holidays.",
+          "history": "The name ‘Boxing Day' has nothing to do with sport — it refers to the donation boxes (‘Christmas boxes') placed in English churches and opened on the day after Christmas to help the poor. The custom of giving small money gifts (‘boxes') to servants and posties on December 26th also shaped the name. In Germany the day is the ‘Second Christmas Holiday' and has been protected by law since 1933 — originally to give families travel time to relatives.",
+          "traditions": "In the UK, the day kicks off the traditional Premier League football matches, horse jump-racing and the famous ‘Boxing Day Sales' with massive store discounts. In Germany people eat extensively, visit more relatives or take a long walk. In Poland and Czechia families pay each other visits and enjoy festive meals.",
+          "funFacts": [
+            "In the UK the traditional fox hunt is held on Boxing Day since 1860 — but only as a drag hunt without a live fox since 2005.",
+            "Boxing Day Sales are the UK's highest-revenue retail day — even higher than Black Friday.",
+            "In Australia the Sydney–Hobart Yacht Race starts on Boxing Day — one of the toughest offshore races in the world.",
+            "In Ireland the day is ‘St. Stephen's Day' — with the old ‘Wren Boys' tradition of costumed lads going door to door."
+          ],
+          "imageCredit": "Photo: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "new_year": {
+          "intro": "Le 1er janvier marque le début d'une nouvelle année dans le calendrier grégorien partout dans le monde. Pour beaucoup, c'est un jour d'espoir, de renouveau et de bonnes résolutions.",
+          "history": "Dès 153 av. J.-C., les Romains fixèrent le début de l'année au 1er janvier, jour d'entrée en fonction des nouveaux consuls. Au Moyen Âge, le début de l'année se déplaça dans de nombreuses régions à Noël ou à Pâques. Ce n'est qu'avec la réforme du calendrier du pape Grégoire XIII en 1582 que le 1er janvier s'imposa à nouveau comme standard européen. Le nom janvier vient du dieu romain Janus, qui regardait simultanément le passé et l'avenir avec deux visages.",
+          "traditions": "À minuit, familles et amis trinquent au champagne et célèbrent le passage à la nouvelle année avec des feux d'artifice, des porte-bonheur (trèfle, ramoneur, coccinelle) et la traditionnelle coulée de plomb (aujourd'hui de cire). Le brunch du Nouvel An et la promenade au grand air sont aussi populaires. Beaucoup formulent des résolutions pour l'année.",
+          "funFacts": [
+            "En Espagne, on mange un grain de raisin à chacun des douze coups de minuit — un vœu par grain.",
+            "Au Danemark, on brise de la vieille vaisselle devant la porte des amis pour leur porter chance.",
+            "Le Concert du Nouvel An de Vienne est diffusé dans plus de 90 pays — coup d'envoi musical de l'année.",
+            "Sur l'île pacifique de Kiribati, le Nouvel An arrive 26 heures avant celui de l'île Howland."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Le Vendredi Saint est le jour le plus solennel du protestantisme et commémore la crucifixion de Jésus-Christ. En Allemagne, il s'agit d'un ‘jour silencieux' légalement protégé.",
+          "history": "Le Vendredi Saint est célébré par les chrétiens depuis le IVe siècle. Le préfixe allemand ‘Kar' vient du vieux haut-allemand ‘chara' (lamentation, deuil). Très tôt s'élaborent les traditions liturgiques : lecture de la Passion, vénération de la Croix, silence des cloches. La Réforme protestante lui donna une importance particulière ; dans les régions luthériennes, c'est la fête la plus importante de l'année liturgique.",
+          "traditions": "De nombreux chrétiens assistent à la liturgie de la Passion. C'est traditionnellement un jour de jeûne — on mange du poisson plutôt que de la viande. Dans certaines régions ont lieu des processions du Vendredi Saint, comme la fameuse procession de Lohr am Main. En Allemagne, la danse et la musique forte sont légalement interdites dans la plupart des Länder.",
+          "funFacts": [
+            "L'interdiction de danser (‘Tanzverbot') régit les divertissements publics du Vendredi Saint en Allemagne — sujet sociétal récurrent.",
+            "Bach composa sa Passion selon saint Matthieu en 1727 pour les vêpres du Vendredi Saint à Leipzig.",
+            "Aux Bermudes, les familles font voler des cerfs-volants en bambou et papier le Vendredi Saint — tradition chrétienne unique.",
+            "En Espagne, le ‘Viernes Santo' brille par les magnifiques processions de confréries, notamment à Séville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Le lundi de Pâques est le second jour de Pâques et férié dans la plupart des pays européens. Il clôt la fête majeure du christianisme.",
+          "history": "Pâques est la plus ancienne fête de la chrétienté et célèbre la résurrection de Jésus-Christ le troisième jour. Le concile de Nicée fixa en 325 la date de Pâques au premier dimanche après la première pleine lune du printemps. Le lundi de Pâques se célèbre depuis le haut Moyen Âge — initialement, toute la semaine de Pâques était fériée. En Allemagne et en Autriche, il demeure un jour férié légal, contrairement à beaucoup de pays purement catholiques.",
+          "traditions": "Les familles font la chasse aux œufs, prennent un long brunch ou la traditionnelle promenade pascale. En Pologne, on célèbre ‘Śmigus-Dyngus' : les garçons aspergent les filles d'eau. En Tchéquie, les jeunes hommes tapent aux portes avec des branches de saule. En Bavière et en Autriche, la traditionnelle ‘marche d'Emmaüs' a lieu.",
+          "funFacts": [
+            "C'est Martin Luther qui mentionna pour la première fois la chasse aux œufs, pour amuser ses enfants.",
+            "Le plus grand œuf en chocolat du monde (8,5 m, 4 t) a été réalisé en Argentine — entré au Guinness.",
+            "En Suède, les enfants se déguisent en ‘Påskkärringar' (petites sorcières) le Samedi Saint et font du porte-à-porte.",
+            "Le lapin de Pâques en tant que livreur d'œufs fut mentionné pour la première fois en 1682 par le médecin Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Le 1er mai est dans bien des pays la ‘Fête du Travail' — fête du mouvement ouvrier avec manifestations, mâts de mai et fêtes printanières.",
+          "history": "Le 1er mai 1886, des centaines de milliers de travailleurs de Chicago entrèrent en grève générale pour la journée de huit heures. Les heurts qui suivirent à Haymarket firent plusieurs morts. En 1889, le Congrès international des travailleurs à Paris déclara le 1er mai ‘journée de lutte du mouvement ouvrier'. En France, le 1er mai devient jour chômé en 1947, et c'est aussi le jour où l'on offre du muguet, tradition royale depuis Charles IX en 1561.",
+          "traditions": "Les syndicats organisent meetings et défilés sous des slogans comme ‘Plus de salaire, plus de temps libre'. En France, on s'offre des brins de muguet, porte-bonheur. Dans de nombreux villages allemands, on dresse un mât de mai dans la nuit du 1er. Randonnées, barbecues et fêtes familiales sont au programme.",
+          "funFacts": [
+            "Le mât de mai le plus haut de Bavière a été dressé en 2017 à Mitterfels avec plus de 50 m.",
+            "En France, on offre du muguet le 1er mai — coutume introduite par Charles IX en 1561.",
+            "En Rhénanie, on plante des bouleaux décorés (‘Liebesmaien') devant la maison de la bien-aimée à la nuit du 1er mai.",
+            "Le 1er mai est jour férié dans plus de 80 pays — mais aux États-Unis et au Canada, le ‘Labor Day' tombe en septembre."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "Le lundi de Pentecôte est le second jour de Pentecôte, férié dans bien des pays chrétiens. La Pentecôte commémore la descente de l'Esprit Saint sur les apôtres.",
+          "history": "La Pentecôte (du grec ‘pentekostē', cinquantième) se célèbre 50 jours après Pâques et trouve ses racines dans la fête juive de Chavouot. Dès le IVe siècle, elle était la deuxième grande fête chrétienne après Pâques et Noël. Le lundi de Pentecôte vient de la coutume médiévale de fêter toute l'octave (huit jours) ; bien que celle-ci ait été supprimée après Vatican II en 1969, le lundi est resté férié.",
+          "traditions": "La Pentecôte coïncide avec la floraison des pivoines et les premiers jours doux de l'été, et donne lieu à de nombreuses fêtes populaires. Dans les campagnes, on décore des ‘bœufs de Pentecôte' ; dans l'Eifel, on célèbre le ‘Pfingstkönigreich'. Les familles profitent du long week-end pour des excursions et les premiers barbecues.",
+          "funFacts": [
+            "Le ‘Pfingstochse' — bœuf décoré comme héraut du printemps — est à l'origine de l'expression allemande ‘herausgeputzt wie ein Pfingstochse'.",
+            "À Rome, on jetait jadis des pétales de roses depuis le toit du Panthéon pendant la messe de Pentecôte, en symbole de l'Esprit Saint.",
+            "En Suède et Scandinavie, le lundi de Pentecôte n'est plus férié depuis 2005 — remplacé par la fête nationale suédoise (6 juin).",
+            "La Pentecôte est aussi appelée ‘anniversaire de l'Église' car, selon les Actes, 3 000 personnes furent baptisées ce jour-là."
+          ],
+          "imageCredit": "Photo: Print made by: Virgil Solis · Public domain via Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "La Fête-Dieu (‘corpus Christi', ‘corps du Christ') est une solennité catholique qui célèbre l'Eucharistie et la présence réelle du Christ dans le pain. Elle tombe le deuxième jeudi après la Pentecôte.",
+          "history": "La fête est issue d'une vision de la moniale belge Julienne de Liège (1193–1258), qui réclama une fête propre à l'Eucharistie. Le pape Urbain IV institua la Fête-Dieu en 1264. Thomas d'Aquin rédigea les textes liturgiques et hymnes comme ‘Lauda Sion Salvatorem'. Les célèbres processions naquirent au XIVe siècle. En France, la fête a perdu son statut férié au XIXe siècle, mais reste célébrée dans certaines paroisses et en Alsace-Moselle.",
+          "traditions": "Le sommet est la procession solennelle, où l'hostie consacrée est portée sous un dais à travers des rues parées. Les maisons sont décorées de verdure, fleurs et icônes. Dans certaines localités — comme Mühlheim am Main — il y a des processions sur l'eau, en barques. En Italie (‘Infiorata'), des rues entières sont décorées de tapis de fleurs.",
+          "funFacts": [
+            "Une des célébrations les plus spectaculaires se tient à Genzano (près de Rome) : ‘l'Infiorata' transforme une rue entière en tapis de fleurs.",
+            "En Bavière, on jette des images de fleurs colorées sur la rue avant le passage de la procession.",
+            "Le mot allemand ‘Fronleichnam' vient du moyen haut-allemand ‘vrôn' (Seigneur) et ‘lîchnam' (corps vivant) — pas de ‘cadavre'.",
+            "À Cologne, la ‘Gottestracht' de Mülheim est la seule procession au monde à se faire en bateaux sur le Rhin."
+          ],
+          "imageCredit": "Photo: Tranceliner · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
+          "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
+          "traditions": "Les familles se rassemblent autour de repas festifs — dinde, oie, carpe ou raclette. On échange des cadeaux, chante des cantiques, beaucoup assistent à la messe festive. Le sapin décoré de lumières, boules et étoiles de paille est le symbole central. Calendrier de l'avent, biscuits et marchés de Noël jalonnent la préparation.",
+          "funFacts": [
+            "Le premier calendrier de l'avent commercial parut en 1908 à Munich — invention de Gerhard Lang.",
+            "Les marchés de Noël de Dresde (‘Striezelmarkt', depuis 1434) et de Francfort (depuis 1393) figurent parmi les plus anciens du monde.",
+            "La Norvège offre chaque année au Royaume-Uni un immense sapin pour Trafalgar Square depuis 1947 — en remerciement de l'aide pendant la Seconde Guerre mondiale.",
+            "Les classiques de Noël comme ‘Trois noisettes pour Cendrillon' ou ‘Love Actually' sont diffusés des dizaines de fois à la télé chaque année."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Le 26 décembre est connu au Royaume-Uni comme ‘Boxing Day' et prolonge les vacances de Noël dans bien des pays.",
+          "history": "Le nom ‘Boxing Day' n'a rien à voir avec le sport — il vient des troncs de dons (‘Christmas boxes') des églises anglaises, ouverts le lendemain de Noël pour les pauvres. La coutume de remettre de petites boîtes d'argent aux domestiques et facteurs le 26 décembre a aussi influencé le nom. En Allemagne, c'est le ‘deuxième jour de Noël', férié depuis 1933 — pensé à l'origine pour permettre aux familles de voyager voir leurs proches.",
+          "traditions": "Au Royaume-Uni, c'est le coup d'envoi des matchs de Premier League traditionnels, des courses d'obstacles et des fameuses ‘Boxing Day Sales' avec d'énormes rabais. En Allemagne, on mange copieusement, on visite d'autres parents ou on fait une longue promenade. En Pologne et en Tchéquie, on rend visite à la famille et l'on tient banquet.",
+          "funFacts": [
+            "Au Royaume-Uni, la chasse au renard se court le Boxing Day depuis 1860 — depuis 2005, uniquement en ‘drag hunt' sans renard vivant.",
+            "Les ‘Boxing Day Sales' sont la journée commerçante la plus rentable au Royaume-Uni — devant le Black Friday.",
+            "En Australie, la régate Sydney–Hobart démarre le Boxing Day — l'une des plus rudes courses du large au monde.",
+            "En Irlande, le jour est ‘St. Stephen's Day' — avec la vieille tradition des ‘Wren Boys' allant déguisés de porte en porte."
+          ],
+          "imageCredit": "Photo: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "new_year": {
+          "intro": "El 1 de enero marca el inicio de un nuevo año en el calendario gregoriano en todo el mundo. Para muchos es un día de esperanza, comienzos y buenos propósitos.",
+          "history": "Ya en el 153 a. C., los romanos fijaron el inicio del año el 1 de enero, día en que tomaban posesión los nuevos cónsules. En la Edad Media el comienzo del año cambió en muchas regiones a Navidad o Pascua. Solo con la reforma del calendario del papa Gregorio XIII en 1582 el 1 de enero volvió a imponerse como estándar europeo. El nombre Janus (enero en latín) evoca al dios romano de las dos caras, que miraba al pasado y al futuro a la vez.",
+          "traditions": "A medianoche, familias y amigos brindan con cava o champán y celebran con fuegos artificiales, amuletos como tréboles, deshollinadores o mariquitas, y la tradicional fundición de cera para predecir el año. También son populares el brunch de Año Nuevo y los paseos al aire libre. Muchos hacen propósitos para el año entrante.",
+          "funFacts": [
+            "En España se come una uva con cada una de las doce campanadas — un deseo por uva.",
+            "En Dinamarca se rompe vajilla vieja delante de las puertas de los amigos para darles suerte.",
+            "El Concierto de Año Nuevo de Viena se transmite en más de 90 países y se considera el arranque musical del año.",
+            "En la isla pacífica de Kiribati el Año Nuevo llega 26 horas antes que en la isla Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 vía Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "El Viernes Santo es el día de mayor luto del cristianismo y conmemora la crucifixión de Jesús. En Alemania es ‘día silencioso' con normativa especial.",
+          "history": "El Viernes Santo se celebra desde el siglo IV. La palabra alemana ‘Kar' viene del antiguo alto alemán ‘chara', que significa lamento o duelo. Pronto se desarrollaron tradiciones litúrgicas: lectura de la Pasión, veneración de la cruz y silencio de las campanas. La Reforma le dio especial relevancia y en regiones luteranas sigue siendo el día más importante del año eclesiástico.",
+          "traditions": "Muchos cristianos asisten a oficios de la Pasión con la lectura de la Pasión. Es día de ayuno: tradicionalmente se come pescado en lugar de carne. En España, las procesiones de las cofradías recorren ciudades como Sevilla. En Alemania los bailes y la música alta están legalmente prohibidos en la mayoría de estados federados.",
+          "funFacts": [
+            "El ‘Tanzverbot' (prohibición de bailar) regula el ocio público en el Viernes Santo alemán — desde hace años un debate social recurrente.",
+            "Bach compuso su Pasión según San Mateo en 1727 para las vísperas del Viernes Santo en Leipzig.",
+            "En Bermudas, las familias hacen volar cometas caseras de bambú y papel — una tradición cristiana única.",
+            "En España, el ‘Viernes Santo' destaca por las majestuosas procesiones de cofradías, especialmente en Sevilla y Málaga."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "El Lunes de Pascua es el segundo día de la Pascua y festivo en la mayoría de países europeos. Cierra la fiesta más importante del cristianismo.",
+          "history": "La Pascua es la fiesta más antigua del cristianismo y celebra la resurrección de Jesús al tercer día de su muerte. El Concilio de Nicea fijó en 325 que se celebraría el primer domingo después de la primera luna llena de primavera. El Lunes de Pascua se celebra desde la temprana Edad Media — originalmente toda la octava de Pascua era festiva. En Alemania y Austria sigue siendo festivo legal, a diferencia de muchos países católicos.",
+          "traditions": "Las familias buscan huevos de Pascua, desayunan abundantemente o dan el clásico paseo de Pascua. En Polonia se celebra ‘Śmigus-Dyngus': los chicos mojan a las chicas con agua. En Chequia los jóvenes golpean las puertas con ramas de sauce. En Baviera y Austria se hace la tradicional caminata de Emaús.",
+          "funFacts": [
+            "Martin Lutero fue el primero en mencionar la búsqueda de huevos de Pascua, para alegrar a sus hijos.",
+            "El huevo de Pascua de chocolate más grande del mundo (8,5 m, 4 t) se hizo en Argentina y figura en el Guinness.",
+            "En Suecia los niños se disfrazan de ‘Påskkärringar' — pequeñas brujas — el Sábado Santo y van de puerta en puerta.",
+            "El conejo de Pascua como portador de huevos fue mencionado por escrito por primera vez en 1682, por el médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 vía Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "El 1 de mayo es en muchos países el ‘Día del Trabajador' — fiesta del movimiento obrero con manifestaciones, mayos y celebraciones primaverales.",
+          "history": "El 1 de mayo de 1886, cientos de miles de trabajadores en Chicago se declararon en huelga general por la jornada de ocho horas. Los choques posteriores en Haymarket dejaron varios muertos. En 1889 el Congreso Internacional de Trabajadores de París lo declaró ‘día de lucha del movimiento obrero'. En Alemania pasó a ser festivo legal en 1933 como ‘Día Nacional del Trabajo' y se mantuvo tras 1945 como símbolo de política favorable a los trabajadores.",
+          "traditions": "Los sindicatos organizan mítines y manifestaciones bajo lemas como ‘Más sueldo, más tiempo libre'. En muchas aldeas alemanas se planta un mayo en la noche del 1 de mayo — en el sur, un tronco coloridamente decorado; en el norte, un abedul ante la ventana de la amada. Caminatas de mayo, barbacoas y fiestas familiares son populares.",
+          "funFacts": [
+            "El mayo más alto de Baviera fue erigido en Mitterfels en 2017 con más de 50 m.",
+            "En Francia se regala muguete (‘muguet') el 1 de mayo — costumbre que el rey Carlos IX introdujo en 1561.",
+            "En Renania, en la Noche de Mayo se ponen abedules decorados (‘Liebesmaien') ante la casa de la enamorada.",
+            "El 1 de mayo es festivo en más de 80 países — pero en EE. UU. y Canadá el ‘Labor Day' se celebra en septiembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 vía Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "El Lunes de Pentecostés es el segundo día festivo de Pentecostés, libre en muchos países cristianos. Pentecostés conmemora la venida del Espíritu Santo sobre los apóstoles.",
+          "history": "Pentecostés (del griego ‘pentekostē', el quincuagésimo) se celebra 50 días después de Pascua y arraiga en la festividad judía de Shavuot. Ya en el siglo IV se celebraba como segunda gran fiesta cristiana junto a Navidad y Pascua. El Lunes de Pentecostés deriva de la costumbre medieval de festejar toda la octava (ocho días); aunque esta fue suprimida tras el Vaticano II en 1969, el lunes se mantuvo como festivo.",
+          "traditions": "Pentecostés es la época de las peonías, los primeros días templados del verano y muchas fiestas populares. En zonas rurales se decoran ‘bueyes de Pentecostés', en la Eifel se celebra el ‘Pfingstkönigreich'. Las familias aprovechan el fin de semana largo para excursiones, caminatas y la primera barbacoa al aire libre.",
+          "funFacts": [
+            "El ‘Pfingstochse' — buey decorado como heraldo de la primavera — dio origen a la frase alemana ‘herausgeputzt wie ein Pfingstochse'.",
+            "En Italia se arrojaban antiguamente pétalos de rosas desde el techo del Panteón en la misa de Pentecostés, simbolizando al Espíritu Santo.",
+            "En Suecia y Escandinavia el Lunes de Pentecostés ya no es festivo desde 2005; en su lugar lo es el día nacional sueco (6 de junio).",
+            "Pentecostés se llama también ‘cumpleaños de la Iglesia', porque según los Hechos se bautizaron 3.000 personas ese día."
+          ],
+          "imageCredit": "Foto: Print made by: Virgil Solis · Public domain vía Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "Corpus Christi (‘el cuerpo de Cristo') es una solemnidad católica que celebra la Eucaristía y la presencia real de Cristo en el pan. Cae el segundo jueves después de Pentecostés.",
+          "history": "La fiesta surge de una visión de la monja belga Juliana de Lieja (1193–1258), que pidió una fiesta propia de la Eucaristía. El papa Urbano IV instauró el Corpus Christi en 1264. Tomás de Aquino redactó los textos litúrgicos y himnos como ‘Lauda Sion Salvatorem'. Las célebres procesiones surgieron en el siglo XIV. En España, ciudades como Toledo, Sevilla y Granada celebran procesiones espectaculares. En Italia el ‘Infiorata' adorna calles enteras con alfombras de flores.",
+          "traditions": "El centro es la procesión solemne en la que la hostia consagrada se lleva bajo palio por calles engalanadas. Las casas se adornan con ramas verdes, flores y estampas. En España las calles se cubren de pétalos formando alfombras. Las familias acompañan la procesión con sus mejores ropas dominicales.",
+          "funFacts": [
+            "Una de las celebraciones más espectaculares es la ‘Infiorata' de Genzano (cerca de Roma): toda una calle queda convertida en alfombra de flores.",
+            "En Toledo la Custodia de Arfe pesa más de 180 kg de oro y plata y se saca solo en Corpus.",
+            "El término alemán ‘Fronleichnam' viene del medio alto alemán ‘vrôn' (señor) y ‘lîchnam' (cuerpo vivo) — no de ‘cadáver'.",
+            "En Colonia, la ‘Gottestracht' de Mülheim es la única procesión por agua del mundo, en barcos sobre el Rin."
+          ],
+          "imageCredit": "Foto: Tranceliner · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
+          "history": "Ya en el año 354 un calendario romano consigna el 25 de diciembre como ‘dies natalis Christi'. Probablemente la Iglesia eligió la fecha para reinterpretar cristianamente el ‘Sol Invictus' romano. El intercambio de regalos arraiga en los obsequios de los Magos. El moderno Papá Noel con abrigo rojo y barba blanca es una mezcla de San Nicolás con una campaña publicitaria de Coca-Cola de 1931.",
+          "traditions": "Las familias se reúnen para comidas festivas — pavo, ganso, carpa o raclette. Se intercambian regalos, se cantan villancicos y muchos asisten al servicio festivo. El árbol decorado con luces y bolas es el símbolo central. El calendario de Adviento, las galletas y los mercadillos forman parte de la preparación.",
+          "funFacts": [
+            "El primer calendario de Adviento comercial apareció en 1908 en Múnich — invento de Gerhard Lang.",
+            "Los mercadillos navideños de Dresde (‘Striezelmarkt', desde 1434) y Fráncfort (desde 1393) son de los más antiguos del mundo.",
+            "Noruega regala al Reino Unido un enorme árbol de Navidad para Trafalgar Square cada año desde 1947 — agradecimiento por la ayuda en la Segunda Guerra Mundial.",
+            "Los clásicos como ‘Tres Avellanas para Cenicienta' o ‘Love Actually' se emiten decenas de veces cada año en TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "El 26 de diciembre se conoce en el Reino Unido como ‘Boxing Day' y prolonga las vacaciones navideñas en muchos países.",
+          "history": "El nombre ‘Boxing Day' no proviene del deporte, sino de las cajas de donativos (‘Christmas boxes') de las iglesias inglesas que se abrían el día después de Navidad para los pobres. También influyó la costumbre de regalar pequeñas cajas con dinero a los empleados domésticos y carteros el 26 de diciembre. En Alemania es el ‘2º día de Navidad', festivo legal desde 1933 — pensado originalmente para que las familias viajaran a ver parientes.",
+          "traditions": "En el Reino Unido empiezan los partidos tradicionales de la Premier League, las carreras de obstáculos hípicos y las famosas ‘Boxing Day Sales' con grandes descuentos. En Alemania se come en abundancia, se visita a más familia o se da un largo paseo. En Polonia y Chequia hay visitas familiares y banquetes.",
+          "funFacts": [
+            "En el Reino Unido la tradicional caza del zorro se hace desde 1860 en Boxing Day — desde 2005 solo como ‘drag hunt' sin zorro vivo.",
+            "Las ‘Boxing Day Sales' son el día de mayores ventas del año del comercio británico — más que el Black Friday.",
+            "En Australia el 26 de diciembre arranca la regata Sídney–Hobart, una de las más duras de altura del mundo.",
+            "En Irlanda el día se llama ‘Día de San Esteban' — con la antigua tradición de los ‘Wren Boys' yendo disfrazados de puerta en puerta."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "new_year": {
+          "intro": "1 de janeiro marca o início de um novo ano no calendário gregoriano em todo o mundo. Para muitos é um dia de esperança, novos começos e boas resoluções.",
+          "history": "Já em 153 a.C. os romanos fixaram o início do ano em 1 de janeiro, dia em que tomavam posse os novos cônsules. Na Idade Média, o início do ano deslocou-se em muitas regiões para o Natal ou a Páscoa. Só com a reforma do calendário do Papa Gregório XIII em 1582 o 1 de janeiro voltou a impor-se como padrão europeu. O nome Janus (janeiro em latim) evoca o deus romano de duas faces, que olhava simultaneamente para o passado e o futuro.",
+          "traditions": "À meia-noite, famílias e amigos brindam com espumante e celebram com fogo de artifício, amuletos como trevos, limpa-chaminés ou joaninhas, e a tradicional fundição de cera para prever o ano. Também são populares o brunch de Ano Novo e os passeios ao ar livre. Muitos fazem resoluções para o ano que começa.",
+          "funFacts": [
+            "Em Portugal e Espanha, come-se uma uva por cada uma das doze badaladas — um desejo por uva.",
+            "Na Dinamarca, partem-se louças velhas em frente à porta dos amigos para lhes dar sorte.",
+            "O Concerto de Ano Novo de Viena é transmitido em mais de 90 países — abertura musical do ano.",
+            "Na ilha pacífica de Kiribati, o Ano Novo chega 26 horas antes do que na ilha de Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "A Sexta-Feira Santa é o dia de maior luto do cristianismo e comemora a crucificação de Jesus Cristo. Em Portugal é feriado nacional, com forte tradição religiosa.",
+          "history": "A Sexta-Feira Santa é celebrada pelos cristãos desde o século IV. O prefixo alemão ‘Kar' vem do alto alemão antigo ‘chara' (lamento, luto). Cedo se desenvolveram tradições litúrgicas: leitura da Paixão, veneração da cruz e silêncio dos sinos. A Reforma deu-lhe especial relevância. Em Portugal, a tradição das procissões da Paixão é antiga e muito viva, especialmente em Braga, Óbidos e na ilha da Madeira.",
+          "traditions": "Muitos cristãos assistem a celebrações da Paixão. É tradicionalmente dia de jejum — come-se peixe (em Portugal, o típico bacalhau) em vez de carne. Em Braga e Óbidos, as procissões da Paixão são impressionantes — em Braga a ‘Procissão do Senhor Ecce Homo' é uma das maiores. Em Espanha, destacam-se as procissões das confrarias, sobretudo em Sevilha.",
+          "funFacts": [
+            "Em Braga (Portugal) a ‘Procissão do Senhor Ecce Homo' é uma das mais impressionantes da Europa.",
+            "Bach compôs a sua Paixão segundo São Mateus em 1727 para as Vésperas da Sexta-Feira Santa em Leipzig.",
+            "Nas Bermudas, as famílias fazem voar papagaios de bambu e papel feitos em casa — uma tradição cristã única.",
+            "Em Espanha, ‘Viernes Santo' destaca-se pelas magníficas procissões das confrarias, sobretudo em Sevilha."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "A Segunda-Feira de Páscoa é o segundo dia de Páscoa e feriado na maioria dos países europeus. Em Portugal, ainda que não seja feriado, é tradição almoçar com a família o folar.",
+          "history": "A Páscoa é a festa mais antiga da cristandade e celebra a ressurreição de Jesus Cristo no terceiro dia. O Concílio de Niceia em 325 fixou a Páscoa no primeiro domingo após a primeira lua cheia da primavera. A Segunda-Feira de Páscoa celebra-se desde a alta Idade Média — originalmente toda a semana de Páscoa era feriada. Em Portugal, a tradição é a do ‘folar', um bolo doce com ovo cozido por cima, que se oferece sobretudo aos afilhados.",
+          "traditions": "As famílias procuram em conjunto ovos de Páscoa, almoçam abundantemente ou fazem o clássico passeio pascal. Em Portugal, oferece-se o ‘folar' aos afilhados e organizam-se almoços em família com cabrito assado. Na Polónia celebra-se ‘Śmigus-Dyngus': os rapazes salpicam as raparigas com água. Na Chéquia, os jovens batem às portas com ramos de salgueiro.",
+          "funFacts": [
+            "O costume da caça aos ovos foi mencionado pela primeira vez por Martinho Lutero, para alegrar os filhos.",
+            "O maior ovo de chocolate do mundo (8,5 m, 4 t) foi feito na Argentina e está no Guinness.",
+            "Na Suécia, as crianças vestem-se de ‘Påskkärringar' — pequenas bruxas — no Sábado Santo e vão de porta em porta.",
+            "O coelho da Páscoa como entregador de ovos foi mencionado pela primeira vez por escrito em 1682 pelo médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 de maio é em muitos países o ‘Dia do Trabalhador' — feriado do movimento operário com manifestações, festas de maio e celebrações primaveris. Em Portugal, é feriado nacional desde 1974.",
+          "history": "A 1 de maio de 1886, centenas de milhares de trabalhadores em Chicago entraram em greve geral pela jornada de oito horas. Os confrontos seguintes em Haymarket fizeram vários mortos. Em 1889, o Congresso Internacional dos Trabalhadores em Paris declarou o 1 de maio ‘dia de luta do movimento operário'. Em Portugal, foi assinalado clandestinamente durante o Estado Novo e tornou-se feriado oficial logo após a Revolução de 25 de Abril de 1974.",
+          "traditions": "Os sindicatos organizam comícios e desfiles com lemas como ‘Mais salário, mais tempo livre'. Em Portugal, a CGTP organiza um grande desfile no Porto e em Lisboa, com milhares de manifestantes. Muitas famílias aproveitam o feriado para piqueniques, churrascos e idas à praia.",
+          "funFacts": [
+            "Em Portugal, o 1.º de Maio de 1974 — apenas 6 dias após a Revolução dos Cravos — foi um dos primeiros grandes ajuntamentos populares livres em décadas.",
+            "Em França, oferece-se muguete (‘muguet') no 1.º de Maio — costume introduzido pelo rei Carlos IX em 1561.",
+            "Na Renânia, na noite de 1.º de Maio, colocam-se vidoeiros decorados (‘Liebesmaien') diante da casa da amada.",
+            "O 1.º de Maio é feriado em mais de 80 países — mas nos EUA e Canadá o ‘Labor Day' é em setembro."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "A Segunda-Feira de Pentecostes é o segundo dia de Pentecostes e feriado em vários países cristãos. O Pentecostes comemora a descida do Espírito Santo sobre os apóstolos.",
+          "history": "Pentecostes (do grego ‘pentekostē', quinquagésimo) celebra-se 50 dias depois da Páscoa e tem raízes na festa judaica de Shavuot. Já no século IV era a segunda grande festa cristã ao lado de Páscoa e Natal. A Segunda-Feira de Pentecostes deriva do costume medieval de festejar toda a oitava (oito dias). Em Portugal, é o ‘Domingo de Pentecostes' que se celebra mais — não há feriado civil específico.",
+          "traditions": "O Pentecostes é a estação das peónias, dos primeiros dias quentes do início do verão e de muitas festas populares. Nas regiões rurais alemãs decoram-se ‘bois de Pentecostes'; no Eifel celebra-se o ‘Pfingstkönigreich'. Em Portugal há tradições locais, como as ‘Festas do Espírito Santo' nos Açores, com bodos populares e a coroação do imperador.",
+          "funFacts": [
+            "As ‘Festas do Espírito Santo' nos Açores são uma das tradições populares mais ricas de Portugal — com coroas, bodos e procissões.",
+            "Em Roma, atiravam-se outrora pétalas de rosas do tejadilho do Panteão durante a missa de Pentecostes, simbolizando o Espírito Santo.",
+            "Na Suécia e Escandinávia, a Segunda-Feira de Pentecostes deixou de ser feriado em 2005 — substituída pelo Dia Nacional Sueco (6 de junho).",
+            "O Pentecostes também é chamado ‘aniversário da Igreja', porque, segundo os Atos, foram batizadas 3.000 pessoas nesse dia."
+          ],
+          "imageCredit": "Foto: Print made by: Virgil Solis · Public domain via Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "O Corpo de Deus (‘corpus Christi', ‘corpo do Senhor') é uma solenidade católica que celebra a Eucaristia e a presença real de Cristo no pão. Cai na segunda quinta-feira após o Pentecostes. Em Portugal é feriado nacional.",
+          "history": "A festa nasce de uma visão da freira belga Juliana de Liège (1193–1258), que pediu uma festa própria da Eucaristia. O Papa Urbano IV instituiu o Corpo de Deus em 1264. Tomás de Aquino redigiu os textos litúrgicos e os hinos como ‘Lauda Sion Salvatorem'. As célebres procissões nasceram no século XIV. Em Portugal, as procissões de Corpus Christi são vivas em todo o país, com destaque para as do Porto, Braga e Penafiel.",
+          "traditions": "O ponto alto é a procissão solene, em que a hóstia consagrada é levada sob um pálio por ruas adornadas. Em Portugal, as ruas são frequentemente cobertas com tapetes de pétalas de flores ao longo do percurso da procissão. As casas decoram-se com ramos verdes, flores e imagens de santos. As famílias acompanham a procissão com as suas melhores roupas.",
+          "funFacts": [
+            "Em Portugal, na ilha da Madeira (Câmara de Lobos) há tapetes de flores que se estendem por quilómetros para a procissão de Corpus Christi.",
+            "Uma das celebrações mais espetaculares é a ‘Infiorata' de Genzano (perto de Roma): toda uma rua é convertida num tapete de flores.",
+            "A palavra alemã ‘Fronleichnam' vem do médio alto alemão ‘vrôn' (Senhor) e ‘lîchnam' (corpo vivo) — não de ‘cadáver'.",
+            "Em Colónia, a ‘Gottestracht' de Mülheim é a única procissão do mundo a fazer-se em barcos sobre o Reno."
+          ],
+          "imageCredit": "Foto: Tranceliner · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
+          "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
+          "traditions": "As famílias reúnem-se em refeições festivas — peru, ganso, bacalhau ou raclette nos países germânicos; em Portugal, o típico almoço de Natal com peru ou cabrito assado, e as sobremesas de bolo-rei, sonhos, rabanadas, aletria e arroz-doce. Trocam-se presentes, cantam-se cânticos, muitos vão à missa festiva. A árvore decorada e o presépio são símbolos centrais.",
+          "funFacts": [
+            "O primeiro calendário do Advento comercial apareceu em 1908 em Munique — invenção de Gerhard Lang.",
+            "Os mercados de Natal de Dresden (‘Striezelmarkt', desde 1434) e Frankfurt (desde 1393) estão entre os mais antigos do mundo.",
+            "A Noruega oferece ao Reino Unido um enorme abeto para Trafalgar Square todos os anos desde 1947 — em agradecimento pela ajuda na II Guerra.",
+            "Em Portugal, a tradição do bolo-rei remonta ao século XIX, importado da pastelaria francesa."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "O dia 26 de dezembro é conhecido no Reino Unido como ‘Boxing Day' e em muitos países prolonga as festividades natalícias. Em Portugal não é feriado oficial.",
+          "history": "O nome ‘Boxing Day' não vem do desporto — refere-se às caixas de donativos (‘Christmas boxes') das igrejas inglesas, abertas no dia seguinte ao Natal a favor dos pobres. Também o costume de oferecer pequenas caixas com dinheiro a empregados domésticos e carteiros a 26 de dezembro influenciou o nome. Na Alemanha, o dia é o ‘2.º dia de Natal' e está protegido por lei desde 1933. Em Portugal não é feriado, mas continua-se em ambiente natalício.",
+          "traditions": "No Reino Unido começa o tradicional futebol da Premier League, as corridas de obstáculos hípicos e os famosos ‘Boxing Day Sales' com grandes descontos. Na Alemanha come-se em abundância, visita-se mais família ou faz-se um longo passeio. Na Polónia e Chéquia há visitas e banquetes.",
+          "funFacts": [
+            "No Reino Unido, a tradicional caça à raposa realiza-se no Boxing Day desde 1860 — desde 2005 só como ‘drag hunt' sem raposa viva.",
+            "‘Boxing Day Sales' é o dia de maior faturação do comércio britânico — superior ao Black Friday.",
+            "Na Austrália, a regata Sydney–Hobart parte no Boxing Day, uma das mais duras provas de oceano do mundo.",
+            "Na Irlanda o dia chama-se ‘St. Stephen's Day' — com a antiga tradição dos ‘Wren Boys' que andam mascarados de porta em porta."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "new_year": {
+          "intro": "Il 1° gennaio segna l'inizio di un nuovo anno nel calendario gregoriano in tutto il mondo. Per molti è un giorno di speranza, di nuovi inizi e di buoni propositi.",
+          "history": "Già nel 153 a.C. i Romani fissarono l'inizio dell'anno al 1° gennaio, giorno dell'insediamento dei nuovi consoli. Nel Medioevo l'inizio dell'anno si spostò in molte regioni a Natale o Pasqua. Solo con la riforma del calendario di papa Gregorio XIII nel 1582 il 1° gennaio tornò ad imporsi come standard europeo. Il nome ‘gennaio' deriva dal dio romano Giano, che con due volti guardava contemporaneamente al passato e al futuro.",
+          "traditions": "A mezzanotte famiglie e amici brindano con spumante e festeggiano con fuochi d'artificio, portafortuna come quadrifogli, spazzacamini o coccinelle e la tradizionale colata di piombo (oggi di cera). Sono diffusi anche il brunch di Capodanno e la passeggiata all'aria aperta. Molti formulano buoni propositi per l'anno che inizia.",
+          "funFacts": [
+            "In Spagna si mangia un chicco d'uva a ogni rintocco delle dodici campane — un desiderio per chicco.",
+            "In Danimarca si rompono stoviglie davanti alle porte degli amici per portare loro fortuna.",
+            "Il Concerto di Capodanno di Vienna è trasmesso in oltre 90 paesi — apertura musicale dell'anno.",
+            "Sull'isola pacifica di Kiribati il Capodanno arriva 26 ore prima rispetto all'isola Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Il Venerdì Santo è il giorno di lutto più importante per i protestanti e ricorda la crocifissione di Gesù Cristo. In Germania è ‘giorno silenzioso' con norme particolari.",
+          "history": "Il Venerdì Santo è celebrato dai cristiani dal IV secolo. Il prefisso tedesco ‘Kar' deriva dall'antico alto tedesco ‘chara' (lamento, lutto). Presto si svilupparono tradizioni liturgiche: lettura della Passione, venerazione della croce, silenzio delle campane. La Riforma gli diede particolare risalto; nelle regioni luterane resta la festa più importante dell'anno liturgico.",
+          "traditions": "Molti cristiani partecipano alla Liturgia della Passione. Tradizionalmente è giorno di digiuno — si mangia pesce invece di carne. In Italia, soprattutto al Sud, ci sono solenni processioni con statue del Cristo morto, come la celebre ‘Processione dei Misteri' a Trapani. In Spagna spiccano le processioni delle confraternite, soprattutto a Siviglia.",
+          "funFacts": [
+            "In Germania il ‘Tanzverbot' (divieto di ballare) regola gli intrattenimenti pubblici — tema sociale ricorrente.",
+            "Bach compose la ‘Passione secondo Matteo' nel 1727 per i vespri del Venerdì Santo a Lipsia.",
+            "Alle Bermuda le famiglie fanno volare aquiloni di bambù e carta — tradizione cristiana unica.",
+            "In Spagna il ‘Viernes Santo' è famoso per le maestose processioni delle confraternite, in particolare a Siviglia."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Il Lunedì dell'Angelo è il secondo giorno di Pasqua e festivo nella maggior parte dei paesi europei. Chiude la festa più importante del cristianesimo.",
+          "history": "La Pasqua è la festa più antica del cristianesimo e celebra la resurrezione di Gesù Cristo il terzo giorno. Il Concilio di Nicea nel 325 fissò la Pasqua alla prima domenica dopo il primo plenilunio di primavera. Il Lunedì dell'Angelo si celebra dall'alto Medioevo — originariamente era festiva l'intera ottava di Pasqua. In Italia il Lunedì dell'Angelo (Pasquetta) è giorno di gite ed è festivo nazionale.",
+          "traditions": "In Italia ‘Natale con i tuoi, Pasquetta con chi vuoi': la tradizione vuole pic-nic in campagna o gite fuori porta con grigliata. Le famiglie cercano insieme le uova di Pasqua, fanno colazione abbondante o la classica passeggiata pasquale. In Polonia si celebra ‘Śmigus-Dyngus': i ragazzi spruzzano acqua sulle ragazze.",
+          "funFacts": [
+            "L'usanza della caccia alle uova fu menzionata per la prima volta da Martin Lutero, che voleva divertire i suoi figli.",
+            "Il più grande uovo di cioccolato del mondo (8,5 m, 4 t) fu fatto in Argentina ed è nel Guinness.",
+            "In Svezia i bambini si vestono da ‘Påskkärringar' — piccole streghe — il Sabato Santo e fanno il porta a porta.",
+            "Il coniglio pasquale come portatore di uova fu menzionato per iscritto la prima volta nel 1682 dal medico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Il 1° maggio è in molti paesi la ‘Festa dei Lavoratori' — festa del movimento operaio con manifestazioni, alberi di maggio e feste primaverili.",
+          "history": "Il 1° maggio 1886 centinaia di migliaia di lavoratori a Chicago entrarono in sciopero generale per la giornata di otto ore. Gli scontri di Haymarket fecero diversi morti. Nel 1889 il Congresso Internazionale dei Lavoratori a Parigi proclamò il 1° maggio ‘giornata di lotta del movimento operaio'. In Italia la festa è abolita nel 1923 dal regime fascista e ripristinata nel 1947. Il celebre ‘Concertone' di piazza San Giovanni a Roma è una tradizione dal 1990.",
+          "traditions": "I sindacati organizzano cortei e manifestazioni con slogan come ‘Più salario, più tempo libero'. In Italia il ‘Concertone' del 1° maggio a Roma riunisce centinaia di migliaia di persone in piazza San Giovanni. Famiglie organizzano gite, picnic e grigliate.",
+          "funFacts": [
+            "Il ‘Concertone' di Roma del 1° maggio dal 1990 raduna centinaia di migliaia di spettatori.",
+            "In Francia il 1° maggio si regalano mughetti (‘muguet') — tradizione che il re Carlo IX introdusse nel 1561.",
+            "In Renania nella notte del 1° maggio si pongono betulle decorate (‘Liebesmaien') davanti alla casa dell'amata.",
+            "Il 1° maggio è festivo in oltre 80 paesi — ma in USA e Canada il ‘Labor Day' è in settembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "Il Lunedì di Pentecoste è il secondo giorno di Pentecoste, festivo in molti paesi cristiani. La Pentecoste commemora la discesa dello Spirito Santo sugli apostoli.",
+          "history": "La Pentecoste (dal greco ‘pentekostē', cinquantesimo) si celebra 50 giorni dopo Pasqua e ha radici nella festa ebraica di Shavuot. Già nel IV secolo era la seconda grande festa cristiana dopo Pasqua e Natale. Il Lunedì di Pentecoste deriva dall'usanza medievale di festeggiare l'intera ottava (otto giorni); pur abolita dopo il Vaticano II nel 1969, il lunedì rimase festivo. In Italia non è festivo civilmente, ma la Pentecoste resta importante nella liturgia.",
+          "traditions": "La Pentecoste coincide con la fioritura delle peonie e i primi giorni miti dell'estate, e dà luogo a molte feste popolari. Nelle campagne tedesche si decorano ‘buoi di Pentecoste'. Le famiglie sfruttano il lungo weekend per gite, escursioni e le prime grigliate all'aperto.",
+          "funFacts": [
+            "Il ‘Pfingstochse' — bue decorato come araldo di primavera — è all'origine del modo di dire tedesco ‘herausgeputzt wie ein Pfingstochse'.",
+            "A Roma si gettavano un tempo petali di rose dal tetto del Pantheon durante la messa di Pentecoste, a simboleggiare lo Spirito Santo.",
+            "In Svezia e Scandinavia il Lunedì di Pentecoste non è più festivo dal 2005 — sostituito dalla festa nazionale svedese (6 giugno).",
+            "La Pentecoste è chiamata anche ‘compleanno della Chiesa', perché secondo gli Atti 3.000 persone furono battezzate quel giorno."
+          ],
+          "imageCredit": "Foto: Print made by: Virgil Solis · Public domain via Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "Il Corpus Domini (‘corpo del Signore') è una solennità cattolica che celebra l'Eucaristia e la presenza reale di Cristo nel pane. Cade il secondo giovedì dopo Pentecoste.",
+          "history": "La festa nasce da una visione della monaca belga Giuliana di Liegi (1193–1258), che chiese una festa propria dell'Eucaristia. Papa Urbano IV istituì il Corpus Domini nel 1264. Tommaso d'Aquino redasse i testi liturgici e gli inni come ‘Lauda Sion Salvatorem'. Le celebri processioni nacquero nel XIV secolo. In Italia la festa fu spostata alla domenica successiva dopo il Concilio Vaticano II. Spettacolari le ‘Infiorate' di Genzano e Spello, dove le strade si trasformano in tappeti di fiori.",
+          "traditions": "Il momento centrale è la processione solenne, in cui l'ostia consacrata è portata sotto un baldacchino per le strade addobbate. Le case si decorano con fronde verdi, fiori e immagini sacre. In Italia le ‘Infiorate' di Genzano e Spello trasformano intere strade in coloratissimi tappeti di petali. Le famiglie accompagnano la processione vestite a festa.",
+          "funFacts": [
+            "L''Infiorata' di Genzano (vicino a Roma) è una delle celebrazioni più spettacolari: una strada intera diventa tappeto di fiori.",
+            "A Spello, in Umbria, l''Infiorata' del Corpus Domini è candidata a patrimonio UNESCO.",
+            "Il termine tedesco ‘Fronleichnam' viene dal medio alto tedesco ‘vrôn' (signore) e ‘lîchnam' (corpo vivo) — non da ‘cadavere'.",
+            "A Colonia, la ‘Gottestracht' di Mülheim è l'unica processione al mondo in barche sul Reno."
+          ],
+          "imageCredit": "Foto: Tranceliner · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
+          "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
+          "traditions": "Le famiglie si riuniscono per pasti festosi — tacchino, oca, carpa o raclette al nord; pranzo natalizio con tortellini in brodo, lasagne, capponi e panettone in Italia. Si scambiano regali, si cantano canti natalizi, molti partecipano alla messa festiva. L'albero decorato e il presepe sono i simboli centrali. Calendario dell'Avvento, biscotti e mercatini scandiscono la preparazione.",
+          "funFacts": [
+            "Il primo calendario dell'Avvento commerciale apparve nel 1908 a Monaco — invenzione di Gerhard Lang.",
+            "I mercatini di Natale di Dresda (‘Striezelmarkt', dal 1434) e Francoforte (dal 1393) sono tra i più antichi al mondo.",
+            "La Norvegia regala al Regno Unito un enorme albero di Natale per Trafalgar Square ogni anno dal 1947 — come ringraziamento per l'aiuto nella Seconda Guerra Mondiale.",
+            "Il panettone milanese e il pandoro veronese sono i due dolci natalizi italiani per eccellenza."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Il 26 dicembre è noto nel Regno Unito come ‘Boxing Day' e in molti paesi prolunga le vacanze natalizie. In Italia è Santo Stefano.",
+          "history": "Il nome ‘Boxing Day' non viene dallo sport — deriva dalle cassette delle offerte (‘Christmas boxes') delle chiese inglesi, aperte il giorno dopo Natale per i poveri. Anche l'usanza di regalare piccole scatole con denaro a domestici e postini il 26 dicembre influenzò il nome. In Italia il giorno è dedicato a Santo Stefano, primo martire cristiano. È festivo nazionale dal 1947.",
+          "traditions": "Nel Regno Unito iniziano le partite di Premier League, le corse di siepi e i famosi ‘Boxing Day Sales' con grandi sconti. In Italia si pranza con la famiglia (avanzi del giorno prima riadattati con creatività), si visitano parenti o si fa una lunga passeggiata. In Polonia e Repubblica Ceca ci sono visite e banchetti.",
+          "funFacts": [
+            "Nel Regno Unito la tradizionale caccia alla volpe si tiene il Boxing Day dal 1860 — dal 2005 solo come ‘drag hunt' senza volpe viva.",
+            "I ‘Boxing Day Sales' sono il giorno di maggior fatturato del commercio britannico — più del Black Friday.",
+            "In Australia il 26 dicembre parte la regata Sydney–Hobart, una delle più dure d'altura al mondo.",
+            "In Irlanda il giorno si chiama ‘St. Stephen's Day' — con l'antica tradizione dei ‘Wren Boys' che vanno mascherati di porta in porta."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "new_year": {
+          "intro": "1 stycznia oznacza początek nowego roku w kalendarzu gregoriańskim na całym świecie. Dla wielu jest to dzień nadziei, nowych początków i postanowień.",
+          "history": "Już w 153 r. p.n.e. Rzymianie ustalili początek roku na 1 stycznia, dzień objęcia urzędu nowych konsulów. W średniowieczu początek roku w wielu regionach przesunięto na Boże Narodzenie lub Wielkanoc. Dopiero reforma kalendarza papieża Grzegorza XIII w 1582 roku przywróciła 1 stycznia jako europejski standard. Nazwa miesiąca pochodzi od rzymskiego boga Janusa, który dwiema twarzami spoglądał jednocześnie w przeszłość i przyszłość.",
+          "traditions": "O północy rodziny i przyjaciele wznoszą toast szampanem i świętują przejście do nowego roku fajerwerkami, talizmanami szczęścia (czterolistna koniczyna, kominiarz, biedronka) oraz tradycyjnym lanym ołowiem (dziś woskiem). Popularne są noworoczne brunche i spacery. Wielu składa noworoczne postanowienia.",
+          "funFacts": [
+            "W Hiszpanii zjada się winogronko z każdym z dwunastu uderzeń zegara — życzenie na każde winogronko.",
+            "W Danii rozbija się stare naczynia przed drzwiami przyjaciół, aby przyniosło im to szczęście.",
+            "Wiedeński Koncert Noworoczny transmitowany jest w ponad 90 krajach — muzyczne otwarcie roku.",
+            "Na Pacyficznej wyspie Kiribati Nowy Rok zaczyna się 26 godzin wcześniej niż na wyspie Howland."
+          ],
+          "imageCredit": "Zdjęcie: Vyacheslav Argenberg · CC BY 4.0 przez Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Wielki Piątek to dzień największej żałoby w protestantyzmie i upamiętnia ukrzyżowanie Jezusa Chrystusa. W Polsce nie jest dniem wolnym, ale ma głęboki wymiar religijny.",
+          "history": "Wielki Piątek obchodzony jest przez chrześcijan od IV wieku. Wcześnie rozwinęły się tradycje liturgiczne: czytanie Pasji, adoracja krzyża, milczenie dzwonów. Reformacja nadała mu szczególne znaczenie; w regionach luterańskich pozostaje najważniejszym dniem roku liturgicznego. W Polsce katolickie tradycje obejmują Drogę Krzyżową, adorację krzyża i święcenie pokarmów w Wielką Sobotę.",
+          "traditions": "Wierni uczestniczą w Liturgii Męki Pańskiej, adorują krzyż i odprawiają Drogę Krzyżową — w Polsce słynne są kalwarie (Kalwaria Zebrzydowska, Wejherowska). Tradycyjnie jest to dzień postu — je się ryby zamiast mięsa. W niektórych regionach Niemiec organizowane są procesje pasyjne, a w Hiszpanii słynne procesje bractw, np. w Sewilli.",
+          "funFacts": [
+            "W Niemczech ‘Tanzverbot' (zakaz tańczenia) reguluje publiczne rozrywki w Wielki Piątek — tematyka regularnie wraca w debacie publicznej.",
+            "Bach skomponował Pasję według św. Mateusza w 1727 roku na nieszpory wielkopiątkowe w Lipsku.",
+            "Na Bermudach rodziny puszczają w Wielki Piątek samodzielnie zrobione latawce z bambusa i papieru — unikalna chrześcijańska tradycja.",
+            "W Polsce Misterium Męki Pańskiej w Kalwarii Zebrzydowskiej wpisane jest na listę UNESCO."
+          ],
+          "imageCredit": "Zdjęcie: Pietro Perugino · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Poniedziałek Wielkanocny (Lany Poniedziałek, Śmigus-Dyngus) to drugi dzień Wielkanocy i dzień wolny w większości krajów europejskich. W Polsce słynie z tradycji oblewania wodą.",
+          "history": "Wielkanoc to najstarsze święto chrześcijaństwa i upamiętnia zmartwychwstanie Jezusa Chrystusa trzeciego dnia po jego śmierci. Sobór Nicejski w 325 roku ustalił datę Wielkanocy na pierwszą niedzielę po pierwszej wiosennej pełni księżyca. Poniedziałek Wielkanocny obchodzony jest od wczesnego średniowiecza — pierwotnie cały tydzień wielkanocny był wolny. W Polsce zachowała się żywa tradycja Śmigusa-Dyngusa, sięgająca XV wieku.",
+          "traditions": "W Polsce Lany Poniedziałek (Śmigus-Dyngus) to dzień, w którym chłopcy oblewają dziewczęta wodą — tradycyjnie symbolizująca oczyszczenie i płodność. Rodziny szukają jajek wielkanocnych, jedzą śniadanie z kiełbasą, jajkami, chrzanem, mazurkiem i babką. W niektórych regionach (np. Beskid Żywiecki) chodzą ‘śmigustnicy' w przebraniach.",
+          "funFacts": [
+            "Zwyczaj poszukiwania jajek wzmiankował po raz pierwszy Marcin Luter — chciał ucieszyć swoje dzieci.",
+            "Największe czekoladowe jajko świata stało w Argentynie (8,5 m wysokości, 4 t) — wpisane do Księgi Guinnessa.",
+            "Polski Śmigus-Dyngus ma korzenie w słowiańskim święcie wiosennym — woda symbolizowała oczyszczenie i płodność.",
+            "W Czechach chłopcy biją dziewczyny rózgami z wierzby (‘pomlázka') — niby boleśnie, ale dla zdrowia i urody."
+          ],
+          "imageCredit": "Zdjęcie: Georgi Kirichkov · CC BY-SA 3.0 przez Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 maja jest w wielu krajach Świętem Pracy — świętem ruchu robotniczego z manifestacjami, majowymi uroczystościami i wiosennymi festynami. W Polsce dzień wolny od pracy.",
+          "history": "1 maja 1886 roku setki tysięcy robotników w Chicago weszło w strajk generalny domagając się ośmiogodzinnego dnia pracy. Następujące starcia na Haymarket pochłonęły kilka ofiar. W 1889 roku Międzynarodowy Kongres Robotniczy w Paryżu ogłosił 1 maja ‘dniem walki ruchu robotniczego'. W Polsce święto wprowadzono oficjalnie w 1950 roku, choć obchody były już wcześniej. Po 1989 roku zachowane jako symbol pracowniczy.",
+          "traditions": "W Polsce 1 maja to popularny dzień na pierwsze grillowanie i majowe wycieczki. Związki zawodowe organizują wiece i pochody. Wraz z 2 maja (Dzień Flagi) i 3 maja (Konstytucja) tworzy słynne ‘majówki' — najważniejszy długi weekend wiosenny w Polsce, kiedy wielu wyjeżdża nad morze, w góry lub na działkę.",
+          "funFacts": [
+            "‘Majówka' to jeden z najbardziej intensywnych weekendów turystycznych w Polsce — wiele osób ucieka z miast na wieś.",
+            "We Francji 1 maja wręcza się konwalie (‘muguet') — zwyczaj wprowadzony przez króla Karola IX w 1561 roku.",
+            "1 maja jest świętem urzędowym w ponad 80 krajach — ale w USA i Kanadzie ‘Labor Day' obchodzi się we wrześniu.",
+            "Najwyższy maj w Bawarii postawiono w Mitterfels w 2017 roku — miał ponad 50 m."
+          ],
+          "imageCredit": "Zdjęcie: Joe Piette · CC BY-SA 2.0 przez Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "Poniedziałek Zesłania Ducha Świętego (Zielone Świątki) to drugi dzień Pięćdziesiątnicy, dzień wolny w wielu krajach chrześcijańskich. W Polsce dzień wolny w niedzielę Zesłania, ale poniedziałek już nie.",
+          "history": "Pięćdziesiątnica (z greckiego ‘pentekostē', pięćdziesiąty) obchodzona jest 50 dni po Wielkanocy i ma korzenie w żydowskim Święcie Tygodni (Szawuot). Już w IV wieku była drugim co do ważności świętem chrześcijańskim po Wielkanocy i Bożym Narodzeniu. Polskie ‘Zielone Świątki' zachowały bogate ludowe zwyczaje, m.in. majenie domów zielonymi gałęziami.",
+          "traditions": "W Polsce Zielone Świątki to czas, kiedy ludowo majono domy gałązkami brzozy i tatarakiem dla ochrony przed złem. Zielone Świątki to też pora pierwszego wypasu bydła i ‘Sobótek' — palenia ognisk. W Niemczech ozdabia się ‘woły zielonoświątkowe', a w Eifel obchodzi się ‘Pfingstkönigreich' (Królestwo Zielonych Świątek).",
+          "funFacts": [
+            "‘Pfingstochse' — kolorowo ozdobiony wół jako herold wiosny — dał początek niemieckiemu powiedzeniu ‘herausgeputzt wie ein Pfingstochse'.",
+            "W Rzymie z dachu Panteonu zrzucano podczas mszy zielonoświątkowej płatki róż jako symbol Ducha Świętego.",
+            "W Szwecji i Skandynawii Poniedziałek Zielonoświątkowy nie jest dniem wolnym od 2005 roku — zastąpił go Dzień Narodowy Szwecji (6 czerwca).",
+            "Pięćdziesiątnicę nazywa się też ‘urodzinami Kościoła', bo według Dziejów Apostolskich tego dnia ochrzczono 3 000 osób."
+          ],
+          "imageCredit": "Zdjęcie: Print made by: Virgil Solis · Public domain przez Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "Boże Ciało (‘Corpus Christi', ‘Ciało Pańskie') to katolicka uroczystość celebrująca Eucharystię i obecność Chrystusa w chlebie. Wypada w drugi czwartek po Pięćdziesiątnicy. W Polsce dzień wolny od pracy.",
+          "history": "Święto wywodzi się z wizji belgijskiej zakonnicy Julianny z Liège (1193–1258), która domagała się odrębnego święta Eucharystii. Papież Urban IV ustanowił Boże Ciało w 1264 roku. Tomasz z Akwinu napisał teksty liturgiczne i hymny jak ‘Lauda Sion Salvatorem'. Słynne procesje rozwinęły się w XIV wieku. W Polsce Boże Ciało jest jednym z najważniejszych świąt katolickich i jest dniem wolnym od pracy.",
+          "traditions": "Najważniejszym momentem jest uroczysta procesja, w której konsekrowana hostia niesiona jest pod ‘baldachimem' przez ozdobnie udekorowane ulice. W Polsce procesja przechodzi przez cztery ołtarze ustawione na trasie. Domy ozdabia się brzozowymi gałęziami, kwiatami i obrazami świętych. W niektórych miejscowościach układa się dywany z kwiatów, np. w Spycimierzu (UNESCO).",
+          "funFacts": [
+            "Polskie dywany kwietne na procesje Bożego Ciała w Spycimierzu są wpisane na listę UNESCO niematerialnego dziedzictwa.",
+            "W Bawarii w niektórych wsiach układa się kolorowe obrazy z kwiatów bezpośrednio na ulicach.",
+            "Niemieckie słowo ‘Fronleichnam' pochodzi ze średnio-wysoko-niemieckiego ‘vrôn' (Pan) i ‘lîchnam' (żywe ciało) — nie od ‘zwłok'.",
+            "W Kolonii ‘Gottestracht' z dzielnicy Mülheim to jedyna procesja na świecie odbywająca się statkami po Renie."
+          ],
+          "imageCredit": "Zdjęcie: Tranceliner · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
+          "history": "Już w 354 roku 25 grudnia odnotowany jest jako ‘dies natalis Christi' w rzymskim kalendarzu. Kościół wybrał tę datę prawdopodobnie po to, by chrześcijańsko zinterpretować rzymskie święto ‘Sol Invictus'. Tradycja prezentów ma korzenie w darach Trzech Mędrców. Współczesny Święty Mikołaj w czerwonym płaszczu i z białą brodą to mieszanka św. Mikołaja i kampanii reklamowej Coca-Coli z 1931 roku.",
+          "traditions": "W Polsce Boże Narodzenie obchodzi się przez dwa dni (25 i 26 grudnia). Rodziny zbierają się na obfitym obiedzie — często rosół z makaronem, schab, indyk, sałatka jarzynowa, makowiec, sernik. Wymienia się prezenty (w Polsce zwykle wręczane już w Wigilię), śpiewa kolędy, wielu uczestniczy w nabożeństwach. Choinka i szopka są centralnymi symbolami.",
+          "funFacts": [
+            "Pierwszy komercyjny kalendarz adwentowy ukazał się w 1908 roku w Monachium — wynalazek Gerharda Langa.",
+            "Polskie kolędy — m.in. ‘Wśród nocnej ciszy', ‘Bóg się rodzi', ‘Lulajże, Jezuniu' — uchodzą za jedne z najpiękniejszych na świecie.",
+            "Norwegia podarowuje Wielkiej Brytanii corocznie od 1947 roku ogromną choinkę na Trafalgar Square — w podzięce za pomoc w II wojnie światowej.",
+            "Tradycja choinki dotarła do Polski z Niemiec na początku XIX wieku, a powszechna stała się po 1830 roku."
+          ],
+          "imageCredit": "Zdjęcie: Chris Olszewski · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "26 grudnia znany jest w Wielkiej Brytanii jako ‘Boxing Day', a w wielu krajach przedłuża święta Bożego Narodzenia. W Polsce to drugi dzień świąt — Święty Szczepan.",
+          "history": "Nazwa ‘Boxing Day' nie pochodzi od sportu — odnosi się do skarbon (‘Christmas boxes') w angielskich kościołach, otwieranych następnego dnia po Bożym Narodzeniu na rzecz biednych. Także zwyczaj wręczania służbie i listonoszom drobnych pudełek z pieniędzmi 26 grudnia ukształtował nazwę. W Polsce dzień ten jest świętem Świętego Szczepana, pierwszego męczennika chrześcijańskiego. Jest dniem wolnym od pracy.",
+          "traditions": "W Polsce drugi dzień świąt to tradycyjnie czas odwiedzin u dalszej rodziny i przyjaciół, dzielenie się opłatkiem (jeśli nie zostało zrobione w Wigilię) oraz wspólne posiłki. W Wielkiej Brytanii zaczynają się tradycyjne mecze Premier League, biegi z przeszkodami i słynne ‘Boxing Day Sales' z ogromnymi wyprzedażami.",
+          "funFacts": [
+            "W Wielkiej Brytanii tradycyjne polowanie na lisa odbywa się w Boxing Day od 1860 roku — od 2005 roku tylko jako ‘drag hunt' bez żywego lisa.",
+            "‘Boxing Day Sales' to dzień największej sprzedaży detalicznej w Wielkiej Brytanii — większy nawet niż Black Friday.",
+            "W Australii w Boxing Day rusza regata Sydney–Hobart, jedna z najtrudniejszych regat oceanicznych świata.",
+            "W Irlandii dzień nazywa się ‘St. Stephen's Day' — z dawną tradycją ‘Wren Boys' chodzących przebranych od domu do domu."
+          ],
+          "imageCredit": "Zdjęcie: Bim24 · CC0 przez Wikimedia Commons"
+        }
+      },
+      "nl": {
+        "new_year": {
+          "intro": "1 januari markeert wereldwijd het begin van een nieuw jaar volgens de Gregoriaanse kalender. Voor velen is het een dag vol hoop, een nieuwe start en goede voornemens.",
+          "history": "Al in 153 v.Chr. stelden de Romeinen 1 januari vast als het begin van het jaar, de dag waarop de nieuwe consuls hun ambt aanvaardden. Tijdens de Middeleeuwen verschoof het begin van het jaar in veel regio’s naar Kerstmis of Pasen. Pas met de kalenderhervorming van paus Gregorius XIII in 1582 werd 1 januari opnieuw de Europese norm. De naam januari is afgeleid van de Romeinse god Janus, die met zijn twee gezichten tegelijkertijd naar het verleden en de toekomst keek — een passend symbool voor deze dag.",
+          "traditions": "Om middernacht proosten families en vrienden met mousserende wijn en vieren ze de jaarwisseling met vuurwerk, geluksbrengers (klaver, schoorsteenveger, lieveheersbeestje) en het traditionele loodgieten (tegenwoordig wasgieten). Ook een nieuwjaarsbrunch en een wandeling in de frisse lucht zijn populair. Veel mensen nemen goede voornemens voor het komende jaar.",
+          "funFacts": [
+            "In Spanje eten mensen bij elk van de twaalf klokslagen één druif — één wens per druif.",
+            "In Denemarken breken mensen oud serviesgoed voor de deur van vrienden om hen geluk te brengen.",
+            "Het Nieuwjaarsconcert van Wenen wordt in meer dan 90 landen uitgezonden en geldt als de muzikale start van het jaar.",
+            "Op het eiland Kiribati in de Stille Oceaan begint het nieuwe jaar 26 uur eerder dan op Howland Island."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Goede Vrijdag is de belangrijkste protestantse rouwdag, ter herdenking van de kruisiging van Jezus Christus. In Duitsland is het een ‘stille feestdag’ met speciale wettelijke bescherming.",
+          "history": "Goede Vrijdag wordt al sinds de 4e eeuw door christenen gevierd. Het Duitse voorvoegsel ‘Kar’ is afgeleid van het Oudhoogduitse ‘chara’, wat ‘klaagzang’ of ‘rouw’ betekent. Al vroeg ontwikkelden zich liturgische tradities: het voorlezen van de Passie, de verering van het kruis en het stilleggen van de klokken. Door de Reformatie kreeg Goede Vrijdag een bijzondere betekenis; in lutherse regio’s blijft het de belangrijkste feestdag van het kerkelijk jaar.",
+          "traditions": "Veel christenen wonen passiediensten bij waarbij het passieverhaal wordt voorgelezen. Deze dag is van oudsher een vastendag — vis vervangt vlees. In sommige regio’s vinden er op Goede Vrijdag processies door de straten plaats, zoals de beroemde processie in Lohr am Main. Dansfeesten en luide muziek zijn in de meeste Duitse deelstaten bij wet verboden.",
+          "funFacts": [
+            "Het Duitse ‘dansverbod’ regelt het openbare vermaak op Goede Vrijdag — en is al jaren een veelbesproken onderwerp in de samenleving.",
+            "Bach componeerde zijn Matthäus-Passion in 1727 voor de Goede Vrijdagvesper in Leipzig — tegenwoordig een van de meest uitgevoerde werken ter wereld.",
+            "Op Goede Vrijdag laten gezinnen op Bermuda zelfgemaakte vliegers van bamboe en papier op — een unieke christelijke traditie.",
+            "In Spaanstalige landen heet Goede Vrijdag ‘Viernes Santo’ — met prachtige processies van broederschappen, bijvoorbeeld in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Paasmaandag is de tweede dag van Pasen en is in de meeste Europese landen een officiële feestdag. Deze dag markeert het einde van het belangrijkste christelijke feest.",
+          "history": "Pasen is het oudste feest in het christendom, waarbij de opstanding van Jezus Christus op de derde dag na zijn dood wordt gevierd. Het Concilie van Nicea stelde in 325 vast dat Pasen op de eerste zondag na de eerste volle maan van de lente valt. Paasmaandag wordt al sinds de vroege middeleeuwen gevierd — oorspronkelijk was de hele paasweek een feestdag. In Duitsland en Oostenrijk bleef het een wettelijke feestdag, in tegenstelling tot veel puur katholieke landen.",
+          "traditions": "Gezinnen gaan samen op zoek naar paaseieren, genieten van een ontspannen brunch of maken de klassieke paaswandeling (vereeuwigd in Goethes ‘Faust’). In Polen wordt ‘Śmigus-Dyngus’ gevierd: jongens bespatten meisjes met water. In Tsjechië kloppen jongens met wilgentakken op deuren. In Beieren en Oostenrijk is er de traditionele ‘Emmaus-wandeling’.",
+          "funFacts": [
+            "De traditie van het paaseieren zoeken werd voor het eerst genoemd door Maarten Luther, die het gebruikte om zijn kinderen een plezier te doen.",
+            "Het grootste chocolade-paasei ter wereld stond in Argentinië (8,5 m hoog, 4 t) — en werd opgenomen in het Guinness Book of Records.",
+            "In Zweden verkleden kinderen zich op Paaszaterdag als ‘Påskkärringar’ — kleine heksjes — en gaan ze van deur tot deur.",
+            "De paashaas als brenger van eieren werd voor het eerst genoemd in 1682 door de arts Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 mei is in veel landen ‘Dag van de Arbeid’ — een feestdag van de arbeidersbeweging met demonstraties, meibomen en lentefeesten.",
+          "history": "Op 1 mei 1886 gingen honderdduizenden arbeiders in Chicago in algemene staking voor de achturige werkdag. Bij de daaropvolgende confrontaties op Haymarket kwamen meerdere mensen om het leven. In 1889 riep het Internationale Arbeiderscongres in Parijs 1 mei uit tot de ‘internationale dag van de strijd voor de arbeiders’. In Duitsland werd deze dag in 1933 een wettelijke feestdag onder de naam ‘Nationale Dag van de Arbeid’ en werd na 1945 gehandhaafd als symbool van een arbeidersvriendelijk beleid.",
+          "traditions": "Vakbonden organiseren bijeenkomsten en optochten onder leuzen als ‘Meer loon, meer vrije tijd’. In veel dorpen wordt in de nacht voor 1 mei een meiboom opgericht — in Zuid-Duitsland een rijkelijk beschilderde boomstam, in het noorden een berkenboom voor het raam van de geliefde. Populaire activiteiten: meewandelingen, barbecues en familiefeesten.",
+          "funFacts": [
+            "De hoogste meiboom van Beieren werd in 2017 in Mitterfels opgericht en was meer dan 50 m hoog.",
+            "In Frankrijk geven mensen op 1 mei lelietjes-van-dalen (‘muguet’) cadeau — een gebruik dat koning Karel IX in 1561 heeft ingevoerd.",
+            "In het Rijnland wordt op de avond van 1 mei een ‘liefdesmei’ — een versierde berk — voor het huis van de geliefde geplaatst.",
+            "1 mei is een officiële feestdag in meer dan 80 landen — maar in de VS en Canada valt Labor Day in september."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "Pinkstermaandag is de tweede dag van Pinksteren en een officiële feestdag in veel landen met een christelijke achtergrond. Pinksteren herdenkt de nederdaling van de Heilige Geest op de apostelen.",
+          "history": "Pinksteren (Grieks ‘pentekostē’, wat ‘vijftigste’ betekent) wordt 50 dagen na Pasen gevierd en vindt zijn oorsprong in het joodse Wekenfeest (Shavuot). Al in de 4e eeuw werd het gevierd als het op één na belangrijkste christelijke feest, naast Pasen en Kerstmis. Pinkstermaandag vindt zijn oorsprong in de middeleeuwse gewoonte om de gehele Pinksteroktaaf (acht dagen) te vieren. Hoewel die oktaaf na het Tweede Vaticaans Concilie in 1969 werd afgeschaft, blijft Pinkstermaandag een feestdag.",
+          "traditions": "Pinksteren is het seizoen van de pioenrozen, de eerste warme vroege zomerdagen en talrijke volksfeesten. Op het platteland worden de ‘Pinksterossen’ versierd; in de Eifel wordt het ‘Pfingstkönigreich’ gevierd. Gezinnen maken van het lange weekend gebruik voor uitstapjes, wandelingen en de eerste barbecue van het seizoen in de buitenlucht.",
+          "funFacts": [
+            "De ‘Pfingstochse’ — een kleurrijk versierde stier als voorbode van de lente — stond aan de basis van het Duitse gezegde ‘herausgeputzt wie ein Pfingstochse’ (opgedirkt als een Pinksteros).",
+            "In Italië werden vroeger tijdens de Pinkstermis rozenblaadjes vanaf het dak van het Pantheon uitgestrooid als symbool voor de Heilige Geest.",
+            "In Zweden en Scandinavië is Pinkstermaandag sinds 2005 geen officiële feestdag meer — deze is vervangen door de Zweedse nationale feestdag op 6 juni.",
+            "Pinksteren wordt ook wel de ‘verjaardag van de Kerk’ genoemd, omdat in de Handelingen staat dat er die dag 3.000 mensen werden gedoopt."
+          ],
+          "imageCredit": "Foto: Afdruk gemaakt door: Virgil Solis · Publiek domein via Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "Corpus Christi (‘het lichaam van Christus’) is een belangrijk katholiek feest ter ere van de eucharistie en de lichamelijke aanwezigheid van Christus in het brood. Het wordt gevierd op de tweede donderdag na Pinksteren.",
+          "history": "Het feest vindt zijn oorsprong in een visioen van de Belgische non Juliana van Luik (1193–1258), die pleitte voor een apart eucharistisch feest. Paus Urbanus IV voerde Corpus Christi in 1264 in. Theoloog Thomas van Aquino schreef de liturgische teksten en hymnen, zoals ‘Lauda Sion Salvatorem’. In de 14e eeuw ontstonden de beroemde Corpus Christi-processies. In Duitsland is het een officiële feestdag in de overwegend katholieke deelstaten Beieren, Baden-Württemberg, Hessen, Noordrijn-Westfalen, Rijnland-Palts en Saarland.",
+          "traditions": "Het hoogtepunt is de plechtige processie waarbij de gewijde hostie onder een ‘baldakijn’ door feestelijk versierde straten wordt gedragen. Huizen zijn versierd met berkenbladeren, bloemen en afbeeldingen van heiligen. Op sommige plaatsen — zoals in Mühlheim am Main — vinden er zelfs waterprocessies met bootjes plaats. Gezinnen lopen in hun zondagse kleren mee in de processie.",
+          "funFacts": [
+            "Een van de meest spectaculaire Corpus Christi-feesten vindt plaats in Genzano (vlakbij Rome): de ‘Infiorata’ tovert een hele straat om tot een bloementapijt.",
+            "In Beierse dorpen worden kleurrijke bloemenpatronen rechtstreeks op de straat uitgestrooid, zodat de processie eroverheen kan trekken.",
+            "Het Duitse woord ‘Fronleichnam’ is afgeleid van het Middelhoogduitse ‘vrôn’ (heer) en ‘lîchnam’ (levend lichaam) — en niet van ‘lijk’.",
+            "De ‘Gottestracht’ in Mülheim bij Keulen is de enige waterprocessie ter wereld die op schepen over de Rijn plaatsvindt."
+          ],
+          "imageCredit": "Foto: Tranceliner · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Kerstmis op 25 december is het belangrijkste christelijke feest — ter ere van de geboorte van Jezus Christus — en wereldwijd een feest van familie, vrede en cadeautjes.",
+          "history": "Al in 354 wordt 25 december in een Romeinse kalender vermeld als ‘dies natalis Christi’. De Kerk heeft deze datum waarschijnlijk gekozen om het Romeinse winterzonnewendefeest ‘Sol Invictus’ een christelijke betekenis te geven. Het geven van cadeaus vindt zijn oorsprong in de geschenken van de drie koningen. De bekende kerstman met rode jas en witte baard is een mengeling van Sint Nicolaas en een reclamecampagne van Coca-Cola uit 1931.",
+          "traditions": "Gezinnen komen samen voor feestelijke maaltijden — kalkoen, gans, karper of raclette. Er worden cadeautjes uitgewisseld, kerstliederen gezongen en velen wonen de feestelijke kerkdienst bij. De versierde kerstboom met lichtjes, kerstballen en stro-sterren vormt het centrale symbool. Adventskalenders, koekjes en bezoekjes aan kerstmarkten horen bij de aanloop naar Kerstmis.",
+          "funFacts": [
+            "De eerste commerciële adventskalender verscheen in 1908 in München — uitgevonden door Gerhard Lang.",
+            "De kerstmarkten in Dresden (‘Striezelmarkt’, sinds 1434) en Frankfurt (sinds 1393) behoren tot de oudste ter wereld.",
+            "Noorwegen schenkt het Verenigd Koninkrijk al sinds 1947 elk jaar een reusachtige kerstboom voor Trafalgar Square — als dank voor de hulp tijdens de Tweede Wereldoorlog.",
+            "Kerstklassiekers als ‘Three Wishes for Cinderella’ en ‘Love Actually’ worden elk jaar wereldwijd tientallen keren op tv uitgezonden."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "26 december staat in het Verenigd Koninkrijk bekend als ‘Boxing Day’ en vormt in veel landen een verlenging van de kerstvakantie.",
+          "history": "De naam ‘Boxing Day’ heeft niets met sport te maken — hij verwijst naar de donatieboxen (‘Christmas boxes’) die in Engelse kerken werden geplaatst en op de dag na Kerstmis werden geopend om de armen te helpen. Ook de gewoonte om op 26 december kleine geldbedragen (‘boxes’) aan bedienden en postbodes te geven, heeft de naam mede gevormd. In Duitsland is deze dag de ‘Tweede Kerstdag’ en staat hij sinds 1933 wettelijk beschermd — oorspronkelijk om gezinnen de tijd te geven om naar familieleden te reizen.",
+          "traditions": "In het Verenigd Koninkrijk luidt deze dag het begin in van de traditionele voetbalwedstrijden in de Premier League, de paardenspringwedstrijden en de beroemde ‘Boxing Day Sales’ met enorme kortingen in de winkels. In Duitsland wordt er uitgebreid gegeten, gaan mensen op bezoek bij familieleden of maken ze een lange wandeling. In Polen en Tsjechië bezoeken families elkaar en genieten ze van feestelijke maaltijden.",
+          "funFacts": [
+            "In het Verenigd Koninkrijk wordt de traditionele vossenjacht al sinds 1860 op tweede kerstdag gehouden — maar sinds 2005 alleen nog als een ‘drag hunt’ zonder levende vos.",
+            "De Boxing Day-uitverkoop is de dag met de hoogste omzet in de Britse detailhandel — zelfs hoger dan Black Friday.",
+            "In Australië gaat op tweede kerstdag de Sydney–Hobart-zeilrace van start — een van de zwaarste offshore-races ter wereld.",
+            "In Ierland heet deze dag ‘St. Stephen's Day’ — met de oude traditie van de ‘Wren Boys’, waarbij jongens in kostuum van deur tot deur gaan."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "sv": {
+        "new_year": {
+          "intro": "Den 1 januari markerar början på ett nytt år enligt den gregorianska kalendern över hela världen. För många är det en dag präglad av hopp, nystart och nyårslöften.",
+          "history": "Redan 153 f.Kr. fastställde romarna att året skulle börja den 1 januari, den dag då de nya konsulerna tillträdde sina ämbeten. Under medeltiden flyttades årets början i många regioner till jul eller påsk. Först i och med påve Gregorius XIII:s kalenderreform 1582 blev den 1 januari återigen den europeiska standarden. Namnet januari härstammar från den romerske guden Janus, som med sina två ansikten blickade samtidigt mot det förflutna och framtiden – en passande symbol för dagen.",
+          "traditions": "Vid midnatt skålar familjer och vänner med mousserande vin och firar årsskiftet med fyrverkerier, lyckosymboler (klöver, sotare, nyckelpiga) och den traditionella blygjutningen (numera vaxgjutning). Nyårsbrunch och en promenad i friska luften är också populära inslag. Många sätter upp nyårslöften inför det kommande året.",
+          "funFacts": [
+            "I Spanien äter man en vindruva för varje klockslag av de tolv – en önskan per vindruva.",
+            "I Danmark brukar man krossa gammalt porslin framför vännernas dörrar för att önska dem lycka.",
+            "Nyårskonserten i Wien sänds i över 90 länder och räknas som årets musikaliska startskott.",
+            "På ön Kiribati i Stilla havet infaller det nya året 26 timmar tidigare än på Howlandön."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Långfredagen är den viktigaste protestantiska sorgedagen, då man minns Jesu Kristi korsfästelse. I Tyskland är det en ”tyst helgdag” med särskilt rättsligt skydd.",
+          "history": "Långfredagen har firats av kristna sedan 400-talet. Det tyska prefixet ”Kar” kommer från fornhögtyska ”chara”, som betyder klagan eller sorg. Liturgiska traditioner utvecklades tidigt: uppläsningen av passionsberättelsen, vördnaden av korset och tystnaden bland klockorna. Reformationen gav Långfredagen särskild betydelse; i lutherska regioner är den fortfarande den viktigaste högtiden under kyrkoåret.",
+          "traditions": "Många kristna deltar i passionsgudstjänster där passionsberättelsen läses upp. Dagen är traditionellt en fastedag – fisk ersätter kött. I vissa regioner hålls processioner på långfredagen genom gatorna, till exempel den berömda processionen i Lohr am Main. Dansarrangemang och hög musik är förbjudna enligt lag i de flesta tyska delstater.",
+          "funFacts": [
+            "Tysklands ”dansförbud” reglerar offentlig underhållning på långfredagen – och har varit ett hett samhällsämne i flera år.",
+            "Bach komponerade sin Matteuspassion år 1727 för vespergudstjänsten på långfredagen i Leipzig – idag ett av världens mest framförda verk.",
+            "På Bermuda flyger familjerna på långfredagen med självgjorda drakar av bambu och papper – en unik kristen tradition.",
+            "I spansktalande länder kallas långfredagen för ”Viernes Santo” – med storslagna brödraskapsprocessioner, till exempel i Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Påskmåndagen är den andra dagen under påskhelgen och är en allmän helgdag i de flesta europeiska länder. Den markerar avslutningen på kristendomens viktigaste högtid.",
+          "history": "Påsken är den äldsta högtiden inom kristendomen och firar Jesu Kristi uppståndelse den tredje dagen efter hans död. Vid kyrkomötet i Nikea år 325 fastställdes att påsken skulle infalla den första söndagen efter vårens första fullmåne. Påskmåndagen har firats sedan tidig medeltid – ursprungligen var hela påskveckan en helgdag. I Tyskland och Österrike förblev den en lagstadgad helgdag, till skillnad från i många rent katolska länder.",
+          "traditions": "Familjer letar efter påskägg tillsammans, njuter av en lugn brunch eller tar den klassiska påskpromenaden (som förevigats i Goethes ”Faust”). I Polen firas ”Śmigus-Dyngus”: pojkar stänker vatten på flickor. I Tjeckien knackar pojkar på dörrarna med pilkvistar. I Bayern och Österrike hålls den traditionella ”Emmaus-vandringen”.",
+          "funFacts": [
+            "Traditionen med påskäggsjakt nämndes för första gången av Martin Luther, som använde den för att glädja sina barn.",
+            "Världens största chokladpåskägg stod i Argentina (8,5 m högt, 4 t) — och finns med i Guinness rekordbok.",
+            "I Sverige klär sig barnen ut till ”påskkärringar” – små häxor – på påskafton och går från dörr till dörr.",
+            "Påskharen som äggutdelare omnämndes för första gången år 1682 av läkaren Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Den 1 maj är i många länder ”Arbetarnas dag” – en helgdag inom arbetarrörelsen med demonstrationer, majstänger och vårmarknader.",
+          "history": "Den 1 maj 1886 gick hundratusentals arbetare i Chicago ut i en generalstrejk för att kräva en åtta timmars arbetsdag. De efterföljande sammandrabbningarna vid Haymarket ledde till att flera människor omkom. År 1889 utropade den internationella arbetarkongressen i Paris den 1 maj till den ”internationella kampdagen för arbetarna”. I Tyskland blev dagen en lagstadgad helgdag 1933 som ”Nationella arbetardagen” och behölls efter 1945 som en symbol för arbetarvänlig politik.",
+          "traditions": "Fackföreningarna anordnar demonstrationer och marscher under paroller som ”Högre lön, mer ledighet”. I många byar reses en majstång natten före den 1 maj – i södra Tyskland en rikt utsmyckad stam, i norr en björk framför flickvännens fönster. Populära aktiviteter: majvandringar, grillfester och familjefester.",
+          "funFacts": [
+            "Bayerns högsta majstång restes i Mitterfels år 2017 och är över 50 m hög.",
+            "I Frankrike brukar man ge bort liljekonvaljer (”muguet”) den 1 maj – en tradition som kung Karl IX införde år 1561.",
+            "I Rhenlandet ställs en ”kärleksmaj” – en pyntad björk – framför den älskades hem på majkvällen.",
+            "Den 1 maj är en officiell helgdag i över 80 länder – men i USA och Kanada infaller Labor Day i september."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "whit_monday": {
+          "intro": "Pingstmåndagen är den andra dagen i pingstveckan och en allmän helgdag i många länder med kristet inflytande. Pingsten firas till minne av den Helige Andens nedstigning över apostlarna.",
+          "history": "Pingst (grekiska ”pentekostē”, som betyder ”femtionde”) firas 50 dagar efter påsk och har sina rötter i den judiska veckofesten (Shavuot). Redan på 300-talet betraktades den som den näst viktigaste kristna högtiden efter påsk och jul. Pingstmåndagen har sitt ursprung i den medeltida sedvänjan att fira hela pingstoktaven (åtta dagar). Även om oktaven avskaffades efter Andra Vatikankonciliet 1969 är pingstmåndagen fortfarande en helgdag.",
+          "traditions": "Pingst är tiden för pioner, de första varma försommardagarna och många folkfester. På landsbygden smyckas ”pingstoxarna”, och i Eifel firas ”Pfingstkönigreich”. Familjerna passar på att utnyttja den långa helgen till utflykter, vandringar och säsongens första utomhusgrillning.",
+          "funFacts": [
+            "”Pfingstochse” – en färgglatt dekorerad tjur som symbol för vårens ankomst – har gett upphov till det tyska uttrycket ”herausgeputzt wie ein Pfingstochse” (uppklädd som en pingsttjur).",
+            "I Italien ströddes det en gång i tiden rosenblad från Pantheons tak under pingstmässan för att symbolisera den Helige Ande.",
+            "I Sverige och Skandinavien har Pingstmåndagen inte varit en allmän helgdag sedan 2005 – den har ersatts av Sveriges nationaldag den 6 juni.",
+            "Pingstdagen kallas också för ”kyrkans födelsedag”, eftersom det i Apostlagärningarna står att 3 000 människor döptes den dagen."
+          ],
+          "imageCredit": "Foto: Tryck av: Virgil Solis · Allmän egendom via Wikimedia Commons"
+        },
+        "corpus_christi": {
+          "intro": "Corpus Christi (”Kristi kropp”) är en katolsk högtid som firar nattvarden och Kristi fysiska närvaro i brödet. Den infaller den andra torsdagen efter pingst.",
+          "history": "Högtiden har sitt ursprung i en vision som den belgiska nunnan Juliana av Liège (1193–1258) hade, och hon förespråkade en särskild eukaristisk högtid. Påven Urban IV införde Corpus Christi år 1264. Teologen Thomas av Aquino författade de liturgiska texterna och psalmerna, däribland ”Lauda Sion Salvatorem”. De berömda Corpus Christi-processionerna utvecklades under 1300-talet. I Tyskland är det en allmän helgdag i de delstater där katolikerna är i majoritet: Bayern, Baden-Württemberg, Hessen, Nordrhein-Westfalen, Rheinland-Pfalz och Saarland.",
+          "traditions": "Höjdpunkten är den högtidliga processionen, där den invigda nattvardsbrödet bärs under ett ”baldakin” genom festligt dekorerade gator. Husen pryds med björkkvistar, blommor och helgonbilder. På vissa platser – som i Mühlheim am Main – hålls till och med vattenprocessioner med båtar. Familjerna följer med i processionen klädda i sina finaste söndagskläder.",
+          "funFacts": [
+            "En av de mest spektakulära Corpus Christi-firandena äger rum i Genzano (nära Rom): ”Infiorata” förvandlar en hel gata till en blomstermatta.",
+            "I bayerska byar strös färgglada blomstermönster direkt ut på gatan så att processionen kan gå över dem.",
+            "Det tyska ordet ”Fronleichnam” härstammar från medelhögtyska ”vrôn” (herre) och ”lîchnam” (levande kropp) – inte från ”lik”.",
+            "”Gottestracht” i Mülheim i Köln är världens enda vattenprocession som äger rum på båtar över Rhen."
+          ],
+          "imageCredit": "Foto: Tranceliner · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Juldagen den 25 december är kristendomens viktigaste högtid – då man firar Jesus Kristus födelse – och över hela världen en högtid som präglas av familj, fred och gåvor.",
+          "history": "Den 25 december omnämns som ”dies natalis Christi” redan år 354 i en romersk kalender. Kyrkan valde troligen detta datum för att ge den romerska vintersolståndsfesten ”Sol Invictus” en kristen innebörd. Traditionen att ge gåvor har sina rötter i de tre vise männens gåvor. Den välkände jultomten med röd kappa och vitt skägg är en blandning av Sankt Nikolaus och en reklamkampanj från Coca-Cola från 1931.",
+          "traditions": "Familjerna samlas för festmåltider – kalkon, gås, karp eller raclette. Man utbyter julklappar, sjunger julsånger och många deltar i julgudstjänsten. Den pyntade julgranen med ljus, julgranspynt och halmstjärnor är den centrala symbolen. Adventskalendrar, pepparkakor och besök på julmarknader är en del av förberedelserna inför julen.",
+          "funFacts": [
+            "Den första kommersiella adventskalendern kom ut 1908 i München – uppfunnen av Gerhard Lang.",
+            "Julmarknaderna i Dresden (”Striezelmarkt”, sedan 1434) och Frankfurt (sedan 1393) hör till de äldsta i världen.",
+            "Norge har varje år sedan 1947 skänkt Storbritannien en gigantisk julgran till Trafalgar Square – som tack för hjälpen under andra världskriget.",
+            "Julklassiker som ”Three Wishes for Cinderella” och ”Love Actually” visas dussintals gånger på TV världen över varje år."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "boxing_day": {
+          "intro": "Den 26 december kallas i Storbritannien för ”Boxing Day” och i många länder förlänger den julhelgen.",
+          "history": "Namnet ”Boxing Day” har inget med sport att göra – det syftar på de insamlingslådor (”Christmas boxes”) som ställs ut i engelska kyrkor och öppnas dagen efter juldagen för att hjälpa de fattiga. Seden att ge små penninggåvor (”boxes”) till tjänstefolk och brevbärare den 26 december har också bidragit till namnet. I Tyskland kallas dagen ”andra juldagen” och har varit skyddad enligt lag sedan 1933 – ursprungligen för att ge familjer tid att resa till släktingar.",
+          "traditions": "I Storbritannien inleds dagen med de traditionella fotbollsmatcherna i Premier League, hästhoppning och de berömda ”Boxing Day-reorna” med enorma rabatter i butikerna. I Tyskland äter man rikligt, besöker släktingar eller tar en lång promenad. I Polen och Tjeckien besöker familjerna varandra och njuter av festmåltider.",
+          "funFacts": [
+            "I Storbritannien har den traditionella rävjakten hållits på annandag jul sedan 1860 – men sedan 2005 endast som en dragjakt utan levande räv.",
+            "Boxing Day-rean är den dag då detaljhandeln i Storbritannien omsätter mest – till och med mer än Black Friday.",
+            "I Australien startar seglingstävlingen Sydney–Hobart på annandagen – en av världens tuffaste havskappseglingar.",
+            "I Irland kallas dagen ”St. Stephen's Day” – med den gamla traditionen ”Wren Boys”, där utklädda pojkar går från dörr till dörr."
+          ],
+          "imageCredit": "Foto: Bim24 · CC0 via Wikimedia Commons"
+        }
+      },
+      "ja": {
+        "new_year": {
+          "intro": "1月1日は、世界中でグレゴリオ暦による新年の始まりを告げる日です。多くの人々にとって、この日は希望に満ちた日であり、新たなスタートを切る日であり、新年の抱負を立てる日でもあります。",
+          "history": "早くも紀元前153年、ローマ人は新年の始まりを、新任の執政官が就任する1月1日と定めた。中世になると、多くの地域で新年の始まりはクリスマスやイースターへと移っていった。 1582年に教皇グレゴリウス13世による暦の改革が行われて初めて、1月1日が再びヨーロッパの標準となった。「1月（January）」という名称は、二つの顔で過去と未来を同時に見つめていたローマの神ヤヌスに由来しており、この日はまさにその神にふさわしい象徴である。",
+          "traditions": "真夜中になると、家族や友人はスパークリングワインで乾杯し、花火や縁起物（クローバー、煙突掃除人、てんとう虫）、そして伝統的な鉛流し（現在は蝋流し）で年越しを祝います。新年のブランチや、新鮮な空気を吸いながらの散歩も人気です。多くの人が、その年の抱負を立てます。",
+          "funFacts": [
+            "スペインでは、鐘が12回鳴るたびに、そのたびにブドウを1粒ずつ食べます。ブドウ1粒ごとに1つの願いを込めるのです。",
+            "デンマークでは、友人たちの家の玄関先で古い食器を割ることで、その人たちに幸運をもたらす習慣があります。",
+            "ウィーンの新年コンサートは90カ国以上で放送され、その年の音楽界の幕開けとして知られています。",
+            "太平洋のキリバス島では、ハウランド島よりも26時間早く新年が訪れます。"
+          ],
+          "imageCredit": "写真：ヴィャチェスラフ・アルゲンベルク · CC BY 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "good_friday": {
+          "intro": "聖金曜日は、イエス・キリストの磔刑を記念する、プロテスタントにとって最も重要な追悼の日です。ドイツでは、この日は特別な法的保護が設けられた「静寂の祝日」とされています。",
+          "history": "聖金曜日は、4世紀以来、キリスト教徒によって祝われてきました。 ドイツ語の接頭辞「Kar」は、嘆きや哀悼を意味する古高ドイツ語の「chara」に由来しています。典礼の伝統は早くから確立され、受難物語の朗読、十字架の礼拝、鐘の鳴らし止めなどが行われてきました。宗教改革により、聖金曜日は特に重要な日となりました。ルーテル派の地域では、今もなお教会暦の中で最も重要な祝日となっています。",
+          "traditions": "多くのキリスト教徒が、受難の物語が朗読される受難礼拝に出席します。この日は伝統的に断食の日とされており、肉料理の代わりに魚料理が供されます。一部の地域では、ロア・アム・マインで行われる有名な行列のように、聖金曜日の行列が街中を練り歩きます。ドイツのほとんどの州では、ダンスイベントや大音量の音楽が法律で禁止されています。",
+          "funFacts": [
+            "ドイツの「ダンス禁止令」は、聖金曜日の公共の場での娯楽を規制するもので、長年にわたり社会的な話題となっている。",
+            "バッハは1727年、ライプツィヒの聖金曜日晩課のために『マタイ受難曲』を作曲した。この作品は今日、世界で最も頻繁に演奏されている作品の一つとなっている。",
+            "バミューダでは、聖金曜日に家族で手作りした竹と紙の凧を飛ばすという、キリスト教ならではの伝統行事が行われています。",
+            "スペイン語圏の国々では、聖金曜日は「Viernes Santo」と呼ばれ、セビリアなどで壮麗な兄弟団の行列が行われます。"
+          ],
+          "imageCredit": "写真：ピエトロ・ペルジーノ · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "easter_monday": {
+          "intro": "イースター・マンデーはイースターの2日目で、ヨーロッパのほとんどの国で祝日となっています。この日は、キリスト教における最も重要な祭りの締めくくりを告げる日です。",
+          "history": "イースターはキリスト教世界最古の祭りで、イエス・キリストの死から3日目に起こった復活を祝うものです。325年のニカイア公会議において、イースターは春の最初の満月の後の最初の日曜日に定められました。イースター・マンデーは中世初期から祝われており、もともとイースター週間全体が休日とされていました。 ドイツやオーストリアでは、純粋にカトリック教国が多いのとは異なり、イースターは現在も法定休日として残っています。",
+          "traditions": "家族で一緒にイースターエッグ探しをしたり、ゆったりとしたブランチを楽しんだり、伝統的なイースターの散歩（ゲーテの『ファウスト』にも描かれている）に出かけたりします。ポーランドでは「シュミグス・ディンガス」が祝われ、少年たちが少女たちに水をかけます。チェコでは、若者たちが柳の鞭でドアを叩きます。 バイエルン州やオーストリアでは、伝統的な「エマオの散歩」が行われます。",
+          "funFacts": [
+            "イースターエッグハントの習慣について初めて言及したのはマルティン・ルターであり、彼はこの習慣を利用して子供たちを楽しませていた。",
+            "アルゼンチンには、世界最大のチョコレートのイースターエッグ（高さ8.5 m、重さ4 t）が設置され、ギネスブックに登録された。",
+            "スウェーデンでは、聖土曜日に子供たちが「ポースカーリンガー」（小さな魔女）に扮して、家々を回ります。",
+            "イースターバニーが卵を届ける存在として初めて言及されたのは、1682年のことで、医師ゲオルク・フランク・フォン・フランケナウによるものでした。"
+          ],
+          "imageCredit": "写真：ゲオルギ・キリチコフ · CC BY-SA 3.0（ウィキメディア・コモンズ経由）"
+        },
+        "labour_day": {
+          "intro": "5月1日は多くの国で「メーデー」として祝われ、労働者運動に由来する祝日であり、デモ行進やメイポール、春の祭りが行われます。",
+          "history": "1886年5月1日、シカゴの数十万人の労働者が、8時間労働制を求めてゼネストに突入した。その後、ヘイマーケットで発生した衝突により、数名が死亡した。1889年、パリで開催された国際労働者会議は、5月1日を「労働者のための国際闘争の日」と宣言した。 ドイツでは、1933年に「国民労働の日」として法定休日となり、1945年以降も労働者重視の政治の象徴として維持された。",
+          "traditions": "労働組合は、「賃上げ、休暇増」といったスローガンを掲げて集会やデモ行進を行う。 多くの村では、5月1日の前夜にメイポールが立てられる。南ドイツでは華やかに彩られた丸太が、北ドイツでは恋人の窓の前に白樺が立てられる。人気の行事としては、5月のハイキング、バーベキュー、家族向けのお祭りなどがある。",
+          "funFacts": [
+            "2017年、ミッターフェルスでバイエルン州で最も高いメイポール（高さ50メートル以上）が立てられた。",
+            "フランスでは、5月1日にスズラン（「ミュゲ」）を贈る習慣がある。これは1561年にシャルル9世が導入した風習である。",
+            "ラインラント地方では、5月の前夜に、恋人の家の前に「愛の5月」――飾り付けられた白樺――が置かれる。",
+            "5月1日は80カ国以上で公休日となっていますが、米国とカナダでは「労働者の日」は9月に祝われます。"
+          ],
+          "imageCredit": "写真：Joe Piette · CC BY-SA 2.0（ウィキメディア・コモンズ経由）"
+        },
+        "whit_monday": {
+          "intro": "聖霊降臨祭の翌日は「聖霊降臨の月曜日（Whit Monday）」と呼ばれ、キリスト教の影響が強い多くの国では祝日となっています。聖霊降臨祭は、使徒たちの上に聖霊が降臨したことを記念するものです。",
+          "history": "ペンテコステ（ギリシャ語の「pentekostē」、50番目を意味する）は、復活祭の50日後に祝われ、その起源はユダヤ教の七週の祭り（シャブオット）にある。 4世紀にはすでに、復活祭やクリスマスに次ぐキリスト教の第二の重要な祭日として尊ばれていました。「聖霊降臨月曜日（Whit Monday）」という名称は、ペンテコステのオクタヴ（8日間）全体を祝うという中世の慣習に由来しています。1969年の第二バチカン公会議後にそのオクタヴは廃止されましたが、「聖霊降臨月曜日」は現在も祝日として残っています。",
+          "traditions": "ペンテコステは、牡丹が咲き誇る季節であり、初夏の暖かな日が訪れ、多くの民俗祭りが催される時期です。地方では「ペンテコステの牛」が飾り付けられ、アイフェル地方では「プフィンストケーニヒライヒ」が祝われます。家族連れは、この長い週末を利用して、お出かけやハイキングを楽しみ、今シーズン初の屋外バーベキューを満喫します。",
+          "funFacts": [
+            "「プフィンストオクセ」――春を告げる色鮮やかに飾り付けられた雄牛――に由来して、ドイツ語の慣用句「herausgeputzt wie ein Pfingstochse」（ペンテコステの雄牛のように着飾った）が生まれた。",
+            "イタリアでは、かつてペンテコステのミサの際、聖霊を象徴するために、パンテオンの屋根からバラの花びらが撒かれていました。",
+            "スウェーデンおよびスカンジナビア諸国では、2005年以降、聖霊降臨祭の翌月曜日は祝日ではなくなり、代わりに6月6日のスウェーデン建国記念日が祝日となっています。",
+            "ペンテコステは「教会の誕生日」とも呼ばれています。なぜなら、『使徒言行録』によると、その日に3,000人が洗礼を受けたと記されているからです。"
+          ],
+          "imageCredit": "写真：制作：ヴァージル・ソリス · ウィキメディア・コモンズ経由のパブリックドメイン"
+        },
+        "corpus_christi": {
+          "intro": "コーパス・クリスティ（「キリストの体」）は、聖体と、パンの中に現存するキリストの御体を祝うカトリックの主要な祝日です。ペンテコステの後の第2木曜日に祝われます。",
+          "history": "この祝日は、ベルギーの修道女ユリアナ・オブ・リエージュ（1193年～1258年）の啓示に由来しており、彼女は聖体に関する独立した祝日の制定を提唱しました。 1264年、教皇ウルバヌス4世が聖体祭を導入しました。神学者トマス・アクィナスは、典礼文や『ラウダ・シオン・サルヴァトーレム』などの賛美歌を執筆しました。14世紀には、有名な聖体祭の行列が定着しました。 ドイツでは、カトリック教徒が多数を占めるバイエルン州、バーデン＝ヴュルテンベルク州、ヘッセン州、ノルトライン＝ヴェストファーレン州、ラインラント＝プファルツ州、ザールラント州において、この祝日は公休日となっています。",
+          "traditions": "見どころは、聖別された聖体が「天蓋」の下で、華やかに飾られた通りを運ばれる厳粛な行列です。家々には白樺の枝や花、聖人の絵が飾られます。ミュールハイム・アム・マインのような場所では、ボートを使った水上行列が行われることもあります。 家族たちは、日曜日の正装に身を包んで行列に同行します。",
+          "funFacts": [
+            "ローマ近郊のジェンツァーノでは、最も壮観なコーパス・クリスティの祝祭の一つが行われます。「インフィオラータ」と呼ばれるこの行事では、通り全体が花の絨毯へと変貌します。",
+            "バイエルンの村々では、行列が通り過ぎる際に、色とりどりの花の模様が通りの上に直接敷き詰められます。",
+            "ドイツ語の「Fronleichnam」という言葉は、中高ドイツ語の「vrôn」（主）と「lîchnam」（生きた体）に由来しており、「死体」に由来するものではない。",
+            "ケルンのミュールハイムで行われる「ゴッテストラハト」は、ライン川を船で渡る世界唯一の水上行列です。"
+          ],
+          "imageCredit": "写真：Tranceliner · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "christmas": {
+          "intro": "12月25日のクリスマスは、キリスト教において最も重要な祭日であり、イエス・キリストの誕生を祝うもので、世界中で家族、平和、そして贈り物を祝う祭りとなっています。",
+          "history": "12月25日は、早くも354年のローマ暦において「dies natalis Christi（キリストの誕生日）」として記録されている。教会がこの日付を選んだのは、ローマの冬至祭「ソル・インヴィクトゥス」にキリスト教的な意味を持たせるためだったと考えられる。 贈り物の習慣は、東方の三博士が持参した贈り物にその起源があります。赤いコートに白いひげというお馴染みのサンタクロースは、聖ニコラウスと1931年のコカ・コーラの広告キャンペーンが融合した姿です。",
+          "traditions": "家族が集まり、七面鳥やガチョウ、鯉、あるいはラクレットといったお祝いの食事を楽しみます。贈り物を交換し、クリスマスキャロルを歌い、多くの人がクリスマス礼拝に出席します。ライトやオーナメント、わらの星で飾られたクリスマスツリーが、その中心的なシンボルです。アドベントカレンダーやクッキー、クリスマスマーケットへの訪問も、クリスマスに向けた準備の一環です。",
+          "funFacts": [
+            "最初の市販のアドベントカレンダーは、1908年にミュンヘンで登場しました。これはゲルハルト・ラングによって考案されたものです。",
+            "ドレスデン（「シュトリーツェルマルクト」、1434年より）とフランクフルト（1393年より）のクリスマスマーケットは、世界でも最も古いものの一つに数えられます。",
+            "ノルウェーは、第二次世界大戦中の支援への感謝の印として、1947年以来毎年、トラファルガー広場に飾る巨大なクリスマスツリーを英国に贈呈している。",
+            "『シンデレラの3つの願い』や『ラブ・アクチュアリー』といったホリデーシーズンの定番作品は、毎年世界中のテレビで数十回も放送されている。"
+          ],
+          "imageCredit": "写真：クリス・オルシェフスキー · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "boxing_day": {
+          "intro": "12月26日は、イギリスでは「ボクシング・デー」として知られており、多くの国ではこの日がクリスマス休暇の延長日となっています。",
+          "history": "「ボクシング・デー」という名称はスポーツとは何の関係もありません。これは、イギリスの教会に置かれ、クリスマスの翌日に貧しい人々を助けるために開かれる寄付箱（「クリスマス・ボックス」）に由来しています。また、12月26日に使用人や郵便配達員に少額の金銭（「ボックス」）を贈る習慣も、この名称の由来となっています。 ドイツでは、この日は「第2のクリスマス休暇」とされ、1933年以来法律で保護されています。もともとは、家族が親戚のもとへ旅行する時間を確保するために設けられたものです。",
+          "traditions": "イギリスでは、この日を皮切りに、伝統的なプレミアリーグのサッカー試合や障害馬術競技、そして店舗で大幅な割引が行われる有名な「ボクシング・デー・セール」が始まります。ドイツでは、人々はたっぷり食事を楽しんだり、親戚の家を回ったり、長い散歩に出かけたりします。ポーランドやチェコでは、家族同士で互いの家を訪ね合い、お祝いの食事を楽しみます。",
+          "funFacts": [
+            "英国では、1860年以来、ボクシング・デーに伝統的なキツネ狩りが行われてきたが、2005年以降は生きたキツネを使わない「ドラッグ・ハント」のみとなっている。",
+            "ボクシング・デーのセールは、英国で最も売上高が高い小売業の日であり、ブラックフライデーを上回るほどです。",
+            "オーストラリアでは、ボクシング・デーにシドニー・ホバート・ヨットレースが始まります。これは、世界でも最も過酷なオフショアレースの一つです。",
+            "アイルランドでは、この日は「聖ステファンの日」と呼ばれ、仮装した若者たちが家々を回るという古くからの「レン・ボーイズ」の伝統が行われます。"
+          ],
+          "imageCredit": "写真：Bim24 · CC0（ウィキメディア・コモンズ経由）"
+        }
+      },
+      "ko": {
+        "new_year": {
+          "intro": "1월 1일은 전 세계적으로 그레고리력에 따른 새해의 시작을 알리는 날입니다. 많은 이들에게 이 날은 희망과 새로운 시작, 그리고 새해 결심을 다지는 날입니다.",
+          "history": "기원전 153년 무렵, 로마인들은 새 집정관이 취임하는 날인 1월 1일을 한 해의 시작으로 정했습니다. 중세 시대에는 많은 지역에서 한 해의 시작이 크리스마스나 부활절로 바뀌었습니다. 1582년 교황 그레고리오 13세의 달력 개혁을 통해야 비로소 1월 1일이 다시 유럽의 표준이 되었습니다. ‘1월(January)’이라는 이름은 두 개의 얼굴로 과거와 미래를 동시에 바라보던 로마 신 야누스(Janus)에서 유래한 것으로, 이 날을 상징하기에 더할 나위 없이 적합한 이름입니다.",
+          "traditions": "자정이 되면 가족과 친구들은 스파클링 와인으로 건배를 나누고, 불꽃놀이와 행운의 상징(클로버, 굴뚝 청소부, 무당벌레), 그리고 전통적인 납 부어보기(현재는 왁스 부어보기)를 통해 새해의 시작을 축하합니다. 새해 브런치와 야외 산책도 인기가 많습니다. 많은 사람들이 다가올 한 해를 위한 새해 결심을 세우기도 합니다.",
+          "funFacts": [
+            "스페인에서는 종소리가 12번 울릴 때마다 포도 한 알씩 먹는데, 포도 한 알마다 소원 하나를 빌게 됩니다.",
+            "덴마크에서는 친구들에게 행운을 빌어주기 위해 친구 집 문 앞에서 낡은 그릇을 깨뜨리는 풍습이 있습니다.",
+            "비엔나 신년 콘서트는 90여 개국에서 방송되며, 한 해의 음악 활동을 시작하는 행사로 꼽힌다.",
+            "태평양의 키리바티 섬에서는 하울랜드 섬보다 26시간 먼저 새해가 찾아옵니다."
+          ],
+          "imageCredit": "사진: Vyacheslav Argenberg · CC BY 4.0 (위키미디어 공용 제공)"
+        },
+        "good_friday": {
+          "intro": "성금요일은 예수 그리스도의 십자가 처형을 기리는 개신교에서 가장 엄숙한 추모의 날입니다. 독일에서는 이 날이 특별한 법적 보호를 받는 ‘침묵의 휴일’로 지정되어 있습니다.",
+          "history": "성금요일은 4세기부터 기독교인들에 의해 기념되어 왔습니다. 독일어 접두사 ‘Kar’는 ‘애도’나 ‘애도하는 마음’을 뜻하는 고대 고지독일어 ‘chara’에서 유래했습니다. 전례 전통은 일찍부터 정립되었는데, 여기에는 수난기 낭독, 십자가 숭배, 종을 울리지 않는 관습 등이 포함됩니다. 종교개혁을 계기로 성금요일은 특별한 의미를 갖게 되었으며, 루터교 지역에서는 여전히 교회 연중 가장 중요한 축일로 여겨지고 있습니다.",
+          "traditions": "많은 기독교인들이 수난 이야기를 낭독하는 수난 예배에 참석합니다. 이날은 전통적으로 금식하는 날로, 고기 대신 생선을 먹습니다. 일부 지역에서는 ‘로르 암 마인(Lohr am Main)’의 유명한 행렬과 같이 성금요일 행렬이 거리를 누비기도 합니다. 대부분의 독일 주에서는 법에 따라 춤 행사나 시끄러운 음악이 금지되어 있습니다.",
+          "funFacts": [
+            "독일의 ‘춤 금지령’은 성금요일에 이루어지는 공공 오락 활동을 규제하는 것으로, 수년 동안 뜨거운 사회적 화제가 되어 왔다.",
+            "바흐는 1727년 라이프치히의 성금요일 저녁 기도회를 위해 《마태 수난곡》을 작곡했는데, 이 작품은 오늘날 전 세계에서 가장 많이 연주되는 작품 중 하나이다.",
+            "버뮤다에서는 성금요일에 가족들이 직접 만든 대나무와 종이로 만든 연을 날리는데, 이는 기독교의 독특한 전통입니다.",
+            "스페인어권 국가들에서 성금요일은 ‘비에르네스 산토(Viernes Santo)’라고 불리며, 예를 들어 세비야에서는 웅장한 형제회 행렬이 펼쳐집니다."
+          ],
+          "imageCredit": "사진: 피에트로 페루지노 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "easter_monday": {
+          "intro": "부활절 다음 날인 부활절 월요일은 대부분의 유럽 국가에서 공휴일입니다. 이 날은 기독교에서 가장 중요한 축제가 끝나는 날을 의미합니다.",
+          "history": "부활절은 기독교 세계에서 가장 오래된 축제로, 예수 그리스도가 죽은 지 사흘 만에 부활하신 것을 기념하는 날입니다. 325년에 열린 니케아 공의회는 부활절을 봄의 첫 보름달이 뜬 후 첫 번째 일요일로 정했습니다. 부활절 다음 날인 월요일은 중세 초기부터 휴일로 지켜져 왔으며, 원래는 부활절 주간 전체가 휴일이었으나, 독일과 오스트리아에서는 순수 가톨릭 국가들과 달리 부활절이 여전히 법정 공휴일로 남아 있습니다.",
+          "traditions": "가족들은 함께 부활절 달걀을 찾거나, 여유로운 브런치를 즐기거나, 고트헤의 『파우스트』에 영원히 기록된 고전적인 부활절 산책을 즐깁니다. 폴란드에서는 ‘슈미구스-딩구스’ 축제가 열리는데, 소년들이 소녀들에게 물을 뿌립니다. 체코에서는 청년들이 버드나무 채로 문을 두드립니다. 바이에른과 오스트리아에서는 전통적인 ‘엠마우스 산책’이 열립니다.",
+          "funFacts": [
+            "부활절 달걀 찾기 풍습은 마틴 루터가 처음 언급했는데, 그는 이 풍습을 통해 자녀들을 기쁘게 해주곤 했다.",
+            "세계에서 가장 큰 초콜릿 부활절 달걀이 아르헨티나에 세워졌으며(높이 8.5m, 무게 4t), 이는 기네스북에 등재되었다.",
+            "스웨덴에서는 성토일에 아이들이 ‘파스크케링(Påskkärringar)’—작은 마녀—로 분장하고 집집마다 돌아다닙니다.",
+            "달걀을 배달하는 부활절 토끼에 대한 첫 언급은 1682년 의사 게오르크 프랑크 폰 프랑케나우에 의해 이루어졌다."
+          ],
+          "imageCredit": "사진: 게오르기 키리치코프 · CC BY-SA 3.0 (위키미디어 공용 제공)"
+        },
+        "labour_day": {
+          "intro": "5월 1일은 많은 나라에서 ‘노동절’로, 시위와 메이폴 행사, 봄 축제가 열리는 노동 운동의 기념일입니다.",
+          "history": "1886년 5월 1일, 시카고의 수십만 명의 노동자들이 8시간 노동제를 요구하며 총파업을 벌였습니다. 이후 헤이마켓에서 발생한 충돌로 여러 명이 사망했습니다. 1889년 파리에서 열린 국제노동자대회는 5월 1일을 ‘노동자를 위한 국제 투쟁의 날’로 선포했습니다. 독일에서는 1933년에 ‘국가 노동의 날’로 법정 공휴일이 되었으며, 1945년 이후에도 노동자 친화적 정책의 상징으로 유지되었다.",
+          "traditions": "노동조합들은 ‘임금 인상, 휴가 확대’와 같은 구호를 내걸고 집회와 행진을 벌입니다. 많은 마을에서는 5월 1일 전날 밤 메이폴을 세웁니다. 독일 남부에서는 화려하게 칠해진 나무 줄기를, 북부에서는 연인의 창문 앞에 자작나무를 세웁니다. 인기 있는 활동으로는 5월 하이킹, 바비큐, 가족 축제 등이 있습니다.",
+          "funFacts": [
+            "2017년 미터펠스에서 바이에른 주에서 가장 높은 50m가 넘는 메이폴이 세워졌다.",
+            "프랑스에서는 5월 1일에 은방울꽃(‘muguet’)을 선물하는 풍습이 있는데, 이는 1561년 샤를 9세 왕이 도입한 관습이다.",
+            "라인란트 지방에서는 5월 전야에 ‘사랑의 5월’이라 불리는 장식된 자작나무를 연인의 집 앞에 놓습니다.",
+            "5월 1일은 80여 개국에서 공휴일이지만, 미국과 캐나다에서는 노동절이 9월에 있습니다."
+          ],
+          "imageCredit": "사진: Joe Piette · CC BY-SA 2.0 (위키미디어 공용 제공)"
+        },
+        "whit_monday": {
+          "intro": "성령강림절 다음 날인 ‘화이트 먼데이’는 성령강림절의 둘째 날로, 기독교의 영향이 큰 많은 국가에서 공휴일로 지정되어 있습니다. 성령강림절은 사도들에게 성령이 강림하신 것을 기념하는 날입니다.",
+          "history": "성령강림절(그리스어 ‘pentekostē’, ‘다섯 번째’라는 뜻)은 부활절 50일 후에 기념되며, 유대교의 칠칠절(샤부오트)에서 유래했습니다. 이 축제는 이미 4세기부터 부활절과 성탄절에 이어 기독교에서 두 번째로 중요한 축제로 여겨졌습니다. ‘화이트 먼데이(Whit Monday)’는 중세 시대에 오순절 옥타브(8일) 전체를 기념하던 관습에서 유래했습니다. 비록 1969년 제2차 바티칸 공의회 이후 그 옥타브 관습이 폐지되었지만, 화이트 먼데이는 여전히 공휴일로 남아 있습니다.",
+          "traditions": "오순절은 모란이 피는 계절이자, 초여름의 첫 따스한 날들이 찾아오고 다양한 민속 축제가 열리는 시기입니다. 시골 지역에서는 ‘오순절 소’를 장식하고, 아이펠 지역에서는 ‘오순절 왕국(Pfingstkönigreich)’ 축제가 열립니다. 가족들은 이 긴 주말을 이용해 나들이와 하이킹을 즐기며, 이번 시즌 첫 야외 바비큐를 즐깁니다.",
+          "funFacts": [
+            "봄의 전령으로 화려하게 장식된 황소인 ‘Pfingstochse’에서 유래한 독일어 관용구 ‘herausgeputzt wie ein Pfingstochse’(오순절 황소처럼 단정하게 차려입다)가 생겨났다.",
+            "이탈리아에서는 한때 오순절 미사 중에 판테온의 지붕 위에서 성령을 상징하기 위해 장미 꽃잎을 뿌리곤 했다.",
+            "스웨덴과 스칸디나비아 지역에서는 2005년부터 성령강림절 다음 월요일이 공휴일이 아니며, 대신 6월 6일 스웨덴 국경일이 공휴일로 지정되었습니다.",
+            "성령강림절은 ‘교회의 탄생일’이라고도 불리는데, 사도행전에 따르면 그날 3,000명이 세례를 받았기 때문입니다."
+          ],
+          "imageCredit": "사진: 제작자: 버질 솔리스 · 위키미디어 공용을 통해 공개된 퍼블릭 도메인"
+        },
+        "corpus_christi": {
+          "intro": "코르푸스 크리스티(‘그리스도의 몸’)는 성체와 빵 속에 현존하시는 그리스도를 기념하는 가톨릭의 주요 대축일입니다. 이 축일은 성령강림절 이후 두 번째 목요일에 해당합니다.",
+          "history": "이 축일은 벨기에의 수녀 리에주의 줄리아나(1193–1258)가 별도의 성체 축일을 제정할 것을 촉구했던 환시에서 유래했다. 교황 우르바노 4세는 1264년에 성체 축일을 제정했습니다. 신학자 토마스 아퀴나스는 전례 문헌과 ‘Lauda Sion Salvatorem’과 같은 찬송가를 지었습니다. 유명한 성체 축일 행렬은 14세기에 발전했습니다. 독일에서는 가톨릭 신자가 다수를 차지하는 바이에른, 바덴뷔르템베르크, 헤센, 노르트라인베스트팔렌, 라인란트팔츠, 자를란트 주에서 이 날이 공휴일입니다.",
+          "traditions": "가장 주목할 만한 점은 성체로 축성된 빵을 ‘천장’ 아래에 모시고 화려하게 장식된 거리를 행진하는 엄숙한 행렬입니다. 집집마다 자작나무 가지, 꽃, 성인의 초상화로 장식됩니다. 뮐하임 암 마인(Mühlheim am Main)과 같은 일부 지역에서는 배를 이용한 물 위의 행렬도 열립니다. 가족들은 일요일에 입는 가장 단정한 옷차림으로 행렬을 따라갑니다.",
+          "funFacts": [
+            "로마 근교인 젠자노에서는 가장 화려한 코르푸스 크리스티 축제 중 하나가 열리는데, ‘인피오라타’를 통해 거리 전체가 꽃 카펫으로 변신합니다.",
+            "바이에른의 마을들에서는 행렬이 지나갈 수 있도록 거리 위에 알록달록한 꽃 무늬를 직접 깔아 놓습니다.",
+            "독일어 ‘Fronleichnam’은 중세 고지독일어의 ‘vrôn’(주인)과 ‘lîchnam’(살아있는 몸)에서 유래한 것으로, ‘시체’에서 유래한 것이 아닙니다.",
+            "쾰른의 뮐하임 ‘고테스트라흐트’는 라인강을 가로지르는 배를 이용한 세계 유일의 수상 행렬입니다."
+          ],
+          "imageCredit": "사진: Tranceliner · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "christmas": {
+          "intro": "12월 25일의 크리스마스는 예수 그리스도의 탄생을 기념하는 기독교에서 가장 중요한 명절이며, 전 세계적으로 가족, 평화, 선물을 나누는 축제입니다.",
+          "history": "12월 25일은 빠르면 354년 로마 달력에서 ‘dies natalis Christi’로 기록되어 있다. 교회는 로마의 동지 축제인 ‘솔 인빅투스(Sol Invictus)’에 기독교적 의미를 부여하기 위해 이 날짜를 선택한 것으로 보인다. 선물 교환의 기원은 동방박사들이 가져온 선물에서 비롯됩니다. 빨간 옷과 흰 수염을 한 우리에게 친숙한 산타클로스는 성 니콜라스와 1931년 코카콜라 광고 캠페인이 결합된 모습입니다.",
+          "traditions": "가족들은 칠면조, 거위, 잉어, 라클렛 등 명절 음식을 함께 즐기기 위해 모입니다. 선물을 주고받고, 캐럴을 부르며, 많은 이들이 성탄 예배에 참석합니다. 불빛과 장식품, 짚으로 만든 별이 장식된 크리스마스 트리는 이 시기의 중심적인 상징입니다. 대림 달력, 쿠키, 크리스마스 마켓 방문 등은 성탄절을 앞둔 기간의 풍경입니다.",
+          "funFacts": [
+            "최초의 상업용 어드벤트 캘린더는 1908년 뮌헨에서 등장했는데, 게르하르트 랑이 발명했다.",
+            "드레스덴(‘스트리첼마르크트’, 1434년부터)과 프랑크푸르트(1393년부터)의 크리스마스 시장은 세계에서 가장 오래된 시장 중 하나입니다.",
+            "노르웨이는 제2차 세계대전 당시 영국이 제공한 도움에 대한 감사의 표시로, 1947년부터 매년 트라팔가 광장에 세울 거대한 크리스마스 트리를 영국에 기증해 왔다.",
+            "‘신데렐라의 세 가지 소원’이나 ‘러브 액츄얼리’와 같은 명절 명작 영화들은 매년 전 세계 TV에서 수십 차례 방영된다."
+          ],
+          "imageCredit": "사진: 크리스 올셰프스키 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "boxing_day": {
+          "intro": "12월 26일은 영국에서 ‘박싱 데이’로 알려져 있으며, 많은 나라에서 이 날을 크리스마스 연휴의 연장일로 삼고 있습니다.",
+          "history": "‘박싱 데이(Boxing Day)’라는 이름은 스포츠와는 아무런 관련이 없습니다. 이는 영국 교회에 비치되어 크리스마스 다음 날 가난한 사람들을 돕기 위해 개봉되던 기부 상자(‘크리스마스 박스’)에서 유래한 이름입니다. 12월 26일에 하인이나 우편 배달원에게 소액의 현금 선물(‘박스’)을 주는 관습도 이 이름의 유래에 한몫했습니다. 독일에서는 이 날을 ‘두 번째 크리스마스 휴일’로 부르며, 1933년부터 법으로 보호받아 왔는데, 원래는 가족들이 친척을 방문할 수 있는 시간을 확보하기 위한 것이었습니다.",
+          "traditions": "영국에서는 이날을 기점으로 전통적인 프리미어리그 축구 경기가 시작되고, 장애물 경마가 열리며, 유명 상점들이 대대적인 할인을 제공하는 ‘박싱 데이 세일’이 시작됩니다. 독일에서는 사람들이 푸짐하게 식사를 하거나 친척들을 더 많이 찾아가거나, 긴 산책을 즐기기도 합니다. 폴란드와 체코에서는 가족들이 서로 집을 방문하며 명절 음식을 즐깁니다.",
+          "funFacts": [
+            "영국에서는 1860년부터 박싱 데이에 전통적인 여우 사냥이 열려 왔으나, 2005년부터는 살아있는 여우가 없는 ‘드래그 헌트’ 형태로만 진행되고 있다.",
+            "박싱 데이 세일은 영국에서 매출이 가장 높은 소매업 날로, 블랙 프라이데이보다도 매출이 더 높습니다.",
+            "호주에서는 박싱 데이에 시드니-호바트 요트 경주가 시작되는데, 이는 세계에서 가장 험난한 원양 요트 경주 중 하나다.",
+            "아일랜드에서는 이날을 ‘성 스테판의 날’이라고 부르며, 의상을 입은 소년들이 집집마다 돌아다니는 오래된 ‘렌 보이즈’ 전통이 이어지고 있습니다."
+          ],
+          "imageCredit": "사진: Bim24 · CC0, 위키미디어 공용 제공"
+        }
+      },
+      "zh-Hant": {
+        "new_year": {
+          "intro": "1月1日標誌著全球公曆新年的開始。對許多人來說，這是一天充滿希望、嶄新起點與美好決心的日子。",
+          "history": "早在公元前153年，羅馬人便將新年的起始日定為1月1日，即新任執政官就職之日。中世紀期間，許多地區的新年起始日轉變為聖誕節或復活節。 直到1582年教宗格里高利十三世推行曆法改革後，1月1日才再次成為歐洲的標準新年之日。「一月」（January）這個名稱源自羅馬神祇雅努斯（Janus），他擁有兩張面孔，能同時凝視過去與未來——這正是對這一天的恰當象徵。",
+          "traditions": "午夜時分，親友們舉起氣泡酒共飲，並以煙火、吉祥物（三葉草、煙囪清掃工、瓢蟲）以及傳統的鉛鑄（現已改為蠟鑄）儀式來慶祝新年到來。新年早午餐和戶外散步也是很受歡迎的活動。許多人會為新的一年訂立新年決議。",
+          "funFacts": [
+            "在西班牙，人們會隨著鐘聲敲響的十二下，每響吃一顆葡萄——每顆葡萄代表一個願望。",
+            "在丹麥，人們會將舊陶器砸在朋友家門前，以祈求他們好運。",
+            "維也納新年音樂會的轉播遍及90多個國家，被視為年度音樂盛事的開端。",
+            "在太平洋上的基里巴斯島，新年比豪蘭島早到來 26 小時。"
+          ],
+          "imageCredit": "照片：維亞切斯拉夫·阿根伯格 · 透過維基共享資源，採用 CC BY 4.0 授權"
+        },
+        "good_friday": {
+          "intro": "「受難日」是新教最重要的哀悼日，用以紀念耶穌基督被釘十字架。在德國，這是一個享有特殊法律保障的「靜默假日」。",
+          "history": "自四世紀以來，基督徒便一直慶祝「受難日」。 德語前綴「Kar」源自古高地德語「chara」，意為哀悼或悲慟。相關禮儀傳統很早就已形成：誦讀受難記、敬禮十字架以及停止鐘聲。宗教改革賦予了「受難日」特殊的意義；在路德宗地區，它至今仍是教會年曆中最重要的節日。",
+          "traditions": "許多基督徒會參加宣讀受難敘事的受難禮拜。這一天傳統上是禁食日——以魚類代替肉類。在某些地區，會舉行聖週五遊行隊伍穿梭街頭，例如美因河畔洛爾（Lohr am Main）那場著名的遊行。在德國大多數邦，法律明文禁止舉辦舞蹈活動及播放大聲音樂。",
+          "funFacts": [
+            "德國的「禁舞令」規範了聖週五當天的公共娛樂活動——這項規定多年來一直是社會熱議的話題。",
+            "巴赫於1727年為萊比錫的「受難日」晚禱創作了《馬太受難曲》——這部作品如今已成為全球演出頻率最高的樂曲之一。",
+            "在百慕達，各家各戶會在耶穌受難日放飛自製的竹製與紙製風箏——這是一項獨特的基督教傳統。",
+            "在西班牙語系國家，耶穌受難日被稱為「Viernes Santo」——屆時會舉行壯觀的兄弟會遊行，例如在塞維利亞。"
+          ],
+          "imageCredit": "圖片：皮耶特羅·佩魯吉諾 · 經維基共享資源提供，採用 CC BY-SA 4.0 授權"
+        },
+        "easter_monday": {
+          "intro": "復活節星期一即為復活節的第二天，在大多數歐洲國家均屬法定假日。這一天標誌著基督教最重要的節日圓滿落幕。",
+          "history": "復活節是基督教世界最古老的節日，用以慶祝耶穌基督在逝世後第三天復活。325年的尼西亞大公會議將復活節定為春季首次滿月後的第一个星期日。自中世紀早期起，復活節星期一便被視為節日——最初整個復活節週都是假期。 在德國和奧地利，復活節至今仍是法定假日，這與許多純天主教國家的情況不同。",
+          "traditions": "家人們會一起尋找復活節彩蛋、享受悠閒的早午餐，或是進行經典的復活節漫步（這項傳統在歌德的《浮士德》中被永恆地銘記）。在波蘭，人們慶祝「Śmigus-Dyngus」節：男孩們會向女孩們潑水。在捷克，年輕小夥子們則會用柳條鞭輕敲門戶。 在巴伐利亞和奧地利，則有傳統的「艾瑪烏斯漫步」。",
+          "funFacts": [
+            "復活節彩蛋尋寶活動的習俗最早是由馬丁·路德提及的，他當時是為了讓自己的孩子們開心而舉辦這項活動。",
+            "世界上最大的巧克力復活節彩蛋矗立在阿根廷（高8.5公尺，重4公噸）——並被載入《金氏世界紀錄》。",
+            "在瑞典，孩子們會在聖週六打扮成「Påskkärringar」——也就是小女巫——並挨家挨戶拜訪。",
+            "1682年，醫師喬治·弗蘭克·馮·弗蘭肯瑙（Georg Franck von Franckenau）首次提及復活節兔子作為送蛋者的角色。"
+          ],
+          "imageCredit": "照片：Georgi Kirichkov · 經維基共享資源提供，採用 CC BY-SA 3.0 授權"
+        },
+        "labour_day": {
+          "intro": "5月1日是許多國家的「勞動節」——這是工人運動的節日，期間會舉行遊行、豎立五月柱以及舉辦春季市集。",
+          "history": "1886年5月1日，芝加哥數十萬名工人為爭取八小時工作制發起總罷工。隨後在海市集（Haymarket）爆發的衝突造成數人死亡。1889年，在巴黎舉行的國際工人大會宣布5月1日為「國際工人鬥爭日」。 在德國，該日於1933年被定為法定假日，名為「國家勞動日」，並在1945年後得以保留，作為親勞工政策的象徵。",
+          "traditions": "工會以「加薪、增加休假」等口號為號召，舉辦集會和遊行。 在許多村莊，人們會在5月1日的前一晚豎起五月柱——在德國南部，是一根彩繪精美的樹幹；在北部，則是在心上人窗前豎起一棵樺樹。熱門活動包括：五月健行、烤肉聚會和家庭節慶。",
+          "funFacts": [
+            "巴伐利亞州最高的五月柱於2017年在米特費爾斯豎立，高度超過50公尺。",
+            "在法國，人們會在5月1日互贈鈴蘭（「muguet」）——這是查理九世國王於1561年所創立的習俗。",
+            "在萊茵蘭地區，人們會在五月前夕將一棵裝飾過的樺樹——即「愛情五月樹」——擺放在心上人的家門前。",
+            "5月1日是80多個國家的法定假日——但在美國和加拿大，勞動節則在9月。"
+          ],
+          "imageCredit": "照片：Joe Piette · 經維基共享資源提供，採用 CC BY-SA 2.0 授權"
+        },
+        "whit_monday": {
+          "intro": "聖靈降臨節後的第一個星期一（Whit Monday）是五旬節的第二天，也是許多受基督教影響的國家的公共假期。五旬節用以紀念聖靈降臨在使徒們身上。",
+          "history": "聖靈降臨節（希臘語「pentekostē」，意為「第五十」）在復活節後第50天慶祝，其根源可追溯至猶太教的七七節（Shavuot）。 早在四世紀，它便與復活節和聖誕節並列為基督教第二重要的節日。聖靈降臨節星期一（Whit Monday）源自中世紀慶祝整個聖靈降臨節八日慶期（八天）的習俗。儘管該八日慶期在1969年梵蒂岡第二次大公會議後被廢除，但聖靈降臨節星期一仍被視為節日。",
+          "traditions": "聖靈降臨節是牡丹盛開的時節，也是初夏首批溫暖的日子，更是眾多民間節慶紛至沓來的時節。在鄉間地區，人們會裝飾「聖靈降臨節牛」；而在艾菲爾地區，則會慶祝「聖靈降臨節王國」。各家各戶會利用這個長週末出遊、健行，並舉辦本季首場戶外烤肉聚會。",
+          "funFacts": [
+            "「Pfingstochse」——這頭裝飾得五彩繽紛、象徵春天的公牛——由此衍生出德語諺語「herausgeputzt wie ein Pfingstochse」（打扮得像聖靈降臨節的公牛一樣）。",
+            "在義大利，過去每逢聖靈降臨節彌撒時，人們會從萬神殿的屋頂撒下玫瑰花瓣，以象徵聖靈。",
+            "在瑞典和斯堪地那維亞地區，自2005年起，「聖靈降臨節後的第一個星期一」便不再是法定假日——取而代之的是6月6日的瑞典國慶日。",
+            "五旬節也被稱為「教會的生日」，因為《使徒行傳》記載，當天有三千人受洗。"
+          ],
+          "imageCredit": "照片：版畫作者：維吉爾·索利斯 · 透過維基共享資源發布，屬公有領域"
+        },
+        "corpus_christi": {
+          "intro": "聖體節（「基督的聖體」）是天主教的一項重要慶節，用以慶祝聖體聖事，以及基督以肉身形式臨在於聖體中的事實。該節日定於聖神降臨節後的第二個星期四。",
+          "history": "這個節日可追溯至比利時修女列日市的朱莉安娜（1193–1258）所見的異象，她呼籲設立一個獨立的聖體節。 教宗烏爾班四世於1264年正式設立聖體節。神學家托馬斯·阿奎那撰寫了禮儀經文及聖詠，例如《讚美錫安的救主》（Lauda Sion Salvatorem）。著名的聖體節遊行於14世紀逐漸形成。 在德國，此節日是天主教信徒佔多數的巴伐利亞、巴登-符騰堡、黑森、北萊茵-威斯特法倫、萊茵蘭-普法爾茨及薩爾州等州的公共假日。",
+          "traditions": "最引人注目的環節是莊嚴的遊行，在遊行中，聖體會被置於「聖幔」之下，穿過裝飾一新的街道。沿途的房屋都裝飾著樺樹枝葉、鮮花以及聖人畫像。在某些地方——例如美因河畔穆爾海姆——甚至會有以船隻為載體的水上遊行。 各家各戶都身著盛裝，沿途伴隨遊行隊伍前行。",
+          "funFacts": [
+            "最壯觀的聖體節慶典之一在根扎諾（羅馬附近）舉行：「Infiorata」將整條街道化為一片花毯。",
+            "在巴伐利亞的村莊裡，人們會將色彩繽紛的花卉圖案直接鋪在街道上，供遊行隊伍從上方經過。",
+            "德語單字「Fronleichnam」源自中古高地德語的「vrôn」（主）和「lîchnam」（活體）——並非源自「屍體」。",
+            "科隆的米爾海姆「Gottestracht」是全球唯一一項乘船橫渡萊茵河的水上遊行。"
+          ],
+          "imageCredit": "照片：Tranceliner · 透過維基共享資源，採用 CC BY-SA 4.0 授權"
+        },
+        "christmas": {
+          "intro": "12月25日的聖誕節是基督教最重要的節日——慶祝耶穌基督的誕生——也是全球各地以家庭、和平與禮物為主題的節日。",
+          "history": "早在354年，羅馬曆法中便已將12月25日記載為「dies natalis Christi」。教會選擇這個日期，很可能是為了賦予羅馬「不敗之太陽」（Sol Invictus）冬至節慶以基督教的意義。 互贈禮物的習俗源於東方三博士所獻的禮物。大家熟悉的紅衣白鬍子聖誕老人，是聖尼古拉斯與1931年可口可樂廣告活動的融合產物。",
+          "traditions": "家人們齊聚一堂享用節日大餐——火雞、鵝肉、鯉魚或拉克雷特起司。大家互贈禮物、齊唱聖誕頌歌，許多人還會參加節日禮拜。那棵裝飾著燈飾、掛飾和稻草星星的聖誕樹，正是節日的核心象徵。降臨節倒數日曆、聖誕餅乾以及逛聖誕市集，都是節日前夕的傳統活動。",
+          "funFacts": [
+            "第一款商業化的降臨節日曆於1908年在慕尼黑問世——由格哈德·朗發明。",
+            "德累斯頓（「Striezelmarkt」，自1434年起）和法蘭克福（自1393年起）的聖誕市集，均屬世界上歷史最悠久的聖誕市集之一。",
+            "自1947年起，挪威每年都會贈送一棵巨型聖誕樹給英國，供特拉法加廣場擺放——以此感謝英國在第二次世界大戰期間提供的援助。",
+            "像《灰姑娘的三個願望》和《真愛至上》這類節日經典電影，每年在全球各地的電視上都會播出數十次。"
+          ],
+          "imageCredit": "照片：克里斯·奧爾謝夫斯基 · 經維基共享資源提供，採用 CC BY-SA 4.0 授權"
+        },
+        "boxing_day": {
+          "intro": "12月26日於英國被稱為「節禮日」（Boxing Day），在許多國家，這一天被視為聖誕假期的延續。",
+          "history": "「節禮日」（Boxing Day）這個名稱與體育運動毫無關聯——它指的是放置在英國教堂內的捐款箱（「聖誕捐款箱」），這些箱子會在聖誕節隔天開啟，用以幫助窮人。此外，12月26日向僕人和郵差贈送小額金錢禮物（「捐款箱」）的習俗，也形塑了這個名稱。 在德國，這一天被稱為「第二個聖誕假期」，自1933年起便受到法律保障——最初的目的是為了讓家庭有時間前往探望親戚。",
+          "traditions": "在英國，這一天標誌著傳統的英超足球賽、馬術障礙賽以及以大幅折扣著稱的著名「節禮日大減價」的開始。在德國，人們會大快朵頤、探訪更多親戚，或是去散個長長的步。在波蘭和捷克，家人們會互相拜訪，並享用節日大餐。",
+          "funFacts": [
+            "在英國，傳統的獵狐活動自1860年起便於節禮日舉行——但自2005年起，僅以「假狐獵」的形式進行，不再使用活狐。",
+            "「節禮日」大減價是英國營收最高的零售日——甚至比「黑色星期五」還要高。",
+            "在澳洲，雪梨至霍巴特帆船賽於節禮日揭開序幕——這是全球最艱辛的離岸帆船賽之一。",
+            "在愛爾蘭，這一天被稱為「聖史蒂芬節」——並有古老的「知更鳥男孩」傳統，即身著戲服的少年們挨家挨戶拜訪。"
+          ],
+          "imageCredit": "照片：Bim24 · CC0，經由維基共享資源提供"
+        }
+      }
+    }
+  },
+  "images": {
+    "new_year": [
+      {
+        "path": "images/new_year/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "good_friday": [
+      {
+        "path": "images/good_friday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "easter_monday": [
+      {
+        "path": "images/easter_monday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      }
+    ],
+    "labour_day": [
+      {
+        "path": "images/labour_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "whit_monday": [
+      {
+        "path": "images/whit_monday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/whit_monday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/whit_monday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "corpus_christi": [
+      {
+        "path": "images/corpus_christi/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/corpus_christi/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/corpus_christi/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas": [
+      {
+        "path": "images/christmas/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "boxing_day": [
+      {
+        "path": "images/boxing_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/boxing_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/boxing_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 8
+}

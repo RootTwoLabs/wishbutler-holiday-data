@@ -1,0 +1,863 @@
+{
+  "countryCode": "JP",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "JP_new_years_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-01",
+          "2027": "01-01",
+          "2028": "01-01",
+          "2029": "01-01",
+          "2030": "01-01",
+          "2031": "01-01",
+          "2032": "01-01",
+          "2033": "01-01",
+          "2034": "01-02",
+          "2035": "01-01"
+        }
+      }
+    },
+    {
+      "id": "JP_coming_of_age_day",
+      "countryCode": "JP",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.coming_of_age_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 1,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "JP_foundation_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.foundation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-11",
+          "2027": "02-11",
+          "2028": "02-11",
+          "2029": "02-12",
+          "2030": "02-11",
+          "2031": "02-11",
+          "2032": "02-11",
+          "2033": "02-11",
+          "2034": "02-11",
+          "2035": "02-12"
+        }
+      }
+    },
+    {
+      "id": "JP_the_emperors_birthday",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.the_emperors_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-23",
+          "2027": "02-23",
+          "2028": "02-23",
+          "2029": "02-23",
+          "2030": "02-23",
+          "2031": "02-24",
+          "2032": "02-23",
+          "2033": "02-23",
+          "2034": "02-23",
+          "2035": "02-23"
+        }
+      }
+    },
+    {
+      "id": "JP_vernal_equinox_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.vernal_equinox_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "03-20",
+          "2027": "03-21",
+          "2028": "03-20",
+          "2029": "03-20",
+          "2030": "03-20",
+          "2031": "03-21",
+          "2032": "03-20",
+          "2033": "03-20",
+          "2034": "03-20",
+          "2035": "03-21"
+        }
+      }
+    },
+    {
+      "id": "JP_showa_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.showa_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-29",
+          "2027": "04-29",
+          "2028": "04-29",
+          "2029": "04-30",
+          "2030": "04-29",
+          "2031": "04-29",
+          "2032": "04-29",
+          "2033": "04-29",
+          "2034": "04-29",
+          "2035": "04-30"
+        }
+      }
+    },
+    {
+      "id": "JP_constitution_memorial_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.constitution_memorial_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-06",
+          "2027": "05-03",
+          "2028": "05-03",
+          "2029": "05-03",
+          "2030": "05-03",
+          "2031": "05-03",
+          "2032": "05-03",
+          "2033": "05-03",
+          "2034": "05-03",
+          "2035": "05-03"
+        }
+      }
+    },
+    {
+      "id": "JP_greenery_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.greenery_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-04",
+          "2027": "05-04",
+          "2028": "05-04",
+          "2029": "05-04",
+          "2030": "05-04",
+          "2031": "05-06",
+          "2032": "05-04",
+          "2033": "05-04",
+          "2034": "05-04",
+          "2035": "05-04"
+        }
+      }
+    },
+    {
+      "id": "JP_childrens_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.childrens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-05",
+          "2027": "05-05",
+          "2028": "05-05",
+          "2029": "05-05",
+          "2030": "05-06",
+          "2031": "05-05",
+          "2032": "05-05",
+          "2033": "05-05",
+          "2034": "05-05",
+          "2035": "05-05"
+        }
+      }
+    },
+    {
+      "id": "JP_marine_day",
+      "countryCode": "JP",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.marine_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 7,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "JP_mountain_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.mountain_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "08-11",
+          "2027": "08-11",
+          "2028": "08-11",
+          "2029": "08-11",
+          "2030": "08-12",
+          "2031": "08-11",
+          "2032": "08-11",
+          "2033": "08-11",
+          "2034": "08-11",
+          "2035": "08-11"
+        }
+      }
+    },
+    {
+      "id": "JP_respect_for_the_aged_day",
+      "countryCode": "JP",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.respect_for_the_aged_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "JP_autumnal_equinox_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.autumnal_equinox_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-23",
+          "2027": "09-23",
+          "2028": "09-22",
+          "2029": "09-23",
+          "2030": "09-23",
+          "2031": "09-23",
+          "2032": "09-22",
+          "2033": "09-23",
+          "2034": "09-23",
+          "2035": "09-23"
+        }
+      }
+    },
+    {
+      "id": "JP_sports_day",
+      "countryCode": "JP",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.sports_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "JP_culture_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.culture_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-03",
+          "2027": "11-03",
+          "2028": "11-03",
+          "2029": "11-03",
+          "2030": "11-04",
+          "2031": "11-03",
+          "2032": "11-03",
+          "2033": "11-03",
+          "2034": "11-03",
+          "2035": "11-03"
+        }
+      }
+    },
+    {
+      "id": "JP_labour_thanksgiving_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.labour_thanksgiving_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-23",
+          "2027": "11-23",
+          "2028": "11-23",
+          "2029": "11-23",
+          "2030": "11-23",
+          "2031": "11-24",
+          "2032": "11-23",
+          "2033": "11-23",
+          "2034": "11-23",
+          "2035": "11-23"
+        }
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "coming_of_age_day": "Coming of Age Day",
+        "foundation_day": "Foundation Day",
+        "the_emperors_birthday": "The Emperor's Birthday",
+        "vernal_equinox_day": "Vernal Equinox Day",
+        "showa_day": "Shōwa Day",
+        "constitution_memorial_day": "Constitution Memorial Day",
+        "greenery_day": "Greenery Day",
+        "childrens_day": "Children's Day",
+        "marine_day": "Marine Day",
+        "mountain_day": "Mountain Day",
+        "respect_for_the_aged_day": "Respect for the Aged Day",
+        "autumnal_equinox_day": "Autumnal Equinox Day",
+        "sports_day": "Sports Day",
+        "culture_day": "Culture Day",
+        "labour_thanksgiving_day": "Labour Thanksgiving Day"
+      },
+      "ja": {
+        "new_years_day": "元旦",
+        "coming_of_age_day": "成人の日",
+        "foundation_day": "建国記念の日",
+        "the_emperors_birthday": "天皇誕生日",
+        "vernal_equinox_day": "春分の日",
+        "showa_day": "昭和の日",
+        "constitution_memorial_day": "憲法記念日",
+        "greenery_day": "みどりの日",
+        "childrens_day": "こどもの日",
+        "marine_day": "海の日",
+        "mountain_day": "山の日",
+        "respect_for_the_aged_day": "敬老の日",
+        "autumnal_equinox_day": "秋分の日",
+        "sports_day": "運動会",
+        "culture_day": "文化の日",
+        "labour_thanksgiving_day": "勤労感謝の日"
+      },
+      "de": {
+        "new_years_day": "Neujahr",
+        "coming_of_age_day": "Coming-of-Age-Tag",
+        "foundation_day": "Gründungstag",
+        "the_emperors_birthday": "Der Geburtstag des Kaisers",
+        "vernal_equinox_day": "Tag der Frühlings-Tagundnachtgleiche",
+        "showa_day": "Shōwa-Tag",
+        "constitution_memorial_day": "Gedenktag der Verfassung",
+        "greenery_day": "Grüner Tag",
+        "childrens_day": "Kindertag",
+        "marine_day": "Tag des Meeres",
+        "mountain_day": "Bergtag",
+        "respect_for_the_aged_day": "Respekt für den Tag im Alter",
+        "autumnal_equinox_day": "Herbstlicher Tag der Tag-und-Nachtgleiche",
+        "sports_day": "Sporttag",
+        "culture_day": "Kulturtag",
+        "labour_thanksgiving_day": "Labor Thanksgiving Day"
+      },
+      "fr": {
+        "new_years_day": "Jour de l'An",
+        "coming_of_age_day": "Journée de passage à l'âge adulte",
+        "foundation_day": "Journée de la Fondation",
+        "the_emperors_birthday": "L'anniversaire de l'Empereur",
+        "vernal_equinox_day": "Jour de l'équinoxe vernal",
+        "showa_day": "Journée Shōwa",
+        "constitution_memorial_day": "Journée commémorative de la Constitution",
+        "greenery_day": "Journée de la verdure",
+        "childrens_day": "Journée des enfants",
+        "marine_day": "Journée maritime",
+        "mountain_day": "Journée de la montagne",
+        "respect_for_the_aged_day": "Journée du respect des personnes âgées",
+        "autumnal_equinox_day": "Jour de l'équinoxe d'automne",
+        "sports_day": "Journée du sport",
+        "culture_day": "Fête de la culture",
+        "labour_thanksgiving_day": "Jour de Thanksgiving du travail"
+      },
+      "es": {
+        "new_years_day": "Día de Año Nuevo",
+        "coming_of_age_day": "Día de la mayoría de edad",
+        "foundation_day": "Día de la Fundación",
+        "the_emperors_birthday": "El cumpleaños del Emperador",
+        "vernal_equinox_day": "Día del Equinoccio de Primavera",
+        "showa_day": "Día Showa",
+        "constitution_memorial_day": "Día Conmemorativo de la Constitución",
+        "greenery_day": "Día Verde",
+        "childrens_day": "Día del Niño",
+        "marine_day": "Día Marino",
+        "mountain_day": "Día de Montaña",
+        "respect_for_the_aged_day": "Día del Respeto a los Ancianos",
+        "autumnal_equinox_day": "Día del Equinoccio de Otoño",
+        "sports_day": "Día del Deporte",
+        "culture_day": "Día de la Cultura",
+        "labour_thanksgiving_day": "Día de Acción de Gracias del Trabajo"
+      },
+      "pt": {
+        "new_years_day": "Dia de Ano Novo",
+        "coming_of_age_day": "Dia da maioridade",
+        "foundation_day": "Dia da Fundação",
+        "the_emperors_birthday": "Aniversário do Imperador",
+        "vernal_equinox_day": "Dia do Equinócio da Primavera",
+        "showa_day": "Dia de Showa",
+        "constitution_memorial_day": "Dia Memorial da Constituição",
+        "greenery_day": "Dia da Hortaliça",
+        "childrens_day": "Dia da Criança",
+        "marine_day": "Dia da Marinha",
+        "mountain_day": "Dia da Montanha",
+        "respect_for_the_aged_day": "Dia do Respeito pelo Idoso",
+        "autumnal_equinox_day": "Dia do Equinócio de Outono",
+        "sports_day": "Dia do Desporto",
+        "culture_day": "Dia da Cultura",
+        "labour_thanksgiving_day": "Dia de Ação de Graças do Trabalho"
+      },
+      "it": {
+        "new_years_day": "Capodanno",
+        "coming_of_age_day": "Giorno del raggiungimento della maggiore età",
+        "foundation_day": "Giorno della Fondazione",
+        "the_emperors_birthday": "Il compleanno dell'Imperatore",
+        "vernal_equinox_day": "Giorno dell'equinozio primaverile",
+        "showa_day": "Giorno dello Showa",
+        "constitution_memorial_day": "Giorno della memoria della Costituzione",
+        "greenery_day": "Giornata del verde",
+        "childrens_day": "Festa dei bambini",
+        "marine_day": "Giornata della Marina",
+        "mountain_day": "Giornata della Montagna",
+        "respect_for_the_aged_day": "Rispetto per la giornata degli anziani",
+        "autumnal_equinox_day": "Giorno dell'equinozio d'autunno",
+        "sports_day": "Giornata dello sport",
+        "culture_day": "Giornata della Cultura",
+        "labour_thanksgiving_day": "Giorno del Ringraziamento del lavoro"
+      },
+      "pl": {
+        "new_years_day": "Nowy Rok",
+        "coming_of_age_day": "Dzień dojrzewania",
+        "foundation_day": "Dzień Fundacji",
+        "the_emperors_birthday": "Urodziny Cesarza",
+        "vernal_equinox_day": "Dzień równonocy wiosennej",
+        "showa_day": "Dzień Showa",
+        "constitution_memorial_day": "Dzień Pamięci Konstytucji",
+        "greenery_day": "Dzień Zieleni",
+        "childrens_day": "Dzień Dziecka",
+        "marine_day": "Dzień Morski",
+        "mountain_day": "Dzień Gór",
+        "respect_for_the_aged_day": "Dzień szacunku dla osób starszych",
+        "autumnal_equinox_day": "Dzień równonocy jesiennej",
+        "sports_day": "Dzień Sportu",
+        "culture_day": "Dzień Kultury",
+        "labour_thanksgiving_day": "Święto Dziękczynienia za Pracę"
+      },
+      "nl": {
+        "new_years_day": "Nieuwjaarsdag",
+        "coming_of_age_day": "Coming of Age-dag",
+        "foundation_day": "Stichtingsdag",
+        "the_emperors_birthday": "De verjaardag van de keizer",
+        "vernal_equinox_day": "Lente-equinoxdag",
+        "showa_day": "Shōwa-dag",
+        "constitution_memorial_day": "Herdenkingsdag van de Grondwet",
+        "greenery_day": "Groendag",
+        "childrens_day": "Kinderdag",
+        "marine_day": "Maritieme dag",
+        "mountain_day": "Bergdag",
+        "respect_for_the_aged_day": "Respect voor de ouderendag",
+        "autumnal_equinox_day": "Herfst-equinoxdag",
+        "sports_day": "Sportdag",
+        "culture_day": "Cultuurdag",
+        "labour_thanksgiving_day": "Thanksgiving-dag van de Arbeid"
+      },
+      "sv": {
+        "new_years_day": "Nyårsdagen",
+        "coming_of_age_day": "Ålderns dag",
+        "foundation_day": "Foundation Day",
+        "the_emperors_birthday": "Kejsarens födelsedag",
+        "vernal_equinox_day": "Vårdagjämningsdagen",
+        "showa_day": "Shōwa-dagen",
+        "constitution_memorial_day": "Constitution Memorial Day",
+        "greenery_day": "Greenery Day",
+        "childrens_day": "Barnens dag",
+        "marine_day": "Marinens dag",
+        "mountain_day": "Bergsdagen",
+        "respect_for_the_aged_day": "Respekt för de äldres dag",
+        "autumnal_equinox_day": "Höstdagjämningen",
+        "sports_day": "Sportens dag",
+        "culture_day": "Kulturdagen",
+        "labour_thanksgiving_day": "Labor Thanksgiving Day"
+      },
+      "ko": {
+        "new_years_day": "설날",
+        "coming_of_age_day": "성년의 날",
+        "foundation_day": "창립기념일",
+        "the_emperors_birthday": "천황 탄신일",
+        "vernal_equinox_day": "춘분일",
+        "showa_day": "쇼와의 날",
+        "constitution_memorial_day": "제헌절 기념일",
+        "greenery_day": "녹지의 날",
+        "childrens_day": "어린이날",
+        "marine_day": "해양의 날",
+        "mountain_day": "산의 날",
+        "respect_for_the_aged_day": "경로의 날",
+        "autumnal_equinox_day": "추분의 날",
+        "sports_day": "운동회",
+        "culture_day": "문화의 날",
+        "labour_thanksgiving_day": "노동감사절"
+      },
+      "zh-Hant": {
+        "new_years_day": "元旦",
+        "coming_of_age_day": "成人日",
+        "foundation_day": "基金會日",
+        "the_emperors_birthday": "天皇誕辰",
+        "vernal_equinox_day": "春分日",
+        "showa_day": "昭和日",
+        "constitution_memorial_day": "憲法紀念日",
+        "greenery_day": "綠化日",
+        "childrens_day": "兒童節",
+        "marine_day": "海洋日",
+        "mountain_day": "山日",
+        "respect_for_the_aged_day": "敬老日",
+        "autumnal_equinox_day": "秋分日",
+        "sports_day": "運動會",
+        "culture_day": "文化日",
+        "labour_thanksgiving_day": "勞動感恩節"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "coming_of_age_day": {
+          "intro": "Der Tag der Volljährigkeit am zweiten Montag im Januar feiert die jungen Menschen, die das Erwachsenenalter erreicht haben.",
+          "history": "Der Feiertag ehrt alle, die im vergangenen Jahr volljährig geworden sind. Er wurzelt in alten Initiationsriten und wurde 1948 als nationaler Feiertag eingeführt, um junge Erwachsene zu ermutigen, ihren Platz in der Gesellschaft einzunehmen.",
+          "traditions": "Die Gemeinden veranstalten „Seijin-shiki”-Zeremonien für die neuen Erwachsenen. Viele junge Frauen tragen prächtige „Furisode”-Kimonos, Männer Anzüge oder traditionelle Kleidung, und Familien machen Erinnerungsfotos.",
+          "funFacts": [
+            "Viele Frauen tragen leuchtende „Furisode”-Kimonos mit langen Ärmeln.",
+            "Städte richten eigene Zeremonien für neue Erwachsene aus.",
+            "Das Erwachsenenalter liegt in Japan nun bei 18 Jahren."
+          ]
+        },
+        "foundation_day": {
+          "intro": "Der Staatsgründungstag am 11. Februar feiert die legendäre Gründung Japans.",
+          "history": "Der Tag erinnert an die mythische Thronbesteigung Kaiser Jimmus, des legendären ersten Kaisers Japans, im Jahr 660 v. Chr. Als Feiertag zur Förderung des Patriotismus eingeführt, wurde er 1966 in moderner Form wiederbelebt, um über die Gründung der Nation nachzudenken.",
+          "traditions": "Verglichen mit den Nationalfeiertagen anderer Länder fallen die Feiern zurückhaltend aus. Es gibt einige patriotische Zeremonien und Beflaggungen sowie vereinzelte Feste und Umzüge, während viele einfach den freien Tag genießen.",
+          "funFacts": [
+            "Er erinnert an den legendären ersten Kaiser Jimmu.",
+            "Das überlieferte Gründungsdatum ist 660 v. Chr.",
+            "Als Feiertag wurde er 1966 wiederbelebt."
+          ]
+        }
+      },
+      "en": {
+        "coming_of_age_day": {
+          "intro": "Coming of Age Day, on the second Monday of January, celebrates young people who have reached adulthood.",
+          "history": "The holiday honours everyone who has reached the age of majority in the past year. It has roots in ancient coming-of-age rites and was set as a national holiday in 1948 to encourage young adults to take their place in society.",
+          "traditions": "Local governments hold 'seijin-shiki' ceremonies for new adults. Many young women wear elaborate 'furisode' kimono and men wear suits or traditional dress, and families take commemorative photos.",
+          "funFacts": [
+            "Many women wear bright 'furisode' kimono with long sleeves.",
+            "Cities hold special ceremonies for new adults.",
+            "The age of adulthood in Japan is now 18."
+          ]
+        },
+        "foundation_day": {
+          "intro": "National Foundation Day on 11 February celebrates the legendary founding of Japan.",
+          "history": "The day marks the mythical accession of Emperor Jimmu, Japan's legendary first emperor, in 660 BC. Established as a holiday to foster patriotism, it was revived in its modern form in 1966 as a day to reflect on the nation's founding.",
+          "traditions": "Compared with other countries' national days, celebrations are low-key. There are some patriotic ceremonies and flag displays, and a few festivals and parades, while many people simply enjoy the day off.",
+          "funFacts": [
+            "It recalls the legendary first emperor, Jimmu.",
+            "The traditional founding date is 660 BC.",
+            "It was revived as a holiday in 1966."
+          ]
+        }
+      },
+      "fr": {
+        "coming_of_age_day": {
+          "intro": "Le jour de la majorité, le deuxième lundi de janvier, célèbre les jeunes ayant atteint l’âge adulte.",
+          "history": "La fête honore tous ceux qui ont atteint la majorité au cours de l’année écoulée. Elle puise dans d’anciens rites de passage et fut instaurée comme jour férié national en 1948 pour encourager les jeunes adultes à prendre leur place dans la société.",
+          "traditions": "Les municipalités organisent des cérémonies « seijin-shiki » pour les nouveaux adultes. Beaucoup de jeunes femmes portent de somptueux kimonos « furisode », les hommes un costume ou une tenue traditionnelle, et les familles prennent des photos souvenirs.",
+          "funFacts": [
+            "Beaucoup de femmes portent des kimonos « furisode » à longues manches.",
+            "Les villes organisent des cérémonies pour les nouveaux adultes.",
+            "L’âge de la majorité au Japon est désormais de 18 ans."
+          ]
+        },
+        "foundation_day": {
+          "intro": "Le jour de la fondation nationale, le 11 février, célèbre la fondation légendaire du Japon.",
+          "history": "Le jour marque l’accession mythique de l’empereur Jimmu, légendaire premier empereur du Japon, en 660 av. J.-C. Instauré comme fête pour stimuler le patriotisme, il fut rétabli sous sa forme moderne en 1966 comme journée de réflexion sur la fondation du pays.",
+          "traditions": "Comparées aux fêtes nationales d’autres pays, les célébrations sont discrètes. Il y a quelques cérémonies patriotiques et des drapeaux, ainsi que quelques fêtes et défilés, tandis que beaucoup profitent simplement du jour férié.",
+          "funFacts": [
+            "Il rappelle le légendaire premier empereur, Jimmu.",
+            "La date de fondation traditionnelle est 660 av. J.-C.",
+            "Il fut rétabli comme jour férié en 1966."
+          ]
+        }
+      },
+      "es": {
+        "coming_of_age_day": {
+          "intro": "El Día de la Mayoría de Edad, el segundo lunes de enero, celebra a los jóvenes que han alcanzado la edad adulta.",
+          "history": "La fiesta honra a todos los que han cumplido la mayoría de edad en el último año. Tiene raíces en antiguos ritos de iniciación y se instauró como festivo nacional en 1948 para animar a los jóvenes adultos a ocupar su lugar en la sociedad.",
+          "traditions": "Los municipios celebran ceremonias «seijin-shiki» para los nuevos adultos. Muchas jóvenes visten suntuosos kimonos «furisode», los hombres traje o ropa tradicional, y las familias se hacen fotos de recuerdo.",
+          "funFacts": [
+            "Muchas mujeres visten vistosos kimonos «furisode» de mangas largas.",
+            "Las ciudades organizan ceremonias para los nuevos adultos.",
+            "La mayoría de edad en Japón es ahora a los 18 años."
+          ]
+        },
+        "foundation_day": {
+          "intro": "El Día de la Fundación Nacional, el 11 de febrero, celebra la fundación legendaria de Japón.",
+          "history": "El día marca la mítica entronización del emperador Jimmu, legendario primer emperador de Japón, en el año 660 a. C. Instaurado como fiesta para fomentar el patriotismo, se restableció en su forma moderna en 1966 como jornada de reflexión sobre la fundación del país.",
+          "traditions": "En comparación con las fiestas nacionales de otros países, las celebraciones son discretas. Hay algunas ceremonias patrióticas y banderas, además de unas pocas fiestas y desfiles, mientras muchos simplemente disfrutan del día libre.",
+          "funFacts": [
+            "Recuerda al legendario primer emperador, Jimmu.",
+            "La fecha tradicional de fundación es el 660 a. C.",
+            "Se restableció como festivo en 1966."
+          ]
+        }
+      },
+      "pt": {
+        "coming_of_age_day": {
+          "intro": "O Dia da Maioridade, na segunda segunda-feira de janeiro, celebra os jovens que atingiram a idade adulta.",
+          "history": "A festa honra todos os que atingiram a maioridade no último ano. Tem raízes em antigos ritos de iniciação e foi instituída como feriado nacional em 1948 para incentivar os jovens adultos a ocuparem o seu lugar na sociedade.",
+          "traditions": "Os municípios realizam cerimónias «seijin-shiki» para os novos adultos. Muitas jovens vestem sumptuosos quimonos «furisode», os homens fato ou traje tradicional, e as famílias tiram fotografias de recordação.",
+          "funFacts": [
+            "Muitas mulheres vestem vistosos quimonos «furisode» de mangas longas.",
+            "As cidades realizam cerimónias para os novos adultos.",
+            "A maioridade no Japão é agora aos 18 anos."
+          ]
+        },
+        "foundation_day": {
+          "intro": "O Dia da Fundação Nacional, 11 de fevereiro, celebra a fundação lendária do Japão.",
+          "history": "O dia marca a mítica entronização do imperador Jimmu, lendário primeiro imperador do Japão, em 660 a.C. Instituído como festa para fomentar o patriotismo, foi restabelecido na sua forma moderna em 1966 como dia de reflexão sobre a fundação do país.",
+          "traditions": "Em comparação com as festas nacionais de outros países, as celebrações são discretas. Há algumas cerimónias patrióticas e bandeiras, além de algumas festas e desfiles, enquanto muitos simplesmente aproveitam o dia de folga.",
+          "funFacts": [
+            "Recorda o lendário primeiro imperador, Jimmu.",
+            "A data tradicional de fundação é 660 a.C.",
+            "Foi restabelecido como feriado em 1966."
+          ]
+        }
+      },
+      "it": {
+        "coming_of_age_day": {
+          "intro": "Il Giorno della maggiore età, il secondo lunedì di gennaio, celebra i giovani che hanno raggiunto l’età adulta.",
+          "history": "La festa onora tutti coloro che hanno raggiunto la maggiore età nell’ultimo anno. Affonda le radici in antichi riti di passaggio e fu istituita come festività nazionale nel 1948 per incoraggiare i giovani adulti a prendere il loro posto nella società.",
+          "traditions": "I comuni organizzano cerimonie «seijin-shiki» per i nuovi adulti. Molte ragazze indossano sontuosi kimono «furisode», gli uomini un completo o un abito tradizionale, e le famiglie scattano foto ricordo.",
+          "funFacts": [
+            "Molte donne indossano vivaci kimono «furisode» a maniche lunghe.",
+            "Le città organizzano cerimonie per i nuovi adulti.",
+            "In Giappone la maggiore età è ora a 18 anni."
+          ]
+        },
+        "foundation_day": {
+          "intro": "Il Giorno della fondazione nazionale, l’11 febbraio, celebra la fondazione leggendaria del Giappone.",
+          "history": "La giornata segna la mitica ascesa al trono dell’imperatore Jimmu, leggendario primo imperatore del Giappone, nel 660 a.C. Istituito come festa per promuovere il patriottismo, fu ripristinato nella forma moderna nel 1966 come giorno di riflessione sulla fondazione del Paese.",
+          "traditions": "Rispetto alle feste nazionali di altri Paesi, le celebrazioni sono sobrie. Vi sono alcune cerimonie patriottiche e bandiere, oltre a qualche festa e sfilata, mentre molti semplicemente godono del giorno libero.",
+          "funFacts": [
+            "Ricorda il leggendario primo imperatore, Jimmu.",
+            "La data tradizionale di fondazione è il 660 a.C.",
+            "Fu ripristinato come festività nel 1966."
+          ]
+        }
+      },
+      "pl": {
+        "coming_of_age_day": {
+          "intro": "Dzień Pełnoletności, w drugi poniedziałek stycznia, świętuje młodych ludzi, którzy osiągnęli dorosłość.",
+          "history": "Święto czci wszystkich, którzy w minionym roku osiągnęli pełnoletność. Wywodzi się z dawnych obrzędów przejścia i ustanowiono je jako święto narodowe w 1948 roku, by zachęcić młodych dorosłych do zajęcia miejsca w społeczeństwie.",
+          "traditions": "Samorządy organizują ceremonie „seijin-shiki” dla nowych dorosłych. Wiele młodych kobiet zakłada wystawne kimona „furisode”, mężczyźni garnitury lub strój tradycyjny, a rodziny robią pamiątkowe zdjęcia.",
+          "funFacts": [
+            "Wiele kobiet nosi barwne kimona „furisode” z długimi rękawami.",
+            "Miasta organizują ceremonie dla nowych dorosłych.",
+            "Pełnoletność w Japonii wynosi teraz 18 lat."
+          ]
+        },
+        "foundation_day": {
+          "intro": "Dzień Założenia Państwa, 11 lutego, świętuje legendarne założenie Japonii.",
+          "history": "Dzień upamiętnia mityczne wstąpienie na tron cesarza Jimmu, legendarnego pierwszego cesarza Japonii, w 660 r. p.n.e. Ustanowiony jako święto krzewiące patriotyzm, został przywrócony w nowoczesnej formie w 1966 roku jako dzień refleksji nad założeniem narodu.",
+          "traditions": "W porównaniu ze świętami narodowymi innych krajów obchody są stonowane. Odbywają się pewne uroczystości patriotyczne i wywieszanie flag oraz nieliczne festyny i pochody, a wielu po prostu cieszy się wolnym dniem.",
+          "funFacts": [
+            "Przypomina legendarnego pierwszego cesarza Jimmu.",
+            "Tradycyjna data założenia to 660 r. p.n.e.",
+            "Jako święto przywrócono go w 1966 roku."
+          ]
+        }
+      },
+      "nl": {
+        "coming_of_age_day": {
+          "intro": "Op de Dag van de Volwassenwording, die valt op de tweede maandag van januari, worden jongeren gevierd die volwassen zijn geworden.",
+          "history": "Deze feestdag is een eerbetoon aan iedereen die het afgelopen jaar meerderjarig is geworden. De feestdag vindt zijn oorsprong in oude volwassenheidsrituelen en werd in 1948 tot nationale feestdag uitgeroepen om jongvolwassenen aan te moedigen hun plaats in de samenleving in te nemen.",
+          "traditions": "Lokale overheden organiseren ‘seijin-shiki’-ceremonies voor nieuwe volwassenen. Veel jonge vrouwen dragen prachtig versierde ‘furisode’-kimono’s en mannen dragen pakken of traditionele kleding, en gezinnen maken herdenkingsfoto’s.",
+          "funFacts": [
+            "Veel vrouwen dragen kleurrijke ‘furisode’-kimono’s met lange mouwen.",
+            "Steden organiseren speciale ceremonies voor pasvolwassenen.",
+            "De meerderjarigheidsleeftijd in Japan is nu 18 jaar."
+          ]
+        },
+        "foundation_day": {
+          "intro": "Op de Nationale Oprichtingsdag op 11 februari wordt de legendarische stichting van Japan gevierd.",
+          "history": "Op deze dag wordt de mythische troonsbestijging van keizer Jimmu, de legendarische eerste keizer van Japan, in 660 v.Chr. herdacht. Deze feestdag, die oorspronkelijk was ingesteld om het patriottisme te bevorderen, werd in 1966 in zijn moderne vorm opnieuw ingevoerd als een dag om stil te staan bij de stichting van de natie.",
+          "traditions": "In vergelijking met de nationale feestdagen van andere landen zijn de vieringen hier vrij bescheiden. Er zijn enkele patriottische ceremonies en vlaggenparades, en een paar festivals en optochten, terwijl veel mensen gewoon genieten van de vrije dag.",
+          "funFacts": [
+            "Het doet denken aan de legendarische eerste keizer, Jimmu.",
+            "Volgens de overlevering is de stichtingsdatum 660 v.Chr.",
+            "In 1966 werd het weer als feestdag ingevoerd."
+          ]
+        }
+      },
+      "sv": {
+        "coming_of_age_day": {
+          "intro": "Vuxendagen, som infaller den andra måndagen i januari, firar ungdomar som har nått vuxen ålder.",
+          "history": "Helgdagen är tillägnad alla som har fyllt 18 år under det senaste året. Den har sina rötter i forntida övergångsriter och infördes som nationell helgdag 1948 för att uppmuntra unga vuxna att ta sin plats i samhället.",
+          "traditions": "Kommunerna anordnar ”seijin-shiki”-ceremonier för de som just blivit myndiga. Många unga kvinnor bär utsmyckade ”furisode”-kimonor och männen bär kostymer eller traditionella kläder, och familjerna tar minnesfoton.",
+          "funFacts": [
+            "Många kvinnor bär färgglada ”furisode”-kimonor med långa ärmar.",
+            "Städerna anordnar särskilda ceremonier för de nyblivna vuxna.",
+            "I Japan är myndighetsåldern numera 18 år."
+          ]
+        },
+        "foundation_day": {
+          "intro": "Den nationella grundläggningsdagen den 11 februari firar Japans legendariska grundande.",
+          "history": "Dagen markerar den mytiska tronbestigningen av kejsar Jimmu, Japans legendariske förste kejsare, år 660 f.Kr. Den instiftades som en helgdag för att främja patriotismen och återinfördes i sin moderna form år 1966 som en dag för att reflektera över nationens grundande.",
+          "traditions": "Jämfört med andra länders nationaldagar är firandet ganska återhållsamt. Det hålls några patriotiska ceremonier och flaggceremonier, samt ett fåtal festivaler och parader, medan många helt enkelt njuter av ledigheten.",
+          "funFacts": [
+            "Det påminner om den legendariske förste kejsaren, Jimmu.",
+            "Det traditionella grundläggningsåret är 660 f.Kr.",
+            "Den återinfördes som helgdag år 1966."
+          ]
+        }
+      },
+      "ja": {
+        "coming_of_age_day": {
+          "intro": "1月の第2月曜日に行われる「成人の日」は、成人となった若者たちを祝う日です。",
+          "history": "この祝日は、過去1年間に成人年齢に達したすべての人を称えるものです。その起源は古代の成人式にあり、若者が社会の一員としての役割を果たすよう促すため、1948年に国民の祝日として制定されました。",
+          "traditions": "地方自治体では、成人した若者たちのために「成人式」が行われます。多くの若い女性は華やかな「振袖」を着て、男性はスーツや和装を身に着け、家族と一緒に記念写真を撮ります。",
+          "funFacts": [
+            "多くの女性が、鮮やかな色の長袖の「振袖」を着ています。",
+            "各都市では、成人したばかりの人々のために特別な式典が行われます。",
+            "日本では現在、成人の年齢は18歳となっています。"
+          ]
+        },
+        "foundation_day": {
+          "intro": "2月11日の「建国記念日」は、日本の伝説的な建国を祝う日です。",
+          "history": "この日は、紀元前660年に日本の伝説上の初代天皇である神武天皇が即位したと伝えられている日です。愛国心を育むことを目的として祝日として制定され、1966年に国の起源を振り返る日として現代的な形で復活しました。",
+          "traditions": "他国の建国記念日と比べると、祝賀行事は控えめだ。愛国的な式典や国旗の掲揚、いくつかの祭りやパレードが行われるものの、多くの人々は単に休日を楽しんでいる。",
+          "funFacts": [
+            "それは、伝説の初代天皇である神武天皇を彷彿とさせる。",
+            "伝統的な建国年は紀元前660年とされています。",
+            "1966年に祝日として復活した。"
+          ]
+        }
+      },
+      "ko": {
+        "coming_of_age_day": {
+          "intro": "1월 둘째 주 월요일인 성년의 날은 성인이 된 젊은이들을 축하하는 날입니다.",
+          "history": "이 공휴일은 지난 1년 동안 성년이 된 모든 사람을 기리는 날입니다. 이 날은 고대의 성인식에서 유래했으며, 젊은이들이 사회에서 제 몫을 다하도록 장려하기 위해 1948년에 공휴일로 지정되었습니다.",
+          "traditions": "지방 자치 단체에서는 성인이 된 이들을 위한 ‘세이진식’ 행사를 개최합니다. 많은 젊은 여성들은 화려한 ‘후리소데’ 기모노를 입고, 남성들은 정장이나 전통 의상을 차려입으며, 가족들은 기념사진을 찍습니다.",
+          "funFacts": [
+            "많은 여성들이 소매가 긴 밝은 색의 ‘후리소데’ 기모노를 입습니다.",
+            "각 도시에서는 성인이 된 이들을 위해 특별한 행사를 개최합니다.",
+            "일본의 성인 연령은 현재 18세입니다."
+          ]
+        },
+        "foundation_day": {
+          "intro": "2월 11일 ‘건국 기념일’은 일본의 전설적인 건국 과정을 기념하는 날입니다.",
+          "history": "이 날은 기원전 660년, 일본의 전설적인 초대 천황인 진무 천황이 즉위했다는 신화적 사건을 기념하는 날입니다. 애국심을 고취하기 위해 공휴일로 제정된 이 날은, 1966년에 국가 건국을 되새기는 날로서 현대적인 형태로 부활했습니다.",
+          "traditions": "다른 나라들의 국경일에 비하면 기념 행사는 비교적 소박하게 치러집니다. 애국적인 행사와 국기 게양식이 열리고, 몇 가지 축제와 퍼레이드도 있지만, 많은 사람들은 그저 휴일을 즐기며 보냅니다.",
+          "funFacts": [
+            "이는 전설적인 초대 황제인 진무 천황을 떠올리게 한다.",
+            "전통적으로 전해지는 건국 연도는 기원전 660년입니다.",
+            "1966년에 공휴일로 부활했다."
+          ]
+        }
+      },
+      "zh-Hant": {
+        "coming_of_age_day": {
+          "intro": "「成人日」定於一月的第二個星期一，旨在慶祝已邁入成年的年輕人。",
+          "history": "這個節日旨在向過去一年內年滿法定成年年齡的所有人致敬。其源於古代的成年禮，並於1948年被定為國定假日，旨在鼓勵年輕成年人融入社會。",
+          "traditions": "地方政府會為新成年的年輕人舉辦「成人禮」。許多年輕女性身著華麗的「振袖」和服，男性則穿著西裝或傳統服裝，全家人會一起拍攝紀念照。",
+          "funFacts": [
+            "許多女性身穿色彩鮮豔、長袖的「振袖」和服。",
+            "各城市都會為新成年人舉行特別的儀式。",
+            "在日本，成年年齡現已定為18歲。"
+          ]
+        },
+        "foundation_day": {
+          "intro": "2月11日的「建國紀念日」是為了紀念日本傳說中的建國。",
+          "history": "這一天紀念日本傳說中的首任天皇——神武天皇於西元前660年登基。該節日最初設立旨在培養愛國情懷，並於1966年以現代形式恢復，作為反思國家建國歷史的日子。",
+          "traditions": "與其他國家的國慶日相比，慶祝活動較為低調。雖然會有一些愛國儀式和升旗活動，以及少數節慶和遊行，但許多人只是單純地享受這一天的假期。",
+          "funFacts": [
+            "這讓人聯想到傳說中的第一位皇帝——神武天皇。",
+            "傳統上公認的建城日期是公元前660年。",
+            "該節日於1966年重新恢復為法定假日。"
+          ]
+        }
+      }
+    }
+  },
+  "images": {
+    "coming_of_age_day": [
+      {
+        "path": "images/JP/coming_of_age_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/JP/coming_of_age_day/02.jpg",
+        "primary": false,
+        "credit": "Marc Dalmulder",
+        "license": "CC BY 2.0"
+      },
+      {
+        "path": "images/JP/coming_of_age_day/03.jpg",
+        "primary": false,
+        "credit": "Nikita from Russian Federation",
+        "license": "CC BY 2.0"
+      }
+    ],
+    "foundation_day": [
+      {
+        "path": "images/JP/foundation_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/JP/foundation_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/JP/foundation_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 9
+}

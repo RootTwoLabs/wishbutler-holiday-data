@@ -1,0 +1,1080 @@
+{
+  "countryCode": "HK",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "HK_new_years_day",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-01",
+          "2027": "01-01",
+          "2028": "01-01",
+          "2029": "01-01",
+          "2030": "01-01",
+          "2031": "01-01",
+          "2032": "01-01",
+          "2033": "01-01",
+          "2034": "01-02",
+          "2035": "01-01"
+        }
+      }
+    },
+    {
+      "id": "HK_lunar_new_year",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.lunar_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-17",
+          "2027": "02-06",
+          "2028": "01-26",
+          "2029": "02-13",
+          "2030": "02-04",
+          "2031": "01-23",
+          "2032": "02-11",
+          "2033": "01-31",
+          "2034": "02-20",
+          "2035": "02-08"
+        }
+      }
+    },
+    {
+      "id": "HK_second_day_of_lunar_new_year",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.second_day_of_lunar_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-18",
+          "2027": "02-08",
+          "2028": "01-27",
+          "2029": "02-14",
+          "2030": "02-05",
+          "2031": "01-24",
+          "2032": "02-12",
+          "2033": "02-01",
+          "2034": "02-21",
+          "2035": "02-09"
+        }
+      }
+    },
+    {
+      "id": "HK_third_day_of_lunar_new_year",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.third_day_of_lunar_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-19",
+          "2027": "02-09",
+          "2028": "01-28",
+          "2029": "02-15",
+          "2030": "02-06",
+          "2031": "01-25",
+          "2032": "02-13",
+          "2033": "02-02",
+          "2034": "02-22",
+          "2035": "02-10"
+        }
+      }
+    },
+    {
+      "id": "HK_good_friday",
+      "countryCode": "HK",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "HK_holy_saturday",
+      "countryCode": "HK",
+      "kind": "easter_relative",
+      "labelKey": "holidays.holy_saturday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -1
+      }
+    },
+    {
+      "id": "HK_ching_ming_festival",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.ching_ming_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-06",
+          "2027": "04-05",
+          "2028": "04-04",
+          "2029": "04-04",
+          "2030": "04-04",
+          "2031": "04-05",
+          "2032": "04-05",
+          "2033": "04-04",
+          "2034": "04-04",
+          "2035": "04-04"
+        }
+      }
+    },
+    {
+      "id": "HK_easter_monday",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_monday_hk",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-07",
+          "2027": "03-29",
+          "2028": "04-17",
+          "2029": "04-02",
+          "2030": "04-22",
+          "2031": "04-14",
+          "2032": "03-29",
+          "2033": "04-18",
+          "2034": "04-10",
+          "2035": "03-26"
+        }
+      }
+    },
+    {
+      "id": "HK_labour_day",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.labour_day_hk",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-01",
+          "2027": "05-01",
+          "2028": "05-01",
+          "2029": "05-01",
+          "2030": "05-01",
+          "2031": "05-01",
+          "2032": "05-01",
+          "2033": "05-02",
+          "2034": "05-01",
+          "2035": "05-01"
+        }
+      }
+    },
+    {
+      "id": "HK_buddhas_birthday",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.buddhas_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-25",
+          "2027": "05-13",
+          "2028": "05-02",
+          "2029": "05-21",
+          "2030": "05-09",
+          "2031": "04-29",
+          "2032": "05-17",
+          "2033": "05-06",
+          "2034": "05-25",
+          "2035": "05-15"
+        }
+      }
+    },
+    {
+      "id": "HK_dragon_boat_festival",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.dragon_boat_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "06-19",
+          "2027": "06-09",
+          "2028": "05-29",
+          "2029": "06-16",
+          "2030": "06-05",
+          "2031": "06-24",
+          "2032": "06-12",
+          "2033": "06-01",
+          "2034": "06-20",
+          "2035": "06-11"
+        }
+      }
+    },
+    {
+      "id": "HK_hong_kong_special_administrative_region_establishment_day",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.hong_kong_special_administrative_region_establishment_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "07-01",
+          "2027": "07-01",
+          "2028": "07-01",
+          "2029": "07-02",
+          "2030": "07-01",
+          "2031": "07-01",
+          "2032": "07-01",
+          "2033": "07-01",
+          "2034": "07-01",
+          "2035": "07-02"
+        }
+      }
+    },
+    {
+      "id": "HK_day_following_the_mid_autumn_festival",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.day_following_the_mid_autumn_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-26",
+          "2027": "09-16",
+          "2028": "10-04",
+          "2029": "09-24",
+          "2030": "09-13",
+          "2031": "10-02",
+          "2032": "09-20",
+          "2033": "09-09",
+          "2034": "09-28",
+          "2035": "09-17"
+        }
+      }
+    },
+    {
+      "id": "HK_national_day",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.national_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "10-01",
+          "2027": "10-01",
+          "2028": "10-02",
+          "2029": "10-01",
+          "2030": "10-01",
+          "2031": "10-01",
+          "2032": "10-01",
+          "2033": "10-01",
+          "2034": "10-02",
+          "2035": "10-01"
+        }
+      }
+    },
+    {
+      "id": "HK_chung_yeung_festival",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.chung_yeung_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "10-19",
+          "2027": "10-08",
+          "2028": "10-26",
+          "2029": "10-16",
+          "2030": "10-05",
+          "2031": "10-24",
+          "2032": "10-12",
+          "2033": "10-01",
+          "2034": "10-20",
+          "2035": "10-09"
+        }
+      }
+    },
+    {
+      "id": "HK_christmas_day",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.christmas_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "12-25",
+          "2027": "12-25",
+          "2028": "12-25",
+          "2029": "12-25",
+          "2030": "12-25",
+          "2031": "12-25",
+          "2032": "12-25",
+          "2033": "12-26",
+          "2034": "12-25",
+          "2035": "12-25"
+        }
+      }
+    },
+    {
+      "id": "HK_boxing_day",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.boxing_day_hk",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "12-26",
+          "2027": "12-27",
+          "2028": "12-26",
+          "2029": "12-26",
+          "2030": "12-26",
+          "2031": "12-26",
+          "2032": "12-27",
+          "2033": "12-26",
+          "2034": "12-26",
+          "2035": "12-26"
+        }
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "lunar_new_year": "Lunar New Year",
+        "second_day_of_lunar_new_year": "Second day of Lunar New Year",
+        "third_day_of_lunar_new_year": "Third day of Lunar New Year",
+        "holy_saturday": "Holy Saturday",
+        "ching_ming_festival": "Ching Ming Festival",
+        "easter_monday_hk": "Easter Monday",
+        "labour_day_hk": "Labour Day",
+        "buddhas_birthday": "Buddha's Birthday",
+        "dragon_boat_festival": "Dragon Boat Festival",
+        "hong_kong_special_administrative_region_establishment_day": "Hong Kong Special Administrative Region Establishment Day",
+        "day_following_the_mid_autumn_festival": "Day following the Mid-Autumn Festival",
+        "national_day": "National Day",
+        "chung_yeung_festival": "Chung Yeung Festival",
+        "christmas_day": "Christmas Day",
+        "boxing_day_hk": "Boxing Day"
+      },
+      "zh": {
+        "new_years_day": "元旦新年",
+        "lunar_new_year": "農曆年初一",
+        "second_day_of_lunar_new_year": "農曆年初二",
+        "third_day_of_lunar_new_year": "農曆年初三",
+        "holy_saturday": "耶穌受難節翌日",
+        "ching_ming_festival": "清明節",
+        "easter_monday_hk": "復活節星期一",
+        "labour_day_hk": "勞動節",
+        "buddhas_birthday": "佛誕",
+        "dragon_boat_festival": "端午節",
+        "hong_kong_special_administrative_region_establishment_day": "香港特別行政區成立紀念日",
+        "day_following_the_mid_autumn_festival": "中秋節翌日",
+        "national_day": "中華人民共和國國慶日",
+        "chung_yeung_festival": "重陽節",
+        "christmas_day": "聖誕節",
+        "boxing_day_hk": "聖誕節翌日"
+      },
+      "de": {
+        "new_years_day": "Neujahr",
+        "lunar_new_year": "Mondneujahr",
+        "second_day_of_lunar_new_year": "Zweiter Tag des neuen Mondjahres",
+        "third_day_of_lunar_new_year": "Dritter Tag des neuen Mondjahres",
+        "holy_saturday": "Karsamstag",
+        "ching_ming_festival": "Ching Ming Festival",
+        "easter_monday_hk": "Ostermontag",
+        "labour_day_hk": "Tag der Arbeit",
+        "buddhas_birthday": "Buddhas Geburtstag",
+        "dragon_boat_festival": "Drachenbootfest",
+        "hong_kong_special_administrative_region_establishment_day": "Gründungstag der Sonderverwaltungszone Hongkong",
+        "day_following_the_mid_autumn_festival": "Tag nach dem Mittherbstfest",
+        "national_day": "Nationalfeiertag",
+        "chung_yeung_festival": "Chung Yeung Festival",
+        "christmas_day": "Weihnachtstag",
+        "boxing_day_hk": "Boxing Day"
+      },
+      "fr": {
+        "new_years_day": "Jour de l'An",
+        "lunar_new_year": "Nouvel An lunaire",
+        "second_day_of_lunar_new_year": "Deuxième jour du Nouvel An lunaire",
+        "third_day_of_lunar_new_year": "Troisième jour du Nouvel An lunaire",
+        "holy_saturday": "Samedi Saint",
+        "ching_ming_festival": "Festival Ching Ming",
+        "easter_monday_hk": "Lundi de Pâques",
+        "labour_day_hk": "Fête du Travail",
+        "buddhas_birthday": "Anniversaire de Bouddha",
+        "dragon_boat_festival": "Festival des bateaux-dragons",
+        "hong_kong_special_administrative_region_establishment_day": "Journée de création de la région administrative spéciale de Hong Kong",
+        "day_following_the_mid_autumn_festival": "Jour suivant la Fête de la Mi-Automne",
+        "national_day": "Fête nationale",
+        "chung_yeung_festival": "Festival Chung Yeung",
+        "christmas_day": "Jour de Noël",
+        "boxing_day_hk": "Le lendemain de Noël"
+      },
+      "es": {
+        "new_years_day": "Día de Año Nuevo",
+        "lunar_new_year": "Año Nuevo Lunar",
+        "second_day_of_lunar_new_year": "Segundo día del Año Nuevo Lunar",
+        "third_day_of_lunar_new_year": "Tercer día del Año Nuevo Lunar",
+        "holy_saturday": "Sábado Santo",
+        "ching_ming_festival": "Festival Ching Ming",
+        "easter_monday_hk": "Lunes de Pascua",
+        "labour_day_hk": "Día del Trabajo",
+        "buddhas_birthday": "Cumpleaños de Buda",
+        "dragon_boat_festival": "Festival del Barco Dragón",
+        "hong_kong_special_administrative_region_establishment_day": "Día del establecimiento de la región administrativa especial de Hong Kong",
+        "day_following_the_mid_autumn_festival": "Día siguiente al Festival del Medio Otoño",
+        "national_day": "Día Nacional",
+        "chung_yeung_festival": "Festival Chung Yeung",
+        "christmas_day": "Día de Navidad",
+        "boxing_day_hk": "Día del Boxeo"
+      },
+      "pt": {
+        "new_years_day": "Dia de Ano Novo",
+        "lunar_new_year": "Ano Novo Lunar",
+        "second_day_of_lunar_new_year": "Segundo dia do Ano Novo Lunar",
+        "third_day_of_lunar_new_year": "Terceiro dia do Ano Novo Lunar",
+        "holy_saturday": "Sábado Santo",
+        "ching_ming_festival": "Festival Ching Ming",
+        "easter_monday_hk": "Segunda-feira de Páscoa",
+        "labour_day_hk": "Dia do Trabalhador",
+        "buddhas_birthday": "Aniversário de Buda",
+        "dragon_boat_festival": "Festival do Barco-Dragão",
+        "hong_kong_special_administrative_region_establishment_day": "Dia do Estabelecimento da Região Administrativa Especial de Hong Kong",
+        "day_following_the_mid_autumn_festival": "Dia seguinte ao Festival do Meio Outono",
+        "national_day": "Dia Nacional",
+        "chung_yeung_festival": "Festival Chung Yeung",
+        "christmas_day": "Dia de Natal",
+        "boxing_day_hk": "Boxing Day"
+      },
+      "it": {
+        "new_years_day": "Capodanno",
+        "lunar_new_year": "Capodanno lunare",
+        "second_day_of_lunar_new_year": "Secondo giorno del Capodanno lunare",
+        "third_day_of_lunar_new_year": "Terzo giorno del Capodanno lunare",
+        "holy_saturday": "Sabato Santo",
+        "ching_ming_festival": "Festival Ching Ming",
+        "easter_monday_hk": "Lunedì di Pasquetta",
+        "labour_day_hk": "Festa dei lavoratori",
+        "buddhas_birthday": "Compleanno di Buddha",
+        "dragon_boat_festival": "Festa delle Barche Drago",
+        "hong_kong_special_administrative_region_establishment_day": "Giorno dell'istituzione della regione amministrativa speciale di Hong Kong",
+        "day_following_the_mid_autumn_festival": "Il giorno successivo alla Festa di Metà Autunno",
+        "national_day": "Festa nazionale",
+        "chung_yeung_festival": "Festival di Chung Yeung",
+        "christmas_day": "Il giorno di Natale",
+        "boxing_day_hk": "Santo Stefano"
+      },
+      "pl": {
+        "new_years_day": "Nowy Rok",
+        "lunar_new_year": "Księżycowy Nowy Rok",
+        "second_day_of_lunar_new_year": "Drugi dzień księżycowego Nowego Roku",
+        "third_day_of_lunar_new_year": "Trzeci dzień księżycowego Nowego Roku",
+        "holy_saturday": "Wielka Sobota",
+        "ching_ming_festival": "Festiwal Ching Ming",
+        "easter_monday_hk": "Poniedziałek Wielkanocny",
+        "labour_day_hk": "Święto Pracy",
+        "buddhas_birthday": "Urodziny Buddy",
+        "dragon_boat_festival": "Festiwal Smoczych Łodzi",
+        "hong_kong_special_administrative_region_establishment_day": "Dzień utworzenia Specjalnego Regionu Administracyjnego Hongkongu",
+        "day_following_the_mid_autumn_festival": "Dzień następujący po Święcie Środka Jesieni",
+        "national_day": "Święto Narodowe",
+        "chung_yeung_festival": "Festiwal Chung Yeung",
+        "christmas_day": "Boże Narodzenie",
+        "boxing_day_hk": "Drugi dzień świąt"
+      },
+      "nl": {
+        "new_years_day": "Nieuwjaarsdag",
+        "lunar_new_year": "Maannieuwjaar",
+        "second_day_of_lunar_new_year": "Tweede dag van het nieuwe maanjaar",
+        "third_day_of_lunar_new_year": "Derde dag van het nieuwe maanjaar",
+        "holy_saturday": "Stille Zaterdag",
+        "ching_ming_festival": "Ching Ming-festival",
+        "easter_monday_hk": "Paasmaandag",
+        "labour_day_hk": "Dag van de Arbeid",
+        "buddhas_birthday": "Boeddha's verjaardag",
+        "dragon_boat_festival": "Drakenbootfestival",
+        "hong_kong_special_administrative_region_establishment_day": "Oprichtingsdag van de Speciale Administratieve Regio Hongkong",
+        "day_following_the_mid_autumn_festival": "Dag na het Midherfstfestival",
+        "national_day": "Nationale feestdag",
+        "chung_yeung_festival": "Chung Yeung-festival",
+        "christmas_day": "Eerste Kerstdag",
+        "boxing_day_hk": "Tweede Kerstdag"
+      },
+      "sv": {
+        "new_years_day": "Nyårsdagen",
+        "lunar_new_year": "Månnyår",
+        "second_day_of_lunar_new_year": "Andra dagen av Lunar New Year",
+        "third_day_of_lunar_new_year": "Tredje dagen av månnyåret",
+        "holy_saturday": "Heliga lördag",
+        "ching_ming_festival": "Ching Ming-festivalen",
+        "easter_monday_hk": "Annandag påsk",
+        "labour_day_hk": "Labor Day",
+        "buddhas_birthday": "Buddhas födelsedag",
+        "dragon_boat_festival": "Drakbåtsfestival",
+        "hong_kong_special_administrative_region_establishment_day": "Hong Kong Special Administrative Region Etablering Day",
+        "day_following_the_mid_autumn_festival": "Dagen efter midhöstfestivalen",
+        "national_day": "Nationaldagen",
+        "chung_yeung_festival": "Chung Yeung-festivalen",
+        "christmas_day": "Juldagen",
+        "boxing_day_hk": "Annandag jul"
+      },
+      "ja": {
+        "new_years_day": "元旦",
+        "lunar_new_year": "旧正月",
+        "second_day_of_lunar_new_year": "旧正月 2 日目",
+        "third_day_of_lunar_new_year": "旧正月 3 日目",
+        "holy_saturday": "聖土曜日",
+        "ching_ming_festival": "清明節",
+        "easter_monday_hk": "イースターマンデー",
+        "labour_day_hk": "レイバーデー",
+        "buddhas_birthday": "お釈迦様の誕生日",
+        "dragon_boat_festival": "端午節",
+        "hong_kong_special_administrative_region_establishment_day": "香港特別行政区設立の日",
+        "day_following_the_mid_autumn_festival": "中秋節の翌日",
+        "national_day": "建国記念日",
+        "chung_yeung_festival": "チュンヨンフェスティバル",
+        "christmas_day": "クリスマスの日",
+        "boxing_day_hk": "ボクシングデー"
+      },
+      "ko": {
+        "new_years_day": "설날",
+        "lunar_new_year": "설날",
+        "second_day_of_lunar_new_year": "설날 둘째날",
+        "third_day_of_lunar_new_year": "설 셋째날",
+        "holy_saturday": "성토요일",
+        "ching_ming_festival": "청명절",
+        "easter_monday_hk": "부활절 월요일",
+        "labour_day_hk": "노동절",
+        "buddhas_birthday": "석가탄신일",
+        "dragon_boat_festival": "단오절",
+        "hong_kong_special_administrative_region_establishment_day": "홍콩특별행정구 수립일",
+        "day_following_the_mid_autumn_festival": "중추절 다음날",
+        "national_day": "국경일",
+        "chung_yeung_festival": "청영페스티벌",
+        "christmas_day": "크리스마스",
+        "boxing_day_hk": "박싱데이"
+      },
+      "zh-Hant": {
+        "new_years_day": "元旦",
+        "lunar_new_year": "農曆新年",
+        "second_day_of_lunar_new_year": "大年初二",
+        "third_day_of_lunar_new_year": "大年初三",
+        "holy_saturday": "聖週六",
+        "ching_ming_festival": "清明節",
+        "easter_monday_hk": "復活節星期一",
+        "labour_day_hk": "勞動節",
+        "buddhas_birthday": "佛誕",
+        "dragon_boat_festival": "端午節",
+        "hong_kong_special_administrative_region_establishment_day": "香港特別行政區成立日",
+        "day_following_the_mid_autumn_festival": "中秋節後一天",
+        "national_day": "國慶",
+        "chung_yeung_festival": "重陽節",
+        "christmas_day": "聖誕節",
+        "boxing_day_hk": "節禮日"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "good_friday": {
+          "intro": "Karfreitag ist der höchste protestantische Trauertag und erinnert an die Kreuzigung Jesu Christi. In Deutschland ist er ein „stiller Feiertag” mit besonderen Schutzregeln.",
+          "history": "Karfreitag wird seit dem 4. Jahrhundert von Christen begangen. Das Wort „Kar” stammt vom althochdeutschen „chara” und bedeutet Klage oder Trauer. Schon früh entwickelten sich liturgische Traditionen: Verlesung der Passionsgeschichte, Kreuzverehrung und das Verstummen der Glocken. Die Reformation hob den Karfreitag besonders hervor; in lutherischen Regionen ist er bis heute der wichtigste Feiertag des Kirchenjahres.",
+          "traditions": "Viele Christen besuchen Passionsgottesdienste mit der Verlesung der Leidensgeschichte. Es gilt als Fastentag – traditionell wird Fisch statt Fleisch gegessen. In manchen Regionen ziehen Karfreitagsprozessionen durch die Straßen, etwa die berühmte „Karfreitagsprozession” in Lohr am Main. Tanzveranstaltungen und laute Musik sind in den meisten Bundesländern gesetzlich untersagt.",
+          "funFacts": [
+            "In Deutschland regelt das „Tanzverbot” das öffentliche Vergnügen am Karfreitag – seit Jahren ein gesellschaftlicher Streitpunkt.",
+            "Bach schrieb seine Matthäus-Passion 1727 für die Karfreitags-Vesper in Leipzig – heute eines der meistaufgeführten Werke der Welt.",
+            "In Bermuda lassen Familien am Karfreitag selbstgebastelte Drachen aus Bambus und Papier steigen – eine einzigartige christliche Tradition.",
+            "Im Spanischen heißt Karfreitag „Viernes Santo” – mit prachtvollen Bruderschafts-Prozessionen, etwa in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "dragon_boat_festival": {
+          "intro": "Das Drachenbootfest, lokal Tuen Ng genannt, ist bekannt für Drachenbootrennen und Reisklöße.",
+          "history": "Das Fest am fünften Tag des fünften Mondmonats erinnert der Überlieferung nach an den altchinesischen Dichter Qu Yuan, der sich aus Protest ertränkte. Man ruderte mit Booten hinaus und warf Reis ins Wasser, um seinen Körper zu schützen – daraus entstanden die heutigen Bräuche.",
+          "traditions": "Mannschaften rudern lange, mit Drachenköpfen verzierte Boote im Takt der Trommeln in Hongkongs Häfen und an Stränden. Man isst „Zongzi”, in Bambusblätter gewickelte Klebreisklöße, und hängt Kräuter für gutes Glück auf.",
+          "funFacts": [
+            "Es soll dem Dichter Qu Yuan gewidmet sein.",
+            "Die Mannschaften rudern im Takt einer Trommel.",
+            "„Zongzi”-Reisklöße sind das Festtagsessen."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "Der Tag der Gründung der SAR Hongkong am 1. Juli erinnert an die Übergabe Hongkongs von Großbritannien an China 1997.",
+          "history": "Am 1. Juli 1997 gab das Vereinigte Königreich Hongkong an China zurück, das die Sonderverwaltungsregion Hongkong nach dem Grundsatz „ein Land, zwei Systeme” einrichtete. Der Tag erinnert an diese Übergabe der Souveränität.",
+          "traditions": "Der Tag wird mit einer offiziellen Flaggenzeremonie, einem Feuerwerk über dem Victoria Harbour und verschiedenen öffentlichen Veranstaltungen begangen. Er ist einer der wichtigsten staatlichen Feiertage Hongkongs.",
+          "funFacts": [
+            "Er markiert die Übergabe Hongkongs an China 1997.",
+            "Hongkong wurde an diesem Tag Sonderverwaltungsregion.",
+            "Jedes Jahr findet eine Flaggenzeremonie statt."
+          ]
+        }
+      },
+      "en": {
+        "good_friday": {
+          "intro": "Good Friday is the highest Protestant day of mourning, commemorating the crucifixion of Jesus Christ. In Germany it is a ‘silent holiday' with special legal protections.",
+          "history": "Good Friday has been observed by Christians since the 4th century. The German prefix ‘Kar' comes from Old High German ‘chara', meaning lamentation or mourning. Liturgical traditions developed early on: the reading of the Passion, veneration of the cross and the silencing of bells. The Reformation gave Good Friday particular weight; in Lutheran regions it remains the most important holiday of the church year.",
+          "traditions": "Many Christians attend Passion services with the reading of the Passion narrative. The day is traditionally one of fasting — fish replaces meat. In some regions, Good Friday processions march through the streets, such as the famous one in Lohr am Main. Dance events and loud music are forbidden by law in most German states.",
+          "funFacts": [
+            "Germany's ‘dance ban' regulates public entertainment on Good Friday — and has been a hot social topic for years.",
+            "Bach wrote his St. Matthew Passion in 1727 for Good Friday vespers in Leipzig — today one of the world's most performed works.",
+            "In Bermuda, families fly self-made bamboo and paper kites on Good Friday — a unique Christian tradition.",
+            "In Spanish-speaking countries Good Friday is ‘Viernes Santo' — with magnificent brotherhood processions, for example in Seville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "dragon_boat_festival": {
+          "intro": "The Dragon Boat Festival, known locally as Tuen Ng, features dragon boat races and rice dumplings.",
+          "history": "Held on the fifth day of the fifth lunar month, the festival is traditionally said to commemorate the ancient Chinese poet Qu Yuan, who drowned himself in protest. People raced boats and threw rice into the water to protect his body, giving rise to today’s customs.",
+          "traditions": "Teams race long, dragon-headed boats to the beat of drums in Hong Kong's harbours and beaches. People eat 'zongzi', sticky rice dumplings wrapped in bamboo leaves, and hang herbs for good fortune.",
+          "funFacts": [
+            "It is said to honour the poet Qu Yuan.",
+            "Teams paddle to the beat of a drum.",
+            "'Zongzi' rice dumplings are the festival food."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "HKSAR Establishment Day on 1 July marks Hong Kong's 1997 handover from Britain to China.",
+          "history": "On 1 July 1997 the United Kingdom returned Hong Kong to China, which established the Hong Kong Special Administrative Region under the 'one country, two systems' principle. The day commemorates this transfer of sovereignty.",
+          "traditions": "The day is marked with an official flag-raising ceremony, fireworks over Victoria Harbour and various public events. It is one of Hong Kong’s main civic public holidays.",
+          "funFacts": [
+            "It marks the 1997 handover of Hong Kong to China.",
+            "Hong Kong became a Special Administrative Region that day.",
+            "A flag-raising ceremony is held each year."
+          ]
+        }
+      },
+      "fr": {
+        "good_friday": {
+          "intro": "Le Vendredi Saint est le jour le plus solennel du protestantisme et commémore la crucifixion de Jésus-Christ. En Allemagne, il s'agit d'un ‘jour silencieux' légalement protégé.",
+          "history": "Le Vendredi Saint est célébré par les chrétiens depuis le IVe siècle. Le préfixe allemand ‘Kar' vient du vieux haut-allemand ‘chara' (lamentation, deuil). Très tôt s'élaborent les traditions liturgiques : lecture de la Passion, vénération de la Croix, silence des cloches. La Réforme protestante lui donna une importance particulière ; dans les régions luthériennes, c'est la fête la plus importante de l'année liturgique.",
+          "traditions": "De nombreux chrétiens assistent à la liturgie de la Passion. C'est traditionnellement un jour de jeûne — on mange du poisson plutôt que de la viande. Dans certaines régions ont lieu des processions du Vendredi Saint, comme la fameuse procession de Lohr am Main. En Allemagne, la danse et la musique forte sont légalement interdites dans la plupart des Länder.",
+          "funFacts": [
+            "L'interdiction de danser (‘Tanzverbot') régit les divertissements publics du Vendredi Saint en Allemagne — sujet sociétal récurrent.",
+            "Bach composa sa Passion selon saint Matthieu en 1727 pour les vêpres du Vendredi Saint à Leipzig.",
+            "Aux Bermudes, les familles font voler des cerfs-volants en bambou et papier le Vendredi Saint — tradition chrétienne unique.",
+            "En Espagne, le ‘Viernes Santo' brille par les magnifiques processions de confréries, notamment à Séville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "dragon_boat_festival": {
+          "intro": "La fête des bateaux-dragons, appelée localement Tuen Ng, est célèbre pour ses courses de bateaux-dragons et ses boulettes de riz.",
+          "history": "Célébrée le cinquième jour du cinquième mois lunaire, la fête commémorerait le poète chinois antique Qu Yuan, qui se noya en signe de protestation. On lança des bateaux et jeta du riz dans l’eau pour protéger son corps, donnant naissance aux coutumes actuelles.",
+          "traditions": "Les équipes font la course sur de longs bateaux à tête de dragon au rythme des tambours, dans les ports et sur les plages de Hong Kong. On mange des « zongzi », boulettes de riz gluant enveloppées de feuilles de bambou, et on suspend des herbes porte-bonheur.",
+          "funFacts": [
+            "Elle honorerait le poète Qu Yuan.",
+            "Les équipes pagayent au rythme d’un tambour.",
+            "Les « zongzi », boulettes de riz, sont le mets de la fête."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "Le jour de l’établissement de la RAS de Hong Kong, le 1er juillet, marque la rétrocession de Hong Kong par le Royaume-Uni à la Chine en 1997.",
+          "history": "Le 1er juillet 1997, le Royaume-Uni rendit Hong Kong à la Chine, qui établit la région administrative spéciale de Hong Kong selon le principe « un pays, deux systèmes ». Le jour commémore ce transfert de souveraineté.",
+          "traditions": "La journée est marquée par une cérémonie officielle de lever du drapeau, un feu d’artifice au-dessus du port Victoria et divers événements publics. C’est l’un des principaux jours fériés civiques de Hong Kong.",
+          "funFacts": [
+            "Il marque la rétrocession de Hong Kong à la Chine en 1997.",
+            "Hong Kong devint ce jour-là une région administrative spéciale.",
+            "Une cérémonie du drapeau a lieu chaque année."
+          ]
+        }
+      },
+      "es": {
+        "good_friday": {
+          "intro": "El Viernes Santo es el día de mayor luto del cristianismo y conmemora la crucifixión de Jesús. En Alemania es ‘día silencioso' con normativa especial.",
+          "history": "El Viernes Santo se celebra desde el siglo IV. La palabra alemana ‘Kar' viene del antiguo alto alemán ‘chara', que significa lamento o duelo. Pronto se desarrollaron tradiciones litúrgicas: lectura de la Pasión, veneración de la cruz y silencio de las campanas. La Reforma le dio especial relevancia y en regiones luteranas sigue siendo el día más importante del año eclesiástico.",
+          "traditions": "Muchos cristianos asisten a oficios de la Pasión con la lectura de la Pasión. Es día de ayuno: tradicionalmente se come pescado en lugar de carne. En España, las procesiones de las cofradías recorren ciudades como Sevilla. En Alemania los bailes y la música alta están legalmente prohibidos en la mayoría de estados federados.",
+          "funFacts": [
+            "El ‘Tanzverbot' (prohibición de bailar) regula el ocio público en el Viernes Santo alemán — desde hace años un debate social recurrente.",
+            "Bach compuso su Pasión según San Mateo en 1727 para las vísperas del Viernes Santo en Leipzig.",
+            "En Bermudas, las familias hacen volar cometas caseras de bambú y papel — una tradición cristiana única.",
+            "En España, el ‘Viernes Santo' destaca por las majestuosas procesiones de cofradías, especialmente en Sevilla y Málaga."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "dragon_boat_festival": {
+          "intro": "El Festival del Bote del Dragón, llamado localmente Tuen Ng, es famoso por sus carreras de botes dragón y sus bolas de arroz.",
+          "history": "Celebrado el quinto día del quinto mes lunar, según la tradición conmemora al antiguo poeta chino Qu Yuan, que se ahogó en señal de protesta. La gente lanzó botes y arrojó arroz al agua para proteger su cuerpo, dando origen a las costumbres actuales.",
+          "traditions": "Los equipos compiten en largos botes con cabeza de dragón al ritmo de los tambores, en los puertos y playas de Hong Kong. Se comen «zongzi», bolas de arroz glutinoso envueltas en hojas de bambú, y se cuelgan hierbas para la buena suerte.",
+          "funFacts": [
+            "Se cree que honra al poeta Qu Yuan.",
+            "Los equipos reman al ritmo de un tambor.",
+            "Los «zongzi», bolas de arroz, son la comida del festival."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "El Día del Establecimiento de la RAE de Hong Kong, el 1 de julio, marca el traspaso de Hong Kong del Reino Unido a China en 1997.",
+          "history": "El 1 de julio de 1997, el Reino Unido devolvió Hong Kong a China, que estableció la Región Administrativa Especial de Hong Kong bajo el principio de «un país, dos sistemas». El día conmemora ese traspaso de soberanía.",
+          "traditions": "La jornada se marca con una ceremonia oficial de izado de bandera, fuegos artificiales sobre el puerto Victoria y diversos actos públicos. Es uno de los principales festivos cívicos de Hong Kong.",
+          "funFacts": [
+            "Marca el traspaso de Hong Kong a China en 1997.",
+            "Hong Kong se convirtió ese día en Región Administrativa Especial.",
+            "Cada año se celebra una ceremonia de izado de bandera."
+          ]
+        }
+      },
+      "pt": {
+        "good_friday": {
+          "intro": "A Sexta-Feira Santa é o dia de maior luto do cristianismo e comemora a crucificação de Jesus Cristo. Em Portugal é feriado nacional, com forte tradição religiosa.",
+          "history": "A Sexta-Feira Santa é celebrada pelos cristãos desde o século IV. O prefixo alemão ‘Kar' vem do alto alemão antigo ‘chara' (lamento, luto). Cedo se desenvolveram tradições litúrgicas: leitura da Paixão, veneração da cruz e silêncio dos sinos. A Reforma deu-lhe especial relevância. Em Portugal, a tradição das procissões da Paixão é antiga e muito viva, especialmente em Braga, Óbidos e na ilha da Madeira.",
+          "traditions": "Muitos cristãos assistem a celebrações da Paixão. É tradicionalmente dia de jejum — come-se peixe (em Portugal, o típico bacalhau) em vez de carne. Em Braga e Óbidos, as procissões da Paixão são impressionantes — em Braga a ‘Procissão do Senhor Ecce Homo' é uma das maiores. Em Espanha, destacam-se as procissões das confrarias, sobretudo em Sevilha.",
+          "funFacts": [
+            "Em Braga (Portugal) a ‘Procissão do Senhor Ecce Homo' é uma das mais impressionantes da Europa.",
+            "Bach compôs a sua Paixão segundo São Mateus em 1727 para as Vésperas da Sexta-Feira Santa em Leipzig.",
+            "Nas Bermudas, as famílias fazem voar papagaios de bambu e papel feitos em casa — uma tradição cristã única.",
+            "Em Espanha, ‘Viernes Santo' destaca-se pelas magníficas procissões das confrarias, sobretudo em Sevilha."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "dragon_boat_festival": {
+          "intro": "O Festival do Barco-Dragão, localmente chamado Tuen Ng, é famoso pelas corridas de barcos-dragão e pelos bolinhos de arroz.",
+          "history": "Celebrado no quinto dia do quinto mês lunar, segundo a tradição comemora o antigo poeta chinês Qu Yuan, que se afogou em protesto. As pessoas lançaram barcos e atiraram arroz à água para proteger o seu corpo, dando origem aos costumes atuais.",
+          "traditions": "As equipas competem em longos barcos com cabeça de dragão ao ritmo dos tambores, nos portos e praias de Hong Kong. Comem-se «zongzi», bolinhos de arroz glutinoso embrulhados em folhas de bambu, e penduram-se ervas para dar sorte.",
+          "funFacts": [
+            "Crê-se que homenageia o poeta Qu Yuan.",
+            "As equipas remam ao ritmo de um tambor.",
+            "Os «zongzi», bolinhos de arroz, são a comida do festival."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "O Dia do Estabelecimento da RAE de Hong Kong, 1 de julho, marca a transferência de Hong Kong do Reino Unido para a China em 1997.",
+          "history": "A 1 de julho de 1997, o Reino Unido devolveu Hong Kong à China, que estabeleceu a Região Administrativa Especial de Hong Kong sob o princípio «um país, dois sistemas». O dia comemora essa transferência de soberania.",
+          "traditions": "O dia é assinalado com uma cerimónia oficial de hastear da bandeira, fogo de artifício sobre o porto Victoria e vários eventos públicos. É um dos principais feriados cívicos de Hong Kong.",
+          "funFacts": [
+            "Marca a transferência de Hong Kong para a China em 1997.",
+            "Hong Kong tornou-se nesse dia Região Administrativa Especial.",
+            "Realiza-se todos os anos uma cerimónia de hastear da bandeira."
+          ]
+        }
+      },
+      "it": {
+        "good_friday": {
+          "intro": "Il Venerdì Santo è il giorno di lutto più importante per i protestanti e ricorda la crocifissione di Gesù Cristo. In Germania è ‘giorno silenzioso' con norme particolari.",
+          "history": "Il Venerdì Santo è celebrato dai cristiani dal IV secolo. Il prefisso tedesco ‘Kar' deriva dall'antico alto tedesco ‘chara' (lamento, lutto). Presto si svilupparono tradizioni liturgiche: lettura della Passione, venerazione della croce, silenzio delle campane. La Riforma gli diede particolare risalto; nelle regioni luterane resta la festa più importante dell'anno liturgico.",
+          "traditions": "Molti cristiani partecipano alla Liturgia della Passione. Tradizionalmente è giorno di digiuno — si mangia pesce invece di carne. In Italia, soprattutto al Sud, ci sono solenni processioni con statue del Cristo morto, come la celebre ‘Processione dei Misteri' a Trapani. In Spagna spiccano le processioni delle confraternite, soprattutto a Siviglia.",
+          "funFacts": [
+            "In Germania il ‘Tanzverbot' (divieto di ballare) regola gli intrattenimenti pubblici — tema sociale ricorrente.",
+            "Bach compose la ‘Passione secondo Matteo' nel 1727 per i vespri del Venerdì Santo a Lipsia.",
+            "Alle Bermuda le famiglie fanno volare aquiloni di bambù e carta — tradizione cristiana unica.",
+            "In Spagna il ‘Viernes Santo' è famoso per le maestose processioni delle confraternite, in particolare a Siviglia."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "dragon_boat_festival": {
+          "intro": "Il Festival delle barche drago, chiamato localmente Tuen Ng, è celebre per le gare di barche drago e gli gnocchi di riso.",
+          "history": "Celebrato il quinto giorno del quinto mese lunare, secondo la tradizione commemora l’antico poeta cinese Qu Yuan, che si annegò per protesta. La gente lanciò barche e gettò riso nell’acqua per proteggerne il corpo, dando origine alle usanze odierne.",
+          "traditions": "Le squadre gareggiano su lunghe barche con testa di drago al ritmo dei tamburi, nei porti e sulle spiagge di Hong Kong. Si mangiano gli «zongzi», gnocchi di riso glutinoso avvolti in foglie di bambù, e si appendono erbe portafortuna.",
+          "funFacts": [
+            "Si ritiene onori il poeta Qu Yuan.",
+            "Le squadre remano al ritmo di un tamburo.",
+            "Gli «zongzi», gnocchi di riso, sono il cibo della festa."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "Il Giorno della fondazione della RAS di Hong Kong, il 1º luglio, segna il passaggio di Hong Kong dal Regno Unito alla Cina nel 1997.",
+          "history": "Il 1º luglio 1997 il Regno Unito restituì Hong Kong alla Cina, che istituì la Regione amministrativa speciale di Hong Kong secondo il principio «un Paese, due sistemi». La giornata commemora questo trasferimento di sovranità.",
+          "traditions": "La giornata è segnata da una cerimonia ufficiale dell’alzabandiera, fuochi d’artificio sul porto Victoria e vari eventi pubblici. È una delle principali festività civiche di Hong Kong.",
+          "funFacts": [
+            "Segna il passaggio di Hong Kong alla Cina nel 1997.",
+            "Hong Kong divenne quel giorno Regione amministrativa speciale.",
+            "Ogni anno si tiene una cerimonia dell’alzabandiera."
+          ]
+        }
+      },
+      "pl": {
+        "good_friday": {
+          "intro": "Wielki Piątek to dzień największej żałoby w protestantyzmie i upamiętnia ukrzyżowanie Jezusa Chrystusa. W Polsce nie jest dniem wolnym, ale ma głęboki wymiar religijny.",
+          "history": "Wielki Piątek obchodzony jest przez chrześcijan od IV wieku. Wcześnie rozwinęły się tradycje liturgiczne: czytanie Pasji, adoracja krzyża, milczenie dzwonów. Reformacja nadała mu szczególne znaczenie; w regionach luterańskich pozostaje najważniejszym dniem roku liturgicznego. W Polsce katolickie tradycje obejmują Drogę Krzyżową, adorację krzyża i święcenie pokarmów w Wielką Sobotę.",
+          "traditions": "Wierni uczestniczą w Liturgii Męki Pańskiej, adorują krzyż i odprawiają Drogę Krzyżową — w Polsce słynne są kalwarie (Kalwaria Zebrzydowska, Wejherowska). Tradycyjnie jest to dzień postu — je się ryby zamiast mięsa. W niektórych regionach Niemiec organizowane są procesje pasyjne, a w Hiszpanii słynne procesje bractw, np. w Sewilli.",
+          "funFacts": [
+            "W Niemczech ‘Tanzverbot' (zakaz tańczenia) reguluje publiczne rozrywki w Wielki Piątek — tematyka regularnie wraca w debacie publicznej.",
+            "Bach skomponował Pasję według św. Mateusza w 1727 roku na nieszpory wielkopiątkowe w Lipsku.",
+            "Na Bermudach rodziny puszczają w Wielki Piątek samodzielnie zrobione latawce z bambusa i papieru — unikalna chrześcijańska tradycja.",
+            "W Polsce Misterium Męki Pańskiej w Kalwarii Zebrzydowskiej wpisane jest na listę UNESCO."
+          ],
+          "imageCredit": "Zdjęcie: Pietro Perugino · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "dragon_boat_festival": {
+          "intro": "Festiwal Smoczych Łodzi, lokalnie zwany Tuen Ng, słynie z wyścigów smoczych łodzi i ryżowych kluseczek.",
+          "history": "Obchodzony piątego dnia piątego miesiąca księżycowego, według tradycji upamiętnia starożytnego chińskiego poetę Qu Yuana, który utopił się w proteście. Ludzie wypłynęli łodziami i wrzucali ryż do wody, by ochronić jego ciało — stąd dzisiejsze zwyczaje.",
+          "traditions": "Drużyny ścigają się długimi łodziami z głową smoka w rytm bębnów w portach i na plażach Hongkongu. Je się „zongzi”, kleiste ryżowe kluski zawijane w liście bambusa, i wiesza zioła na szczęście.",
+          "funFacts": [
+            "Ma upamiętniać poetę Qu Yuana.",
+            "Drużyny wiosłują w rytm bębna.",
+            "„Zongzi”, ryżowe kluski, to potrawa festiwalu."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "Dzień ustanowienia SRA Hongkong, 1 lipca, upamiętnia przekazanie Hongkongu przez Wielką Brytanię Chinom w 1997 roku.",
+          "history": "1 lipca 1997 roku Wielka Brytania zwróciła Hongkong Chinom, które ustanowiły Specjalny Region Administracyjny Hongkong wedle zasady „jeden kraj, dwa systemy”. Dzień ten upamiętnia to przekazanie suwerenności.",
+          "traditions": "Dzień obchodzony jest oficjalną ceremonią podniesienia flagi, pokazem fajerwerków nad portem Victoria i różnymi wydarzeniami publicznymi. To jedno z głównych świąt państwowych Hongkongu.",
+          "funFacts": [
+            "Upamiętnia przekazanie Hongkongu Chinom w 1997 roku.",
+            "Hongkong stał się tego dnia Specjalnym Regionem Administracyjnym.",
+            "Co roku odbywa się ceremonia podniesienia flagi."
+          ]
+        }
+      },
+      "nl": {
+        "good_friday": {
+          "intro": "Goede Vrijdag is de belangrijkste protestantse rouwdag, ter herdenking van de kruisiging van Jezus Christus. In Duitsland is het een ‘stille feestdag’ met speciale wettelijke bescherming.",
+          "history": "Goede Vrijdag wordt al sinds de 4e eeuw door christenen gevierd. Het Duitse voorvoegsel ‘Kar’ is afgeleid van het Oudhoogduitse ‘chara’, wat ‘klaagzang’ of ‘rouw’ betekent. Al vroeg ontwikkelden zich liturgische tradities: het voorlezen van de Passie, de verering van het kruis en het stilleggen van de klokken. Door de Reformatie kreeg Goede Vrijdag een bijzondere betekenis; in lutherse regio’s blijft het de belangrijkste feestdag van het kerkelijk jaar.",
+          "traditions": "Veel christenen wonen passiediensten bij waarbij het passieverhaal wordt voorgelezen. Deze dag is van oudsher een vastendag — vis vervangt vlees. In sommige regio’s vinden er op Goede Vrijdag processies door de straten plaats, zoals de beroemde processie in Lohr am Main. Dansfeesten en luide muziek zijn in de meeste Duitse deelstaten bij wet verboden.",
+          "funFacts": [
+            "Het Duitse ‘dansverbod’ regelt het openbare vermaak op Goede Vrijdag — en is al jaren een veelbesproken onderwerp in de samenleving.",
+            "Bach componeerde zijn Matthäus-Passion in 1727 voor de Goede Vrijdagvesper in Leipzig — tegenwoordig een van de meest uitgevoerde werken ter wereld.",
+            "Op Goede Vrijdag laten gezinnen op Bermuda zelfgemaakte vliegers van bamboe en papier op — een unieke christelijke traditie.",
+            "In Spaanstalige landen heet Goede Vrijdag ‘Viernes Santo’ — met prachtige processies van broederschappen, bijvoorbeeld in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "dragon_boat_festival": {
+          "intro": "Het Drakenbootfestival, dat hier Tuen Ng wordt genoemd, staat in het teken van drakenbootraces en rijstballetjes.",
+          "history": "Het festival, dat plaatsvindt op de vijfde dag van de vijfde maanmaand, wordt volgens de overlevering gehouden ter nagedachtenis aan de oude Chinese dichter Qu Yuan, die uit protest zelfmoord pleegde door zich te verdrinken. Men hield bootraces en gooide rijst in het water om zijn lichaam te beschermen, wat aanleiding gaf tot de huidige gebruiken.",
+          "traditions": "In de havens en op de stranden van Hongkong racen teams in lange boten met drakenkoppen op het ritme van trommels. Mensen eten ‘zongzi’, kleefrijstballetjes gewikkeld in bamboebladeren, en hangen kruiden op voor geluk.",
+          "funFacts": [
+            "Er wordt gezegd dat het ter ere van de dichter Qu Yuan is.",
+            "De teams peddelen op het ritme van een trommel.",
+            "'Zongzi'-rijstballetjes zijn het feestelijke gerecht."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "De Dag van de Oprichting van de Speciale Administratieve Regio Hongkong (HKSAR) op 1 juli herdenkt de overdracht van Hongkong van Groot-Brittannië aan China in 1997.",
+          "history": "Op 1 juli 1997 droeg het Verenigd Koninkrijk Hongkong over aan China, dat vervolgens de Speciale Administratieve Regio Hongkong oprichtte volgens het principe van „één land, twee systemen”. Op deze dag wordt deze soevereiniteitsoverdracht herdacht.",
+          "traditions": "Deze dag wordt gevierd met een officiële vlaggenceremonie, vuurwerk boven Victoria Harbour en diverse openbare evenementen. Het is een van de belangrijkste officiële feestdagen van Hongkong.",
+          "funFacts": [
+            "Het herdenkt de overdracht van Hongkong aan China in 1997.",
+            "Die dag werd Hongkong een Speciale Administratieve Regio.",
+            "Elk jaar wordt er een vlaggenhijsceremonie gehouden."
+          ]
+        }
+      },
+      "sv": {
+        "good_friday": {
+          "intro": "Långfredagen är den viktigaste protestantiska sorgedagen, då man minns Jesu Kristi korsfästelse. I Tyskland är det en ”tyst helgdag” med särskilt rättsligt skydd.",
+          "history": "Långfredagen har firats av kristna sedan 400-talet. Det tyska prefixet ”Kar” kommer från fornhögtyska ”chara”, som betyder klagan eller sorg. Liturgiska traditioner utvecklades tidigt: uppläsningen av passionsberättelsen, vördnaden av korset och tystnaden bland klockorna. Reformationen gav Långfredagen särskild betydelse; i lutherska regioner är den fortfarande den viktigaste högtiden under kyrkoåret.",
+          "traditions": "Många kristna deltar i passionsgudstjänster där passionsberättelsen läses upp. Dagen är traditionellt en fastedag – fisk ersätter kött. I vissa regioner hålls processioner på långfredagen genom gatorna, till exempel den berömda processionen i Lohr am Main. Dansarrangemang och hög musik är förbjudna enligt lag i de flesta tyska delstater.",
+          "funFacts": [
+            "Tysklands ”dansförbud” reglerar offentlig underhållning på långfredagen – och har varit ett hett samhällsämne i flera år.",
+            "Bach komponerade sin Matteuspassion år 1727 för vespergudstjänsten på långfredagen i Leipzig – idag ett av världens mest framförda verk.",
+            "På Bermuda flyger familjerna på långfredagen med självgjorda drakar av bambu och papper – en unik kristen tradition.",
+            "I spansktalande länder kallas långfredagen för ”Viernes Santo” – med storslagna brödraskapsprocessioner, till exempel i Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "dragon_boat_festival": {
+          "intro": "Drakbåtsfestivalen, som lokalt kallas Tuen Ng, kännetecknas av drakbåtslopp och risbollar.",
+          "history": "Festivalen, som firas den femte dagen i den femte månaden enligt månkalendern, sägs traditionellt vara till minne av den forntida kinesiske poeten Qu Yuan, som tog sitt liv genom att dränka sig i protest. Folket tävlade med båtar och kastade ris i vattnet för att skydda hans kropp, vilket har gett upphov till dagens traditioner.",
+          "traditions": "I Hongkongs hamnar och på stränderna tävlar lag i långa båtar med drakhuvuden till trummornas rytm. Folk äter ”zongzi”, klibbiga risbollar inslagna i bambublad, och hänger upp örter för att bringa lycka.",
+          "funFacts": [
+            "Det sägs vara till ära för poeten Qu Yuan.",
+            "Lagen paddlar i takt med trummans rytm.",
+            "Risklimparna ”zongzi” är en typisk festmat."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "HKSAR:s grundläggningsdag den 1 juli markerar Hongkongs överlämnande från Storbritannien till Kina år 1997.",
+          "history": "Den 1 juli 1997 överlämnade Storbritannien Hongkong till Kina, som inrättade den särskilda administrativa regionen Hongkong enligt principen ”ett land, två system”. Denna dag firas till minne av denna överlåtelse av suveränitet.",
+          "traditions": "Dagen firas med en officiell flagghissningsceremoni, fyrverkerier över Victoria Harbour och olika offentliga evenemang. Det är en av Hongkongs viktigaste allmänna helgdagar.",
+          "funFacts": [
+            "Det markerar överlämnandet av Hongkong till Kina 1997.",
+            "Den dagen blev Hongkong en särskild administrativ region.",
+            "Varje år hålls en flagghissningsceremoni."
+          ]
+        }
+      },
+      "ja": {
+        "good_friday": {
+          "intro": "聖金曜日は、イエス・キリストの磔刑を記念する、プロテスタントにとって最も重要な追悼の日です。ドイツでは、この日は特別な法的保護が設けられた「静寂の祝日」とされています。",
+          "history": "聖金曜日は、4世紀以来、キリスト教徒によって祝われてきました。 ドイツ語の接頭辞「Kar」は、嘆きや哀悼を意味する古高ドイツ語の「chara」に由来しています。典礼の伝統は早くから確立され、受難物語の朗読、十字架の礼拝、鐘の鳴らし止めなどが行われてきました。宗教改革により、聖金曜日は特に重要な日となりました。ルーテル派の地域では、今もなお教会暦の中で最も重要な祝日となっています。",
+          "traditions": "多くのキリスト教徒が、受難の物語が朗読される受難礼拝に出席します。この日は伝統的に断食の日とされており、肉料理の代わりに魚料理が供されます。一部の地域では、ロア・アム・マインで行われる有名な行列のように、聖金曜日の行列が街中を練り歩きます。ドイツのほとんどの州では、ダンスイベントや大音量の音楽が法律で禁止されています。",
+          "funFacts": [
+            "ドイツの「ダンス禁止令」は、聖金曜日の公共の場での娯楽を規制するもので、長年にわたり社会的な話題となっている。",
+            "バッハは1727年、ライプツィヒの聖金曜日晩課のために『マタイ受難曲』を作曲した。この作品は今日、世界で最も頻繁に演奏されている作品の一つとなっている。",
+            "バミューダでは、聖金曜日に家族で手作りした竹と紙の凧を飛ばすという、キリスト教ならではの伝統行事が行われています。",
+            "スペイン語圏の国々では、聖金曜日は「Viernes Santo」と呼ばれ、セビリアなどで壮麗な兄弟団の行列が行われます。"
+          ],
+          "imageCredit": "写真：ピエトロ・ペルジーノ · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "dragon_boat_festival": {
+          "intro": "地元では「トゥエン・ン」として知られる端午の節句では、ドラゴンボートレースやちまきが楽しめる。",
+          "history": "旧暦の5月5日に行われるこの祭りは、伝統的に、抗議の意を込めて自ら川に身を投じた古代中国の詩人・屈原を偲ぶものとされています。人々は彼の遺体を守るために舟を競わせ、水に米を投げ入れましたが、これが今日の風習の起源となっています。",
+          "traditions": "香港の港やビーチでは、各チームが太鼓のリズムに合わせて、龍の頭がついた長いボートでレースを繰り広げます。人々は、竹の葉で包んだもち米の団子「粽（ゾンズ）」を食べ、幸運を祈ってハーブを飾ります。",
+          "funFacts": [
+            "これは、詩人屈原を称えるためだと言われている。",
+            "各チームは太鼓のリズムに合わせてパドルを漕ぎます。",
+            "「粽（ゾンズ）」は、お祭りの定番料理です。"
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "7月1日の香港特別行政区成立記念日は、1997年に香港が英国から中国へ返還されたことを記念する日です。",
+          "history": "1997年7月1日、英国は香港を中国に返還し、中国は「一国二制度」の原則に基づき香港特別行政区を設立した。この日は、この主権移譲を記念する日である。",
+          "traditions": "この日は、公式の国旗掲揚式やビクトリア・ハーバー上空での花火大会、さまざまな公開イベントが行われます。これは香港の主要な市民の祝日の一つです。",
+          "funFacts": [
+            "これは、1997年の香港の中国への返還を記念するものです。",
+            "その日、香港は特別行政区となった。",
+            "毎年、国旗掲揚式が行われます。"
+          ]
+        }
+      },
+      "ko": {
+        "good_friday": {
+          "intro": "성금요일은 예수 그리스도의 십자가 처형을 기리는 개신교에서 가장 엄숙한 추모의 날입니다. 독일에서는 이 날이 특별한 법적 보호를 받는 ‘침묵의 휴일’로 지정되어 있습니다.",
+          "history": "성금요일은 4세기부터 기독교인들에 의해 기념되어 왔습니다. 독일어 접두사 ‘Kar’는 ‘애도’나 ‘애도하는 마음’을 뜻하는 고대 고지독일어 ‘chara’에서 유래했습니다. 전례 전통은 일찍부터 정립되었는데, 여기에는 수난기 낭독, 십자가 숭배, 종을 울리지 않는 관습 등이 포함됩니다. 종교개혁을 계기로 성금요일은 특별한 의미를 갖게 되었으며, 루터교 지역에서는 여전히 교회 연중 가장 중요한 축일로 여겨지고 있습니다.",
+          "traditions": "많은 기독교인들이 수난 이야기를 낭독하는 수난 예배에 참석합니다. 이날은 전통적으로 금식하는 날로, 고기 대신 생선을 먹습니다. 일부 지역에서는 ‘로르 암 마인(Lohr am Main)’의 유명한 행렬과 같이 성금요일 행렬이 거리를 누비기도 합니다. 대부분의 독일 주에서는 법에 따라 춤 행사나 시끄러운 음악이 금지되어 있습니다.",
+          "funFacts": [
+            "독일의 ‘춤 금지령’은 성금요일에 이루어지는 공공 오락 활동을 규제하는 것으로, 수년 동안 뜨거운 사회적 화제가 되어 왔다.",
+            "바흐는 1727년 라이프치히의 성금요일 저녁 기도회를 위해 《마태 수난곡》을 작곡했는데, 이 작품은 오늘날 전 세계에서 가장 많이 연주되는 작품 중 하나이다.",
+            "버뮤다에서는 성금요일에 가족들이 직접 만든 대나무와 종이로 만든 연을 날리는데, 이는 기독교의 독특한 전통입니다.",
+            "스페인어권 국가들에서 성금요일은 ‘비에르네스 산토(Viernes Santo)’라고 불리며, 예를 들어 세비야에서는 웅장한 형제회 행렬이 펼쳐집니다."
+          ],
+          "imageCredit": "사진: 피에트로 페루지노 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "dragon_boat_festival": {
+          "intro": "현지에서 ‘툰 응(Tuen Ng)’으로 알려진 단오절에는 용선 경주와 찹쌀 경단이 주요 행사로 펼쳐집니다.",
+          "history": "음력 5월 5일에 열리는 이 축제는 전통적으로 항의의 뜻으로 물에 몸을 던져 자살한 고대 중국 시인 초원(屈原)을 기리기 위한 것이라고 전해집니다. 사람들은 그의 시신을 보호하기 위해 배 경주를 벌이고 물에 쌀을 뿌렸는데, 이것이 오늘날의 풍습으로 이어졌습니다.",
+          "traditions": "홍콩의 항구와 해변에서는 팀들이 북소리에 맞춰 용머리 모양의 긴 배를 타고 경주를 펼칩니다. 사람들은 대나무 잎으로 감싼 찹쌀 떡인 ‘종자’를 먹고, 행운을 빌며 약초를 걸어둡니다.",
+          "funFacts": [
+            "이곳은 시인 구원을 기리기 위해 세워졌다고 전해집니다.",
+            "팀들은 북소리에 맞춰 노를 젓는다.",
+            "‘쭝즈’라는 찹쌀떡은 명절 음식입니다."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "7월 1일인 홍콩 특별행정구 설립 기념일은 1997년 홍콩이 영국에서 중국으로 반환된 날을 기념하는 날입니다.",
+          "history": "1997년 7월 1일, 영국은 홍콩을 중국에 반환했으며, 중국은 ‘일국양제’ 원칙에 따라 홍콩 특별행정구를 설립했다. 이날은 이러한 주권 이양을 기념하는 날이다.",
+          "traditions": "이날은 공식 게양식, 빅토리아 항 상공의 불꽃놀이, 그리고 다양한 대중 행사로 기념됩니다. 이는 홍콩의 주요 시민 공휴일 중 하나입니다.",
+          "funFacts": [
+            "이는 1997년 홍콩이 중국에 반환된 것을 기념하는 행사입니다.",
+            "그날 홍콩은 특별행정구가 되었습니다.",
+            "매년 국기 게양식이 열립니다."
+          ]
+        }
+      },
+      "zh-Hant": {
+        "good_friday": {
+          "intro": "「受難日」是新教最重要的哀悼日，用以紀念耶穌基督被釘十字架。在德國，這是一個享有特殊法律保障的「靜默假日」。",
+          "history": "自四世紀以來，基督徒便一直慶祝「受難日」。 德語前綴「Kar」源自古高地德語「chara」，意為哀悼或悲慟。相關禮儀傳統很早就已形成：誦讀受難記、敬禮十字架以及停止鐘聲。宗教改革賦予了「受難日」特殊的意義；在路德宗地區，它至今仍是教會年曆中最重要的節日。",
+          "traditions": "許多基督徒會參加宣讀受難敘事的受難禮拜。這一天傳統上是禁食日——以魚類代替肉類。在某些地區，會舉行聖週五遊行隊伍穿梭街頭，例如美因河畔洛爾（Lohr am Main）那場著名的遊行。在德國大多數邦，法律明文禁止舉辦舞蹈活動及播放大聲音樂。",
+          "funFacts": [
+            "德國的「禁舞令」規範了聖週五當天的公共娛樂活動——這項規定多年來一直是社會熱議的話題。",
+            "巴赫於1727年為萊比錫的「受難日」晚禱創作了《馬太受難曲》——這部作品如今已成為全球演出頻率最高的樂曲之一。",
+            "在百慕達，各家各戶會在耶穌受難日放飛自製的竹製與紙製風箏——這是一項獨特的基督教傳統。",
+            "在西班牙語系國家，耶穌受難日被稱為「Viernes Santo」——屆時會舉行壯觀的兄弟會遊行，例如在塞維利亞。"
+          ],
+          "imageCredit": "圖片：皮耶特羅·佩魯吉諾 · 經維基共享資源提供，採用 CC BY-SA 4.0 授權"
+        },
+        "dragon_boat_festival": {
+          "intro": "端午節（當地稱為「Tuen Ng」）的特色活動包括龍舟競賽和粽子。",
+          "history": "這個節日於農曆五月初五舉行，傳統上被認為是為了紀念古代中國詩人屈原——他當年為表達抗議而投水自盡。當時人們舉行龍舟競渡，並將米粒拋入水中以保護他的遺體，這便形成了今日的習俗。",
+          "traditions": "各隊在香港的港口和海灘上，隨著鼓點的節奏，駕駛著長長的龍頭船競速。人們品嚐用竹葉包裹的糯米粽，並懸掛香草以祈求好運。",
+          "funFacts": [
+            "據說這是為了紀念詩人屈原。",
+            "各隊隨著鼓點的節奏划槳。",
+            "「粽子」是節慶美食。"
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "7月1日的香港特別行政區成立紀念日，標誌著香港於1997年由英國移交給中國。",
+          "history": "1997年7月1日，英國將香港移交中國，中國根據「一國兩制」原則設立了香港特別行政區。這一天用以紀念此次主權移交。",
+          "traditions": "當天會舉行正式的升旗儀式、維多利亞港煙火匯演，以及各項公眾活動。這是香港的主要公民公眾假期之一。",
+          "funFacts": [
+            "這標誌著1997年香港移交中國。",
+            "那天，香港成為了特別行政區。",
+            "每年都會舉行升旗儀式。"
+          ]
+        }
+      }
+    }
+  },
+  "images": {
+    "good_friday": [
+      {
+        "path": "images/good_friday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "dragon_boat_festival": [
+      {
+        "path": "images/HK/dragon_boat_festival/01.jpg",
+        "primary": true,
+        "credit": "Ceeseven",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "path": "images/HK/dragon_boat_festival/02.jpg",
+        "primary": false,
+        "credit": "Stewart~惡龍",
+        "license": "CC BY 3.0"
+      },
+      {
+        "path": "images/HK/dragon_boat_festival/03.jpg",
+        "primary": false,
+        "credit": "Stewart~惡龍",
+        "license": "CC BY 3.0"
+      }
+    ],
+    "hong_kong_special_administrative_region_establishment_day": [
+      {
+        "path": "images/HK/hong_kong_special_administrative_region_establishment_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/HK/hong_kong_special_administrative_region_establishment_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/HK/hong_kong_special_administrative_region_establishment_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 10
+}
