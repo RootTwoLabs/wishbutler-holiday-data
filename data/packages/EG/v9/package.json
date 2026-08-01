@@ -1,0 +1,318 @@
+{
+  "countryCode": "EG",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "EG_christmas_day_orthodox",
+      "countryCode": "EG",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_day_orthodox",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 7
+      }
+    },
+    {
+      "id": "EG_revolution_day_2011_national_police_day",
+      "countryCode": "EG",
+      "kind": "precomputed",
+      "labelKey": "holidays.revolution_day_2011_national_police_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-29",
+          "2027": "01-25",
+          "2028": "01-25",
+          "2029": "01-25",
+          "2030": "01-25",
+          "2031": "01-25",
+          "2032": "01-25",
+          "2033": "01-25",
+          "2034": "01-25",
+          "2035": "01-25"
+        }
+      }
+    },
+    {
+      "id": "EG_easter_monday",
+      "countryCode": "EG",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_monday_eg",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-13",
+          "2028": "04-17",
+          "2030": "04-29"
+        }
+      }
+    },
+    {
+      "id": "EG_sinai_liberation_day",
+      "countryCode": "EG",
+      "kind": "fixed",
+      "labelKey": "holidays.sinai_liberation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 25
+      }
+    },
+    {
+      "id": "EG_labour_day",
+      "countryCode": "EG",
+      "kind": "precomputed",
+      "labelKey": "holidays.labour_day_eg",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-07",
+          "2027": "05-01",
+          "2028": "05-04",
+          "2029": "05-01",
+          "2030": "05-05",
+          "2031": "05-01",
+          "2032": "05-01",
+          "2033": "05-01",
+          "2034": "05-01",
+          "2035": "05-01"
+        }
+      }
+    },
+    {
+      "id": "EG_eid_al_adha",
+      "countryCode": "EG",
+      "kind": "fixed",
+      "labelKey": "holidays.eid_al_adha",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 31
+      }
+    },
+    {
+      "id": "EG_islamic_new_year",
+      "countryCode": "EG",
+      "kind": "precomputed",
+      "labelKey": "holidays.islamic_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "06-18",
+          "2028": "05-25"
+        }
+      }
+    },
+    {
+      "id": "EG_june_30_revolution",
+      "countryCode": "EG",
+      "kind": "precomputed",
+      "labelKey": "holidays.june_30_revolution",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "07-02",
+          "2027": "07-01",
+          "2028": "06-30",
+          "2029": "06-30",
+          "2030": "06-30",
+          "2031": "07-03",
+          "2032": "07-01",
+          "2033": "06-30",
+          "2034": "07-02",
+          "2035": "06-30"
+        }
+      }
+    },
+    {
+      "id": "EG_revolution_day",
+      "countryCode": "EG",
+      "kind": "fixed",
+      "labelKey": "holidays.revolution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 23
+      }
+    },
+    {
+      "id": "EG_prophet_muhammads_birthday",
+      "countryCode": "EG",
+      "kind": "fixed",
+      "labelKey": "holidays.prophet_muhammads_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 26
+      }
+    },
+    {
+      "id": "EG_armed_forces_day",
+      "countryCode": "EG",
+      "kind": "fixed",
+      "labelKey": "holidays.armed_forces_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 6
+      }
+    },
+    {
+      "id": "EG_prophet_muhammads_birthday_tentative_date",
+      "countryCode": "EG",
+      "kind": "fixed",
+      "labelKey": "holidays.prophet_muhammads_birthday_tentative_date",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 3
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "christmas_day_orthodox": "Christmas Day (Orthodox)",
+        "revolution_day_2011_national_police_day": "Revolution Day 2011 / National Police Day",
+        "easter_monday_eg": "Easter Monday",
+        "sinai_liberation_day": "Sinai Liberation Day",
+        "labour_day_eg": "Labour Day",
+        "eid_al_adha": "Eid Al-Adha",
+        "islamic_new_year": "Islamic New Year",
+        "june_30_revolution": "June 30 Revolution",
+        "revolution_day": "Revolution Day",
+        "prophet_muhammads_birthday": "Prophet Muhammad's Birthday",
+        "armed_forces_day": "Armed Forces Day",
+        "prophet_muhammads_birthday_tentative_date": "Prophet Muhammad's Birthday (Tentative Date)"
+      },
+      "ar": {
+        "christmas_day_orthodox": "عيد الميلاد المجيد",
+        "revolution_day_2011_national_police_day": "عيد الثورة 25 يناير",
+        "easter_monday_eg": "Sham El-Nessim",
+        "sinai_liberation_day": "عيد تحرير سيناء",
+        "labour_day_eg": "عيد العمال",
+        "eid_al_adha": "Eid Al-Adha",
+        "islamic_new_year": "Islamic New Year",
+        "june_30_revolution": "ثورة 30 يونيو",
+        "revolution_day": "عيد ثورة 23 يوليو",
+        "prophet_muhammads_birthday": "Prophet Muhammad's Birthday",
+        "armed_forces_day": "عيد القوات المسلحة",
+        "prophet_muhammads_birthday_tentative_date": "Prophet Muhammad's Birthday (Tentative Date)"
+      },
+      "de": {
+        "christmas_day_orthodox": "Weihnachtstag (orthodox)",
+        "revolution_day_2011_national_police_day": "Tag der Revolution 2011 / Nationaler Polizeitag",
+        "sinai_liberation_day": "Sinai-Befreiungstag",
+        "june_30_revolution": "Revolution vom 30. Juni",
+        "revolution_day": "Tag der Revolution",
+        "armed_forces_day": "Tag der Streitkräfte"
+      },
+      "fr": {
+        "christmas_day_orthodox": "Jour de Noël (orthodoxe)",
+        "revolution_day_2011_national_police_day": "Jour de la Révolution 2011 / Journée de la Police Nationale",
+        "sinai_liberation_day": "Jour de libération du Sinaï",
+        "june_30_revolution": "Révolution du 30 juin",
+        "revolution_day": "Jour de la Révolution",
+        "armed_forces_day": "Journée des Forces armées"
+      },
+      "es": {
+        "christmas_day_orthodox": "Día de Navidad (ortodoxo)",
+        "revolution_day_2011_national_police_day": "Día de la Revolución 2011 / Día de la Policía Nacional",
+        "sinai_liberation_day": "Día de la Liberación del Sinaí",
+        "june_30_revolution": "Revolución del 30 de junio",
+        "revolution_day": "Día de la Revolución",
+        "armed_forces_day": "Día de las Fuerzas Armadas"
+      },
+      "pt": {
+        "christmas_day_orthodox": "Dia de Natal (Ortodoxo)",
+        "revolution_day_2011_national_police_day": "Dia da Revolução 2011 / Dia Nacional da Polícia",
+        "sinai_liberation_day": "Dia da Libertação do Sinai",
+        "june_30_revolution": "Revolução de 30 de Junho",
+        "revolution_day": "Dia da Revolução",
+        "armed_forces_day": "Dia das Forças Armadas"
+      },
+      "it": {
+        "christmas_day_orthodox": "Giorno di Natale (ortodosso)",
+        "revolution_day_2011_national_police_day": "Giorno della Rivoluzione 2011 / Giorno Nazionale della Polizia",
+        "sinai_liberation_day": "Giorno della Liberazione del Sinai",
+        "june_30_revolution": "Rivoluzione del 30 giugno",
+        "revolution_day": "Giorno della Rivoluzione",
+        "armed_forces_day": "Giornata delle Forze Armate"
+      },
+      "pl": {
+        "christmas_day_orthodox": "Boże Narodzenie (prawosławne)",
+        "revolution_day_2011_national_police_day": "Dzień Rewolucji 2011 / Narodowy Dzień Policji",
+        "sinai_liberation_day": "Dzień Wyzwolenia Synaju",
+        "june_30_revolution": "Rewolucja 30 czerwca",
+        "revolution_day": "Dzień Rewolucji",
+        "armed_forces_day": "Święto Sił Zbrojnych"
+      },
+      "nl": {
+        "christmas_day_orthodox": "Eerste Kerstdag (Orthodox)",
+        "revolution_day_2011_national_police_day": "Dag van de Revolutie 2011 / Nationale Politiedag",
+        "sinai_liberation_day": "Bevrijdingsdag van de Sinaï",
+        "june_30_revolution": "30 juni Revolutie",
+        "revolution_day": "Dag van de Revolutie",
+        "armed_forces_day": "Dag van de strijdkrachten"
+      },
+      "sv": {
+        "christmas_day_orthodox": "Juldagen (ortodox)",
+        "revolution_day_2011_national_police_day": "Revolutionsdagen 2011 / Rikspolisdagen",
+        "sinai_liberation_day": "Sinai befrielsedag",
+        "june_30_revolution": "Revolution 30 juni",
+        "revolution_day": "Revolutionsdagen",
+        "armed_forces_day": "Försvarsmaktens dag"
+      },
+      "ja": {
+        "christmas_day_orthodox": "クリスマスの日（正統派）",
+        "revolution_day_2011_national_police_day": "2011 年革命記念日 / 国家警察の日",
+        "sinai_liberation_day": "シナイ解放記念日",
+        "june_30_revolution": "6月30日革命",
+        "revolution_day": "革命記念日",
+        "armed_forces_day": "国軍の日"
+      },
+      "ko": {
+        "christmas_day_orthodox": "크리스마스(정교회)",
+        "revolution_day_2011_national_police_day": "2011년 혁명기념일 / 경찰의 날",
+        "sinai_liberation_day": "시나이 해방절",
+        "june_30_revolution": "6월 30일 혁명",
+        "revolution_day": "혁명의 날",
+        "armed_forces_day": "국군의 날"
+      },
+      "zh-Hant": {
+        "christmas_day_orthodox": "聖誕節（東正教）",
+        "revolution_day_2011_national_police_day": "2011 年革命日/國家警察日",
+        "sinai_liberation_day": "西奈解放日",
+        "june_30_revolution": "6月30日革命",
+        "revolution_day": "革命日",
+        "armed_forces_day": "武裝部隊日"
+      }
+    }
+  },
+  "version": 9
+}
