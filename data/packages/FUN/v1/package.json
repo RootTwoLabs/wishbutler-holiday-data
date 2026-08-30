@@ -1,0 +1,528 @@
+{
+  "countryCode": "FUN",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [],
+  "funOccasions": {
+    "01-11": [
+      {
+        "id": "fun_thank_you_day",
+        "labelKey": "funOccasions.thank_you_day",
+        "emoji": "🙏",
+        "tags": [
+          "social"
+        ]
+      }
+    ],
+    "01-21": [
+      {
+        "id": "fun_hug_day",
+        "labelKey": "funOccasions.hug_day",
+        "emoji": "🤗",
+        "tags": [
+          "social"
+        ]
+      }
+    ],
+    "02-05": [
+      {
+        "id": "fun_nutella_day",
+        "labelKey": "funOccasions.nutella_day",
+        "emoji": "🍫",
+        "tags": [
+          "food"
+        ]
+      }
+    ],
+    "02-09": [
+      {
+        "id": "fun_pizza_day",
+        "labelKey": "funOccasions.pizza_day",
+        "emoji": "🍕",
+        "tags": [
+          "food"
+        ]
+      }
+    ],
+    "02-13": [
+      {
+        "id": "fun_radio_day",
+        "labelKey": "funOccasions.radio_day",
+        "emoji": "📻",
+        "tags": [
+          "culture"
+        ]
+      }
+    ],
+    "02-18": [
+      {
+        "id": "fun_wine_day",
+        "labelKey": "funOccasions.wine_day",
+        "emoji": "🍷",
+        "tags": [
+          "drink"
+        ]
+      }
+    ],
+    "02-27": [
+      {
+        "id": "fun_polar_bear_day",
+        "labelKey": "funOccasions.polar_bear_day",
+        "emoji": "🐻‍❄️",
+        "tags": [
+          "animals",
+          "nature"
+        ]
+      }
+    ],
+    "03-03": [
+      {
+        "id": "fun_wildlife_day",
+        "labelKey": "funOccasions.wildlife_day",
+        "emoji": "🦁",
+        "tags": [
+          "animals",
+          "nature"
+        ]
+      }
+    ],
+    "03-14": [
+      {
+        "id": "fun_pi_day",
+        "labelKey": "funOccasions.pi_day",
+        "emoji": "🥧",
+        "tags": [
+          "nerd",
+          "science"
+        ]
+      }
+    ],
+    "03-20": [
+      {
+        "id": "fun_happiness_day",
+        "labelKey": "funOccasions.happiness_day",
+        "emoji": "😊",
+        "tags": [
+          "wellbeing"
+        ]
+      }
+    ],
+    "03-21": [
+      {
+        "id": "fun_forest_day",
+        "labelKey": "funOccasions.forest_day",
+        "emoji": "🌳",
+        "tags": [
+          "nature"
+        ]
+      }
+    ],
+    "03-22": [
+      {
+        "id": "fun_water_day",
+        "labelKey": "funOccasions.water_day",
+        "emoji": "💧",
+        "tags": [
+          "nature"
+        ]
+      }
+    ],
+    "04-02": [
+      {
+        "id": "fun_childrens_book_day",
+        "labelKey": "funOccasions.childrens_book_day",
+        "emoji": "📚",
+        "tags": [
+          "culture"
+        ]
+      }
+    ],
+    "04-07": [
+      {
+        "id": "fun_health_day",
+        "labelKey": "funOccasions.health_day",
+        "emoji": "🩺",
+        "tags": [
+          "wellbeing"
+        ]
+      }
+    ],
+    "04-22": [
+      {
+        "id": "fun_earth_day",
+        "labelKey": "funOccasions.earth_day",
+        "emoji": "🌍",
+        "tags": [
+          "nature"
+        ]
+      }
+    ],
+    "04-23": [
+      {
+        "id": "fun_beer_day",
+        "labelKey": "funOccasions.beer_day",
+        "emoji": "🍺",
+        "tags": [
+          "drink",
+          "food"
+        ]
+      }
+    ],
+    "05-04": [
+      {
+        "id": "fun_star_wars_day",
+        "labelKey": "funOccasions.star_wars_day",
+        "emoji": "🚀",
+        "tags": [
+          "nerd",
+          "pop"
+        ]
+      }
+    ],
+    "05-25": [
+      {
+        "id": "fun_towel_day",
+        "labelKey": "funOccasions.towel_day",
+        "emoji": "🧻",
+        "tags": [
+          "nerd",
+          "pop"
+        ]
+      },
+      {
+        "id": "fun_geek_pride_day",
+        "labelKey": "funOccasions.geek_pride_day",
+        "emoji": "🤓",
+        "tags": [
+          "nerd"
+        ]
+      }
+    ],
+    "06-05": [
+      {
+        "id": "fun_environment_day",
+        "labelKey": "funOccasions.environment_day",
+        "emoji": "🌱",
+        "tags": [
+          "nature"
+        ]
+      }
+    ],
+    "06-08": [
+      {
+        "id": "fun_ocean_day",
+        "labelKey": "funOccasions.ocean_day",
+        "emoji": "🌊",
+        "tags": [
+          "nature"
+        ]
+      }
+    ],
+    "06-18": [
+      {
+        "id": "fun_sushi_day",
+        "labelKey": "funOccasions.sushi_day",
+        "emoji": "🍣",
+        "tags": [
+          "food"
+        ]
+      }
+    ],
+    "06-21": [
+      {
+        "id": "fun_skateboarding_day",
+        "labelKey": "funOccasions.skateboarding_day",
+        "emoji": "🛹",
+        "tags": [
+          "sport"
+        ]
+      }
+    ],
+    "07-07": [
+      {
+        "id": "fun_chocolate_day",
+        "labelKey": "funOccasions.chocolate_day",
+        "emoji": "🍫",
+        "tags": [
+          "food"
+        ]
+      }
+    ],
+    "07-17": [
+      {
+        "id": "fun_emoji_day",
+        "labelKey": "funOccasions.emoji_day",
+        "emoji": "😀",
+        "tags": [
+          "nerd",
+          "pop"
+        ]
+      }
+    ],
+    "07-20": [
+      {
+        "id": "fun_moon_day",
+        "labelKey": "funOccasions.moon_day",
+        "emoji": "🌕",
+        "tags": [
+          "science",
+          "space"
+        ]
+      }
+    ],
+    "08-08": [
+      {
+        "id": "fun_cat_day",
+        "labelKey": "funOccasions.cat_day",
+        "emoji": "🐱",
+        "tags": [
+          "animals"
+        ]
+      }
+    ],
+    "08-13": [
+      {
+        "id": "fun_lefthanders_day",
+        "labelKey": "funOccasions.lefthanders_day",
+        "emoji": "✋",
+        "tags": [
+          "fun"
+        ]
+      }
+    ],
+    "08-19": [
+      {
+        "id": "fun_photography_day",
+        "labelKey": "funOccasions.photography_day",
+        "emoji": "📷",
+        "tags": [
+          "art"
+        ]
+      }
+    ],
+    "09-08": [
+      {
+        "id": "fun_literacy_day",
+        "labelKey": "funOccasions.literacy_day",
+        "emoji": "📖",
+        "tags": [
+          "culture"
+        ]
+      }
+    ],
+    "09-19": [
+      {
+        "id": "fun_talk_like_a_pirate_day",
+        "labelKey": "funOccasions.talk_like_a_pirate_day",
+        "emoji": "🏴‍☠️",
+        "tags": [
+          "fun",
+          "pop"
+        ]
+      }
+    ],
+    "09-21": [
+      {
+        "id": "fun_peace_day",
+        "labelKey": "funOccasions.peace_day",
+        "emoji": "🕊️",
+        "tags": [
+          "social"
+        ]
+      }
+    ],
+    "09-27": [
+      {
+        "id": "fun_tourism_day",
+        "labelKey": "funOccasions.tourism_day",
+        "emoji": "✈️",
+        "tags": [
+          "travel"
+        ]
+      }
+    ],
+    "10-01": [
+      {
+        "id": "fun_coffee_day",
+        "labelKey": "funOccasions.coffee_day",
+        "emoji": "☕",
+        "tags": [
+          "drink"
+        ]
+      }
+    ],
+    "10-04": [
+      {
+        "id": "fun_animal_day",
+        "labelKey": "funOccasions.animal_day",
+        "emoji": "🐾",
+        "tags": [
+          "animals"
+        ]
+      }
+    ],
+    "10-05": [
+      {
+        "id": "fun_teachers_day",
+        "labelKey": "funOccasions.teachers_day",
+        "emoji": "🍎",
+        "tags": [
+          "social"
+        ]
+      }
+    ],
+    "10-16": [
+      {
+        "id": "fun_food_day",
+        "labelKey": "funOccasions.food_day",
+        "emoji": "🍎",
+        "tags": [
+          "food"
+        ]
+      }
+    ],
+    "11-13": [
+      {
+        "id": "fun_kindness_day",
+        "labelKey": "funOccasions.kindness_day",
+        "emoji": "💛",
+        "tags": [
+          "social",
+          "wellbeing"
+        ]
+      }
+    ],
+    "11-17": [
+      {
+        "id": "fun_students_day",
+        "labelKey": "funOccasions.students_day",
+        "emoji": "🎓",
+        "tags": [
+          "social"
+        ]
+      }
+    ],
+    "11-19": [
+      {
+        "id": "fun_mens_day",
+        "labelKey": "funOccasions.mens_day",
+        "emoji": "👔",
+        "tags": [
+          "social"
+        ]
+      }
+    ],
+    "11-21": [
+      {
+        "id": "fun_hello_day",
+        "labelKey": "funOccasions.hello_day",
+        "emoji": "👋",
+        "tags": [
+          "social"
+        ]
+      }
+    ],
+    "12-10": [
+      {
+        "id": "fun_human_rights_day",
+        "labelKey": "funOccasions.human_rights_day",
+        "emoji": "⚖️",
+        "tags": [
+          "social"
+        ]
+      }
+    ]
+  },
+  "i18n": {
+    "funOccasions": {
+      "de": {
+        "animal_day": "Welttierschutztag",
+        "beer_day": "Tag des deutschen Bieres",
+        "cat_day": "Weltkatzentag",
+        "childrens_book_day": "Internationaler Kinderbuchtag",
+        "chocolate_day": "Tag der Schokolade",
+        "coffee_day": "Tag des Kaffees",
+        "earth_day": "Tag der Erde",
+        "emoji_day": "Welt-Emoji-Tag",
+        "environment_day": "Weltumwelttag",
+        "food_day": "Welternährungstag",
+        "forest_day": "Tag des Waldes",
+        "geek_pride_day": "Tag des Nerd-Stolzes",
+        "happiness_day": "Weltglückstag",
+        "health_day": "Weltgesundheitstag",
+        "hello_day": "Welt-Hallo-Tag",
+        "hug_day": "Tag der Umarmung",
+        "human_rights_day": "Tag der Menschenrechte",
+        "kindness_day": "Welttag der Freundlichkeit",
+        "lefthanders_day": "Weltlinkshändertag",
+        "literacy_day": "Weltalphabetisierungstag",
+        "mens_day": "Internationaler Männertag",
+        "moon_day": "Tag der Mondlandung",
+        "nutella_day": "Welt-Nutella-Tag",
+        "ocean_day": "Welttag der Ozeane",
+        "peace_day": "Weltfriedenstag",
+        "photography_day": "Weltfototag",
+        "pi_day": "Pi-Tag",
+        "pizza_day": "Tag der Pizza",
+        "polar_bear_day": "Tag des Eisbären",
+        "radio_day": "Welttag des Radios",
+        "skateboarding_day": "Tag des Skateboards",
+        "star_wars_day": "Star-Wars-Tag",
+        "students_day": "Internationaler Tag der Studierenden",
+        "sushi_day": "Internationaler Sushi-Tag",
+        "talk_like_a_pirate_day": "Sprich-wie-ein-Pirat-Tag",
+        "teachers_day": "Weltlehrertag",
+        "thank_you_day": "Internationaler Dankeschön-Tag",
+        "tourism_day": "Welttourismustag",
+        "towel_day": "Handtuchtag",
+        "water_day": "Weltwassertag",
+        "wildlife_day": "Weltnaturtag",
+        "wine_day": "Tag des Weines"
+      },
+      "en": {
+        "animal_day": "World Animal Day",
+        "beer_day": "German Beer Day",
+        "cat_day": "International Cat Day",
+        "childrens_book_day": "International Children's Book Day",
+        "chocolate_day": "World Chocolate Day",
+        "coffee_day": "International Coffee Day",
+        "earth_day": "Earth Day",
+        "emoji_day": "World Emoji Day",
+        "environment_day": "World Environment Day",
+        "food_day": "World Food Day",
+        "forest_day": "International Day of Forests",
+        "geek_pride_day": "Geek Pride Day",
+        "happiness_day": "International Day of Happiness",
+        "health_day": "World Health Day",
+        "hello_day": "World Hello Day",
+        "hug_day": "National Hugging Day",
+        "human_rights_day": "Human Rights Day",
+        "kindness_day": "World Kindness Day",
+        "lefthanders_day": "International Lefthanders Day",
+        "literacy_day": "International Literacy Day",
+        "mens_day": "International Men's Day",
+        "moon_day": "National Moon Day",
+        "nutella_day": "World Nutella Day",
+        "ocean_day": "World Oceans Day",
+        "peace_day": "International Day of Peace",
+        "photography_day": "World Photography Day",
+        "pi_day": "Pi Day",
+        "pizza_day": "National Pizza Day",
+        "polar_bear_day": "International Polar Bear Day",
+        "radio_day": "World Radio Day",
+        "skateboarding_day": "Go Skateboarding Day",
+        "star_wars_day": "Star Wars Day",
+        "students_day": "International Students' Day",
+        "sushi_day": "International Sushi Day",
+        "talk_like_a_pirate_day": "Talk Like a Pirate Day",
+        "teachers_day": "World Teachers' Day",
+        "thank_you_day": "International Thank You Day",
+        "tourism_day": "World Tourism Day",
+        "towel_day": "Towel Day",
+        "water_day": "World Water Day",
+        "wildlife_day": "World Wildlife Day",
+        "wine_day": "National Drink Wine Day"
+      }
+    }
+  }
+}
