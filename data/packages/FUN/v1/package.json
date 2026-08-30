@@ -300,6 +300,17 @@
         ]
       }
     ],
+    "08-30": [
+      {
+        "id": "fun_whale_shark_day",
+        "labelKey": "funOccasions.whale_shark_day",
+        "emoji": "🐋",
+        "tags": [
+          "animals",
+          "nature"
+        ]
+      }
+    ],
     "09-08": [
       {
         "id": "fun_literacy_day",
@@ -476,6 +487,7 @@
         "tourism_day": "Welttourismustag",
         "towel_day": "Handtuchtag",
         "water_day": "Weltwassertag",
+        "whale_shark_day": "Internationaler Tag des Walhais",
         "wildlife_day": "Weltnaturtag",
         "wine_day": "Tag des Weines"
       },
@@ -520,6 +532,7 @@
         "tourism_day": "World Tourism Day",
         "towel_day": "Towel Day",
         "water_day": "World Water Day",
+        "whale_shark_day": "International Whale Shark Day",
         "wildlife_day": "World Wildlife Day",
         "wine_day": "National Drink Wine Day"
       }

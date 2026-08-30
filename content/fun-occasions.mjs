@@ -97,6 +97,8 @@ export const FUN_OCCASIONS = [
     labels: { de: 'Weltlinkshändertag', en: 'International Lefthanders Day' } },
   { slug: 'photography_day', date: '08-19', emoji: '📷', tags: ['art'],
     labels: { de: 'Weltfototag', en: 'World Photography Day' } },
+  { slug: 'whale_shark_day', date: '08-30', emoji: '🐋', tags: ['animals', 'nature'],
+    labels: { de: 'Internationaler Tag des Walhais', en: 'International Whale Shark Day' } },
 
   // September
   { slug: 'literacy_day', date: '09-08', emoji: '📖', tags: ['culture'],

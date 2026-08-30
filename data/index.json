@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "baseUrl": "https://cdn.jsdelivr.net/gh/RootTwoLabs/wishbutler-holiday-data@main/data",
-  "generatedAt": "2026-08-30T16:29:45.814Z",
+  "generatedAt": "2026-08-30T17:02:36.403Z",
   "countries": [
     {
       "code": "AD",
@@ -1593,7 +1593,7 @@
     "code": "FUN",
     "version": 1,
     "package": "packages/FUN/v1/package.json",
-    "sizeBytes": 12257,
+    "sizeBytes": 12599,
     "locales": [
       "de",
       "en"
