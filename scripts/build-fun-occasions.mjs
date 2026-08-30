@@ -17,11 +17,12 @@ import { mkdir, writeFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { FUN_OCCASIONS } from '../content/fun-occasions.mjs';
+import { readFile } from 'node:fs/promises';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const PACKAGES = join(ROOT, 'data', 'packages');
+const SOURCE = join(ROOT, 'content', 'fun-occasions.json');
 
 const REQUIRED_LOCALES = ['de', 'en'];
 const MAX_PER_DAY = 3;
@@ -47,17 +48,16 @@ async function currentVersion() {
   return max === 0 ? 1 : max;
 }
 
-function build() {
+function build(occasions) {
   const byDate = {};
   const i18n = {};
   const seenSlugs = new Set();
 
-  for (const occ of FUN_OCCASIONS) {
+  for (const occ of occasions) {
     assert(/^[a-z0-9_]+$/.test(occ.slug), `invalid slug "${occ.slug}"`);
     assert(!seenSlugs.has(occ.slug), `duplicate slug "${occ.slug}"`);
     seenSlugs.add(occ.slug);
     assert(DATE_RE.test(occ.date), `invalid date "${occ.date}" for "${occ.slug}"`);
-    assert(typeof occ.emoji === 'string' && occ.emoji.length > 0, `missing emoji for "${occ.slug}"`);
     for (const loc of REQUIRED_LOCALES) {
       assert(occ.labels?.[loc], `missing "${loc}" label for "${occ.slug}"`);
     }
@@ -65,7 +65,9 @@ function build() {
     (byDate[occ.date] ??= []).push({
       id: `fun_${occ.slug}`,
       labelKey: `funOccasions.${occ.slug}`,
-      emoji: occ.emoji,
+      // `emoji` is optional (harvested data has none; the app renders an IconTile,
+      // never the emoji). Kept for hand-authored entries / non-app surfaces.
+      ...(typeof occ.emoji === 'string' && occ.emoji.length > 0 ? { emoji: occ.emoji } : {}),
       ...(occ.tags?.length ? { tags: occ.tags } : {}),
     });
 
@@ -92,7 +94,11 @@ function build() {
 }
 
 async function main() {
-  const { funOccasions, i18n, count } = build();
+  assert(existsSync(SOURCE), `missing ${SOURCE} — run "npm run harvest:fun-occasions" first`);
+  const source = JSON.parse(await readFile(SOURCE, 'utf8'));
+  assert(Array.isArray(source.occasions), 'content/fun-occasions.json: "occasions" is not an array');
+
+  const { funOccasions, i18n, count } = build(source.occasions);
   const version = await currentVersion();
 
   const pkg = {

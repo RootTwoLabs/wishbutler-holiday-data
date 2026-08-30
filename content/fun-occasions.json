@@ -1,0 +1,1885 @@
+{
+  "source": "Wikidata (SPARQL query.wikidata.org)",
+  "license": "CC0-1.0",
+  "note": "Structured data from Wikidata, released under CC0. Fixed Gregorian dates only; instance of world day / awareness day / UN observance day; capped 3/day by sitelink notability.",
+  "generatedAt": "2026-08-30T18:23:25.076Z",
+  "count": 149,
+  "occasions": [
+    {
+      "slug": "new_year_s_day",
+      "date": "01-01",
+      "wikidata": "Q196627",
+      "labels": {
+        "de": "Neujahrstag",
+        "en": "New Year's Day",
+        "es": "Día de Año Nuevo",
+        "fr": "fête du jour de l'An",
+        "it": "capodanno",
+        "pl": "Nowy Rok",
+        "pt": "Dia de Ano Novo"
+      }
+    },
+    {
+      "slug": "world_braille_day",
+      "date": "01-04",
+      "wikidata": "Q11880318",
+      "labels": {
+        "de": "Welt Braille Tag",
+        "en": "World Braille Day",
+        "es": "Día Mundial del Braille",
+        "fr": "Journée mondiale du braille",
+        "pt": "Dia Mundial do Braille"
+      }
+    },
+    {
+      "slug": "world_logic_day",
+      "date": "01-14",
+      "wikidata": "Q104850441",
+      "labels": {
+        "de": "Welttag der Logik",
+        "en": "World Logic Day",
+        "es": "Día Mundial de la Lógica",
+        "fr": "Journée mondiale de la logique"
+      }
+    },
+    {
+      "slug": "world_wetlands_day",
+      "date": "02-02",
+      "wikidata": "Q1368707",
+      "labels": {
+        "de": "Welttag der Feuchtgebiete",
+        "en": "World Wetlands Day",
+        "es": "Día Mundial de los Humedales",
+        "fr": "Journée mondiale des zones humides",
+        "it": "giornata mondiale delle zone umide",
+        "pl": "Światowy Dzień Mokradeł",
+        "pt": "Dia Mundial das Zonas Húmidas"
+      }
+    },
+    {
+      "slug": "international_day_of_human_fraternity",
+      "date": "02-04",
+      "wikidata": "Q105202492",
+      "labels": {
+        "de": "Internationaler Tag der menschlichen Geschwisterlichkeit",
+        "en": "International Day of Human Fraternity",
+        "es": "Día Internacional de la Fraternidad Humana",
+        "fr": "Journée internationale de la fraternité humaine",
+        "it": "Giornata Internazionale della Fratellanza Umana",
+        "pt": "Dia Internacional da Fraternidade Humana"
+      }
+    },
+    {
+      "slug": "world_pulses_day",
+      "date": "02-10",
+      "wikidata": "Q60970004",
+      "labels": {
+        "de": "Internationaler Tag der Hülsenfrüchte",
+        "en": "World Pulses Day",
+        "es": "Día Mundial de las Legumbres",
+        "fr": "Journée internationale des légumineuses",
+        "pt": "Dia Mundial das Leguminosas"
+      }
+    },
+    {
+      "slug": "international_day_of_women_and_girls_in_science",
+      "date": "02-11",
+      "wikidata": "Q22084569",
+      "labels": {
+        "de": "Internationaler Tag der Frauen und Mädchen in der Wissenschaft",
+        "en": "International Day of Women and Girls in Science",
+        "es": "Día Internacional de la Mujer y la Niña en la Ciencia",
+        "fr": "Journée internationale des femmes et des filles en Science",
+        "it": "Giornata internazionale delle donne e delle ragazze nella scienza",
+        "pl": "Międzynarodowy Dzień Kobiet i Dziewcząt w Nauce",
+        "pt": "Dia Internacional das Mulheres e Raparigas na Ciência"
+      }
+    },
+    {
+      "slug": "european_112_day",
+      "date": "02-11",
+      "wikidata": "Q1377957",
+      "labels": {
+        "de": "Europäischer Tag des Notrufs 112",
+        "en": "European 112 Day",
+        "es": "Día del número de emergencias europeo 112",
+        "fr": "La Journée européenne du 112",
+        "it": "Giornata europea del Numero di Emergenza Unico Europeo",
+        "pl": "Europejski Dzień Numeru Alarmowego 112",
+        "pt": "Dia do Número Único Europeu de Emergência “112”"
+      }
+    },
+    {
+      "slug": "world_radio_day",
+      "date": "02-13",
+      "wikidata": "Q1359258",
+      "labels": {
+        "de": "Welttag des Radios",
+        "en": "World Radio Day",
+        "es": "Día Mundial de la Radio",
+        "fr": "Journée mondiale de la radio",
+        "it": "giornata della radio",
+        "pl": "Światowy Dzień Radia",
+        "pt": "Dia Mundial da Rádio"
+      }
+    },
+    {
+      "slug": "allergy_day",
+      "date": "02-20",
+      "wikidata": "Q2648499",
+      "labels": {
+        "de": "Allergie no Hi",
+        "en": "Allergy day"
+      }
+    },
+    {
+      "slug": "international_mother_language_day",
+      "date": "02-21",
+      "wikidata": "Q42375",
+      "labels": {
+        "de": "Internationaler Tag der Muttersprache",
+        "en": "International Mother Language Day",
+        "es": "Día Internacional de la Lengua Materna",
+        "fr": "Journée internationale de la langue maternelle",
+        "it": "giornata internazionale della lingua madre",
+        "pl": "Międzynarodowy Dzień Języka Ojczystego",
+        "pt": "Dia Internacional da Língua Materna"
+      }
+    },
+    {
+      "slug": "world_ngo_day",
+      "date": "02-27",
+      "wikidata": "Q23059172",
+      "labels": {
+        "de": "Welttag der Nichtregierungsorganisationen",
+        "en": "World NGO Day",
+        "es": "Día Mundial de las ONG",
+        "fr": "Journée mondiale des ONG",
+        "pl": "Światowy Dzień NGO"
+      }
+    },
+    {
+      "slug": "world_seagrass_day",
+      "date": "03-01",
+      "wikidata": "Q113331235",
+      "labels": {
+        "de": "Welttag des Seegrases",
+        "en": "World Seagrass Day",
+        "es": "Día Mundial de los Pastos Marinos",
+        "fr": "Journée mondiale des herbiers marins",
+        "pt": "Dia Mundial das Ervas Marinhas"
+      }
+    },
+    {
+      "slug": "world_wildlife_day",
+      "date": "03-03",
+      "wikidata": "Q15813320",
+      "labels": {
+        "de": "Tag des Artenschutzes",
+        "en": "World Wildlife Day",
+        "es": "Día Mundial de la Vida Silvestre",
+        "fr": "journée mondiale de la vie sauvage",
+        "it": "Giornata mondiale della fauna selvatica",
+        "pt": "Dia Mundial da Vida Selvagem"
+      }
+    },
+    {
+      "slug": "world_hearing_day",
+      "date": "03-03",
+      "wikidata": "Q5815639",
+      "labels": {
+        "de": "Welttag des Hörens",
+        "en": "World Hearing Day",
+        "es": "Día Internacional de la Audición",
+        "fr": "Journée mondiale de l’audition",
+        "it": "Giornata Mondiale dell’Udito",
+        "pt": "Dia Mundial da Audição"
+      }
+    },
+    {
+      "slug": "international_women_s_day",
+      "date": "03-08",
+      "wikidata": "Q38964",
+      "labels": {
+        "de": "Internationaler Frauentag",
+        "en": "International Women's Day",
+        "es": "Día Internacional de la Mujer",
+        "fr": "Journée internationale des femmes",
+        "it": "Giornata internazionale della donna",
+        "pl": "Dzień Kobiet",
+        "pt": "Dia Internacional da Mulher"
+      }
+    },
+    {
+      "slug": "pi_day",
+      "date": "03-14",
+      "wikidata": "Q179736",
+      "labels": {
+        "de": "Pi-Tag",
+        "en": "Pi Day",
+        "es": "Día de π",
+        "fr": "journée de pi",
+        "it": "Giorno del pi greco",
+        "pl": "Dzień Liczby Pi",
+        "pt": "Dia do Pi"
+      }
+    },
+    {
+      "slug": "international_day_of_mathematics",
+      "date": "03-14",
+      "wikidata": "Q87486410",
+      "labels": {
+        "de": "Internationaler Tag der Mathematik",
+        "en": "International Day of Mathematics",
+        "es": "Día Internacional de las Matemáticas",
+        "fr": "Journée internationale des mathématiques"
+      }
+    },
+    {
+      "slug": "save_a_spider_day",
+      "date": "03-14",
+      "wikidata": "Q138663279",
+      "labels": {
+        "de": "Rette-eine-Spinne-Tag",
+        "en": "Save a Spider Day",
+        "pl": "Dzień Pająka"
+      }
+    },
+    {
+      "slug": "world_consumer_rights_day",
+      "date": "03-15",
+      "wikidata": "Q1002504",
+      "labels": {
+        "de": "Weltverbrauchertag",
+        "en": "World Consumer Rights Day",
+        "pl": "Światowy Dzień Konsumenta"
+      }
+    },
+    {
+      "slug": "international_day_of_happiness",
+      "date": "03-20",
+      "wikidata": "Q5305947",
+      "labels": {
+        "de": "Weltglückstag",
+        "en": "International Day of Happiness",
+        "es": "Día Internacional de la Felicidad",
+        "fr": "Journée mondiale du bonheur",
+        "it": "giornata internazionale della felicità",
+        "pl": "Międzynarodowy Dzień Szczęścia",
+        "pt": "Dia Internacional da Felicidade"
+      }
+    },
+    {
+      "slug": "world_sparrow_day",
+      "date": "03-20",
+      "wikidata": "Q7752557",
+      "labels": {
+        "de": "Welt-Spatzen-Tag",
+        "en": "World Sparrow Day"
+      }
+    },
+    {
+      "slug": "world_storytelling_day",
+      "date": "03-20",
+      "wikidata": "Q8036268",
+      "labels": {
+        "de": "Weltgeschichtentag",
+        "en": "World Storytelling Day",
+        "es": "Día Internacional de la Narración Oral",
+        "fr": "Journée mondiale du conte"
+      }
+    },
+    {
+      "slug": "nowruz",
+      "date": "03-21",
+      "wikidata": "Q483236",
+      "labels": {
+        "de": "Nouruz",
+        "en": "Nowruz",
+        "es": "Noruz",
+        "fr": "Norouz",
+        "it": "Nawruz",
+        "pl": "Nouruz",
+        "pt": "Noruz"
+      }
+    },
+    {
+      "slug": "world_poetry_day",
+      "date": "03-21",
+      "wikidata": "Q857171",
+      "labels": {
+        "de": "Welttag der Poesie",
+        "en": "World Poetry Day",
+        "es": "Día Mundial de la Poesía",
+        "fr": "Journée mondiale de la poésie",
+        "it": "giornata mondiale della poesia",
+        "pl": "Światowy Dzień Poezji",
+        "pt": "Dia Mundial da Poesia"
+      }
+    },
+    {
+      "slug": "international_day_of_forests",
+      "date": "03-21",
+      "wikidata": "Q7912962",
+      "labels": {
+        "de": "Internationaler Tag des Waldes",
+        "en": "International Day of Forests",
+        "es": "Día Internacional de los Bosques",
+        "fr": "Journée internationale des forêts",
+        "it": "Giornata internazionale delle foreste",
+        "pl": "Międzynarodowy Dzień Lasów",
+        "pt": "Dia Internacional das Florestas"
+      }
+    },
+    {
+      "slug": "world_water_day",
+      "date": "03-22",
+      "wikidata": "Q183740",
+      "labels": {
+        "de": "Weltwassertag",
+        "en": "World Water Day",
+        "es": "Día Mundial del Agua",
+        "fr": "Journée mondiale de l'eau",
+        "it": "giornata mondiale dell'acqua",
+        "pl": "Światowy Dzień Wody",
+        "pt": "Dia Mundial da Água"
+      }
+    },
+    {
+      "slug": "world_meteorological_day",
+      "date": "03-23",
+      "wikidata": "Q1135422",
+      "labels": {
+        "de": "Welttag der Meteorologie",
+        "en": "World Meteorological Day",
+        "es": "Día Meteorológico Mundial",
+        "fr": "Journée météorologique mondiale",
+        "it": "Giornata mondiale della meteorologia",
+        "pl": "Światowy Dzień Meteorologii"
+      }
+    },
+    {
+      "slug": "purple_day",
+      "date": "03-26",
+      "wikidata": "Q429638",
+      "labels": {
+        "de": "Purple Day",
+        "en": "Purple Day",
+        "es": "Purple Day",
+        "fr": "Purple Day",
+        "it": "Giornata viola",
+        "pt": "Dia Púrpura"
+      }
+    },
+    {
+      "slug": "world_theatre_day",
+      "date": "03-27",
+      "wikidata": "Q2076105",
+      "labels": {
+        "de": "Welttag des Theaters",
+        "en": "World Theatre Day",
+        "es": "Día Mundial del Teatro",
+        "fr": "Journée mondiale du théâtre",
+        "it": "giornata mondiale del teatro",
+        "pl": "Międzynarodowy Dzień Teatru",
+        "pt": "Dia Mundial do Teatro"
+      }
+    },
+    {
+      "slug": "international_transgender_day_of_visibility",
+      "date": "03-31",
+      "wikidata": "Q16254614",
+      "labels": {
+        "de": "Internationaler Tag zur Sichtbarkeit von Transmenschen",
+        "en": "International Transgender Day of Visibility",
+        "es": "Día Internacional de la Visibilidad Trans",
+        "fr": "Journée internationale de visibilité transgenre",
+        "it": "giornata internazionale della visibilità transgender",
+        "pt": "Dia Internacional da Visibilidade Transgênero"
+      }
+    },
+    {
+      "slug": "international_children_s_book_day",
+      "date": "04-02",
+      "wikidata": "Q1667589",
+      "labels": {
+        "de": "Internationaler Kinderbuchtag",
+        "en": "International Children's Book Day",
+        "es": "Día Internacional del Libro Infantil y Juvenil",
+        "fr": "journée internationale du livre pour enfants",
+        "it": "giornata internazionale del libro per bambini",
+        "pl": "Międzynarodowy Dzień Książki dla Dzieci",
+        "pt": "Dia Internacional do Livro Infantil"
+      }
+    },
+    {
+      "slug": "international_day_of_conscience",
+      "date": "04-05",
+      "wikidata": "Q96382217",
+      "labels": {
+        "de": "Internationaler Tag des Gewissens",
+        "en": "International Day of Conscience",
+        "es": "Día Internacional de la Conciencia",
+        "pt": "Dia Internacional da Consciência"
+      }
+    },
+    {
+      "slug": "world_health_day",
+      "date": "04-07",
+      "wikidata": "Q476734",
+      "labels": {
+        "de": "Weltgesundheitstag",
+        "en": "World Health Day",
+        "es": "Día Mundial de la Salud",
+        "fr": "Journée mondiale de la santé",
+        "it": "giornata mondiale della salute",
+        "pl": "Światowy Dzień Zdrowia",
+        "pt": "Dia Mundial da Saúde"
+      }
+    },
+    {
+      "slug": "international_romani_day",
+      "date": "04-08",
+      "wikidata": "Q1285042",
+      "labels": {
+        "de": "Internationaler Tag der Roma",
+        "en": "International Romani Day",
+        "es": "Día Internacional del Pueblo Gitano",
+        "fr": "Journée internationale des Roms",
+        "it": "Giornata internazionale dei rom, sinti e camminanti",
+        "pl": "Międzynarodowy Dzień Romów"
+      }
+    },
+    {
+      "slug": "cosmonautics_day",
+      "date": "04-12",
+      "wikidata": "Q673442",
+      "labels": {
+        "de": "Tag der Kosmonauten",
+        "en": "Cosmonautics Day",
+        "es": "Día de la Cosmonáutica",
+        "fr": "Journée de la cosmonautique",
+        "it": "Giornata della Cosmonautica",
+        "pl": "Dzień Kosmonautyki",
+        "pt": "Dia do Cosmonauta"
+      }
+    },
+    {
+      "slug": "world_quantum_day",
+      "date": "04-14",
+      "wikidata": "Q111602317",
+      "labels": {
+        "de": "Welttag der Quanten",
+        "en": "World Quantum Day",
+        "es": "Día Mundial de la Cuántica",
+        "fr": "Journée mondiale de la quantique",
+        "it": "Giornata mondiale dei quanti",
+        "pl": "Światowy dzień kwantów",
+        "pt": "Dia Mundial Quântico"
+      }
+    },
+    {
+      "slug": "international_day_for_monuments_and_sites",
+      "date": "04-18",
+      "wikidata": "Q2651616",
+      "labels": {
+        "de": "Weltkulturerbetag",
+        "en": "International Day For Monuments and Sites",
+        "es": "Día Internacional de los Monumentos y Sitios",
+        "fr": "Journée internationale des monuments et des sites",
+        "pl": "Międzynarodowy Dzień Ochrony Zabytków",
+        "pt": "Dia Internacional dos Monumentos e Sítios"
+      }
+    },
+    {
+      "slug": "earth_day",
+      "date": "04-22",
+      "wikidata": "Q124473",
+      "labels": {
+        "de": "Tag der Erde",
+        "en": "Earth Day",
+        "es": "Día de la Tierra",
+        "fr": "Jour de la Terre",
+        "it": "giornata della Terra",
+        "pl": "Dzień Ziemi",
+        "pt": "Dia da Terra"
+      }
+    },
+    {
+      "slug": "international_mother_earth_day",
+      "date": "04-22",
+      "wikidata": "Q23899800",
+      "labels": {
+        "de": "Internationalen Tag der Mutter Erde",
+        "en": "International Mother Earth Day",
+        "es": "Día Internacional de la Madre Tierra",
+        "pl": "Międzynarodowy Dzień Matki Ziemi",
+        "pt": "Dia Internacional da Mãe Terra"
+      }
+    },
+    {
+      "slug": "world_book_day_and_copyright_day",
+      "date": "04-23",
+      "wikidata": "Q166051",
+      "labels": {
+        "de": "Welttag des Buches und des Urheberrechts",
+        "en": "World Book Day and Copyright Day",
+        "es": "Día Internacional del Libro",
+        "fr": "Journée mondiale du livre et du droit d'auteur",
+        "it": "giornata mondiale del libro e del diritto d'autore",
+        "pl": "Światowy Dzień Książki i Praw Autorskich",
+        "pt": "Dia Internacional do Livro"
+      }
+    },
+    {
+      "slug": "world_intellectual_property_day",
+      "date": "04-26",
+      "wikidata": "Q1054087",
+      "labels": {
+        "de": "Welttag des geistigen Eigentums",
+        "en": "World Intellectual Property Day",
+        "es": "Día Mundial de la Propiedad Intelectual",
+        "fr": "Journée mondiale de la propriété intellectuelle",
+        "it": "giornata mondiale della proprietà intellettuale",
+        "pl": "Światowy Dzień Własności Intelektualnej",
+        "pt": "Dia Mundial da Propriedade Intelectual"
+      }
+    },
+    {
+      "slug": "international_dance_day",
+      "date": "04-29",
+      "wikidata": "Q855927",
+      "labels": {
+        "de": "Welttag des Tanzes",
+        "en": "International Dance Day",
+        "es": "Día Internacional de la Danza",
+        "fr": "Journée internationale de la danse",
+        "it": "giornata internazionale della danza",
+        "pl": "Międzynarodowy Dzień Tańca",
+        "pt": "Dia Internacional da Dança"
+      }
+    },
+    {
+      "slug": "international_jazz_day",
+      "date": "04-30",
+      "wikidata": "Q1667669",
+      "labels": {
+        "de": "Internationaler Tag des Jazz",
+        "en": "International Jazz Day",
+        "es": "Día Internacional del Jazz",
+        "fr": "Journée internationale du jazz",
+        "it": "Giornata internazionale del jazz",
+        "pl": "Międzynarodowy Dzień Jazzu",
+        "pt": "Dia Internacional do Jazz"
+      }
+    },
+    {
+      "slug": "international_workers_day",
+      "date": "05-01",
+      "wikidata": "Q47499",
+      "labels": {
+        "de": "Erster Mai",
+        "en": "International Workers' Day",
+        "es": "Día del Trabajador",
+        "fr": "journée internationale des travailleurs",
+        "it": "festa del lavoro",
+        "pl": "Święto Pracy",
+        "pt": "Dia do Trabalhador"
+      }
+    },
+    {
+      "slug": "international_firefighters_day",
+      "date": "05-04",
+      "wikidata": "Q3320262",
+      "labels": {
+        "de": "Internationaler Tag der Feuerwehr",
+        "en": "International Firefighters' Day",
+        "fr": "Journée internationale des pompiers",
+        "it": "Giornata internazionale dei vigili del fuoco",
+        "pl": "Międzynarodowy Dzień Strażaka",
+        "pt": "Dia Internacional do Bombeiro"
+      }
+    },
+    {
+      "slug": "international_midwives_day",
+      "date": "05-05",
+      "wikidata": "Q1143872",
+      "labels": {
+        "de": "Internationaler Hebammentag",
+        "en": "International Midwives' Day",
+        "es": "Día Internacional de la Partera",
+        "it": "giornata internazionale delle ostetriche"
+      }
+    },
+    {
+      "slug": "world_hand_hygiene_day",
+      "date": "05-05",
+      "wikidata": "Q2558672",
+      "labels": {
+        "de": "Welttag der Handhygiene",
+        "en": "World Hand Hygiene Day",
+        "es": "Día Mundial de la Higiene de las Manos"
+      }
+    },
+    {
+      "slug": "international_no_diet_day",
+      "date": "05-06",
+      "wikidata": "Q1656887",
+      "labels": {
+        "de": "Internationaler Anti-Diät-Tag",
+        "en": "International No Diet Day",
+        "es": "Día Internacional Sin Dietas",
+        "fr": "Journée internationale sans régime",
+        "pt": "Dia Internacional sem Dieta"
+      }
+    },
+    {
+      "slug": "world_red_cross_and_red_crescent_day",
+      "date": "05-08",
+      "wikidata": "Q1713805",
+      "labels": {
+        "de": "Weltrotkreuztag",
+        "en": "World Red Cross and Red Crescent Day",
+        "es": "Día Mundial de la Cruz Roja",
+        "fr": "journée de la Croix-Rouge",
+        "it": "giornata mondiale della Croce Rossa e Mezzaluna Rossa",
+        "pl": "Światowy Dzień Czerwonego Krzyża i Czerwonego Półksiężyca"
+      }
+    },
+    {
+      "slug": "international_nurses_day",
+      "date": "05-12",
+      "wikidata": "Q1144569",
+      "labels": {
+        "de": "Internationaler Tag der Pflegenden",
+        "en": "International Nurses Day",
+        "es": "Día Internacional de la Enfermeria",
+        "fr": "Journée Internationale des Infirmières",
+        "it": "giornata internazionale dell'infermiere",
+        "pl": "Międzynarodowy Dzień Pielęgniarek",
+        "pt": "Dia internacional da enfermagem"
+      }
+    },
+    {
+      "slug": "international_day_of_plant_health",
+      "date": "05-12",
+      "wikidata": "Q113374548",
+      "labels": {
+        "de": "Internationaler Tag der Pflanzengesundheit",
+        "en": "International Day of Plant Health",
+        "es": "Día Internacional de la Sanidad Vegetal",
+        "fr": "Journée internationale de la santé des végétaux",
+        "pt": "Dia Internacional da Saúde Vegetal"
+      }
+    },
+    {
+      "slug": "international_women_in_mathematics_day",
+      "date": "05-12",
+      "wikidata": "Q134451113",
+      "labels": {
+        "de": "Internationaler Tag der Frauen in der Mathematik",
+        "en": "International Women in Mathematics Day",
+        "es": "Día Internacional de las Mujeres Matemáticas"
+      }
+    },
+    {
+      "slug": "german_national_day_of_hiking",
+      "date": "05-14",
+      "wikidata": "Q31841052",
+      "labels": {
+        "de": "Tag des Wanderns",
+        "en": "German national Day of Hiking"
+      }
+    },
+    {
+      "slug": "international_day_of_families",
+      "date": "05-15",
+      "wikidata": "Q246959",
+      "labels": {
+        "de": "Internationaler Tag der Familie",
+        "en": "International Day of Families",
+        "es": "Día Internacional de las Familias",
+        "fr": "Journée internationale de la famille",
+        "pl": "Międzynarodowy Dzień Rodzin",
+        "pt": "Dia Internacional das Famílias"
+      }
+    },
+    {
+      "slug": "international_day_of_light",
+      "date": "05-16",
+      "wikidata": "Q43976674",
+      "labels": {
+        "de": "Internationaler Tag des Lichts",
+        "en": "International Day of Light",
+        "es": "Día Internacional de la Luz"
+      }
+    },
+    {
+      "slug": "world_telecommunication_and_information_society_",
+      "date": "05-17",
+      "wikidata": "Q2438925",
+      "labels": {
+        "de": "Weltfernmeldetag",
+        "en": "World Telecommunication and Information Society Day",
+        "es": "Día Mundial de las Telecomunicaciones y la Sociedad de la Información",
+        "fr": "Journée mondiale de la société de l'information",
+        "pl": "Światowy Dzień Społeczeństwa Informacyjnego",
+        "pt": "Dia Mundial da Sociedade da Informação"
+      }
+    },
+    {
+      "slug": "international_museum_day",
+      "date": "05-18",
+      "wikidata": "Q478079",
+      "labels": {
+        "de": "Internationaler Museumstag",
+        "en": "International Museum Day",
+        "es": "Día Internacional de los Museos",
+        "fr": "Journée internationale des musées",
+        "it": "Giornata internazionale dei musei",
+        "pl": "Międzynarodowy Dzień Muzeów"
+      }
+    },
+    {
+      "slug": "world_bee_day",
+      "date": "05-20",
+      "wikidata": "Q47008694",
+      "labels": {
+        "de": "Weltbienentag",
+        "en": "World Bee Day",
+        "es": "Día Mundial de las Abejas",
+        "fr": "Journée mondiale des abeilles",
+        "it": "Giornata mondiale delle api",
+        "pl": "Dzień pszczoły",
+        "pt": "Dia Mundial das Abelhas"
+      }
+    },
+    {
+      "slug": "world_metrology_day",
+      "date": "05-20",
+      "wikidata": "Q575238",
+      "labels": {
+        "de": "Tag des Messens",
+        "en": "World Metrology Day",
+        "es": "Día Mundial de la Metrología",
+        "fr": "Journée internationale de la métrologie"
+      }
+    },
+    {
+      "slug": "international_tea_day",
+      "date": "05-21",
+      "wikidata": "Q4288436",
+      "labels": {
+        "de": "Internationaler Tag des Tees",
+        "en": "International Tea Day",
+        "es": "Día Internacional del Té",
+        "fr": "Journée internationale du thé",
+        "pt": "Dia Internacional do Chá"
+      }
+    },
+    {
+      "slug": "world_day_for_cultural_diversity_for_dialogue_an",
+      "date": "05-21",
+      "wikidata": "Q1859716",
+      "labels": {
+        "de": "Welttag der kulturellen Vielfalt für Dialog und Entwicklung",
+        "en": "World Day for Cultural Diversity for Dialogue and Development",
+        "es": "Día Mundial de la Diversidad Cultural para el Diálogo y el Desarrollo",
+        "fr": "Journée mondiale de la diversité culturelle pour le dialogue et le développement",
+        "it": "Giornata mondiale per la diversità culturale per il dialogo e lo sviluppo",
+        "pl": "Światowy Dzień Różnorodności Kulturowej"
+      }
+    },
+    {
+      "slug": "international_day_for_biological_diversity",
+      "date": "05-22",
+      "wikidata": "Q463884",
+      "labels": {
+        "de": "Internationale Tag der Biodiversität",
+        "en": "International Day for Biological Diversity",
+        "es": "Día Internacional de la Diversidad Biológica",
+        "fr": "Journée internationale de la biodiversité",
+        "it": "giornata mondiale della biodiversità",
+        "pl": "Międzynarodowy Dzień Różnorodności Biologicznej",
+        "pt": "Dia Internacional da Diversidade Biológica"
+      }
+    },
+    {
+      "slug": "world_turtle_day",
+      "date": "05-23",
+      "wikidata": "Q2724051",
+      "labels": {
+        "de": "Weltschildkrötentag",
+        "en": "World Turtle Day",
+        "fr": "journée mondiale de la tortue",
+        "it": "giornata mondiale delle tartarughe",
+        "pl": "Światowy Dzień Żółwia",
+        "pt": "Dia Mundial da Tartaruga"
+      }
+    },
+    {
+      "slug": "european_day_of_parks",
+      "date": "05-24",
+      "wikidata": "Q93721840",
+      "labels": {
+        "de": "Europäischer Tag der Parke",
+        "en": "European Day of Parks",
+        "pl": "Europejski Dzień Parków Narodowych"
+      }
+    },
+    {
+      "slug": "towel_day",
+      "date": "05-25",
+      "wikidata": "Q241666",
+      "labels": {
+        "de": "Towel Day",
+        "en": "Towel Day",
+        "es": "Día de los Toallas",
+        "fr": "Towel Day",
+        "it": "Towel Day",
+        "pl": "Dzień Ręcznika",
+        "pt": "Dia da Toalha"
+      }
+    },
+    {
+      "slug": "africa_day",
+      "date": "05-25",
+      "wikidata": "Q387827",
+      "labels": {
+        "de": "Afrikatag",
+        "en": "Africa Day",
+        "es": "Día de África",
+        "fr": "Journée mondiale de l'Afrique",
+        "it": "giornata dell'Africa",
+        "pl": "Dzień Afryki",
+        "pt": "Dia da África"
+      }
+    },
+    {
+      "slug": "international_day_of_potato",
+      "date": "05-30",
+      "wikidata": "Q124286487",
+      "labels": {
+        "de": "Internationaler Tag der Kartoffel",
+        "en": "International Day of Potato",
+        "es": "Día Internacional de la Papa",
+        "fr": "Journée internationale de la pomme de terre",
+        "pt": "Dia Internacional da Batata"
+      }
+    },
+    {
+      "slug": "world_no_tobacco_day",
+      "date": "05-31",
+      "wikidata": "Q233249",
+      "labels": {
+        "de": "Weltnichtrauchertag",
+        "en": "World No Tobacco Day",
+        "es": "Día Mundial Sin Tabaco",
+        "fr": "Journée mondiale sans tabac",
+        "it": "giornata mondiale senza tabacco",
+        "pl": "Dzień bez Papierosa",
+        "pt": "Dia Mundial Sem Tabaco"
+      }
+    },
+    {
+      "slug": "world_milk_day",
+      "date": "06-01",
+      "wikidata": "Q1311238",
+      "labels": {
+        "de": "Weltmilchtag",
+        "en": "World Milk Day",
+        "es": "Día Mundial de la Leche",
+        "it": "Giornata mondiale del latte",
+        "pl": "Światowy Dzień Mleka",
+        "pt": "Dia Internacional do Leite"
+      }
+    },
+    {
+      "slug": "neighbours_day",
+      "date": "06-01",
+      "wikidata": "Q599470",
+      "labels": {
+        "de": "Tag der Nachbarschaft",
+        "en": "Neighbours' Day",
+        "fr": "fête des voisins",
+        "pl": "Europejski Dzień Sąsiada"
+      }
+    },
+    {
+      "slug": "world_bicycle_day",
+      "date": "06-03",
+      "wikidata": "Q51974489",
+      "labels": {
+        "de": "Weltfahrradtag",
+        "en": "World Bicycle Day",
+        "es": "Día Mundial de la Bicicleta",
+        "fr": "Journée mondiale de la bicyclette",
+        "it": "Giornata mondiale della bicicletta",
+        "pl": "Światowy Dzień Roweru",
+        "pt": "Dia Mundial da Bicicleta"
+      }
+    },
+    {
+      "slug": "world_environment_day",
+      "date": "06-05",
+      "wikidata": "Q199641",
+      "labels": {
+        "de": "Weltumwelttag",
+        "en": "World Environment Day",
+        "es": "Día Mundial del Medio Ambiente",
+        "fr": "Journée mondiale de l'environnement",
+        "it": "giornata mondiale dell'ambiente",
+        "pl": "Światowy Dzień Środowiska",
+        "pt": "Dia Mundial do Ambiente"
+      }
+    },
+    {
+      "slug": "world_food_safety_day",
+      "date": "06-07",
+      "wikidata": "Q64506308",
+      "labels": {
+        "de": "Welttag der Lebensmittelsicherheit",
+        "en": "World Food Safety Day",
+        "es": "Día Mundial de la Inocuidad de los Alimentos",
+        "fr": "Journée internationale de la sécurité sanitaire des aliments",
+        "it": "Giornata Mondiale dedicata alla Sicurezza Alimentare",
+        "pt": "Dia Mundial da Segurança dos Alimentos"
+      }
+    },
+    {
+      "slug": "world_swift_day",
+      "date": "06-07",
+      "wikidata": "Q67180278",
+      "labels": {
+        "de": "Welttag der Segler",
+        "en": "World Swift Day",
+        "es": "Día mundial del vencejo",
+        "fr": "Journée mondiale des martinets",
+        "pl": "Światowy dzień jerzyków"
+      }
+    },
+    {
+      "slug": "world_oceans_day",
+      "date": "06-08",
+      "wikidata": "Q559920",
+      "labels": {
+        "de": "Welttag der Ozeane",
+        "en": "World Oceans Day",
+        "es": "Día Mundial de los Océanos",
+        "fr": "Journée mondiale de l'océan",
+        "pl": "Światowy Dzień Oceanów",
+        "pt": "Dia Mundial dos Oceanos"
+      }
+    },
+    {
+      "slug": "world_art_nouveau_day",
+      "date": "06-10",
+      "wikidata": "Q64539179",
+      "labels": {
+        "de": "Weltjugendstiltag",
+        "en": "World Art Nouveau Day",
+        "es": "Día Mundial del Modernismo",
+        "fr": "Journée mondiale de l’Art nouveau",
+        "pl": "Światowy Dzień Secesji",
+        "pt": "Dia Mundial da Arte Nova"
+      }
+    },
+    {
+      "slug": "bloomsday",
+      "date": "06-16",
+      "wikidata": "Q804551",
+      "labels": {
+        "de": "Bloomsday",
+        "en": "Bloomsday",
+        "es": "Bloomsday",
+        "fr": "Bloomsday",
+        "it": "Bloomsday",
+        "pl": "Bloomsday",
+        "pt": "Bloomsday"
+      }
+    },
+    {
+      "slug": "international_day_of_the_african_child",
+      "date": "06-16",
+      "wikidata": "Q616532",
+      "labels": {
+        "de": "Internationaler Tag des afrikanischen Kindes",
+        "en": "International Day of the African Child",
+        "es": "Día Internacional del Niño Africano",
+        "fr": "Journée de l’enfant africain",
+        "it": "Giornata internazionale del bambino africano",
+        "pl": "Międzynarodowy Dzień Dziecka Afrykańskiego"
+      }
+    },
+    {
+      "slug": "international_yoga_day",
+      "date": "06-21",
+      "wikidata": "Q18621241",
+      "labels": {
+        "de": "Weltyogatag",
+        "en": "International Yoga Day",
+        "es": "Día Internacional del Yoga",
+        "fr": "Journée internationale du yoga",
+        "pl": "Międzynarodowy Dzień Jogi",
+        "pt": "Dia Internacional do Ioga"
+      }
+    },
+    {
+      "slug": "world_humanist_day",
+      "date": "06-21",
+      "wikidata": "Q1882643",
+      "labels": {
+        "de": "Welthumanistentag",
+        "en": "World Humanist Day",
+        "pt": "Dia Humanista Mundial"
+      }
+    },
+    {
+      "slug": "day_of_the_seafarer",
+      "date": "06-25",
+      "wikidata": "Q5815767",
+      "labels": {
+        "de": "Tag des Seefahrers",
+        "en": "Day of the Seafarer",
+        "es": "Día de la Gente de Mar",
+        "fr": "Journée internationale des gens de mer",
+        "it": "Giornata del marittimo",
+        "pl": "Dzień Marynarza"
+      }
+    },
+    {
+      "slug": "asteroid_day",
+      "date": "06-30",
+      "wikidata": "Q20631457",
+      "labels": {
+        "de": "Asteroid Day",
+        "en": "Asteroid Day",
+        "es": "Día Internacional de los Asteroides",
+        "fr": "Journée des astéroïdes",
+        "it": "Giornata mondiale degli asterodi",
+        "pl": "Międzynarodowy Dzień Planetoid",
+        "pt": "Dia Internacional do Asteroide"
+      }
+    },
+    {
+      "slug": "world_ufo_day",
+      "date": "07-02",
+      "wikidata": "Q9396268",
+      "labels": {
+        "de": "Welt UFO Tag",
+        "en": "World UFO Day",
+        "fr": "Journée Mondiale des OVNI",
+        "it": "giornata mondiale degli UFO",
+        "pl": "Światowy Dzień UFO"
+      }
+    },
+    {
+      "slug": "day_of_the_franks",
+      "date": "07-02",
+      "wikidata": "Q1478469",
+      "labels": {
+        "de": "Tag der Franken",
+        "en": "Day of the Franks"
+      }
+    },
+    {
+      "slug": "international_non_binary_people_s_day",
+      "date": "07-14",
+      "wikidata": "Q55525272",
+      "labels": {
+        "de": "Internationaler Tag der nichtbinären Menschen",
+        "en": "International Non-Binary People's Day",
+        "es": "Día Internacional de las Personas No Binarias",
+        "fr": "Journée internationale des personnes non-binaires",
+        "pl": "Międzynarodowy dzień osób niebinarnych",
+        "pt": "Dia Internacional das Pessoas Não-Binárias"
+      }
+    },
+    {
+      "slug": "world_emoji_day",
+      "date": "07-17",
+      "wikidata": "Q28130497",
+      "labels": {
+        "de": "Welt-Emoji-Tag",
+        "en": "World Emoji Day",
+        "es": "Día mundial del emoji",
+        "it": "World Emoji Day",
+        "pt": "Dia Mundial do Emoji"
+      }
+    },
+    {
+      "slug": "mandela_day",
+      "date": "07-18",
+      "wikidata": "Q1466741",
+      "labels": {
+        "de": "Internationaler Nelson-Mandela-Tag",
+        "en": "Mandela Day",
+        "es": "Día Internacional de Nelson Mandela",
+        "fr": "Journée internationale Nelson Mandela",
+        "it": "Nelson Mandela International Day",
+        "pl": "Międzynarodowy Dzień Nelsona Mandeli",
+        "pt": "Dia Internacional Nelson Mandela"
+      }
+    },
+    {
+      "slug": "international_chess_day",
+      "date": "07-20",
+      "wikidata": "Q4288433",
+      "labels": {
+        "de": "Internationaler Schachtag",
+        "en": "International chess day",
+        "es": "Día internacional del ajedrez",
+        "it": "Giornata internazionale degli scacchi",
+        "pl": "Międzynarodowy Dzień Szachów",
+        "pt": "Dia internacional do xadrez"
+      }
+    },
+    {
+      "slug": "pi_approximation_day",
+      "date": "07-22",
+      "wikidata": "Q111804192",
+      "labels": {
+        "de": "Pi-Annäherungstag",
+        "en": "Pi Approximation Day",
+        "es": "Día de Aproximación de Pi",
+        "fr": "Journée de l'approximation de π"
+      }
+    },
+    {
+      "slug": "esperanto_day",
+      "date": "07-26",
+      "wikidata": "Q20477809",
+      "labels": {
+        "de": "Esperanto-Tag",
+        "en": "Esperanto Day",
+        "es": "Día del Esperanto",
+        "it": "Giornata della lingua esperanto",
+        "pt": "Dia do Esperanto"
+      }
+    },
+    {
+      "slug": "friendship_day",
+      "date": "07-30",
+      "wikidata": "Q14551661",
+      "labels": {
+        "de": "Internationaler Tag der Freundschaft",
+        "en": "Friendship Day",
+        "es": "Día Internacional de la Amistad",
+        "fr": "Jour de l'amitié",
+        "it": "Giornata mondiale dell'amicizia",
+        "pl": "Międzynarodowy Dzień Przyjaźni",
+        "pt": "Dia do Amigo"
+      }
+    },
+    {
+      "slug": "international_cat_day",
+      "date": "08-08",
+      "wikidata": "Q25457495",
+      "labels": {
+        "de": "Internationaler Tag der Katze",
+        "en": "International Cat Day",
+        "es": "Día Internacional del Gato",
+        "fr": "Journée internationale du chat",
+        "it": "Giorno internazionale del gatto",
+        "pt": "Dia Internacional do Gato"
+      }
+    },
+    {
+      "slug": "international_day_of_the_world_s_indigenous_peop",
+      "date": "08-09",
+      "wikidata": "Q2406253",
+      "labels": {
+        "de": "Internationaler Tag der indigenen Völker",
+        "en": "International Day of the World's Indigenous Peoples",
+        "es": "Día Internacional de los Pueblos Indígenas",
+        "fr": "Journée internationale des peuples autochtones",
+        "pl": "Międzynarodowy Dzień Ludności Tubylczej na Świecie",
+        "pt": "Dia Internacional dos Povos Indígenas"
+      }
+    },
+    {
+      "slug": "international_youth_day",
+      "date": "08-12",
+      "wikidata": "Q1064568",
+      "labels": {
+        "de": "Internationaler Jugendtag",
+        "en": "International Youth Day",
+        "es": "Día Internacional de la Juventud",
+        "fr": "Journée internationale de la jeunesse",
+        "pl": "Międzynarodowy Dzień Młodzieży",
+        "pt": "Dia Internacional da Juventude"
+      }
+    },
+    {
+      "slug": "international_lefthanders_day",
+      "date": "08-13",
+      "wikidata": "Q739797",
+      "labels": {
+        "de": "Linkshändertag",
+        "en": "International Lefthanders Day",
+        "es": "Día Internacional de la Zurdera",
+        "fr": "Journée internationale des gauchers",
+        "it": "giornata internazionale dei mancini",
+        "pl": "Międzynarodowy Dzień Osób Leworęcznych"
+      }
+    },
+    {
+      "slug": "world_humanitarian_day",
+      "date": "08-19",
+      "wikidata": "Q2723440",
+      "labels": {
+        "de": "Welttag der humanitären Hilfe",
+        "en": "World Humanitarian Day",
+        "es": "Día Mundial de la Asistencia Humanitaria",
+        "fr": "Journée mondiale de l'aide humanitaire",
+        "it": "Giornata mondiale dell'aiuto umanitario",
+        "pl": "Światowy Dzień Pomocy Humanitarnej",
+        "pt": "Dia Mundial Humanitário"
+      }
+    },
+    {
+      "slug": "international_dog_day",
+      "date": "08-26",
+      "wikidata": "Q113627236",
+      "labels": {
+        "de": "Hundetag",
+        "en": "International Dog Day"
+      }
+    },
+    {
+      "slug": "international_day_of_clean_air_for_blue_skies",
+      "date": "09-07",
+      "wikidata": "Q85520911",
+      "labels": {
+        "de": "Internationaler Tag der sauberen Luft für einen blauen Himmel",
+        "en": "International Day of Clean Air for blue skies",
+        "es": "Día Internacional del Aire Limpio por un cielo azul",
+        "fr": "Journée internationale de l’air pur pour des ciels bleus",
+        "pt": "Dia Mundial do Ar Limpo para o Céu Azul"
+      }
+    },
+    {
+      "slug": "international_literacy_day",
+      "date": "09-08",
+      "wikidata": "Q756864",
+      "labels": {
+        "de": "Weltalphabetisierungstag",
+        "en": "International Literacy Day",
+        "es": "Día Internacional de la Alfabetización",
+        "fr": "Journée internationale de l'alphabétisation",
+        "it": "giornata internazionale dell'alfabetizzazione",
+        "pl": "Międzynarodowy Dzień Alfabetyzacji",
+        "pt": "Dia Internacional da Alfabetização"
+      }
+    },
+    {
+      "slug": "international_talk_like_a_pirate_day",
+      "date": "09-19",
+      "wikidata": "Q37669",
+      "labels": {
+        "de": "International Talk Like a Pirate Day",
+        "en": "International Talk Like a Pirate Day",
+        "es": "Día Internacional de Hablar como un Pirata",
+        "fr": "International Talk Like a Pirate Day",
+        "it": "Giornata internazionale del parlare come un pirata",
+        "pl": "Międzynarodowy Dzień Mówienia jak Pirat",
+        "pt": "Dia Internacional de Falar como Um Pirata"
+      }
+    },
+    {
+      "slug": "national_civil_courage_day",
+      "date": "09-19",
+      "wikidata": "Q109602973",
+      "labels": {
+        "de": "Tag der Zivilcourage",
+        "en": "National Civil Courage Day",
+        "fr": "journée nationale du courage civique"
+      }
+    },
+    {
+      "slug": "world_cleanup_day",
+      "date": "09-20",
+      "wikidata": "Q30325011",
+      "labels": {
+        "de": "Tag der sauberen Welt",
+        "en": "World Cleanup Day",
+        "es": "Dia Mundial de la Limpieza",
+        "fr": "Journée mondiale du nettoyage de la planète",
+        "it": "World Cleanup Day",
+        "pl": "World Cleanup Day",
+        "pt": "Dia Mundial da Limpeza"
+      }
+    },
+    {
+      "slug": "car_free_day",
+      "date": "09-22",
+      "wikidata": "Q753154",
+      "labels": {
+        "de": "autofreier Tag",
+        "en": "Car-Free Day",
+        "es": "Día Mundial Sin Automóvil",
+        "fr": "Journée sans voiture",
+        "pl": "Dzień bez Samochodu",
+        "pt": "Dia Mundial sem Carro"
+      }
+    },
+    {
+      "slug": "international_day_of_sign_languages",
+      "date": "09-23",
+      "wikidata": "Q47002373",
+      "labels": {
+        "de": "Internationaler Tag der Gebärdensprache",
+        "en": "International Day of Sign Languages",
+        "es": "Día Internacional de las Lenguas de Signos",
+        "fr": "journée internationale des langues des signes",
+        "it": "Giornata internazionale delle lingue dei segni",
+        "pt": "Dia Internacional das Línguas de Sinais"
+      }
+    },
+    {
+      "slug": "european_day_of_languages",
+      "date": "09-26",
+      "wikidata": "Q496423",
+      "labels": {
+        "de": "Europäischer Tag der Sprachen",
+        "en": "European Day of Languages",
+        "es": "Día Europeo de las Lenguas",
+        "fr": "Journée européenne des langues",
+        "it": "giornata europea delle lingue",
+        "pl": "Europejski Dzień Języków",
+        "pt": "Ano Europeu do Diálogo Intercultural"
+      }
+    },
+    {
+      "slug": "world_tourism_day",
+      "date": "09-27",
+      "wikidata": "Q635879",
+      "labels": {
+        "de": "Welttourismustag",
+        "en": "World Tourism Day",
+        "es": "Día Mundial del Turismo",
+        "fr": "Journée mondiale du tourisme",
+        "it": "Giornata mondiale del turismo",
+        "pl": "Światowy Dzień Turystyki",
+        "pt": "Dia Mundial do Turismo"
+      }
+    },
+    {
+      "slug": "access_to_information_day",
+      "date": "09-28",
+      "wikidata": "Q27343069",
+      "labels": {
+        "de": "Internationaler Tag des allgemeinen Informationszugangs",
+        "en": "Access to Information Day",
+        "es": "Día Internacional del Acceso Universal a la Información",
+        "fr": "Journée internationale de l'accès universel à l'information",
+        "it": "Giornata internazionale per l'accesso universale alle informazioni",
+        "pl": "Międzynarodowy Dzień Powszechnego Dostępu do Informacji",
+        "pt": "Dia Internacional do Acesso Universal à Informação"
+      }
+    },
+    {
+      "slug": "international_translation_day",
+      "date": "09-30",
+      "wikidata": "Q1322436",
+      "labels": {
+        "de": "Internationaler Übersetzertag",
+        "en": "International Translation Day",
+        "es": "Día Internacional de la Traducción",
+        "fr": "Journée mondiale de la traduction",
+        "it": "giornata mondiale della traduzione",
+        "pl": "Międzynarodowy Dzień Tłumacza",
+        "pt": "Dia Internacional da Tradução"
+      }
+    },
+    {
+      "slug": "international_day_of_older_persons",
+      "date": "10-01",
+      "wikidata": "Q1142844",
+      "labels": {
+        "de": "Tag der älteren Generation",
+        "en": "International Day of Older Persons",
+        "es": "Día Internacional de las Personas de Edad",
+        "fr": "Journée internationale pour les personnes âgées",
+        "pl": "Międzynarodowy Dzień Osób Starszych",
+        "pt": "Dia Internacional do Idoso"
+      }
+    },
+    {
+      "slug": "world_vegetarian_day",
+      "date": "10-01",
+      "wikidata": "Q2987845",
+      "labels": {
+        "de": "Weltvegetariertag",
+        "en": "World Vegetarian Day",
+        "es": "Día mundial del vegetarianismo",
+        "fr": "Journée mondiale végétarienne",
+        "pl": "Światowy Dzień Wegetarianizmu"
+      }
+    },
+    {
+      "slug": "world_animal_day",
+      "date": "10-04",
+      "wikidata": "Q167888",
+      "labels": {
+        "de": "Welttierschutztag",
+        "en": "World Animal Day",
+        "es": "Día Mundial de los Animales",
+        "fr": "Journée mondiale des animaux",
+        "it": "Giornata mondiale degli animali",
+        "pl": "Światowy Dzień Zwierząt",
+        "pt": "Dia Mundial dos Animais"
+      }
+    },
+    {
+      "slug": "world_teachers_day",
+      "date": "10-05",
+      "wikidata": "Q864881",
+      "labels": {
+        "de": "Weltlehrertag",
+        "en": "World Teachers' Day",
+        "es": "Día Mundial de los Docentes",
+        "fr": "Journée mondiale des enseignants",
+        "it": "giornata mondiale degli insegnanti",
+        "pl": "Światowy Dzień Nauczyciela",
+        "pt": "Dia Mundial dos Professores"
+      }
+    },
+    {
+      "slug": "world_habitat_day",
+      "date": "10-06",
+      "wikidata": "Q620418",
+      "labels": {
+        "de": "Welttag des Rechts auf Wohnen",
+        "en": "World Habitat Day",
+        "es": "Día Mundial del Hábitat",
+        "fr": "Journée mondiale de l'habitat",
+        "it": "Giornata mondiale dell'habitat",
+        "pt": "Dia Mundial do Habitat"
+      }
+    },
+    {
+      "slug": "world_day_for_decent_work",
+      "date": "10-07",
+      "wikidata": "Q15853971",
+      "labels": {
+        "de": "Welttag für menschenwürdige Arbeit",
+        "en": "world day for decent work"
+      }
+    },
+    {
+      "slug": "world_post_day",
+      "date": "10-09",
+      "wikidata": "Q3504332",
+      "labels": {
+        "de": "Weltposttag",
+        "en": "World Post Day",
+        "es": "Día Mundial del Correo",
+        "it": "giornata mondiale della posta",
+        "pl": "Światowy Dzień Poczty",
+        "pt": "Dia Mundial dos Correios"
+      }
+    },
+    {
+      "slug": "international_day_of_the_girl_child",
+      "date": "10-11",
+      "wikidata": "Q1667619",
+      "labels": {
+        "de": "Internationaler Mädchentag",
+        "en": "International Day of the Girl Child",
+        "es": "Día Internacional de la Niña",
+        "fr": "Journée internationale de la fille",
+        "it": "Giornata internazionale delle bambine",
+        "pl": "Międzynarodowy Dzień Dziewczynek",
+        "pt": "Dia Internacional da Menina"
+      }
+    },
+    {
+      "slug": "national_coming_out_day",
+      "date": "10-11",
+      "wikidata": "Q1114667",
+      "labels": {
+        "de": "Coming Out Day",
+        "en": "National Coming Out Day",
+        "es": "Día para salir del armario",
+        "fr": "Coming out day",
+        "it": "Coming Out Day",
+        "pl": "Coming Out Day",
+        "pt": "Dia de sair do armário"
+      }
+    },
+    {
+      "slug": "world_standards_day",
+      "date": "10-14",
+      "wikidata": "Q1861872",
+      "labels": {
+        "de": "Weltnormentag",
+        "en": "World Standards Day"
+      }
+    },
+    {
+      "slug": "global_handwashing_day",
+      "date": "10-15",
+      "wikidata": "Q583436",
+      "labels": {
+        "de": "Internationaler Hände-Waschtag",
+        "en": "Global Handwashing Day",
+        "es": "Día Mundial del Lavado de Manos",
+        "fr": "Journée mondiale du lavage des mains",
+        "pl": "Światowy Dzień Mycia Rąk"
+      }
+    },
+    {
+      "slug": "white_cane_safety_day",
+      "date": "10-15",
+      "wikidata": "Q2143570",
+      "labels": {
+        "de": "Tag des weißen Stockes",
+        "en": "White Cane Safety Day",
+        "pl": "Międzynarodowy Dzień Białej Laski"
+      }
+    },
+    {
+      "slug": "world_food_day",
+      "date": "10-16",
+      "wikidata": "Q465003",
+      "labels": {
+        "de": "Welternährungstag",
+        "en": "World Food Day",
+        "es": "Día Mundial de la Alimentación",
+        "fr": "Journée mondiale de l'alimentation",
+        "it": "giornata mondiale dell'alimentazione",
+        "pl": "Światowy Dzień Żywności",
+        "pt": "Dia Mundial da Alimentação"
+      }
+    },
+    {
+      "slug": "world_statistics_day",
+      "date": "10-20",
+      "wikidata": "Q1056713",
+      "labels": {
+        "de": "Weltstatistiktag",
+        "en": "World Statistics Day",
+        "es": "Día Mundial de la Estadística",
+        "fr": "Journée mondiale de la statistique",
+        "pl": "Światowy Dzień Statystyki",
+        "pt": "Dia Mundial da Estatística"
+      }
+    },
+    {
+      "slug": "united_nations_day",
+      "date": "10-24",
+      "wikidata": "Q210016",
+      "labels": {
+        "de": "Tag der Vereinten Nationen",
+        "en": "United Nations Day",
+        "es": "Día de las Naciones Unidas",
+        "fr": "Journée des Nations unies",
+        "it": "giornata delle Nazioni Unite",
+        "pl": "Dzień Narodów Zjednoczonych",
+        "pt": "Dia das Nações Unidas"
+      }
+    },
+    {
+      "slug": "world_day_for_audiovisual_heritage",
+      "date": "10-27",
+      "wikidata": "Q2558716",
+      "labels": {
+        "de": "Welttag des audiovisuellen Erbes",
+        "en": "World Day for Audiovisual Heritage",
+        "es": "Día Mundial del Patrimonio Audiovisual",
+        "fr": "Journée mondiale du patrimoine audiovisuel",
+        "pl": "Światowy Dzień Dziedzictwa Audiowizualnego",
+        "pt": "Dia Mundial do Patrimônio Audiovisual"
+      }
+    },
+    {
+      "slug": "world_savings_day",
+      "date": "10-31",
+      "wikidata": "Q247503",
+      "labels": {
+        "de": "Weltspartag",
+        "en": "World Savings Day",
+        "fr": "Journée mondiale de l'épargne",
+        "it": "giornata mondiale del risparmio",
+        "pl": "Światowy Dzień Oszczędzania"
+      }
+    },
+    {
+      "slug": "world_vegan_day",
+      "date": "11-01",
+      "wikidata": "Q152977",
+      "labels": {
+        "de": "Weltvegantag",
+        "en": "World Vegan Day",
+        "es": "Día Mundial del Veganismo",
+        "fr": "Journée internationale du végétalisme",
+        "pl": "Światowy Dzień Wegan",
+        "pt": "Dia Mundial do Veganismo"
+      }
+    },
+    {
+      "slug": "international_day_to_end_impunity_for_crimes_aga",
+      "date": "11-02",
+      "wikidata": "Q6050084",
+      "labels": {
+        "de": "Internationaler Tag zur Beendigung der Straflosigkeit für Verbrechen an Journalisten",
+        "en": "International Day to End Impunity for Crimes Against Journalists",
+        "es": "Día Internacional para Poner Fin a la Impunidad de los Crímenes contra Periodistas",
+        "fr": "Journée internationale de la fin de l'impunité pour les crimes commis contre des journalistes",
+        "it": "Giornata internazionale per porre fine all'impunità per i crimini contro i giornalisti",
+        "pl": "Międzynarodowy Dzień Walki z Bezkarnością za Przestępstwa wobec Dziennikarzy",
+        "pt": "Dia Internacional pelo Fim da Impunidade dos Crimes contra Jornalistas"
+      }
+    },
+    {
+      "slug": "international_students_day",
+      "date": "11-17",
+      "wikidata": "Q935276",
+      "labels": {
+        "de": "International Students’ Day",
+        "en": "International Students’ Day",
+        "es": "Día Internacional de los Estudiantes",
+        "fr": "Journée internationale des étudiants",
+        "it": "giornata internazionale degli studenti",
+        "pt": "Dia Internacional dos Estudantes"
+      }
+    },
+    {
+      "slug": "international_men_s_day",
+      "date": "11-19",
+      "wikidata": "Q15964944",
+      "labels": {
+        "de": "Internationaler Männertag",
+        "en": "International Men's Day",
+        "es": "Día Internacional del Hombre",
+        "fr": "Journée internationale de l'homme",
+        "it": "Giornata internazionale dell'uomo",
+        "pl": "Międzynarodowy Dzień Mężczyzn",
+        "pt": "Dia Internacional do Homem"
+      }
+    },
+    {
+      "slug": "world_toilet_day",
+      "date": "11-19",
+      "wikidata": "Q2558698",
+      "labels": {
+        "de": "Welttoilettentag",
+        "en": "World Toilet Day",
+        "es": "Día Mundial del retrete",
+        "fr": "Journée mondiale des toilettes",
+        "pl": "Światowy Dzień Toalet",
+        "pt": "Dia Mundial da Sanita"
+      }
+    },
+    {
+      "slug": "men_s_world_day",
+      "date": "11-19",
+      "wikidata": "Q1779761",
+      "labels": {
+        "de": "Weltmännertag",
+        "en": "Men's World Day"
+      }
+    },
+    {
+      "slug": "children_s_day",
+      "date": "11-20",
+      "wikidata": "Q37081",
+      "labels": {
+        "de": "Kindertag",
+        "en": "children's day",
+        "es": "Día Mundial del Niño",
+        "fr": "Journée de l'enfance",
+        "it": "Giorno dei bambini",
+        "pl": "Dzień Dziecka",
+        "pt": "Dia Mundial da Criança"
+      }
+    },
+    {
+      "slug": "universal_children_s_day",
+      "date": "11-20",
+      "wikidata": "Q3187040",
+      "labels": {
+        "de": "Weltkindertag",
+        "en": "Universal Children's Day",
+        "es": "Día del Niño",
+        "fr": "Journée internationale des droits de l'enfant",
+        "it": "giornata internazionale per i diritti dell'infanzia e dell'adolescenza"
+      }
+    },
+    {
+      "slug": "world_television_day",
+      "date": "11-21",
+      "wikidata": "Q2495614",
+      "labels": {
+        "de": "Welttag des Fernsehens",
+        "en": "World Television Day",
+        "es": "Día Mundial de la Televisión",
+        "fr": "Journée mondiale de la télévision",
+        "pl": "Światowy Dzień Telewizji",
+        "pt": "Dia Mundial da Televisão"
+      }
+    },
+    {
+      "slug": "mediterranean_day",
+      "date": "11-28",
+      "wikidata": "Q105038854",
+      "labels": {
+        "de": "Tag des Mittelmeerraumes",
+        "en": "Mediterranean Day",
+        "es": "Día del Mediterráneo",
+        "fr": "Journée de la Méditerranée",
+        "it": "Giornata del Mediterraneo",
+        "pt": "Dia do Mediterrâneo"
+      }
+    },
+    {
+      "slug": "blue_beanie_day",
+      "date": "11-30",
+      "wikidata": "Q85747849",
+      "labels": {
+        "de": "Blue Beanie Day",
+        "en": "Blue Beanie Day",
+        "pl": "Blue Beanie Day"
+      }
+    },
+    {
+      "slug": "digital_broadcasting_day",
+      "date": "12-01",
+      "wikidata": "Q11320524",
+      "labels": {
+        "de": "Tag der digitalen Übertragung",
+        "en": "Digital Broadcasting Day"
+      }
+    },
+    {
+      "slug": "international_model_railroading_day",
+      "date": "12-02",
+      "wikidata": "Q118140181",
+      "labels": {
+        "de": "Tag der Modelleisenbahn",
+        "en": "International Model Railroading Day"
+      }
+    },
+    {
+      "slug": "international_day_of_the_basque_language",
+      "date": "12-03",
+      "wikidata": "Q12257629",
+      "labels": {
+        "de": "Internationaler Tag der Baskischen Sprache",
+        "en": "International Day of the Basque Language",
+        "es": "Día Internacional del Euskera",
+        "fr": "Journée internationale de la langue basque"
+      }
+    },
+    {
+      "slug": "international_volunteer_day",
+      "date": "12-05",
+      "wikidata": "Q490486",
+      "labels": {
+        "de": "Internationaler Tag des Ehrenamtes",
+        "en": "International Volunteer Day",
+        "es": "Día Internacional de los Voluntarios",
+        "it": "giornata mondiale del volontariato",
+        "pl": "Międzynarodowy Dzień Wolontariusza",
+        "pt": "Dia Internacional do Voluntário"
+      }
+    },
+    {
+      "slug": "world_soil_day",
+      "date": "12-05",
+      "wikidata": "Q2558124",
+      "labels": {
+        "de": "Weltbodentag",
+        "en": "World Soil Day",
+        "es": "Día Mundial del Suelo",
+        "pl": "Światowy Dzień Gleby",
+        "pt": "Dia Mundial do Solo"
+      }
+    },
+    {
+      "slug": "international_civil_aviation_day",
+      "date": "12-07",
+      "wikidata": "Q633178",
+      "labels": {
+        "de": "Internationaler Tag der Zivilluftfahrt",
+        "en": "International Civil Aviation Day",
+        "es": "Día Internacional de la Aviación Civil",
+        "fr": "Journée de l'aviation civile internationale",
+        "it": "Giornata internazionale dell'aviazione civile",
+        "pl": "Międzynarodowy Dzień Lotnictwa Cywilnego",
+        "pt": "Dia Internacional da Aviação Civil"
+      }
+    },
+    {
+      "slug": "day_of_the_health_service",
+      "date": "12-11",
+      "wikidata": "Q60172731",
+      "labels": {
+        "de": "Tag des Gesundheitswesens",
+        "en": "Day of the Health Service"
+      }
+    },
+    {
+      "slug": "monkey_day",
+      "date": "12-14",
+      "wikidata": "Q6900729",
+      "labels": {
+        "de": "Affentag",
+        "en": "Monkey Day"
+      }
+    },
+    {
+      "slug": "zamenhof_day",
+      "date": "12-15",
+      "wikidata": "Q1024590",
+      "labels": {
+        "de": "Zamenhoftag",
+        "en": "Zamenhof Day",
+        "es": "Día de Zamenhof",
+        "fr": "Jour de Zamenhof",
+        "it": "Giorno di Zamenhof",
+        "pl": "Dzień Zamenhofa",
+        "pt": "Dia de Zamenhof"
+      }
+    },
+    {
+      "slug": "un_arabic_language_day",
+      "date": "12-18",
+      "wikidata": "Q549261",
+      "labels": {
+        "de": "Tag der arabischen Sprache bei den Vereinten Nationen",
+        "en": "UN Arabic Language Day",
+        "es": "Día Mundial de la Lengua Árabe",
+        "fr": "Journée mondiale de la langue arabe aux Nations Unies",
+        "it": "giornata della lingua araba nelle Nazioni Unite",
+        "pt": "Dia Mundial da Língua Árabe"
+      }
+    },
+    {
+      "slug": "international_day_of_epidemic_preparedness",
+      "date": "12-27",
+      "wikidata": "Q104641676",
+      "labels": {
+        "de": "Internationaler Tag der Epidemievorsorge",
+        "en": "International Day of Epidemic Preparedness",
+        "es": "Día Internacional de la Preparación ante las Epidemias",
+        "fr": "Journée internationale de la préparation aux épidémies",
+        "pt": "Dia Internacional de Preparação Epidemiológica"
+      }
+    },
+    {
+      "slug": "day_of_the_holy_innocents",
+      "date": "12-28",
+      "wikidata": "Q154005",
+      "labels": {
+        "de": "Tag der Unschuldigen Kinder",
+        "en": "Day of the Holy Innocents",
+        "es": "Día de los Santos Inocentes",
+        "fr": "Jour des Saints Innocents",
+        "pl": "Świętych Młodzianków",
+        "pt": "Dia dos Santos Inocentes"
+      }
+    }
+  ]
+}
