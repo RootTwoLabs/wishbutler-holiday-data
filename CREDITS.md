@@ -64,8 +64,7 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 
 ## Data sources
 
-- **Public holidays**: Nager.Date (MIT), OpenHolidays API (CC-BY-4.0),
-  Calendarific (per their API terms — verify redistribution rights for the tier used).
+- **Public holidays**: Nager.Date (MIT), OpenHolidays API (CC-BY-4.0).
 - **Namedays**: abalin and country-specific public calendars.
 
 When adding a new source, record its license here and ensure redistribution
