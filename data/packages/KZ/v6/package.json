@@ -1,0 +1,463 @@
+{
+  "countryCode": "KZ",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "KZ_new_years_day",
+      "countryCode": "KZ",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "KZ_international_womens_day",
+      "countryCode": "KZ",
+      "kind": "fixed",
+      "labelKey": "holidays.womens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 8
+      }
+    },
+    {
+      "id": "KZ_nauryz_meyramy",
+      "countryCode": "KZ",
+      "kind": "fixed",
+      "labelKey": "holidays.nauryz_meyramy",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 23
+      }
+    },
+    {
+      "id": "KZ_kazakhstan_peoples_unity_day",
+      "countryCode": "KZ",
+      "kind": "fixed",
+      "labelKey": "holidays.kazakhstan_peoples_unity_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "KZ_defender_of_the_fatherland_day",
+      "countryCode": "KZ",
+      "kind": "fixed",
+      "labelKey": "holidays.defender_of_the_fatherland_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 7
+      }
+    },
+    {
+      "id": "KZ_great_patriotic_war_against_fascism_victory_day",
+      "countryCode": "KZ",
+      "kind": "fixed",
+      "labelKey": "holidays.great_patriotic_war_against_fascism_victory_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 9
+      }
+    },
+    {
+      "id": "KZ_capital_city_day",
+      "countryCode": "KZ",
+      "kind": "fixed",
+      "labelKey": "holidays.capital_city_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 6
+      }
+    },
+    {
+      "id": "KZ_constitution_day",
+      "countryCode": "KZ",
+      "kind": "fixed",
+      "labelKey": "holidays.constitution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 30
+      }
+    },
+    {
+      "id": "KZ_republic_day",
+      "countryCode": "KZ",
+      "kind": "fixed",
+      "labelKey": "holidays.republic_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 25
+      }
+    },
+    {
+      "id": "KZ_independence_day",
+      "countryCode": "KZ",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 16
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "nauryz_meyramy": "Nauryz Meyramy",
+        "kazakhstan_peoples_unity_day": "Kazakhstan People's Unity Day",
+        "defender_of_the_fatherland_day": "Defender of the Fatherland Day",
+        "great_patriotic_war_against_fascism_victory_day": "Great Patriotic War Against Fascism Victory Day",
+        "capital_city_day": "Capital City Day",
+        "constitution_day": "Constitution Day",
+        "republic_day": "Republic Day",
+        "independence_day": "Independence Day"
+      },
+      "kk": {
+        "new_years_day": "Жаңа жыл",
+        "nauryz_meyramy": "Наурыз мейрамы",
+        "kazakhstan_peoples_unity_day": "Қазақстан халқының",
+        "defender_of_the_fatherland_day": "Отан Қорғаушы күні",
+        "great_patriotic_war_against_fascism_victory_day": "Жеңіс күні",
+        "capital_city_day": "Астана күні",
+        "constitution_day": "Конституция күні",
+        "republic_day": "Республика күні",
+        "independence_day": "Тәуелсіздік күні"
+      },
+      "de": {
+        "new_years_day": "Neujahr",
+        "nauryz_meyramy": "Nauryz Meyramy",
+        "kazakhstan_peoples_unity_day": "Tag der Volkseinheit Kasachstans",
+        "defender_of_the_fatherland_day": "Tag des Verteidigers des Vaterlandes",
+        "great_patriotic_war_against_fascism_victory_day": "Tag des Sieges im Großen Vaterländischen Krieg gegen den Faschismus",
+        "capital_city_day": "Tag der Hauptstadt",
+        "constitution_day": "Tag der Verfassung",
+        "republic_day": "Tag der Republik",
+        "independence_day": "Unabhängigkeitstag"
+      },
+      "fr": {
+        "new_years_day": "Jour de l'An",
+        "nauryz_meyramy": "Nauryz Meyramy See More",
+        "kazakhstan_peoples_unity_day": "Journée de l'unité du peuple du Kazakhstan",
+        "defender_of_the_fatherland_day": "Journée du Défenseur de la Patrie",
+        "great_patriotic_war_against_fascism_victory_day": "Grande Guerre Patriotique Contre le Fascisme Jour de la Victoire",
+        "capital_city_day": "Journée de la capitale",
+        "constitution_day": "Jour de la Constitution",
+        "republic_day": "Fête de la République",
+        "independence_day": "Jour de l'Indépendance"
+      },
+      "es": {
+        "new_years_day": "Día de Año Nuevo",
+        "nauryz_meyramy": "Nauryz Meyramy",
+        "kazakhstan_peoples_unity_day": "Día de la Unidad Popular de Kazajstán",
+        "defender_of_the_fatherland_day": "Día del Defensor de la Patria",
+        "great_patriotic_war_against_fascism_victory_day": "Día de la Victoria de la Gran Guerra Patria contra el Fascismo",
+        "capital_city_day": "Día de la Ciudad Capital",
+        "constitution_day": "Día de la Constitución",
+        "republic_day": "Día de la República",
+        "independence_day": "Día de la Independencia"
+      },
+      "pt": {
+        "new_years_day": "Dia de Ano Novo",
+        "nauryz_meyramy": "Nauryz Meyramy",
+        "kazakhstan_peoples_unity_day": "Dia da Unidade Popular do Cazaquistão",
+        "defender_of_the_fatherland_day": "Dia do Defensor da Pátria",
+        "great_patriotic_war_against_fascism_victory_day": "Dia da Vitória da Grande Guerra Patriótica Contra o Fascismo",
+        "capital_city_day": "Dia da Capital",
+        "constitution_day": "Dia da Constituição",
+        "republic_day": "Dia da República",
+        "independence_day": "Dia da Independência"
+      },
+      "it": {
+        "new_years_day": "Capodanno",
+        "nauryz_meyramy": "Nauryz Meyramy",
+        "kazakhstan_peoples_unity_day": "Giornata dell'Unità Popolare del Kazakistan",
+        "defender_of_the_fatherland_day": "Festa dei Difensori della Patria",
+        "great_patriotic_war_against_fascism_victory_day": "Giorno della Vittoria della Grande Guerra Patriottica contro il Fascismo",
+        "capital_city_day": "Giornata della Capitale",
+        "constitution_day": "Giorno della Costituzione",
+        "republic_day": "Festa della Repubblica",
+        "independence_day": "Giorno dell'Indipendenza"
+      },
+      "pl": {
+        "new_years_day": "Nowy Rok",
+        "nauryz_meyramy": "Nauryz Meyramy",
+        "kazakhstan_peoples_unity_day": "Dzień Jedności Ludu Kazachstanu",
+        "defender_of_the_fatherland_day": "Dzień Obrońcy Ojczyzny",
+        "great_patriotic_war_against_fascism_victory_day": "Dzień Zwycięstwa Wielkiej Wojny Ojczyźnianej przeciwko faszyzmowi",
+        "capital_city_day": "Dzień Stolicy",
+        "constitution_day": "Święto Konstytucji",
+        "republic_day": "Dzień Republiki",
+        "independence_day": "Święto Niepodległości"
+      },
+      "nl": {
+        "new_years_day": "Nieuwjaarsdag",
+        "nauryz_meyramy": "Nauryz Meyramy",
+        "kazakhstan_peoples_unity_day": "Dag van de Eenheid van het Volk van Kazachstan",
+        "defender_of_the_fatherland_day": "Dag van de Verdediger van het Vaderland",
+        "great_patriotic_war_against_fascism_victory_day": "Grote patriottische oorlog tegen het fascisme, overwinningsdag",
+        "capital_city_day": "Dag van de Hoofdstad",
+        "constitution_day": "Dag van de Grondwet",
+        "republic_day": "Dag van de Republiek",
+        "independence_day": "Onafhankelijkheidsdag"
+      },
+      "sv": {
+        "new_years_day": "Nyårsdagen",
+        "nauryz_meyramy": "Nauryz Meyramy",
+        "kazakhstan_peoples_unity_day": "Kazakstans folks enhetsdag",
+        "defender_of_the_fatherland_day": "Fäderlandsförsvararens dag",
+        "great_patriotic_war_against_fascism_victory_day": "Det stora patriotiska kriget mot fascismens segerdag",
+        "capital_city_day": "Huvudstadens dag",
+        "constitution_day": "Konstitutionsdagen",
+        "republic_day": "Republikens dag",
+        "independence_day": "Självständighetsdagen"
+      },
+      "ja": {
+        "new_years_day": "元旦",
+        "nauryz_meyramy": "ナウリス・メイラミー",
+        "kazakhstan_peoples_unity_day": "カザフスタン人民統一デー",
+        "defender_of_the_fatherland_day": "祖国擁護者の日",
+        "great_patriotic_war_against_fascism_victory_day": "ファシズムに対する大祖国戦争戦勝記念日",
+        "capital_city_day": "首都の日",
+        "constitution_day": "憲法記念日",
+        "republic_day": "共和国記念日",
+        "independence_day": "独立記念日"
+      },
+      "ko": {
+        "new_years_day": "설날",
+        "nauryz_meyramy": "나우리즈 메이라미",
+        "kazakhstan_peoples_unity_day": "카자흐스탄 인민단결의 날",
+        "defender_of_the_fatherland_day": "조국의 날 수호자",
+        "great_patriotic_war_against_fascism_victory_day": "파시즘에 맞서는 위대한 애국 전쟁 승리 기념일",
+        "capital_city_day": "수도의 날",
+        "constitution_day": "제헌절",
+        "republic_day": "공화국의 날",
+        "independence_day": "독립기념일"
+      },
+      "zh-Hant": {
+        "new_years_day": "元旦",
+        "nauryz_meyramy": "諾魯茲梅拉米",
+        "kazakhstan_peoples_unity_day": "哈薩克人民團結日",
+        "defender_of_the_fatherland_day": "祖國保衛者日",
+        "great_patriotic_war_against_fascism_victory_day": "反法西斯衛國戰爭勝利日",
+        "capital_city_day": "首都日",
+        "constitution_day": "憲法日",
+        "republic_day": "共和國日",
+        "independence_day": "獨立日"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "womens_day": {
+          "intro": "Der Internationale Frauentag am 8. März steht weltweit für die Gleichberechtigung von Frauen, ihre Errungenschaften und den Kampf gegen Diskriminierung.",
+          "history": "Der Frauentag entstand aus der sozialistischen Frauenbewegung. Die deutsche Politikerin Clara Zetkin schlug 1910 in Kopenhagen einen jährlichen Aktionstag vor; bereits 1911 gingen Millionen Frauen in Europa erstmals dafür auf die Straße. 1921 setzte Lenin den 8. März fest, in Erinnerung an den Petrograder Frauenstreik vom März 1917, der die russische Februarrevolution mitauslöste. Die UNO erklärte 1975 den Tag offiziell zum „Tag der Vereinten Nationen für die Rechte der Frau”.",
+          "traditions": "Frauen erhalten Blumen – traditionell Mimosen oder Tulpen – und werden mit Karten oder kleinen Geschenken bedacht. In vielen Städten finden Demonstrationen, Vorträge und kulturelle Veranstaltungen statt. In Berlin ist der 8. März seit 2019 gesetzlicher Feiertag, in Italien schenken Männer Frauen Mimosenzweige.",
+          "funFacts": [
+            "In Russland und mehreren ehemaligen Sowjetstaaten ist der 8. März offizieller arbeitsfreier Feiertag.",
+            "Mecklenburg-Vorpommern führte 2023 als zweites deutsches Bundesland nach Berlin den Frauentag als Feiertag ein.",
+            "Die UN-Themen wechseln jährlich – z. B. „Inspire Inclusion” oder „DigitALL”.",
+            "In Italien gilt die Mimose als Symbol weiblicher Stärke, weil sie auch in widrigen Bedingungen blüht."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "womens_day": {
+          "intro": "International Women's Day on March 8th stands worldwide for women's equality, their achievements and the fight against discrimination.",
+          "history": "Women's Day grew out of the socialist women's movement. German politician Clara Zetkin proposed an annual day of action in Copenhagen in 1910; by 1911 millions of women across Europe were marching for it. In 1921 Lenin fixed it on March 8th, in memory of the Petrograd women's strike of March 1917 that helped trigger the Russian February Revolution. The UN officially recognized the day in 1975 as the ‘UN Day for Women's Rights'.",
+          "traditions": "Women receive flowers — traditionally mimosas or tulips — along with cards and small gifts. Many cities host demonstrations, talks and cultural events. In Berlin, March 8th has been a public holiday since 2019; in Italy men give women sprigs of mimosa.",
+          "funFacts": [
+            "In Russia and several former Soviet states, March 8th is an official non-working public holiday.",
+            "Mecklenburg-Vorpommern in 2023 became the second German state after Berlin to make Women's Day a public holiday.",
+            "UN themes change yearly — for example ‘Inspire Inclusion' or ‘DigitALL'.",
+            "In Italy the mimosa is the symbol of women's strength because it blooms even in tough conditions."
+          ],
+          "imageCredit": "Photo: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "womens_day": {
+          "intro": "La Journée internationale des femmes, le 8 mars, symbolise l'égalité des femmes, leurs avancées et la lutte contre les discriminations.",
+          "history": "La Journée des femmes est née du mouvement socialiste féministe. La politicienne allemande Clara Zetkin proposa en 1910, à Copenhague, une journée d'action annuelle ; dès 1911, des millions de femmes manifestaient en Europe. En 1921, Lénine fixa le 8 mars en mémoire de la grève des ouvrières de Petrograd de mars 1917, qui contribua à déclencher la révolution russe de février. L'ONU l'a officiellement reconnue en 1975 comme ‘Journée des Nations Unies pour les droits de la femme'.",
+          "traditions": "Les femmes reçoivent des fleurs — traditionnellement des mimosas ou des tulipes — accompagnées de cartes et petits cadeaux. De nombreuses villes organisent manifestations, conférences et événements culturels. À Berlin, le 8 mars est jour férié depuis 2019 ; en Italie, les hommes offrent un brin de mimosa.",
+          "funFacts": [
+            "En Russie et plusieurs anciens États soviétiques, le 8 mars est jour férié officiel.",
+            "Le Mecklembourg-Poméranie occidentale est devenu en 2023 le deuxième Land allemand, après Berlin, à ériger le 8 mars en jour férié.",
+            "Les Nations Unies définissent un thème chaque année — par exemple ‘Inspire Inclusion' ou ‘DigitALL'.",
+            "En Italie, la mimosa symbolise la force féminine car elle fleurit même dans des conditions difficiles."
+          ],
+          "imageCredit": "Photo: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "womens_day": {
+          "intro": "El Día Internacional de la Mujer, el 8 de marzo, simboliza la igualdad de las mujeres, sus logros y la lucha contra la discriminación.",
+          "history": "El Día de la Mujer surgió del movimiento socialista de mujeres. La política alemana Clara Zetkin propuso en Copenhague en 1910 una jornada anual; ya en 1911 millones de mujeres salieron a la calle en Europa. En 1921 Lenin fijó el 8 de marzo en recuerdo de la huelga de mujeres de Petrogrado de marzo de 1917, que ayudó a desencadenar la Revolución de Febrero rusa. La ONU lo reconoció oficialmente en 1975 como ‘Día de las Naciones Unidas para los Derechos de la Mujer'.",
+          "traditions": "Las mujeres reciben flores — tradicionalmente mimosas o tulipanes — junto con tarjetas y pequeños obsequios. Muchas ciudades organizan manifestaciones, charlas y eventos culturales. En Berlín el 8 de marzo es festivo desde 2019, en Italia los hombres regalan ramitas de mimosa a las mujeres.",
+          "funFacts": [
+            "En Rusia y varios estados ex-soviéticos el 8 de marzo es festivo oficial no laborable.",
+            "En 2023 Mecklemburgo-Pomerania Occidental se convirtió en el segundo estado alemán, tras Berlín, en convertir el Día de la Mujer en festivo.",
+            "Cada año la ONU define un lema diferente — por ejemplo ‘Inspire Inclusion' o ‘DigitALL'.",
+            "En Italia la mimosa simboliza la fortaleza femenina porque florece incluso en condiciones difíciles."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "womens_day": {
+          "intro": "O Dia Internacional da Mulher, 8 de março, simboliza a igualdade das mulheres, as suas conquistas e a luta contra a discriminação.",
+          "history": "O Dia da Mulher nasceu do movimento socialista feminino. A política alemã Clara Zetkin propôs em Copenhaga, em 1910, um dia anual de ação; já em 1911 milhões de mulheres na Europa saíram à rua. Em 1921, Lenine fixou o 8 de março, em memória da greve das operárias de Petrogrado em março de 1917, que ajudou a desencadear a Revolução de Fevereiro russa. A ONU reconheceu-o oficialmente em 1975 como ‘Dia das Nações Unidas para os Direitos da Mulher'.",
+          "traditions": "As mulheres recebem flores — tradicionalmente mimosas ou tulipas — junto com cartões e pequenas lembranças. Em muitas cidades realizam-se manifestações, palestras e eventos culturais. Em Berlim, o 8 de março é feriado desde 2019; em Itália, os homens oferecem ramos de mimosa às mulheres.",
+          "funFacts": [
+            "Na Rússia e em vários antigos estados soviéticos, o 8 de março é feriado oficial não trabalhado.",
+            "Em 2023, Mecklemburgo-Pomerânia Ocidental tornou-se o segundo estado alemão a seguir Berlim a tornar o Dia da Mulher feriado.",
+            "Os temas da ONU mudam todos os anos — por exemplo ‘Inspire Inclusion' ou ‘DigitALL'.",
+            "Em Itália, a mimosa simboliza a força feminina porque floresce mesmo em condições difíceis."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "womens_day": {
+          "intro": "La Giornata internazionale della donna, l'8 marzo, simboleggia la parità delle donne, le loro conquiste e la lotta contro la discriminazione.",
+          "history": "La Giornata della Donna è nata dal movimento socialista femminile. La politica tedesca Clara Zetkin propose nel 1910 a Copenaghen una giornata d'azione annuale; già nel 1911 milioni di donne in Europa scendevano in piazza. Nel 1921 Lenin fissò l'8 marzo, in memoria dello sciopero delle operaie di Pietrogrado del marzo 1917, che contribuì a far scoppiare la rivoluzione russa di febbraio. L'ONU lo ha riconosciuto ufficialmente nel 1975 come ‘Giornata delle Nazioni Unite per i diritti delle donne'.",
+          "traditions": "In Italia le donne ricevono mimose, simbolo della giornata. Si organizzano manifestazioni, conferenze ed eventi culturali. A Berlino l'8 marzo è festivo dal 2019. In Italia gli uomini regalano alle donne rametti di mimosa.",
+          "funFacts": [
+            "In Russia e in vari ex stati sovietici l'8 marzo è festivo ufficiale non lavorativo.",
+            "Nel 2023 il Meclemburgo-Pomerania Anteriore è diventato il secondo Land tedesco, dopo Berlino, a istituire la festa come festivo.",
+            "I temi delle Nazioni Unite cambiano ogni anno — ad esempio ‘Inspire Inclusion' o ‘DigitALL'.",
+            "In Italia la mimosa simboleggia la forza femminile perché fiorisce anche in condizioni difficili."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "womens_day": {
+          "intro": "Międzynarodowy Dzień Kobiet, 8 marca, symbolizuje równość kobiet, ich osiągnięcia oraz walkę z dyskryminacją.",
+          "history": "Dzień Kobiet narodził się z socjalistycznego ruchu kobiecego. Niemiecka działaczka Clara Zetkin zaproponowała w Kopenhadze w 1910 roku coroczny dzień akcji; już w 1911 roku miliony kobiet w Europie wyszły na ulice. W 1921 roku Lenin ustalił 8 marca w nawiązaniu do strajku kobiet w Piotrogrodzie z marca 1917 roku, który pomógł wywołać rewolucję lutową. ONZ uznała dzień oficjalnie w 1975 roku jako ‘Dzień ONZ na rzecz Praw Kobiet'. W Polsce był obchodzony oficjalnie w PRL — choć w sposób przerysowany — i powrócił do łask w nowej formie po 1989 roku.",
+          "traditions": "W Polsce kobiety otrzymują kwiaty — tradycyjnie tulipany, goździki lub mimozy. Mężowie i synowie składają życzenia, koledzy w pracy wręczają drobne upominki. W wielu miastach odbywają się manifestacje, spotkania i wydarzenia kulturalne. W Berlinie 8 marca jest dniem wolnym od pracy od 2019 roku.",
+          "funFacts": [
+            "W Rosji i kilku byłych państwach radzieckich 8 marca jest oficjalnym dniem wolnym od pracy.",
+            "W 2023 roku Meklemburgia-Pomorze Przednie stała się drugim landem niemieckim po Berlinie, który ustanowił Dzień Kobiet dniem wolnym.",
+            "W PRL goździk był symbolem dnia — ze względu na łatwą dostępność i kolor czerwony.",
+            "We Włoszech mimoza symbolizuje siłę kobiet, ponieważ kwitnie nawet w trudnych warunkach."
+          ],
+          "imageCredit": "Zdjęcie: Alina.neve · CC BY-SA 4.0 przez Wikimedia Commons"
+        }
+      },
+      "nl": {
+        "womens_day": {
+          "intro": "Internationale Vrouwendag op 8 maart staat wereldwijd symbool voor de gelijkheid van vrouwen, hun prestaties en de strijd tegen discriminatie.",
+          "history": "Vrouwendag is voortgekomen uit de socialistische vrouwenbeweging. De Duitse politica Clara Zetkin stelde in 1910 in Kopenhagen een jaarlijkse actiedag voor; in 1911 marcheerden al miljoenen vrouwen in heel Europa voor deze dag. In 1921 stelde Lenin de datum vast op 8 maart, ter nagedachtenis aan de vrouwenstaking in Petrograd van maart 1917, die mede aanleiding gaf tot de Russische Februari-revolutie. De VN erkende de dag in 1975 officieel als de ‘VN-dag voor vrouwenrechten’.",
+          "traditions": "Vrouwen krijgen bloemen — traditioneel mimosa’s of tulpen — samen met kaartjes en kleine cadeautjes. In veel steden worden demonstraties, lezingen en culturele evenementen georganiseerd. In Berlijn is 8 maart sinds 2019 een officiële feestdag; in Italië geven mannen vrouwen takjes mimosa.",
+          "funFacts": [
+            "In Rusland en verschillende voormalige Sovjetstaten is 8 maart een officiële vrije feestdag.",
+            "Mecklenburg-Vorpommern heeft in 2023, na Berlijn, als tweede Duitse deelstaat Vrouwendag tot officiële feestdag uitgeroepen.",
+            "De thema's van de VN veranderen elk jaar — bijvoorbeeld ‘Inspire Inclusion’ of ‘DigitALL’.",
+            "In Italië staat de mimosa symbool voor de kracht van vrouwen, omdat ze zelfs onder moeilijke omstandigheden bloeit."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "sv": {
+        "womens_day": {
+          "intro": "Internationella kvinnodagen den 8 mars står världen över för kvinnors jämställdhet, deras prestationer och kampen mot diskriminering.",
+          "history": "Kvinnodagen har sitt ursprung i den socialistiska kvinnorörelsen. Den tyska politikern Clara Zetkin föreslog en årlig aktionsdag i Köpenhamn 1910; redan 1911 marscherade miljontals kvinnor över hela Europa för denna sak. År 1921 fastställde Lenin den 8 mars som datum, till minne av kvinnostrejken i Petrograd i mars 1917 som bidrog till att utlösa den ryska februarirevolutionen. FN erkände officiellt dagen 1975 som ”FN:s dag för kvinnors rättigheter”.",
+          "traditions": "Kvinnor får blommor – traditionellt mimosa eller tulpaner – tillsammans med kort och små presenter. I många städer anordnas demonstrationer, föreläsningar och kulturevenemang. I Berlin har den 8 mars varit en allmän helgdag sedan 2019; i Italien ger män kvinnor mimosa-kvistar.",
+          "funFacts": [
+            "I Ryssland och flera före detta sovjetstater är den 8 mars en officiell helgdag då man inte arbetar.",
+            "Mecklenburg-Vorpommern blev 2023 den andra tyska delstaten efter Berlin som gjorde kvinnodagen till en allmän helgdag.",
+            "FN:s teman byts ut varje år – till exempel ”Inspire Inclusion” eller ”DigitALL”.",
+            "I Italien är mimosan en symbol för kvinnors styrka eftersom den blommar även under svåra förhållanden."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "ja": {
+        "womens_day": {
+          "intro": "3月8日の「国際女性デー」は、世界中で女性の平等、女性の功績、そして差別との闘いを象徴する日となっています。",
+          "history": "「国際女性デー」は、社会主義的な女性運動から生まれた。1910年、ドイツの政治家クララ・ツェトキンがコペンハーゲンで毎年恒例の行動の日を提案し、1911年までにはヨーロッパ各地で数百万人の女性がこの日を記念してデモ行進を行った。 1921年、レーニンは、ロシアの2月革命の引き金となった1917年3月のペトログラード女性ストライキを記念して、この日を3月8日に定めました。国連は1975年、この日を「国連女性権利の日」として正式に認定しました。",
+          "traditions": "女性たちは、カードやささやかな贈り物とともに、花（伝統的にはミモザやチューリップ）を贈られます。多くの都市では、デモ行進や講演、文化イベントが開催されます。ベルリンでは、2019年から3月8日が祝日となっています。イタリアでは、男性が女性にミモザの小枝を贈ります。",
+          "funFacts": [
+            "ロシアや旧ソ連諸国のいくつかでは、3月8日は公式の祝日であり、休業日となっています。",
+            "2023年、メクレンブルク＝フォアポンメルン州は、ベルリンに次いでドイツで2番目の州として、国際女性デーを公休日としました。",
+            "国連のテーマは毎年変わります。例えば、「Inspire Inclusion」や「DigitALL」などです。",
+            "イタリアでは、ミモザは過酷な環境でも花を咲かせることから、女性の強さの象徴とされています。"
+          ],
+          "imageCredit": "写真：Alina.neve · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        }
+      },
+      "ko": {
+        "womens_day": {
+          "intro": "3월 8일 세계 여성의 날은 전 세계적으로 여성의 평등, 여성의 업적, 그리고 차별에 맞선 투쟁을 상징합니다.",
+          "history": "여성의 날은 사회주의 여성 운동에서 비롯되었습니다. 독일의 정치인 클라라 체트킨은 1910년 코펜하겐에서 매년 기념하는 행동의 날을 제안했으며, 1911년에는 유럽 전역의 수백만 명의 여성들이 이를 위해 행진했습니다. 1921년 레닌은 러시아 2월 혁명의 도화선이 된 1917년 3월 페트로그라드 여성 파업을 기리기 위해 이 날을 3월 8일로 정했다. 유엔은 1975년 이 날을 ‘유엔 여성의 날’로 공식 지정했다.",
+          "traditions": "여성들은 전통적으로 미모사나 튤립 같은 꽃과 함께 카드 및 소소한 선물을 받습니다. 많은 도시에서 시위, 강연, 문화 행사가 열립니다. 베를린에서는 2019년부터 3월 8일이 공휴일로 지정되었으며, 이탈리아에서는 남성들이 여성들에게 미모사 가지를 선물합니다.",
+          "funFacts": [
+            "러시아와 몇몇 구소련 국가에서는 3월 8일이 공식 휴일입니다.",
+            "메클렌부르크-포어포메른주는 2023년 베를린에 이어 독일에서 두 번째로 여성의 날을 공휴일로 지정했다.",
+            "유엔의 주제는 매년 바뀝니다. 예를 들어 ‘포용을 고무하자(Inspire Inclusion)’나 ‘DigitALL’ 등이 있습니다.",
+            "이탈리아에서 미모사는 험난한 환경 속에서도 꽃을 피우기 때문에 여성의 강인함을 상징합니다."
+          ],
+          "imageCredit": "사진: Alina.neve · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        }
+      },
+      "zh-Hant": {
+        "womens_day": {
+          "intro": "3月8日的國際婦女節在全球範圍內象徵著婦女平等、她們的成就以及反對歧視的鬥爭。",
+          "history": "國際婦女節源於社會主義婦女運動。1910年，德國政治家克拉拉·蔡特金在哥本哈根提議設立一個年度行動日；到了1911年，全歐洲已有數百萬婦女為此走上街頭遊行。 1921年，列寧將此日定為3月8日，以紀念1917年3月彼得格勒婦女罷工——該事件有助於引發俄國二月革命。聯合國於1975年正式將該日定為「聯合國婦女權利日」。",
+          "traditions": "女性會收到鮮花——傳統上通常是含羞草或鬱金香——以及賀卡和小禮物。許多城市會舉辦示威遊行、講座和文化活動。在柏林，3月8日自2019年起即為法定假日；在義大利，男性會贈送女性含羞草枝條。",
+          "funFacts": [
+            "在俄羅斯及若干前蘇聯國家，3月8日是官方指定的非工作日。",
+            "2023年，梅克倫堡-前波美拉尼亞州成為繼柏林之後，德國第二個將婦女節定為公共假日的州。",
+            "聯合國的年度主題每年都會更換——例如「激發包容」或「DigitALL」。",
+            "在義大利，含羞草是女性力量的象徵，因為即使在艱困的環境下，它依然能綻放。"
+          ],
+          "imageCredit": "照片：Alina.neve · 透過維基共享資源，採用 CC BY-SA 4.0 授權"
+        }
+      }
+    }
+  },
+  "images": {
+    "womens_day": [
+      {
+        "path": "images/womens_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 6
+}

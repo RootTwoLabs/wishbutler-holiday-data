@@ -3,3 +3,5 @@ node_modules/
 *.log
 .cache/
 tmp/
+scripts/.holiday-info-translation-cache.json
+scripts/.holiday-label-translation-cache.json

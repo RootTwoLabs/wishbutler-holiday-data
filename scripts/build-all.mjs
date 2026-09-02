@@ -26,6 +26,7 @@ async function main() {
     'build-fun-occasions.mjs',
     'fetch-images.mjs',
     'build-articles.mjs',
+    'build-labels.mjs',
     'build-index.mjs',
     'validate.mjs',
   ];

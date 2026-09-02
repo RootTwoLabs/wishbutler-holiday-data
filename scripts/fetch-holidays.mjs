@@ -29,23 +29,12 @@ import {
   GLOBAL_RULES,
   HOLIDAY_SLUG_ALIASES,
 } from './config.mjs';
-import { computeEasterSunday } from './lib/easter.mjs';
+import { detectRule } from './lib/ruleDetection.mjs';
+import { fetchJsonWithTimeout, FailureBudget } from './lib/httpClient.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA = join(__dirname, '..', 'data');
 const PACKAGES = join(DATA, 'packages');
-
-function ymd(date) {
-  return `${String(date.getUTCMonth() + 1).padStart(2, '0')}-${String(date.getUTCDate()).padStart(2, '0')}`;
-}
-
-function easterOffsetForDate(year, mmdd) {
-  const easter = computeEasterSunday(year);
-  const [m, d] = mmdd.split('-').map(Number);
-  const target = Date.UTC(year, m - 1, d);
-  const base = Date.UTC(year, easter.getUTCMonth(), easter.getUTCDate());
-  return Math.round((target - base) / 86400000);
-}
 
 async function listVersions(countryDir) {
   if (!existsSync(countryDir)) return [];
@@ -56,11 +45,14 @@ async function listVersions(countryDir) {
     .sort((a, b) => a - b);
 }
 
+// #130: Timeout + Retry/Backoff statt nacktem fetch (kein unbegrenztes Haengen).
 async function fetchJson(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`${res.status} ${url}`);
-  return res.json();
+  return fetchJsonWithTimeout(url, { timeoutMs: 15000, retries: 2, backoffMs: 500 });
 }
+
+// #130: Fehlerquote ueber den gesamten Lauf budgetieren — bei zu vielen
+// fehlgeschlagenen Fetches scheitert der Build hart statt stille Luecken zu schreiben.
+const fetchBudget = new FailureBudget({ maxFailureRate: 0.25, minSamples: 10 });
 
 async function buildCountry(cc) {
   const years = Array.from({ length: PRECOMPUTE_YEARS }, (_, i) => PRECOMPUTE_FROM_YEAR + i);
@@ -71,7 +63,9 @@ async function buildCountry(cc) {
     let holidays;
     try {
       holidays = await fetchJson(SOURCES.nagerDate(year, cc));
+      fetchBudget.success();
     } catch (err) {
+      fetchBudget.failure();
       console.warn(`  ${cc} ${year}: ${err.message}`);
       continue;
     }
@@ -149,89 +143,7 @@ function rulesEqual(a, b) {
   return false;
 }
 
-/**
- * Classifies a holiday into a closed-form rule where possible so the client can
- * compute any year offline, falling back to a precomputed year->MM-DD table.
- *
- * Detection order (exact rules first, fuzzy last):
- *   1. fixed          - identical MM-DD every year
- *   2. easter_relative- constant offset from Western Easter
- *   3. nth_weekday    - same weekday/month and constant nth (or always "last")
- *   4. fixed (mode)   - clear majority MM-DD; absorbs weekend-"observed" shifts
- *                       (e.g. US New Year / Independence Day / Christmas)
- *   5. precomputed    - everything else (genuinely table-only)
- */
-function detectRule(entry) {
-  const years = Object.keys(entry.years)
-    .map(Number)
-    .sort((a, b) => a - b);
-  const mmdds = years.map((y) => entry.years[y]);
-
-  if (new Set(mmdds).size === 1) {
-    const [m, d] = mmdds[0].split('-').map(Number);
-    return { type: 'fixed', month: m, day: d };
-  }
-
-  const offsets = new Set(years.map((y) => easterOffsetForDate(y, entry.years[y])));
-  if (offsets.size === 1) {
-    return { type: 'easter_relative', offsetDays: [...offsets][0] };
-  }
-
-  const nth = detectNthWeekday(years, entry.years);
-  if (nth) return nth;
-
-  const modeFixed = detectModeFixed(mmdds);
-  if (modeFixed) return modeFixed;
-
-  return { type: 'precomputed', dates: entry.years };
-}
-
-/** Detects a "nth weekday of month" pattern (incl. "last weekday"). */
-function detectNthWeekday(years, byYear) {
-  let month = null;
-  let weekday = null;
-  let firstNth = null;
-  let allSameNth = true;
-  let allLast = true;
-
-  for (const y of years) {
-    const [m, d] = byYear[y].split('-').map(Number);
-    const wd = new Date(Date.UTC(y, m - 1, d)).getUTCDay();
-    const nth = Math.ceil(d / 7);
-    const daysInMonth = new Date(Date.UTC(y, m, 0)).getUTCDate();
-    const isLast = d + 7 > daysInMonth;
-
-    if (month === null) {
-      month = m;
-      weekday = wd;
-      firstNth = nth;
-    } else if (m !== month || wd !== weekday) {
-      return null;
-    }
-    if (nth !== firstNth) allSameNth = false;
-    if (!isLast) allLast = false;
-  }
-
-  if (month === null) return null;
-  if (allSameNth) return { type: 'nth_weekday', month, nth: firstNth, weekday };
-  if (allLast) return { type: 'nth_weekday', month, nth: 5, weekday, last: true };
-  return null;
-}
-
-/** Picks a fixed date when one MM-DD is a strict majority across the years. */
-function detectModeFixed(mmdds) {
-  const counts = new Map();
-  for (const mmdd of mmdds) counts.set(mmdd, (counts.get(mmdd) ?? 0) + 1);
-  let best = null;
-  for (const [mmdd, count] of counts) {
-    if (!best || count > best.count) best = { mmdd, count };
-  }
-  if (best && best.count > mmdds.length / 2) {
-    const [m, d] = best.mmdd.split('-').map(Number);
-    return { type: 'fixed', month: m, day: d };
-  }
-  return null;
-}
+// detectRule + Helfer (inkl. #134-Rueckverprobung) liegen jetzt in lib/ruleDetection.mjs.
 
 function slugify(name) {
   return name
@@ -306,6 +218,9 @@ async function main() {
   for (const cc of countries) {
     await buildCountry(cc);
   }
+  // #130: Bei zu hoher Fetch-Fehlerquote hart abbrechen statt stiller Datenluecken.
+  fetchBudget.assertWithinBudget('fetch-holidays');
+  console.log(`Fetched ${fetchBudget.ok}/${fetchBudget.total} year-requests OK.`);
 }
 
 main().catch((err) => {

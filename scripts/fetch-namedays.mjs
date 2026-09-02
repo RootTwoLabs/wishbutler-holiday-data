@@ -14,6 +14,7 @@ import { existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { NAMEDAY_COUNTRIES, SOURCES } from './config.mjs';
+import { fetchJsonWithTimeout } from './lib/httpClient.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PACKAGES = join(__dirname, '..', 'data', 'packages');
@@ -21,10 +22,9 @@ const PACKAGES = join(__dirname, '..', 'data', 'packages');
 /** Strings abalin returns that are not personal names. */
 const NON_NAME = /^(n\/a|support ukraine)/i;
 
+// #130: Timeout + Retry/Backoff statt nacktem fetch.
 async function fetchJson(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`${res.status} ${url}`);
-  return res.json();
+  return fetchJsonWithTimeout(url, { timeoutMs: 15000, retries: 2, backoffMs: 500 });
 }
 
 async function latestPackagePath(cc) {

@@ -1,0 +1,813 @@
+{
+  "countryCode": "KR",
+  "version": 4,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "KR_new_years_day",
+      "countryCode": "KR",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "KR_lunar_new_year",
+      "countryCode": "KR",
+      "kind": "precomputed",
+      "labelKey": "holidays.lunar_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-18",
+          "2027": "02-09",
+          "2028": "01-28",
+          "2029": "02-14",
+          "2030": "02-05",
+          "2031": "01-24",
+          "2032": "02-12",
+          "2033": "02-01",
+          "2034": "02-21",
+          "2035": "02-09"
+        }
+      }
+    },
+    {
+      "id": "KR_independence_movement_day",
+      "countryCode": "KR",
+      "kind": "precomputed",
+      "labelKey": "holidays.independence_movement_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "03-02",
+          "2027": "03-01",
+          "2028": "03-01",
+          "2029": "03-01",
+          "2030": "03-01",
+          "2031": "03-03",
+          "2032": "03-01",
+          "2033": "03-01",
+          "2034": "03-01",
+          "2035": "03-01"
+        }
+      }
+    },
+    {
+      "id": "KR_labour_day",
+      "countryCode": "KR",
+      "kind": "precomputed",
+      "labelKey": "holidays.labour_day_kr",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-01",
+          "2027": "05-03",
+          "2028": "05-01",
+          "2029": "05-01",
+          "2030": "05-01",
+          "2031": "05-01",
+          "2032": "05-03",
+          "2033": "05-02",
+          "2034": "05-01",
+          "2035": "05-01"
+        }
+      }
+    },
+    {
+      "id": "KR_childrens_day",
+      "countryCode": "KR",
+      "kind": "precomputed",
+      "labelKey": "holidays.childrens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-05",
+          "2027": "05-05",
+          "2028": "05-05",
+          "2029": "05-07",
+          "2030": "05-06",
+          "2031": "05-05",
+          "2032": "05-05",
+          "2033": "05-05",
+          "2034": "05-05",
+          "2035": "05-07"
+        }
+      }
+    },
+    {
+      "id": "KR_buddhas_birthday",
+      "countryCode": "KR",
+      "kind": "precomputed",
+      "labelKey": "holidays.buddhas_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-25",
+          "2027": "05-13",
+          "2028": "05-02",
+          "2029": "05-21",
+          "2030": "05-09",
+          "2031": "04-29",
+          "2032": "05-17",
+          "2033": "05-06",
+          "2034": "05-25",
+          "2035": "05-15"
+        }
+      }
+    },
+    {
+      "id": "KR_local_election_day",
+      "countryCode": "KR",
+      "kind": "fixed",
+      "labelKey": "holidays.local_election_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 3
+      }
+    },
+    {
+      "id": "KR_memorial_day",
+      "countryCode": "KR",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 6
+      }
+    },
+    {
+      "id": "KR_constitution_day",
+      "countryCode": "KR",
+      "kind": "precomputed",
+      "labelKey": "holidays.constitution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "07-17",
+          "2027": "07-19",
+          "2028": "07-17",
+          "2029": "07-17",
+          "2030": "07-17",
+          "2031": "07-17",
+          "2032": "07-19",
+          "2033": "07-18",
+          "2034": "07-17",
+          "2035": "07-17"
+        }
+      }
+    },
+    {
+      "id": "KR_liberation_day",
+      "countryCode": "KR",
+      "kind": "precomputed",
+      "labelKey": "holidays.liberation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "08-17",
+          "2027": "08-16",
+          "2028": "08-15",
+          "2029": "08-15",
+          "2030": "08-15",
+          "2031": "08-15",
+          "2032": "08-16",
+          "2033": "08-15",
+          "2034": "08-15",
+          "2035": "08-15"
+        }
+      }
+    },
+    {
+      "id": "KR_chuseok",
+      "countryCode": "KR",
+      "kind": "precomputed",
+      "labelKey": "holidays.chuseok",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-26",
+          "2027": "09-16",
+          "2028": "10-04",
+          "2029": "09-24",
+          "2030": "09-13",
+          "2031": "10-02",
+          "2032": "09-21",
+          "2033": "09-09",
+          "2034": "09-28",
+          "2035": "09-18"
+        }
+      }
+    },
+    {
+      "id": "KR_national_foundation_day",
+      "countryCode": "KR",
+      "kind": "precomputed",
+      "labelKey": "holidays.national_foundation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "10-05",
+          "2027": "10-04",
+          "2028": "10-03",
+          "2029": "10-03",
+          "2030": "10-03",
+          "2031": "10-03",
+          "2032": "10-04",
+          "2033": "10-03",
+          "2034": "10-03",
+          "2035": "10-03"
+        }
+      }
+    },
+    {
+      "id": "KR_hangul_day",
+      "countryCode": "KR",
+      "kind": "precomputed",
+      "labelKey": "holidays.hangul_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "10-09",
+          "2027": "10-11",
+          "2028": "10-09",
+          "2029": "10-09",
+          "2030": "10-09",
+          "2031": "10-09",
+          "2032": "10-11",
+          "2033": "10-10",
+          "2034": "10-09",
+          "2035": "10-09"
+        }
+      }
+    },
+    {
+      "id": "KR_christmas_day",
+      "countryCode": "KR",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "lunar_new_year": "Lunar New Year",
+        "independence_movement_day": "Independence Movement Day",
+        "labour_day_kr": "Labour Day",
+        "childrens_day": "Children's Day",
+        "buddhas_birthday": "Buddha's Birthday",
+        "local_election_day": "Local Election Day",
+        "memorial_day": "Memorial Day",
+        "constitution_day": "Constitution Day",
+        "liberation_day": "Liberation Day",
+        "chuseok": "Chuseok",
+        "national_foundation_day": "National Foundation Day",
+        "hangul_day": "Hangul Day"
+      },
+      "ko": {
+        "lunar_new_year": "설날",
+        "independence_movement_day": "3·1절",
+        "labour_day_kr": "노동절",
+        "childrens_day": "어린이날",
+        "buddhas_birthday": "부처님 오신 날",
+        "local_election_day": "지방 선거일",
+        "memorial_day": "현충일",
+        "constitution_day": "제헌절",
+        "liberation_day": "광복절",
+        "chuseok": "추석",
+        "national_foundation_day": "개천절",
+        "hangul_day": "한글날"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "new_year": {
+          "intro": "Der 1. Januar markiert weltweit den Beginn eines neuen Jahres im gregorianischen Kalender. Für viele ist es ein Tag der Hoffnung, des Neuanfangs und der guten Vorsätze.",
+          "history": "Bereits 153 v. Chr. legten die Römer den Jahresbeginn auf den 1. Januar, den Antrittstag der neuen Konsuln. Im Mittelalter wechselte der Jahresanfang in vielen Regionen zu Weihnachten oder Ostern. Erst mit der Kalenderreform von Papst Gregor XIII. im Jahr 1582 setzte sich der 1. Januar wieder als europäischer Standard durch. Der Monatsname Januar geht auf den römischen Gott Janus zurück, der mit zwei Gesichtern zugleich auf das Vergangene und das Kommende blickte – ein passendes Sinnbild für diesen Tag.",
+          "traditions": "Um Mitternacht stoßen Familien und Freunde mit Sekt an und feiern den Jahreswechsel mit Feuerwerk, Glücksbringern wie Kleeblatt, Schornsteinfeger oder Marienkäfer und dem traditionellen Bleigießen (heute Wachsgießen). Beliebt sind außerdem Neujahrsbrunch und der gemeinsame Spaziergang an der frischen Luft. Viele fassen Vorsätze für das neue Jahr.",
+          "funFacts": [
+            "In Spanien isst man zu jedem der zwölf Glockenschläge eine Weintraube – eine pro Wunsch.",
+            "In Dänemark zerbricht man altes Geschirr vor den Türen guter Freunde, um Glück zu bringen.",
+            "Wiens Neujahrskonzert wird in über 90 Länder übertragen und gilt als musikalischer Auftakt des Jahres.",
+            "Auf den Pazifikinseln Kiribati beginnt das neue Jahr 26 Stunden früher als auf der Insel Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Der 1. Mai ist in vielen Ländern der „Tag der Arbeit” – ein Feiertag der Arbeiterbewegung mit Demonstrationen, Maibäumen und Frühlingsfesten.",
+          "history": "Am 1. Mai 1886 traten in Chicago hunderttausende Arbeiter für den Acht-Stunden-Tag in den Generalstreik. Die anschließenden Auseinandersetzungen am Haymarket forderten mehrere Tote. 1889 erklärte der Internationale Arbeiterkongress in Paris den 1. Mai zum „Kampftag der Arbeiterbewegung”. In Deutschland wurde er 1933 als „Tag der nationalen Arbeit” zum gesetzlichen Feiertag – nach 1945 als Symbol arbeitnehmerfreundlicher Politik beibehalten.",
+          "traditions": "Gewerkschaften organisieren Kundgebungen und Demonstrationen unter Mottos wie „Mehr Lohn, mehr Freizeit”. In vielen Dörfern wird in der Nacht zum 1. Mai ein Maibaum aufgestellt – im Süden Deutschlands ein bunt geschmückter Stamm, im Norden ein Birkenstamm vor dem Fenster der Liebsten. Beliebte Aktivitäten: Mai-Wanderungen, Grillen und Familienfeste.",
+          "funFacts": [
+            "Der höchste Maibaum Bayerns wurde 2017 in Mitterfels mit über 50 m aufgestellt.",
+            "In Frankreich verschenkt man am 1. Mai Maiglöckchen („muguet”) – ein Brauch, den König Karl IX. 1561 einführte.",
+            "Im Rheinland werden in der Mai-Nacht „Liebesmaien” – geschmückte Birken – vor das Haus der Angebeteten gestellt.",
+            "Der 1. Mai ist offizieller Feiertag in über 80 Ländern – in den USA und Kanada feiert man Labor Day jedoch erst im September."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "chuseok": {
+          "intro": "Chuseok ist Koreas großes Erntedankfest – eine Zeit für Familientreffen und das Gedenken an die Vorfahren.",
+          "history": "Chuseok wird am 15. Tag des achten Mondmonats gefeiert und oft als koreanisches Erntedankfest bezeichnet. Verwurzelt in alten Erntefeiern, dankt man für die Ernte des Jahres und gedenkt der Vorfahren, die sie ermöglicht haben.",
+          "traditions": "Familien reisen nach Hause für die Gedenkriten „Charye”, besuchen die Gräber der Ahnen und teilen das Essen. Das typische Gericht ist „Songpyeon”, halbmondförmige Reiskuchen, und man spielt Volksspiele und tanzt im Kreis.",
+          "funFacts": [
+            "Es wird oft „koreanisches Erntedankfest” genannt.",
+            "Halbmondförmige Reiskuchen namens „Songpyeon” sind das Festessen.",
+            "Millionen reisen heim – Koreas größtes Verkehrsaufkommen des Jahres."
+          ]
+        },
+        "hangul_day": {
+          "intro": "Der Hangeul-Tag am 9. Oktober feiert die Erschaffung der koreanischen Schrift Hangeul.",
+          "history": "Der Tag erinnert an die Verkündung des Hunminjeongeum 1446, des unter König Sejong dem Großen geschaffenen koreanischen Alphabets, damit auch das einfache Volk lesen und schreiben konnte. Hangeul gilt als einzigartig wissenschaftliche, leicht erlernbare Schrift und als Quelle nationalen Stolzes.",
+          "traditions": "Kulturveranstaltungen, Kalligrafie-Ausstellungen und Wettbewerbe feiern das Alphabet, und es gibt Zeremonien zu Ehren König Sejongs. Es ist der einzige Nationalfeiertag der Welt, der einer Schrift gewidmet ist.",
+          "funFacts": [
+            "Hangeul entstand unter König Sejong dem Großen.",
+            "Es wurde 1446 für das einfache Volk verkündet.",
+            "Es ist der weltweit einzige Feiertag für ein Alphabet."
+          ]
+        },
+        "christmas": {
+          "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
+          "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
+          "traditions": "Familien versammeln sich zu festlichen Mahlzeiten – Truthahn, Gans, Karpfen oder Raclette. Geschenke werden ausgetauscht, Weihnachtslieder gesungen, viele besuchen den Festgottesdienst. Der geschmückte Christbaum mit Lichterketten, Kugeln und Strohsternen ist das zentrale Symbol. Adventskalender, Plätzchen und der Besuch von Weihnachtsmärkten gehören zur Vorbereitung.",
+          "funFacts": [
+            "Der erste kommerzielle Adventskalender erschien 1908 in München – Erfinder war Gerhard Lang.",
+            "Die Weihnachtsmärkte in Dresden („Striezelmarkt”, seit 1434) und Frankfurt (seit 1393) gehören zu den ältesten der Welt.",
+            "Norwegen schenkt Großbritannien seit 1947 jährlich einen riesigen Weihnachtsbaum für den Trafalgar Square – als Dank für die Hilfe im Zweiten Weltkrieg.",
+            "Die Weihnachtsfilm-Klassiker „Drei Haselnüsse für Aschenbrödel” und „Tatsächlich… Liebe” laufen weltweit jedes Jahr Dutzende Male im TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "new_year": {
+          "intro": "January 1st marks the start of a new year in the Gregorian calendar around the world. For many it's a day of hope, fresh starts and good resolutions.",
+          "history": "As early as 153 BC the Romans set the start of the year on January 1st, the day new consuls took office. During the Middle Ages, the start of the year shifted in many regions to Christmas or Easter. Only with Pope Gregory XIII's calendar reform of 1582 did January 1st become the European standard once again. The name January goes back to the Roman god Janus, who looked simultaneously at the past and the future with two faces — a fitting symbol for the day.",
+          "traditions": "At midnight, families and friends toast with sparkling wine and celebrate the turn of the year with fireworks, lucky charms (clover, chimney sweep, ladybug) and traditional lead pouring (now wax pouring). New Year's brunch and a fresh-air walk are popular too. Many people make resolutions for the year ahead.",
+          "funFacts": [
+            "In Spain, people eat one grape with each of the twelve bell strokes — one wish per grape.",
+            "In Denmark, people break old crockery in front of friends' doors to bring them luck.",
+            "Vienna's New Year's Concert is broadcast in over 90 countries and counts as the year's musical kick-off.",
+            "On the Pacific island of Kiribati, the new year arrives 26 hours earlier than on Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "May 1st is in many countries ‘Labour Day' — a holiday of the workers' movement with demonstrations, maypoles and spring fairs.",
+          "history": "On May 1st, 1886, hundreds of thousands of workers in Chicago went on a general strike for the eight-hour workday. The ensuing clashes at Haymarket killed several. In 1889 the International Workers' Congress in Paris declared May 1st the ‘international day of struggle for workers'. In Germany it became a legal holiday in 1933 as ‘Day of National Labour' and was kept after 1945 as a symbol of worker-friendly politics.",
+          "traditions": "Trade unions stage rallies and marches under slogans such as ‘More pay, more time off'. In many villages a maypole is raised on the night before May 1st — in southern Germany an ornately painted trunk, in the north a birch in front of a sweetheart's window. Popular activities: May hikes, barbecues and family festivals.",
+          "funFacts": [
+            "Bavaria's tallest maypole was raised in Mitterfels in 2017 at over 50 m.",
+            "In France people give lily-of-the-valley (‘muguet') on May 1st — a custom King Charles IX introduced in 1561.",
+            "In the Rhineland a ‘love May' — a decorated birch — is placed in front of the home of a sweetheart on May Eve.",
+            "May 1st is an official holiday in over 80 countries — but in the U.S. and Canada Labor Day falls in September."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "chuseok": {
+          "intro": "Chuseok is Korea's major harvest festival, a time for family reunions and honouring ancestors.",
+          "history": "Celebrated on the 15th day of the eighth lunar month, Chuseok is often called Korean Thanksgiving. Rooted in ancient harvest celebrations, it gives thanks for the year’s crops and remembers ancestors who made the harvest possible.",
+          "traditions": "Families travel home for memorial rites called 'charye', visit ancestral graves and share food. The signature dish is 'songpyeon', half-moon rice cakes, and people play folk games and perform circle dances.",
+          "funFacts": [
+            "It is often called 'Korean Thanksgiving'.",
+            "Half-moon rice cakes called 'songpyeon' are the festival food.",
+            "Millions travel home, causing Korea's biggest traffic of the year."
+          ]
+        },
+        "hangul_day": {
+          "intro": "Hangul Day on 9 October celebrates the creation of Korea's writing system, Hangul.",
+          "history": "The day marks the 1446 proclamation of Hunminjeongeum, the Korean alphabet created under King Sejong the Great so that ordinary people could read and write. Hangul is celebrated as a uniquely scientific and accessible script and a source of national pride.",
+          "traditions": "Cultural events, calligraphy exhibitions and contests celebrate the alphabet, and there are ceremonies honouring King Sejong. It is the only national holiday in the world dedicated to a writing system.",
+          "funFacts": [
+            "Hangul was created under King Sejong the Great.",
+            "It was proclaimed in 1446 for ordinary people to use.",
+            "It is the world's only holiday celebrating an alphabet."
+          ]
+        },
+        "christmas": {
+          "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
+          "history": "December 25th is documented as ‘dies natalis Christi' as early as 354 in a Roman calendar. The Church likely chose the date to give the Roman ‘Sol Invictus' winter solstice festival a Christian meaning. Gift-giving has its roots in the gifts of the Magi. The familiar Santa Claus with red coat and white beard is a mix of Saint Nicholas and a 1931 Coca-Cola advertising campaign.",
+          "traditions": "Families gather for festive meals — turkey, goose, carp or raclette. Gifts are exchanged, carols sung, many attend the festive service. The decorated Christmas tree with lights, ornaments and straw stars is the central symbol. Advent calendars, cookies and visits to Christmas markets are part of the run-up.",
+          "funFacts": [
+            "The first commercial Advent calendar appeared in 1908 in Munich — invented by Gerhard Lang.",
+            "The Christmas markets in Dresden (‘Striezelmarkt', since 1434) and Frankfurt (since 1393) are among the oldest in the world.",
+            "Norway has gifted the UK a giant Christmas tree for Trafalgar Square every year since 1947 — as thanks for help during World War II.",
+            "Holiday classics like ‘Three Wishes for Cinderella' and ‘Love Actually' run dozens of times on TV worldwide every year."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "new_year": {
+          "intro": "Le 1er janvier marque le début d'une nouvelle année dans le calendrier grégorien partout dans le monde. Pour beaucoup, c'est un jour d'espoir, de renouveau et de bonnes résolutions.",
+          "history": "Dès 153 av. J.-C., les Romains fixèrent le début de l'année au 1er janvier, jour d'entrée en fonction des nouveaux consuls. Au Moyen Âge, le début de l'année se déplaça dans de nombreuses régions à Noël ou à Pâques. Ce n'est qu'avec la réforme du calendrier du pape Grégoire XIII en 1582 que le 1er janvier s'imposa à nouveau comme standard européen. Le nom janvier vient du dieu romain Janus, qui regardait simultanément le passé et l'avenir avec deux visages.",
+          "traditions": "À minuit, familles et amis trinquent au champagne et célèbrent le passage à la nouvelle année avec des feux d'artifice, des porte-bonheur (trèfle, ramoneur, coccinelle) et la traditionnelle coulée de plomb (aujourd'hui de cire). Le brunch du Nouvel An et la promenade au grand air sont aussi populaires. Beaucoup formulent des résolutions pour l'année.",
+          "funFacts": [
+            "En Espagne, on mange un grain de raisin à chacun des douze coups de minuit — un vœu par grain.",
+            "Au Danemark, on brise de la vieille vaisselle devant la porte des amis pour leur porter chance.",
+            "Le Concert du Nouvel An de Vienne est diffusé dans plus de 90 pays — coup d'envoi musical de l'année.",
+            "Sur l'île pacifique de Kiribati, le Nouvel An arrive 26 heures avant celui de l'île Howland."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Le 1er mai est dans bien des pays la ‘Fête du Travail' — fête du mouvement ouvrier avec manifestations, mâts de mai et fêtes printanières.",
+          "history": "Le 1er mai 1886, des centaines de milliers de travailleurs de Chicago entrèrent en grève générale pour la journée de huit heures. Les heurts qui suivirent à Haymarket firent plusieurs morts. En 1889, le Congrès international des travailleurs à Paris déclara le 1er mai ‘journée de lutte du mouvement ouvrier'. En France, le 1er mai devient jour chômé en 1947, et c'est aussi le jour où l'on offre du muguet, tradition royale depuis Charles IX en 1561.",
+          "traditions": "Les syndicats organisent meetings et défilés sous des slogans comme ‘Plus de salaire, plus de temps libre'. En France, on s'offre des brins de muguet, porte-bonheur. Dans de nombreux villages allemands, on dresse un mât de mai dans la nuit du 1er. Randonnées, barbecues et fêtes familiales sont au programme.",
+          "funFacts": [
+            "Le mât de mai le plus haut de Bavière a été dressé en 2017 à Mitterfels avec plus de 50 m.",
+            "En France, on offre du muguet le 1er mai — coutume introduite par Charles IX en 1561.",
+            "En Rhénanie, on plante des bouleaux décorés (‘Liebesmaien') devant la maison de la bien-aimée à la nuit du 1er mai.",
+            "Le 1er mai est jour férié dans plus de 80 pays — mais aux États-Unis et au Canada, le ‘Labor Day' tombe en septembre."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "chuseok": {
+          "intro": "Le Chuseok est la grande fête des récoltes en Corée, un temps de retrouvailles familiales et d’hommage aux ancêtres.",
+          "history": "Célébré le 15e jour du huitième mois lunaire, le Chuseok est souvent appelé l’Action de grâce coréenne. Enraciné dans d’anciennes célébrations des récoltes, il rend grâce pour les moissons de l’année et honore les ancêtres qui les ont rendues possibles.",
+          "traditions": "Les familles rentrent pour les rites commémoratifs « charye », visitent les tombes des ancêtres et partagent des repas. Le plat emblématique est le « songpyeon », gâteau de riz en demi-lune, et l’on joue à des jeux folkloriques et danse en ronde.",
+          "funFacts": [
+            "On l’appelle souvent « l’Action de grâce coréenne ».",
+            "Les gâteaux de riz en demi-lune « songpyeon » sont le mets de la fête.",
+            "Des millions rentrent chez eux, le plus gros trafic de l’année en Corée."
+          ]
+        },
+        "hangul_day": {
+          "intro": "Le jour du Hangeul, le 9 octobre, célèbre la création du système d’écriture coréen, le hangeul.",
+          "history": "Le jour marque la proclamation en 1446 du Hunminjeongeum, l’alphabet coréen créé sous le roi Sejong le Grand pour que le peuple puisse lire et écrire. Le hangeul est célébré comme une écriture remarquablement scientifique et accessible, et une source de fierté nationale.",
+          "traditions": "Des événements culturels, des expositions de calligraphie et des concours célèbrent l’alphabet, et des cérémonies honorent le roi Sejong. C’est le seul jour férié national au monde consacré à un système d’écriture.",
+          "funFacts": [
+            "Le hangeul fut créé sous le roi Sejong le Grand.",
+            "Il fut proclamé en 1446 pour l’usage du peuple.",
+            "C’est le seul jour férié au monde célébrant un alphabet."
+          ]
+        },
+        "christmas": {
+          "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
+          "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
+          "traditions": "Les familles se rassemblent autour de repas festifs — dinde, oie, carpe ou raclette. On échange des cadeaux, chante des cantiques, beaucoup assistent à la messe festive. Le sapin décoré de lumières, boules et étoiles de paille est le symbole central. Calendrier de l'avent, biscuits et marchés de Noël jalonnent la préparation.",
+          "funFacts": [
+            "Le premier calendrier de l'avent commercial parut en 1908 à Munich — invention de Gerhard Lang.",
+            "Les marchés de Noël de Dresde (‘Striezelmarkt', depuis 1434) et de Francfort (depuis 1393) figurent parmi les plus anciens du monde.",
+            "La Norvège offre chaque année au Royaume-Uni un immense sapin pour Trafalgar Square depuis 1947 — en remerciement de l'aide pendant la Seconde Guerre mondiale.",
+            "Les classiques de Noël comme ‘Trois noisettes pour Cendrillon' ou ‘Love Actually' sont diffusés des dizaines de fois à la télé chaque année."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "new_year": {
+          "intro": "El 1 de enero marca el inicio de un nuevo año en el calendario gregoriano en todo el mundo. Para muchos es un día de esperanza, comienzos y buenos propósitos.",
+          "history": "Ya en el 153 a. C., los romanos fijaron el inicio del año el 1 de enero, día en que tomaban posesión los nuevos cónsules. En la Edad Media el comienzo del año cambió en muchas regiones a Navidad o Pascua. Solo con la reforma del calendario del papa Gregorio XIII en 1582 el 1 de enero volvió a imponerse como estándar europeo. El nombre Janus (enero en latín) evoca al dios romano de las dos caras, que miraba al pasado y al futuro a la vez.",
+          "traditions": "A medianoche, familias y amigos brindan con cava o champán y celebran con fuegos artificiales, amuletos como tréboles, deshollinadores o mariquitas, y la tradicional fundición de cera para predecir el año. También son populares el brunch de Año Nuevo y los paseos al aire libre. Muchos hacen propósitos para el año entrante.",
+          "funFacts": [
+            "En España se come una uva con cada una de las doce campanadas — un deseo por uva.",
+            "En Dinamarca se rompe vajilla vieja delante de las puertas de los amigos para darles suerte.",
+            "El Concierto de Año Nuevo de Viena se transmite en más de 90 países y se considera el arranque musical del año.",
+            "En la isla pacífica de Kiribati el Año Nuevo llega 26 horas antes que en la isla Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 vía Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "El 1 de mayo es en muchos países el ‘Día del Trabajador' — fiesta del movimiento obrero con manifestaciones, mayos y celebraciones primaverales.",
+          "history": "El 1 de mayo de 1886, cientos de miles de trabajadores en Chicago se declararon en huelga general por la jornada de ocho horas. Los choques posteriores en Haymarket dejaron varios muertos. En 1889 el Congreso Internacional de Trabajadores de París lo declaró ‘día de lucha del movimiento obrero'. En Alemania pasó a ser festivo legal en 1933 como ‘Día Nacional del Trabajo' y se mantuvo tras 1945 como símbolo de política favorable a los trabajadores.",
+          "traditions": "Los sindicatos organizan mítines y manifestaciones bajo lemas como ‘Más sueldo, más tiempo libre'. En muchas aldeas alemanas se planta un mayo en la noche del 1 de mayo — en el sur, un tronco coloridamente decorado; en el norte, un abedul ante la ventana de la amada. Caminatas de mayo, barbacoas y fiestas familiares son populares.",
+          "funFacts": [
+            "El mayo más alto de Baviera fue erigido en Mitterfels en 2017 con más de 50 m.",
+            "En Francia se regala muguete (‘muguet') el 1 de mayo — costumbre que el rey Carlos IX introdujo en 1561.",
+            "En Renania, en la Noche de Mayo se ponen abedules decorados (‘Liebesmaien') ante la casa de la enamorada.",
+            "El 1 de mayo es festivo en más de 80 países — pero en EE. UU. y Canadá el ‘Labor Day' se celebra en septiembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 vía Wikimedia Commons"
+        },
+        "chuseok": {
+          "intro": "El Chuseok es la gran fiesta de la cosecha de Corea, un tiempo de reencuentros familiares y homenaje a los antepasados.",
+          "history": "Celebrado el día 15 del octavo mes lunar, el Chuseok se suele llamar el Día de Acción de Gracias coreano. Arraigado en antiguas fiestas de la cosecha, da gracias por los cultivos del año y recuerda a los antepasados que los hicieron posibles.",
+          "traditions": "Las familias viajan a casa para los ritos conmemorativos «charye», visitan las tumbas de los antepasados y comparten comida. El plato emblemático es el «songpyeon», pasteles de arroz en media luna, y se juega a juegos populares y se baila en círculo.",
+          "funFacts": [
+            "Se suele llamar el «Día de Acción de Gracias coreano».",
+            "Los pasteles de arroz en media luna «songpyeon» son la comida de la fiesta.",
+            "Millones viajan a casa, el mayor tráfico del año en Corea."
+          ]
+        },
+        "hangul_day": {
+          "intro": "El Día del Hangul, el 9 de octubre, celebra la creación del sistema de escritura coreano, el hangul.",
+          "history": "El día marca la proclamación en 1446 del Hunminjeongeum, el alfabeto coreano creado bajo el rey Sejong el Grande para que el pueblo pudiera leer y escribir. El hangul se celebra como una escritura singularmente científica y accesible, y una fuente de orgullo nacional.",
+          "traditions": "Eventos culturales, exposiciones de caligrafía y concursos celebran el alfabeto, y hay ceremonias en honor al rey Sejong. Es el único festivo nacional del mundo dedicado a un sistema de escritura.",
+          "funFacts": [
+            "El hangul se creó bajo el rey Sejong el Grande.",
+            "Se proclamó en 1446 para uso del pueblo.",
+            "Es el único festivo del mundo que celebra un alfabeto."
+          ]
+        },
+        "christmas": {
+          "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
+          "history": "Ya en el año 354 un calendario romano consigna el 25 de diciembre como ‘dies natalis Christi'. Probablemente la Iglesia eligió la fecha para reinterpretar cristianamente el ‘Sol Invictus' romano. El intercambio de regalos arraiga en los obsequios de los Magos. El moderno Papá Noel con abrigo rojo y barba blanca es una mezcla de San Nicolás con una campaña publicitaria de Coca-Cola de 1931.",
+          "traditions": "Las familias se reúnen para comidas festivas — pavo, ganso, carpa o raclette. Se intercambian regalos, se cantan villancicos y muchos asisten al servicio festivo. El árbol decorado con luces y bolas es el símbolo central. El calendario de Adviento, las galletas y los mercadillos forman parte de la preparación.",
+          "funFacts": [
+            "El primer calendario de Adviento comercial apareció en 1908 en Múnich — invento de Gerhard Lang.",
+            "Los mercadillos navideños de Dresde (‘Striezelmarkt', desde 1434) y Fráncfort (desde 1393) son de los más antiguos del mundo.",
+            "Noruega regala al Reino Unido un enorme árbol de Navidad para Trafalgar Square cada año desde 1947 — agradecimiento por la ayuda en la Segunda Guerra Mundial.",
+            "Los clásicos como ‘Tres Avellanas para Cenicienta' o ‘Love Actually' se emiten decenas de veces cada año en TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "new_year": {
+          "intro": "1 de janeiro marca o início de um novo ano no calendário gregoriano em todo o mundo. Para muitos é um dia de esperança, novos começos e boas resoluções.",
+          "history": "Já em 153 a.C. os romanos fixaram o início do ano em 1 de janeiro, dia em que tomavam posse os novos cônsules. Na Idade Média, o início do ano deslocou-se em muitas regiões para o Natal ou a Páscoa. Só com a reforma do calendário do Papa Gregório XIII em 1582 o 1 de janeiro voltou a impor-se como padrão europeu. O nome Janus (janeiro em latim) evoca o deus romano de duas faces, que olhava simultaneamente para o passado e o futuro.",
+          "traditions": "À meia-noite, famílias e amigos brindam com espumante e celebram com fogo de artifício, amuletos como trevos, limpa-chaminés ou joaninhas, e a tradicional fundição de cera para prever o ano. Também são populares o brunch de Ano Novo e os passeios ao ar livre. Muitos fazem resoluções para o ano que começa.",
+          "funFacts": [
+            "Em Portugal e Espanha, come-se uma uva por cada uma das doze badaladas — um desejo por uva.",
+            "Na Dinamarca, partem-se louças velhas em frente à porta dos amigos para lhes dar sorte.",
+            "O Concerto de Ano Novo de Viena é transmitido em mais de 90 países — abertura musical do ano.",
+            "Na ilha pacífica de Kiribati, o Ano Novo chega 26 horas antes do que na ilha de Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 de maio é em muitos países o ‘Dia do Trabalhador' — feriado do movimento operário com manifestações, festas de maio e celebrações primaveris. Em Portugal, é feriado nacional desde 1974.",
+          "history": "A 1 de maio de 1886, centenas de milhares de trabalhadores em Chicago entraram em greve geral pela jornada de oito horas. Os confrontos seguintes em Haymarket fizeram vários mortos. Em 1889, o Congresso Internacional dos Trabalhadores em Paris declarou o 1 de maio ‘dia de luta do movimento operário'. Em Portugal, foi assinalado clandestinamente durante o Estado Novo e tornou-se feriado oficial logo após a Revolução de 25 de Abril de 1974.",
+          "traditions": "Os sindicatos organizam comícios e desfiles com lemas como ‘Mais salário, mais tempo livre'. Em Portugal, a CGTP organiza um grande desfile no Porto e em Lisboa, com milhares de manifestantes. Muitas famílias aproveitam o feriado para piqueniques, churrascos e idas à praia.",
+          "funFacts": [
+            "Em Portugal, o 1.º de Maio de 1974 — apenas 6 dias após a Revolução dos Cravos — foi um dos primeiros grandes ajuntamentos populares livres em décadas.",
+            "Em França, oferece-se muguete (‘muguet') no 1.º de Maio — costume introduzido pelo rei Carlos IX em 1561.",
+            "Na Renânia, na noite de 1.º de Maio, colocam-se vidoeiros decorados (‘Liebesmaien') diante da casa da amada.",
+            "O 1.º de Maio é feriado em mais de 80 países — mas nos EUA e Canadá o ‘Labor Day' é em setembro."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "chuseok": {
+          "intro": "O Chuseok é a grande festa das colheitas da Coreia, um tempo de reencontros familiares e de homenagem aos antepassados.",
+          "history": "Celebrado no 15.º dia do oitavo mês lunar, o Chuseok é muitas vezes chamado o Dia de Ação de Graças coreano. Enraizado em antigas festas das colheitas, agradece pelas colheitas do ano e recorda os antepassados que as tornaram possíveis.",
+          "traditions": "As famílias viajam para casa para os ritos comemorativos «charye», visitam as campas dos antepassados e partilham refeições. O prato emblemático é o «songpyeon», bolos de arroz em meia-lua, e jogam-se jogos populares e dança-se em roda.",
+          "funFacts": [
+            "É muitas vezes chamado o «Dia de Ação de Graças coreano».",
+            "Os bolos de arroz em meia-lua «songpyeon» são a comida da festa.",
+            "Milhões viajam para casa, o maior trânsito do ano na Coreia."
+          ]
+        },
+        "hangul_day": {
+          "intro": "O Dia do Hangul, 9 de outubro, celebra a criação do sistema de escrita coreano, o hangul.",
+          "history": "O dia marca a proclamação em 1446 do Hunminjeongeum, o alfabeto coreano criado sob o rei Sejong, o Grande, para que o povo pudesse ler e escrever. O hangul é celebrado como uma escrita singularmente científica e acessível, e uma fonte de orgulho nacional.",
+          "traditions": "Eventos culturais, exposições de caligrafia e concursos celebram o alfabeto, e há cerimónias em honra do rei Sejong. É o único feriado nacional do mundo dedicado a um sistema de escrita.",
+          "funFacts": [
+            "O hangul foi criado sob o rei Sejong, o Grande.",
+            "Foi proclamado em 1446 para uso do povo.",
+            "É o único feriado do mundo que celebra um alfabeto."
+          ]
+        },
+        "christmas": {
+          "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
+          "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
+          "traditions": "As famílias reúnem-se em refeições festivas — peru, ganso, bacalhau ou raclette nos países germânicos; em Portugal, o típico almoço de Natal com peru ou cabrito assado, e as sobremesas de bolo-rei, sonhos, rabanadas, aletria e arroz-doce. Trocam-se presentes, cantam-se cânticos, muitos vão à missa festiva. A árvore decorada e o presépio são símbolos centrais.",
+          "funFacts": [
+            "O primeiro calendário do Advento comercial apareceu em 1908 em Munique — invenção de Gerhard Lang.",
+            "Os mercados de Natal de Dresden (‘Striezelmarkt', desde 1434) e Frankfurt (desde 1393) estão entre os mais antigos do mundo.",
+            "A Noruega oferece ao Reino Unido um enorme abeto para Trafalgar Square todos os anos desde 1947 — em agradecimento pela ajuda na II Guerra.",
+            "Em Portugal, a tradição do bolo-rei remonta ao século XIX, importado da pastelaria francesa."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "new_year": {
+          "intro": "Il 1° gennaio segna l'inizio di un nuovo anno nel calendario gregoriano in tutto il mondo. Per molti è un giorno di speranza, di nuovi inizi e di buoni propositi.",
+          "history": "Già nel 153 a.C. i Romani fissarono l'inizio dell'anno al 1° gennaio, giorno dell'insediamento dei nuovi consoli. Nel Medioevo l'inizio dell'anno si spostò in molte regioni a Natale o Pasqua. Solo con la riforma del calendario di papa Gregorio XIII nel 1582 il 1° gennaio tornò ad imporsi come standard europeo. Il nome ‘gennaio' deriva dal dio romano Giano, che con due volti guardava contemporaneamente al passato e al futuro.",
+          "traditions": "A mezzanotte famiglie e amici brindano con spumante e festeggiano con fuochi d'artificio, portafortuna come quadrifogli, spazzacamini o coccinelle e la tradizionale colata di piombo (oggi di cera). Sono diffusi anche il brunch di Capodanno e la passeggiata all'aria aperta. Molti formulano buoni propositi per l'anno che inizia.",
+          "funFacts": [
+            "In Spagna si mangia un chicco d'uva a ogni rintocco delle dodici campane — un desiderio per chicco.",
+            "In Danimarca si rompono stoviglie davanti alle porte degli amici per portare loro fortuna.",
+            "Il Concerto di Capodanno di Vienna è trasmesso in oltre 90 paesi — apertura musicale dell'anno.",
+            "Sull'isola pacifica di Kiribati il Capodanno arriva 26 ore prima rispetto all'isola Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Il 1° maggio è in molti paesi la ‘Festa dei Lavoratori' — festa del movimento operaio con manifestazioni, alberi di maggio e feste primaverili.",
+          "history": "Il 1° maggio 1886 centinaia di migliaia di lavoratori a Chicago entrarono in sciopero generale per la giornata di otto ore. Gli scontri di Haymarket fecero diversi morti. Nel 1889 il Congresso Internazionale dei Lavoratori a Parigi proclamò il 1° maggio ‘giornata di lotta del movimento operaio'. In Italia la festa è abolita nel 1923 dal regime fascista e ripristinata nel 1947. Il celebre ‘Concertone' di piazza San Giovanni a Roma è una tradizione dal 1990.",
+          "traditions": "I sindacati organizzano cortei e manifestazioni con slogan come ‘Più salario, più tempo libero'. In Italia il ‘Concertone' del 1° maggio a Roma riunisce centinaia di migliaia di persone in piazza San Giovanni. Famiglie organizzano gite, picnic e grigliate.",
+          "funFacts": [
+            "Il ‘Concertone' di Roma del 1° maggio dal 1990 raduna centinaia di migliaia di spettatori.",
+            "In Francia il 1° maggio si regalano mughetti (‘muguet') — tradizione che il re Carlo IX introdusse nel 1561.",
+            "In Renania nella notte del 1° maggio si pongono betulle decorate (‘Liebesmaien') davanti alla casa dell'amata.",
+            "Il 1° maggio è festivo in oltre 80 paesi — ma in USA e Canada il ‘Labor Day' è in settembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "chuseok": {
+          "intro": "Il Chuseok è la grande festa del raccolto della Corea, un tempo di riunioni familiari e di omaggio agli antenati.",
+          "history": "Celebrato il 15º giorno dell’ottavo mese lunare, il Chuseok è spesso chiamato il Ringraziamento coreano. Radicato in antiche feste del raccolto, ringrazia per i raccolti dell’anno e ricorda gli antenati che li hanno resi possibili.",
+          "traditions": "Le famiglie tornano a casa per i riti commemorativi «charye», visitano le tombe degli antenati e condividono il cibo. Il piatto simbolo è il «songpyeon», dolci di riso a mezzaluna, e si fanno giochi popolari e danze in cerchio.",
+          "funFacts": [
+            "È spesso chiamato il «Ringraziamento coreano».",
+            "I dolci di riso a mezzaluna «songpyeon» sono il cibo della festa.",
+            "Milioni tornano a casa: il traffico più intenso dell’anno in Corea."
+          ]
+        },
+        "hangul_day": {
+          "intro": "Il Giorno dell’Hangul, il 9 ottobre, celebra la creazione del sistema di scrittura coreano, l’hangul.",
+          "history": "La giornata segna la proclamazione nel 1446 dello Hunminjeongeum, l’alfabeto coreano creato sotto il re Sejong il Grande affinché il popolo potesse leggere e scrivere. L’hangul è celebrato come una scrittura straordinariamente scientifica e accessibile, e una fonte di orgoglio nazionale.",
+          "traditions": "Eventi culturali, mostre di calligrafia e concorsi celebrano l’alfabeto, e si tengono cerimonie in onore del re Sejong. È l’unica festa nazionale al mondo dedicata a un sistema di scrittura.",
+          "funFacts": [
+            "L’hangul fu creato sotto il re Sejong il Grande.",
+            "Fu proclamato nel 1446 per l’uso del popolo.",
+            "È l’unica festa al mondo che celebra un alfabeto."
+          ]
+        },
+        "christmas": {
+          "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
+          "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
+          "traditions": "Le famiglie si riuniscono per pasti festosi — tacchino, oca, carpa o raclette al nord; pranzo natalizio con tortellini in brodo, lasagne, capponi e panettone in Italia. Si scambiano regali, si cantano canti natalizi, molti partecipano alla messa festiva. L'albero decorato e il presepe sono i simboli centrali. Calendario dell'Avvento, biscotti e mercatini scandiscono la preparazione.",
+          "funFacts": [
+            "Il primo calendario dell'Avvento commerciale apparve nel 1908 a Monaco — invenzione di Gerhard Lang.",
+            "I mercatini di Natale di Dresda (‘Striezelmarkt', dal 1434) e Francoforte (dal 1393) sono tra i più antichi al mondo.",
+            "La Norvegia regala al Regno Unito un enorme albero di Natale per Trafalgar Square ogni anno dal 1947 — come ringraziamento per l'aiuto nella Seconda Guerra Mondiale.",
+            "Il panettone milanese e il pandoro veronese sono i due dolci natalizi italiani per eccellenza."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "new_year": {
+          "intro": "1 stycznia oznacza początek nowego roku w kalendarzu gregoriańskim na całym świecie. Dla wielu jest to dzień nadziei, nowych początków i postanowień.",
+          "history": "Już w 153 r. p.n.e. Rzymianie ustalili początek roku na 1 stycznia, dzień objęcia urzędu nowych konsulów. W średniowieczu początek roku w wielu regionach przesunięto na Boże Narodzenie lub Wielkanoc. Dopiero reforma kalendarza papieża Grzegorza XIII w 1582 roku przywróciła 1 stycznia jako europejski standard. Nazwa miesiąca pochodzi od rzymskiego boga Janusa, który dwiema twarzami spoglądał jednocześnie w przeszłość i przyszłość.",
+          "traditions": "O północy rodziny i przyjaciele wznoszą toast szampanem i świętują przejście do nowego roku fajerwerkami, talizmanami szczęścia (czterolistna koniczyna, kominiarz, biedronka) oraz tradycyjnym lanym ołowiem (dziś woskiem). Popularne są noworoczne brunche i spacery. Wielu składa noworoczne postanowienia.",
+          "funFacts": [
+            "W Hiszpanii zjada się winogronko z każdym z dwunastu uderzeń zegara — życzenie na każde winogronko.",
+            "W Danii rozbija się stare naczynia przed drzwiami przyjaciół, aby przyniosło im to szczęście.",
+            "Wiedeński Koncert Noworoczny transmitowany jest w ponad 90 krajach — muzyczne otwarcie roku.",
+            "Na Pacyficznej wyspie Kiribati Nowy Rok zaczyna się 26 godzin wcześniej niż na wyspie Howland."
+          ],
+          "imageCredit": "Zdjęcie: Vyacheslav Argenberg · CC BY 4.0 przez Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 maja jest w wielu krajach Świętem Pracy — świętem ruchu robotniczego z manifestacjami, majowymi uroczystościami i wiosennymi festynami. W Polsce dzień wolny od pracy.",
+          "history": "1 maja 1886 roku setki tysięcy robotników w Chicago weszło w strajk generalny domagając się ośmiogodzinnego dnia pracy. Następujące starcia na Haymarket pochłonęły kilka ofiar. W 1889 roku Międzynarodowy Kongres Robotniczy w Paryżu ogłosił 1 maja ‘dniem walki ruchu robotniczego'. W Polsce święto wprowadzono oficjalnie w 1950 roku, choć obchody były już wcześniej. Po 1989 roku zachowane jako symbol pracowniczy.",
+          "traditions": "W Polsce 1 maja to popularny dzień na pierwsze grillowanie i majowe wycieczki. Związki zawodowe organizują wiece i pochody. Wraz z 2 maja (Dzień Flagi) i 3 maja (Konstytucja) tworzy słynne ‘majówki' — najważniejszy długi weekend wiosenny w Polsce, kiedy wielu wyjeżdża nad morze, w góry lub na działkę.",
+          "funFacts": [
+            "‘Majówka' to jeden z najbardziej intensywnych weekendów turystycznych w Polsce — wiele osób ucieka z miast na wieś.",
+            "We Francji 1 maja wręcza się konwalie (‘muguet') — zwyczaj wprowadzony przez króla Karola IX w 1561 roku.",
+            "1 maja jest świętem urzędowym w ponad 80 krajach — ale w USA i Kanadzie ‘Labor Day' obchodzi się we wrześniu.",
+            "Najwyższy maj w Bawarii postawiono w Mitterfels w 2017 roku — miał ponad 50 m."
+          ],
+          "imageCredit": "Zdjęcie: Joe Piette · CC BY-SA 2.0 przez Wikimedia Commons"
+        },
+        "chuseok": {
+          "intro": "Chuseok to wielkie koreańskie święto plonów — czas rodzinnych spotkań i oddawania czci przodkom.",
+          "history": "Obchodzony 15. dnia ósmego miesiąca księżycowego Chuseok bywa nazywany koreańskim Świętem Dziękczynienia. Zakorzeniony w dawnych świętach plonów, dziękuje za zbiory roku i wspomina przodków, którzy je umożliwili.",
+          "traditions": "Rodziny wracają do domów na obrzędy pamięci „charye”, odwiedzają groby przodków i dzielą się jedzeniem. Sztandarowym daniem jest „songpyeon”, ryżowe ciastka w kształcie półksiężyca; gra się w gry ludowe i tańczy w kręgu.",
+          "funFacts": [
+            "Bywa nazywany „koreańskim Świętem Dziękczynienia”.",
+            "Ciastka ryżowe „songpyeon” w kształcie półksiężyca to potrawa święta.",
+            "Miliony wracają do domów — największy ruch w roku w Korei."
+          ]
+        },
+        "hangul_day": {
+          "intro": "Dzień Hangulu, 9 października, świętuje stworzenie koreańskiego systemu pisma — hangulu.",
+          "history": "Dzień upamiętnia ogłoszenie w 1446 roku Hunminjeongeum, koreańskiego alfabetu stworzonego za króla Sejonga Wielkiego, by zwykli ludzie mogli czytać i pisać. Hangul jest sławiony jako wyjątkowo naukowe i przystępne pismo oraz źródło narodowej dumy.",
+          "traditions": "Wydarzenia kulturalne, wystawy kaligrafii i konkursy świętują alfabet, a uroczystości oddają cześć królowi Sejongowi. To jedyne święto narodowe na świecie poświęcone systemowi pisma.",
+          "funFacts": [
+            "Hangul powstał za króla Sejonga Wielkiego.",
+            "Ogłoszono go w 1446 roku do użytku zwykłych ludzi.",
+            "To jedyne święto na świecie celebrujące alfabet."
+          ]
+        },
+        "christmas": {
+          "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
+          "history": "Już w 354 roku 25 grudnia odnotowany jest jako ‘dies natalis Christi' w rzymskim kalendarzu. Kościół wybrał tę datę prawdopodobnie po to, by chrześcijańsko zinterpretować rzymskie święto ‘Sol Invictus'. Tradycja prezentów ma korzenie w darach Trzech Mędrców. Współczesny Święty Mikołaj w czerwonym płaszczu i z białą brodą to mieszanka św. Mikołaja i kampanii reklamowej Coca-Coli z 1931 roku.",
+          "traditions": "W Polsce Boże Narodzenie obchodzi się przez dwa dni (25 i 26 grudnia). Rodziny zbierają się na obfitym obiedzie — często rosół z makaronem, schab, indyk, sałatka jarzynowa, makowiec, sernik. Wymienia się prezenty (w Polsce zwykle wręczane już w Wigilię), śpiewa kolędy, wielu uczestniczy w nabożeństwach. Choinka i szopka są centralnymi symbolami.",
+          "funFacts": [
+            "Pierwszy komercyjny kalendarz adwentowy ukazał się w 1908 roku w Monachium — wynalazek Gerharda Langa.",
+            "Polskie kolędy — m.in. ‘Wśród nocnej ciszy', ‘Bóg się rodzi', ‘Lulajże, Jezuniu' — uchodzą za jedne z najpiękniejszych na świecie.",
+            "Norwegia podarowuje Wielkiej Brytanii corocznie od 1947 roku ogromną choinkę na Trafalgar Square — w podzięce za pomoc w II wojnie światowej.",
+            "Tradycja choinki dotarła do Polski z Niemiec na początku XIX wieku, a powszechna stała się po 1830 roku."
+          ],
+          "imageCredit": "Zdjęcie: Chris Olszewski · CC BY-SA 4.0 przez Wikimedia Commons"
+        }
+      }
+    }
+  },
+  "images": {
+    "new_year": [
+      {
+        "path": "images/new_year/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "labour_day": [
+      {
+        "path": "images/labour_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "chuseok": [
+      {
+        "path": "images/KR/chuseok/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/KR/chuseok/02.jpg",
+        "primary": false,
+        "credit": "by Joseph Steinberg (Baltimoron in Korea) at Flickr",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "path": "images/KR/chuseok/03.jpg",
+        "primary": false,
+        "credit": "by 'Speculando",
+        "license": "CC BY 2.0"
+      }
+    ],
+    "hangul_day": [
+      {
+        "path": "images/KR/hangul_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/KR/hangul_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/KR/hangul_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas": [
+      {
+        "path": "images/christmas/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  }
+}

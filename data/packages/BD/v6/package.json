@@ -1,0 +1,538 @@
+{
+  "countryCode": "BD",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "BD_international_mother_language_day",
+      "countryCode": "BD",
+      "kind": "fixed",
+      "labelKey": "holidays.international_mother_language_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 21
+      }
+    },
+    {
+      "id": "BD_independence_and_national_day",
+      "countryCode": "BD",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_and_national_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 26
+      }
+    },
+    {
+      "id": "BD_bengali_new_year",
+      "countryCode": "BD",
+      "kind": "fixed",
+      "labelKey": "holidays.bengali_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 14
+      }
+    },
+    {
+      "id": "BD_labour_day",
+      "countryCode": "BD",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "BD_july_mass_uprising_day",
+      "countryCode": "BD",
+      "kind": "fixed",
+      "labelKey": "holidays.july_mass_uprising_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 5
+      }
+    },
+    {
+      "id": "BD_victory_day",
+      "countryCode": "BD",
+      "kind": "fixed",
+      "labelKey": "holidays.victory_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 16
+      }
+    },
+    {
+      "id": "BD_christmas_day",
+      "countryCode": "BD",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "international_mother_language_day": "International Mother Language Day",
+        "independence_and_national_day": "Independence and National Day",
+        "bengali_new_year": "Bengali New Year",
+        "july_mass_uprising_day": "July Mass Uprising Day",
+        "victory_day": "Victory Day"
+      },
+      "bn": {
+        "international_mother_language_day": "শহিদ দিবস ও আন্তর্জাতিক মাতৃভাষা দিবস",
+        "independence_and_national_day": "স্বাধীনতা ও জাতীয় দিবস",
+        "bengali_new_year": "নববর্ষ",
+        "july_mass_uprising_day": "জুলাই গণঅভ্যুত্থান দিবস",
+        "victory_day": "বিজয় দিবস"
+      },
+      "de": {
+        "international_mother_language_day": "Internationaler Tag der Muttersprache",
+        "independence_and_national_day": "Unabhängigkeits- und Nationalfeiertag",
+        "bengali_new_year": "Bengalisches Neujahr",
+        "july_mass_uprising_day": "Tag des Massenaufstands im Juli",
+        "victory_day": "Tag des Sieges"
+      },
+      "fr": {
+        "international_mother_language_day": "Journée internationale de la langue maternelle",
+        "independence_and_national_day": "Indépendance et fête nationale",
+        "bengali_new_year": "Nouvel An bengali",
+        "july_mass_uprising_day": "Jour du soulèvement de masse de juillet",
+        "victory_day": "Jour de la Victoire"
+      },
+      "es": {
+        "international_mother_language_day": "Día Internacional de la Lengua Materna",
+        "independence_and_national_day": "Día de la Independencia y Nacional",
+        "bengali_new_year": "Año nuevo bengalí",
+        "july_mass_uprising_day": "Día del levantamiento masivo de julio",
+        "victory_day": "Día de la Victoria"
+      },
+      "pt": {
+        "international_mother_language_day": "Dia Internacional da Língua Materna",
+        "independence_and_national_day": "Independência e Dia Nacional",
+        "bengali_new_year": "Ano Novo Bengali",
+        "july_mass_uprising_day": "Dia da Revolta em Massa de Julho",
+        "victory_day": "Dia da Vitória"
+      },
+      "it": {
+        "international_mother_language_day": "Giornata internazionale della lingua madre",
+        "independence_and_national_day": "Indipendenza e Festa Nazionale",
+        "bengali_new_year": "Capodanno bengalese",
+        "july_mass_uprising_day": "Giorno della rivolta di massa di luglio",
+        "victory_day": "Giorno della Vittoria"
+      },
+      "pl": {
+        "international_mother_language_day": "Międzynarodowy Dzień Języka Ojczystego",
+        "independence_and_national_day": "Święto Niepodległości i Narodowe",
+        "bengali_new_year": "Bengalski Nowy Rok",
+        "july_mass_uprising_day": "Dzień Powstania Masowego Lipcowego",
+        "victory_day": "Dzień Zwycięstwa"
+      },
+      "nl": {
+        "international_mother_language_day": "Internationale Moedertaaldag",
+        "independence_and_national_day": "Onafhankelijkheid en Nationale Dag",
+        "bengali_new_year": "Bengaals nieuwjaar",
+        "july_mass_uprising_day": "Dag van de massale opstand in juli",
+        "victory_day": "Dag van de Overwinning"
+      },
+      "sv": {
+        "international_mother_language_day": "Internationella modersmålsdagen",
+        "independence_and_national_day": "Självständighet och nationaldag",
+        "bengali_new_year": "Bengaliskt nyår",
+        "july_mass_uprising_day": "Massupprorets dag i juli",
+        "victory_day": "Segerdagen"
+      },
+      "ja": {
+        "international_mother_language_day": "国際母語デー",
+        "independence_and_national_day": "独立記念日と建国記念日",
+        "bengali_new_year": "ベンガル語の新年",
+        "july_mass_uprising_day": "7 月大衆蜂起の日",
+        "victory_day": "戦勝記念日"
+      },
+      "ko": {
+        "international_mother_language_day": "국제 모국어의 날",
+        "independence_and_national_day": "독립기념일 및 국경일",
+        "bengali_new_year": "벵골어 새해",
+        "july_mass_uprising_day": "7월 대중 봉기의 날",
+        "victory_day": "승전기념일"
+      },
+      "zh-Hant": {
+        "international_mother_language_day": "國際母語日",
+        "independence_and_national_day": "獨立日與國慶日",
+        "bengali_new_year": "孟加拉新年",
+        "july_mass_uprising_day": "七月群眾起義日",
+        "victory_day": "勝利日"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "labour_day": {
+          "intro": "Der 1. Mai ist in vielen Ländern der „Tag der Arbeit” – ein Feiertag der Arbeiterbewegung mit Demonstrationen, Maibäumen und Frühlingsfesten.",
+          "history": "Am 1. Mai 1886 traten in Chicago hunderttausende Arbeiter für den Acht-Stunden-Tag in den Generalstreik. Die anschließenden Auseinandersetzungen am Haymarket forderten mehrere Tote. 1889 erklärte der Internationale Arbeiterkongress in Paris den 1. Mai zum „Kampftag der Arbeiterbewegung”. In Deutschland wurde er 1933 als „Tag der nationalen Arbeit” zum gesetzlichen Feiertag – nach 1945 als Symbol arbeitnehmerfreundlicher Politik beibehalten.",
+          "traditions": "Gewerkschaften organisieren Kundgebungen und Demonstrationen unter Mottos wie „Mehr Lohn, mehr Freizeit”. In vielen Dörfern wird in der Nacht zum 1. Mai ein Maibaum aufgestellt – im Süden Deutschlands ein bunt geschmückter Stamm, im Norden ein Birkenstamm vor dem Fenster der Liebsten. Beliebte Aktivitäten: Mai-Wanderungen, Grillen und Familienfeste.",
+          "funFacts": [
+            "Der höchste Maibaum Bayerns wurde 2017 in Mitterfels mit über 50 m aufgestellt.",
+            "In Frankreich verschenkt man am 1. Mai Maiglöckchen („muguet”) – ein Brauch, den König Karl IX. 1561 einführte.",
+            "Im Rheinland werden in der Mai-Nacht „Liebesmaien” – geschmückte Birken – vor das Haus der Angebeteten gestellt.",
+            "Der 1. Mai ist offizieller Feiertag in über 80 Ländern – in den USA und Kanada feiert man Labor Day jedoch erst im September."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
+          "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
+          "traditions": "Familien versammeln sich zu festlichen Mahlzeiten – Truthahn, Gans, Karpfen oder Raclette. Geschenke werden ausgetauscht, Weihnachtslieder gesungen, viele besuchen den Festgottesdienst. Der geschmückte Christbaum mit Lichterketten, Kugeln und Strohsternen ist das zentrale Symbol. Adventskalender, Plätzchen und der Besuch von Weihnachtsmärkten gehören zur Vorbereitung.",
+          "funFacts": [
+            "Der erste kommerzielle Adventskalender erschien 1908 in München – Erfinder war Gerhard Lang.",
+            "Die Weihnachtsmärkte in Dresden („Striezelmarkt”, seit 1434) und Frankfurt (seit 1393) gehören zu den ältesten der Welt.",
+            "Norwegen schenkt Großbritannien seit 1947 jährlich einen riesigen Weihnachtsbaum für den Trafalgar Square – als Dank für die Hilfe im Zweiten Weltkrieg.",
+            "Die Weihnachtsfilm-Klassiker „Drei Haselnüsse für Aschenbrödel” und „Tatsächlich… Liebe” laufen weltweit jedes Jahr Dutzende Male im TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "labour_day": {
+          "intro": "May 1st is in many countries ‘Labour Day' — a holiday of the workers' movement with demonstrations, maypoles and spring fairs.",
+          "history": "On May 1st, 1886, hundreds of thousands of workers in Chicago went on a general strike for the eight-hour workday. The ensuing clashes at Haymarket killed several. In 1889 the International Workers' Congress in Paris declared May 1st the ‘international day of struggle for workers'. In Germany it became a legal holiday in 1933 as ‘Day of National Labour' and was kept after 1945 as a symbol of worker-friendly politics.",
+          "traditions": "Trade unions stage rallies and marches under slogans such as ‘More pay, more time off'. In many villages a maypole is raised on the night before May 1st — in southern Germany an ornately painted trunk, in the north a birch in front of a sweetheart's window. Popular activities: May hikes, barbecues and family festivals.",
+          "funFacts": [
+            "Bavaria's tallest maypole was raised in Mitterfels in 2017 at over 50 m.",
+            "In France people give lily-of-the-valley (‘muguet') on May 1st — a custom King Charles IX introduced in 1561.",
+            "In the Rhineland a ‘love May' — a decorated birch — is placed in front of the home of a sweetheart on May Eve.",
+            "May 1st is an official holiday in over 80 countries — but in the U.S. and Canada Labor Day falls in September."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
+          "history": "December 25th is documented as ‘dies natalis Christi' as early as 354 in a Roman calendar. The Church likely chose the date to give the Roman ‘Sol Invictus' winter solstice festival a Christian meaning. Gift-giving has its roots in the gifts of the Magi. The familiar Santa Claus with red coat and white beard is a mix of Saint Nicholas and a 1931 Coca-Cola advertising campaign.",
+          "traditions": "Families gather for festive meals — turkey, goose, carp or raclette. Gifts are exchanged, carols sung, many attend the festive service. The decorated Christmas tree with lights, ornaments and straw stars is the central symbol. Advent calendars, cookies and visits to Christmas markets are part of the run-up.",
+          "funFacts": [
+            "The first commercial Advent calendar appeared in 1908 in Munich — invented by Gerhard Lang.",
+            "The Christmas markets in Dresden (‘Striezelmarkt', since 1434) and Frankfurt (since 1393) are among the oldest in the world.",
+            "Norway has gifted the UK a giant Christmas tree for Trafalgar Square every year since 1947 — as thanks for help during World War II.",
+            "Holiday classics like ‘Three Wishes for Cinderella' and ‘Love Actually' run dozens of times on TV worldwide every year."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "labour_day": {
+          "intro": "Le 1er mai est dans bien des pays la ‘Fête du Travail' — fête du mouvement ouvrier avec manifestations, mâts de mai et fêtes printanières.",
+          "history": "Le 1er mai 1886, des centaines de milliers de travailleurs de Chicago entrèrent en grève générale pour la journée de huit heures. Les heurts qui suivirent à Haymarket firent plusieurs morts. En 1889, le Congrès international des travailleurs à Paris déclara le 1er mai ‘journée de lutte du mouvement ouvrier'. En France, le 1er mai devient jour chômé en 1947, et c'est aussi le jour où l'on offre du muguet, tradition royale depuis Charles IX en 1561.",
+          "traditions": "Les syndicats organisent meetings et défilés sous des slogans comme ‘Plus de salaire, plus de temps libre'. En France, on s'offre des brins de muguet, porte-bonheur. Dans de nombreux villages allemands, on dresse un mât de mai dans la nuit du 1er. Randonnées, barbecues et fêtes familiales sont au programme.",
+          "funFacts": [
+            "Le mât de mai le plus haut de Bavière a été dressé en 2017 à Mitterfels avec plus de 50 m.",
+            "En France, on offre du muguet le 1er mai — coutume introduite par Charles IX en 1561.",
+            "En Rhénanie, on plante des bouleaux décorés (‘Liebesmaien') devant la maison de la bien-aimée à la nuit du 1er mai.",
+            "Le 1er mai est jour férié dans plus de 80 pays — mais aux États-Unis et au Canada, le ‘Labor Day' tombe en septembre."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
+          "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
+          "traditions": "Les familles se rassemblent autour de repas festifs — dinde, oie, carpe ou raclette. On échange des cadeaux, chante des cantiques, beaucoup assistent à la messe festive. Le sapin décoré de lumières, boules et étoiles de paille est le symbole central. Calendrier de l'avent, biscuits et marchés de Noël jalonnent la préparation.",
+          "funFacts": [
+            "Le premier calendrier de l'avent commercial parut en 1908 à Munich — invention de Gerhard Lang.",
+            "Les marchés de Noël de Dresde (‘Striezelmarkt', depuis 1434) et de Francfort (depuis 1393) figurent parmi les plus anciens du monde.",
+            "La Norvège offre chaque année au Royaume-Uni un immense sapin pour Trafalgar Square depuis 1947 — en remerciement de l'aide pendant la Seconde Guerre mondiale.",
+            "Les classiques de Noël comme ‘Trois noisettes pour Cendrillon' ou ‘Love Actually' sont diffusés des dizaines de fois à la télé chaque année."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "labour_day": {
+          "intro": "El 1 de mayo es en muchos países el ‘Día del Trabajador' — fiesta del movimiento obrero con manifestaciones, mayos y celebraciones primaverales.",
+          "history": "El 1 de mayo de 1886, cientos de miles de trabajadores en Chicago se declararon en huelga general por la jornada de ocho horas. Los choques posteriores en Haymarket dejaron varios muertos. En 1889 el Congreso Internacional de Trabajadores de París lo declaró ‘día de lucha del movimiento obrero'. En Alemania pasó a ser festivo legal en 1933 como ‘Día Nacional del Trabajo' y se mantuvo tras 1945 como símbolo de política favorable a los trabajadores.",
+          "traditions": "Los sindicatos organizan mítines y manifestaciones bajo lemas como ‘Más sueldo, más tiempo libre'. En muchas aldeas alemanas se planta un mayo en la noche del 1 de mayo — en el sur, un tronco coloridamente decorado; en el norte, un abedul ante la ventana de la amada. Caminatas de mayo, barbacoas y fiestas familiares son populares.",
+          "funFacts": [
+            "El mayo más alto de Baviera fue erigido en Mitterfels en 2017 con más de 50 m.",
+            "En Francia se regala muguete (‘muguet') el 1 de mayo — costumbre que el rey Carlos IX introdujo en 1561.",
+            "En Renania, en la Noche de Mayo se ponen abedules decorados (‘Liebesmaien') ante la casa de la enamorada.",
+            "El 1 de mayo es festivo en más de 80 países — pero en EE. UU. y Canadá el ‘Labor Day' se celebra en septiembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 vía Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
+          "history": "Ya en el año 354 un calendario romano consigna el 25 de diciembre como ‘dies natalis Christi'. Probablemente la Iglesia eligió la fecha para reinterpretar cristianamente el ‘Sol Invictus' romano. El intercambio de regalos arraiga en los obsequios de los Magos. El moderno Papá Noel con abrigo rojo y barba blanca es una mezcla de San Nicolás con una campaña publicitaria de Coca-Cola de 1931.",
+          "traditions": "Las familias se reúnen para comidas festivas — pavo, ganso, carpa o raclette. Se intercambian regalos, se cantan villancicos y muchos asisten al servicio festivo. El árbol decorado con luces y bolas es el símbolo central. El calendario de Adviento, las galletas y los mercadillos forman parte de la preparación.",
+          "funFacts": [
+            "El primer calendario de Adviento comercial apareció en 1908 en Múnich — invento de Gerhard Lang.",
+            "Los mercadillos navideños de Dresde (‘Striezelmarkt', desde 1434) y Fráncfort (desde 1393) son de los más antiguos del mundo.",
+            "Noruega regala al Reino Unido un enorme árbol de Navidad para Trafalgar Square cada año desde 1947 — agradecimiento por la ayuda en la Segunda Guerra Mundial.",
+            "Los clásicos como ‘Tres Avellanas para Cenicienta' o ‘Love Actually' se emiten decenas de veces cada año en TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "labour_day": {
+          "intro": "1 de maio é em muitos países o ‘Dia do Trabalhador' — feriado do movimento operário com manifestações, festas de maio e celebrações primaveris. Em Portugal, é feriado nacional desde 1974.",
+          "history": "A 1 de maio de 1886, centenas de milhares de trabalhadores em Chicago entraram em greve geral pela jornada de oito horas. Os confrontos seguintes em Haymarket fizeram vários mortos. Em 1889, o Congresso Internacional dos Trabalhadores em Paris declarou o 1 de maio ‘dia de luta do movimento operário'. Em Portugal, foi assinalado clandestinamente durante o Estado Novo e tornou-se feriado oficial logo após a Revolução de 25 de Abril de 1974.",
+          "traditions": "Os sindicatos organizam comícios e desfiles com lemas como ‘Mais salário, mais tempo livre'. Em Portugal, a CGTP organiza um grande desfile no Porto e em Lisboa, com milhares de manifestantes. Muitas famílias aproveitam o feriado para piqueniques, churrascos e idas à praia.",
+          "funFacts": [
+            "Em Portugal, o 1.º de Maio de 1974 — apenas 6 dias após a Revolução dos Cravos — foi um dos primeiros grandes ajuntamentos populares livres em décadas.",
+            "Em França, oferece-se muguete (‘muguet') no 1.º de Maio — costume introduzido pelo rei Carlos IX em 1561.",
+            "Na Renânia, na noite de 1.º de Maio, colocam-se vidoeiros decorados (‘Liebesmaien') diante da casa da amada.",
+            "O 1.º de Maio é feriado em mais de 80 países — mas nos EUA e Canadá o ‘Labor Day' é em setembro."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
+          "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
+          "traditions": "As famílias reúnem-se em refeições festivas — peru, ganso, bacalhau ou raclette nos países germânicos; em Portugal, o típico almoço de Natal com peru ou cabrito assado, e as sobremesas de bolo-rei, sonhos, rabanadas, aletria e arroz-doce. Trocam-se presentes, cantam-se cânticos, muitos vão à missa festiva. A árvore decorada e o presépio são símbolos centrais.",
+          "funFacts": [
+            "O primeiro calendário do Advento comercial apareceu em 1908 em Munique — invenção de Gerhard Lang.",
+            "Os mercados de Natal de Dresden (‘Striezelmarkt', desde 1434) e Frankfurt (desde 1393) estão entre os mais antigos do mundo.",
+            "A Noruega oferece ao Reino Unido um enorme abeto para Trafalgar Square todos os anos desde 1947 — em agradecimento pela ajuda na II Guerra.",
+            "Em Portugal, a tradição do bolo-rei remonta ao século XIX, importado da pastelaria francesa."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "labour_day": {
+          "intro": "Il 1° maggio è in molti paesi la ‘Festa dei Lavoratori' — festa del movimento operaio con manifestazioni, alberi di maggio e feste primaverili.",
+          "history": "Il 1° maggio 1886 centinaia di migliaia di lavoratori a Chicago entrarono in sciopero generale per la giornata di otto ore. Gli scontri di Haymarket fecero diversi morti. Nel 1889 il Congresso Internazionale dei Lavoratori a Parigi proclamò il 1° maggio ‘giornata di lotta del movimento operaio'. In Italia la festa è abolita nel 1923 dal regime fascista e ripristinata nel 1947. Il celebre ‘Concertone' di piazza San Giovanni a Roma è una tradizione dal 1990.",
+          "traditions": "I sindacati organizzano cortei e manifestazioni con slogan come ‘Più salario, più tempo libero'. In Italia il ‘Concertone' del 1° maggio a Roma riunisce centinaia di migliaia di persone in piazza San Giovanni. Famiglie organizzano gite, picnic e grigliate.",
+          "funFacts": [
+            "Il ‘Concertone' di Roma del 1° maggio dal 1990 raduna centinaia di migliaia di spettatori.",
+            "In Francia il 1° maggio si regalano mughetti (‘muguet') — tradizione che il re Carlo IX introdusse nel 1561.",
+            "In Renania nella notte del 1° maggio si pongono betulle decorate (‘Liebesmaien') davanti alla casa dell'amata.",
+            "Il 1° maggio è festivo in oltre 80 paesi — ma in USA e Canada il ‘Labor Day' è in settembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
+          "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
+          "traditions": "Le famiglie si riuniscono per pasti festosi — tacchino, oca, carpa o raclette al nord; pranzo natalizio con tortellini in brodo, lasagne, capponi e panettone in Italia. Si scambiano regali, si cantano canti natalizi, molti partecipano alla messa festiva. L'albero decorato e il presepe sono i simboli centrali. Calendario dell'Avvento, biscotti e mercatini scandiscono la preparazione.",
+          "funFacts": [
+            "Il primo calendario dell'Avvento commerciale apparve nel 1908 a Monaco — invenzione di Gerhard Lang.",
+            "I mercatini di Natale di Dresda (‘Striezelmarkt', dal 1434) e Francoforte (dal 1393) sono tra i più antichi al mondo.",
+            "La Norvegia regala al Regno Unito un enorme albero di Natale per Trafalgar Square ogni anno dal 1947 — come ringraziamento per l'aiuto nella Seconda Guerra Mondiale.",
+            "Il panettone milanese e il pandoro veronese sono i due dolci natalizi italiani per eccellenza."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "labour_day": {
+          "intro": "1 maja jest w wielu krajach Świętem Pracy — świętem ruchu robotniczego z manifestacjami, majowymi uroczystościami i wiosennymi festynami. W Polsce dzień wolny od pracy.",
+          "history": "1 maja 1886 roku setki tysięcy robotników w Chicago weszło w strajk generalny domagając się ośmiogodzinnego dnia pracy. Następujące starcia na Haymarket pochłonęły kilka ofiar. W 1889 roku Międzynarodowy Kongres Robotniczy w Paryżu ogłosił 1 maja ‘dniem walki ruchu robotniczego'. W Polsce święto wprowadzono oficjalnie w 1950 roku, choć obchody były już wcześniej. Po 1989 roku zachowane jako symbol pracowniczy.",
+          "traditions": "W Polsce 1 maja to popularny dzień na pierwsze grillowanie i majowe wycieczki. Związki zawodowe organizują wiece i pochody. Wraz z 2 maja (Dzień Flagi) i 3 maja (Konstytucja) tworzy słynne ‘majówki' — najważniejszy długi weekend wiosenny w Polsce, kiedy wielu wyjeżdża nad morze, w góry lub na działkę.",
+          "funFacts": [
+            "‘Majówka' to jeden z najbardziej intensywnych weekendów turystycznych w Polsce — wiele osób ucieka z miast na wieś.",
+            "We Francji 1 maja wręcza się konwalie (‘muguet') — zwyczaj wprowadzony przez króla Karola IX w 1561 roku.",
+            "1 maja jest świętem urzędowym w ponad 80 krajach — ale w USA i Kanadzie ‘Labor Day' obchodzi się we wrześniu.",
+            "Najwyższy maj w Bawarii postawiono w Mitterfels w 2017 roku — miał ponad 50 m."
+          ],
+          "imageCredit": "Zdjęcie: Joe Piette · CC BY-SA 2.0 przez Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
+          "history": "Już w 354 roku 25 grudnia odnotowany jest jako ‘dies natalis Christi' w rzymskim kalendarzu. Kościół wybrał tę datę prawdopodobnie po to, by chrześcijańsko zinterpretować rzymskie święto ‘Sol Invictus'. Tradycja prezentów ma korzenie w darach Trzech Mędrców. Współczesny Święty Mikołaj w czerwonym płaszczu i z białą brodą to mieszanka św. Mikołaja i kampanii reklamowej Coca-Coli z 1931 roku.",
+          "traditions": "W Polsce Boże Narodzenie obchodzi się przez dwa dni (25 i 26 grudnia). Rodziny zbierają się na obfitym obiedzie — często rosół z makaronem, schab, indyk, sałatka jarzynowa, makowiec, sernik. Wymienia się prezenty (w Polsce zwykle wręczane już w Wigilię), śpiewa kolędy, wielu uczestniczy w nabożeństwach. Choinka i szopka są centralnymi symbolami.",
+          "funFacts": [
+            "Pierwszy komercyjny kalendarz adwentowy ukazał się w 1908 roku w Monachium — wynalazek Gerharda Langa.",
+            "Polskie kolędy — m.in. ‘Wśród nocnej ciszy', ‘Bóg się rodzi', ‘Lulajże, Jezuniu' — uchodzą za jedne z najpiękniejszych na świecie.",
+            "Norwegia podarowuje Wielkiej Brytanii corocznie od 1947 roku ogromną choinkę na Trafalgar Square — w podzięce za pomoc w II wojnie światowej.",
+            "Tradycja choinki dotarła do Polski z Niemiec na początku XIX wieku, a powszechna stała się po 1830 roku."
+          ],
+          "imageCredit": "Zdjęcie: Chris Olszewski · CC BY-SA 4.0 przez Wikimedia Commons"
+        }
+      },
+      "nl": {
+        "labour_day": {
+          "intro": "1 mei is in veel landen ‘Dag van de Arbeid’ — een feestdag van de arbeidersbeweging met demonstraties, meibomen en lentefeesten.",
+          "history": "Op 1 mei 1886 gingen honderdduizenden arbeiders in Chicago in algemene staking voor de achturige werkdag. Bij de daaropvolgende confrontaties op Haymarket kwamen meerdere mensen om het leven. In 1889 riep het Internationale Arbeiderscongres in Parijs 1 mei uit tot de ‘internationale dag van de strijd voor de arbeiders’. In Duitsland werd deze dag in 1933 een wettelijke feestdag onder de naam ‘Nationale Dag van de Arbeid’ en werd na 1945 gehandhaafd als symbool van een arbeidersvriendelijk beleid.",
+          "traditions": "Vakbonden organiseren bijeenkomsten en optochten onder leuzen als ‘Meer loon, meer vrije tijd’. In veel dorpen wordt in de nacht voor 1 mei een meiboom opgericht — in Zuid-Duitsland een rijkelijk beschilderde boomstam, in het noorden een berkenboom voor het raam van de geliefde. Populaire activiteiten: meewandelingen, barbecues en familiefeesten.",
+          "funFacts": [
+            "De hoogste meiboom van Beieren werd in 2017 in Mitterfels opgericht en was meer dan 50 m hoog.",
+            "In Frankrijk geven mensen op 1 mei lelietjes-van-dalen (‘muguet’) cadeau — een gebruik dat koning Karel IX in 1561 heeft ingevoerd.",
+            "In het Rijnland wordt op de avond van 1 mei een ‘liefdesmei’ — een versierde berk — voor het huis van de geliefde geplaatst.",
+            "1 mei is een officiële feestdag in meer dan 80 landen — maar in de VS en Canada valt Labor Day in september."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Kerstmis op 25 december is het belangrijkste christelijke feest — ter ere van de geboorte van Jezus Christus — en wereldwijd een feest van familie, vrede en cadeautjes.",
+          "history": "Al in 354 wordt 25 december in een Romeinse kalender vermeld als ‘dies natalis Christi’. De Kerk heeft deze datum waarschijnlijk gekozen om het Romeinse winterzonnewendefeest ‘Sol Invictus’ een christelijke betekenis te geven. Het geven van cadeaus vindt zijn oorsprong in de geschenken van de drie koningen. De bekende kerstman met rode jas en witte baard is een mengeling van Sint Nicolaas en een reclamecampagne van Coca-Cola uit 1931.",
+          "traditions": "Gezinnen komen samen voor feestelijke maaltijden — kalkoen, gans, karper of raclette. Er worden cadeautjes uitgewisseld, kerstliederen gezongen en velen wonen de feestelijke kerkdienst bij. De versierde kerstboom met lichtjes, kerstballen en stro-sterren vormt het centrale symbool. Adventskalenders, koekjes en bezoekjes aan kerstmarkten horen bij de aanloop naar Kerstmis.",
+          "funFacts": [
+            "De eerste commerciële adventskalender verscheen in 1908 in München — uitgevonden door Gerhard Lang.",
+            "De kerstmarkten in Dresden (‘Striezelmarkt’, sinds 1434) en Frankfurt (sinds 1393) behoren tot de oudste ter wereld.",
+            "Noorwegen schenkt het Verenigd Koninkrijk al sinds 1947 elk jaar een reusachtige kerstboom voor Trafalgar Square — als dank voor de hulp tijdens de Tweede Wereldoorlog.",
+            "Kerstklassiekers als ‘Three Wishes for Cinderella’ en ‘Love Actually’ worden elk jaar wereldwijd tientallen keren op tv uitgezonden."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "sv": {
+        "labour_day": {
+          "intro": "Den 1 maj är i många länder ”Arbetarnas dag” – en helgdag inom arbetarrörelsen med demonstrationer, majstänger och vårmarknader.",
+          "history": "Den 1 maj 1886 gick hundratusentals arbetare i Chicago ut i en generalstrejk för att kräva en åtta timmars arbetsdag. De efterföljande sammandrabbningarna vid Haymarket ledde till att flera människor omkom. År 1889 utropade den internationella arbetarkongressen i Paris den 1 maj till den ”internationella kampdagen för arbetarna”. I Tyskland blev dagen en lagstadgad helgdag 1933 som ”Nationella arbetardagen” och behölls efter 1945 som en symbol för arbetarvänlig politik.",
+          "traditions": "Fackföreningarna anordnar demonstrationer och marscher under paroller som ”Högre lön, mer ledighet”. I många byar reses en majstång natten före den 1 maj – i södra Tyskland en rikt utsmyckad stam, i norr en björk framför flickvännens fönster. Populära aktiviteter: majvandringar, grillfester och familjefester.",
+          "funFacts": [
+            "Bayerns högsta majstång restes i Mitterfels år 2017 och är över 50 m hög.",
+            "I Frankrike brukar man ge bort liljekonvaljer (”muguet”) den 1 maj – en tradition som kung Karl IX införde år 1561.",
+            "I Rhenlandet ställs en ”kärleksmaj” – en pyntad björk – framför den älskades hem på majkvällen.",
+            "Den 1 maj är en officiell helgdag i över 80 länder – men i USA och Kanada infaller Labor Day i september."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Juldagen den 25 december är kristendomens viktigaste högtid – då man firar Jesus Kristus födelse – och över hela världen en högtid som präglas av familj, fred och gåvor.",
+          "history": "Den 25 december omnämns som ”dies natalis Christi” redan år 354 i en romersk kalender. Kyrkan valde troligen detta datum för att ge den romerska vintersolståndsfesten ”Sol Invictus” en kristen innebörd. Traditionen att ge gåvor har sina rötter i de tre vise männens gåvor. Den välkände jultomten med röd kappa och vitt skägg är en blandning av Sankt Nikolaus och en reklamkampanj från Coca-Cola från 1931.",
+          "traditions": "Familjerna samlas för festmåltider – kalkon, gås, karp eller raclette. Man utbyter julklappar, sjunger julsånger och många deltar i julgudstjänsten. Den pyntade julgranen med ljus, julgranspynt och halmstjärnor är den centrala symbolen. Adventskalendrar, pepparkakor och besök på julmarknader är en del av förberedelserna inför julen.",
+          "funFacts": [
+            "Den första kommersiella adventskalendern kom ut 1908 i München – uppfunnen av Gerhard Lang.",
+            "Julmarknaderna i Dresden (”Striezelmarkt”, sedan 1434) och Frankfurt (sedan 1393) hör till de äldsta i världen.",
+            "Norge har varje år sedan 1947 skänkt Storbritannien en gigantisk julgran till Trafalgar Square – som tack för hjälpen under andra världskriget.",
+            "Julklassiker som ”Three Wishes for Cinderella” och ”Love Actually” visas dussintals gånger på TV världen över varje år."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "ja": {
+        "labour_day": {
+          "intro": "5月1日は多くの国で「メーデー」として祝われ、労働者運動に由来する祝日であり、デモ行進やメイポール、春の祭りが行われます。",
+          "history": "1886年5月1日、シカゴの数十万人の労働者が、8時間労働制を求めてゼネストに突入した。その後、ヘイマーケットで発生した衝突により、数名が死亡した。1889年、パリで開催された国際労働者会議は、5月1日を「労働者のための国際闘争の日」と宣言した。 ドイツでは、1933年に「国民労働の日」として法定休日となり、1945年以降も労働者重視の政治の象徴として維持された。",
+          "traditions": "労働組合は、「賃上げ、休暇増」といったスローガンを掲げて集会やデモ行進を行う。 多くの村では、5月1日の前夜にメイポールが立てられる。南ドイツでは華やかに彩られた丸太が、北ドイツでは恋人の窓の前に白樺が立てられる。人気の行事としては、5月のハイキング、バーベキュー、家族向けのお祭りなどがある。",
+          "funFacts": [
+            "2017年、ミッターフェルスでバイエルン州で最も高いメイポール（高さ50メートル以上）が立てられた。",
+            "フランスでは、5月1日にスズラン（「ミュゲ」）を贈る習慣がある。これは1561年にシャルル9世が導入した風習である。",
+            "ラインラント地方では、5月の前夜に、恋人の家の前に「愛の5月」――飾り付けられた白樺――が置かれる。",
+            "5月1日は80カ国以上で公休日となっていますが、米国とカナダでは「労働者の日」は9月に祝われます。"
+          ],
+          "imageCredit": "写真：Joe Piette · CC BY-SA 2.0（ウィキメディア・コモンズ経由）"
+        },
+        "christmas": {
+          "intro": "12月25日のクリスマスは、キリスト教において最も重要な祭日であり、イエス・キリストの誕生を祝うもので、世界中で家族、平和、そして贈り物を祝う祭りとなっています。",
+          "history": "12月25日は、早くも354年のローマ暦において「dies natalis Christi（キリストの誕生日）」として記録されている。教会がこの日付を選んだのは、ローマの冬至祭「ソル・インヴィクトゥス」にキリスト教的な意味を持たせるためだったと考えられる。 贈り物の習慣は、東方の三博士が持参した贈り物にその起源があります。赤いコートに白いひげというお馴染みのサンタクロースは、聖ニコラウスと1931年のコカ・コーラの広告キャンペーンが融合した姿です。",
+          "traditions": "家族が集まり、七面鳥やガチョウ、鯉、あるいはラクレットといったお祝いの食事を楽しみます。贈り物を交換し、クリスマスキャロルを歌い、多くの人がクリスマス礼拝に出席します。ライトやオーナメント、わらの星で飾られたクリスマスツリーが、その中心的なシンボルです。アドベントカレンダーやクッキー、クリスマスマーケットへの訪問も、クリスマスに向けた準備の一環です。",
+          "funFacts": [
+            "最初の市販のアドベントカレンダーは、1908年にミュンヘンで登場しました。これはゲルハルト・ラングによって考案されたものです。",
+            "ドレスデン（「シュトリーツェルマルクト」、1434年より）とフランクフルト（1393年より）のクリスマスマーケットは、世界でも最も古いものの一つに数えられます。",
+            "ノルウェーは、第二次世界大戦中の支援への感謝の印として、1947年以来毎年、トラファルガー広場に飾る巨大なクリスマスツリーを英国に贈呈している。",
+            "『シンデレラの3つの願い』や『ラブ・アクチュアリー』といったホリデーシーズンの定番作品は、毎年世界中のテレビで数十回も放送されている。"
+          ],
+          "imageCredit": "写真：クリス・オルシェフスキー · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        }
+      },
+      "ko": {
+        "labour_day": {
+          "intro": "5월 1일은 많은 나라에서 ‘노동절’로, 시위와 메이폴 행사, 봄 축제가 열리는 노동 운동의 기념일입니다.",
+          "history": "1886년 5월 1일, 시카고의 수십만 명의 노동자들이 8시간 노동제를 요구하며 총파업을 벌였습니다. 이후 헤이마켓에서 발생한 충돌로 여러 명이 사망했습니다. 1889년 파리에서 열린 국제노동자대회는 5월 1일을 ‘노동자를 위한 국제 투쟁의 날’로 선포했습니다. 독일에서는 1933년에 ‘국가 노동의 날’로 법정 공휴일이 되었으며, 1945년 이후에도 노동자 친화적 정책의 상징으로 유지되었다.",
+          "traditions": "노동조합들은 ‘임금 인상, 휴가 확대’와 같은 구호를 내걸고 집회와 행진을 벌입니다. 많은 마을에서는 5월 1일 전날 밤 메이폴을 세웁니다. 독일 남부에서는 화려하게 칠해진 나무 줄기를, 북부에서는 연인의 창문 앞에 자작나무를 세웁니다. 인기 있는 활동으로는 5월 하이킹, 바비큐, 가족 축제 등이 있습니다.",
+          "funFacts": [
+            "2017년 미터펠스에서 바이에른 주에서 가장 높은 50m가 넘는 메이폴이 세워졌다.",
+            "프랑스에서는 5월 1일에 은방울꽃(‘muguet’)을 선물하는 풍습이 있는데, 이는 1561년 샤를 9세 왕이 도입한 관습이다.",
+            "라인란트 지방에서는 5월 전야에 ‘사랑의 5월’이라 불리는 장식된 자작나무를 연인의 집 앞에 놓습니다.",
+            "5월 1일은 80여 개국에서 공휴일이지만, 미국과 캐나다에서는 노동절이 9월에 있습니다."
+          ],
+          "imageCredit": "사진: Joe Piette · CC BY-SA 2.0 (위키미디어 공용 제공)"
+        },
+        "christmas": {
+          "intro": "12월 25일의 크리스마스는 예수 그리스도의 탄생을 기념하는 기독교에서 가장 중요한 명절이며, 전 세계적으로 가족, 평화, 선물을 나누는 축제입니다.",
+          "history": "12월 25일은 빠르면 354년 로마 달력에서 ‘dies natalis Christi’로 기록되어 있다. 교회는 로마의 동지 축제인 ‘솔 인빅투스(Sol Invictus)’에 기독교적 의미를 부여하기 위해 이 날짜를 선택한 것으로 보인다. 선물 교환의 기원은 동방박사들이 가져온 선물에서 비롯됩니다. 빨간 옷과 흰 수염을 한 우리에게 친숙한 산타클로스는 성 니콜라스와 1931년 코카콜라 광고 캠페인이 결합된 모습입니다.",
+          "traditions": "가족들은 칠면조, 거위, 잉어, 라클렛 등 명절 음식을 함께 즐기기 위해 모입니다. 선물을 주고받고, 캐럴을 부르며, 많은 이들이 성탄 예배에 참석합니다. 불빛과 장식품, 짚으로 만든 별이 장식된 크리스마스 트리는 이 시기의 중심적인 상징입니다. 대림 달력, 쿠키, 크리스마스 마켓 방문 등은 성탄절을 앞둔 기간의 풍경입니다.",
+          "funFacts": [
+            "최초의 상업용 어드벤트 캘린더는 1908년 뮌헨에서 등장했는데, 게르하르트 랑이 발명했다.",
+            "드레스덴(‘스트리첼마르크트’, 1434년부터)과 프랑크푸르트(1393년부터)의 크리스마스 시장은 세계에서 가장 오래된 시장 중 하나입니다.",
+            "노르웨이는 제2차 세계대전 당시 영국이 제공한 도움에 대한 감사의 표시로, 1947년부터 매년 트라팔가 광장에 세울 거대한 크리스마스 트리를 영국에 기증해 왔다.",
+            "‘신데렐라의 세 가지 소원’이나 ‘러브 액츄얼리’와 같은 명절 명작 영화들은 매년 전 세계 TV에서 수십 차례 방영된다."
+          ],
+          "imageCredit": "사진: 크리스 올셰프스키 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        }
+      },
+      "zh-Hant": {
+        "labour_day": {
+          "intro": "5月1日是許多國家的「勞動節」——這是工人運動的節日，期間會舉行遊行、豎立五月柱以及舉辦春季市集。",
+          "history": "1886年5月1日，芝加哥數十萬名工人為爭取八小時工作制發起總罷工。隨後在海市集（Haymarket）爆發的衝突造成數人死亡。1889年，在巴黎舉行的國際工人大會宣布5月1日為「國際工人鬥爭日」。 在德國，該日於1933年被定為法定假日，名為「國家勞動日」，並在1945年後得以保留，作為親勞工政策的象徵。",
+          "traditions": "工會以「加薪、增加休假」等口號為號召，舉辦集會和遊行。 在許多村莊，人們會在5月1日的前一晚豎起五月柱——在德國南部，是一根彩繪精美的樹幹；在北部，則是在心上人窗前豎起一棵樺樹。熱門活動包括：五月健行、烤肉聚會和家庭節慶。",
+          "funFacts": [
+            "巴伐利亞州最高的五月柱於2017年在米特費爾斯豎立，高度超過50公尺。",
+            "在法國，人們會在5月1日互贈鈴蘭（「muguet」）——這是查理九世國王於1561年所創立的習俗。",
+            "在萊茵蘭地區，人們會在五月前夕將一棵裝飾過的樺樹——即「愛情五月樹」——擺放在心上人的家門前。",
+            "5月1日是80多個國家的法定假日——但在美國和加拿大，勞動節則在9月。"
+          ],
+          "imageCredit": "照片：Joe Piette · 經維基共享資源提供，採用 CC BY-SA 2.0 授權"
+        },
+        "christmas": {
+          "intro": "12月25日的聖誕節是基督教最重要的節日——慶祝耶穌基督的誕生——也是全球各地以家庭、和平與禮物為主題的節日。",
+          "history": "早在354年，羅馬曆法中便已將12月25日記載為「dies natalis Christi」。教會選擇這個日期，很可能是為了賦予羅馬「不敗之太陽」（Sol Invictus）冬至節慶以基督教的意義。 互贈禮物的習俗源於東方三博士所獻的禮物。大家熟悉的紅衣白鬍子聖誕老人，是聖尼古拉斯與1931年可口可樂廣告活動的融合產物。",
+          "traditions": "家人們齊聚一堂享用節日大餐——火雞、鵝肉、鯉魚或拉克雷特起司。大家互贈禮物、齊唱聖誕頌歌，許多人還會參加節日禮拜。那棵裝飾著燈飾、掛飾和稻草星星的聖誕樹，正是節日的核心象徵。降臨節倒數日曆、聖誕餅乾以及逛聖誕市集，都是節日前夕的傳統活動。",
+          "funFacts": [
+            "第一款商業化的降臨節日曆於1908年在慕尼黑問世——由格哈德·朗發明。",
+            "德累斯頓（「Striezelmarkt」，自1434年起）和法蘭克福（自1393年起）的聖誕市集，均屬世界上歷史最悠久的聖誕市集之一。",
+            "自1947年起，挪威每年都會贈送一棵巨型聖誕樹給英國，供特拉法加廣場擺放——以此感謝英國在第二次世界大戰期間提供的援助。",
+            "像《灰姑娘的三個願望》和《真愛至上》這類節日經典電影，每年在全球各地的電視上都會播出數十次。"
+          ],
+          "imageCredit": "照片：克里斯·奧爾謝夫斯基 · 經維基共享資源提供，採用 CC BY-SA 4.0 授權"
+        }
+      }
+    }
+  },
+  "images": {
+    "labour_day": [
+      {
+        "path": "images/labour_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas": [
+      {
+        "path": "images/christmas/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 6
+}

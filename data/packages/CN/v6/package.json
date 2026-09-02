@@ -1,0 +1,547 @@
+{
+  "countryCode": "CN",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "CN_new_years_day",
+      "countryCode": "CN",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "CN_chinese_new_year_spring_festival",
+      "countryCode": "CN",
+      "kind": "precomputed",
+      "labelKey": "holidays.chinese_new_year_spring_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-17",
+          "2027": "02-06",
+          "2028": "01-26",
+          "2029": "02-13",
+          "2030": "02-03",
+          "2031": "01-23",
+          "2032": "02-11",
+          "2033": "01-31",
+          "2034": "02-19",
+          "2035": "02-08"
+        }
+      }
+    },
+    {
+      "id": "CN_labour_day",
+      "countryCode": "CN",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "CN_dragon_boat_festival",
+      "countryCode": "CN",
+      "kind": "precomputed",
+      "labelKey": "holidays.dragon_boat_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "06-19",
+          "2027": "06-09",
+          "2028": "05-28",
+          "2029": "06-16",
+          "2030": "06-05",
+          "2031": "06-24",
+          "2032": "06-12",
+          "2033": "06-01",
+          "2034": "06-20",
+          "2035": "06-10"
+        }
+      }
+    },
+    {
+      "id": "CN_mid_autumn_festival",
+      "countryCode": "CN",
+      "kind": "precomputed",
+      "labelKey": "holidays.mid_autumn_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-25",
+          "2027": "09-15",
+          "2028": "10-03",
+          "2029": "09-22",
+          "2030": "09-12",
+          "2031": "10-01",
+          "2032": "09-19",
+          "2033": "09-08",
+          "2034": "09-27",
+          "2035": "09-16"
+        }
+      }
+    },
+    {
+      "id": "CN_national_day",
+      "countryCode": "CN",
+      "kind": "fixed",
+      "labelKey": "holidays.national_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 1
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "chinese_new_year_spring_festival": "Chinese New Year (Spring Festival)",
+        "dragon_boat_festival": "Dragon Boat Festival",
+        "mid_autumn_festival": "Mid-Autumn Festival",
+        "national_day": "National Day"
+      },
+      "zh": {
+        "chinese_new_year_spring_festival": "春节",
+        "dragon_boat_festival": "端午节",
+        "mid_autumn_festival": "中秋节",
+        "national_day": "国庆节"
+      },
+      "de": {
+        "chinese_new_year_spring_festival": "Chinesisches Neujahr (Frühlingsfest)",
+        "dragon_boat_festival": "Drachenbootfest",
+        "mid_autumn_festival": "Mittherbstfest",
+        "national_day": "Nationalfeiertag"
+      },
+      "fr": {
+        "chinese_new_year_spring_festival": "Nouvel An chinois (Fête du Printemps)",
+        "dragon_boat_festival": "Festival des bateaux-dragons",
+        "mid_autumn_festival": "Fête de la Mi-Automne",
+        "national_day": "Fête nationale"
+      },
+      "es": {
+        "chinese_new_year_spring_festival": "Año Nuevo Chino (Festival de Primavera)",
+        "dragon_boat_festival": "Festival del Barco Dragón",
+        "mid_autumn_festival": "Festival del Medio Otoño",
+        "national_day": "Día Nacional"
+      },
+      "pt": {
+        "chinese_new_year_spring_festival": "Ano Novo Chinês (Festival da Primavera)",
+        "dragon_boat_festival": "Festival do Barco-Dragão",
+        "mid_autumn_festival": "Festival do Meio Outono",
+        "national_day": "Dia Nacional"
+      },
+      "it": {
+        "chinese_new_year_spring_festival": "Capodanno cinese (Festival di Primavera)",
+        "dragon_boat_festival": "Festa delle Barche Drago",
+        "mid_autumn_festival": "Festa di metà autunno",
+        "national_day": "Festa nazionale"
+      },
+      "pl": {
+        "chinese_new_year_spring_festival": "Chiński Nowy Rok (Święto Wiosny)",
+        "dragon_boat_festival": "Festiwal Smoczych Łodzi",
+        "mid_autumn_festival": "Święto Środka Jesieni",
+        "national_day": "Święto Narodowe"
+      },
+      "nl": {
+        "chinese_new_year_spring_festival": "Chinees Nieuwjaar (Lentefestival)",
+        "dragon_boat_festival": "Drakenbootfestival",
+        "mid_autumn_festival": "Midherfstfestival",
+        "national_day": "Nationale feestdag"
+      },
+      "sv": {
+        "chinese_new_year_spring_festival": "Kinesiska nyåret (vårfestivalen)",
+        "dragon_boat_festival": "Drakbåtsfestival",
+        "mid_autumn_festival": "Midhöstfestivalen",
+        "national_day": "Nationaldagen"
+      },
+      "ja": {
+        "chinese_new_year_spring_festival": "旧正月（春節）",
+        "dragon_boat_festival": "端午節",
+        "mid_autumn_festival": "中秋節",
+        "national_day": "建国記念日"
+      },
+      "ko": {
+        "chinese_new_year_spring_festival": "구정(춘절)",
+        "dragon_boat_festival": "단오절",
+        "mid_autumn_festival": "중추절",
+        "national_day": "국경일"
+      },
+      "zh-Hant": {
+        "chinese_new_year_spring_festival": "農曆新年（春節）",
+        "dragon_boat_festival": "端午節",
+        "mid_autumn_festival": "中秋節",
+        "national_day": "國慶"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "new_year": {
+          "intro": "Der 1. Januar markiert weltweit den Beginn eines neuen Jahres im gregorianischen Kalender. Für viele ist es ein Tag der Hoffnung, des Neuanfangs und der guten Vorsätze.",
+          "history": "Bereits 153 v. Chr. legten die Römer den Jahresbeginn auf den 1. Januar, den Antrittstag der neuen Konsuln. Im Mittelalter wechselte der Jahresanfang in vielen Regionen zu Weihnachten oder Ostern. Erst mit der Kalenderreform von Papst Gregor XIII. im Jahr 1582 setzte sich der 1. Januar wieder als europäischer Standard durch. Der Monatsname Januar geht auf den römischen Gott Janus zurück, der mit zwei Gesichtern zugleich auf das Vergangene und das Kommende blickte – ein passendes Sinnbild für diesen Tag.",
+          "traditions": "Um Mitternacht stoßen Familien und Freunde mit Sekt an und feiern den Jahreswechsel mit Feuerwerk, Glücksbringern wie Kleeblatt, Schornsteinfeger oder Marienkäfer und dem traditionellen Bleigießen (heute Wachsgießen). Beliebt sind außerdem Neujahrsbrunch und der gemeinsame Spaziergang an der frischen Luft. Viele fassen Vorsätze für das neue Jahr.",
+          "funFacts": [
+            "In Spanien isst man zu jedem der zwölf Glockenschläge eine Weintraube – eine pro Wunsch.",
+            "In Dänemark zerbricht man altes Geschirr vor den Türen guter Freunde, um Glück zu bringen.",
+            "Wiens Neujahrskonzert wird in über 90 Länder übertragen und gilt als musikalischer Auftakt des Jahres.",
+            "Auf den Pazifikinseln Kiribati beginnt das neue Jahr 26 Stunden früher als auf der Insel Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Der 1. Mai ist in vielen Ländern der „Tag der Arbeit” – ein Feiertag der Arbeiterbewegung mit Demonstrationen, Maibäumen und Frühlingsfesten.",
+          "history": "Am 1. Mai 1886 traten in Chicago hunderttausende Arbeiter für den Acht-Stunden-Tag in den Generalstreik. Die anschließenden Auseinandersetzungen am Haymarket forderten mehrere Tote. 1889 erklärte der Internationale Arbeiterkongress in Paris den 1. Mai zum „Kampftag der Arbeiterbewegung”. In Deutschland wurde er 1933 als „Tag der nationalen Arbeit” zum gesetzlichen Feiertag – nach 1945 als Symbol arbeitnehmerfreundlicher Politik beibehalten.",
+          "traditions": "Gewerkschaften organisieren Kundgebungen und Demonstrationen unter Mottos wie „Mehr Lohn, mehr Freizeit”. In vielen Dörfern wird in der Nacht zum 1. Mai ein Maibaum aufgestellt – im Süden Deutschlands ein bunt geschmückter Stamm, im Norden ein Birkenstamm vor dem Fenster der Liebsten. Beliebte Aktivitäten: Mai-Wanderungen, Grillen und Familienfeste.",
+          "funFacts": [
+            "Der höchste Maibaum Bayerns wurde 2017 in Mitterfels mit über 50 m aufgestellt.",
+            "In Frankreich verschenkt man am 1. Mai Maiglöckchen („muguet”) – ein Brauch, den König Karl IX. 1561 einführte.",
+            "Im Rheinland werden in der Mai-Nacht „Liebesmaien” – geschmückte Birken – vor das Haus der Angebeteten gestellt.",
+            "Der 1. Mai ist offizieller Feiertag in über 80 Ländern – in den USA und Kanada feiert man Labor Day jedoch erst im September."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "new_year": {
+          "intro": "January 1st marks the start of a new year in the Gregorian calendar around the world. For many it's a day of hope, fresh starts and good resolutions.",
+          "history": "As early as 153 BC the Romans set the start of the year on January 1st, the day new consuls took office. During the Middle Ages, the start of the year shifted in many regions to Christmas or Easter. Only with Pope Gregory XIII's calendar reform of 1582 did January 1st become the European standard once again. The name January goes back to the Roman god Janus, who looked simultaneously at the past and the future with two faces — a fitting symbol for the day.",
+          "traditions": "At midnight, families and friends toast with sparkling wine and celebrate the turn of the year with fireworks, lucky charms (clover, chimney sweep, ladybug) and traditional lead pouring (now wax pouring). New Year's brunch and a fresh-air walk are popular too. Many people make resolutions for the year ahead.",
+          "funFacts": [
+            "In Spain, people eat one grape with each of the twelve bell strokes — one wish per grape.",
+            "In Denmark, people break old crockery in front of friends' doors to bring them luck.",
+            "Vienna's New Year's Concert is broadcast in over 90 countries and counts as the year's musical kick-off.",
+            "On the Pacific island of Kiribati, the new year arrives 26 hours earlier than on Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "May 1st is in many countries ‘Labour Day' — a holiday of the workers' movement with demonstrations, maypoles and spring fairs.",
+          "history": "On May 1st, 1886, hundreds of thousands of workers in Chicago went on a general strike for the eight-hour workday. The ensuing clashes at Haymarket killed several. In 1889 the International Workers' Congress in Paris declared May 1st the ‘international day of struggle for workers'. In Germany it became a legal holiday in 1933 as ‘Day of National Labour' and was kept after 1945 as a symbol of worker-friendly politics.",
+          "traditions": "Trade unions stage rallies and marches under slogans such as ‘More pay, more time off'. In many villages a maypole is raised on the night before May 1st — in southern Germany an ornately painted trunk, in the north a birch in front of a sweetheart's window. Popular activities: May hikes, barbecues and family festivals.",
+          "funFacts": [
+            "Bavaria's tallest maypole was raised in Mitterfels in 2017 at over 50 m.",
+            "In France people give lily-of-the-valley (‘muguet') on May 1st — a custom King Charles IX introduced in 1561.",
+            "In the Rhineland a ‘love May' — a decorated birch — is placed in front of the home of a sweetheart on May Eve.",
+            "May 1st is an official holiday in over 80 countries — but in the U.S. and Canada Labor Day falls in September."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "new_year": {
+          "intro": "Le 1er janvier marque le début d'une nouvelle année dans le calendrier grégorien partout dans le monde. Pour beaucoup, c'est un jour d'espoir, de renouveau et de bonnes résolutions.",
+          "history": "Dès 153 av. J.-C., les Romains fixèrent le début de l'année au 1er janvier, jour d'entrée en fonction des nouveaux consuls. Au Moyen Âge, le début de l'année se déplaça dans de nombreuses régions à Noël ou à Pâques. Ce n'est qu'avec la réforme du calendrier du pape Grégoire XIII en 1582 que le 1er janvier s'imposa à nouveau comme standard européen. Le nom janvier vient du dieu romain Janus, qui regardait simultanément le passé et l'avenir avec deux visages.",
+          "traditions": "À minuit, familles et amis trinquent au champagne et célèbrent le passage à la nouvelle année avec des feux d'artifice, des porte-bonheur (trèfle, ramoneur, coccinelle) et la traditionnelle coulée de plomb (aujourd'hui de cire). Le brunch du Nouvel An et la promenade au grand air sont aussi populaires. Beaucoup formulent des résolutions pour l'année.",
+          "funFacts": [
+            "En Espagne, on mange un grain de raisin à chacun des douze coups de minuit — un vœu par grain.",
+            "Au Danemark, on brise de la vieille vaisselle devant la porte des amis pour leur porter chance.",
+            "Le Concert du Nouvel An de Vienne est diffusé dans plus de 90 pays — coup d'envoi musical de l'année.",
+            "Sur l'île pacifique de Kiribati, le Nouvel An arrive 26 heures avant celui de l'île Howland."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Le 1er mai est dans bien des pays la ‘Fête du Travail' — fête du mouvement ouvrier avec manifestations, mâts de mai et fêtes printanières.",
+          "history": "Le 1er mai 1886, des centaines de milliers de travailleurs de Chicago entrèrent en grève générale pour la journée de huit heures. Les heurts qui suivirent à Haymarket firent plusieurs morts. En 1889, le Congrès international des travailleurs à Paris déclara le 1er mai ‘journée de lutte du mouvement ouvrier'. En France, le 1er mai devient jour chômé en 1947, et c'est aussi le jour où l'on offre du muguet, tradition royale depuis Charles IX en 1561.",
+          "traditions": "Les syndicats organisent meetings et défilés sous des slogans comme ‘Plus de salaire, plus de temps libre'. En France, on s'offre des brins de muguet, porte-bonheur. Dans de nombreux villages allemands, on dresse un mât de mai dans la nuit du 1er. Randonnées, barbecues et fêtes familiales sont au programme.",
+          "funFacts": [
+            "Le mât de mai le plus haut de Bavière a été dressé en 2017 à Mitterfels avec plus de 50 m.",
+            "En France, on offre du muguet le 1er mai — coutume introduite par Charles IX en 1561.",
+            "En Rhénanie, on plante des bouleaux décorés (‘Liebesmaien') devant la maison de la bien-aimée à la nuit du 1er mai.",
+            "Le 1er mai est jour férié dans plus de 80 pays — mais aux États-Unis et au Canada, le ‘Labor Day' tombe en septembre."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "new_year": {
+          "intro": "El 1 de enero marca el inicio de un nuevo año en el calendario gregoriano en todo el mundo. Para muchos es un día de esperanza, comienzos y buenos propósitos.",
+          "history": "Ya en el 153 a. C., los romanos fijaron el inicio del año el 1 de enero, día en que tomaban posesión los nuevos cónsules. En la Edad Media el comienzo del año cambió en muchas regiones a Navidad o Pascua. Solo con la reforma del calendario del papa Gregorio XIII en 1582 el 1 de enero volvió a imponerse como estándar europeo. El nombre Janus (enero en latín) evoca al dios romano de las dos caras, que miraba al pasado y al futuro a la vez.",
+          "traditions": "A medianoche, familias y amigos brindan con cava o champán y celebran con fuegos artificiales, amuletos como tréboles, deshollinadores o mariquitas, y la tradicional fundición de cera para predecir el año. También son populares el brunch de Año Nuevo y los paseos al aire libre. Muchos hacen propósitos para el año entrante.",
+          "funFacts": [
+            "En España se come una uva con cada una de las doce campanadas — un deseo por uva.",
+            "En Dinamarca se rompe vajilla vieja delante de las puertas de los amigos para darles suerte.",
+            "El Concierto de Año Nuevo de Viena se transmite en más de 90 países y se considera el arranque musical del año.",
+            "En la isla pacífica de Kiribati el Año Nuevo llega 26 horas antes que en la isla Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 vía Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "El 1 de mayo es en muchos países el ‘Día del Trabajador' — fiesta del movimiento obrero con manifestaciones, mayos y celebraciones primaverales.",
+          "history": "El 1 de mayo de 1886, cientos de miles de trabajadores en Chicago se declararon en huelga general por la jornada de ocho horas. Los choques posteriores en Haymarket dejaron varios muertos. En 1889 el Congreso Internacional de Trabajadores de París lo declaró ‘día de lucha del movimiento obrero'. En Alemania pasó a ser festivo legal en 1933 como ‘Día Nacional del Trabajo' y se mantuvo tras 1945 como símbolo de política favorable a los trabajadores.",
+          "traditions": "Los sindicatos organizan mítines y manifestaciones bajo lemas como ‘Más sueldo, más tiempo libre'. En muchas aldeas alemanas se planta un mayo en la noche del 1 de mayo — en el sur, un tronco coloridamente decorado; en el norte, un abedul ante la ventana de la amada. Caminatas de mayo, barbacoas y fiestas familiares son populares.",
+          "funFacts": [
+            "El mayo más alto de Baviera fue erigido en Mitterfels en 2017 con más de 50 m.",
+            "En Francia se regala muguete (‘muguet') el 1 de mayo — costumbre que el rey Carlos IX introdujo en 1561.",
+            "En Renania, en la Noche de Mayo se ponen abedules decorados (‘Liebesmaien') ante la casa de la enamorada.",
+            "El 1 de mayo es festivo en más de 80 países — pero en EE. UU. y Canadá el ‘Labor Day' se celebra en septiembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "new_year": {
+          "intro": "1 de janeiro marca o início de um novo ano no calendário gregoriano em todo o mundo. Para muitos é um dia de esperança, novos começos e boas resoluções.",
+          "history": "Já em 153 a.C. os romanos fixaram o início do ano em 1 de janeiro, dia em que tomavam posse os novos cônsules. Na Idade Média, o início do ano deslocou-se em muitas regiões para o Natal ou a Páscoa. Só com a reforma do calendário do Papa Gregório XIII em 1582 o 1 de janeiro voltou a impor-se como padrão europeu. O nome Janus (janeiro em latim) evoca o deus romano de duas faces, que olhava simultaneamente para o passado e o futuro.",
+          "traditions": "À meia-noite, famílias e amigos brindam com espumante e celebram com fogo de artifício, amuletos como trevos, limpa-chaminés ou joaninhas, e a tradicional fundição de cera para prever o ano. Também são populares o brunch de Ano Novo e os passeios ao ar livre. Muitos fazem resoluções para o ano que começa.",
+          "funFacts": [
+            "Em Portugal e Espanha, come-se uma uva por cada uma das doze badaladas — um desejo por uva.",
+            "Na Dinamarca, partem-se louças velhas em frente à porta dos amigos para lhes dar sorte.",
+            "O Concerto de Ano Novo de Viena é transmitido em mais de 90 países — abertura musical do ano.",
+            "Na ilha pacífica de Kiribati, o Ano Novo chega 26 horas antes do que na ilha de Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 de maio é em muitos países o ‘Dia do Trabalhador' — feriado do movimento operário com manifestações, festas de maio e celebrações primaveris. Em Portugal, é feriado nacional desde 1974.",
+          "history": "A 1 de maio de 1886, centenas de milhares de trabalhadores em Chicago entraram em greve geral pela jornada de oito horas. Os confrontos seguintes em Haymarket fizeram vários mortos. Em 1889, o Congresso Internacional dos Trabalhadores em Paris declarou o 1 de maio ‘dia de luta do movimento operário'. Em Portugal, foi assinalado clandestinamente durante o Estado Novo e tornou-se feriado oficial logo após a Revolução de 25 de Abril de 1974.",
+          "traditions": "Os sindicatos organizam comícios e desfiles com lemas como ‘Mais salário, mais tempo livre'. Em Portugal, a CGTP organiza um grande desfile no Porto e em Lisboa, com milhares de manifestantes. Muitas famílias aproveitam o feriado para piqueniques, churrascos e idas à praia.",
+          "funFacts": [
+            "Em Portugal, o 1.º de Maio de 1974 — apenas 6 dias após a Revolução dos Cravos — foi um dos primeiros grandes ajuntamentos populares livres em décadas.",
+            "Em França, oferece-se muguete (‘muguet') no 1.º de Maio — costume introduzido pelo rei Carlos IX em 1561.",
+            "Na Renânia, na noite de 1.º de Maio, colocam-se vidoeiros decorados (‘Liebesmaien') diante da casa da amada.",
+            "O 1.º de Maio é feriado em mais de 80 países — mas nos EUA e Canadá o ‘Labor Day' é em setembro."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "new_year": {
+          "intro": "Il 1° gennaio segna l'inizio di un nuovo anno nel calendario gregoriano in tutto il mondo. Per molti è un giorno di speranza, di nuovi inizi e di buoni propositi.",
+          "history": "Già nel 153 a.C. i Romani fissarono l'inizio dell'anno al 1° gennaio, giorno dell'insediamento dei nuovi consoli. Nel Medioevo l'inizio dell'anno si spostò in molte regioni a Natale o Pasqua. Solo con la riforma del calendario di papa Gregorio XIII nel 1582 il 1° gennaio tornò ad imporsi come standard europeo. Il nome ‘gennaio' deriva dal dio romano Giano, che con due volti guardava contemporaneamente al passato e al futuro.",
+          "traditions": "A mezzanotte famiglie e amici brindano con spumante e festeggiano con fuochi d'artificio, portafortuna come quadrifogli, spazzacamini o coccinelle e la tradizionale colata di piombo (oggi di cera). Sono diffusi anche il brunch di Capodanno e la passeggiata all'aria aperta. Molti formulano buoni propositi per l'anno che inizia.",
+          "funFacts": [
+            "In Spagna si mangia un chicco d'uva a ogni rintocco delle dodici campane — un desiderio per chicco.",
+            "In Danimarca si rompono stoviglie davanti alle porte degli amici per portare loro fortuna.",
+            "Il Concerto di Capodanno di Vienna è trasmesso in oltre 90 paesi — apertura musicale dell'anno.",
+            "Sull'isola pacifica di Kiribati il Capodanno arriva 26 ore prima rispetto all'isola Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Il 1° maggio è in molti paesi la ‘Festa dei Lavoratori' — festa del movimento operaio con manifestazioni, alberi di maggio e feste primaverili.",
+          "history": "Il 1° maggio 1886 centinaia di migliaia di lavoratori a Chicago entrarono in sciopero generale per la giornata di otto ore. Gli scontri di Haymarket fecero diversi morti. Nel 1889 il Congresso Internazionale dei Lavoratori a Parigi proclamò il 1° maggio ‘giornata di lotta del movimento operaio'. In Italia la festa è abolita nel 1923 dal regime fascista e ripristinata nel 1947. Il celebre ‘Concertone' di piazza San Giovanni a Roma è una tradizione dal 1990.",
+          "traditions": "I sindacati organizzano cortei e manifestazioni con slogan come ‘Più salario, più tempo libero'. In Italia il ‘Concertone' del 1° maggio a Roma riunisce centinaia di migliaia di persone in piazza San Giovanni. Famiglie organizzano gite, picnic e grigliate.",
+          "funFacts": [
+            "Il ‘Concertone' di Roma del 1° maggio dal 1990 raduna centinaia di migliaia di spettatori.",
+            "In Francia il 1° maggio si regalano mughetti (‘muguet') — tradizione che il re Carlo IX introdusse nel 1561.",
+            "In Renania nella notte del 1° maggio si pongono betulle decorate (‘Liebesmaien') davanti alla casa dell'amata.",
+            "Il 1° maggio è festivo in oltre 80 paesi — ma in USA e Canada il ‘Labor Day' è in settembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "new_year": {
+          "intro": "1 stycznia oznacza początek nowego roku w kalendarzu gregoriańskim na całym świecie. Dla wielu jest to dzień nadziei, nowych początków i postanowień.",
+          "history": "Już w 153 r. p.n.e. Rzymianie ustalili początek roku na 1 stycznia, dzień objęcia urzędu nowych konsulów. W średniowieczu początek roku w wielu regionach przesunięto na Boże Narodzenie lub Wielkanoc. Dopiero reforma kalendarza papieża Grzegorza XIII w 1582 roku przywróciła 1 stycznia jako europejski standard. Nazwa miesiąca pochodzi od rzymskiego boga Janusa, który dwiema twarzami spoglądał jednocześnie w przeszłość i przyszłość.",
+          "traditions": "O północy rodziny i przyjaciele wznoszą toast szampanem i świętują przejście do nowego roku fajerwerkami, talizmanami szczęścia (czterolistna koniczyna, kominiarz, biedronka) oraz tradycyjnym lanym ołowiem (dziś woskiem). Popularne są noworoczne brunche i spacery. Wielu składa noworoczne postanowienia.",
+          "funFacts": [
+            "W Hiszpanii zjada się winogronko z każdym z dwunastu uderzeń zegara — życzenie na każde winogronko.",
+            "W Danii rozbija się stare naczynia przed drzwiami przyjaciół, aby przyniosło im to szczęście.",
+            "Wiedeński Koncert Noworoczny transmitowany jest w ponad 90 krajach — muzyczne otwarcie roku.",
+            "Na Pacyficznej wyspie Kiribati Nowy Rok zaczyna się 26 godzin wcześniej niż na wyspie Howland."
+          ],
+          "imageCredit": "Zdjęcie: Vyacheslav Argenberg · CC BY 4.0 przez Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 maja jest w wielu krajach Świętem Pracy — świętem ruchu robotniczego z manifestacjami, majowymi uroczystościami i wiosennymi festynami. W Polsce dzień wolny od pracy.",
+          "history": "1 maja 1886 roku setki tysięcy robotników w Chicago weszło w strajk generalny domagając się ośmiogodzinnego dnia pracy. Następujące starcia na Haymarket pochłonęły kilka ofiar. W 1889 roku Międzynarodowy Kongres Robotniczy w Paryżu ogłosił 1 maja ‘dniem walki ruchu robotniczego'. W Polsce święto wprowadzono oficjalnie w 1950 roku, choć obchody były już wcześniej. Po 1989 roku zachowane jako symbol pracowniczy.",
+          "traditions": "W Polsce 1 maja to popularny dzień na pierwsze grillowanie i majowe wycieczki. Związki zawodowe organizują wiece i pochody. Wraz z 2 maja (Dzień Flagi) i 3 maja (Konstytucja) tworzy słynne ‘majówki' — najważniejszy długi weekend wiosenny w Polsce, kiedy wielu wyjeżdża nad morze, w góry lub na działkę.",
+          "funFacts": [
+            "‘Majówka' to jeden z najbardziej intensywnych weekendów turystycznych w Polsce — wiele osób ucieka z miast na wieś.",
+            "We Francji 1 maja wręcza się konwalie (‘muguet') — zwyczaj wprowadzony przez króla Karola IX w 1561 roku.",
+            "1 maja jest świętem urzędowym w ponad 80 krajach — ale w USA i Kanadzie ‘Labor Day' obchodzi się we wrześniu.",
+            "Najwyższy maj w Bawarii postawiono w Mitterfels w 2017 roku — miał ponad 50 m."
+          ],
+          "imageCredit": "Zdjęcie: Joe Piette · CC BY-SA 2.0 przez Wikimedia Commons"
+        }
+      },
+      "nl": {
+        "new_year": {
+          "intro": "1 januari markeert wereldwijd het begin van een nieuw jaar volgens de Gregoriaanse kalender. Voor velen is het een dag vol hoop, een nieuwe start en goede voornemens.",
+          "history": "Al in 153 v.Chr. stelden de Romeinen 1 januari vast als het begin van het jaar, de dag waarop de nieuwe consuls hun ambt aanvaardden. Tijdens de Middeleeuwen verschoof het begin van het jaar in veel regio’s naar Kerstmis of Pasen. Pas met de kalenderhervorming van paus Gregorius XIII in 1582 werd 1 januari opnieuw de Europese norm. De naam januari is afgeleid van de Romeinse god Janus, die met zijn twee gezichten tegelijkertijd naar het verleden en de toekomst keek — een passend symbool voor deze dag.",
+          "traditions": "Om middernacht proosten families en vrienden met mousserende wijn en vieren ze de jaarwisseling met vuurwerk, geluksbrengers (klaver, schoorsteenveger, lieveheersbeestje) en het traditionele loodgieten (tegenwoordig wasgieten). Ook een nieuwjaarsbrunch en een wandeling in de frisse lucht zijn populair. Veel mensen nemen goede voornemens voor het komende jaar.",
+          "funFacts": [
+            "In Spanje eten mensen bij elk van de twaalf klokslagen één druif — één wens per druif.",
+            "In Denemarken breken mensen oud serviesgoed voor de deur van vrienden om hen geluk te brengen.",
+            "Het Nieuwjaarsconcert van Wenen wordt in meer dan 90 landen uitgezonden en geldt als de muzikale start van het jaar.",
+            "Op het eiland Kiribati in de Stille Oceaan begint het nieuwe jaar 26 uur eerder dan op Howland Island."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 mei is in veel landen ‘Dag van de Arbeid’ — een feestdag van de arbeidersbeweging met demonstraties, meibomen en lentefeesten.",
+          "history": "Op 1 mei 1886 gingen honderdduizenden arbeiders in Chicago in algemene staking voor de achturige werkdag. Bij de daaropvolgende confrontaties op Haymarket kwamen meerdere mensen om het leven. In 1889 riep het Internationale Arbeiderscongres in Parijs 1 mei uit tot de ‘internationale dag van de strijd voor de arbeiders’. In Duitsland werd deze dag in 1933 een wettelijke feestdag onder de naam ‘Nationale Dag van de Arbeid’ en werd na 1945 gehandhaafd als symbool van een arbeidersvriendelijk beleid.",
+          "traditions": "Vakbonden organiseren bijeenkomsten en optochten onder leuzen als ‘Meer loon, meer vrije tijd’. In veel dorpen wordt in de nacht voor 1 mei een meiboom opgericht — in Zuid-Duitsland een rijkelijk beschilderde boomstam, in het noorden een berkenboom voor het raam van de geliefde. Populaire activiteiten: meewandelingen, barbecues en familiefeesten.",
+          "funFacts": [
+            "De hoogste meiboom van Beieren werd in 2017 in Mitterfels opgericht en was meer dan 50 m hoog.",
+            "In Frankrijk geven mensen op 1 mei lelietjes-van-dalen (‘muguet’) cadeau — een gebruik dat koning Karel IX in 1561 heeft ingevoerd.",
+            "In het Rijnland wordt op de avond van 1 mei een ‘liefdesmei’ — een versierde berk — voor het huis van de geliefde geplaatst.",
+            "1 mei is een officiële feestdag in meer dan 80 landen — maar in de VS en Canada valt Labor Day in september."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        }
+      },
+      "sv": {
+        "new_year": {
+          "intro": "Den 1 januari markerar början på ett nytt år enligt den gregorianska kalendern över hela världen. För många är det en dag präglad av hopp, nystart och nyårslöften.",
+          "history": "Redan 153 f.Kr. fastställde romarna att året skulle börja den 1 januari, den dag då de nya konsulerna tillträdde sina ämbeten. Under medeltiden flyttades årets början i många regioner till jul eller påsk. Först i och med påve Gregorius XIII:s kalenderreform 1582 blev den 1 januari återigen den europeiska standarden. Namnet januari härstammar från den romerske guden Janus, som med sina två ansikten blickade samtidigt mot det förflutna och framtiden – en passande symbol för dagen.",
+          "traditions": "Vid midnatt skålar familjer och vänner med mousserande vin och firar årsskiftet med fyrverkerier, lyckosymboler (klöver, sotare, nyckelpiga) och den traditionella blygjutningen (numera vaxgjutning). Nyårsbrunch och en promenad i friska luften är också populära inslag. Många sätter upp nyårslöften inför det kommande året.",
+          "funFacts": [
+            "I Spanien äter man en vindruva för varje klockslag av de tolv – en önskan per vindruva.",
+            "I Danmark brukar man krossa gammalt porslin framför vännernas dörrar för att önska dem lycka.",
+            "Nyårskonserten i Wien sänds i över 90 länder och räknas som årets musikaliska startskott.",
+            "På ön Kiribati i Stilla havet infaller det nya året 26 timmar tidigare än på Howlandön."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Den 1 maj är i många länder ”Arbetarnas dag” – en helgdag inom arbetarrörelsen med demonstrationer, majstänger och vårmarknader.",
+          "history": "Den 1 maj 1886 gick hundratusentals arbetare i Chicago ut i en generalstrejk för att kräva en åtta timmars arbetsdag. De efterföljande sammandrabbningarna vid Haymarket ledde till att flera människor omkom. År 1889 utropade den internationella arbetarkongressen i Paris den 1 maj till den ”internationella kampdagen för arbetarna”. I Tyskland blev dagen en lagstadgad helgdag 1933 som ”Nationella arbetardagen” och behölls efter 1945 som en symbol för arbetarvänlig politik.",
+          "traditions": "Fackföreningarna anordnar demonstrationer och marscher under paroller som ”Högre lön, mer ledighet”. I många byar reses en majstång natten före den 1 maj – i södra Tyskland en rikt utsmyckad stam, i norr en björk framför flickvännens fönster. Populära aktiviteter: majvandringar, grillfester och familjefester.",
+          "funFacts": [
+            "Bayerns högsta majstång restes i Mitterfels år 2017 och är över 50 m hög.",
+            "I Frankrike brukar man ge bort liljekonvaljer (”muguet”) den 1 maj – en tradition som kung Karl IX införde år 1561.",
+            "I Rhenlandet ställs en ”kärleksmaj” – en pyntad björk – framför den älskades hem på majkvällen.",
+            "Den 1 maj är en officiell helgdag i över 80 länder – men i USA och Kanada infaller Labor Day i september."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        }
+      },
+      "ja": {
+        "new_year": {
+          "intro": "1月1日は、世界中でグレゴリオ暦による新年の始まりを告げる日です。多くの人々にとって、この日は希望に満ちた日であり、新たなスタートを切る日であり、新年の抱負を立てる日でもあります。",
+          "history": "早くも紀元前153年、ローマ人は新年の始まりを、新任の執政官が就任する1月1日と定めた。中世になると、多くの地域で新年の始まりはクリスマスやイースターへと移っていった。 1582年に教皇グレゴリウス13世による暦の改革が行われて初めて、1月1日が再びヨーロッパの標準となった。「1月（January）」という名称は、二つの顔で過去と未来を同時に見つめていたローマの神ヤヌスに由来しており、この日はまさにその神にふさわしい象徴である。",
+          "traditions": "真夜中になると、家族や友人はスパークリングワインで乾杯し、花火や縁起物（クローバー、煙突掃除人、てんとう虫）、そして伝統的な鉛流し（現在は蝋流し）で年越しを祝います。新年のブランチや、新鮮な空気を吸いながらの散歩も人気です。多くの人が、その年の抱負を立てます。",
+          "funFacts": [
+            "スペインでは、鐘が12回鳴るたびに、そのたびにブドウを1粒ずつ食べます。ブドウ1粒ごとに1つの願いを込めるのです。",
+            "デンマークでは、友人たちの家の玄関先で古い食器を割ることで、その人たちに幸運をもたらす習慣があります。",
+            "ウィーンの新年コンサートは90カ国以上で放送され、その年の音楽界の幕開けとして知られています。",
+            "太平洋のキリバス島では、ハウランド島よりも26時間早く新年が訪れます。"
+          ],
+          "imageCredit": "写真：ヴィャチェスラフ・アルゲンベルク · CC BY 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "labour_day": {
+          "intro": "5月1日は多くの国で「メーデー」として祝われ、労働者運動に由来する祝日であり、デモ行進やメイポール、春の祭りが行われます。",
+          "history": "1886年5月1日、シカゴの数十万人の労働者が、8時間労働制を求めてゼネストに突入した。その後、ヘイマーケットで発生した衝突により、数名が死亡した。1889年、パリで開催された国際労働者会議は、5月1日を「労働者のための国際闘争の日」と宣言した。 ドイツでは、1933年に「国民労働の日」として法定休日となり、1945年以降も労働者重視の政治の象徴として維持された。",
+          "traditions": "労働組合は、「賃上げ、休暇増」といったスローガンを掲げて集会やデモ行進を行う。 多くの村では、5月1日の前夜にメイポールが立てられる。南ドイツでは華やかに彩られた丸太が、北ドイツでは恋人の窓の前に白樺が立てられる。人気の行事としては、5月のハイキング、バーベキュー、家族向けのお祭りなどがある。",
+          "funFacts": [
+            "2017年、ミッターフェルスでバイエルン州で最も高いメイポール（高さ50メートル以上）が立てられた。",
+            "フランスでは、5月1日にスズラン（「ミュゲ」）を贈る習慣がある。これは1561年にシャルル9世が導入した風習である。",
+            "ラインラント地方では、5月の前夜に、恋人の家の前に「愛の5月」――飾り付けられた白樺――が置かれる。",
+            "5月1日は80カ国以上で公休日となっていますが、米国とカナダでは「労働者の日」は9月に祝われます。"
+          ],
+          "imageCredit": "写真：Joe Piette · CC BY-SA 2.0（ウィキメディア・コモンズ経由）"
+        }
+      },
+      "ko": {
+        "new_year": {
+          "intro": "1월 1일은 전 세계적으로 그레고리력에 따른 새해의 시작을 알리는 날입니다. 많은 이들에게 이 날은 희망과 새로운 시작, 그리고 새해 결심을 다지는 날입니다.",
+          "history": "기원전 153년 무렵, 로마인들은 새 집정관이 취임하는 날인 1월 1일을 한 해의 시작으로 정했습니다. 중세 시대에는 많은 지역에서 한 해의 시작이 크리스마스나 부활절로 바뀌었습니다. 1582년 교황 그레고리오 13세의 달력 개혁을 통해야 비로소 1월 1일이 다시 유럽의 표준이 되었습니다. ‘1월(January)’이라는 이름은 두 개의 얼굴로 과거와 미래를 동시에 바라보던 로마 신 야누스(Janus)에서 유래한 것으로, 이 날을 상징하기에 더할 나위 없이 적합한 이름입니다.",
+          "traditions": "자정이 되면 가족과 친구들은 스파클링 와인으로 건배를 나누고, 불꽃놀이와 행운의 상징(클로버, 굴뚝 청소부, 무당벌레), 그리고 전통적인 납 부어보기(현재는 왁스 부어보기)를 통해 새해의 시작을 축하합니다. 새해 브런치와 야외 산책도 인기가 많습니다. 많은 사람들이 다가올 한 해를 위한 새해 결심을 세우기도 합니다.",
+          "funFacts": [
+            "스페인에서는 종소리가 12번 울릴 때마다 포도 한 알씩 먹는데, 포도 한 알마다 소원 하나를 빌게 됩니다.",
+            "덴마크에서는 친구들에게 행운을 빌어주기 위해 친구 집 문 앞에서 낡은 그릇을 깨뜨리는 풍습이 있습니다.",
+            "비엔나 신년 콘서트는 90여 개국에서 방송되며, 한 해의 음악 활동을 시작하는 행사로 꼽힌다.",
+            "태평양의 키리바티 섬에서는 하울랜드 섬보다 26시간 먼저 새해가 찾아옵니다."
+          ],
+          "imageCredit": "사진: Vyacheslav Argenberg · CC BY 4.0 (위키미디어 공용 제공)"
+        },
+        "labour_day": {
+          "intro": "5월 1일은 많은 나라에서 ‘노동절’로, 시위와 메이폴 행사, 봄 축제가 열리는 노동 운동의 기념일입니다.",
+          "history": "1886년 5월 1일, 시카고의 수십만 명의 노동자들이 8시간 노동제를 요구하며 총파업을 벌였습니다. 이후 헤이마켓에서 발생한 충돌로 여러 명이 사망했습니다. 1889년 파리에서 열린 국제노동자대회는 5월 1일을 ‘노동자를 위한 국제 투쟁의 날’로 선포했습니다. 독일에서는 1933년에 ‘국가 노동의 날’로 법정 공휴일이 되었으며, 1945년 이후에도 노동자 친화적 정책의 상징으로 유지되었다.",
+          "traditions": "노동조합들은 ‘임금 인상, 휴가 확대’와 같은 구호를 내걸고 집회와 행진을 벌입니다. 많은 마을에서는 5월 1일 전날 밤 메이폴을 세웁니다. 독일 남부에서는 화려하게 칠해진 나무 줄기를, 북부에서는 연인의 창문 앞에 자작나무를 세웁니다. 인기 있는 활동으로는 5월 하이킹, 바비큐, 가족 축제 등이 있습니다.",
+          "funFacts": [
+            "2017년 미터펠스에서 바이에른 주에서 가장 높은 50m가 넘는 메이폴이 세워졌다.",
+            "프랑스에서는 5월 1일에 은방울꽃(‘muguet’)을 선물하는 풍습이 있는데, 이는 1561년 샤를 9세 왕이 도입한 관습이다.",
+            "라인란트 지방에서는 5월 전야에 ‘사랑의 5월’이라 불리는 장식된 자작나무를 연인의 집 앞에 놓습니다.",
+            "5월 1일은 80여 개국에서 공휴일이지만, 미국과 캐나다에서는 노동절이 9월에 있습니다."
+          ],
+          "imageCredit": "사진: Joe Piette · CC BY-SA 2.0 (위키미디어 공용 제공)"
+        }
+      },
+      "zh-Hant": {
+        "new_year": {
+          "intro": "1月1日標誌著全球公曆新年的開始。對許多人來說，這是一天充滿希望、嶄新起點與美好決心的日子。",
+          "history": "早在公元前153年，羅馬人便將新年的起始日定為1月1日，即新任執政官就職之日。中世紀期間，許多地區的新年起始日轉變為聖誕節或復活節。 直到1582年教宗格里高利十三世推行曆法改革後，1月1日才再次成為歐洲的標準新年之日。「一月」（January）這個名稱源自羅馬神祇雅努斯（Janus），他擁有兩張面孔，能同時凝視過去與未來——這正是對這一天的恰當象徵。",
+          "traditions": "午夜時分，親友們舉起氣泡酒共飲，並以煙火、吉祥物（三葉草、煙囪清掃工、瓢蟲）以及傳統的鉛鑄（現已改為蠟鑄）儀式來慶祝新年到來。新年早午餐和戶外散步也是很受歡迎的活動。許多人會為新的一年訂立新年決議。",
+          "funFacts": [
+            "在西班牙，人們會隨著鐘聲敲響的十二下，每響吃一顆葡萄——每顆葡萄代表一個願望。",
+            "在丹麥，人們會將舊陶器砸在朋友家門前，以祈求他們好運。",
+            "維也納新年音樂會的轉播遍及90多個國家，被視為年度音樂盛事的開端。",
+            "在太平洋上的基里巴斯島，新年比豪蘭島早到來 26 小時。"
+          ],
+          "imageCredit": "照片：維亞切斯拉夫·阿根伯格 · 透過維基共享資源，採用 CC BY 4.0 授權"
+        },
+        "labour_day": {
+          "intro": "5月1日是許多國家的「勞動節」——這是工人運動的節日，期間會舉行遊行、豎立五月柱以及舉辦春季市集。",
+          "history": "1886年5月1日，芝加哥數十萬名工人為爭取八小時工作制發起總罷工。隨後在海市集（Haymarket）爆發的衝突造成數人死亡。1889年，在巴黎舉行的國際工人大會宣布5月1日為「國際工人鬥爭日」。 在德國，該日於1933年被定為法定假日，名為「國家勞動日」，並在1945年後得以保留，作為親勞工政策的象徵。",
+          "traditions": "工會以「加薪、增加休假」等口號為號召，舉辦集會和遊行。 在許多村莊，人們會在5月1日的前一晚豎起五月柱——在德國南部，是一根彩繪精美的樹幹；在北部，則是在心上人窗前豎起一棵樺樹。熱門活動包括：五月健行、烤肉聚會和家庭節慶。",
+          "funFacts": [
+            "巴伐利亞州最高的五月柱於2017年在米特費爾斯豎立，高度超過50公尺。",
+            "在法國，人們會在5月1日互贈鈴蘭（「muguet」）——這是查理九世國王於1561年所創立的習俗。",
+            "在萊茵蘭地區，人們會在五月前夕將一棵裝飾過的樺樹——即「愛情五月樹」——擺放在心上人的家門前。",
+            "5月1日是80多個國家的法定假日——但在美國和加拿大，勞動節則在9月。"
+          ],
+          "imageCredit": "照片：Joe Piette · 經維基共享資源提供，採用 CC BY-SA 2.0 授權"
+        }
+      }
+    }
+  },
+  "images": {
+    "new_year": [
+      {
+        "path": "images/new_year/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "labour_day": [
+      {
+        "path": "images/labour_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 6
+}

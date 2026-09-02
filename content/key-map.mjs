@@ -175,7 +175,7 @@ export const NAMESPACED_SLUGS = new Set([
 ]);
 
 /** Locales we ship article content for. */
-export const CONTENT_LOCALES = ['de', 'en', 'fr', 'es', 'pt', 'it', 'pl'];
+export const CONTENT_LOCALES = ['de', 'en', 'fr', 'es', 'pt', 'it', 'pl', 'nl', 'sv', 'ja', 'ko', 'zh-Hant'];
 
 /** Returns all country codes that own a namespaced slug. */
 export function countriesForNamespacedSlug(slug) {

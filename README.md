@@ -49,7 +49,7 @@ Dates are described by rules so the client computes any year offline:
 ## Data sources
 
 - Public holidays: [Nager.Date](https://date.nager.at/), [OpenHolidays API](https://openholidaysapi.org/),
-  [Calendarific](https://calendarific.com/) (religious/non-Gregorian)
+  plus a curated static list in this repo (religious/non-Gregorian, regional specials)
 - Namedays: [abalin](https://nameday.abalin.net/) + country-specific calendars
 - Images: [Wikimedia Commons](https://commons.wikimedia.org/) (PD / CC)
 

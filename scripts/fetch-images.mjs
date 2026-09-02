@@ -15,6 +15,8 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { listImageTargets, termsForSlug } from '../content/image-queries.mjs';
 import { classifyLicense, isCc0OrPd, needsCredit, stripHtml } from './lib/imageLicense.mjs';
+import { fetchWithTimeout } from './lib/httpClient.mjs';
+import { sniffImageType, isImageContentType, MAX_IMAGE_BYTES } from './lib/imageValidation.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -165,10 +167,36 @@ async function collectCandidates(terms, { cc0Only }) {
   return candidates;
 }
 
+// #131: Bild-Download gehaertet — https, Timeout/Retry, Content-Type image/*,
+// Groessenobergrenze und Magic-Byte-Pruefung, bevor irgendetwas ins Repo geschrieben wird.
 async function download(url, dest) {
-  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
+  let parsed;
+  try {
+    parsed = new URL(url);
+  } catch {
+    throw new Error('invalid image url');
+  }
+  if (parsed.protocol !== 'https:') throw new Error(`non-https image url (${parsed.protocol})`);
+
+  const res = await fetchWithTimeout(url, {
+    headers: { 'User-Agent': USER_AGENT },
+    timeoutMs: 20000,
+    retries: 2,
+    backoffMs: 500,
+  });
   if (!res.ok) throw new Error(`download ${res.status}`);
+  if (!isImageContentType(res.headers.get('content-type'))) {
+    throw new Error(`unexpected content-type ${res.headers.get('content-type') ?? 'none'}`);
+  }
+  const declaredLen = Number(res.headers.get('content-length') ?? 0);
+  if (declaredLen && declaredLen > MAX_IMAGE_BYTES) {
+    throw new Error(`image too large (${declaredLen} bytes > ${MAX_IMAGE_BYTES})`);
+  }
   const buf = Buffer.from(await res.arrayBuffer());
+  if (buf.length > MAX_IMAGE_BYTES) {
+    throw new Error(`image too large (${buf.length} bytes > ${MAX_IMAGE_BYTES})`);
+  }
+  if (!sniffImageType(buf)) throw new Error('not a recognized image (magic bytes)');
   await writeFile(dest, buf);
   return buf.length;
 }

@@ -1,0 +1,981 @@
+{
+  "countryCode": "GE",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "GE_new_years_day",
+      "countryCode": "GE",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 2
+      }
+    },
+    {
+      "id": "GE_christmas_day_orthodox",
+      "countryCode": "GE",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_day_orthodox",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 7
+      }
+    },
+    {
+      "id": "GE_epiphany_orthodox",
+      "countryCode": "GE",
+      "kind": "fixed",
+      "labelKey": "holidays.epiphany_orthodox",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 19
+      }
+    },
+    {
+      "id": "GE_mothers_day",
+      "countryCode": "GE",
+      "kind": "fixed",
+      "labelKey": "holidays.mothers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 3
+      }
+    },
+    {
+      "id": "GE_international_womens_day",
+      "countryCode": "GE",
+      "kind": "fixed",
+      "labelKey": "holidays.womens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 8
+      }
+    },
+    {
+      "id": "GE_national_unity_day",
+      "countryCode": "GE",
+      "kind": "fixed",
+      "labelKey": "holidays.national_unity_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 9
+      }
+    },
+    {
+      "id": "GE_good_friday",
+      "countryCode": "GE",
+      "kind": "precomputed",
+      "labelKey": "holidays.good_friday_ge",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-10",
+          "2027": "04-30",
+          "2028": "04-14",
+          "2029": "04-06",
+          "2030": "04-26",
+          "2031": "04-11",
+          "2032": "04-30",
+          "2033": "04-22",
+          "2034": "04-07",
+          "2035": "04-27"
+        }
+      }
+    },
+    {
+      "id": "GE_holy_saturday",
+      "countryCode": "GE",
+      "kind": "precomputed",
+      "labelKey": "holidays.holy_saturday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-11",
+          "2027": "05-01",
+          "2028": "04-15",
+          "2029": "04-07",
+          "2030": "04-27",
+          "2031": "04-12",
+          "2032": "05-01",
+          "2033": "04-23",
+          "2034": "04-08",
+          "2035": "04-28"
+        }
+      }
+    },
+    {
+      "id": "GE_easter_sunday",
+      "countryCode": "GE",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-12",
+          "2027": "05-02",
+          "2028": "04-16",
+          "2029": "04-08",
+          "2030": "04-28",
+          "2031": "04-13",
+          "2032": "05-02",
+          "2033": "04-24",
+          "2034": "04-09",
+          "2035": "04-29"
+        }
+      }
+    },
+    {
+      "id": "GE_easter_monday",
+      "countryCode": "GE",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_monday_ge",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-13",
+          "2027": "05-03",
+          "2028": "04-17",
+          "2029": "04-09",
+          "2030": "04-29",
+          "2031": "04-14",
+          "2032": "05-03",
+          "2033": "04-25",
+          "2034": "04-10",
+          "2035": "04-30"
+        }
+      }
+    },
+    {
+      "id": "GE_day_of_victory_over_fascism",
+      "countryCode": "GE",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_victory_over_fascism",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 9
+      }
+    },
+    {
+      "id": "GE_saint_andrew_the_first_called_day",
+      "countryCode": "GE",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_andrew_the_first_called_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 12
+      }
+    },
+    {
+      "id": "GE_independence_day",
+      "countryCode": "GE",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 26
+      }
+    },
+    {
+      "id": "GE_saint_marys_day",
+      "countryCode": "GE",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_marys_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 28
+      }
+    },
+    {
+      "id": "GE_day_of_svetitskhoveli_cathedra",
+      "countryCode": "GE",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_svetitskhoveli_cathedra",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 14
+      }
+    },
+    {
+      "id": "GE_saint_georges_day",
+      "countryCode": "GE",
+      "kind": "fixed",
+      "labelKey": "holidays.saint_georges_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 23
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "christmas_day_orthodox": "Christmas Day (Orthodox)",
+        "epiphany_orthodox": "Epiphany (Orthodox)",
+        "mothers_day": "Mother's Day",
+        "national_unity_day": "National Unity Day",
+        "good_friday_ge": "Good Friday",
+        "holy_saturday": "Holy Saturday",
+        "easter_sunday": "Easter Sunday",
+        "easter_monday_ge": "Easter Monday",
+        "day_of_victory_over_fascism": "Day of Victory over Fascism",
+        "saint_andrew_the_first_called_day": "Saint Andrew the First-Called Day",
+        "independence_day": "Independence Day",
+        "saint_marys_day": "Saint Mary's Day",
+        "day_of_svetitskhoveli_cathedra": "Day of Svetitskhoveli Cathedra",
+        "saint_georges_day": "Saint George's Day"
+      },
+      "ka": {
+        "new_years_day": "ახალი წელი",
+        "christmas_day_orthodox": "ქრისტეშობა",
+        "epiphany_orthodox": "ნათლისღება",
+        "mothers_day": "დედის დღე",
+        "national_unity_day": "ეროვნული ერთიანობის დღე",
+        "good_friday_ge": "ძველი პარასკევი",
+        "holy_saturday": "დიდი შაბათი",
+        "easter_sunday": "აღდგომის კვირა",
+        "easter_monday_ge": "აღდგომის ორშაბათი",
+        "day_of_victory_over_fascism": "ფაშიზმზე გამარჯვების დღე",
+        "saint_andrew_the_first_called_day": "წმინდა მოციქულის ანდრია პირველწოდებულის საქართველოში შემოსვლის დღე",
+        "independence_day": "დამოუკიდებლობის დღე",
+        "saint_marys_day": "მარიამობა",
+        "day_of_svetitskhoveli_cathedra": "სვეტიცხოვლობა",
+        "saint_georges_day": "გიორგობა"
+      },
+      "de": {
+        "new_years_day": "Neujahr",
+        "christmas_day_orthodox": "Weihnachtstag (orthodox)",
+        "epiphany_orthodox": "Dreikönigstag (orthodox)",
+        "mothers_day": "Muttertag",
+        "national_unity_day": "Tag der Nationalen Einheit",
+        "good_friday_ge": "Karfreitag",
+        "holy_saturday": "Karsamstag",
+        "easter_sunday": "Ostersonntag",
+        "easter_monday_ge": "Ostermontag",
+        "day_of_victory_over_fascism": "Tag des Sieges über den Faschismus",
+        "saint_andrew_the_first_called_day": "Tag des Heiligen Andreas des Erstberufenen",
+        "independence_day": "Unabhängigkeitstag",
+        "saint_marys_day": "Marientag",
+        "day_of_svetitskhoveli_cathedra": "Tag der Swetizchoweli-Kathedrale",
+        "saint_georges_day": "St.-Georgs-Tag"
+      },
+      "fr": {
+        "new_years_day": "Jour de l'An",
+        "christmas_day_orthodox": "Jour de Noël (orthodoxe)",
+        "epiphany_orthodox": "Épiphanie (orthodoxe)",
+        "mothers_day": "Fête des Mères",
+        "national_unity_day": "Journée de l'unité nationale",
+        "good_friday_ge": "Vendredi Saint",
+        "holy_saturday": "Samedi Saint",
+        "easter_sunday": "Dimanche de Pâques",
+        "easter_monday_ge": "Lundi de Pâques",
+        "day_of_victory_over_fascism": "Jour de la victoire sur le fascisme",
+        "saint_andrew_the_first_called_day": "Saint André, le Premier Jour Appelé",
+        "independence_day": "Jour de l'Indépendance",
+        "saint_marys_day": "Fête de la Sainte Marie",
+        "day_of_svetitskhoveli_cathedra": "Journée de la cathédrale Svetitskhoveli",
+        "saint_georges_day": "Fête de la Saint-Georges"
+      },
+      "es": {
+        "new_years_day": "Día de Año Nuevo",
+        "christmas_day_orthodox": "Día de Navidad (ortodoxo)",
+        "epiphany_orthodox": "Epifanía (ortodoxa)",
+        "mothers_day": "Día de la Madre",
+        "national_unity_day": "Día de la Unidad Nacional",
+        "good_friday_ge": "Viernes Santo",
+        "holy_saturday": "Sábado Santo",
+        "easter_sunday": "Domingo de Pascua",
+        "easter_monday_ge": "Lunes de Pascua",
+        "day_of_victory_over_fascism": "Día de la victoria sobre el fascismo",
+        "saint_andrew_the_first_called_day": "San Andrés el Día Primero Llamado",
+        "independence_day": "Día de la Independencia",
+        "saint_marys_day": "Día de Santa María",
+        "day_of_svetitskhoveli_cathedra": "Día de la Cátedra Svetitskhoveli",
+        "saint_georges_day": "Día de San Jorge"
+      },
+      "pt": {
+        "new_years_day": "Dia de Ano Novo",
+        "christmas_day_orthodox": "Dia de Natal (Ortodoxo)",
+        "epiphany_orthodox": "Epifania (Ortodoxa)",
+        "mothers_day": "Dia da Mãe",
+        "national_unity_day": "Dia da Unidade Nacional",
+        "good_friday_ge": "Sexta-feira Santa",
+        "holy_saturday": "Sábado Santo",
+        "easter_sunday": "Domingo de Páscoa",
+        "easter_monday_ge": "Segunda-feira de Páscoa",
+        "day_of_victory_over_fascism": "Dia da vitória sobre o fascismo",
+        "saint_andrew_the_first_called_day": "Dia de Santo André, o Primeiro Chamado",
+        "independence_day": "Dia da Independência",
+        "saint_marys_day": "Dia de Santa Maria",
+        "day_of_svetitskhoveli_cathedra": "Dia da Cátedra de Svetitskhoveli",
+        "saint_georges_day": "Dia de São Jorge"
+      },
+      "it": {
+        "new_years_day": "Capodanno",
+        "christmas_day_orthodox": "Giorno di Natale (ortodosso)",
+        "epiphany_orthodox": "Epifania (ortodossa)",
+        "mothers_day": "Festa della mamma",
+        "national_unity_day": "Festa dell'Unità Nazionale",
+        "good_friday_ge": "Venerdì Santo",
+        "holy_saturday": "Sabato Santo",
+        "easter_sunday": "Domenica di Pasqua",
+        "easter_monday_ge": "Lunedì di Pasquetta",
+        "day_of_victory_over_fascism": "Giorno della vittoria sul fascismo",
+        "saint_andrew_the_first_called_day": "Giorno di Sant'Andrea il Primo Chiamato",
+        "independence_day": "Giorno dell'Indipendenza",
+        "saint_marys_day": "Festa di Santa Maria",
+        "day_of_svetitskhoveli_cathedra": "Giorno della cattedrale di Svetitskhoveli",
+        "saint_georges_day": "Giorno di San Giorgio"
+      },
+      "pl": {
+        "new_years_day": "Nowy Rok",
+        "christmas_day_orthodox": "Boże Narodzenie (prawosławne)",
+        "epiphany_orthodox": "Objawienie Pańskie (prawosławne)",
+        "mothers_day": "Dzień Matki",
+        "national_unity_day": "Dzień Jedności Narodowej",
+        "good_friday_ge": "Dobry piątek",
+        "holy_saturday": "Wielka Sobota",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "easter_monday_ge": "Poniedziałek Wielkanocny",
+        "day_of_victory_over_fascism": "Dzień zwycięstwa nad faszyzmem",
+        "saint_andrew_the_first_called_day": "Dzień Świętego Andrzeja Pierwszego Powołanego",
+        "independence_day": "Święto Niepodległości",
+        "saint_marys_day": "Dzień Najświętszej Marii Panny",
+        "day_of_svetitskhoveli_cathedra": "Dzień Katedry Sweti Cchoweli",
+        "saint_georges_day": "Dzień Świętego Jerzego"
+      },
+      "nl": {
+        "new_years_day": "Nieuwjaarsdag",
+        "christmas_day_orthodox": "Eerste Kerstdag (Orthodox)",
+        "epiphany_orthodox": "Driekoningen (Orthodox)",
+        "mothers_day": "Moederdag",
+        "national_unity_day": "Nationale Eenheidsdag",
+        "good_friday_ge": "Goede Vrijdag",
+        "holy_saturday": "Stille Zaterdag",
+        "easter_sunday": "Paaszondag",
+        "easter_monday_ge": "Paasmaandag",
+        "day_of_victory_over_fascism": "Dag van de overwinning op het fascisme",
+        "saint_andrew_the_first_called_day": "Sint-Andreas, de eerstgenoemde dag",
+        "independence_day": "Onafhankelijkheidsdag",
+        "saint_marys_day": "Sint-Mariadag",
+        "day_of_svetitskhoveli_cathedra": "Dag van de Svetitskhoveli-kathedra",
+        "saint_georges_day": "Sint-Jorisdag"
+      },
+      "sv": {
+        "new_years_day": "Nyårsdagen",
+        "christmas_day_orthodox": "Juldagen (ortodox)",
+        "epiphany_orthodox": "Epiphany (ortodox)",
+        "mothers_day": "Mors dag",
+        "national_unity_day": "National Unity Day",
+        "good_friday_ge": "Långfredag",
+        "holy_saturday": "Heliga lördag",
+        "easter_sunday": "Påskdagen",
+        "easter_monday_ge": "Annandag påsk",
+        "day_of_victory_over_fascism": "Segerdagen över fascismen",
+        "saint_andrew_the_first_called_day": "Sankt Andreas den första kallade dagen",
+        "independence_day": "Självständighetsdagen",
+        "saint_marys_day": "Marias dag",
+        "day_of_svetitskhoveli_cathedra": "Svetitskhoveli-katedrans dag",
+        "saint_georges_day": "Sankt Georgs dag"
+      },
+      "ja": {
+        "new_years_day": "元旦",
+        "christmas_day_orthodox": "クリスマスの日（正統派）",
+        "epiphany_orthodox": "エピファニー（正統派）",
+        "mothers_day": "母の日",
+        "national_unity_day": "国民統一の日",
+        "good_friday_ge": "グッドフライデー",
+        "holy_saturday": "聖土曜日",
+        "easter_sunday": "イースターサンデー",
+        "easter_monday_ge": "イースターマンデー",
+        "day_of_victory_over_fascism": "ファシズムに対する勝利の日",
+        "saint_andrew_the_first_called_day": "聖アンドリュー最初に呼ばれた日",
+        "independence_day": "独立記念日",
+        "saint_marys_day": "聖マリアの日",
+        "day_of_svetitskhoveli_cathedra": "スヴェティツホヴェリ大聖堂の日",
+        "saint_georges_day": "聖ジョージの日"
+      },
+      "ko": {
+        "new_years_day": "설날",
+        "christmas_day_orthodox": "크리스마스(정교회)",
+        "epiphany_orthodox": "주현절(정교회)",
+        "mothers_day": "어버이날",
+        "national_unity_day": "전국 통일의 날",
+        "good_friday_ge": "성금요일",
+        "holy_saturday": "성토요일",
+        "easter_sunday": "부활절 일요일",
+        "easter_monday_ge": "부활절 월요일",
+        "day_of_victory_over_fascism": "파시즘에 대한 승리의 날",
+        "saint_andrew_the_first_called_day": "성 안드레아 첫 부르심을 받은 날",
+        "independence_day": "독립기념일",
+        "saint_marys_day": "성모 마리아의 날",
+        "day_of_svetitskhoveli_cathedra": "스베티츠호벨리 대성당의 날",
+        "saint_georges_day": "성 조지의 날"
+      },
+      "zh-Hant": {
+        "new_years_day": "元旦",
+        "christmas_day_orthodox": "聖誕節（東正教）",
+        "epiphany_orthodox": "主顯節（東正教）",
+        "mothers_day": "母親節",
+        "national_unity_day": "國家團結日",
+        "good_friday_ge": "耶稣受难日",
+        "holy_saturday": "聖週六",
+        "easter_sunday": "復活節週日",
+        "easter_monday_ge": "復活節星期一",
+        "day_of_victory_over_fascism": "Day of victory over fascism",
+        "saint_andrew_the_first_called_day": "聖安德魯初召日",
+        "independence_day": "獨立日",
+        "saint_marys_day": "聖瑪麗節",
+        "day_of_svetitskhoveli_cathedra": "Day of Svetitskhoveli Cathedra",
+        "saint_georges_day": "聖喬治節"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "mothers_day": {
+          "intro": "Der Muttertag ehrt Mütter und ihre wichtige Rolle in Familie und Gesellschaft. Er wird in den meisten Ländern am zweiten Sonntag im Mai gefeiert.",
+          "history": "Die Amerikanerin Anna Jarvis initiierte den modernen Muttertag 1907 zum Gedenken an ihre verstorbene Mutter und kämpfte erfolgreich für seine offizielle Anerkennung – 1914 erklärte US-Präsident Woodrow Wilson den zweiten Sonntag im Mai zum nationalen Feiertag. Bereits 1923 importierte der „Verband Deutscher Blumengeschäftsinhaber” den Muttertag nach Deutschland – aus naheliegenden kommerziellen Gründen. Ironischerweise wandte sich Anna Jarvis später erbittert gegen die Kommerzialisierung des Festes.",
+          "traditions": "Kinder schenken ihren Müttern Blumen – meist Tulpen, Rosen oder eine bunte Frühlingsmischung. Selbst gebastelte Karten und gemalte Bilder sind besonders beliebt bei jüngeren Kindern. Viele Familien laden zum Muttertagsbrunch ein oder kochen das Lieblingsessen der Mutter. Restaurants sind an diesem Sonntag traditionell ausgebucht.",
+          "funFacts": [
+            "Floristen erzielen am Muttertag den höchsten Umsatz des Jahres – noch vor dem Valentinstag.",
+            "Die meisten Telefonate des Jahres werden in Nordamerika am Muttertag geführt.",
+            "Anna Jarvis ließ sich später wegen einer Kampagne gegen den kommerzialisierten Muttertag verhaften.",
+            "In Thailand fällt der Muttertag auf den 12. August – den Geburtstag von Königin Sirikit."
+          ],
+          "imageCredit": "Foto: Kor!An (Андрей Корзун) · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "Der Internationale Frauentag am 8. März steht weltweit für die Gleichberechtigung von Frauen, ihre Errungenschaften und den Kampf gegen Diskriminierung.",
+          "history": "Der Frauentag entstand aus der sozialistischen Frauenbewegung. Die deutsche Politikerin Clara Zetkin schlug 1910 in Kopenhagen einen jährlichen Aktionstag vor; bereits 1911 gingen Millionen Frauen in Europa erstmals dafür auf die Straße. 1921 setzte Lenin den 8. März fest, in Erinnerung an den Petrograder Frauenstreik vom März 1917, der die russische Februarrevolution mitauslöste. Die UNO erklärte 1975 den Tag offiziell zum „Tag der Vereinten Nationen für die Rechte der Frau”.",
+          "traditions": "Frauen erhalten Blumen – traditionell Mimosen oder Tulpen – und werden mit Karten oder kleinen Geschenken bedacht. In vielen Städten finden Demonstrationen, Vorträge und kulturelle Veranstaltungen statt. In Berlin ist der 8. März seit 2019 gesetzlicher Feiertag, in Italien schenken Männer Frauen Mimosenzweige.",
+          "funFacts": [
+            "In Russland und mehreren ehemaligen Sowjetstaaten ist der 8. März offizieller arbeitsfreier Feiertag.",
+            "Mecklenburg-Vorpommern führte 2023 als zweites deutsches Bundesland nach Berlin den Frauentag als Feiertag ein.",
+            "Die UN-Themen wechseln jährlich – z. B. „Inspire Inclusion” oder „DigitALL”.",
+            "In Italien gilt die Mimose als Symbol weiblicher Stärke, weil sie auch in widrigen Bedingungen blüht."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Ostersonntag ist das höchste Fest des Christentums – Tag der Auferstehung Jesu Christi und Höhepunkt des Kirchenjahres.",
+          "history": "Ostern entwickelte sich aus dem jüdischen Pessachfest und wird seit dem 1. Jahrhundert von Christen begangen. Die Kirche legte 325 in Nicäa fest, dass Ostern stets am ersten Sonntag nach dem ersten Frühlingsvollmond gefeiert wird – daher das wechselnde Datum zwischen 22. März und 25. April. Der Name „Ostern” geht möglicherweise auf die germanische Frühlingsgöttin Ostara zurück, oder schlicht auf das althochdeutsche „eostarum” (Morgenröte).",
+          "traditions": "Familien beginnen den Tag mit einem festlichen Osterfrühstück mit gefärbten Eiern, Hefezopf und Osterlamm. Kinder suchen die vom Osterhasen versteckten Eier und Süßigkeiten im Garten. In vielen Gemeinden gibt es Osterfeuer, Osterprozessionen und feierliche Gottesdienste mit Glockenklang.",
+          "funFacts": [
+            "Das Osterdatum kann zwischen dem 22. März und dem 25. April liegen – der nächste „frühe” Ostersonntag (22. März) findet erst 2285 wieder statt.",
+            "Der größte Osterhase der Welt steht in Brasilien und ist über 4,2 m hoch.",
+            "Russisch-Orthodoxe Christen feiern Ostern oft an einem anderen Tag als West-Christen, weil sie den julianischen Kalender benutzen.",
+            "In Polen lässt man am Karsamstag Speisen in Körben für die Ostersonntag-Mahlzeit segnen („Święconka”)."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "mothers_day": {
+          "intro": "Mother's Day honors mothers and their important role in family and society. In most countries it is celebrated on the second Sunday in May.",
+          "history": "American Anna Jarvis launched the modern Mother's Day in 1907 in memory of her late mother and successfully campaigned for its official recognition — in 1914 President Woodrow Wilson declared the second Sunday in May a national holiday. By 1923 the German florists' association had imported Mother's Day to Germany — for obvious commercial reasons. Ironically, Anna Jarvis later fought bitterly against the commercialization of the festival.",
+          "traditions": "Children give their mothers flowers — usually tulips, roses or a colorful spring mix. Hand-made cards and crayoned drawings are especially popular among younger children. Many families have a Mother's Day brunch or cook the mother's favorite dish. Restaurants are traditionally fully booked on this Sunday.",
+          "funFacts": [
+            "Florists post their highest revenue of the year on Mother's Day — even higher than Valentine's.",
+            "Mother's Day generates the most phone calls of the year in North America.",
+            "Anna Jarvis was later arrested for protesting against the commercialization of Mother's Day she had created.",
+            "In Thailand Mother's Day falls on August 12th — the birthday of Queen Sirikit."
+          ],
+          "imageCredit": "Photo: Kor!An (Андрей Корзун) · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "International Women's Day on March 8th stands worldwide for women's equality, their achievements and the fight against discrimination.",
+          "history": "Women's Day grew out of the socialist women's movement. German politician Clara Zetkin proposed an annual day of action in Copenhagen in 1910; by 1911 millions of women across Europe were marching for it. In 1921 Lenin fixed it on March 8th, in memory of the Petrograd women's strike of March 1917 that helped trigger the Russian February Revolution. The UN officially recognized the day in 1975 as the ‘UN Day for Women's Rights'.",
+          "traditions": "Women receive flowers — traditionally mimosas or tulips — along with cards and small gifts. Many cities host demonstrations, talks and cultural events. In Berlin, March 8th has been a public holiday since 2019; in Italy men give women sprigs of mimosa.",
+          "funFacts": [
+            "In Russia and several former Soviet states, March 8th is an official non-working public holiday.",
+            "Mecklenburg-Vorpommern in 2023 became the second German state after Berlin to make Women's Day a public holiday.",
+            "UN themes change yearly — for example ‘Inspire Inclusion' or ‘DigitALL'.",
+            "In Italy the mimosa is the symbol of women's strength because it blooms even in tough conditions."
+          ],
+          "imageCredit": "Photo: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Easter Sunday is Christianity's highest festival — the day of Jesus Christ's resurrection and the climax of the church year.",
+          "history": "Easter grew out of the Jewish Passover and has been observed by Christians since the 1st century. The Church set in 325 at Nicaea that Easter is always celebrated on the first Sunday after the first spring full moon — hence the moving date between March 22nd and April 25th. The English name ‘Easter' may go back to the Germanic spring goddess Eostre, or simply to the Old High German ‘eostarum' (dawn).",
+          "traditions": "Families start the day with a festive Easter breakfast featuring colored eggs, sweet braided bread and Easter lamb cake. Children search the garden for the eggs and treats hidden by the Easter Bunny. Many parishes hold Easter fires, processions and joyful services with bells.",
+          "funFacts": [
+            "Easter can fall between March 22nd and April 25th — the next ‘early' Easter (March 22nd) won't return until 2285.",
+            "The world's largest Easter Bunny stands in Brazil and is over 4.2 m tall.",
+            "Russian Orthodox Christians often celebrate Easter on a different day from Western Christians because they use the Julian calendar.",
+            "In Poland, Holy Saturday baskets of food (‘Święconka') are blessed for the Sunday meal."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "mothers_day": {
+          "intro": "La fête des Mères honore les mères et leur rôle essentiel dans la famille et la société. Dans la plupart des pays, elle se célèbre le deuxième dimanche de mai.",
+          "history": "L'Américaine Anna Jarvis lança la fête des Mères moderne en 1907, en mémoire de sa mère défunte, et milita pour sa reconnaissance officielle — en 1914, le président Woodrow Wilson en fit une fête nationale. En France, la fête des Mères a été officialisée en 1950 par une loi proposée par René Coty, mais ses racines remontent à 1906 (initiative de l'abbé Calvet à Artas). Elle est traditionnellement le dernier dimanche de mai (ou le premier de juin si la Pentecôte tombe en même temps).",
+          "traditions": "Les enfants offrent à leur mère des fleurs — souvent tulipes, roses ou un bouquet printanier coloré. Les cartes faites main sont particulièrement appréciées des plus jeunes. Beaucoup de familles invitent à un brunch ou cuisinent le plat préféré de maman. Les restaurants sont traditionnellement complets ce dimanche-là.",
+          "funFacts": [
+            "Les fleuristes réalisent leur meilleur chiffre d'affaires de l'année à la fête des Mères — devant la Saint-Valentin.",
+            "La fête des Mères engendre le plus grand nombre d'appels téléphoniques de l'année en Amérique du Nord.",
+            "Anna Jarvis fut plus tard arrêtée pour avoir manifesté contre la commercialisation de la fête qu'elle avait elle-même créée.",
+            "En Thaïlande, la fête des Mères est le 12 août — anniversaire de la reine Sirikit."
+          ],
+          "imageCredit": "Photo: Kor!An (Андрей Корзун) · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "La Journée internationale des femmes, le 8 mars, symbolise l'égalité des femmes, leurs avancées et la lutte contre les discriminations.",
+          "history": "La Journée des femmes est née du mouvement socialiste féministe. La politicienne allemande Clara Zetkin proposa en 1910, à Copenhague, une journée d'action annuelle ; dès 1911, des millions de femmes manifestaient en Europe. En 1921, Lénine fixa le 8 mars en mémoire de la grève des ouvrières de Petrograd de mars 1917, qui contribua à déclencher la révolution russe de février. L'ONU l'a officiellement reconnue en 1975 comme ‘Journée des Nations Unies pour les droits de la femme'.",
+          "traditions": "Les femmes reçoivent des fleurs — traditionnellement des mimosas ou des tulipes — accompagnées de cartes et petits cadeaux. De nombreuses villes organisent manifestations, conférences et événements culturels. À Berlin, le 8 mars est jour férié depuis 2019 ; en Italie, les hommes offrent un brin de mimosa.",
+          "funFacts": [
+            "En Russie et plusieurs anciens États soviétiques, le 8 mars est jour férié officiel.",
+            "Le Mecklembourg-Poméranie occidentale est devenu en 2023 le deuxième Land allemand, après Berlin, à ériger le 8 mars en jour férié.",
+            "Les Nations Unies définissent un thème chaque année — par exemple ‘Inspire Inclusion' ou ‘DigitALL'.",
+            "En Italie, la mimosa symbolise la force féminine car elle fleurit même dans des conditions difficiles."
+          ],
+          "imageCredit": "Photo: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Le dimanche de Pâques est la fête la plus importante du christianisme — jour de la résurrection de Jésus-Christ et sommet de l'année liturgique.",
+          "history": "Pâques est issue de la Pâque juive et célébrée par les chrétiens depuis le Ier siècle. L'Église fixa en 325 à Nicée que Pâques se célébrerait toujours le premier dimanche après la première pleine lune de printemps — d'où la date mobile entre le 22 mars et le 25 avril. Le nom ‘Easter' (anglais) viendrait de la déesse germanique du printemps Eostre, ou simplement du vieux haut-allemand ‘eostarum' (aurore).",
+          "traditions": "Les familles entament la journée par un petit-déjeuner pascal festif avec œufs colorés, brioche tressée et agneau pascal. Les enfants cherchent les œufs et friandises cachés par le lapin de Pâques. Dans de nombreuses paroisses, on allume des feux de Pâques, des processions et des messes solennelles avec carillons.",
+          "funFacts": [
+            "Pâques peut tomber entre le 22 mars et le 25 avril — le prochain Pâques ‘précoce' (22 mars) ne reviendra qu'en 2285.",
+            "Le plus grand lapin de Pâques du monde se trouve au Brésil et mesure plus de 4,2 m.",
+            "Les chrétiens orthodoxes russes célèbrent souvent Pâques un autre jour, car ils utilisent le calendrier julien.",
+            "En Pologne, on bénit le Samedi Saint des paniers de nourriture (‘Święconka') pour le repas du dimanche."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "mothers_day": {
+          "intro": "El Día de la Madre honra a las madres y su papel esencial en la familia y la sociedad. En la mayoría de países se celebra el segundo domingo de mayo.",
+          "history": "La estadounidense Anna Jarvis impulsó el moderno Día de la Madre en 1907 en memoria de su madre fallecida y luchó por su reconocimiento oficial — en 1914 el presidente Woodrow Wilson lo declaró fiesta nacional el segundo domingo de mayo. En 1923 la asociación alemana de floristas importó el Día de la Madre por evidentes razones comerciales. Irónicamente, Anna Jarvis combatió luego encarnizadamente la comercialización del día.",
+          "traditions": "Los hijos regalan flores a sus madres — generalmente tulipanes, rosas o un ramo primaveral. Las tarjetas hechas a mano y los dibujos pintados son favoritos entre los más pequeños. Muchas familias organizan un brunch o cocinan el plato favorito de mamá. Los restaurantes están tradicionalmente al completo ese domingo.",
+          "funFacts": [
+            "Las floristerías hacen su mayor facturación del año en el Día de la Madre — más incluso que en San Valentín.",
+            "El Día de la Madre genera el mayor número de llamadas telefónicas del año en Norteamérica.",
+            "Anna Jarvis fue arrestada por protestar contra la comercialización del propio día que había creado.",
+            "En Tailandia el Día de la Madre es el 12 de agosto — cumpleaños de la reina Sirikit."
+          ],
+          "imageCredit": "Foto: Kor!An (Андрей Корзун) · CC BY-SA 3.0 vía Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "El Día Internacional de la Mujer, el 8 de marzo, simboliza la igualdad de las mujeres, sus logros y la lucha contra la discriminación.",
+          "history": "El Día de la Mujer surgió del movimiento socialista de mujeres. La política alemana Clara Zetkin propuso en Copenhague en 1910 una jornada anual; ya en 1911 millones de mujeres salieron a la calle en Europa. En 1921 Lenin fijó el 8 de marzo en recuerdo de la huelga de mujeres de Petrogrado de marzo de 1917, que ayudó a desencadenar la Revolución de Febrero rusa. La ONU lo reconoció oficialmente en 1975 como ‘Día de las Naciones Unidas para los Derechos de la Mujer'.",
+          "traditions": "Las mujeres reciben flores — tradicionalmente mimosas o tulipanes — junto con tarjetas y pequeños obsequios. Muchas ciudades organizan manifestaciones, charlas y eventos culturales. En Berlín el 8 de marzo es festivo desde 2019, en Italia los hombres regalan ramitas de mimosa a las mujeres.",
+          "funFacts": [
+            "En Rusia y varios estados ex-soviéticos el 8 de marzo es festivo oficial no laborable.",
+            "En 2023 Mecklemburgo-Pomerania Occidental se convirtió en el segundo estado alemán, tras Berlín, en convertir el Día de la Mujer en festivo.",
+            "Cada año la ONU define un lema diferente — por ejemplo ‘Inspire Inclusion' o ‘DigitALL'.",
+            "En Italia la mimosa simboliza la fortaleza femenina porque florece incluso en condiciones difíciles."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "El Domingo de Pascua es la fiesta más importante del cristianismo: el día de la resurrección de Jesús y culmen del año litúrgico.",
+          "history": "La Pascua surgió de la fiesta judía de Pésaj y se celebra desde el siglo I. La Iglesia fijó en 325 en Nicea que se celebrara el primer domingo tras la primera luna llena de primavera — de ahí la fecha variable entre el 22 de marzo y el 25 de abril. El nombre ‘Easter' (inglés) puede derivar de la diosa germánica de la primavera Eostre, o del antiguo alto alemán ‘eostarum' (alba).",
+          "traditions": "Las familias inician el día con un desayuno festivo con huevos coloreados, trenzas dulces y cordero pascual. Los niños buscan los huevos y dulces escondidos por el Conejo de Pascua. En muchas comunidades hay hogueras de Pascua, procesiones y misas solemnes con campanas.",
+          "funFacts": [
+            "La Pascua puede caer entre el 22 de marzo y el 25 de abril — el próximo Domingo de Pascua ‘temprano' (22 de marzo) no llegará hasta 2285.",
+            "El conejo de Pascua más grande del mundo está en Brasil y mide más de 4,2 m.",
+            "Los cristianos ortodoxos rusos suelen celebrar la Pascua otro día, ya que usan el calendario juliano.",
+            "En Polonia se bendicen las cestas de comida (‘Święconka') el Sábado Santo para el almuerzo del domingo."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "mothers_day": {
+          "intro": "O Dia da Mãe homenageia as mães e o seu papel essencial na família e na sociedade. Em Portugal celebra-se no primeiro domingo de maio.",
+          "history": "A americana Anna Jarvis lançou o moderno Dia da Mãe em 1907, em memória da sua mãe falecida, e fez campanha pelo seu reconhecimento oficial — em 1914 o Presidente Wilson declarou o segundo domingo de maio feriado nacional. Em Portugal celebra-se no primeiro domingo de maio (data diferente da maioria dos países). O dia foi originalmente celebrado a 8 de dezembro (Imaculada Conceição), mas em 1972 a data foi mudada para o primeiro domingo de maio. Ironicamente, Anna Jarvis lutou depois ferozmente contra a comercialização da festa.",
+          "traditions": "Os filhos oferecem às mães flores — geralmente tulipas, rosas ou um bouquet primaveril colorido. Cartões e desenhos feitos à mão são especialmente populares entre os mais novos. Muitas famílias organizam um almoço ou cozinham o prato favorito da mãe. Em Portugal, é tradição as crianças oferecerem trabalhos manuais feitos no infantário ou na escola.",
+          "funFacts": [
+            "As floristas registam o maior volume de vendas do ano no Dia da Mãe — mais até do que no Dia de São Valentim.",
+            "O Dia da Mãe gera o maior número de chamadas telefónicas do ano na América do Norte.",
+            "Anna Jarvis foi mais tarde detida por protestar contra a comercialização do dia que ela própria criara.",
+            "Na Tailândia, o Dia da Mãe é a 12 de agosto — aniversário da Rainha Sirikit."
+          ],
+          "imageCredit": "Foto: Kor!An (Андрей Корзун) · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "O Dia Internacional da Mulher, 8 de março, simboliza a igualdade das mulheres, as suas conquistas e a luta contra a discriminação.",
+          "history": "O Dia da Mulher nasceu do movimento socialista feminino. A política alemã Clara Zetkin propôs em Copenhaga, em 1910, um dia anual de ação; já em 1911 milhões de mulheres na Europa saíram à rua. Em 1921, Lenine fixou o 8 de março, em memória da greve das operárias de Petrogrado em março de 1917, que ajudou a desencadear a Revolução de Fevereiro russa. A ONU reconheceu-o oficialmente em 1975 como ‘Dia das Nações Unidas para os Direitos da Mulher'.",
+          "traditions": "As mulheres recebem flores — tradicionalmente mimosas ou tulipas — junto com cartões e pequenas lembranças. Em muitas cidades realizam-se manifestações, palestras e eventos culturais. Em Berlim, o 8 de março é feriado desde 2019; em Itália, os homens oferecem ramos de mimosa às mulheres.",
+          "funFacts": [
+            "Na Rússia e em vários antigos estados soviéticos, o 8 de março é feriado oficial não trabalhado.",
+            "Em 2023, Mecklemburgo-Pomerânia Ocidental tornou-se o segundo estado alemão a seguir Berlim a tornar o Dia da Mulher feriado.",
+            "Os temas da ONU mudam todos os anos — por exemplo ‘Inspire Inclusion' ou ‘DigitALL'.",
+            "Em Itália, a mimosa simboliza a força feminina porque floresce mesmo em condições difíceis."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "O Domingo de Páscoa é a festa mais importante do cristianismo — dia da ressurreição de Jesus Cristo e ápice do ano litúrgico.",
+          "history": "A Páscoa surgiu da festa judaica de Pessach e é celebrada pelos cristãos desde o século I. A Igreja fixou em 325 em Niceia que a Páscoa se celebra sempre no primeiro domingo após a primeira lua cheia da primavera — daí a data móvel entre 22 de março e 25 de abril. Em Portugal, é uma das festas religiosas mais importantes, com missas solenes, procissões e a tradição do compasso pascal — visita do pároco às casas para abençoá-las.",
+          "traditions": "Em Portugal o Domingo de Páscoa é dia de almoço de família com cabrito assado, folar e amêndoas. Antes do almoço, em algumas regiões (sobretudo Trás-os-Montes), o pároco visita as casas levando a cruz para beijar — o ‘compasso pascal'. As crianças procuram amêndoas e ovos de chocolate escondidos. Em muitas paróquias acendem-se fogos pascais e há procissões.",
+          "funFacts": [
+            "A Páscoa pode cair entre 22 de março e 25 de abril — a próxima Páscoa ‘precoce' (22 de março) só voltará em 2285.",
+            "O maior coelho da Páscoa do mundo está no Brasil e mede mais de 4,2 m.",
+            "Os cristãos ortodoxos russos costumam celebrar a Páscoa noutro dia, pois usam o calendário juliano.",
+            "Em Portugal, no compasso pascal, o pároco visita as casas com a cruz para beijar — quem não recebe o compasso é considerado ‘casa fechada'."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "mothers_day": {
+          "intro": "La Festa della Mamma onora le madri e il loro ruolo essenziale nella famiglia e nella società. In Italia si celebra la seconda domenica di maggio.",
+          "history": "L'americana Anna Jarvis lanciò la moderna Festa della Mamma nel 1907 in memoria della madre defunta e si batté per il suo riconoscimento ufficiale — nel 1914 il presidente Woodrow Wilson la dichiarò festa nazionale la seconda domenica di maggio. In Italia fu istituita ufficialmente nel 1957 a Bordighera. L'iniziativa nacque dal sindaco Raul Zaccari e dal pievano Don Otto Migliorini, che proposero il giorno per onorare tutte le madri.",
+          "traditions": "I figli regalano alle madri fiori — solitamente tulipani, rose o un mazzo primaverile colorato. Biglietti fatti a mano e disegni colorati sono particolarmente apprezzati dai più piccoli. Molte famiglie invitano a un pranzo o cucinano il piatto preferito della mamma. I ristoranti sono tradizionalmente al completo questa domenica.",
+          "funFacts": [
+            "I fiorai realizzano il maggior fatturato dell'anno alla Festa della Mamma — più che a San Valentino.",
+            "La Festa della Mamma genera il maggior numero di telefonate dell'anno in Nord America.",
+            "Anna Jarvis fu poi arrestata per aver protestato contro la commercializzazione della festa che lei stessa aveva creato.",
+            "In Tailandia la Festa della Mamma è il 12 agosto — compleanno della regina Sirikit."
+          ],
+          "imageCredit": "Foto: Kor!An (Андрей Корзун) · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "La Giornata internazionale della donna, l'8 marzo, simboleggia la parità delle donne, le loro conquiste e la lotta contro la discriminazione.",
+          "history": "La Giornata della Donna è nata dal movimento socialista femminile. La politica tedesca Clara Zetkin propose nel 1910 a Copenaghen una giornata d'azione annuale; già nel 1911 milioni di donne in Europa scendevano in piazza. Nel 1921 Lenin fissò l'8 marzo, in memoria dello sciopero delle operaie di Pietrogrado del marzo 1917, che contribuì a far scoppiare la rivoluzione russa di febbraio. L'ONU lo ha riconosciuto ufficialmente nel 1975 come ‘Giornata delle Nazioni Unite per i diritti delle donne'.",
+          "traditions": "In Italia le donne ricevono mimose, simbolo della giornata. Si organizzano manifestazioni, conferenze ed eventi culturali. A Berlino l'8 marzo è festivo dal 2019. In Italia gli uomini regalano alle donne rametti di mimosa.",
+          "funFacts": [
+            "In Russia e in vari ex stati sovietici l'8 marzo è festivo ufficiale non lavorativo.",
+            "Nel 2023 il Meclemburgo-Pomerania Anteriore è diventato il secondo Land tedesco, dopo Berlino, a istituire la festa come festivo.",
+            "I temi delle Nazioni Unite cambiano ogni anno — ad esempio ‘Inspire Inclusion' o ‘DigitALL'.",
+            "In Italia la mimosa simboleggia la forza femminile perché fiorisce anche in condizioni difficili."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "La Domenica di Pasqua è la festa più importante del cristianesimo — giorno della resurrezione di Gesù e culmine dell'anno liturgico.",
+          "history": "La Pasqua si è sviluppata dalla festa ebraica di Pesach ed è celebrata dai cristiani dal I secolo. La Chiesa stabilì nel 325 a Nicea che la Pasqua si celebra sempre la prima domenica dopo il primo plenilunio di primavera — da qui la data variabile tra il 22 marzo e il 25 aprile. In Italia, oltre al pranzo familiare con agnello, colomba e uova di cioccolato, è tradizione la benedizione delle case.",
+          "traditions": "Le famiglie iniziano la giornata con una colazione pasquale festiva con uova colorate, colomba e agnello pasquale. I bambini cercano le uova nascoste dal coniglio pasquale. In molte parrocchie si accendono fuochi pasquali, processioni e messe solenni con suono delle campane. In Italia, è tradizione il pranzo con agnello al forno, colomba pasquale e uova di cioccolato.",
+          "funFacts": [
+            "La Pasqua può cadere tra il 22 marzo e il 25 aprile — la prossima Pasqua ‘precoce' (22 marzo) tornerà solo nel 2285.",
+            "Il più grande coniglio pasquale del mondo si trova in Brasile e supera i 4,2 m.",
+            "I cristiani ortodossi russi spesso celebrano la Pasqua in un altro giorno, perché usano il calendario giuliano.",
+            "In Polonia il Sabato Santo si benedicono cesti di cibo (‘Święconka') per il pranzo della domenica."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "mothers_day": {
+          "intro": "Dzień Matki czci matki i ich istotną rolę w rodzinie i społeczeństwie. W Polsce obchodzony jest 26 maja, w innych krajach najczęściej w drugą niedzielę maja.",
+          "history": "Amerykanka Anna Jarvis zainicjowała współczesny Dzień Matki w 1907 roku ku pamięci zmarłej matki i wywalczyła oficjalne uznanie — w 1914 roku prezydent Wilson ogłosił drugą niedzielę maja świętem narodowym. Pierwszy raz w Polsce świętowano Dzień Matki w 1914 roku w Krakowie. Od tamtej pory obchodzony jest 26 maja, niezależnie od dnia tygodnia. Ironicznie, Anna Jarvis później zaciekle walczyła z komercjalizacją święta.",
+          "traditions": "Polskie dzieci wręczają mamom kwiaty — tradycyjnie tulipany, goździki lub bukiet wiosenny — ręcznie zrobione laurki, wierszyki i drobne prezenty. W przedszkolach i szkołach organizuje się specjalne akademie z występami dzieci dla mam. Wiele rodzin urządza uroczysty obiad lub gotuje ulubione danie mamy.",
+          "funFacts": [
+            "Kwiaciarnie odnotowują największe obroty roku w Dniu Matki — większe nawet niż w Walentynki.",
+            "W Polsce Dzień Matki jest zawsze 26 maja — niezależnie od dnia tygodnia.",
+            "Anna Jarvis została później aresztowana za protesty przeciwko komercjalizacji święta, które sama stworzyła.",
+            "W Tajlandii Dzień Matki przypada 12 sierpnia — w urodziny królowej Sirikit."
+          ],
+          "imageCredit": "Zdjęcie: Kor!An (Андрей Корзун) · CC BY-SA 3.0 przez Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "Międzynarodowy Dzień Kobiet, 8 marca, symbolizuje równość kobiet, ich osiągnięcia oraz walkę z dyskryminacją.",
+          "history": "Dzień Kobiet narodził się z socjalistycznego ruchu kobiecego. Niemiecka działaczka Clara Zetkin zaproponowała w Kopenhadze w 1910 roku coroczny dzień akcji; już w 1911 roku miliony kobiet w Europie wyszły na ulice. W 1921 roku Lenin ustalił 8 marca w nawiązaniu do strajku kobiet w Piotrogrodzie z marca 1917 roku, który pomógł wywołać rewolucję lutową. ONZ uznała dzień oficjalnie w 1975 roku jako ‘Dzień ONZ na rzecz Praw Kobiet'. W Polsce był obchodzony oficjalnie w PRL — choć w sposób przerysowany — i powrócił do łask w nowej formie po 1989 roku.",
+          "traditions": "W Polsce kobiety otrzymują kwiaty — tradycyjnie tulipany, goździki lub mimozy. Mężowie i synowie składają życzenia, koledzy w pracy wręczają drobne upominki. W wielu miastach odbywają się manifestacje, spotkania i wydarzenia kulturalne. W Berlinie 8 marca jest dniem wolnym od pracy od 2019 roku.",
+          "funFacts": [
+            "W Rosji i kilku byłych państwach radzieckich 8 marca jest oficjalnym dniem wolnym od pracy.",
+            "W 2023 roku Meklemburgia-Pomorze Przednie stała się drugim landem niemieckim po Berlinie, który ustanowił Dzień Kobiet dniem wolnym.",
+            "W PRL goździk był symbolem dnia — ze względu na łatwą dostępność i kolor czerwony.",
+            "We Włoszech mimoza symbolizuje siłę kobiet, ponieważ kwitnie nawet w trudnych warunkach."
+          ],
+          "imageCredit": "Zdjęcie: Alina.neve · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Niedziela Wielkanocna jest najważniejszym świętem chrześcijaństwa — dniem zmartwychwstania Jezusa Chrystusa i punktem kulminacyjnym roku liturgicznego.",
+          "history": "Wielkanoc wywodzi się z żydowskiego święta Paschy i obchodzona jest przez chrześcijan od I wieku. Kościół ustalił w 325 roku w Nicei, że Wielkanoc świętowana jest zawsze w pierwszą niedzielę po pierwszej wiosennej pełni księżyca — stąd ruchoma data między 22 marca a 25 kwietnia. W Polsce tradycja święcenia pokarmów (‘święconki') sięga XIV wieku i jest jedną z najsilniej zachowanych tradycji.",
+          "traditions": "W Polsce w Niedzielę Wielkanocną rodziny zaczynają dzień uroczystym śniadaniem z poświęconych w Wielką Sobotę pokarmów (‘święconki') — jajek, kiełbasy, szynki, chrzanu, baranka z masła czy cukru, mazurka i babki. Następnie idzie się na uroczystą mszę. Wieczorem często odbywają się rodzinne spotkania.",
+          "funFacts": [
+            "Wielkanoc może wypadać między 22 marca a 25 kwietnia — następna ‘wczesna' Wielkanoc (22 marca) wypadnie dopiero w 2285 roku.",
+            "Polskie tradycyjne palmy wielkanocne z Kurpii i Łysych potrafią mieć ponad 30 metrów wysokości — coroczny konkurs w Niedzielę Palmową.",
+            "Rosyjscy prawosławni często świętują Wielkanoc innego dnia, bo używają kalendarza juliańskiego.",
+            "Polskie ‘pisanki' to jedne z najpiękniejszych ozdób wielkanocnych świata — popularne motywy regionalne, np. opolskie, kurpiowskie."
+          ],
+          "imageCredit": "Zdjęcie: Geolina163 · CC BY-SA 4.0 przez Wikimedia Commons"
+        }
+      },
+      "nl": {
+        "mothers_day": {
+          "intro": "Op Moederdag worden moeders geëerd en wordt hun belangrijke rol in het gezin en de samenleving erkend. In de meeste landen wordt deze dag gevierd op de tweede zondag van mei.",
+          "history": "De Amerikaanse Anna Jarvis introduceerde in 1907 de moderne Moederdag ter nagedachtenis aan haar overleden moeder en voerde met succes campagne voor de officiële erkenning ervan — in 1914 riep president Woodrow Wilson de tweede zondag van mei uit tot nationale feestdag. In 1923 had de Duitse bloemistenvereniging Moederdag naar Duitsland geïntroduceerd — om voor de hand liggende commerciële redenen. Ironisch genoeg vocht Anna Jarvis later fel tegen de commercialisering van het feest.",
+          "traditions": "Kinderen geven hun moeders bloemen — meestal tulpen, rozen of een kleurrijk lenteboeket. Zelfgemaakte kaartjes en tekeningen met kleurpotloden zijn vooral populair bij jongere kinderen. Veel gezinnen houden een Moederdagbrunch of bereiden het favoriete gerecht van de moeder. Restaurants zitten op deze zondag traditioneel volgeboekt.",
+          "funFacts": [
+            "Bloemisten behalen op Moederdag hun hoogste omzet van het jaar — zelfs hoger dan op Valentijnsdag.",
+            "Moederdag zorgt in Noord-Amerika voor het grootste aantal telefoontjes van het jaar.",
+            "Anna Jarvis werd later gearresteerd omdat ze protesteerde tegen de commercialisering van Moederdag, die zij zelf in het leven had geroepen.",
+            "In Thailand valt Moederdag op 12 augustus — de verjaardag van koningin Sirikit."
+          ],
+          "imageCredit": "Foto: Kor!An (Андрей Корзун) · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "Internationale Vrouwendag op 8 maart staat wereldwijd symbool voor de gelijkheid van vrouwen, hun prestaties en de strijd tegen discriminatie.",
+          "history": "Vrouwendag is voortgekomen uit de socialistische vrouwenbeweging. De Duitse politica Clara Zetkin stelde in 1910 in Kopenhagen een jaarlijkse actiedag voor; in 1911 marcheerden al miljoenen vrouwen in heel Europa voor deze dag. In 1921 stelde Lenin de datum vast op 8 maart, ter nagedachtenis aan de vrouwenstaking in Petrograd van maart 1917, die mede aanleiding gaf tot de Russische Februari-revolutie. De VN erkende de dag in 1975 officieel als de ‘VN-dag voor vrouwenrechten’.",
+          "traditions": "Vrouwen krijgen bloemen — traditioneel mimosa’s of tulpen — samen met kaartjes en kleine cadeautjes. In veel steden worden demonstraties, lezingen en culturele evenementen georganiseerd. In Berlijn is 8 maart sinds 2019 een officiële feestdag; in Italië geven mannen vrouwen takjes mimosa.",
+          "funFacts": [
+            "In Rusland en verschillende voormalige Sovjetstaten is 8 maart een officiële vrije feestdag.",
+            "Mecklenburg-Vorpommern heeft in 2023, na Berlijn, als tweede Duitse deelstaat Vrouwendag tot officiële feestdag uitgeroepen.",
+            "De thema's van de VN veranderen elk jaar — bijvoorbeeld ‘Inspire Inclusion’ of ‘DigitALL’.",
+            "In Italië staat de mimosa symbool voor de kracht van vrouwen, omdat ze zelfs onder moeilijke omstandigheden bloeit."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Paaszondag is het belangrijkste feest in het christendom — de dag van de verrijzenis van Jezus Christus en het hoogtepunt van het kerkelijk jaar.",
+          "history": "Pasen is voortgekomen uit het joodse Pesach en wordt al sinds de 1e eeuw door christenen gevierd. In 325 besloot de Kerk in Nicea dat Pasen altijd wordt gevierd op de eerste zondag na de eerste volle maan van de lente — vandaar dat de datum varieert tussen 22 maart en 25 april. De Engelse naam ‘Easter’ zou kunnen teruggaan op de Germaanse lentegodin Eostre, of simpelweg op het Oudhoogduitse ‘eostarum’ (dageraad).",
+          "traditions": "Gezinnen beginnen de dag met een feestelijk paasontbijt met gekleurde eieren, zoet gevlochten brood en paaslamscake. Kinderen zoeken in de tuin naar de eieren en lekkernijen die door de paashaas zijn verstopt. Veel parochies organiseren paasvuren, processies en vrolijke diensten met klokken.",
+          "funFacts": [
+            "Pasen kan tussen 22 maart en 25 april vallen — de volgende ‘vroege’ Pasen (22 maart) valt pas weer in 2285.",
+            "De grootste paashaas ter wereld staat in Brazilië en is meer dan 4,2 m hoog.",
+            "Russisch-orthodoxe christenen vieren Pasen vaak op een andere dag dan westerse christenen, omdat ze de Juliaanse kalender gebruiken.",
+            "In Polen worden op Paaszaterdag manden met etenswaren (‘Święconka’) gezegend voor de maaltijd op zondag."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "sv": {
+        "mothers_day": {
+          "intro": "Mors dag är en hyllning till mödrar och deras viktiga roll i familjen och samhället. I de flesta länder firas den den andra söndagen i maj.",
+          "history": "Amerikanskan Anna Jarvis införde den moderna morsdagen 1907 till minne av sin avlidna mor och bedrev en framgångsrik kampanj för att den skulle erkännas officiellt – 1914 förklarade president Woodrow Wilson den andra söndagen i maj som nationell helgdag. Redan 1923 hade den tyska blomsterhandlarföreningen infört Mors dag i Tyskland – av uppenbara kommersiella skäl. Ironiskt nog kämpade Anna Jarvis senare bittert mot kommersialiseringen av högtiden.",
+          "traditions": "Barnen ger sina mammor blommor – oftast tulpaner, rosor eller en färgglad vårbukett. Handgjorda kort och teckningar gjorda med kritor är särskilt populära bland de yngre barnen. Många familjer äter en morsdagsbrunch eller lagar mammans favoriträtt. Restaurangerna är traditionellt fullbokade denna söndag.",
+          "funFacts": [
+            "Blomsterhandlarna uppnår sin högsta omsättning under året på Mors dag – till och med högre än på Alla hjärtans dag.",
+            "Mors dag genererar flest telefonsamtal under året i Nordamerika.",
+            "Anna Jarvis greps senare för att ha protesterat mot kommersialiseringen av den mors dag som hon själv hade skapat.",
+            "I Thailand infaller mors dag den 12 augusti – drottning Sirikits födelsedag."
+          ],
+          "imageCredit": "Foto: Kor!An (Андрей Корзун) · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "Internationella kvinnodagen den 8 mars står världen över för kvinnors jämställdhet, deras prestationer och kampen mot diskriminering.",
+          "history": "Kvinnodagen har sitt ursprung i den socialistiska kvinnorörelsen. Den tyska politikern Clara Zetkin föreslog en årlig aktionsdag i Köpenhamn 1910; redan 1911 marscherade miljontals kvinnor över hela Europa för denna sak. År 1921 fastställde Lenin den 8 mars som datum, till minne av kvinnostrejken i Petrograd i mars 1917 som bidrog till att utlösa den ryska februarirevolutionen. FN erkände officiellt dagen 1975 som ”FN:s dag för kvinnors rättigheter”.",
+          "traditions": "Kvinnor får blommor – traditionellt mimosa eller tulpaner – tillsammans med kort och små presenter. I många städer anordnas demonstrationer, föreläsningar och kulturevenemang. I Berlin har den 8 mars varit en allmän helgdag sedan 2019; i Italien ger män kvinnor mimosa-kvistar.",
+          "funFacts": [
+            "I Ryssland och flera före detta sovjetstater är den 8 mars en officiell helgdag då man inte arbetar.",
+            "Mecklenburg-Vorpommern blev 2023 den andra tyska delstaten efter Berlin som gjorde kvinnodagen till en allmän helgdag.",
+            "FN:s teman byts ut varje år – till exempel ”Inspire Inclusion” eller ”DigitALL”.",
+            "I Italien är mimosan en symbol för kvinnors styrka eftersom den blommar även under svåra förhållanden."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Påskdagen är kristendomens viktigaste högtid – dagen då Jesus Kristus uppstod från de döda och kyrkoårets höjdpunkt.",
+          "history": "Påsken har sitt ursprung i den judiska påskhögtiden och har firats av kristna sedan 1:a århundradet. År 325 fastställde kyrkan vid kyrkomötet i Nikea att påsken alltid ska firas den första söndagen efter vårens första fullmåne – därav det varierande datumet mellan den 22 mars och den 25 april. Det engelska namnet ”Easter” kan härledas till den germanska vårgudinnan Eostre, eller helt enkelt till det fornhögtyska ordet ”eostarum” (gryning).",
+          "traditions": "Familjerna inleder dagen med en festlig påskfrukost med färgade ägg, söta flätade bröd och påsklammkaka. Barnen letar i trädgården efter ägg och godsaker som påskharen har gömt. Många församlingar anordnar påskeldar, processioner och glada gudstjänster med klockklang.",
+          "funFacts": [
+            "Påsken kan infalla mellan den 22 mars och den 25 april – nästa ”tidiga” påsk (den 22 mars) infaller inte förrän år 2285.",
+            "Världens största påskhare står i Brasilien och är över 4,2 m hög.",
+            "Rysk-ortodoxa kristna firar ofta påsk en annan dag än västerländska kristna, eftersom de använder den julianska kalendern.",
+            "I Polen välsignas matkorgar (”Święconka”) på påsklördagen inför söndagens måltid."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "ja": {
+        "mothers_day": {
+          "intro": "母の日は、母親と、家族や社会におけるその重要な役割を称える日です。ほとんどの国では、5月の第2日曜日に祝われます。",
+          "history": "アメリカ人のアンナ・ジャーヴィスは、亡き母を偲んで1907年に現代の「母の日」を提唱し、その公式な認定に向けて運動を展開して成功を収めた。1914年、ウッドロウ・ウィルソン大統領は5月の第2日曜日を国民の祝日と宣言した。 1923年までに、ドイツの花屋協会は――明らかな商業的な理由から――母の日をドイツに導入した。皮肉なことに、アンナ・ジャーヴィスは後に、この祝日の商業化に激しく反対した。",
+          "traditions": "子供たちは母親に花を贈ります。たいていはチューリップやバラ、あるいは色とりどりの春の花のブーケです。手作りのカードやクレヨンで描いた絵は、特に幼い子供たちに人気があります。多くの家庭では、母の日にブランチを楽しんだり、母親の好物を作ったりします。この日曜日、レストランは例年通り満席になります。",
+          "funFacts": [
+            "花屋にとって、母の日は1年で最も売り上げが伸びる日であり、バレンタインデーを上回るほどです。",
+            "北米では、母の日が1年で最も電話の件数が多い日となっています。",
+            "アンナ・ジャーヴィスはその後、自身が創設した母の日の商業化に抗議したとして逮捕された。",
+            "タイでは、母の日は8月12日、つまりシリキット王妃の誕生日です。"
+          ],
+          "imageCredit": "写真：Kor!An（アンドレイ・コルズン） · CC BY-SA 3.0（ウィキメディア・コモンズ経由）"
+        },
+        "womens_day": {
+          "intro": "3月8日の「国際女性デー」は、世界中で女性の平等、女性の功績、そして差別との闘いを象徴する日となっています。",
+          "history": "「国際女性デー」は、社会主義的な女性運動から生まれた。1910年、ドイツの政治家クララ・ツェトキンがコペンハーゲンで毎年恒例の行動の日を提案し、1911年までにはヨーロッパ各地で数百万人の女性がこの日を記念してデモ行進を行った。 1921年、レーニンは、ロシアの2月革命の引き金となった1917年3月のペトログラード女性ストライキを記念して、この日を3月8日に定めました。国連は1975年、この日を「国連女性権利の日」として正式に認定しました。",
+          "traditions": "女性たちは、カードやささやかな贈り物とともに、花（伝統的にはミモザやチューリップ）を贈られます。多くの都市では、デモ行進や講演、文化イベントが開催されます。ベルリンでは、2019年から3月8日が祝日となっています。イタリアでは、男性が女性にミモザの小枝を贈ります。",
+          "funFacts": [
+            "ロシアや旧ソ連諸国のいくつかでは、3月8日は公式の祝日であり、休業日となっています。",
+            "2023年、メクレンブルク＝フォアポンメルン州は、ベルリンに次いでドイツで2番目の州として、国際女性デーを公休日としました。",
+            "国連のテーマは毎年変わります。例えば、「Inspire Inclusion」や「DigitALL」などです。",
+            "イタリアでは、ミモザは過酷な環境でも花を咲かせることから、女性の強さの象徴とされています。"
+          ],
+          "imageCredit": "写真：Alina.neve · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "easter_sunday": {
+          "intro": "イースターの日曜日は、キリスト教において最も重要な祭日であり、イエス・キリストの復活の日であり、教会暦のクライマックスでもあります。",
+          "history": "イースターはユダヤ教の過越祭に由来し、1世紀以来、キリスト教徒によって祝われてきました。教会は325年にニカイアで、イースターを常に春の最初の満月の後の最初の日曜日に祝うことを定めました。そのため、その日付は3月22日から4月25日の間で変動します。 英語の「イースター（Easter）」という名称は、ゲルマン神話の春の女神エオストレ（Eostre）に由来する可能性もあれば、単に古高ドイツ語の「eostarum」（夜明け）に由来する可能性もあります。",
+          "traditions": "各家庭では、色とりどりの卵や甘い編み込みパン、イースター・ラムケーキなどが並ぶ、お祝いのイースター朝食で一日を始めます。子供たちは、イースター・バニーが庭に隠した卵やお菓子を探し回ります。多くの教区では、イースターの焚き火や行列、鐘の音を伴う賑やかな礼拝が行われます。",
+          "funFacts": [
+            "イースターは3月22日から4月25日までの間に当たることがあります。次に「早い」イースター（3月22日）が訪れるのは、2285年になってからです。",
+            "世界最大のイースターバニーはブラジルにあり、高さは4.2メートル以上あります。",
+            "ロシア正教徒はユリウス暦を採用しているため、西洋のキリスト教徒とは異なる日に復活祭を祝うことがよくあります。",
+            "ポーランドでは、聖土曜日に、日曜日の食事用に用意された食べ物の入ったかご（「シュヴィェコンカ」）が祝福されます。"
+          ],
+          "imageCredit": "写真：Geolina163 · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        }
+      },
+      "ko": {
+        "mothers_day": {
+          "intro": "어머니의 날은 어머니와 가족 및 사회에서 어머니가 맡은 중요한 역할을 기리는 날입니다. 대부분의 국가에서는 5월 둘째 주 일요일에 이 날을 기념합니다.",
+          "history": "미국의 안나 자비스는 1907년 고인이 된 어머니를 기리기 위해 현대적인 어머니의 날을 제정했으며, 이 날이 공식적으로 인정받도록 성공적으로 캠페인을 벌였습니다. 그 결과 1914년 우드로 윌슨 대통령은 5월 둘째 주 일요일을 국경일로 선포했습니다. 1923년이 되자 독일 꽃집 협회는 명백한 상업적 이유로 어머니의 날을 독일로 도입했다. 아이러니하게도, 안나 자비스는 나중에 이 축제의 상업화에 대해 치열하게 맞서 싸웠다.",
+          "traditions": "아이들은 어머니께 꽃을 선물합니다. 주로 튤립, 장미, 혹은 알록달록한 봄꽃들이 섞인 꽃다발이죠. 어린 아이들 사이에서는 손수 만든 카드나 크레용으로 그린 그림이 특히 인기가 많습니다. 많은 가족이 어머니의 날에 브런치를 즐기거나 어머니가 가장 좋아하는 요리를 해드립니다. 전통적으로 이 일요일에는 식당 예약이 꽉 차 있습니다.",
+          "funFacts": [
+            "꽃집들은 어머니의 날에 연중 가장 높은 매출을 기록하는데, 이는 발렌타인데이보다 더 높은 수치입니다.",
+            "북미에서는 어머니의 날에 일 년 중 가장 많은 전화가 걸려옵니다.",
+            "안나 자비스는 자신이 창시한 어머니의 날이 상업화되는 것에 반대하는 시위를 벌이다가 나중에 체포되었다.",
+            "태국에서는 어머니의 날이 8월 12일, 즉 시리킷 여왕의 생일에 해당합니다."
+          ],
+          "imageCredit": "사진: Kor!An (Андрей Корзун) · CC BY-SA 3.0, 위키미디어 공용 제공"
+        },
+        "womens_day": {
+          "intro": "3월 8일 세계 여성의 날은 전 세계적으로 여성의 평등, 여성의 업적, 그리고 차별에 맞선 투쟁을 상징합니다.",
+          "history": "여성의 날은 사회주의 여성 운동에서 비롯되었습니다. 독일의 정치인 클라라 체트킨은 1910년 코펜하겐에서 매년 기념하는 행동의 날을 제안했으며, 1911년에는 유럽 전역의 수백만 명의 여성들이 이를 위해 행진했습니다. 1921년 레닌은 러시아 2월 혁명의 도화선이 된 1917년 3월 페트로그라드 여성 파업을 기리기 위해 이 날을 3월 8일로 정했다. 유엔은 1975년 이 날을 ‘유엔 여성의 날’로 공식 지정했다.",
+          "traditions": "여성들은 전통적으로 미모사나 튤립 같은 꽃과 함께 카드 및 소소한 선물을 받습니다. 많은 도시에서 시위, 강연, 문화 행사가 열립니다. 베를린에서는 2019년부터 3월 8일이 공휴일로 지정되었으며, 이탈리아에서는 남성들이 여성들에게 미모사 가지를 선물합니다.",
+          "funFacts": [
+            "러시아와 몇몇 구소련 국가에서는 3월 8일이 공식 휴일입니다.",
+            "메클렌부르크-포어포메른주는 2023년 베를린에 이어 독일에서 두 번째로 여성의 날을 공휴일로 지정했다.",
+            "유엔의 주제는 매년 바뀝니다. 예를 들어 ‘포용을 고무하자(Inspire Inclusion)’나 ‘DigitALL’ 등이 있습니다.",
+            "이탈리아에서 미모사는 험난한 환경 속에서도 꽃을 피우기 때문에 여성의 강인함을 상징합니다."
+          ],
+          "imageCredit": "사진: Alina.neve · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "easter_sunday": {
+          "intro": "부활절 주일은 기독교에서 가장 중요한 축일로서, 예수 그리스도의 부활을 기념하는 날이자 교회 연중의 절정입니다.",
+          "history": "부활절은 유대교의 유월절에서 유래했으며, 1세기부터 기독교인들에 의해 기념되어 왔다. 교회는 325년 니케아 공의회에서 부활절을 항상 봄의 첫 보름달이 뜬 후 첫 번째 일요일에 기념하기로 정했다. 따라서 부활절 날짜는 3월 22일부터 4월 25일 사이로 매년 달라진다. 영어 이름 ‘Easter’는 게르만족의 봄의 여신 에오스트레(Eostre)에서 유래했을 수도 있고, 단순히 고대 고지 독일어 ‘eostarum’(새벽)에서 비롯되었을 수도 있습니다.",
+          "traditions": "가족들은 색칠한 달걀, 달콤한 땋은 빵, 부활절 양 모양 케이크가 어우러진 축제 분위기의 부활절 아침 식사로 하루를 시작합니다. 아이들은 정원에서 부활절 토끼가 숨겨 놓은 달걀과 간식을 찾아 헤맵니다. 많은 본당에서는 부활절 모닥불을 피우고, 행렬을 벌이며, 종소리가 울려 퍼지는 즐거운 미사를 거행합니다.",
+          "funFacts": [
+            "부활절은 3월 22일부터 4월 25일 사이에 찾아올 수 있는데, 다음 ‘이른’ 부활절(3월 22일)은 2285년이 되어야 다시 찾아옵니다.",
+            "세계에서 가장 큰 부활절 토끼 조각상이 브라질에 세워져 있으며, 높이는 4.2m가 넘는다.",
+            "러시아 정교회 신자들은 율리우스력을 사용하기 때문에 서방 기독교인들과는 다른 날에 부활절을 기념하는 경우가 많습니다.",
+            "폴란드에서는 성토일에 일요일 식사를 위해 준비한 음식 바구니('Święconka')에 축복을 받습니다."
+          ],
+          "imageCredit": "사진: Geolina163 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        }
+      },
+      "zh-Hant": {
+        "mothers_day": {
+          "intro": "母親節旨在向母親們致敬，並彰顯她們在家庭與社會中所扮演的重要角色。在大多數國家，母親節定於五月的第二個星期日。",
+          "history": "美國人安娜·賈維斯（Anna Jarvis）於1907年為紀念已故的母親而發起現代母親節，並成功推動其獲得官方認可——1914年，伍德羅·威爾遜總統宣布五月的第二個星期日為國定假日。 到了1923年，德國花商協會將「母親節」引進德國——原因顯而易見，純屬商業考量。諷刺的是，安娜·賈維斯後來卻曾竭力反對這個節日的商業化。",
+          "traditions": "孩子們會送花給母親——通常是鬱金香、玫瑰，或是色彩繽紛的春季混色花束。手工製作的卡片和蠟筆畫在年幼的孩子中尤其受歡迎。許多家庭會在母親節當天享用早午餐，或是為母親烹調她最喜歡的菜餚。按照傳統，這週日的餐廳通常都已客滿。",
+          "funFacts": [
+            "花店在母親節當天的營收達到全年最高——甚至比情人節還高。",
+            "在北美，母親節當天的電話通話量是全年最高的。",
+            "安娜·賈維斯後來因抗議她所創立的「母親節」遭到商業化利用而被逮捕。",
+            "在泰國，母親節定於8月12日——這一天正是西里基特王后的生日。"
+          ],
+          "imageCredit": "照片：Kor!An（安德烈·科爾祖恩）· 經維基共享資源以 CC BY-SA 3.0 授權"
+        },
+        "womens_day": {
+          "intro": "3月8日的國際婦女節在全球範圍內象徵著婦女平等、她們的成就以及反對歧視的鬥爭。",
+          "history": "國際婦女節源於社會主義婦女運動。1910年，德國政治家克拉拉·蔡特金在哥本哈根提議設立一個年度行動日；到了1911年，全歐洲已有數百萬婦女為此走上街頭遊行。 1921年，列寧將此日定為3月8日，以紀念1917年3月彼得格勒婦女罷工——該事件有助於引發俄國二月革命。聯合國於1975年正式將該日定為「聯合國婦女權利日」。",
+          "traditions": "女性會收到鮮花——傳統上通常是含羞草或鬱金香——以及賀卡和小禮物。許多城市會舉辦示威遊行、講座和文化活動。在柏林，3月8日自2019年起即為法定假日；在義大利，男性會贈送女性含羞草枝條。",
+          "funFacts": [
+            "在俄羅斯及若干前蘇聯國家，3月8日是官方指定的非工作日。",
+            "2023年，梅克倫堡-前波美拉尼亞州成為繼柏林之後，德國第二個將婦女節定為公共假日的州。",
+            "聯合國的年度主題每年都會更換——例如「激發包容」或「DigitALL」。",
+            "在義大利，含羞草是女性力量的象徵，因為即使在艱困的環境下，它依然能綻放。"
+          ],
+          "imageCredit": "照片：Alina.neve · 透過維基共享資源，採用 CC BY-SA 4.0 授權"
+        },
+        "easter_sunday": {
+          "intro": "復活節主日是基督教最重要的節日——這一天是耶穌基督復活的日子，也是教會年曆的高潮。",
+          "history": "復活節源自猶太教的逾越節，自一世紀起便為基督徒所慶祝。教會於西元325年在尼西亞會議上規定，復活節應固定在春季首次滿月後的第一个星期日慶祝——因此日期會在3月22日至4月25日之間變動。 英文名稱「Easter」可能源自日耳曼春季女神伊奧斯特雷（Eostre），也可能單純源自古高地德語「eostarum」（黎明）。",
+          "traditions": "各家各戶會以一頓充滿節日氣氛的復活節早餐開啟新的一天，餐桌上擺滿彩蛋、甜味編織麵包和復活節羔羊蛋糕。孩子們會在花園裡尋找復活節兔子藏起來的彩蛋和點心。許多教區都會舉行復活節篝火、遊行，以及伴隨著鐘聲的歡樂禮拜。",
+          "funFacts": [
+            "復活節的日期可能落在 3 月 22 日至 4 月 25 日之間——下一個「較早」的復活節（3 月 22 日）要等到 2285 年才會再次出現。",
+            "世界上最大的復活節兔子矗立在巴西，高度超過 4.2 公尺。",
+            "俄羅斯東正教信徒慶祝復活節的日子通常與西方基督徒不同，因為他們使用儒略曆。",
+            "在波蘭，人們會在聖週六將裝有食物的籃子（「Święconka」）帶去接受祝福，以便用於週日的餐宴。"
+          ],
+          "imageCredit": "照片：Geolina163 · 透過維基共享資源，採用 CC BY-SA 4.0 授權"
+        }
+      }
+    }
+  },
+  "images": {
+    "mothers_day": [
+      {
+        "path": "images/mothers_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/mothers_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/mothers_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "womens_day": [
+      {
+        "path": "images/womens_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      }
+    ],
+    "easter_sunday": [
+      {
+        "path": "images/easter_sunday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/easter_sunday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/easter_sunday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 7
+}

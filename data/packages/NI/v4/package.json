@@ -1,0 +1,708 @@
+{
+  "countryCode": "NI",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "NI_new_years_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "NI_air_force_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.air_force_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 1
+      }
+    },
+    {
+      "id": "NI_holy_thursday",
+      "countryCode": "NI",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.holy_thursday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 4,
+        "nth": 1,
+        "weekday": 4
+      }
+    },
+    {
+      "id": "NI_labour_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.labour_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "NI_army_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.army_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 27
+      }
+    },
+    {
+      "id": "NI_liberation_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.liberation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 19
+      }
+    },
+    {
+      "id": "NI_battle_of_san_jacinto",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.battle_of_san_jacinto",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 14
+      }
+    },
+    {
+      "id": "NI_independence_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 15
+      }
+    },
+    {
+      "id": "NI_indigenous_resistance_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.indigenous_resistance_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 12
+      }
+    },
+    {
+      "id": "NI_immaculate_conception",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.immaculate_conception",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 8
+      }
+    },
+    {
+      "id": "NI_christmas_day",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "NI_new_years_eve",
+      "countryCode": "NI",
+      "kind": "fixed",
+      "labelKey": "holidays.new_years_eve",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 31
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "air_force_day": "Air Force Day",
+        "holy_thursday": "Holy Thursday",
+        "army_day": "Army Day",
+        "liberation_day": "Liberation Day",
+        "battle_of_san_jacinto": "Battle of San Jacinto",
+        "independence_day": "Independence Day",
+        "indigenous_resistance_day": "Indigenous Resistance Day",
+        "immaculate_conception": "Immaculate Conception"
+      },
+      "es": {
+        "air_force_day": "Air Force Day",
+        "holy_thursday": "Holy Thursday",
+        "army_day": "Army Day",
+        "liberation_day": "Liberation Day",
+        "battle_of_san_jacinto": "Battle of San Jacinto",
+        "independence_day": "Independence Day",
+        "indigenous_resistance_day": "Indigenous Resistance Day",
+        "immaculate_conception": "Immaculate Conception"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "new_year": {
+          "intro": "Der 1. Januar markiert weltweit den Beginn eines neuen Jahres im gregorianischen Kalender. Für viele ist es ein Tag der Hoffnung, des Neuanfangs und der guten Vorsätze.",
+          "history": "Bereits 153 v. Chr. legten die Römer den Jahresbeginn auf den 1. Januar, den Antrittstag der neuen Konsuln. Im Mittelalter wechselte der Jahresanfang in vielen Regionen zu Weihnachten oder Ostern. Erst mit der Kalenderreform von Papst Gregor XIII. im Jahr 1582 setzte sich der 1. Januar wieder als europäischer Standard durch. Der Monatsname Januar geht auf den römischen Gott Janus zurück, der mit zwei Gesichtern zugleich auf das Vergangene und das Kommende blickte – ein passendes Sinnbild für diesen Tag.",
+          "traditions": "Um Mitternacht stoßen Familien und Freunde mit Sekt an und feiern den Jahreswechsel mit Feuerwerk, Glücksbringern wie Kleeblatt, Schornsteinfeger oder Marienkäfer und dem traditionellen Bleigießen (heute Wachsgießen). Beliebt sind außerdem Neujahrsbrunch und der gemeinsame Spaziergang an der frischen Luft. Viele fassen Vorsätze für das neue Jahr.",
+          "funFacts": [
+            "In Spanien isst man zu jedem der zwölf Glockenschläge eine Weintraube – eine pro Wunsch.",
+            "In Dänemark zerbricht man altes Geschirr vor den Türen guter Freunde, um Glück zu bringen.",
+            "Wiens Neujahrskonzert wird in über 90 Länder übertragen und gilt als musikalischer Auftakt des Jahres.",
+            "Auf den Pazifikinseln Kiribati beginnt das neue Jahr 26 Stunden früher als auf der Insel Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Der 1. Mai ist in vielen Ländern der „Tag der Arbeit” – ein Feiertag der Arbeiterbewegung mit Demonstrationen, Maibäumen und Frühlingsfesten.",
+          "history": "Am 1. Mai 1886 traten in Chicago hunderttausende Arbeiter für den Acht-Stunden-Tag in den Generalstreik. Die anschließenden Auseinandersetzungen am Haymarket forderten mehrere Tote. 1889 erklärte der Internationale Arbeiterkongress in Paris den 1. Mai zum „Kampftag der Arbeiterbewegung”. In Deutschland wurde er 1933 als „Tag der nationalen Arbeit” zum gesetzlichen Feiertag – nach 1945 als Symbol arbeitnehmerfreundlicher Politik beibehalten.",
+          "traditions": "Gewerkschaften organisieren Kundgebungen und Demonstrationen unter Mottos wie „Mehr Lohn, mehr Freizeit”. In vielen Dörfern wird in der Nacht zum 1. Mai ein Maibaum aufgestellt – im Süden Deutschlands ein bunt geschmückter Stamm, im Norden ein Birkenstamm vor dem Fenster der Liebsten. Beliebte Aktivitäten: Mai-Wanderungen, Grillen und Familienfeste.",
+          "funFacts": [
+            "Der höchste Maibaum Bayerns wurde 2017 in Mitterfels mit über 50 m aufgestellt.",
+            "In Frankreich verschenkt man am 1. Mai Maiglöckchen („muguet”) – ein Brauch, den König Karl IX. 1561 einführte.",
+            "Im Rheinland werden in der Mai-Nacht „Liebesmaien” – geschmückte Birken – vor das Haus der Angebeteten gestellt.",
+            "Der 1. Mai ist offizieller Feiertag in über 80 Ländern – in den USA und Kanada feiert man Labor Day jedoch erst im September."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "immaculate_conception": {
+          "intro": "Mariä Empfängnis am 8. Dezember feiert die Lehre, dass die Gottesmutter Maria von Anfang an ohne die Erbsünde empfangen wurde. Es ist ein Hochfest der katholischen Kirche.",
+          "history": "Schon im 7. Jahrhundert wurde im Osten der Kirche das Fest „Empfängnis der heiligen Anna” gefeiert – neun Monate vor Mariens Geburt am 8. September. Im Westen verbreitete es sich ab dem 11. Jahrhundert. Über Jahrhunderte stritten Theologen, ob Maria selbst „unbefleckt empfangen” sei – also frei von der Erbsünde. Erst Papst Pius IX. erklärte das Dogma 1854 in der Bulle „Ineffabilis Deus” verbindlich. In Österreich, Italien, Spanien und Portugal ist der Tag gesetzlicher Feiertag.",
+          "traditions": "In Wien und Teilen Bayerns ist der 8. Dezember ein beliebter Einkaufstag – die Geschäfte haben Sonderöffnungszeiten, viele nutzen den Feiertag für Weihnachtseinkäufe. In katholischen Gegenden gibt es feierliche Gottesdienste. In Lyon (Frankreich) erleuchten Bewohner ihre Fenster mit Kerzen und schmücken die Straßen – die berühmte „Fête des Lumières”.",
+          "funFacts": [
+            "Die „Fête des Lumières” in Lyon zieht jährlich über 4 Millionen Besucher an.",
+            "Vor der Anerkennung als Marienfest war der 8. Dezember im germanischen Brauchtum auch ein Wintertag mit Glücksbringer-Aktionen.",
+            "In Spanien fällt mit dem 8. Dezember das verlängerte Wochenende „Puente de la Constitución” zusammen – einer der reise-intensivsten Brückentage des Jahres.",
+            "Die Mariensäule am Münchner Marienplatz wurde 1638 zum Dank für die Verschonung Münchens im Dreißigjährigen Krieg errichtet."
+          ],
+          "imageCredit": "Foto: Unknown authorUnknown author · CC0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
+          "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
+          "traditions": "Familien versammeln sich zu festlichen Mahlzeiten – Truthahn, Gans, Karpfen oder Raclette. Geschenke werden ausgetauscht, Weihnachtslieder gesungen, viele besuchen den Festgottesdienst. Der geschmückte Christbaum mit Lichterketten, Kugeln und Strohsternen ist das zentrale Symbol. Adventskalender, Plätzchen und der Besuch von Weihnachtsmärkten gehören zur Vorbereitung.",
+          "funFacts": [
+            "Der erste kommerzielle Adventskalender erschien 1908 in München – Erfinder war Gerhard Lang.",
+            "Die Weihnachtsmärkte in Dresden („Striezelmarkt”, seit 1434) und Frankfurt (seit 1393) gehören zu den ältesten der Welt.",
+            "Norwegen schenkt Großbritannien seit 1947 jährlich einen riesigen Weihnachtsbaum für den Trafalgar Square – als Dank für die Hilfe im Zweiten Weltkrieg.",
+            "Die Weihnachtsfilm-Klassiker „Drei Haselnüsse für Aschenbrödel” und „Tatsächlich… Liebe” laufen weltweit jedes Jahr Dutzende Male im TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "Silvester ist der letzte Tag des Jahres und in vielen Ländern ein lautes, glanzvolles Fest mit Feuerwerk, Sekt und ausgelassenen Partys.",
+          "history": "Der Name geht auf Papst Silvester I. zurück, der am 31. Dezember 335 verstarb. Mit der Einführung des gregorianischen Kalenders 1582 wurde der 31. Dezember endgültig zum letzten Tag des Jahres in Mitteleuropa. Das Feuerwerk hat seinen Ursprung in alten Brauchtümern, mit denen man durch Lärm böse Geister vertreiben wollte. In der DDR und der BRD wurde Silvester ab den 1950er-Jahren zur großen TV-Tradition – „Dinner for One” lief erstmals 1963 im NDR.",
+          "traditions": "Um Mitternacht zählt man gemeinsam herunter, prostet sich mit Sekt zu, umarmt sich und beobachtet das Feuerwerk. Familien spielen Gesellschaftsspiele, gießen Wachs zur Vorhersage des neuen Jahres und schauen den Klassiker „Dinner for One”. Das festliche Menü ist oft Raclette, Fondue oder Berliner.",
+          "funFacts": [
+            "Der größte Silvester-Countdown findet am Times Square in New York statt – die berühmte Kristallkugel sinkt seit 1907 um Mitternacht herab.",
+            "„Dinner for One” hält den Rekord als die am häufigsten wiederholte TV-Sendung der Welt.",
+            "Sydney ist eine der ersten Großstädte, die das neue Jahr mit Feuerwerk begrüßt – bereits um 14 Uhr deutscher Zeit.",
+            "In Spanien isst man zu jedem Glockenschlag eine Traube – wer alle zwölf schafft, hat ein glückliches Jahr."
+          ],
+          "imageCredit": "Foto: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "new_year": {
+          "intro": "January 1st marks the start of a new year in the Gregorian calendar around the world. For many it's a day of hope, fresh starts and good resolutions.",
+          "history": "As early as 153 BC the Romans set the start of the year on January 1st, the day new consuls took office. During the Middle Ages, the start of the year shifted in many regions to Christmas or Easter. Only with Pope Gregory XIII's calendar reform of 1582 did January 1st become the European standard once again. The name January goes back to the Roman god Janus, who looked simultaneously at the past and the future with two faces — a fitting symbol for the day.",
+          "traditions": "At midnight, families and friends toast with sparkling wine and celebrate the turn of the year with fireworks, lucky charms (clover, chimney sweep, ladybug) and traditional lead pouring (now wax pouring). New Year's brunch and a fresh-air walk are popular too. Many people make resolutions for the year ahead.",
+          "funFacts": [
+            "In Spain, people eat one grape with each of the twelve bell strokes — one wish per grape.",
+            "In Denmark, people break old crockery in front of friends' doors to bring them luck.",
+            "Vienna's New Year's Concert is broadcast in over 90 countries and counts as the year's musical kick-off.",
+            "On the Pacific island of Kiribati, the new year arrives 26 hours earlier than on Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "May 1st is in many countries ‘Labour Day' — a holiday of the workers' movement with demonstrations, maypoles and spring fairs.",
+          "history": "On May 1st, 1886, hundreds of thousands of workers in Chicago went on a general strike for the eight-hour workday. The ensuing clashes at Haymarket killed several. In 1889 the International Workers' Congress in Paris declared May 1st the ‘international day of struggle for workers'. In Germany it became a legal holiday in 1933 as ‘Day of National Labour' and was kept after 1945 as a symbol of worker-friendly politics.",
+          "traditions": "Trade unions stage rallies and marches under slogans such as ‘More pay, more time off'. In many villages a maypole is raised on the night before May 1st — in southern Germany an ornately painted trunk, in the north a birch in front of a sweetheart's window. Popular activities: May hikes, barbecues and family festivals.",
+          "funFacts": [
+            "Bavaria's tallest maypole was raised in Mitterfels in 2017 at over 50 m.",
+            "In France people give lily-of-the-valley (‘muguet') on May 1st — a custom King Charles IX introduced in 1561.",
+            "In the Rhineland a ‘love May' — a decorated birch — is placed in front of the home of a sweetheart on May Eve.",
+            "May 1st is an official holiday in over 80 countries — but in the U.S. and Canada Labor Day falls in September."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "immaculate_conception": {
+          "intro": "The Immaculate Conception on December 8th celebrates the doctrine that the Mother of God Mary was conceived from the very beginning without original sin. It is a high feast of the Catholic Church.",
+          "history": "As early as the 7th century, the East celebrated the ‘Conception of Saint Anne' — nine months before Mary's birth on September 8th. In the West it spread from the 11th century onwards. For centuries theologians argued whether Mary herself was ‘immaculately conceived' — free of original sin. Only Pope Pius IX declared the dogma binding in 1854 in the bull ‘Ineffabilis Deus'. In Austria, Italy, Spain and Portugal the day is a public holiday.",
+          "traditions": "In Vienna and parts of Bavaria, December 8th is a popular shopping day — stores have special opening hours and many use the holiday for Christmas shopping. In Catholic regions there are festive services. In Lyon (France), residents light their windows with candles and decorate the streets — the famous ‘Fête des Lumières'.",
+          "funFacts": [
+            "Lyon's ‘Fête des Lumières' draws over 4 million visitors every year.",
+            "Before its recognition as a Marian feast, December 8th was a Germanic winter day with lucky-charm customs.",
+            "In Spain, December 8th coincides with the long ‘Puente de la Constitución' weekend — one of the most travel-intensive bridge holidays of the year.",
+            "The Marian column on Munich's Marienplatz was erected in 1638 as thanks for sparing Munich during the Thirty Years' War."
+          ],
+          "imageCredit": "Photo: Unknown authorUnknown author · CC0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
+          "history": "December 25th is documented as ‘dies natalis Christi' as early as 354 in a Roman calendar. The Church likely chose the date to give the Roman ‘Sol Invictus' winter solstice festival a Christian meaning. Gift-giving has its roots in the gifts of the Magi. The familiar Santa Claus with red coat and white beard is a mix of Saint Nicholas and a 1931 Coca-Cola advertising campaign.",
+          "traditions": "Families gather for festive meals — turkey, goose, carp or raclette. Gifts are exchanged, carols sung, many attend the festive service. The decorated Christmas tree with lights, ornaments and straw stars is the central symbol. Advent calendars, cookies and visits to Christmas markets are part of the run-up.",
+          "funFacts": [
+            "The first commercial Advent calendar appeared in 1908 in Munich — invented by Gerhard Lang.",
+            "The Christmas markets in Dresden (‘Striezelmarkt', since 1434) and Frankfurt (since 1393) are among the oldest in the world.",
+            "Norway has gifted the UK a giant Christmas tree for Trafalgar Square every year since 1947 — as thanks for help during World War II.",
+            "Holiday classics like ‘Three Wishes for Cinderella' and ‘Love Actually' run dozens of times on TV worldwide every year."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "New Year's Eve is the last day of the year and in many countries a loud, glittering celebration with fireworks, sparkling wine and exuberant parties.",
+          "history": "The German name ‘Silvester' goes back to Pope Sylvester I, who died on December 31st, 335. With the Gregorian calendar reform in 1582, December 31st definitively became the last day of the year in central Europe. Fireworks have their origin in old customs of using noise to drive away evil spirits. After the 1950s, New Year's Eve became a major TV tradition — the German classic ‘Dinner for One' first aired in 1963 on NDR.",
+          "traditions": "At midnight people count down together, toast with sparkling wine, hug each other and watch the fireworks. Families play board games, cast wax to predict the new year and watch the classic ‘Dinner for One'. Festive menus often include raclette, fondue or jelly-filled doughnuts.",
+          "funFacts": [
+            "The biggest New Year's countdown happens in Times Square in New York — the famous crystal ball has been dropping at midnight since 1907.",
+            "‘Dinner for One' holds the record as the most repeated TV show in the world.",
+            "Sydney is one of the first major cities to ring in the new year with fireworks — already at 2 p.m. Central European time.",
+            "In Spain people eat one grape with each strike of the bell — anyone who manages all twelve has a lucky year ahead."
+          ],
+          "imageCredit": "Photo: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "new_year": {
+          "intro": "Le 1er janvier marque le début d'une nouvelle année dans le calendrier grégorien partout dans le monde. Pour beaucoup, c'est un jour d'espoir, de renouveau et de bonnes résolutions.",
+          "history": "Dès 153 av. J.-C., les Romains fixèrent le début de l'année au 1er janvier, jour d'entrée en fonction des nouveaux consuls. Au Moyen Âge, le début de l'année se déplaça dans de nombreuses régions à Noël ou à Pâques. Ce n'est qu'avec la réforme du calendrier du pape Grégoire XIII en 1582 que le 1er janvier s'imposa à nouveau comme standard européen. Le nom janvier vient du dieu romain Janus, qui regardait simultanément le passé et l'avenir avec deux visages.",
+          "traditions": "À minuit, familles et amis trinquent au champagne et célèbrent le passage à la nouvelle année avec des feux d'artifice, des porte-bonheur (trèfle, ramoneur, coccinelle) et la traditionnelle coulée de plomb (aujourd'hui de cire). Le brunch du Nouvel An et la promenade au grand air sont aussi populaires. Beaucoup formulent des résolutions pour l'année.",
+          "funFacts": [
+            "En Espagne, on mange un grain de raisin à chacun des douze coups de minuit — un vœu par grain.",
+            "Au Danemark, on brise de la vieille vaisselle devant la porte des amis pour leur porter chance.",
+            "Le Concert du Nouvel An de Vienne est diffusé dans plus de 90 pays — coup d'envoi musical de l'année.",
+            "Sur l'île pacifique de Kiribati, le Nouvel An arrive 26 heures avant celui de l'île Howland."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Le 1er mai est dans bien des pays la ‘Fête du Travail' — fête du mouvement ouvrier avec manifestations, mâts de mai et fêtes printanières.",
+          "history": "Le 1er mai 1886, des centaines de milliers de travailleurs de Chicago entrèrent en grève générale pour la journée de huit heures. Les heurts qui suivirent à Haymarket firent plusieurs morts. En 1889, le Congrès international des travailleurs à Paris déclara le 1er mai ‘journée de lutte du mouvement ouvrier'. En France, le 1er mai devient jour chômé en 1947, et c'est aussi le jour où l'on offre du muguet, tradition royale depuis Charles IX en 1561.",
+          "traditions": "Les syndicats organisent meetings et défilés sous des slogans comme ‘Plus de salaire, plus de temps libre'. En France, on s'offre des brins de muguet, porte-bonheur. Dans de nombreux villages allemands, on dresse un mât de mai dans la nuit du 1er. Randonnées, barbecues et fêtes familiales sont au programme.",
+          "funFacts": [
+            "Le mât de mai le plus haut de Bavière a été dressé en 2017 à Mitterfels avec plus de 50 m.",
+            "En France, on offre du muguet le 1er mai — coutume introduite par Charles IX en 1561.",
+            "En Rhénanie, on plante des bouleaux décorés (‘Liebesmaien') devant la maison de la bien-aimée à la nuit du 1er mai.",
+            "Le 1er mai est jour férié dans plus de 80 pays — mais aux États-Unis et au Canada, le ‘Labor Day' tombe en septembre."
+          ],
+          "imageCredit": "Photo: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "immaculate_conception": {
+          "intro": "L'Immaculée Conception, le 8 décembre, célèbre la doctrine selon laquelle la Mère de Dieu Marie a été conçue dès l'origine sans péché originel. C'est une solennité catholique.",
+          "history": "Dès le VIIe siècle, l'Orient célébrait la fête de la ‘Conception de sainte Anne', neuf mois avant la naissance de Marie (8 septembre). En Occident, la fête se diffusa à partir du XIe siècle. Pendant des siècles, les théologiens débattirent de l'idée que Marie elle-même avait été ‘conçue sans tache'. Pie IX proclama le dogme en 1854 dans la bulle ‘Ineffabilis Deus'. La fête est fériée en Autriche, Italie, Espagne et Portugal. En France, elle est célébrée notamment lors de la fameuse ‘Fête des Lumières' de Lyon.",
+          "traditions": "À Vienne et dans certaines régions de Bavière, le 8 décembre est un jour de shopping de Noël avec horaires spéciaux. À Lyon, les habitants illuminent leurs fenêtres de bougies et décorent les rues — la fameuse ‘Fête des Lumières'. Dans les régions catholiques, des messes solennelles ont lieu.",
+          "funFacts": [
+            "La ‘Fête des Lumières' de Lyon attire plus de 4 millions de visiteurs par an.",
+            "Avant sa reconnaissance comme fête mariale, le 8 décembre était dans le folklore germanique un jour d'hiver porte-bonheur.",
+            "En Espagne, le 8 décembre coïncide avec le ‘Puente de la Constitución' — l'un des week-ends les plus voyagés de l'année.",
+            "La colonne mariale de la Marienplatz de Munich fut érigée en 1638 en remerciement de l'épargne de la ville durant la guerre de Trente Ans."
+          ],
+          "imageCredit": "Photo: Unknown authorUnknown author · CC0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
+          "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
+          "traditions": "Les familles se rassemblent autour de repas festifs — dinde, oie, carpe ou raclette. On échange des cadeaux, chante des cantiques, beaucoup assistent à la messe festive. Le sapin décoré de lumières, boules et étoiles de paille est le symbole central. Calendrier de l'avent, biscuits et marchés de Noël jalonnent la préparation.",
+          "funFacts": [
+            "Le premier calendrier de l'avent commercial parut en 1908 à Munich — invention de Gerhard Lang.",
+            "Les marchés de Noël de Dresde (‘Striezelmarkt', depuis 1434) et de Francfort (depuis 1393) figurent parmi les plus anciens du monde.",
+            "La Norvège offre chaque année au Royaume-Uni un immense sapin pour Trafalgar Square depuis 1947 — en remerciement de l'aide pendant la Seconde Guerre mondiale.",
+            "Les classiques de Noël comme ‘Trois noisettes pour Cendrillon' ou ‘Love Actually' sont diffusés des dizaines de fois à la télé chaque année."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "La Saint-Sylvestre est le dernier jour de l'année et, dans bien des pays, une fête bruyante et étincelante avec feux d'artifice, champagne et soirées exubérantes.",
+          "history": "Le nom ‘Sylvestre' vient du pape Sylvestre Ier, mort le 31 décembre 335. Avec la réforme grégorienne de 1582, le 31 décembre s'est définitivement imposé comme dernier jour de l'année en Europe centrale. Les feux d'artifice trouvent leur origine dans des coutumes anciennes destinées à chasser les mauvais esprits par le bruit. Depuis les années 1950, la Saint-Sylvestre est devenue une grande tradition télévisée — le classique allemand ‘Dinner for One' est diffusé pour la première fois en 1963.",
+          "traditions": "À minuit, on fait le compte à rebours, on trinque au champagne, on s'embrasse et on contemple les feux. Les familles jouent à des jeux de société, coulent de la cire pour prédire l'année et regardent ‘Dinner for One'. Le menu festif est souvent raclette, fondue ou beignets fourrés.",
+          "funFacts": [
+            "Le plus grand compte à rebours du monde a lieu à Times Square, à New York — la fameuse boule de cristal descend chaque minuit depuis 1907.",
+            "‘Dinner for One' détient le record du programme télévisé le plus rediffusé au monde.",
+            "Sydney est l'une des premières grandes villes à fêter le Nouvel An en feux d'artifice — dès 14 h heure de Paris.",
+            "En Espagne, on mange un grain de raisin à chaque coup de cloche — réussir les douze annonce une année heureuse."
+          ],
+          "imageCredit": "Photo: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "new_year": {
+          "intro": "El 1 de enero marca el inicio de un nuevo año en el calendario gregoriano en todo el mundo. Para muchos es un día de esperanza, comienzos y buenos propósitos.",
+          "history": "Ya en el 153 a. C., los romanos fijaron el inicio del año el 1 de enero, día en que tomaban posesión los nuevos cónsules. En la Edad Media el comienzo del año cambió en muchas regiones a Navidad o Pascua. Solo con la reforma del calendario del papa Gregorio XIII en 1582 el 1 de enero volvió a imponerse como estándar europeo. El nombre Janus (enero en latín) evoca al dios romano de las dos caras, que miraba al pasado y al futuro a la vez.",
+          "traditions": "A medianoche, familias y amigos brindan con cava o champán y celebran con fuegos artificiales, amuletos como tréboles, deshollinadores o mariquitas, y la tradicional fundición de cera para predecir el año. También son populares el brunch de Año Nuevo y los paseos al aire libre. Muchos hacen propósitos para el año entrante.",
+          "funFacts": [
+            "En España se come una uva con cada una de las doce campanadas — un deseo por uva.",
+            "En Dinamarca se rompe vajilla vieja delante de las puertas de los amigos para darles suerte.",
+            "El Concierto de Año Nuevo de Viena se transmite en más de 90 países y se considera el arranque musical del año.",
+            "En la isla pacífica de Kiribati el Año Nuevo llega 26 horas antes que en la isla Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 vía Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "El 1 de mayo es en muchos países el ‘Día del Trabajador' — fiesta del movimiento obrero con manifestaciones, mayos y celebraciones primaverales.",
+          "history": "El 1 de mayo de 1886, cientos de miles de trabajadores en Chicago se declararon en huelga general por la jornada de ocho horas. Los choques posteriores en Haymarket dejaron varios muertos. En 1889 el Congreso Internacional de Trabajadores de París lo declaró ‘día de lucha del movimiento obrero'. En Alemania pasó a ser festivo legal en 1933 como ‘Día Nacional del Trabajo' y se mantuvo tras 1945 como símbolo de política favorable a los trabajadores.",
+          "traditions": "Los sindicatos organizan mítines y manifestaciones bajo lemas como ‘Más sueldo, más tiempo libre'. En muchas aldeas alemanas se planta un mayo en la noche del 1 de mayo — en el sur, un tronco coloridamente decorado; en el norte, un abedul ante la ventana de la amada. Caminatas de mayo, barbacoas y fiestas familiares son populares.",
+          "funFacts": [
+            "El mayo más alto de Baviera fue erigido en Mitterfels en 2017 con más de 50 m.",
+            "En Francia se regala muguete (‘muguet') el 1 de mayo — costumbre que el rey Carlos IX introdujo en 1561.",
+            "En Renania, en la Noche de Mayo se ponen abedules decorados (‘Liebesmaien') ante la casa de la enamorada.",
+            "El 1 de mayo es festivo en más de 80 países — pero en EE. UU. y Canadá el ‘Labor Day' se celebra en septiembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 vía Wikimedia Commons"
+        },
+        "immaculate_conception": {
+          "intro": "La Inmaculada Concepción, el 8 de diciembre, celebra la doctrina de que María fue concebida desde el principio sin pecado original. Es una solemnidad de la Iglesia católica.",
+          "history": "Ya en el siglo VII se celebraba en Oriente la fiesta de la ‘Concepción de Santa Ana', nueve meses antes del nacimiento de María (8 de septiembre). En Occidente se difundió desde el siglo XI. Durante siglos los teólogos discutieron si María misma había sido ‘concebida sin mancha'. El papa Pío IX proclamó el dogma en 1854 con la bula ‘Ineffabilis Deus'. En Austria, Italia, España y Portugal es festivo. En España es muy importante porque la Inmaculada es patrona del país.",
+          "traditions": "En Viena y partes de Baviera el 8 de diciembre es día de compras navideñas con horarios especiales. En España hay procesiones marianas — Sevilla destaca con su famosa ‘Tuna' frente a la Inmaculada. En Lyon (Francia) los habitantes iluminan sus ventanas con velas — la famosa ‘Fête des Lumières'.",
+          "funFacts": [
+            "La ‘Fête des Lumières' de Lyon atrae a más de 4 millones de visitantes al año.",
+            "Antes de su reconocimiento como fiesta mariana, el 8 de diciembre era en el folclore germánico un día invernal con costumbres de la suerte.",
+            "En España el 8 de diciembre conforma el ‘Puente de la Constitución', uno de los más viajados del año.",
+            "La Inmaculada es patrona de España desde 1644 — tradición confirmada por Felipe IV."
+          ],
+          "imageCredit": "Foto: Unknown authorUnknown author · CC0 vía Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
+          "history": "Ya en el año 354 un calendario romano consigna el 25 de diciembre como ‘dies natalis Christi'. Probablemente la Iglesia eligió la fecha para reinterpretar cristianamente el ‘Sol Invictus' romano. El intercambio de regalos arraiga en los obsequios de los Magos. El moderno Papá Noel con abrigo rojo y barba blanca es una mezcla de San Nicolás con una campaña publicitaria de Coca-Cola de 1931.",
+          "traditions": "Las familias se reúnen para comidas festivas — pavo, ganso, carpa o raclette. Se intercambian regalos, se cantan villancicos y muchos asisten al servicio festivo. El árbol decorado con luces y bolas es el símbolo central. El calendario de Adviento, las galletas y los mercadillos forman parte de la preparación.",
+          "funFacts": [
+            "El primer calendario de Adviento comercial apareció en 1908 en Múnich — invento de Gerhard Lang.",
+            "Los mercadillos navideños de Dresde (‘Striezelmarkt', desde 1434) y Fráncfort (desde 1393) son de los más antiguos del mundo.",
+            "Noruega regala al Reino Unido un enorme árbol de Navidad para Trafalgar Square cada año desde 1947 — agradecimiento por la ayuda en la Segunda Guerra Mundial.",
+            "Los clásicos como ‘Tres Avellanas para Cenicienta' o ‘Love Actually' se emiten decenas de veces cada año en TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "Nochevieja es el último día del año y, en muchos países, una fiesta ruidosa y brillante con fuegos artificiales, cava y celebraciones efusivas.",
+          "history": "El nombre ‘Silvester' (alemán) viene del papa Silvestre I, fallecido el 31 de diciembre del 335. Con la introducción del calendario gregoriano en 1582 el 31 de diciembre quedó definitivamente como último día del año en Europa central. Los fuegos artificiales tienen origen en costumbres antiguas para ahuyentar a los malos espíritus con ruido. Desde los años 50 se convirtió en gran tradición televisiva — el clásico alemán ‘Dinner for One' se emitió por primera vez en NDR en 1963.",
+          "traditions": "A medianoche se hace la cuenta atrás, se brinda con cava, se abrazan y se contemplan los fuegos. Las familias juegan a juegos de mesa, vierten cera para predecir el año y ven el clásico ‘Dinner for One'. El menú festivo suele ser raclette, fondue o buñuelos.",
+          "funFacts": [
+            "La mayor cuenta atrás del mundo se vive en Times Square, Nueva York: la famosa bola de cristal desciende a medianoche desde 1907.",
+            "‘Dinner for One' ostenta el récord de la emisión de TV más repetida del mundo.",
+            "Sídney es una de las primeras grandes ciudades en estrenar el año con fuegos — ya a las 14 h hora de Europa Central.",
+            "En España se come una uva con cada campanada — quien las acaba todas tendrá un año feliz."
+          ],
+          "imageCredit": "Foto: Makia Minich · CC BY-SA 3.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "new_year": {
+          "intro": "1 de janeiro marca o início de um novo ano no calendário gregoriano em todo o mundo. Para muitos é um dia de esperança, novos começos e boas resoluções.",
+          "history": "Já em 153 a.C. os romanos fixaram o início do ano em 1 de janeiro, dia em que tomavam posse os novos cônsules. Na Idade Média, o início do ano deslocou-se em muitas regiões para o Natal ou a Páscoa. Só com a reforma do calendário do Papa Gregório XIII em 1582 o 1 de janeiro voltou a impor-se como padrão europeu. O nome Janus (janeiro em latim) evoca o deus romano de duas faces, que olhava simultaneamente para o passado e o futuro.",
+          "traditions": "À meia-noite, famílias e amigos brindam com espumante e celebram com fogo de artifício, amuletos como trevos, limpa-chaminés ou joaninhas, e a tradicional fundição de cera para prever o ano. Também são populares o brunch de Ano Novo e os passeios ao ar livre. Muitos fazem resoluções para o ano que começa.",
+          "funFacts": [
+            "Em Portugal e Espanha, come-se uma uva por cada uma das doze badaladas — um desejo por uva.",
+            "Na Dinamarca, partem-se louças velhas em frente à porta dos amigos para lhes dar sorte.",
+            "O Concerto de Ano Novo de Viena é transmitido em mais de 90 países — abertura musical do ano.",
+            "Na ilha pacífica de Kiribati, o Ano Novo chega 26 horas antes do que na ilha de Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 de maio é em muitos países o ‘Dia do Trabalhador' — feriado do movimento operário com manifestações, festas de maio e celebrações primaveris. Em Portugal, é feriado nacional desde 1974.",
+          "history": "A 1 de maio de 1886, centenas de milhares de trabalhadores em Chicago entraram em greve geral pela jornada de oito horas. Os confrontos seguintes em Haymarket fizeram vários mortos. Em 1889, o Congresso Internacional dos Trabalhadores em Paris declarou o 1 de maio ‘dia de luta do movimento operário'. Em Portugal, foi assinalado clandestinamente durante o Estado Novo e tornou-se feriado oficial logo após a Revolução de 25 de Abril de 1974.",
+          "traditions": "Os sindicatos organizam comícios e desfiles com lemas como ‘Mais salário, mais tempo livre'. Em Portugal, a CGTP organiza um grande desfile no Porto e em Lisboa, com milhares de manifestantes. Muitas famílias aproveitam o feriado para piqueniques, churrascos e idas à praia.",
+          "funFacts": [
+            "Em Portugal, o 1.º de Maio de 1974 — apenas 6 dias após a Revolução dos Cravos — foi um dos primeiros grandes ajuntamentos populares livres em décadas.",
+            "Em França, oferece-se muguete (‘muguet') no 1.º de Maio — costume introduzido pelo rei Carlos IX em 1561.",
+            "Na Renânia, na noite de 1.º de Maio, colocam-se vidoeiros decorados (‘Liebesmaien') diante da casa da amada.",
+            "O 1.º de Maio é feriado em mais de 80 países — mas nos EUA e Canadá o ‘Labor Day' é em setembro."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "immaculate_conception": {
+          "intro": "A Imaculada Conceição, 8 de dezembro, celebra a doutrina de que a Mãe de Deus, Maria, foi concebida desde o início sem o pecado original. Em Portugal é feriado nacional e padroeira do país.",
+          "history": "Já no século VII se celebrava no Oriente a ‘Conceição de Santa Ana', nove meses antes do nascimento de Maria (8 de setembro). No Ocidente difundiu-se a partir do século XI. Por séculos os teólogos discutiram se a própria Maria foi ‘concebida sem mancha'. O Papa Pio IX declarou o dogma em 1854 na bula ‘Ineffabilis Deus'. Em Portugal, a Imaculada Conceição é padroeira do país desde 1646 — D. João IV consagrou Portugal a Nossa Senhora da Conceição após a Restauração da Independência.",
+          "traditions": "Em Portugal, o 8 de dezembro é um dos feriados religiosos mais importantes — Imaculada é padroeira do país. Há missas solenes e procissões. Em Vila Viçosa, o santuário marca o ato simbólico de D. João IV. Em Viena e zonas da Baviera, é dia de compras de Natal. Em Lyon (França), os habitantes iluminam as janelas com velas — a famosa ‘Fête des Lumières'.",
+          "funFacts": [
+            "A Imaculada Conceição é padroeira de Portugal desde 1646 — D. João IV consagrou o país a Nossa Senhora.",
+            "A ‘Fête des Lumières' de Lyon atrai mais de 4 milhões de visitantes por ano.",
+            "Em Espanha, o 8 de dezembro coincide com o ‘Puente de la Constitución' — uma das pontes mais viajadas do ano.",
+            "Em Portugal, desde 1646 nenhum monarca usou a coroa em público — em sinal de que a coroa pertencia à Imaculada."
+          ],
+          "imageCredit": "Foto: Unknown authorUnknown author · CC0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
+          "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
+          "traditions": "As famílias reúnem-se em refeições festivas — peru, ganso, bacalhau ou raclette nos países germânicos; em Portugal, o típico almoço de Natal com peru ou cabrito assado, e as sobremesas de bolo-rei, sonhos, rabanadas, aletria e arroz-doce. Trocam-se presentes, cantam-se cânticos, muitos vão à missa festiva. A árvore decorada e o presépio são símbolos centrais.",
+          "funFacts": [
+            "O primeiro calendário do Advento comercial apareceu em 1908 em Munique — invenção de Gerhard Lang.",
+            "Os mercados de Natal de Dresden (‘Striezelmarkt', desde 1434) e Frankfurt (desde 1393) estão entre os mais antigos do mundo.",
+            "A Noruega oferece ao Reino Unido um enorme abeto para Trafalgar Square todos os anos desde 1947 — em agradecimento pela ajuda na II Guerra.",
+            "Em Portugal, a tradição do bolo-rei remonta ao século XIX, importado da pastelaria francesa."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "A Véspera de Ano Novo é o último dia do ano e, em muitos países, uma festa ruidosa e brilhante com fogo de artifício, espumante e celebrações exuberantes.",
+          "history": "O nome alemão ‘Silvester' vem do Papa Silvestre I, falecido a 31 de dezembro de 335. Com a introdução do calendário gregoriano em 1582, o 31 de dezembro tornou-se definitivamente o último dia do ano na Europa central. O fogo de artifício tem origem em costumes antigos para afastar maus espíritos com barulho. A partir dos anos 50, tornou-se grande tradição televisiva. Em Portugal, o réveillon na Madeira é mundialmente famoso pelo seu fogo de artifício.",
+          "traditions": "À meia-noite faz-se a contagem decrescente, brinda-se com espumante, abraçam-se e contemplam-se os fogos. As famílias jogam jogos de tabuleiro, vertem cera para prever o ano e veem clássicos de TV. Em Portugal come-se 12 passas (uma por cada badalada) para os 12 desejos. O réveillon do Funchal (Madeira) é um dos maiores fogos de artifício do mundo.",
+          "funFacts": [
+            "A maior contagem decrescente do mundo é em Times Square, Nova York — a famosa bola de cristal cai à meia-noite desde 1907.",
+            "O réveillon do Funchal (Madeira) já entrou no Guinness pelo maior fogo de artifício do mundo.",
+            "Sydney é uma das primeiras grandes cidades a celebrar o Ano Novo com fogos — já às 13h hora de Lisboa.",
+            "Em Portugal e Espanha come-se uma uva a cada badalada — quem comer todas as 12 terá um ano feliz."
+          ],
+          "imageCredit": "Foto: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "new_year": {
+          "intro": "Il 1° gennaio segna l'inizio di un nuovo anno nel calendario gregoriano in tutto il mondo. Per molti è un giorno di speranza, di nuovi inizi e di buoni propositi.",
+          "history": "Già nel 153 a.C. i Romani fissarono l'inizio dell'anno al 1° gennaio, giorno dell'insediamento dei nuovi consoli. Nel Medioevo l'inizio dell'anno si spostò in molte regioni a Natale o Pasqua. Solo con la riforma del calendario di papa Gregorio XIII nel 1582 il 1° gennaio tornò ad imporsi come standard europeo. Il nome ‘gennaio' deriva dal dio romano Giano, che con due volti guardava contemporaneamente al passato e al futuro.",
+          "traditions": "A mezzanotte famiglie e amici brindano con spumante e festeggiano con fuochi d'artificio, portafortuna come quadrifogli, spazzacamini o coccinelle e la tradizionale colata di piombo (oggi di cera). Sono diffusi anche il brunch di Capodanno e la passeggiata all'aria aperta. Molti formulano buoni propositi per l'anno che inizia.",
+          "funFacts": [
+            "In Spagna si mangia un chicco d'uva a ogni rintocco delle dodici campane — un desiderio per chicco.",
+            "In Danimarca si rompono stoviglie davanti alle porte degli amici per portare loro fortuna.",
+            "Il Concerto di Capodanno di Vienna è trasmesso in oltre 90 paesi — apertura musicale dell'anno.",
+            "Sull'isola pacifica di Kiribati il Capodanno arriva 26 ore prima rispetto all'isola Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "Il 1° maggio è in molti paesi la ‘Festa dei Lavoratori' — festa del movimento operaio con manifestazioni, alberi di maggio e feste primaverili.",
+          "history": "Il 1° maggio 1886 centinaia di migliaia di lavoratori a Chicago entrarono in sciopero generale per la giornata di otto ore. Gli scontri di Haymarket fecero diversi morti. Nel 1889 il Congresso Internazionale dei Lavoratori a Parigi proclamò il 1° maggio ‘giornata di lotta del movimento operaio'. In Italia la festa è abolita nel 1923 dal regime fascista e ripristinata nel 1947. Il celebre ‘Concertone' di piazza San Giovanni a Roma è una tradizione dal 1990.",
+          "traditions": "I sindacati organizzano cortei e manifestazioni con slogan come ‘Più salario, più tempo libero'. In Italia il ‘Concertone' del 1° maggio a Roma riunisce centinaia di migliaia di persone in piazza San Giovanni. Famiglie organizzano gite, picnic e grigliate.",
+          "funFacts": [
+            "Il ‘Concertone' di Roma del 1° maggio dal 1990 raduna centinaia di migliaia di spettatori.",
+            "In Francia il 1° maggio si regalano mughetti (‘muguet') — tradizione che il re Carlo IX introdusse nel 1561.",
+            "In Renania nella notte del 1° maggio si pongono betulle decorate (‘Liebesmaien') davanti alla casa dell'amata.",
+            "Il 1° maggio è festivo in oltre 80 paesi — ma in USA e Canada il ‘Labor Day' è in settembre."
+          ],
+          "imageCredit": "Foto: Joe Piette · CC BY-SA 2.0 via Wikimedia Commons"
+        },
+        "immaculate_conception": {
+          "intro": "L'Immacolata Concezione, l'8 dicembre, celebra la dottrina secondo cui la Madre di Dio Maria fu concepita fin dall'inizio senza peccato originale. È una solennità della Chiesa cattolica e in Italia festa nazionale.",
+          "history": "Già nel VII secolo l'Oriente celebrava la festa della ‘Concezione di Sant'Anna', nove mesi prima della nascita di Maria (8 settembre). In Occidente si diffuse dall'XI secolo. Per secoli i teologi disputarono se Maria stessa fosse stata ‘immacolatamente concepita'. Solo papa Pio IX proclamò il dogma nel 1854 con la bolla ‘Ineffabilis Deus'. In Italia, Austria, Spagna e Portogallo è festa nazionale. È anche il giorno tradizionale per allestire l'albero di Natale nelle case italiane.",
+          "traditions": "In Italia l'8 dicembre è il giorno tradizionale per allestire l'albero di Natale e il presepe in casa. In Vaticano il Papa rende omaggio alla statua dell'Immacolata in piazza di Spagna. A Vienna e in alcune zone della Baviera è giornata di shopping natalizio. A Lione (Francia) gli abitanti illuminano le finestre con candele — la famosa ‘Fête des Lumières'.",
+          "funFacts": [
+            "La ‘Fête des Lumières' di Lione attira oltre 4 milioni di visitatori l'anno.",
+            "L'8 dicembre è tradizionalmente il giorno in cui in Italia si fa l'albero di Natale e il presepe.",
+            "In Spagna l'8 dicembre coincide con il ‘Puente de la Constitución' — uno dei weekend più viaggiati dell'anno.",
+            "Il Papa rende omaggio alla statua dell'Immacolata in piazza di Spagna a Roma — tradizione iniziata da Pio IX nel 1857."
+          ],
+          "imageCredit": "Foto: Unknown authorUnknown author · CC0 via Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
+          "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
+          "traditions": "Le famiglie si riuniscono per pasti festosi — tacchino, oca, carpa o raclette al nord; pranzo natalizio con tortellini in brodo, lasagne, capponi e panettone in Italia. Si scambiano regali, si cantano canti natalizi, molti partecipano alla messa festiva. L'albero decorato e il presepe sono i simboli centrali. Calendario dell'Avvento, biscotti e mercatini scandiscono la preparazione.",
+          "funFacts": [
+            "Il primo calendario dell'Avvento commerciale apparve nel 1908 a Monaco — invenzione di Gerhard Lang.",
+            "I mercatini di Natale di Dresda (‘Striezelmarkt', dal 1434) e Francoforte (dal 1393) sono tra i più antichi al mondo.",
+            "La Norvegia regala al Regno Unito un enorme albero di Natale per Trafalgar Square ogni anno dal 1947 — come ringraziamento per l'aiuto nella Seconda Guerra Mondiale.",
+            "Il panettone milanese e il pandoro veronese sono i due dolci natalizi italiani per eccellenza."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "San Silvestro è l'ultimo giorno dell'anno e in molti paesi è una festa rumorosa e brillante con fuochi d'artificio, spumante e feste esuberanti.",
+          "history": "Il nome deriva da papa Silvestro I, morto il 31 dicembre del 335. Con l'introduzione del calendario gregoriano nel 1582 il 31 dicembre divenne definitivamente l'ultimo giorno dell'anno in Europa centrale. I fuochi d'artificio hanno origine in antiche usanze per scacciare gli spiriti maligni con il rumore. Dagli anni '50 è diventato anche grande tradizione televisiva.",
+          "traditions": "A mezzanotte si fa il countdown insieme, si brinda con spumante, ci si abbraccia e si guardano i fuochi. Le famiglie giocano a giochi da tavolo, si versa la cera per predire l'anno e si guarda il classico ‘Dinner for One'. Sulla tavola: lenticchie, cotechino, panettone o pandoro.",
+          "funFacts": [
+            "Il più grande countdown del mondo è a Times Square di New York — la famosa palla di cristallo scende dal 1907.",
+            "‘Dinner for One' detiene il record del programma TV più replicato al mondo.",
+            "Sydney è una delle prime grandi città a salutare il nuovo anno coi fuochi — già alle 14 ora dell'Europa centrale.",
+            "In Spagna si mangia un chicco d'uva a ogni rintocco — chi li finisce tutti avrà un anno fortunato."
+          ],
+          "imageCredit": "Foto: Makia Minich · CC BY-SA 3.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "new_year": {
+          "intro": "1 stycznia oznacza początek nowego roku w kalendarzu gregoriańskim na całym świecie. Dla wielu jest to dzień nadziei, nowych początków i postanowień.",
+          "history": "Już w 153 r. p.n.e. Rzymianie ustalili początek roku na 1 stycznia, dzień objęcia urzędu nowych konsulów. W średniowieczu początek roku w wielu regionach przesunięto na Boże Narodzenie lub Wielkanoc. Dopiero reforma kalendarza papieża Grzegorza XIII w 1582 roku przywróciła 1 stycznia jako europejski standard. Nazwa miesiąca pochodzi od rzymskiego boga Janusa, który dwiema twarzami spoglądał jednocześnie w przeszłość i przyszłość.",
+          "traditions": "O północy rodziny i przyjaciele wznoszą toast szampanem i świętują przejście do nowego roku fajerwerkami, talizmanami szczęścia (czterolistna koniczyna, kominiarz, biedronka) oraz tradycyjnym lanym ołowiem (dziś woskiem). Popularne są noworoczne brunche i spacery. Wielu składa noworoczne postanowienia.",
+          "funFacts": [
+            "W Hiszpanii zjada się winogronko z każdym z dwunastu uderzeń zegara — życzenie na każde winogronko.",
+            "W Danii rozbija się stare naczynia przed drzwiami przyjaciół, aby przyniosło im to szczęście.",
+            "Wiedeński Koncert Noworoczny transmitowany jest w ponad 90 krajach — muzyczne otwarcie roku.",
+            "Na Pacyficznej wyspie Kiribati Nowy Rok zaczyna się 26 godzin wcześniej niż na wyspie Howland."
+          ],
+          "imageCredit": "Zdjęcie: Vyacheslav Argenberg · CC BY 4.0 przez Wikimedia Commons"
+        },
+        "labour_day": {
+          "intro": "1 maja jest w wielu krajach Świętem Pracy — świętem ruchu robotniczego z manifestacjami, majowymi uroczystościami i wiosennymi festynami. W Polsce dzień wolny od pracy.",
+          "history": "1 maja 1886 roku setki tysięcy robotników w Chicago weszło w strajk generalny domagając się ośmiogodzinnego dnia pracy. Następujące starcia na Haymarket pochłonęły kilka ofiar. W 1889 roku Międzynarodowy Kongres Robotniczy w Paryżu ogłosił 1 maja ‘dniem walki ruchu robotniczego'. W Polsce święto wprowadzono oficjalnie w 1950 roku, choć obchody były już wcześniej. Po 1989 roku zachowane jako symbol pracowniczy.",
+          "traditions": "W Polsce 1 maja to popularny dzień na pierwsze grillowanie i majowe wycieczki. Związki zawodowe organizują wiece i pochody. Wraz z 2 maja (Dzień Flagi) i 3 maja (Konstytucja) tworzy słynne ‘majówki' — najważniejszy długi weekend wiosenny w Polsce, kiedy wielu wyjeżdża nad morze, w góry lub na działkę.",
+          "funFacts": [
+            "‘Majówka' to jeden z najbardziej intensywnych weekendów turystycznych w Polsce — wiele osób ucieka z miast na wieś.",
+            "We Francji 1 maja wręcza się konwalie (‘muguet') — zwyczaj wprowadzony przez króla Karola IX w 1561 roku.",
+            "1 maja jest świętem urzędowym w ponad 80 krajach — ale w USA i Kanadzie ‘Labor Day' obchodzi się we wrześniu.",
+            "Najwyższy maj w Bawarii postawiono w Mitterfels w 2017 roku — miał ponad 50 m."
+          ],
+          "imageCredit": "Zdjęcie: Joe Piette · CC BY-SA 2.0 przez Wikimedia Commons"
+        },
+        "immaculate_conception": {
+          "intro": "Niepokalane Poczęcie Najświętszej Maryi Panny, 8 grudnia, świętuje doktrynę, że Matka Boża została poczęta od początku bez grzechu pierworodnego. W Polsce wspomnienie liturgiczne, ale nie dzień wolny.",
+          "history": "Już w VII wieku na Wschodzie świętowano ‘Poczęcie świętej Anny' — dziewięć miesięcy przed narodzeniem Maryi (8 września). Na Zachodzie święto rozpowszechniło się od XI wieku. Przez wieki teolodzy spierali się, czy sama Maryja została ‘poczęta niepokalanie'. Dopiero papież Pius IX ogłosił dogmat w 1854 roku w bulli ‘Ineffabilis Deus'. W Austrii, Włoszech, Hiszpanii i Portugalii dzień jest wolny.",
+          "traditions": "W Wiedniu i częściach Bawarii 8 grudnia to popularny dzień zakupów świątecznych. W Polsce wierni uczestniczą w mszy świętej — zwłaszcza na Jasnej Górze odbywa się szczególna uroczystość. W Lyonie (Francja) mieszkańcy oświetlają okna świecami i zdobią ulice — słynna ‘Fête des Lumières'.",
+          "funFacts": [
+            "‘Fête des Lumières' w Lyonie przyciąga rocznie ponad 4 miliony zwiedzających.",
+            "Przed uznaniem za święto maryjne 8 grudnia był w germańskim folklorze dniem zimowym z talizmanami szczęścia.",
+            "W Hiszpanii 8 grudnia tworzy długi weekend ‘Puente de la Constitución' — jeden z najbardziej obleganych podróżniczo w roku.",
+            "Kolumna Matki Bożej na monachijskim Marienplatz została wzniesiona w 1638 roku w podzięce za ocalenie miasta podczas wojny trzydziestoletniej."
+          ],
+          "imageCredit": "Zdjęcie: Unknown authorUnknown author · CC0 przez Wikimedia Commons"
+        },
+        "christmas": {
+          "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
+          "history": "Już w 354 roku 25 grudnia odnotowany jest jako ‘dies natalis Christi' w rzymskim kalendarzu. Kościół wybrał tę datę prawdopodobnie po to, by chrześcijańsko zinterpretować rzymskie święto ‘Sol Invictus'. Tradycja prezentów ma korzenie w darach Trzech Mędrców. Współczesny Święty Mikołaj w czerwonym płaszczu i z białą brodą to mieszanka św. Mikołaja i kampanii reklamowej Coca-Coli z 1931 roku.",
+          "traditions": "W Polsce Boże Narodzenie obchodzi się przez dwa dni (25 i 26 grudnia). Rodziny zbierają się na obfitym obiedzie — często rosół z makaronem, schab, indyk, sałatka jarzynowa, makowiec, sernik. Wymienia się prezenty (w Polsce zwykle wręczane już w Wigilię), śpiewa kolędy, wielu uczestniczy w nabożeństwach. Choinka i szopka są centralnymi symbolami.",
+          "funFacts": [
+            "Pierwszy komercyjny kalendarz adwentowy ukazał się w 1908 roku w Monachium — wynalazek Gerharda Langa.",
+            "Polskie kolędy — m.in. ‘Wśród nocnej ciszy', ‘Bóg się rodzi', ‘Lulajże, Jezuniu' — uchodzą za jedne z najpiękniejszych na świecie.",
+            "Norwegia podarowuje Wielkiej Brytanii corocznie od 1947 roku ogromną choinkę na Trafalgar Square — w podzięce za pomoc w II wojnie światowej.",
+            "Tradycja choinki dotarła do Polski z Niemiec na początku XIX wieku, a powszechna stała się po 1830 roku."
+          ],
+          "imageCredit": "Zdjęcie: Chris Olszewski · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "new_years_eve": {
+          "intro": "Sylwester to ostatni dzień roku i w wielu krajach głośna, błyszcząca uroczystość z fajerwerkami, szampanem i hucznymi imprezami.",
+          "history": "Nazwa pochodzi od papieża Sylwestra I, zmarłego 31 grudnia 335 roku. Wraz z reformą gregoriańską w 1582 roku 31 grudnia stał się definitywnie ostatnim dniem roku w Europie Środkowej. Fajerwerki wywodzą się z dawnych zwyczajów odpędzania złych duchów hałasem. W Polsce Sylwester to okazja do hucznych zabaw — zarówno domowych, jak i ulicznych ‘Sylwestrów Marzeń'.",
+          "traditions": "O północy odlicza się sekundy do nowego roku, wznosi toast szampanem, ściska bliskich i ogląda fajerwerki. Rodziny grają w gry planszowe, leją wosk, by przepowiadać nadchodzący rok. W Polsce popularne są ‘Sylwestry Marzeń' organizowane przez stacje TV w największych miastach — w Zakopanem, Krakowie, Toruniu, Gdańsku. Festiwalowe menu: śledzie, sałatki, krokiety i pączki.",
+          "funFacts": [
+            "Największe odliczanie świata odbywa się na Times Square w Nowym Jorku — słynna kryształowa kula opada o północy od 1907 roku.",
+            "‘Dinner for One' dzierży rekord najczęściej powtarzanego programu TV na świecie.",
+            "Sydney to jedno z pierwszych wielkich miast witających Nowy Rok fajerwerkami — już o 14:00 czasu środkowoeuropejskiego.",
+            "W Hiszpanii zjada się winogronko z każdym uderzeniem dzwonu — kto zje wszystkie 12, ma szczęśliwy rok."
+          ],
+          "imageCredit": "Zdjęcie: Makia Minich · CC BY-SA 3.0 przez Wikimedia Commons"
+        }
+      }
+    }
+  },
+  "images": {
+    "new_year": [
+      {
+        "path": "images/new_year/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "labour_day": [
+      {
+        "path": "images/labour_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/labour_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "immaculate_conception": [
+      {
+        "path": "images/immaculate_conception/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/immaculate_conception/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/immaculate_conception/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas": [
+      {
+        "path": "images/christmas/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "new_years_eve": [
+      {
+        "path": "images/new_years_eve/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_years_eve/02.jpg",
+        "primary": false,
+        "credit": "Vivu Vietnam",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "path": "images/new_years_eve/03.jpg",
+        "primary": false,
+        "credit": "Btezra",
+        "license": "CC BY-SA 2.0"
+      }
+    ]
+  },
+  "version": 4
+}

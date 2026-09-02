@@ -1,0 +1,1361 @@
+{
+  "countryCode": "NZ",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "NZ_new_years_day",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-01",
+          "2027": "01-01",
+          "2028": "01-03",
+          "2029": "01-01",
+          "2030": "01-01",
+          "2031": "01-01",
+          "2032": "01-01",
+          "2033": "01-03",
+          "2034": "01-02",
+          "2035": "01-01"
+        }
+      }
+    },
+    {
+      "id": "NZ_day_after_new_years_day",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.day_after_new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-02",
+          "2027": "01-04",
+          "2028": "01-04",
+          "2029": "01-02",
+          "2030": "01-02",
+          "2031": "01-02",
+          "2032": "01-02",
+          "2033": "01-04",
+          "2034": "01-03",
+          "2035": "01-02"
+        }
+      }
+    },
+    {
+      "id": "NZ_wellington_anniversary_day",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.wellington_anniversary_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-19",
+          "2027": "01-25",
+          "2028": "01-24",
+          "2029": "01-22",
+          "2030": "01-21",
+          "2031": "01-20",
+          "2032": "01-19",
+          "2033": "01-24",
+          "2034": "01-23",
+          "2035": "01-22"
+        }
+      }
+    },
+    {
+      "id": "NZ_auckland_anniversary_day",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.auckland_anniversary_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-26",
+          "2027": "02-01",
+          "2028": "01-31",
+          "2029": "01-29",
+          "2030": "01-28",
+          "2031": "01-27",
+          "2032": "01-26",
+          "2033": "01-31",
+          "2034": "01-30",
+          "2035": "01-29"
+        }
+      }
+    },
+    {
+      "id": "NZ_nelson_anniversary_day",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.nelson_anniversary_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-02",
+          "2027": "02-01",
+          "2028": "01-31",
+          "2029": "01-29",
+          "2030": "02-04",
+          "2031": "02-03",
+          "2032": "02-02",
+          "2033": "01-31",
+          "2034": "01-30",
+          "2035": "01-29"
+        }
+      }
+    },
+    {
+      "id": "NZ_waitangi_day",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.waitangi_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-06",
+          "2027": "02-08",
+          "2028": "02-07",
+          "2029": "02-06",
+          "2030": "02-06",
+          "2031": "02-06",
+          "2032": "02-06",
+          "2033": "02-07",
+          "2034": "02-06",
+          "2035": "02-06"
+        }
+      }
+    },
+    {
+      "id": "NZ_taranaki_anniversary_day",
+      "countryCode": "NZ",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.taranaki_anniversary_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 3,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "NZ_otago_anniversary_day",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.otago_anniversary_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "03-23",
+          "2027": "03-22",
+          "2028": "03-20",
+          "2029": "03-26",
+          "2030": "03-25",
+          "2031": "03-24",
+          "2032": "03-22",
+          "2033": "03-21",
+          "2034": "03-20",
+          "2035": "03-26"
+        }
+      }
+    },
+    {
+      "id": "NZ_good_friday",
+      "countryCode": "NZ",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "NZ_easter_monday",
+      "countryCode": "NZ",
+      "kind": "easter_relative",
+      "labelKey": "holidays.easter_monday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 1
+      }
+    },
+    {
+      "id": "NZ_southland_anniversary_day",
+      "countryCode": "NZ",
+      "kind": "easter_relative",
+      "labelKey": "holidays.southland_anniversary_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": 2
+      }
+    },
+    {
+      "id": "NZ_anzac_day",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.anzac_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-27",
+          "2027": "04-26",
+          "2028": "04-25",
+          "2029": "04-25",
+          "2030": "04-25",
+          "2031": "04-25",
+          "2032": "04-26",
+          "2033": "04-25",
+          "2034": "04-25",
+          "2035": "04-25"
+        }
+      }
+    },
+    {
+      "id": "NZ_kings_birthday",
+      "countryCode": "NZ",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.kings_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 6,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "NZ_matariki",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.matariki",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "07-10",
+          "2027": "06-25",
+          "2028": "07-14",
+          "2029": "07-06",
+          "2030": "06-21",
+          "2031": "07-11",
+          "2032": "07-02",
+          "2033": "06-24",
+          "2034": "07-07",
+          "2035": "06-29"
+        }
+      }
+    },
+    {
+      "id": "NZ_canterbury_south_anniversary_day",
+      "countryCode": "NZ",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.canterbury_south_anniversary_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "nth": 4,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "NZ_hawkes_bay_anniversary_day",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.hawkes_bay_anniversary_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "10-23",
+          "2027": "10-22",
+          "2028": "10-20",
+          "2029": "10-19",
+          "2030": "10-25",
+          "2031": "10-24",
+          "2032": "10-22",
+          "2033": "10-21",
+          "2034": "10-20",
+          "2035": "10-19"
+        }
+      }
+    },
+    {
+      "id": "NZ_labour_day",
+      "countryCode": "NZ",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.labour_day_nz",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "nth": 4,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "NZ_marlborough_anniversary_day",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.marlborough_anniversary_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-02",
+          "2027": "11-01",
+          "2028": "10-30",
+          "2029": "10-29",
+          "2030": "11-04",
+          "2031": "11-03",
+          "2032": "11-01",
+          "2033": "10-31",
+          "2034": "10-30",
+          "2035": "10-29"
+        }
+      }
+    },
+    {
+      "id": "NZ_canterbury_anniversary_day",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.canterbury_anniversary_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-13",
+          "2027": "11-12",
+          "2028": "11-17",
+          "2029": "11-16",
+          "2030": "11-15",
+          "2031": "11-14",
+          "2032": "11-12",
+          "2033": "11-11",
+          "2034": "11-17",
+          "2035": "11-16"
+        }
+      }
+    },
+    {
+      "id": "NZ_chatham_islands_anniversary_day",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.chatham_islands_anniversary_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-30",
+          "2027": "11-29",
+          "2028": "11-27",
+          "2029": "12-03",
+          "2030": "12-02",
+          "2031": "12-01",
+          "2032": "11-29",
+          "2033": "11-28",
+          "2034": "11-27",
+          "2035": "12-03"
+        }
+      }
+    },
+    {
+      "id": "NZ_westland_anniversary_day",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.westland_anniversary_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-30",
+          "2027": "11-29",
+          "2028": "12-04",
+          "2029": "12-03",
+          "2030": "12-02",
+          "2031": "12-01",
+          "2032": "11-29",
+          "2033": "11-28",
+          "2034": "12-04",
+          "2035": "12-03"
+        }
+      }
+    },
+    {
+      "id": "NZ_christmas_day",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.christmas_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "12-25",
+          "2027": "12-27",
+          "2028": "12-25",
+          "2029": "12-25",
+          "2030": "12-25",
+          "2031": "12-25",
+          "2032": "12-27",
+          "2033": "12-26",
+          "2034": "12-25",
+          "2035": "12-25"
+        }
+      }
+    },
+    {
+      "id": "NZ_boxing_day",
+      "countryCode": "NZ",
+      "kind": "precomputed",
+      "labelKey": "holidays.boxing_day_nz",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "12-28",
+          "2027": "12-28",
+          "2028": "12-26",
+          "2029": "12-26",
+          "2030": "12-26",
+          "2031": "12-26",
+          "2032": "12-28",
+          "2033": "12-27",
+          "2034": "12-26",
+          "2035": "12-26"
+        }
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "day_after_new_years_day": "Day after New Year's Day",
+        "wellington_anniversary_day": "Wellington Anniversary Day",
+        "auckland_anniversary_day": "Auckland Anniversary Day",
+        "nelson_anniversary_day": "Nelson Anniversary Day",
+        "waitangi_day": "Waitangi Day",
+        "taranaki_anniversary_day": "Taranaki Anniversary Day",
+        "otago_anniversary_day": "Otago Anniversary Day",
+        "southland_anniversary_day": "Southland Anniversary Day",
+        "anzac_day": "Anzac Day",
+        "kings_birthday": "King's Birthday",
+        "matariki": "Matariki",
+        "canterbury_south_anniversary_day": "Canterbury (South) Anniversary Day",
+        "hawkes_bay_anniversary_day": "Hawke's Bay Anniversary Day",
+        "labour_day_nz": "Labour Day",
+        "marlborough_anniversary_day": "Marlborough Anniversary Day",
+        "canterbury_anniversary_day": "Canterbury Anniversary Day",
+        "chatham_islands_anniversary_day": "Chatham Islands Anniversary Day",
+        "westland_anniversary_day": "Westland Anniversary Day",
+        "christmas_day": "Christmas Day",
+        "boxing_day_nz": "Boxing Day"
+      },
+      "de": {
+        "new_years_day": "Neujahr",
+        "day_after_new_years_day": "Tag nach Neujahr",
+        "wellington_anniversary_day": "Wellington-Jubiläumstag",
+        "auckland_anniversary_day": "Auckland-Jubiläumstag",
+        "nelson_anniversary_day": "Nelson-Jubiläumstag",
+        "waitangi_day": "Waitangi-Tag",
+        "taranaki_anniversary_day": "Taranaki-Jubiläumstag",
+        "otago_anniversary_day": "Otago-Jubiläumstag",
+        "southland_anniversary_day": "Southland-Jubiläumstag",
+        "anzac_day": "Anzac-Tag",
+        "kings_birthday": "Geburtstag des Königs",
+        "matariki": "Matariki",
+        "canterbury_south_anniversary_day": "Canterbury (Süd)-Jubiläumstag",
+        "hawkes_bay_anniversary_day": "Hawke's Bay-Jubiläumstag",
+        "labour_day_nz": "Tag der Arbeit",
+        "marlborough_anniversary_day": "Marlborough-Jubiläumstag",
+        "canterbury_anniversary_day": "Canterbury-Jubiläumstag",
+        "chatham_islands_anniversary_day": "Jahrestag der Chatham-Inseln",
+        "westland_anniversary_day": "Westland-Jubiläumstag",
+        "christmas_day": "Weihnachtstag",
+        "boxing_day_nz": "Boxing Day"
+      },
+      "fr": {
+        "new_years_day": "Jour de l'An",
+        "day_after_new_years_day": "Le lendemain du Nouvel An",
+        "wellington_anniversary_day": "Jour d'anniversaire de Wellington",
+        "auckland_anniversary_day": "Jour d'anniversaire d'Auckland",
+        "nelson_anniversary_day": "Anniversaire de Nelson",
+        "waitangi_day": "Journée Waitangi",
+        "taranaki_anniversary_day": "Jour anniversaire de Taranaki",
+        "otago_anniversary_day": "Jour d'anniversaire d'Otago",
+        "southland_anniversary_day": "Jour d'anniversaire du Southland",
+        "anzac_day": "Journée Anzac",
+        "kings_birthday": "Anniversaire du Roi",
+        "matariki": "Matariki",
+        "canterbury_south_anniversary_day": "Jour d'anniversaire de Canterbury (Sud)",
+        "hawkes_bay_anniversary_day": "Jour anniversaire de Hawke's Bay",
+        "labour_day_nz": "Fête du Travail",
+        "marlborough_anniversary_day": "Jour d'anniversaire de Marlborough",
+        "canterbury_anniversary_day": "Jour d'anniversaire de Cantorbéry",
+        "chatham_islands_anniversary_day": "Jour d'anniversaire des îles Chatham",
+        "westland_anniversary_day": "Jour anniversaire de Westland",
+        "christmas_day": "Jour de Noël",
+        "boxing_day_nz": "Le lendemain de Noël"
+      },
+      "es": {
+        "new_years_day": "Día de Año Nuevo",
+        "day_after_new_years_day": "Día después del día de Año Nuevo",
+        "wellington_anniversary_day": "Día del aniversario de Wellington",
+        "auckland_anniversary_day": "Día del aniversario de Auckland",
+        "nelson_anniversary_day": "Día del aniversario de Nelson",
+        "waitangi_day": "Día de Waitangi",
+        "taranaki_anniversary_day": "Día del aniversario de Taranaki",
+        "otago_anniversary_day": "Día del aniversario de Otago",
+        "southland_anniversary_day": "Día del aniversario de Southland",
+        "anzac_day": "Día de Anzac",
+        "kings_birthday": "Cumpleaños del Rey",
+        "matariki": "Matariki",
+        "canterbury_south_anniversary_day": "Día del aniversario de Canterbury (Sur)",
+        "hawkes_bay_anniversary_day": "Día del aniversario de Hawke's Bay",
+        "labour_day_nz": "Día del Trabajo",
+        "marlborough_anniversary_day": "Día del aniversario de Marlborough",
+        "canterbury_anniversary_day": "Día del aniversario de Canterbury",
+        "chatham_islands_anniversary_day": "Día del aniversario de las Islas Chatham",
+        "westland_anniversary_day": "Día del aniversario de Westland",
+        "christmas_day": "Día de Navidad",
+        "boxing_day_nz": "Día del Boxeo"
+      },
+      "pt": {
+        "new_years_day": "Dia de Ano Novo",
+        "day_after_new_years_day": "Dia após o Ano Novo",
+        "wellington_anniversary_day": "Dia do aniversário do Wellington",
+        "auckland_anniversary_day": "Aniversário de Auckland",
+        "nelson_anniversary_day": "Dia de aniversário do Nelson",
+        "waitangi_day": "Dia de Waitangi",
+        "taranaki_anniversary_day": "Dia de aniversário de Taranaki",
+        "otago_anniversary_day": "Dia de aniversário do Otago",
+        "southland_anniversary_day": "Dia do Aniversário de Southland",
+        "anzac_day": "Dia Anzac",
+        "kings_birthday": "Aniversário do Rei",
+        "matariki": "Matariki",
+        "canterbury_south_anniversary_day": "Dia de Aniversário de Canterbury (Sul)",
+        "hawkes_bay_anniversary_day": "Dia do aniversário de Hawke's Bay",
+        "labour_day_nz": "Dia do Trabalhador",
+        "marlborough_anniversary_day": "Dia do aniversário de Marlborough",
+        "canterbury_anniversary_day": "Dia do Aniversário de Cantuária",
+        "chatham_islands_anniversary_day": "Dia do Aniversário das Ilhas Chatham",
+        "westland_anniversary_day": "Dia do aniversário de Westland",
+        "christmas_day": "Dia de Natal",
+        "boxing_day_nz": "Boxing Day"
+      },
+      "it": {
+        "new_years_day": "Capodanno",
+        "day_after_new_years_day": "Il giorno dopo Capodanno",
+        "wellington_anniversary_day": "Giorno dell'anniversario di Wellington",
+        "auckland_anniversary_day": "Giorno dell'anniversario di Auckland",
+        "nelson_anniversary_day": "Giorno dell'anniversario di Nelson",
+        "waitangi_day": "Giorno di Waitangi",
+        "taranaki_anniversary_day": "Giorno dell'anniversario di Taranaki",
+        "otago_anniversary_day": "Giorno dell'anniversario di Otago",
+        "southland_anniversary_day": "Giorno dell'anniversario del Southland",
+        "anzac_day": "Anzac Day",
+        "kings_birthday": "Compleanno del Re",
+        "matariki": "Matariki",
+        "canterbury_south_anniversary_day": "Giorno dell'anniversario di Canterbury (sud).",
+        "hawkes_bay_anniversary_day": "Giorno dell'anniversario di Hawke's Bay",
+        "labour_day_nz": "Festa dei lavoratori",
+        "marlborough_anniversary_day": "Giorno dell'anniversario di Marlborough",
+        "canterbury_anniversary_day": "Giorno dell'anniversario di Canterbury",
+        "chatham_islands_anniversary_day": "Giorno dell'anniversario delle Isole Chatham",
+        "westland_anniversary_day": "Giorno dell'anniversario di Westland",
+        "christmas_day": "Il giorno di Natale",
+        "boxing_day_nz": "Santo Stefano"
+      },
+      "pl": {
+        "new_years_day": "Nowy Rok",
+        "day_after_new_years_day": "Dzień po Nowym Roku",
+        "wellington_anniversary_day": "Dzień rocznicowy Wellington",
+        "auckland_anniversary_day": "Dzień rocznicowy w Auckland",
+        "nelson_anniversary_day": "Dzień rocznicy Nelsona",
+        "waitangi_day": "Dzień Waitangi",
+        "taranaki_anniversary_day": "Dzień rocznicowy Taranaki",
+        "otago_anniversary_day": "Dzień rocznicowy Otago",
+        "southland_anniversary_day": "Dzień rocznicowy w Southland",
+        "anzac_day": "Dzień Anzaca",
+        "kings_birthday": "Urodziny króla",
+        "matariki": "Matariki",
+        "canterbury_south_anniversary_day": "Dzień rocznicowy w Canterbury (południe).",
+        "hawkes_bay_anniversary_day": "Dzień rocznicowy Hawke's Bay",
+        "labour_day_nz": "Święto Pracy",
+        "marlborough_anniversary_day": "Dzień rocznicowy Marlborough",
+        "canterbury_anniversary_day": "Dzień rocznicowy Canterbury",
+        "chatham_islands_anniversary_day": "Dzień rocznicowy Wysp Chatham",
+        "westland_anniversary_day": "Dzień rocznicowy Westland",
+        "christmas_day": "Boże Narodzenie",
+        "boxing_day_nz": "Drugi dzień świąt"
+      },
+      "nl": {
+        "new_years_day": "Nieuwjaarsdag",
+        "day_after_new_years_day": "Dag na nieuwjaarsdag",
+        "wellington_anniversary_day": "Wellington-jubileumdag",
+        "auckland_anniversary_day": "Auckland-jubileumdag",
+        "nelson_anniversary_day": "Nelson-jubileumdag",
+        "waitangi_day": "Waitangi-dag",
+        "taranaki_anniversary_day": "Taranaki-jubileumdag",
+        "otago_anniversary_day": "Otago-jubileumdag",
+        "southland_anniversary_day": "Southland-jubileumdag",
+        "anzac_day": "Anzac-dag",
+        "kings_birthday": "Koningsverjaardag",
+        "matariki": "Matariki",
+        "canterbury_south_anniversary_day": "Canterbury (Zuid) jubileumdag",
+        "hawkes_bay_anniversary_day": "Hawke's Bay jubileumdag",
+        "labour_day_nz": "Dag van de Arbeid",
+        "marlborough_anniversary_day": "Marlborough-jubileumdag",
+        "canterbury_anniversary_day": "Canterbury-jubileumdag",
+        "chatham_islands_anniversary_day": "Chatham Islands jubileumdag",
+        "westland_anniversary_day": "Westlandse Jubileumdag",
+        "christmas_day": "Eerste Kerstdag",
+        "boxing_day_nz": "Tweede Kerstdag"
+      },
+      "sv": {
+        "new_years_day": "Nyårsdagen",
+        "day_after_new_years_day": "Dagen efter nyårsdagen",
+        "wellington_anniversary_day": "Wellingtons jubileumsdag",
+        "auckland_anniversary_day": "Auckland Anniversary Day",
+        "nelson_anniversary_day": "Nelsons jubileumsdag",
+        "waitangi_day": "Waitangi-dagen",
+        "taranaki_anniversary_day": "Taranakis årsdag",
+        "otago_anniversary_day": "Otago Anniversary Day",
+        "southland_anniversary_day": "Southland Anniversary Day",
+        "anzac_day": "Anzac Day",
+        "kings_birthday": "Kungens födelsedag",
+        "matariki": "Matariki",
+        "canterbury_south_anniversary_day": "Canterbury (södra) årsdagen",
+        "hawkes_bay_anniversary_day": "Hawke's Bay Anniversary Day",
+        "labour_day_nz": "Labor Day",
+        "marlborough_anniversary_day": "Marlboroughs årsdag",
+        "canterbury_anniversary_day": "Canterbury Anniversary Day",
+        "chatham_islands_anniversary_day": "Chatham Islands årsdagen",
+        "westland_anniversary_day": "Westland Anniversary Day",
+        "christmas_day": "Juldagen",
+        "boxing_day_nz": "Annandag jul"
+      },
+      "ja": {
+        "new_years_day": "元旦",
+        "day_after_new_years_day": "元旦翌日",
+        "wellington_anniversary_day": "ウェリントン記念日",
+        "auckland_anniversary_day": "オークランド記念日",
+        "nelson_anniversary_day": "ネルソン記念日",
+        "waitangi_day": "ワイタンギの日",
+        "taranaki_anniversary_day": "タラナキ記念日",
+        "otago_anniversary_day": "オタゴ記念日",
+        "southland_anniversary_day": "サウスランド記念日",
+        "anzac_day": "アンザックデー",
+        "kings_birthday": "国王の誕生日",
+        "matariki": "マタリキ",
+        "canterbury_south_anniversary_day": "カンタベリー (南部) 記念日",
+        "hawkes_bay_anniversary_day": "ホークスベイ記念日",
+        "labour_day_nz": "レイバーデー",
+        "marlborough_anniversary_day": "マールボロ記念日",
+        "canterbury_anniversary_day": "カンタベリー記念日",
+        "chatham_islands_anniversary_day": "チャタム諸島記念日",
+        "westland_anniversary_day": "ウェストランド記念日",
+        "christmas_day": "クリスマスの日",
+        "boxing_day_nz": "ボクシングデー"
+      },
+      "ko": {
+        "new_years_day": "설날",
+        "day_after_new_years_day": "설날 다음날",
+        "wellington_anniversary_day": "웰링턴 기념일",
+        "auckland_anniversary_day": "오클랜드 기념일",
+        "nelson_anniversary_day": "넬슨 기념일",
+        "waitangi_day": "와이탕이 데이",
+        "taranaki_anniversary_day": "타라나키 기념일",
+        "otago_anniversary_day": "오타고 기념일",
+        "southland_anniversary_day": "사우스랜드 기념일",
+        "anzac_day": "안작데이",
+        "kings_birthday": "국왕 탄신일",
+        "matariki": "마타리키",
+        "canterbury_south_anniversary_day": "캔터베리(남부) 기념일",
+        "hawkes_bay_anniversary_day": "호크스베이 기념일",
+        "labour_day_nz": "노동절",
+        "marlborough_anniversary_day": "말보로 기념일",
+        "canterbury_anniversary_day": "캔터베리 기념일",
+        "chatham_islands_anniversary_day": "채텀 제도 기념일",
+        "westland_anniversary_day": "웨스트랜드 기념일",
+        "christmas_day": "크리스마스",
+        "boxing_day_nz": "박싱데이"
+      },
+      "zh-Hant": {
+        "new_years_day": "元旦",
+        "day_after_new_years_day": "元旦後一天",
+        "wellington_anniversary_day": "惠靈頓週年紀念日",
+        "auckland_anniversary_day": "奧克蘭週年紀念日",
+        "nelson_anniversary_day": "納爾遜週年紀念日",
+        "waitangi_day": "懷唐伊日",
+        "taranaki_anniversary_day": "塔拉納基週年紀念日",
+        "otago_anniversary_day": "奧塔哥週年紀念日",
+        "southland_anniversary_day": "南國週年紀念日",
+        "anzac_day": "澳紐軍團日",
+        "kings_birthday": "國王生日",
+        "matariki": "瑪塔里基",
+        "canterbury_south_anniversary_day": "@坎特伯雷（南）週年紀念日",
+        "hawkes_bay_anniversary_day": "霍克斯灣週年紀念日",
+        "labour_day_nz": "勞動節",
+        "marlborough_anniversary_day": "馬爾堡週年紀念日",
+        "canterbury_anniversary_day": "坎特伯雷週年紀念日",
+        "chatham_islands_anniversary_day": "查塔姆群島週年紀念日",
+        "westland_anniversary_day": "韋斯特蘭週年紀念日",
+        "christmas_day": "聖誕節",
+        "boxing_day_nz": "節禮日"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "waitangi_day": {
+          "intro": "Der Waitangi Day am 6. Februar ist der Nationalfeiertag Neuseelands und erinnert an die Unterzeichnung des Vertrags von Waitangi 1840.",
+          "history": "Am 6. Februar 1840 unterzeichneten Māori-Häuptlinge und die britische Krone in Waitangi in der Bay of Islands den Vertrag von Waitangi, das Gründungsdokument des modernen Neuseeland. Bedeutung und Pflichten des Vertrags sind bis heute zentral für das Land.",
+          "traditions": "Die Gedenkfeiern konzentrieren sich auf die Waitangi Treaty Grounds, mit Māori-Kulturdarbietungen, Waka-Zeremonien (Kanu) und politischen Reden. Im ganzen Land gibt es Festivals, Konzerte und Gemeindeveranstaltungen.",
+          "funFacts": [
+            "Er erinnert an die Unterzeichnung des Vertrags von Waitangi 1840.",
+            "Den Vertrag gibt es in einer Māori- und einer englischen Fassung.",
+            "Die Hauptzeremonie findet auf den Waitangi Treaty Grounds statt."
+          ]
+        },
+        "good_friday": {
+          "intro": "Karfreitag ist der höchste protestantische Trauertag und erinnert an die Kreuzigung Jesu Christi. In Deutschland ist er ein „stiller Feiertag” mit besonderen Schutzregeln.",
+          "history": "Karfreitag wird seit dem 4. Jahrhundert von Christen begangen. Das Wort „Kar” stammt vom althochdeutschen „chara” und bedeutet Klage oder Trauer. Schon früh entwickelten sich liturgische Traditionen: Verlesung der Passionsgeschichte, Kreuzverehrung und das Verstummen der Glocken. Die Reformation hob den Karfreitag besonders hervor; in lutherischen Regionen ist er bis heute der wichtigste Feiertag des Kirchenjahres.",
+          "traditions": "Viele Christen besuchen Passionsgottesdienste mit der Verlesung der Leidensgeschichte. Es gilt als Fastentag – traditionell wird Fisch statt Fleisch gegessen. In manchen Regionen ziehen Karfreitagsprozessionen durch die Straßen, etwa die berühmte „Karfreitagsprozession” in Lohr am Main. Tanzveranstaltungen und laute Musik sind in den meisten Bundesländern gesetzlich untersagt.",
+          "funFacts": [
+            "In Deutschland regelt das „Tanzverbot” das öffentliche Vergnügen am Karfreitag – seit Jahren ein gesellschaftlicher Streitpunkt.",
+            "Bach schrieb seine Matthäus-Passion 1727 für die Karfreitags-Vesper in Leipzig – heute eines der meistaufgeführten Werke der Welt.",
+            "In Bermuda lassen Familien am Karfreitag selbstgebastelte Drachen aus Bambus und Papier steigen – eine einzigartige christliche Tradition.",
+            "Im Spanischen heißt Karfreitag „Viernes Santo” – mit prachtvollen Bruderschafts-Prozessionen, etwa in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Ostermontag ist der zweite Festtag von Ostern und in den meisten europäischen Ländern arbeitsfrei. Er ist Ausklang des höchsten christlichen Festes.",
+          "history": "Ostern ist das älteste Fest der Christenheit und feiert die Auferstehung Jesu Christi am dritten Tag nach seinem Tod. Das Konzil von Nicäa legte 325 das Osterdatum auf den ersten Sonntag nach dem ersten Frühlingsvollmond. Der Ostermontag wird seit dem frühen Mittelalter als zweiter Festtag begangen – ursprünglich war die ganze Osterwoche frei. In Deutschland und Österreich blieb er als gesetzlicher Feiertag erhalten, anders als in vielen rein katholischen Ländern.",
+          "traditions": "Familien suchen gemeinsam Ostereier, frühstücken ausgiebig oder unternehmen den klassischen Osterspaziergang („Vom Eise befreit sind Strom und Bäche…”, Goethe). In Polen feiert man „Śmigus-Dyngus”: Junge bespritzen Mädchen mit Wasser. In Tschechien klopfen Burschen mit Weidenruten an Türen. In Bayern und Österreich gibt es das traditionelle „Emmausgehen”.",
+          "funFacts": [
+            "Der Brauch des Ostereiersuchens wurde erstmals von Martin Luther erwähnt, der seinen Kindern damit eine Freude machte.",
+            "Das größte Schoko-Osterei der Welt stand in Argentinien (8,5 m hoch, 4 t schwer) – verewigt im Guinness-Buch.",
+            "In Schweden ziehen Kinder am Karsamstag als „Påskkärringar” verkleidet – wie kleine Hexen – von Tür zu Tür.",
+            "Der Osterhase als Eierbringer wurde 1682 erstmals von dem Mediziner Georg Franck von Franckenau schriftlich erwähnt."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "anzac_day": {
+          "intro": "Der Anzac Day am 25. April ehrt Neuseeländer und Australier, die in Kriegen dienten und fielen, und erinnert an die Landung von Gallipoli 1915.",
+          "history": "Am 25. April 1915 landete das Australian and New Zealand Army Corps (ANZAC) im Ersten Weltkrieg bei Gallipoli. Für eine junge Nation wurden die schweren Verluste zu einem starken Symbol, und der Tag gedenkt heute aller Neuseeländer, die dienten.",
+          "traditions": "Die Neuseeländer versammeln sich zu Morgenandachten an Kriegerdenkmälern, gefolgt von Veteranenparaden, Kranzniederlegungen und dem „Last Post”. Viele tragen rote Mohnblumen, und die Veteranenklubs (RSA) richten Gedenkfeiern aus.",
+          "funFacts": [
+            "ANZAC steht für Australian and New Zealand Army Corps.",
+            "Die rote Mohnblume ist das Symbol des Gedenkens.",
+            "Die Morgenandachten spiegeln die Landung im Morgengrauen von Gallipoli 1915 wider."
+          ]
+        }
+      },
+      "en": {
+        "waitangi_day": {
+          "intro": "Waitangi Day on 6 February is New Zealand's national day, marking the 1840 signing of the Treaty of Waitangi.",
+          "history": "On 6 February 1840, Māori chiefs and the British Crown signed the Treaty of Waitangi at Waitangi in the Bay of Islands, the founding document of modern New Zealand. The treaty’s meaning and obligations remain central to national life.",
+          "traditions": "Commemorations centre on the Waitangi Treaty Grounds, with Māori cultural performances, waka (canoe) ceremonies and political speeches. Across the country there are festivals, concerts and community events.",
+          "funFacts": [
+            "It marks the 1840 signing of the Treaty of Waitangi.",
+            "The treaty exists in both Māori and English versions.",
+            "The main ceremony is held at the Waitangi Treaty Grounds."
+          ]
+        },
+        "good_friday": {
+          "intro": "Good Friday is the highest Protestant day of mourning, commemorating the crucifixion of Jesus Christ. In Germany it is a ‘silent holiday' with special legal protections.",
+          "history": "Good Friday has been observed by Christians since the 4th century. The German prefix ‘Kar' comes from Old High German ‘chara', meaning lamentation or mourning. Liturgical traditions developed early on: the reading of the Passion, veneration of the cross and the silencing of bells. The Reformation gave Good Friday particular weight; in Lutheran regions it remains the most important holiday of the church year.",
+          "traditions": "Many Christians attend Passion services with the reading of the Passion narrative. The day is traditionally one of fasting — fish replaces meat. In some regions, Good Friday processions march through the streets, such as the famous one in Lohr am Main. Dance events and loud music are forbidden by law in most German states.",
+          "funFacts": [
+            "Germany's ‘dance ban' regulates public entertainment on Good Friday — and has been a hot social topic for years.",
+            "Bach wrote his St. Matthew Passion in 1727 for Good Friday vespers in Leipzig — today one of the world's most performed works.",
+            "In Bermuda, families fly self-made bamboo and paper kites on Good Friday — a unique Christian tradition.",
+            "In Spanish-speaking countries Good Friday is ‘Viernes Santo' — with magnificent brotherhood processions, for example in Seville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Easter Monday is the second day of Easter and is a public holiday in most European countries. It marks the closing of Christianity's highest festival.",
+          "history": "Easter is the oldest festival in Christendom, celebrating the resurrection of Jesus Christ on the third day after his death. The Council of Nicaea in 325 set Easter on the first Sunday after the first spring full moon. Easter Monday has been observed since the early Middle Ages — originally the entire Easter week was a holiday. In Germany and Austria it remained a legal holiday, unlike in many purely Catholic countries.",
+          "traditions": "Families hunt for Easter eggs together, enjoy a leisurely brunch or take the classic Easter walk (immortalized in Goethe's ‘Faust'). In Poland ‘Śmigus-Dyngus' is celebrated: boys splash girls with water. In Czechia, lads tap on doors with willow whips. In Bavaria and Austria there is the traditional ‘Emmaus walk'.",
+          "funFacts": [
+            "The custom of Easter egg hunts was first mentioned by Martin Luther, who used it to delight his children.",
+            "The world's largest chocolate Easter egg stood in Argentina (8.5 m tall, 4 t) — recorded in the Guinness Book.",
+            "In Sweden, children dress up as ‘Påskkärringar' — little witches — on Holy Saturday and go door to door.",
+            "The Easter Bunny as deliverer of eggs was first mentioned in 1682 by physician Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "anzac_day": {
+          "intro": "Anzac Day on 25 April honours New Zealanders and Australians who served and died in wars, marking the 1915 Gallipoli landing.",
+          "history": "On 25 April 1915 the Australian and New Zealand Army Corps (ANZAC) landed at Gallipoli during the First World War. For a young nation the heavy losses became a powerful symbol, and the day now remembers all New Zealanders who served.",
+          "traditions": "New Zealanders gather for dawn services at war memorials, followed by veterans’ parades, wreath-laying and the Last Post. Many wear red poppies, and returned-services clubs host commemorations.",
+          "funFacts": [
+            "ANZAC stands for Australian and New Zealand Army Corps.",
+            "The red poppy is the symbol of remembrance.",
+            "Dawn services echo the dawn landing at Gallipoli in 1915."
+          ]
+        }
+      },
+      "fr": {
+        "waitangi_day": {
+          "intro": "Le Waitangi Day, le 6 février, est la fête nationale de la Nouvelle-Zélande et commémore la signature du traité de Waitangi en 1840.",
+          "history": "Le 6 février 1840, des chefs māoris et la Couronne britannique signèrent le traité de Waitangi à Waitangi, dans la baie des Îles, le document fondateur de la Nouvelle-Zélande moderne. Le sens et les obligations du traité restent au cœur de la vie nationale.",
+          "traditions": "Les commémorations se concentrent sur les Waitangi Treaty Grounds, avec des spectacles culturels māoris, des cérémonies de waka (pirogue) et des discours politiques. À travers le pays se tiennent festivals, concerts et événements communautaires.",
+          "funFacts": [
+            "Il commémore la signature du traité de Waitangi en 1840.",
+            "Le traité existe en versions māorie et anglaise.",
+            "La cérémonie principale se tient aux Waitangi Treaty Grounds."
+          ]
+        },
+        "good_friday": {
+          "intro": "Le Vendredi Saint est le jour le plus solennel du protestantisme et commémore la crucifixion de Jésus-Christ. En Allemagne, il s'agit d'un ‘jour silencieux' légalement protégé.",
+          "history": "Le Vendredi Saint est célébré par les chrétiens depuis le IVe siècle. Le préfixe allemand ‘Kar' vient du vieux haut-allemand ‘chara' (lamentation, deuil). Très tôt s'élaborent les traditions liturgiques : lecture de la Passion, vénération de la Croix, silence des cloches. La Réforme protestante lui donna une importance particulière ; dans les régions luthériennes, c'est la fête la plus importante de l'année liturgique.",
+          "traditions": "De nombreux chrétiens assistent à la liturgie de la Passion. C'est traditionnellement un jour de jeûne — on mange du poisson plutôt que de la viande. Dans certaines régions ont lieu des processions du Vendredi Saint, comme la fameuse procession de Lohr am Main. En Allemagne, la danse et la musique forte sont légalement interdites dans la plupart des Länder.",
+          "funFacts": [
+            "L'interdiction de danser (‘Tanzverbot') régit les divertissements publics du Vendredi Saint en Allemagne — sujet sociétal récurrent.",
+            "Bach composa sa Passion selon saint Matthieu en 1727 pour les vêpres du Vendredi Saint à Leipzig.",
+            "Aux Bermudes, les familles font voler des cerfs-volants en bambou et papier le Vendredi Saint — tradition chrétienne unique.",
+            "En Espagne, le ‘Viernes Santo' brille par les magnifiques processions de confréries, notamment à Séville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Le lundi de Pâques est le second jour de Pâques et férié dans la plupart des pays européens. Il clôt la fête majeure du christianisme.",
+          "history": "Pâques est la plus ancienne fête de la chrétienté et célèbre la résurrection de Jésus-Christ le troisième jour. Le concile de Nicée fixa en 325 la date de Pâques au premier dimanche après la première pleine lune du printemps. Le lundi de Pâques se célèbre depuis le haut Moyen Âge — initialement, toute la semaine de Pâques était fériée. En Allemagne et en Autriche, il demeure un jour férié légal, contrairement à beaucoup de pays purement catholiques.",
+          "traditions": "Les familles font la chasse aux œufs, prennent un long brunch ou la traditionnelle promenade pascale. En Pologne, on célèbre ‘Śmigus-Dyngus' : les garçons aspergent les filles d'eau. En Tchéquie, les jeunes hommes tapent aux portes avec des branches de saule. En Bavière et en Autriche, la traditionnelle ‘marche d'Emmaüs' a lieu.",
+          "funFacts": [
+            "C'est Martin Luther qui mentionna pour la première fois la chasse aux œufs, pour amuser ses enfants.",
+            "Le plus grand œuf en chocolat du monde (8,5 m, 4 t) a été réalisé en Argentine — entré au Guinness.",
+            "En Suède, les enfants se déguisent en ‘Påskkärringar' (petites sorcières) le Samedi Saint et font du porte-à-porte.",
+            "Le lapin de Pâques en tant que livreur d'œufs fut mentionné pour la première fois en 1682 par le médecin Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Photo: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "anzac_day": {
+          "intro": "L’Anzac Day, le 25 avril, honore les Néo-Zélandais et les Australiens qui servirent et moururent dans les guerres, et commémore le débarquement de Gallipoli en 1915.",
+          "history": "Le 25 avril 1915, l’Australian and New Zealand Army Corps (ANZAC) débarqua à Gallipoli pendant la Première Guerre mondiale. Pour une jeune nation, les lourdes pertes devinrent un symbole puissant, et le jour honore aujourd’hui tous les Néo-Zélandais qui servirent.",
+          "traditions": "Les Néo-Zélandais se rassemblent pour des cérémonies à l’aube devant les monuments aux morts, suivies de défilés d’anciens combattants, de dépôts de gerbes et du « Last Post ». Beaucoup portent des coquelicots rouges, et les clubs d’anciens combattants organisent des commémorations.",
+          "funFacts": [
+            "ANZAC signifie Australian and New Zealand Army Corps.",
+            "Le coquelicot rouge est le symbole du souvenir.",
+            "Les cérémonies à l’aube évoquent le débarquement matinal de Gallipoli en 1915."
+          ]
+        }
+      },
+      "es": {
+        "waitangi_day": {
+          "intro": "El Waitangi Day, el 6 de febrero, es la fiesta nacional de Nueva Zelanda y conmemora la firma del Tratado de Waitangi en 1840.",
+          "history": "El 6 de febrero de 1840, jefes maoríes y la Corona británica firmaron el Tratado de Waitangi en Waitangi, en la Bahía de las Islas, el documento fundacional de la Nueva Zelanda moderna. El significado y las obligaciones del tratado siguen siendo centrales en la vida nacional.",
+          "traditions": "Las conmemoraciones se centran en los Waitangi Treaty Grounds, con actuaciones culturales maoríes, ceremonias de waka (canoa) y discursos políticos. En todo el país hay festivales, conciertos y eventos comunitarios.",
+          "funFacts": [
+            "Conmemora la firma del Tratado de Waitangi en 1840.",
+            "El tratado existe en versiones en maorí y en inglés.",
+            "La ceremonia principal se celebra en los Waitangi Treaty Grounds."
+          ]
+        },
+        "good_friday": {
+          "intro": "El Viernes Santo es el día de mayor luto del cristianismo y conmemora la crucifixión de Jesús. En Alemania es ‘día silencioso' con normativa especial.",
+          "history": "El Viernes Santo se celebra desde el siglo IV. La palabra alemana ‘Kar' viene del antiguo alto alemán ‘chara', que significa lamento o duelo. Pronto se desarrollaron tradiciones litúrgicas: lectura de la Pasión, veneración de la cruz y silencio de las campanas. La Reforma le dio especial relevancia y en regiones luteranas sigue siendo el día más importante del año eclesiástico.",
+          "traditions": "Muchos cristianos asisten a oficios de la Pasión con la lectura de la Pasión. Es día de ayuno: tradicionalmente se come pescado en lugar de carne. En España, las procesiones de las cofradías recorren ciudades como Sevilla. En Alemania los bailes y la música alta están legalmente prohibidos en la mayoría de estados federados.",
+          "funFacts": [
+            "El ‘Tanzverbot' (prohibición de bailar) regula el ocio público en el Viernes Santo alemán — desde hace años un debate social recurrente.",
+            "Bach compuso su Pasión según San Mateo en 1727 para las vísperas del Viernes Santo en Leipzig.",
+            "En Bermudas, las familias hacen volar cometas caseras de bambú y papel — una tradición cristiana única.",
+            "En España, el ‘Viernes Santo' destaca por las majestuosas procesiones de cofradías, especialmente en Sevilla y Málaga."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "El Lunes de Pascua es el segundo día de la Pascua y festivo en la mayoría de países europeos. Cierra la fiesta más importante del cristianismo.",
+          "history": "La Pascua es la fiesta más antigua del cristianismo y celebra la resurrección de Jesús al tercer día de su muerte. El Concilio de Nicea fijó en 325 que se celebraría el primer domingo después de la primera luna llena de primavera. El Lunes de Pascua se celebra desde la temprana Edad Media — originalmente toda la octava de Pascua era festiva. En Alemania y Austria sigue siendo festivo legal, a diferencia de muchos países católicos.",
+          "traditions": "Las familias buscan huevos de Pascua, desayunan abundantemente o dan el clásico paseo de Pascua. En Polonia se celebra ‘Śmigus-Dyngus': los chicos mojan a las chicas con agua. En Chequia los jóvenes golpean las puertas con ramas de sauce. En Baviera y Austria se hace la tradicional caminata de Emaús.",
+          "funFacts": [
+            "Martin Lutero fue el primero en mencionar la búsqueda de huevos de Pascua, para alegrar a sus hijos.",
+            "El huevo de Pascua de chocolate más grande del mundo (8,5 m, 4 t) se hizo en Argentina y figura en el Guinness.",
+            "En Suecia los niños se disfrazan de ‘Påskkärringar' — pequeñas brujas — el Sábado Santo y van de puerta en puerta.",
+            "El conejo de Pascua como portador de huevos fue mencionado por escrito por primera vez en 1682, por el médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 vía Wikimedia Commons"
+        },
+        "anzac_day": {
+          "intro": "El Anzac Day, el 25 de abril, honra a los neozelandeses y australianos que sirvieron y murieron en las guerras, y conmemora el desembarco de Gallipoli de 1915.",
+          "history": "El 25 de abril de 1915, el Australian and New Zealand Army Corps (ANZAC) desembarcó en Gallipoli durante la Primera Guerra Mundial. Para una nación joven, las graves pérdidas se convirtieron en un poderoso símbolo, y el día honra hoy a todos los neozelandeses que sirvieron.",
+          "traditions": "Los neozelandeses se reúnen en oficios al amanecer ante los monumentos a los caídos, seguidos de desfiles de veteranos, ofrendas de coronas y el «Last Post». Muchos llevan amapolas rojas, y los clubes de veteranos organizan conmemoraciones.",
+          "funFacts": [
+            "ANZAC significa Australian and New Zealand Army Corps.",
+            "La amapola roja es el símbolo del recuerdo.",
+            "Los oficios al amanecer evocan el desembarco matutino en Gallipoli en 1915."
+          ]
+        }
+      },
+      "pt": {
+        "waitangi_day": {
+          "intro": "O Waitangi Day, 6 de fevereiro, é a festa nacional da Nova Zelândia e comemora a assinatura do Tratado de Waitangi em 1840.",
+          "history": "A 6 de fevereiro de 1840, chefes maori e a Coroa britânica assinaram o Tratado de Waitangi em Waitangi, na Baía das Ilhas, o documento fundador da Nova Zelândia moderna. O significado e as obrigações do tratado continuam centrais na vida nacional.",
+          "traditions": "As comemorações centram-se nos Waitangi Treaty Grounds, com atuações culturais maori, cerimónias de waka (canoa) e discursos políticos. Por todo o país há festivais, concertos e eventos comunitários.",
+          "funFacts": [
+            "Comemora a assinatura do Tratado de Waitangi em 1840.",
+            "O tratado existe em versões em maori e em inglês.",
+            "A cerimónia principal realiza-se nos Waitangi Treaty Grounds."
+          ]
+        },
+        "good_friday": {
+          "intro": "A Sexta-Feira Santa é o dia de maior luto do cristianismo e comemora a crucificação de Jesus Cristo. Em Portugal é feriado nacional, com forte tradição religiosa.",
+          "history": "A Sexta-Feira Santa é celebrada pelos cristãos desde o século IV. O prefixo alemão ‘Kar' vem do alto alemão antigo ‘chara' (lamento, luto). Cedo se desenvolveram tradições litúrgicas: leitura da Paixão, veneração da cruz e silêncio dos sinos. A Reforma deu-lhe especial relevância. Em Portugal, a tradição das procissões da Paixão é antiga e muito viva, especialmente em Braga, Óbidos e na ilha da Madeira.",
+          "traditions": "Muitos cristãos assistem a celebrações da Paixão. É tradicionalmente dia de jejum — come-se peixe (em Portugal, o típico bacalhau) em vez de carne. Em Braga e Óbidos, as procissões da Paixão são impressionantes — em Braga a ‘Procissão do Senhor Ecce Homo' é uma das maiores. Em Espanha, destacam-se as procissões das confrarias, sobretudo em Sevilha.",
+          "funFacts": [
+            "Em Braga (Portugal) a ‘Procissão do Senhor Ecce Homo' é uma das mais impressionantes da Europa.",
+            "Bach compôs a sua Paixão segundo São Mateus em 1727 para as Vésperas da Sexta-Feira Santa em Leipzig.",
+            "Nas Bermudas, as famílias fazem voar papagaios de bambu e papel feitos em casa — uma tradição cristã única.",
+            "Em Espanha, ‘Viernes Santo' destaca-se pelas magníficas procissões das confrarias, sobretudo em Sevilha."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "A Segunda-Feira de Páscoa é o segundo dia de Páscoa e feriado na maioria dos países europeus. Em Portugal, ainda que não seja feriado, é tradição almoçar com a família o folar.",
+          "history": "A Páscoa é a festa mais antiga da cristandade e celebra a ressurreição de Jesus Cristo no terceiro dia. O Concílio de Niceia em 325 fixou a Páscoa no primeiro domingo após a primeira lua cheia da primavera. A Segunda-Feira de Páscoa celebra-se desde a alta Idade Média — originalmente toda a semana de Páscoa era feriada. Em Portugal, a tradição é a do ‘folar', um bolo doce com ovo cozido por cima, que se oferece sobretudo aos afilhados.",
+          "traditions": "As famílias procuram em conjunto ovos de Páscoa, almoçam abundantemente ou fazem o clássico passeio pascal. Em Portugal, oferece-se o ‘folar' aos afilhados e organizam-se almoços em família com cabrito assado. Na Polónia celebra-se ‘Śmigus-Dyngus': os rapazes salpicam as raparigas com água. Na Chéquia, os jovens batem às portas com ramos de salgueiro.",
+          "funFacts": [
+            "O costume da caça aos ovos foi mencionado pela primeira vez por Martinho Lutero, para alegrar os filhos.",
+            "O maior ovo de chocolate do mundo (8,5 m, 4 t) foi feito na Argentina e está no Guinness.",
+            "Na Suécia, as crianças vestem-se de ‘Påskkärringar' — pequenas bruxas — no Sábado Santo e vão de porta em porta.",
+            "O coelho da Páscoa como entregador de ovos foi mencionado pela primeira vez por escrito em 1682 pelo médico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "anzac_day": {
+          "intro": "O Anzac Day, 25 de abril, honra os neozelandeses e australianos que serviram e morreram nas guerras, e comemora o desembarque de Gallipoli de 1915.",
+          "history": "A 25 de abril de 1915, o Australian and New Zealand Army Corps (ANZAC) desembarcou em Gallipoli durante a Primeira Guerra Mundial. Para uma nação jovem, as pesadas perdas tornaram-se um símbolo poderoso, e o dia honra hoje todos os neozelandeses que serviram.",
+          "traditions": "Os neozelandeses reúnem-se em ofícios ao amanhecer junto aos monumentos aos mortos, seguidos de desfiles de veteranos, deposição de coroas e o «Last Post». Muitos usam papoilas vermelhas, e os clubes de veteranos organizam comemorações.",
+          "funFacts": [
+            "ANZAC significa Australian and New Zealand Army Corps.",
+            "A papoila vermelha é o símbolo da lembrança.",
+            "Os ofícios ao amanhecer evocam o desembarque matinal em Gallipoli em 1915."
+          ]
+        }
+      },
+      "it": {
+        "waitangi_day": {
+          "intro": "Il Waitangi Day, il 6 febbraio, è la festa nazionale della Nuova Zelanda e commemora la firma del Trattato di Waitangi del 1840.",
+          "history": "Il 6 febbraio 1840 i capi māori e la Corona britannica firmarono il Trattato di Waitangi a Waitangi, nella Baia delle Isole, il documento fondativo della Nuova Zelanda moderna. Il significato e gli obblighi del trattato restano centrali nella vita nazionale.",
+          "traditions": "Le commemorazioni si concentrano sui Waitangi Treaty Grounds, con spettacoli culturali māori, cerimonie di waka (canoa) e discorsi politici. In tutto il Paese si tengono festival, concerti ed eventi comunitari.",
+          "funFacts": [
+            "Commemora la firma del Trattato di Waitangi del 1840.",
+            "Il trattato esiste in versione māori e inglese.",
+            "La cerimonia principale si tiene ai Waitangi Treaty Grounds."
+          ]
+        },
+        "good_friday": {
+          "intro": "Il Venerdì Santo è il giorno di lutto più importante per i protestanti e ricorda la crocifissione di Gesù Cristo. In Germania è ‘giorno silenzioso' con norme particolari.",
+          "history": "Il Venerdì Santo è celebrato dai cristiani dal IV secolo. Il prefisso tedesco ‘Kar' deriva dall'antico alto tedesco ‘chara' (lamento, lutto). Presto si svilupparono tradizioni liturgiche: lettura della Passione, venerazione della croce, silenzio delle campane. La Riforma gli diede particolare risalto; nelle regioni luterane resta la festa più importante dell'anno liturgico.",
+          "traditions": "Molti cristiani partecipano alla Liturgia della Passione. Tradizionalmente è giorno di digiuno — si mangia pesce invece di carne. In Italia, soprattutto al Sud, ci sono solenni processioni con statue del Cristo morto, come la celebre ‘Processione dei Misteri' a Trapani. In Spagna spiccano le processioni delle confraternite, soprattutto a Siviglia.",
+          "funFacts": [
+            "In Germania il ‘Tanzverbot' (divieto di ballare) regola gli intrattenimenti pubblici — tema sociale ricorrente.",
+            "Bach compose la ‘Passione secondo Matteo' nel 1727 per i vespri del Venerdì Santo a Lipsia.",
+            "Alle Bermuda le famiglie fanno volare aquiloni di bambù e carta — tradizione cristiana unica.",
+            "In Spagna il ‘Viernes Santo' è famoso per le maestose processioni delle confraternite, in particolare a Siviglia."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Il Lunedì dell'Angelo è il secondo giorno di Pasqua e festivo nella maggior parte dei paesi europei. Chiude la festa più importante del cristianesimo.",
+          "history": "La Pasqua è la festa più antica del cristianesimo e celebra la resurrezione di Gesù Cristo il terzo giorno. Il Concilio di Nicea nel 325 fissò la Pasqua alla prima domenica dopo il primo plenilunio di primavera. Il Lunedì dell'Angelo si celebra dall'alto Medioevo — originariamente era festiva l'intera ottava di Pasqua. In Italia il Lunedì dell'Angelo (Pasquetta) è giorno di gite ed è festivo nazionale.",
+          "traditions": "In Italia ‘Natale con i tuoi, Pasquetta con chi vuoi': la tradizione vuole pic-nic in campagna o gite fuori porta con grigliata. Le famiglie cercano insieme le uova di Pasqua, fanno colazione abbondante o la classica passeggiata pasquale. In Polonia si celebra ‘Śmigus-Dyngus': i ragazzi spruzzano acqua sulle ragazze.",
+          "funFacts": [
+            "L'usanza della caccia alle uova fu menzionata per la prima volta da Martin Lutero, che voleva divertire i suoi figli.",
+            "Il più grande uovo di cioccolato del mondo (8,5 m, 4 t) fu fatto in Argentina ed è nel Guinness.",
+            "In Svezia i bambini si vestono da ‘Påskkärringar' — piccole streghe — il Sabato Santo e fanno il porta a porta.",
+            "Il coniglio pasquale come portatore di uova fu menzionato per iscritto la prima volta nel 1682 dal medico Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "anzac_day": {
+          "intro": "L’Anzac Day, il 25 aprile, onora i neozelandesi e gli australiani che servirono e caddero nelle guerre, e commemora lo sbarco di Gallipoli del 1915.",
+          "history": "Il 25 aprile 1915 l’Australian and New Zealand Army Corps (ANZAC) sbarcò a Gallipoli durante la Prima guerra mondiale. Per una nazione giovane le pesanti perdite divennero un simbolo potente, e la giornata oggi ricorda tutti i neozelandesi che servirono.",
+          "traditions": "I neozelandesi si riuniscono per funzioni all’alba davanti ai monumenti ai caduti, seguite da sfilate di veterani, deposizione di corone e dal «Last Post». Molti indossano papaveri rossi, e i circoli dei reduci organizzano commemorazioni.",
+          "funFacts": [
+            "ANZAC sta per Australian and New Zealand Army Corps.",
+            "Il papavero rosso è il simbolo del ricordo.",
+            "Le funzioni all’alba richiamano lo sbarco all’alba a Gallipoli nel 1915."
+          ]
+        }
+      },
+      "pl": {
+        "waitangi_day": {
+          "intro": "Waitangi Day, 6 lutego, to święto narodowe Nowej Zelandii i upamiętnia podpisanie traktatu z Waitangi w 1840 roku.",
+          "history": "6 lutego 1840 roku wodzowie Maorysów i brytyjska Korona podpisali w Waitangi w Zatoce Wysp traktat z Waitangi, dokument założycielski współczesnej Nowej Zelandii. Znaczenie i zobowiązania traktatu pozostają centralne dla życia kraju.",
+          "traditions": "Obchody koncentrują się na Waitangi Treaty Grounds, z maoryskimi występami kulturalnymi, ceremoniami waka (czółna) i przemówieniami politycznymi. W całym kraju odbywają się festiwale, koncerty i wydarzenia społeczne.",
+          "funFacts": [
+            "Upamiętnia podpisanie traktatu z Waitangi w 1840 roku.",
+            "Traktat istnieje w wersji maoryskiej i angielskiej.",
+            "Główna ceremonia odbywa się na Waitangi Treaty Grounds."
+          ]
+        },
+        "good_friday": {
+          "intro": "Wielki Piątek to dzień największej żałoby w protestantyzmie i upamiętnia ukrzyżowanie Jezusa Chrystusa. W Polsce nie jest dniem wolnym, ale ma głęboki wymiar religijny.",
+          "history": "Wielki Piątek obchodzony jest przez chrześcijan od IV wieku. Wcześnie rozwinęły się tradycje liturgiczne: czytanie Pasji, adoracja krzyża, milczenie dzwonów. Reformacja nadała mu szczególne znaczenie; w regionach luterańskich pozostaje najważniejszym dniem roku liturgicznego. W Polsce katolickie tradycje obejmują Drogę Krzyżową, adorację krzyża i święcenie pokarmów w Wielką Sobotę.",
+          "traditions": "Wierni uczestniczą w Liturgii Męki Pańskiej, adorują krzyż i odprawiają Drogę Krzyżową — w Polsce słynne są kalwarie (Kalwaria Zebrzydowska, Wejherowska). Tradycyjnie jest to dzień postu — je się ryby zamiast mięsa. W niektórych regionach Niemiec organizowane są procesje pasyjne, a w Hiszpanii słynne procesje bractw, np. w Sewilli.",
+          "funFacts": [
+            "W Niemczech ‘Tanzverbot' (zakaz tańczenia) reguluje publiczne rozrywki w Wielki Piątek — tematyka regularnie wraca w debacie publicznej.",
+            "Bach skomponował Pasję według św. Mateusza w 1727 roku na nieszpory wielkopiątkowe w Lipsku.",
+            "Na Bermudach rodziny puszczają w Wielki Piątek samodzielnie zrobione latawce z bambusa i papieru — unikalna chrześcijańska tradycja.",
+            "W Polsce Misterium Męki Pańskiej w Kalwarii Zebrzydowskiej wpisane jest na listę UNESCO."
+          ],
+          "imageCredit": "Zdjęcie: Pietro Perugino · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Poniedziałek Wielkanocny (Lany Poniedziałek, Śmigus-Dyngus) to drugi dzień Wielkanocy i dzień wolny w większości krajów europejskich. W Polsce słynie z tradycji oblewania wodą.",
+          "history": "Wielkanoc to najstarsze święto chrześcijaństwa i upamiętnia zmartwychwstanie Jezusa Chrystusa trzeciego dnia po jego śmierci. Sobór Nicejski w 325 roku ustalił datę Wielkanocy na pierwszą niedzielę po pierwszej wiosennej pełni księżyca. Poniedziałek Wielkanocny obchodzony jest od wczesnego średniowiecza — pierwotnie cały tydzień wielkanocny był wolny. W Polsce zachowała się żywa tradycja Śmigusa-Dyngusa, sięgająca XV wieku.",
+          "traditions": "W Polsce Lany Poniedziałek (Śmigus-Dyngus) to dzień, w którym chłopcy oblewają dziewczęta wodą — tradycyjnie symbolizująca oczyszczenie i płodność. Rodziny szukają jajek wielkanocnych, jedzą śniadanie z kiełbasą, jajkami, chrzanem, mazurkiem i babką. W niektórych regionach (np. Beskid Żywiecki) chodzą ‘śmigustnicy' w przebraniach.",
+          "funFacts": [
+            "Zwyczaj poszukiwania jajek wzmiankował po raz pierwszy Marcin Luter — chciał ucieszyć swoje dzieci.",
+            "Największe czekoladowe jajko świata stało w Argentynie (8,5 m wysokości, 4 t) — wpisane do Księgi Guinnessa.",
+            "Polski Śmigus-Dyngus ma korzenie w słowiańskim święcie wiosennym — woda symbolizowała oczyszczenie i płodność.",
+            "W Czechach chłopcy biją dziewczyny rózgami z wierzby (‘pomlázka') — niby boleśnie, ale dla zdrowia i urody."
+          ],
+          "imageCredit": "Zdjęcie: Georgi Kirichkov · CC BY-SA 3.0 przez Wikimedia Commons"
+        },
+        "anzac_day": {
+          "intro": "Anzac Day, 25 kwietnia, czci Nowozelandczyków i Australijczyków, którzy służyli i polegli na wojnach, i upamiętnia lądowanie pod Gallipoli w 1915 roku.",
+          "history": "25 kwietnia 1915 roku Australian and New Zealand Army Corps (ANZAC) wylądował pod Gallipoli podczas I wojny światowej. Dla młodego narodu ciężkie straty stały się silnym symbolem, a dzień ten upamiętnia dziś wszystkich Nowozelandczyków, którzy służyli.",
+          "traditions": "Nowozelandczycy gromadzą się na nabożeństwach o świcie przy pomnikach poległych, po których następują parady weteranów, składanie wieńców i „Last Post”. Wielu nosi czerwone maki, a kluby weteranów organizują uroczystości.",
+          "funFacts": [
+            "ANZAC oznacza Australian and New Zealand Army Corps.",
+            "Czerwony mak to symbol pamięci.",
+            "Nabożeństwa o świcie nawiązują do lądowania o świcie pod Gallipoli w 1915 roku."
+          ]
+        }
+      },
+      "nl": {
+        "waitangi_day": {
+          "intro": "Waitangi Day op 6 februari is de nationale feestdag van Nieuw-Zeeland, ter herdenking van de ondertekening van het Verdrag van Waitangi in 1840.",
+          "history": "Op 6 februari 1840 ondertekenden de Maori-leiders en de Britse Kroon in Waitangi, in de Bay of Islands, het Verdrag van Waitangi, het stichtingsdocument van het moderne Nieuw-Zeeland. De betekenis en de verplichtingen van het verdrag blijven een centrale rol spelen in het nationale leven.",
+          "traditions": "De herdenkingen vinden voornamelijk plaats op de Waitangi Treaty Grounds, met culturele optredens van de Māori, waka-ceremonies (kano’s) en politieke toespraken. In het hele land worden festivals, concerten en gemeenschapsevenementen georganiseerd.",
+          "funFacts": [
+            "Het herdenkt de ondertekening van het Verdrag van Waitangi in 1840.",
+            "Het verdrag bestaat zowel in een Maori- als in een Engelse versie.",
+            "De hoofdceremonie vindt plaats op het Waitangi Treaty Grounds."
+          ]
+        },
+        "good_friday": {
+          "intro": "Goede Vrijdag is de belangrijkste protestantse rouwdag, ter herdenking van de kruisiging van Jezus Christus. In Duitsland is het een ‘stille feestdag’ met speciale wettelijke bescherming.",
+          "history": "Goede Vrijdag wordt al sinds de 4e eeuw door christenen gevierd. Het Duitse voorvoegsel ‘Kar’ is afgeleid van het Oudhoogduitse ‘chara’, wat ‘klaagzang’ of ‘rouw’ betekent. Al vroeg ontwikkelden zich liturgische tradities: het voorlezen van de Passie, de verering van het kruis en het stilleggen van de klokken. Door de Reformatie kreeg Goede Vrijdag een bijzondere betekenis; in lutherse regio’s blijft het de belangrijkste feestdag van het kerkelijk jaar.",
+          "traditions": "Veel christenen wonen passiediensten bij waarbij het passieverhaal wordt voorgelezen. Deze dag is van oudsher een vastendag — vis vervangt vlees. In sommige regio’s vinden er op Goede Vrijdag processies door de straten plaats, zoals de beroemde processie in Lohr am Main. Dansfeesten en luide muziek zijn in de meeste Duitse deelstaten bij wet verboden.",
+          "funFacts": [
+            "Het Duitse ‘dansverbod’ regelt het openbare vermaak op Goede Vrijdag — en is al jaren een veelbesproken onderwerp in de samenleving.",
+            "Bach componeerde zijn Matthäus-Passion in 1727 voor de Goede Vrijdagvesper in Leipzig — tegenwoordig een van de meest uitgevoerde werken ter wereld.",
+            "Op Goede Vrijdag laten gezinnen op Bermuda zelfgemaakte vliegers van bamboe en papier op — een unieke christelijke traditie.",
+            "In Spaanstalige landen heet Goede Vrijdag ‘Viernes Santo’ — met prachtige processies van broederschappen, bijvoorbeeld in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Paasmaandag is de tweede dag van Pasen en is in de meeste Europese landen een officiële feestdag. Deze dag markeert het einde van het belangrijkste christelijke feest.",
+          "history": "Pasen is het oudste feest in het christendom, waarbij de opstanding van Jezus Christus op de derde dag na zijn dood wordt gevierd. Het Concilie van Nicea stelde in 325 vast dat Pasen op de eerste zondag na de eerste volle maan van de lente valt. Paasmaandag wordt al sinds de vroege middeleeuwen gevierd — oorspronkelijk was de hele paasweek een feestdag. In Duitsland en Oostenrijk bleef het een wettelijke feestdag, in tegenstelling tot veel puur katholieke landen.",
+          "traditions": "Gezinnen gaan samen op zoek naar paaseieren, genieten van een ontspannen brunch of maken de klassieke paaswandeling (vereeuwigd in Goethes ‘Faust’). In Polen wordt ‘Śmigus-Dyngus’ gevierd: jongens bespatten meisjes met water. In Tsjechië kloppen jongens met wilgentakken op deuren. In Beieren en Oostenrijk is er de traditionele ‘Emmaus-wandeling’.",
+          "funFacts": [
+            "De traditie van het paaseieren zoeken werd voor het eerst genoemd door Maarten Luther, die het gebruikte om zijn kinderen een plezier te doen.",
+            "Het grootste chocolade-paasei ter wereld stond in Argentinië (8,5 m hoog, 4 t) — en werd opgenomen in het Guinness Book of Records.",
+            "In Zweden verkleden kinderen zich op Paaszaterdag als ‘Påskkärringar’ — kleine heksjes — en gaan ze van deur tot deur.",
+            "De paashaas als brenger van eieren werd voor het eerst genoemd in 1682 door de arts Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "anzac_day": {
+          "intro": "Op Anzac Day, op 25 april, worden Nieuw-Zeelanders en Australiërs geëerd die in oorlogen hebben gediend en zijn gesneuveld; deze dag herdenkt de landing bij Gallipoli in 1915.",
+          "history": "Op 25 april 1915 landde het Australian and New Zealand Army Corps (ANZAC) tijdens de Eerste Wereldoorlog bij Gallipoli. Voor een jonge natie werden de zware verliezen een krachtig symbool, en op deze dag worden nu alle Nieuw-Zeelanders herdacht die in dienst hebben gediend.",
+          "traditions": "Nieuw-Zeelanders komen bijeen voor ochtenddiensten bij oorlogsmonumenten, gevolgd door optochten van veteranen, kransleggingen en het ‘Last Post’. Velen dragen rode klaprozen, en veteranenverenigingen organiseren herdenkingsbijeenkomsten.",
+          "funFacts": [
+            "ANZAC staat voor Australian and New Zealand Army Corps.",
+            "De rode klaproos is het symbool van herdenking.",
+            "De dageraadceremonies herinneren aan de landing bij dageraad in Gallipoli in 1915."
+          ]
+        }
+      },
+      "sv": {
+        "waitangi_day": {
+          "intro": "Waitangi-dagen den 6 februari är Nya Zeelands nationaldag och firas till minne av undertecknandet av Waitangi-fördraget år 1840.",
+          "history": "Den 6 februari 1840 undertecknade maoriska hövdingar och den brittiska kronan Waitangi-fördraget i Waitangi i Bay of Islands, vilket utgör grunddokumentet för det moderna Nya Zeeland. Fördragets innebörd och de skyldigheter som följer av det är fortfarande centrala för det nationella livet.",
+          "traditions": "Firandet äger rum främst på Waitangi Treaty Grounds, med maoriska kulturuppträdanden, waka-ceremonier (kanotceremonier) och politiska tal. Över hela landet anordnas festivaler, konserter och lokala evenemang.",
+          "funFacts": [
+            "Det markerar undertecknandet av Waitangi-fördraget år 1840.",
+            "Fördraget finns i både en maorisk och en engelsk version.",
+            "Huvudceremonin hålls på Waitangi Treaty Grounds."
+          ]
+        },
+        "good_friday": {
+          "intro": "Långfredagen är den viktigaste protestantiska sorgedagen, då man minns Jesu Kristi korsfästelse. I Tyskland är det en ”tyst helgdag” med särskilt rättsligt skydd.",
+          "history": "Långfredagen har firats av kristna sedan 400-talet. Det tyska prefixet ”Kar” kommer från fornhögtyska ”chara”, som betyder klagan eller sorg. Liturgiska traditioner utvecklades tidigt: uppläsningen av passionsberättelsen, vördnaden av korset och tystnaden bland klockorna. Reformationen gav Långfredagen särskild betydelse; i lutherska regioner är den fortfarande den viktigaste högtiden under kyrkoåret.",
+          "traditions": "Många kristna deltar i passionsgudstjänster där passionsberättelsen läses upp. Dagen är traditionellt en fastedag – fisk ersätter kött. I vissa regioner hålls processioner på långfredagen genom gatorna, till exempel den berömda processionen i Lohr am Main. Dansarrangemang och hög musik är förbjudna enligt lag i de flesta tyska delstater.",
+          "funFacts": [
+            "Tysklands ”dansförbud” reglerar offentlig underhållning på långfredagen – och har varit ett hett samhällsämne i flera år.",
+            "Bach komponerade sin Matteuspassion år 1727 för vespergudstjänsten på långfredagen i Leipzig – idag ett av världens mest framförda verk.",
+            "På Bermuda flyger familjerna på långfredagen med självgjorda drakar av bambu och papper – en unik kristen tradition.",
+            "I spansktalande länder kallas långfredagen för ”Viernes Santo” – med storslagna brödraskapsprocessioner, till exempel i Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_monday": {
+          "intro": "Påskmåndagen är den andra dagen under påskhelgen och är en allmän helgdag i de flesta europeiska länder. Den markerar avslutningen på kristendomens viktigaste högtid.",
+          "history": "Påsken är den äldsta högtiden inom kristendomen och firar Jesu Kristi uppståndelse den tredje dagen efter hans död. Vid kyrkomötet i Nikea år 325 fastställdes att påsken skulle infalla den första söndagen efter vårens första fullmåne. Påskmåndagen har firats sedan tidig medeltid – ursprungligen var hela påskveckan en helgdag. I Tyskland och Österrike förblev den en lagstadgad helgdag, till skillnad från i många rent katolska länder.",
+          "traditions": "Familjer letar efter påskägg tillsammans, njuter av en lugn brunch eller tar den klassiska påskpromenaden (som förevigats i Goethes ”Faust”). I Polen firas ”Śmigus-Dyngus”: pojkar stänker vatten på flickor. I Tjeckien knackar pojkar på dörrarna med pilkvistar. I Bayern och Österrike hålls den traditionella ”Emmaus-vandringen”.",
+          "funFacts": [
+            "Traditionen med påskäggsjakt nämndes för första gången av Martin Luther, som använde den för att glädja sina barn.",
+            "Världens största chokladpåskägg stod i Argentina (8,5 m högt, 4 t) — och finns med i Guinness rekordbok.",
+            "I Sverige klär sig barnen ut till ”påskkärringar” – små häxor – på påskafton och går från dörr till dörr.",
+            "Påskharen som äggutdelare omnämndes för första gången år 1682 av läkaren Georg Franck von Franckenau."
+          ],
+          "imageCredit": "Foto: Georgi Kirichkov · CC BY-SA 3.0 via Wikimedia Commons"
+        },
+        "anzac_day": {
+          "intro": "Anzac Day den 25 april är en dag till minne av de nyzeeländare och australier som tjänstgjorde och stupade i krig, och markerar landstigningen vid Gallipoli 1915.",
+          "history": "Den 25 april 1915 landsteg det australiska och nyzeeländska armékåren (ANZAC) vid Gallipoli under första världskriget. För en ung nation blev de stora förlusterna en stark symbol, och dagen ägnas numera åt att hedra alla nyzeeländare som tjänstgjorde.",
+          "traditions": "Nya Zeelandare samlas för gudstjänster vid gryningen vid krigsminnesmärken, följt av veteranparader, kransnedläggningar och ”Last Post”. Många bär röda vallmo, och veteranföreningar anordnar minnesceremonier.",
+          "funFacts": [
+            "ANZAC står för Australian and New Zealand Army Corps.",
+            "Den röda vallmon är en symbol för minnet.",
+            "Gryningsceremonierna påminner om landstigningen vid gryningen vid Gallipoli 1915."
+          ]
+        }
+      },
+      "ja": {
+        "waitangi_day": {
+          "intro": "2月6日のワイタンギ・デーは、1840年のワイタンギ条約の調印を記念するニュージーランドの国民の祝日です。",
+          "history": "1840年2月6日、マオリ族の首長たちと英国王室は、ベイ・オブ・アイランズのワイタンギで『ワイタンギ条約』に調印した。これは現代ニュージーランドの建国の礎となる文書である。この条約の意義と義務は、今もなお国民生活の中心をなしている。",
+          "traditions": "記念行事はワイタンギ条約記念公園を中心に開催され、マオリの文化公演、ワカ（カヌー）の儀式、政治演説などが行われます。全国各地では、フェスティバルやコンサート、地域イベントなどが開催されます。",
+          "funFacts": [
+            "これは、1840年にワイタンギ条約が調印されたことを記念するものです。",
+            "この条約には、マオリ語版と英語版の両方が存在する。",
+            "メインの式典はワイタンギ条約記念公園で行われます。"
+          ]
+        },
+        "good_friday": {
+          "intro": "聖金曜日は、イエス・キリストの磔刑を記念する、プロテスタントにとって最も重要な追悼の日です。ドイツでは、この日は特別な法的保護が設けられた「静寂の祝日」とされています。",
+          "history": "聖金曜日は、4世紀以来、キリスト教徒によって祝われてきました。 ドイツ語の接頭辞「Kar」は、嘆きや哀悼を意味する古高ドイツ語の「chara」に由来しています。典礼の伝統は早くから確立され、受難物語の朗読、十字架の礼拝、鐘の鳴らし止めなどが行われてきました。宗教改革により、聖金曜日は特に重要な日となりました。ルーテル派の地域では、今もなお教会暦の中で最も重要な祝日となっています。",
+          "traditions": "多くのキリスト教徒が、受難の物語が朗読される受難礼拝に出席します。この日は伝統的に断食の日とされており、肉料理の代わりに魚料理が供されます。一部の地域では、ロア・アム・マインで行われる有名な行列のように、聖金曜日の行列が街中を練り歩きます。ドイツのほとんどの州では、ダンスイベントや大音量の音楽が法律で禁止されています。",
+          "funFacts": [
+            "ドイツの「ダンス禁止令」は、聖金曜日の公共の場での娯楽を規制するもので、長年にわたり社会的な話題となっている。",
+            "バッハは1727年、ライプツィヒの聖金曜日晩課のために『マタイ受難曲』を作曲した。この作品は今日、世界で最も頻繁に演奏されている作品の一つとなっている。",
+            "バミューダでは、聖金曜日に家族で手作りした竹と紙の凧を飛ばすという、キリスト教ならではの伝統行事が行われています。",
+            "スペイン語圏の国々では、聖金曜日は「Viernes Santo」と呼ばれ、セビリアなどで壮麗な兄弟団の行列が行われます。"
+          ],
+          "imageCredit": "写真：ピエトロ・ペルジーノ · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "easter_monday": {
+          "intro": "イースター・マンデーはイースターの2日目で、ヨーロッパのほとんどの国で祝日となっています。この日は、キリスト教における最も重要な祭りの締めくくりを告げる日です。",
+          "history": "イースターはキリスト教世界最古の祭りで、イエス・キリストの死から3日目に起こった復活を祝うものです。325年のニカイア公会議において、イースターは春の最初の満月の後の最初の日曜日に定められました。イースター・マンデーは中世初期から祝われており、もともとイースター週間全体が休日とされていました。 ドイツやオーストリアでは、純粋にカトリック教国が多いのとは異なり、イースターは現在も法定休日として残っています。",
+          "traditions": "家族で一緒にイースターエッグ探しをしたり、ゆったりとしたブランチを楽しんだり、伝統的なイースターの散歩（ゲーテの『ファウスト』にも描かれている）に出かけたりします。ポーランドでは「シュミグス・ディンガス」が祝われ、少年たちが少女たちに水をかけます。チェコでは、若者たちが柳の鞭でドアを叩きます。 バイエルン州やオーストリアでは、伝統的な「エマオの散歩」が行われます。",
+          "funFacts": [
+            "イースターエッグハントの習慣について初めて言及したのはマルティン・ルターであり、彼はこの習慣を利用して子供たちを楽しませていた。",
+            "アルゼンチンには、世界最大のチョコレートのイースターエッグ（高さ8.5 m、重さ4 t）が設置され、ギネスブックに登録された。",
+            "スウェーデンでは、聖土曜日に子供たちが「ポースカーリンガー」（小さな魔女）に扮して、家々を回ります。",
+            "イースターバニーが卵を届ける存在として初めて言及されたのは、1682年のことで、医師ゲオルク・フランク・フォン・フランケナウによるものでした。"
+          ],
+          "imageCredit": "写真：ゲオルギ・キリチコフ · CC BY-SA 3.0（ウィキメディア・コモンズ経由）"
+        },
+        "anzac_day": {
+          "intro": "4月25日のアンザック・デーは、戦争に従軍し戦死したニュージーランド人とオーストラリア人を称える日であり、1915年のガリポリ上陸作戦を記念するものです。",
+          "history": "1915年4月25日、第一次世界大戦中、オーストラリア・ニュージーランド軍団（ANZAC）がガリポリに上陸した。建国間もない国にとって、この甚大な犠牲は力強い象徴となり、現在ではこの日が、従軍したすべてのニュージーランド人を追悼する日となっている。",
+          "traditions": "ニュージーランドの人々は、戦没者記念碑で夜明けの追悼式に集まり、その後、退役軍人のパレード、献花、そして「ラスト・ポスト」が行われます。多くの人が赤いポピーを身につけ、退役軍人クラブでも追悼行事が開催されます。",
+          "funFacts": [
+            "ANZACは、オーストラリア・ニュージーランド軍団（Australian and New Zealand Army Corps）の略称です。",
+            "赤いポピーは追悼の象徴です。",
+            "夜明けの式典は、1915年のガリポリにおける夜明けの上陸作戦を偲ぶものです。"
+          ]
+        }
+      },
+      "ko": {
+        "waitangi_day": {
+          "intro": "2월 6일인 와이탕이 데이는 1840년 와이탕이 조약 체결을 기념하는 뉴질랜드의 국경일입니다.",
+          "history": "1840년 2월 6일, 마오리 족장들과 영국 왕실은 베이 오브 아일랜즈의 와이탕이에서 ‘와이탕이 조약’을 체결했는데, 이는 현대 뉴질랜드의 건국 문서이다. 이 조약이 지닌 의미와 의무는 여전히 국가 생활의 핵심을 이루고 있다.",
+          "traditions": "기념 행사는 와이탕이 조약 체결지에서 주로 열리며, 마오리 문화 공연, 와카(카누) 의식, 정치 연설 등이 펼쳐집니다. 전국 각지에서는 축제, 콘서트, 지역 사회 행사 등이 열립니다.",
+          "funFacts": [
+            "이는 1840년 와이탕이 조약 체결을 기념하는 것입니다.",
+            "이 조약은 마오리어와 영어 두 가지 버전으로 존재합니다.",
+            "주요 행사는 와이탕이 조약 체결지에서 열립니다."
+          ]
+        },
+        "good_friday": {
+          "intro": "성금요일은 예수 그리스도의 십자가 처형을 기리는 개신교에서 가장 엄숙한 추모의 날입니다. 독일에서는 이 날이 특별한 법적 보호를 받는 ‘침묵의 휴일’로 지정되어 있습니다.",
+          "history": "성금요일은 4세기부터 기독교인들에 의해 기념되어 왔습니다. 독일어 접두사 ‘Kar’는 ‘애도’나 ‘애도하는 마음’을 뜻하는 고대 고지독일어 ‘chara’에서 유래했습니다. 전례 전통은 일찍부터 정립되었는데, 여기에는 수난기 낭독, 십자가 숭배, 종을 울리지 않는 관습 등이 포함됩니다. 종교개혁을 계기로 성금요일은 특별한 의미를 갖게 되었으며, 루터교 지역에서는 여전히 교회 연중 가장 중요한 축일로 여겨지고 있습니다.",
+          "traditions": "많은 기독교인들이 수난 이야기를 낭독하는 수난 예배에 참석합니다. 이날은 전통적으로 금식하는 날로, 고기 대신 생선을 먹습니다. 일부 지역에서는 ‘로르 암 마인(Lohr am Main)’의 유명한 행렬과 같이 성금요일 행렬이 거리를 누비기도 합니다. 대부분의 독일 주에서는 법에 따라 춤 행사나 시끄러운 음악이 금지되어 있습니다.",
+          "funFacts": [
+            "독일의 ‘춤 금지령’은 성금요일에 이루어지는 공공 오락 활동을 규제하는 것으로, 수년 동안 뜨거운 사회적 화제가 되어 왔다.",
+            "바흐는 1727년 라이프치히의 성금요일 저녁 기도회를 위해 《마태 수난곡》을 작곡했는데, 이 작품은 오늘날 전 세계에서 가장 많이 연주되는 작품 중 하나이다.",
+            "버뮤다에서는 성금요일에 가족들이 직접 만든 대나무와 종이로 만든 연을 날리는데, 이는 기독교의 독특한 전통입니다.",
+            "스페인어권 국가들에서 성금요일은 ‘비에르네스 산토(Viernes Santo)’라고 불리며, 예를 들어 세비야에서는 웅장한 형제회 행렬이 펼쳐집니다."
+          ],
+          "imageCredit": "사진: 피에트로 페루지노 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "easter_monday": {
+          "intro": "부활절 다음 날인 부활절 월요일은 대부분의 유럽 국가에서 공휴일입니다. 이 날은 기독교에서 가장 중요한 축제가 끝나는 날을 의미합니다.",
+          "history": "부활절은 기독교 세계에서 가장 오래된 축제로, 예수 그리스도가 죽은 지 사흘 만에 부활하신 것을 기념하는 날입니다. 325년에 열린 니케아 공의회는 부활절을 봄의 첫 보름달이 뜬 후 첫 번째 일요일로 정했습니다. 부활절 다음 날인 월요일은 중세 초기부터 휴일로 지켜져 왔으며, 원래는 부활절 주간 전체가 휴일이었으나, 독일과 오스트리아에서는 순수 가톨릭 국가들과 달리 부활절이 여전히 법정 공휴일로 남아 있습니다.",
+          "traditions": "가족들은 함께 부활절 달걀을 찾거나, 여유로운 브런치를 즐기거나, 고트헤의 『파우스트』에 영원히 기록된 고전적인 부활절 산책을 즐깁니다. 폴란드에서는 ‘슈미구스-딩구스’ 축제가 열리는데, 소년들이 소녀들에게 물을 뿌립니다. 체코에서는 청년들이 버드나무 채로 문을 두드립니다. 바이에른과 오스트리아에서는 전통적인 ‘엠마우스 산책’이 열립니다.",
+          "funFacts": [
+            "부활절 달걀 찾기 풍습은 마틴 루터가 처음 언급했는데, 그는 이 풍습을 통해 자녀들을 기쁘게 해주곤 했다.",
+            "세계에서 가장 큰 초콜릿 부활절 달걀이 아르헨티나에 세워졌으며(높이 8.5m, 무게 4t), 이는 기네스북에 등재되었다.",
+            "스웨덴에서는 성토일에 아이들이 ‘파스크케링(Påskkärringar)’—작은 마녀—로 분장하고 집집마다 돌아다닙니다.",
+            "달걀을 배달하는 부활절 토끼에 대한 첫 언급은 1682년 의사 게오르크 프랑크 폰 프랑케나우에 의해 이루어졌다."
+          ],
+          "imageCredit": "사진: 게오르기 키리치코프 · CC BY-SA 3.0 (위키미디어 공용 제공)"
+        },
+        "anzac_day": {
+          "intro": "4월 25일 ‘안작의 날(Anzac Day)’은 1915년 갈리폴리 상륙 작전을 기리며, 전쟁에 참전하여 목숨을 잃은 뉴질랜드인과 호주인들을 추모하는 날입니다.",
+          "history": "1915년 4월 25일, 제1차 세계대전 중 호주·뉴질랜드 군단(ANZAC)이 갈리폴리에 상륙했습니다. 신생 국가였던 뉴질랜드에게 이 엄청난 희생은 강력한 상징이 되었으며, 오늘날 이 날은 참전했던 모든 뉴질랜드인을 기리는 날로 기념되고 있습니다.",
+          "traditions": "뉴질랜드 국민들은 전쟁 기념관에서 새벽 추모식에 모인 뒤, 참전용사들의 행진, 화환 헌화, 그리고 ‘라스트 포스트’ 연주가 이어집니다. 많은 이들이 붉은 양귀비 꽃을 달고, 참전용사 클럽에서는 기념행사가 열립니다.",
+          "funFacts": [
+            "ANZAC은 호주·뉴질랜드 육군 사단(Australian and New Zealand Army Corps)의 약자입니다.",
+            "붉은 양귀비는 추모의 상징입니다.",
+            "새벽 추모식은 1915년 갈리폴리에서의 새벽 상륙 작전을 재현합니다."
+          ]
+        }
+      },
+      "zh-Hant": {
+        "waitangi_day": {
+          "intro": "2月6日的懷唐伊日是紐西蘭的國慶日，紀念1840年《懷唐伊條約》的簽署。",
+          "history": "1840年2月6日，毛利族酋長與英國王室在島嶼灣的懷唐伊簽署了《懷唐伊條約》，該條約是現代紐西蘭的立國文獻。該條約的意義與所規定的義務，至今仍是國家生活的核心。",
+          "traditions": "紀念活動主要集中在懷唐伊條約遺址，內容包括毛利文化表演、瓦卡（獨木舟）儀式以及政治演說。全國各地亦舉辦各類節慶、音樂會及社區活動。",
+          "funFacts": [
+            "這標誌著1840年《懷唐伊條約》的簽署。",
+            "該條約有毛利語版和英語版兩種版本。",
+            "主要儀式在懷唐伊條約遺址舉行。"
+          ]
+        },
+        "good_friday": {
+          "intro": "「受難日」是新教最重要的哀悼日，用以紀念耶穌基督被釘十字架。在德國，這是一個享有特殊法律保障的「靜默假日」。",
+          "history": "自四世紀以來，基督徒便一直慶祝「受難日」。 德語前綴「Kar」源自古高地德語「chara」，意為哀悼或悲慟。相關禮儀傳統很早就已形成：誦讀受難記、敬禮十字架以及停止鐘聲。宗教改革賦予了「受難日」特殊的意義；在路德宗地區，它至今仍是教會年曆中最重要的節日。",
+          "traditions": "許多基督徒會參加宣讀受難敘事的受難禮拜。這一天傳統上是禁食日——以魚類代替肉類。在某些地區，會舉行聖週五遊行隊伍穿梭街頭，例如美因河畔洛爾（Lohr am Main）那場著名的遊行。在德國大多數邦，法律明文禁止舉辦舞蹈活動及播放大聲音樂。",
+          "funFacts": [
+            "德國的「禁舞令」規範了聖週五當天的公共娛樂活動——這項規定多年來一直是社會熱議的話題。",
+            "巴赫於1727年為萊比錫的「受難日」晚禱創作了《馬太受難曲》——這部作品如今已成為全球演出頻率最高的樂曲之一。",
+            "在百慕達，各家各戶會在耶穌受難日放飛自製的竹製與紙製風箏——這是一項獨特的基督教傳統。",
+            "在西班牙語系國家，耶穌受難日被稱為「Viernes Santo」——屆時會舉行壯觀的兄弟會遊行，例如在塞維利亞。"
+          ],
+          "imageCredit": "圖片：皮耶特羅·佩魯吉諾 · 經維基共享資源提供，採用 CC BY-SA 4.0 授權"
+        },
+        "easter_monday": {
+          "intro": "復活節星期一即為復活節的第二天，在大多數歐洲國家均屬法定假日。這一天標誌著基督教最重要的節日圓滿落幕。",
+          "history": "復活節是基督教世界最古老的節日，用以慶祝耶穌基督在逝世後第三天復活。325年的尼西亞大公會議將復活節定為春季首次滿月後的第一个星期日。自中世紀早期起，復活節星期一便被視為節日——最初整個復活節週都是假期。 在德國和奧地利，復活節至今仍是法定假日，這與許多純天主教國家的情況不同。",
+          "traditions": "家人們會一起尋找復活節彩蛋、享受悠閒的早午餐，或是進行經典的復活節漫步（這項傳統在歌德的《浮士德》中被永恆地銘記）。在波蘭，人們慶祝「Śmigus-Dyngus」節：男孩們會向女孩們潑水。在捷克，年輕小夥子們則會用柳條鞭輕敲門戶。 在巴伐利亞和奧地利，則有傳統的「艾瑪烏斯漫步」。",
+          "funFacts": [
+            "復活節彩蛋尋寶活動的習俗最早是由馬丁·路德提及的，他當時是為了讓自己的孩子們開心而舉辦這項活動。",
+            "世界上最大的巧克力復活節彩蛋矗立在阿根廷（高8.5公尺，重4公噸）——並被載入《金氏世界紀錄》。",
+            "在瑞典，孩子們會在聖週六打扮成「Påskkärringar」——也就是小女巫——並挨家挨戶拜訪。",
+            "1682年，醫師喬治·弗蘭克·馮·弗蘭肯瑙（Georg Franck von Franckenau）首次提及復活節兔子作為送蛋者的角色。"
+          ],
+          "imageCredit": "照片：Georgi Kirichkov · 經維基共享資源提供，採用 CC BY-SA 3.0 授權"
+        },
+        "anzac_day": {
+          "intro": "4月25日的「澳紐軍團紀念日」旨在向曾在戰爭中服役並犧牲的新西蘭人和澳大利亞人致敬，並紀念1915年的加里波利登陸行動。",
+          "history": "1915年4月25日，第一次世界大戰期間，澳紐軍團（ANZAC）在加里波利登陸。對於這個年輕的國家而言，那次慘重的傷亡成為了一個強而有力的象徵，而如今這一天用以紀念所有曾服役的新西蘭人。",
+          "traditions": "紐西蘭民眾會聚集在戰爭紀念碑前參加黎明紀念儀式，隨後舉行退伍軍人遊行、獻花儀式及吹奏《最後的號角》。許多人佩戴紅色罌粟花，而退伍軍人俱樂部也會舉辦紀念活動。",
+          "funFacts": [
+            "ANZAC 是「澳洲與紐西蘭軍團」（Australian and New Zealand Army Corps）的縮寫。",
+            "紅罌粟是紀念的象徵。",
+            "黎明紀念儀式重現了1915年加里波利戰役中的黎明登陸。"
+          ]
+        }
+      }
+    }
+  },
+  "images": {
+    "waitangi_day": [
+      {
+        "path": "images/NZ/waitangi_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/NZ/waitangi_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/NZ/waitangi_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "good_friday": [
+      {
+        "path": "images/good_friday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "easter_monday": [
+      {
+        "path": "images/easter_monday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      }
+    ],
+    "anzac_day": [
+      {
+        "path": "images/NZ/anzac_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/NZ/anzac_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/NZ/anzac_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 9
+}

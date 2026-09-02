@@ -1,0 +1,577 @@
+{
+  "countryCode": "MX",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "MX_new_years_day",
+      "countryCode": "MX",
+      "kind": "precomputed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-01",
+          "2027": "01-01",
+          "2028": "12-31",
+          "2029": "01-01",
+          "2030": "01-01",
+          "2031": "01-01",
+          "2032": "01-01",
+          "2033": "12-31",
+          "2034": "01-02",
+          "2035": "01-01"
+        }
+      }
+    },
+    {
+      "id": "MX_constitution_day",
+      "countryCode": "MX",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.constitution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 2,
+        "nth": 1,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "MX_benito_juarezs_birthday",
+      "countryCode": "MX",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.benito_juarezs_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 3,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "MX_maundy_thursday",
+      "countryCode": "MX",
+      "kind": "easter_relative",
+      "labelKey": "holidays.maundy_thursday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -3
+      }
+    },
+    {
+      "id": "MX_good_friday",
+      "countryCode": "MX",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "MX_labour_day",
+      "countryCode": "MX",
+      "kind": "precomputed",
+      "labelKey": "holidays.labour_day_mx",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-01",
+          "2027": "04-30",
+          "2028": "05-01",
+          "2029": "05-01",
+          "2030": "05-01",
+          "2031": "05-01",
+          "2032": "04-30",
+          "2033": "05-02",
+          "2034": "05-01",
+          "2035": "05-01"
+        }
+      }
+    },
+    {
+      "id": "MX_independence_day",
+      "countryCode": "MX",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 9,
+        "day": 16
+      }
+    },
+    {
+      "id": "MX_revolution_day",
+      "countryCode": "MX",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.revolution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 11,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "MX_christmas_day",
+      "countryCode": "MX",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    },
+    {
+      "id": "MX_inauguration_day",
+      "countryCode": "MX",
+      "kind": "fixed",
+      "labelKey": "holidays.inauguration_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 1
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "constitution_day": "Constitution Day",
+        "benito_juarezs_birthday": "Benito Juárez's birthday",
+        "maundy_thursday": "Maundy Thursday",
+        "labour_day_mx": "Labour Day",
+        "independence_day": "Independence Day",
+        "revolution_day": "Revolution Day",
+        "inauguration_day": "Inauguration Day"
+      },
+      "es": {
+        "new_years_day": "Año Nuevo",
+        "constitution_day": "Día de la Constitución",
+        "benito_juarezs_birthday": "Natalicio de Benito Juárez",
+        "maundy_thursday": "Jueves Santo",
+        "labour_day_mx": "Día del Trabajo",
+        "independence_day": "Día de la Independencia",
+        "revolution_day": "Día de la Revolución",
+        "inauguration_day": "Transmisión del Poder Ejecutivo Federal"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "good_friday": {
+          "intro": "Karfreitag ist der höchste protestantische Trauertag und erinnert an die Kreuzigung Jesu Christi. In Deutschland ist er ein „stiller Feiertag” mit besonderen Schutzregeln.",
+          "history": "Karfreitag wird seit dem 4. Jahrhundert von Christen begangen. Das Wort „Kar” stammt vom althochdeutschen „chara” und bedeutet Klage oder Trauer. Schon früh entwickelten sich liturgische Traditionen: Verlesung der Passionsgeschichte, Kreuzverehrung und das Verstummen der Glocken. Die Reformation hob den Karfreitag besonders hervor; in lutherischen Regionen ist er bis heute der wichtigste Feiertag des Kirchenjahres.",
+          "traditions": "Viele Christen besuchen Passionsgottesdienste mit der Verlesung der Leidensgeschichte. Es gilt als Fastentag – traditionell wird Fisch statt Fleisch gegessen. In manchen Regionen ziehen Karfreitagsprozessionen durch die Straßen, etwa die berühmte „Karfreitagsprozession” in Lohr am Main. Tanzveranstaltungen und laute Musik sind in den meisten Bundesländern gesetzlich untersagt.",
+          "funFacts": [
+            "In Deutschland regelt das „Tanzverbot” das öffentliche Vergnügen am Karfreitag – seit Jahren ein gesellschaftlicher Streitpunkt.",
+            "Bach schrieb seine Matthäus-Passion 1727 für die Karfreitags-Vesper in Leipzig – heute eines der meistaufgeführten Werke der Welt.",
+            "In Bermuda lassen Familien am Karfreitag selbstgebastelte Drachen aus Bambus und Papier steigen – eine einzigartige christliche Tradition.",
+            "Im Spanischen heißt Karfreitag „Viernes Santo” – mit prachtvollen Bruderschafts-Prozessionen, etwa in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "independence_day": {
+          "intro": "Mexikos Unabhängigkeitstag am 16. September erinnert an den Aufruf zu den Waffen 1810 gegen die spanische Herrschaft, den „Grito de Dolores”.",
+          "history": "In den frühen Stunden des 16. September 1810 läutete der Priester Miguel Hidalgo in Dolores seine Kirchenglocke und rief die Mexikaner zum Aufstand gegen die spanische Kolonialherrschaft auf. Der Krieg dauerte elf Jahre, bis 1821 die Unabhängigkeit erreicht war.",
+          "traditions": "In der Nacht des 15. September läutet der Präsident dieselbe Glocke am Nationalpalast und wiederholt den „Grito”, beantwortet von riesigen Menschenmengen auf dem Zócalo mit „Viva México!”. Es folgen Feuerwerk, Musik und eine Parade.",
+          "funFacts": [
+            "Die Feier beginnt in der Nacht des 15. September mit „El Grito”.",
+            "Der Präsident läutet jedes Jahr Hidalgos Originalglocke.",
+            "Die Unabhängigkeit dauerte elf Jahre, von 1810 bis 1821."
+          ]
+        },
+        "revolution_day": {
+          "intro": "Der 20. November markiert den Beginn der Mexikanischen Revolution von 1910, die die lange Diktatur von Porfirio Díaz stürzte.",
+          "history": "Am 20. November 1910 rief Francisco Madero zum Aufstand gegen Porfirio Díaz auf, der seit über 30 Jahren herrschte. Die Revolution zog Gestalten wie Pancho Villa und Emiliano Zapata an und brachte Mexikos Verfassung von 1917 hervor.",
+          "traditions": "Mexiko veranstaltet Bürgerparaden, die größte ein Sport- und Militärumzug durch die Hauptstadt. Schulen führen Programme zur Revolution auf, und der Tag wird am dritten Montag im November als langes Wochenende begangen.",
+          "funFacts": [
+            "Zu den Revolutionshelden zählen Pancho Villa und Emiliano Zapata.",
+            "Die Revolution führte zu Mexikos Verfassung von 1917.",
+            "Er wird am dritten Montag im November begangen."
+          ]
+        },
+        "christmas": {
+          "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
+          "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
+          "traditions": "Familien versammeln sich zu festlichen Mahlzeiten – Truthahn, Gans, Karpfen oder Raclette. Geschenke werden ausgetauscht, Weihnachtslieder gesungen, viele besuchen den Festgottesdienst. Der geschmückte Christbaum mit Lichterketten, Kugeln und Strohsternen ist das zentrale Symbol. Adventskalender, Plätzchen und der Besuch von Weihnachtsmärkten gehören zur Vorbereitung.",
+          "funFacts": [
+            "Der erste kommerzielle Adventskalender erschien 1908 in München – Erfinder war Gerhard Lang.",
+            "Die Weihnachtsmärkte in Dresden („Striezelmarkt”, seit 1434) und Frankfurt (seit 1393) gehören zu den ältesten der Welt.",
+            "Norwegen schenkt Großbritannien seit 1947 jährlich einen riesigen Weihnachtsbaum für den Trafalgar Square – als Dank für die Hilfe im Zweiten Weltkrieg.",
+            "Die Weihnachtsfilm-Klassiker „Drei Haselnüsse für Aschenbrödel” und „Tatsächlich… Liebe” laufen weltweit jedes Jahr Dutzende Male im TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "good_friday": {
+          "intro": "Good Friday is the highest Protestant day of mourning, commemorating the crucifixion of Jesus Christ. In Germany it is a ‘silent holiday' with special legal protections.",
+          "history": "Good Friday has been observed by Christians since the 4th century. The German prefix ‘Kar' comes from Old High German ‘chara', meaning lamentation or mourning. Liturgical traditions developed early on: the reading of the Passion, veneration of the cross and the silencing of bells. The Reformation gave Good Friday particular weight; in Lutheran regions it remains the most important holiday of the church year.",
+          "traditions": "Many Christians attend Passion services with the reading of the Passion narrative. The day is traditionally one of fasting — fish replaces meat. In some regions, Good Friday processions march through the streets, such as the famous one in Lohr am Main. Dance events and loud music are forbidden by law in most German states.",
+          "funFacts": [
+            "Germany's ‘dance ban' regulates public entertainment on Good Friday — and has been a hot social topic for years.",
+            "Bach wrote his St. Matthew Passion in 1727 for Good Friday vespers in Leipzig — today one of the world's most performed works.",
+            "In Bermuda, families fly self-made bamboo and paper kites on Good Friday — a unique Christian tradition.",
+            "In Spanish-speaking countries Good Friday is ‘Viernes Santo' — with magnificent brotherhood processions, for example in Seville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "independence_day": {
+          "intro": "Mexico's Independence Day on 16 September commemorates the 1810 call to arms against Spanish rule, the ‚Grito de Dolores‘.",
+          "history": "In the early hours of 16 September 1810 priest Miguel Hidalgo rang his church bell in Dolores and called Mexicans to rise against Spanish colonial rule. The war lasted eleven years until independence was secured in 1821.",
+          "traditions": "On the night of 15 September the President rings the same bell at the National Palace and re-enacts the ‚Grito‘, answered by huge crowds in the Zócalo crying ‚Viva México!‘. Fireworks, music and a parade follow.",
+          "funFacts": [
+            "The celebration starts the night of 15 September with ‚El Grito‘.",
+            "The President rings Hidalgo's original bell each year.",
+            "Independence took eleven years, from 1810 to 1821."
+          ]
+        },
+        "revolution_day": {
+          "intro": "20 November marks the start of the 1910 Mexican Revolution that overthrew the long dictatorship of Porfirio Díaz.",
+          "history": "On 20 November 1910 Francisco Madero called for an uprising against Porfirio Díaz, who had ruled for over 30 years. The revolution drew in figures like Pancho Villa and Emiliano Zapata and produced Mexico’s 1917 constitution.",
+          "traditions": "Mexico holds civic parades, the largest a sports-and-military procession through Mexico City. Schools stage revolution-themed events, and the day is observed on the third Monday of November as a long weekend.",
+          "funFacts": [
+            "Revolutionary heroes include Pancho Villa and Emiliano Zapata.",
+            "The revolution led to Mexico’s 1917 constitution.",
+            "It is observed on the third Monday of November."
+          ]
+        },
+        "christmas": {
+          "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
+          "history": "December 25th is documented as ‘dies natalis Christi' as early as 354 in a Roman calendar. The Church likely chose the date to give the Roman ‘Sol Invictus' winter solstice festival a Christian meaning. Gift-giving has its roots in the gifts of the Magi. The familiar Santa Claus with red coat and white beard is a mix of Saint Nicholas and a 1931 Coca-Cola advertising campaign.",
+          "traditions": "Families gather for festive meals — turkey, goose, carp or raclette. Gifts are exchanged, carols sung, many attend the festive service. The decorated Christmas tree with lights, ornaments and straw stars is the central symbol. Advent calendars, cookies and visits to Christmas markets are part of the run-up.",
+          "funFacts": [
+            "The first commercial Advent calendar appeared in 1908 in Munich — invented by Gerhard Lang.",
+            "The Christmas markets in Dresden (‘Striezelmarkt', since 1434) and Frankfurt (since 1393) are among the oldest in the world.",
+            "Norway has gifted the UK a giant Christmas tree for Trafalgar Square every year since 1947 — as thanks for help during World War II.",
+            "Holiday classics like ‘Three Wishes for Cinderella' and ‘Love Actually' run dozens of times on TV worldwide every year."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "good_friday": {
+          "intro": "Le Vendredi Saint est le jour le plus solennel du protestantisme et commémore la crucifixion de Jésus-Christ. En Allemagne, il s'agit d'un ‘jour silencieux' légalement protégé.",
+          "history": "Le Vendredi Saint est célébré par les chrétiens depuis le IVe siècle. Le préfixe allemand ‘Kar' vient du vieux haut-allemand ‘chara' (lamentation, deuil). Très tôt s'élaborent les traditions liturgiques : lecture de la Passion, vénération de la Croix, silence des cloches. La Réforme protestante lui donna une importance particulière ; dans les régions luthériennes, c'est la fête la plus importante de l'année liturgique.",
+          "traditions": "De nombreux chrétiens assistent à la liturgie de la Passion. C'est traditionnellement un jour de jeûne — on mange du poisson plutôt que de la viande. Dans certaines régions ont lieu des processions du Vendredi Saint, comme la fameuse procession de Lohr am Main. En Allemagne, la danse et la musique forte sont légalement interdites dans la plupart des Länder.",
+          "funFacts": [
+            "L'interdiction de danser (‘Tanzverbot') régit les divertissements publics du Vendredi Saint en Allemagne — sujet sociétal récurrent.",
+            "Bach composa sa Passion selon saint Matthieu en 1727 pour les vêpres du Vendredi Saint à Leipzig.",
+            "Aux Bermudes, les familles font voler des cerfs-volants en bambou et papier le Vendredi Saint — tradition chrétienne unique.",
+            "En Espagne, le ‘Viernes Santo' brille par les magnifiques processions de confréries, notamment à Séville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "independence_day": {
+          "intro": "La fête de l’indépendance du Mexique, le 16 septembre, commémore l’appel aux armes de 1810 contre la domination espagnole, le « Grito de Dolores ».",
+          "history": "Au petit matin du 16 septembre 1810, le prêtre Miguel Hidalgo sonna la cloche de son église à Dolores et appela les Mexicains à se soulever contre la domination coloniale espagnole. La guerre dura onze ans, jusqu’à l’indépendance en 1821.",
+          "traditions": "Le soir du 15 septembre, le président sonne la même cloche au Palais national et rejoue le « Grito », auquel répond une foule immense sur le Zócalo au cri de « Viva México ! ». Suivent feux d’artifice, musique et défilé.",
+          "funFacts": [
+            "La célébration commence le soir du 15 septembre avec « El Grito ».",
+            "Le président sonne chaque année la cloche d’origine d’Hidalgo.",
+            "L’indépendance prit onze ans, de 1810 à 1821."
+          ]
+        },
+        "revolution_day": {
+          "intro": "Le 20 novembre marque le début de la révolution mexicaine de 1910, qui renversa la longue dictature de Porfirio Díaz.",
+          "history": "Le 20 novembre 1910, Francisco Madero appela au soulèvement contre Porfirio Díaz, au pouvoir depuis plus de 30 ans. La révolution rallia des figures comme Pancho Villa et Emiliano Zapata et donna naissance à la Constitution de 1917.",
+          "traditions": "Le Mexique organise des défilés civiques, le plus grand étant un défilé sportif et militaire dans la capitale. Les écoles montent des spectacles sur la révolution, et le jour est observé le troisième lundi de novembre, formant un long week-end.",
+          "funFacts": [
+            "Parmi les héros révolutionnaires figurent Pancho Villa et Emiliano Zapata.",
+            "La révolution aboutit à la Constitution mexicaine de 1917.",
+            "On l’observe le troisième lundi de novembre."
+          ]
+        },
+        "christmas": {
+          "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
+          "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
+          "traditions": "Les familles se rassemblent autour de repas festifs — dinde, oie, carpe ou raclette. On échange des cadeaux, chante des cantiques, beaucoup assistent à la messe festive. Le sapin décoré de lumières, boules et étoiles de paille est le symbole central. Calendrier de l'avent, biscuits et marchés de Noël jalonnent la préparation.",
+          "funFacts": [
+            "Le premier calendrier de l'avent commercial parut en 1908 à Munich — invention de Gerhard Lang.",
+            "Les marchés de Noël de Dresde (‘Striezelmarkt', depuis 1434) et de Francfort (depuis 1393) figurent parmi les plus anciens du monde.",
+            "La Norvège offre chaque année au Royaume-Uni un immense sapin pour Trafalgar Square depuis 1947 — en remerciement de l'aide pendant la Seconde Guerre mondiale.",
+            "Les classiques de Noël comme ‘Trois noisettes pour Cendrillon' ou ‘Love Actually' sont diffusés des dizaines de fois à la télé chaque année."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "good_friday": {
+          "intro": "El Viernes Santo es el día de mayor luto del cristianismo y conmemora la crucifixión de Jesús. En Alemania es ‘día silencioso' con normativa especial.",
+          "history": "El Viernes Santo se celebra desde el siglo IV. La palabra alemana ‘Kar' viene del antiguo alto alemán ‘chara', que significa lamento o duelo. Pronto se desarrollaron tradiciones litúrgicas: lectura de la Pasión, veneración de la cruz y silencio de las campanas. La Reforma le dio especial relevancia y en regiones luteranas sigue siendo el día más importante del año eclesiástico.",
+          "traditions": "Muchos cristianos asisten a oficios de la Pasión con la lectura de la Pasión. Es día de ayuno: tradicionalmente se come pescado en lugar de carne. En España, las procesiones de las cofradías recorren ciudades como Sevilla. En Alemania los bailes y la música alta están legalmente prohibidos en la mayoría de estados federados.",
+          "funFacts": [
+            "El ‘Tanzverbot' (prohibición de bailar) regula el ocio público en el Viernes Santo alemán — desde hace años un debate social recurrente.",
+            "Bach compuso su Pasión según San Mateo en 1727 para las vísperas del Viernes Santo en Leipzig.",
+            "En Bermudas, las familias hacen volar cometas caseras de bambú y papel — una tradición cristiana única.",
+            "En España, el ‘Viernes Santo' destaca por las majestuosas procesiones de cofradías, especialmente en Sevilla y Málaga."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "independence_day": {
+          "intro": "El Día de la Independencia de México, el 16 de septiembre, conmemora el llamado a las armas de 1810 contra el dominio español, el «Grito de Dolores».",
+          "history": "En la madrugada del 16 de septiembre de 1810 el cura Miguel Hidalgo tocó la campana de su iglesia en Dolores y llamó a los mexicanos a levantarse contra el dominio colonial español. La guerra duró once años, hasta lograr la independencia en 1821.",
+          "traditions": "La noche del 15 de septiembre el presidente toca la misma campana en el Palacio Nacional y repite el «Grito», respondido por multitudes en el Zócalo al grito de «¡Viva México!». Siguen fuegos artificiales, música y un desfile.",
+          "funFacts": [
+            "La celebración empieza la noche del 15 de septiembre con «El Grito».",
+            "El presidente toca cada año la campana original de Hidalgo.",
+            "La independencia tardó once años, de 1810 a 1821."
+          ]
+        },
+        "revolution_day": {
+          "intro": "El 20 de noviembre marca el inicio de la Revolución Mexicana de 1910, que derrocó la larga dictadura de Porfirio Díaz.",
+          "history": "El 20 de noviembre de 1910 Francisco Madero llamó a alzarse contra Porfirio Díaz, que llevaba más de 30 años en el poder. La revolución sumó a figuras como Pancho Villa y Emiliano Zapata y dio lugar a la Constitución de 1917.",
+          "traditions": "México celebra desfiles cívicos, el mayor un desfile deportivo-militar por la capital. Las escuelas montan actos sobre la revolución, y el día se observa el tercer lunes de noviembre como fin de semana largo.",
+          "funFacts": [
+            "Entre los héroes revolucionarios están Pancho Villa y Emiliano Zapata.",
+            "La revolución llevó a la Constitución mexicana de 1917.",
+            "Se observa el tercer lunes de noviembre."
+          ]
+        },
+        "christmas": {
+          "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
+          "history": "Ya en el año 354 un calendario romano consigna el 25 de diciembre como ‘dies natalis Christi'. Probablemente la Iglesia eligió la fecha para reinterpretar cristianamente el ‘Sol Invictus' romano. El intercambio de regalos arraiga en los obsequios de los Magos. El moderno Papá Noel con abrigo rojo y barba blanca es una mezcla de San Nicolás con una campaña publicitaria de Coca-Cola de 1931.",
+          "traditions": "Las familias se reúnen para comidas festivas — pavo, ganso, carpa o raclette. Se intercambian regalos, se cantan villancicos y muchos asisten al servicio festivo. El árbol decorado con luces y bolas es el símbolo central. El calendario de Adviento, las galletas y los mercadillos forman parte de la preparación.",
+          "funFacts": [
+            "El primer calendario de Adviento comercial apareció en 1908 en Múnich — invento de Gerhard Lang.",
+            "Los mercadillos navideños de Dresde (‘Striezelmarkt', desde 1434) y Fráncfort (desde 1393) son de los más antiguos del mundo.",
+            "Noruega regala al Reino Unido un enorme árbol de Navidad para Trafalgar Square cada año desde 1947 — agradecimiento por la ayuda en la Segunda Guerra Mundial.",
+            "Los clásicos como ‘Tres Avellanas para Cenicienta' o ‘Love Actually' se emiten decenas de veces cada año en TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "good_friday": {
+          "intro": "A Sexta-Feira Santa é o dia de maior luto do cristianismo e comemora a crucificação de Jesus Cristo. Em Portugal é feriado nacional, com forte tradição religiosa.",
+          "history": "A Sexta-Feira Santa é celebrada pelos cristãos desde o século IV. O prefixo alemão ‘Kar' vem do alto alemão antigo ‘chara' (lamento, luto). Cedo se desenvolveram tradições litúrgicas: leitura da Paixão, veneração da cruz e silêncio dos sinos. A Reforma deu-lhe especial relevância. Em Portugal, a tradição das procissões da Paixão é antiga e muito viva, especialmente em Braga, Óbidos e na ilha da Madeira.",
+          "traditions": "Muitos cristãos assistem a celebrações da Paixão. É tradicionalmente dia de jejum — come-se peixe (em Portugal, o típico bacalhau) em vez de carne. Em Braga e Óbidos, as procissões da Paixão são impressionantes — em Braga a ‘Procissão do Senhor Ecce Homo' é uma das maiores. Em Espanha, destacam-se as procissões das confrarias, sobretudo em Sevilha.",
+          "funFacts": [
+            "Em Braga (Portugal) a ‘Procissão do Senhor Ecce Homo' é uma das mais impressionantes da Europa.",
+            "Bach compôs a sua Paixão segundo São Mateus em 1727 para as Vésperas da Sexta-Feira Santa em Leipzig.",
+            "Nas Bermudas, as famílias fazem voar papagaios de bambu e papel feitos em casa — uma tradição cristã única.",
+            "Em Espanha, ‘Viernes Santo' destaca-se pelas magníficas procissões das confrarias, sobretudo em Sevilha."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "independence_day": {
+          "intro": "O Dia da Independência do México, 16 de setembro, comemora o apelo às armas de 1810 contra o domínio espanhol, o «Grito de Dolores».",
+          "history": "Na madrugada de 16 de setembro de 1810 o padre Miguel Hidalgo tocou o sino da sua igreja em Dolores e chamou os mexicanos a erguerem-se contra o domínio colonial espanhol. A guerra durou onze anos, até à independência em 1821.",
+          "traditions": "Na noite de 15 de setembro o Presidente toca o mesmo sino no Palácio Nacional e repete o «Grito», ao qual respondem multidões no Zócalo com «Viva México!». Seguem-se fogo de artifício, música e um desfile.",
+          "funFacts": [
+            "A celebração começa na noite de 15 de setembro com «El Grito».",
+            "O Presidente toca todos os anos o sino original de Hidalgo.",
+            "A independência levou onze anos, de 1810 a 1821."
+          ]
+        },
+        "revolution_day": {
+          "intro": "O 20 de novembro marca o início da Revolução Mexicana de 1910, que derrubou a longa ditadura de Porfirio Díaz.",
+          "history": "A 20 de novembro de 1910 Francisco Madero apelou ao levantamento contra Porfirio Díaz, no poder há mais de 30 anos. A revolução juntou figuras como Pancho Villa e Emiliano Zapata e deu origem à Constituição de 1917.",
+          "traditions": "O México realiza desfiles cívicos, o maior um desfile desportivo-militar pela capital. As escolas encenam atos sobre a revolução, e o dia é observado na terceira segunda-feira de novembro, formando um fim de semana prolongado.",
+          "funFacts": [
+            "Entre os heróis revolucionários contam-se Pancho Villa e Emiliano Zapata.",
+            "A revolução levou à Constituição mexicana de 1917.",
+            "É observado na terceira segunda-feira de novembro."
+          ]
+        },
+        "christmas": {
+          "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
+          "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
+          "traditions": "As famílias reúnem-se em refeições festivas — peru, ganso, bacalhau ou raclette nos países germânicos; em Portugal, o típico almoço de Natal com peru ou cabrito assado, e as sobremesas de bolo-rei, sonhos, rabanadas, aletria e arroz-doce. Trocam-se presentes, cantam-se cânticos, muitos vão à missa festiva. A árvore decorada e o presépio são símbolos centrais.",
+          "funFacts": [
+            "O primeiro calendário do Advento comercial apareceu em 1908 em Munique — invenção de Gerhard Lang.",
+            "Os mercados de Natal de Dresden (‘Striezelmarkt', desde 1434) e Frankfurt (desde 1393) estão entre os mais antigos do mundo.",
+            "A Noruega oferece ao Reino Unido um enorme abeto para Trafalgar Square todos os anos desde 1947 — em agradecimento pela ajuda na II Guerra.",
+            "Em Portugal, a tradição do bolo-rei remonta ao século XIX, importado da pastelaria francesa."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "good_friday": {
+          "intro": "Il Venerdì Santo è il giorno di lutto più importante per i protestanti e ricorda la crocifissione di Gesù Cristo. In Germania è ‘giorno silenzioso' con norme particolari.",
+          "history": "Il Venerdì Santo è celebrato dai cristiani dal IV secolo. Il prefisso tedesco ‘Kar' deriva dall'antico alto tedesco ‘chara' (lamento, lutto). Presto si svilupparono tradizioni liturgiche: lettura della Passione, venerazione della croce, silenzio delle campane. La Riforma gli diede particolare risalto; nelle regioni luterane resta la festa più importante dell'anno liturgico.",
+          "traditions": "Molti cristiani partecipano alla Liturgia della Passione. Tradizionalmente è giorno di digiuno — si mangia pesce invece di carne. In Italia, soprattutto al Sud, ci sono solenni processioni con statue del Cristo morto, come la celebre ‘Processione dei Misteri' a Trapani. In Spagna spiccano le processioni delle confraternite, soprattutto a Siviglia.",
+          "funFacts": [
+            "In Germania il ‘Tanzverbot' (divieto di ballare) regola gli intrattenimenti pubblici — tema sociale ricorrente.",
+            "Bach compose la ‘Passione secondo Matteo' nel 1727 per i vespri del Venerdì Santo a Lipsia.",
+            "Alle Bermuda le famiglie fanno volare aquiloni di bambù e carta — tradizione cristiana unica.",
+            "In Spagna il ‘Viernes Santo' è famoso per le maestose processioni delle confraternite, in particolare a Siviglia."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "independence_day": {
+          "intro": "Il Giorno dell’Indipendenza del Messico, il 16 settembre, commemora l’appello alle armi del 1810 contro il dominio spagnolo, il «Grito de Dolores».",
+          "history": "All’alba del 16 settembre 1810 il sacerdote Miguel Hidalgo suonò la campana della sua chiesa a Dolores e chiamò i messicani a insorgere contro il dominio coloniale spagnolo. La guerra durò undici anni, fino all’indipendenza nel 1821.",
+          "traditions": "La notte del 15 settembre il presidente suona la stessa campana al Palazzo Nazionale e ripete il «Grito», a cui rispondono folle immense nello Zócalo al grido di «Viva México!». Seguono fuochi d’artificio, musica e una parata.",
+          "funFacts": [
+            "La celebrazione inizia la notte del 15 settembre con «El Grito».",
+            "Il presidente suona ogni anno la campana originale di Hidalgo.",
+            "L’indipendenza richiese undici anni, dal 1810 al 1821."
+          ]
+        },
+        "revolution_day": {
+          "intro": "Il 20 novembre segna l’inizio della Rivoluzione messicana del 1910, che rovesciò la lunga dittatura di Porfirio Díaz.",
+          "history": "Il 20 novembre 1910 Francisco Madero chiamò alla rivolta contro Porfirio Díaz, al potere da oltre 30 anni. La rivoluzione coinvolse figure come Pancho Villa ed Emiliano Zapata e portò alla Costituzione del 1917.",
+          "traditions": "Il Messico organizza parate civiche, la più grande una sfilata sportivo-militare nella capitale. Le scuole mettono in scena eventi sulla rivoluzione, e la giornata si osserva il terzo lunedì di novembre, formando un lungo weekend.",
+          "funFacts": [
+            "Tra gli eroi rivoluzionari ci sono Pancho Villa ed Emiliano Zapata.",
+            "La rivoluzione portò alla Costituzione messicana del 1917.",
+            "Si osserva il terzo lunedì di novembre."
+          ]
+        },
+        "christmas": {
+          "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
+          "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
+          "traditions": "Le famiglie si riuniscono per pasti festosi — tacchino, oca, carpa o raclette al nord; pranzo natalizio con tortellini in brodo, lasagne, capponi e panettone in Italia. Si scambiano regali, si cantano canti natalizi, molti partecipano alla messa festiva. L'albero decorato e il presepe sono i simboli centrali. Calendario dell'Avvento, biscotti e mercatini scandiscono la preparazione.",
+          "funFacts": [
+            "Il primo calendario dell'Avvento commerciale apparve nel 1908 a Monaco — invenzione di Gerhard Lang.",
+            "I mercatini di Natale di Dresda (‘Striezelmarkt', dal 1434) e Francoforte (dal 1393) sono tra i più antichi al mondo.",
+            "La Norvegia regala al Regno Unito un enorme albero di Natale per Trafalgar Square ogni anno dal 1947 — come ringraziamento per l'aiuto nella Seconda Guerra Mondiale.",
+            "Il panettone milanese e il pandoro veronese sono i due dolci natalizi italiani per eccellenza."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "good_friday": {
+          "intro": "Wielki Piątek to dzień największej żałoby w protestantyzmie i upamiętnia ukrzyżowanie Jezusa Chrystusa. W Polsce nie jest dniem wolnym, ale ma głęboki wymiar religijny.",
+          "history": "Wielki Piątek obchodzony jest przez chrześcijan od IV wieku. Wcześnie rozwinęły się tradycje liturgiczne: czytanie Pasji, adoracja krzyża, milczenie dzwonów. Reformacja nadała mu szczególne znaczenie; w regionach luterańskich pozostaje najważniejszym dniem roku liturgicznego. W Polsce katolickie tradycje obejmują Drogę Krzyżową, adorację krzyża i święcenie pokarmów w Wielką Sobotę.",
+          "traditions": "Wierni uczestniczą w Liturgii Męki Pańskiej, adorują krzyż i odprawiają Drogę Krzyżową — w Polsce słynne są kalwarie (Kalwaria Zebrzydowska, Wejherowska). Tradycyjnie jest to dzień postu — je się ryby zamiast mięsa. W niektórych regionach Niemiec organizowane są procesje pasyjne, a w Hiszpanii słynne procesje bractw, np. w Sewilli.",
+          "funFacts": [
+            "W Niemczech ‘Tanzverbot' (zakaz tańczenia) reguluje publiczne rozrywki w Wielki Piątek — tematyka regularnie wraca w debacie publicznej.",
+            "Bach skomponował Pasję według św. Mateusza w 1727 roku na nieszpory wielkopiątkowe w Lipsku.",
+            "Na Bermudach rodziny puszczają w Wielki Piątek samodzielnie zrobione latawce z bambusa i papieru — unikalna chrześcijańska tradycja.",
+            "W Polsce Misterium Męki Pańskiej w Kalwarii Zebrzydowskiej wpisane jest na listę UNESCO."
+          ],
+          "imageCredit": "Zdjęcie: Pietro Perugino · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "independence_day": {
+          "intro": "Dzień Niepodległości Meksyku, 16 września, upamiętnia wezwanie do broni z 1810 roku przeciw hiszpańskim rządom, „Grito de Dolores”.",
+          "history": "We wczesnych godzinach 16 września 1810 roku ksiądz Miguel Hidalgo uderzył w dzwon swojego kościoła w Dolores i wezwał Meksykanów do powstania przeciw hiszpańskim rządom kolonialnym. Wojna trwała jedenaście lat, aż do uzyskania niepodległości w 1821 roku.",
+          "traditions": "W nocy 15 września prezydent uderza w ten sam dzwon w Pałacu Narodowym i powtarza „Grito”, na co tłumy na Zócalo odpowiadają okrzykiem „Viva México!”. Następują fajerwerki, muzyka i parada.",
+          "funFacts": [
+            "Obchody zaczynają się w nocy 15 września od „El Grito”.",
+            "Prezydent co roku uderza w oryginalny dzwon Hidalga.",
+            "Niepodległość zajęła jedenaście lat, od 1810 do 1821 roku."
+          ]
+        },
+        "revolution_day": {
+          "intro": "20 listopada wyznacza początek rewolucji meksykańskiej z 1910 roku, która obaliła długą dyktaturę Porfirio Díaza.",
+          "history": "20 listopada 1910 roku Francisco Madero wezwał do powstania przeciw Porfirio Díazowi, sprawującemu władzę od ponad 30 lat. Rewolucja przyciągnęła postacie takie jak Pancho Villa i Emiliano Zapata oraz doprowadziła do konstytucji z 1917 roku.",
+          "traditions": "Meksyk organizuje parady obywatelskie, z których największą jest defilada sportowo-wojskowa przez stolicę. Szkoły wystawiają przedstawienia o rewolucji, a dzień obchodzi się w trzeci poniedziałek listopada, tworząc długi weekend.",
+          "funFacts": [
+            "Do bohaterów rewolucji należą Pancho Villa i Emiliano Zapata.",
+            "Rewolucja doprowadziła do meksykańskiej konstytucji z 1917 roku.",
+            "Obchodzi się go w trzeci poniedziałek listopada."
+          ]
+        },
+        "christmas": {
+          "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
+          "history": "Już w 354 roku 25 grudnia odnotowany jest jako ‘dies natalis Christi' w rzymskim kalendarzu. Kościół wybrał tę datę prawdopodobnie po to, by chrześcijańsko zinterpretować rzymskie święto ‘Sol Invictus'. Tradycja prezentów ma korzenie w darach Trzech Mędrców. Współczesny Święty Mikołaj w czerwonym płaszczu i z białą brodą to mieszanka św. Mikołaja i kampanii reklamowej Coca-Coli z 1931 roku.",
+          "traditions": "W Polsce Boże Narodzenie obchodzi się przez dwa dni (25 i 26 grudnia). Rodziny zbierają się na obfitym obiedzie — często rosół z makaronem, schab, indyk, sałatka jarzynowa, makowiec, sernik. Wymienia się prezenty (w Polsce zwykle wręczane już w Wigilię), śpiewa kolędy, wielu uczestniczy w nabożeństwach. Choinka i szopka są centralnymi symbolami.",
+          "funFacts": [
+            "Pierwszy komercyjny kalendarz adwentowy ukazał się w 1908 roku w Monachium — wynalazek Gerharda Langa.",
+            "Polskie kolędy — m.in. ‘Wśród nocnej ciszy', ‘Bóg się rodzi', ‘Lulajże, Jezuniu' — uchodzą za jedne z najpiękniejszych na świecie.",
+            "Norwegia podarowuje Wielkiej Brytanii corocznie od 1947 roku ogromną choinkę na Trafalgar Square — w podzięce za pomoc w II wojnie światowej.",
+            "Tradycja choinki dotarła do Polski z Niemiec na początku XIX wieku, a powszechna stała się po 1830 roku."
+          ],
+          "imageCredit": "Zdjęcie: Chris Olszewski · CC BY-SA 4.0 przez Wikimedia Commons"
+        }
+      }
+    }
+  },
+  "images": {
+    "good_friday": [
+      {
+        "path": "images/good_friday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "independence_day": [
+      {
+        "path": "images/MX/independence_day/01.jpg",
+        "primary": true,
+        "credit": "Reading Tom from Reading, UK",
+        "license": "CC BY 2.0"
+      },
+      {
+        "path": "images/MX/independence_day/02.jpg",
+        "primary": false,
+        "credit": "Jim Evans",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "path": "images/MX/independence_day/03.jpg",
+        "primary": false,
+        "credit": "Miguelsyn",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "revolution_day": [
+      {
+        "path": "images/MX/revolution_day/01.jpg",
+        "primary": true,
+        "credit": "AlejandroLinaresGarcia",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "path": "images/MX/revolution_day/02.jpg",
+        "primary": false,
+        "credit": "AlejandroLinaresGarcia",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "path": "images/MX/revolution_day/03.jpg",
+        "primary": false,
+        "credit": "Carlos Valenzuela",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "christmas": [
+      {
+        "path": "images/christmas/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 5
+}
