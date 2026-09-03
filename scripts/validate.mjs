@@ -67,6 +67,33 @@ function checkHolidayInfo(countryCode, pkg, errors, warnings) {
   }
 }
 
+function checkFunOccasions(pkg, errors, warnings) {
+  const funOccasions = pkg.funOccasions;
+  if (!funOccasions) return;
+
+  const i18n = pkg.i18n?.funOccasions ?? {};
+  const ids = new Set();
+
+  for (const [date, list] of Object.entries(funOccasions)) {
+    if ((list ?? []).length > 3) {
+      errors.push(`FUN funOccasions.${date}: ${list.length} occasions (max 3)`);
+    }
+    for (const occ of list ?? []) {
+      if (ids.has(occ.id)) errors.push(`FUN funOccasions.${date}: duplicate id ${occ.id}`);
+      ids.add(occ.id);
+
+      const slug = occ.labelKey.startsWith('funOccasions.')
+        ? occ.labelKey.slice('funOccasions.'.length)
+        : occ.labelKey;
+      for (const locale of ['de', 'en']) {
+        if (!i18n[locale]?.[slug]) {
+          errors.push(`FUN funOccasions.${date}.${occ.id}: missing "${locale}" i18n for ${slug}`);
+        }
+      }
+    }
+  }
+}
+
 function checkImages(countryCode, pkg, errors) {
   const images = pkg.images;
   if (!images) return;
@@ -154,6 +181,29 @@ async function main() {
         }
         checkHolidayInfo('GLOBAL', pkg, errors, warnings);
         checkImages('GLOBAL', pkg, errors);
+      }
+    }
+  }
+
+  // The FUN package (global "quirky occasions" calendar, no definitions) lives
+  // outside `countries` under the top-level `funOccasions` field.
+  if (index.funOccasions) {
+    const f = index.funOccasions;
+    const pkgPath = join(DATA, f.package);
+    if (!existsSync(pkgPath)) {
+      errors.push(`FUN: package missing at ${f.package}`);
+    } else {
+      const pkg = await readJson(pkgPath);
+      if (!validatePackage(pkg)) {
+        errors.push(`FUN: ${ajv.errorsText(validatePackage.errors)}`);
+      } else {
+        if (pkg.countryCode !== 'FUN') {
+          errors.push(`FUN: countryCode mismatch (${pkg.countryCode})`);
+        }
+        if (pkg.version !== f.version) {
+          errors.push(`FUN: version mismatch (index ${f.version} vs pkg ${pkg.version})`);
+        }
+        checkFunOccasions(pkg, errors, warnings);
       }
     }
   }

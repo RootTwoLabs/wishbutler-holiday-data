@@ -1,0 +1,1697 @@
+{
+  "countryCode": "FUN",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [],
+  "funOccasions": {
+    "01-01": [
+      {
+        "id": "fun_new_year_s_day",
+        "labelKey": "funOccasions.new_year_s_day"
+      }
+    ],
+    "01-04": [
+      {
+        "id": "fun_world_braille_day",
+        "labelKey": "funOccasions.world_braille_day"
+      }
+    ],
+    "01-14": [
+      {
+        "id": "fun_world_logic_day",
+        "labelKey": "funOccasions.world_logic_day"
+      }
+    ],
+    "02-02": [
+      {
+        "id": "fun_world_wetlands_day",
+        "labelKey": "funOccasions.world_wetlands_day"
+      }
+    ],
+    "02-04": [
+      {
+        "id": "fun_international_day_of_human_fraternity",
+        "labelKey": "funOccasions.international_day_of_human_fraternity"
+      }
+    ],
+    "02-10": [
+      {
+        "id": "fun_world_pulses_day",
+        "labelKey": "funOccasions.world_pulses_day"
+      }
+    ],
+    "02-11": [
+      {
+        "id": "fun_international_day_of_women_and_girls_in_science",
+        "labelKey": "funOccasions.international_day_of_women_and_girls_in_science"
+      },
+      {
+        "id": "fun_european_112_day",
+        "labelKey": "funOccasions.european_112_day"
+      }
+    ],
+    "02-13": [
+      {
+        "id": "fun_world_radio_day",
+        "labelKey": "funOccasions.world_radio_day"
+      }
+    ],
+    "02-20": [
+      {
+        "id": "fun_allergy_day",
+        "labelKey": "funOccasions.allergy_day"
+      }
+    ],
+    "02-21": [
+      {
+        "id": "fun_international_mother_language_day",
+        "labelKey": "funOccasions.international_mother_language_day"
+      }
+    ],
+    "02-27": [
+      {
+        "id": "fun_world_ngo_day",
+        "labelKey": "funOccasions.world_ngo_day"
+      }
+    ],
+    "03-01": [
+      {
+        "id": "fun_world_seagrass_day",
+        "labelKey": "funOccasions.world_seagrass_day"
+      }
+    ],
+    "03-03": [
+      {
+        "id": "fun_world_wildlife_day",
+        "labelKey": "funOccasions.world_wildlife_day"
+      },
+      {
+        "id": "fun_world_hearing_day",
+        "labelKey": "funOccasions.world_hearing_day"
+      }
+    ],
+    "03-08": [
+      {
+        "id": "fun_international_women_s_day",
+        "labelKey": "funOccasions.international_women_s_day"
+      }
+    ],
+    "03-14": [
+      {
+        "id": "fun_pi_day",
+        "labelKey": "funOccasions.pi_day"
+      },
+      {
+        "id": "fun_international_day_of_mathematics",
+        "labelKey": "funOccasions.international_day_of_mathematics"
+      },
+      {
+        "id": "fun_save_a_spider_day",
+        "labelKey": "funOccasions.save_a_spider_day"
+      }
+    ],
+    "03-15": [
+      {
+        "id": "fun_world_consumer_rights_day",
+        "labelKey": "funOccasions.world_consumer_rights_day"
+      }
+    ],
+    "03-20": [
+      {
+        "id": "fun_international_day_of_happiness",
+        "labelKey": "funOccasions.international_day_of_happiness"
+      },
+      {
+        "id": "fun_world_sparrow_day",
+        "labelKey": "funOccasions.world_sparrow_day"
+      },
+      {
+        "id": "fun_world_storytelling_day",
+        "labelKey": "funOccasions.world_storytelling_day"
+      }
+    ],
+    "03-21": [
+      {
+        "id": "fun_nowruz",
+        "labelKey": "funOccasions.nowruz"
+      },
+      {
+        "id": "fun_world_poetry_day",
+        "labelKey": "funOccasions.world_poetry_day"
+      },
+      {
+        "id": "fun_international_day_of_forests",
+        "labelKey": "funOccasions.international_day_of_forests"
+      }
+    ],
+    "03-22": [
+      {
+        "id": "fun_world_water_day",
+        "labelKey": "funOccasions.world_water_day"
+      }
+    ],
+    "03-23": [
+      {
+        "id": "fun_world_meteorological_day",
+        "labelKey": "funOccasions.world_meteorological_day"
+      }
+    ],
+    "03-26": [
+      {
+        "id": "fun_purple_day",
+        "labelKey": "funOccasions.purple_day"
+      }
+    ],
+    "03-27": [
+      {
+        "id": "fun_world_theatre_day",
+        "labelKey": "funOccasions.world_theatre_day"
+      }
+    ],
+    "03-31": [
+      {
+        "id": "fun_international_transgender_day_of_visibility",
+        "labelKey": "funOccasions.international_transgender_day_of_visibility"
+      }
+    ],
+    "04-02": [
+      {
+        "id": "fun_international_children_s_book_day",
+        "labelKey": "funOccasions.international_children_s_book_day"
+      }
+    ],
+    "04-05": [
+      {
+        "id": "fun_international_day_of_conscience",
+        "labelKey": "funOccasions.international_day_of_conscience"
+      }
+    ],
+    "04-07": [
+      {
+        "id": "fun_world_health_day",
+        "labelKey": "funOccasions.world_health_day"
+      }
+    ],
+    "04-08": [
+      {
+        "id": "fun_international_romani_day",
+        "labelKey": "funOccasions.international_romani_day"
+      }
+    ],
+    "04-12": [
+      {
+        "id": "fun_cosmonautics_day",
+        "labelKey": "funOccasions.cosmonautics_day"
+      }
+    ],
+    "04-14": [
+      {
+        "id": "fun_world_quantum_day",
+        "labelKey": "funOccasions.world_quantum_day"
+      }
+    ],
+    "04-18": [
+      {
+        "id": "fun_international_day_for_monuments_and_sites",
+        "labelKey": "funOccasions.international_day_for_monuments_and_sites"
+      }
+    ],
+    "04-22": [
+      {
+        "id": "fun_earth_day",
+        "labelKey": "funOccasions.earth_day"
+      },
+      {
+        "id": "fun_international_mother_earth_day",
+        "labelKey": "funOccasions.international_mother_earth_day"
+      }
+    ],
+    "04-23": [
+      {
+        "id": "fun_world_book_day_and_copyright_day",
+        "labelKey": "funOccasions.world_book_day_and_copyright_day"
+      }
+    ],
+    "04-26": [
+      {
+        "id": "fun_world_intellectual_property_day",
+        "labelKey": "funOccasions.world_intellectual_property_day"
+      }
+    ],
+    "04-29": [
+      {
+        "id": "fun_international_dance_day",
+        "labelKey": "funOccasions.international_dance_day"
+      }
+    ],
+    "04-30": [
+      {
+        "id": "fun_international_jazz_day",
+        "labelKey": "funOccasions.international_jazz_day"
+      }
+    ],
+    "05-01": [
+      {
+        "id": "fun_international_workers_day",
+        "labelKey": "funOccasions.international_workers_day"
+      }
+    ],
+    "05-04": [
+      {
+        "id": "fun_international_firefighters_day",
+        "labelKey": "funOccasions.international_firefighters_day"
+      }
+    ],
+    "05-05": [
+      {
+        "id": "fun_international_midwives_day",
+        "labelKey": "funOccasions.international_midwives_day"
+      },
+      {
+        "id": "fun_world_hand_hygiene_day",
+        "labelKey": "funOccasions.world_hand_hygiene_day"
+      }
+    ],
+    "05-06": [
+      {
+        "id": "fun_international_no_diet_day",
+        "labelKey": "funOccasions.international_no_diet_day"
+      }
+    ],
+    "05-08": [
+      {
+        "id": "fun_world_red_cross_and_red_crescent_day",
+        "labelKey": "funOccasions.world_red_cross_and_red_crescent_day"
+      }
+    ],
+    "05-12": [
+      {
+        "id": "fun_international_nurses_day",
+        "labelKey": "funOccasions.international_nurses_day"
+      },
+      {
+        "id": "fun_international_day_of_plant_health",
+        "labelKey": "funOccasions.international_day_of_plant_health"
+      },
+      {
+        "id": "fun_international_women_in_mathematics_day",
+        "labelKey": "funOccasions.international_women_in_mathematics_day"
+      }
+    ],
+    "05-14": [
+      {
+        "id": "fun_german_national_day_of_hiking",
+        "labelKey": "funOccasions.german_national_day_of_hiking"
+      }
+    ],
+    "05-15": [
+      {
+        "id": "fun_international_day_of_families",
+        "labelKey": "funOccasions.international_day_of_families"
+      }
+    ],
+    "05-16": [
+      {
+        "id": "fun_international_day_of_light",
+        "labelKey": "funOccasions.international_day_of_light"
+      }
+    ],
+    "05-17": [
+      {
+        "id": "fun_world_telecommunication_and_information_society_",
+        "labelKey": "funOccasions.world_telecommunication_and_information_society_"
+      }
+    ],
+    "05-18": [
+      {
+        "id": "fun_international_museum_day",
+        "labelKey": "funOccasions.international_museum_day"
+      }
+    ],
+    "05-20": [
+      {
+        "id": "fun_world_bee_day",
+        "labelKey": "funOccasions.world_bee_day"
+      },
+      {
+        "id": "fun_world_metrology_day",
+        "labelKey": "funOccasions.world_metrology_day"
+      }
+    ],
+    "05-21": [
+      {
+        "id": "fun_international_tea_day",
+        "labelKey": "funOccasions.international_tea_day"
+      },
+      {
+        "id": "fun_world_day_for_cultural_diversity_for_dialogue_an",
+        "labelKey": "funOccasions.world_day_for_cultural_diversity_for_dialogue_an"
+      }
+    ],
+    "05-22": [
+      {
+        "id": "fun_international_day_for_biological_diversity",
+        "labelKey": "funOccasions.international_day_for_biological_diversity"
+      }
+    ],
+    "05-23": [
+      {
+        "id": "fun_world_turtle_day",
+        "labelKey": "funOccasions.world_turtle_day"
+      }
+    ],
+    "05-24": [
+      {
+        "id": "fun_european_day_of_parks",
+        "labelKey": "funOccasions.european_day_of_parks"
+      }
+    ],
+    "05-25": [
+      {
+        "id": "fun_towel_day",
+        "labelKey": "funOccasions.towel_day"
+      },
+      {
+        "id": "fun_africa_day",
+        "labelKey": "funOccasions.africa_day"
+      }
+    ],
+    "05-30": [
+      {
+        "id": "fun_international_day_of_potato",
+        "labelKey": "funOccasions.international_day_of_potato"
+      }
+    ],
+    "05-31": [
+      {
+        "id": "fun_world_no_tobacco_day",
+        "labelKey": "funOccasions.world_no_tobacco_day"
+      }
+    ],
+    "06-01": [
+      {
+        "id": "fun_world_milk_day",
+        "labelKey": "funOccasions.world_milk_day"
+      },
+      {
+        "id": "fun_neighbours_day",
+        "labelKey": "funOccasions.neighbours_day"
+      }
+    ],
+    "06-03": [
+      {
+        "id": "fun_world_bicycle_day",
+        "labelKey": "funOccasions.world_bicycle_day"
+      }
+    ],
+    "06-05": [
+      {
+        "id": "fun_world_environment_day",
+        "labelKey": "funOccasions.world_environment_day"
+      }
+    ],
+    "06-07": [
+      {
+        "id": "fun_world_food_safety_day",
+        "labelKey": "funOccasions.world_food_safety_day"
+      },
+      {
+        "id": "fun_world_swift_day",
+        "labelKey": "funOccasions.world_swift_day"
+      }
+    ],
+    "06-08": [
+      {
+        "id": "fun_world_oceans_day",
+        "labelKey": "funOccasions.world_oceans_day"
+      }
+    ],
+    "06-10": [
+      {
+        "id": "fun_world_art_nouveau_day",
+        "labelKey": "funOccasions.world_art_nouveau_day"
+      }
+    ],
+    "06-16": [
+      {
+        "id": "fun_bloomsday",
+        "labelKey": "funOccasions.bloomsday"
+      },
+      {
+        "id": "fun_international_day_of_the_african_child",
+        "labelKey": "funOccasions.international_day_of_the_african_child"
+      }
+    ],
+    "06-21": [
+      {
+        "id": "fun_international_yoga_day",
+        "labelKey": "funOccasions.international_yoga_day"
+      },
+      {
+        "id": "fun_world_humanist_day",
+        "labelKey": "funOccasions.world_humanist_day"
+      }
+    ],
+    "06-25": [
+      {
+        "id": "fun_day_of_the_seafarer",
+        "labelKey": "funOccasions.day_of_the_seafarer"
+      }
+    ],
+    "06-30": [
+      {
+        "id": "fun_asteroid_day",
+        "labelKey": "funOccasions.asteroid_day"
+      }
+    ],
+    "07-02": [
+      {
+        "id": "fun_world_ufo_day",
+        "labelKey": "funOccasions.world_ufo_day"
+      },
+      {
+        "id": "fun_day_of_the_franks",
+        "labelKey": "funOccasions.day_of_the_franks"
+      }
+    ],
+    "07-14": [
+      {
+        "id": "fun_international_non_binary_people_s_day",
+        "labelKey": "funOccasions.international_non_binary_people_s_day"
+      }
+    ],
+    "07-17": [
+      {
+        "id": "fun_world_emoji_day",
+        "labelKey": "funOccasions.world_emoji_day"
+      }
+    ],
+    "07-18": [
+      {
+        "id": "fun_mandela_day",
+        "labelKey": "funOccasions.mandela_day"
+      }
+    ],
+    "07-20": [
+      {
+        "id": "fun_international_chess_day",
+        "labelKey": "funOccasions.international_chess_day"
+      }
+    ],
+    "07-22": [
+      {
+        "id": "fun_pi_approximation_day",
+        "labelKey": "funOccasions.pi_approximation_day"
+      }
+    ],
+    "07-26": [
+      {
+        "id": "fun_esperanto_day",
+        "labelKey": "funOccasions.esperanto_day"
+      }
+    ],
+    "07-30": [
+      {
+        "id": "fun_friendship_day",
+        "labelKey": "funOccasions.friendship_day"
+      }
+    ],
+    "08-08": [
+      {
+        "id": "fun_international_cat_day",
+        "labelKey": "funOccasions.international_cat_day"
+      }
+    ],
+    "08-09": [
+      {
+        "id": "fun_international_day_of_the_world_s_indigenous_peop",
+        "labelKey": "funOccasions.international_day_of_the_world_s_indigenous_peop"
+      }
+    ],
+    "08-12": [
+      {
+        "id": "fun_international_youth_day",
+        "labelKey": "funOccasions.international_youth_day"
+      }
+    ],
+    "08-13": [
+      {
+        "id": "fun_international_lefthanders_day",
+        "labelKey": "funOccasions.international_lefthanders_day"
+      }
+    ],
+    "08-19": [
+      {
+        "id": "fun_world_humanitarian_day",
+        "labelKey": "funOccasions.world_humanitarian_day"
+      }
+    ],
+    "08-26": [
+      {
+        "id": "fun_international_dog_day",
+        "labelKey": "funOccasions.international_dog_day"
+      }
+    ],
+    "09-07": [
+      {
+        "id": "fun_international_day_of_clean_air_for_blue_skies",
+        "labelKey": "funOccasions.international_day_of_clean_air_for_blue_skies"
+      }
+    ],
+    "09-08": [
+      {
+        "id": "fun_international_literacy_day",
+        "labelKey": "funOccasions.international_literacy_day"
+      }
+    ],
+    "09-19": [
+      {
+        "id": "fun_international_talk_like_a_pirate_day",
+        "labelKey": "funOccasions.international_talk_like_a_pirate_day"
+      },
+      {
+        "id": "fun_national_civil_courage_day",
+        "labelKey": "funOccasions.national_civil_courage_day"
+      }
+    ],
+    "09-20": [
+      {
+        "id": "fun_world_cleanup_day",
+        "labelKey": "funOccasions.world_cleanup_day"
+      }
+    ],
+    "09-22": [
+      {
+        "id": "fun_car_free_day",
+        "labelKey": "funOccasions.car_free_day"
+      }
+    ],
+    "09-23": [
+      {
+        "id": "fun_international_day_of_sign_languages",
+        "labelKey": "funOccasions.international_day_of_sign_languages"
+      }
+    ],
+    "09-26": [
+      {
+        "id": "fun_european_day_of_languages",
+        "labelKey": "funOccasions.european_day_of_languages"
+      }
+    ],
+    "09-27": [
+      {
+        "id": "fun_world_tourism_day",
+        "labelKey": "funOccasions.world_tourism_day"
+      }
+    ],
+    "09-28": [
+      {
+        "id": "fun_access_to_information_day",
+        "labelKey": "funOccasions.access_to_information_day"
+      }
+    ],
+    "09-30": [
+      {
+        "id": "fun_international_translation_day",
+        "labelKey": "funOccasions.international_translation_day"
+      }
+    ],
+    "10-01": [
+      {
+        "id": "fun_international_day_of_older_persons",
+        "labelKey": "funOccasions.international_day_of_older_persons"
+      },
+      {
+        "id": "fun_world_vegetarian_day",
+        "labelKey": "funOccasions.world_vegetarian_day"
+      }
+    ],
+    "10-04": [
+      {
+        "id": "fun_world_animal_day",
+        "labelKey": "funOccasions.world_animal_day"
+      }
+    ],
+    "10-05": [
+      {
+        "id": "fun_world_teachers_day",
+        "labelKey": "funOccasions.world_teachers_day"
+      }
+    ],
+    "10-06": [
+      {
+        "id": "fun_world_habitat_day",
+        "labelKey": "funOccasions.world_habitat_day"
+      }
+    ],
+    "10-07": [
+      {
+        "id": "fun_world_day_for_decent_work",
+        "labelKey": "funOccasions.world_day_for_decent_work"
+      }
+    ],
+    "10-09": [
+      {
+        "id": "fun_world_post_day",
+        "labelKey": "funOccasions.world_post_day"
+      }
+    ],
+    "10-11": [
+      {
+        "id": "fun_international_day_of_the_girl_child",
+        "labelKey": "funOccasions.international_day_of_the_girl_child"
+      },
+      {
+        "id": "fun_national_coming_out_day",
+        "labelKey": "funOccasions.national_coming_out_day"
+      }
+    ],
+    "10-14": [
+      {
+        "id": "fun_world_standards_day",
+        "labelKey": "funOccasions.world_standards_day"
+      }
+    ],
+    "10-15": [
+      {
+        "id": "fun_global_handwashing_day",
+        "labelKey": "funOccasions.global_handwashing_day"
+      },
+      {
+        "id": "fun_white_cane_safety_day",
+        "labelKey": "funOccasions.white_cane_safety_day"
+      }
+    ],
+    "10-16": [
+      {
+        "id": "fun_world_food_day",
+        "labelKey": "funOccasions.world_food_day"
+      }
+    ],
+    "10-20": [
+      {
+        "id": "fun_world_statistics_day",
+        "labelKey": "funOccasions.world_statistics_day"
+      }
+    ],
+    "10-24": [
+      {
+        "id": "fun_united_nations_day",
+        "labelKey": "funOccasions.united_nations_day"
+      }
+    ],
+    "10-27": [
+      {
+        "id": "fun_world_day_for_audiovisual_heritage",
+        "labelKey": "funOccasions.world_day_for_audiovisual_heritage"
+      }
+    ],
+    "10-31": [
+      {
+        "id": "fun_world_savings_day",
+        "labelKey": "funOccasions.world_savings_day"
+      }
+    ],
+    "11-01": [
+      {
+        "id": "fun_world_vegan_day",
+        "labelKey": "funOccasions.world_vegan_day"
+      }
+    ],
+    "11-02": [
+      {
+        "id": "fun_international_day_to_end_impunity_for_crimes_aga",
+        "labelKey": "funOccasions.international_day_to_end_impunity_for_crimes_aga"
+      }
+    ],
+    "11-17": [
+      {
+        "id": "fun_international_students_day",
+        "labelKey": "funOccasions.international_students_day"
+      }
+    ],
+    "11-19": [
+      {
+        "id": "fun_international_men_s_day",
+        "labelKey": "funOccasions.international_men_s_day"
+      },
+      {
+        "id": "fun_world_toilet_day",
+        "labelKey": "funOccasions.world_toilet_day"
+      },
+      {
+        "id": "fun_men_s_world_day",
+        "labelKey": "funOccasions.men_s_world_day"
+      }
+    ],
+    "11-20": [
+      {
+        "id": "fun_children_s_day",
+        "labelKey": "funOccasions.children_s_day"
+      },
+      {
+        "id": "fun_universal_children_s_day",
+        "labelKey": "funOccasions.universal_children_s_day"
+      }
+    ],
+    "11-21": [
+      {
+        "id": "fun_world_television_day",
+        "labelKey": "funOccasions.world_television_day"
+      }
+    ],
+    "11-28": [
+      {
+        "id": "fun_mediterranean_day",
+        "labelKey": "funOccasions.mediterranean_day"
+      }
+    ],
+    "11-30": [
+      {
+        "id": "fun_blue_beanie_day",
+        "labelKey": "funOccasions.blue_beanie_day"
+      }
+    ],
+    "12-01": [
+      {
+        "id": "fun_digital_broadcasting_day",
+        "labelKey": "funOccasions.digital_broadcasting_day"
+      }
+    ],
+    "12-02": [
+      {
+        "id": "fun_international_model_railroading_day",
+        "labelKey": "funOccasions.international_model_railroading_day"
+      }
+    ],
+    "12-03": [
+      {
+        "id": "fun_international_day_of_the_basque_language",
+        "labelKey": "funOccasions.international_day_of_the_basque_language"
+      }
+    ],
+    "12-05": [
+      {
+        "id": "fun_international_volunteer_day",
+        "labelKey": "funOccasions.international_volunteer_day"
+      },
+      {
+        "id": "fun_world_soil_day",
+        "labelKey": "funOccasions.world_soil_day"
+      }
+    ],
+    "12-07": [
+      {
+        "id": "fun_international_civil_aviation_day",
+        "labelKey": "funOccasions.international_civil_aviation_day"
+      }
+    ],
+    "12-11": [
+      {
+        "id": "fun_day_of_the_health_service",
+        "labelKey": "funOccasions.day_of_the_health_service"
+      }
+    ],
+    "12-14": [
+      {
+        "id": "fun_monkey_day",
+        "labelKey": "funOccasions.monkey_day"
+      }
+    ],
+    "12-15": [
+      {
+        "id": "fun_zamenhof_day",
+        "labelKey": "funOccasions.zamenhof_day"
+      }
+    ],
+    "12-18": [
+      {
+        "id": "fun_un_arabic_language_day",
+        "labelKey": "funOccasions.un_arabic_language_day"
+      }
+    ],
+    "12-27": [
+      {
+        "id": "fun_international_day_of_epidemic_preparedness",
+        "labelKey": "funOccasions.international_day_of_epidemic_preparedness"
+      }
+    ],
+    "12-28": [
+      {
+        "id": "fun_day_of_the_holy_innocents",
+        "labelKey": "funOccasions.day_of_the_holy_innocents"
+      }
+    ]
+  },
+  "i18n": {
+    "funOccasions": {
+      "de": {
+        "access_to_information_day": "Internationaler Tag des allgemeinen Informationszugangs",
+        "africa_day": "Afrikatag",
+        "allergy_day": "Allergie no Hi",
+        "asteroid_day": "Asteroid Day",
+        "bloomsday": "Bloomsday",
+        "blue_beanie_day": "Blue Beanie Day",
+        "car_free_day": "autofreier Tag",
+        "children_s_day": "Kindertag",
+        "cosmonautics_day": "Tag der Kosmonauten",
+        "day_of_the_franks": "Tag der Franken",
+        "day_of_the_health_service": "Tag des Gesundheitswesens",
+        "day_of_the_holy_innocents": "Tag der Unschuldigen Kinder",
+        "day_of_the_seafarer": "Tag des Seefahrers",
+        "digital_broadcasting_day": "Tag der digitalen Übertragung",
+        "earth_day": "Tag der Erde",
+        "esperanto_day": "Esperanto-Tag",
+        "european_112_day": "Europäischer Tag des Notrufs 112",
+        "european_day_of_languages": "Europäischer Tag der Sprachen",
+        "european_day_of_parks": "Europäischer Tag der Parke",
+        "friendship_day": "Internationaler Tag der Freundschaft",
+        "german_national_day_of_hiking": "Tag des Wanderns",
+        "global_handwashing_day": "Internationaler Hände-Waschtag",
+        "international_cat_day": "Internationaler Tag der Katze",
+        "international_chess_day": "Internationaler Schachtag",
+        "international_children_s_book_day": "Internationaler Kinderbuchtag",
+        "international_civil_aviation_day": "Internationaler Tag der Zivilluftfahrt",
+        "international_dance_day": "Welttag des Tanzes",
+        "international_day_for_biological_diversity": "Internationale Tag der Biodiversität",
+        "international_day_for_monuments_and_sites": "Weltkulturerbetag",
+        "international_day_of_clean_air_for_blue_skies": "Internationaler Tag der sauberen Luft für einen blauen Himmel",
+        "international_day_of_conscience": "Internationaler Tag des Gewissens",
+        "international_day_of_epidemic_preparedness": "Internationaler Tag der Epidemievorsorge",
+        "international_day_of_families": "Internationaler Tag der Familie",
+        "international_day_of_forests": "Internationaler Tag des Waldes",
+        "international_day_of_happiness": "Weltglückstag",
+        "international_day_of_human_fraternity": "Internationaler Tag der menschlichen Geschwisterlichkeit",
+        "international_day_of_light": "Internationaler Tag des Lichts",
+        "international_day_of_mathematics": "Internationaler Tag der Mathematik",
+        "international_day_of_older_persons": "Tag der älteren Generation",
+        "international_day_of_plant_health": "Internationaler Tag der Pflanzengesundheit",
+        "international_day_of_potato": "Internationaler Tag der Kartoffel",
+        "international_day_of_sign_languages": "Internationaler Tag der Gebärdensprache",
+        "international_day_of_the_african_child": "Internationaler Tag des afrikanischen Kindes",
+        "international_day_of_the_basque_language": "Internationaler Tag der Baskischen Sprache",
+        "international_day_of_the_girl_child": "Internationaler Mädchentag",
+        "international_day_of_the_world_s_indigenous_peop": "Internationaler Tag der indigenen Völker",
+        "international_day_of_women_and_girls_in_science": "Internationaler Tag der Frauen und Mädchen in der Wissenschaft",
+        "international_day_to_end_impunity_for_crimes_aga": "Internationaler Tag zur Beendigung der Straflosigkeit für Verbrechen an Journalisten",
+        "international_dog_day": "Hundetag",
+        "international_firefighters_day": "Internationaler Tag der Feuerwehr",
+        "international_jazz_day": "Internationaler Tag des Jazz",
+        "international_lefthanders_day": "Linkshändertag",
+        "international_literacy_day": "Weltalphabetisierungstag",
+        "international_men_s_day": "Internationaler Männertag",
+        "international_midwives_day": "Internationaler Hebammentag",
+        "international_model_railroading_day": "Tag der Modelleisenbahn",
+        "international_mother_earth_day": "Internationalen Tag der Mutter Erde",
+        "international_mother_language_day": "Internationaler Tag der Muttersprache",
+        "international_museum_day": "Internationaler Museumstag",
+        "international_no_diet_day": "Internationaler Anti-Diät-Tag",
+        "international_non_binary_people_s_day": "Internationaler Tag der nichtbinären Menschen",
+        "international_nurses_day": "Internationaler Tag der Pflegenden",
+        "international_romani_day": "Internationaler Tag der Roma",
+        "international_students_day": "International Students’ Day",
+        "international_talk_like_a_pirate_day": "International Talk Like a Pirate Day",
+        "international_tea_day": "Internationaler Tag des Tees",
+        "international_transgender_day_of_visibility": "Internationaler Tag zur Sichtbarkeit von Transmenschen",
+        "international_translation_day": "Internationaler Übersetzertag",
+        "international_volunteer_day": "Internationaler Tag des Ehrenamtes",
+        "international_women_in_mathematics_day": "Internationaler Tag der Frauen in der Mathematik",
+        "international_women_s_day": "Internationaler Frauentag",
+        "international_workers_day": "Erster Mai",
+        "international_yoga_day": "Weltyogatag",
+        "international_youth_day": "Internationaler Jugendtag",
+        "mandela_day": "Internationaler Nelson-Mandela-Tag",
+        "mediterranean_day": "Tag des Mittelmeerraumes",
+        "men_s_world_day": "Weltmännertag",
+        "monkey_day": "Affentag",
+        "national_civil_courage_day": "Tag der Zivilcourage",
+        "national_coming_out_day": "Coming Out Day",
+        "neighbours_day": "Tag der Nachbarschaft",
+        "new_year_s_day": "Neujahrstag",
+        "nowruz": "Nouruz",
+        "pi_approximation_day": "Pi-Annäherungstag",
+        "pi_day": "Pi-Tag",
+        "purple_day": "Purple Day",
+        "save_a_spider_day": "Rette-eine-Spinne-Tag",
+        "towel_day": "Towel Day",
+        "un_arabic_language_day": "Tag der arabischen Sprache bei den Vereinten Nationen",
+        "united_nations_day": "Tag der Vereinten Nationen",
+        "universal_children_s_day": "Weltkindertag",
+        "white_cane_safety_day": "Tag des weißen Stockes",
+        "world_animal_day": "Welttierschutztag",
+        "world_art_nouveau_day": "Weltjugendstiltag",
+        "world_bee_day": "Weltbienentag",
+        "world_bicycle_day": "Weltfahrradtag",
+        "world_book_day_and_copyright_day": "Welttag des Buches und des Urheberrechts",
+        "world_braille_day": "Welt Braille Tag",
+        "world_cleanup_day": "Tag der sauberen Welt",
+        "world_consumer_rights_day": "Weltverbrauchertag",
+        "world_day_for_audiovisual_heritage": "Welttag des audiovisuellen Erbes",
+        "world_day_for_cultural_diversity_for_dialogue_an": "Welttag der kulturellen Vielfalt für Dialog und Entwicklung",
+        "world_day_for_decent_work": "Welttag für menschenwürdige Arbeit",
+        "world_emoji_day": "Welt-Emoji-Tag",
+        "world_environment_day": "Weltumwelttag",
+        "world_food_day": "Welternährungstag",
+        "world_food_safety_day": "Welttag der Lebensmittelsicherheit",
+        "world_habitat_day": "Welttag des Rechts auf Wohnen",
+        "world_hand_hygiene_day": "Welttag der Handhygiene",
+        "world_health_day": "Weltgesundheitstag",
+        "world_hearing_day": "Welttag des Hörens",
+        "world_humanist_day": "Welthumanistentag",
+        "world_humanitarian_day": "Welttag der humanitären Hilfe",
+        "world_intellectual_property_day": "Welttag des geistigen Eigentums",
+        "world_logic_day": "Welttag der Logik",
+        "world_meteorological_day": "Welttag der Meteorologie",
+        "world_metrology_day": "Tag des Messens",
+        "world_milk_day": "Weltmilchtag",
+        "world_ngo_day": "Welttag der Nichtregierungsorganisationen",
+        "world_no_tobacco_day": "Weltnichtrauchertag",
+        "world_oceans_day": "Welttag der Ozeane",
+        "world_poetry_day": "Welttag der Poesie",
+        "world_post_day": "Weltposttag",
+        "world_pulses_day": "Internationaler Tag der Hülsenfrüchte",
+        "world_quantum_day": "Welttag der Quanten",
+        "world_radio_day": "Welttag des Radios",
+        "world_red_cross_and_red_crescent_day": "Weltrotkreuztag",
+        "world_savings_day": "Weltspartag",
+        "world_seagrass_day": "Welttag des Seegrases",
+        "world_soil_day": "Weltbodentag",
+        "world_sparrow_day": "Welt-Spatzen-Tag",
+        "world_standards_day": "Weltnormentag",
+        "world_statistics_day": "Weltstatistiktag",
+        "world_storytelling_day": "Weltgeschichtentag",
+        "world_swift_day": "Welttag der Segler",
+        "world_teachers_day": "Weltlehrertag",
+        "world_telecommunication_and_information_society_": "Weltfernmeldetag",
+        "world_television_day": "Welttag des Fernsehens",
+        "world_theatre_day": "Welttag des Theaters",
+        "world_toilet_day": "Welttoilettentag",
+        "world_tourism_day": "Welttourismustag",
+        "world_turtle_day": "Weltschildkrötentag",
+        "world_ufo_day": "Welt UFO Tag",
+        "world_vegan_day": "Weltvegantag",
+        "world_vegetarian_day": "Weltvegetariertag",
+        "world_water_day": "Weltwassertag",
+        "world_wetlands_day": "Welttag der Feuchtgebiete",
+        "world_wildlife_day": "Tag des Artenschutzes",
+        "zamenhof_day": "Zamenhoftag"
+      },
+      "en": {
+        "access_to_information_day": "Access to Information Day",
+        "africa_day": "Africa Day",
+        "allergy_day": "Allergy day",
+        "asteroid_day": "Asteroid Day",
+        "bloomsday": "Bloomsday",
+        "blue_beanie_day": "Blue Beanie Day",
+        "car_free_day": "Car-Free Day",
+        "children_s_day": "children's day",
+        "cosmonautics_day": "Cosmonautics Day",
+        "day_of_the_franks": "Day of the Franks",
+        "day_of_the_health_service": "Day of the Health Service",
+        "day_of_the_holy_innocents": "Day of the Holy Innocents",
+        "day_of_the_seafarer": "Day of the Seafarer",
+        "digital_broadcasting_day": "Digital Broadcasting Day",
+        "earth_day": "Earth Day",
+        "esperanto_day": "Esperanto Day",
+        "european_112_day": "European 112 Day",
+        "european_day_of_languages": "European Day of Languages",
+        "european_day_of_parks": "European Day of Parks",
+        "friendship_day": "Friendship Day",
+        "german_national_day_of_hiking": "German national Day of Hiking",
+        "global_handwashing_day": "Global Handwashing Day",
+        "international_cat_day": "International Cat Day",
+        "international_chess_day": "International chess day",
+        "international_children_s_book_day": "International Children's Book Day",
+        "international_civil_aviation_day": "International Civil Aviation Day",
+        "international_dance_day": "International Dance Day",
+        "international_day_for_biological_diversity": "International Day for Biological Diversity",
+        "international_day_for_monuments_and_sites": "International Day For Monuments and Sites",
+        "international_day_of_clean_air_for_blue_skies": "International Day of Clean Air for blue skies",
+        "international_day_of_conscience": "International Day of Conscience",
+        "international_day_of_epidemic_preparedness": "International Day of Epidemic Preparedness",
+        "international_day_of_families": "International Day of Families",
+        "international_day_of_forests": "International Day of Forests",
+        "international_day_of_happiness": "International Day of Happiness",
+        "international_day_of_human_fraternity": "International Day of Human Fraternity",
+        "international_day_of_light": "International Day of Light",
+        "international_day_of_mathematics": "International Day of Mathematics",
+        "international_day_of_older_persons": "International Day of Older Persons",
+        "international_day_of_plant_health": "International Day of Plant Health",
+        "international_day_of_potato": "International Day of Potato",
+        "international_day_of_sign_languages": "International Day of Sign Languages",
+        "international_day_of_the_african_child": "International Day of the African Child",
+        "international_day_of_the_basque_language": "International Day of the Basque Language",
+        "international_day_of_the_girl_child": "International Day of the Girl Child",
+        "international_day_of_the_world_s_indigenous_peop": "International Day of the World's Indigenous Peoples",
+        "international_day_of_women_and_girls_in_science": "International Day of Women and Girls in Science",
+        "international_day_to_end_impunity_for_crimes_aga": "International Day to End Impunity for Crimes Against Journalists",
+        "international_dog_day": "International Dog Day",
+        "international_firefighters_day": "International Firefighters' Day",
+        "international_jazz_day": "International Jazz Day",
+        "international_lefthanders_day": "International Lefthanders Day",
+        "international_literacy_day": "International Literacy Day",
+        "international_men_s_day": "International Men's Day",
+        "international_midwives_day": "International Midwives' Day",
+        "international_model_railroading_day": "International Model Railroading Day",
+        "international_mother_earth_day": "International Mother Earth Day",
+        "international_mother_language_day": "International Mother Language Day",
+        "international_museum_day": "International Museum Day",
+        "international_no_diet_day": "International No Diet Day",
+        "international_non_binary_people_s_day": "International Non-Binary People's Day",
+        "international_nurses_day": "International Nurses Day",
+        "international_romani_day": "International Romani Day",
+        "international_students_day": "International Students’ Day",
+        "international_talk_like_a_pirate_day": "International Talk Like a Pirate Day",
+        "international_tea_day": "International Tea Day",
+        "international_transgender_day_of_visibility": "International Transgender Day of Visibility",
+        "international_translation_day": "International Translation Day",
+        "international_volunteer_day": "International Volunteer Day",
+        "international_women_in_mathematics_day": "International Women in Mathematics Day",
+        "international_women_s_day": "International Women's Day",
+        "international_workers_day": "International Workers' Day",
+        "international_yoga_day": "International Yoga Day",
+        "international_youth_day": "International Youth Day",
+        "mandela_day": "Mandela Day",
+        "mediterranean_day": "Mediterranean Day",
+        "men_s_world_day": "Men's World Day",
+        "monkey_day": "Monkey Day",
+        "national_civil_courage_day": "National Civil Courage Day",
+        "national_coming_out_day": "National Coming Out Day",
+        "neighbours_day": "Neighbours' Day",
+        "new_year_s_day": "New Year's Day",
+        "nowruz": "Nowruz",
+        "pi_approximation_day": "Pi Approximation Day",
+        "pi_day": "Pi Day",
+        "purple_day": "Purple Day",
+        "save_a_spider_day": "Save a Spider Day",
+        "towel_day": "Towel Day",
+        "un_arabic_language_day": "UN Arabic Language Day",
+        "united_nations_day": "United Nations Day",
+        "universal_children_s_day": "Universal Children's Day",
+        "white_cane_safety_day": "White Cane Safety Day",
+        "world_animal_day": "World Animal Day",
+        "world_art_nouveau_day": "World Art Nouveau Day",
+        "world_bee_day": "World Bee Day",
+        "world_bicycle_day": "World Bicycle Day",
+        "world_book_day_and_copyright_day": "World Book Day and Copyright Day",
+        "world_braille_day": "World Braille Day",
+        "world_cleanup_day": "World Cleanup Day",
+        "world_consumer_rights_day": "World Consumer Rights Day",
+        "world_day_for_audiovisual_heritage": "World Day for Audiovisual Heritage",
+        "world_day_for_cultural_diversity_for_dialogue_an": "World Day for Cultural Diversity for Dialogue and Development",
+        "world_day_for_decent_work": "world day for decent work",
+        "world_emoji_day": "World Emoji Day",
+        "world_environment_day": "World Environment Day",
+        "world_food_day": "World Food Day",
+        "world_food_safety_day": "World Food Safety Day",
+        "world_habitat_day": "World Habitat Day",
+        "world_hand_hygiene_day": "World Hand Hygiene Day",
+        "world_health_day": "World Health Day",
+        "world_hearing_day": "World Hearing Day",
+        "world_humanist_day": "World Humanist Day",
+        "world_humanitarian_day": "World Humanitarian Day",
+        "world_intellectual_property_day": "World Intellectual Property Day",
+        "world_logic_day": "World Logic Day",
+        "world_meteorological_day": "World Meteorological Day",
+        "world_metrology_day": "World Metrology Day",
+        "world_milk_day": "World Milk Day",
+        "world_ngo_day": "World NGO Day",
+        "world_no_tobacco_day": "World No Tobacco Day",
+        "world_oceans_day": "World Oceans Day",
+        "world_poetry_day": "World Poetry Day",
+        "world_post_day": "World Post Day",
+        "world_pulses_day": "World Pulses Day",
+        "world_quantum_day": "World Quantum Day",
+        "world_radio_day": "World Radio Day",
+        "world_red_cross_and_red_crescent_day": "World Red Cross and Red Crescent Day",
+        "world_savings_day": "World Savings Day",
+        "world_seagrass_day": "World Seagrass Day",
+        "world_soil_day": "World Soil Day",
+        "world_sparrow_day": "World Sparrow Day",
+        "world_standards_day": "World Standards Day",
+        "world_statistics_day": "World Statistics Day",
+        "world_storytelling_day": "World Storytelling Day",
+        "world_swift_day": "World Swift Day",
+        "world_teachers_day": "World Teachers' Day",
+        "world_telecommunication_and_information_society_": "World Telecommunication and Information Society Day",
+        "world_television_day": "World Television Day",
+        "world_theatre_day": "World Theatre Day",
+        "world_toilet_day": "World Toilet Day",
+        "world_tourism_day": "World Tourism Day",
+        "world_turtle_day": "World Turtle Day",
+        "world_ufo_day": "World UFO Day",
+        "world_vegan_day": "World Vegan Day",
+        "world_vegetarian_day": "World Vegetarian Day",
+        "world_water_day": "World Water Day",
+        "world_wetlands_day": "World Wetlands Day",
+        "world_wildlife_day": "World Wildlife Day",
+        "zamenhof_day": "Zamenhof Day"
+      },
+      "es": {
+        "access_to_information_day": "Día Internacional del Acceso Universal a la Información",
+        "africa_day": "Día de África",
+        "asteroid_day": "Día Internacional de los Asteroides",
+        "bloomsday": "Bloomsday",
+        "car_free_day": "Día Mundial Sin Automóvil",
+        "children_s_day": "Día Mundial del Niño",
+        "cosmonautics_day": "Día de la Cosmonáutica",
+        "day_of_the_holy_innocents": "Día de los Santos Inocentes",
+        "day_of_the_seafarer": "Día de la Gente de Mar",
+        "earth_day": "Día de la Tierra",
+        "esperanto_day": "Día del Esperanto",
+        "european_112_day": "Día del número de emergencias europeo 112",
+        "european_day_of_languages": "Día Europeo de las Lenguas",
+        "friendship_day": "Día Internacional de la Amistad",
+        "global_handwashing_day": "Día Mundial del Lavado de Manos",
+        "international_cat_day": "Día Internacional del Gato",
+        "international_chess_day": "Día internacional del ajedrez",
+        "international_children_s_book_day": "Día Internacional del Libro Infantil y Juvenil",
+        "international_civil_aviation_day": "Día Internacional de la Aviación Civil",
+        "international_dance_day": "Día Internacional de la Danza",
+        "international_day_for_biological_diversity": "Día Internacional de la Diversidad Biológica",
+        "international_day_for_monuments_and_sites": "Día Internacional de los Monumentos y Sitios",
+        "international_day_of_clean_air_for_blue_skies": "Día Internacional del Aire Limpio por un cielo azul",
+        "international_day_of_conscience": "Día Internacional de la Conciencia",
+        "international_day_of_epidemic_preparedness": "Día Internacional de la Preparación ante las Epidemias",
+        "international_day_of_families": "Día Internacional de las Familias",
+        "international_day_of_forests": "Día Internacional de los Bosques",
+        "international_day_of_happiness": "Día Internacional de la Felicidad",
+        "international_day_of_human_fraternity": "Día Internacional de la Fraternidad Humana",
+        "international_day_of_light": "Día Internacional de la Luz",
+        "international_day_of_mathematics": "Día Internacional de las Matemáticas",
+        "international_day_of_older_persons": "Día Internacional de las Personas de Edad",
+        "international_day_of_plant_health": "Día Internacional de la Sanidad Vegetal",
+        "international_day_of_potato": "Día Internacional de la Papa",
+        "international_day_of_sign_languages": "Día Internacional de las Lenguas de Signos",
+        "international_day_of_the_african_child": "Día Internacional del Niño Africano",
+        "international_day_of_the_basque_language": "Día Internacional del Euskera",
+        "international_day_of_the_girl_child": "Día Internacional de la Niña",
+        "international_day_of_the_world_s_indigenous_peop": "Día Internacional de los Pueblos Indígenas",
+        "international_day_of_women_and_girls_in_science": "Día Internacional de la Mujer y la Niña en la Ciencia",
+        "international_day_to_end_impunity_for_crimes_aga": "Día Internacional para Poner Fin a la Impunidad de los Crímenes contra Periodistas",
+        "international_jazz_day": "Día Internacional del Jazz",
+        "international_lefthanders_day": "Día Internacional de la Zurdera",
+        "international_literacy_day": "Día Internacional de la Alfabetización",
+        "international_men_s_day": "Día Internacional del Hombre",
+        "international_midwives_day": "Día Internacional de la Partera",
+        "international_mother_earth_day": "Día Internacional de la Madre Tierra",
+        "international_mother_language_day": "Día Internacional de la Lengua Materna",
+        "international_museum_day": "Día Internacional de los Museos",
+        "international_no_diet_day": "Día Internacional Sin Dietas",
+        "international_non_binary_people_s_day": "Día Internacional de las Personas No Binarias",
+        "international_nurses_day": "Día Internacional de la Enfermeria",
+        "international_romani_day": "Día Internacional del Pueblo Gitano",
+        "international_students_day": "Día Internacional de los Estudiantes",
+        "international_talk_like_a_pirate_day": "Día Internacional de Hablar como un Pirata",
+        "international_tea_day": "Día Internacional del Té",
+        "international_transgender_day_of_visibility": "Día Internacional de la Visibilidad Trans",
+        "international_translation_day": "Día Internacional de la Traducción",
+        "international_volunteer_day": "Día Internacional de los Voluntarios",
+        "international_women_in_mathematics_day": "Día Internacional de las Mujeres Matemáticas",
+        "international_women_s_day": "Día Internacional de la Mujer",
+        "international_workers_day": "Día del Trabajador",
+        "international_yoga_day": "Día Internacional del Yoga",
+        "international_youth_day": "Día Internacional de la Juventud",
+        "mandela_day": "Día Internacional de Nelson Mandela",
+        "mediterranean_day": "Día del Mediterráneo",
+        "national_coming_out_day": "Día para salir del armario",
+        "new_year_s_day": "Día de Año Nuevo",
+        "nowruz": "Noruz",
+        "pi_approximation_day": "Día de Aproximación de Pi",
+        "pi_day": "Día de π",
+        "purple_day": "Purple Day",
+        "towel_day": "Día de los Toallas",
+        "un_arabic_language_day": "Día Mundial de la Lengua Árabe",
+        "united_nations_day": "Día de las Naciones Unidas",
+        "universal_children_s_day": "Día del Niño",
+        "world_animal_day": "Día Mundial de los Animales",
+        "world_art_nouveau_day": "Día Mundial del Modernismo",
+        "world_bee_day": "Día Mundial de las Abejas",
+        "world_bicycle_day": "Día Mundial de la Bicicleta",
+        "world_book_day_and_copyright_day": "Día Internacional del Libro",
+        "world_braille_day": "Día Mundial del Braille",
+        "world_cleanup_day": "Dia Mundial de la Limpieza",
+        "world_day_for_audiovisual_heritage": "Día Mundial del Patrimonio Audiovisual",
+        "world_day_for_cultural_diversity_for_dialogue_an": "Día Mundial de la Diversidad Cultural para el Diálogo y el Desarrollo",
+        "world_emoji_day": "Día mundial del emoji",
+        "world_environment_day": "Día Mundial del Medio Ambiente",
+        "world_food_day": "Día Mundial de la Alimentación",
+        "world_food_safety_day": "Día Mundial de la Inocuidad de los Alimentos",
+        "world_habitat_day": "Día Mundial del Hábitat",
+        "world_hand_hygiene_day": "Día Mundial de la Higiene de las Manos",
+        "world_health_day": "Día Mundial de la Salud",
+        "world_hearing_day": "Día Internacional de la Audición",
+        "world_humanitarian_day": "Día Mundial de la Asistencia Humanitaria",
+        "world_intellectual_property_day": "Día Mundial de la Propiedad Intelectual",
+        "world_logic_day": "Día Mundial de la Lógica",
+        "world_meteorological_day": "Día Meteorológico Mundial",
+        "world_metrology_day": "Día Mundial de la Metrología",
+        "world_milk_day": "Día Mundial de la Leche",
+        "world_ngo_day": "Día Mundial de las ONG",
+        "world_no_tobacco_day": "Día Mundial Sin Tabaco",
+        "world_oceans_day": "Día Mundial de los Océanos",
+        "world_poetry_day": "Día Mundial de la Poesía",
+        "world_post_day": "Día Mundial del Correo",
+        "world_pulses_day": "Día Mundial de las Legumbres",
+        "world_quantum_day": "Día Mundial de la Cuántica",
+        "world_radio_day": "Día Mundial de la Radio",
+        "world_red_cross_and_red_crescent_day": "Día Mundial de la Cruz Roja",
+        "world_seagrass_day": "Día Mundial de los Pastos Marinos",
+        "world_soil_day": "Día Mundial del Suelo",
+        "world_statistics_day": "Día Mundial de la Estadística",
+        "world_storytelling_day": "Día Internacional de la Narración Oral",
+        "world_swift_day": "Día mundial del vencejo",
+        "world_teachers_day": "Día Mundial de los Docentes",
+        "world_telecommunication_and_information_society_": "Día Mundial de las Telecomunicaciones y la Sociedad de la Información",
+        "world_television_day": "Día Mundial de la Televisión",
+        "world_theatre_day": "Día Mundial del Teatro",
+        "world_toilet_day": "Día Mundial del retrete",
+        "world_tourism_day": "Día Mundial del Turismo",
+        "world_vegan_day": "Día Mundial del Veganismo",
+        "world_vegetarian_day": "Día mundial del vegetarianismo",
+        "world_water_day": "Día Mundial del Agua",
+        "world_wetlands_day": "Día Mundial de los Humedales",
+        "world_wildlife_day": "Día Mundial de la Vida Silvestre",
+        "zamenhof_day": "Día de Zamenhof"
+      },
+      "fr": {
+        "access_to_information_day": "Journée internationale de l'accès universel à l'information",
+        "africa_day": "Journée mondiale de l'Afrique",
+        "asteroid_day": "Journée des astéroïdes",
+        "bloomsday": "Bloomsday",
+        "car_free_day": "Journée sans voiture",
+        "children_s_day": "Journée de l'enfance",
+        "cosmonautics_day": "Journée de la cosmonautique",
+        "day_of_the_holy_innocents": "Jour des Saints Innocents",
+        "day_of_the_seafarer": "Journée internationale des gens de mer",
+        "earth_day": "Jour de la Terre",
+        "european_112_day": "La Journée européenne du 112",
+        "european_day_of_languages": "Journée européenne des langues",
+        "friendship_day": "Jour de l'amitié",
+        "global_handwashing_day": "Journée mondiale du lavage des mains",
+        "international_cat_day": "Journée internationale du chat",
+        "international_children_s_book_day": "journée internationale du livre pour enfants",
+        "international_civil_aviation_day": "Journée de l'aviation civile internationale",
+        "international_dance_day": "Journée internationale de la danse",
+        "international_day_for_biological_diversity": "Journée internationale de la biodiversité",
+        "international_day_for_monuments_and_sites": "Journée internationale des monuments et des sites",
+        "international_day_of_clean_air_for_blue_skies": "Journée internationale de l’air pur pour des ciels bleus",
+        "international_day_of_epidemic_preparedness": "Journée internationale de la préparation aux épidémies",
+        "international_day_of_families": "Journée internationale de la famille",
+        "international_day_of_forests": "Journée internationale des forêts",
+        "international_day_of_happiness": "Journée mondiale du bonheur",
+        "international_day_of_human_fraternity": "Journée internationale de la fraternité humaine",
+        "international_day_of_mathematics": "Journée internationale des mathématiques",
+        "international_day_of_older_persons": "Journée internationale pour les personnes âgées",
+        "international_day_of_plant_health": "Journée internationale de la santé des végétaux",
+        "international_day_of_potato": "Journée internationale de la pomme de terre",
+        "international_day_of_sign_languages": "journée internationale des langues des signes",
+        "international_day_of_the_african_child": "Journée de l’enfant africain",
+        "international_day_of_the_basque_language": "Journée internationale de la langue basque",
+        "international_day_of_the_girl_child": "Journée internationale de la fille",
+        "international_day_of_the_world_s_indigenous_peop": "Journée internationale des peuples autochtones",
+        "international_day_of_women_and_girls_in_science": "Journée internationale des femmes et des filles en Science",
+        "international_day_to_end_impunity_for_crimes_aga": "Journée internationale de la fin de l'impunité pour les crimes commis contre des journalistes",
+        "international_firefighters_day": "Journée internationale des pompiers",
+        "international_jazz_day": "Journée internationale du jazz",
+        "international_lefthanders_day": "Journée internationale des gauchers",
+        "international_literacy_day": "Journée internationale de l'alphabétisation",
+        "international_men_s_day": "Journée internationale de l'homme",
+        "international_mother_language_day": "Journée internationale de la langue maternelle",
+        "international_museum_day": "Journée internationale des musées",
+        "international_no_diet_day": "Journée internationale sans régime",
+        "international_non_binary_people_s_day": "Journée internationale des personnes non-binaires",
+        "international_nurses_day": "Journée Internationale des Infirmières",
+        "international_romani_day": "Journée internationale des Roms",
+        "international_students_day": "Journée internationale des étudiants",
+        "international_talk_like_a_pirate_day": "International Talk Like a Pirate Day",
+        "international_tea_day": "Journée internationale du thé",
+        "international_transgender_day_of_visibility": "Journée internationale de visibilité transgenre",
+        "international_translation_day": "Journée mondiale de la traduction",
+        "international_women_s_day": "Journée internationale des femmes",
+        "international_workers_day": "journée internationale des travailleurs",
+        "international_yoga_day": "Journée internationale du yoga",
+        "international_youth_day": "Journée internationale de la jeunesse",
+        "mandela_day": "Journée internationale Nelson Mandela",
+        "mediterranean_day": "Journée de la Méditerranée",
+        "national_civil_courage_day": "journée nationale du courage civique",
+        "national_coming_out_day": "Coming out day",
+        "neighbours_day": "fête des voisins",
+        "new_year_s_day": "fête du jour de l'An",
+        "nowruz": "Norouz",
+        "pi_approximation_day": "Journée de l'approximation de π",
+        "pi_day": "journée de pi",
+        "purple_day": "Purple Day",
+        "towel_day": "Towel Day",
+        "un_arabic_language_day": "Journée mondiale de la langue arabe aux Nations Unies",
+        "united_nations_day": "Journée des Nations unies",
+        "universal_children_s_day": "Journée internationale des droits de l'enfant",
+        "world_animal_day": "Journée mondiale des animaux",
+        "world_art_nouveau_day": "Journée mondiale de l’Art nouveau",
+        "world_bee_day": "Journée mondiale des abeilles",
+        "world_bicycle_day": "Journée mondiale de la bicyclette",
+        "world_book_day_and_copyright_day": "Journée mondiale du livre et du droit d'auteur",
+        "world_braille_day": "Journée mondiale du braille",
+        "world_cleanup_day": "Journée mondiale du nettoyage de la planète",
+        "world_day_for_audiovisual_heritage": "Journée mondiale du patrimoine audiovisuel",
+        "world_day_for_cultural_diversity_for_dialogue_an": "Journée mondiale de la diversité culturelle pour le dialogue et le développement",
+        "world_environment_day": "Journée mondiale de l'environnement",
+        "world_food_day": "Journée mondiale de l'alimentation",
+        "world_food_safety_day": "Journée internationale de la sécurité sanitaire des aliments",
+        "world_habitat_day": "Journée mondiale de l'habitat",
+        "world_health_day": "Journée mondiale de la santé",
+        "world_hearing_day": "Journée mondiale de l’audition",
+        "world_humanitarian_day": "Journée mondiale de l'aide humanitaire",
+        "world_intellectual_property_day": "Journée mondiale de la propriété intellectuelle",
+        "world_logic_day": "Journée mondiale de la logique",
+        "world_meteorological_day": "Journée météorologique mondiale",
+        "world_metrology_day": "Journée internationale de la métrologie",
+        "world_ngo_day": "Journée mondiale des ONG",
+        "world_no_tobacco_day": "Journée mondiale sans tabac",
+        "world_oceans_day": "Journée mondiale de l'océan",
+        "world_poetry_day": "Journée mondiale de la poésie",
+        "world_pulses_day": "Journée internationale des légumineuses",
+        "world_quantum_day": "Journée mondiale de la quantique",
+        "world_radio_day": "Journée mondiale de la radio",
+        "world_red_cross_and_red_crescent_day": "journée de la Croix-Rouge",
+        "world_savings_day": "Journée mondiale de l'épargne",
+        "world_seagrass_day": "Journée mondiale des herbiers marins",
+        "world_statistics_day": "Journée mondiale de la statistique",
+        "world_storytelling_day": "Journée mondiale du conte",
+        "world_swift_day": "Journée mondiale des martinets",
+        "world_teachers_day": "Journée mondiale des enseignants",
+        "world_telecommunication_and_information_society_": "Journée mondiale de la société de l'information",
+        "world_television_day": "Journée mondiale de la télévision",
+        "world_theatre_day": "Journée mondiale du théâtre",
+        "world_toilet_day": "Journée mondiale des toilettes",
+        "world_tourism_day": "Journée mondiale du tourisme",
+        "world_turtle_day": "journée mondiale de la tortue",
+        "world_ufo_day": "Journée Mondiale des OVNI",
+        "world_vegan_day": "Journée internationale du végétalisme",
+        "world_vegetarian_day": "Journée mondiale végétarienne",
+        "world_water_day": "Journée mondiale de l'eau",
+        "world_wetlands_day": "Journée mondiale des zones humides",
+        "world_wildlife_day": "journée mondiale de la vie sauvage",
+        "zamenhof_day": "Jour de Zamenhof"
+      },
+      "it": {
+        "access_to_information_day": "Giornata internazionale per l'accesso universale alle informazioni",
+        "africa_day": "giornata dell'Africa",
+        "asteroid_day": "Giornata mondiale degli asterodi",
+        "bloomsday": "Bloomsday",
+        "children_s_day": "Giorno dei bambini",
+        "cosmonautics_day": "Giornata della Cosmonautica",
+        "day_of_the_seafarer": "Giornata del marittimo",
+        "earth_day": "giornata della Terra",
+        "esperanto_day": "Giornata della lingua esperanto",
+        "european_112_day": "Giornata europea del Numero di Emergenza Unico Europeo",
+        "european_day_of_languages": "giornata europea delle lingue",
+        "friendship_day": "Giornata mondiale dell'amicizia",
+        "international_cat_day": "Giorno internazionale del gatto",
+        "international_chess_day": "Giornata internazionale degli scacchi",
+        "international_children_s_book_day": "giornata internazionale del libro per bambini",
+        "international_civil_aviation_day": "Giornata internazionale dell'aviazione civile",
+        "international_dance_day": "giornata internazionale della danza",
+        "international_day_for_biological_diversity": "giornata mondiale della biodiversità",
+        "international_day_of_forests": "Giornata internazionale delle foreste",
+        "international_day_of_happiness": "giornata internazionale della felicità",
+        "international_day_of_human_fraternity": "Giornata Internazionale della Fratellanza Umana",
+        "international_day_of_sign_languages": "Giornata internazionale delle lingue dei segni",
+        "international_day_of_the_african_child": "Giornata internazionale del bambino africano",
+        "international_day_of_the_girl_child": "Giornata internazionale delle bambine",
+        "international_day_of_women_and_girls_in_science": "Giornata internazionale delle donne e delle ragazze nella scienza",
+        "international_day_to_end_impunity_for_crimes_aga": "Giornata internazionale per porre fine all'impunità per i crimini contro i giornalisti",
+        "international_firefighters_day": "Giornata internazionale dei vigili del fuoco",
+        "international_jazz_day": "Giornata internazionale del jazz",
+        "international_lefthanders_day": "giornata internazionale dei mancini",
+        "international_literacy_day": "giornata internazionale dell'alfabetizzazione",
+        "international_men_s_day": "Giornata internazionale dell'uomo",
+        "international_midwives_day": "giornata internazionale delle ostetriche",
+        "international_mother_language_day": "giornata internazionale della lingua madre",
+        "international_museum_day": "Giornata internazionale dei musei",
+        "international_nurses_day": "giornata internazionale dell'infermiere",
+        "international_romani_day": "Giornata internazionale dei rom, sinti e camminanti",
+        "international_students_day": "giornata internazionale degli studenti",
+        "international_talk_like_a_pirate_day": "Giornata internazionale del parlare come un pirata",
+        "international_transgender_day_of_visibility": "giornata internazionale della visibilità transgender",
+        "international_translation_day": "giornata mondiale della traduzione",
+        "international_volunteer_day": "giornata mondiale del volontariato",
+        "international_women_s_day": "Giornata internazionale della donna",
+        "international_workers_day": "festa del lavoro",
+        "mandela_day": "Nelson Mandela International Day",
+        "mediterranean_day": "Giornata del Mediterraneo",
+        "national_coming_out_day": "Coming Out Day",
+        "new_year_s_day": "capodanno",
+        "nowruz": "Nawruz",
+        "pi_day": "Giorno del pi greco",
+        "purple_day": "Giornata viola",
+        "towel_day": "Towel Day",
+        "un_arabic_language_day": "giornata della lingua araba nelle Nazioni Unite",
+        "united_nations_day": "giornata delle Nazioni Unite",
+        "universal_children_s_day": "giornata internazionale per i diritti dell'infanzia e dell'adolescenza",
+        "world_animal_day": "Giornata mondiale degli animali",
+        "world_bee_day": "Giornata mondiale delle api",
+        "world_bicycle_day": "Giornata mondiale della bicicletta",
+        "world_book_day_and_copyright_day": "giornata mondiale del libro e del diritto d'autore",
+        "world_cleanup_day": "World Cleanup Day",
+        "world_day_for_cultural_diversity_for_dialogue_an": "Giornata mondiale per la diversità culturale per il dialogo e lo sviluppo",
+        "world_emoji_day": "World Emoji Day",
+        "world_environment_day": "giornata mondiale dell'ambiente",
+        "world_food_day": "giornata mondiale dell'alimentazione",
+        "world_food_safety_day": "Giornata Mondiale dedicata alla Sicurezza Alimentare",
+        "world_habitat_day": "Giornata mondiale dell'habitat",
+        "world_health_day": "giornata mondiale della salute",
+        "world_hearing_day": "Giornata Mondiale dell’Udito",
+        "world_humanitarian_day": "Giornata mondiale dell'aiuto umanitario",
+        "world_intellectual_property_day": "giornata mondiale della proprietà intellettuale",
+        "world_meteorological_day": "Giornata mondiale della meteorologia",
+        "world_milk_day": "Giornata mondiale del latte",
+        "world_no_tobacco_day": "giornata mondiale senza tabacco",
+        "world_poetry_day": "giornata mondiale della poesia",
+        "world_post_day": "giornata mondiale della posta",
+        "world_quantum_day": "Giornata mondiale dei quanti",
+        "world_radio_day": "giornata della radio",
+        "world_red_cross_and_red_crescent_day": "giornata mondiale della Croce Rossa e Mezzaluna Rossa",
+        "world_savings_day": "giornata mondiale del risparmio",
+        "world_teachers_day": "giornata mondiale degli insegnanti",
+        "world_theatre_day": "giornata mondiale del teatro",
+        "world_tourism_day": "Giornata mondiale del turismo",
+        "world_turtle_day": "giornata mondiale delle tartarughe",
+        "world_ufo_day": "giornata mondiale degli UFO",
+        "world_water_day": "giornata mondiale dell'acqua",
+        "world_wetlands_day": "giornata mondiale delle zone umide",
+        "world_wildlife_day": "Giornata mondiale della fauna selvatica",
+        "zamenhof_day": "Giorno di Zamenhof"
+      },
+      "pl": {
+        "access_to_information_day": "Międzynarodowy Dzień Powszechnego Dostępu do Informacji",
+        "africa_day": "Dzień Afryki",
+        "asteroid_day": "Międzynarodowy Dzień Planetoid",
+        "bloomsday": "Bloomsday",
+        "blue_beanie_day": "Blue Beanie Day",
+        "car_free_day": "Dzień bez Samochodu",
+        "children_s_day": "Dzień Dziecka",
+        "cosmonautics_day": "Dzień Kosmonautyki",
+        "day_of_the_holy_innocents": "Świętych Młodzianków",
+        "day_of_the_seafarer": "Dzień Marynarza",
+        "earth_day": "Dzień Ziemi",
+        "european_112_day": "Europejski Dzień Numeru Alarmowego 112",
+        "european_day_of_languages": "Europejski Dzień Języków",
+        "european_day_of_parks": "Europejski Dzień Parków Narodowych",
+        "friendship_day": "Międzynarodowy Dzień Przyjaźni",
+        "global_handwashing_day": "Światowy Dzień Mycia Rąk",
+        "international_chess_day": "Międzynarodowy Dzień Szachów",
+        "international_children_s_book_day": "Międzynarodowy Dzień Książki dla Dzieci",
+        "international_civil_aviation_day": "Międzynarodowy Dzień Lotnictwa Cywilnego",
+        "international_dance_day": "Międzynarodowy Dzień Tańca",
+        "international_day_for_biological_diversity": "Międzynarodowy Dzień Różnorodności Biologicznej",
+        "international_day_for_monuments_and_sites": "Międzynarodowy Dzień Ochrony Zabytków",
+        "international_day_of_families": "Międzynarodowy Dzień Rodzin",
+        "international_day_of_forests": "Międzynarodowy Dzień Lasów",
+        "international_day_of_happiness": "Międzynarodowy Dzień Szczęścia",
+        "international_day_of_older_persons": "Międzynarodowy Dzień Osób Starszych",
+        "international_day_of_the_african_child": "Międzynarodowy Dzień Dziecka Afrykańskiego",
+        "international_day_of_the_girl_child": "Międzynarodowy Dzień Dziewczynek",
+        "international_day_of_the_world_s_indigenous_peop": "Międzynarodowy Dzień Ludności Tubylczej na Świecie",
+        "international_day_of_women_and_girls_in_science": "Międzynarodowy Dzień Kobiet i Dziewcząt w Nauce",
+        "international_day_to_end_impunity_for_crimes_aga": "Międzynarodowy Dzień Walki z Bezkarnością za Przestępstwa wobec Dziennikarzy",
+        "international_firefighters_day": "Międzynarodowy Dzień Strażaka",
+        "international_jazz_day": "Międzynarodowy Dzień Jazzu",
+        "international_lefthanders_day": "Międzynarodowy Dzień Osób Leworęcznych",
+        "international_literacy_day": "Międzynarodowy Dzień Alfabetyzacji",
+        "international_men_s_day": "Międzynarodowy Dzień Mężczyzn",
+        "international_mother_earth_day": "Międzynarodowy Dzień Matki Ziemi",
+        "international_mother_language_day": "Międzynarodowy Dzień Języka Ojczystego",
+        "international_museum_day": "Międzynarodowy Dzień Muzeów",
+        "international_non_binary_people_s_day": "Międzynarodowy dzień osób niebinarnych",
+        "international_nurses_day": "Międzynarodowy Dzień Pielęgniarek",
+        "international_romani_day": "Międzynarodowy Dzień Romów",
+        "international_talk_like_a_pirate_day": "Międzynarodowy Dzień Mówienia jak Pirat",
+        "international_translation_day": "Międzynarodowy Dzień Tłumacza",
+        "international_volunteer_day": "Międzynarodowy Dzień Wolontariusza",
+        "international_women_s_day": "Dzień Kobiet",
+        "international_workers_day": "Święto Pracy",
+        "international_yoga_day": "Międzynarodowy Dzień Jogi",
+        "international_youth_day": "Międzynarodowy Dzień Młodzieży",
+        "mandela_day": "Międzynarodowy Dzień Nelsona Mandeli",
+        "national_coming_out_day": "Coming Out Day",
+        "neighbours_day": "Europejski Dzień Sąsiada",
+        "new_year_s_day": "Nowy Rok",
+        "nowruz": "Nouruz",
+        "pi_day": "Dzień Liczby Pi",
+        "save_a_spider_day": "Dzień Pająka",
+        "towel_day": "Dzień Ręcznika",
+        "united_nations_day": "Dzień Narodów Zjednoczonych",
+        "white_cane_safety_day": "Międzynarodowy Dzień Białej Laski",
+        "world_animal_day": "Światowy Dzień Zwierząt",
+        "world_art_nouveau_day": "Światowy Dzień Secesji",
+        "world_bee_day": "Dzień pszczoły",
+        "world_bicycle_day": "Światowy Dzień Roweru",
+        "world_book_day_and_copyright_day": "Światowy Dzień Książki i Praw Autorskich",
+        "world_cleanup_day": "World Cleanup Day",
+        "world_consumer_rights_day": "Światowy Dzień Konsumenta",
+        "world_day_for_audiovisual_heritage": "Światowy Dzień Dziedzictwa Audiowizualnego",
+        "world_day_for_cultural_diversity_for_dialogue_an": "Światowy Dzień Różnorodności Kulturowej",
+        "world_environment_day": "Światowy Dzień Środowiska",
+        "world_food_day": "Światowy Dzień Żywności",
+        "world_health_day": "Światowy Dzień Zdrowia",
+        "world_humanitarian_day": "Światowy Dzień Pomocy Humanitarnej",
+        "world_intellectual_property_day": "Światowy Dzień Własności Intelektualnej",
+        "world_meteorological_day": "Światowy Dzień Meteorologii",
+        "world_milk_day": "Światowy Dzień Mleka",
+        "world_ngo_day": "Światowy Dzień NGO",
+        "world_no_tobacco_day": "Dzień bez Papierosa",
+        "world_oceans_day": "Światowy Dzień Oceanów",
+        "world_poetry_day": "Światowy Dzień Poezji",
+        "world_post_day": "Światowy Dzień Poczty",
+        "world_quantum_day": "Światowy dzień kwantów",
+        "world_radio_day": "Światowy Dzień Radia",
+        "world_red_cross_and_red_crescent_day": "Światowy Dzień Czerwonego Krzyża i Czerwonego Półksiężyca",
+        "world_savings_day": "Światowy Dzień Oszczędzania",
+        "world_soil_day": "Światowy Dzień Gleby",
+        "world_statistics_day": "Światowy Dzień Statystyki",
+        "world_swift_day": "Światowy dzień jerzyków",
+        "world_teachers_day": "Światowy Dzień Nauczyciela",
+        "world_telecommunication_and_information_society_": "Światowy Dzień Społeczeństwa Informacyjnego",
+        "world_television_day": "Światowy Dzień Telewizji",
+        "world_theatre_day": "Międzynarodowy Dzień Teatru",
+        "world_toilet_day": "Światowy Dzień Toalet",
+        "world_tourism_day": "Światowy Dzień Turystyki",
+        "world_turtle_day": "Światowy Dzień Żółwia",
+        "world_ufo_day": "Światowy Dzień UFO",
+        "world_vegan_day": "Światowy Dzień Wegan",
+        "world_vegetarian_day": "Światowy Dzień Wegetarianizmu",
+        "world_water_day": "Światowy Dzień Wody",
+        "world_wetlands_day": "Światowy Dzień Mokradeł",
+        "zamenhof_day": "Dzień Zamenhofa"
+      },
+      "pt": {
+        "access_to_information_day": "Dia Internacional do Acesso Universal à Informação",
+        "africa_day": "Dia da África",
+        "asteroid_day": "Dia Internacional do Asteroide",
+        "bloomsday": "Bloomsday",
+        "car_free_day": "Dia Mundial sem Carro",
+        "children_s_day": "Dia Mundial da Criança",
+        "cosmonautics_day": "Dia do Cosmonauta",
+        "day_of_the_holy_innocents": "Dia dos Santos Inocentes",
+        "earth_day": "Dia da Terra",
+        "esperanto_day": "Dia do Esperanto",
+        "european_112_day": "Dia do Número Único Europeu de Emergência “112”",
+        "european_day_of_languages": "Ano Europeu do Diálogo Intercultural",
+        "friendship_day": "Dia do Amigo",
+        "international_cat_day": "Dia Internacional do Gato",
+        "international_chess_day": "Dia internacional do xadrez",
+        "international_children_s_book_day": "Dia Internacional do Livro Infantil",
+        "international_civil_aviation_day": "Dia Internacional da Aviação Civil",
+        "international_dance_day": "Dia Internacional da Dança",
+        "international_day_for_biological_diversity": "Dia Internacional da Diversidade Biológica",
+        "international_day_for_monuments_and_sites": "Dia Internacional dos Monumentos e Sítios",
+        "international_day_of_clean_air_for_blue_skies": "Dia Mundial do Ar Limpo para o Céu Azul",
+        "international_day_of_conscience": "Dia Internacional da Consciência",
+        "international_day_of_epidemic_preparedness": "Dia Internacional de Preparação Epidemiológica",
+        "international_day_of_families": "Dia Internacional das Famílias",
+        "international_day_of_forests": "Dia Internacional das Florestas",
+        "international_day_of_happiness": "Dia Internacional da Felicidade",
+        "international_day_of_human_fraternity": "Dia Internacional da Fraternidade Humana",
+        "international_day_of_older_persons": "Dia Internacional do Idoso",
+        "international_day_of_plant_health": "Dia Internacional da Saúde Vegetal",
+        "international_day_of_potato": "Dia Internacional da Batata",
+        "international_day_of_sign_languages": "Dia Internacional das Línguas de Sinais",
+        "international_day_of_the_girl_child": "Dia Internacional da Menina",
+        "international_day_of_the_world_s_indigenous_peop": "Dia Internacional dos Povos Indígenas",
+        "international_day_of_women_and_girls_in_science": "Dia Internacional das Mulheres e Raparigas na Ciência",
+        "international_day_to_end_impunity_for_crimes_aga": "Dia Internacional pelo Fim da Impunidade dos Crimes contra Jornalistas",
+        "international_firefighters_day": "Dia Internacional do Bombeiro",
+        "international_jazz_day": "Dia Internacional do Jazz",
+        "international_literacy_day": "Dia Internacional da Alfabetização",
+        "international_men_s_day": "Dia Internacional do Homem",
+        "international_mother_earth_day": "Dia Internacional da Mãe Terra",
+        "international_mother_language_day": "Dia Internacional da Língua Materna",
+        "international_no_diet_day": "Dia Internacional sem Dieta",
+        "international_non_binary_people_s_day": "Dia Internacional das Pessoas Não-Binárias",
+        "international_nurses_day": "Dia internacional da enfermagem",
+        "international_students_day": "Dia Internacional dos Estudantes",
+        "international_talk_like_a_pirate_day": "Dia Internacional de Falar como Um Pirata",
+        "international_tea_day": "Dia Internacional do Chá",
+        "international_transgender_day_of_visibility": "Dia Internacional da Visibilidade Transgênero",
+        "international_translation_day": "Dia Internacional da Tradução",
+        "international_volunteer_day": "Dia Internacional do Voluntário",
+        "international_women_s_day": "Dia Internacional da Mulher",
+        "international_workers_day": "Dia do Trabalhador",
+        "international_yoga_day": "Dia Internacional do Ioga",
+        "international_youth_day": "Dia Internacional da Juventude",
+        "mandela_day": "Dia Internacional Nelson Mandela",
+        "mediterranean_day": "Dia do Mediterrâneo",
+        "national_coming_out_day": "Dia de sair do armário",
+        "new_year_s_day": "Dia de Ano Novo",
+        "nowruz": "Noruz",
+        "pi_day": "Dia do Pi",
+        "purple_day": "Dia Púrpura",
+        "towel_day": "Dia da Toalha",
+        "un_arabic_language_day": "Dia Mundial da Língua Árabe",
+        "united_nations_day": "Dia das Nações Unidas",
+        "world_animal_day": "Dia Mundial dos Animais",
+        "world_art_nouveau_day": "Dia Mundial da Arte Nova",
+        "world_bee_day": "Dia Mundial das Abelhas",
+        "world_bicycle_day": "Dia Mundial da Bicicleta",
+        "world_book_day_and_copyright_day": "Dia Internacional do Livro",
+        "world_braille_day": "Dia Mundial do Braille",
+        "world_cleanup_day": "Dia Mundial da Limpeza",
+        "world_day_for_audiovisual_heritage": "Dia Mundial do Patrimônio Audiovisual",
+        "world_emoji_day": "Dia Mundial do Emoji",
+        "world_environment_day": "Dia Mundial do Ambiente",
+        "world_food_day": "Dia Mundial da Alimentação",
+        "world_food_safety_day": "Dia Mundial da Segurança dos Alimentos",
+        "world_habitat_day": "Dia Mundial do Habitat",
+        "world_health_day": "Dia Mundial da Saúde",
+        "world_hearing_day": "Dia Mundial da Audição",
+        "world_humanist_day": "Dia Humanista Mundial",
+        "world_humanitarian_day": "Dia Mundial Humanitário",
+        "world_intellectual_property_day": "Dia Mundial da Propriedade Intelectual",
+        "world_milk_day": "Dia Internacional do Leite",
+        "world_no_tobacco_day": "Dia Mundial Sem Tabaco",
+        "world_oceans_day": "Dia Mundial dos Oceanos",
+        "world_poetry_day": "Dia Mundial da Poesia",
+        "world_post_day": "Dia Mundial dos Correios",
+        "world_pulses_day": "Dia Mundial das Leguminosas",
+        "world_quantum_day": "Dia Mundial Quântico",
+        "world_radio_day": "Dia Mundial da Rádio",
+        "world_seagrass_day": "Dia Mundial das Ervas Marinhas",
+        "world_soil_day": "Dia Mundial do Solo",
+        "world_statistics_day": "Dia Mundial da Estatística",
+        "world_teachers_day": "Dia Mundial dos Professores",
+        "world_telecommunication_and_information_society_": "Dia Mundial da Sociedade da Informação",
+        "world_television_day": "Dia Mundial da Televisão",
+        "world_theatre_day": "Dia Mundial do Teatro",
+        "world_toilet_day": "Dia Mundial da Sanita",
+        "world_tourism_day": "Dia Mundial do Turismo",
+        "world_turtle_day": "Dia Mundial da Tartaruga",
+        "world_vegan_day": "Dia Mundial do Veganismo",
+        "world_water_day": "Dia Mundial da Água",
+        "world_wetlands_day": "Dia Mundial das Zonas Húmidas",
+        "world_wildlife_day": "Dia Mundial da Vida Selvagem",
+        "zamenhof_day": "Dia de Zamenhof"
+      }
+    }
+  }
+}

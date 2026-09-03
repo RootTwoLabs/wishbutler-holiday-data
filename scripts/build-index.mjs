@@ -52,11 +52,29 @@ async function bestVersionEntry(code) {
 async function main() {
   const countries = [];
   let global = null;
+  let funOccasions = null;
 
   for (const code of await listDirs(PACKAGES)) {
     const entry = await bestVersionEntry(code);
     if (!entry) continue;
     const { best, rel, pkg, size } = entry;
+
+    if (code === 'FUN') {
+      // The FUN package (global "quirky occasions" calendar, no definitions) lives
+      // outside the country list under the top-level `funOccasions` field and is
+      // only downloaded by the app when the user opts into the feature.
+      funOccasions = {
+        code: 'FUN',
+        version: best.version,
+        package: rel,
+        sizeBytes: size,
+        locales: pkg.i18n?.funOccasions ? Object.keys(pkg.i18n.funOccasions).sort() : [],
+        hasFunOccasions: Boolean(
+          pkg.funOccasions && Object.keys(pkg.funOccasions).length > 0,
+        ),
+      };
+      continue;
+    }
 
     if (code === 'GLOBAL') {
       // The GLOBAL package lives outside the country list (it is not a country
@@ -107,11 +125,12 @@ async function main() {
     generatedAt: new Date().toISOString(),
     countries,
     ...(global ? { global } : {}),
+    ...(funOccasions ? { funOccasions } : {}),
   };
 
   await writeFile(INDEX, JSON.stringify(index, null, 2) + '\n', 'utf8');
   console.log(
-    `index.json written with ${countries.length} countries${global ? ` + GLOBAL v${global.version}` : ''}.`,
+    `index.json written with ${countries.length} countries${global ? ` + GLOBAL v${global.version}` : ''}${funOccasions ? ` + FUN v${funOccasions.version}` : ''}.`,
   );
 }
 

@@ -40,6 +40,19 @@
         "hasInfo": { "type": "boolean" },
         "hasImages": { "type": "boolean" }
       }
+    },
+    "funOccasions": {
+      "type": "object",
+      "required": ["code", "version", "package"],
+      "additionalProperties": false,
+      "properties": {
+        "code": { "const": "FUN" },
+        "version": { "type": "integer", "minimum": 1 },
+        "package": { "type": "string" },
+        "sizeBytes": { "type": "integer", "minimum": 0 },
+        "locales": { "type": "array", "items": { "type": "string" } },
+        "hasFunOccasions": { "type": "boolean" }
+      }
     }
   }
 }
