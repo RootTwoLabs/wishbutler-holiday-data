@@ -23,6 +23,7 @@ async function main() {
     'fetch-holidays.mjs',
     'fetch-namedays.mjs',
     'fetch-wikidata-occasions.mjs',
+    'translate-fun-occasions.mjs',
     'build-fun-occasions.mjs',
     'fetch-images.mjs',
     'build-articles.mjs',

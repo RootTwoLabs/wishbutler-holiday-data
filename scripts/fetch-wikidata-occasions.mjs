@@ -36,8 +36,12 @@ const OUT = join(ROOT, 'content', 'fun-occasions.json');
 const ENDPOINT = 'https://query.wikidata.org/sparql';
 const USER_AGENT =
   'WishButler-FunOccasions-Harvester/1.0 (https://wishbutler.app; contact: evgeny@nekhamkin.de)';
-const REQUIRED_LOCALES = ['de', 'en'];
-const OPTIONAL_LOCALES = ['es', 'fr', 'it', 'pl', 'pt'];
+// EN ist Pflicht (immer vorhanden, Basis für Slug + Übersetzung); alle übrigen
+// App-Sprachen werden aus Wikidata (CC0) mitgenommen, soweit vorhanden — die
+// restlichen Lücken füllt danach translate-fun-occasions.mjs (freier Google-
+// Endpoint, lizenzfrei). DE nicht mehr Pflicht → deutlich mehr Tage abgedeckt.
+const REQUIRED_LOCALES = ['en'];
+const OPTIONAL_LOCALES = ['de', 'es', 'fr', 'it', 'pl', 'pt', 'nl', 'sv', 'ja', 'ko', 'zh-Hant'];
 const MAX_PER_DAY = 3;
 /** Drop occasions spread across more than this many distinct dates (country-varying). */
 const MAX_DATES_PER_OCCASION = 2;
@@ -100,6 +104,8 @@ const QUERY = `
 SELECT ?item ?sitelinks ?dayEn
   (SAMPLE(?l_de) AS ?de) (SAMPLE(?l_en) AS ?en) (SAMPLE(?l_es) AS ?es)
   (SAMPLE(?l_fr) AS ?fr) (SAMPLE(?l_it) AS ?it) (SAMPLE(?l_pl) AS ?pl) (SAMPLE(?l_pt) AS ?pt)
+  (SAMPLE(?l_nl) AS ?nl) (SAMPLE(?l_sv) AS ?sv) (SAMPLE(?l_ja) AS ?ja) (SAMPLE(?l_ko) AS ?ko)
+  (SAMPLE(?l_zhHant) AS ?zhHant)
 WHERE {
   VALUES ?cls { wd:Q2558684 wd:Q422695 wd:Q18369361 }
   ?item wdt:P31 ?cls .
@@ -114,6 +120,11 @@ WHERE {
   OPTIONAL { ?item rdfs:label ?l_it . FILTER(LANG(?l_it) = "it") }
   OPTIONAL { ?item rdfs:label ?l_pl . FILTER(LANG(?l_pl) = "pl") }
   OPTIONAL { ?item rdfs:label ?l_pt . FILTER(LANG(?l_pt) = "pt") }
+  OPTIONAL { ?item rdfs:label ?l_nl . FILTER(LANG(?l_nl) = "nl") }
+  OPTIONAL { ?item rdfs:label ?l_sv . FILTER(LANG(?l_sv) = "sv") }
+  OPTIONAL { ?item rdfs:label ?l_ja . FILTER(LANG(?l_ja) = "ja") }
+  OPTIONAL { ?item rdfs:label ?l_ko . FILTER(LANG(?l_ko) = "ko") }
+  OPTIONAL { ?item rdfs:label ?l_zhHant . FILTER(LANG(?l_zhHant) = "zh-Hant") }
 }
 GROUP BY ?item ?sitelinks ?dayEn
 ORDER BY DESC(?sitelinks)`;
@@ -174,7 +185,8 @@ function build(rows) {
     if (!entry) {
       const labels = {};
       for (const loc of [...REQUIRED_LOCALES, ...OPTIONAL_LOCALES]) {
-        const v = r[loc]?.value?.trim();
+        // SPARQL-Variablen dürfen keinen Bindestrich haben → 'zh-Hant' kommt als ?zhHant zurück.
+        const v = r[loc.replace('-', '')]?.value?.trim();
         if (v) labels[loc] = v;
       }
       entry = { qid, sitelinks: Number(r.sitelinks?.value ?? 0), labels, dates: new Set() };
