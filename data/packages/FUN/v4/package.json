@@ -1,0 +1,1278 @@
+{
+  "countryCode": "FUN",
+  "version": 4,
+  "schemaVersion": 1,
+  "definitions": [],
+  "funOccasions": {
+    "01-19": [
+      {
+        "id": "fun_cur_popcorn_day",
+        "labelKey": "funOccasions.cur_popcorn_day"
+      }
+    ],
+    "01-21": [
+      {
+        "id": "fun_cur_hugging_day",
+        "labelKey": "funOccasions.cur_hugging_day"
+      }
+    ],
+    "01-23": [
+      {
+        "id": "fun_national_pie_day",
+        "labelKey": "funOccasions.national_pie_day"
+      }
+    ],
+    "01-29": [
+      {
+        "id": "fun_national_puzzle_day",
+        "labelKey": "funOccasions.national_puzzle_day"
+      }
+    ],
+    "01-31": [
+      {
+        "id": "fun_international_zebra_day",
+        "labelKey": "funOccasions.international_zebra_day"
+      }
+    ],
+    "02-02": [
+      {
+        "id": "fun_world_ostrich_day",
+        "labelKey": "funOccasions.world_ostrich_day"
+      }
+    ],
+    "02-09": [
+      {
+        "id": "fun_cur_pizza_day",
+        "labelKey": "funOccasions.cur_pizza_day"
+      }
+    ],
+    "02-22": [
+      {
+        "id": "fun_cat_day",
+        "labelKey": "funOccasions.cat_day"
+      }
+    ],
+    "02-27": [
+      {
+        "id": "fun_international_polar_bear_day",
+        "labelKey": "funOccasions.international_polar_bear_day"
+      }
+    ],
+    "03-01": [
+      {
+        "id": "fun_beer_day",
+        "labelKey": "funOccasions.beer_day"
+      }
+    ],
+    "03-14": [
+      {
+        "id": "fun_pi_day",
+        "labelKey": "funOccasions.pi_day"
+      },
+      {
+        "id": "fun_international_day_of_mathematics",
+        "labelKey": "funOccasions.international_day_of_mathematics"
+      }
+    ],
+    "03-20": [
+      {
+        "id": "fun_international_day_of_happiness",
+        "labelKey": "funOccasions.international_day_of_happiness"
+      },
+      {
+        "id": "fun_world_sparrow_day",
+        "labelKey": "funOccasions.world_sparrow_day"
+      },
+      {
+        "id": "fun_happiness_week",
+        "labelKey": "funOccasions.happiness_week"
+      }
+    ],
+    "03-25": [
+      {
+        "id": "fun_waffle_day",
+        "labelKey": "funOccasions.waffle_day"
+      }
+    ],
+    "03-31": [
+      {
+        "id": "fun_international_hug_a_medievalist_day",
+        "labelKey": "funOccasions.international_hug_a_medievalist_day"
+      }
+    ],
+    "04-05": [
+      {
+        "id": "fun_new_beer_s_eve",
+        "labelKey": "funOccasions.new_beer_s_eve"
+      }
+    ],
+    "04-17": [
+      {
+        "id": "fun_international_circus_day",
+        "labelKey": "funOccasions.international_circus_day"
+      }
+    ],
+    "04-19": [
+      {
+        "id": "fun_national_garlic_day",
+        "labelKey": "funOccasions.national_garlic_day"
+      }
+    ],
+    "04-21": [
+      {
+        "id": "fun_british_national_tea_day",
+        "labelKey": "funOccasions.british_national_tea_day"
+      }
+    ],
+    "04-25": [
+      {
+        "id": "fun_cur_penguin_day",
+        "labelKey": "funOccasions.cur_penguin_day"
+      }
+    ],
+    "04-29": [
+      {
+        "id": "fun_international_dance_day",
+        "labelKey": "funOccasions.international_dance_day"
+      }
+    ],
+    "04-30": [
+      {
+        "id": "fun_international_jazz_day",
+        "labelKey": "funOccasions.international_jazz_day"
+      }
+    ],
+    "05-04": [
+      {
+        "id": "fun_star_wars_day",
+        "labelKey": "funOccasions.star_wars_day"
+      }
+    ],
+    "05-12": [
+      {
+        "id": "fun_international_women_in_mathematics_day",
+        "labelKey": "funOccasions.international_women_in_mathematics_day"
+      }
+    ],
+    "05-13": [
+      {
+        "id": "fun_world_cocktail_day",
+        "labelKey": "funOccasions.world_cocktail_day"
+      }
+    ],
+    "05-20": [
+      {
+        "id": "fun_world_bee_day",
+        "labelKey": "funOccasions.world_bee_day"
+      }
+    ],
+    "05-21": [
+      {
+        "id": "fun_international_tea_day",
+        "labelKey": "funOccasions.international_tea_day"
+      }
+    ],
+    "05-23": [
+      {
+        "id": "fun_world_turtle_day",
+        "labelKey": "funOccasions.world_turtle_day"
+      },
+      {
+        "id": "fun_international_first_kiss_day",
+        "labelKey": "funOccasions.international_first_kiss_day"
+      }
+    ],
+    "05-25": [
+      {
+        "id": "fun_towel_day",
+        "labelKey": "funOccasions.towel_day"
+      }
+    ],
+    "05-26": [
+      {
+        "id": "fun_national_paper_airplane_day",
+        "labelKey": "funOccasions.national_paper_airplane_day"
+      }
+    ],
+    "05-28": [
+      {
+        "id": "fun_world_vegan_burger_day",
+        "labelKey": "funOccasions.world_vegan_burger_day"
+      }
+    ],
+    "05-29": [
+      {
+        "id": "fun_oak_apple_day",
+        "labelKey": "funOccasions.oak_apple_day"
+      }
+    ],
+    "05-30": [
+      {
+        "id": "fun_international_day_of_potato",
+        "labelKey": "funOccasions.international_day_of_potato"
+      }
+    ],
+    "05-31": [
+      {
+        "id": "fun_world_parrot_day",
+        "labelKey": "funOccasions.world_parrot_day"
+      }
+    ],
+    "06-14": [
+      {
+        "id": "fun_kiss_day",
+        "labelKey": "funOccasions.kiss_day"
+      }
+    ],
+    "06-18": [
+      {
+        "id": "fun_cur_sushi_day",
+        "labelKey": "funOccasions.cur_sushi_day"
+      }
+    ],
+    "06-21": [
+      {
+        "id": "fun_cur_music_day",
+        "labelKey": "funOccasions.cur_music_day"
+      }
+    ],
+    "07-07": [
+      {
+        "id": "fun_world_chocolate_day",
+        "labelKey": "funOccasions.world_chocolate_day"
+      }
+    ],
+    "07-17": [
+      {
+        "id": "fun_world_emoji_day",
+        "labelKey": "funOccasions.world_emoji_day"
+      }
+    ],
+    "07-20": [
+      {
+        "id": "fun_international_chess_day",
+        "labelKey": "funOccasions.international_chess_day"
+      },
+      {
+        "id": "fun_world_chess_day",
+        "labelKey": "funOccasions.world_chess_day"
+      }
+    ],
+    "07-23": [
+      {
+        "id": "fun_world_whale_and_dolphin_day",
+        "labelKey": "funOccasions.world_whale_and_dolphin_day"
+      }
+    ],
+    "07-29": [
+      {
+        "id": "fun_international_tiger_day",
+        "labelKey": "funOccasions.international_tiger_day"
+      }
+    ],
+    "07-30": [
+      {
+        "id": "fun_cur_friendship_day",
+        "labelKey": "funOccasions.cur_friendship_day"
+      }
+    ],
+    "08-08": [
+      {
+        "id": "fun_international_cat_day",
+        "labelKey": "funOccasions.international_cat_day"
+      }
+    ],
+    "08-10": [
+      {
+        "id": "fun_world_lion_day",
+        "labelKey": "funOccasions.world_lion_day"
+      }
+    ],
+    "08-13": [
+      {
+        "id": "fun_cur_lefthanders_day",
+        "labelKey": "funOccasions.cur_lefthanders_day"
+      }
+    ],
+    "08-16": [
+      {
+        "id": "fun_mushono_dainembutsu_dance",
+        "labelKey": "funOccasions.mushono_dainembutsu_dance"
+      }
+    ],
+    "08-26": [
+      {
+        "id": "fun_international_dog_day",
+        "labelKey": "funOccasions.international_dog_day"
+      }
+    ],
+    "09-02": [
+      {
+        "id": "fun_world_coconut_day",
+        "labelKey": "funOccasions.world_coconut_day"
+      }
+    ],
+    "09-12": [
+      {
+        "id": "fun_national_video_game_day",
+        "labelKey": "funOccasions.national_video_game_day"
+      }
+    ],
+    "09-13": [
+      {
+        "id": "fun_cur_roald_dahl_day",
+        "labelKey": "funOccasions.cur_roald_dahl_day"
+      }
+    ],
+    "09-19": [
+      {
+        "id": "fun_international_talk_like_a_pirate_day",
+        "labelKey": "funOccasions.international_talk_like_a_pirate_day"
+      },
+      {
+        "id": "fun_pirate_bash",
+        "labelKey": "funOccasions.pirate_bash"
+      }
+    ],
+    "10-01": [
+      {
+        "id": "fun_international_coffee_day",
+        "labelKey": "funOccasions.international_coffee_day"
+      },
+      {
+        "id": "fun_russian_jazz_day",
+        "labelKey": "funOccasions.russian_jazz_day"
+      },
+      {
+        "id": "fun_world_sake_day",
+        "labelKey": "funOccasions.world_sake_day"
+      }
+    ],
+    "10-04": [
+      {
+        "id": "fun_cinnamon_roll_day",
+        "labelKey": "funOccasions.cinnamon_roll_day"
+      },
+      {
+        "id": "fun_cur_animal_day",
+        "labelKey": "funOccasions.cur_animal_day"
+      }
+    ],
+    "10-08": [
+      {
+        "id": "fun_world_octopus_day",
+        "labelKey": "funOccasions.world_octopus_day"
+      }
+    ],
+    "10-18": [
+      {
+        "id": "fun_international_day_of_women_s_happiness",
+        "labelKey": "funOccasions.international_day_of_women_s_happiness"
+      }
+    ],
+    "10-21": [
+      {
+        "id": "fun_apple_day",
+        "labelKey": "funOccasions.apple_day"
+      }
+    ],
+    "10-25": [
+      {
+        "id": "fun_world_pasta_day",
+        "labelKey": "funOccasions.world_pasta_day"
+      }
+    ],
+    "11-03": [
+      {
+        "id": "fun_national_sandwich_day",
+        "labelKey": "funOccasions.national_sandwich_day"
+      }
+    ],
+    "11-13": [
+      {
+        "id": "fun_cur_kindness_day",
+        "labelKey": "funOccasions.cur_kindness_day"
+      }
+    ],
+    "12-05": [
+      {
+        "id": "fun_world_turkish_coffee_day",
+        "labelKey": "funOccasions.world_turkish_coffee_day"
+      }
+    ],
+    "12-31": [
+      {
+        "id": "fun_cosmic_turtle_drop",
+        "labelKey": "funOccasions.cosmic_turtle_drop"
+      }
+    ]
+  },
+  "i18n": {
+    "funOccasions": {
+      "de": {
+        "apple_day": "Apfeltag",
+        "beer_day": "Biertag",
+        "british_national_tea_day": "Britischer Nationaler Teetag",
+        "cat_day": "Nationaler Katzentag",
+        "cinnamon_roll_day": "Tag der Zimtschnecke",
+        "cosmic_turtle_drop": "Kosmischer Schildkrötentropfen",
+        "cur_animal_day": "Welttag der Tiere",
+        "cur_friendship_day": "Internationaler Tag der Freundschaft",
+        "cur_hugging_day": "Tag der Umarmung",
+        "cur_kindness_day": "Welttag der Freundlichkeit",
+        "cur_lefthanders_day": "Internationaler Tag der Linkshaender",
+        "cur_music_day": "Weltmusiktag",
+        "cur_penguin_day": "Welttag des Pinguins",
+        "cur_pizza_day": "Tag der Pizza",
+        "cur_popcorn_day": "Tag des Popcorns",
+        "cur_roald_dahl_day": "Roald-Dahl-Tag",
+        "cur_sushi_day": "Internationaler Tag des Sushi",
+        "happiness_week": "Glückswoche",
+        "international_cat_day": "Internationaler Tag der Katze",
+        "international_chess_day": "Internationaler Schachtag",
+        "international_circus_day": "Internationaler Zirkustag",
+        "international_coffee_day": "Internationaler Kaffeetag",
+        "international_dance_day": "Welttag des Tanzes",
+        "international_day_of_happiness": "Weltglückstag",
+        "international_day_of_mathematics": "Internationaler Tag der Mathematik",
+        "international_day_of_potato": "Internationaler Tag der Kartoffel",
+        "international_day_of_women_s_happiness": "Internationaler Tag des Frauenglücks",
+        "international_dog_day": "Hundetag",
+        "international_first_kiss_day": "Internationaler Tag des ersten Kusses",
+        "international_hug_a_medievalist_day": "Internationaler „Umarmung ein mittelalterlicher Tag“.",
+        "international_jazz_day": "Internationaler Tag des Jazz",
+        "international_polar_bear_day": "Internationaler Tag des Eisbären",
+        "international_talk_like_a_pirate_day": "International Talk Like a Pirate Day",
+        "international_tea_day": "Internationaler Tag des Tees",
+        "international_tiger_day": "Internationaler Tag des Tigers",
+        "international_women_in_mathematics_day": "Internationaler Tag der Frauen in der Mathematik",
+        "international_zebra_day": "Internationaler Zebratag",
+        "kiss_day": "Kusstag",
+        "mushono_dainembutsu_dance": "Mushono-Dainembutsu-Tanz",
+        "national_garlic_day": "Nationaler Knoblauchtag",
+        "national_paper_airplane_day": "Nationaler Tag des Papierfliegers",
+        "national_pie_day": "Nationaler Kuchentag",
+        "national_puzzle_day": "Nationaler Puzzle-Tag",
+        "national_sandwich_day": "Nationaler Sandwich-Tag",
+        "national_video_game_day": "Nationaler Tag des Videospiels",
+        "new_beer_s_eve": "Silvesterabend",
+        "oak_apple_day": "Tag des Eichenapfels",
+        "pi_day": "Pi-Tag",
+        "pirate_bash": "Piraten-Bash",
+        "russian_jazz_day": "Russischer Jazztag",
+        "star_wars_day": "Star Wars Day",
+        "towel_day": "Towel Day",
+        "waffle_day": "Waffeltag",
+        "world_bee_day": "Weltbienentag",
+        "world_chess_day": "Weltschachtag",
+        "world_chocolate_day": "Weltschokoladentag",
+        "world_cocktail_day": "Weltcocktailtag",
+        "world_coconut_day": "Weltkokosnusstag",
+        "world_emoji_day": "Welt-Emoji-Tag",
+        "world_lion_day": "Weltlöwentag",
+        "world_octopus_day": "Welt-Oktopus-Tag",
+        "world_ostrich_day": "Welt-Strauß-Tag",
+        "world_parrot_day": "Weltpapageientag",
+        "world_pasta_day": "Welt-Pasta-Tag",
+        "world_sake_day": "Welt-Sake-Tag",
+        "world_sparrow_day": "Welt-Spatzen-Tag",
+        "world_turkish_coffee_day": "Welttag des türkischen Kaffees",
+        "world_turtle_day": "Weltschildkrötentag",
+        "world_vegan_burger_day": "Welttag des veganen Burgers",
+        "world_whale_and_dolphin_day": "Welttag der Wale und Delfine"
+      },
+      "en": {
+        "apple_day": "Apple Day",
+        "beer_day": "Beer Day",
+        "british_national_tea_day": "British National Tea Day",
+        "cat_day": "Cat Day",
+        "cinnamon_roll_day": "Cinnamon Roll Day",
+        "cosmic_turtle_drop": "Cosmic Turtle Drop",
+        "cur_animal_day": "World Animal Day",
+        "cur_friendship_day": "International Day of Friendship",
+        "cur_hugging_day": "National Hugging Day",
+        "cur_kindness_day": "World Kindness Day",
+        "cur_lefthanders_day": "International Left-Handers Day",
+        "cur_music_day": "World Music Day",
+        "cur_penguin_day": "World Penguin Day",
+        "cur_pizza_day": "National Pizza Day",
+        "cur_popcorn_day": "National Popcorn Day",
+        "cur_roald_dahl_day": "Roald Dahl Day",
+        "cur_sushi_day": "International Sushi Day",
+        "happiness_week": "Happiness Week",
+        "international_cat_day": "International Cat Day",
+        "international_chess_day": "International chess day",
+        "international_circus_day": "international circus day",
+        "international_coffee_day": "International Coffee Day",
+        "international_dance_day": "International Dance Day",
+        "international_day_of_happiness": "International Day of Happiness",
+        "international_day_of_mathematics": "International Day of Mathematics",
+        "international_day_of_potato": "International Day of Potato",
+        "international_day_of_women_s_happiness": "International Day of Women's Happiness",
+        "international_dog_day": "International Dog Day",
+        "international_first_kiss_day": "International First Kiss Day",
+        "international_hug_a_medievalist_day": "International Hug a Medievalist Day",
+        "international_jazz_day": "International Jazz Day",
+        "international_polar_bear_day": "International Polar Bear Day",
+        "international_talk_like_a_pirate_day": "International Talk Like a Pirate Day",
+        "international_tea_day": "International Tea Day",
+        "international_tiger_day": "International Tiger Day",
+        "international_women_in_mathematics_day": "International Women in Mathematics Day",
+        "international_zebra_day": "International Zebra Day",
+        "kiss_day": "kiss day",
+        "mushono_dainembutsu_dance": "Mushono-Dainembutsu dance",
+        "national_garlic_day": "National Garlic Day",
+        "national_paper_airplane_day": "National Paper Airplane Day",
+        "national_pie_day": "National Pie Day",
+        "national_puzzle_day": "National Puzzle Day",
+        "national_sandwich_day": "National Sandwich Day",
+        "national_video_game_day": "National Video Game Day",
+        "new_beer_s_eve": "New Beer's Eve",
+        "oak_apple_day": "Oak Apple Day",
+        "pi_day": "Pi Day",
+        "pirate_bash": "Pirate Bash",
+        "russian_jazz_day": "Russian Jazz Day",
+        "star_wars_day": "Star Wars Day",
+        "towel_day": "Towel Day",
+        "waffle_day": "Waffle Day",
+        "world_bee_day": "World Bee Day",
+        "world_chess_day": "World Chess Day",
+        "world_chocolate_day": "World Chocolate Day",
+        "world_cocktail_day": "World Cocktail Day",
+        "world_coconut_day": "World Coconut day",
+        "world_emoji_day": "World Emoji Day",
+        "world_lion_day": "World Lion Day",
+        "world_octopus_day": "World Octopus Day",
+        "world_ostrich_day": "World Ostrich Day",
+        "world_parrot_day": "World Parrot Day",
+        "world_pasta_day": "World Pasta Day",
+        "world_sake_day": "World Sake Day",
+        "world_sparrow_day": "World Sparrow Day",
+        "world_turkish_coffee_day": "World Turkish Coffee Day",
+        "world_turtle_day": "World Turtle Day",
+        "world_vegan_burger_day": "World Vegan Burger Day",
+        "world_whale_and_dolphin_day": "World Whale and Dolphin Day"
+      },
+      "es": {
+        "apple_day": "dia de la manzana",
+        "beer_day": "Día de la cerveza",
+        "british_national_tea_day": "Día Nacional Británico del Té",
+        "cat_day": "dia del gato",
+        "cinnamon_roll_day": "Día del Rollo de Canela",
+        "cosmic_turtle_drop": "Caída de tortuga cósmica",
+        "cur_animal_day": "Día Mundial de los Animales",
+        "cur_friendship_day": "Día Internacional de la Amistad",
+        "cur_hugging_day": "Día Nacional del Abrazo",
+        "cur_kindness_day": "Día Mundial de la Bondad",
+        "cur_lefthanders_day": "Día Internacional de los Zurdos",
+        "cur_music_day": "Día Mundial de la Música",
+        "cur_penguin_day": "Día Mundial del Pingüino",
+        "cur_pizza_day": "Día Nacional de la Pizza",
+        "cur_popcorn_day": "Día Nacional de las Palomitas de Maíz",
+        "cur_roald_dahl_day": "Día de Roald Dahl",
+        "cur_sushi_day": "Día Internacional del Sushi",
+        "happiness_week": "Semana de la felicidad",
+        "international_cat_day": "Día Internacional del Gato",
+        "international_chess_day": "Día internacional del ajedrez",
+        "international_circus_day": "Dia Mundial del Circo",
+        "international_coffee_day": "Día internacional del café",
+        "international_dance_day": "Día Internacional de la Danza",
+        "international_day_of_happiness": "Día Internacional de la Felicidad",
+        "international_day_of_mathematics": "Día Internacional de las Matemáticas",
+        "international_day_of_potato": "Día Internacional de la Papa",
+        "international_day_of_women_s_happiness": "Día Internacional de la Felicidad de la Mujer",
+        "international_dog_day": "Día Internacional del Perro",
+        "international_first_kiss_day": "Día Internacional del Primer Beso",
+        "international_hug_a_medievalist_day": "Día Internacional del Abrazo a un Medievalista",
+        "international_jazz_day": "Día Internacional del Jazz",
+        "international_polar_bear_day": "Día Internacional del Oso Polar",
+        "international_talk_like_a_pirate_day": "Día Internacional de Hablar como un Pirata",
+        "international_tea_day": "Día Internacional del Té",
+        "international_tiger_day": "Día Internacional del Tigre",
+        "international_women_in_mathematics_day": "Día Internacional de las Mujeres Matemáticas",
+        "international_zebra_day": "Día Internacional de la Cebra",
+        "kiss_day": "dia del beso",
+        "mushono_dainembutsu_dance": "Danza Mushono-Dainembutsu",
+        "national_garlic_day": "Día Nacional del Ajo",
+        "national_paper_airplane_day": "Día Nacional del Avión de Papel",
+        "national_pie_day": "Día Nacional del Pastel",
+        "national_puzzle_day": "Día Nacional del Rompecabezas",
+        "national_sandwich_day": "Día Nacional del Sándwich",
+        "national_video_game_day": "Día Nacional del Videojuego",
+        "new_beer_s_eve": "Nueva víspera de la cerveza",
+        "oak_apple_day": "Día de la manzana del roble",
+        "pi_day": "Día de π",
+        "pirate_bash": "Fiesta pirata",
+        "russian_jazz_day": "Día del Jazz Ruso",
+        "star_wars_day": "Día de Star Wars",
+        "towel_day": "Día de los Toallas",
+        "waffle_day": "Día de los gofres",
+        "world_bee_day": "Día Mundial de las Abejas",
+        "world_chess_day": "Día Mundial del Ajedrez",
+        "world_chocolate_day": "Dia Mundial de Chocolate",
+        "world_cocktail_day": "Día Mundial del Cóctel",
+        "world_coconut_day": "Día Mundial del Coco",
+        "world_emoji_day": "Día mundial del emoji",
+        "world_lion_day": "Día Mundial del León",
+        "world_octopus_day": "Día internacional del pulpo",
+        "world_ostrich_day": "Día Mundial del Avestruz",
+        "world_parrot_day": "Día Mundial del Loro",
+        "world_pasta_day": "Día Mundial de la Pasta",
+        "world_sake_day": "Día Mundial del Sake",
+        "world_sparrow_day": "Día Mundial del Gorrión",
+        "world_turkish_coffee_day": "Día Mundial del Café Turco",
+        "world_turtle_day": "Día Mundial de la Tortuga",
+        "world_vegan_burger_day": "Día Mundial de la Hamburguesa Vegana",
+        "world_whale_and_dolphin_day": "Día Mundial de las Ballenas y los Delfines"
+      },
+      "fr": {
+        "apple_day": "Journée de la pomme",
+        "beer_day": "Journée de la bière",
+        "british_national_tea_day": "Journée nationale britannique du thé",
+        "cat_day": "Journée internationale du chat",
+        "cinnamon_roll_day": "Kanelbullens dag",
+        "cosmic_turtle_drop": "Goutte de tortue cosmique",
+        "cur_animal_day": "Journée mondiale des animaux",
+        "cur_friendship_day": "Journée internationale de l'amitié",
+        "cur_hugging_day": "Journée nationale des câlins",
+        "cur_kindness_day": "Journée mondiale de la gentillesse",
+        "cur_lefthanders_day": "Journée internationale des gauchers",
+        "cur_music_day": "Journée mondiale de la musique",
+        "cur_penguin_day": "Journée mondiale des pingouins",
+        "cur_pizza_day": "Journée nationale de la pizza",
+        "cur_popcorn_day": "Journée nationale du pop-corn",
+        "cur_roald_dahl_day": "Journée Roald Dahl",
+        "cur_sushi_day": "Journée internationale du sushi",
+        "happiness_week": "Semaine du Bonheur",
+        "international_cat_day": "Journée internationale du chat",
+        "international_chess_day": "Journée internationale des échecs",
+        "international_circus_day": "journée internationale du cirque",
+        "international_coffee_day": "Journée internationale du café",
+        "international_dance_day": "Journée internationale de la danse",
+        "international_day_of_happiness": "Journée mondiale du bonheur",
+        "international_day_of_mathematics": "Journée internationale des mathématiques",
+        "international_day_of_potato": "Journée internationale de la pomme de terre",
+        "international_day_of_women_s_happiness": "Journée internationale du bonheur des femmes",
+        "international_dog_day": "Journée internationale du chien",
+        "international_first_kiss_day": "Journée internationale du premier baiser",
+        "international_hug_a_medievalist_day": "Journée internationale du câlin médiéviste",
+        "international_jazz_day": "Journée internationale du jazz",
+        "international_polar_bear_day": "journée internationale de l'ours polaire",
+        "international_talk_like_a_pirate_day": "International Talk Like a Pirate Day",
+        "international_tea_day": "Journée internationale du thé",
+        "international_tiger_day": "Journée internationale du tigre",
+        "international_women_in_mathematics_day": "Journée internationale des femmes en mathématiques",
+        "international_zebra_day": "Journée internationale du zèbre",
+        "kiss_day": "jour de baiser",
+        "mushono_dainembutsu_dance": "Danse Mushono-Dainembutsu",
+        "national_garlic_day": "Journée nationale de l'ail",
+        "national_paper_airplane_day": "Journée nationale des avions en papier",
+        "national_pie_day": "Journée nationale de la tarte",
+        "national_puzzle_day": "Journée nationale des puzzles",
+        "national_sandwich_day": "Journée nationale du sandwich",
+        "national_video_game_day": "Journée nationale du jeu vidéo",
+        "new_beer_s_eve": "Le réveillon de la nouvelle bière",
+        "oak_apple_day": "Journée de la pomme de chêne",
+        "pi_day": "journée de pi",
+        "pirate_bash": "Coup de pirate",
+        "russian_jazz_day": "Journée du Jazz Russe",
+        "star_wars_day": "Journée Star Wars",
+        "towel_day": "Towel Day",
+        "waffle_day": "Journée de la gaufre",
+        "world_bee_day": "Journée mondiale des abeilles",
+        "world_chess_day": "Journée mondiale des échecs",
+        "world_chocolate_day": "Journée mondiale du chocolat",
+        "world_cocktail_day": "Journée mondiale du cocktail",
+        "world_coconut_day": "Journée mondiale de la noix de coco",
+        "world_emoji_day": "Journée mondiale des émojis",
+        "world_lion_day": "Journée Mondiale du Lion",
+        "world_octopus_day": "Journée mondiale du poulpe",
+        "world_ostrich_day": "Journée mondiale de l'autruche",
+        "world_parrot_day": "Journée mondiale du perroquet",
+        "world_pasta_day": "Journée Mondiale des Pâtes",
+        "world_sake_day": "Journée mondiale du saké",
+        "world_sparrow_day": "Journée mondiale du moineau",
+        "world_turkish_coffee_day": "Journée mondiale du Café turc",
+        "world_turtle_day": "journée mondiale de la tortue",
+        "world_vegan_burger_day": "Journée mondiale du burger végétalien",
+        "world_whale_and_dolphin_day": "Journée mondiale des baleines et des dauphins"
+      },
+      "it": {
+        "apple_day": "Giornata delle mele",
+        "beer_day": "Giornata della birra",
+        "british_national_tea_day": "Giornata nazionale britannica del tè",
+        "cat_day": "Festa del gatto",
+        "cinnamon_roll_day": "Giorno del rotolo alla cannella",
+        "cosmic_turtle_drop": "Goccia della Tartaruga Cosmica",
+        "cur_animal_day": "Giornata mondiale degli animali",
+        "cur_friendship_day": "Giornata internazionale dell'amicizia",
+        "cur_hugging_day": "Giornata nazionale degli abbracci",
+        "cur_kindness_day": "Giornata mondiale della gentilezza",
+        "cur_lefthanders_day": "Giornata internazionale dei mancini",
+        "cur_music_day": "Giornata mondiale della musica",
+        "cur_penguin_day": "Giornata mondiale dei pinguini",
+        "cur_pizza_day": "Giornata Nazionale della Pizza",
+        "cur_popcorn_day": "Giornata nazionale del popcorn",
+        "cur_roald_dahl_day": "Roald Dahl Giorno",
+        "cur_sushi_day": "Giornata internazionale del sushi",
+        "happiness_week": "Settimana della felicità",
+        "international_cat_day": "Giorno internazionale del gatto",
+        "international_chess_day": "Giornata internazionale degli scacchi",
+        "international_circus_day": "giornata internazionale del circo",
+        "international_coffee_day": "Giornata internazionale del caffè",
+        "international_dance_day": "giornata internazionale della danza",
+        "international_day_of_happiness": "giornata internazionale della felicità",
+        "international_day_of_mathematics": "Giornata internazionale della matematica",
+        "international_day_of_potato": "Giornata internazionale della patata",
+        "international_day_of_women_s_happiness": "Giornata internazionale della felicità delle donne",
+        "international_dog_day": "Giornata internazionale del cane",
+        "international_first_kiss_day": "Giornata internazionale del primo bacio",
+        "international_hug_a_medievalist_day": "Giornata Internazionale dell'Abbraccio Medievale",
+        "international_jazz_day": "Giornata internazionale del jazz",
+        "international_polar_bear_day": "Giornata internazionale dell'orso polare",
+        "international_talk_like_a_pirate_day": "Giornata internazionale del parlare come un pirata",
+        "international_tea_day": "Giornata internazionale del tè",
+        "international_tiger_day": "Giornata internazionale della tigre",
+        "international_women_in_mathematics_day": "Giornata internazionale delle donne in matematica",
+        "international_zebra_day": "Giornata internazionale della zebra",
+        "kiss_day": "giorno del bacio",
+        "mushono_dainembutsu_dance": "Danza Mushono-Dainembutsu",
+        "national_garlic_day": "Giornata nazionale dell'aglio",
+        "national_paper_airplane_day": "Giornata nazionale degli aeroplanini di carta",
+        "national_pie_day": "Giornata nazionale della torta",
+        "national_puzzle_day": "Giornata Nazionale dell'Enigmista",
+        "national_sandwich_day": "Giornata nazionale del panino",
+        "national_video_game_day": "Giornata nazionale dei videogiochi",
+        "new_beer_s_eve": "La vigilia della nuova birra",
+        "oak_apple_day": "Oak Apple day",
+        "pi_day": "Giorno del pi greco",
+        "pirate_bash": "Battaglia dei pirati",
+        "russian_jazz_day": "Giornata del jazz russo",
+        "star_wars_day": "Star Wars Day",
+        "towel_day": "Towel Day",
+        "waffle_day": "Giornata della cialda",
+        "world_bee_day": "Giornata mondiale delle api",
+        "world_chess_day": "Giornata mondiale degli scacchi",
+        "world_chocolate_day": "Giornata mondiale del cioccolato",
+        "world_cocktail_day": "Giornata mondiale del cocktail",
+        "world_coconut_day": "Giornata mondiale del cocco",
+        "world_emoji_day": "World Emoji Day",
+        "world_lion_day": "Giornata Mondiale del Leone",
+        "world_octopus_day": "Giornata Mondiale del Polpo",
+        "world_ostrich_day": "Giornata mondiale dello struzzo",
+        "world_parrot_day": "Giornata mondiale dei pappagalli",
+        "world_pasta_day": "Giornata mondiale della pasta",
+        "world_sake_day": "Giornata mondiale del sakè",
+        "world_sparrow_day": "Giornata mondiale del passero",
+        "world_turkish_coffee_day": "Giornata mondiale del caffè turco",
+        "world_turtle_day": "giornata mondiale delle tartarughe",
+        "world_vegan_burger_day": "Giornata mondiale dell’hamburger vegano",
+        "world_whale_and_dolphin_day": "Giornata mondiale delle balene e dei delfini"
+      },
+      "pl": {
+        "apple_day": "Dzień Jabłka",
+        "beer_day": "Dzień Piwa",
+        "british_national_tea_day": "Brytyjski Narodowy Dzień Herbaty",
+        "cat_day": "Światowy Dzień Kota",
+        "cinnamon_roll_day": "Dzień Bułeczki Cynamonowej",
+        "cosmic_turtle_drop": "Kosmiczny zrzut żółwia",
+        "cur_animal_day": "Światowy Dzień Zwierząt",
+        "cur_friendship_day": "Międzynarodowy Dzień Przyjaźni",
+        "cur_hugging_day": "Narodowy Dzień Przytulania",
+        "cur_kindness_day": "Światowy Dzień Życzliwości",
+        "cur_lefthanders_day": "Międzynarodowy Dzień Osób Leworęcznych",
+        "cur_music_day": "Światowy Dzień Muzyki",
+        "cur_penguin_day": "Światowy Dzień Pingwina",
+        "cur_pizza_day": "Narodowy Dzień Pizzy",
+        "cur_popcorn_day": "Narodowy Dzień Popcornu",
+        "cur_roald_dahl_day": "Dzień Roalda Dahla",
+        "cur_sushi_day": "Międzynarodowy Dzień Sushi",
+        "happiness_week": "Tydzień szczęścia",
+        "international_cat_day": "Międzynarodowy Dzień Kota",
+        "international_chess_day": "Międzynarodowy Dzień Szachów",
+        "international_circus_day": "międzynarodowy dzień cyrku",
+        "international_coffee_day": "Międzynarodowy Dzień Kawy",
+        "international_dance_day": "Międzynarodowy Dzień Tańca",
+        "international_day_of_happiness": "Międzynarodowy Dzień Szczęścia",
+        "international_day_of_mathematics": "Międzynarodowy Dzień Matematyki",
+        "international_day_of_potato": "Międzynarodowy Dzień Ziemniaka",
+        "international_day_of_women_s_happiness": "Międzynarodowy Dzień Szczęścia Kobiet",
+        "international_dog_day": "Międzynarodowy Dzień Psa",
+        "international_first_kiss_day": "Międzynarodowy Dzień Pierwszego Pocałunku",
+        "international_hug_a_medievalist_day": "Międzynarodowy Dzień Uściskania Mediewisty",
+        "international_jazz_day": "Międzynarodowy Dzień Jazzu",
+        "international_polar_bear_day": "Międzynarodowy Dzień Niedźwiedzia Polarnego",
+        "international_talk_like_a_pirate_day": "Międzynarodowy Dzień Mówienia jak Pirat",
+        "international_tea_day": "Międzynarodowy Dzień Herbaty",
+        "international_tiger_day": "Międzynarodowy Dzień Tygrysa",
+        "international_women_in_mathematics_day": "Międzynarodowy Dzień Kobiet w Matematyce",
+        "international_zebra_day": "Międzynarodowy Dzień Zebry",
+        "kiss_day": "dzień pocałunku",
+        "mushono_dainembutsu_dance": "Taniec Mushono-Dainembutsu",
+        "national_garlic_day": "Narodowy Dzień Czosnku",
+        "national_paper_airplane_day": "Narodowy Dzień Papierowego Samolotu",
+        "national_pie_day": "Narodowy Dzień Ciasto",
+        "national_puzzle_day": "Międzynarodowy Dzień Puzzli",
+        "national_sandwich_day": "Narodowy Dzień Kanapki",
+        "national_video_game_day": "Narodowy Dzień Gier Wideo",
+        "new_beer_s_eve": "Wigilia Nowego Piwa",
+        "oak_apple_day": "Dzień Dębowego Jabłka",
+        "pi_day": "Dzień Liczby Pi",
+        "pirate_bash": "Piracki atak",
+        "russian_jazz_day": "Rosyjski Dzień Jazzu",
+        "star_wars_day": "Dzień Gwiezdnych wojen",
+        "towel_day": "Dzień Ręcznika",
+        "waffle_day": "Dzień Wafla",
+        "world_bee_day": "Dzień pszczoły",
+        "world_chess_day": "Światowy Dzień Szachów",
+        "world_chocolate_day": "Światowy Dzień Czekolady",
+        "world_cocktail_day": "Światowy Dzień Koktajlu",
+        "world_coconut_day": "Światowy Dzień Kokosa",
+        "world_emoji_day": "Światowy Dzień Emoji",
+        "world_lion_day": "Światowy Dzień Lwa",
+        "world_octopus_day": "Światowy Dzień Ośmiornicy",
+        "world_ostrich_day": "Światowy Dzień Strusia",
+        "world_parrot_day": "Światowy Dzień Papugi",
+        "world_pasta_day": "Światowy Dzień Makaronu",
+        "world_sake_day": "Światowy Dzień Sake",
+        "world_sparrow_day": "Światowy Dzień Wróbla",
+        "world_turkish_coffee_day": "Światowy Dzień Kawy po Turecku",
+        "world_turtle_day": "Światowy Dzień Żółwia",
+        "world_vegan_burger_day": "Światowy Dzień Wegańskiego Burgera",
+        "world_whale_and_dolphin_day": "Światowy Dzień Wieloryba i Delfina"
+      },
+      "pt": {
+        "apple_day": "Dia da Maçã",
+        "beer_day": "Dia da Cerveja",
+        "british_national_tea_day": "Dia Nacional Britânico do Chá",
+        "cat_day": "Dia do Gato",
+        "cinnamon_roll_day": "Dia do Rolinho de Canela",
+        "cosmic_turtle_drop": "Queda da Tartaruga Cósmica",
+        "cur_animal_day": "Dia Mundial dos Animais",
+        "cur_friendship_day": "Dia Internacional da Amizade",
+        "cur_hugging_day": "Dia Nacional do Abraço",
+        "cur_kindness_day": "Dia Mundial da Gentileza",
+        "cur_lefthanders_day": "Dia Internacional do Canhoto",
+        "cur_music_day": "Dia Mundial da Música",
+        "cur_penguin_day": "Dia Mundial do Pinguim",
+        "cur_pizza_day": "Dia Nacional da Pizza",
+        "cur_popcorn_day": "Dia Nacional da Pipoca",
+        "cur_roald_dahl_day": "Dia de Roald Dahl",
+        "cur_sushi_day": "Dia Internacional do Sushi",
+        "happiness_week": "Semana da Felicidade",
+        "international_cat_day": "Dia Internacional do Gato",
+        "international_chess_day": "Dia internacional do xadrez",
+        "international_circus_day": "dia internacional do circo",
+        "international_coffee_day": "Dia Internacional do Café",
+        "international_dance_day": "Dia Internacional da Dança",
+        "international_day_of_happiness": "Dia Internacional da Felicidade",
+        "international_day_of_mathematics": "Dia Internacional da Matemática",
+        "international_day_of_potato": "Dia Internacional da Batata",
+        "international_day_of_women_s_happiness": "Dia Internacional da Felicidade da Mulher",
+        "international_dog_day": "Dia Internacional do Cão",
+        "international_first_kiss_day": "Dia Internacional do Primeiro Beijo",
+        "international_hug_a_medievalist_day": "Dia Internacional do Abraço Medievalista",
+        "international_jazz_day": "Dia Internacional do Jazz",
+        "international_polar_bear_day": "Dia Internacional do Urso Polar",
+        "international_talk_like_a_pirate_day": "Dia Internacional de Falar como Um Pirata",
+        "international_tea_day": "Dia Internacional do Chá",
+        "international_tiger_day": "Dia Internacional do Tigre",
+        "international_women_in_mathematics_day": "Dia Internacional da Mulher na Matemática",
+        "international_zebra_day": "Dia Internacional da Zebra",
+        "kiss_day": "dia do beijo",
+        "mushono_dainembutsu_dance": "Dança Mushono-Dainembutsu",
+        "national_garlic_day": "Dia Nacional do Alho",
+        "national_paper_airplane_day": "Dia Nacional do Avião de Papel",
+        "national_pie_day": "Dia Nacional da Torta",
+        "national_puzzle_day": "Dia Nacional do Quebra-cabeça",
+        "national_sandwich_day": "Dia Nacional do Sanduíche",
+        "national_video_game_day": "Dia Nacional do Videogame",
+        "new_beer_s_eve": "Véspera de Cerveja Nova",
+        "oak_apple_day": "Dia da Maçã Carvalho",
+        "pi_day": "Dia do Pi",
+        "pirate_bash": "Festa Pirata",
+        "russian_jazz_day": "Dia do Jazz Russo",
+        "star_wars_day": "Dia de Star Wars",
+        "towel_day": "Dia da Toalha",
+        "waffle_day": "Dia do waffle",
+        "world_bee_day": "Dia Mundial das Abelhas",
+        "world_chess_day": "Dia Mundial do Xadrez",
+        "world_chocolate_day": "Dia Mundial do Chocolate",
+        "world_cocktail_day": "Dia Mundial do Coquetel",
+        "world_coconut_day": "Dia Mundial do Coco",
+        "world_emoji_day": "Dia Mundial do Emoji",
+        "world_lion_day": "Dia Mundial do Leão",
+        "world_octopus_day": "Dia Mundial do Polvo",
+        "world_ostrich_day": "Dia Mundial da Avestruz",
+        "world_parrot_day": "Dia Mundial do Papagaio",
+        "world_pasta_day": "Dia Mundial da Massa",
+        "world_sake_day": "Dia Mundial do Saquê",
+        "world_sparrow_day": "Dia Mundial do Pardal",
+        "world_turkish_coffee_day": "Dia Mundial do Café Turco",
+        "world_turtle_day": "Dia Mundial da Tartaruga",
+        "world_vegan_burger_day": "Dia Mundial do Hambúrguer Vegano",
+        "world_whale_and_dolphin_day": "Dia Mundial da Baleia e do Golfinho"
+      },
+      "nl": {
+        "apple_day": "Appel Dag",
+        "beer_day": "Bierdag",
+        "british_national_tea_day": "Britse Nationale Theedag",
+        "cat_day": "Kattendag",
+        "cinnamon_roll_day": "Kaneelbroodjesdag",
+        "cosmic_turtle_drop": "Kosmische Schildpaddaling",
+        "cur_animal_day": "Wereld Dierendag",
+        "cur_friendship_day": "Internationale dag van de vriendschap",
+        "cur_hugging_day": "Nationale Knuffeldag",
+        "cur_kindness_day": "Wereld Vriendelijkheidsdag",
+        "cur_lefthanders_day": "Internationale Linkshandigendag",
+        "cur_music_day": "Wereld Muziekdag",
+        "cur_penguin_day": "Wereldpinguïndag",
+        "cur_pizza_day": "Nationale Pizzadag",
+        "cur_popcorn_day": "Nationale Popcorndag",
+        "cur_roald_dahl_day": "Roald Dahl-dag",
+        "cur_sushi_day": "Internationale Sushidag",
+        "happiness_week": "De geluksweek",
+        "international_cat_day": "Internationale Kattendag",
+        "international_chess_day": "Internationale schaakdag",
+        "international_circus_day": "internationale circusdag",
+        "international_coffee_day": "Internationale Koffiedag",
+        "international_dance_day": "Internationale Dans Dag",
+        "international_day_of_happiness": "International Day of Happiness",
+        "international_day_of_mathematics": "Internationale Dag van de Wiskunde",
+        "international_day_of_potato": "Internationale Dag van de Aardappel",
+        "international_day_of_women_s_happiness": "Internationale dag van het geluk van vrouwen",
+        "international_dog_day": "Hondendag",
+        "international_first_kiss_day": "Internationale eerste kusdag",
+        "international_hug_a_medievalist_day": "Internationale knuffel-een-middeleeuwse dag",
+        "international_jazz_day": "Internationale Jazzdag",
+        "international_polar_bear_day": "Internationale dag van de ijsbeer",
+        "international_talk_like_a_pirate_day": "International Talk Like a Pirate Day",
+        "international_tea_day": "Internationale Theedag",
+        "international_tiger_day": "Internationale Tijgerdag",
+        "international_women_in_mathematics_day": "Internationale Vrouwen in de Wiskundedag",
+        "international_zebra_day": "Internationale Zebradag",
+        "kiss_day": "kus dag",
+        "mushono_dainembutsu_dance": "Mushono-Dainembutsu-dans",
+        "national_garlic_day": "Nationale Knoflookdag",
+        "national_paper_airplane_day": "Nationale Papieren Vliegtuigdag",
+        "national_pie_day": "Nationale Taartdag",
+        "national_puzzle_day": "Nationale Puzzeldag",
+        "national_sandwich_day": "Nationale Sandwichdag",
+        "national_video_game_day": "Nationale Videogamedag",
+        "new_beer_s_eve": "Nieuwe bieravond",
+        "oak_apple_day": "Eiken Appel Dag",
+        "pi_day": "Pi-dag",
+        "pirate_bash": "Piraten bash",
+        "russian_jazz_day": "Russische Jazzdag",
+        "star_wars_day": "Star Wars Day",
+        "towel_day": "Towel Day",
+        "waffle_day": "Wafel dag",
+        "world_bee_day": "Wereld Bijendag",
+        "world_chess_day": "Wereld Schaakdag",
+        "world_chocolate_day": "internationale chocoladedag",
+        "world_cocktail_day": "Wereld Cocktaildag",
+        "world_coconut_day": "Wereld Kokosdag",
+        "world_emoji_day": "Wereld Emoji dag",
+        "world_lion_day": "Wereld Leeuwendag",
+        "world_octopus_day": "Wereld Octopusdag",
+        "world_ostrich_day": "Wereld Struisvogeldag",
+        "world_parrot_day": "Wereld Papegaaiendag",
+        "world_pasta_day": "Wereld Pastadag",
+        "world_sake_day": "Wereld Sakedag",
+        "world_sparrow_day": "Wereld Mussendag",
+        "world_turkish_coffee_day": "Wereld Turkse Koffiedag",
+        "world_turtle_day": "Wereldschildpaddendag",
+        "world_vegan_burger_day": "Wereld Vegan Burgerdag",
+        "world_whale_and_dolphin_day": "Wereld Walvis- en Dolfijnendag"
+      },
+      "sv": {
+        "apple_day": "Äpplets dag",
+        "beer_day": "Ölens dag",
+        "british_national_tea_day": "British National Tea Day",
+        "cat_day": "Kattens dag",
+        "cinnamon_roll_day": "Kanelbullens dag",
+        "cosmic_turtle_drop": "Kosmisk sköldpaddsdroppe",
+        "cur_animal_day": "Världsdjurens dag",
+        "cur_friendship_day": "Internationella vänskapsdagen",
+        "cur_hugging_day": "Nationella kramdagen",
+        "cur_kindness_day": "Världsvänlighetsdagen",
+        "cur_lefthanders_day": "Internationella vänsterhäntadagen",
+        "cur_music_day": "Världsmusikdagen",
+        "cur_penguin_day": "Världspingvindagen",
+        "cur_pizza_day": "National Pizza Day",
+        "cur_popcorn_day": "Nationella popcorndagen",
+        "cur_roald_dahl_day": "Roald Dahls dag",
+        "cur_sushi_day": "Internationella sushidagen",
+        "happiness_week": "Lyckoveckan",
+        "international_cat_day": "Internationella kattdagen",
+        "international_chess_day": "Internationella schackdagen",
+        "international_circus_day": "internationella cirkusdagen",
+        "international_coffee_day": "Internationella kaffedagen",
+        "international_dance_day": "Dansens dag",
+        "international_day_of_happiness": "Internationella glädjedagen",
+        "international_day_of_mathematics": "Internationella matematikdagen",
+        "international_day_of_potato": "Internationella potatisdagen",
+        "international_day_of_women_s_happiness": "Internationella dagen för kvinnors lycka",
+        "international_dog_day": "Internationella hunddagen",
+        "international_first_kiss_day": "Internationella första kyssdagen",
+        "international_hug_a_medievalist_day": "Internationella kram en medeltidsdag",
+        "international_jazz_day": "Internationella jazzdagen",
+        "international_polar_bear_day": "internationella isbjörnsdagen",
+        "international_talk_like_a_pirate_day": "Internationella Talk Like a Pirate Day",
+        "international_tea_day": "Internationella tedagen",
+        "international_tiger_day": "Internationella tigerdagen",
+        "international_women_in_mathematics_day": "Internationella kvinnodagen i matematik",
+        "international_zebra_day": "Internationella zebradagen",
+        "kiss_day": "kyss dag",
+        "mushono_dainembutsu_dance": "Mushono-Dainembutsu dans",
+        "national_garlic_day": "National Vitlöksdag",
+        "national_paper_airplane_day": "National Paper Airplane Day",
+        "national_pie_day": "Nationella pajdagen",
+        "national_puzzle_day": "Nationella pusseldagen",
+        "national_sandwich_day": "Nationella smörgåsdagen",
+        "national_video_game_day": "Nationella videospelsdagen",
+        "new_beer_s_eve": "New Beer's Eve",
+        "oak_apple_day": "Ekäpplens dag",
+        "pi_day": "Pi-dagen",
+        "pirate_bash": "Pirate Bash",
+        "russian_jazz_day": "Ryska jazzdagen",
+        "star_wars_day": "Star Wars-dagen",
+        "towel_day": "Handduksdagen",
+        "waffle_day": "Våffeldagen",
+        "world_bee_day": "Världsbidagen",
+        "world_chess_day": "Världsschackdagen",
+        "world_chocolate_day": "Världschokladdagen",
+        "world_cocktail_day": "Världscocktaildagen",
+        "world_coconut_day": "Världs kokosnötsdagen",
+        "world_emoji_day": "World Emoji Day",
+        "world_lion_day": "Världs lejondagen",
+        "world_octopus_day": "Världsbläckfiskdagen",
+        "world_ostrich_day": "Världsstrutsdagen",
+        "world_parrot_day": "Världs papegojdagen",
+        "world_pasta_day": "Världspastadagen",
+        "world_sake_day": "Världssakedagen",
+        "world_sparrow_day": "Världssparvens dag",
+        "world_turkish_coffee_day": "World Turkish Coffee Day",
+        "world_turtle_day": "Världssköldpaddsdagen",
+        "world_vegan_burger_day": "World Vegan Burger Day",
+        "world_whale_and_dolphin_day": "Världsval- och delfindagen"
+      },
+      "ja": {
+        "apple_day": "リンゴの日",
+        "beer_day": "ビールの日",
+        "british_national_tea_day": "英国ナショナル・ティー・デー",
+        "cat_day": "猫の日",
+        "cinnamon_roll_day": "シナモンロールの日",
+        "cosmic_turtle_drop": "コズミックタートルドロップ",
+        "cur_animal_day": "世界動物デー",
+        "cur_friendship_day": "国際友好デー",
+        "cur_hugging_day": "全国ハグデー",
+        "cur_kindness_day": "世界親切デー",
+        "cur_lefthanders_day": "国際左利きデー",
+        "cur_music_day": "ワールドミュージックデー",
+        "cur_penguin_day": "世界ペンギンデー",
+        "cur_pizza_day": "全国ピザデー",
+        "cur_popcorn_day": "全国ポップコーンデー",
+        "cur_roald_dahl_day": "ロアルド・ダールの日",
+        "cur_sushi_day": "国際寿司デー",
+        "happiness_week": "幸福週間",
+        "international_cat_day": "世界猫の日",
+        "international_chess_day": "世界チェス・デー",
+        "international_circus_day": "国際サーカスデー",
+        "international_coffee_day": "国際コーヒーの日",
+        "international_dance_day": "国際ダンスデー",
+        "international_day_of_happiness": "国際幸福デー",
+        "international_day_of_mathematics": "国際数学デー",
+        "international_day_of_potato": "国際ジャガイモの日",
+        "international_day_of_women_s_happiness": "国際女性の幸福の日",
+        "international_dog_day": "国際犬の日",
+        "international_first_kiss_day": "国際ファーストキスデー",
+        "international_hug_a_medievalist_day": "中世の日のインターナショナル・ハグ",
+        "international_jazz_day": "国際ジャズ・デー",
+        "international_polar_bear_day": "国際シロクマデー",
+        "international_talk_like_a_pirate_day": "世界海賊口調日",
+        "international_tea_day": "国際お茶の日",
+        "international_tiger_day": "世界トラの日",
+        "international_women_in_mathematics_day": "国際女性数学デー",
+        "international_zebra_day": "国際シマウマの日",
+        "kiss_day": "キスデー",
+        "mushono_dainembutsu_dance": "無生野の大念仏",
+        "national_garlic_day": "全国ニンニクの日",
+        "national_paper_airplane_day": "全国紙飛行機デー",
+        "national_pie_day": "ナショナルパイデー",
+        "national_puzzle_day": "全国パズルの日",
+        "national_sandwich_day": "全国サンドイッチデー",
+        "national_video_game_day": "全国ビデオゲームデー",
+        "new_beer_s_eve": "新しいビールの前夜",
+        "oak_apple_day": "オークアップルデー",
+        "pi_day": "円周率の日",
+        "pirate_bash": "パイレーツバッシュ",
+        "russian_jazz_day": "ロシアン・ジャズ・デー",
+        "star_wars_day": "スター・ウォーズの日",
+        "towel_day": "タオルの日",
+        "waffle_day": "ワッフルの日",
+        "world_bee_day": "世界ハナバチの日",
+        "world_chess_day": "世界チェス・デー",
+        "world_chocolate_day": "世界チョコレートデー",
+        "world_cocktail_day": "世界カクテルデー",
+        "world_coconut_day": "世界ココナッツデー",
+        "world_emoji_day": "世界絵文字デー",
+        "world_lion_day": "世界ライオンデー",
+        "world_octopus_day": "世界タコの日",
+        "world_ostrich_day": "世界ダチョウの日",
+        "world_parrot_day": "世界オウムの日",
+        "world_pasta_day": "世界パスタデー",
+        "world_sake_day": "世界酒の日",
+        "world_sparrow_day": "世界スズメの日",
+        "world_turkish_coffee_day": "世界トルココーヒーデー",
+        "world_turtle_day": "世界カメの日",
+        "world_vegan_burger_day": "世界ビーガンバーガーデー",
+        "world_whale_and_dolphin_day": "世界クジラとイルカの日"
+      },
+      "ko": {
+        "apple_day": "사과의 날",
+        "beer_day": "맥주의 날",
+        "british_national_tea_day": "영국 국가 차의 날",
+        "cat_day": "고양이의 날",
+        "cinnamon_roll_day": "시나몬롤 데이",
+        "cosmic_turtle_drop": "우주 거북 드롭",
+        "cur_animal_day": "세계 동물의 날",
+        "cur_friendship_day": "국제 우정의 날",
+        "cur_hugging_day": "전국 포옹의 날",
+        "cur_kindness_day": "세계 친절의 날",
+        "cur_lefthanders_day": "국제 왼손잡이의 날",
+        "cur_music_day": "세계 음악의 날",
+        "cur_penguin_day": "세계 펭귄의 날",
+        "cur_pizza_day": "전국 피자의 날",
+        "cur_popcorn_day": "국립 팝콘의 날",
+        "cur_roald_dahl_day": "로알드 달 데이",
+        "cur_sushi_day": "국제 스시의 날",
+        "happiness_week": "행복주간",
+        "international_cat_day": "세계 고양이의 날",
+        "international_chess_day": "국제 체스의 날",
+        "international_circus_day": "국제 서커스의 날",
+        "international_coffee_day": "국제 커피의 날",
+        "international_dance_day": "세계 춤의 날",
+        "international_day_of_happiness": "국제 행복의 날",
+        "international_day_of_mathematics": "국제 수학의 날",
+        "international_day_of_potato": "세계 감자의 날",
+        "international_day_of_women_s_happiness": "세계 여성 행복의 날",
+        "international_dog_day": "국제 개날",
+        "international_first_kiss_day": "국제 첫 키스의 날",
+        "international_hug_a_medievalist_day": "국제 포옹 중세주의의 날",
+        "international_jazz_day": "국제 재즈의 날",
+        "international_polar_bear_day": "국제 북극곰의 날",
+        "international_talk_like_a_pirate_day": "국제 해적처럼 말하기 날",
+        "international_tea_day": "국제 차의 날",
+        "international_tiger_day": "국제 호랑이의 날",
+        "international_women_in_mathematics_day": "수학의 날에 국제 여성",
+        "international_zebra_day": "국제 얼룩말의 날",
+        "kiss_day": "키스데이",
+        "mushono_dainembutsu_dance": "무쇼노다이넨부츠 춤",
+        "national_garlic_day": "국립 마늘의 날",
+        "national_paper_airplane_day": "전국 종이비행기의 날",
+        "national_pie_day": "내셔널 파이 데이",
+        "national_puzzle_day": "국립 퍼즐의 날",
+        "national_sandwich_day": "전국 샌드위치의 날",
+        "national_video_game_day": "전국 비디오 게임의 날",
+        "new_beer_s_eve": "뉴 비어스 이브",
+        "oak_apple_day": "오크애플 데이",
+        "pi_day": "파이의 날",
+        "pirate_bash": "해적 강타",
+        "russian_jazz_day": "러시아 재즈의 날",
+        "star_wars_day": "스타워즈의 날",
+        "towel_day": "타월 데이",
+        "waffle_day": "와플 데이",
+        "world_bee_day": "세계 꿀벌의 날",
+        "world_chess_day": "세계 체스의 날",
+        "world_chocolate_day": "세계 초콜릿의 날",
+        "world_cocktail_day": "세계 칵테일의 날",
+        "world_coconut_day": "세계 코코넛의 날",
+        "world_emoji_day": "세계 이모티콘의 날",
+        "world_lion_day": "세계 사자의 날",
+        "world_octopus_day": "세계 문어의 날",
+        "world_ostrich_day": "세계 타조의 날",
+        "world_parrot_day": "세계 앵무새의 날",
+        "world_pasta_day": "세계 파스타의 날",
+        "world_sake_day": "세계 사케의 날",
+        "world_sparrow_day": "세계 참새의 날",
+        "world_turkish_coffee_day": "세계 터키 커피의 날",
+        "world_turtle_day": "세계 거북이의 날",
+        "world_vegan_burger_day": "세계 비건 버거의 날",
+        "world_whale_and_dolphin_day": "세계 고래와 돌고래의 날"
+      },
+      "zh-Hant": {
+        "apple_day": "蘋果日",
+        "beer_day": "啤酒日",
+        "british_national_tea_day": "英國國家茶日",
+        "cat_day": "貓日",
+        "cinnamon_roll_day": "肉桂捲日",
+        "cosmic_turtle_drop": "宇宙龜滴",
+        "cur_animal_day": "世界動物日",
+        "cur_friendship_day": "國際友誼日",
+        "cur_hugging_day": "全國擁抱日",
+        "cur_kindness_day": "世界仁慈日",
+        "cur_lefthanders_day": "國際左撇子日",
+        "cur_music_day": "世界音樂日",
+        "cur_penguin_day": "世界企鵝日",
+        "cur_pizza_day": "全國披薩日",
+        "cur_popcorn_day": "全國爆米花日",
+        "cur_roald_dahl_day": "羅爾德達爾日",
+        "cur_sushi_day": "國際壽司日",
+        "happiness_week": "幸福週",
+        "international_cat_day": "國際貓日",
+        "international_chess_day": "西洋棋日",
+        "international_circus_day": "國際馬戲團日",
+        "international_coffee_day": "國際咖啡日",
+        "international_dance_day": "國際舞蹈日",
+        "international_day_of_happiness": "國際幸福日",
+        "international_day_of_mathematics": "國際數學日",
+        "international_day_of_potato": "國際馬鈴薯日",
+        "international_day_of_women_s_happiness": "國際婦女幸福日",
+        "international_dog_day": "國際狗日",
+        "international_first_kiss_day": "國際初吻日",
+        "international_hug_a_medievalist_day": "國際擁抱中世紀日",
+        "international_jazz_day": "國際爵士樂日",
+        "international_polar_bear_day": "國際北極熊日",
+        "international_talk_like_a_pirate_day": "像海盜一樣的國際對話日",
+        "international_tea_day": "國際茶日",
+        "international_tiger_day": "國際老虎日",
+        "international_women_in_mathematics_day": "國際婦女數學日",
+        "international_zebra_day": "國際斑馬日",
+        "kiss_day": "接吻日",
+        "mushono_dainembutsu_dance": "武莊大音佛舞",
+        "national_garlic_day": "全國大蒜日",
+        "national_paper_airplane_day": "全國紙飛機日",
+        "national_pie_day": "全國派日",
+        "national_puzzle_day": "全國拼圖日",
+        "national_sandwich_day": "全國三明治日",
+        "national_video_game_day": "全國電子遊戲日",
+        "new_beer_s_eve": "新啤酒節",
+        "oak_apple_day": "橡蘋果日",
+        "pi_day": "圓周率日",
+        "pirate_bash": "海盜狂歡",
+        "russian_jazz_day": "俄羅斯爵士樂日",
+        "star_wars_day": "星際大戰日",
+        "towel_day": "毛巾日",
+        "waffle_day": "華夫餅日",
+        "world_bee_day": "世界蜜蜂日",
+        "world_chess_day": "世界國際象棋日",
+        "world_chocolate_day": "世界巧克力日",
+        "world_cocktail_day": "世界雞尾酒日",
+        "world_coconut_day": "世界椰子日",
+        "world_emoji_day": "世界表情符號日",
+        "world_lion_day": "世界獅子日",
+        "world_octopus_day": "世界章魚日",
+        "world_ostrich_day": "世界鴕鳥日",
+        "world_parrot_day": "世界鸚鵡日",
+        "world_pasta_day": "世界義大利麵日",
+        "world_sake_day": "世界清酒日",
+        "world_sparrow_day": "世界麻雀日",
+        "world_turkish_coffee_day": "世界土耳其咖啡日",
+        "world_turtle_day": "世界海龜日",
+        "world_vegan_burger_day": "世界純素漢堡日",
+        "world_whale_and_dolphin_day": "世界鯨魚和海豚日"
+      }
+    }
+  }
+}

@@ -1,28 +1,29 @@
 #!/usr/bin/env node
 /**
- * Harvests "fun / quirky occasions" (e.g. "Tag des Weines", "Pi-Tag") from
- * Wikidata via the public SPARQL endpoint and writes content/fun-occasions.json.
+ * Harvests GENUINELY FUN, quirky occasions (e.g. "World Chocolate Day",
+ * "Talk Like a Pirate Day", "International Cat Day") from Wikidata via the
+ * public SPARQL endpoint and writes content/fun-occasions.json.
  *
- * LICENCE: Wikidata's structured data is released under CC0 1.0 (public domain
- * dedication) — free for commercial use, no attribution required. We record the
- * source anyway for provenance. See https://www.wikidata.org/wiki/Wikidata:Licensing
+ * LICENCE: Wikidata's structured data is CC0 1.0 (public domain) — free for
+ * commercial use, no attribution required. Multilingual labels are taken
+ * straight from Wikidata (also CC0), so no machine translation is needed for
+ * the harvested items.
  *
- * Scope decisions (kept reproducible + license-clean):
- *  - Only items that are instance of `world day` (Q2558684), `awareness day`
- *    (Q422695) or `UN observance day` (Q18369361) — the modern "World/International
- *    ... Day" awareness observances, NOT religious/public/national holidays (those
- *    are the separate holiday feature).
- *  - Only FIXED Gregorian dates (P837 -> a "Month D" day item). Movable / non-
- *    Gregorian feasts are skipped.
- *  - Occasions that vary by country across MANY dates (e.g. Teacher's/Father's Day
- *    on 20 different days) are dropped — they are not a single global "fun day".
- *  - Multilingual labels are taken straight from Wikidata (de + en required;
- *    es/fr/it/pl/pt best-effort).
- *  - Ranked by sitelink count (notability proxy), capped at 3 per calendar day.
+ * WHY the rewrite (2026-09): The old harvester queried only three
+ * "observance day" classes (world/awareness/UN day) — those are overwhelmingly
+ * SERIOUS (health, remembrance, politics, campaigns) and yielded almost no fun
+ * days. Wikidata has NO clean "fun day" class, so instead we take the FULL pool
+ * of items with a fixed periodic date (P837) and keep only those whose English
+ * name matches a positive FUN allowlist (food/drink, animals, games/hobbies,
+ * whimsy), while dropping serious topics and non-"day" entities (cities,
+ * universities, prefectures, religious feasts, regional festivals). Everything
+ * here is a REAL, verifiable observance — nothing invented.
  *
- * Resilient by design: on a network/endpoint failure or an implausibly small
- * result it KEEPS the committed JSON and exits 0, so a Wikidata hiccup never
- * breaks the monthly data build.
+ * Two-pass: (1) fetch every P837-dated item's EN label + sitelinks cheaply and
+ * filter locally; (2) fetch the 12-language labels only for the selected items.
+ *
+ * Resilient: on a network/endpoint failure or an implausibly small result it
+ * KEEPS the committed JSON and exits 0.
  */
 import { readFile, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -35,64 +36,56 @@ const OUT = join(ROOT, 'content', 'fun-occasions.json');
 
 const ENDPOINT = 'https://query.wikidata.org/sparql';
 const USER_AGENT =
-  'WishButler-FunOccasions-Harvester/1.0 (https://wishbutler.app; contact: evgeny@nekhamkin.de)';
-// EN ist Pflicht (immer vorhanden, Basis für Slug + Übersetzung); alle übrigen
-// App-Sprachen werden aus Wikidata (CC0) mitgenommen, soweit vorhanden — die
-// restlichen Lücken füllt danach translate-fun-occasions.mjs (freier Google-
-// Endpoint, lizenzfrei). DE nicht mehr Pflicht → deutlich mehr Tage abgedeckt.
-const REQUIRED_LOCALES = ['en'];
-const OPTIONAL_LOCALES = ['de', 'es', 'fr', 'it', 'pl', 'pt', 'nl', 'sv', 'ja', 'ko', 'zh-Hant'];
+  'WishButler-FunOccasions-Harvester/2.0 (https://wishbutler.app; contact: evgeny@nekhamkin.de)';
+const ALL_LOCALES = ['de', 'en', 'es', 'fr', 'it', 'pl', 'pt', 'nl', 'sv', 'ja', 'ko', 'zh-Hant'];
 const MAX_PER_DAY = 3;
-/** Drop occasions spread across more than this many distinct dates (country-varying). */
 const MAX_DATES_PER_OCCASION = 2;
-/** Below this many results we assume a broken fetch and keep the existing file. */
-const SANITY_MIN = 40;
+const SANITY_MIN = 30;
 
 /**
- * Sensitivity denylist. The "awareness/world day" classes contain many SOLEMN
- * observances (genocide remembrance, disease, violence, war, poverty…). This is
- * a light-hearted "fun occasion → create a greeting" feature, so surfacing those
- * would be tasteless. Any occasion whose de/en label contains one of these
- * substrings is dropped. Deliberately broad — false negatives (a serious day
- * slipping through) are worse than false positives here.
+ * Positive FUN signal — an occasion is kept only if its English name matches one
+ * of these. Deliberately generous within clearly light-hearted themes.
  */
-const SENSITIVE_TERMS = [
-  // death / remembrance
-  'holocaust', 'genocide', 'genozid', 'völkermord', 'victim', 'opfer', 'remembrance', 'gedenk',
-  'memorial', 'mourning', 'trauer', 'death', 'deceased', 'verstorben', 'todes', 'martyr', 'märtyrer',
-  'bereave', 'missing', 'vermisst', 'disappear', 'verschwund', 'fallen',
-  // disease / health-tragedy
-  'cancer', 'krebs', 'disease', 'krankheit', 'aids', 'hiv', 'malaria', 'tuberculos', 'tuberkulose',
-  'hepatitis', 'diabetes', 'alzheimer', 'epilep', 'autism', 'autismus', 'sepsis', 'stroke',
-  'schlaganfall', 'obesity', 'adipositas', 'mental health', 'psychische', 'suicide', 'suizid',
-  'selbstmord', 'cardiac', 'palliative', 'palliativ', 'blood donor', 'blutspend', 'immunization',
-  'impf', 'polio', 'leprosy', 'lepra', 'pneumon', 'sepsis', 'organ donation', 'organspend',
-  'hospice', 'hospiz', 'palliativ', 'patient', 'disabilit', 'behinder', 'deaf', 'gehörlos',
-  'blindness', 'erblind', 'illness', 'autistic', 'down syndrome', 'down-syndrom', 'thalassaem',
-  'sorry', 'apolog', 'kranken', 'of the sick', 'kinderarbeit', 'child labour', 'child labor',
-  // causes / "against …" / "abolition of …" awareness days (not celebrations)
-  'tag gegen', 'day against', 'abschaffung', 'abolition', 'soldier', 'soldat', 'homophob',
-  'transphob', 'exploitation', 'ausbeutung', 'victory over', 'v-j day', 'v-e day', 'liberation',
-  'befreiung', 'whore', 'huren', 'prostitut', 'sex work', 'outcast', 'ausgestoßen', 'menstru',
-  // violence / abuse
-  'violence', 'gewalt', 'abuse', 'missbrauch', 'mutilation', 'verstümmel', 'genital', 'trafficking',
-  'menschenhandel', 'slavery', 'sklaverei', 'rape', 'vergewaltig', 'femicide', 'femizid', 'torture',
-  'folter', 'bullying', 'mobbing',
-  // war / conflict
-  'war', 'krieg', 'terror', 'landmine', 'landmine', 'nuclear', 'nuklear', 'atomwaffe', 'weapon',
-  'waffe', 'conflict', 'konflikt', 'peace', 'frieden', 'disarmament', 'abrüstung',
-  // poverty / disaster / displacement
-  'poverty', 'armut', 'hunger', 'famine', 'hungersnot', 'disaster', 'katastrophe', 'refugee',
-  'flüchtling', 'flucht', 'migrant', 'stateless', 'staatenlos', 'homeless', 'obdachlos',
-  // rights / politics / discrimination
-  'discrimination', 'diskriminierung', 'racism', 'rassismus', 'apartheid', 'tolerance', 'toleranz',
-  'human rights', 'menschenrecht', 'corruption', 'korruption', 'press freedom', 'pressefreiheit',
-  'hijab', 'circumcision', 'beschneidung', 'justice', 'gerechtigkeit',
+const FUN_ALLOWLIST = [
+  // food & drink
+  /\b(pizza|chocolate|nutella|pasta|spaghetti|lasagne|burger|hamburger|cheese|coffee|tea|beer|wine|whisky|whiskey|cocktail|rum|vodka|gin|tequila|sake|cider|pancake|waffle|donut|doughnut|cookie|biscuit|cake|dessert|ice.?cream|gelato|sorbet|candy|caramel|toffee|fudge|honey|popcorn|pretzel|bagel|sushi|taco|nacho|guacamole|avocado|banana|apple|strawberry|blueberry|lemon|mango|peach|cherry|pineapple|potato|fries|\bpie\b|croissant|sandwich|hummus|falafel|bacon|\begg\b|noodle|ramen|curry|dumpling|pierogi|paella|risotto|marshmallow|licorice|liquorice|gingerbread|scone|brownie|cupcake|muffin|kebab|pancakes|maple syrup|vanilla|cinnamon|nutmeg|almond|peanut|walnut|pistachio|coconut|pumpkin|mushroom|garlic|pickle|tofu|oyster|lobster|shrimp|prosecco|champagne|espresso|cappuccino|latte|milkshake|smoothie|bubble tea)\b/i,
+  // animals (appreciation)
+  /\b(cat|dog|puppy|kitten|penguin|panda|zebra|ostrich|sparrow|hedgehog|otter|sloth|capybara|quokka|hippo|dolphin|whale|shark|tiger|lion|koala|kangaroo|turtle|tortoise|frog|\bbee\b|butterfly|ladybug|owl|\bfox\b|polar bear|rabbit|hamster|parrot|flamingo|peacock|hummingbird|seahorse|octopus|squirrel|meerkat|llama|alpaca|axolotl|narwhal|manatee|platypus|pangolin|puffin)\b/i,
+  // games, hobbies, culture-fun
+  /\b(chess|puzzle|jigsaw|lego|video ?game|board ?game|\bdance\b|dancing|jazz|karaoke|comic|superhero|pirate|ninja|dragon|unicorn|magic|origami|kite|yo.?yo|skateboard|juggl|balloon|bubble|puppet|circus|fireworks night|guitar|piano|ukulele|saxophone|record player|vinyl)\b/i,
+  // whimsy & feel-good
+  /\b(emoji|\bpi day\b|mathematics|happiness|joke|laughter|compliment|\bhug\b|\bkiss\b|smile|wink|high.?five|left.?hand|selfie|umbrella|\bsock\b|moustache|mustache|freckle|\bpun\b|trivia|\bnap\b|pajama|pyjama|talk like|towel|star wars|opposite day|picnic|paper airplane|handwriting|penmanship|tongue twister|dad joke|sundae|bubble wrap)\b/i,
 ];
 
-function isSensitive(labels) {
-  const hay = `${labels.en ?? ''} ${labels.de ?? ''}`.toLowerCase();
-  return SENSITIVE_TERMS.some((t) => hay.includes(t));
+/**
+ * Hard drop — serious topics AND non-"fun-day" entities that slip through the
+ * allowlist (regional festivals, religious feasts, places, orgs).
+ */
+const REJECT_LIST = [
+  /\b(cancer|disease|health|awareness|memorial|victim|violence|\bwar\b|genocide|suicide|abuse|slavery|trafficking|refugee|poverty|hunger|disaster|prevention|remembrance|martyr|mourning|funeral|cunnilingus|sex|porn)\b/i,
+  /\b(prefecture|university|college|institute|city|town|province|county|kingdom|republic|festival|carnival|matsuri|parade|feast|saint|st\.|nativity|assumption|immaculate|transfiguration|annunciation|candlemas|epiphany|souls|cross|church|cathedral|prix|regatta|marathon|grand prix|anniversary of|founding|foundation day)\b/i,
+];
+
+/**
+ * Einzelne Treffer, die durch Allow/Reject rutschen, aber keine universellen
+ * Fun-Tage sind (regionale Events, Nicht-Tage, cause-y). Per slug ausgeschlossen.
+ */
+const EXCLUDE_SLUGS = new Set([
+  'happiness_week',
+  'international_women_in_mathematics_day',
+  'international_day_of_women_s_happiness',
+  'oak_apple_day',
+  'mushono_dainembutsu_dance',
+  'cosmic_turtle_drop',
+  'pirate_bash',
+  'russian_jazz_day',
+  'kiss_day',
+]);
+
+function isFun(en) {
+  if (!en) return false;
+  if (REJECT_LIST.some((re) => re.test(en))) return false;
+  return FUN_ALLOWLIST.some((re) => re.test(en));
 }
 
 const MONTHS = {
@@ -100,40 +93,10 @@ const MONTHS = {
   July: 7, August: 8, September: 9, October: 10, November: 11, December: 12,
 };
 
-const QUERY = `
-SELECT ?item ?sitelinks ?dayEn
-  (SAMPLE(?l_de) AS ?de) (SAMPLE(?l_en) AS ?en) (SAMPLE(?l_es) AS ?es)
-  (SAMPLE(?l_fr) AS ?fr) (SAMPLE(?l_it) AS ?it) (SAMPLE(?l_pl) AS ?pl) (SAMPLE(?l_pt) AS ?pt)
-  (SAMPLE(?l_nl) AS ?nl) (SAMPLE(?l_sv) AS ?sv) (SAMPLE(?l_ja) AS ?ja) (SAMPLE(?l_ko) AS ?ko)
-  (SAMPLE(?l_zhHant) AS ?zhHant)
-WHERE {
-  VALUES ?cls { wd:Q2558684 wd:Q422695 wd:Q18369361 }
-  ?item wdt:P31 ?cls .
-  ?item wdt:P837 ?day .
-  ?item wikibase:sitelinks ?sitelinks .
-  ?day rdfs:label ?dayEn . FILTER(LANG(?dayEn) = "en")
-  FILTER(REGEX(?dayEn, "^(January|February|March|April|May|June|July|August|September|October|November|December) [0-9]{1,2}$"))
-  OPTIONAL { ?item rdfs:label ?l_de . FILTER(LANG(?l_de) = "de") }
-  OPTIONAL { ?item rdfs:label ?l_en . FILTER(LANG(?l_en) = "en") }
-  OPTIONAL { ?item rdfs:label ?l_es . FILTER(LANG(?l_es) = "es") }
-  OPTIONAL { ?item rdfs:label ?l_fr . FILTER(LANG(?l_fr) = "fr") }
-  OPTIONAL { ?item rdfs:label ?l_it . FILTER(LANG(?l_it) = "it") }
-  OPTIONAL { ?item rdfs:label ?l_pl . FILTER(LANG(?l_pl) = "pl") }
-  OPTIONAL { ?item rdfs:label ?l_pt . FILTER(LANG(?l_pt) = "pt") }
-  OPTIONAL { ?item rdfs:label ?l_nl . FILTER(LANG(?l_nl) = "nl") }
-  OPTIONAL { ?item rdfs:label ?l_sv . FILTER(LANG(?l_sv) = "sv") }
-  OPTIONAL { ?item rdfs:label ?l_ja . FILTER(LANG(?l_ja) = "ja") }
-  OPTIONAL { ?item rdfs:label ?l_ko . FILTER(LANG(?l_ko) = "ko") }
-  OPTIONAL { ?item rdfs:label ?l_zhHant . FILTER(LANG(?l_zhHant) = "zh-Hant") }
-}
-GROUP BY ?item ?sitelinks ?dayEn
-ORDER BY DESC(?sitelinks)`;
-
 function pad2(n) {
   return String(n).padStart(2, '0');
 }
 
-/** "Month D" (Wikidata day-item en label) -> "MM-DD", or null. */
 function toMonthDay(dayEn) {
   const m = /^([A-Za-z]+) ([0-9]{1,2})$/.exec(dayEn ?? '');
   if (!m) return null;
@@ -147,15 +110,15 @@ function slugify(label) {
   return label
     .toLowerCase()
     .normalize('NFKD')
-    .replace(/[̀-ͯ]/g, '') // strip diacritics
+    .replace(/[̀-ͯ]/g, '')
     .replace(/&/g, ' and ')
     .replace(/[^a-z0-9]+/g, '_')
     .replace(/^_+|_+$/g, '')
     .slice(0, 48);
 }
 
-async function fetchRows() {
-  const url = `${ENDPOINT}?query=${encodeURIComponent(QUERY)}`;
+async function sparql(query) {
+  const url = `${ENDPOINT}?query=${encodeURIComponent(query)}`;
   let lastErr;
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
@@ -163,8 +126,7 @@ async function fetchRows() {
         headers: { Accept: 'application/sparql-results+json', 'User-Agent': USER_AGENT },
       });
       if (!res.ok) throw new Error(`SPARQL HTTP ${res.status}`);
-      const json = await res.json();
-      return json.results.bindings;
+      return (await res.json()).results.bindings;
     } catch (err) {
       lastErr = err;
       console.warn(`fetch-wikidata-occasions: attempt ${attempt} failed (${err.message})`);
@@ -174,103 +136,128 @@ async function fetchRows() {
   throw lastErr;
 }
 
-function build(rows) {
-  // Group rows by Wikidata item: collect its distinct dates, labels, sitelinks.
+const PASS1 = `
+SELECT ?item ?en ?dayEn ?sitelinks WHERE {
+  ?item wdt:P837 ?day .
+  ?item wikibase:sitelinks ?sitelinks .
+  ?day rdfs:label ?dayEn . FILTER(LANG(?dayEn) = "en")
+  FILTER(REGEX(?dayEn, "^(January|February|March|April|May|June|July|August|September|October|November|December) [0-9]{1,2}$"))
+  ?item rdfs:label ?en . FILTER(LANG(?en) = "en")
+}`;
+
+/** Batch-fetch multilingual labels for a set of QIDs. */
+function labelsQuery(qids) {
+  const values = qids.map((q) => `wd:${q}`).join(' ');
+  const optionals = ALL_LOCALES.map(
+    (loc) =>
+      `  OPTIONAL { ?item rdfs:label ?l_${loc.replace('-', '')} . FILTER(LANG(?l_${loc.replace('-', '')}) = "${loc}") }`,
+  ).join('\n');
+  const selects = ALL_LOCALES.map((loc) => `(SAMPLE(?l_${loc.replace('-', '')}) AS ?${loc.replace('-', '')})`).join(' ');
+  return `
+SELECT ?item ${selects} WHERE {
+  VALUES ?item { ${values} }
+${optionals}
+}
+GROUP BY ?item`;
+}
+
+function build(pass1Rows) {
+  // Group by item: earliest date, EN label, sitelinks, distinct dates.
   const byItem = new Map();
-  for (const r of rows) {
+  for (const r of pass1Rows) {
     const qid = r.item.value.split('/').pop();
-    const monthDay = toMonthDay(r.dayEn?.value);
-    if (!monthDay) continue;
-    let entry = byItem.get(qid);
-    if (!entry) {
-      const labels = {};
-      for (const loc of [...REQUIRED_LOCALES, ...OPTIONAL_LOCALES]) {
-        // SPARQL-Variablen dürfen keinen Bindestrich haben → 'zh-Hant' kommt als ?zhHant zurück.
-        const v = r[loc.replace('-', '')]?.value?.trim();
-        if (v) labels[loc] = v;
-      }
-      entry = { qid, sitelinks: Number(r.sitelinks?.value ?? 0), labels, dates: new Set() };
-      byItem.set(qid, entry);
+    const md = toMonthDay(r.dayEn?.value);
+    if (!md) continue;
+    const en = r.en?.value?.trim();
+    if (!isFun(en)) continue;
+    let e = byItem.get(qid);
+    if (!e) {
+      e = { qid, en, sitelinks: Number(r.sitelinks?.value ?? 0), dates: new Set() };
+      byItem.set(qid, e);
     }
-    entry.dates.add(monthDay);
+    e.dates.add(md);
   }
-
-  // Keep only globally-datable, bilingual occasions. Emit exactly ONE date per
-  // occasion (the earliest), so each slug/id is unique — the package validator
-  // rejects a repeated id across days, and an occasion is one thing, not many.
-  const flat = [];
+  const selected = [];
   const usedSlugs = new Set();
-  for (const entry of byItem.values()) {
-    if (entry.dates.size === 0 || entry.dates.size > MAX_DATES_PER_OCCASION) continue;
-    if (!REQUIRED_LOCALES.every((loc) => entry.labels[loc])) continue;
-    if (isSensitive(entry.labels)) continue;
-
-    let slug = slugify(entry.labels.en);
+  for (const e of byItem.values()) {
+    if (e.dates.size === 0 || e.dates.size > MAX_DATES_PER_OCCASION) continue;
+    let slug = slugify(e.en);
     if (!slug) continue;
-    if (usedSlugs.has(slug)) slug = `${slug}_${entry.qid.toLowerCase()}`;
+    if (EXCLUDE_SLUGS.has(slug)) continue;
+    if (usedSlugs.has(slug)) slug = `${slug}_${e.qid.toLowerCase()}`;
     usedSlugs.add(slug);
-
-    const date = [...entry.dates].sort()[0];
-    flat.push({ slug, date, sitelinks: entry.sitelinks, wikidata: entry.qid, labels: entry.labels });
+    selected.push({ slug, qid: e.qid, en: e.en, sitelinks: e.sitelinks, date: [...e.dates].sort()[0] });
   }
-
-  // Cap 3 per calendar day, keeping the most notable (sitelinks desc, stable by slug).
-  const byDate = new Map();
-  for (const occ of flat) {
-    if (!byDate.has(occ.date)) byDate.set(occ.date, []);
-    byDate.get(occ.date).push(occ);
-  }
-  const occasions = [];
-  for (const date of [...byDate.keys()].sort()) {
-    const list = byDate
-      .get(date)
-      .sort((a, b) => b.sitelinks - a.sitelinks || a.slug.localeCompare(b.slug))
-      .slice(0, MAX_PER_DAY);
-    for (const o of list) {
-      occasions.push({ slug: o.slug, date: o.date, wikidata: o.wikidata, labels: o.labels });
-    }
-  }
-  return occasions;
+  return selected;
 }
 
 async function main() {
-  let rows;
+  let pass1;
   try {
-    rows = await fetchRows();
+    pass1 = await sparql(PASS1);
   } catch (err) {
-    console.warn(`fetch-wikidata-occasions: giving up (${err.message}).`);
-    if (existsSync(OUT)) {
-      console.warn('Keeping existing content/fun-occasions.json.');
-      process.exit(0);
-    }
-    console.error('No existing data to fall back to.');
+    console.warn(`fetch-wikidata-occasions: pass1 failed (${err.message}).`);
+    if (existsSync(OUT)) { console.warn('Keeping existing content/fun-occasions.json.'); process.exit(0); }
     process.exit(1);
   }
 
-  const occasions = build(rows);
-  if (occasions.length < SANITY_MIN) {
-    console.warn(
-      `fetch-wikidata-occasions: only ${occasions.length} occasions (< ${SANITY_MIN}) — treating as a bad fetch.`,
-    );
-    if (existsSync(OUT)) {
-      console.warn('Keeping existing content/fun-occasions.json.');
-      process.exit(0);
-    }
+  const selected = build(pass1);
+  console.log(`fetch-wikidata-occasions: ${selected.length} fun items selected from ${pass1.length} dated rows.`);
+  if (selected.length < SANITY_MIN) {
+    console.warn(`Only ${selected.length} (< ${SANITY_MIN}) — treating as a bad fetch.`);
+    if (existsSync(OUT)) { console.warn('Keeping existing content/fun-occasions.json.'); process.exit(0); }
     process.exit(1);
+  }
+
+  // Pass 2: multilingual labels for the selected QIDs (batched by 120).
+  const labelsByQid = new Map();
+  const qids = selected.map((s) => s.qid);
+  for (let i = 0; i < qids.length; i += 120) {
+    const batch = qids.slice(i, i + 120);
+    let rows;
+    try {
+      rows = await sparql(labelsQuery(batch));
+    } catch (err) {
+      console.warn(`labels batch ${i} failed (${err.message}) — EN-only for these.`);
+      continue;
+    }
+    for (const r of rows) {
+      const qid = r.item.value.split('/').pop();
+      const labels = {};
+      for (const loc of ALL_LOCALES) {
+        const v = r[loc.replace('-', '')]?.value?.trim();
+        if (v) labels[loc] = v;
+      }
+      labelsByQid.set(qid, labels);
+    }
+  }
+
+  // Cap 3/day by sitelinks; attach labels (EN always present as fallback).
+  const byDate = new Map();
+  for (const s of selected) {
+    (byDate.get(s.date) ?? byDate.set(s.date, []).get(s.date)).push(s);
+  }
+  const occasions = [];
+  for (const date of [...byDate.keys()].sort()) {
+    const list = byDate.get(date).sort((a, b) => b.sitelinks - a.sitelinks || a.slug.localeCompare(b.slug)).slice(0, MAX_PER_DAY);
+    for (const s of list) {
+      const labels = labelsByQid.get(s.qid) ?? {};
+      if (!labels.en) labels.en = s.en;
+      occasions.push({ slug: s.slug, date: s.date, wikidata: s.qid, labels });
+    }
   }
 
   const out = {
     source: 'Wikidata (SPARQL query.wikidata.org)',
     license: 'CC0-1.0',
-    note: 'Structured data from Wikidata, released under CC0. Fixed Gregorian dates only; instance of world day / awareness day / UN observance day; capped 3/day by sitelink notability.',
+    note: 'CC0 structured data. Full P837-dated pool filtered to a genuinely-fun allowlist (food/drink, animals, games, whimsy); serious topics and non-day entities dropped. Real observances only. Cap 3/day by sitelink notability.',
     generatedAt: new Date().toISOString(),
     count: occasions.length,
     occasions,
   };
   await writeFile(OUT, JSON.stringify(out, null, 2) + '\n', 'utf8');
-
   const days = new Set(occasions.map((o) => o.date)).size;
-  console.log(`fetch-wikidata-occasions: ${occasions.length} occasions on ${days} days -> content/fun-occasions.json`);
+  console.log(`fetch-wikidata-occasions: ${occasions.length} fun occasions on ${days} days -> content/fun-occasions.json`);
 }
 
 main().catch((err) => {

@@ -1,16 +1,18 @@
 #!/usr/bin/env node
 /**
  * Baut das FUN-Paket ("Kurioser Tag") aus:
- *   1. content/fun-occasions.json          — Wikidata-Harvest (CC0), nach Bekanntheit
- *   2. content/fun-occasions-curated.json   — kuratiert (eigene Formulierung):
- *        .dated      -> echte Fun-Tage auf konkreten Kalendertagen
- *        .evergreen  -> leichte Anlaesse als Backstop
+ *   1. content/fun-occasions.json          — Wikidata-Harvest (CC0), bereits auf
+ *                                            wirklich lustige Anlaesse gefiltert.
+ *   2. content/fun-occasions-curated.json   — kuratiert (eigene Formulierung),
+ *        .dated -> echte, bekannte Fun-Tage als Ergaenzung.
  *
- * Beide sind zuvor durch translate-fun-occasions.mjs auf alle 12 App-Sprachen
- * ergaenzt worden. Regeln: max 3/Tag (Harvest nach Bekanntheit zuerst, dann
- * kuratiert), und GARANTIERT >=1 Anlass pro Kalendertag — leere Tage werden
- * deterministisch aus dem Evergreen-Pool gefuellt. So zeigt die Heute-Karte bei
- * aktiviertem Feature an jedem Tag etwas.
+ * NUR ECHTE Anlaesse: kein Evergreen-Backstop, keine Erfindungen, keine
+ * Wiederholungen. Tage OHNE echten Anlass bleiben bewusst leer — die Heute-
+ * Karte erscheint an solchen Tagen dann gar nicht (bewusste Entscheidung, weil
+ * es keine lizenzfreie Quelle mit 365 echten Fun-Tagen gibt). Cap 3/Tag.
+ *
+ * Beide Quellen sind zuvor durch translate-fun-occasions.mjs auf alle 12
+ * App-Sprachen ergaenzt worden.
  */
 import { mkdir, writeFile, readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -26,27 +28,7 @@ const CURATED = join(ROOT, 'content', 'fun-occasions-curated.json');
 const REQUIRED_LOCALES = ['de', 'en'];
 const ALL_LOCALES = ['de', 'en', 'es', 'fr', 'it', 'pl', 'pt', 'nl', 'sv', 'ja', 'ko', 'zh-Hant'];
 const MAX_PER_DAY = 3;
-const DAYS_IN_MONTH = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]; // Feb=29 (Schalttag inkl.)
 const DATE_RE = /^[0-1][0-9]-[0-3][0-9]$/;
-
-/**
- * Der Wikidata-Harvest zieht aus "world/awareness/UN observance day"-Klassen —
- * die sind ganz ueberwiegend ERNST (Gesundheit, Gedenken, Kampagnen, Politik).
- * Fuer ein bewusst heiteres "Kurioser Tag"-Feature ist das ungeeignet. Statt
- * einer (immer leckenden) Blockliste nehmen wir aus dem Harvest nur noch eine
- * kuratierte ALLOWLIST wirklich lustiger Anlaesse (Essen/Trinken, verspielte
- * Konzepte, heitere Tiere). Diese behalten ihre bereits vorhandenen CC0-Labels
- * in allen 12 Sprachen; alles Uebrige kommt aus fun-occasions-curated.json.
- */
-const FUN_HARVEST_ALLOWLIST = new Set([
-  'international_zebra_day', 'world_ostrich_day', 'pi_day', 'international_day_of_mathematics',
-  'international_day_of_happiness', 'world_sparrow_day', 'international_hug_a_medievalist_day',
-  'british_national_tea_day', 'international_dance_day', 'international_jazz_day', 'international_tea_day',
-  'towel_day', 'world_vegan_burger_day', 'international_day_of_potato', 'world_chocolate_day',
-  'world_emoji_day', 'international_chess_day', 'pi_approximation_day', 'international_lefthanders_day',
-  'international_talk_like_a_pirate_day', 'international_coffee_day', 'national_sandwich_day',
-  'world_turkish_coffee_day',
-]);
 
 function assert(cond, msg) {
   if (!cond) {
@@ -54,7 +36,6 @@ function assert(cond, msg) {
     process.exit(1);
   }
 }
-const pad2 = (n) => String(n).padStart(2, '0');
 
 async function readJson(path, fallback) {
   if (!existsSync(path)) return fallback;
@@ -73,10 +54,10 @@ async function currentVersion() {
   return max === 0 ? 1 : max;
 }
 
-/** Ein Occasion -> Paket-Eintrag + i18n. */
+/** Ein Occasion -> Paket-Eintrag + i18n. Ueberspringt bereits gesehene slugs. */
 function pushOccasion(occ, list, i18n, seenSlugs, warnings) {
   assert(/^[a-z0-9_]+$/.test(occ.slug), `invalid slug "${occ.slug}"`);
-  if (seenSlugs.has(occ.slug)) return; // gleicher Anlass ein zweites Mal (z.B. Evergreen an anderem Tag)
+  if (seenSlugs.has(occ.slug)) return;
   for (const loc of REQUIRED_LOCALES) assert(occ.labels?.[loc], `missing "${loc}" label for "${occ.slug}"`);
   seenSlugs.add(occ.slug);
   list.push({
@@ -93,30 +74,23 @@ function pushOccasion(occ, list, i18n, seenSlugs, warnings) {
 
 async function main() {
   const harvestDoc = await readJson(HARVEST, { occasions: [] });
-  const curatedDoc = await readJson(CURATED, { dated: [], evergreen: [] });
+  const curatedDoc = await readJson(CURATED, { dated: [] });
   const harvest = harvestDoc.occasions ?? [];
   const dated = curatedDoc.dated ?? [];
-  const evergreen = curatedDoc.evergreen ?? [];
-  assert(evergreen.length > 0, 'curated.evergreen ist leer — Backstop fehlt');
 
   const byDate = {};
   const i18n = {};
   const seenSlugs = new Set();
   const warnings = new Set();
-  const globalIds = new Set();
 
-  // 1) Harvest (nach Bekanntheit vorsortiert) — NUR die allowlisteten, wirklich
-  //    lustigen Anlaesse; alles Ernste aus den Wikidata-Klassen faellt hier raus.
+  // 1) Harvest (nach Bekanntheit vorsortiert) — pro Tag bis MAX_PER_DAY.
   for (const occ of harvest) {
     if (!DATE_RE.test(occ.date)) continue;
-    if (!FUN_HARVEST_ALLOWLIST.has(occ.slug)) continue;
     (byDate[occ.date] ??= []);
     if (byDate[occ.date].length >= MAX_PER_DAY) continue;
-    const before = seenSlugs.size;
     pushOccasion(occ, byDate[occ.date], i18n, seenSlugs, warnings);
-    if (seenSlugs.size > before) globalIds.add(`fun_${occ.slug}`);
   }
-  // 2) Kuratierte dated — fuellt/ergaenzt bis MAX_PER_DAY
+  // 2) Kuratierte dated — fuellt/ergaenzt bis MAX_PER_DAY.
   for (const occ of dated) {
     assert(DATE_RE.test(occ.date), `curated dated: invalid date "${occ.date}" for "${occ.slug}"`);
     (byDate[occ.date] ??= []);
@@ -124,38 +98,11 @@ async function main() {
     pushOccasion(occ, byDate[occ.date], i18n, seenSlugs, warnings);
   }
 
-  // 3) Evergreen-Backstop: JEDER Kalendertag bekommt mindestens einen Anlass.
-  //    i18n fuer alle Evergreens einmalig registrieren; Zuweisung deterministisch.
-  const everById = evergreen.map((e) => ({ id: `fun_${e.slug}`, labelKey: `funOccasions.${e.slug}`, slug: e.slug, labels: e.labels }));
-  for (const e of everById) for (const loc of ALL_LOCALES) if (e.labels?.[loc]) (i18n[loc] ??= {})[e.slug] = e.labels[loc];
-  for (const loc of REQUIRED_LOCALES) for (const e of everById) assert(e.labels?.[loc], `evergreen ${e.slug}: missing ${loc}`);
-
-  let dayIndex = 0;
-  let coveredDays = 0;
-  let evergreenDays = 0;
-  for (let m = 1; m <= 12; m++) {
-    for (let d = 1; d <= DAYS_IN_MONTH[m - 1]; d++) {
-      const date = `${pad2(m)}-${pad2(d)}`;
-      if (!byDate[date] || byDate[date].length === 0) {
-        const e = everById[dayIndex % everById.length];
-        // Der Validator verlangt GLOBAL eindeutige ids; ein Evergreen wird aber
-        // an mehreren Tagen verwendet. Deshalb bekommt jede Nutzung eine tages-
-        // eindeutige id, waehrend der labelKey (und damit das i18n-Label) geteilt
-        // bleibt — der App-Sanitizer koppelt id/labelKey nicht.
-        byDate[date] = [{ id: `${e.id}_${date.replace('-', '')}`, labelKey: e.labelKey }];
-        evergreenDays++;
-      } else {
-        coveredDays++;
-      }
-      dayIndex++;
-    }
-  }
-
-  // Alle ids sind global eindeutig (Harvest/kuratiert je einmal via seenSlugs,
-  // Evergreens mit tages-eindeutigem Suffix) — passt zum globalen Duplikat-Check
-  // des Validators.
+  // Nur Tage MIT Anlass, sortiert. Kein 366-Zwang.
   const funOccasions = {};
-  for (const date of Object.keys(byDate).sort()) funOccasions[date] = byDate[date];
+  for (const date of Object.keys(byDate).sort()) {
+    if (byDate[date].length > 0) funOccasions[date] = byDate[date];
+  }
 
   const i18nSorted = {};
   for (const loc of ALL_LOCALES) {
@@ -164,8 +111,6 @@ async function main() {
     for (const slug of Object.keys(i18n[loc]).sort()) i18nSorted[loc][slug] = i18n[loc][slug];
   }
 
-  // Version-Bump erzwingbar via FUN_VERSION (Clients laden bei hoeherer Version neu);
-  // ohne Env bleibt die bestehende Version (In-Place-Rebuild).
   const version = Number(process.env.FUN_VERSION) || (await currentVersion());
   const pkg = { countryCode: 'FUN', version, schemaVersion: 1, definitions: [], funOccasions, i18n: { funOccasions: i18nSorted } };
 
@@ -173,13 +118,14 @@ async function main() {
   await mkdir(outDir, { recursive: true });
   await writeFile(join(outDir, 'package.json'), JSON.stringify(pkg, null, 2) + '\n', 'utf8');
 
-  const totalDays = DAYS_IN_MONTH.reduce((a, b) => a + b, 0);
+  const dayCount = Object.keys(funOccasions).length;
+  const occCount = Object.values(funOccasions).reduce((a, l) => a + l.length, 0);
   console.log(
-    `FUN v${version}: ${Object.keys(funOccasions).length}/${totalDays} Tage belegt ` +
-      `(${coveredDays} real, ${evergreenDays} Evergreen), Sprachen [${Object.keys(i18nSorted).join(', ')}].`,
+    `FUN v${version}: ${occCount} echte Anlaesse an ${dayCount} Tagen (nur echt, keine Wiederholung), ` +
+      `Sprachen [${Object.keys(i18nSorted).join(', ')}].`,
   );
   if (warnings.size > 0) console.warn(`  Sprach-Luecken: ${warnings.size} (App-i18n-Fallback greift)`);
-  assert(Object.keys(funOccasions).length === totalDays, `nicht alle ${totalDays} Tage belegt`);
+  assert(dayCount >= 20, `zu wenige Tage belegt (${dayCount}) — vermutlich fehlerhafter Harvest`);
 }
 
 main().catch((err) => {
