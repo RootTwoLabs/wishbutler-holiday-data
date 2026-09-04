@@ -29,6 +29,25 @@ const MAX_PER_DAY = 3;
 const DAYS_IN_MONTH = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]; // Feb=29 (Schalttag inkl.)
 const DATE_RE = /^[0-1][0-9]-[0-3][0-9]$/;
 
+/**
+ * Der Wikidata-Harvest zieht aus "world/awareness/UN observance day"-Klassen —
+ * die sind ganz ueberwiegend ERNST (Gesundheit, Gedenken, Kampagnen, Politik).
+ * Fuer ein bewusst heiteres "Kurioser Tag"-Feature ist das ungeeignet. Statt
+ * einer (immer leckenden) Blockliste nehmen wir aus dem Harvest nur noch eine
+ * kuratierte ALLOWLIST wirklich lustiger Anlaesse (Essen/Trinken, verspielte
+ * Konzepte, heitere Tiere). Diese behalten ihre bereits vorhandenen CC0-Labels
+ * in allen 12 Sprachen; alles Uebrige kommt aus fun-occasions-curated.json.
+ */
+const FUN_HARVEST_ALLOWLIST = new Set([
+  'international_zebra_day', 'world_ostrich_day', 'pi_day', 'international_day_of_mathematics',
+  'international_day_of_happiness', 'world_sparrow_day', 'international_hug_a_medievalist_day',
+  'british_national_tea_day', 'international_dance_day', 'international_jazz_day', 'international_tea_day',
+  'towel_day', 'world_vegan_burger_day', 'international_day_of_potato', 'world_chocolate_day',
+  'world_emoji_day', 'international_chess_day', 'pi_approximation_day', 'international_lefthanders_day',
+  'international_talk_like_a_pirate_day', 'international_coffee_day', 'national_sandwich_day',
+  'world_turkish_coffee_day',
+]);
+
 function assert(cond, msg) {
   if (!cond) {
     console.error(`build-fun-occasions: ${msg}`);
@@ -86,9 +105,11 @@ async function main() {
   const warnings = new Set();
   const globalIds = new Set();
 
-  // 1) Harvest (nach Bekanntheit vorsortiert) — pro Tag bis MAX_PER_DAY
+  // 1) Harvest (nach Bekanntheit vorsortiert) — NUR die allowlisteten, wirklich
+  //    lustigen Anlaesse; alles Ernste aus den Wikidata-Klassen faellt hier raus.
   for (const occ of harvest) {
     if (!DATE_RE.test(occ.date)) continue;
+    if (!FUN_HARVEST_ALLOWLIST.has(occ.slug)) continue;
     (byDate[occ.date] ??= []);
     if (byDate[occ.date].length >= MAX_PER_DAY) continue;
     const before = seenSlugs.size;

@@ -1,7 +1,7 @@
 {
   "source": "Kuratiert – eigene Formulierung (lizenzfrei). Daten = allgemein bekannte, nicht schutzfaehige Fakten; KEINE Uebernahme von Texten kommerzieller Feiertags-Seiten.",
   "license": "own-wording / public-domain facts",
-  "note": "de + en maßgeblich; die uebrigen 10 App-Sprachen fuellt translate-fun-occasions.mjs (freier Google-Endpoint). 'dated' = Fun-Tage auf konkreten leeren Kalendertagen; 'evergreen' = leichte Anlaesse als Backstop, damit jeder Tag mindestens einen hat.",
+  "note": "AUSSCHLIESSLICH heitere Anlaesse (Essen/Trinken, Verspieltes, heitere Tiere, gute Laune) — bewusst KEINE ernsten Themen (Gesundheit, Gedenken, Politik, Kampagnen). de + en maßgeblich; die uebrigen 10 App-Sprachen fuellt translate-fun-occasions.mjs (freier Google-Endpoint). 'dated' = Fun-Tage auf konkreten Kalendertagen; 'evergreen' = leichte Anlaesse als Backstop, damit jeder Tag mindestens einen hat.",
   "dated": [
     {
       "date": "01-02",
@@ -37,24 +37,6 @@
         "ja": "泡風呂の日",
         "ko": "거품목욕의 날",
         "zh-Hant": "泡泡浴日"
-      }
-    },
-    {
-      "date": "01-11",
-      "slug": "cur_thank_you_day",
-      "labels": {
-        "en": "International Thank-You Day",
-        "de": "Internationaler Dankeschoen-Tag",
-        "es": "Día Internacional de Gracias",
-        "fr": "Journée internationale de remerciement",
-        "it": "Giornata internazionale del ringraziamento",
-        "pl": "Międzynarodowy Dzień Podziękowań",
-        "pt": "Dia Internacional do Obrigado",
-        "nl": "Internationale dankdag",
-        "sv": "Internationella tackdagen",
-        "ja": "国際感謝デー",
-        "ko": "국제 감사의 날",
-        "zh-Hant": "國際感謝日"
       }
     },
     {
@@ -184,6 +166,24 @@
       }
     },
     {
+      "date": "02-27",
+      "slug": "cur_polar_bear_day",
+      "labels": {
+        "en": "International Polar Bear Day",
+        "de": "Internationaler Tag des Eisbaeren",
+        "es": "Día Internacional del Oso Polar",
+        "fr": "Journée internationale de l'ours polaire",
+        "it": "Giornata internazionale dell'orso polare",
+        "pl": "Międzynarodowy Dzień Niedźwiedzia Polarnego",
+        "pt": "Dia Internacional do Urso Polar",
+        "nl": "Internationale Ijsbeerdag",
+        "sv": "Internationella isbjörnsdagen",
+        "ja": "国際シロクマデー",
+        "ko": "국제 북극곰의 날",
+        "zh-Hant": "國際北極熊日"
+      }
+    },
+    {
       "date": "03-06",
       "slug": "cur_oreo_style_cookie_day",
       "labels": {
@@ -310,6 +310,42 @@
       }
     },
     {
+      "date": "06-18",
+      "slug": "cur_sushi_day",
+      "labels": {
+        "en": "International Sushi Day",
+        "de": "Internationaler Tag des Sushi",
+        "es": "Día Internacional del Sushi",
+        "fr": "Journée internationale du sushi",
+        "it": "Giornata internazionale del sushi",
+        "pl": "Międzynarodowy Dzień Sushi",
+        "pt": "Dia Internacional do Sushi",
+        "nl": "Internationale Sushidag",
+        "sv": "Internationella sushidagen",
+        "ja": "国際寿司デー",
+        "ko": "국제 스시의 날",
+        "zh-Hant": "國際壽司日"
+      }
+    },
+    {
+      "date": "06-21",
+      "slug": "cur_music_day",
+      "labels": {
+        "en": "World Music Day",
+        "de": "Weltmusiktag",
+        "es": "Día Mundial de la Música",
+        "fr": "Journée mondiale de la musique",
+        "it": "Giornata mondiale della musica",
+        "pl": "Światowy Dzień Muzyki",
+        "pt": "Dia Mundial da Música",
+        "nl": "Wereld Muziekdag",
+        "sv": "Världsmusikdagen",
+        "ja": "ワールドミュージックデー",
+        "ko": "세계 음악의 날",
+        "zh-Hant": "世界音樂日"
+      }
+    },
+    {
       "date": "07-01",
       "slug": "cur_joke_day",
       "labels": {
@@ -364,6 +400,24 @@
       }
     },
     {
+      "date": "07-30",
+      "slug": "cur_friendship_day",
+      "labels": {
+        "en": "International Friendship Day",
+        "de": "Internationaler Tag der Freundschaft",
+        "es": "Día Internacional de la Amistad",
+        "fr": "Journée internationale de l'amitié",
+        "it": "Giornata internazionale dell'amicizia",
+        "pl": "Międzynarodowy Dzień Przyjaźni",
+        "pt": "Dia Internacional da Amizade",
+        "nl": "Internationale Vriendschapsdag",
+        "sv": "Internationella vänskapsdagen",
+        "ja": "国際友好デー",
+        "ko": "국제 우정의 날",
+        "zh-Hant": "國際友誼日"
+      }
+    },
+    {
       "date": "08-03",
       "slug": "cur_watermelon_day",
       "labels": {
@@ -379,6 +433,42 @@
         "ja": "スイカの日",
         "ko": "수박의 날",
         "zh-Hant": "西瓜日"
+      }
+    },
+    {
+      "date": "08-08",
+      "slug": "cur_cat_day",
+      "labels": {
+        "en": "International Cat Day",
+        "de": "Internationaler Tag der Katze",
+        "es": "Día Internacional del Gato",
+        "fr": "Journée internationale du chat",
+        "it": "Giornata internazionale del gatto",
+        "pl": "Międzynarodowy Dzień Kota",
+        "pt": "Dia Internacional do Gato",
+        "nl": "Internationale Kattendag",
+        "sv": "Internationella kattdagen",
+        "ja": "国際猫の日",
+        "ko": "국제 고양이의 날",
+        "zh-Hant": "國際貓日"
+      }
+    },
+    {
+      "date": "08-26",
+      "slug": "cur_dog_day",
+      "labels": {
+        "en": "International Dog Day",
+        "de": "Internationaler Tag des Hundes",
+        "es": "Día Internacional del Perro",
+        "fr": "Journée internationale du chien",
+        "it": "Giornata internazionale del cane",
+        "pl": "Międzynarodowy Dzień Psa",
+        "pt": "Dia Internacional do Cão",
+        "nl": "Internationale Hondendag",
+        "sv": "Internationella hunddagen",
+        "ja": "国際犬の日",
+        "ko": "국제 개날",
+        "zh-Hant": "國際狗日"
       }
     },
     {
@@ -469,6 +559,24 @@
         "ja": "揚げスナックの日",
         "ko": "튀김안주데이",
         "zh-Hant": "油炸小吃日"
+      }
+    },
+    {
+      "date": "11-13",
+      "slug": "cur_kindness_day",
+      "labels": {
+        "en": "World Kindness Day",
+        "de": "Welttag der Freundlichkeit",
+        "es": "Día Mundial de la Bondad",
+        "fr": "Journée mondiale de la gentillesse",
+        "it": "Giornata mondiale della gentilezza",
+        "pl": "Światowy Dzień Życzliwości",
+        "pt": "Dia Mundial da Gentileza",
+        "nl": "Wereld Vriendelijkheidsdag",
+        "sv": "Världsvänlighetsdagen",
+        "ja": "世界親切デー",
+        "ko": "세계 친절의 날",
+        "zh-Hant": "世界仁慈日"
       }
     },
     {
@@ -933,6 +1041,210 @@
         "ja": "楽観主義の日",
         "ko": "낙천주의의 날",
         "zh-Hant": "樂觀日"
+      }
+    },
+    {
+      "slug": "cur_ever_dessert_first",
+      "labels": {
+        "en": "Dessert First Day",
+        "de": "Tag des Nachtischs zuerst",
+        "es": "Postre Primer Día",
+        "fr": "Dessert Premier Jour",
+        "it": "Dessert Primo Giorno",
+        "pl": "Deserowy pierwszy dzień",
+        "pt": "Sobremesa Primeiro Dia",
+        "nl": "Dessert eerste dag",
+        "sv": "Dessert första dagen",
+        "ja": "デザート初日",
+        "ko": "디저트 첫날",
+        "zh-Hant": "第一天甜點"
+      }
+    },
+    {
+      "slug": "cur_ever_dance_break",
+      "labels": {
+        "en": "Dance Break Day",
+        "de": "Tag der Tanzpause",
+        "es": "Día de descanso de baile",
+        "fr": "Journée de pause dansante",
+        "it": "Giornata di pausa danzante",
+        "pl": "Dzień przerwy tanecznej",
+        "pt": "Dia de pausa para dança",
+        "nl": "Dag van de Danspauze",
+        "sv": "Dance Break Day",
+        "ja": "ダンスブレイクデー",
+        "ko": "댄스 브레이크 데이",
+        "zh-Hant": "舞蹈休息日"
+      }
+    },
+    {
+      "slug": "cur_ever_silly_joke",
+      "labels": {
+        "en": "Silly Joke Day",
+        "de": "Tag des albernen Witzes",
+        "es": "Día de la broma tonta",
+        "fr": "Journée de la blague idiote",
+        "it": "Giorno degli scherzi sciocchi",
+        "pl": "Dzień Głupiego Żartu",
+        "pt": "Dia da piada boba",
+        "nl": "Domme grappendag",
+        "sv": "Silly Joke Day",
+        "ja": "愚かな冗談の日",
+        "ko": "바보 농담의 날",
+        "zh-Hant": "愚蠢的笑話日"
+      }
+    },
+    {
+      "slug": "cur_ever_favourite_song",
+      "labels": {
+        "en": "Favourite Song Day",
+        "de": "Tag des Lieblingslieds",
+        "es": "Día de la canción favorita",
+        "fr": "Journée de la chanson préférée",
+        "it": "Giorno della canzone preferita",
+        "pl": "Dzień ulubionej piosenki",
+        "pt": "Dia da música favorita",
+        "nl": "Dag van favoriete liedjes",
+        "sv": "Favoritsångens dag",
+        "ja": "好きな歌の日",
+        "ko": "좋아하는 노래의 날",
+        "zh-Hant": "最愛歌曲日"
+      }
+    },
+    {
+      "slug": "cur_ever_cosy",
+      "labels": {
+        "en": "Cosy Day",
+        "de": "Gemuetlichkeitstag",
+        "es": "Día acogedor",
+        "fr": "Journée confortable",
+        "it": "Giornata accogliente",
+        "pl": "Przytulny dzień",
+        "pt": "Dia aconchegante",
+        "nl": "Gezellige dag",
+        "sv": "Mysig dag",
+        "ja": "コージーデイ",
+        "ko": "아늑한 하루",
+        "zh-Hant": "舒適的一天"
+      }
+    },
+    {
+      "slug": "cur_ever_little_adventure",
+      "labels": {
+        "en": "Little Adventure Day",
+        "de": "Tag des kleinen Abenteuers",
+        "es": "Pequeño día de aventura",
+        "fr": "Journée Petite Aventure",
+        "it": "Piccola giornata avventurosa",
+        "pl": "Dzień Małej Przygody",
+        "pt": "Pequeno dia de aventura",
+        "nl": "Kleine avonturendag",
+        "sv": "Lilla äventyrsdag",
+        "ja": "小さな冒険の日",
+        "ko": "작은 모험의 날",
+        "zh-Hant": "小冒險日"
+      }
+    },
+    {
+      "slug": "cur_ever_playfulness",
+      "labels": {
+        "en": "Playfulness Day",
+        "de": "Tag der Verspieltheit",
+        "es": "Día de la alegría",
+        "fr": "Journée ludique",
+        "it": "Giornata della giocosità",
+        "pl": "Dzień zabawy",
+        "pt": "Dia da Brincadeira",
+        "nl": "Dag van de speelsheid",
+        "sv": "Lekfullhetens dag",
+        "ja": "遊び心の日",
+        "ko": "장난기의 날",
+        "zh-Hant": "歡樂日"
+      }
+    },
+    {
+      "slug": "cur_ever_daydream",
+      "labels": {
+        "en": "Daydream Day",
+        "de": "Tag der Tagtraeume",
+        "es": "Día de ensueño",
+        "fr": "Journée de rêverie",
+        "it": "Giornata da sogno ad occhi aperti",
+        "pl": "Dzień marzeń",
+        "pt": "Dia de sonhar acordado",
+        "nl": "Dagdroom dag",
+        "sv": "Dagdrömmens dag",
+        "ja": "白昼夢の日",
+        "ko": "백일몽의 날",
+        "zh-Hant": "白日夢日"
+      }
+    },
+    {
+      "slug": "cur_ever_favourite_snack",
+      "labels": {
+        "en": "Favourite Snack Day",
+        "de": "Tag des Lieblingssnacks",
+        "es": "Día de merienda favorito",
+        "fr": "Journée de collation préférée",
+        "it": "Giorno dello spuntino preferito",
+        "pl": "Dzień ulubionej przekąski",
+        "pt": "Dia do Lanche Favorito",
+        "nl": "Favoriete snackdag",
+        "sv": "Favorit mellanmålsdag",
+        "ja": "好きなおやつの日",
+        "ko": "좋아하는 간식의 날",
+        "zh-Hant": "最喜歡的小吃日"
+      }
+    },
+    {
+      "slug": "cur_ever_high_five",
+      "labels": {
+        "en": "High-Five Day",
+        "de": "High-Five-Tag",
+        "es": "Día de choca esos cinco",
+        "fr": "Journée High-Five",
+        "it": "Giorno del cinque",
+        "pl": "Dzień przybijania piątki",
+        "pt": "Mais cinco dias",
+        "nl": "High-Five-dag",
+        "sv": "High-Five Day",
+        "ja": "ハイタッチデー",
+        "ko": "하이파이브 데이",
+        "zh-Hant": "高五天"
+      }
+    },
+    {
+      "slug": "cur_ever_wink",
+      "labels": {
+        "en": "Wink Day",
+        "de": "Zwinker-Tag",
+        "es": "Día del guiño",
+        "fr": "Journée du clin d'œil",
+        "it": "Giorno dell'occhiolino",
+        "pl": "Dzień Mrugnięcia",
+        "pt": "Dia da piscadela",
+        "nl": "Knipoog Dag",
+        "sv": "Blinkningsdagen",
+        "ja": "ウインクデー",
+        "ko": "윙크데이",
+        "zh-Hant": "眨眼日"
+      }
+    },
+    {
+      "slug": "cur_ever_small_wins",
+      "labels": {
+        "en": "Small Wins Day",
+        "de": "Tag der kleinen Erfolge",
+        "es": "Día de pequeñas victorias",
+        "fr": "Journée des petites victoires",
+        "it": "Giornata delle piccole vittorie",
+        "pl": "Dzień małych zwycięstw",
+        "pt": "Dia de pequenas vitórias",
+        "nl": "Dag van kleine overwinningen",
+        "sv": "Small Wins Day",
+        "ja": "小さな勝利の日",
+        "ko": "작은 승리의 날",
+        "zh-Hant": "小勝利日"
       }
     }
   ]
