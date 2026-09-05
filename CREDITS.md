@@ -80,6 +80,8 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 - `images/MX/revolution_day/01.jpg` — AlejandroLinaresGarcia (CC BY-SA 4.0)
 - `images/MX/revolution_day/02.jpg` — AlejandroLinaresGarcia (CC BY-SA 4.0)
 - `images/MX/revolution_day/03.jpg` — Carlos Valenzuela (CC BY-SA 4.0)
+- `images/new_years_eve/02.jpg` — Vivu Vietnam (CC BY-SA 4.0)
+- `images/new_years_eve/03.jpg` — Btezra (CC BY-SA 2.0)
 - `images/NO/constitution_day/01.jpg` — Bjoertvedt (CC BY-SA 3.0 no)
 - `images/NO/constitution_day/02.jpg` — Bjoertvedt (CC BY-SA 3.0 no)
 - `images/NO/constitution_day/03.jpg` — Bjoertvedt. (CC BY-SA 3.0 no)
@@ -95,15 +97,13 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 - `images/SE/midsummer_eve/03.jpg` — Roger W (CC BY-SA 2.0)
 - `images/SE/national_day_of_sweden/03.jpg` — Bengt Nyman (CC BY-SA 4.0)
 - `images/SG/chinese_new_year/03.jpg` — Anubhab91 (CC BY-SA 4.0)
+- `images/st_stephen/02.jpg` — Uoaei1 (CC BY-SA 4.0)
+- `images/st_stephen/03.jpg` — Dietmar Rabich (CC BY-SA 4.0)
 - `images/TR/ataturk_commemoration_youth_day/02.jpg` — 𐰇𐱅𐰚𐰤 (CC BY-SA 4.0)
 - `images/TR/eid_al_fitr_first_day/01.jpg` — James Gordon from Los Angeles, California, USA (CC BY 2.0)
 - `images/TR/eid_al_fitr_first_day/02.jpg` — James Gordon from Los Angeles, California, USA (CC BY 2.0)
 - `images/TR/eid_al_fitr_first_day/03.jpg` — James Gordon from Los Angeles, California, USA (CC BY 2.0)
 - `images/TR/republic_day/03.jpg` — longuner (CC BY-SA 3.0)
-- `images/new_years_eve/02.jpg` — Vivu Vietnam (CC BY-SA 4.0)
-- `images/new_years_eve/03.jpg` — Btezra (CC BY-SA 2.0)
-- `images/st_stephen/02.jpg` — Uoaei1 (CC BY-SA 4.0)
-- `images/st_stephen/03.jpg` — Dietmar Rabich (CC BY-SA 4.0)
 <!-- END:IMAGE-CREDITS -->
 
 ## Data sources
