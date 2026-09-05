@@ -18,5 +18,60 @@
       "A papoila vermelha é o símbolo da lembrança.",
       "Os ofícios ao amanhecer evocam o desembarque matinal em Gallipoli em 1915."
     ]
+  },
+  "matariki": {
+    "intro": "Matariki é o Ano Novo Maori, marcado pela ascensão do enxame estelar das Plêiades em pleno inverno. Desde 2022 que é feriado numa sexta-feira no final de junho ou julho, o primeiro a homenagear te ao Maori, o mundo Maori.",
+    "history": "Navegadores e agricultores Maori aguardavam o regresso de Matariki antes do amanhecer para abrir o novo ano e ler a próxima estação a partir do brilho das suas estrelas. O governo declarou feriado em 2022, com datas definidas por um grupo consultivo de astrónomos Maori.",
+    "traditions": "Os três princípios são recordar aqueles que morreram, celebrar o presente e olhar para o futuro. As famílias reúnem-se de madrugada para a cerimónia hautapu em que é oferecida comida às estrelas, partilham um banquete, lançam papagaios e assistem a espetáculos de luzes e concertos.",
+    "funFacts": [
+      "O enxame chama-se Matariki, os olhos do deus Tawhirimatea, na tradição Maori.",
+      "O primeiro feriado foi comemorado a 24 de junho de 2022.",
+      "Cada estrela do enxame está ligada a uma área da vida, como a comida do mar ou do vento.",
+      "A data muda todos os anos de acordo com o calendário lunar e ocorre sempre à sexta-feira."
+    ]
+  },
+  "kings_birthday": {
+    "intro": "O aniversário do rei, na primeira segunda-feira de junho, é o fim de semana prolongado do meio do inverno na Nova Zelândia. Tal como outros reinos da Commonwealth, o país assinala o aniversário oficial do monarca, e não o aniversário real.",
+    "history": "A Nova Zelândia comemora o aniversário do soberano desde os tempos coloniais, e a primeira segunda-feira de junho é usada desde o reinado da Rainha Isabel II. O feriado foi renomeado depois de o rei Carlos III ter subido ao trono em 2022.",
+    "traditions": "As homenagens ao aniversário do rei são anunciadas, as pistas de esqui de Queenstown e Ruapehu abrem para a temporada e as famílias aproveitam o fim de semana prolongado para uma escapadela de inverno. Wellington e Auckland recebem festivais de inverno e a época de rugby está ao rubro.",
+    "funFacts": [
+      "O verdadeiro aniversário do rei Carlos III é a 14 de novembro.",
+      "É o último feriado antes do Matariki e do Dia do Trabalhador na primavera.",
+      "Muitos Kiwis tiram folga à sexta-feira para fazer um fim de semana de quatro dias.",
+      "A lista de homenagens inclui geralmente os All Blacks e os cineastas."
+    ]
+  },
+  "labour_day_nz": {
+    "intro": "O Dia do Trabalhador, na quarta segunda-feira de outubro, celebra o dia de trabalho de oito horas e é o primeiro fim de semana prolongado da primavera na Nova Zelândia.",
+    "history": "O carpinteiro Samuel Parnell recusou-se a trabalhar mais de oito horas por dia quando chegou a Wellington em 1840, e a sua tenda tornou-se a tradição laboral do país. Os primeiros desfiles do Dia do Trabalhador foram realizados em 1890, e o dia tornou-se feriado em 1900.",
+    "traditions": "Os kiwis plantam as suas hortas, uma vez que o Dia do Trabalhador é a data tradicional após a qual é improvável a ocorrência de geadas. As praias e os parques de campismo recebem as primeiras multidões da temporada, e muitas cidades realizam concertos e mercados de primavera.",
+    "funFacts": [
+      "A Nova Zelândia foi um dos primeiros países do mundo a vencer a jornada de oito horas.",
+      "Os jardineiros dizem que os tomates não devem ser consumidos antes do Dia do Trabalhador.",
+      "O túmulo de Samuel Parnell em Wellington tem as palavras \"Pai das oito horas\".",
+      "O feriado foi transferido para segunda-feira em 1910 para criar um fim de semana prolongado."
+    ]
+  },
+  "auckland_anniversary_day": {
+    "intro": "O Dia do Aniversário de Auckland, na segunda-feira mais próxima de 29 de janeiro, marca a fundação da província em 1840. É feriado para Auckland e Northland e o maior fim de semana de verão da região.",
+    "history": "O governador William Hobson chegou à Baía das Ilhas a 29 de janeiro de 1840, uma semana antes da assinatura do Tratado de Waitangi, e Auckland tornou-se a capital no final desse ano. O aniversário é comemorado com uma regata de vela desde 1840.",
+    "traditions": "A Regata de Aniversário de Auckland enche o porto de Waitemata com iates, rebocadores e waka. A cidade também acolhe o Festival Buskers e eventos de lanternas, e milhares de pessoas vão às praias do Golfo Hauraki.",
+    "funFacts": [
+      "A regata afirma ser o maior evento de vela de um dia do mundo.",
+      "Auckland é apelidada de Cidade das Velas porque tem mais barcos por pessoa do que qualquer outra cidade.",
+      "Northland comemora o mesmo dia, embora tenha a sua própria reivindicação histórica de 29 de janeiro.",
+      "A regata inclui ainda uma corrida de rebocadores pelo porto."
+    ]
+  },
+  "wellington_anniversary_day": {
+    "intro": "O Dia do Aniversário de Wellington, na segunda-feira mais próxima de 22 de janeiro, comemora a chegada dos primeiros colonos organizados em 1840. É feriado na região de Wellington e faz parte da época das férias de verão.",
+    "history": "O navio Aurora da Companhia da Nova Zelândia ancorou em Petone a 22 de janeiro de 1840 com os primeiros colonos, que logo atravessaram o porto para fundar Wellington. A cidade tornou-se capital em 1865.",
+    "traditions": "Wellington celebra com a corrida de cavalos da Wellington Cup, a natação no porto e o programa de verão da cidade com concertos e cinema ao ar livre. As famílias passam o dia à beira-mar ou na região vinícola de Wairarapa.",
+    "funFacts": [
+      "Os colonos desembarcaram primeiro em Petone, mas as cheias levaram-nos ao local onde hoje é a cidade.",
+      "Wellington é a capital mais a sul do mundo.",
+      "A cidade celebra o seu aniversário antes mesmo de existir: os colonos chegaram um ano antes.",
+      "A Wellington Cup é uma das corridas de cavalos mais antigas do país."
+    ]
   }
 }

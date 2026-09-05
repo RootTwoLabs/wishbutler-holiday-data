@@ -18,5 +18,60 @@
       "Le coquelicot rouge est le symbole du souvenir.",
       "Les cérémonies à l’aube évoquent le débarquement matinal de Gallipoli en 1915."
     ]
+  },
+  "matariki": {
+    "intro": "Matariki est le nouvel an maori, marqué par le lever au milieu de l'hiver de l'amas d'étoiles des Pléiades. Depuis 2022, c'est un jour férié un vendredi fin juin ou juillet, le premier pour honorer te ao Maori, le monde maori.",
+    "history": "Les navigateurs et agriculteurs maoris attendaient le retour de Matariki avant l'aube pour ouvrir la nouvelle année et lire la saison à venir à la lumière de ses étoiles. Le gouvernement en a fait un jour férié en 2022, avec des dates fixées par un groupe consultatif d'astronomes maoris.",
+    "traditions": "Les trois principes sont de se souvenir de ceux qui sont décédés, de célébrer le présent et de regarder vers l'avenir. Les familles se rassemblent à l'aube pour la cérémonie du hautapu au cours de laquelle de la nourriture est offerte aux étoiles, partagent un festin, font voler des cerfs-volants et assistent à des spectacles de lumière et des concerts.",
+    "funFacts": [
+      "L'amas s'appelle Matariki, les yeux du dieu Tawhirimatea, dans la tradition maorie.",
+      "Le premier jour férié a été célébré le 24 juin 2022.",
+      "Chaque étoile de l'amas est liée à un domaine de la vie, comme la nourriture provenant de la mer ou du vent.",
+      "La date bouge chaque année avec le calendrier lunaire et tombe toujours un vendredi."
+    ]
+  },
+  "kings_birthday": {
+    "intro": "L'anniversaire du roi, le premier lundi de juin, est le long week-end du milieu de l'hiver en Nouvelle-Zélande. Comme d'autres royaumes du Commonwealth, le pays marque l'anniversaire officiel du monarque plutôt que l'anniversaire réel.",
+    "history": "La Nouvelle-Zélande célèbre l'anniversaire du souverain depuis l'époque coloniale, et le premier lundi de juin est utilisé depuis le règne de la reine Elizabeth II. La fête a été renommée après l’accession au trône du roi Charles III en 2022.",
+    "traditions": "Les honneurs de l'anniversaire du roi sont annoncés, les domaines skiables de Queenstown et de Ruapehu sont ouverts pour la saison et les familles profitent du long week-end pour une escapade hivernale. Wellington et Auckland accueillent des festivals d'hiver et la saison de rugby bat son plein.",
+    "funFacts": [
+      "Le véritable anniversaire du roi Charles III est le 14 novembre.",
+      "C'est le dernier jour férié avant Matariki et la Fête du Travail au printemps.",
+      "De nombreux Kiwis prennent congé le vendredi pour profiter d'un week-end de quatre jours.",
+      "Le palmarès comprend souvent des All Blacks et des cinéastes."
+    ]
+  },
+  "labour_day_nz": {
+    "intro": "La Fête du Travail, le quatrième lundi d'octobre, célèbre la journée de travail de huit heures et constitue le premier long week-end du printemps en Nouvelle-Zélande.",
+    "history": "Le charpentier Samuel Parnell refusa de travailler plus de huit heures par jour à son arrivée à Wellington en 1840, et sa position devint une tradition ouvrière du pays. Les premiers défilés de la Fête du Travail ont eu lieu en 1890 et cette journée est devenue un jour férié en 1900.",
+    "traditions": "Les kiwis plantent leurs potagers, car la Fête du Travail est la date traditionnelle après laquelle les gelées sont peu probables. Les plages et les campings voient leurs premières foules de la saison, et de nombreuses villes organisent des spectacles et des marchés au printemps.",
+    "funFacts": [
+      "La Nouvelle-Zélande a été l'un des premiers pays au monde à remporter la journée de huit heures.",
+      "Les jardiniers disent que les tomates ne devraient pas être récoltées avant la fête du Travail.",
+      "La tombe de Samuel Parnell à Wellington porte les mots \"Père des huit heures\".",
+      "Le jour férié a été déplacé vers un lundi en 1910 pour créer un long week-end."
+    ]
+  },
+  "auckland_anniversary_day": {
+    "intro": "Le jour d'anniversaire d'Auckland, le lundi le plus proche du 29 janvier, marque la fondation de la province en 1840. Il s'agit d'un jour férié pour Auckland et le Northland et le plus grand week-end d'été de la région.",
+    "history": "Le gouverneur William Hobson arriva dans la Baie des Îles le 29 janvier 1840, une semaine avant la signature du Traité de Waitangi, et Auckland devint la capitale plus tard cette année-là. L'anniversaire est célébré par une régate de voile depuis 1840.",
+    "traditions": "La régate anniversaire d'Auckland remplit le port de Waitemata de yachts, de remorqueurs et de waka. La ville accueille également le festival des amuseurs publics et des événements de lanternes, et des milliers de personnes se rendent sur les plages du golfe de Hauraki.",
+    "funFacts": [
+      "La régate prétend être le plus grand événement de voile d'une journée au monde.",
+      "Auckland est surnommée la ville des voiles car elle compte plus de bateaux par personne que toute autre ville.",
+      "Northland célèbre le même jour bien qu'il ait sa propre prétention historique au 29 janvier.",
+      "La régate comprend même une course de remorqueurs à travers le port."
+    ]
+  },
+  "wellington_anniversary_day": {
+    "intro": "Le jour anniversaire de Wellington, le lundi le plus proche du 22 janvier, commémore l'arrivée des premiers colons organisés en 1840. Il s'agit d'un jour férié dans la région de Wellington et fait partie de la saison des vacances d'été.",
+    "history": "Le navire Aurora de la New Zealand Company a jeté l'ancre à Petone le 22 janvier 1840 avec les premiers colons, qui ont rapidement traversé le port pour fonder Wellington. La ville devient la capitale en 1865.",
+    "traditions": "Wellington fait la fête avec la course hippique de la Wellington Cup, les baignades dans le port et le programme estival de concerts et de cinéma en plein air. Les familles passent la journée au bord de l'eau ou dans la région viticole de Wairarapa.",
+    "funFacts": [
+      "Les colons ont d'abord débarqué à Petone, mais les inondations les ont conduits vers le site de la ville actuelle.",
+      "Wellington est la capitale la plus méridionale du monde.",
+      "La ville fête son anniversaire avant même d'exister : les colons sont arrivés un an plus tôt.",
+      "La Wellington Cup est l'une des courses hippiques les plus anciennes du pays."
+    ]
   }
 }

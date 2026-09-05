@@ -20,5 +20,71 @@
       "Orzechy i gry z orzechami to tradycyjny zwyczaj.",
       "Jego dokładne pochodzenie pozostaje niepewne i sporne."
     ]
+  },
+  "republic_day": {
+    "intro": "Kanton Neuchatel obchodzi 1 marca Dzień Republiki, rocznicę rewolucji 1848 r., która zakończyła panowanie pruskie. Jest to święto państwowe w kantonie, dzień marszów, pochodni i posiłków na otwartym ogniu.",
+    "history": "Od 1815 roku Neuchatel był zarówno szwajcarskim kantonem, jak i księstwem króla Prus. 1 marca 1848 roku republikanie maszerowali z zegarmistrzowskich miast La Chaux-de-Fonds i Le Locle pod zamek w Neuchatel i proklamowali republikę bez rozlewu krwi. Prusy ostatecznie zrezygnowały ze swoich roszczeń w 1857 roku.",
+    "traditions": "Co roku spacerowicze nocą przemierzają trasę rewolucjonistów przez przełęcz Vue des Alpes, docierając do zamku rano. Rodziny zbierają się na „torree”, kiełbaski gotowane w żarze otwartego ognia, a rząd kantonu jest gospodarzem oficjalnej ceremonii.",
+    "funFacts": [
+      "Marsz pokonuje około 20 kilometrów przez zaśnieżone góry Jury.",
+      "Król Prus nigdy nie postawił stopy w swoim księstwie Neuchatel.",
+      "Neuchatel był ostatnim szwajcarskim kantonem, który stał się republiką.",
+      "Torree jest tak typowa, że ​​Neuchatel nazywa siebie kantonem kiełbasy na otwartym ogniu."
+    ]
+  },
+  "nafels_procession": {
+    "intro": "Procesja Nafels w pierwszy czwartek kwietnia jest kantonalnym świętem Glarus. Upamiętnia bitwę pod Nafels w 1388 roku, kiedy mieszkańcy Glarus pokonali znacznie większą armię Habsburgów.",
+    "history": "9 kwietnia 1388 roku kilkuset ludzi z Glarus, wspomaganych przez mgłę i osuwiska, rozgromiło siły austriackie pod Nafels i zabezpieczyło wolność doliny. Coroczna pielgrzymka na pole bitwy odbywa się od 1389 roku, co czyni ją jednym z najstarszych obchodów w Szwajcarii.",
+    "traditions": "Procesja z urzędnikami kantonalnymi, duchowieństwem i wojskową gwardią honorową idzie z Glarus do Nafels, zatrzymując się przy jedenastu kamieniach pamiątkowych, gdzie odczytane są nazwiska poległych. Następuje msza i nabożeństwo protestanckie, a na czele marszu niesiona jest flaga Glarus.",
+    "funFacts": [
+      "Święto jest jednym z nielicznych w Szwajcarii, które upamiętnia bitwę.",
+      "Katolicy i protestanci dzielą procesję od XVIII wieku.",
+      "Legenda głosi, że ludzie z Glarusu zsunęli głazy ze zboczy na austriackich rycerzy.",
+      "Dzieci szkolne niosą po wsi nazwiska poległych."
+    ]
+  },
+  "geneva_prayday": {
+    "intro": "Post Genewski, Jeune genevois, obchodzony jest w czwartek po pierwszej niedzieli września i jest świętem państwowym tylko w kantonie Genewa. Jej symbolem jest tarta śliwkowa.",
+    "history": "Od XVI wieku w Genewie obchodzono dni postu i modlitwy, a tradycja łączy wrześniową datę z żałobą po hugenotach poległych w masakrze w dzień św. Bartłomieja w 1572 r. Kanton ustalił obecną datę na 1831 r., na długo przed federalnym dniem modlitw.",
+    "traditions": "Genewańczycy jedzą „tarte aux pruneaux”, tartę śliwkową, która niegdyś była prostym daniem dozwolonym w dzień postny. Dziś święto to głównie długi weekend na piesze wędrówki i rodzinne wizyty, a piekarnie sprzedają tysiące tart.",
+    "funFacts": [
+      "Mówi się, że tarta śliwkowa została wynaleziona po to, aby w dzień postu rodziny mogły jeść bez gotowania.",
+      "Genewa nie obchodzi federalnego dnia modlitwy dwa tygodnie później.",
+      "To święto jest jedynym oficjalnym dniem postu nadal w szwajcarskim kalendarzu.",
+      "Piekarze w Genewie sprzedają dziennie około 20 000 tart ze śliwkami."
+    ]
+  },
+  "federal_day_of_thanksgiving": {
+    "intro": "Federalny Dzień Dziękczynienia, Pokuty i Modlitwy obchodzony jest w trzecią niedzielę września we wszystkich kantonach z wyjątkiem Genewy. Jest to ekumeniczny dzień refleksji, wspólny dla wszystkich wspólnot zakonnych.",
+    "history": "W czasach wojen i zarazy w kantonach od wieków odbywały się dni modlitw. W 1832 r. Sejm Federalny ustalił wspólną datę dla całego kraju, co było symbolem jedności ponad religijnym podziałem między kantonami katolickimi i protestanckimi, które właśnie walczyły ze sobą.",
+    "traditions": "Kościoły odprawiają wspólne nabożeństwa, a rządy kantonów wydają tradycyjne proklamacje na tematy istotne dla społeczeństwa. W kilku kantonach imprezy taneczne i sportowe są ograniczone, a następny poniedziałek jest w Vaud świętem.",
+    "funFacts": [
+      "Dzień nie ma stałego właściciela religijnego: biorą w nim udział katolicy, protestanci, żydzi i chrześcijańscy katolicy.",
+      "Nazwa wspomina o dziękczynieniu, pokucie i modlitwie, po jednym słowie na każdy cel.",
+      "Pierwszy federalny dzień modlitwy w 1832 roku odbył się w czasach, gdy Szwajcaria była jeszcze luźną konfederacją.",
+      "W Genewie odpowiednik Geneva Fast odbywa się dwa tygodnie wcześniej."
+    ]
+  },
+  "federal_fast_monday": {
+    "intro": "Poniedziałek po Federalnym Dniu Modlitwy „Lundi du Jeune federal” jest świętem państwowym w kantonie Vaud. Wydłuża wrześniowy dzień modlitw w długi weekend dla całego kantonu.",
+    "history": "Tylko Vaud zachował stary zwyczaj odpoczynku następnego dnia po poście, tak że niedziela pozostała dniem kultu, a poniedziałek dniem wolnym. Święto to występuje w kalendarzu kantonalnym od XIX wieku.",
+    "traditions": "Rodziny jedzą tartę śliwkową, klasyczne danie szwajcarskich dni postu, i wykorzystują ten dzień na ostatni letni spacer po winnicach Lavaux, gdzie rozpoczynają się zbiory winogron. Wielu Vaudois odwiedza krewnych lub wybiera się na krótką wycieczkę.",
+    "funFacts": [
+      "Vaud jest jedynym kantonem, w którym święto przypada w poniedziałek po dniu modlitwy.",
+      "Sezon na śliwki ma swój szczyt we wrześniu, co wyjaśnia tartę na stole.",
+      "Tarasowe winnice Lavaux nad Jeziorem Genewskim zostały wpisane na Listę Światowego Dziedzictwa UNESCO.",
+      "Sklepy w Lozannie pozostają zamknięte, natomiast w sąsiednich kantonach otwarte."
+    ]
+  },
+  "restoration_day": {
+    "intro": "Dzień Restauracji obchodzony 31 grudnia upamiętnia koniec francuskiego panowania nad Genewą w 1813 roku i odrodzenie Republiki Genewskiej. Jest to święto państwowe w kantonie, które zbiega się z Sylwestrem.",
+    "history": "Genewa została zaanektowana przez Francję w 1798 r. 31 grudnia 1813 r., wraz z upadkiem imperium Napoleona i zbliżaniem się wojsk austriackich, dawni sędziowie ogłosili przywrócenie republiki. Następnie Genewa dołączyła do Konfederacji Szwajcarskiej w 1815 roku.",
+    "traditions": "Rząd kantonu składa wieńce pod pomnikiem Restauracji i organizuje oficjalne przyjęcie, podczas gdy większość Genewańczyków po prostu cieszy się dniem wolnym przed rozpoczęciem obchodów Nowego Roku. Na starym mieście odbywają się drobne ceremonie, a na budynkach użyteczności publicznej wywieszane są flagi.",
+    "funFacts": [
+      "Genewa świętuje dwa wyzwolenia: Restaurację w grudniu i Escalade także w grudniu, tydzień wcześniej.",
+      "Oddziały szwajcarskie, które gwarantowały odbudowę, wylądowały w Port Noir 1 czerwca 1814 roku.",
+      "Genewa jest jedynym kantonem, w którym 31 grudnia przypada święto państwowe.",
+      "Pomnik Restauracji stoi w Jardin Anglais nad jeziorem."
+    ]
   }
 }

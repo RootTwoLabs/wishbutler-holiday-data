@@ -18,5 +18,60 @@
       "Den röda vallmon är en symbol för minnet.",
       "Gryningsceremonierna påminner om landstigningen vid gryningen vid Gallipoli 1915."
     ]
+  },
+  "matariki": {
+    "intro": "Matariki är maoriernas nyår, präglat av mittvinterns uppkomst av Plejadernas stjärnhop. Sedan 2022 har det varit en allmän helgdag på en fredag ​​i slutet av juni eller juli, den första att hedra te ao Maori, Maorivärlden.",
+    "history": "Maorinavigatörer och bönder såg på Matarikis återkomst före gryningen för att öppna det nya året och läsa den kommande säsongen från dess stjärnors ljusstyrka. Regeringen gjorde det till en allmän helgdag 2022, med datum fastställda av en rådgivande grupp av maoriastronomer.",
+    "traditions": "De tre principerna är att minnas de som har dött, att fira nuet och att se in i framtiden. Familjer samlas i gryningen för hautapu-ceremonin där mat erbjuds stjärnorna, dela en fest, flyga drakar och delta i ljusshower och konserter.",
+    "funFacts": [
+      "Klustret kallas Matariki, guden Tawhirimateas ögon, i maoritradition.",
+      "Den första allmänna helgdagen firades den 24 juni 2022.",
+      "Varje stjärna i klustret är kopplad till ett område av livet, som mat från havet eller vinden.",
+      "Datumet flyttas varje år med månkalendern och infaller alltid på en fredag."
+    ]
+  },
+  "kings_birthday": {
+    "intro": "Kungens födelsedag den första måndagen i juni är Nya Zeelands midvinterhelg. Liksom andra Commonwealth-riken markerar landet monarkens officiella snarare än faktiska födelsedag.",
+    "history": "Nya Zeeland har firat suveränens födelsedag sedan kolonialtiden, och den första måndagen i juni har använts sedan drottning Elizabeth II. Högtiden döptes om efter att kung Karl III efterträdde tronen 2022.",
+    "traditions": "Kungens födelsedag utmärkelser tillkännages, skidfälten i Queenstown och Ruapehu öppnar för säsongen och familjer använder långhelgen för en vintersemester. Wellington och Auckland är värd för vinterfestivaler och rugbysäsongen är i full gång.",
+    "funFacts": [
+      "Kung Karl III:s riktiga födelsedag är den 14 november.",
+      "Det är den sista helgdagen före Matariki och Labor Day på våren.",
+      "Många kiwier tar ledigt på fredag ​​för att göra en fyradagarshelg.",
+      "Hederslistan inkluderar ofta All Blacks och filmskapare."
+    ]
+  },
+  "labour_day_nz": {
+    "intro": "Labor Day den fjärde måndagen i oktober firar den åtta timmar långa arbetsdagen och är Nya Zeelands första långhelg på våren.",
+    "history": "Snickaren Samuel Parnell vägrade arbeta mer än åtta timmar om dagen när han anlände till Wellington 1840, och hans monter blev landets arbetartradition. De första Labor Day-paraderna hölls 1890, och dagen blev en allmän helgdag 1900.",
+    "traditions": "Kiwi planterar sina grönsaksträdgårdar, eftersom Labor Day är det traditionella datumet efter vilket frost är osannolik. Stränder och campingplatser ser sina första folkmassor för säsongen, och många städer håller vårshower och marknader.",
+    "funFacts": [
+      "Nya Zeeland var ett av de första länderna i världen som vann den åtta timmar långa dagen.",
+      "Trädgårdsmästare säger att tomater inte bör gå in före Labor Day.",
+      "Samuel Parnells grav i Wellington bär orden \"De åtta timmarnas far\".",
+      "Semestern flyttades till en måndag 1910 för att skapa en långhelg."
+    ]
+  },
+  "auckland_anniversary_day": {
+    "intro": "Auckland Anniversary Day, på måndagen närmast den 29 januari, markerar grundandet av provinsen 1840. Det är en allmän helgdag för Auckland och Northland och den största sommarhelgen i regionen.",
+    "history": "Guvernör William Hobson anlände till Bay of Islands den 29 januari 1840, en vecka innan Waitangifördraget undertecknades, och Auckland blev huvudstad senare samma år. Jubileet har firats med en seglarregatta sedan 1840.",
+    "traditions": "Aucklands jubileumsregatta fyller Waitemata Harbor med yachter, bogserbåtar och waka. Staden är också värd för Buskers-festivalen och lyktaevenemang, och tusentals beger sig till stränderna i Hauraki-bukten.",
+    "funFacts": [
+      "Regattan gör anspråk på att vara det största endagssegelevenemanget i världen.",
+      "Auckland har smeknamnet Segelstaden eftersom den har fler båtar per person än någon annan stad.",
+      "Northland firar samma dag även om det har sina egna historiska anspråk på den 29 januari.",
+      "Regattan inkluderar till och med en bogserbåtstävling över hamnen."
+    ]
+  },
+  "wellington_anniversary_day": {
+    "intro": "Wellington Anniversary Day, måndagen närmast den 22 januari, firar de första organiserade nybyggarnas ankomst 1840. Det är en allmän helgdag i Wellington-regionen och en del av sommarlovssäsongen.",
+    "history": "New Zealand Companys fartyg Aurora ankrade vid Petone den 22 januari 1840 med de första nybyggarna, som snart flyttade över hamnen för att hitta Wellington. Staden blev huvudstad 1865.",
+    "traditions": "Wellington firar med hästkapplöpningen Wellington Cup, hamnbad och sommarens stadsprogram med konserter och utomhusbio. Familjer tillbringar dagen vid vattnet eller i vinlandet Wairarapa.",
+    "funFacts": [
+      "Bosättarna landade först vid Petone, men översvämningar drev dem till platsen för dagens stad.",
+      "Wellington är den sydligaste huvudstaden i världen.",
+      "Staden firar jubileum innan den ens existerade: nybyggarna anlände ett år tidigare.",
+      "Wellington Cup är en av de äldsta hästkapplöpningarna i landet."
+    ]
   }
 }

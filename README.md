@@ -66,3 +66,20 @@ npm run build        # fetch sources -> write data/ -> rebuild index.json
 ```
 
 CI (`.github/workflows/build.yml`) runs the generators, commits `data/`, and tags a release.
+
+### Adding articles + images for a holiday
+
+1. Register the slug in `content/key-map.mjs` (`COUNTRY_ARTICLE_MAP` + `NAMESPACED_SLUGS`
+   for country-specific holidays; global holidays go straight into `content/articles/<locale>.json`).
+2. Write the article in `content/articles/<CC>/en.json` and `de.json` (fields `intro`, `history`,
+   `traditions`, `funFacts`; keep `intro` ≤ 280 chars, 3–5 fun facts ≤ 160 chars each).
+3. `node scripts/translate-articles-google.mjs` fills the remaining locales (keyless Google endpoint,
+   only slugs that are still missing, hand-written texts are never overwritten).
+4. Add search terms to `content/image-queries.mjs`, then `node scripts/fetch-images.mjs [CC/slug …]`.
+   Review the results — `node scripts/curate-images.mjs promote|drop <dir> <n>` swaps the hero image
+   or removes a bad hit (keeps `CREDITS.md` in sync). Re-fetch a single target with `--force CC/slug`.
+5. `npm run build:articles && npm run build:index && npm run validate`.
+
+Alias slugs (Nager's observed variants such as `christmas_day`, Eid follow-up days, "tentative"
+dates) automatically reuse the canonical slug's article and images — see `ARTICLE_ALIASES` /
+`canonicalArticleSlug()` in `content/key-map.mjs`.

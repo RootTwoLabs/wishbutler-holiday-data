@@ -20,5 +20,38 @@
       "Les enfants portent des lanternes faites main lors de défilés.",
       "L’oie rôtie, la « Martinigans », est le plat traditionnel."
     ]
+  },
+  "saint_florians_day": {
+    "intro": "La Saint-Florian, le 4 mai, rend hommage au saint patron de la Haute-Autriche et des pompiers. Les écoles et les bureaux ferment en Haute-Autriche et les pompiers de tout le pays célèbrent leur protecteur.",
+    "history": "Florian était un officier romain qui refusa de persécuter les chrétiens et se noya dans la rivière Enns avec une meule autour du cou en 304, près de l'actuelle Enns. Le monastère de Sankt Florian s'est développé autour de sa tombe et son culte s'est répandu en Autriche, en Bavière et en Pologne.",
+    "traditions": "Les pompiers organisent des défilés en uniforme, font bénir leurs véhicules et célèbrent avec de la bière et des fanfares. Les statues de Florian, qui versent généralement un seau d'eau sur une maison en feu, se dressent sur d'innombrables places de village et sur les façades des maisons.",
+    "funFacts": [
+      "Le \"principe de Florian\" décrit la transmission d'un problème à quelqu'un d'autre, après une prière plaisante au saint.",
+      "L'Autriche compte environ 4 500 pompiers volontaires et la plupart célèbrent cette journée.",
+      "Le monastère de Sankt Florian abritait le compositeur Anton Bruckner, enterré sous son orgue.",
+      "Le saint est également le patron des ramoneurs, des brasseurs et des savonniers."
+    ]
+  },
+  "saint_ruperts_day": {
+    "intro": "La Saint-Rupert, le 24 septembre, est la fête nationale de Salzbourg. Elle rend hommage à l'évêque qui a fondé la ville vers 700 et est célébrée avec le Rupertikirtag, une foire de cinq jours sur la place de la cathédrale.",
+    "history": "Rupert de Worms arriva sur les ruines de l'Iuvavum romain vers 696, fonda l'abbaye Saint-Pierre et le couvent de Nonnberg et relança le commerce du sel qui donna son nom à Salzbourg. Il devient le premier évêque de la ville et reste le patron de l'État et de l'archidiocèse.",
+    "traditions": "Le Rupertikirtag remplit les places autour de la cathédrale de manèges, d'étals de marché, de fanfares et de costumes traditionnels. Les Salzbourgeois s'habillent en dirndl et en lederhosen, mangent du poulet rôti et des beignets Kirtag et portent un toast au saint avec de la bière locale.",
+    "funFacts": [
+      "Rupert est généralement représenté avec un tonneau de sel, source de la richesse de Salzbourg.",
+      "Le Rupertikirtag a été relancé en 1977 et attire aujourd'hui plus de 100 000 visiteurs.",
+      "Les écoles de Salzbourg ont un jour de congé et les bureaux publics ferment.",
+      "La cathédrale abrite les reliques de Rupert, déplacées là en 774."
+    ]
+  },
+  "saint_leopolds_day": {
+    "intro": "La Saint-Léopold, le 15 novembre, est la fête nationale de Vienne et de Basse-Autriche. Il rend hommage au margrave Léopold III de Babenberg, saint patron de l'Autriche, et est célébré de manière plus célèbre à l'abbaye de Klosterneuburg.",
+    "history": "Léopold régna sur la Marche de l'Est de 1095 à 1136 et fonda l'abbaye de Klosterneuburg en 1114. La légende raconte que Marie lui montra le site en rendant le voile perdu de sa femme, pris dans un buisson de sureau. Il fut canonisé en 1485 et nommé patron de l'Autriche en 1663.",
+    "traditions": "Des milliers de personnes se rendent à Klosterneuburg pour la foire Leopoldi et pour descendre le tonneau de vin géant, une coutume censée porter chance. Les écoles et les bureaux de Vienne et de Basse-Autriche ferment et l'abbaye ouvre aux visiteurs le tombeau de Léopold et l'autel de Verdun.",
+    "funFacts": [
+      "Le tonneau utilisé pour le \"Fasslrutschen\" contient 56 000 litres et a été construit en 1704.",
+      "Léopold refusa la couronne royale allemande en 1125.",
+      "Le vin nouveau de l'année est traditionnellement dégusté sur Leopoldi.",
+      "La légende du voile explique pourquoi les armoiries de l'abbaye montrent un voile."
+    ]
   }
 }

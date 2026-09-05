@@ -18,5 +18,60 @@
       "Il papavero rosso è il simbolo del ricordo.",
       "Le funzioni all’alba richiamano lo sbarco all’alba a Gallipoli nel 1915."
     ]
+  },
+  "matariki": {
+    "intro": "Matariki è il Capodanno Maori, caratterizzato dal sorgere in pieno inverno dell'ammasso stellare delle Pleiadi. Dal 2022 è giorno festivo il venerdì di fine giugno o luglio, il primo per onorare te ao Maori, il mondo maori.",
+    "history": "I navigatori e gli agricoltori Maori attendevano il ritorno di Matariki prima dell'alba per aprire il nuovo anno e leggere la prossima stagione dallo splendore delle sue stelle. Il governo lo ha reso un giorno festivo nel 2022, con date stabilite da un gruppo consultivo di astronomi Maori.",
+    "traditions": "I tre principi ricordano coloro che sono morti, celebrano il presente e guardano al futuro. Le famiglie si riuniscono all'alba per la cerimonia hautapu in cui viene offerto cibo alle stelle, si condivide un banchetto, si fanno volare gli aquiloni e si assiste a spettacoli di luci e concerti.",
+    "funFacts": [
+      "L'ammasso si chiama Matariki, gli occhi del dio Tawhirimatea, nella tradizione Maori.",
+      "Il primo giorno festivo è stato celebrato il 24 giugno 2022.",
+      "Ogni stella dell'ammasso è collegata a un'area della vita, come il cibo proveniente dal mare o dal vento.",
+      "La data si sposta ogni anno con il calendario lunare e cade sempre di venerdì."
+    ]
+  },
+  "kings_birthday": {
+    "intro": "Il compleanno del Re, il primo lunedì di giugno, è il lungo weekend di metà inverno della Nuova Zelanda. Come altri regni del Commonwealth, il paese celebra il compleanno ufficiale piuttosto che quello effettivo del monarca.",
+    "history": "La Nuova Zelanda festeggia il compleanno del sovrano sin dall'epoca coloniale, e il primo lunedì di giugno viene utilizzato sin dal regno della regina Elisabetta II. La festa è stata ribattezzata dopo che il re Carlo III è salito al trono nel 2022.",
+    "traditions": "Vengono annunciati gli onori del compleanno del re, i campi da sci di Queenstown e Ruapehu aprono per la stagione e le famiglie sfruttano il lungo weekend per una vacanza invernale. Wellington e Auckland ospitano festival invernali e la stagione del rugby è in pieno svolgimento.",
+    "funFacts": [
+      "Il vero compleanno di Re Carlo III è il 14 novembre.",
+      "È l'ultimo giorno festivo prima di Matariki e del Labor Day in primavera.",
+      "Molti neozelandesi si prendono il venerdì libero per trascorrere un fine settimana di quattro giorni.",
+      "La lista dei riconoscimenti include spesso All Blacks e registi."
+    ]
+  },
+  "labour_day_nz": {
+    "intro": "Il Labor Day, il quarto lunedì di ottobre, celebra la giornata lavorativa di otto ore ed è il primo lungo fine settimana primaverile della Nuova Zelanda.",
+    "history": "Il falegname Samuel Parnell rifiutò di lavorare più di otto ore al giorno quando arrivò a Wellington nel 1840, e la sua posizione divenne la tradizione lavorativa del paese. Le prime parate del Labor Day si tennero nel 1890 e la giornata divenne un giorno festivo nel 1900.",
+    "traditions": "I Kiwi piantano i loro orti, poiché il Labor Day è la data tradizionale dopo la quale il gelo è improbabile. Le spiagge e i campeggi vedono la prima folla della stagione, e molte città organizzano spettacoli e mercatini primaverili.",
+    "funFacts": [
+      "La Nuova Zelanda è stata uno dei primi paesi al mondo a vincere la giornata di otto ore.",
+      "I giardinieri dicono che i pomodori non dovrebbero essere coltivati ​​prima del Labor Day.",
+      "La tomba di Samuel Parnell a Wellington porta le parole \"Padre delle otto ore\".",
+      "Nel 1910 la festività fu spostata al lunedì per creare un lungo fine settimana."
+    ]
+  },
+  "auckland_anniversary_day": {
+    "intro": "Auckland Anniversary Day, il lunedì più vicino al 29 gennaio, segna la fondazione della provincia nel 1840. È un giorno festivo per Auckland e Northland e il più grande fine settimana estivo della regione.",
+    "history": "Il governatore William Hobson arrivò nella Baia delle Isole il 29 gennaio 1840, una settimana prima della firma del Trattato di Waitangi, e Auckland divenne la capitale più tardi quell'anno. Dal 1840 l'anniversario viene festeggiato con una regata velica.",
+    "traditions": "La regata dell'anniversario di Auckland riempie il porto di Waitemata di yacht, rimorchiatori e waka. La città ospita anche il Buskers Festival e gli eventi delle lanterne, e migliaia di persone si dirigono verso le spiagge del Golfo di Hauraki.",
+    "funFacts": [
+      "La regata è considerata il più grande evento velico di un giorno al mondo.",
+      "Auckland è soprannominata la città delle vele perché ha più barche per abitante di qualsiasi altra città.",
+      "Northland celebra lo stesso giorno anche se storicamente rivendica il 29 gennaio.",
+      "La regata prevede anche una corsa di rimorchiatori attraverso il porto."
+    ]
+  },
+  "wellington_anniversary_day": {
+    "intro": "Il Wellington Anniversary Day, il lunedì più vicino al 22 gennaio, commemora l'arrivo dei primi coloni organizzati nel 1840. È un giorno festivo nella regione di Wellington e fa parte della stagione delle vacanze estive.",
+    "history": "La nave Aurora della Compagnia neozelandese ancorò a Petone il 22 gennaio 1840 con i primi coloni, che presto attraversarono il porto per fondare Wellington. La città divenne capitale nel 1865.",
+    "traditions": "Wellington festeggia con la corsa di cavalli della Wellington Cup, le nuotate nel porto e il programma estivo cittadino di concerti e cinema all'aperto. Le famiglie trascorrono la giornata sul lungomare o nella regione vinicola di Wairarapa.",
+    "funFacts": [
+      "I coloni sbarcarono inizialmente a Petone, ma le inondazioni li spinsero verso il sito della città odierna.",
+      "Wellington è la capitale più meridionale del mondo.",
+      "La città festeggia il suo anniversario prima ancora che esistesse: i coloni arrivarono un anno prima.",
+      "La Wellington Cup è una delle corse di cavalli più antiche del paese."
+    ]
   }
 }

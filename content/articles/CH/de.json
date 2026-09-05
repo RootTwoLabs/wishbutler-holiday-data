@@ -20,5 +20,71 @@
       "Nüsse und Nussspiele sind ein traditioneller Brauch.",
       "Sein genauer Ursprung bleibt unklar und umstritten."
     ]
+  },
+  "republic_day": {
+    "intro": "Am 1. März feiert der Kanton Neuenburg den Tag der Republik, den Jahrestag der Revolution von 1848, die die preußische Herrschaft beendete. Er ist kantonaler Feiertag und ein Tag der Märsche, Fackeln und Mahlzeiten am offenen Feuer.",
+    "history": "Ab 1815 war Neuenburg zugleich Schweizer Kanton und Fürstentum des preußischen Königs. Am 1. März 1848 zogen Republikaner aus den Uhrmacherstädten La Chaux-de-Fonds und Le Locle hinunter zum Schloss in Neuenburg und riefen ohne Blutvergießen die Republik aus. Preußen gab seinen Anspruch 1857 endgültig auf.",
+    "traditions": "Jedes Jahr gehen Wanderer nachts den Weg der Revolutionäre über den Pass Vue des Alpes nach und erreichen am Morgen das Schloss. Familien treffen sich zur „Torrée“, Würsten aus der Glut eines offenen Feuers, und die Kantonsregierung lädt zu einer offiziellen Feier.",
+    "funFacts": [
+      "Der Marsch führt rund 20 Kilometer durch den Schnee des Juras.",
+      "Der König von Preußen hat sein Fürstentum Neuenburg nie betreten.",
+      "Neuenburg wurde als letzter Schweizer Kanton eine Republik.",
+      "Die Torrée ist so typisch, dass Neuenburg sich Kanton der Feuerwurst nennt."
+    ]
+  },
+  "nafels_procession": {
+    "intro": "Die Näfelser Fahrt am ersten Donnerstag im April ist der kantonale Feiertag von Glarus. Sie erinnert an die Schlacht bei Näfels 1388, in der die Glarner ein weit überlegenes habsburgisches Heer schlugen.",
+    "history": "Am 9. April 1388 schlugen wenige hundert Glarner, begünstigt durch Nebel und Steinlawinen, ein österreichisches Heer bei Näfels und sicherten die Freiheit des Tals. Die jährliche Wallfahrt zum Schlachtfeld findet seit 1389 statt und ist damit eine der ältesten Gedenkfeiern der Schweiz.",
+    "traditions": "Eine Prozession mit Kantonsbehörden, Geistlichen und einer militärischen Ehrenwache zieht von Glarus nach Näfels und hält an elf Gedenksteinen, wo die Namen der Gefallenen verlesen werden. Es folgen eine Messe und ein reformierter Gottesdienst, die Glarner Fahne führt den Zug an.",
+    "funFacts": [
+      "Der Feiertag ist einer der ganz wenigen in der Schweiz, der an eine Schlacht erinnert.",
+      "Katholiken und Reformierte teilen sich die Prozession seit dem 18. Jahrhundert.",
+      "Der Legende nach rollten die Glarner Felsbrocken die Hänge hinunter auf die österreichischen Ritter.",
+      "Schulkinder tragen die Namen der Gefallenen durch das Dorf."
+    ]
+  },
+  "geneva_prayday": {
+    "intro": "Der Genfer Bettag, Jeûne genevois, findet am Donnerstag nach dem ersten Septembersonntag statt und ist nur im Kanton Genf Feiertag. Sein Wahrzeichen ist die Zwetschgenwähe.",
+    "history": "Genf hielt seit dem 16. Jahrhundert Fast- und Bettage, und die Tradition verbindet das Septemberdatum mit der Trauer um die in der Bartholomäusnacht 1572 ermordeten Hugenotten. Der Kanton legte das heutige Datum 1831 fest, lange vor dem eidgenössischen Bettag.",
+    "traditions": "Die Genfer essen „Tarte aux pruneaux“, eine Zwetschgenwähe, die einst die einzige erlaubte einfache Speise am Fasttag war. Heute ist der Feiertag vor allem ein langes Wochenende für Wanderungen und Familienbesuche, während die Bäckereien Tausende Wähen verkaufen.",
+    "funFacts": [
+      "Die Zwetschgenwähe soll erfunden worden sein, damit Familien am Fasttag ohne Kochen essen konnten.",
+      "Genf begeht den eidgenössischen Bettag zwei Wochen später nicht.",
+      "Der Feiertag ist der einzige offizielle Fasttag, der noch im Schweizer Kalender steht.",
+      "Genfer Bäcker verkaufen an diesem Tag rund 20.000 Zwetschgenwähen."
+    ]
+  },
+  "federal_day_of_thanksgiving": {
+    "intro": "Der Eidgenössische Dank-, Buss- und Bettag wird am dritten Sonntag im September in allen Kantonen außer Genf begangen. Er ist ein ökumenischer Tag der Besinnung, den alle Religionsgemeinschaften teilen.",
+    "history": "Die Kantone hielten jahrhundertelang Bettage in Kriegs- und Pestzeiten. 1832 legte die Tagsatzung ein gemeinsames Datum für das ganze Land fest, ein Zeichen der Einheit über den Graben zwischen katholischen und reformierten Kantonen hinweg, die einander gerade noch bekämpft hatten.",
+    "traditions": "Die Kirchen feiern gemeinsame Gottesdienste, und die Kantonsregierungen veröffentlichen ein traditionelles Bettagsmandat zu einem Thema von öffentlichem Belang. In mehreren Kantonen sind Tanz und Sportveranstaltungen eingeschränkt, und im Waadtland ist der folgende Montag frei.",
+    "funFacts": [
+      "Der Tag gehört keiner Konfession: Katholiken, Reformierte, Juden und Christkatholiken nehmen teil.",
+      "Der Name nennt Dank, Buße und Gebet, ein Wort für jeden Zweck.",
+      "Der erste eidgenössische Bettag 1832 fand statt, als die Schweiz noch ein lockerer Staatenbund war.",
+      "In Genf findet das Gegenstück, der Genfer Bettag, zwei Wochen früher statt."
+    ]
+  },
+  "federal_fast_monday": {
+    "intro": "Der Montag nach dem Eidgenössischen Bettag, „Lundi du Jeûne fédéral“, ist im Kanton Waadt Feiertag. Er verlängert den Bettag im September für den ganzen Kanton zu einem langen Wochenende.",
+    "history": "Allein die Waadt behielt den alten Brauch bei, am Tag nach dem Fasten zu ruhen, sodass der Sonntag dem Gottesdienst und der Montag der Erholung gehört. Der Feiertag steht seit dem 19. Jahrhundert im kantonalen Kalender.",
+    "traditions": "Familien essen Zwetschgenwähe, das klassische Gericht der Schweizer Fasttage, und nutzen den Tag für einen letzten Sommerspaziergang durch die Rebberge des Lavaux, wo die Weinlese kurz bevorsteht. Viele Waadtländer besuchen Verwandte oder machen einen Kurzausflug.",
+    "funFacts": [
+      "Die Waadt ist der einzige Kanton mit einem Feiertag am Montag nach dem Bettag.",
+      "Die Zwetschgensaison hat im September ihren Höhepunkt, daher die Wähe auf dem Tisch.",
+      "Die Rebterrassen des Lavaux über dem Genfersee sind UNESCO-Welterbe.",
+      "Die Läden in Lausanne bleiben geschlossen, während die in den Nachbarkantonen öffnen."
+    ]
+  },
+  "restoration_day": {
+    "intro": "Der Tag der Restauration am 31. Dezember erinnert an das Ende der französischen Herrschaft über Genf 1813 und die Wiedergeburt der Republik Genf. Er ist kantonaler Feiertag und fällt mit Silvester zusammen.",
+    "history": "Genf war 1798 von Frankreich annektiert worden. Am 31. Dezember 1813, als Napoleons Reich zerfiel und österreichische Truppen näher rückten, riefen die früheren Magistraten die Wiederherstellung der Republik aus. 1815 trat Genf der Eidgenossenschaft bei.",
+    "traditions": "Die Kantonsregierung legt Kränze am Restaurationsdenkmal nieder und lädt zu einem offiziellen Empfang, während die meisten Genfer einfach einen freien Tag vor den Silvesterfeiern genießen. In der Altstadt gibt es kleine Zeremonien, und an öffentlichen Gebäuden wehen Fahnen.",
+    "funFacts": [
+      "Genf feiert im Dezember zwei Befreiungen: die Escalade eine Woche zuvor und die Restauration am 31.",
+      "Die Schweizer Truppen, die die Restauration absicherten, landeten am 1. Juni 1814 am Port Noir.",
+      "Genf ist der einzige Kanton mit einem Feiertag am 31. Dezember.",
+      "Das Restaurationsdenkmal steht im Jardin Anglais am See."
+    ]
   }
 }

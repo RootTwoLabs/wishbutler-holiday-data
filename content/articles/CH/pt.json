@@ -20,5 +20,71 @@
       "As nozes e os jogos com nozes são um costume tradicional.",
       "A sua origem exata permanece incerta e discutida."
     ]
+  },
+  "republic_day": {
+    "intro": "No dia 1 de março, o cantão de Neuchatel comemora o Dia da República, o aniversário da revolução de 1848 que pôs fim ao domínio prussiano. É feriado no cantão e dia de marchas, archotes e refeições ao ar livre.",
+    "history": "A partir de 1815, Neuchatel era um cantão suíço e um principado do rei da Prússia. A 1 de março de 1848, os republicanos marcharam das cidades relojoeiras de La Chaux-de-Fonds e Le Locle até ao castelo de Neuchatel e proclamaram a república sem derramamento de sangue. A Prússia desistiu finalmente da sua reivindicação em 1857.",
+    "traditions": "Todos os anos os caminhantes refazem a rota dos revolucionários pela passagem Vue des Alpes à noite, chegando ao castelo de manhã. As famílias reúnem-se para uma \"torree\", salsichas cozinhadas nas brasas de uma fogueira, e o governo cantonal organiza uma cerimónia oficial.",
+    "funFacts": [
+      "A marcha percorre cerca de 20 quilómetros pela neve das montanhas do Jura.",
+      "O rei da Prússia nunca pôs os pés no seu principado de Neuchatel.",
+      "Neuchatel foi o último cantão suíço a tornar-se uma república.",
+      "A torree é tão típica que Neuchatel se auto-intitula o cantão da salsicha ao fogo."
+    ]
+  },
+  "nafels_procession": {
+    "intro": "A Procissão de Nafels na primeira quinta-feira de abril é o feriado cantonal de Glarus. Comemora a Batalha de Nafels em 1388, quando o povo de Glarus derrotou um exército muito maior dos Habsburgos.",
+    "history": "A 9 de Abril de 1388, algumas centenas de homens de Glarus, ajudados pelo nevoeiro e pelos deslizamentos de rochas, derrotaram uma força austríaca em Nafels e garantiram a liberdade do vale. A peregrinação anual ao campo de batalha realiza-se desde 1389, sendo uma das comemorações mais antigas da Suíça.",
+    "traditions": "Um cortejo com oficiais cantonais, clérigos e uma guarda de honra militar caminha de Glarus até Nafels, parando junto a onze pedras memoriais onde são lidos os nomes dos mortos. Segue-se uma missa e um serviço religioso protestante, e a bandeira Glarus é transportada à frente da marcha.",
+    "funFacts": [
+      "O feriado é um dos poucos na Suíça que celebra uma batalha.",
+      "Católicos e protestantes partilham o cortejo desde o século XVIII.",
+      "A lenda diz que os homens de Glarus rolaram pedras pelas encostas sobre os cavaleiros austríacos.",
+      "Os alunos transportam os nomes dos caídos pela aldeia."
+    ]
+  },
+  "geneva_prayday": {
+    "intro": "O Jejum de Genebra, Jeune genevois, é realizado na quinta-feira após o primeiro domingo de setembro e é feriado apenas no cantão de Genebra. O seu símbolo é a tarte de ameixa.",
+    "history": "Genebra tem realizado dias de jejum e oração desde o século XVI, e a tradição liga a data de setembro ao luto pelos huguenotes mortos no massacre do Dia de São Bartolomeu, em 1572. O cantão fixou a data atual em 1831, muito antes do dia federal de oração.",
+    "traditions": "Os genebrinos comem \"tarte aux pruneaux\", uma tarte de ameixa, que já foi o prato simples permitido em dias de jejum. Hoje o feriado é sobretudo um fim de semana prolongado para caminhadas e visitas familiares, enquanto as padarias vendem milhares de tartes.",
+    "funFacts": [
+      "Diz-se que a tarte de ameixa foi inventada para que as famílias pudessem comer sem cozinhar num dia de jejum.",
+      "Genebra não observa o dia federal de oração duas semanas depois.",
+      "O feriado é o único dia oficial de jejum ainda no calendário suíço.",
+      "Os pasteleiros em Genebra vendem cerca de 20.000 tartes de ameixa por dia."
+    ]
+  },
+  "federal_day_of_thanksgiving": {
+    "intro": "O Dia Federal de Ação de Graças, Arrependimento e Oração é realizado no terceiro domingo de setembro em todos os cantões, exceto Genebra. É um dia ecuménico de reflexão partilhado por todas as comunidades religiosas.",
+    "history": "Os cantões realizaram dias de oração em tempos de guerra e peste durante séculos. Em 1832, a Dieta Federal fixou uma data comum para todo o país, um símbolo de unidade através da divisão religiosa entre cantões católicos e protestantes que acabavam de lutar entre si.",
+    "traditions": "As igrejas realizam serviços conjuntos e os governos cantonais emitem uma proclamação tradicional sobre um tema de interesse público. Em vários cantões, a dança e os eventos desportivos são restritos, e a segunda-feira seguinte é feriado em Vaud.",
+    "funFacts": [
+      "O dia não tem um dono religioso fixo: participam católicos, protestantes, judeus e cristãos católicos.",
+      "O nome menciona ação de graças, arrependimento e oração, uma palavra para cada propósito.",
+      "O primeiro dia federal de oração em 1832 foi realizado enquanto a Suíça era ainda uma confederação pouco rígida.",
+      "Em Genebra o equivalente, o Jejum de Genebra, realiza-se duas semanas antes."
+    ]
+  },
+  "federal_fast_monday": {
+    "intro": "A segunda-feira seguinte ao Dia Federal de Oração, \"Lundi du Jeune federal\", é feriado no cantão de Vaud. Prolonga o dia de oração de setembro num fim de semana prolongado para todo o cantão.",
+    "history": "Vaud sozinho manteve o antigo costume de descansar no dia seguinte ao jejum, de modo que o domingo permaneceu um dia de culto e a segunda-feira um dia de lazer. O feriado está no calendário cantonal desde o século XIX.",
+    "traditions": "As famílias comem tarte de ameixa, o prato clássico dos dias de jejum suíços, e aproveitam o dia para um passeio no último verão pelas vinhas de Lavaux, onde a colheita das uvas está prestes a começar. Muitos valdenses visitam familiares ou fazem uma curta viagem.",
+    "funFacts": [
+      "Vaud é o único cantão que tem feriado na segunda-feira após o dia de oração.",
+      "A época da ameixa atinge o pico em setembro, o que explica a tarte na mesa.",
+      "As vinhas em socalcos de Lavaux, acima do Lago Genebra, são Património Mundial da UNESCO.",
+      "As lojas em Lausanne permanecem fechadas enquanto as dos cantões vizinhos abrem."
+    ]
+  },
+  "restoration_day": {
+    "intro": "O Dia da Restauração, a 31 de dezembro, comemora o fim do domínio francês sobre Genebra em 1813 e o renascimento da República de Genebra. É feriado no cantão e coincide com a véspera de Ano Novo.",
+    "history": "Genebra foi anexada pela França em 1798. A 31 de dezembro de 1813, quando o império de Napoleão entrou em colapso e as tropas austríacas se aproximaram, os antigos magistrados proclamaram a restauração da república. Genebra aderiu então à Confederação Suíça em 1815.",
+    "traditions": "O governo cantonal deposita coroas de flores no monumento da Restauração e realiza uma receção oficial, enquanto a maioria dos genebrinos simplesmente aproveita um dia de folga antes do início das celebrações do Ano Novo. A cidade velha acolhe pequenas cerimónias e bandeiras hasteadas em edifícios públicos.",
+    "funFacts": [
+      "Genebra celebra duas libertações: a Restauração em Dezembro e a Escalada também em Dezembro, uma semana antes.",
+      "As tropas suíças que garantiram o restauro desembarcaram em Port Noir a 1 de junho de 1814.",
+      "Genebra é o único cantão com feriado no dia 31 de dezembro.",
+      "O monumento à Restauração está no Jardin Anglais, à beira do lago."
+    ]
   }
 }

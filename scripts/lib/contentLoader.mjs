@@ -5,9 +5,10 @@ import {
   CONTENT_LOCALES,
   NAMESPACED_SLUGS,
   countriesForNamespacedSlug,
+  canonicalArticleSlug,
 } from '../../content/key-map.mjs';
 
-export { CONTENT_LOCALES, NAMESPACED_SLUGS };
+export { CONTENT_LOCALES, NAMESPACED_SLUGS, canonicalArticleSlug };
 
 export function slugFromLabelKey(labelKey) {
   return labelKey.startsWith('holidays.') ? labelKey.slice('holidays.'.length) : labelKey;
@@ -51,8 +52,21 @@ export async function loadCountryArticles(contentRoot) {
 /**
  * Resolves article for a slug in a given country/locale.
  * Namespaced slugs prefer country content; globals use shared content.
+ *
+ * Alias-Slugs (z. B. `christmas_day` = Nagers "observed"-Variante von
+ * `christmas`, `eid_al_adha_second_day` -> `eid_al_adha_first_day`) fallen
+ * auf den kanonischen Slug zurueck, wenn sie selbst keinen Artikel haben —
+ * siehe canonicalArticleSlug() in content/key-map.mjs.
  */
 export function resolveArticle(slug, countryCode, locale, globalArticles, countryArticles) {
+  const direct = resolveArticleExact(slug, countryCode, locale, globalArticles, countryArticles);
+  if (direct) return direct;
+  const canonical = canonicalArticleSlug(slug);
+  if (canonical === slug) return null;
+  return resolveArticleExact(canonical, countryCode, locale, globalArticles, countryArticles);
+}
+
+function resolveArticleExact(slug, countryCode, locale, globalArticles, countryArticles) {
   const isNamespaced = NAMESPACED_SLUGS.has(slug);
   const owners = countriesForNamespacedSlug(slug);
 

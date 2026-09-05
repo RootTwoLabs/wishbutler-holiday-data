@@ -18,5 +18,60 @@
       "La amapola roja es el símbolo del recuerdo.",
       "Los oficios al amanecer evocan el desembarco matutino en Gallipoli en 1915."
     ]
+  },
+  "matariki": {
+    "intro": "Matariki es el Año Nuevo maorí, marcado por la salida del cúmulo estelar de las Pléyades en pleno invierno. Desde 2022 es festivo el viernes de finales de junio o julio, el primero en honrar a te ao Maori, el mundo maorí.",
+    "history": "Navegantes y agricultores maoríes esperaban el regreso de Matariki antes del amanecer para abrir el nuevo año y leer la próxima temporada desde el brillo de sus estrellas. El gobierno lo convirtió en día festivo en 2022, con fechas fijadas por un grupo asesor de astrónomos maoríes.",
+    "traditions": "Los tres principios son recordar a los que han muerto, celebrar el presente y mirar hacia el futuro. Las familias se reúnen al amanecer para la ceremonia del hautapu en la que se ofrece comida a las estrellas, comparten un festín, vuelan cometas y asisten a espectáculos de luces y conciertos.",
+    "funFacts": [
+      "El grupo se llama Matariki, los ojos del dios Tawhirimatea, en la tradición maorí.",
+      "El primer día festivo se celebró el 24 de junio de 2022.",
+      "Cada estrella del cúmulo está vinculada a un área de vida, como el alimento del mar o el viento.",
+      "La fecha se mueve cada año con el calendario lunar y siempre cae en viernes."
+    ]
+  },
+  "kings_birthday": {
+    "intro": "El cumpleaños de King, el primer lunes de junio, es el fin de semana largo de mediados de invierno en Nueva Zelanda. Al igual que otros reinos de la Commonwealth, el país marca el cumpleaños oficial del monarca en lugar del cumpleaños real.",
+    "history": "Nueva Zelanda ha celebrado el cumpleaños del soberano desde la época colonial, y el primer lunes de junio se utiliza desde el reinado de la reina Isabel II. La festividad pasó a llamarse después de que el rey Carlos III sucediera en el trono en 2022.",
+    "traditions": "Se anuncian los honores del cumpleaños del Rey, las pistas de esquí de Queenstown y Ruapehu abren para la temporada y las familias utilizan el fin de semana largo para una escapada de invierno. Wellington y Auckland acogen festivales de invierno y la temporada de rugby está en pleno apogeo.",
+    "funFacts": [
+      "El verdadero cumpleaños del rey Carlos III es el 14 de noviembre.",
+      "Es el último día festivo antes de Matariki y el Día del Trabajo en primavera.",
+      "Muchos neozelandeses se toman el viernes libre para disfrutar de un fin de semana de cuatro días.",
+      "La lista de honores a menudo incluye a All Blacks y cineastas."
+    ]
+  },
+  "labour_day_nz": {
+    "intro": "El Día del Trabajo, el cuarto lunes de octubre, celebra la jornada laboral de ocho horas y es el primer fin de semana largo de la primavera en Nueva Zelanda.",
+    "history": "El carpintero Samuel Parnell se negó a trabajar más de ocho horas al día cuando llegó a Wellington en 1840, y su postura se convirtió en una tradición laboral del país. Los primeros desfiles del Día del Trabajo se llevaron a cabo en 1890 y el día se convirtió en feriado en 1900.",
+    "traditions": "Los kiwis plantan sus huertos, ya que el Día del Trabajo es la fecha tradicional después de la cual es poco probable que se produzcan heladas. Las playas y los campamentos reciben las primeras multitudes de la temporada, y muchas ciudades celebran espectáculos y mercados de primavera.",
+    "funFacts": [
+      "Nueva Zelanda fue uno de los primeros países del mundo en ganar la jornada de ocho horas.",
+      "Los jardineros dicen que los tomates no deberían plantarse antes del Día del Trabajo.",
+      "La tumba de Samuel Parnell en Wellington lleva las palabras \"Padre de las ocho horas\".",
+      "El feriado se trasladó a lunes en 1910 para crear un fin de semana largo."
+    ]
+  },
+  "auckland_anniversary_day": {
+    "intro": "El día del aniversario de Auckland, el lunes más cercano al 29 de enero, marca la fundación de la provincia en 1840. Es un día festivo para Auckland y Northland y el fin de semana de verano más importante de la región.",
+    "history": "El gobernador William Hobson llegó a la Bahía de las Islas el 29 de enero de 1840, una semana antes de que se firmara el Tratado de Waitangi, y Auckland se convirtió en la capital ese mismo año. El aniversario se celebra con una regata de vela desde 1840.",
+    "traditions": "La Regata del Aniversario de Auckland llena el puerto de Waitemata con yates, remolcadores y waka. La ciudad también alberga el Festival de músicos callejeros y eventos de faroles, y miles de personas se dirigen a las playas del golfo de Hauraki.",
+    "funFacts": [
+      "La regata pretende ser el evento de navegación de un día más grande del mundo.",
+      "Auckland recibe el sobrenombre de Ciudad de las Velas porque tiene más barcos por persona que cualquier otra ciudad.",
+      "Northland celebra el mismo día aunque tiene su propio reclamo histórico el 29 de enero.",
+      "La regata incluye incluso una carrera de remolcadores por el puerto."
+    ]
+  },
+  "wellington_anniversary_day": {
+    "intro": "El día del aniversario de Wellington, el lunes más cercano al 22 de enero, conmemora la llegada de los primeros colonos organizados en 1840. Es un día festivo en la región de Wellington y forma parte de la temporada de vacaciones de verano.",
+    "history": "El barco Aurora de la Compañía de Nueva Zelanda ancló en Petone el 22 de enero de 1840 con los primeros colonos, que pronto cruzaron el puerto para fundar Wellington. La ciudad se convirtió en capital en 1865.",
+    "traditions": "Wellington lo celebra con la carrera de caballos de la Copa Wellington, baños en el puerto y el programa de verano de la ciudad con conciertos y cine al aire libre. Las familias pasan el día en el paseo marítimo o en la región vinícola de Wairarapa.",
+    "funFacts": [
+      "Los colonos desembarcaron primero en Petone, pero las inundaciones los llevaron al lugar donde se encuentra la ciudad actual.",
+      "Wellington es la capital más austral del mundo.",
+      "La ciudad celebra su aniversario antes de existir: los colonos llegaron un año antes.",
+      "La Copa Wellington es una de las carreras de caballos más antiguas del país."
+    ]
   }
 }

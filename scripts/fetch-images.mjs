@@ -305,9 +305,16 @@ async function updateCredits(allSaved) {
 }
 
 async function main() {
-  const onlySlugs = new Set(process.argv.slice(2).filter((a) => !a.startsWith('-')));
+  // Ziel-Filter: `slug` (alle Laender mit diesem Slug) oder `CC/slug` (nur dieses
+  // Land — wichtig bei --force, damit z. B. `EG/revolution_day` nicht auch die
+  // kuratierten MX-Bilder ueberschreibt).
+  const only = process.argv.slice(2).filter((a) => !a.startsWith('-'));
   let targets = listImageTargets();
-  if (onlySlugs.size > 0) targets = targets.filter((t) => onlySlugs.has(t.slug));
+  if (only.length > 0) {
+    targets = targets.filter((t) =>
+      only.some((arg) => arg === t.slug || arg === `${t.countryCode ?? ''}/${t.slug}`),
+    );
+  }
   console.log(`Fetching images for ${targets.length} targets...`);
   const allSaved = [];
 

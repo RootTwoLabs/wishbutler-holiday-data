@@ -18,5 +18,71 @@
       "Dawn services recall the early-morning Gallipoli landing.",
       "Playing two-up is legal in pubs only on Anzac Day."
     ]
+  },
+  "labour_day_au": {
+    "intro": "Labour Day celebrates the eight-hour working day, which Australian workers won earlier than almost anyone else. Each state keeps its own date, from the first Monday of March in Western Australia to the first Monday of October in New South Wales.",
+    "history": "In 1856 Melbourne stonemasons downed tools and marched to Parliament House demanding eight hours' work, eight hours' recreation and eight hours' rest. They won, and the \"888\" became a symbol of the labour movement worldwide. Victoria declared the first public holiday in 1879.",
+    "traditions": "Melbourne's Moomba festival fills the long weekend with parades and river events, and unions march in the capitals. For most Australians it is simply a long weekend for camping, sport and family barbecues.",
+    "funFacts": [
+      "The Eight Hour Day monument in Melbourne carries the digits 888.",
+      "Queensland and the Northern Territory celebrate in May, Tasmania calls it Eight Hours Day.",
+      "Australia is one of the few countries where Labour Day has five different dates.",
+      "The original 1856 march started at the University of Melbourne building site."
+    ]
+  },
+  "kings_birthday": {
+    "intro": "The King's Birthday holiday on the second Monday of June in most states gives Australia a mid-winter long weekend. It has nothing to do with the monarch's actual birthday, which falls in November.",
+    "history": "Governor Arthur Phillip celebrated King George III's birthday on 4 June 1788, only months after the First Fleet arrived. Australia kept a June date through every reign since, and after Queen Elizabeth II died in 2022 the holiday was simply renamed.",
+    "traditions": "The King's Birthday Honours list is published, the ski season opens in the Alps and the AFL stages its big Collingwood versus Melbourne match at the MCG. Queensland and Western Australia hold the holiday on other dates to spread out their long weekends.",
+    "funFacts": [
+      "King Charles III was born on 14 November, five months after his Australian birthday.",
+      "Queensland moved its holiday to October in 2016 so the state would have a spring long weekend.",
+      "The June weekend traditionally opens the snow season at Thredbo and Perisher.",
+      "Fireworks are allowed in the Northern Territory only on Territory Day, not on this weekend."
+    ]
+  },
+  "melbourne_cup": {
+    "intro": "Melbourne Cup Day on the first Tuesday of November is a public holiday in metropolitan Melbourne for a horse race. The 3,200-metre handicap at Flemington is known as the race that stops a nation.",
+    "history": "The first Cup was run in 1861 and won by Archer, who according to legend walked from New South Wales to compete. The race became a public holiday in Melbourne in 1877 and has been run every year since, even during both world wars.",
+    "traditions": "Australians everywhere stop at 3 pm to watch the race, join office sweeps and dress up for lunch. At Flemington the Fashions on the Field competition is as famous as the horses, and the whole week is a carnival of racing and parties.",
+    "funFacts": [
+      "The Cup carries over 8 million Australian dollars in prize money.",
+      "Makybe Diva is the only horse to win three Cups in a row, from 2003 to 2005.",
+      "Roughly 100,000 people attend at Flemington and the whole country watches on television.",
+      "Foreign horses have won often since Vintage Crop from Ireland in 1993."
+    ]
+  },
+  "western_australia_day": {
+    "intro": "Western Australia Day on the first Monday of June celebrates the founding of the Swan River Colony in 1829 and the history of the state, including its Aboriginal peoples.",
+    "history": "Captain James Stirling proclaimed the colony on 18 June 1829 at the site of Perth. The holiday was called Foundation Day until 2012, when it was renamed to recognise Aboriginal history before European settlement as part of the state's story.",
+    "traditions": "Perth hosts a free community festival on the Swan River foreshore, the Western Australian of the Year awards are presented and citizenship ceremonies welcome new residents. Regional towns hold their own festivals and Aboriginal cultural events.",
+    "funFacts": [
+      "Western Australia is the only state with a holiday for its own founding.",
+      "The state covers about a third of Australia but has only a tenth of its population.",
+      "Perth is closer to Jakarta than to Sydney.",
+      "The 2012 renaming came after consultation with Aboriginal elders."
+    ]
+  },
+  "canberra_day": {
+    "intro": "Canberra Day on the second Monday of March celebrates the founding of Australia's capital in 1913. It is a public holiday only in the Australian Capital Territory.",
+    "history": "On 12 March 1913 Lady Denman, wife of the Governor General, announced the name of the new capital at a ceremony on Kurrajong Hill. The city was designed by American architects Walter Burley Griffin and Marion Mahony Griffin and became the seat of Parliament in 1927.",
+    "traditions": "The holiday falls during the Canberra Balloon Spectacular, when dozens of hot-air balloons rise over the lawns of Old Parliament House at dawn. The Enlighten festival lights up the national buildings, and families picnic by Lake Burley Griffin.",
+    "funFacts": [
+      "The name Canberra is thought to come from a Ngunnawal word for meeting place.",
+      "The capital was chosen as a compromise between rivals Sydney and Melbourne.",
+      "Lake Burley Griffin is artificial and was only filled in 1964.",
+      "The balloon festival has been held every March since 1987."
+    ]
+  },
+  "friday_before_afl_grand_final": {
+    "intro": "The Friday before the AFL Grand Final has been a public holiday in Victoria since 2015. It gives Melbourne a long weekend for the biggest day in Australian rules football.",
+    "history": "Premier Daniel Andrews introduced the holiday to let families attend the Grand Final Parade, which is held on the Friday. The Grand Final itself dates back to 1898 and has been played at the Melbourne Cricket Ground almost every year since 1902.",
+    "traditions": "The two competing teams parade through the city centre in open cars, and fans in club colours line the streets. Saturday brings the Grand Final with around 100,000 people at the MCG, pre-match concerts and backyard barbecues in front of the television.",
+    "funFacts": [
+      "The holiday was nicknamed Grand Final Eve.",
+      "The MCG crowd record for a Grand Final is 121,696 from 1970.",
+      "Businesses complained about the cost, but the holiday has stayed.",
+      "Meat pies and sausage rolls are the traditional Grand Final food."
+    ]
   }
 }
