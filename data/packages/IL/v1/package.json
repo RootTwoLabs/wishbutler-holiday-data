@@ -1,0 +1,649 @@
+{
+  "countryCode": "IL",
+  "version": 1,
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "IL_rosh_hashanah",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.rosh_hashanah",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-12",
+          "2027": "10-02",
+          "2028": "09-21",
+          "2029": "09-10",
+          "2030": "09-28",
+          "2031": "09-18",
+          "2032": "09-06",
+          "2033": "09-24",
+          "2034": "09-14",
+          "2035": "10-04"
+        }
+      }
+    },
+    {
+      "id": "IL_yom_kippur",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.yom_kippur",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-21",
+          "2027": "10-11",
+          "2028": "09-30",
+          "2029": "09-19",
+          "2030": "10-07",
+          "2031": "09-27",
+          "2032": "09-15",
+          "2033": "10-03",
+          "2034": "09-23",
+          "2035": "10-13"
+        }
+      }
+    },
+    {
+      "id": "IL_sukkot",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.sukkot",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-26",
+          "2027": "10-16",
+          "2028": "10-05",
+          "2029": "09-24",
+          "2030": "10-12",
+          "2031": "10-02",
+          "2032": "09-20",
+          "2033": "10-08",
+          "2034": "09-28",
+          "2035": "10-18"
+        }
+      }
+    },
+    {
+      "id": "IL_shemini_atzeret_simchat_torah",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.shemini_atzeret_simchat_torah",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "10-03",
+          "2027": "10-23",
+          "2028": "10-12",
+          "2029": "10-01",
+          "2030": "10-19",
+          "2031": "10-09",
+          "2032": "09-27",
+          "2033": "10-15",
+          "2034": "10-05",
+          "2035": "10-25"
+        }
+      }
+    },
+    {
+      "id": "IL_hanukkah",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.hanukkah",
+      "iconName": "event",
+      "category": "religious",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "12-04",
+          "2027": "12-24",
+          "2028": "12-12",
+          "2029": "12-01",
+          "2030": "12-20",
+          "2031": "12-09",
+          "2032": "11-27",
+          "2033": "12-16",
+          "2034": "12-06",
+          "2035": "12-25"
+        }
+      }
+    },
+    {
+      "id": "IL_tu_bishvat",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.tu_bishvat",
+      "iconName": "event",
+      "category": "observance",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-02",
+          "2027": "01-23",
+          "2028": "02-12",
+          "2029": "01-31",
+          "2030": "01-19",
+          "2031": "02-08",
+          "2032": "01-28",
+          "2033": "01-15",
+          "2034": "02-04",
+          "2035": "01-25"
+        }
+      }
+    },
+    {
+      "id": "IL_purim",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.purim",
+      "iconName": "event",
+      "category": "religious",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "03-03",
+          "2027": "03-23",
+          "2028": "03-12",
+          "2029": "03-01",
+          "2030": "03-19",
+          "2031": "03-09",
+          "2032": "02-26",
+          "2033": "03-15",
+          "2034": "03-05",
+          "2035": "03-25"
+        }
+      }
+    },
+    {
+      "id": "IL_passover",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.passover",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-02",
+          "2027": "04-22",
+          "2028": "04-11",
+          "2029": "03-31",
+          "2030": "04-18",
+          "2031": "04-08",
+          "2032": "03-27",
+          "2033": "04-14",
+          "2034": "04-04",
+          "2035": "04-24"
+        }
+      }
+    },
+    {
+      "id": "IL_passover_seventh_day",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.passover_seventh_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-08",
+          "2027": "04-28",
+          "2028": "04-17",
+          "2029": "04-06",
+          "2030": "04-24",
+          "2031": "04-14",
+          "2032": "04-02",
+          "2033": "04-20",
+          "2034": "04-10",
+          "2035": "04-30"
+        }
+      }
+    },
+    {
+      "id": "IL_yom_hashoah",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.yom_hashoah",
+      "iconName": "event",
+      "category": "observance",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-14",
+          "2027": "05-04",
+          "2028": "04-24",
+          "2029": "04-12",
+          "2030": "04-30",
+          "2031": "04-21",
+          "2032": "04-08",
+          "2033": "04-26",
+          "2034": "04-17",
+          "2035": "05-07"
+        }
+      }
+    },
+    {
+      "id": "IL_yom_hazikaron",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.yom_hazikaron",
+      "iconName": "event",
+      "category": "observance",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-21",
+          "2027": "05-11",
+          "2028": "05-01",
+          "2029": "04-18",
+          "2030": "05-07",
+          "2031": "04-28",
+          "2032": "04-14",
+          "2033": "05-03",
+          "2034": "04-24",
+          "2035": "05-14"
+        }
+      }
+    },
+    {
+      "id": "IL_yom_haatzmaut",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.yom_haatzmaut",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-22",
+          "2027": "05-12",
+          "2028": "05-02",
+          "2029": "04-19",
+          "2030": "05-08",
+          "2031": "04-29",
+          "2032": "04-15",
+          "2033": "05-04",
+          "2034": "04-25",
+          "2035": "05-15"
+        }
+      }
+    },
+    {
+      "id": "IL_lag_baomer",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.lag_baomer",
+      "iconName": "event",
+      "category": "observance",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-05",
+          "2027": "05-25",
+          "2028": "05-14",
+          "2029": "05-03",
+          "2030": "05-21",
+          "2031": "05-11",
+          "2032": "04-29",
+          "2033": "05-17",
+          "2034": "05-07",
+          "2035": "05-27"
+        }
+      }
+    },
+    {
+      "id": "IL_yom_yerushalayim",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.yom_yerushalayim",
+      "iconName": "event",
+      "category": "observance",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-15",
+          "2027": "06-04",
+          "2028": "05-24",
+          "2029": "05-13",
+          "2030": "05-31",
+          "2031": "05-21",
+          "2032": "05-09",
+          "2033": "05-27",
+          "2034": "05-17",
+          "2035": "06-06"
+        }
+      }
+    },
+    {
+      "id": "IL_shavuot",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.shavuot",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-22",
+          "2027": "06-11",
+          "2028": "05-31",
+          "2029": "05-20",
+          "2030": "06-07",
+          "2031": "05-28",
+          "2032": "05-16",
+          "2033": "06-03",
+          "2034": "05-24",
+          "2035": "06-13"
+        }
+      }
+    },
+    {
+      "id": "IL_tisha_bav",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.tisha_bav",
+      "iconName": "event",
+      "category": "religious",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "07-23",
+          "2027": "08-12",
+          "2028": "08-01",
+          "2029": "07-22",
+          "2030": "08-08",
+          "2031": "07-29",
+          "2032": "07-18",
+          "2033": "08-04",
+          "2034": "07-25",
+          "2035": "08-14"
+        }
+      }
+    },
+    {
+      "id": "IL_tu_bav",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.tu_bav",
+      "iconName": "event",
+      "category": "observance",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "07-29",
+          "2027": "08-18",
+          "2028": "08-07",
+          "2029": "07-27",
+          "2030": "08-14",
+          "2031": "08-04",
+          "2032": "07-23",
+          "2033": "08-10",
+          "2034": "07-31",
+          "2035": "08-20"
+        }
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "rosh_hashanah": "Rosh Hashanah",
+        "yom_kippur": "Yom Kippur",
+        "sukkot": "Sukkot",
+        "shemini_atzeret_simchat_torah": "Shemini Atzeret & Simchat Torah",
+        "hanukkah": "Hanukkah",
+        "tu_bishvat": "Tu BiShvat",
+        "purim": "Purim",
+        "passover": "Passover",
+        "passover_seventh_day": "Seventh Day of Passover",
+        "yom_hashoah": "Yom HaShoah (Holocaust Remembrance Day)",
+        "yom_hazikaron": "Yom HaZikaron (Memorial Day)",
+        "yom_haatzmaut": "Yom HaAtzmaut (Independence Day)",
+        "lag_baomer": "Lag BaOmer",
+        "yom_yerushalayim": "Jerusalem Day",
+        "shavuot": "Shavuot",
+        "tisha_bav": "Tisha B'Av",
+        "tu_bav": "Tu B'Av"
+      },
+      "he": {
+        "rosh_hashanah": "ראש השנה",
+        "yom_kippur": "יום כיפור",
+        "sukkot": "סוכות",
+        "shemini_atzeret_simchat_torah": "שמיני עצרת ושמחת תורה",
+        "hanukkah": "חנוכה",
+        "tu_bishvat": "ט״ו בשבט",
+        "purim": "פורים",
+        "passover": "פסח",
+        "passover_seventh_day": "שביעי של פסח",
+        "yom_hashoah": "יום השואה",
+        "yom_hazikaron": "יום הזיכרון",
+        "yom_haatzmaut": "יום העצמאות",
+        "lag_baomer": "ל״ג בעומר",
+        "yom_yerushalayim": "יום ירושלים",
+        "shavuot": "שבועות",
+        "tisha_bav": "תשעה באב",
+        "tu_bav": "ט״ו באב"
+      },
+      "de": {
+        "rosh_hashanah": "Rosch ha-Schana",
+        "yom_kippur": "Jom Kippur",
+        "sukkot": "Sukkot",
+        "shemini_atzeret_simchat_torah": "Schemini Azeret und Simchat Tora",
+        "hanukkah": "Chanukka",
+        "tu_bishvat": "Tu biSchvat",
+        "purim": "Purim",
+        "passover": "Pessach",
+        "passover_seventh_day": "Siebter Tag von Pessach",
+        "yom_hashoah": "Jom haScho’a (Holocaust-Gedenktag)",
+        "yom_hazikaron": "Jom haSikaron (Gedenktag für die Gefallenen)",
+        "yom_haatzmaut": "Jom haAtzma’ut (Unabhängigkeitstag)",
+        "lag_baomer": "Lag baOmer",
+        "yom_yerushalayim": "Jerusalemtag",
+        "shavuot": "Schawuot",
+        "tisha_bav": "Tischa beAv",
+        "tu_bav": "Tu beAv"
+      },
+      "fr": {
+        "rosh_hashanah": "Roch Hachana",
+        "yom_kippur": "Yom Kippour",
+        "sukkot": "Souccot",
+        "shemini_atzeret_simchat_torah": "Chemini Atseret et Simhat Torah",
+        "hanukkah": "Hanoucca",
+        "tu_bishvat": "Tou Bichvat",
+        "purim": "Pourim",
+        "passover": "Pessah",
+        "passover_seventh_day": "Septième jour de Pessah",
+        "yom_hashoah": "Yom HaShoah (Journée du souvenir de la Shoah)",
+        "yom_hazikaron": "Yom HaZikaron (Journée du souvenir)",
+        "yom_haatzmaut": "Yom HaAtsmaout (Fête de l’Indépendance)",
+        "lag_baomer": "Lag Ba’omer",
+        "yom_yerushalayim": "Journée de Jérusalem",
+        "shavuot": "Chavouot",
+        "tisha_bav": "Tisha Beav",
+        "tu_bav": "Tou Beav"
+      },
+      "es": {
+        "rosh_hashanah": "Rosh Hashaná",
+        "yom_kippur": "Yom Kipur",
+        "sukkot": "Sucot",
+        "shemini_atzeret_simchat_torah": "Shemini Atzeret y Simjat Torá",
+        "hanukkah": "Janucá",
+        "tu_bishvat": "Tu Bishvat",
+        "purim": "Purim",
+        "passover": "Pésaj",
+        "passover_seventh_day": "Séptimo día de Pésaj",
+        "yom_hashoah": "Yom HaShoá (Día del Recuerdo del Holocausto)",
+        "yom_hazikaron": "Yom HaZikarón (Día del Recuerdo)",
+        "yom_haatzmaut": "Yom HaAtzmaut (Día de la Independencia)",
+        "lag_baomer": "Lag BaOmer",
+        "yom_yerushalayim": "Día de Jerusalén",
+        "shavuot": "Shavuot",
+        "tisha_bav": "Tishá BeAv",
+        "tu_bav": "Tu BeAv"
+      },
+      "pt": {
+        "rosh_hashanah": "Rosh Hashaná",
+        "yom_kippur": "Yom Kipur",
+        "sukkot": "Sucot",
+        "shemini_atzeret_simchat_torah": "Shemini Atzeret e Simchat Torá",
+        "hanukkah": "Chanucá",
+        "tu_bishvat": "Tu Bishvat",
+        "purim": "Purim",
+        "passover": "Pessach",
+        "passover_seventh_day": "Sétimo dia de Pessach",
+        "yom_hashoah": "Yom HaShoá (Dia da Memória do Holocausto)",
+        "yom_hazikaron": "Yom HaZikaron (Dia da Memória)",
+        "yom_haatzmaut": "Yom HaAtzmaut (Dia da Independência)",
+        "lag_baomer": "Lag BaOmer",
+        "yom_yerushalayim": "Dia de Jerusalém",
+        "shavuot": "Shavuot",
+        "tisha_bav": "Tishá BeAv",
+        "tu_bav": "Tu BeAv"
+      },
+      "it": {
+        "rosh_hashanah": "Rosh haShanah",
+        "yom_kippur": "Yom Kippur",
+        "sukkot": "Sukkot",
+        "shemini_atzeret_simchat_torah": "Shemini Atzeret e Simchat Torah",
+        "hanukkah": "Chanukkah",
+        "tu_bishvat": "Tu BiShvat",
+        "purim": "Purim",
+        "passover": "Pesach",
+        "passover_seventh_day": "Settimo giorno di Pesach",
+        "yom_hashoah": "Yom HaShoah (Giorno della Memoria della Shoah)",
+        "yom_hazikaron": "Yom HaZikaron (Giorno della Memoria)",
+        "yom_haatzmaut": "Yom HaAtzmaut (Giorno dell’Indipendenza)",
+        "lag_baomer": "Lag BaOmer",
+        "yom_yerushalayim": "Giornata di Gerusalemme",
+        "shavuot": "Shavuot",
+        "tisha_bav": "Tisha BeAv",
+        "tu_bav": "Tu BeAv"
+      },
+      "pl": {
+        "rosh_hashanah": "Rosz ha-Szana",
+        "yom_kippur": "Jom Kipur",
+        "sukkot": "Sukkot",
+        "shemini_atzeret_simchat_torah": "Szemini Aceret i Simchat Tora",
+        "hanukkah": "Chanuka",
+        "tu_bishvat": "Tu bi-Szwat",
+        "purim": "Purim",
+        "passover": "Pesach",
+        "passover_seventh_day": "Siódmy dzień Pesach",
+        "yom_hashoah": "Jom ha-Szoa (Dzień Pamięci o Holokauście)",
+        "yom_hazikaron": "Jom ha-Zikaron (Dzień Pamięci Poległych)",
+        "yom_haatzmaut": "Jom ha-Acmaut (Dzień Niepodległości)",
+        "lag_baomer": "Lag ba-Omer",
+        "yom_yerushalayim": "Dzień Jerozolimy",
+        "shavuot": "Szawuot",
+        "tisha_bav": "Tisza be-Aw",
+        "tu_bav": "Tu be-Aw"
+      },
+      "nl": {
+        "rosh_hashanah": "Rosj Hasjana",
+        "yom_kippur": "Jom Kipoer",
+        "sukkot": "Soekot",
+        "shemini_atzeret_simchat_torah": "Sjemini Atseret en Simchat Thora",
+        "hanukkah": "Chanoeka",
+        "tu_bishvat": "Toe Bisjwat",
+        "purim": "Poerim",
+        "passover": "Pesach",
+        "passover_seventh_day": "Zevende dag van Pesach",
+        "yom_hashoah": "Jom Hasjoa (Holocaustherdenkingsdag)",
+        "yom_hazikaron": "Jom Hazikaron (Herdenkingsdag)",
+        "yom_haatzmaut": "Jom Ha’atsmaoet (Onafhankelijkheidsdag)",
+        "lag_baomer": "Lag Ba’omer",
+        "yom_yerushalayim": "Jeruzalemdag",
+        "shavuot": "Sjavoeot",
+        "tisha_bav": "Tisja Beav",
+        "tu_bav": "Toe Beav"
+      },
+      "sv": {
+        "rosh_hashanah": "Rosh hashana",
+        "yom_kippur": "Jom kippur",
+        "sukkot": "Sukkot",
+        "shemini_atzeret_simchat_torah": "Shemini atzeret och Simchat Tora",
+        "hanukkah": "Chanukka",
+        "tu_bishvat": "Tu bishvat",
+        "purim": "Purim",
+        "passover": "Pesach",
+        "passover_seventh_day": "Sjunde dagen av pesach",
+        "yom_hashoah": "Jom hashoah (Förintelsens minnesdag)",
+        "yom_hazikaron": "Jom hazikaron (Minnesdagen)",
+        "yom_haatzmaut": "Jom haatzmaut (Självständighetsdagen)",
+        "lag_baomer": "Lag baomer",
+        "yom_yerushalayim": "Jerusalemdagen",
+        "shavuot": "Shavuot",
+        "tisha_bav": "Tisha beav",
+        "tu_bav": "Tu beav"
+      },
+      "ja": {
+        "rosh_hashanah": "ロシュ・ハシャナ（ユダヤ新年）",
+        "yom_kippur": "ヨム・キプル（贖罪の日）",
+        "sukkot": "スコット（仮庵の祭り）",
+        "shemini_atzeret_simchat_torah": "シェミニ・アツェレト／シムハット・トーラー",
+        "hanukkah": "ハヌカ",
+        "tu_bishvat": "トゥ・ビシュヴァット（樹木の新年）",
+        "purim": "プリム",
+        "passover": "過越祭（ペサハ）",
+        "passover_seventh_day": "過越祭第7日",
+        "yom_hashoah": "ヨム・ハショア（ホロコースト記念日）",
+        "yom_hazikaron": "ヨム・ハジカロン（戦没者記念日）",
+        "yom_haatzmaut": "ヨム・ハアツマウト（独立記念日）",
+        "lag_baomer": "ラグ・バオメル",
+        "yom_yerushalayim": "エルサレムの日",
+        "shavuot": "シャブオット（七週の祭り）",
+        "tisha_bav": "ティシャ・ベアブ",
+        "tu_bav": "トゥ・ベアブ"
+      },
+      "ko": {
+        "rosh_hashanah": "로쉬 하샤나(유대 신년)",
+        "yom_kippur": "욤 키푸르(속죄일)",
+        "sukkot": "수코트(초막절)",
+        "shemini_atzeret_simchat_torah": "쉬미니 아체레트와 심하트 토라",
+        "hanukkah": "하누카",
+        "tu_bishvat": "투 비슈밧(나무의 새해)",
+        "purim": "부림절",
+        "passover": "유월절(페사흐)",
+        "passover_seventh_day": "유월절 일곱째 날",
+        "yom_hashoah": "욤 하쇼아(홀로코스트 추모일)",
+        "yom_hazikaron": "욤 하지카론(현충일)",
+        "yom_haatzmaut": "욤 하아츠마우트(독립기념일)",
+        "lag_baomer": "라그 바오메르",
+        "yom_yerushalayim": "예루살렘의 날",
+        "shavuot": "샤부오트(칠칠절)",
+        "tisha_bav": "티샤 베아브",
+        "tu_bav": "투 베아브"
+      },
+      "zh-Hant": {
+        "rosh_hashanah": "猶太新年",
+        "yom_kippur": "贖罪日",
+        "sukkot": "住棚節",
+        "shemini_atzeret_simchat_torah": "聖會節與妥拉節",
+        "hanukkah": "光明節",
+        "tu_bishvat": "圖比舍巴特（樹木新年）",
+        "purim": "普珥節",
+        "passover": "逾越節",
+        "passover_seventh_day": "逾越節第七日",
+        "yom_hashoah": "大屠殺紀念日",
+        "yom_hazikaron": "陣亡將士紀念日",
+        "yom_haatzmaut": "以色列獨立日",
+        "lag_baomer": "篝火節（Lag BaOmer）",
+        "yom_yerushalayim": "耶路撒冷日",
+        "shavuot": "七七節",
+        "tisha_bav": "聖殿被毀日",
+        "tu_bav": "圖比阿夫（愛情節）"
+      }
+    }
+  }
+}

@@ -65,6 +65,9 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 ## Data sources
 
 - **Public holidays**: Nager.Date (MIT), OpenHolidays API (CC-BY-4.0).
+- **Israel (IL)**: Jewish calendar dates from [Hebcal](https://www.hebcal.com/)
+  (content licensed CC-BY-4.0, attribution required); holiday selection and
+  labels curated in `scripts/lib/hebcalHolidays.mjs`.
 - **Namedays**: abalin and country-specific public calendars.
 
 When adding a new source, record its license here and ensure redistribution

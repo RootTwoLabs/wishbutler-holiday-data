@@ -4,6 +4,10 @@
  * Countries we build public-holiday packages for. This is the full set Nager.Date
  * exposes (https://date.nager.at/api/v3/AvailableCountries); countries that return
  * no holidays are skipped automatically by the generator.
+ *
+ * Israel (IL) is NOT on this list: neither Nager.Date nor OpenHolidays know it.
+ * Its package is generated separately from Hebcal (fetch-holidays-hebcal.mjs,
+ * curated list in lib/hebcalHolidays.mjs).
  */
 export const HOLIDAY_COUNTRIES = [
   // Europe
@@ -48,7 +52,7 @@ export const COUNTRY_LOCALE = {
   EC: 'es', EE: 'et', EG: 'ar', ES: 'es', FI: 'fi', FO: 'fo', FR: 'fr',
   GA: 'fr', GB: 'en', GD: 'en', GE: 'ka', GG: 'en', GH: 'en', GI: 'en',
   GL: 'kl', GM: 'en', GR: 'el', GT: 'es', GY: 'en', HK: 'zh', HN: 'es',
-  HR: 'hr', HT: 'fr', HU: 'hu', ID: 'id', IE: 'en', IM: 'en', IS: 'is',
+  HR: 'hr', HT: 'fr', HU: 'hu', ID: 'id', IE: 'en', IL: 'he', IM: 'en', IS: 'is',
   IT: 'it', JE: 'en', JM: 'en', JP: 'ja', KE: 'en', KR: 'ko', KZ: 'kk',
   LI: 'de', LS: 'en', LT: 'lt', LU: 'fr', LV: 'lv', MA: 'ar', MC: 'fr',
   MD: 'ro', ME: 'sr', MG: 'mg', MK: 'mk', MN: 'mn', MS: 'en', MT: 'mt',
@@ -120,6 +124,11 @@ export const PRECOMPUTE_YEARS = 10;
 export const SOURCES = {
   nagerDate: (year, cc) => `https://date.nager.at/api/v3/PublicHolidays/${year}/${cc}`,
   openHolidays: 'https://openholidaysapi.org',
+  // Hebcal (Israel): keyless JSON, Israel-Schema (`i=on`), Haupt-/Neben-/moderne
+  // Feiertage, ohne Rosh Chodesh, Schabbat-/Parascha-Eintraege und Kerzenzeiten.
+  hebcal: (year) =>
+    `https://www.hebcal.com/hebcal?v=1&cfg=json&year=${year}&month=x&i=on` +
+    '&maj=on&min=on&mod=on&nx=off&ss=off&mf=off&c=off&d=off&lg=s',
   // abalin namedays: V2/date returns all countries for a given day at once.
   abalinDate: (day, month) =>
     `https://nameday.abalin.net/api/V2/date?day=${day}&month=${month}`,

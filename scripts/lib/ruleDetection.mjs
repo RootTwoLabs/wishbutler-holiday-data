@@ -20,6 +20,42 @@ function ymd(date) {
   return `${pad(date.getUTCMonth() + 1)}-${pad(date.getUTCDate())}`;
 }
 
+function dayNumber(year, mmdd) {
+  const [m, d] = mmdd.split('-').map(Number);
+  return Math.round(Date.UTC(year, m - 1, d) / 86400000);
+}
+
+/**
+ * Reduziert alle in einem Jahr beobachteten Tage eines Feiertagsnamens auf
+ * das eine Datum, das ins Paket kommt.
+ *
+ * Nager liefert denselben Namen mehrfach in zwei ganz verschiedenen Faellen:
+ *  1. Mehrtaegiges Fest (Eid al-Adha 27.–31.05., Chuseok, Naadam, Karneval
+ *     Mo+Di …): die Tage bilden eine LUECKENLOSE Kette -> der ERSTE Tag zaehlt,
+ *     gratuliert wird zum Auftakt. Vorher gewann stillschweigend der zuletzt
+ *     gelesene Tag (EG Eid al-Adha 2026 stand auf dem 31.05.).
+ *  2. Regionale Varianten an verschiedenen Tagen (GB Summer Bank Holiday:
+ *     England letzter / Schottland erster Montag im August; AU Labour Day je
+ *     Bundesstaat): keine Kette -> bisheriges Verhalten (letzter gelesener
+ *     Eintrag) bleibt, damit sich fuer diese Laender nichts verschiebt.
+ *
+ * `mmdds` in Lesereihenfolge; Duplikate (gleicher Tag, mehrere Kantone) sind ok.
+ */
+export function pickHolidayStart(year, mmdds) {
+  if (mmdds.length === 0) return null;
+  const unique = [...new Set(mmdds)].sort();
+  if (unique.length === 1) return unique[0];
+
+  let consecutive = true;
+  for (let i = 1; i < unique.length; i++) {
+    if (dayNumber(year, unique[i]) !== dayNumber(year, unique[i - 1]) + 1) {
+      consecutive = false;
+      break;
+    }
+  }
+  return consecutive ? unique[0] : mmdds.at(-1);
+}
+
 export function easterOffsetForDate(year, mmdd) {
   const easter = computeEasterSunday(year);
   const [m, d] = mmdd.split('-').map(Number);

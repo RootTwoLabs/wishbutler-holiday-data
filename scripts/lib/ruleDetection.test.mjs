@@ -1,6 +1,29 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { detectRule, ruleMatchesAllYears, mmddFromRule } from './ruleDetection.mjs';
+import { detectRule, ruleMatchesAllYears, mmddFromRule, pickHolidayStart } from './ruleDetection.mjs';
+
+test('pickHolidayStart: mehrtaegiges Fest (Kette) -> erster Tag, egal in welcher Reihenfolge', () => {
+  // Eid al-Adha 2026 (EG) kommt von Nager als 5 Eintraege 27.–31.05.
+  assert.equal(pickHolidayStart(2026, ['05-27', '05-28', '05-29', '05-30', '05-31']), '05-27');
+  assert.equal(pickHolidayStart(2027, ['06-20', '06-18', '06-19']), '06-18');
+  // Kette ueber den Monatswechsel (Naadam-artig)
+  assert.equal(pickHolidayStart(2026, ['07-31', '08-01', '08-02']), '07-31');
+  // Schaltjahr: 28.02. -> 29.02. -> 01.03. ist eine Kette
+  assert.equal(pickHolidayStart(2028, ['02-28', '02-29', '03-01']), '02-28');
+});
+
+test('pickHolidayStart: regionale Varianten (keine Kette) -> bisheriges Verhalten, letzter Eintrag', () => {
+  // GB Summer Bank Holiday: Schottland 1. Montag, England letzter Montag im August.
+  assert.equal(pickHolidayStart(2026, ['08-03', '08-31']), '08-31');
+  // Schaltjahr-Gegenprobe: 28.02. und 01.03. sind 2027 KEINE Kette.
+  assert.equal(pickHolidayStart(2027, ['03-01', '02-28']), '02-28');
+});
+
+test('pickHolidayStart: Duplikate gleicher Tage (mehrere Kantone) und Einzeltage', () => {
+  assert.equal(pickHolidayStart(2026, ['01-06', '01-06', '01-06']), '01-06');
+  assert.equal(pickHolidayStart(2026, ['12-25']), '12-25');
+  assert.equal(pickHolidayStart(2026, []), null);
+});
 
 const YEARS = [2026, 2027, 2028, 2029, 2030];
 

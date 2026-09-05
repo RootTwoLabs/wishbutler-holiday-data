@@ -21,6 +21,7 @@ function run(script) {
 async function main() {
   const steps = [
     'fetch-holidays.mjs',
+    'fetch-holidays-hebcal.mjs',
     'fetch-namedays.mjs',
     'fetch-wikidata-occasions.mjs',
     'translate-fun-occasions.mjs',
