@@ -18,6 +18,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { fetchWithTimeout } from './lib/httpClient.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -46,7 +47,13 @@ async function translateOnce(text, target) {
   const url = `https://translate.googleapis.com/translate_a/single?${params}`;
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+      // Timeout statt nacktem fetch — ein haengender Request blockiert sonst
+      // bis zu 5 min (undici-Default). Retries macht die Schleife hier selbst.
+      const res = await fetchWithTimeout(url, {
+        headers: { 'User-Agent': 'Mozilla/5.0' },
+        timeoutMs: 15000,
+        retries: 0,
+      });
       if (res.status === 429) {
         await sleep(2000 * attempt);
         continue;
