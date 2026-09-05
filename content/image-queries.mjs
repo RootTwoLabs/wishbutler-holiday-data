@@ -448,6 +448,36 @@ export const IMAGE_QUERIES = {
   wellington_anniversary_day: {
     NZ: ['Wellington harbour New Zealand', 'Wellington waterfront summer', 'Wellington cable car city'],
   },
+  nelson_anniversary_day: {
+    NZ: ['Nelson New Zealand Tasman Bay', 'Abel Tasman National Park beach', 'Nelson city New Zealand cathedral'],
+  },
+  taranaki_anniversary_day: {
+    NZ: ['Mount Taranaki reflection lake', 'Mount Taranaki Egmont snow', 'New Plymouth coastal walkway'],
+  },
+  otago_anniversary_day: {
+    NZ: ['Dunedin railway station', 'Otago Peninsula Dunedin harbour', 'Dunedin Octagon city'],
+  },
+  southland_anniversary_day: {
+    NZ: ['Milford Sound Mitre Peak', 'Nugget Point lighthouse Catlins', 'Stewart Island Oban Halfmoon Bay', 'Fiordland National Park fjord'],
+  },
+  canterbury_south_anniversary_day: {
+    NZ: ['Timaru Caroline Bay', 'Lake Tekapo church lupins', 'Aoraki Mount Cook South Canterbury'],
+  },
+  hawkes_bay_anniversary_day: {
+    NZ: ['Napier Art Deco buildings', 'Hawke\'s Bay vineyards New Zealand', 'Te Mata Peak Hawke\'s Bay'],
+  },
+  marlborough_anniversary_day: {
+    NZ: ['Marlborough Sounds New Zealand', 'Marlborough vineyards Blenheim', 'Queen Charlotte Sound Picton'],
+  },
+  canterbury_anniversary_day: {
+    NZ: ['Christchurch Canterbury A&P Show', 'Christchurch Cathedral Square', 'Canterbury Plains New Zealand'],
+  },
+  chatham_islands_anniversary_day: {
+    NZ: ['Chatham Islands New Zealand coast', 'Chatham Islands Waitangi', 'Chatham Islands landscape'],
+  },
+  westland_anniversary_day: {
+    NZ: ['Hokitika Gorge West Coast', 'Franz Josef Glacier Westland', 'Punakaiki Pancake Rocks'],
+  },
 
   // --- Batch 8: Tuerkei ---
   eid_al_fitr_first_day: {
