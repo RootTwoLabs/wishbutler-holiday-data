@@ -11,6 +11,7 @@ const cachePath = path.join(__dirname, '.holiday-info-translation-cache.json');
 const TARGETS = [
   { locale: 'nl', deeplTo: 'NL' },
   { locale: 'sv', deeplTo: 'SV' },
+  { locale: 'ru', deeplTo: 'RU' },
   { locale: 'ja', deeplTo: 'JA' },
   { locale: 'ko', deeplTo: 'KO' },
   { locale: 'zh-Hant', deeplTo: 'ZH-HANT' },

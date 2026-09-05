@@ -26,7 +26,7 @@ const HARVEST = join(CONTENT, 'fun-occasions.json');
 const CURATED = join(CONTENT, 'fun-occasions-curated.json');
 const CACHE = join(CONTENT, '.fun-occasions-translation-cache.json');
 
-const ALL_LOCALES = ['de', 'en', 'es', 'fr', 'it', 'pl', 'pt', 'nl', 'sv', 'ja', 'ko', 'zh-Hant'];
+const ALL_LOCALES = ['de', 'en', 'es', 'fr', 'it', 'pl', 'pt', 'nl', 'sv', 'ru', 'ja', 'ko', 'zh-Hant'];
 const DELAY_MS = Number(process.env.TRANSLATE_DELAY_MS ?? 200);
 
 /** Google-Sprachcode (Traditionelles Chinesisch = zh-TW). */

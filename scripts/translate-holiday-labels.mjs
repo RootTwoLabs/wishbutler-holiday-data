@@ -29,6 +29,7 @@ const TARGET_LANG = {
   pl: 'pl',
   nl: 'nl',
   sv: 'sv',
+  ru: 'ru',
   ja: 'ja',
   ko: 'ko',
   'zh-Hant': 'zh-TW',
