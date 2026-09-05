@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "baseUrl": "https://cdn.jsdelivr.net/gh/RootTwoLabs/wishbutler-holiday-data@main/data",
-  "generatedAt": "2026-09-05T20:43:24.090Z",
+  "generatedAt": "2026-09-05T22:13:04.962Z",
   "countries": [
     {
       "code": "AD",
@@ -130,7 +130,7 @@
       "code": "AT",
       "version": 12,
       "package": "packages/AT/v12/package.json",
-      "sizeBytes": 452614,
+      "sizeBytes": 472636,
       "locales": [
         "de",
         "en",
@@ -300,7 +300,7 @@
       "code": "BG",
       "version": 13,
       "package": "packages/BG/v13/package.json",
-      "sizeBytes": 139197,
+      "sizeBytes": 144978,
       "locales": [
         "bg",
         "de",
@@ -736,7 +736,7 @@
       "code": "CZ",
       "version": 11,
       "package": "packages/CZ/v11/package.json",
-      "sizeBytes": 187608,
+      "sizeBytes": 199633,
       "locales": [
         "cs",
         "de",
@@ -761,7 +761,7 @@
       "code": "DE",
       "version": 13,
       "package": "packages/DE/v13/package.json",
-      "sizeBytes": 464032,
+      "sizeBytes": 487228,
       "locales": [
         "de",
         "en",
@@ -908,7 +908,7 @@
       "code": "ES",
       "version": 12,
       "package": "packages/ES/v12/package.json",
-      "sizeBytes": 340137,
+      "sizeBytes": 359337,
       "locales": [
         "de",
         "en",
@@ -932,7 +932,7 @@
       "code": "FI",
       "version": 12,
       "package": "packages/FI/v12/package.json",
-      "sizeBytes": 305508,
+      "sizeBytes": 319192,
       "locales": [
         "de",
         "en",
@@ -982,7 +982,7 @@
       "code": "FR",
       "version": 11,
       "package": "packages/FR/v11/package.json",
-      "sizeBytes": 237653,
+      "sizeBytes": 249518,
       "locales": [
         "de",
         "en",
@@ -1224,7 +1224,7 @@
       "code": "GR",
       "version": 12,
       "package": "packages/GR/v12/package.json",
-      "sizeBytes": 207255,
+      "sizeBytes": 214975,
       "locales": [
         "de",
         "el",
@@ -1346,7 +1346,7 @@
       "code": "HR",
       "version": 11,
       "package": "packages/HR/v11/package.json",
-      "sizeBytes": 242020,
+      "sizeBytes": 262495,
       "locales": [
         "de",
         "en",
@@ -1395,7 +1395,7 @@
       "code": "HU",
       "version": 12,
       "package": "packages/HU/v12/package.json",
-      "sizeBytes": 255115,
+      "sizeBytes": 268314,
       "locales": [
         "de",
         "en",
@@ -1543,7 +1543,7 @@
       "code": "IT",
       "version": 12,
       "package": "packages/IT/v12/package.json",
-      "sizeBytes": 295413,
+      "sizeBytes": 312685,
       "locales": [
         "de",
         "en",
@@ -1809,7 +1809,7 @@
       "code": "LV",
       "version": 14,
       "package": "packages/LV/v14/package.json",
-      "sizeBytes": 352904,
+      "sizeBytes": 373266,
       "locales": [
         "de",
         "en",
@@ -2370,7 +2370,7 @@
       "code": "PL",
       "version": 12,
       "package": "packages/PL/v12/package.json",
-      "sizeBytes": 360671,
+      "sizeBytes": 390921,
       "locales": [
         "de",
         "en",
@@ -2564,7 +2564,7 @@
       "code": "SE",
       "version": 13,
       "package": "packages/SE/v13/package.json",
-      "sizeBytes": 336683,
+      "sizeBytes": 348135,
       "locales": [
         "de",
         "en",
@@ -2662,7 +2662,7 @@
       "code": "SK",
       "version": 11,
       "package": "packages/SK/v11/package.json",
-      "sizeBytes": 197886,
+      "sizeBytes": 209967,
       "locales": [
         "de",
         "en",
