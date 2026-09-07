@@ -12,6 +12,7 @@ const TARGETS = [
   { locale: 'nl', deeplTo: 'NL' },
   { locale: 'sv', deeplTo: 'SV' },
   { locale: 'ru', deeplTo: 'RU' },
+  { locale: 'uk', deeplTo: 'UK' },
   { locale: 'ja', deeplTo: 'JA' },
   { locale: 'ko', deeplTo: 'KO' },
   { locale: 'zh-Hant', deeplTo: 'ZH-HANT' },

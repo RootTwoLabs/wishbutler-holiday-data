@@ -1,7 +1,7 @@
 {
   "source": "Kuratiert – eigene Formulierung (lizenzfrei). Nur ECHTE, allgemein bekannte kuriose Tage; Daten = nicht schutzfaehige Fakten. KEINE Erfindungen, KEINE Uebernahme von Texten kommerzieller Feiertags-Seiten.",
   "license": "own-wording / public-domain facts",
-  "note": "AUSSCHLIESSLICH echte, heitere Anlaesse als Ergaenzung zum Wikidata-Harvest. de + en maßgeblich; die uebrigen 11 App-Sprachen fuellt translate-fun-occasions.mjs. KEIN Evergreen-Backstop mehr — Tage ohne echten Anlass bleiben bewusst leer.",
+  "note": "AUSSCHLIESSLICH echte, heitere Anlaesse als Ergaenzung zum Wikidata-Harvest. de + en maßgeblich; die uebrigen 12 App-Sprachen fuellt translate-fun-occasions.mjs. KEIN Evergreen-Backstop mehr — Tage ohne echten Anlass bleiben bewusst leer.",
   "dated": [
     {
       "date": "01-19",
@@ -19,7 +19,8 @@
         "ja": "全国ポップコーンデー",
         "ko": "국립 팝콘의 날",
         "zh-Hant": "全國爆米花日",
-        "ru": "Национальный день попкорна"
+        "ru": "Национальный день попкорна",
+        "uk": "Національний день попкорну"
       }
     },
     {
@@ -38,7 +39,8 @@
         "ja": "全国ハグデー",
         "ko": "전국 포옹의 날",
         "zh-Hant": "全國擁抱日",
-        "ru": "Национальный день объятий"
+        "ru": "Национальный день объятий",
+        "uk": "Національний день обіймів"
       }
     },
     {
@@ -57,7 +59,8 @@
         "ja": "全国ピザデー",
         "ko": "전국 피자의 날",
         "zh-Hant": "全國披薩日",
-        "ru": "Национальный день пиццы"
+        "ru": "Национальный день пиццы",
+        "uk": "Національний день піци"
       }
     },
     {
@@ -76,7 +79,8 @@
         "ja": "世界ペンギンデー",
         "ko": "세계 펭귄의 날",
         "zh-Hant": "世界企鵝日",
-        "ru": "Всемирный день пингвинов"
+        "ru": "Всемирный день пингвинов",
+        "uk": "Всесвітній день пінгвінів"
       }
     },
     {
@@ -95,7 +99,8 @@
         "ja": "国際寿司デー",
         "ko": "국제 스시의 날",
         "zh-Hant": "國際壽司日",
-        "ru": "Международный день суши"
+        "ru": "Международный день суши",
+        "uk": "Міжнародний день суші"
       }
     },
     {
@@ -114,7 +119,8 @@
         "ja": "ワールドミュージックデー",
         "ko": "세계 음악의 날",
         "zh-Hant": "世界音樂日",
-        "ru": "Всемирный день музыки"
+        "ru": "Всемирный день музыки",
+        "uk": "Всесвітній день музики"
       }
     },
     {
@@ -133,7 +139,8 @@
         "ja": "国際友好デー",
         "ko": "국제 우정의 날",
         "zh-Hant": "國際友誼日",
-        "ru": "Международный день дружбы"
+        "ru": "Международный день дружбы",
+        "uk": "Міжнародний день дружби"
       }
     },
     {
@@ -152,7 +159,8 @@
         "ja": "国際左利きデー",
         "ko": "국제 왼손잡이의 날",
         "zh-Hant": "國際左撇子日",
-        "ru": "Международный день левшей"
+        "ru": "Международный день левшей",
+        "uk": "Міжнародний день лівшів"
       }
     },
     {
@@ -171,7 +179,8 @@
         "ja": "ロアルド・ダールの日",
         "ko": "로알드 달 데이",
         "zh-Hant": "羅爾德達爾日",
-        "ru": "День Роальда Даля"
+        "ru": "День Роальда Даля",
+        "uk": "День Роальда Даля"
       }
     },
     {
@@ -190,7 +199,8 @@
         "ja": "世界動物デー",
         "ko": "세계 동물의 날",
         "zh-Hant": "世界動物日",
-        "ru": "Всемирный день животных"
+        "ru": "Всемирный день животных",
+        "uk": "Всесвітній день захисту тварин"
       }
     },
     {
@@ -209,7 +219,8 @@
         "ja": "世界親切デー",
         "ko": "세계 친절의 날",
         "zh-Hant": "世界仁慈日",
-        "ru": "Всемирный день доброты"
+        "ru": "Всемирный день доброты",
+        "uk": "Всесвітній день доброти"
       }
     }
   ]
