@@ -26,7 +26,7 @@ const HARVEST = join(ROOT, 'content', 'fun-occasions.json');
 const CURATED = join(ROOT, 'content', 'fun-occasions-curated.json');
 
 const REQUIRED_LOCALES = ['de', 'en'];
-const ALL_LOCALES = ['de', 'en', 'es', 'fr', 'it', 'pl', 'pt', 'nl', 'sv', 'ru', 'uk', 'ja', 'ko', 'zh-Hant'];
+const ALL_LOCALES = ['de', 'en', 'es', 'fr', 'it', 'pl', 'pt', 'nl', 'sv', 'nb', 'da', 'fi', 'ru', 'uk', 'ja', 'ko', 'zh-Hant'];
 const MAX_PER_DAY = 3;
 const DATE_RE = /^[0-1][0-9]-[0-3][0-9]$/;
 

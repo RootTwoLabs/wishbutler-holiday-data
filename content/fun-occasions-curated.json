@@ -1,7 +1,7 @@
 {
   "source": "Kuratiert – eigene Formulierung (lizenzfrei). Nur ECHTE, allgemein bekannte kuriose Tage; Daten = nicht schutzfaehige Fakten. KEINE Erfindungen, KEINE Uebernahme von Texten kommerzieller Feiertags-Seiten.",
   "license": "own-wording / public-domain facts",
-  "note": "AUSSCHLIESSLICH echte, heitere Anlaesse als Ergaenzung zum Wikidata-Harvest. de + en maßgeblich; die uebrigen 12 App-Sprachen fuellt translate-fun-occasions.mjs. KEIN Evergreen-Backstop mehr — Tage ohne echten Anlass bleiben bewusst leer.",
+  "note": "AUSSCHLIESSLICH echte, heitere Anlaesse als Ergaenzung zum Wikidata-Harvest. de + en maßgeblich; die uebrigen 15 App-Sprachen fuellt translate-fun-occasions.mjs. KEIN Evergreen-Backstop mehr — Tage ohne echten Anlass bleiben bewusst leer.",
   "dated": [
     {
       "date": "01-19",
@@ -20,7 +20,10 @@
         "ko": "국립 팝콘의 날",
         "zh-Hant": "全國爆米花日",
         "ru": "Национальный день попкорна",
-        "uk": "Національний день попкорну"
+        "uk": "Національний день попкорну",
+        "nb": "Nasjonal popcorndag",
+        "da": "National Popcorn Dag",
+        "fi": "Kansallinen popcornpäivä"
       }
     },
     {
@@ -40,7 +43,10 @@
         "ko": "전국 포옹의 날",
         "zh-Hant": "全國擁抱日",
         "ru": "Национальный день объятий",
-        "uk": "Національний день обіймів"
+        "uk": "Національний день обіймів",
+        "nb": "Nasjonal klemmedag",
+        "da": "Nationale krammedag",
+        "fi": "Kansallinen halauspäivä"
       }
     },
     {
@@ -60,7 +66,10 @@
         "ko": "전국 피자의 날",
         "zh-Hant": "全國披薩日",
         "ru": "Национальный день пиццы",
-        "uk": "Національний день піци"
+        "uk": "Національний день піци",
+        "nb": "Nasjonal pizzadag",
+        "da": "National Pizza Dag",
+        "fi": "Kansallinen pizzapäivä"
       }
     },
     {
@@ -80,7 +89,10 @@
         "ko": "세계 펭귄의 날",
         "zh-Hant": "世界企鵝日",
         "ru": "Всемирный день пингвинов",
-        "uk": "Всесвітній день пінгвінів"
+        "uk": "Всесвітній день пінгвінів",
+        "nb": "Verdens pingvindag",
+        "da": "Verdenspingvinens dag",
+        "fi": "Maailman pingviinipäivä"
       }
     },
     {
@@ -100,7 +112,10 @@
         "ko": "국제 스시의 날",
         "zh-Hant": "國際壽司日",
         "ru": "Международный день суши",
-        "uk": "Міжнародний день суші"
+        "uk": "Міжнародний день суші",
+        "nb": "Den internasjonale sushidagen",
+        "da": "International Sushi Dag",
+        "fi": "Kansainvälinen sushipäivä"
       }
     },
     {
@@ -120,7 +135,10 @@
         "ko": "세계 음악의 날",
         "zh-Hant": "世界音樂日",
         "ru": "Всемирный день музыки",
-        "uk": "Всесвітній день музики"
+        "uk": "Всесвітній день музики",
+        "nb": "Verdens musikkdag",
+        "da": "Verdens Musikdag",
+        "fi": "Maailman musiikkipäivä"
       }
     },
     {
@@ -140,7 +158,10 @@
         "ko": "국제 우정의 날",
         "zh-Hant": "國際友誼日",
         "ru": "Международный день дружбы",
-        "uk": "Міжнародний день дружби"
+        "uk": "Міжнародний день дружби",
+        "nb": "Internasjonal vennskapsdag",
+        "da": "International Venskabsdag",
+        "fi": "Kansainvälinen ystävyyden päivä"
       }
     },
     {
@@ -160,7 +181,10 @@
         "ko": "국제 왼손잡이의 날",
         "zh-Hant": "國際左撇子日",
         "ru": "Международный день левшей",
-        "uk": "Міжнародний день лівшів"
+        "uk": "Міжнародний день лівшів",
+        "nb": "Den internasjonale venstrehåndsdagen",
+        "da": "Internationale venstrehåndede dag",
+        "fi": "Kansainvälinen vasenkätisten päivä"
       }
     },
     {
@@ -180,7 +204,10 @@
         "ko": "로알드 달 데이",
         "zh-Hant": "羅爾德達爾日",
         "ru": "День Роальда Даля",
-        "uk": "День Роальда Даля"
+        "uk": "День Роальда Даля",
+        "nb": "Roald Dahl-dagen",
+        "da": "Roald Dahl-dagen",
+        "fi": "Roald Dahlin päivä"
       }
     },
     {
@@ -200,7 +227,10 @@
         "ko": "세계 동물의 날",
         "zh-Hant": "世界動物日",
         "ru": "Всемирный день животных",
-        "uk": "Всесвітній день захисту тварин"
+        "uk": "Всесвітній день захисту тварин",
+        "nb": "Verdens dyredag",
+        "da": "Verdens Dyredag",
+        "fi": "Maailman eläinten päivä"
       }
     },
     {
@@ -220,7 +250,10 @@
         "ko": "세계 친절의 날",
         "zh-Hant": "世界仁慈日",
         "ru": "Всемирный день доброты",
-        "uk": "Всесвітній день доброти"
+        "uk": "Всесвітній день доброти",
+        "nb": "Verdens godhetsdag",
+        "da": "Verdens Venlighedsdag",
+        "fi": "Maailman ystävällisyyspäivä"
       }
     }
   ]

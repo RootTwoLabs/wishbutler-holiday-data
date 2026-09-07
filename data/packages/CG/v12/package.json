@@ -241,6 +241,27 @@
         "national_day": "Національний день",
         "all_saints_day": "День всіх святих",
         "republic_day": "День Республіки"
+      },
+      "nb": {
+        "easter_sunday": "Første påskedag",
+        "reconciliation_day": "Forsoningsdagen",
+        "national_day": "Nasjonaldagen",
+        "all_saints_day": "Allehelgensdag",
+        "republic_day": "Republikkens dag"
+      },
+      "da": {
+        "easter_sunday": "Påskedag",
+        "reconciliation_day": "Forsoningsdag",
+        "national_day": "Nationaldag",
+        "all_saints_day": "Allehelgens dag",
+        "republic_day": "Republikkens dag"
+      },
+      "fi": {
+        "easter_sunday": "Pääsiäispäivä",
+        "reconciliation_day": "sovintopäivä",
+        "national_day": "Kansallispäivä",
+        "all_saints_day": "Pyhäinpäivä",
+        "republic_day": "Republic Day"
       }
     },
     "holidayInfo": {

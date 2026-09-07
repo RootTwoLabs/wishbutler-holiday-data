@@ -245,6 +245,27 @@
         "queens_birthday": "День народження Королеви",
         "emancipation_day": "День звільнення",
         "festival_day": "День фестивалю"
+      },
+      "nb": {
+        "saint_patricks_day": "Saint Patrick's Day",
+        "labour_day_ms": "Arbeidernes dag",
+        "queens_birthday": "Dronningens bursdag",
+        "emancipation_day": "Frigjøringsdagen",
+        "festival_day": "Festivaldagen"
+      },
+      "da": {
+        "saint_patricks_day": "Saint Patrick's Day",
+        "labour_day_ms": "Labor Day",
+        "queens_birthday": "Dronningens fødselsdag",
+        "emancipation_day": "Emancipation Day",
+        "festival_day": "Festivaldag"
+      },
+      "fi": {
+        "saint_patricks_day": "Pyhän Patrickin päivä",
+        "labour_day_ms": "Vapunpäivä",
+        "queens_birthday": "Kuningattaren syntymäpäivä",
+        "emancipation_day": "Vapautuspäivä",
+        "festival_day": "Festivaalipäivä"
       }
     },
     "holidayInfo": {

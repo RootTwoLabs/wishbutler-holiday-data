@@ -27,12 +27,14 @@ const HARVEST = join(CONTENT, 'fun-occasions.json');
 const CURATED = join(CONTENT, 'fun-occasions-curated.json');
 const CACHE = join(CONTENT, '.fun-occasions-translation-cache.json');
 
-const ALL_LOCALES = ['de', 'en', 'es', 'fr', 'it', 'pl', 'pt', 'nl', 'sv', 'ru', 'uk', 'ja', 'ko', 'zh-Hant'];
+const ALL_LOCALES = ['de', 'en', 'es', 'fr', 'it', 'pl', 'pt', 'nl', 'sv', 'nb', 'da', 'fi', 'ru', 'uk', 'ja', 'ko', 'zh-Hant'];
 const DELAY_MS = Number(process.env.TRANSLATE_DELAY_MS ?? 200);
 
 /** Google-Sprachcode (Traditionelles Chinesisch = zh-TW). */
 function gLang(loc) {
-  return loc === 'zh-Hant' ? 'zh-TW' : loc;
+  if (loc === 'zh-Hant') return 'zh-TW';
+  if (loc === 'nb') return 'no';
+  return loc;
 }
 
 async function readJson(path, fallback) {

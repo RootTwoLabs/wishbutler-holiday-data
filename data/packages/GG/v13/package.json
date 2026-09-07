@@ -207,6 +207,24 @@
         "liberation_day": "День визволення",
         "spring_bank_holiday": "Весняні канікули",
         "summer_bank_holiday": "Літні канікули"
+      },
+      "nb": {
+        "early_may_bank_holiday": "Bankfridag tidlig i mai",
+        "liberation_day": "Frigjøringsdagen",
+        "spring_bank_holiday": "Bank Holiday",
+        "summer_bank_holiday": "Bank Holiday"
+      },
+      "da": {
+        "early_may_bank_holiday": "Bankfridag i begyndelsen af maj",
+        "liberation_day": "Befrielsesdag",
+        "spring_bank_holiday": "Forårs helligdag",
+        "summer_bank_holiday": "Sommerferie"
+      },
+      "fi": {
+        "early_may_bank_holiday": "Toukokuun alussa pyhäpäivä",
+        "liberation_day": "Vapautuspäivä",
+        "spring_bank_holiday": "Kevätjuhla",
+        "summer_bank_holiday": "Kesäloma"
       }
     },
     "holidayInfo": {

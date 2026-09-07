@@ -37,7 +37,7 @@ const OUT = join(ROOT, 'content', 'fun-occasions.json');
 const ENDPOINT = 'https://query.wikidata.org/sparql';
 const USER_AGENT =
   'WishButler-FunOccasions-Harvester/2.0 (https://wishbutler.app; contact: evgeny@nekhamkin.de)';
-const ALL_LOCALES = ['de', 'en', 'es', 'fr', 'it', 'pl', 'pt', 'nl', 'sv', 'ru', 'uk', 'ja', 'ko', 'zh-Hant'];
+const ALL_LOCALES = ['de', 'en', 'es', 'fr', 'it', 'pl', 'pt', 'nl', 'sv', 'nb', 'da', 'fi', 'ru', 'uk', 'ja', 'ko', 'zh-Hant'];
 const MAX_PER_DAY = 3;
 const MAX_DATES_PER_OCCASION = 2;
 const SANITY_MIN = 30;

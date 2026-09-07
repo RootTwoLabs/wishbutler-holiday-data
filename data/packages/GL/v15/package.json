@@ -338,6 +338,33 @@
         "pentecost": "Трійця",
         "ullortuneq": "Уллортунек",
         "christmas_eve": "Святвечір"
+      },
+      "nb": {
+        "maundy_thursday": "Skjærtorsdag",
+        "easter_sunday": "Første påskedag",
+        "general_prayer_day": "Generell bønnedag",
+        "bank_closing_day": "Bankstengedag",
+        "pentecost": "Første pinsedag",
+        "ullortuneq": "Ullortuneq",
+        "christmas_eve": "Julaften"
+      },
+      "da": {
+        "maundy_thursday": "Skærtorsdag",
+        "easter_sunday": "Påskedag",
+        "general_prayer_day": "Generel bededag",
+        "bank_closing_day": "Banklukkedag",
+        "pentecost": "Pinsedag",
+        "ullortuneq": "Ullortuneq",
+        "christmas_eve": "Juleaftensdag"
+      },
+      "fi": {
+        "maundy_thursday": "Suurtorstai",
+        "easter_sunday": "Pääsiäispäivä",
+        "general_prayer_day": "Yleinen rukouspäivä",
+        "bank_closing_day": "Pankin sulkemispäivä",
+        "pentecost": "Helluntaipäivä",
+        "ullortuneq": "Ullortuneq",
+        "christmas_eve": "Jouluaatto"
       }
     },
     "holidayInfo": {

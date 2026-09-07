@@ -287,6 +287,27 @@
         "national_holiday": "Національне свято",
         "all_saints_day": "День всіх святих",
         "immaculate_conception": "Непорочне Зачаття"
+      },
+      "nb": {
+        "carnival": "Karneval",
+        "constitution_day": "Syttende mai",
+        "national_holiday": "Nasjonal helligdag",
+        "all_saints_day": "Allehelgensdag",
+        "immaculate_conception": "Ulastelig unnfangelse"
+      },
+      "da": {
+        "carnival": "Karneval",
+        "constitution_day": "Grundlovsdag",
+        "national_holiday": "National helligdag",
+        "all_saints_day": "Allehelgens dag",
+        "immaculate_conception": "Ulastelig undfangelse"
+      },
+      "fi": {
+        "carnival": "Karnevaali",
+        "constitution_day": "perustuslain päivä",
+        "national_holiday": "Kansallispäivä",
+        "all_saints_day": "Pyhäinpäivä",
+        "immaculate_conception": "tahraton sikiäminen"
       }
     },
     "holidayInfo": {

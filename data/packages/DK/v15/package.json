@@ -298,6 +298,22 @@
         "pentecost": "Трійця",
         "constitution_day": "День Конституції",
         "christmas_eve": "Святвечір"
+      },
+      "nb": {
+        "maundy_thursday": "Skjærtorsdag",
+        "easter_sunday": "Første påskedag",
+        "bank_closing_day": "Bankstengedag",
+        "pentecost": "Første pinsedag",
+        "constitution_day": "Syttende mai",
+        "christmas_eve": "Julaften"
+      },
+      "fi": {
+        "maundy_thursday": "Suurtorstai",
+        "easter_sunday": "Pääsiäispäivä",
+        "bank_closing_day": "Pankin sulkemispäivä",
+        "pentecost": "Helluntaipäivä",
+        "constitution_day": "perustuslain päivä",
+        "christmas_eve": "Jouluaatto"
       }
     },
     "holidayInfo": {

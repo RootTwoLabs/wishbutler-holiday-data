@@ -290,6 +290,33 @@
         "queens_birthday": "День народження Королеви",
         "summer_bank_holiday": "Літні канікули",
         "gibraltar_national_day": "Національний день Гібралтару"
+      },
+      "nb": {
+        "commonwealth_day": "Commonwealth Day",
+        "workers_memorial_day": "Arbeidernes minnedag",
+        "may_day_bank_holiday": "1. mai helligdag",
+        "spring_bank_holiday": "Bank Holiday",
+        "queens_birthday": "Dronningens bursdag",
+        "summer_bank_holiday": "Bank Holiday",
+        "gibraltar_national_day": "Gibraltars nasjonaldag"
+      },
+      "da": {
+        "commonwealth_day": "Commonwealth Day",
+        "workers_memorial_day": "Arbejdernes mindedag",
+        "may_day_bank_holiday": "maj helligdag",
+        "spring_bank_holiday": "Forårs helligdag",
+        "queens_birthday": "Dronningens fødselsdag",
+        "summer_bank_holiday": "Sommerferie",
+        "gibraltar_national_day": "Gibraltars nationaldag"
+      },
+      "fi": {
+        "commonwealth_day": "Kansainyhteisön päivä",
+        "workers_memorial_day": "Työntekijöiden muistopäivä",
+        "may_day_bank_holiday": "Vappu arkipyhä",
+        "spring_bank_holiday": "Kevätjuhla",
+        "queens_birthday": "Kuningattaren syntymäpäivä",
+        "summer_bank_holiday": "Kesäloma",
+        "gibraltar_national_day": "Gibraltarin kansallispäivä"
       }
     },
     "holidayInfo": {

@@ -226,6 +226,21 @@
         "europe_day": "День Європи",
         "sovereigns_birthday": "День народження Государя",
         "all_saints_day": "День всіх святих"
+      },
+      "nb": {
+        "europe_day": "Europadagen",
+        "sovereigns_birthday": "Sovereigns bursdag",
+        "all_saints_day": "Allehelgensdag"
+      },
+      "da": {
+        "europe_day": "Europadagen",
+        "sovereigns_birthday": "Sovereigns fødselsdag",
+        "all_saints_day": "Allehelgens dag"
+      },
+      "fi": {
+        "europe_day": "Eurooppa-päivä",
+        "sovereigns_birthday": "Sovereignin syntymäpäivä",
+        "all_saints_day": "Pyhäinpäivä"
       }
     },
     "holidayInfo": {

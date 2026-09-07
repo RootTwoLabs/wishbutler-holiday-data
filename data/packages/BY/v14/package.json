@@ -251,6 +251,30 @@
         "independence_day": "День Незалежності",
         "october_revolution_day": "День жовтневої революції",
         "catholic_christmas_day": "Католицьке Різдво"
+      },
+      "nb": {
+        "christmas_day_orthodox": "juledag (ortodoks)",
+        "commemoration_day": "minnedag",
+        "victory_day": "Seiersdagen",
+        "independence_day": "Independence Day",
+        "october_revolution_day": "oktoberrevolusjonsdagen",
+        "catholic_christmas_day": "Katolsk juledag"
+      },
+      "da": {
+        "christmas_day_orthodox": "juledag (ortodoks)",
+        "commemoration_day": "Mindedag",
+        "victory_day": "Sejrsdag",
+        "independence_day": "Uafhængighedsdag",
+        "october_revolution_day": "Oktoberrevolutionens dag",
+        "catholic_christmas_day": "Katolsk juledag"
+      },
+      "fi": {
+        "christmas_day_orthodox": "joulupäivä (ortodoksinen)",
+        "commemoration_day": "muistopäivä",
+        "victory_day": "Voitonpäivä",
+        "independence_day": "Itsenäisyyspäivä",
+        "october_revolution_day": "Lokakuun vallankumouspäivä",
+        "catholic_christmas_day": "katolinen joulupäivä"
       }
     },
     "holidayInfo": {

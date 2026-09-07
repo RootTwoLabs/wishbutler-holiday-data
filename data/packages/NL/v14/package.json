@@ -235,6 +235,24 @@
         "kings_day": "День короля",
         "liberation_day": "День визволення",
         "pentecost": "Трійця"
+      },
+      "nb": {
+        "easter_sunday": "Første påskedag",
+        "kings_day": "Kongedag",
+        "liberation_day": "Frigjøringsdagen",
+        "pentecost": "Første pinsedag"
+      },
+      "da": {
+        "easter_sunday": "Påskedag",
+        "kings_day": "Kongedag",
+        "liberation_day": "Befrielsesdag",
+        "pentecost": "Pinsedag"
+      },
+      "fi": {
+        "easter_sunday": "Pääsiäispäivä",
+        "kings_day": "Kuninkaanpäivä",
+        "liberation_day": "Vapautuspäivä",
+        "pentecost": "Helluntaipäivä"
       }
     },
     "holidayInfo": {

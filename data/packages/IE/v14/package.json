@@ -272,6 +272,30 @@
         "june_holiday": "Червневі канікули",
         "august_holiday": "Серпневі канікули",
         "october_holiday": "Свято Жовтня"
+      },
+      "nb": {
+        "saint_brigids_day": "Saint Brigid's Day",
+        "saint_patricks_day": "Saint Patrick's Day",
+        "may_day": "mai",
+        "june_holiday": "juniferie",
+        "august_holiday": "augustferie",
+        "october_holiday": "oktoberferie"
+      },
+      "da": {
+        "saint_brigids_day": "Saint Brigid's Day",
+        "saint_patricks_day": "Saint Patrick's Day",
+        "may_day": "maj",
+        "june_holiday": "juniferie",
+        "august_holiday": "augustferie",
+        "october_holiday": "Oktoberferie"
+      },
+      "fi": {
+        "saint_brigids_day": "Pyhän Brigidin päivä",
+        "saint_patricks_day": "Pyhän Patrickin päivä",
+        "may_day": "Vappu",
+        "june_holiday": "Kesäkuun loma",
+        "august_holiday": "elokuun loma",
+        "october_holiday": "Lokakuun loma"
       }
     },
     "holidayInfo": {

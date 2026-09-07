@@ -327,6 +327,36 @@
         "late_summer_bank_holiday": "Канікули в кінці літа",
         "christmas_day": "Різдво",
         "boxing_day_im": "День подарунків"
+      },
+      "nb": {
+        "new_years_day": "nyttårsdag",
+        "early_may_bank_holiday": "Bankfridag tidlig i mai",
+        "spring_bank_holiday": "Bank Holiday",
+        "senior_race_day": "Seniorløpsdag",
+        "tynwald_day": "Tynwald-dagen",
+        "late_summer_bank_holiday": "Sensommerbankferie",
+        "christmas_day": "juledag",
+        "boxing_day_im": "2. juledag"
+      },
+      "da": {
+        "new_years_day": "nytårsdag",
+        "early_may_bank_holiday": "Bankfridag i begyndelsen af maj",
+        "spring_bank_holiday": "Forårs helligdag",
+        "senior_race_day": "Seniorløbsdag",
+        "tynwald_day": "Tynwald-dagen",
+        "late_summer_bank_holiday": "Sensommer helligdag",
+        "christmas_day": "juledag",
+        "boxing_day_im": "2. juledag"
+      },
+      "fi": {
+        "new_years_day": "uudenvuodenpäivä",
+        "early_may_bank_holiday": "Toukokuun alussa pyhäpäivä",
+        "spring_bank_holiday": "Kevätjuhla",
+        "senior_race_day": "Senior Race Day",
+        "tynwald_day": "Tynwald-päivä",
+        "late_summer_bank_holiday": "Loppukesän pankkipyhä",
+        "christmas_day": "Joulupäivä",
+        "boxing_day_im": "Tapaninpäivä"
       }
     },
     "holidayInfo": {

@@ -318,6 +318,36 @@
         "easter_monday_rs": "Великодній понеділок",
         "labour_day_rs": "День праці",
         "armistice_day": "День перемир'я"
+      },
+      "nb": {
+        "new_years_day": "nyttårsdag",
+        "christmas_day": "juledag",
+        "statehood_day": "Statehood Day",
+        "good_friday_rs": "Langfredag",
+        "easter_sunday": "Første påskedag",
+        "easter_monday_rs": "påskedag",
+        "labour_day_rs": "Arbeidernes dag",
+        "armistice_day": "Våpenvåpendag"
+      },
+      "da": {
+        "new_years_day": "nytårsdag",
+        "christmas_day": "juledag",
+        "statehood_day": "Statsskabsdag",
+        "good_friday_rs": "Langfredag",
+        "easter_sunday": "Påskedag",
+        "easter_monday_rs": "påskedag",
+        "labour_day_rs": "Labor Day",
+        "armistice_day": "Våbenstilstandsdag"
+      },
+      "fi": {
+        "new_years_day": "uudenvuodenpäivä",
+        "christmas_day": "Joulupäivä",
+        "statehood_day": "Valtiopäivä",
+        "good_friday_rs": "Pitkäperjantai",
+        "easter_sunday": "Pääsiäispäivä",
+        "easter_monday_rs": "pääsiäismaanantai",
+        "labour_day_rs": "Vapunpäivä",
+        "armistice_day": "Aselepopäivä"
       }
     },
     "holidayInfo": {

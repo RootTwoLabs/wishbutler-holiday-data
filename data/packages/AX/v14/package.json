@@ -350,6 +350,36 @@
         "all_saints_day": "День всіх святих",
         "independence_day": "День Незалежності",
         "christmas_eve": "Святвечір"
+      },
+      "nb": {
+        "easter_sunday": "Første påskedag",
+        "pentecost": "Første pinsedag",
+        "autonomy_day": "Autonomidagen",
+        "midsummer_evey": "Midtsommeraften",
+        "midsummer_day": "Midtsommerdag",
+        "all_saints_day": "Allehelgensdag",
+        "independence_day": "Independence Day",
+        "christmas_eve": "Julaften"
+      },
+      "da": {
+        "easter_sunday": "Påskedag",
+        "pentecost": "Pinsedag",
+        "autonomy_day": "Autonomy Day",
+        "midsummer_evey": "Midsommeraften",
+        "midsummer_day": "Skærsommerdag",
+        "all_saints_day": "Allehelgens dag",
+        "independence_day": "Uafhængighedsdag",
+        "christmas_eve": "Juleaftensdag"
+      },
+      "fi": {
+        "easter_sunday": "Pääsiäispäivä",
+        "pentecost": "Helluntaipäivä",
+        "autonomy_day": "Itsehallintopäivä",
+        "midsummer_evey": "Juhannusaatto",
+        "midsummer_day": "Juhannuspäivä",
+        "all_saints_day": "Pyhäinpäivä",
+        "independence_day": "Itsenäisyyspäivä",
+        "christmas_eve": "Jouluaatto"
       }
     },
     "holidayInfo": {
