@@ -10,6 +10,7 @@ import {
   validateFunDays,
   buildFunPackage,
   funKey,
+  funImageTargets,
 } from './lib/funDays.mjs';
 
 /** Baut ein vollständiges, gültiges Content-Set (366 Tage) in einem Temp-Ordner. */
@@ -266,4 +267,23 @@ test('echter Content: 366 Tage, 12 Locales, Bilder vollständig', async () => {
   const data = await loadFunDays(join(REPO, 'content', 'fun-days'));
   const errors = validateFunDays(data, { imagesRoot: join(REPO, 'data', 'images'), requireImages: true });
   assert.deepEqual(errors, [], errors.slice(0, 20).join('\n'));
+});
+
+test('imageFile: kuratierter Commons-Titel wird als Target-Datei durchgereicht und validiert', async (t) => {
+  const { content, images } = await writeFixture({
+    locales: ['en'],
+    withImages: false,
+    mutate: (f) => {
+      f.byMonth['01'][0].imageFile = 'File:Popcorn bowl.jpg';
+      f.byMonth['01'][1].imageFile = 'Popcorn.jpg'; // ohne File:-Präfix → Fehler
+    },
+  });
+  t.after(() => rm(join(content, '..', '..'), { recursive: true, force: true }));
+  const data = await loadFunDays(content, ['en']);
+  const errors = validateFunDays(data, { imagesRoot: images, requireImages: false, locales: ['en'] });
+  assert.equal(errors.filter((e) => e.includes('imageFile must look like')).length, 1);
+  const targets = await funImageTargets(content);
+  assert.equal(targets[0].file, 'File:Popcorn bowl.jpg');
+  assert.equal(targets[1].file, undefined);
+  assert.equal(targets[2].file, undefined);
 });

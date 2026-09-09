@@ -18,6 +18,8 @@ export const MONTHS = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10
 /** Februar mit 29 Tagen: der Schalttag ist ein regulärer Eintrag. */
 export const DAYS_IN_MONTH = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 export const SLUG_RE = /^[a-z0-9_]+$/;
+/** Kuratierter Commons-Dateititel (optional pro Tag), z. B. "File:Popcorn.jpg". */
+export const IMAGE_FILE_RE = /^File:.+\.(jpe?g|png)$/i;
 export const INTRO_MAX = 280;
 export const FUNFACT_MAX = 160;
 export const FUNFACTS_MIN = 3;
@@ -120,6 +122,9 @@ export function validateFunDays(data, { imagesRoot, requireImages = true, locale
     seenSlugs.add(d.slug);
     if (!Array.isArray(d.imageQueries) || d.imageQueries.length === 0 || d.imageQueries.some((q) => typeof q !== 'string' || !q.trim())) {
       errors.push(`${prefix}: imageQueries must be a non-empty string array`);
+    }
+    if (d.imageFile !== undefined && !IMAGE_FILE_RE.test(String(d.imageFile))) {
+      errors.push(`${prefix}: imageFile must look like "File:<name>.jpg" (got "${d.imageFile}")`);
     }
 
     if (!hasDate) continue; // datumsabhängige Folgechecks brauchen ein valides "MM-DD"
@@ -231,6 +236,8 @@ export async function funImageTargets(contentRoot) {
       slug: d.slug,
       countryCode: FUN_COUNTRY_CODE,
       terms: d.imageQueries ?? [],
+      // Kuratierte Auswahl: exakter Commons-Dateititel schlägt die Suche.
+      ...(typeof d.imageFile === 'string' && IMAGE_FILE_RE.test(d.imageFile) ? { file: d.imageFile } : {}),
       maxImages: 1,
       thumbWidth: 1024,
       maxBytes: 1_500_000,

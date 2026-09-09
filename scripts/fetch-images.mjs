@@ -300,14 +300,28 @@ async function fetchTarget(target) {
     }));
   }
 
+  let candidates = [];
+  if (target.file) {
+    // Kuratierter Commons-Dateititel (content/fun-days: `imageFile`): kein
+    // Suchlauf, genau diese Datei wird geprüft (Lizenz, Maße) und geholt.
+    try {
+      const info = await getCommonsImageInfo(target.file, thumbWidth);
+      const c = commonsCandidate(info, target.file);
+      if (c) candidates.push(c);
+      else console.warn(`  ${label}: curated file rejected (missing, unfree licence or too small): ${target.file}`);
+    } catch (err) {
+      console.warn(`  ${label}: curated file lookup failed: ${err.message}`);
+    }
+  }
+
   const terms = target.terms ?? termsForSlug(slug, countryCode);
-  if (terms.length === 0) {
+  if (candidates.length === 0 && terms.length === 0) {
     console.warn(`  ${label}: no search terms`);
     return [];
   }
 
-  let candidates = await collectCandidates(terms, { cc0Only: true, thumbWidth });
-  if (candidates.length < maxImages) {
+  if (candidates.length === 0) candidates = await collectCandidates(terms, { cc0Only: true, thumbWidth });
+  if (!target.file && candidates.length < maxImages) {
     const fallback = await collectCandidates(terms, { cc0Only: false, thumbWidth });
     for (const c of fallback) {
       if (!candidates.some((x) => x.url === c.url)) candidates.push(c);
