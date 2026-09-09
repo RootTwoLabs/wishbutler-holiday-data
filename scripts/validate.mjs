@@ -6,10 +6,11 @@
 import { readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, dirname, relative, sep } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
 import { LOCALES } from './config.mjs';
+import { allCalendarDays } from './lib/funDays.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -21,12 +22,24 @@ const FUNFACT_MAX = 160;
 const FUNFACTS_RECOMMENDED_MIN = 3;
 const FUNFACTS_RECOMMENDED_MAX = 5;
 
+/**
+ * FUN-Definitionen (echte HolidayDefinitions statt der reinen `funOccasions`-
+ * Liste) gibt es erst ab Paketversion 5. Ältere Pakete bleiben ohne die
+ * strengeren Checks unten gültig; diese Konstante kann entfernt werden,
+ * sobald FUN v5 live ist und keine v<5-Pakete mehr im Umlauf sind.
+ */
+const FUN_DEFINITIONS_SINCE_VERSION = 5;
+
 async function readJson(path) {
   return JSON.parse(await readFile(path, 'utf8'));
 }
 
 function slugFromLabelKey(labelKey) {
   return labelKey.startsWith('holidays.') ? labelKey.slice('holidays.'.length) : labelKey;
+}
+
+function pad2(n) {
+  return String(n).padStart(2, '0');
 }
 
 function checkHolidayInfo(countryCode, pkg, errors, warnings) {
@@ -105,34 +118,45 @@ function checkFunOccasions(pkg, errors, warnings) {
 }
 
 /**
- * FUN ab v5: jede Definition braucht Label + Artikel in allen LOCALES und ein Bild;
- * genau eine Definition pro Kalendertag (366), alle Regeln `fixed`.
- *
- * FUN ≤ v4 hatte keine Definitionen; ab v5 Pflicht — solange `data/index.json`
- * noch auf eine ältere FUN-Version zeigt, überspringt diese Prüfung sich selbst
- * (schema-only Checks laufen für v4 weiterhin über validatePackage/checkFunOccasions).
+ * FUN ab v5: jede Definition braucht Label + Artikel in allen LOCALES und ein
+ * Bild mit Lizenz; genau eine Definition pro echtem Kalendertag (366), alle
+ * Regeln `fixed`, iconName/category fest ("party-popper"/"observance").
+ * Bilder ohne CC0/Public-Domain-Lizenz brauchen einen Credit.
  */
-function checkFunDefinitions(pkg, errors) {
+export function checkFunDefinitions(pkg, errors) {
+  if (pkg.version < FUN_DEFINITIONS_SINCE_VERSION) return;
   const defs = pkg.definitions ?? [];
-  if (defs.length === 0) return;
   if (defs.length !== 366) errors.push(`FUN: expected 366 definitions, got ${defs.length}`);
-  const days = new Set();
+  const expectedDays = new Set(allCalendarDays());
+  const seenDays = new Set();
   const labels = pkg.i18n?.holidays ?? {};
   const info = pkg.i18n?.holidayInfo ?? {};
   for (const def of defs) {
-    const slug = slugFromLabelKey(def.labelKey);
+    const key = slugFromLabelKey(def.labelKey);
     if (def.countryCode !== 'FUN') errors.push(`FUN ${def.id}: countryCode ${def.countryCode}`);
-    if (def.rule?.type !== 'fixed') errors.push(`FUN ${def.id}: rule must be fixed`);
-    else {
-      const key = `${def.rule.month}-${def.rule.day}`;
-      if (days.has(key)) errors.push(`FUN ${def.id}: duplicate day ${key}`);
-      days.add(key);
+    if (def.iconName !== 'party-popper') errors.push(`FUN ${def.id}: iconName must be "party-popper"`);
+    if (def.category !== 'observance') errors.push(`FUN ${def.id}: category must be "observance"`);
+    if (def.rule?.type !== 'fixed') {
+      errors.push(`FUN ${def.id}: rule must be fixed`);
+    } else {
+      const dayKey = `${pad2(def.rule.month)}-${pad2(def.rule.day)}`;
+      if (!expectedDays.has(dayKey)) errors.push(`FUN ${def.id}: kein gültiger Kalendertag (${dayKey})`);
+      if (seenDays.has(dayKey)) errors.push(`FUN ${def.id}: duplicate day ${dayKey}`);
+      seenDays.add(dayKey);
     }
     for (const locale of LOCALES) {
-      if (!labels[locale]?.[slug]) errors.push(`FUN ${def.id}: missing "${locale}" label`);
-      if (!info[locale]?.[slug]) errors.push(`FUN ${def.id}: missing "${locale}" article`);
+      if (!labels[locale]?.[key]) errors.push(`FUN ${def.id}: missing "${locale}" label`);
+      if (!info[locale]?.[key]) errors.push(`FUN ${def.id}: missing "${locale}" article`);
     }
-    if (!pkg.images?.[slug]?.length) errors.push(`FUN ${def.id}: missing image`);
+    const imageList = pkg.images?.[key] ?? [];
+    if (!imageList.length) errors.push(`FUN ${def.id}: missing image`);
+    for (const ref of imageList) {
+      const licenseIsFree = typeof ref.license === 'string' && /^(cc0|public domain)/i.test(ref.license);
+      const hasCredit = typeof ref.credit === 'string' && ref.credit.trim() !== '';
+      if (!licenseIsFree && !hasCredit) {
+        errors.push(`FUN ${def.id}: image credit missing for ${ref.path}`);
+      }
+    }
   }
 }
 
@@ -287,7 +311,9 @@ async function main() {
   console.log('All packages valid.');
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

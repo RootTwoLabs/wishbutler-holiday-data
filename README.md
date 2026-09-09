@@ -58,7 +58,9 @@ Dates are described by rules so the client computes any year offline:
 - Images: [Wikimedia Commons](https://commons.wikimedia.org/) (PD / CC)
 - Fun days (`FUN` package): curated in `content/fun-days/` — names and dates are
   facts (Wikipedia lists, Wikidata); all texts are our own wording. Check with
-  `npm run check:fun-days`, build with `npm run build:fun-occasions`.
+  `npm run check:fun-days`, build with `npm run build:fun-occasions`. FUN images
+  are only fetched explicitly via `node scripts/fetch-images.mjs --fun` — the
+  regular CI run does not fetch them.
 
 See [`CREDITS.md`](./CREDITS.md) for per-asset attribution and licenses.
 
