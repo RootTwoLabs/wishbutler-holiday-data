@@ -6,8 +6,9 @@
  *
  * Idempotent: skips targets that already have at least one image on disk.
  *
- * Usage: node scripts/fetch-images.mjs [--force] [slug ...]
+ * Usage: node scripts/fetch-images.mjs [--force] [--fun] [slug ...]
  *   - Pass one or more slugs to only (re)fetch those targets.
+ *   - --fun  (nur FUN-Targets)
  */
 import { mkdir, writeFile, readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -64,11 +65,11 @@ async function searchCommonsTitles(term, limit = 12) {
   return (json?.query?.search ?? []).map((r) => r.title);
 }
 
-async function getCommonsImageInfo(title) {
+async function getCommonsImageInfo(title, thumbWidth = THUMB_WIDTH) {
   const url =
     `${COMMONS_API}?action=query&format=json` +
     `&titles=${encodeURIComponent(title)}` +
-    `&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=${THUMB_WIDTH}`;
+    `&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=${thumbWidth}`;
   const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
   if (!res.ok) throw new Error(`Commons info ${res.status}`);
   const json = await res.json();
@@ -125,7 +126,7 @@ function openverseCandidate(result) {
   };
 }
 
-async function collectCandidates(terms, { cc0Only }) {
+async function collectCandidates(terms, { cc0Only, thumbWidth = THUMB_WIDTH }) {
   const seen = new Set();
   const candidates = [];
 
@@ -141,7 +142,7 @@ async function collectCandidates(terms, { cc0Only }) {
       for (const title of titles) {
         if (!/\.(jpg|jpeg|png|webp)$/i.test(title)) continue;
         try {
-          const info = await getCommonsImageInfo(title);
+          const info = await getCommonsImageInfo(title, thumbWidth);
           const c = commonsCandidate(info, title);
           if (c && (!cc0Only || c.cc0)) add(c);
         } catch {
@@ -201,7 +202,10 @@ async function download(url, dest) {
   return buf.length;
 }
 
-async function fetchTarget({ slug, countryCode }) {
+async function fetchTarget(target) {
+  const { slug, countryCode } = target;
+  const maxImages = target.maxImages ?? MAX_IMAGES;
+  const thumbWidth = target.thumbWidth ?? THUMB_WIDTH;
   const dir = imageDir(slug, countryCode);
   const label = countryCode ? `${countryCode}/${slug}` : slug;
 
@@ -215,15 +219,15 @@ async function fetchTarget({ slug, countryCode }) {
     }));
   }
 
-  const terms = termsForSlug(slug, countryCode);
+  const terms = target.terms ?? termsForSlug(slug, countryCode);
   if (terms.length === 0) {
     console.warn(`  ${label}: no search terms`);
     return [];
   }
 
-  let candidates = await collectCandidates(terms, { cc0Only: true });
-  if (candidates.length < MAX_IMAGES) {
-    const fallback = await collectCandidates(terms, { cc0Only: false });
+  let candidates = await collectCandidates(terms, { cc0Only: true, thumbWidth });
+  if (candidates.length < maxImages) {
+    const fallback = await collectCandidates(terms, { cc0Only: false, thumbWidth });
     for (const c of fallback) {
       if (!candidates.some((x) => x.url === c.url)) candidates.push(c);
     }
@@ -238,9 +242,12 @@ async function fetchTarget({ slug, countryCode }) {
   await mkdir(dir, { recursive: true });
   const saved = [];
 
-  for (let i = 0; i < Math.min(MAX_IMAGES, candidates.length); i++) {
-    const c = candidates[i];
-    const file = `${String(i + 1).padStart(2, '0')}.jpg`;
+  // Kandidaten der Reihe nach probieren, bis maxImages gespeichert sind — ein
+  // fehlgeschlagener Download (Timeout, zu groß, kein Bild) überspringt nur
+  // diesen Kandidaten statt den Slug ohne Bild zu lassen.
+  for (const c of candidates) {
+    if (saved.length >= maxImages) break;
+    const file = `${String(saved.length + 1).padStart(2, '0')}.jpg`;
     const dest = join(dir, file);
     try {
       const bytes = await download(c.url, dest);
@@ -249,7 +256,7 @@ async function fetchTarget({ slug, countryCode }) {
         file,
         credit: c.author || (c.source === 'wikimedia' ? 'Wikimedia Commons' : 'Openverse'),
         license: c.license,
-        primary: i === 0,
+        primary: saved.length === 0,
         cc0: c.cc0,
         bytes,
         title: c.title,
@@ -305,20 +312,26 @@ async function updateCredits(allSaved) {
 }
 
 async function main() {
-  const onlySlugs = new Set(process.argv.slice(2).filter((a) => !a.startsWith('-')));
+  const args = process.argv.slice(2);
+  const onlyFun = args.includes('--fun');
+  const onlySlugs = new Set(args.filter((a) => !a.startsWith('-')));
   let targets = listImageTargets();
+  if (onlyFun) targets = targets.filter((t) => t.countryCode === 'FUN');
   if (onlySlugs.size > 0) targets = targets.filter((t) => onlySlugs.has(t.slug));
   console.log(`Fetching images for ${targets.length} targets...`);
   const allSaved = [];
+  const missing = [];
 
   for (const target of targets) {
     const saved = await fetchTarget(target);
+    if (saved.length === 0) missing.push(target);
     allSaved.push(...saved);
   }
 
   await updateCredits(allSaved);
   const downloaded = allSaved.filter((s) => !s.skipped).length;
-  console.log(`\nDone. ${downloaded} images downloaded this run.`);
+  console.log(`\nDone. ${downloaded} images downloaded this run. ${missing.length} targets without image.`);
+  for (const t of missing) console.log(`  MISSING ${t.countryCode ? `${t.countryCode}/` : ''}${t.slug}`);
 }
 
 main().catch((err) => {
