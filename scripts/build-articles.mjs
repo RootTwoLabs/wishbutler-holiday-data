@@ -18,7 +18,7 @@ import {
   imageNamespaceForSlug,
   slugFromLabelKey,
 } from './lib/contentLoader.mjs';
-import { needsCredit } from './lib/imageLicense.mjs';
+import { loadCreditHints, decorateImageRef } from './lib/imageCredits.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -54,23 +54,6 @@ async function latestPackageInfo(cc) {
     version: best.version,
     path: join(countryDir, best.dir, 'package.json'),
   };
-}
-
-/** Reads license/credit hints from CREDITS.md for attributed images. */
-async function loadCreditHints() {
-  const hints = new Map();
-  const creditsPath = join(ROOT, 'CREDITS.md');
-  if (!existsSync(creditsPath)) return hints;
-  const md = await readFile(creditsPath, 'utf8');
-  const block = md.match(
-    /<!-- BEGIN:IMAGE-CREDITS \(auto-generated\) -->([\s\S]*?)<!-- END:IMAGE-CREDITS -->/,
-  );
-  if (!block) return hints;
-  for (const line of block[1].split('\n')) {
-    const m = line.match(/^- `([^`]+)` — (.+) \(([^)]+)\)$/);
-    if (m) hints.set(m[1], { credit: m[2], license: m[3] });
-  }
-  return hints;
 }
 
 async function mergePackage(cc, globalArticles, countryArticles, creditHints) {
@@ -143,19 +126,6 @@ async function mergePackage(cc, globalArticles, countryArticles, creditHints) {
   );
 }
 
-/** Applies CREDITS.md hints to an image ref (or marks it CC0). */
-function decorateImageRef(ref, creditHints) {
-  const hint = creditHints.get(ref.path);
-  const out = { ...ref };
-  if (hint) {
-    out.credit = hint.credit;
-    out.license = hint.license;
-  } else if (!needsCredit('CC0')) {
-    out.license = 'CC0';
-  }
-  return out;
-}
-
 /** Content of a package without the (auto-incrementing) version field. */
 function packageContentKey(pkg) {
   const { version, ...rest } = pkg;
@@ -188,7 +158,7 @@ async function buildGlobalPackage(globalArticles, creditHints) {
   const imagesRoot = join(DATA, 'images');
   const images = {};
   for (const name of (await listDirs(imagesRoot)).sort()) {
-    if (/^[A-Z]{2}$/.test(name)) continue; // country folder, skip
+    if (/^[A-Z]{2}$/.test(name) || name === 'FUN') continue; // country/FUN folder, skip
     const refs = await buildImageRefs(DATA, name, null);
     if (refs.length > 0) {
       images[name] = refs.map((ref) => decorateImageRef(ref, creditHints));
@@ -246,7 +216,7 @@ async function main() {
   const only = process.argv.slice(2).filter((a) => !a.startsWith('-'));
   const globalArticles = await loadGlobalArticles(CONTENT);
   const countryArticles = await loadCountryArticles(CONTENT);
-  const creditHints = await loadCreditHints();
+  const creditHints = await loadCreditHints(join(ROOT, 'CREDITS.md'));
 
   const countries =
     only.length > 0 ? only : (await listDirs(PACKAGES)).filter((c) => /^[A-Z]{2}$/.test(c));
