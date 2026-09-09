@@ -30,6 +30,10 @@ data/
   index.json                       # manifest: countries + versions + schema version
   packages/<CC>/v<N>/package.json  # one package per country + version
   images/<articleKey>/<nn>.jpg     # holiday images, multiple per holiday allowed
+content/fun-days/
+  days/<MM>.json                   # kuriose Feiertage: Datum, Slug, Bild-Suchbegriffe (1 pro Kalendertag, 366)
+  <locale>/<MM>.json               # Label, Intro, 3 Fun Facts je Slug in 12 Sprachen
+data/images/FUN/<slug>/01.jpg      # ein freies Bild pro kuriosem Feiertag
 schema/
   index.schema.json                # JSON Schema for index.json
   package.schema.json              # JSON Schema for a country package
@@ -52,6 +56,9 @@ Dates are described by rules so the client computes any year offline:
   plus a curated static list in this repo (religious/non-Gregorian, regional specials)
 - Namedays: [abalin](https://nameday.abalin.net/) + country-specific calendars
 - Images: [Wikimedia Commons](https://commons.wikimedia.org/) (PD / CC)
+- Fun days (`FUN` package): curated in `content/fun-days/` — names and dates are
+  facts (Wikipedia lists, Wikidata); all texts are our own wording. Check with
+  `npm run check:fun-days`, build with `npm run build:fun-occasions`.
 
 See [`CREDITS.md`](./CREDITS.md) for per-asset attribution and licenses.
 

@@ -60,18 +60,22 @@ async function main() {
     const { best, rel, pkg, size } = entry;
 
     if (code === 'FUN') {
-      // The FUN package (global "quirky occasions" calendar, no definitions) lives
-      // outside the country list under the top-level `funOccasions` field and is
-      // only downloaded by the app when the user opts into the feature.
+      // Das FUN-Paket (kuriose Feiertage, ab v5 mit echten Definitionen, Artikeln
+      // und Bildern) lebt außerhalb der Länderliste unter `funOccasions` und wird
+      // nur geladen, wenn der Nutzer das Feature einschaltet.
       funOccasions = {
         code: 'FUN',
         version: best.version,
         package: rel,
         sizeBytes: size,
-        locales: pkg.i18n?.funOccasions ? Object.keys(pkg.i18n.funOccasions).sort() : [],
+        locales: pkg.i18n?.holidays ? Object.keys(pkg.i18n.holidays).sort() : [],
         hasFunOccasions: Boolean(
           pkg.funOccasions && Object.keys(pkg.funOccasions).length > 0,
         ),
+        hasInfo: Boolean(
+          pkg.i18n?.holidayInfo && Object.keys(pkg.i18n.holidayInfo).length > 0,
+        ),
+        hasImages: Boolean(pkg.images && Object.keys(pkg.images).length > 0),
       };
       continue;
     }

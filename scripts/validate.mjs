@@ -9,6 +9,7 @@ import { join, dirname, relative, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
+import { LOCALES } from './config.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -100,6 +101,38 @@ function checkFunOccasions(pkg, errors, warnings) {
         }
       }
     }
+  }
+}
+
+/**
+ * FUN ab v5: jede Definition braucht Label + Artikel in allen LOCALES und ein Bild;
+ * genau eine Definition pro Kalendertag (366), alle Regeln `fixed`.
+ *
+ * FUN ≤ v4 hatte keine Definitionen; ab v5 Pflicht — solange `data/index.json`
+ * noch auf eine ältere FUN-Version zeigt, überspringt diese Prüfung sich selbst
+ * (schema-only Checks laufen für v4 weiterhin über validatePackage/checkFunOccasions).
+ */
+function checkFunDefinitions(pkg, errors) {
+  const defs = pkg.definitions ?? [];
+  if (defs.length === 0) return;
+  if (defs.length !== 366) errors.push(`FUN: expected 366 definitions, got ${defs.length}`);
+  const days = new Set();
+  const labels = pkg.i18n?.holidays ?? {};
+  const info = pkg.i18n?.holidayInfo ?? {};
+  for (const def of defs) {
+    const slug = slugFromLabelKey(def.labelKey);
+    if (def.countryCode !== 'FUN') errors.push(`FUN ${def.id}: countryCode ${def.countryCode}`);
+    if (def.rule?.type !== 'fixed') errors.push(`FUN ${def.id}: rule must be fixed`);
+    else {
+      const key = `${def.rule.month}-${def.rule.day}`;
+      if (days.has(key)) errors.push(`FUN ${def.id}: duplicate day ${key}`);
+      days.add(key);
+    }
+    for (const locale of LOCALES) {
+      if (!labels[locale]?.[slug]) errors.push(`FUN ${def.id}: missing "${locale}" label`);
+      if (!info[locale]?.[slug]) errors.push(`FUN ${def.id}: missing "${locale}" article`);
+    }
+    if (!pkg.images?.[slug]?.length) errors.push(`FUN ${def.id}: missing image`);
   }
 }
 
@@ -213,6 +246,9 @@ async function main() {
           errors.push(`FUN: version mismatch (index ${f.version} vs pkg ${pkg.version})`);
         }
         checkFunOccasions(pkg, errors, warnings);
+        checkFunDefinitions(pkg, errors);
+        checkHolidayInfo('FUN', pkg, errors, warnings);
+        checkImages('FUN', pkg, errors);
       }
     }
   }

@@ -5,6 +5,3 @@ node_modules/
 tmp/
 scripts/.holiday-info-translation-cache.json
 scripts/.holiday-label-translation-cache.json
-
-# Fun-occasions Übersetzungs-Cache (reproduzierbar, wie die Holiday-Caches nicht eingecheckt)
-content/.fun-occasions-translation-cache.json

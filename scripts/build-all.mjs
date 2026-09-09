@@ -22,10 +22,8 @@ async function main() {
   const steps = [
     'fetch-holidays.mjs',
     'fetch-namedays.mjs',
-    'fetch-wikidata-occasions.mjs',
-    'translate-fun-occasions.mjs',
-    'build-fun-occasions.mjs',
     'fetch-images.mjs',
+    'build-fun-occasions.mjs',
     'build-articles.mjs',
     'build-labels.mjs',
     'build-index.mjs',
