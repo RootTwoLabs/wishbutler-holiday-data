@@ -65,3 +65,26 @@ test('#133 akzeptiert gueltige https-baseUrl', () => {
     true,
   );
 });
+
+test('holidayArticle: history/traditions sind optional (Kurzformat)', () => {
+  const short = pkg({
+    countryCode: 'FUN',
+    definitions: [def({ id: 'FUN_x', countryCode: 'FUN', labelKey: 'holidays.fun_x' })],
+    i18n: { holidayInfo: { de: { fun_x: { intro: 'i', funFacts: ['a'] } } } },
+  });
+  assert.equal(validatePackage(short), true, JSON.stringify(validatePackage.errors));
+  const emptyHistory = pkg({
+    i18n: { holidayInfo: { de: { x: { intro: 'i', history: '', funFacts: ['a'] } } } },
+  });
+  assert.equal(validatePackage(emptyHistory), false);
+});
+
+test('index: funOccasions-Eintrag erlaubt hasInfo/hasImages', () => {
+  const index = {
+    schemaVersion: 1,
+    baseUrl: 'https://example.com/data',
+    countries: [],
+    funOccasions: { code: 'FUN', version: 5, package: 'packages/FUN/v5/package.json', hasInfo: true, hasImages: true, hasFunOccasions: true },
+  };
+  assert.equal(validateIndex(index), true, JSON.stringify(validateIndex.errors));
+});

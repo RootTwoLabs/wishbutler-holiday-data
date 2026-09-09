@@ -51,7 +51,9 @@
         "package": { "type": "string" },
         "sizeBytes": { "type": "integer", "minimum": 0 },
         "locales": { "type": "array", "items": { "type": "string" } },
-        "hasFunOccasions": { "type": "boolean" }
+        "hasFunOccasions": { "type": "boolean" },
+        "hasInfo": { "type": "boolean" },
+        "hasImages": { "type": "boolean" }
       }
     }
   }

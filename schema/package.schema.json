@@ -85,7 +85,7 @@
     },
     "holidayArticle": {
       "type": "object",
-      "required": ["intro", "history", "traditions", "funFacts"],
+      "required": ["intro", "funFacts"],
       "additionalProperties": false,
       "properties": {
         "intro": { "type": "string", "minLength": 1 },
