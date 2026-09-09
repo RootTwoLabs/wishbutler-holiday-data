@@ -36,14 +36,20 @@ export function allCalendarDays() {
 
 async function readJsonIfExists(path, fallback) {
   if (!existsSync(path)) return fallback;
-  return JSON.parse(await readFile(path, 'utf8'));
+  const raw = await readFile(path, 'utf8');
+  try {
+    return JSON.parse(raw);
+  } catch (e) {
+    throw new Error(`${path}: ${e.message}`);
+  }
 }
 
 /**
  * Lädt alle Monatsdateien. Rückgabe:
  *   { days: [...] (nach Datum sortiert, mit `month`),
  *     texts: { [locale]: { [slug]: {label,intro,funFacts} } },
- *     textsByMonth: { [locale]: { [MM]: {...} } } }
+ *     textsByMonth: { [locale]: { [MM]: {...} } },
+ *     locales: [...] (die tatsächlich geladenen Locales, Default für validateFunDays/buildFunPackage) }
  */
 export async function loadFunDays(contentRoot, locales = FUN_LOCALES) {
   const days = [];
@@ -51,7 +57,7 @@ export async function loadFunDays(contentRoot, locales = FUN_LOCALES) {
     const doc = await readJsonIfExists(join(contentRoot, 'days', `${mm}.json`), { days: [] });
     for (const d of doc.days ?? []) days.push({ ...d, month: mm });
   }
-  days.sort((a, b) => a.date.localeCompare(b.date));
+  days.sort((a, b) => String(a.date ?? '').localeCompare(String(b.date ?? '')));
 
   const texts = {};
   const textsByMonth = {};
@@ -65,7 +71,7 @@ export async function loadFunDays(contentRoot, locales = FUN_LOCALES) {
       Object.assign(texts[loc], map);
     }
   }
-  return { days, texts, textsByMonth };
+  return { days, texts, textsByMonth, locales };
 }
 
 function checkText(prefix, entry, errors) {
@@ -89,27 +95,37 @@ function checkText(prefix, entry, errors) {
 
 /**
  * Prüft Vollständigkeit und Form. Gibt eine Fehlerliste zurück (leer = ok).
- * `locales` schränkt die Text-Prüfung ein (Autoren-Modus), `requireImages`
- * verlangt data/images/FUN/<slug>/01.jpg.
+ * `locales` schränkt die Text-Prüfung ein (Autoren-Modus, überschreibt
+ * `data.locales`), `requireImages` verlangt data/images/FUN/<slug>/01.jpg
+ * und dann auch `imagesRoot`.
  */
-export function validateFunDays(data, { imagesRoot, requireImages = true, locales = FUN_LOCALES } = {}) {
+export function validateFunDays(data, { imagesRoot, requireImages = true, locales } = {}) {
+  if (requireImages && !imagesRoot) throw new Error('imagesRoot required when requireImages is true');
   const errors = [];
   const { days, textsByMonth } = data;
+  const effectiveLocales = locales ?? data.locales ?? FUN_LOCALES;
 
   const expected = new Set(allCalendarDays());
   const seenDates = new Set();
   const seenSlugs = new Set();
   for (const d of days) {
-    const prefix = `days/${d.month} ${d.date}`;
-    if (!expected.has(d.date)) errors.push(`${prefix}: invalid date`);
-    if (seenDates.has(d.date)) errors.push(`${prefix}: duplicate day ${d.date}`);
-    seenDates.add(d.date);
+    const monthPrefix = `days/${d.month}`;
+    const prefix = `${monthPrefix} ${d.date}`;
+    const hasDate = typeof d.date === 'string' && /^[0-1][0-9]-[0-3][0-9]$/.test(d.date);
+    if (!hasDate) errors.push(`${monthPrefix}: invalid date "${d.date}"`);
+
+    // Slug- und imageQueries-Checks sind datumsunabhängig und laufen auch bei kaputtem `date`.
     if (typeof d.slug !== 'string' || !SLUG_RE.test(d.slug)) errors.push(`${prefix}: invalid slug "${d.slug}"`);
     else if (seenSlugs.has(d.slug)) errors.push(`${prefix}: duplicate slug "${d.slug}"`);
     seenSlugs.add(d.slug);
     if (!Array.isArray(d.imageQueries) || d.imageQueries.length === 0 || d.imageQueries.some((q) => typeof q !== 'string' || !q.trim())) {
       errors.push(`${prefix}: imageQueries must be a non-empty string array`);
     }
+
+    if (!hasDate) continue; // datumsabhängige Folgechecks brauchen ein valides "MM-DD"
+    if (!expected.has(d.date)) errors.push(`${prefix}: invalid date`);
+    if (seenDates.has(d.date)) errors.push(`${prefix}: duplicate day ${d.date}`);
+    seenDates.add(d.date);
     if (d.date.slice(0, 2) !== d.month) errors.push(`${prefix}: date belongs to another month file`);
   }
   for (const date of expected) {
@@ -119,7 +135,7 @@ export function validateFunDays(data, { imagesRoot, requireImages = true, locale
   const slugByMonth = {};
   for (const d of days) (slugByMonth[d.month] ??= new Set()).add(d.slug);
 
-  for (const loc of locales) {
+  for (const loc of effectiveLocales) {
     for (const mm of MONTHS) {
       const map = textsByMonth[loc]?.[mm] ?? {};
       for (const slug of slugByMonth[mm] ?? []) {
@@ -152,7 +168,9 @@ export function funKey(slug) {
  * lang, danach entfernen.
  */
 export function buildFunPackage(data, { version, imageRefs = {} }) {
+  if (!Number.isInteger(version) || version < 1) throw new Error('version must be a positive integer');
   const { days, texts } = data;
+  const locales = data.locales ?? FUN_LOCALES;
   const definitions = [];
   const holidays = {};
   const holidayInfo = {};
@@ -172,8 +190,8 @@ export function buildFunPackage(data, { version, imageRefs = {} }) {
       category: 'observance',
       rule: { type: 'fixed', month: mm, day: dd },
     });
-    for (const loc of Object.keys(texts)) {
-      const entry = texts[loc][d.slug];
+    for (const loc of locales) {
+      const entry = texts[loc]?.[d.slug];
       if (!entry) continue;
       (holidays[loc] ??= {})[key] = entry.label;
       (holidayInfo[loc] ??= {})[key] = { intro: entry.intro, funFacts: [...entry.funFacts] };
