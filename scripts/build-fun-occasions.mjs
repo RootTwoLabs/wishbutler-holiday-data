@@ -81,7 +81,9 @@ async function main() {
   if (errors.length > 0) {
     const shown = errors.slice(0, MAX_SHOWN_ERRORS);
     const rest = errors.length - shown.length;
-    console.error(
+    // Nicht-fataler Pfad (Vorgängerpaket vorhanden) soll im CI-Log nicht rot wirken.
+    const report = prev != null ? console.warn : console.error;
+    report(
       `build-fun-occasions: ${errors.length} Content-Fehler:\n` +
         shown.map((e) => `  - ${e}`).join('\n') +
         (rest > 0 ? `\n  … und ${rest} weitere (npm run check:fun-days zeigt alle)` : ''),

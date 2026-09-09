@@ -11,6 +11,7 @@ import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
 import { LOCALES } from './config.mjs';
 import { allCalendarDays } from './lib/funDays.mjs';
+import { isCc0OrPd } from './lib/imageLicense.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -151,7 +152,7 @@ export function checkFunDefinitions(pkg, errors) {
     const imageList = pkg.images?.[key] ?? [];
     if (!imageList.length) errors.push(`FUN ${def.id}: missing image`);
     for (const ref of imageList) {
-      const licenseIsFree = typeof ref.license === 'string' && /^(cc0|public domain)/i.test(ref.license);
+      const licenseIsFree = typeof ref.license === 'string' && isCc0OrPd(ref.license);
       const hasCredit = typeof ref.credit === 'string' && ref.credit.trim() !== '';
       if (!licenseIsFree && !hasCredit) {
         errors.push(`FUN ${def.id}: image credit missing for ${ref.path}`);
