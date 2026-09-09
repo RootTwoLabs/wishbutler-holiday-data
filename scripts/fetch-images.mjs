@@ -36,22 +36,55 @@ const EXPECTED_FUN_TARGETS = 366; // one curated occasion per calendar day, incl
 
 const force = process.argv.includes('--force');
 
-// Rate-limit circuit breaker: sources that answered 429 (Openverse also 403 =
-// daily quota) are switched off for the rest of this run so a long batch job
-// doesn't keep hammering an API that has already cut us off.
+// Rate-limit circuit breaker: a 429 (Openverse also 403 = daily quota) is
+// treated as transient at first — warn, cool down 60s, retry once more — and
+// only disables the source for the rest of this run after
+// RATE_LIMIT_MAX_ATTEMPTS *consecutive* rate limits (a genuine outage/quota
+// exhaustion, not a single blip). Any successful response resets the counter.
+const RATE_LIMIT_COOLDOWN_MS = 60_000;
+const RATE_LIMIT_MAX_ATTEMPTS = 3;
 const disabledSources = new Set();
+const rateLimitCounts = { commons: 0, openverse: 0 };
 
-function checkRateLimit(source, status) {
-  const limited = status === 429 || (source === 'openverse' && status === 403);
-  if (limited && !disabledSources.has(source)) {
-    disabledSources.add(source);
-    console.warn(`  ${source}: rate limited (HTTP ${status}) — disabling for the rest of this run`);
-  }
-  return limited;
+function isRateLimitStatus(source, status) {
+  return status === 429 || (source === 'openverse' && status === 403);
 }
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
+}
+
+/**
+ * Fetches `url` for `source`, retrying with a cooldown on a rate-limit
+ * response. Returns `null` once the source has just been disabled (caller
+ * treats that like "no results"); otherwise returns the (possibly non-ok)
+ * response for the caller to handle.
+ */
+async function fetchRateLimitAware(source, url, opts) {
+  if (disabledSources.has(source)) return null;
+  for (;;) {
+    const res = await fetchWithTimeout(url, opts);
+    if (res.ok) {
+      rateLimitCounts[source] = 0;
+      return res;
+    }
+    if (!isRateLimitStatus(source, res.status)) return res;
+
+    rateLimitCounts[source] += 1;
+    console.warn(
+      `  ${source}: rate limited (HTTP ${res.status}), ` +
+        `consecutive=${rateLimitCounts[source]}/${RATE_LIMIT_MAX_ATTEMPTS}`,
+    );
+    if (rateLimitCounts[source] >= RATE_LIMIT_MAX_ATTEMPTS) {
+      disabledSources.add(source);
+      console.warn(
+        `  ${source}: disabling for the rest of this run ` +
+          `after ${RATE_LIMIT_MAX_ATTEMPTS} consecutive rate limits`,
+      );
+      return null;
+    }
+    await sleep(RATE_LIMIT_COOLDOWN_MS);
+  }
 }
 
 function imageDir(slug, countryCode) {
@@ -71,39 +104,33 @@ async function listExistingJpegs(dir) {
 }
 
 async function searchCommonsTitles(term, limit = 12) {
-  if (disabledSources.has('commons')) return [];
   const url =
     `${COMMONS_API}?action=query&format=json&list=search` +
     `&srsearch=${encodeURIComponent('filetype:bitmap ' + term)}` +
     `&srnamespace=6&srlimit=${limit}`;
-  const res = await fetchWithTimeout(url, {
+  const res = await fetchRateLimitAware('commons', url, {
     headers: { 'User-Agent': USER_AGENT },
     timeoutMs: 20000,
     retries: 1,
   });
-  if (!res.ok) {
-    checkRateLimit('commons', res.status);
-    throw new Error(`Commons search ${res.status}`);
-  }
+  if (!res) return [];
+  if (!res.ok) throw new Error(`Commons search ${res.status}`);
   const json = await res.json();
   return (json?.query?.search ?? []).map((r) => r.title);
 }
 
 async function getCommonsImageInfo(title, thumbWidth = THUMB_WIDTH) {
-  if (disabledSources.has('commons')) return undefined;
   const url =
     `${COMMONS_API}?action=query&format=json` +
     `&titles=${encodeURIComponent(title)}` +
     `&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=${thumbWidth}`;
-  const res = await fetchWithTimeout(url, {
+  const res = await fetchRateLimitAware('commons', url, {
     headers: { 'User-Agent': USER_AGENT },
     timeoutMs: 20000,
     retries: 1,
   });
-  if (!res.ok) {
-    checkRateLimit('commons', res.status);
-    throw new Error(`Commons info ${res.status}`);
-  }
+  if (!res) return undefined;
+  if (!res.ok) throw new Error(`Commons info ${res.status}`);
   const json = await res.json();
   const pages = json?.query?.pages ?? {};
   const page = Object.values(pages)[0];
@@ -111,20 +138,17 @@ async function getCommonsImageInfo(title, thumbWidth = THUMB_WIDTH) {
 }
 
 async function searchOpenverse(term, cc0Only, limit = 10) {
-  if (disabledSources.has('openverse')) return [];
   const license = cc0Only ? 'cc0,publicdomain' : 'cc0,publicdomain,by,by-sa';
   const url =
     `${OPENVERSE_API}?q=${encodeURIComponent(term)}` +
     `&license=${license}&page_size=${limit}&format=json`;
-  const res = await fetchWithTimeout(url, {
+  const res = await fetchRateLimitAware('openverse', url, {
     headers: { 'User-Agent': USER_AGENT },
     timeoutMs: 20000,
     retries: 1,
   });
-  if (!res.ok) {
-    checkRateLimit('openverse', res.status);
-    throw new Error(`Openverse ${res.status}`);
-  }
+  if (!res) return [];
+  if (!res.ok) throw new Error(`Openverse ${res.status}`);
   const json = await res.json();
   return json?.results ?? [];
 }
@@ -367,10 +391,8 @@ async function main() {
   let targets;
   if (onlyFun) {
     targets = await funImageTargets(join(ROOT, 'content', 'fun-days'));
-    if (targets.length === 0) {
-      console.error('fetch-images --fun: no FUN targets found (content/fun-days missing or empty)');
-      process.exit(1);
-    } else if (targets.length !== EXPECTED_FUN_TARGETS) {
+    // Refers to the full FUN set, before any slug filter narrows it down.
+    if (targets.length !== EXPECTED_FUN_TARGETS) {
       console.warn(
         `fetch-images --fun: expected ${EXPECTED_FUN_TARGETS} targets, got ${targets.length}`,
       );
@@ -379,6 +401,15 @@ async function main() {
     targets = listImageTargets();
   }
   if (onlySlugs.size > 0) targets = targets.filter((t) => onlySlugs.has(t.slug));
+
+  // Checked AFTER the slug filter so `--fun <typo>` fails loudly (exit 1)
+  // instead of silently doing nothing with exit 0.
+  if (onlyFun && targets.length === 0) {
+    const scope =
+      onlySlugs.size > 0 ? [...onlySlugs].join(', ') : '(content/fun-days missing or empty)';
+    console.error(`fetch-images --fun: no targets match ${scope}`);
+    process.exit(1);
+  }
 
   console.log(`Fetching images for ${targets.length} targets...`);
   const allSaved = [];
