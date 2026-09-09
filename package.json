@@ -12,6 +12,7 @@
     "harvest:fun-occasions": "node scripts/fetch-wikidata-occasions.mjs",
     "translate:fun-occasions": "node scripts/translate-fun-occasions.mjs",
     "build:fun-occasions": "node scripts/build-fun-occasions.mjs",
+    "check:fun-days": "node scripts/check-fun-days.mjs",
     "build:images": "node scripts/fetch-images.mjs",
     "build:articles": "node scripts/build-articles.mjs",
     "build:labels": "node scripts/build-labels.mjs",
