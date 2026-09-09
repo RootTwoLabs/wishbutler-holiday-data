@@ -138,7 +138,8 @@ async function getCommonsImageInfo(title, thumbWidth = THUMB_WIDTH) {
 }
 
 async function searchOpenverse(term, cc0Only, limit = 10) {
-  const license = cc0Only ? 'cc0,publicdomain' : 'cc0,publicdomain,by,by-sa';
+  // Openverse-Lizenzcodes: `pdm` = Public Domain Mark (`publicdomain` ergibt HTTP 400).
+  const license = cc0Only ? 'cc0,pdm' : 'cc0,pdm,by,by-sa';
   const url =
     `${OPENVERSE_API}?q=${encodeURIComponent(term)}` +
     `&license=${license}&page_size=${limit}&format=json`;
@@ -171,11 +172,26 @@ function commonsCandidate(info, title) {
   };
 }
 
+/**
+ * Openverse liefert Kurzcodes (`cc0`, `pdm`, `by`, `by-sa`) plus `license_version`;
+ * `classifyLicense` erwartet die Commons-Schreibweise (`CC0`, `Public domain`,
+ * `CC BY 2.0`). Ohne diese Abbildung wurden alle Openverse-Treffer verworfen.
+ */
+function openverseLicenseName(result) {
+  const code = String(result.license ?? '').toLowerCase();
+  const version = result.license_version ? ` ${result.license_version}` : '';
+  if (code === 'cc0') return 'CC0';
+  if (code === 'pdm') return 'Public domain';
+  if (code === 'by') return `CC BY${version}`;
+  if (code === 'by-sa') return `CC BY-SA${version}`;
+  return '';
+}
+
 function openverseCandidate(result) {
   const url = result.url ?? result.thumbnail;
   if (!url) return null;
   if ((result.width ?? 0) < MIN_WIDTH || (result.height ?? 0) < MIN_HEIGHT) return null;
-  const license = classifyLicense(result.license ?? '');
+  const license = classifyLicense(openverseLicenseName(result));
   if (!license) return null;
   return {
     source: 'openverse',
