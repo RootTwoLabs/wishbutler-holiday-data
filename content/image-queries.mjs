@@ -5,27 +5,6 @@
  * Global slugs: { terms: string[] }
  * Country-namespaced: { '<CC>': { terms: string[] } } or nested under slug key.
  */
-import { readFileSync, existsSync } from 'node:fs';
-import { join, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
-
-const FUN_DAYS_DIR = join(dirname(fileURLToPath(import.meta.url)), 'fun-days', 'days');
-const FUN_MONTHS = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'];
-
-/** Bild-Targets der kuratierten kuriosen Feiertage: 1 Bild, 1024 px, Terms aus fun-days. */
-export function listFunImageTargets() {
-  const targets = [];
-  for (const mm of FUN_MONTHS) {
-    const file = join(FUN_DAYS_DIR, `${mm}.json`);
-    if (!existsSync(file)) continue;
-    const doc = JSON.parse(readFileSync(file, 'utf8'));
-    for (const d of doc.days ?? []) {
-      targets.push({ slug: d.slug, countryCode: 'FUN', terms: d.imageQueries ?? [], maxImages: 1, thumbWidth: 1024 });
-    }
-  }
-  return targets;
-}
-
 /** @type {Record<string, string[] | Record<string, string[]>>} */
 export const IMAGE_QUERIES = {
   // --- global ---
@@ -341,7 +320,7 @@ export function termsForSlug(slug, countryCode = null) {
   return Array.isArray(first) ? first : [];
 }
 
-/** Lists all image fetch targets: { slug, countryCode?, terms?, maxImages?, thumbWidth? }. */
+/** Lists all image fetch targets: { slug, countryCode? }. */
 export function listImageTargets() {
   const targets = [];
   for (const [slug, entry] of Object.entries(IMAGE_QUERIES)) {
@@ -353,6 +332,5 @@ export function listImageTargets() {
       }
     }
   }
-  targets.push(...listFunImageTargets());
   return targets;
 }

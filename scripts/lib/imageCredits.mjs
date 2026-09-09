@@ -1,7 +1,6 @@
-/** Liest CREDITS.md-Attributionen und dekoriert Image-Refs (geteilt von build-articles + build-fun-occasions). */
+/** Liest CREDITS.md-Attributionen und dekoriert Image-Refs — genutzt von build-articles; build-fun-occasions folgt. */
 import { readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
-import { needsCredit } from './imageLicense.mjs';
 
 /** Reads license/credit hints from CREDITS.md for attributed images: path -> { credit, license }. */
 export async function loadCreditHints(creditsPath) {
@@ -26,7 +25,7 @@ export function decorateImageRef(ref, creditHints) {
   if (hint) {
     out.credit = hint.credit;
     out.license = hint.license;
-  } else if (!needsCredit('CC0')) {
+  } else {
     out.license = 'CC0';
   }
   return out;

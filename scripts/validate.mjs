@@ -46,6 +46,15 @@ function checkHolidayInfo(countryCode, pkg, errors, warnings) {
         warnings.push(`${prefix}: article slug not in package definitions`);
       }
 
+      if (countryCode !== 'FUN') {
+        const hasHistory = typeof article.history === 'string' && article.history.trim() !== '';
+        const hasTraditions =
+          typeof article.traditions === 'string' && article.traditions.trim() !== '';
+        if (!hasHistory || !hasTraditions) {
+          errors.push(`${prefix}: full article required (history/traditions)`);
+        }
+      }
+
       if (typeof article.intro === 'string' && article.intro.length > INTRO_MAX) {
         warnings.push(`${prefix}.intro: ${article.intro.length} chars (recommended <= ${INTRO_MAX})`);
       }

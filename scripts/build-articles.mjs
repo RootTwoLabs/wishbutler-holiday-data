@@ -19,6 +19,7 @@ import {
   slugFromLabelKey,
 } from './lib/contentLoader.mjs';
 import { loadCreditHints, decorateImageRef } from './lib/imageCredits.mjs';
+import { FUN_COUNTRY_CODE } from './lib/funDays.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -158,7 +159,7 @@ async function buildGlobalPackage(globalArticles, creditHints) {
   const imagesRoot = join(DATA, 'images');
   const images = {};
   for (const name of (await listDirs(imagesRoot)).sort()) {
-    if (/^[A-Z]{2}$/.test(name) || name === 'FUN') continue; // country/FUN folder, skip
+    if (/^[A-Z]{2}$/.test(name) || name === FUN_COUNTRY_CODE) continue; // country/FUN folder, skip
     const refs = await buildImageRefs(DATA, name, null);
     if (refs.length > 0) {
       images[name] = refs.map((ref) => decorateImageRef(ref, creditHints));

@@ -8,7 +8,7 @@
  *
  * Usage: node scripts/fetch-images.mjs [--force] [--fun] [slug ...]
  *   - Pass one or more slugs to only (re)fetch those targets.
- *   - --fun  (nur FUN-Targets)
+ *   - --fun  only the FUN targets (curated fun-days content)
  */
 import { mkdir, writeFile, readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -18,6 +18,7 @@ import { listImageTargets, termsForSlug } from '../content/image-queries.mjs';
 import { classifyLicense, isCc0OrPd, needsCredit, stripHtml } from './lib/imageLicense.mjs';
 import { fetchWithTimeout } from './lib/httpClient.mjs';
 import { sniffImageType, isImageContentType, MAX_IMAGE_BYTES } from './lib/imageValidation.mjs';
+import { funImageTargets } from './lib/funDays.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -31,8 +32,23 @@ const MAX_IMAGES = 3;
 const MIN_WIDTH = 800;
 const MIN_HEIGHT = 500;
 const THUMB_WIDTH = 1280;
+const EXPECTED_FUN_TARGETS = 366; // one curated occasion per calendar day, incl. leap day
 
 const force = process.argv.includes('--force');
+
+// Rate-limit circuit breaker: sources that answered 429 (Openverse also 403 =
+// daily quota) are switched off for the rest of this run so a long batch job
+// doesn't keep hammering an API that has already cut us off.
+const disabledSources = new Set();
+
+function checkRateLimit(source, status) {
+  const limited = status === 429 || (source === 'openverse' && status === 403);
+  if (limited && !disabledSources.has(source)) {
+    disabledSources.add(source);
+    console.warn(`  ${source}: rate limited (HTTP ${status}) — disabling for the rest of this run`);
+  }
+  return limited;
+}
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
@@ -55,23 +71,39 @@ async function listExistingJpegs(dir) {
 }
 
 async function searchCommonsTitles(term, limit = 12) {
+  if (disabledSources.has('commons')) return [];
   const url =
     `${COMMONS_API}?action=query&format=json&list=search` +
     `&srsearch=${encodeURIComponent('filetype:bitmap ' + term)}` +
     `&srnamespace=6&srlimit=${limit}`;
-  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
-  if (!res.ok) throw new Error(`Commons search ${res.status}`);
+  const res = await fetchWithTimeout(url, {
+    headers: { 'User-Agent': USER_AGENT },
+    timeoutMs: 20000,
+    retries: 1,
+  });
+  if (!res.ok) {
+    checkRateLimit('commons', res.status);
+    throw new Error(`Commons search ${res.status}`);
+  }
   const json = await res.json();
   return (json?.query?.search ?? []).map((r) => r.title);
 }
 
 async function getCommonsImageInfo(title, thumbWidth = THUMB_WIDTH) {
+  if (disabledSources.has('commons')) return undefined;
   const url =
     `${COMMONS_API}?action=query&format=json` +
     `&titles=${encodeURIComponent(title)}` +
     `&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=${thumbWidth}`;
-  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
-  if (!res.ok) throw new Error(`Commons info ${res.status}`);
+  const res = await fetchWithTimeout(url, {
+    headers: { 'User-Agent': USER_AGENT },
+    timeoutMs: 20000,
+    retries: 1,
+  });
+  if (!res.ok) {
+    checkRateLimit('commons', res.status);
+    throw new Error(`Commons info ${res.status}`);
+  }
   const json = await res.json();
   const pages = json?.query?.pages ?? {};
   const page = Object.values(pages)[0];
@@ -79,12 +111,20 @@ async function getCommonsImageInfo(title, thumbWidth = THUMB_WIDTH) {
 }
 
 async function searchOpenverse(term, cc0Only, limit = 10) {
+  if (disabledSources.has('openverse')) return [];
   const license = cc0Only ? 'cc0,publicdomain' : 'cc0,publicdomain,by,by-sa';
   const url =
     `${OPENVERSE_API}?q=${encodeURIComponent(term)}` +
     `&license=${license}&page_size=${limit}&format=json`;
-  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
-  if (!res.ok) throw new Error(`Openverse ${res.status}`);
+  const res = await fetchWithTimeout(url, {
+    headers: { 'User-Agent': USER_AGENT },
+    timeoutMs: 20000,
+    retries: 1,
+  });
+  if (!res.ok) {
+    checkRateLimit('openverse', res.status);
+    throw new Error(`Openverse ${res.status}`);
+  }
   const json = await res.json();
   return json?.results ?? [];
 }
@@ -170,7 +210,7 @@ async function collectCandidates(terms, { cc0Only, thumbWidth = THUMB_WIDTH }) {
 
 // #131: Bild-Download gehaertet — https, Timeout/Retry, Content-Type image/*,
 // Groessenobergrenze und Magic-Byte-Pruefung, bevor irgendetwas ins Repo geschrieben wird.
-async function download(url, dest) {
+async function download(url, dest, maxBytes = MAX_IMAGE_BYTES) {
   let parsed;
   try {
     parsed = new URL(url);
@@ -190,12 +230,12 @@ async function download(url, dest) {
     throw new Error(`unexpected content-type ${res.headers.get('content-type') ?? 'none'}`);
   }
   const declaredLen = Number(res.headers.get('content-length') ?? 0);
-  if (declaredLen && declaredLen > MAX_IMAGE_BYTES) {
-    throw new Error(`image too large (${declaredLen} bytes > ${MAX_IMAGE_BYTES})`);
+  if (declaredLen && declaredLen > maxBytes) {
+    throw new Error(`image too large (${declaredLen} bytes > ${maxBytes})`);
   }
   const buf = Buffer.from(await res.arrayBuffer());
-  if (buf.length > MAX_IMAGE_BYTES) {
-    throw new Error(`image too large (${buf.length} bytes > ${MAX_IMAGE_BYTES})`);
+  if (buf.length > maxBytes) {
+    throw new Error(`image too large (${buf.length} bytes > ${maxBytes})`);
   }
   if (!sniffImageType(buf)) throw new Error('not a recognized image (magic bytes)');
   await writeFile(dest, buf);
@@ -206,6 +246,7 @@ async function fetchTarget(target) {
   const { slug, countryCode } = target;
   const maxImages = target.maxImages ?? MAX_IMAGES;
   const thumbWidth = target.thumbWidth ?? THUMB_WIDTH;
+  const maxBytes = target.maxBytes ?? MAX_IMAGE_BYTES;
   const dir = imageDir(slug, countryCode);
   const label = countryCode ? `${countryCode}/${slug}` : slug;
 
@@ -244,13 +285,16 @@ async function fetchTarget(target) {
 
   // Kandidaten der Reihe nach probieren, bis maxImages gespeichert sind — ein
   // fehlgeschlagener Download (Timeout, zu groß, kein Bild) überspringt nur
-  // diesen Kandidaten statt den Slug ohne Bild zu lassen.
-  for (const c of candidates) {
+  // diesen Kandidaten statt den Slug ohne Bild zu lassen. Nur VOR einem
+  // weiteren Versuch schlafen, nicht mehr nach dem letzten erfolgreichen
+  // Download (unnoetige Wartezeit, wenn maxImages schon erreicht ist).
+  for (let i = 0; i < candidates.length; i++) {
     if (saved.length >= maxImages) break;
+    const c = candidates[i];
     const file = `${String(saved.length + 1).padStart(2, '0')}.jpg`;
     const dest = join(dir, file);
     try {
-      const bytes = await download(c.url, dest);
+      const bytes = await download(c.url, dest, maxBytes);
       saved.push({
         path: imageRelPath(slug, countryCode, file),
         file,
@@ -267,7 +311,8 @@ async function fetchTarget(target) {
     } catch (err) {
       console.warn(`  ${label}/${file}: ${err.message}`);
     }
-    await sleep(150);
+    const hasMoreWork = saved.length < maxImages && i + 1 < candidates.length;
+    if (hasMoreWork) await sleep(150);
   }
 
   return saved;
@@ -315,9 +360,26 @@ async function main() {
   const args = process.argv.slice(2);
   const onlyFun = args.includes('--fun');
   const onlySlugs = new Set(args.filter((a) => !a.startsWith('-')));
-  let targets = listImageTargets();
-  if (onlyFun) targets = targets.filter((t) => t.countryCode === 'FUN');
+
+  // FUN targets only get pulled in on an explicit --fun run, never on the
+  // unscoped monthly CI build (build-all.mjs calls fetch-images.mjs with no
+  // arguments) — the curated fun-days content is authored/reviewed separately.
+  let targets;
+  if (onlyFun) {
+    targets = await funImageTargets(join(ROOT, 'content', 'fun-days'));
+    if (targets.length === 0) {
+      console.error('fetch-images --fun: no FUN targets found (content/fun-days missing or empty)');
+      process.exit(1);
+    } else if (targets.length !== EXPECTED_FUN_TARGETS) {
+      console.warn(
+        `fetch-images --fun: expected ${EXPECTED_FUN_TARGETS} targets, got ${targets.length}`,
+      );
+    }
+  } else {
+    targets = listImageTargets();
+  }
   if (onlySlugs.size > 0) targets = targets.filter((t) => onlySlugs.has(t.slug));
+
   console.log(`Fetching images for ${targets.length} targets...`);
   const allSaved = [];
   const missing = [];
@@ -330,8 +392,19 @@ async function main() {
 
   await updateCredits(allSaved);
   const downloaded = allSaved.filter((s) => !s.skipped).length;
-  console.log(`\nDone. ${downloaded} images downloaded this run. ${missing.length} targets without image.`);
-  for (const t of missing) console.log(`  MISSING ${t.countryCode ? `${t.countryCode}/` : ''}${t.slug}`);
+  const rateLimited =
+    disabledSources.size > 0 ? ` RATE-LIMITED: ${[...disabledSources].join(', ')}.` : '';
+  console.log(
+    `\nDone. ${downloaded} images downloaded this run. ` +
+      `${missing.length} targets without image.${rateLimited}`,
+  );
+  for (const t of missing) {
+    console.log(`  MISSING ${t.countryCode ? `${t.countryCode}/` : ''}${t.slug}`);
+  }
+
+  // A run that got throttled mid-way must not look green — a 2h batch that
+  // silently stopped fetching after a 429 would otherwise pass as success.
+  if (disabledSources.size > 0) process.exit(1);
 }
 
 main().catch((err) => {

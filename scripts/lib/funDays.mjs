@@ -211,3 +211,30 @@ export function buildFunPackage(data, { version, imageRefs = {} }) {
     ...(Object.keys(images).length > 0 ? { images } : {}),
   };
 }
+
+/**
+ * Bild-Targets der kuratierten kuriosen Feiertage für `fetch-images.mjs --fun`:
+ * 1 Bild, 1024 px, Terms aus `days/<MM>.json`. Nur `days` wird gebraucht, daher
+ * genügt eine einzelne Locale ('en') beim Laden. Tage mit ungültigem Slug
+ * werden übersprungen (gewarnt statt geworfen — ein einzelner kaputter Tag soll
+ * den restlichen Bild-Fetch nicht blockieren).
+ */
+export async function funImageTargets(contentRoot) {
+  const { days } = await loadFunDays(contentRoot, ['en']);
+  const targets = [];
+  for (const d of days) {
+    if (typeof d.slug !== 'string' || !SLUG_RE.test(d.slug)) {
+      console.warn(`funImageTargets: skipping day with invalid slug "${d.slug}" (${d.date})`);
+      continue;
+    }
+    targets.push({
+      slug: d.slug,
+      countryCode: FUN_COUNTRY_CODE,
+      terms: d.imageQueries ?? [],
+      maxImages: 1,
+      thumbWidth: 1024,
+      maxBytes: 1_500_000,
+    });
+  }
+  return targets;
+}

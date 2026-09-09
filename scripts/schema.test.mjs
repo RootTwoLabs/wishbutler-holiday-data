@@ -88,3 +88,34 @@ test('index: funOccasions-Eintrag erlaubt hasInfo/hasImages', () => {
   };
   assert.equal(validateIndex(index), true, JSON.stringify(validateIndex.errors));
 });
+
+test('holidayArticle: leere traditions wird abgelehnt', () => {
+  const bad = pkg({
+    i18n: { holidayInfo: { de: { x: { intro: 'i', traditions: '', funFacts: ['a'] } } } },
+  });
+  assert.equal(validatePackage(bad), false);
+});
+
+test('holidayArticle: fehlendes intro wird abgelehnt', () => {
+  const bad = pkg({
+    i18n: { holidayInfo: { de: { x: { funFacts: ['a'] } } } },
+  });
+  assert.equal(validatePackage(bad), false);
+});
+
+test('holidayArticle: fehlende funFacts wird abgelehnt', () => {
+  const bad = pkg({
+    i18n: { holidayInfo: { de: { x: { intro: 'i' } } } },
+  });
+  assert.equal(validatePackage(bad), false);
+});
+
+test('index: funOccasions mit unbekanntem Key wird abgelehnt', () => {
+  const index = {
+    schemaVersion: 1,
+    baseUrl: 'https://example.com/data',
+    countries: [],
+    funOccasions: { code: 'FUN', version: 5, package: 'packages/FUN/v5/package.json', foo: true },
+  };
+  assert.equal(validateIndex(index), false);
+});
