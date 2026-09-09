@@ -255,3 +255,15 @@ test('buildFunPackage: fehlender Text-Eintrag für eine Locale wird übersprunge
   assert.ok(!(funKey(missingSlug) in pkg.i18n.holidays.de));
   assert.ok(funKey(missingSlug) in pkg.i18n.holidays.en);
 });
+
+// Integrationstest gegen den echten Content (Plan Task 9, Step 1): 366 Tage,
+// alle 12 Locales, ein Bild pro Tag — der Stand, den build-fun-occasions baut.
+import { dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+const REPO = join(dirname(fileURLToPath(import.meta.url)), '..');
+
+test('echter Content: 366 Tage, 12 Locales, Bilder vollständig', async () => {
+  const data = await loadFunDays(join(REPO, 'content', 'fun-days'));
+  const errors = validateFunDays(data, { imagesRoot: join(REPO, 'data', 'images'), requireImages: true });
+  assert.deepEqual(errors, [], errors.slice(0, 20).join('\n'));
+});
