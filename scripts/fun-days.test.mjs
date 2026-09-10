@@ -209,6 +209,24 @@ test('Text-Slug ohne Tag wird gemeldet', async (t) => {
   assert.ok(errors.some((e) => e.includes('unknown slug "orphan_slug"')));
 });
 
+test('buildFunPackage: Bild-Credit landet als imageCredit in jedem Locale-Artikel', async (t) => {
+  const { root, content } = await writeFixture({ locales: ['de', 'en', 'uk'] });
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const data = await loadFunDays(content, ['de', 'en', 'uk']);
+  const slug = data.days[0].slug;
+  const imageRefs = {
+    [slug]: [{ path: `images/FUN/${slug}/01.jpg`, primary: true, credit: 'Ivar Leidus', license: 'CC BY-SA 4.0' }],
+  };
+  const pkg = buildFunPackage(data, { version: 8, imageRefs });
+  const key = `fun_${slug}`;
+  assert.equal(pkg.i18n.holidayInfo.en[key].imageCredit, 'Photo: Ivar Leidus · CC BY-SA 4.0 via Wikimedia Commons');
+  assert.equal(pkg.i18n.holidayInfo.de[key].imageCredit, 'Foto: Ivar Leidus · CC BY-SA 4.0 via Wikimedia Commons');
+  assert.equal(pkg.i18n.holidayInfo.uk[key].imageCredit, 'Фото: Ivar Leidus · CC BY-SA 4.0 via Wikimedia Commons');
+  // Tag ohne Bild: kein imageCredit-Feld
+  const noImage = `fun_${data.days[1].slug}`;
+  assert.equal('imageCredit' in pkg.i18n.holidayInfo.en[noImage], false);
+});
+
 test('buildFunPackage erzeugt Definitionen, i18n, Legacy-Felder und Bilder', async (t) => {
   const { root, content } = await writeFixture();
   t.after(() => rm(root, { recursive: true, force: true }));
@@ -233,7 +251,14 @@ test('buildFunPackage erzeugt Definitionen, i18n, Legacy-Felder und Bilder', asy
     rule: { type: 'fixed', month: 1, day: 1 },
   });
   assert.equal(pkg.i18n.holidays.de.fun_day_01_01, 'de day_01_01');
-  assert.deepEqual(pkg.i18n.holidayInfo.en.fun_day_01_01, { intro: 'en intro day_01_01', funFacts: ['a', 'b', 'c'] });
+  // CC0 ohne Autor: Herkunft bleibt sichtbar, nur ohne Namen.
+  assert.deepEqual(pkg.i18n.holidayInfo.en.fun_day_01_01, {
+    intro: 'en intro day_01_01',
+    funFacts: ['a', 'b', 'c'],
+    imageCredit: 'Photo: CC0 via Wikimedia Commons',
+  });
+  assert.equal(pkg.i18n.holidayInfo.de.fun_day_01_01.imageCredit, 'Foto: CC0 via Wikimedia Commons');
+  assert.equal(pkg.i18n.holidayInfo.ja.fun_day_01_01.imageCredit, '写真: CC0 via Wikimedia Commons');
   assert.equal(Object.keys(pkg.i18n.holidays).length, FUN_LOCALES.length);
   // Legacy für alte App-Versionen
   assert.deepEqual(pkg.funOccasions['01-01'], [{ id: 'fun_day_01_01', labelKey: 'funOccasions.day_01_01' }]);

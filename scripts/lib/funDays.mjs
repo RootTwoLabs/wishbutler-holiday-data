@@ -198,7 +198,33 @@ export function funKey(slug) {
 }
 
 /**
- * Baut das FUN-Paket. `imageRefs`: { [slug]: RemoteImageRef[] }.
+ * Wort „Foto" je Locale für den Bild-Credit im Artikel — gleiches Format wie
+ * die GLOBAL-Artikel („Foto: <Autor> · <Lizenz> via Wikimedia Commons").
+ * Autor/Lizenz bleiben unübersetzt (Eigennamen, Lizenzbezeichner).
+ */
+export const IMAGE_CREDIT_LABEL = {
+  de: 'Foto', en: 'Photo', fr: 'Photo', es: 'Foto', pt: 'Foto', it: 'Foto', pl: 'Zdjęcie',
+  nl: 'Foto', sv: 'Foto', nb: 'Foto', da: 'Foto', fi: 'Kuva', ru: 'Фото', uk: 'Фото',
+  ja: '写真', ko: '사진', 'zh-Hant': '照片',
+};
+
+/**
+ * Bild-Credit-Zeile für den Artikel. CC-BY/BY-SA verlangen Namensnennung —
+ * die App zeigt genau diese Zeile unter dem Bild. Bei CC0 ohne Autor bleibt
+ * die Herkunft trotzdem sichtbar (Lizenz + Quelle), Autor entfällt.
+ */
+export function imageCreditFor(ref, locale) {
+  if (!ref) return undefined;
+  const label = IMAGE_CREDIT_LABEL[locale] ?? IMAGE_CREDIT_LABEL.en;
+  const license = typeof ref.license === 'string' && ref.license.trim() ? ref.license.trim() : 'CC0';
+  const credit = typeof ref.credit === 'string' && ref.credit.trim() ? ref.credit.trim() : '';
+  return `${label}: ${credit ? `${credit} · ` : ''}${license} via Wikimedia Commons`;
+}
+
+/**
+ * Baut das FUN-Paket. `imageRefs`: { [slug]: RemoteImageRef[] } (dekoriert mit
+ * `credit`/`license` aus CREDITS.md, s. imageCredits.mjs) — daraus entsteht je
+ * Locale der `imageCredit` im Artikel.
  * Enthält zusätzlich die Legacy-Felder `funOccasions` + `i18n.funOccasions`,
  * die installierte App-Versionen (Heute-Karte) noch lesen — eine Paketgeneration
  * lang, danach entfernen.
@@ -226,11 +252,17 @@ export function buildFunPackage(data, { version, imageRefs = {} }) {
       category: 'observance',
       rule: { type: 'fixed', month: mm, day: dd },
     });
+    const primaryImage = imageRefs[d.slug]?.[0];
     for (const loc of locales) {
       const entry = texts[loc]?.[d.slug];
       if (!entry) continue;
       (holidays[loc] ??= {})[key] = entry.label;
-      (holidayInfo[loc] ??= {})[key] = { intro: entry.intro, funFacts: [...entry.funFacts] };
+      const imageCredit = imageCreditFor(primaryImage, loc);
+      (holidayInfo[loc] ??= {})[key] = {
+        intro: entry.intro,
+        funFacts: [...entry.funFacts],
+        ...(imageCredit ? { imageCredit } : {}),
+      };
       (legacyLabels[loc] ??= {})[d.slug] = entry.label;
     }
     funOccasions[d.date] = [{ id: key, labelKey: `funOccasions.${d.slug}` }];
