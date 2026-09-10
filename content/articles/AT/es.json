@@ -20,5 +20,38 @@
       "Los niños llevan farolillos hechos a mano en los desfiles.",
       "El ganso asado, la «Martinigans», es el plato tradicional."
     ]
+  },
+  "saint_florians_day": {
+    "intro": "La fiesta de San Florián, el 4 de mayo, rinde homenaje al santo patrón de Alta Austria y de los bomberos. Cierran escuelas y oficinas en Alta Austria y los bomberos de todo el país celebran a su protector.",
+    "history": "Florian era un oficial romano que se negó a perseguir a los cristianos y se ahogó en el río Enns con una piedra de molino alrededor del cuello en el año 304, cerca de la actual Enns. Alrededor de su tumba creció el monasterio de San Florián y su culto se extendió por Austria, Baviera y Polonia.",
+    "traditions": "Los bomberos realizan desfiles con uniforme de gala, bendicen sus vehículos y celebran con cerveza y bandas de música. En innumerables plazas de los pueblos y en las fachadas de las casas se encuentran estatuas de Florian, que normalmente vierten un cubo de agua sobre una casa en llamas.",
+    "funFacts": [
+      "El \"principio de Florian\" describe pasar un problema a otra persona, después de una oración en broma al santo.",
+      "Austria tiene alrededor de 4.500 bomberos voluntarios y la mayoría celebra este día.",
+      "El monasterio de Sankt Florian fue el hogar del compositor Anton Bruckner, quien está enterrado bajo su órgano.",
+      "El santo es también el patrón de los deshollinadores, cerveceros y jaboneros."
+    ]
+  },
+  "saint_ruperts_day": {
+    "intro": "El día de San Ruperto, el 24 de septiembre, es el día festivo estatal de Salzburgo. Honra al obispo que fundó la ciudad alrededor del año 700 y se celebra con el Rupertikirtag, una feria de cinco días en la plaza de la catedral.",
+    "history": "Ruperto de Worms llegó a las ruinas de la Iuvavum romana alrededor del año 696, fundó la Abadía de San Pedro y el Convento de Nonnberg y revivió el comercio de sal que dio nombre a Salzburgo. Se convirtió en el primer obispo de la ciudad y sigue siendo el patrón del estado y la arquidiócesis.",
+    "traditions": "El Rupertikirtag llena las plazas alrededor de la catedral con atracciones, puestos de mercado, bandas de música y trajes tradicionales. Los habitantes de Salzburgo se visten con dirndl y pantalones de cuero, comen pollo asado y donuts Kirtag y brindan por el santo con cerveza local.",
+    "funFacts": [
+      "Rupert suele aparecer con un barril de sal, la fuente de la riqueza de Salzburgo.",
+      "El Rupertikirtag fue revivido en 1977 y ahora atrae a más de 100.000 visitantes.",
+      "Las escuelas de Salzburgo tienen el día libre y las oficinas públicas cierran.",
+      "La catedral alberga las reliquias de Rupert, trasladadas allí en el año 774."
+    ]
+  },
+  "saint_leopolds_day": {
+    "intro": "El día de San Leopoldo, el 15 de noviembre, es la fiesta nacional de Viena y Baja Austria. Rinde homenaje al Margrave Leopoldo III de Babenberg, santo patrón de Austria, y se celebra de manera más famosa en la Abadía de Klosterneuburg.",
+    "history": "Leopoldo gobernó la Marca Oriental de 1095 a 1136 y fundó la Abadía de Klosterneuburg en 1114. La leyenda dice que María le mostró el sitio devolviéndole el velo perdido de su esposa, atrapado en un arbusto de saúco. Fue canonizado en 1485 y nombrado patrón de Austria en 1663.",
+    "traditions": "Miles de personas viajan a Klosterneuburg para asistir a la feria Leopoldi y deslizarse por el barril de vino gigante, una costumbre que, según se dice, trae suerte. Se cierran escuelas y oficinas en Viena y Baja Austria, y la abadía abre a los visitantes la tumba de Leopoldo y el Altar de Verdún.",
+    "funFacts": [
+      "El barril utilizado para el \"Fasslrutschen\" tiene una capacidad de 56.000 litros y fue construido en 1704.",
+      "Leopoldo rechazó la corona real alemana en 1125.",
+      "El nuevo vino del año se degusta tradicionalmente en Leopoldi.",
+      "La leyenda del velo explica por qué el escudo de armas de la abadía muestra un velo."
+    ]
   }
 }

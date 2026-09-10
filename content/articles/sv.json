@@ -286,5 +286,60 @@
       "Den katolska kyrkan erkänner omkring 6 500 helgon – mer än ett helgon per dag."
     ],
     "imageCredit": "Foto: George Chernilevsky · Allmän egendom via Wikimedia Commons"
+  },
+  "pentecost": {
+    "intro": "Pingstdagen, eller pingstdagen, firas femtio dagar efter påsk och markerar den Helige Andes nedstigning till apostlarna. I många länder öppnar det en långhelg tillsammans med pingstdagen.",
+    "history": "Namnet kommer från det grekiska \"pentekoste\", den femtionde dagen, och högtiden växte fram ur den judiska shavuoten. Apostlagärningarna berättar hur lärjungarna började tala på många språk och 3 000 personer döptes, varför pingsten kallas för kyrkans födelsedag.",
+    "traditions": "Kyrkor är dekorerade i rött, Andens färg, och duvor visas i konstverk och processioner. På landsbygden i Europa är dagen bunden till försommaren: björkgrenar pryder dörrar, byar kröner en pingstkung och familjer beger sig utomhus för årets första stora picknick.",
+    "funFacts": [
+      "I italienska kyrkor släpptes en gång röda rosenblad från taket för att representera eldtungor.",
+      "Det engelska namnet Whitsun kommer från de vita kläderna från människor som döpts denna dag.",
+      "Pingst infaller alltid mellan 10 maj och 13 juni.",
+      "Pioner kallas pingstrosor på flera språk eftersom de blommar precis i tid."
+    ]
+  },
+  "saint_josephs_day": {
+    "intro": "Sankt Josefs dag den 19 mars hedrar Marias make och Jesu fosterfar. Det är en allmän helgdag i delar av Österrike och Schweiz och fars dag i Spanien, Italien och Portugal.",
+    "history": "Josef vördades från tidig medeltid och högtiden kom in i den romerska kalendern på 1400-talet. Påven Pius IX gjorde honom till beskyddare av den universella kyrkan 1870, och han är också beskyddare för arbetare, fäder, snickare och en fridfull död.",
+    "traditions": "På Sicilien bygger familjer påkostade Saint Josephs bord fyllda med bröd och bakverk för de fattiga. Italienare äter gräddfylld zeppole, spanjorerna firar fars dag och Valencia avslutar sin Fallas-festival med att bränna gigantiska skulpturer på festens kväll.",
+    "funFacts": [
+      "Högtiden infaller i fastan, så många stift upphäver fastereglerna för dagen.",
+      "På grund av datumet får Joseph smeknamnet helgonet som kommer med våren.",
+      "Valencia bränner hundratals papier-maché-monument den 19 mars i \"crema\".",
+      "Nästan varje italiensk region har sina egna Saint Joseph-bakelser."
+    ]
+  },
+  "holy_saturday": {
+    "intro": "Heliga lördagen är den lugna dagen mellan långfredagen och påskdagen. Den till minne av dagen då Jesus låg i graven och avslutas med påskvakan, den mest högtidliga liturgin under det kristna året.",
+    "history": "Den tidiga kyrkan höll dagen som en strikt fasta utan någon mässa i väntan på uppståndelsen. Påskvakan, som hölls efter mörkrets inbrott, var den traditionella tiden för att döpa nya kristna, och dess välsignelse av eld och vatten går tillbaka till åtminstone det fjärde århundradet.",
+    "traditions": "Kyrkor förblir nakna och tysta under dagen. Efter mörkrets inbrott tänds påskljuset från en ny eld och bärs in i den mörklagda kyrkan medan församlingen tänder sina egna ljus. I många länder är påskmaten välsignad och familjer avslutar med att dekorera ägg.",
+    "funFacts": [
+      "Vakan är den enda dagen på året då katolska kyrkor inte håller någon mässa före solnedgången.",
+      "Påskljuset är märkt med årtal och de grekiska bokstäverna alfa och omega.",
+      "I Polen förs korgar med ägg, bröd och korv till kyrkan för att välsignas.",
+      "Vissa traditioner kallar dagen för helvetets harvning, då Kristus befriade de rättfärdiga döda."
+    ]
+  },
+  "christmas_day_orthodox": {
+    "intro": "Den ortodoxa julen firas den 7 januari av kyrkor som följer den julianska kalendern, bland dem Ryssland, Serbien, Georgien, Egyptens kopter och Etiopien. Det avslutar en fyrtio dagar lång födelsefasta.",
+    "history": "Den julianska kalendern går nu tretton dagar efter den gregorianska, så den 25 december infaller den 7 januari. Många ortodoxa kyrkor behöll den gamla kalendern när västvärlden bytte 1582, och julen har stannat på det datumet sedan dess.",
+    "traditions": "Julafton ger en köttfri nattvard, ofta med tolv rätter och söt vetegröt som kallas kutia. Serber bränner en ekgren, badnjaken, på kyrkogården, kopter fastar till midnattsliturgin, och hälsningen \"Kristus är född\" besvaras med \"Förhärliga honom\".",
+    "funFacts": [
+      "Ryssar öppnar presenter på nyårsafton, medförda av farfar Frost.",
+      "I Serbien bakas ett mynt in i julbrödet och ger lycka till den som hittar det.",
+      "Etiopisk jul, Genna, firas med en traditionell hockeyliknande match.",
+      "Koptiska kristna avslutar sin fasta med en midnattsmässa i Kairos katedral."
+    ]
+  },
+  "saint_peter_and_saint_paul": {
+    "intro": "De heliga Petrus och Paulus högtid den 29 juni hedrar de två stora apostlarna som led martyr i Rom. Det är en allmän helgdag i Chile, Colombia, Peru, Vatikanen och delar av Schweiz.",
+    "history": "Peter, fiskaren och förste biskopen av Rom, och Paulus, missionären till hedningarna, avrättades under kejsar Nero omkring år 64. Den gemensamma högtiden har hållits sedan 300-talet och är en av de äldsta i den kristna kalendern.",
+    "traditions": "I Rom firar påven mässa i Peterskyrkan och ger nya ärkebiskopar pallium, ett ylle ämbetsband. I Peru och Chile bär fiskestäder Peters staty till hamnen i båtprocessioner, eftersom han är fiskarnas beskyddare.",
+    "funFacts": [
+      "Peterskyrkan är byggd över graven som traditionellt identifierats som Peterskyrkan.",
+      "De två helgonen visas alltid tillsammans: Petrus med nycklar, Paulus med ett svärd.",
+      "Den 29 juni är en storstadssemester i själva Rom.",
+      "I Lima dekorerar fiskare sina båtar och tävlar över bukten till Peters ära."
+    ]
   }
 }

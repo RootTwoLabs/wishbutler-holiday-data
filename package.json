@@ -8,6 +8,7 @@
   "scripts": {
     "build": "node scripts/build-all.mjs",
     "build:holidays": "node scripts/fetch-holidays.mjs",
+    "build:holidays:il": "node scripts/fetch-holidays-hebcal.mjs",
     "build:namedays": "node scripts/fetch-namedays.mjs",
     "build:fun-occasions": "node scripts/build-fun-occasions.mjs",
     "check:fun-days": "node scripts/check-fun-days.mjs",

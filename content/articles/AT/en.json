@@ -20,5 +20,38 @@
       "Children carry handmade lanterns in evening processions.",
       "Roast goose, the 'Martinigans', is the traditional meal."
     ]
+  },
+  "saint_florians_day": {
+    "intro": "Saint Florian's Day on 4 May honours the patron saint of Upper Austria and of firefighters. Schools and offices in Upper Austria close, and fire brigades across the country celebrate their protector.",
+    "history": "Florian was a Roman officer who refused to persecute Christians and was drowned in the river Enns with a millstone around his neck in 304, near today's Enns. The monastery of Sankt Florian grew around his grave, and his cult spread through Austria, Bavaria and Poland.",
+    "traditions": "Fire brigades hold parades in dress uniform, have their vehicles blessed and celebrate with beer and brass bands. Florian statues, usually pouring a bucket of water on a burning house, stand in countless village squares and on house facades.",
+    "funFacts": [
+      "The \"Florian principle\" describes passing a problem on to someone else, after a joking prayer to the saint.",
+      "Austria has around 4,500 volunteer fire brigades, and most celebrate on this day.",
+      "Sankt Florian monastery was home to the composer Anton Bruckner, who is buried under its organ.",
+      "The saint is also the patron of chimney sweeps, brewers and soap makers."
+    ]
+  },
+  "saint_ruperts_day": {
+    "intro": "Saint Rupert's Day on 24 September is the state holiday of Salzburg. It honours the bishop who founded the city around 700 and is celebrated with the Rupertikirtag, a five-day fair in the cathedral square.",
+    "history": "Rupert of Worms came to the ruins of Roman Iuvavum around 696, founded Saint Peter's Abbey and Nonnberg Convent and revived the salt trade that gave Salzburg its name. He became the city's first bishop and remains the patron of the state and archdiocese.",
+    "traditions": "The Rupertikirtag fills the squares around the cathedral with rides, market stalls, brass bands and traditional costume. Salzburgers dress in dirndl and lederhosen, eat roast chicken and Kirtag doughnuts and toast the saint with local beer.",
+    "funFacts": [
+      "Rupert is usually shown with a barrel of salt, the source of Salzburg's wealth.",
+      "The Rupertikirtag was revived in 1977 and now draws well over 100,000 visitors.",
+      "Schools in Salzburg get the day off, and public offices close.",
+      "The cathedral holds Rupert's relics, moved there in 774."
+    ]
+  },
+  "saint_leopolds_day": {
+    "intro": "Saint Leopold's Day on 15 November is the state holiday of Vienna and Lower Austria. It honours Margrave Leopold III of Babenberg, patron saint of Austria, and is celebrated most famously at Klosterneuburg Abbey.",
+    "history": "Leopold ruled the Eastern March from 1095 to 1136 and founded Klosterneuburg Abbey in 1114. Legend says Mary showed him the site by returning his wife's lost veil, caught in an elderberry bush. He was canonised in 1485 and made patron of Austria in 1663.",
+    "traditions": "Thousands travel to Klosterneuburg for the Leopoldi fair and to slide down the giant wine barrel, a custom said to bring luck. Schools and offices in Vienna and Lower Austria close, and the abbey opens Leopold's tomb and the Verdun Altar to visitors.",
+    "funFacts": [
+      "The barrel used for the \"Fasslrutschen\" holds 56,000 litres and was built in 1704.",
+      "Leopold turned down the German royal crown in 1125.",
+      "The new wine of the year is traditionally tasted on Leopoldi.",
+      "The veil legend is why the abbey's coat of arms shows a veil."
+    ]
   }
 }

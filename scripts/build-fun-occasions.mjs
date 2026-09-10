@@ -3,7 +3,7 @@
  * Baut das FUN-Paket (kuriose Feiertage) aus content/fun-days/ + data/images/FUN/.
  *
  * Ab v5: echte HolidayDefinitions (eine pro Kalendertag, 366), Labels + Kurzartikel
- * in allen 12 Locales, ein Bild pro Tag. Die Legacy-Felder `funOccasions` und
+ * in allen 17 App-Locales (FUN_LOCALES), ein Bild pro Tag. Die Legacy-Felder `funOccasions` und
  * `i18n.funOccasions` bleiben eine Paketgeneration lang für installierte
  * App-Versionen erhalten (Heute-Karte alt) — siehe funDays.buildFunPackage.
  *

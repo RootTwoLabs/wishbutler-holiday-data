@@ -17,6 +17,7 @@ import {
   buildImageRefs,
   imageNamespaceForSlug,
   slugFromLabelKey,
+  canonicalArticleSlug,
 } from './lib/contentLoader.mjs';
 import { loadCreditHints, decorateImageRef } from './lib/imageCredits.mjs';
 import { FUN_COUNTRY_CODE } from './lib/funDays.mjs';
@@ -77,8 +78,13 @@ async function mergePackage(cc, globalArticles, countryArticles, creditHints) {
       holidayInfo[locale][slug] = article;
     }
 
-    const ns = imageNamespaceForSlug(slug, cc);
-    const refs = await buildImageRefs(DATA, slug, ns);
+    let refs = await buildImageRefs(DATA, slug, imageNamespaceForSlug(slug, cc));
+    // Alias-Slugs ohne eigene Bilder (christmas_day -> christmas, Eid-Folgetage
+    // -> erster Tag) zeigen die Bilder des kanonischen Slugs.
+    const canonical = canonicalArticleSlug(slug);
+    if (refs.length === 0 && canonical !== slug) {
+      refs = await buildImageRefs(DATA, canonical, imageNamespaceForSlug(canonical, cc));
+    }
     if (refs.length > 0) {
       images[slug] = refs.map((ref) => decorateImageRef(ref, creditHints));
     }

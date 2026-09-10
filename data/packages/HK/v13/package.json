@@ -1,0 +1,1564 @@
+{
+  "countryCode": "HK",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "HK_new_years_day",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-01",
+          "2027": "01-01",
+          "2028": "01-01",
+          "2029": "01-01",
+          "2030": "01-01",
+          "2031": "01-01",
+          "2032": "01-01",
+          "2033": "01-01",
+          "2034": "01-02",
+          "2035": "01-01"
+        }
+      }
+    },
+    {
+      "id": "HK_lunar_new_year",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.lunar_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-17",
+          "2027": "02-06",
+          "2028": "01-26",
+          "2029": "02-13",
+          "2030": "02-04",
+          "2031": "01-23",
+          "2032": "02-11",
+          "2033": "01-31",
+          "2034": "02-20",
+          "2035": "02-08"
+        }
+      }
+    },
+    {
+      "id": "HK_second_day_of_lunar_new_year",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.second_day_of_lunar_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-18",
+          "2027": "02-08",
+          "2028": "01-27",
+          "2029": "02-14",
+          "2030": "02-05",
+          "2031": "01-24",
+          "2032": "02-12",
+          "2033": "02-01",
+          "2034": "02-21",
+          "2035": "02-09"
+        }
+      }
+    },
+    {
+      "id": "HK_third_day_of_lunar_new_year",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.third_day_of_lunar_new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-19",
+          "2027": "02-09",
+          "2028": "01-28",
+          "2029": "02-15",
+          "2030": "02-06",
+          "2031": "01-25",
+          "2032": "02-13",
+          "2033": "02-02",
+          "2034": "02-22",
+          "2035": "02-10"
+        }
+      }
+    },
+    {
+      "id": "HK_good_friday",
+      "countryCode": "HK",
+      "kind": "easter_relative",
+      "labelKey": "holidays.good_friday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -2
+      }
+    },
+    {
+      "id": "HK_holy_saturday",
+      "countryCode": "HK",
+      "kind": "easter_relative",
+      "labelKey": "holidays.holy_saturday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "easter_relative",
+        "offsetDays": -1
+      }
+    },
+    {
+      "id": "HK_ching_ming_festival",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.ching_ming_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-06",
+          "2027": "04-05",
+          "2028": "04-04",
+          "2029": "04-04",
+          "2030": "04-04",
+          "2031": "04-05",
+          "2032": "04-05",
+          "2033": "04-04",
+          "2034": "04-04",
+          "2035": "04-04"
+        }
+      }
+    },
+    {
+      "id": "HK_easter_monday",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_monday_hk",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-07",
+          "2027": "03-29",
+          "2028": "04-17",
+          "2029": "04-02",
+          "2030": "04-22",
+          "2031": "04-14",
+          "2032": "03-29",
+          "2033": "04-18",
+          "2034": "04-10",
+          "2035": "03-26"
+        }
+      }
+    },
+    {
+      "id": "HK_labour_day",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.labour_day_hk",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-01",
+          "2027": "05-01",
+          "2028": "05-01",
+          "2029": "05-01",
+          "2030": "05-01",
+          "2031": "05-01",
+          "2032": "05-01",
+          "2033": "05-02",
+          "2034": "05-01",
+          "2035": "05-01"
+        }
+      }
+    },
+    {
+      "id": "HK_buddhas_birthday",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.buddhas_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-25",
+          "2027": "05-13",
+          "2028": "05-02",
+          "2029": "05-21",
+          "2030": "05-09",
+          "2031": "04-29",
+          "2032": "05-17",
+          "2033": "05-06",
+          "2034": "05-25",
+          "2035": "05-15"
+        }
+      }
+    },
+    {
+      "id": "HK_dragon_boat_festival",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.dragon_boat_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "06-19",
+          "2027": "06-09",
+          "2028": "05-29",
+          "2029": "06-16",
+          "2030": "06-05",
+          "2031": "06-24",
+          "2032": "06-12",
+          "2033": "06-01",
+          "2034": "06-20",
+          "2035": "06-11"
+        }
+      }
+    },
+    {
+      "id": "HK_hong_kong_special_administrative_region_establishment_day",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.hong_kong_special_administrative_region_establishment_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "07-01",
+          "2027": "07-01",
+          "2028": "07-01",
+          "2029": "07-02",
+          "2030": "07-01",
+          "2031": "07-01",
+          "2032": "07-01",
+          "2033": "07-01",
+          "2034": "07-01",
+          "2035": "07-02"
+        }
+      }
+    },
+    {
+      "id": "HK_day_following_the_mid_autumn_festival",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.day_following_the_mid_autumn_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-26",
+          "2027": "09-16",
+          "2028": "10-04",
+          "2029": "09-24",
+          "2030": "09-13",
+          "2031": "10-02",
+          "2032": "09-20",
+          "2033": "09-09",
+          "2034": "09-28",
+          "2035": "09-17"
+        }
+      }
+    },
+    {
+      "id": "HK_national_day",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.national_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "10-01",
+          "2027": "10-01",
+          "2028": "10-02",
+          "2029": "10-01",
+          "2030": "10-01",
+          "2031": "10-01",
+          "2032": "10-01",
+          "2033": "10-01",
+          "2034": "10-02",
+          "2035": "10-01"
+        }
+      }
+    },
+    {
+      "id": "HK_chung_yeung_festival",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.chung_yeung_festival",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "10-19",
+          "2027": "10-08",
+          "2028": "10-26",
+          "2029": "10-16",
+          "2030": "10-05",
+          "2031": "10-24",
+          "2032": "10-12",
+          "2033": "10-01",
+          "2034": "10-20",
+          "2035": "10-09"
+        }
+      }
+    },
+    {
+      "id": "HK_christmas_day",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.christmas_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "12-25",
+          "2027": "12-25",
+          "2028": "12-25",
+          "2029": "12-25",
+          "2030": "12-25",
+          "2031": "12-25",
+          "2032": "12-25",
+          "2033": "12-26",
+          "2034": "12-25",
+          "2035": "12-25"
+        }
+      }
+    },
+    {
+      "id": "HK_boxing_day",
+      "countryCode": "HK",
+      "kind": "precomputed",
+      "labelKey": "holidays.boxing_day_hk",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "12-26",
+          "2027": "12-27",
+          "2028": "12-26",
+          "2029": "12-26",
+          "2030": "12-26",
+          "2031": "12-26",
+          "2032": "12-27",
+          "2033": "12-26",
+          "2034": "12-26",
+          "2035": "12-26"
+        }
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "lunar_new_year": "Lunar New Year",
+        "second_day_of_lunar_new_year": "Second day of Lunar New Year",
+        "third_day_of_lunar_new_year": "Third day of Lunar New Year",
+        "holy_saturday": "Holy Saturday",
+        "ching_ming_festival": "Ching Ming Festival",
+        "easter_monday_hk": "Easter Monday",
+        "labour_day_hk": "Labour Day",
+        "buddhas_birthday": "Buddha's Birthday",
+        "dragon_boat_festival": "Dragon Boat Festival",
+        "hong_kong_special_administrative_region_establishment_day": "Hong Kong Special Administrative Region Establishment Day",
+        "day_following_the_mid_autumn_festival": "Day following the Mid-Autumn Festival",
+        "national_day": "National Day",
+        "chung_yeung_festival": "Chung Yeung Festival",
+        "christmas_day": "Christmas Day",
+        "boxing_day_hk": "Boxing Day"
+      },
+      "zh": {
+        "new_years_day": "元旦新年",
+        "lunar_new_year": "農曆年初一",
+        "second_day_of_lunar_new_year": "農曆年初二",
+        "third_day_of_lunar_new_year": "農曆年初三",
+        "holy_saturday": "耶穌受難節翌日",
+        "ching_ming_festival": "清明節",
+        "easter_monday_hk": "復活節星期一",
+        "labour_day_hk": "勞動節",
+        "buddhas_birthday": "佛誕",
+        "dragon_boat_festival": "端午節",
+        "hong_kong_special_administrative_region_establishment_day": "香港特別行政區成立紀念日",
+        "day_following_the_mid_autumn_festival": "中秋節翌日",
+        "national_day": "中華人民共和國國慶日",
+        "chung_yeung_festival": "重陽節",
+        "christmas_day": "聖誕節",
+        "boxing_day_hk": "聖誕節翌日"
+      },
+      "de": {
+        "new_years_day": "Neujahr",
+        "lunar_new_year": "Mondneujahr",
+        "second_day_of_lunar_new_year": "Zweiter Tag des neuen Mondjahres",
+        "third_day_of_lunar_new_year": "Dritter Tag des neuen Mondjahres",
+        "holy_saturday": "Karsamstag",
+        "ching_ming_festival": "Ching Ming Festival",
+        "easter_monday_hk": "Ostermontag",
+        "labour_day_hk": "Tag der Arbeit",
+        "buddhas_birthday": "Buddhas Geburtstag",
+        "dragon_boat_festival": "Drachenbootfest",
+        "hong_kong_special_administrative_region_establishment_day": "Gründungstag der Sonderverwaltungszone Hongkong",
+        "day_following_the_mid_autumn_festival": "Tag nach dem Mittherbstfest",
+        "national_day": "Nationalfeiertag",
+        "chung_yeung_festival": "Chung Yeung Festival",
+        "christmas_day": "Weihnachtstag",
+        "boxing_day_hk": "Boxing Day"
+      },
+      "fr": {
+        "new_years_day": "Jour de l'An",
+        "lunar_new_year": "Nouvel An lunaire",
+        "second_day_of_lunar_new_year": "Deuxième jour du Nouvel An lunaire",
+        "third_day_of_lunar_new_year": "Troisième jour du Nouvel An lunaire",
+        "holy_saturday": "Samedi Saint",
+        "ching_ming_festival": "Festival Ching Ming",
+        "easter_monday_hk": "Lundi de Pâques",
+        "labour_day_hk": "Fête du Travail",
+        "buddhas_birthday": "Anniversaire de Bouddha",
+        "dragon_boat_festival": "Festival des bateaux-dragons",
+        "hong_kong_special_administrative_region_establishment_day": "Journée de création de la région administrative spéciale de Hong Kong",
+        "day_following_the_mid_autumn_festival": "Jour suivant la Fête de la Mi-Automne",
+        "national_day": "Fête nationale",
+        "chung_yeung_festival": "Festival Chung Yeung",
+        "christmas_day": "Jour de Noël",
+        "boxing_day_hk": "Le lendemain de Noël"
+      },
+      "es": {
+        "new_years_day": "Día de Año Nuevo",
+        "lunar_new_year": "Año Nuevo Lunar",
+        "second_day_of_lunar_new_year": "Segundo día del Año Nuevo Lunar",
+        "third_day_of_lunar_new_year": "Tercer día del Año Nuevo Lunar",
+        "holy_saturday": "Sábado Santo",
+        "ching_ming_festival": "Festival Ching Ming",
+        "easter_monday_hk": "Lunes de Pascua",
+        "labour_day_hk": "Día del Trabajo",
+        "buddhas_birthday": "Cumpleaños de Buda",
+        "dragon_boat_festival": "Festival del Barco Dragón",
+        "hong_kong_special_administrative_region_establishment_day": "Día del establecimiento de la región administrativa especial de Hong Kong",
+        "day_following_the_mid_autumn_festival": "Día siguiente al Festival del Medio Otoño",
+        "national_day": "Día Nacional",
+        "chung_yeung_festival": "Festival Chung Yeung",
+        "christmas_day": "Día de Navidad",
+        "boxing_day_hk": "Día del Boxeo"
+      },
+      "pt": {
+        "new_years_day": "Dia de Ano Novo",
+        "lunar_new_year": "Ano Novo Lunar",
+        "second_day_of_lunar_new_year": "Segundo dia do Ano Novo Lunar",
+        "third_day_of_lunar_new_year": "Terceiro dia do Ano Novo Lunar",
+        "holy_saturday": "Sábado Santo",
+        "ching_ming_festival": "Festival Ching Ming",
+        "easter_monday_hk": "Segunda-feira de Páscoa",
+        "labour_day_hk": "Dia do Trabalhador",
+        "buddhas_birthday": "Aniversário de Buda",
+        "dragon_boat_festival": "Festival do Barco-Dragão",
+        "hong_kong_special_administrative_region_establishment_day": "Dia do Estabelecimento da Região Administrativa Especial de Hong Kong",
+        "day_following_the_mid_autumn_festival": "Dia seguinte ao Festival do Meio Outono",
+        "national_day": "Dia Nacional",
+        "chung_yeung_festival": "Festival Chung Yeung",
+        "christmas_day": "Dia de Natal",
+        "boxing_day_hk": "Boxing Day"
+      },
+      "it": {
+        "new_years_day": "Capodanno",
+        "lunar_new_year": "Capodanno lunare",
+        "second_day_of_lunar_new_year": "Secondo giorno del Capodanno lunare",
+        "third_day_of_lunar_new_year": "Terzo giorno del Capodanno lunare",
+        "holy_saturday": "Sabato Santo",
+        "ching_ming_festival": "Festival Ching Ming",
+        "easter_monday_hk": "Lunedì di Pasquetta",
+        "labour_day_hk": "Festa dei lavoratori",
+        "buddhas_birthday": "Compleanno di Buddha",
+        "dragon_boat_festival": "Festa delle Barche Drago",
+        "hong_kong_special_administrative_region_establishment_day": "Giorno dell'istituzione della regione amministrativa speciale di Hong Kong",
+        "day_following_the_mid_autumn_festival": "Il giorno successivo alla Festa di Metà Autunno",
+        "national_day": "Festa nazionale",
+        "chung_yeung_festival": "Festival di Chung Yeung",
+        "christmas_day": "Il giorno di Natale",
+        "boxing_day_hk": "Santo Stefano"
+      },
+      "pl": {
+        "new_years_day": "Nowy Rok",
+        "lunar_new_year": "Księżycowy Nowy Rok",
+        "second_day_of_lunar_new_year": "Drugi dzień księżycowego Nowego Roku",
+        "third_day_of_lunar_new_year": "Trzeci dzień księżycowego Nowego Roku",
+        "holy_saturday": "Wielka Sobota",
+        "ching_ming_festival": "Festiwal Ching Ming",
+        "easter_monday_hk": "Poniedziałek Wielkanocny",
+        "labour_day_hk": "Święto Pracy",
+        "buddhas_birthday": "Urodziny Buddy",
+        "dragon_boat_festival": "Festiwal Smoczych Łodzi",
+        "hong_kong_special_administrative_region_establishment_day": "Dzień utworzenia Specjalnego Regionu Administracyjnego Hongkongu",
+        "day_following_the_mid_autumn_festival": "Dzień następujący po Święcie Środka Jesieni",
+        "national_day": "Święto Narodowe",
+        "chung_yeung_festival": "Festiwal Chung Yeung",
+        "christmas_day": "Boże Narodzenie",
+        "boxing_day_hk": "Drugi dzień świąt"
+      },
+      "nl": {
+        "new_years_day": "Nieuwjaarsdag",
+        "lunar_new_year": "Maannieuwjaar",
+        "second_day_of_lunar_new_year": "Tweede dag van het nieuwe maanjaar",
+        "third_day_of_lunar_new_year": "Derde dag van het nieuwe maanjaar",
+        "holy_saturday": "Stille Zaterdag",
+        "ching_ming_festival": "Ching Ming-festival",
+        "easter_monday_hk": "Paasmaandag",
+        "labour_day_hk": "Dag van de Arbeid",
+        "buddhas_birthday": "Boeddha's verjaardag",
+        "dragon_boat_festival": "Drakenbootfestival",
+        "hong_kong_special_administrative_region_establishment_day": "Oprichtingsdag van de Speciale Administratieve Regio Hongkong",
+        "day_following_the_mid_autumn_festival": "Dag na het Midherfstfestival",
+        "national_day": "Nationale feestdag",
+        "chung_yeung_festival": "Chung Yeung-festival",
+        "christmas_day": "Eerste Kerstdag",
+        "boxing_day_hk": "Tweede Kerstdag"
+      },
+      "sv": {
+        "new_years_day": "Nyårsdagen",
+        "lunar_new_year": "Månnyår",
+        "second_day_of_lunar_new_year": "Andra dagen av Lunar New Year",
+        "third_day_of_lunar_new_year": "Tredje dagen av månnyåret",
+        "holy_saturday": "Heliga lördag",
+        "ching_ming_festival": "Ching Ming-festivalen",
+        "easter_monday_hk": "Annandag påsk",
+        "labour_day_hk": "Labor Day",
+        "buddhas_birthday": "Buddhas födelsedag",
+        "dragon_boat_festival": "Drakbåtsfestival",
+        "hong_kong_special_administrative_region_establishment_day": "Hong Kong Special Administrative Region Etablering Day",
+        "day_following_the_mid_autumn_festival": "Dagen efter midhöstfestivalen",
+        "national_day": "Nationaldagen",
+        "chung_yeung_festival": "Chung Yeung-festivalen",
+        "christmas_day": "Juldagen",
+        "boxing_day_hk": "Annandag jul"
+      },
+      "ja": {
+        "new_years_day": "元旦",
+        "lunar_new_year": "旧正月",
+        "second_day_of_lunar_new_year": "旧正月 2 日目",
+        "third_day_of_lunar_new_year": "旧正月 3 日目",
+        "holy_saturday": "聖土曜日",
+        "ching_ming_festival": "清明節",
+        "easter_monday_hk": "イースターマンデー",
+        "labour_day_hk": "レイバーデー",
+        "buddhas_birthday": "お釈迦様の誕生日",
+        "dragon_boat_festival": "端午節",
+        "hong_kong_special_administrative_region_establishment_day": "香港特別行政区設立の日",
+        "day_following_the_mid_autumn_festival": "中秋節の翌日",
+        "national_day": "建国記念日",
+        "chung_yeung_festival": "チュンヨンフェスティバル",
+        "christmas_day": "クリスマスの日",
+        "boxing_day_hk": "ボクシングデー"
+      },
+      "ko": {
+        "new_years_day": "설날",
+        "lunar_new_year": "설날",
+        "second_day_of_lunar_new_year": "설날 둘째날",
+        "third_day_of_lunar_new_year": "설 셋째날",
+        "holy_saturday": "성토요일",
+        "ching_ming_festival": "청명절",
+        "easter_monday_hk": "부활절 월요일",
+        "labour_day_hk": "노동절",
+        "buddhas_birthday": "석가탄신일",
+        "dragon_boat_festival": "단오절",
+        "hong_kong_special_administrative_region_establishment_day": "홍콩특별행정구 수립일",
+        "day_following_the_mid_autumn_festival": "중추절 다음날",
+        "national_day": "국경일",
+        "chung_yeung_festival": "청영페스티벌",
+        "christmas_day": "크리스마스",
+        "boxing_day_hk": "박싱데이"
+      },
+      "zh-Hant": {
+        "new_years_day": "元旦",
+        "lunar_new_year": "農曆新年",
+        "second_day_of_lunar_new_year": "大年初二",
+        "third_day_of_lunar_new_year": "大年初三",
+        "holy_saturday": "聖週六",
+        "ching_ming_festival": "清明節",
+        "easter_monday_hk": "復活節星期一",
+        "labour_day_hk": "勞動節",
+        "buddhas_birthday": "佛誕",
+        "dragon_boat_festival": "端午節",
+        "hong_kong_special_administrative_region_establishment_day": "香港特別行政區成立日",
+        "day_following_the_mid_autumn_festival": "中秋節後一天",
+        "national_day": "國慶",
+        "chung_yeung_festival": "重陽節",
+        "christmas_day": "聖誕節",
+        "boxing_day_hk": "節禮日"
+      },
+      "ru": {
+        "new_years_day": "Новый год",
+        "lunar_new_year": "Лунный Новый год",
+        "second_day_of_lunar_new_year": "Второй день Лунного Нового года",
+        "third_day_of_lunar_new_year": "Третий день Лунного Нового года",
+        "holy_saturday": "Великая Суббота",
+        "ching_ming_festival": "Фестиваль Чинг Мин",
+        "easter_monday_hk": "Пасхальный понедельник",
+        "labour_day_hk": "День труда",
+        "buddhas_birthday": "День рождения Будды",
+        "dragon_boat_festival": "Фестиваль лодок-драконов",
+        "hong_kong_special_administrative_region_establishment_day": "День создания специального административного района Гонконг",
+        "day_following_the_mid_autumn_festival": "День после Праздника середины осени",
+        "national_day": "Национальный день",
+        "chung_yeung_festival": "Фестиваль Чунг Ён",
+        "christmas_day": "Рождество",
+        "boxing_day_hk": "День подарков"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "new_years_day": {
+          "intro": "Der 1. Januar markiert weltweit den Beginn eines neuen Jahres im gregorianischen Kalender. Für viele ist es ein Tag der Hoffnung, des Neuanfangs und der guten Vorsätze.",
+          "history": "Bereits 153 v. Chr. legten die Römer den Jahresbeginn auf den 1. Januar, den Antrittstag der neuen Konsuln. Im Mittelalter wechselte der Jahresanfang in vielen Regionen zu Weihnachten oder Ostern. Erst mit der Kalenderreform von Papst Gregor XIII. im Jahr 1582 setzte sich der 1. Januar wieder als europäischer Standard durch. Der Monatsname Januar geht auf den römischen Gott Janus zurück, der mit zwei Gesichtern zugleich auf das Vergangene und das Kommende blickte – ein passendes Sinnbild für diesen Tag.",
+          "traditions": "Um Mitternacht stoßen Familien und Freunde mit Sekt an und feiern den Jahreswechsel mit Feuerwerk, Glücksbringern wie Kleeblatt, Schornsteinfeger oder Marienkäfer und dem traditionellen Bleigießen (heute Wachsgießen). Beliebt sind außerdem Neujahrsbrunch und der gemeinsame Spaziergang an der frischen Luft. Viele fassen Vorsätze für das neue Jahr.",
+          "funFacts": [
+            "In Spanien isst man zu jedem der zwölf Glockenschläge eine Weintraube – eine pro Wunsch.",
+            "In Dänemark zerbricht man altes Geschirr vor den Türen guter Freunde, um Glück zu bringen.",
+            "Wiens Neujahrskonzert wird in über 90 Länder übertragen und gilt als musikalischer Auftakt des Jahres.",
+            "Auf den Pazifikinseln Kiribati beginnt das neue Jahr 26 Stunden früher als auf der Insel Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Karfreitag ist der höchste protestantische Trauertag und erinnert an die Kreuzigung Jesu Christi. In Deutschland ist er ein „stiller Feiertag” mit besonderen Schutzregeln.",
+          "history": "Karfreitag wird seit dem 4. Jahrhundert von Christen begangen. Das Wort „Kar” stammt vom althochdeutschen „chara” und bedeutet Klage oder Trauer. Schon früh entwickelten sich liturgische Traditionen: Verlesung der Passionsgeschichte, Kreuzverehrung und das Verstummen der Glocken. Die Reformation hob den Karfreitag besonders hervor; in lutherischen Regionen ist er bis heute der wichtigste Feiertag des Kirchenjahres.",
+          "traditions": "Viele Christen besuchen Passionsgottesdienste mit der Verlesung der Leidensgeschichte. Es gilt als Fastentag – traditionell wird Fisch statt Fleisch gegessen. In manchen Regionen ziehen Karfreitagsprozessionen durch die Straßen, etwa die berühmte „Karfreitagsprozession” in Lohr am Main. Tanzveranstaltungen und laute Musik sind in den meisten Bundesländern gesetzlich untersagt.",
+          "funFacts": [
+            "In Deutschland regelt das „Tanzverbot” das öffentliche Vergnügen am Karfreitag – seit Jahren ein gesellschaftlicher Streitpunkt.",
+            "Bach schrieb seine Matthäus-Passion 1727 für die Karfreitags-Vesper in Leipzig – heute eines der meistaufgeführten Werke der Welt.",
+            "In Bermuda lassen Familien am Karfreitag selbstgebastelte Drachen aus Bambus und Papier steigen – eine einzigartige christliche Tradition.",
+            "Im Spanischen heißt Karfreitag „Viernes Santo” – mit prachtvollen Bruderschafts-Prozessionen, etwa in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "holy_saturday": {
+          "intro": "Der Karsamstag ist der stille Tag zwischen Karfreitag und Ostersonntag. Er erinnert an die Grabesruhe Jesu und endet mit der Osternacht, der feierlichsten Liturgie des Kirchenjahres.",
+          "history": "Die frühe Kirche hielt den Tag als strengen Fasttag ohne Messe und wartete auf die Auferstehung. Die Osternacht nach Einbruch der Dunkelheit war die traditionelle Zeit für die Taufe neuer Christen; ihre Segnung von Feuer und Wasser reicht mindestens ins 4. Jahrhundert zurück.",
+          "traditions": "Tagsüber bleiben die Kirchen kahl und still. Nach Einbruch der Nacht wird die Osterkerze an einem neuen Feuer entzündet und in die dunkle Kirche getragen, während die Gemeinde ihre eigenen Kerzen anzündet. In vielen Ländern werden Osterspeisen gesegnet, und Familien bemalen die letzten Eier.",
+          "funFacts": [
+            "Die Osternacht ist der einzige Tag im Jahr, an dem katholische Kirchen vor Sonnenuntergang keine Messe feiern.",
+            "Die Osterkerze trägt die Jahreszahl und die griechischen Buchstaben Alpha und Omega.",
+            "In Polen bringt man Körbe mit Eiern, Brot und Wurst zur Segnung in die Kirche.",
+            "Manche Traditionen nennen den Tag Höllenfahrt Christi, an dem er die gerechten Toten befreite."
+          ]
+        },
+        "dragon_boat_festival": {
+          "intro": "Das Drachenbootfest, lokal Tuen Ng genannt, ist bekannt für Drachenbootrennen und Reisklöße.",
+          "history": "Das Fest am fünften Tag des fünften Mondmonats erinnert der Überlieferung nach an den altchinesischen Dichter Qu Yuan, der sich aus Protest ertränkte. Man ruderte mit Booten hinaus und warf Reis ins Wasser, um seinen Körper zu schützen – daraus entstanden die heutigen Bräuche.",
+          "traditions": "Mannschaften rudern lange, mit Drachenköpfen verzierte Boote im Takt der Trommeln in Hongkongs Häfen und an Stränden. Man isst „Zongzi”, in Bambusblätter gewickelte Klebreisklöße, und hängt Kräuter für gutes Glück auf.",
+          "funFacts": [
+            "Es soll dem Dichter Qu Yuan gewidmet sein.",
+            "Die Mannschaften rudern im Takt einer Trommel.",
+            "„Zongzi”-Reisklöße sind das Festtagsessen."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "Der Tag der Gründung der SAR Hongkong am 1. Juli erinnert an die Übergabe Hongkongs von Großbritannien an China 1997.",
+          "history": "Am 1. Juli 1997 gab das Vereinigte Königreich Hongkong an China zurück, das die Sonderverwaltungsregion Hongkong nach dem Grundsatz „ein Land, zwei Systeme” einrichtete. Der Tag erinnert an diese Übergabe der Souveränität.",
+          "traditions": "Der Tag wird mit einer offiziellen Flaggenzeremonie, einem Feuerwerk über dem Victoria Harbour und verschiedenen öffentlichen Veranstaltungen begangen. Er ist einer der wichtigsten staatlichen Feiertage Hongkongs.",
+          "funFacts": [
+            "Er markiert die Übergabe Hongkongs an China 1997.",
+            "Hongkong wurde an diesem Tag Sonderverwaltungsregion.",
+            "Jedes Jahr findet eine Flaggenzeremonie statt."
+          ]
+        },
+        "christmas_day": {
+          "intro": "Weihnachten am 25. Dezember ist das wichtigste Fest des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
+          "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
+          "traditions": "Familien versammeln sich zu festlichen Mahlzeiten – Truthahn, Gans, Karpfen oder Raclette. Geschenke werden ausgetauscht, Weihnachtslieder gesungen, viele besuchen den Festgottesdienst. Der geschmückte Christbaum mit Lichterketten, Kugeln und Strohsternen ist das zentrale Symbol. Adventskalender, Plätzchen und der Besuch von Weihnachtsmärkten gehören zur Vorbereitung.",
+          "funFacts": [
+            "Der erste kommerzielle Adventskalender erschien 1908 in München – Erfinder war Gerhard Lang.",
+            "Die Weihnachtsmärkte in Dresden („Striezelmarkt”, seit 1434) und Frankfurt (seit 1393) gehören zu den ältesten der Welt.",
+            "Norwegen schenkt Großbritannien seit 1947 jährlich einen riesigen Weihnachtsbaum für den Trafalgar Square – als Dank für die Hilfe im Zweiten Weltkrieg.",
+            "Die Weihnachtsfilm-Klassiker „Drei Haselnüsse für Aschenbrödel” und „Tatsächlich… Liebe” laufen weltweit jedes Jahr Dutzende Male im TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "new_years_day": {
+          "intro": "January 1st marks the start of a new year in the Gregorian calendar around the world. For many it's a day of hope, fresh starts and good resolutions.",
+          "history": "As early as 153 BC the Romans set the start of the year on January 1st, the day new consuls took office. During the Middle Ages, the start of the year shifted in many regions to Christmas or Easter. Only with Pope Gregory XIII's calendar reform of 1582 did January 1st become the European standard once again. The name January goes back to the Roman god Janus, who looked simultaneously at the past and the future with two faces — a fitting symbol for the day.",
+          "traditions": "At midnight, families and friends toast with sparkling wine and celebrate the turn of the year with fireworks, lucky charms (clover, chimney sweep, ladybug) and traditional lead pouring (now wax pouring). New Year's brunch and a fresh-air walk are popular too. Many people make resolutions for the year ahead.",
+          "funFacts": [
+            "In Spain, people eat one grape with each of the twelve bell strokes — one wish per grape.",
+            "In Denmark, people break old crockery in front of friends' doors to bring them luck.",
+            "Vienna's New Year's Concert is broadcast in over 90 countries and counts as the year's musical kick-off.",
+            "On the Pacific island of Kiribati, the new year arrives 26 hours earlier than on Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Good Friday is the highest Protestant day of mourning, commemorating the crucifixion of Jesus Christ. In Germany it is a ‘silent holiday' with special legal protections.",
+          "history": "Good Friday has been observed by Christians since the 4th century. The German prefix ‘Kar' comes from Old High German ‘chara', meaning lamentation or mourning. Liturgical traditions developed early on: the reading of the Passion, veneration of the cross and the silencing of bells. The Reformation gave Good Friday particular weight; in Lutheran regions it remains the most important holiday of the church year.",
+          "traditions": "Many Christians attend Passion services with the reading of the Passion narrative. The day is traditionally one of fasting — fish replaces meat. In some regions, Good Friday processions march through the streets, such as the famous one in Lohr am Main. Dance events and loud music are forbidden by law in most German states.",
+          "funFacts": [
+            "Germany's ‘dance ban' regulates public entertainment on Good Friday — and has been a hot social topic for years.",
+            "Bach wrote his St. Matthew Passion in 1727 for Good Friday vespers in Leipzig — today one of the world's most performed works.",
+            "In Bermuda, families fly self-made bamboo and paper kites on Good Friday — a unique Christian tradition.",
+            "In Spanish-speaking countries Good Friday is ‘Viernes Santo' — with magnificent brotherhood processions, for example in Seville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "holy_saturday": {
+          "intro": "Holy Saturday is the quiet day between Good Friday and Easter Sunday. It commemorates the day Jesus lay in the tomb and ends with the Easter Vigil, the most solemn liturgy of the Christian year.",
+          "history": "The early Church kept the day as a strict fast without any mass, waiting for the resurrection. The Easter Vigil, held after nightfall, was the traditional time for baptising new Christians, and its blessing of fire and water dates back to at least the fourth century.",
+          "traditions": "Churches stay bare and silent during the day. After dark the Paschal candle is lit from a new fire and carried into the darkened church while the congregation lights their own candles. In many countries Easter food is blessed and families finish decorating eggs.",
+          "funFacts": [
+            "The Vigil is the only day of the year when Catholic churches hold no mass before sunset.",
+            "The Paschal candle is marked with the year and the Greek letters alpha and omega.",
+            "In Poland baskets of eggs, bread and sausage are brought to church to be blessed.",
+            "Some traditions call the day the Harrowing of Hell, when Christ freed the righteous dead."
+          ]
+        },
+        "dragon_boat_festival": {
+          "intro": "The Dragon Boat Festival, known locally as Tuen Ng, features dragon boat races and rice dumplings.",
+          "history": "Held on the fifth day of the fifth lunar month, the festival is traditionally said to commemorate the ancient Chinese poet Qu Yuan, who drowned himself in protest. People raced boats and threw rice into the water to protect his body, giving rise to today’s customs.",
+          "traditions": "Teams race long, dragon-headed boats to the beat of drums in Hong Kong's harbours and beaches. People eat 'zongzi', sticky rice dumplings wrapped in bamboo leaves, and hang herbs for good fortune.",
+          "funFacts": [
+            "It is said to honour the poet Qu Yuan.",
+            "Teams paddle to the beat of a drum.",
+            "'Zongzi' rice dumplings are the festival food."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "HKSAR Establishment Day on 1 July marks Hong Kong's 1997 handover from Britain to China.",
+          "history": "On 1 July 1997 the United Kingdom returned Hong Kong to China, which established the Hong Kong Special Administrative Region under the 'one country, two systems' principle. The day commemorates this transfer of sovereignty.",
+          "traditions": "The day is marked with an official flag-raising ceremony, fireworks over Victoria Harbour and various public events. It is one of Hong Kong’s main civic public holidays.",
+          "funFacts": [
+            "It marks the 1997 handover of Hong Kong to China.",
+            "Hong Kong became a Special Administrative Region that day.",
+            "A flag-raising ceremony is held each year."
+          ]
+        },
+        "christmas_day": {
+          "intro": "Christmas on December 25th is Christianity's most important festival — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
+          "history": "December 25th is documented as ‘dies natalis Christi' as early as 354 in a Roman calendar. The Church likely chose the date to give the Roman ‘Sol Invictus' winter solstice festival a Christian meaning. Gift-giving has its roots in the gifts of the Magi. The familiar Santa Claus with red coat and white beard is a mix of Saint Nicholas and a 1931 Coca-Cola advertising campaign.",
+          "traditions": "Families gather for festive meals — turkey, goose, carp or raclette. Gifts are exchanged, carols sung, many attend the festive service. The decorated Christmas tree with lights, ornaments and straw stars is the central symbol. Advent calendars, cookies and visits to Christmas markets are part of the run-up.",
+          "funFacts": [
+            "The first commercial Advent calendar appeared in 1908 in Munich — invented by Gerhard Lang.",
+            "The Christmas markets in Dresden (‘Striezelmarkt', since 1434) and Frankfurt (since 1393) are among the oldest in the world.",
+            "Norway has gifted the UK a giant Christmas tree for Trafalgar Square every year since 1947 — as thanks for help during World War II.",
+            "Holiday classics like ‘Three Wishes for Cinderella' and ‘Love Actually' run dozens of times on TV worldwide every year."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "new_years_day": {
+          "intro": "Le 1er janvier marque le début d'une nouvelle année dans le calendrier grégorien partout dans le monde. Pour beaucoup, c'est un jour d'espoir, de renouveau et de bonnes résolutions.",
+          "history": "Dès 153 av. J.-C., les Romains fixèrent le début de l'année au 1er janvier, jour d'entrée en fonction des nouveaux consuls. Au Moyen Âge, le début de l'année se déplaça dans de nombreuses régions à Noël ou à Pâques. Ce n'est qu'avec la réforme du calendrier du pape Grégoire XIII en 1582 que le 1er janvier s'imposa à nouveau comme standard européen. Le nom janvier vient du dieu romain Janus, qui regardait simultanément le passé et l'avenir avec deux visages.",
+          "traditions": "À minuit, familles et amis trinquent au champagne et célèbrent le passage à la nouvelle année avec des feux d'artifice, des porte-bonheur (trèfle, ramoneur, coccinelle) et la traditionnelle coulée de plomb (aujourd'hui de cire). Le brunch du Nouvel An et la promenade au grand air sont aussi populaires. Beaucoup formulent des résolutions pour l'année.",
+          "funFacts": [
+            "En Espagne, on mange un grain de raisin à chacun des douze coups de minuit — un vœu par grain.",
+            "Au Danemark, on brise de la vieille vaisselle devant la porte des amis pour leur porter chance.",
+            "Le Concert du Nouvel An de Vienne est diffusé dans plus de 90 pays — coup d'envoi musical de l'année.",
+            "Sur l'île pacifique de Kiribati, le Nouvel An arrive 26 heures avant celui de l'île Howland."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Le Vendredi Saint est le jour le plus solennel du protestantisme et commémore la crucifixion de Jésus-Christ. En Allemagne, il s'agit d'un ‘jour silencieux' légalement protégé.",
+          "history": "Le Vendredi Saint est célébré par les chrétiens depuis le IVe siècle. Le préfixe allemand ‘Kar' vient du vieux haut-allemand ‘chara' (lamentation, deuil). Très tôt s'élaborent les traditions liturgiques : lecture de la Passion, vénération de la Croix, silence des cloches. La Réforme protestante lui donna une importance particulière ; dans les régions luthériennes, c'est la fête la plus importante de l'année liturgique.",
+          "traditions": "De nombreux chrétiens assistent à la liturgie de la Passion. C'est traditionnellement un jour de jeûne — on mange du poisson plutôt que de la viande. Dans certaines régions ont lieu des processions du Vendredi Saint, comme la fameuse procession de Lohr am Main. En Allemagne, la danse et la musique forte sont légalement interdites dans la plupart des Länder.",
+          "funFacts": [
+            "L'interdiction de danser (‘Tanzverbot') régit les divertissements publics du Vendredi Saint en Allemagne — sujet sociétal récurrent.",
+            "Bach composa sa Passion selon saint Matthieu en 1727 pour les vêpres du Vendredi Saint à Leipzig.",
+            "Aux Bermudes, les familles font voler des cerfs-volants en bambou et papier le Vendredi Saint — tradition chrétienne unique.",
+            "En Espagne, le ‘Viernes Santo' brille par les magnifiques processions de confréries, notamment à Séville."
+          ],
+          "imageCredit": "Photo: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "holy_saturday": {
+          "intro": "Le Samedi Saint est le jour tranquille entre le Vendredi Saint et le dimanche de Pâques. Elle commémore le jour où Jésus repose au tombeau et se termine par la veillée pascale, la liturgie la plus solennelle de l'année chrétienne.",
+          "history": "L'Église primitive observait ce jour comme un jeûne strict sans aucune messe, en attendant la résurrection. La veillée pascale, célébrée après la tombée de la nuit, était le moment traditionnel du baptême des nouveaux chrétiens, et sa bénédiction du feu et de l'eau remonte au moins au quatrième siècle.",
+          "traditions": "Les églises restent nues et silencieuses pendant la journée. Après la tombée de la nuit, le cierge pascal est allumé à partir d'un nouveau feu et transporté dans l'église sombre pendant que la congrégation allume ses propres cierges. Dans de nombreux pays, la nourriture de Pâques est bénie et les familles finissent de décorer les œufs.",
+          "funFacts": [
+            "La Veillée est le seul jour de l'année où les églises catholiques ne célèbrent pas de messe avant le coucher du soleil.",
+            "Le cierge pascal est marqué de l'année et des lettres grecques alpha et oméga.",
+            "En Pologne, des paniers d'œufs, de pain et de saucisses sont apportés à l'église pour être bénis.",
+            "Certaines traditions appellent ce jour le jour de l'Enfer, où le Christ a libéré les justes morts."
+          ]
+        },
+        "dragon_boat_festival": {
+          "intro": "La fête des bateaux-dragons, appelée localement Tuen Ng, est célèbre pour ses courses de bateaux-dragons et ses boulettes de riz.",
+          "history": "Célébrée le cinquième jour du cinquième mois lunaire, la fête commémorerait le poète chinois antique Qu Yuan, qui se noya en signe de protestation. On lança des bateaux et jeta du riz dans l’eau pour protéger son corps, donnant naissance aux coutumes actuelles.",
+          "traditions": "Les équipes font la course sur de longs bateaux à tête de dragon au rythme des tambours, dans les ports et sur les plages de Hong Kong. On mange des « zongzi », boulettes de riz gluant enveloppées de feuilles de bambou, et on suspend des herbes porte-bonheur.",
+          "funFacts": [
+            "Elle honorerait le poète Qu Yuan.",
+            "Les équipes pagayent au rythme d’un tambour.",
+            "Les « zongzi », boulettes de riz, sont le mets de la fête."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "Le jour de l’établissement de la RAS de Hong Kong, le 1er juillet, marque la rétrocession de Hong Kong par le Royaume-Uni à la Chine en 1997.",
+          "history": "Le 1er juillet 1997, le Royaume-Uni rendit Hong Kong à la Chine, qui établit la région administrative spéciale de Hong Kong selon le principe « un pays, deux systèmes ». Le jour commémore ce transfert de souveraineté.",
+          "traditions": "La journée est marquée par une cérémonie officielle de lever du drapeau, un feu d’artifice au-dessus du port Victoria et divers événements publics. C’est l’un des principaux jours fériés civiques de Hong Kong.",
+          "funFacts": [
+            "Il marque la rétrocession de Hong Kong à la Chine en 1997.",
+            "Hong Kong devint ce jour-là une région administrative spéciale.",
+            "Une cérémonie du drapeau a lieu chaque année."
+          ]
+        },
+        "christmas_day": {
+          "intro": "Noël, le 25 décembre, est la fête la plus importante du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
+          "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
+          "traditions": "Les familles se rassemblent autour de repas festifs — dinde, oie, carpe ou raclette. On échange des cadeaux, chante des cantiques, beaucoup assistent à la messe festive. Le sapin décoré de lumières, boules et étoiles de paille est le symbole central. Calendrier de l'avent, biscuits et marchés de Noël jalonnent la préparation.",
+          "funFacts": [
+            "Le premier calendrier de l'avent commercial parut en 1908 à Munich — invention de Gerhard Lang.",
+            "Les marchés de Noël de Dresde (‘Striezelmarkt', depuis 1434) et de Francfort (depuis 1393) figurent parmi les plus anciens du monde.",
+            "La Norvège offre chaque année au Royaume-Uni un immense sapin pour Trafalgar Square depuis 1947 — en remerciement de l'aide pendant la Seconde Guerre mondiale.",
+            "Les classiques de Noël comme ‘Trois noisettes pour Cendrillon' ou ‘Love Actually' sont diffusés des dizaines de fois à la télé chaque année."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "new_years_day": {
+          "intro": "El 1 de enero marca el inicio de un nuevo año en el calendario gregoriano en todo el mundo. Para muchos es un día de esperanza, comienzos y buenos propósitos.",
+          "history": "Ya en el 153 a. C., los romanos fijaron el inicio del año el 1 de enero, día en que tomaban posesión los nuevos cónsules. En la Edad Media el comienzo del año cambió en muchas regiones a Navidad o Pascua. Solo con la reforma del calendario del papa Gregorio XIII en 1582 el 1 de enero volvió a imponerse como estándar europeo. El nombre Janus (enero en latín) evoca al dios romano de las dos caras, que miraba al pasado y al futuro a la vez.",
+          "traditions": "A medianoche, familias y amigos brindan con cava o champán y celebran con fuegos artificiales, amuletos como tréboles, deshollinadores o mariquitas, y la tradicional fundición de cera para predecir el año. También son populares el brunch de Año Nuevo y los paseos al aire libre. Muchos hacen propósitos para el año entrante.",
+          "funFacts": [
+            "En España se come una uva con cada una de las doce campanadas — un deseo por uva.",
+            "En Dinamarca se rompe vajilla vieja delante de las puertas de los amigos para darles suerte.",
+            "El Concierto de Año Nuevo de Viena se transmite en más de 90 países y se considera el arranque musical del año.",
+            "En la isla pacífica de Kiribati el Año Nuevo llega 26 horas antes que en la isla Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 vía Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "El Viernes Santo es el día de mayor luto del cristianismo y conmemora la crucifixión de Jesús. En Alemania es ‘día silencioso' con normativa especial.",
+          "history": "El Viernes Santo se celebra desde el siglo IV. La palabra alemana ‘Kar' viene del antiguo alto alemán ‘chara', que significa lamento o duelo. Pronto se desarrollaron tradiciones litúrgicas: lectura de la Pasión, veneración de la cruz y silencio de las campanas. La Reforma le dio especial relevancia y en regiones luteranas sigue siendo el día más importante del año eclesiástico.",
+          "traditions": "Muchos cristianos asisten a oficios de la Pasión con la lectura de la Pasión. Es día de ayuno: tradicionalmente se come pescado en lugar de carne. En España, las procesiones de las cofradías recorren ciudades como Sevilla. En Alemania los bailes y la música alta están legalmente prohibidos en la mayoría de estados federados.",
+          "funFacts": [
+            "El ‘Tanzverbot' (prohibición de bailar) regula el ocio público en el Viernes Santo alemán — desde hace años un debate social recurrente.",
+            "Bach compuso su Pasión según San Mateo en 1727 para las vísperas del Viernes Santo en Leipzig.",
+            "En Bermudas, las familias hacen volar cometas caseras de bambú y papel — una tradición cristiana única.",
+            "En España, el ‘Viernes Santo' destaca por las majestuosas procesiones de cofradías, especialmente en Sevilla y Málaga."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "holy_saturday": {
+          "intro": "El Sábado Santo es el día tranquilo entre el Viernes Santo y el Domingo de Pascua. Conmemora el día en que Jesús yació en la tumba y finaliza con la Vigilia Pascual, la liturgia más solemne del año cristiano.",
+          "history": "La Iglesia primitiva guardaba el día como un estricto ayuno sin misa, en espera de la resurrección. La Vigilia Pascual, que se celebraba después del anochecer, era el momento tradicional para bautizar a los nuevos cristianos, y su bendición de fuego y agua se remonta al menos al siglo IV.",
+          "traditions": "Las iglesias permanecen desnudas y silenciosas durante el día. Después del anochecer, el cirio pascual se enciende con un fuego nuevo y se lleva a la iglesia a oscuras mientras la congregación enciende sus propias velas. En muchos países se bendice la comida de Pascua y las familias terminan de decorar los huevos.",
+          "funFacts": [
+            "La Vigilia es el único día del año en el que las iglesias católicas no celebran misa antes del atardecer.",
+            "El cirio pascual está marcado con el año y las letras griegas alfa y omega.",
+            "En Polonia se llevan a la iglesia cestas con huevos, pan y salchichas para ser bendecidos.",
+            "Algunas tradiciones llaman a este día el Desgarrador del Infierno, cuando Cristo liberó a los justos muertos."
+          ]
+        },
+        "dragon_boat_festival": {
+          "intro": "El Festival del Bote del Dragón, llamado localmente Tuen Ng, es famoso por sus carreras de botes dragón y sus bolas de arroz.",
+          "history": "Celebrado el quinto día del quinto mes lunar, según la tradición conmemora al antiguo poeta chino Qu Yuan, que se ahogó en señal de protesta. La gente lanzó botes y arrojó arroz al agua para proteger su cuerpo, dando origen a las costumbres actuales.",
+          "traditions": "Los equipos compiten en largos botes con cabeza de dragón al ritmo de los tambores, en los puertos y playas de Hong Kong. Se comen «zongzi», bolas de arroz glutinoso envueltas en hojas de bambú, y se cuelgan hierbas para la buena suerte.",
+          "funFacts": [
+            "Se cree que honra al poeta Qu Yuan.",
+            "Los equipos reman al ritmo de un tambor.",
+            "Los «zongzi», bolas de arroz, son la comida del festival."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "El Día del Establecimiento de la RAE de Hong Kong, el 1 de julio, marca el traspaso de Hong Kong del Reino Unido a China en 1997.",
+          "history": "El 1 de julio de 1997, el Reino Unido devolvió Hong Kong a China, que estableció la Región Administrativa Especial de Hong Kong bajo el principio de «un país, dos sistemas». El día conmemora ese traspaso de soberanía.",
+          "traditions": "La jornada se marca con una ceremonia oficial de izado de bandera, fuegos artificiales sobre el puerto Victoria y diversos actos públicos. Es uno de los principales festivos cívicos de Hong Kong.",
+          "funFacts": [
+            "Marca el traspaso de Hong Kong a China en 1997.",
+            "Hong Kong se convirtió ese día en Región Administrativa Especial.",
+            "Cada año se celebra una ceremonia de izado de bandera."
+          ]
+        },
+        "christmas_day": {
+          "intro": "La Navidad, el 25 de diciembre, es la fiesta más importante del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
+          "history": "Ya en el año 354 un calendario romano consigna el 25 de diciembre como ‘dies natalis Christi'. Probablemente la Iglesia eligió la fecha para reinterpretar cristianamente el ‘Sol Invictus' romano. El intercambio de regalos arraiga en los obsequios de los Magos. El moderno Papá Noel con abrigo rojo y barba blanca es una mezcla de San Nicolás con una campaña publicitaria de Coca-Cola de 1931.",
+          "traditions": "Las familias se reúnen para comidas festivas — pavo, ganso, carpa o raclette. Se intercambian regalos, se cantan villancicos y muchos asisten al servicio festivo. El árbol decorado con luces y bolas es el símbolo central. El calendario de Adviento, las galletas y los mercadillos forman parte de la preparación.",
+          "funFacts": [
+            "El primer calendario de Adviento comercial apareció en 1908 en Múnich — invento de Gerhard Lang.",
+            "Los mercadillos navideños de Dresde (‘Striezelmarkt', desde 1434) y Fráncfort (desde 1393) son de los más antiguos del mundo.",
+            "Noruega regala al Reino Unido un enorme árbol de Navidad para Trafalgar Square cada año desde 1947 — agradecimiento por la ayuda en la Segunda Guerra Mundial.",
+            "Los clásicos como ‘Tres Avellanas para Cenicienta' o ‘Love Actually' se emiten decenas de veces cada año en TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "new_years_day": {
+          "intro": "1 de janeiro marca o início de um novo ano no calendário gregoriano em todo o mundo. Para muitos é um dia de esperança, novos começos e boas resoluções.",
+          "history": "Já em 153 a.C. os romanos fixaram o início do ano em 1 de janeiro, dia em que tomavam posse os novos cônsules. Na Idade Média, o início do ano deslocou-se em muitas regiões para o Natal ou a Páscoa. Só com a reforma do calendário do Papa Gregório XIII em 1582 o 1 de janeiro voltou a impor-se como padrão europeu. O nome Janus (janeiro em latim) evoca o deus romano de duas faces, que olhava simultaneamente para o passado e o futuro.",
+          "traditions": "À meia-noite, famílias e amigos brindam com espumante e celebram com fogo de artifício, amuletos como trevos, limpa-chaminés ou joaninhas, e a tradicional fundição de cera para prever o ano. Também são populares o brunch de Ano Novo e os passeios ao ar livre. Muitos fazem resoluções para o ano que começa.",
+          "funFacts": [
+            "Em Portugal e Espanha, come-se uma uva por cada uma das doze badaladas — um desejo por uva.",
+            "Na Dinamarca, partem-se louças velhas em frente à porta dos amigos para lhes dar sorte.",
+            "O Concerto de Ano Novo de Viena é transmitido em mais de 90 países — abertura musical do ano.",
+            "Na ilha pacífica de Kiribati, o Ano Novo chega 26 horas antes do que na ilha de Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "A Sexta-Feira Santa é o dia de maior luto do cristianismo e comemora a crucificação de Jesus Cristo. Em Portugal é feriado nacional, com forte tradição religiosa.",
+          "history": "A Sexta-Feira Santa é celebrada pelos cristãos desde o século IV. O prefixo alemão ‘Kar' vem do alto alemão antigo ‘chara' (lamento, luto). Cedo se desenvolveram tradições litúrgicas: leitura da Paixão, veneração da cruz e silêncio dos sinos. A Reforma deu-lhe especial relevância. Em Portugal, a tradição das procissões da Paixão é antiga e muito viva, especialmente em Braga, Óbidos e na ilha da Madeira.",
+          "traditions": "Muitos cristãos assistem a celebrações da Paixão. É tradicionalmente dia de jejum — come-se peixe (em Portugal, o típico bacalhau) em vez de carne. Em Braga e Óbidos, as procissões da Paixão são impressionantes — em Braga a ‘Procissão do Senhor Ecce Homo' é uma das maiores. Em Espanha, destacam-se as procissões das confrarias, sobretudo em Sevilha.",
+          "funFacts": [
+            "Em Braga (Portugal) a ‘Procissão do Senhor Ecce Homo' é uma das mais impressionantes da Europa.",
+            "Bach compôs a sua Paixão segundo São Mateus em 1727 para as Vésperas da Sexta-Feira Santa em Leipzig.",
+            "Nas Bermudas, as famílias fazem voar papagaios de bambu e papel feitos em casa — uma tradição cristã única.",
+            "Em Espanha, ‘Viernes Santo' destaca-se pelas magníficas procissões das confrarias, sobretudo em Sevilha."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "holy_saturday": {
+          "intro": "O Sábado Santo é o dia tranquilo entre a Sexta-feira Santa e o Domingo de Páscoa. Comemora o dia em que Jesus foi sepultado e termina com a Vigília Pascal, a liturgia mais solene do ano cristão.",
+          "history": "A Igreja primitiva mantinha o dia como um jejum rigoroso, sem qualquer missa, aguardando a ressurreição. A Vigília Pascal, realizada após o anoitecer, era o momento tradicional para o batismo dos cristãos novos, e a bênção do fogo e da água remonta, pelo menos, ao século IV.",
+          "traditions": "As igrejas estão vazias e silenciosas durante o dia. Depois de escurecer, a vela pascal é acesa num novo fogo e levada para a igreja escura enquanto a congregação acende as suas próprias velas. Em muitos países a comida da Páscoa é abençoada e as famílias terminam de decorar os ovos.",
+          "funFacts": [
+            "A Vigília é o único dia do ano em que as igrejas católicas não celebram missas antes do pôr-do-sol.",
+            "A vela pascal está marcada com o ano e as letras gregas alfa e ómega.",
+            "Na Polónia os cestos de ovos, pão e salsicha são levados à igreja para serem abençoados.",
+            "Algumas tradições chamam ao dia o Tormento do Inferno, quando Cristo libertou os justos mortos."
+          ]
+        },
+        "dragon_boat_festival": {
+          "intro": "O Festival do Barco-Dragão, localmente chamado Tuen Ng, é famoso pelas corridas de barcos-dragão e pelos bolinhos de arroz.",
+          "history": "Celebrado no quinto dia do quinto mês lunar, segundo a tradição comemora o antigo poeta chinês Qu Yuan, que se afogou em protesto. As pessoas lançaram barcos e atiraram arroz à água para proteger o seu corpo, dando origem aos costumes atuais.",
+          "traditions": "As equipas competem em longos barcos com cabeça de dragão ao ritmo dos tambores, nos portos e praias de Hong Kong. Comem-se «zongzi», bolinhos de arroz glutinoso embrulhados em folhas de bambu, e penduram-se ervas para dar sorte.",
+          "funFacts": [
+            "Crê-se que homenageia o poeta Qu Yuan.",
+            "As equipas remam ao ritmo de um tambor.",
+            "Os «zongzi», bolinhos de arroz, são a comida do festival."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "O Dia do Estabelecimento da RAE de Hong Kong, 1 de julho, marca a transferência de Hong Kong do Reino Unido para a China em 1997.",
+          "history": "A 1 de julho de 1997, o Reino Unido devolveu Hong Kong à China, que estabeleceu a Região Administrativa Especial de Hong Kong sob o princípio «um país, dois sistemas». O dia comemora essa transferência de soberania.",
+          "traditions": "O dia é assinalado com uma cerimónia oficial de hastear da bandeira, fogo de artifício sobre o porto Victoria e vários eventos públicos. É um dos principais feriados cívicos de Hong Kong.",
+          "funFacts": [
+            "Marca a transferência de Hong Kong para a China em 1997.",
+            "Hong Kong tornou-se nesse dia Região Administrativa Especial.",
+            "Realiza-se todos os anos uma cerimónia de hastear da bandeira."
+          ]
+        },
+        "christmas_day": {
+          "intro": "O Natal, 25 de dezembro, é a festa mais importante do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
+          "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
+          "traditions": "As famílias reúnem-se em refeições festivas — peru, ganso, bacalhau ou raclette nos países germânicos; em Portugal, o típico almoço de Natal com peru ou cabrito assado, e as sobremesas de bolo-rei, sonhos, rabanadas, aletria e arroz-doce. Trocam-se presentes, cantam-se cânticos, muitos vão à missa festiva. A árvore decorada e o presépio são símbolos centrais.",
+          "funFacts": [
+            "O primeiro calendário do Advento comercial apareceu em 1908 em Munique — invenção de Gerhard Lang.",
+            "Os mercados de Natal de Dresden (‘Striezelmarkt', desde 1434) e Frankfurt (desde 1393) estão entre os mais antigos do mundo.",
+            "A Noruega oferece ao Reino Unido um enorme abeto para Trafalgar Square todos os anos desde 1947 — em agradecimento pela ajuda na II Guerra.",
+            "Em Portugal, a tradição do bolo-rei remonta ao século XIX, importado da pastelaria francesa."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "new_years_day": {
+          "intro": "Il 1° gennaio segna l'inizio di un nuovo anno nel calendario gregoriano in tutto il mondo. Per molti è un giorno di speranza, di nuovi inizi e di buoni propositi.",
+          "history": "Già nel 153 a.C. i Romani fissarono l'inizio dell'anno al 1° gennaio, giorno dell'insediamento dei nuovi consoli. Nel Medioevo l'inizio dell'anno si spostò in molte regioni a Natale o Pasqua. Solo con la riforma del calendario di papa Gregorio XIII nel 1582 il 1° gennaio tornò ad imporsi come standard europeo. Il nome ‘gennaio' deriva dal dio romano Giano, che con due volti guardava contemporaneamente al passato e al futuro.",
+          "traditions": "A mezzanotte famiglie e amici brindano con spumante e festeggiano con fuochi d'artificio, portafortuna come quadrifogli, spazzacamini o coccinelle e la tradizionale colata di piombo (oggi di cera). Sono diffusi anche il brunch di Capodanno e la passeggiata all'aria aperta. Molti formulano buoni propositi per l'anno che inizia.",
+          "funFacts": [
+            "In Spagna si mangia un chicco d'uva a ogni rintocco delle dodici campane — un desiderio per chicco.",
+            "In Danimarca si rompono stoviglie davanti alle porte degli amici per portare loro fortuna.",
+            "Il Concerto di Capodanno di Vienna è trasmesso in oltre 90 paesi — apertura musicale dell'anno.",
+            "Sull'isola pacifica di Kiribati il Capodanno arriva 26 ore prima rispetto all'isola Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Il Venerdì Santo è il giorno di lutto più importante per i protestanti e ricorda la crocifissione di Gesù Cristo. In Germania è ‘giorno silenzioso' con norme particolari.",
+          "history": "Il Venerdì Santo è celebrato dai cristiani dal IV secolo. Il prefisso tedesco ‘Kar' deriva dall'antico alto tedesco ‘chara' (lamento, lutto). Presto si svilupparono tradizioni liturgiche: lettura della Passione, venerazione della croce, silenzio delle campane. La Riforma gli diede particolare risalto; nelle regioni luterane resta la festa più importante dell'anno liturgico.",
+          "traditions": "Molti cristiani partecipano alla Liturgia della Passione. Tradizionalmente è giorno di digiuno — si mangia pesce invece di carne. In Italia, soprattutto al Sud, ci sono solenni processioni con statue del Cristo morto, come la celebre ‘Processione dei Misteri' a Trapani. In Spagna spiccano le processioni delle confraternite, soprattutto a Siviglia.",
+          "funFacts": [
+            "In Germania il ‘Tanzverbot' (divieto di ballare) regola gli intrattenimenti pubblici — tema sociale ricorrente.",
+            "Bach compose la ‘Passione secondo Matteo' nel 1727 per i vespri del Venerdì Santo a Lipsia.",
+            "Alle Bermuda le famiglie fanno volare aquiloni di bambù e carta — tradizione cristiana unica.",
+            "In Spagna il ‘Viernes Santo' è famoso per le maestose processioni delle confraternite, in particolare a Siviglia."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "holy_saturday": {
+          "intro": "Il Sabato Santo è il giorno tranquillo tra il Venerdì Santo e la Domenica di Pasqua. Si commemora il giorno in cui Gesù depose nel sepolcro e si conclude con la Veglia Pasquale, la liturgia più solenne dell'anno cristiano.",
+          "history": "La Chiesa primitiva osservava il giorno come un digiuno rigoroso senza alcuna messa, in attesa della risurrezione. La veglia pasquale, tenuta dopo il tramonto, era il momento tradizionale per battezzare i nuovi cristiani e la sua benedizione del fuoco e dell'acqua risale almeno al IV secolo.",
+          "traditions": "Le chiese restano spoglie e silenziose durante il giorno. Dopo il tramonto il cero pasquale viene acceso da un nuovo fuoco e portato nella chiesa buia mentre la congregazione accende le proprie candele. In molti paesi il cibo pasquale viene benedetto e le famiglie finiscono di decorare le uova.",
+          "funFacts": [
+            "La Veglia è l'unico giorno dell'anno in cui le chiese cattoliche non celebrano messa prima del tramonto.",
+            "Il cero pasquale è contrassegnato dall'anno e dalle lettere greche alfa e omega.",
+            "In Polonia cesti di uova, pane e salsiccia vengono portati in chiesa per essere benedetti.",
+            "Alcune tradizioni chiamano il giorno il Tormento dell'Inferno, quando Cristo liberò i giusti morti."
+          ]
+        },
+        "dragon_boat_festival": {
+          "intro": "Il Festival delle barche drago, chiamato localmente Tuen Ng, è celebre per le gare di barche drago e gli gnocchi di riso.",
+          "history": "Celebrato il quinto giorno del quinto mese lunare, secondo la tradizione commemora l’antico poeta cinese Qu Yuan, che si annegò per protesta. La gente lanciò barche e gettò riso nell’acqua per proteggerne il corpo, dando origine alle usanze odierne.",
+          "traditions": "Le squadre gareggiano su lunghe barche con testa di drago al ritmo dei tamburi, nei porti e sulle spiagge di Hong Kong. Si mangiano gli «zongzi», gnocchi di riso glutinoso avvolti in foglie di bambù, e si appendono erbe portafortuna.",
+          "funFacts": [
+            "Si ritiene onori il poeta Qu Yuan.",
+            "Le squadre remano al ritmo di un tamburo.",
+            "Gli «zongzi», gnocchi di riso, sono il cibo della festa."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "Il Giorno della fondazione della RAS di Hong Kong, il 1º luglio, segna il passaggio di Hong Kong dal Regno Unito alla Cina nel 1997.",
+          "history": "Il 1º luglio 1997 il Regno Unito restituì Hong Kong alla Cina, che istituì la Regione amministrativa speciale di Hong Kong secondo il principio «un Paese, due sistemi». La giornata commemora questo trasferimento di sovranità.",
+          "traditions": "La giornata è segnata da una cerimonia ufficiale dell’alzabandiera, fuochi d’artificio sul porto Victoria e vari eventi pubblici. È una delle principali festività civiche di Hong Kong.",
+          "funFacts": [
+            "Segna il passaggio di Hong Kong alla Cina nel 1997.",
+            "Hong Kong divenne quel giorno Regione amministrativa speciale.",
+            "Ogni anno si tiene una cerimonia dell’alzabandiera."
+          ]
+        },
+        "christmas_day": {
+          "intro": "Il Natale, il 25 dicembre, è la festa più importante del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
+          "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
+          "traditions": "Le famiglie si riuniscono per pasti festosi — tacchino, oca, carpa o raclette al nord; pranzo natalizio con tortellini in brodo, lasagne, capponi e panettone in Italia. Si scambiano regali, si cantano canti natalizi, molti partecipano alla messa festiva. L'albero decorato e il presepe sono i simboli centrali. Calendario dell'Avvento, biscotti e mercatini scandiscono la preparazione.",
+          "funFacts": [
+            "Il primo calendario dell'Avvento commerciale apparve nel 1908 a Monaco — invenzione di Gerhard Lang.",
+            "I mercatini di Natale di Dresda (‘Striezelmarkt', dal 1434) e Francoforte (dal 1393) sono tra i più antichi al mondo.",
+            "La Norvegia regala al Regno Unito un enorme albero di Natale per Trafalgar Square ogni anno dal 1947 — come ringraziamento per l'aiuto nella Seconda Guerra Mondiale.",
+            "Il panettone milanese e il pandoro veronese sono i due dolci natalizi italiani per eccellenza."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "new_years_day": {
+          "intro": "1 stycznia oznacza początek nowego roku w kalendarzu gregoriańskim na całym świecie. Dla wielu jest to dzień nadziei, nowych początków i postanowień.",
+          "history": "Już w 153 r. p.n.e. Rzymianie ustalili początek roku na 1 stycznia, dzień objęcia urzędu nowych konsulów. W średniowieczu początek roku w wielu regionach przesunięto na Boże Narodzenie lub Wielkanoc. Dopiero reforma kalendarza papieża Grzegorza XIII w 1582 roku przywróciła 1 stycznia jako europejski standard. Nazwa miesiąca pochodzi od rzymskiego boga Janusa, który dwiema twarzami spoglądał jednocześnie w przeszłość i przyszłość.",
+          "traditions": "O północy rodziny i przyjaciele wznoszą toast szampanem i świętują przejście do nowego roku fajerwerkami, talizmanami szczęścia (czterolistna koniczyna, kominiarz, biedronka) oraz tradycyjnym lanym ołowiem (dziś woskiem). Popularne są noworoczne brunche i spacery. Wielu składa noworoczne postanowienia.",
+          "funFacts": [
+            "W Hiszpanii zjada się winogronko z każdym z dwunastu uderzeń zegara — życzenie na każde winogronko.",
+            "W Danii rozbija się stare naczynia przed drzwiami przyjaciół, aby przyniosło im to szczęście.",
+            "Wiedeński Koncert Noworoczny transmitowany jest w ponad 90 krajach — muzyczne otwarcie roku.",
+            "Na Pacyficznej wyspie Kiribati Nowy Rok zaczyna się 26 godzin wcześniej niż na wyspie Howland."
+          ],
+          "imageCredit": "Zdjęcie: Vyacheslav Argenberg · CC BY 4.0 przez Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Wielki Piątek to dzień największej żałoby w protestantyzmie i upamiętnia ukrzyżowanie Jezusa Chrystusa. W Polsce nie jest dniem wolnym, ale ma głęboki wymiar religijny.",
+          "history": "Wielki Piątek obchodzony jest przez chrześcijan od IV wieku. Wcześnie rozwinęły się tradycje liturgiczne: czytanie Pasji, adoracja krzyża, milczenie dzwonów. Reformacja nadała mu szczególne znaczenie; w regionach luterańskich pozostaje najważniejszym dniem roku liturgicznego. W Polsce katolickie tradycje obejmują Drogę Krzyżową, adorację krzyża i święcenie pokarmów w Wielką Sobotę.",
+          "traditions": "Wierni uczestniczą w Liturgii Męki Pańskiej, adorują krzyż i odprawiają Drogę Krzyżową — w Polsce słynne są kalwarie (Kalwaria Zebrzydowska, Wejherowska). Tradycyjnie jest to dzień postu — je się ryby zamiast mięsa. W niektórych regionach Niemiec organizowane są procesje pasyjne, a w Hiszpanii słynne procesje bractw, np. w Sewilli.",
+          "funFacts": [
+            "W Niemczech ‘Tanzverbot' (zakaz tańczenia) reguluje publiczne rozrywki w Wielki Piątek — tematyka regularnie wraca w debacie publicznej.",
+            "Bach skomponował Pasję według św. Mateusza w 1727 roku na nieszpory wielkopiątkowe w Lipsku.",
+            "Na Bermudach rodziny puszczają w Wielki Piątek samodzielnie zrobione latawce z bambusa i papieru — unikalna chrześcijańska tradycja.",
+            "W Polsce Misterium Męki Pańskiej w Kalwarii Zebrzydowskiej wpisane jest na listę UNESCO."
+          ],
+          "imageCredit": "Zdjęcie: Pietro Perugino · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "holy_saturday": {
+          "intro": "Wielka Sobota to spokojny dzień pomiędzy Wielkim Piątkiem a Niedzielą Wielkanocną. Upamiętnia dzień złożenia Jezusa do grobu i kończy się Wigilią Paschalną, najbardziej uroczystą liturgią roku chrześcijańskiego.",
+          "history": "Wczesny Kościół przestrzegał tego dnia jako ścisłego postu, bez mszy, w oczekiwaniu na zmartwychwstanie. Wigilia Paschalna, sprawowana po zapadnięciu zmroku, była tradycyjnym czasem chrztu nowych chrześcijan, a jej błogosławieństwo ogniem i wodą datuje się co najmniej na IV wiek.",
+          "traditions": "W ciągu dnia kościoły pozostają puste i ciche. Po zmroku zapala się świecę paschalną od nowego ognia i przenosi do zaciemnionego kościoła, podczas gdy wierni zapalają własne świece. W wielu krajach wielkanocne potrawy są święcone, a rodziny kończą dekorowanie jajek.",
+          "funFacts": [
+            "Wigilia to jedyny dzień w roku, kiedy w kościołach katolickich nie odprawia się mszy przed zachodem słońca.",
+            "Świeca paschalna oznaczona jest rokiem oraz greckimi literami alfa i omega.",
+            "W Polsce do kościoła przynoszone są kosze z jajkami, chlebem i kiełbasą w celu poświęcenia.",
+            "Niektóre tradycje nazywają ten dzień Dręczeniem Piekła, kiedy Chrystus uwolnił zmarłych sprawiedliwych."
+          ]
+        },
+        "dragon_boat_festival": {
+          "intro": "Festiwal Smoczych Łodzi, lokalnie zwany Tuen Ng, słynie z wyścigów smoczych łodzi i ryżowych kluseczek.",
+          "history": "Obchodzony piątego dnia piątego miesiąca księżycowego, według tradycji upamiętnia starożytnego chińskiego poetę Qu Yuana, który utopił się w proteście. Ludzie wypłynęli łodziami i wrzucali ryż do wody, by ochronić jego ciało — stąd dzisiejsze zwyczaje.",
+          "traditions": "Drużyny ścigają się długimi łodziami z głową smoka w rytm bębnów w portach i na plażach Hongkongu. Je się „zongzi”, kleiste ryżowe kluski zawijane w liście bambusa, i wiesza zioła na szczęście.",
+          "funFacts": [
+            "Ma upamiętniać poetę Qu Yuana.",
+            "Drużyny wiosłują w rytm bębna.",
+            "„Zongzi”, ryżowe kluski, to potrawa festiwalu."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "Dzień ustanowienia SRA Hongkong, 1 lipca, upamiętnia przekazanie Hongkongu przez Wielką Brytanię Chinom w 1997 roku.",
+          "history": "1 lipca 1997 roku Wielka Brytania zwróciła Hongkong Chinom, które ustanowiły Specjalny Region Administracyjny Hongkong wedle zasady „jeden kraj, dwa systemy”. Dzień ten upamiętnia to przekazanie suwerenności.",
+          "traditions": "Dzień obchodzony jest oficjalną ceremonią podniesienia flagi, pokazem fajerwerków nad portem Victoria i różnymi wydarzeniami publicznymi. To jedno z głównych świąt państwowych Hongkongu.",
+          "funFacts": [
+            "Upamiętnia przekazanie Hongkongu Chinom w 1997 roku.",
+            "Hongkong stał się tego dnia Specjalnym Regionem Administracyjnym.",
+            "Co roku odbywa się ceremonia podniesienia flagi."
+          ]
+        },
+        "christmas_day": {
+          "intro": "Boże Narodzenie 25 grudnia to najważniejsze święto chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
+          "history": "Już w 354 roku 25 grudnia odnotowany jest jako ‘dies natalis Christi' w rzymskim kalendarzu. Kościół wybrał tę datę prawdopodobnie po to, by chrześcijańsko zinterpretować rzymskie święto ‘Sol Invictus'. Tradycja prezentów ma korzenie w darach Trzech Mędrców. Współczesny Święty Mikołaj w czerwonym płaszczu i z białą brodą to mieszanka św. Mikołaja i kampanii reklamowej Coca-Coli z 1931 roku.",
+          "traditions": "W Polsce Boże Narodzenie obchodzi się przez dwa dni (25 i 26 grudnia). Rodziny zbierają się na obfitym obiedzie — często rosół z makaronem, schab, indyk, sałatka jarzynowa, makowiec, sernik. Wymienia się prezenty (w Polsce zwykle wręczane już w Wigilię), śpiewa kolędy, wielu uczestniczy w nabożeństwach. Choinka i szopka są centralnymi symbolami.",
+          "funFacts": [
+            "Pierwszy komercyjny kalendarz adwentowy ukazał się w 1908 roku w Monachium — wynalazek Gerharda Langa.",
+            "Polskie kolędy — m.in. ‘Wśród nocnej ciszy', ‘Bóg się rodzi', ‘Lulajże, Jezuniu' — uchodzą za jedne z najpiękniejszych na świecie.",
+            "Norwegia podarowuje Wielkiej Brytanii corocznie od 1947 roku ogromną choinkę na Trafalgar Square — w podzięce za pomoc w II wojnie światowej.",
+            "Tradycja choinki dotarła do Polski z Niemiec na początku XIX wieku, a powszechna stała się po 1830 roku."
+          ],
+          "imageCredit": "Zdjęcie: Chris Olszewski · CC BY-SA 4.0 przez Wikimedia Commons"
+        }
+      },
+      "nl": {
+        "new_years_day": {
+          "intro": "1 januari markeert wereldwijd het begin van een nieuw jaar volgens de Gregoriaanse kalender. Voor velen is het een dag vol hoop, een nieuwe start en goede voornemens.",
+          "history": "Al in 153 v.Chr. stelden de Romeinen 1 januari vast als het begin van het jaar, de dag waarop de nieuwe consuls hun ambt aanvaardden. Tijdens de Middeleeuwen verschoof het begin van het jaar in veel regio’s naar Kerstmis of Pasen. Pas met de kalenderhervorming van paus Gregorius XIII in 1582 werd 1 januari opnieuw de Europese norm. De naam januari is afgeleid van de Romeinse god Janus, die met zijn twee gezichten tegelijkertijd naar het verleden en de toekomst keek — een passend symbool voor deze dag.",
+          "traditions": "Om middernacht proosten families en vrienden met mousserende wijn en vieren ze de jaarwisseling met vuurwerk, geluksbrengers (klaver, schoorsteenveger, lieveheersbeestje) en het traditionele loodgieten (tegenwoordig wasgieten). Ook een nieuwjaarsbrunch en een wandeling in de frisse lucht zijn populair. Veel mensen nemen goede voornemens voor het komende jaar.",
+          "funFacts": [
+            "In Spanje eten mensen bij elk van de twaalf klokslagen één druif — één wens per druif.",
+            "In Denemarken breken mensen oud serviesgoed voor de deur van vrienden om hen geluk te brengen.",
+            "Het Nieuwjaarsconcert van Wenen wordt in meer dan 90 landen uitgezonden en geldt als de muzikale start van het jaar.",
+            "Op het eiland Kiribati in de Stille Oceaan begint het nieuwe jaar 26 uur eerder dan op Howland Island."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Goede Vrijdag is de belangrijkste protestantse rouwdag, ter herdenking van de kruisiging van Jezus Christus. In Duitsland is het een ‘stille feestdag’ met speciale wettelijke bescherming.",
+          "history": "Goede Vrijdag wordt al sinds de 4e eeuw door christenen gevierd. Het Duitse voorvoegsel ‘Kar’ is afgeleid van het Oudhoogduitse ‘chara’, wat ‘klaagzang’ of ‘rouw’ betekent. Al vroeg ontwikkelden zich liturgische tradities: het voorlezen van de Passie, de verering van het kruis en het stilleggen van de klokken. Door de Reformatie kreeg Goede Vrijdag een bijzondere betekenis; in lutherse regio’s blijft het de belangrijkste feestdag van het kerkelijk jaar.",
+          "traditions": "Veel christenen wonen passiediensten bij waarbij het passieverhaal wordt voorgelezen. Deze dag is van oudsher een vastendag — vis vervangt vlees. In sommige regio’s vinden er op Goede Vrijdag processies door de straten plaats, zoals de beroemde processie in Lohr am Main. Dansfeesten en luide muziek zijn in de meeste Duitse deelstaten bij wet verboden.",
+          "funFacts": [
+            "Het Duitse ‘dansverbod’ regelt het openbare vermaak op Goede Vrijdag — en is al jaren een veelbesproken onderwerp in de samenleving.",
+            "Bach componeerde zijn Matthäus-Passion in 1727 voor de Goede Vrijdagvesper in Leipzig — tegenwoordig een van de meest uitgevoerde werken ter wereld.",
+            "Op Goede Vrijdag laten gezinnen op Bermuda zelfgemaakte vliegers van bamboe en papier op — een unieke christelijke traditie.",
+            "In Spaanstalige landen heet Goede Vrijdag ‘Viernes Santo’ — met prachtige processies van broederschappen, bijvoorbeeld in Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "holy_saturday": {
+          "intro": "Stille Zaterdag is de rustige dag tussen Goede Vrijdag en Paaszondag. Het herdenkt de dag dat Jezus in het graf lag en eindigt met de Paaswake, de meest plechtige liturgie van het christelijke jaar.",
+          "history": "De vroege Kerk hield deze dag als een strikt vasten zonder enige mis, in afwachting van de opstanding. De Paaswake, gehouden na het vallen van de avond, was de traditionele tijd voor het dopen van nieuwe christenen, en de zegening van vuur en water dateert minstens uit de vierde eeuw.",
+          "traditions": "Kerken blijven overdag kaal en stil. Als het donker is, wordt de paaskaars aangestoken door een nieuw vuur en naar de verduisterde kerk gedragen, terwijl de gemeente hun eigen kaarsen aansteekt. In veel landen wordt het paasvoedsel gezegend en zijn gezinnen klaar met het versieren van eieren.",
+          "funFacts": [
+            "De wake is de enige dag van het jaar waarop katholieke kerken vóór zonsondergang geen mis houden.",
+            "De Paaskaars is gemarkeerd met het jaartal en de Griekse letters alfa en omega.",
+            "In Polen worden manden met eieren, brood en worst naar de kerk gebracht om gezegend te worden.",
+            "Sommige tradities noemen de dag de Harrowing of Hell, waarop Christus de rechtvaardige doden bevrijdde."
+          ]
+        },
+        "dragon_boat_festival": {
+          "intro": "Het Drakenbootfestival, dat hier Tuen Ng wordt genoemd, staat in het teken van drakenbootraces en rijstballetjes.",
+          "history": "Het festival, dat plaatsvindt op de vijfde dag van de vijfde maanmaand, wordt volgens de overlevering gehouden ter nagedachtenis aan de oude Chinese dichter Qu Yuan, die uit protest zelfmoord pleegde door zich te verdrinken. Men hield bootraces en gooide rijst in het water om zijn lichaam te beschermen, wat aanleiding gaf tot de huidige gebruiken.",
+          "traditions": "In de havens en op de stranden van Hongkong racen teams in lange boten met drakenkoppen op het ritme van trommels. Mensen eten ‘zongzi’, kleefrijstballetjes gewikkeld in bamboebladeren, en hangen kruiden op voor geluk.",
+          "funFacts": [
+            "Er wordt gezegd dat het ter ere van de dichter Qu Yuan is.",
+            "De teams peddelen op het ritme van een trommel.",
+            "'Zongzi'-rijstballetjes zijn het feestelijke gerecht."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "De Dag van de Oprichting van de Speciale Administratieve Regio Hongkong (HKSAR) op 1 juli herdenkt de overdracht van Hongkong van Groot-Brittannië aan China in 1997.",
+          "history": "Op 1 juli 1997 droeg het Verenigd Koninkrijk Hongkong over aan China, dat vervolgens de Speciale Administratieve Regio Hongkong oprichtte volgens het principe van „één land, twee systemen”. Op deze dag wordt deze soevereiniteitsoverdracht herdacht.",
+          "traditions": "Deze dag wordt gevierd met een officiële vlaggenceremonie, vuurwerk boven Victoria Harbour en diverse openbare evenementen. Het is een van de belangrijkste officiële feestdagen van Hongkong.",
+          "funFacts": [
+            "Het herdenkt de overdracht van Hongkong aan China in 1997.",
+            "Die dag werd Hongkong een Speciale Administratieve Regio.",
+            "Elk jaar wordt er een vlaggenhijsceremonie gehouden."
+          ]
+        },
+        "christmas_day": {
+          "intro": "Kerstmis op 25 december is het belangrijkste christelijke feest — ter ere van de geboorte van Jezus Christus — en wereldwijd een feest van familie, vrede en cadeautjes.",
+          "history": "Al in 354 wordt 25 december in een Romeinse kalender vermeld als ‘dies natalis Christi’. De Kerk heeft deze datum waarschijnlijk gekozen om het Romeinse winterzonnewendefeest ‘Sol Invictus’ een christelijke betekenis te geven. Het geven van cadeaus vindt zijn oorsprong in de geschenken van de drie koningen. De bekende kerstman met rode jas en witte baard is een mengeling van Sint Nicolaas en een reclamecampagne van Coca-Cola uit 1931.",
+          "traditions": "Gezinnen komen samen voor feestelijke maaltijden — kalkoen, gans, karper of raclette. Er worden cadeautjes uitgewisseld, kerstliederen gezongen en velen wonen de feestelijke kerkdienst bij. De versierde kerstboom met lichtjes, kerstballen en stro-sterren vormt het centrale symbool. Adventskalenders, koekjes en bezoekjes aan kerstmarkten horen bij de aanloop naar Kerstmis.",
+          "funFacts": [
+            "De eerste commerciële adventskalender verscheen in 1908 in München — uitgevonden door Gerhard Lang.",
+            "De kerstmarkten in Dresden (‘Striezelmarkt’, sinds 1434) en Frankfurt (sinds 1393) behoren tot de oudste ter wereld.",
+            "Noorwegen schenkt het Verenigd Koninkrijk al sinds 1947 elk jaar een reusachtige kerstboom voor Trafalgar Square — als dank voor de hulp tijdens de Tweede Wereldoorlog.",
+            "Kerstklassiekers als ‘Three Wishes for Cinderella’ en ‘Love Actually’ worden elk jaar wereldwijd tientallen keren op tv uitgezonden."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "sv": {
+        "new_years_day": {
+          "intro": "Den 1 januari markerar början på ett nytt år enligt den gregorianska kalendern över hela världen. För många är det en dag präglad av hopp, nystart och nyårslöften.",
+          "history": "Redan 153 f.Kr. fastställde romarna att året skulle börja den 1 januari, den dag då de nya konsulerna tillträdde sina ämbeten. Under medeltiden flyttades årets början i många regioner till jul eller påsk. Först i och med påve Gregorius XIII:s kalenderreform 1582 blev den 1 januari återigen den europeiska standarden. Namnet januari härstammar från den romerske guden Janus, som med sina två ansikten blickade samtidigt mot det förflutna och framtiden – en passande symbol för dagen.",
+          "traditions": "Vid midnatt skålar familjer och vänner med mousserande vin och firar årsskiftet med fyrverkerier, lyckosymboler (klöver, sotare, nyckelpiga) och den traditionella blygjutningen (numera vaxgjutning). Nyårsbrunch och en promenad i friska luften är också populära inslag. Många sätter upp nyårslöften inför det kommande året.",
+          "funFacts": [
+            "I Spanien äter man en vindruva för varje klockslag av de tolv – en önskan per vindruva.",
+            "I Danmark brukar man krossa gammalt porslin framför vännernas dörrar för att önska dem lycka.",
+            "Nyårskonserten i Wien sänds i över 90 länder och räknas som årets musikaliska startskott.",
+            "På ön Kiribati i Stilla havet infaller det nya året 26 timmar tidigare än på Howlandön."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "good_friday": {
+          "intro": "Långfredagen är den viktigaste protestantiska sorgedagen, då man minns Jesu Kristi korsfästelse. I Tyskland är det en ”tyst helgdag” med särskilt rättsligt skydd.",
+          "history": "Långfredagen har firats av kristna sedan 400-talet. Det tyska prefixet ”Kar” kommer från fornhögtyska ”chara”, som betyder klagan eller sorg. Liturgiska traditioner utvecklades tidigt: uppläsningen av passionsberättelsen, vördnaden av korset och tystnaden bland klockorna. Reformationen gav Långfredagen särskild betydelse; i lutherska regioner är den fortfarande den viktigaste högtiden under kyrkoåret.",
+          "traditions": "Många kristna deltar i passionsgudstjänster där passionsberättelsen läses upp. Dagen är traditionellt en fastedag – fisk ersätter kött. I vissa regioner hålls processioner på långfredagen genom gatorna, till exempel den berömda processionen i Lohr am Main. Dansarrangemang och hög musik är förbjudna enligt lag i de flesta tyska delstater.",
+          "funFacts": [
+            "Tysklands ”dansförbud” reglerar offentlig underhållning på långfredagen – och har varit ett hett samhällsämne i flera år.",
+            "Bach komponerade sin Matteuspassion år 1727 för vespergudstjänsten på långfredagen i Leipzig – idag ett av världens mest framförda verk.",
+            "På Bermuda flyger familjerna på långfredagen med självgjorda drakar av bambu och papper – en unik kristen tradition.",
+            "I spansktalande länder kallas långfredagen för ”Viernes Santo” – med storslagna brödraskapsprocessioner, till exempel i Sevilla."
+          ],
+          "imageCredit": "Foto: Pietro Perugino · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "holy_saturday": {
+          "intro": "Heliga lördagen är den lugna dagen mellan långfredagen och påskdagen. Den till minne av dagen då Jesus låg i graven och avslutas med påskvakan, den mest högtidliga liturgin under det kristna året.",
+          "history": "Den tidiga kyrkan höll dagen som en strikt fasta utan någon mässa i väntan på uppståndelsen. Påskvakan, som hölls efter mörkrets inbrott, var den traditionella tiden för att döpa nya kristna, och dess välsignelse av eld och vatten går tillbaka till åtminstone det fjärde århundradet.",
+          "traditions": "Kyrkor förblir nakna och tysta under dagen. Efter mörkrets inbrott tänds påskljuset från en ny eld och bärs in i den mörklagda kyrkan medan församlingen tänder sina egna ljus. I många länder är påskmaten välsignad och familjer avslutar med att dekorera ägg.",
+          "funFacts": [
+            "Vakan är den enda dagen på året då katolska kyrkor inte håller någon mässa före solnedgången.",
+            "Påskljuset är märkt med årtal och de grekiska bokstäverna alfa och omega.",
+            "I Polen förs korgar med ägg, bröd och korv till kyrkan för att välsignas.",
+            "Vissa traditioner kallar dagen för helvetets harvning, då Kristus befriade de rättfärdiga döda."
+          ]
+        },
+        "dragon_boat_festival": {
+          "intro": "Drakbåtsfestivalen, som lokalt kallas Tuen Ng, kännetecknas av drakbåtslopp och risbollar.",
+          "history": "Festivalen, som firas den femte dagen i den femte månaden enligt månkalendern, sägs traditionellt vara till minne av den forntida kinesiske poeten Qu Yuan, som tog sitt liv genom att dränka sig i protest. Folket tävlade med båtar och kastade ris i vattnet för att skydda hans kropp, vilket har gett upphov till dagens traditioner.",
+          "traditions": "I Hongkongs hamnar och på stränderna tävlar lag i långa båtar med drakhuvuden till trummornas rytm. Folk äter ”zongzi”, klibbiga risbollar inslagna i bambublad, och hänger upp örter för att bringa lycka.",
+          "funFacts": [
+            "Det sägs vara till ära för poeten Qu Yuan.",
+            "Lagen paddlar i takt med trummans rytm.",
+            "Risklimparna ”zongzi” är en typisk festmat."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "HKSAR:s grundläggningsdag den 1 juli markerar Hongkongs överlämnande från Storbritannien till Kina år 1997.",
+          "history": "Den 1 juli 1997 överlämnade Storbritannien Hongkong till Kina, som inrättade den särskilda administrativa regionen Hongkong enligt principen ”ett land, två system”. Denna dag firas till minne av denna överlåtelse av suveränitet.",
+          "traditions": "Dagen firas med en officiell flagghissningsceremoni, fyrverkerier över Victoria Harbour och olika offentliga evenemang. Det är en av Hongkongs viktigaste allmänna helgdagar.",
+          "funFacts": [
+            "Det markerar överlämnandet av Hongkong till Kina 1997.",
+            "Den dagen blev Hongkong en särskild administrativ region.",
+            "Varje år hålls en flagghissningsceremoni."
+          ]
+        },
+        "christmas_day": {
+          "intro": "Juldagen den 25 december är kristendomens viktigaste högtid – då man firar Jesus Kristus födelse – och över hela världen en högtid som präglas av familj, fred och gåvor.",
+          "history": "Den 25 december omnämns som ”dies natalis Christi” redan år 354 i en romersk kalender. Kyrkan valde troligen detta datum för att ge den romerska vintersolståndsfesten ”Sol Invictus” en kristen innebörd. Traditionen att ge gåvor har sina rötter i de tre vise männens gåvor. Den välkände jultomten med röd kappa och vitt skägg är en blandning av Sankt Nikolaus och en reklamkampanj från Coca-Cola från 1931.",
+          "traditions": "Familjerna samlas för festmåltider – kalkon, gås, karp eller raclette. Man utbyter julklappar, sjunger julsånger och många deltar i julgudstjänsten. Den pyntade julgranen med ljus, julgranspynt och halmstjärnor är den centrala symbolen. Adventskalendrar, pepparkakor och besök på julmarknader är en del av förberedelserna inför julen.",
+          "funFacts": [
+            "Den första kommersiella adventskalendern kom ut 1908 i München – uppfunnen av Gerhard Lang.",
+            "Julmarknaderna i Dresden (”Striezelmarkt”, sedan 1434) och Frankfurt (sedan 1393) hör till de äldsta i världen.",
+            "Norge har varje år sedan 1947 skänkt Storbritannien en gigantisk julgran till Trafalgar Square – som tack för hjälpen under andra världskriget.",
+            "Julklassiker som ”Three Wishes for Cinderella” och ”Love Actually” visas dussintals gånger på TV världen över varje år."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "ja": {
+        "new_years_day": {
+          "intro": "1月1日は、世界中でグレゴリオ暦による新年の始まりを告げる日です。多くの人々にとって、この日は希望に満ちた日であり、新たなスタートを切る日であり、新年の抱負を立てる日でもあります。",
+          "history": "早くも紀元前153年、ローマ人は新年の始まりを、新任の執政官が就任する1月1日と定めた。中世になると、多くの地域で新年の始まりはクリスマスやイースターへと移っていった。 1582年に教皇グレゴリウス13世による暦の改革が行われて初めて、1月1日が再びヨーロッパの標準となった。「1月（January）」という名称は、二つの顔で過去と未来を同時に見つめていたローマの神ヤヌスに由来しており、この日はまさにその神にふさわしい象徴である。",
+          "traditions": "真夜中になると、家族や友人はスパークリングワインで乾杯し、花火や縁起物（クローバー、煙突掃除人、てんとう虫）、そして伝統的な鉛流し（現在は蝋流し）で年越しを祝います。新年のブランチや、新鮮な空気を吸いながらの散歩も人気です。多くの人が、その年の抱負を立てます。",
+          "funFacts": [
+            "スペインでは、鐘が12回鳴るたびに、そのたびにブドウを1粒ずつ食べます。ブドウ1粒ごとに1つの願いを込めるのです。",
+            "デンマークでは、友人たちの家の玄関先で古い食器を割ることで、その人たちに幸運をもたらす習慣があります。",
+            "ウィーンの新年コンサートは90カ国以上で放送され、その年の音楽界の幕開けとして知られています。",
+            "太平洋のキリバス島では、ハウランド島よりも26時間早く新年が訪れます。"
+          ],
+          "imageCredit": "写真：ヴィャチェスラフ・アルゲンベルク · CC BY 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "good_friday": {
+          "intro": "聖金曜日は、イエス・キリストの磔刑を記念する、プロテスタントにとって最も重要な追悼の日です。ドイツでは、この日は特別な法的保護が設けられた「静寂の祝日」とされています。",
+          "history": "聖金曜日は、4世紀以来、キリスト教徒によって祝われてきました。 ドイツ語の接頭辞「Kar」は、嘆きや哀悼を意味する古高ドイツ語の「chara」に由来しています。典礼の伝統は早くから確立され、受難物語の朗読、十字架の礼拝、鐘の鳴らし止めなどが行われてきました。宗教改革により、聖金曜日は特に重要な日となりました。ルーテル派の地域では、今もなお教会暦の中で最も重要な祝日となっています。",
+          "traditions": "多くのキリスト教徒が、受難の物語が朗読される受難礼拝に出席します。この日は伝統的に断食の日とされており、肉料理の代わりに魚料理が供されます。一部の地域では、ロア・アム・マインで行われる有名な行列のように、聖金曜日の行列が街中を練り歩きます。ドイツのほとんどの州では、ダンスイベントや大音量の音楽が法律で禁止されています。",
+          "funFacts": [
+            "ドイツの「ダンス禁止令」は、聖金曜日の公共の場での娯楽を規制するもので、長年にわたり社会的な話題となっている。",
+            "バッハは1727年、ライプツィヒの聖金曜日晩課のために『マタイ受難曲』を作曲した。この作品は今日、世界で最も頻繁に演奏されている作品の一つとなっている。",
+            "バミューダでは、聖金曜日に家族で手作りした竹と紙の凧を飛ばすという、キリスト教ならではの伝統行事が行われています。",
+            "スペイン語圏の国々では、聖金曜日は「Viernes Santo」と呼ばれ、セビリアなどで壮麗な兄弟団の行列が行われます。"
+          ],
+          "imageCredit": "写真：ピエトロ・ペルジーノ · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "holy_saturday": {
+          "intro": "聖土曜日は、聖金曜日と復活祭の日曜日の間の静かな日です。それはイエスが墓に横たわった日を記念し、キリスト教の一年で最も厳粛な典礼である復活徹夜祭で終わります。",
+          "history": "初代教会はその日をミサを行わずに厳格な断食として守り、復活を待ちました。日没後に行われる復活徹夜祭は、新しいキリスト教徒に洗礼を授ける伝統的な時間であり、火と水の祝福は少なくとも 4 世紀にまで遡ります。",
+          "traditions": "教会は日中は何もなく、静かです。暗くなると、復活祭のろうそくに新しい火が灯され、会衆が自分たちのろうそくに火を灯している間、暗い教会に運び込まれます。多くの国ではイースターの食べ物が祝福され、家族は卵の飾り付けを終えます。",
+          "funFacts": [
+            "徹夜祭は、カトリック教会が日没前にミサを行わない一年の唯一の日です。",
+            "復活祭のキャンドルには、年とギリシャ文字のアルファとオメガがマークされています。",
+            "ポーランドでは、祝福のために卵、パン、ソーセージが入ったバスケットが教会に運ばれます。",
+            "一部の伝統では、キリストが義なる死者を解放した日を地獄の悲惨と呼んでいます。"
+          ]
+        },
+        "dragon_boat_festival": {
+          "intro": "地元では「トゥエン・ン」として知られる端午の節句では、ドラゴンボートレースやちまきが楽しめる。",
+          "history": "旧暦の5月5日に行われるこの祭りは、伝統的に、抗議の意を込めて自ら川に身を投じた古代中国の詩人・屈原を偲ぶものとされています。人々は彼の遺体を守るために舟を競わせ、水に米を投げ入れましたが、これが今日の風習の起源となっています。",
+          "traditions": "香港の港やビーチでは、各チームが太鼓のリズムに合わせて、龍の頭がついた長いボートでレースを繰り広げます。人々は、竹の葉で包んだもち米の団子「粽（ゾンズ）」を食べ、幸運を祈ってハーブを飾ります。",
+          "funFacts": [
+            "これは、詩人屈原を称えるためだと言われている。",
+            "各チームは太鼓のリズムに合わせてパドルを漕ぎます。",
+            "「粽（ゾンズ）」は、お祭りの定番料理です。"
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "7月1日の香港特別行政区成立記念日は、1997年に香港が英国から中国へ返還されたことを記念する日です。",
+          "history": "1997年7月1日、英国は香港を中国に返還し、中国は「一国二制度」の原則に基づき香港特別行政区を設立した。この日は、この主権移譲を記念する日である。",
+          "traditions": "この日は、公式の国旗掲揚式やビクトリア・ハーバー上空での花火大会、さまざまな公開イベントが行われます。これは香港の主要な市民の祝日の一つです。",
+          "funFacts": [
+            "これは、1997年の香港の中国への返還を記念するものです。",
+            "その日、香港は特別行政区となった。",
+            "毎年、国旗掲揚式が行われます。"
+          ]
+        },
+        "christmas_day": {
+          "intro": "12月25日のクリスマスは、キリスト教において最も重要な祭日であり、イエス・キリストの誕生を祝うもので、世界中で家族、平和、そして贈り物を祝う祭りとなっています。",
+          "history": "12月25日は、早くも354年のローマ暦において「dies natalis Christi（キリストの誕生日）」として記録されている。教会がこの日付を選んだのは、ローマの冬至祭「ソル・インヴィクトゥス」にキリスト教的な意味を持たせるためだったと考えられる。 贈り物の習慣は、東方の三博士が持参した贈り物にその起源があります。赤いコートに白いひげというお馴染みのサンタクロースは、聖ニコラウスと1931年のコカ・コーラの広告キャンペーンが融合した姿です。",
+          "traditions": "家族が集まり、七面鳥やガチョウ、鯉、あるいはラクレットといったお祝いの食事を楽しみます。贈り物を交換し、クリスマスキャロルを歌い、多くの人がクリスマス礼拝に出席します。ライトやオーナメント、わらの星で飾られたクリスマスツリーが、その中心的なシンボルです。アドベントカレンダーやクッキー、クリスマスマーケットへの訪問も、クリスマスに向けた準備の一環です。",
+          "funFacts": [
+            "最初の市販のアドベントカレンダーは、1908年にミュンヘンで登場しました。これはゲルハルト・ラングによって考案されたものです。",
+            "ドレスデン（「シュトリーツェルマルクト」、1434年より）とフランクフルト（1393年より）のクリスマスマーケットは、世界でも最も古いものの一つに数えられます。",
+            "ノルウェーは、第二次世界大戦中の支援への感謝の印として、1947年以来毎年、トラファルガー広場に飾る巨大なクリスマスツリーを英国に贈呈している。",
+            "『シンデレラの3つの願い』や『ラブ・アクチュアリー』といったホリデーシーズンの定番作品は、毎年世界中のテレビで数十回も放送されている。"
+          ],
+          "imageCredit": "写真：クリス・オルシェフスキー · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        }
+      },
+      "ko": {
+        "new_years_day": {
+          "intro": "1월 1일은 전 세계적으로 그레고리력에 따른 새해의 시작을 알리는 날입니다. 많은 이들에게 이 날은 희망과 새로운 시작, 그리고 새해 결심을 다지는 날입니다.",
+          "history": "기원전 153년 무렵, 로마인들은 새 집정관이 취임하는 날인 1월 1일을 한 해의 시작으로 정했습니다. 중세 시대에는 많은 지역에서 한 해의 시작이 크리스마스나 부활절로 바뀌었습니다. 1582년 교황 그레고리오 13세의 달력 개혁을 통해야 비로소 1월 1일이 다시 유럽의 표준이 되었습니다. ‘1월(January)’이라는 이름은 두 개의 얼굴로 과거와 미래를 동시에 바라보던 로마 신 야누스(Janus)에서 유래한 것으로, 이 날을 상징하기에 더할 나위 없이 적합한 이름입니다.",
+          "traditions": "자정이 되면 가족과 친구들은 스파클링 와인으로 건배를 나누고, 불꽃놀이와 행운의 상징(클로버, 굴뚝 청소부, 무당벌레), 그리고 전통적인 납 부어보기(현재는 왁스 부어보기)를 통해 새해의 시작을 축하합니다. 새해 브런치와 야외 산책도 인기가 많습니다. 많은 사람들이 다가올 한 해를 위한 새해 결심을 세우기도 합니다.",
+          "funFacts": [
+            "스페인에서는 종소리가 12번 울릴 때마다 포도 한 알씩 먹는데, 포도 한 알마다 소원 하나를 빌게 됩니다.",
+            "덴마크에서는 친구들에게 행운을 빌어주기 위해 친구 집 문 앞에서 낡은 그릇을 깨뜨리는 풍습이 있습니다.",
+            "비엔나 신년 콘서트는 90여 개국에서 방송되며, 한 해의 음악 활동을 시작하는 행사로 꼽힌다.",
+            "태평양의 키리바티 섬에서는 하울랜드 섬보다 26시간 먼저 새해가 찾아옵니다."
+          ],
+          "imageCredit": "사진: Vyacheslav Argenberg · CC BY 4.0 (위키미디어 공용 제공)"
+        },
+        "good_friday": {
+          "intro": "성금요일은 예수 그리스도의 십자가 처형을 기리는 개신교에서 가장 엄숙한 추모의 날입니다. 독일에서는 이 날이 특별한 법적 보호를 받는 ‘침묵의 휴일’로 지정되어 있습니다.",
+          "history": "성금요일은 4세기부터 기독교인들에 의해 기념되어 왔습니다. 독일어 접두사 ‘Kar’는 ‘애도’나 ‘애도하는 마음’을 뜻하는 고대 고지독일어 ‘chara’에서 유래했습니다. 전례 전통은 일찍부터 정립되었는데, 여기에는 수난기 낭독, 십자가 숭배, 종을 울리지 않는 관습 등이 포함됩니다. 종교개혁을 계기로 성금요일은 특별한 의미를 갖게 되었으며, 루터교 지역에서는 여전히 교회 연중 가장 중요한 축일로 여겨지고 있습니다.",
+          "traditions": "많은 기독교인들이 수난 이야기를 낭독하는 수난 예배에 참석합니다. 이날은 전통적으로 금식하는 날로, 고기 대신 생선을 먹습니다. 일부 지역에서는 ‘로르 암 마인(Lohr am Main)’의 유명한 행렬과 같이 성금요일 행렬이 거리를 누비기도 합니다. 대부분의 독일 주에서는 법에 따라 춤 행사나 시끄러운 음악이 금지되어 있습니다.",
+          "funFacts": [
+            "독일의 ‘춤 금지령’은 성금요일에 이루어지는 공공 오락 활동을 규제하는 것으로, 수년 동안 뜨거운 사회적 화제가 되어 왔다.",
+            "바흐는 1727년 라이프치히의 성금요일 저녁 기도회를 위해 《마태 수난곡》을 작곡했는데, 이 작품은 오늘날 전 세계에서 가장 많이 연주되는 작품 중 하나이다.",
+            "버뮤다에서는 성금요일에 가족들이 직접 만든 대나무와 종이로 만든 연을 날리는데, 이는 기독교의 독특한 전통입니다.",
+            "스페인어권 국가들에서 성금요일은 ‘비에르네스 산토(Viernes Santo)’라고 불리며, 예를 들어 세비야에서는 웅장한 형제회 행렬이 펼쳐집니다."
+          ],
+          "imageCredit": "사진: 피에트로 페루지노 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "holy_saturday": {
+          "intro": "성토요일은 성금요일과 부활절 일요일 사이의 조용한 날입니다. 예수님께서 무덤에 누우셨던 날을 기념하며 기독교력의 가장 엄숙한 전례인 부활절 성야로 끝납니다.",
+          "history": "초대교회는 부활을 기다리며 미사도 없이 금식일을 엄격하게 지켰습니다. 해가 진 후에 열리는 부활절 성야는 새로운 그리스도인에게 세례를 주는 전통적인 시간이었으며 불과 물의 축복은 적어도 4세기로 거슬러 올라갑니다.",
+          "traditions": "교회는 낮 동안 텅 빈 채 침묵을 지킨다. 어두워진 후에는 새 불에서 유월절 초에 불을 붙여 어두운 교회 안으로 옮겨지고, 회중은 각자의 초에 불을 켭니다. 많은 나라에서는 부활절 음식을 축복하고 가족들이 계란 장식을 마무리합니다.",
+          "funFacts": [
+            "철야제(Vigil)는 가톨릭 교회가 일몰 전에 미사를 열지 않는 유일한 날입니다.",
+            "유월절 양초에는 연도와 그리스 문자 알파 및 오메가가 표시되어 있습니다.",
+            "폴란드에서는 계란, 빵, 소시지가 담긴 바구니를 교회에 가져와 축복합니다.",
+            "일부 전통에서는 그리스도께서 죽은 의인들을 해방시킨 날을 지옥의 참혹함이라고 부릅니다."
+          ]
+        },
+        "dragon_boat_festival": {
+          "intro": "현지에서 ‘툰 응(Tuen Ng)’으로 알려진 단오절에는 용선 경주와 찹쌀 경단이 주요 행사로 펼쳐집니다.",
+          "history": "음력 5월 5일에 열리는 이 축제는 전통적으로 항의의 뜻으로 물에 몸을 던져 자살한 고대 중국 시인 초원(屈原)을 기리기 위한 것이라고 전해집니다. 사람들은 그의 시신을 보호하기 위해 배 경주를 벌이고 물에 쌀을 뿌렸는데, 이것이 오늘날의 풍습으로 이어졌습니다.",
+          "traditions": "홍콩의 항구와 해변에서는 팀들이 북소리에 맞춰 용머리 모양의 긴 배를 타고 경주를 펼칩니다. 사람들은 대나무 잎으로 감싼 찹쌀 떡인 ‘종자’를 먹고, 행운을 빌며 약초를 걸어둡니다.",
+          "funFacts": [
+            "이곳은 시인 구원을 기리기 위해 세워졌다고 전해집니다.",
+            "팀들은 북소리에 맞춰 노를 젓는다.",
+            "‘쭝즈’라는 찹쌀떡은 명절 음식입니다."
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "7월 1일인 홍콩 특별행정구 설립 기념일은 1997년 홍콩이 영국에서 중국으로 반환된 날을 기념하는 날입니다.",
+          "history": "1997년 7월 1일, 영국은 홍콩을 중국에 반환했으며, 중국은 ‘일국양제’ 원칙에 따라 홍콩 특별행정구를 설립했다. 이날은 이러한 주권 이양을 기념하는 날이다.",
+          "traditions": "이날은 공식 게양식, 빅토리아 항 상공의 불꽃놀이, 그리고 다양한 대중 행사로 기념됩니다. 이는 홍콩의 주요 시민 공휴일 중 하나입니다.",
+          "funFacts": [
+            "이는 1997년 홍콩이 중국에 반환된 것을 기념하는 행사입니다.",
+            "그날 홍콩은 특별행정구가 되었습니다.",
+            "매년 국기 게양식이 열립니다."
+          ]
+        },
+        "christmas_day": {
+          "intro": "12월 25일의 크리스마스는 예수 그리스도의 탄생을 기념하는 기독교에서 가장 중요한 명절이며, 전 세계적으로 가족, 평화, 선물을 나누는 축제입니다.",
+          "history": "12월 25일은 빠르면 354년 로마 달력에서 ‘dies natalis Christi’로 기록되어 있다. 교회는 로마의 동지 축제인 ‘솔 인빅투스(Sol Invictus)’에 기독교적 의미를 부여하기 위해 이 날짜를 선택한 것으로 보인다. 선물 교환의 기원은 동방박사들이 가져온 선물에서 비롯됩니다. 빨간 옷과 흰 수염을 한 우리에게 친숙한 산타클로스는 성 니콜라스와 1931년 코카콜라 광고 캠페인이 결합된 모습입니다.",
+          "traditions": "가족들은 칠면조, 거위, 잉어, 라클렛 등 명절 음식을 함께 즐기기 위해 모입니다. 선물을 주고받고, 캐럴을 부르며, 많은 이들이 성탄 예배에 참석합니다. 불빛과 장식품, 짚으로 만든 별이 장식된 크리스마스 트리는 이 시기의 중심적인 상징입니다. 대림 달력, 쿠키, 크리스마스 마켓 방문 등은 성탄절을 앞둔 기간의 풍경입니다.",
+          "funFacts": [
+            "최초의 상업용 어드벤트 캘린더는 1908년 뮌헨에서 등장했는데, 게르하르트 랑이 발명했다.",
+            "드레스덴(‘스트리첼마르크트’, 1434년부터)과 프랑크푸르트(1393년부터)의 크리스마스 시장은 세계에서 가장 오래된 시장 중 하나입니다.",
+            "노르웨이는 제2차 세계대전 당시 영국이 제공한 도움에 대한 감사의 표시로, 1947년부터 매년 트라팔가 광장에 세울 거대한 크리스마스 트리를 영국에 기증해 왔다.",
+            "‘신데렐라의 세 가지 소원’이나 ‘러브 액츄얼리’와 같은 명절 명작 영화들은 매년 전 세계 TV에서 수십 차례 방영된다."
+          ],
+          "imageCredit": "사진: 크리스 올셰프스키 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        }
+      },
+      "zh-Hant": {
+        "new_years_day": {
+          "intro": "1月1日標誌著全球公曆新年的開始。對許多人來說，這是一天充滿希望、嶄新起點與美好決心的日子。",
+          "history": "早在公元前153年，羅馬人便將新年的起始日定為1月1日，即新任執政官就職之日。中世紀期間，許多地區的新年起始日轉變為聖誕節或復活節。 直到1582年教宗格里高利十三世推行曆法改革後，1月1日才再次成為歐洲的標準新年之日。「一月」（January）這個名稱源自羅馬神祇雅努斯（Janus），他擁有兩張面孔，能同時凝視過去與未來——這正是對這一天的恰當象徵。",
+          "traditions": "午夜時分，親友們舉起氣泡酒共飲，並以煙火、吉祥物（三葉草、煙囪清掃工、瓢蟲）以及傳統的鉛鑄（現已改為蠟鑄）儀式來慶祝新年到來。新年早午餐和戶外散步也是很受歡迎的活動。許多人會為新的一年訂立新年決議。",
+          "funFacts": [
+            "在西班牙，人們會隨著鐘聲敲響的十二下，每響吃一顆葡萄——每顆葡萄代表一個願望。",
+            "在丹麥，人們會將舊陶器砸在朋友家門前，以祈求他們好運。",
+            "維也納新年音樂會的轉播遍及90多個國家，被視為年度音樂盛事的開端。",
+            "在太平洋上的基里巴斯島，新年比豪蘭島早到來 26 小時。"
+          ],
+          "imageCredit": "照片：維亞切斯拉夫·阿根伯格 · 透過維基共享資源，採用 CC BY 4.0 授權"
+        },
+        "good_friday": {
+          "intro": "「受難日」是新教最重要的哀悼日，用以紀念耶穌基督被釘十字架。在德國，這是一個享有特殊法律保障的「靜默假日」。",
+          "history": "自四世紀以來，基督徒便一直慶祝「受難日」。 德語前綴「Kar」源自古高地德語「chara」，意為哀悼或悲慟。相關禮儀傳統很早就已形成：誦讀受難記、敬禮十字架以及停止鐘聲。宗教改革賦予了「受難日」特殊的意義；在路德宗地區，它至今仍是教會年曆中最重要的節日。",
+          "traditions": "許多基督徒會參加宣讀受難敘事的受難禮拜。這一天傳統上是禁食日——以魚類代替肉類。在某些地區，會舉行聖週五遊行隊伍穿梭街頭，例如美因河畔洛爾（Lohr am Main）那場著名的遊行。在德國大多數邦，法律明文禁止舉辦舞蹈活動及播放大聲音樂。",
+          "funFacts": [
+            "德國的「禁舞令」規範了聖週五當天的公共娛樂活動——這項規定多年來一直是社會熱議的話題。",
+            "巴赫於1727年為萊比錫的「受難日」晚禱創作了《馬太受難曲》——這部作品如今已成為全球演出頻率最高的樂曲之一。",
+            "在百慕達，各家各戶會在耶穌受難日放飛自製的竹製與紙製風箏——這是一項獨特的基督教傳統。",
+            "在西班牙語系國家，耶穌受難日被稱為「Viernes Santo」——屆時會舉行壯觀的兄弟會遊行，例如在塞維利亞。"
+          ],
+          "imageCredit": "圖片：皮耶特羅·佩魯吉諾 · 經維基共享資源提供，採用 CC BY-SA 4.0 授權"
+        },
+        "holy_saturday": {
+          "intro": "聖週六是耶穌受難日和復活節週日之間安靜的一天。它紀念耶穌躺在墳墓裡的那一天，並以基督教年度最莊嚴的禮拜儀式復活節守夜活動結束。",
+          "history": "早期教會將這一天嚴格禁食，沒有任何彌撒，等待復活。夜幕降臨後舉行的復活節守夜活動是為新基督徒施洗的傳統時間，其火與水的祝福至少可以追溯到四世紀。",
+          "traditions": "教堂白天保持空曠和寂靜。天黑後，逾越節蠟燭會從新的火中點燃，並被帶入黑暗的教堂，而會眾則點燃自己的蠟燭。在許多國家，復活節食物是受祝福的，家庭也完成了雞蛋的裝飾。",
+          "funFacts": [
+            "守夜節是一年中唯一天主教會在日落前不舉行彌撒的日子。",
+            "逾越節蠟燭標有年份以及希臘字母 alpha 和 omega。",
+            "在波蘭，一籃的雞蛋、麵包和香腸被帶到教堂接受祝福。",
+            "一些傳統稱這一天為地獄之痛，基督釋放了死去的義人。"
+          ]
+        },
+        "dragon_boat_festival": {
+          "intro": "端午節（當地稱為「Tuen Ng」）的特色活動包括龍舟競賽和粽子。",
+          "history": "這個節日於農曆五月初五舉行，傳統上被認為是為了紀念古代中國詩人屈原——他當年為表達抗議而投水自盡。當時人們舉行龍舟競渡，並將米粒拋入水中以保護他的遺體，這便形成了今日的習俗。",
+          "traditions": "各隊在香港的港口和海灘上，隨著鼓點的節奏，駕駛著長長的龍頭船競速。人們品嚐用竹葉包裹的糯米粽，並懸掛香草以祈求好運。",
+          "funFacts": [
+            "據說這是為了紀念詩人屈原。",
+            "各隊隨著鼓點的節奏划槳。",
+            "「粽子」是節慶美食。"
+          ]
+        },
+        "hong_kong_special_administrative_region_establishment_day": {
+          "intro": "7月1日的香港特別行政區成立紀念日，標誌著香港於1997年由英國移交給中國。",
+          "history": "1997年7月1日，英國將香港移交中國，中國根據「一國兩制」原則設立了香港特別行政區。這一天用以紀念此次主權移交。",
+          "traditions": "當天會舉行正式的升旗儀式、維多利亞港煙火匯演，以及各項公眾活動。這是香港的主要公民公眾假期之一。",
+          "funFacts": [
+            "這標誌著1997年香港移交中國。",
+            "那天，香港成為了特別行政區。",
+            "每年都會舉行升旗儀式。"
+          ]
+        },
+        "christmas_day": {
+          "intro": "12月25日的聖誕節是基督教最重要的節日——慶祝耶穌基督的誕生——也是全球各地以家庭、和平與禮物為主題的節日。",
+          "history": "早在354年，羅馬曆法中便已將12月25日記載為「dies natalis Christi」。教會選擇這個日期，很可能是為了賦予羅馬「不敗之太陽」（Sol Invictus）冬至節慶以基督教的意義。 互贈禮物的習俗源於東方三博士所獻的禮物。大家熟悉的紅衣白鬍子聖誕老人，是聖尼古拉斯與1931年可口可樂廣告活動的融合產物。",
+          "traditions": "家人們齊聚一堂享用節日大餐——火雞、鵝肉、鯉魚或拉克雷特起司。大家互贈禮物、齊唱聖誕頌歌，許多人還會參加節日禮拜。那棵裝飾著燈飾、掛飾和稻草星星的聖誕樹，正是節日的核心象徵。降臨節倒數日曆、聖誕餅乾以及逛聖誕市集，都是節日前夕的傳統活動。",
+          "funFacts": [
+            "第一款商業化的降臨節日曆於1908年在慕尼黑問世——由格哈德·朗發明。",
+            "德累斯頓（「Striezelmarkt」，自1434年起）和法蘭克福（自1393年起）的聖誕市集，均屬世界上歷史最悠久的聖誕市集之一。",
+            "自1947年起，挪威每年都會贈送一棵巨型聖誕樹給英國，供特拉法加廣場擺放——以此感謝英國在第二次世界大戰期間提供的援助。",
+            "像《灰姑娘的三個願望》和《真愛至上》這類節日經典電影，每年在全球各地的電視上都會播出數十次。"
+          ],
+          "imageCredit": "照片：克里斯·奧爾謝夫斯基 · 經維基共享資源提供，採用 CC BY-SA 4.0 授權"
+        }
+      }
+    }
+  },
+  "images": {
+    "new_years_day": [
+      {
+        "path": "images/new_year/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "good_friday": [
+      {
+        "path": "images/good_friday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/good_friday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "holy_saturday": [
+      {
+        "path": "images/holy_saturday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/holy_saturday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/holy_saturday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "dragon_boat_festival": [
+      {
+        "path": "images/HK/dragon_boat_festival/01.jpg",
+        "primary": true,
+        "credit": "Ceeseven",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "path": "images/HK/dragon_boat_festival/02.jpg",
+        "primary": false,
+        "credit": "Stewart~惡龍",
+        "license": "CC BY 3.0"
+      },
+      {
+        "path": "images/HK/dragon_boat_festival/03.jpg",
+        "primary": false,
+        "credit": "Stewart~惡龍",
+        "license": "CC BY 3.0"
+      }
+    ],
+    "hong_kong_special_administrative_region_establishment_day": [
+      {
+        "path": "images/HK/hong_kong_special_administrative_region_establishment_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/HK/hong_kong_special_administrative_region_establishment_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/HK/hong_kong_special_administrative_region_establishment_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas_day": [
+      {
+        "path": "images/christmas/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 13
+}

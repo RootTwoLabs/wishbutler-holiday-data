@@ -308,6 +308,225 @@ export const IMAGE_QUERIES = {
       'Hunminjeongeum Hangul manuscript',
     ],
   },
+
+  // --- Batch 8: globale Nachzuegler (in vielen Laendern) ---
+  pentecost: ['Pentecost dove stained glass', 'white dove sky', 'Pentecost church celebration'],
+  saint_josephs_day: ['Saint Joseph statue church', 'Saint Joseph carpenter painting', 'zeppole San Giuseppe'],
+  holy_saturday: ['Easter vigil candles church', 'Paschal candle Easter vigil', 'Holy Saturday church night'],
+  christmas_day_orthodox: ['Orthodox Christmas church icon', 'Orthodox church Christmas candles', 'Orthodox Nativity icon'],
+  saint_peter_and_saint_paul: ['Saint Peter and Paul icon', 'Saints Peter and Paul statue', 'Peter and Paul church painting'],
+
+  // --- Batch 8: Israel ---
+  rosh_hashanah: {
+    IL: ['Rosh Hashanah apples honey pomegranate', 'shofar ram horn Rosh Hashanah', 'Rosh Hashanah round challah honey'],
+  },
+  yom_kippur: {
+    IL: ['Yom Kippur synagogue prayer', 'Yom Kippur Jerusalem empty street', 'Western Wall prayer Jerusalem'],
+  },
+  sukkot: {
+    IL: ['sukkah Sukkot booth decorated', 'lulav etrog four species Sukkot', 'Sukkot sukkah Jerusalem'],
+  },
+  hanukkah: {
+    IL: ['sufganiyot', 'dreidel spinning top wooden', 'Chanukkiah lit candles', 'Hanukkah oil lamp antique silver'],
+  },
+  purim: {
+    IL: ['Purim hamantaschen cookies', 'Purim costumes parade Israel', 'Purim megillah scroll Esther'],
+  },
+  passover: {
+    IL: ['Passover seder plate matzah', 'Pesach seder table', 'matzah unleavened bread Passover'],
+  },
+  yom_haatzmaut: {
+    IL: ['Israel Independence Day flag celebration', 'flag of Israel', 'Yom HaAtzmaut fireworks Israel'],
+  },
+  shavuot: {
+    IL: ['cheesecake slice', 'wheat field harvest golden', 'Bikkurim kibbutz Shavuot', 'first fruits basket wheat'],
+  },
+
+  // --- Batch 8: DACH-Luecken ---
+  world_childrens_day: {
+    DE: ['Weltkindertag Kinder Fest', 'children playing festival balloons', 'Kinderfest Thüringen Weltkindertag'],
+  },
+  repentance_and_prayer_day: {
+    DE: ['Frauenkirche Dresden interior', 'Thomaskirche Leipzig interior', 'Kreuzkirche Dresden', 'church candle prayer hands'],
+  },
+  saint_florians_day: {
+    AT: ['Florianijünger Feuerwehr Prozession', 'Saint Florian statue fountain', 'Heiliger Florian Feuerwehr Österreich'],
+  },
+  saint_ruperts_day: {
+    AT: ['Rupertikirtag Salzburg', 'Saint Rupert Salzburg cathedral', 'Rupertikirtag Domplatz Salzburg'],
+  },
+  saint_leopolds_day: {
+    AT: ['Klosterneuburg Stift Leopoldi', 'Saint Leopold Klosterneuburg Fasslrutschen', 'Stift Klosterneuburg abbey'],
+  },
+  republic_day: {
+    IT: ['Festa della Repubblica parade Rome', 'Frecce Tricolori Italian flag flyover'],
+    CH: ['Neuchatel castle Switzerland', 'Neuchâtel lake town Switzerland', 'Neuchatel 1st March celebration'],
+    TR: ['Republic Day Turkey Cumhuriyet Bayrami flag', 'Anitkabir Ankara Ataturk mausoleum', 'Turkish flag Istanbul Bosphorus celebration'],
+  },
+  nafels_procession: {
+    CH: ['Näfelser Fahrt Glarus', 'Naefels Glarus Switzerland battle memorial', 'Glarus Alps Näfels village'],
+  },
+  geneva_prayday: {
+    CH: ['Geneva Jet d Eau lake', 'Geneva Saint Pierre cathedral', 'Jeune genevois Geneva'],
+  },
+  federal_day_of_thanksgiving: {
+    CH: ['Eidgenössischer Dank- Buss- und Bettag', 'Swiss church village mountains autumn', 'Bettag Switzerland church'],
+  },
+  federal_fast_monday: {
+    CH: ['Vaud vineyards Lavaux Lake Geneva', 'Lavaux terraces autumn Switzerland', 'gâteau aux pruneaux plum tart'],
+  },
+  restoration_day: {
+    CH: ['Geneva cathedral Saint-Pierre old town', 'Geneva flower clock Jardin Anglais', 'Geneva lake Mont Blanc view winter', 'flag of Geneva canton'],
+  },
+
+  // --- Batch 8: Kanada ---
+  family_day: {
+    CA: ['Rideau Canal skateway Ottawa skaters', 'children tobogganing snow hill', 'family snowshoeing winter forest', 'ice skating outdoor rink winter'],
+  },
+  victoria_day: {
+    CA: ['Victoria Day fireworks Canada', 'Queen Victoria statue Canada', 'Victoria Day parade Victoria BC'],
+  },
+  national_aboriginal_day: {
+    CA: ['National Indigenous Peoples Day Canada powwow', 'First Nations dancer regalia Canada', 'Indigenous Peoples Day Canada celebration'],
+  },
+  national_holiday: {
+    AT: ['flag of Austria', 'Austrian national day celebration'],
+    CL: [
+      'Chile Fiestas Patrias cueca dancing fonda',
+      'Chilean flag September celebration',
+      'cueca dance Chile',
+      'flag of Chile',
+      'Chile fonda ramada celebration',
+    ],
+    CA: ['flag of Quebec fleurdelisé', 'Fête nationale du Québec 2019 Montreal', 'Quebec flag Montreal parade', 'Montreal Jean-Talon crowd Fête nationale'],
+  },
+  civic_holiday: {
+    CA: ['Canada summer lake cottage', 'Toronto summer festival August', 'Canadian lake summer canoe'],
+  },
+  labour_day_ca: {
+    CA: ['Labour Day parade Toronto', 'Canadian workers labour day', 'Canada labour day September'],
+  },
+  national_day_for_truth_and_reconciliation: {
+    CA: ['Orange Shirt Day Canada', 'Truth and Reconciliation Day Canada orange', 'Every Child Matters orange shirt'],
+  },
+  thanksgiving: {
+    CA: ['roast turkey dinner table', 'pumpkin pie slice whipped cream', 'autumn maple leaves red Canada', 'harvest pumpkins squash market autumn'],
+  },
+
+  // --- Batch 8: Australien ---
+  labour_day_au: {
+    AU: ['Labour Day parade Australia', 'Eight Hour Day monument Melbourne', 'Australian workers march'],
+  },
+  kings_birthday: {
+    AU: ['King Charles III portrait', 'Australian flag Canberra Parliament', 'Kings Birthday Australia honours'],
+    NZ: ['King Charles III portrait', 'New Zealand flag Wellington Beehive', 'New Zealand winter Queenstown snow'],
+  },
+  melbourne_cup: {
+    AU: ['Melbourne Cup horse race Flemington', 'Flemington racecourse Melbourne Cup', 'Melbourne Cup fashions on the field'],
+  },
+  western_australia_day: {
+    AU: ['Perth skyline Swan River', 'Western Australia flag', 'Perth foreshore celebration'],
+  },
+  canberra_day: {
+    AU: ['Canberra Parliament House Australia', 'Canberra Lake Burley Griffin', 'Canberra balloon festival'],
+  },
+  friday_before_afl_grand_final: {
+    AU: ['AFL Grand Final MCG Melbourne', 'Australian rules football crowd MCG', 'AFL grand final parade Melbourne'],
+  },
+
+  // --- Batch 8: Neuseeland ---
+  matariki: {
+    NZ: ['Matariki Pleiades stars night sky', 'Matariki celebration New Zealand', 'Pleiades star cluster'],
+  },
+  labour_day_nz: {
+    NZ: ['New Zealand spring Labour Day weekend', 'Samuel Parnell eight hour day', 'New Zealand workers march Wellington'],
+  },
+  auckland_anniversary_day: {
+    NZ: ['Auckland Anniversary Regatta sailing', 'Auckland harbour sailing regatta', 'Auckland skyline Sky Tower harbour'],
+  },
+  wellington_anniversary_day: {
+    NZ: ['Wellington harbour New Zealand', 'Wellington waterfront summer', 'Wellington cable car city'],
+  },
+  nelson_anniversary_day: {
+    NZ: ['Nelson New Zealand Tasman Bay', 'Abel Tasman National Park beach', 'Nelson city New Zealand cathedral'],
+  },
+  taranaki_anniversary_day: {
+    NZ: ['Mount Taranaki reflection lake', 'Mount Taranaki Egmont snow', 'New Plymouth coastal walkway'],
+  },
+  otago_anniversary_day: {
+    NZ: ['Dunedin railway station', 'Otago Peninsula Dunedin harbour', 'Dunedin Octagon city'],
+  },
+  southland_anniversary_day: {
+    NZ: ['Milford Sound Mitre Peak', 'Nugget Point lighthouse Catlins', 'Stewart Island Oban Halfmoon Bay', 'Fiordland National Park fjord'],
+  },
+  canterbury_south_anniversary_day: {
+    NZ: ['Timaru Caroline Bay', 'Lake Tekapo church lupins', 'Aoraki Mount Cook South Canterbury'],
+  },
+  hawkes_bay_anniversary_day: {
+    NZ: ['Napier Art Deco buildings', 'Hawke\'s Bay vineyards New Zealand', 'Te Mata Peak Hawke\'s Bay'],
+  },
+  marlborough_anniversary_day: {
+    NZ: ['Marlborough Sounds New Zealand', 'Marlborough vineyards Blenheim', 'Queen Charlotte Sound Picton'],
+  },
+  canterbury_anniversary_day: {
+    NZ: ['Christchurch Canterbury A&P Show', 'Christchurch Cathedral Square', 'Canterbury Plains New Zealand'],
+  },
+  chatham_islands_anniversary_day: {
+    NZ: ['Chatham Islands New Zealand coast', 'Chatham Islands Waitangi', 'Chatham Islands landscape'],
+  },
+  westland_anniversary_day: {
+    NZ: ['Hokitika Gorge West Coast', 'Franz Josef Glacier Westland', 'Punakaiki Pancake Rocks'],
+  },
+
+  // --- Batch 8: Tuerkei ---
+  eid_al_fitr_first_day: {
+    TR: ['Ramazan Bayramı bayram şekeri', 'Eid al-Fitr Turkey family greeting', 'Turkish baklava Eid sweets'],
+  },
+  eid_al_adha_first_day: {
+    TR: ['Kurban Bayramı Turkey mosque', 'Eid al-Adha mosque prayer Istanbul', 'Blue Mosque Istanbul prayer'],
+  },
+  national_independence_childrens_day: {
+    TR: ['23 Nisan children festival Turkey', 'Turkish children national costume 23 April', 'Children Day Turkey parade flags'],
+  },
+  ataturk_commemoration_youth_day: {
+    TR: ['19 Mayıs Samsun Ataturk', 'Ataturk Samsun monument Bandirma', 'Youth and Sports Day Turkey stadium'],
+  },
+  democracy_and_national_unity_day: {
+    TR: ['Bosphorus Bridge from Ortaköy', 'Ortaköy Mosque Bosphorus Bridge', 'Bosphorus Bridge Istanbul aerial', 'Turkish flag waving sky'],
+  },
+  victory_day: {
+    TR: ['Anıtkabir Ankara mausoleum', 'Dumlupınar Zafer Anıtı', 'Turkish flag waving Ankara', 'Türk Yıldızları aerobatic team'],
+  },
+
+  // --- Batch 8: Aegypten ---
+  eid_al_adha: {
+    EG: ['Al-Azhar Mosque Cairo courtyard', 'Cairo minarets skyline sunset', 'Sultan Hassan Mosque Cairo', 'kahk Eid cookies Egypt'],
+  },
+  islamic_new_year: {
+    EG: ['Hijri new year crescent moon', 'crescent moon mosque night', 'Islamic calendar crescent moon minaret'],
+  },
+  prophet_muhammads_birthday: {
+    EG: ['halawet el moulid', 'Al-Hussein Mosque Cairo', 'Mawlid sweets Egypt', 'Cairo fanous lantern night'],
+  },
+  sinai_liberation_day: {
+    EG: ['Sinai peninsula mountains Egypt', 'Mount Sinai sunrise Egypt', 'Sinai desert Egypt landscape'],
+  },
+  revolution_day: {
+    MX: ['Mexico Revolution Day parade', 'Mexican Revolution Day celebration'],
+    EG: ['flag of Egypt waving', 'Cairo Citadel Muhammad Ali mosque', 'Egyptian flag Nile Cairo'],
+  },
+  june_30_revolution: {
+    EG: ['Egypt flag Cairo Nile', 'Cairo skyline Nile evening', 'Egyptian flag Tahrir square'],
+  },
+  armed_forces_day: {
+    EG: ['Suez Canal Egypt ship', 'Suez Canal crossing memorial Egypt', 'Egypt Suez Canal aerial'],
+  },
+  revolution_day_2011_national_police_day: {
+    EG: ['Tahrir Square Cairo aerial view', 'Egyptian Museum Cairo facade building', 'Cairo downtown Tahrir square obelisk'],
+  },
+  easter_monday_eg: {
+    EG: ['Sham el-Nessim', 'feseekh salted fish Egypt', 'colored eggs basket spring', 'Nile riverbank spring Cairo park'],
+  },
 };
 
 /** Resolves search terms for a slug, optionally scoped to a country. */

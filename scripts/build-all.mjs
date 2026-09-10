@@ -1,9 +1,17 @@
 #!/usr/bin/env node
 /**
  * Orchestrates the full generation pipeline:
- *   holidays -> namedays -> images -> index -> validate
+ *   holidays -> hebcal -> namedays -> images -> fun-occasions -> articles -> labels -> index -> validate
  *
  * Each step is a separate module so they can also be run individually.
+ *
+ * FUN (kuriose Feiertage) wird ausschliesslich aus dem kuratierten Content in
+ * content/fun-days/ gebaut (Labels + Artikel in allen 17 Locales als Content,
+ * kein Harvest, keine Uebersetzungs-Skripte). Die FUN-Bilder holt der CI-Lauf
+ * nie selbst (fetch-images.mjs ohne --fun ueberspringt FUN); sie werden lokal
+ * mit `node scripts/fetch-images.mjs --fun` kuratiert und eingecheckt.
+ * build-fun-occasions.mjs laeuft NACH fetch-images.mjs, weil das Paket die
+ * vorhandenen Bilddateien referenziert.
  */
 import { spawn } from 'node:child_process';
 import { dirname, join } from 'node:path';
@@ -21,6 +29,7 @@ function run(script) {
 async function main() {
   const steps = [
     'fetch-holidays.mjs',
+    'fetch-holidays-hebcal.mjs',
     'fetch-namedays.mjs',
     'fetch-images.mjs',
     'build-fun-occasions.mjs',

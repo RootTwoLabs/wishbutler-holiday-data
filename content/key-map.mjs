@@ -114,7 +114,98 @@ export const COUNTRY_ARTICLE_MAP = {
   de_reformation_day: { slug: 'reformation_day', countryCode: 'DE' },
   at_saint_martins_day: { slug: 'saint_martins_day', countryCode: 'AT' },
   ch_st_berchtolds_day: { slug: 'st_berchtolds_day', countryCode: 'CH' },
+  // --- Batch 8: Israel (Hebcal), TR, EG, DACH-Luecken, CA/AU/NZ ---
+  il_rosh_hashanah: { slug: 'rosh_hashanah', countryCode: 'IL' },
+  il_yom_kippur: { slug: 'yom_kippur', countryCode: 'IL' },
+  il_sukkot: { slug: 'sukkot', countryCode: 'IL' },
+  il_hanukkah: { slug: 'hanukkah', countryCode: 'IL' },
+  il_purim: { slug: 'purim', countryCode: 'IL' },
+  il_passover: { slug: 'passover', countryCode: 'IL' },
+  il_yom_haatzmaut: { slug: 'yom_haatzmaut', countryCode: 'IL' },
+  il_shavuot: { slug: 'shavuot', countryCode: 'IL' },
+  de_world_childrens_day: { slug: 'world_childrens_day', countryCode: 'DE' },
+  de_repentance_and_prayer_day: { slug: 'repentance_and_prayer_day', countryCode: 'DE' },
+  at_saint_florians_day: { slug: 'saint_florians_day', countryCode: 'AT' },
+  at_saint_ruperts_day: { slug: 'saint_ruperts_day', countryCode: 'AT' },
+  at_saint_leopolds_day: { slug: 'saint_leopolds_day', countryCode: 'AT' },
+  ch_republic_day: { slug: 'republic_day', countryCode: 'CH' },
+  ch_nafels_procession: { slug: 'nafels_procession', countryCode: 'CH' },
+  ch_geneva_prayday: { slug: 'geneva_prayday', countryCode: 'CH' },
+  ch_federal_day_of_thanksgiving: { slug: 'federal_day_of_thanksgiving', countryCode: 'CH' },
+  ch_federal_fast_monday: { slug: 'federal_fast_monday', countryCode: 'CH' },
+  ch_restoration_day: { slug: 'restoration_day', countryCode: 'CH' },
+  ca_family_day: { slug: 'family_day', countryCode: 'CA' },
+  ca_victoria_day: { slug: 'victoria_day', countryCode: 'CA' },
+  ca_national_aboriginal_day: { slug: 'national_aboriginal_day', countryCode: 'CA' },
+  ca_national_holiday: { slug: 'national_holiday', countryCode: 'CA' },
+  ca_civic_holiday: { slug: 'civic_holiday', countryCode: 'CA' },
+  ca_labour_day: { slug: 'labour_day_ca', countryCode: 'CA' },
+  ca_truth_and_reconciliation: {
+    slug: 'national_day_for_truth_and_reconciliation',
+    countryCode: 'CA',
+  },
+  ca_thanksgiving: { slug: 'thanksgiving', countryCode: 'CA' },
+  au_labour_day: { slug: 'labour_day_au', countryCode: 'AU' },
+  au_kings_birthday: { slug: 'kings_birthday', countryCode: 'AU' },
+  au_melbourne_cup: { slug: 'melbourne_cup', countryCode: 'AU' },
+  au_western_australia_day: { slug: 'western_australia_day', countryCode: 'AU' },
+  au_canberra_day: { slug: 'canberra_day', countryCode: 'AU' },
+  au_afl_grand_final_friday: { slug: 'friday_before_afl_grand_final', countryCode: 'AU' },
+  nz_matariki: { slug: 'matariki', countryCode: 'NZ' },
+  nz_kings_birthday: { slug: 'kings_birthday', countryCode: 'NZ' },
+  nz_labour_day: { slug: 'labour_day_nz', countryCode: 'NZ' },
+  nz_auckland_anniversary: { slug: 'auckland_anniversary_day', countryCode: 'NZ' },
+  nz_wellington_anniversary: { slug: 'wellington_anniversary_day', countryCode: 'NZ' },
+  nz_nelson_anniversary: { slug: 'nelson_anniversary_day', countryCode: 'NZ' },
+  nz_taranaki_anniversary: { slug: 'taranaki_anniversary_day', countryCode: 'NZ' },
+  nz_otago_anniversary: { slug: 'otago_anniversary_day', countryCode: 'NZ' },
+  nz_southland_anniversary: { slug: 'southland_anniversary_day', countryCode: 'NZ' },
+  nz_canterbury_south_anniversary: { slug: 'canterbury_south_anniversary_day', countryCode: 'NZ' },
+  nz_hawkes_bay_anniversary: { slug: 'hawkes_bay_anniversary_day', countryCode: 'NZ' },
+  nz_marlborough_anniversary: { slug: 'marlborough_anniversary_day', countryCode: 'NZ' },
+  nz_canterbury_anniversary: { slug: 'canterbury_anniversary_day', countryCode: 'NZ' },
+  nz_chatham_islands_anniversary: { slug: 'chatham_islands_anniversary_day', countryCode: 'NZ' },
+  nz_westland_anniversary: { slug: 'westland_anniversary_day', countryCode: 'NZ' },
+  tr_eid_al_fitr: { slug: 'eid_al_fitr_first_day', countryCode: 'TR' },
+  tr_eid_al_adha: { slug: 'eid_al_adha_first_day', countryCode: 'TR' },
+  tr_childrens_day: { slug: 'national_independence_childrens_day', countryCode: 'TR' },
+  tr_youth_day: { slug: 'ataturk_commemoration_youth_day', countryCode: 'TR' },
+  tr_democracy_day: { slug: 'democracy_and_national_unity_day', countryCode: 'TR' },
+  tr_victory_day: { slug: 'victory_day', countryCode: 'TR' },
+  tr_republic_day: { slug: 'republic_day', countryCode: 'TR' },
+  eg_eid_al_adha: { slug: 'eid_al_adha', countryCode: 'EG' },
+  eg_islamic_new_year: { slug: 'islamic_new_year', countryCode: 'EG' },
+  eg_mawlid: { slug: 'prophet_muhammads_birthday', countryCode: 'EG' },
+  eg_sinai_liberation_day: { slug: 'sinai_liberation_day', countryCode: 'EG' },
+  eg_revolution_day: { slug: 'revolution_day', countryCode: 'EG' },
+  eg_june_30_revolution: { slug: 'june_30_revolution', countryCode: 'EG' },
+  eg_armed_forces_day: { slug: 'armed_forces_day', countryCode: 'EG' },
+  eg_police_day: { slug: 'revolution_day_2011_national_police_day', countryCode: 'EG' },
+  eg_sham_el_nessim: { slug: 'easter_monday_eg', countryCode: 'EG' },
 };
+
+/**
+ * Alias-Slugs -> kanonischer Slug. Nager liefert fuer viele Laender eine
+ * "observed"-Variante (christmas_day neben christmas), Folgetage mehrtaegiger
+ * Feste (eid_al_adha_second_day) und "(Tentative Date)"-Varianten fuer die
+ * Folgejahre. Die tragen denselben Inhalt wie der kanonische Slug und
+ * bekommen dessen Artikel + Bilder, statt leer zu bleiben.
+ */
+export const ARTICLE_ALIASES = {
+  christmas_day: 'christmas',
+  new_years_day: 'new_year',
+  st_stephens_day: 'boxing_day',
+  boxing_day_nz: 'boxing_day',
+  labour_day_eg: 'labour_day',
+};
+
+/** Kanonischer Artikel-Slug fuer einen Paket-Slug (Identitaet, wenn kein Alias). */
+export function canonicalArticleSlug(slug) {
+  if (ARTICLE_ALIASES[slug]) return ARTICLE_ALIASES[slug];
+  return slug
+    .replace(/_tentative_date$/, '')
+    .replace(/_(second|third|fourth|fifth)_day$/, '_first_day');
+}
 
 /** Slugs whose images and articles are namespaced per country. */
 export const NAMESPACED_SLUGS = new Set([
@@ -172,10 +263,70 @@ export const NAMESPACED_SLUGS = new Set([
   'reformation_day',
   'saint_martins_day',
   'st_berchtolds_day',
+  // Batch 8 (IL, DACH, CA, AU, NZ, TR, EG)
+  'rosh_hashanah',
+  'yom_kippur',
+  'sukkot',
+  'hanukkah',
+  'purim',
+  'passover',
+  'yom_haatzmaut',
+  'shavuot',
+  'world_childrens_day',
+  'repentance_and_prayer_day',
+  'saint_florians_day',
+  'saint_ruperts_day',
+  'saint_leopolds_day',
+  'nafels_procession',
+  'geneva_prayday',
+  'federal_day_of_thanksgiving',
+  'federal_fast_monday',
+  'restoration_day',
+  'family_day',
+  'victoria_day',
+  'national_aboriginal_day',
+  'civic_holiday',
+  'labour_day_ca',
+  'national_day_for_truth_and_reconciliation',
+  'thanksgiving',
+  'labour_day_au',
+  'kings_birthday',
+  'melbourne_cup',
+  'western_australia_day',
+  'canberra_day',
+  'friday_before_afl_grand_final',
+  'matariki',
+  'labour_day_nz',
+  'auckland_anniversary_day',
+  'wellington_anniversary_day',
+  'nelson_anniversary_day',
+  'taranaki_anniversary_day',
+  'otago_anniversary_day',
+  'southland_anniversary_day',
+  'canterbury_south_anniversary_day',
+  'hawkes_bay_anniversary_day',
+  'marlborough_anniversary_day',
+  'canterbury_anniversary_day',
+  'chatham_islands_anniversary_day',
+  'westland_anniversary_day',
+  'eid_al_fitr_first_day',
+  'eid_al_adha_first_day',
+  'national_independence_childrens_day',
+  'ataturk_commemoration_youth_day',
+  'democracy_and_national_unity_day',
+  'victory_day',
+  'eid_al_adha',
+  'islamic_new_year',
+  'prophet_muhammads_birthday',
+  'sinai_liberation_day',
+  'june_30_revolution',
+  'armed_forces_day',
+  'revolution_day_2011_national_police_day',
+  'easter_monday_eg',
 ]);
 
 /** Locales we ship article content for. */
-export const CONTENT_LOCALES = ['de', 'en', 'fr', 'es', 'pt', 'it', 'pl', 'nl', 'sv', 'ja', 'ko', 'zh-Hant'];
+export const CONTENT_LOCALES = ['de', 'en', 'fr', 'es', 'pt', 'it', 'pl', 'nl', 'sv', 'nb', 'da', 'fi', 'ru', 'uk', 'ja', 'ko', 'zh-Hant'];
 
 /** Returns all country codes that own a namespaced slug. */
 export function countriesForNamespacedSlug(slug) {

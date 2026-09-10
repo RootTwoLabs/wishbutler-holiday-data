@@ -16,10 +16,6 @@
  * (Easter offset detection, dedupe vs. global set) are intentionally minimal
  * here and are expanded in the data repo's own iteration.
  */
-import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
-import { join, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
 import {
   HOLIDAY_COUNTRIES,
   SOURCES,
@@ -29,21 +25,9 @@ import {
   GLOBAL_RULES,
   HOLIDAY_SLUG_ALIASES,
 } from './config.mjs';
-import { detectRule } from './lib/ruleDetection.mjs';
+import { detectRule, pickHolidayStart } from './lib/ruleDetection.mjs';
 import { fetchJsonWithTimeout, FailureBudget } from './lib/httpClient.mjs';
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const DATA = join(__dirname, '..', 'data');
-const PACKAGES = join(DATA, 'packages');
-
-async function listVersions(countryDir) {
-  if (!existsSync(countryDir)) return [];
-  const entries = await readdir(countryDir, { withFileTypes: true });
-  return entries
-    .filter((e) => e.isDirectory() && /^v\d+$/.test(e.name))
-    .map((e) => parseInt(e.name.slice(1), 10))
-    .sort((a, b) => a - b);
-}
+import { holidayDefinition, writePackage } from './lib/packageWriter.mjs';
 
 // #130: Timeout + Retry/Backoff statt nacktem fetch (kein unbegrenztes Haengen).
 async function fetchJson(url) {
@@ -76,10 +60,19 @@ async function buildCountry(cc) {
       const mmdd = h.date.slice(5);
       const entry =
         byName.get(key) ??
-        { years: {}, slug: slugify(h.name), name: h.name, localName: h.localName };
-      entry.years[year] = mmdd;
+        { years: {}, observed: {}, slug: slugify(h.name), name: h.name, localName: h.localName };
+      // Gleicher Name kann pro Jahr mehrfach kommen (mehrtaegiges Fest ODER
+      // regionale Varianten) — erst alle Tage sammeln, unten aufloesen.
+      (entry.observed[year] ??= []).push(mmdd);
       if (!entry.localName && h.localName) entry.localName = h.localName;
       byName.set(key, entry);
+    }
+  }
+  // Mehrtaegige Feste (Eid al-Adha, Chuseok, Karneval …) -> ERSTER Tag;
+  // regionale Varianten an verschiedenen Tagen -> unveraendert letzter Eintrag.
+  for (const entry of byName.values()) {
+    for (const [year, mmdds] of Object.entries(entry.observed)) {
+      entry.years[year] = pickHolidayStart(Number(year), mmdds);
     }
   }
 
@@ -110,7 +103,7 @@ async function buildCountry(cc) {
       labelSlug = entry.slug;
     }
 
-    definitions.push(def(id, cc, labelSlug, rule));
+    definitions.push(holidayDefinition({ id, countryCode: cc, slug: labelSlug, rule }));
 
     // Global holidays reuse the app's bundled (fully translated) labels/articles,
     // so we only emit package labels for genuinely country-specific holidays.
@@ -155,61 +148,9 @@ function slugify(name) {
     .replace(/^_+|_+$/g, '');
 }
 
-function kindForRule(rule) {
-  // rule.type is one of: fixed | easter_relative | nth_weekday | precomputed,
-  // which maps 1:1 onto the HolidayKind used by the app.
-  return rule.type;
-}
-
-function def(id, cc, slug, rule) {
-  return {
-    id,
-    countryCode: cc,
-    kind: kindForRule(rule),
-    labelKey: `holidays.${slug}`,
-    iconName: 'event',
-    category: 'public',
-    rule,
-  };
-}
-
-async function writePackage(cc, definitions, labels) {
-  const countryDir = join(PACKAGES, cc);
-  const versions = await listVersions(countryDir);
-  const prev = versions.at(-1);
-  // Editorial content that the generator cannot derive is carried forward from
-  // the latest version: namedays, curated images, and hand-written articles
-  // (`i18n.holidayInfo`). Holiday *labels* (`i18n.holidays`) are always
-  // regenerated from Nager so they stay in sync with the (slug) labelKeys.
-  let preserved = {};
-  if (prev != null) {
-    const prevPkg = JSON.parse(
-      await readFile(join(countryDir, `v${prev}`, 'package.json'), 'utf8'),
-    );
-    preserved = {
-      namedays: prevPkg.namedays,
-      images: prevPkg.images,
-      holidayInfo: prevPkg.i18n?.holidayInfo,
-    };
-  }
-  const next = (prev ?? 0) + 1;
-  const dir = join(countryDir, `v${next}`);
-  await mkdir(dir, { recursive: true });
-
-  const i18n = { holidays: labels };
-  if (preserved.holidayInfo) i18n.holidayInfo = preserved.holidayInfo;
-
-  const pkg = {
-    countryCode: cc,
-    version: next,
-    schemaVersion: 1,
-    definitions,
-    ...(preserved.namedays ? { namedays: preserved.namedays } : {}),
-    i18n,
-    ...(preserved.images ? { images: preserved.images } : {}),
-  };
-  await writeFile(join(dir, 'package.json'), JSON.stringify(pkg, null, 2) + '\n', 'utf8');
-}
+// holidayDefinition + writePackage (inkl. Uebernahme von Namenstagen/Bildern/
+// Artikeln aus der Vorversion) liegen in lib/packageWriter.mjs — geteilt mit
+// dem Hebcal-Generator (fetch-holidays-hebcal.mjs, Israel).
 
 async function main() {
   const only = process.argv.slice(2);

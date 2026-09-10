@@ -13,11 +13,11 @@ import { join } from 'node:path';
 import { LOCALES } from '../config.mjs';
 
 /**
- * FUN liefert alle 17 App-Locales (die Länder-/GLOBAL-Pakete nur die 12 aus
- * `LOCALES`): da, fi, nb, ru, uk kommen dazu, damit kuriose Feiertage in
- * keiner App-Sprache auf den englischen Fallback fallen.
+ * FUN liefert alle 17 App-Locales = `LOCALES` (seit origin/main 4756771 sind
+ * da, fi, nb, ru, uk dort enthalten), damit kuriose Feiertage in keiner
+ * App-Sprache auf den englischen Fallback fallen.
  */
-export const FUN_LOCALES = [...LOCALES, 'da', 'fi', 'nb', 'ru', 'uk'];
+export const FUN_LOCALES = LOCALES;
 export const FUN_COUNTRY_CODE = 'FUN';
 export const MONTHS = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'];
 /** Februar mit 29 Tagen: der Schalttag ist ein regulärer Eintrag. */

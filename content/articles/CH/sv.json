@@ -20,5 +20,71 @@
       "Nötter och nötlekar är en traditionell sed.",
       "Dess exakta ursprung är fortfarande oklart och omdiskuterat."
     ]
+  },
+  "republic_day": {
+    "intro": "Den 1 mars firar kantonen Neuchatel Republikens dag, årsdagen av revolutionen 1848 som avslutade det preussiska styret. Det är en allmän helgdag i kantonen och en dag med marscher, facklor och måltider med öppen eld.",
+    "history": "Från 1815 var Neuchatel både en schweizisk kanton och ett furstendöme av kungen av Preussen. Den 1 mars 1848 marscherade republikaner från urmakarstäderna La Chaux-de-Fonds och Le Locle ner till slottet i Neuchatel och utropade republiken utan blodsutgjutelse. Preussen gav slutligen upp sitt anspråk 1857.",
+    "traditions": "Varje år följer vandrare revolutionärernas väg över Vue des Alpes passerar på natten, och anländer till slottet på morgonen. Familjer samlas för en \"torree\", korv tillagad i glöden av en öppen eld, och kantonregeringen är värd för en officiell ceremoni.",
+    "funFacts": [
+      "Marschen sträcker sig cirka 20 kilometer genom Jurabergens snö.",
+      "Kungen av Preussen satte aldrig sin fot i sitt furstendöme Neuchatel.",
+      "Neuchatel var den sista schweiziska kantonen som blev en republik.",
+      "Torreeen är så typisk att Neuchatel kallar sig kantonen för den öppna elden."
+    ]
+  },
+  "nafels_procession": {
+    "intro": "Nafels procession den första torsdagen i april är den kantonala helgdagen Glarus. Den firar minnet av slaget vid Nafels 1388, när folket i Glarus besegrade en mycket större habsburgsk armé.",
+    "history": "Den 9 april 1388 styrde några hundra män från Glarus, hjälpta av dimma och bergskred, en österrikisk styrka vid Nafels och säkrade dalens frihet. Den årliga pilgrimsfärden till slagfältet har hållits sedan 1389, vilket gör det till ett av de äldsta minnesmärkena i Schweiz.",
+    "traditions": "En procession med kantonala tjänstemän, präster och en militär hedersvakt går från Glarus till Nafels och stannar vid elva minnesstenar där de fallnas namn läses. En mässa och en protestantisk gudstjänst följer, och Glarusflaggan bärs i spetsen för marschen.",
+    "funFacts": [
+      "Semestern är en av de få i Schweiz som firar en strid.",
+      "Katoliker och protestanter har delat processionen sedan sjuttonhundratalet.",
+      "Legenden säger att männen från Glarus rullade stenblock nerför sluttningarna mot de österrikiska riddarna.",
+      "Skolbarn bär namnen på de stupade genom byn."
+    ]
+  },
+  "geneva_prayday": {
+    "intro": "Genèvefastan, Jeune genevois, hålls torsdagen efter den första söndagen i september och är en allmän helgdag endast i kantonen Genève. Dess symbol är plommon tårtan.",
+    "history": "Genève höll fasta- och bönedagar från 1500-talet, och traditionen kopplar septemberdatumet till sorgen för hugenotterna som dödades i massakern på Saint Bartolomeusdagen 1572. Kantonen fastställde det aktuella datumet 1831, långt före den federala bönedagen.",
+    "traditions": "Genevans äter \"tarte aux pruneaux\", en plommontårta, som en gång var den enkla rätten som tillåts på en fastedag. Idag är semestern mest en långhelg för vandring och familjebesök, medan bagerier säljer tusentals tårtor.",
+    "funFacts": [
+      "Plommontärtan sägs ha uppfunnits så att familjer kunde äta utan att laga mat på en fastedag.",
+      "Genève håller inte den federala bönedagen två veckor senare.",
+      "Semestern är den enda officiella fastedagen som fortfarande finns i den schweiziska kalendern.",
+      "Bagare i Genève säljer cirka 20 000 plommontårtor på dagen."
+    ]
+  },
+  "federal_day_of_thanksgiving": {
+    "intro": "Den federala dagen för tacksägelse, omvändelse och bön hålls den tredje söndagen i september i alla kantoner utom Genève. Det är en ekumenisk dag för reflektion som delas av alla religiösa samfund.",
+    "history": "Kantoner hade haft bönedagar i tider av krig och pest i århundraden. 1832 fastställde den federala riksdagen ett gemensamt datum för hela landet, en symbol för enhet över den religiösa klyftan mellan katolska och protestantiska kantoner som just hade bekämpat varandra.",
+    "traditions": "Kyrkor håller gemensamma gudstjänster och kantonala regeringar utfärdar en traditionell proklamation om ett ämne av allmänt intresse. I flera kantoner är dans och sportevenemang begränsade, och följande måndag är det helgdag i Vaud.",
+    "funFacts": [
+      "Dagen har ingen fast religiös ägare: katoliker, protestanter, judar och kristna katoliker deltar alla.",
+      "Namnet nämner tacksägelse, omvändelse och bön, ett ord för varje syfte.",
+      "Den första federala bönedagen 1832 hölls medan Schweiz fortfarande var en lös konfederation.",
+      "I Genève äger motsvarigheten, Genèvefastan, rum två veckor tidigare."
+    ]
+  },
+  "federal_fast_monday": {
+    "intro": "Måndagen efter den federala bönedagen, \"Lundi du Jeune federal\", är en allmän helgdag i kantonen Vaud. Det förlänger bönedagen i september till en långhelg för hela kantonen.",
+    "history": "Vaud ensam höll den gamla seden att vila dagen efter fastan, så att söndagen förblev en gudstjänstdag och måndagen en ledig dag. Semestern har funnits i den kantonala kalendern sedan artonhundratalet.",
+    "traditions": "Familjer äter plommontårta, den klassiska rätten på schweiziska fastedagar, och använder dagen till en sista sommarpromenad genom Lavauxs vingårdar, där druvskörden snart ska börja. Många Vaudois besöker släktingar eller tar en kort resa.",
+    "funFacts": [
+      "Vaud är den enda kantonen med helgdag på måndagen efter bönedagen.",
+      "Plommonsäsongen når sin topp i september, vilket förklarar tårtan på bordet.",
+      "Lavaux terrasserade vingårdar ovanför Genèvesjön är ett UNESCO: s världsarv.",
+      "Butiker i Lausanne förblir stängda medan de i närliggande kantoner öppnar."
+    ]
+  },
+  "restoration_day": {
+    "intro": "Återställningsdagen den 31 december firar slutet på det franska styret över Genève 1813 och återfödelsen av republiken Genève. Det är en allmän helgdag i kantonen och sammanfaller med nyårsafton.",
+    "history": "Genève hade annekterats av Frankrike 1798. Den 31 december 1813, när Napoleons rike kollapsade och österrikiska trupper närmade sig, utropade de tidigare magistraterna återupprättandet av republiken. Genève gick sedan med i Schweiziska edsförbundet 1815.",
+    "traditions": "Kantonregeringen lägger ner kransar vid restaureringsmonumentet och håller en officiell mottagning, medan de flesta i Genève helt enkelt njuter av en ledig dag innan nyårsfirandet börjar. Gamla stan är värd för små ceremonier och flaggor vajar på offentliga byggnader.",
+    "funFacts": [
+      "Genève firar två befrielser: restaureringen i december och Escaladen i december också, en vecka tidigare.",
+      "De schweiziska trupperna som garanterade restaureringen landade i Port Noir den 1 juni 1814.",
+      "Genève är den enda kantonen med en allmän helgdag den 31 december.",
+      "Monumentet till restaureringen står i Jardin Anglais vid sjön."
+    ]
   }
 }

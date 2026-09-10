@@ -413,7 +413,10 @@ async function updateCredits(allSaved) {
 async function main() {
   const args = process.argv.slice(2);
   const onlyFun = args.includes('--fun');
-  const onlySlugs = new Set(args.filter((a) => !a.startsWith('-')));
+  // Ziel-Filter: `slug` (alle Laender mit diesem Slug) oder `CC/slug` (nur dieses
+  // Land — wichtig bei --force, damit z. B. `EG/revolution_day` nicht auch die
+  // kuratierten MX-Bilder ueberschreibt).
+  const only = args.filter((a) => !a.startsWith('-'));
 
   // FUN targets only get pulled in on an explicit --fun run, never on the
   // unscoped monthly CI build (build-all.mjs calls fetch-images.mjs with no
@@ -430,13 +433,16 @@ async function main() {
   } else {
     targets = listImageTargets();
   }
-  if (onlySlugs.size > 0) targets = targets.filter((t) => onlySlugs.has(t.slug));
+  if (only.length > 0) {
+    targets = targets.filter((t) =>
+      only.some((arg) => arg === t.slug || arg === `${t.countryCode ?? ''}/${t.slug}`),
+    );
+  }
 
   // Checked AFTER the slug filter so `--fun <typo>` fails loudly (exit 1)
   // instead of silently doing nothing with exit 0.
   if (onlyFun && targets.length === 0) {
-    const scope =
-      onlySlugs.size > 0 ? [...onlySlugs].join(', ') : '(content/fun-days missing or empty)';
+    const scope = only.length > 0 ? only.join(', ') : '(content/fun-days missing or empty)';
     console.error(`fetch-images --fun: no targets match ${scope}`);
     process.exit(1);
   }

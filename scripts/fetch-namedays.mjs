@@ -14,7 +14,7 @@ import { existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { NAMEDAY_COUNTRIES, SOURCES } from './config.mjs';
-import { fetchJsonWithTimeout } from './lib/httpClient.mjs';
+import { fetchWithTimeout, FailureBudget } from './lib/httpClient.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PACKAGES = join(__dirname, '..', 'data', 'packages');
@@ -22,9 +22,33 @@ const PACKAGES = join(__dirname, '..', 'data', 'packages');
 /** Strings abalin returns that are not personal names. */
 const NON_NAME = /^(n\/a|support ukraine)/i;
 
-// #130: Timeout + Retry/Backoff statt nacktem fetch.
+// abalin drosselt auf 60 Requests/Minute (Header x-ratelimit-limit: 60). Ohne
+// Pacing liefert der Endpoint ab Tag 61 nur noch 429 — die Run vom 2026-09-01
+// hat so Namenstags-Tabellen mit 60 statt 366 Tagen veroeffentlicht.
+const PACE_MS = Number(process.env.NAMEDAY_PACE_MS ?? 1050);
+const RATE_LIMIT_WAIT_MS = 61_000;
+const MAX_429_RETRIES = 3;
+// Harter Abbruch, wenn zu viele Tage fehlen (wie fetch-holidays.mjs) — lieber
+// ein roter Build als stille Luecken im Release.
+const fetchBudget = new FailureBudget({ maxFailureRate: 0.1, minSamples: 30 });
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// #130: Timeout + Retry/Backoff statt nacktem fetch; 429 wartet das
+// Rate-Limit-Fenster ab (Retry-After, sonst 61 s) statt sofort aufzugeben.
 async function fetchJson(url) {
-  return fetchJsonWithTimeout(url, { timeoutMs: 15000, retries: 2, backoffMs: 500 });
+  for (let attempt = 0; ; attempt++) {
+    const res = await fetchWithTimeout(url, { timeoutMs: 15000, retries: 2, backoffMs: 500 });
+    if (res.status === 429 && attempt < MAX_429_RETRIES) {
+      const retryAfter = Number(res.headers.get('retry-after'));
+      const waitMs = Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : RATE_LIMIT_WAIT_MS;
+      console.warn(`  429 rate limit — warte ${Math.round(waitMs / 1000)} s (Versuch ${attempt + 1}/${MAX_429_RETRIES})`);
+      await sleep(waitMs);
+      continue;
+    }
+    if (!res.ok) throw new Error(`${res.status} ${url}`);
+    return res.json();
+  }
 }
 
 async function latestPackagePath(cc) {
@@ -63,9 +87,14 @@ async function main() {
       let json;
       try {
         json = await fetchJson(SOURCES.abalinDate(day, month));
+        fetchBudget.success();
       } catch (err) {
+        fetchBudget.failure();
         console.warn(`  ${pad(month)}-${pad(day)}: ${err.message}`);
+        fetchBudget.assertWithinBudget('fetch-namedays');
         continue;
+      } finally {
+        await sleep(PACE_MS);
       }
       const data = json?.data ?? {};
       const mmdd = `${pad(month)}-${pad(day)}`;
@@ -75,6 +104,7 @@ async function main() {
       }
     }
   }
+  fetchBudget.assertWithinBudget('fetch-namedays');
 
   for (const cc of wanted) {
     const entries = Object.keys(maps[cc]).length;
@@ -88,6 +118,13 @@ async function main() {
       continue;
     }
     const pkg = JSON.parse(await readFile(pkgPath, 'utf8'));
+    // Nie eine vollstaendigere Tabelle durch eine lueckenhaftere ersetzen
+    // (Teil-Ausfall der Quelle) — die vorhandene bleibt dann stehen.
+    const existing = Object.keys(pkg.namedays ?? {}).length;
+    if (entries < existing) {
+      console.warn(`  ${cc}: nur ${entries} Tage geholt, behalte vorhandene ${existing}`);
+      continue;
+    }
     pkg.namedays = maps[cc];
     await writeFile(pkgPath, JSON.stringify(pkg, null, 2) + '\n', 'utf8');
     console.log(`  ${cc}: ${entries} nameday entries`);
