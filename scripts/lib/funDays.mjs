@@ -29,6 +29,20 @@ export const DAYS_IN_MONTH = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 export const SLUG_RE = /^[a-z0-9_]+$/;
 /** Kuratierter Commons-Dateititel (optional pro Tag), z. B. "File:Popcorn.jpg". */
 export const IMAGE_FILE_RE = /^File:.+\.(jpe?g|png)$/i;
+/**
+ * Titellänge: Die App zeigt das Label als große Überschrift in der Hero-Karte
+ * des kuriosen Feiertags. Alles darüber bricht dort unschön um.
+ * `LABEL_WORD_MAX` fängt zusätzlich Komposita ab (deutsch/finnisch/niederländisch),
+ * die als ein Wort nicht umbrechen können und die Zeile sprengen.
+ */
+export const LABEL_MAX = 36;
+export const LABEL_WORD_MAX = 24;
+/**
+ * Wortprüfung nur für Locales mit Leerzeichen-Wortgrenzen in lateinischer
+ * Schrift. ja/ko/zh-Hant schreiben ohne Leerzeichen — dort greift allein
+ * `LABEL_MAX` (bei diesen Schriften ohnehin die deutlich engere Grenze).
+ */
+export const LABEL_WORD_LOCALES = ['de', 'en', 'fr', 'es', 'pt', 'it', 'pl', 'nl', 'sv', 'nb', 'da', 'fi'];
 export const INTRO_MAX = 280;
 export const FUNFACT_MAX = 160;
 export const FUNFACTS_MIN = 3;
@@ -97,12 +111,28 @@ export async function loadFunDays(contentRoot, locales = FUN_LOCALES) {
   return { days, texts, textsByMonth, blackout, locales };
 }
 
-function checkText(prefix, entry, errors) {
+/** Längstes durch Leerzeichen getrenntes Wort (Bindestrich zählt nicht als Trenner). */
+function longestWord(label) {
+  return label.split(/[\s ]+/).reduce((max, w) => (w.length > max.length ? w : max), '');
+}
+
+function checkText(prefix, entry, errors, locale) {
   if (!entry || typeof entry !== 'object') {
     errors.push(`${prefix}: missing text`);
     return;
   }
   if (typeof entry.label !== 'string' || entry.label.trim() === '') errors.push(`${prefix}: empty label`);
+  else {
+    if (entry.label.length > LABEL_MAX) {
+      errors.push(`${prefix}: label too long (${entry.label.length} > ${LABEL_MAX})`);
+    }
+    if (LABEL_WORD_LOCALES.includes(locale)) {
+      const word = longestWord(entry.label);
+      if (word.length > LABEL_WORD_MAX) {
+        errors.push(`${prefix}: label word too long (${word.length} > ${LABEL_WORD_MAX}): "${word}"`);
+      }
+    }
+  }
   if (typeof entry.intro !== 'string' || entry.intro.trim() === '') errors.push(`${prefix}: empty intro`);
   else if (entry.intro.length > INTRO_MAX) errors.push(`${prefix}: intro too long (${entry.intro.length} > ${INTRO_MAX})`);
   const facts = entry.funFacts;
@@ -175,7 +205,7 @@ export function validateFunDays(data, { imagesRoot, requireImages = true, locale
     for (const mm of MONTHS) {
       const map = textsByMonth[loc]?.[mm] ?? {};
       for (const slug of slugByMonth[mm] ?? []) {
-        checkText(`${loc}/${mm} ${slug}`, map[slug], errors);
+        checkText(`${loc}/${mm} ${slug}`, map[slug], errors, loc);
       }
       for (const slug of Object.keys(map)) {
         if (!slugByMonth[mm]?.has(slug)) errors.push(`${loc}/${mm}: unknown slug "${slug}"`);

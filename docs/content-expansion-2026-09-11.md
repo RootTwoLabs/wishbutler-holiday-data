@@ -1,5 +1,7 @@
 # Erweiterung der Länderfeiertage – 11. September 2026
 
+Nachtrag zum Merge: Der Kollegen-Commit `6469f15` (FUN-Titel mit höchstens 36 Zeichen und zusätzliche Tests) wurde integriert. Die gemeinsame Ausgabe ist FUN v16. Alle 89 Tests und die Schema-Prüfung aller 3.067 Pakete bestehen; erneute Builds sind unverändert. Die unten dokumentierten Zahlen zur ursprünglichen Prüfung gelten vor diesem Merge. Bei der Versionskollision für FUN v9 wurde die bereits veröffentlichte Datei aus `origin/main` übernommen; unsere überarbeiteten Inhalte sind im aktuellen FUN v16 enthalten. Die übrigen historischen Paketdateien bleiben unverändert.
+
 Die 20 priorisierten Feiertage aus der Bestandsprüfung sind umgesetzt: 340 Sprachfassungen mit insgesamt 2.040 neuen Textfeldern und 20 passenden, lizenzierten Bildern. Die Inhalte und die aktualisierten Pakete liegen lokal vor; sie sind noch nicht veröffentlicht.
 
 ## Abdeckung

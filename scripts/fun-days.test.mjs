@@ -5,6 +5,8 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import {
   FUN_LOCALES,
+  LABEL_MAX,
+  LABEL_WORD_MAX,
   allCalendarDays,
   expectedFunDays,
   loadFunDays,
@@ -173,6 +175,84 @@ test('fehlende Locale-Texte und zu lange Texte werden gemeldet', async (t) => {
   assert.ok(errors.some((e) => e.includes('funFacts count')));
   assert.ok(errors.some((e) => e.includes('funFact too long')));
   assert.ok(errors.some((e) => e.includes('empty label')));
+});
+
+test('zu langes Label wird gemeldet (Hero-Überschrift bricht sonst um)', async (t) => {
+  assert.equal(LABEL_MAX, 36);
+  const { root, content, images } = await writeFixture({
+    locales: ['de', 'en'],
+    mutate: (f) => {
+      f.texts.de['05'][f.byMonth['05'][0].slug].label = 'Tag des Comiclesens in der Öffentlichkeit'; // 41
+      f.texts.en['05'][f.byMonth['05'][1].slug].label = 'x'.repeat(LABEL_MAX + 1);
+    },
+  });
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const errors = validateFunDays(await loadFunDays(content, ['de', 'en']), {
+    imagesRoot: images,
+    requireImages: false,
+  });
+  assert.ok(
+    errors.some((e) => e.startsWith('de/05') && e.includes(`label too long (41 > ${LABEL_MAX})`)),
+    errors.join('\n'),
+  );
+  assert.ok(
+    errors.some((e) => e.startsWith('en/05') && e.includes(`label too long (37 > ${LABEL_MAX})`)),
+    errors.join('\n'),
+  );
+});
+
+test('einzelnes zu langes Wort wird gemeldet (deutsche Komposita)', async (t) => {
+  assert.equal(LABEL_WORD_MAX, 24);
+  const { root, content, images } = await writeFixture({
+    locales: ['de'],
+    mutate: (f) => {
+      // 30 Zeichen am Stück, Gesamtlänge aber unter LABEL_MAX.
+      f.texts.de['06'][f.byMonth['06'][0].slug].label = 'Erdnussbutter-Marmeladen-Brot!';
+    },
+  });
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const errors = validateFunDays(await loadFunDays(content, ['de']), { imagesRoot: images, requireImages: false });
+  const hit = errors.find((e) => e.startsWith('de/06') && e.includes('label word too long'));
+  assert.ok(hit, errors.join('\n'));
+  assert.ok(hit.includes(`30 > ${LABEL_WORD_MAX}`), hit);
+  assert.ok(!errors.some((e) => e.includes('label too long')), errors.join('\n'));
+});
+
+test('Grenzwerte: 36 Zeichen und 24-Zeichen-Wort sind ok', async (t) => {
+  const { root, content, images } = await writeFixture({
+    locales: ['de'],
+    mutate: (f) => {
+      f.texts.de['07'][f.byMonth['07'][0].slug].label = `${'W'.repeat(LABEL_WORD_MAX)} ${'x'.repeat(11)}`; // 36
+    },
+  });
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const errors = validateFunDays(await loadFunDays(content, ['de']), { imagesRoot: images, requireImages: false });
+  assert.deepEqual(errors, []);
+});
+
+test('CJK-Locales: nur Längenlimit, keine Wortprüfung', async (t) => {
+  const { root, content, images } = await writeFixture({
+    locales: ['ja', 'ko', 'zh-Hant'],
+    mutate: (f) => {
+      // 30 Zeichen ohne Leerzeichen: gültig, weil Wortprüfung hier nicht greift.
+      f.texts.ja['08'][f.byMonth['08'][0].slug].label = '国'.repeat(30);
+      f.texts.ko['08'][f.byMonth['08'][0].slug].label = '가'.repeat(30);
+      f.texts['zh-Hant']['08'][f.byMonth['08'][0].slug].label = '日'.repeat(30);
+      f.texts.ja['08'][f.byMonth['08'][1].slug].label = '国'.repeat(LABEL_MAX + 1);
+    },
+  });
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const errors = validateFunDays(await loadFunDays(content, ['ja', 'ko', 'zh-Hant']), {
+    imagesRoot: images,
+    requireImages: false,
+  });
+  assert.ok(!errors.some((e) => e.includes('label word too long')), errors.join('\n'));
+  assert.deepEqual(
+    errors.filter((e) => e.includes('label too long')).length,
+    1,
+    errors.join('\n'),
+  );
+  assert.ok(errors.some((e) => e.startsWith('ja/08') && e.includes(`label too long (37 > ${LABEL_MAX})`)));
 });
 
 test('Locale-Einschränkung prüft nur die angegebenen Locales', async (t) => {
