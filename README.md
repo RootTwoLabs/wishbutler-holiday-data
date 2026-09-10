@@ -31,8 +31,9 @@ data/
   packages/<CC>/v<N>/package.json  # one package per country + version
   images/<articleKey>/<nn>.jpg     # holiday images, multiple per holiday allowed
 content/fun-days/
-  days/<MM>.json                   # kuriose Feiertage: Datum, Slug, Bild-Suchbegriffe (1 pro Kalendertag, 366)
+  days/<MM>.json                   # kuriose Feiertage: Datum, Slug, Bild-Suchbegriffe (1 pro Kalendertag)
   <locale>/<MM>.json               # Label, Intro, 3 Fun Facts je Slug in 17 Sprachen (alle App-Locales)
+  blackout.json                    # Tage, die bewusst OHNE kuriosen Feiertag bleiben ("MM-DD" -> Begründung)
 data/images/FUN/<slug>/01.jpg      # ein freies Bild pro kuriosem Feiertag
 schema/
   index.schema.json                # JSON Schema for index.json
@@ -64,6 +65,24 @@ Dates are described by rules so the client computes any year offline:
   `npm run check:fun-days`, build with `npm run build:fun-occasions`. FUN images
   are only fetched explicitly via `node scripts/fetch-images.mjs --fun` — the
   regular CI run does not fetch them.
+
+### Deliberately empty days (`blackout.json`)
+
+Normally every calendar day carries exactly one fun day. A day that must stay
+**without** one — e.g. 27 January, International Holocaust Remembrance Day —
+is listed in `content/fun-days/blackout.json`:
+
+```json
+{ "01-27": "Internationaler Tag des Gedenkens an die Opfer des Holocaust — bewusst kein kurioser Feiertag" }
+```
+
+The key is the `MM-DD` day, the value a non-empty rationale. Blacked-out days
+drop out of the expected set (`expectedFunDays()` in `scripts/lib/funDays.mjs`),
+so no entry is required for them — and an entry *on* such a day is a validation
+error ("day is blacked out"), in `content/fun-days/days/<MM>.json` as well as in
+the built package. The blackout list is authoring metadata only and is never
+written into `data/packages/FUN/`. To free a day, remove its entry, add the day
+to `days/<MM>.json` plus all 17 locale files, and fetch its image.
 
 See [`CREDITS.md`](./CREDITS.md) for per-asset attribution and licenses.
 

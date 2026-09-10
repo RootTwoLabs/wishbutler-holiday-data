@@ -8,7 +8,7 @@
  */
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { FUN_LOCALES, allCalendarDays, loadFunDays, validateFunDays } from './lib/funDays.mjs';
+import { FUN_LOCALES, expectedFunDays, loadFunDays, validateFunDays } from './lib/funDays.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
@@ -31,12 +31,20 @@ const requireImages = !args.includes('--no-images');
 const data = await loadFunDays(join(ROOT, 'content', 'fun-days'), locales);
 const errors = validateFunDays(data, { imagesRoot: join(ROOT, 'data', 'images'), requireImages });
 
-const validDates = new Set(allCalendarDays());
+// Erwartet werden alle Kalendertage außer den bewusst leeren Blackout-Tagen
+// (content/fun-days/blackout.json).
+const expected = expectedFunDays(data.blackout);
+const validDates = new Set(expected);
 const uniqueValidDays = new Set(
   data.days.filter((d) => typeof d.date === 'string' && validDates.has(d.date)).map((d) => d.date),
 ).size;
+const blackoutCount = Object.keys(data.blackout ?? {}).length;
 
-console.log(`fun-days: ${uniqueValidDays}/366 Tage, Locales [${locales.join(', ')}], Bildpflicht ${requireImages ? 'an' : 'aus'}`);
+console.log(
+  `fun-days: ${uniqueValidDays}/${expected.length} Tage` +
+    (blackoutCount > 0 ? ` (+${blackoutCount} bewusst leer)` : '') +
+    `, Locales [${locales.join(', ')}], Bildpflicht ${requireImages ? 'an' : 'aus'}`,
+);
 if (errors.length > 0) {
   console.error(`${errors.length} Fehler:\n` + errors.map((e) => `  - ${e}`).join('\n'));
   process.exit(1);

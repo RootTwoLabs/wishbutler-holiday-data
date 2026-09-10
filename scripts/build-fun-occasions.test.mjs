@@ -5,17 +5,26 @@ import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
-import { FUN_LOCALES, allCalendarDays, loadFunDays, buildFunPackage } from './lib/funDays.mjs';
+import { readFileSync } from 'node:fs';
+import { FUN_LOCALES, expectedFunDays, loadFunDays, buildFunPackage } from './lib/funDays.mjs';
 import { latestVersion, contentKey, decideVersion } from './build-fun-occasions.mjs';
 import { checkFunDefinitions } from './validate.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-/** Baut ein vollständiges, gültiges Content-Set (366 Tage) in einem Temp-Ordner (wie fun-days.test.mjs). */
+/**
+ * Blackout-Tage des echten Repos: `checkFunDefinitions` leitet seine Erwartung
+ * daraus ab, also muss das Fixture dieselben Tage auslassen.
+ */
+const REPO_BLACKOUT = JSON.parse(
+  readFileSync(join(__dirname, '..', 'content', 'fun-days', 'blackout.json'), 'utf8'),
+);
+
+/** Baut ein vollständiges, gültiges Content-Set (alle erwarteten Tage) in einem Temp-Ordner (wie fun-days.test.mjs). */
 async function writeFixture({ locales = FUN_LOCALES, mutate = () => {} } = {}) {
   const root = await mkdtemp(join(tmpdir(), 'fun-build-'));
   const content = join(root, 'content', 'fun-days');
-  const days = allCalendarDays().map((date) => ({
+  const days = expectedFunDays(REPO_BLACKOUT).map((date) => ({
     date,
     slug: `day_${date.replace('-', '_')}`,
     imageQueries: [`query ${date}`],
@@ -123,12 +132,28 @@ test('contentKey: ignoriert nur `version`', () => {
 
 // --- checkFunDefinitions -------------------------------------------------
 
-test('checkFunDefinitions: gültiges v5-Paket (366 Tage) hat keine Fehler', async (t) => {
+test('checkFunDefinitions: gültiges Paket (alle erwarteten Tage) hat keine Fehler', async (t) => {
   const { root, pkg } = await buildFixturePackage();
   t.after(() => rm(root, { recursive: true, force: true }));
+  assert.equal(pkg.definitions.length, 366 - Object.keys(REPO_BLACKOUT).length);
   const errors = [];
   checkFunDefinitions(pkg, errors);
   assert.deepEqual(errors, []);
+});
+
+test('checkFunDefinitions: Definition an einem Blackout-Tag wird gemeldet', async (t) => {
+  const { root, pkg } = await buildFixturePackage();
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const [blackoutDay] = Object.keys(REPO_BLACKOUT);
+  const [mm, dd] = blackoutDay.split('-').map(Number);
+  // Einen bestehenden Tag auf den Blackout-Tag umbiegen (Anzahl bleibt korrekt).
+  pkg.definitions[0].rule = { type: 'fixed', month: mm, day: dd };
+  const errors = [];
+  checkFunDefinitions(pkg, errors);
+  assert.ok(
+    errors.some((e) => e.includes('day is blacked out') && e.includes(blackoutDay)),
+    errors.join('\n'),
+  );
 });
 
 test('checkFunDefinitions: fehlendes fr-Label wird gemeldet', async (t) => {

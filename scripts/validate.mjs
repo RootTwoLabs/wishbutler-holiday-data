@@ -4,13 +4,13 @@
  * Also runs cross-checks the schema cannot express (referential integrity).
  */
 import { readFile, readdir } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { join, dirname, relative, sep } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
 import { LOCALES } from './config.mjs';
-import { allCalendarDays, FUN_LOCALES } from './lib/funDays.mjs';
+import { expectedFunDays, FUN_LOCALES } from './lib/funDays.mjs';
 import { isCc0OrPd } from './lib/imageLicense.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -30,6 +30,18 @@ const FUNFACTS_RECOMMENDED_MAX = 5;
  * sobald FUN v5 live ist und keine v<5-Pakete mehr im Umlauf sind.
  */
 const FUN_DEFINITIONS_SINCE_VERSION = 5;
+
+/**
+ * Bewusst leere Kalendertage (content/fun-days/blackout.json, `{ "MM-DD": Grund }`),
+ * z. B. der 27.01. (Holocaust-Gedenktag). Sie fallen aus der FUN-Erwartung
+ * heraus; eine Definition an so einem Tag ist ein Fehler. Fehlt die Datei,
+ * bleibt es bei allen 366 Kalendertagen.
+ */
+const FUN_BLACKOUT = (() => {
+  const path = join(ROOT, 'content', 'fun-days', 'blackout.json');
+  return existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : {};
+})();
+const FUN_EXPECTED_DAYS = new Set(expectedFunDays(FUN_BLACKOUT));
 
 async function readJson(path) {
   return JSON.parse(await readFile(path, 'utf8'));
@@ -121,15 +133,19 @@ function checkFunOccasions(pkg, errors, warnings) {
 /**
  * FUN ab v5: jede Definition braucht Label + Artikel in allen FUN_LOCALES (ab
  * v6 alle 17 App-Sprachen, nicht nur die 12 aus LOCALES) und ein
- * Bild mit Lizenz; genau eine Definition pro echtem Kalendertag (366), alle
- * Regeln `fixed`, iconName/category fest ("party-popper"/"observance").
+ * Bild mit Lizenz; genau eine Definition pro erwartetem Kalendertag (366 minus
+ * der Blackout-Tage aus content/fun-days/blackout.json), alle Regeln `fixed`,
+ * iconName/category fest ("party-popper"/"observance").
  * Bilder ohne CC0/Public-Domain-Lizenz brauchen einen Credit.
  */
 export function checkFunDefinitions(pkg, errors) {
   if (pkg.version < FUN_DEFINITIONS_SINCE_VERSION) return;
   const defs = pkg.definitions ?? [];
-  if (defs.length !== 366) errors.push(`FUN: expected 366 definitions, got ${defs.length}`);
-  const expectedDays = new Set(allCalendarDays());
+  const expectedCount = FUN_EXPECTED_DAYS.size;
+  if (defs.length !== expectedCount) {
+    errors.push(`FUN: expected ${expectedCount} definitions, got ${defs.length}`);
+  }
+  const expectedDays = FUN_EXPECTED_DAYS;
   const seenDays = new Set();
   const labels = pkg.i18n?.holidays ?? {};
   const info = pkg.i18n?.holidayInfo ?? {};
@@ -142,7 +158,11 @@ export function checkFunDefinitions(pkg, errors) {
       errors.push(`FUN ${def.id}: rule must be fixed`);
     } else {
       const dayKey = `${pad2(def.rule.month)}-${pad2(def.rule.day)}`;
-      if (!expectedDays.has(dayKey)) errors.push(`FUN ${def.id}: kein gültiger Kalendertag (${dayKey})`);
+      if (FUN_BLACKOUT[dayKey] !== undefined) {
+        errors.push(`FUN ${def.id}: day is blacked out (${dayKey}: ${FUN_BLACKOUT[dayKey]})`);
+      } else if (!expectedDays.has(dayKey)) {
+        errors.push(`FUN ${def.id}: kein gültiger Kalendertag (${dayKey})`);
+      }
       if (seenDays.has(dayKey)) errors.push(`FUN ${def.id}: duplicate day ${dayKey}`);
       seenDays.add(dayKey);
     }

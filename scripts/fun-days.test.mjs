@@ -6,6 +6,7 @@ import { join } from 'node:path';
 import {
   FUN_LOCALES,
   allCalendarDays,
+  expectedFunDays,
   loadFunDays,
   validateFunDays,
   buildFunPackage,
@@ -13,19 +14,22 @@ import {
   funImageTargets,
 } from './lib/funDays.mjs';
 
-/** Baut ein vollständiges, gültiges Content-Set (366 Tage) in einem Temp-Ordner. */
-async function writeFixture({ locales = FUN_LOCALES, withImages = true, mutate = () => {} } = {}) {
+/**
+ * Baut ein vollständiges, gültiges Content-Set in einem Temp-Ordner: einen Tag
+ * je erwartetem Kalendertag (366 minus Blackout-Tage).
+ */
+async function writeFixture({ locales = FUN_LOCALES, withImages = true, blackout = null, mutate = () => {} } = {}) {
   const root = await mkdtemp(join(tmpdir(), 'fun-days-'));
   const content = join(root, 'content', 'fun-days');
   const images = join(root, 'data', 'images');
-  const days = allCalendarDays().map((date) => ({
+  const days = expectedFunDays(blackout ?? {}).map((date) => ({
     date,
     slug: `day_${date.replace('-', '_')}`,
     imageQueries: [`query ${date}`],
   }));
   const byMonth = {};
   for (const d of days) (byMonth[d.date.slice(0, 2)] ??= []).push(d);
-  const fixture = { byMonth, texts: {}, locales };
+  const fixture = { byMonth, texts: {}, locales, blackout };
   for (const loc of locales) {
     fixture.texts[loc] = {};
     for (const [mm, list] of Object.entries(byMonth)) {
@@ -43,6 +47,9 @@ async function writeFixture({ locales = FUN_LOCALES, withImages = true, mutate =
   await mkdir(join(content, 'days'), { recursive: true });
   for (const [mm, list] of Object.entries(fixture.byMonth)) {
     await writeFile(join(content, 'days', `${mm}.json`), JSON.stringify({ days: list }));
+  }
+  if (fixture.blackout) {
+    await writeFile(join(content, 'blackout.json'), JSON.stringify(fixture.blackout));
   }
   for (const loc of Object.keys(fixture.texts)) {
     await mkdir(join(content, loc), { recursive: true });
@@ -68,6 +75,17 @@ test('allCalendarDays liefert 366 eindeutige MM-DD inkl. 02-29', () => {
   assert.equal(days.at(-1), '12-31');
 });
 
+test('expectedFunDays: Blackout-Tage fallen aus der Erwartung heraus', () => {
+  assert.deepEqual(expectedFunDays({}), allCalendarDays());
+  const expected = expectedFunDays({ '01-27': 'Gedenktag', '12-24': 'Heiligabend' });
+  assert.equal(expected.length, 364);
+  assert.ok(!expected.includes('01-27'));
+  assert.ok(!expected.includes('12-24'));
+  assert.equal(expected[0], '01-01');
+  // Unbekannte Keys ändern die Menge nicht (die Form prüft validateFunDays).
+  assert.equal(expectedFunDays({ '13-99': 'quatsch' }).length, 366);
+});
+
 test('gültiges Content-Set: keine Fehler', async (t) => {
   const { root, content, images } = await writeFixture();
   t.after(() => rm(root, { recursive: true, force: true }));
@@ -75,6 +93,42 @@ test('gültiges Content-Set: keine Fehler', async (t) => {
   assert.equal(data.days.length, 366);
   const errors = validateFunDays(data, { imagesRoot: images, requireImages: true });
   assert.deepEqual(errors, []);
+});
+
+test('Blackout-Tag ohne Eintrag ist kein Fehler', async (t) => {
+  const blackout = { '01-27': 'Internationaler Tag des Gedenkens an die Opfer des Holocaust' };
+  const { root, content, images } = await writeFixture({ blackout });
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const data = await loadFunDays(content);
+  assert.deepEqual(data.blackout, blackout);
+  assert.equal(data.days.length, 365);
+  assert.deepEqual(validateFunDays(data, { imagesRoot: images, requireImages: true }), []);
+});
+
+test('Eintrag an einem Blackout-Tag wird gemeldet', async (t) => {
+  const { root, content, images } = await writeFixture({
+    blackout: { '01-27': 'Holocaust-Gedenktag' },
+    mutate: (f) => {
+      f.byMonth['01'].push({ date: '01-27', slug: 'chocolate_cake_day', imageQueries: ['cake'] });
+      f.texts.de['01'].chocolate_cake_day = { label: 'x', intro: 'y', funFacts: ['a', 'b', 'c'] };
+    },
+  });
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const errors = validateFunDays(await loadFunDays(content), { imagesRoot: images, requireImages: false });
+  assert.ok(
+    errors.some((e) => e.includes('01-27') && e.includes('day is blacked out')),
+    errors.join('\n'),
+  );
+});
+
+test('ungültiger Blackout-Key und leere Begründung werden gemeldet', async (t) => {
+  const { root, content, images } = await writeFixture({
+    blackout: { '13-40': 'kein echter Tag', '01-27': '   ' },
+  });
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const errors = validateFunDays(await loadFunDays(content), { imagesRoot: images, requireImages: false });
+  assert.ok(errors.some((e) => e.includes('blackout') && e.includes('13-40')), errors.join('\n'));
+  assert.ok(errors.some((e) => e.includes('blackout') && e.includes('01-27')), errors.join('\n'));
 });
 
 test('fehlender Tag und doppelter Tag werden gemeldet', async (t) => {
@@ -257,16 +311,21 @@ test('buildFunPackage: fehlender Text-Eintrag für eine Locale wird übersprunge
   assert.ok(funKey(missingSlug) in pkg.i18n.holidays.en);
 });
 
-// Integrationstest gegen den echten Content (Plan Task 9, Step 1): 366 Tage,
-// alle 17 Locales, ein Bild pro Tag — der Stand, den build-fun-occasions baut.
+// Integrationstest gegen den echten Content (Plan Task 9, Step 1): ein Tag je
+// Kalendertag außer den bewusst leeren Blackout-Tagen (aktuell nur der 27.01.,
+// Holocaust-Gedenktag), alle 17 Locales, ein Bild pro Tag — der Stand, den
+// build-fun-occasions baut.
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 const REPO = join(dirname(fileURLToPath(import.meta.url)), '..');
 
-test('echter Content: 366 Tage, 17 Locales, Bilder vollständig', async () => {
+test('echter Content: 365 Tage + Blackout 01-27, 17 Locales, Bilder vollständig', async () => {
   const data = await loadFunDays(join(REPO, 'content', 'fun-days'));
   const errors = validateFunDays(data, { imagesRoot: join(REPO, 'data', 'images'), requireImages: true });
   assert.deepEqual(errors, [], errors.slice(0, 20).join('\n'));
+  assert.deepEqual(Object.keys(data.blackout), ['01-27']);
+  assert.equal(data.days.length, 365);
+  assert.ok(!data.days.some((d) => d.date === '01-27'));
 });
 
 test('imageFile: kuratierter Commons-Titel wird als Target-Datei durchgereicht und validiert', async (t) => {

@@ -4,6 +4,10 @@
  * Content-Layout (content/fun-days/):
  *   days/<MM>.json        -> { days: [ { date: "MM-DD", slug, imageQueries: [] } ] }
  *   <locale>/<MM>.json    -> { <slug>: { label, intro, funFacts: [3..5] } }
+ *   blackout.json         -> { "MM-DD": "Begründung" } — Tage, die bewusst OHNE
+ *                            kuriosen Feiertag bleiben (z. B. 27.01., Holocaust-
+ *                            Gedenktag). Sie fallen aus der Erwartung heraus;
+ *                            ein Eintrag an so einem Tag ist ein Fehler.
  *
  * Alle Funktionen sind rein bzw. nur lesend, damit Tests ohne Netz laufen.
  */
@@ -41,6 +45,16 @@ export function allCalendarDays() {
   return out;
 }
 
+/**
+ * Erwartete Tage = alle Kalendertage minus die Blackout-Tage (`{ "MM-DD": Grund }`).
+ * Unbekannte/kaputte Keys reduzieren die Menge nicht — ihre Form prüft
+ * `validateFunDays`.
+ */
+export function expectedFunDays(blackout = {}) {
+  const skip = new Set(Object.keys(blackout ?? {}));
+  return allCalendarDays().filter((date) => !skip.has(date));
+}
+
 async function readJsonIfExists(path, fallback) {
   if (!existsSync(path)) return fallback;
   const raw = await readFile(path, 'utf8');
@@ -56,9 +70,11 @@ async function readJsonIfExists(path, fallback) {
  *   { days: [...] (nach Datum sortiert, mit `month`),
  *     texts: { [locale]: { [slug]: {label,intro,funFacts} } },
  *     textsByMonth: { [locale]: { [MM]: {...} } },
+ *     blackout: { "MM-DD": Grund } (leer, wenn blackout.json fehlt),
  *     locales: [...] (die tatsächlich geladenen Locales, Default für validateFunDays/buildFunPackage) }
  */
 export async function loadFunDays(contentRoot, locales = FUN_LOCALES) {
+  const blackout = await readJsonIfExists(join(contentRoot, 'blackout.json'), {});
   const days = [];
   for (const mm of MONTHS) {
     const doc = await readJsonIfExists(join(contentRoot, 'days', `${mm}.json`), { days: [] });
@@ -78,7 +94,7 @@ export async function loadFunDays(contentRoot, locales = FUN_LOCALES) {
       Object.assign(texts[loc], map);
     }
   }
-  return { days, texts, textsByMonth, locales };
+  return { days, texts, textsByMonth, blackout, locales };
 }
 
 function checkText(prefix, entry, errors) {
@@ -102,6 +118,8 @@ function checkText(prefix, entry, errors) {
 
 /**
  * Prüft Vollständigkeit und Form. Gibt eine Fehlerliste zurück (leer = ok).
+ * Erwartet wird genau ein Eintrag je Kalendertag außer den Blackout-Tagen aus
+ * `data.blackout` — die bleiben bewusst leer, ein Eintrag dort ist ein Fehler.
  * `locales` schränkt die Text-Prüfung ein (Autoren-Modus, überschreibt
  * `data.locales`), `requireImages` verlangt data/images/FUN/<slug>/01.jpg
  * und dann auch `imagesRoot`.
@@ -112,7 +130,14 @@ export function validateFunDays(data, { imagesRoot, requireImages = true, locale
   const { days, textsByMonth } = data;
   const effectiveLocales = locales ?? data.locales ?? FUN_LOCALES;
 
-  const expected = new Set(allCalendarDays());
+  const blackout = data.blackout ?? {};
+  const calendarDays = new Set(allCalendarDays());
+  for (const [key, reason] of Object.entries(blackout)) {
+    if (!calendarDays.has(key)) errors.push(`blackout: invalid day "${key}"`);
+    if (typeof reason !== 'string' || reason.trim() === '') errors.push(`blackout ${key}: empty reason`);
+  }
+
+  const expected = new Set(expectedFunDays(blackout));
   const seenDates = new Set();
   const seenSlugs = new Set();
   for (const d of days) {
@@ -133,7 +158,8 @@ export function validateFunDays(data, { imagesRoot, requireImages = true, locale
     }
 
     if (!hasDate) continue; // datumsabhängige Folgechecks brauchen ein valides "MM-DD"
-    if (!expected.has(d.date)) errors.push(`${prefix}: invalid date`);
+    if (blackout[d.date] !== undefined) errors.push(`${prefix}: day is blacked out (${blackout[d.date]})`);
+    else if (!expected.has(d.date)) errors.push(`${prefix}: invalid date`);
     if (seenDates.has(d.date)) errors.push(`${prefix}: duplicate day ${d.date}`);
     seenDates.add(d.date);
     if (d.date.slice(0, 2) !== d.month) errors.push(`${prefix}: date belongs to another month file`);

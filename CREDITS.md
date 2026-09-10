@@ -108,7 +108,6 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 - `images/FUN/cheese_lovers_day/01.jpg` — Kimberly Vardeman (CC BY 2.0)
 - `images/FUN/cheesesteak_day/01.jpg` — jeffreyw (CC BY 2.0)
 - `images/FUN/chicken_wing_day/01.jpg` — Eugene Kim from San Francisco, USA (CC BY 2.0)
-- `images/FUN/chocolate_cake_day/01.jpg` — JIP (CC BY-SA 4.0)
 - `images/FUN/chocolate_chip_day/01.jpg` — Editor at Large (CC BY-SA 2.5)
 - `images/FUN/chocolate_covered_anything_day/01.jpg` — Dvortygirl (CC BY-SA 3.0)
 - `images/FUN/chocolate_fondue_day/01.jpg` — Jpbazard Jean-Pierre Bazard (CC BY-SA 3.0)

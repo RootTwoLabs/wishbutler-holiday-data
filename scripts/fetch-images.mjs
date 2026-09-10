@@ -11,14 +11,14 @@
  *   - --fun  only the FUN targets (curated fun-days content)
  */
 import { mkdir, writeFile, readFile, readdir } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { listImageTargets, termsForSlug } from '../content/image-queries.mjs';
 import { classifyLicense, isCc0OrPd, needsCredit, stripHtml } from './lib/imageLicense.mjs';
 import { fetchWithTimeout } from './lib/httpClient.mjs';
 import { sniffImageType, isImageContentType, MAX_IMAGE_BYTES } from './lib/imageValidation.mjs';
-import { funImageTargets } from './lib/funDays.mjs';
+import { funImageTargets, expectedFunDays } from './lib/funDays.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -32,7 +32,14 @@ const MAX_IMAGES = 3;
 const MIN_WIDTH = 800;
 const MIN_HEIGHT = 500;
 const THUMB_WIDTH = 1280;
-const EXPECTED_FUN_TARGETS = 366; // one curated occasion per calendar day, incl. leap day
+// One curated occasion per calendar day (incl. leap day), minus the days that
+// are deliberately left empty in content/fun-days/blackout.json.
+const FUN_CONTENT = join(ROOT, 'content', 'fun-days');
+const EXPECTED_FUN_TARGETS = expectedFunDays(
+  existsSync(join(FUN_CONTENT, 'blackout.json'))
+    ? JSON.parse(readFileSync(join(FUN_CONTENT, 'blackout.json'), 'utf8'))
+    : {},
+).length;
 
 const force = process.argv.includes('--force');
 
@@ -423,7 +430,7 @@ async function main() {
   // arguments) — the curated fun-days content is authored/reviewed separately.
   let targets;
   if (onlyFun) {
-    targets = await funImageTargets(join(ROOT, 'content', 'fun-days'));
+    targets = await funImageTargets(FUN_CONTENT);
     // Refers to the full FUN set, before any slug filter narrows it down.
     if (targets.length !== EXPECTED_FUN_TARGETS) {
       console.warn(
