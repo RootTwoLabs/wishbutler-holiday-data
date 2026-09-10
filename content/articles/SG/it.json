@@ -2,21 +2,41 @@
   "national_day": {
     "intro": "La festa nazionale di Singapore, il 9 agosto, celebra l’indipendenza della nazione nel 1965.",
     "history": "Il 9 agosto 1965 Singapore si separò dalla Malesia e divenne una repubblica indipendente e sovrana. Da piccola città portuale crebbe rapidamente fino a diventare una delle nazioni più ricche del mondo, una trasformazione celebrata ogni anno.",
-    "traditions": "Il momento clou è la National Day Parade, con sfilate militari e civili, un sorvolo dell’aeronautica e uno spettacolare spettacolo di fuochi d’artificio sopra Marina Bay. I singaporiani recitano il Giuramento nazionale e cantano l’inno composto per l’occasione.",
+    "traditions": "Il momento clou è la National Day Parade, con sfilate militari e civili, un sorvolo dell’aeronautica e uno spettacolo di fuochi d’artificio sopra Marina Bay. I singaporiani recitano il Giuramento nazionale e cantano l’inno composto per l’occasione.",
     "funFacts": [
       "Segna la separazione di Singapore dalla Malesia nel 1965.",
       "La National Day Parade prevede un sorvolo aereo e fuochi d’artificio.",
-      "I cittadini recitano insieme il Giuramento nazionale alle 20:22."
+      "La recitazione collettiva del Giuramento nazionale fa parte delle celebrazioni della festa nazionale."
     ]
   },
   "chinese_new_year": {
     "intro": "Il Capodanno cinese è una delle feste più grandi di Singapore, una festività di due giorni che accoglie il nuovo anno lunare.",
-    "history": "Portato dagli immigrati cinesi, che costituiscono la maggioranza della popolazione di Singapore, il Capodanno cinese segna l’inizio del calendario lunare. Nel corso delle generazioni è diventato una celebrazione nazionale emblematica nella Singapore multiculturale.",
+    "history": "Portato dagli immigrati cinesi, che costituiscono la maggioranza della popolazione di Singapore, il Capodanno cinese segna l’inizio del nuovo anno del calendario lunisolare cinese. Nel corso delle generazioni è diventato una celebrazione nazionale emblematica nella Singapore multiculturale.",
     "traditions": "Le famiglie si riuniscono per la cena del ricongiungimento e lanciano in aria lo «yusheng», un’insalata della prosperità, per buona fortuna. Chinatown è decorata con luci, i bambini ricevono buste rosse (hongbao) e si eseguono danze del leone per la prosperità.",
     "funFacts": [
       "Lanciare più in alto l’insalata «yusheng» porterebbe maggiore fortuna.",
       "Le buste rosse chiamate «hongbao» contengono denaro portafortuna.",
       "Le illuminazioni annuali di Chinatown attirano folle enormi."
+    ]
+  },
+  "deepavali": {
+    "intro": "Deepavali, il Festival delle luci, è un'importante celebrazione indù e un giorno festivo a Singapore. Le lampade e le riunioni di famiglia esprimono il trionfo della luce sulle tenebre e del bene sul male.",
+    "history": "Deepavali affonda le sue radici in diverse tradizioni indù, le cui storie e pratiche variano a seconda della comunità. A Singapore, i Tamil e altre comunità indiane ne hanno fatto una parte importante della vita culturale del paese. La sua data di calendario cambia di anno in anno.",
+    "traditions": "Le famiglie puliscono le loro case, decorano le porte con lampade a olio e motivi kolam e visitano templi e parenti. Nuovi vestiti, dolci e pasti condivisi fanno parte della celebrazione. Little India è nota per le sue festive decorazioni stradali e i suoi mercati.",
+    "funFacts": [
+      "Il nome Deepavali si riferisce a una fila di luci.",
+      "I modelli Kolam possono essere realizzati con polvere di riso colorata.",
+      "Le celebrazioni di Singapore riflettono le tradizioni delle comunità indù locali."
+    ]
+  },
+  "vesak_day": {
+    "intro": "Il Vesak Day è una celebrazione buddista e un giorno festivo a Singapore. Commemora la nascita, l'illuminazione e il passaggio al nirvana finale del Buddha, in particolare nella tradizione Theravada.",
+    "history": "Vesak prende il nome da un mese del tradizionale calendario indiano. Le comunità buddiste osservano i suoi eventi in modi diversi e talvolta in date diverse. A Singapore, l'occasione riunisce il culto del tempio, la riflessione e gli atti di generosità.",
+    "traditions": "I devoti visitano i templi, offrono fiori e luci e ascoltano gli insegnamenti. Alcuni templi tengono cerimonie in cui si fa il bagno a una piccola immagine del Buddha bambino. Fare beneficenza, fare volontariato e condividere pasti vegetariani esprimono compassione nella vita di tutti i giorni.",
+    "funFacts": [
+      "I fiori nelle offerte al tempio possono simboleggiare l'impermanenza della vita.",
+      "Le pratiche differiscono tra le comunità buddiste di Singapore.",
+      "La data gregoriana cambia con il calendario utilizzato per determinare l'osservanza."
     ]
   }
 }

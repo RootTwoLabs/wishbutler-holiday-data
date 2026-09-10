@@ -1,22 +1,32 @@
 {
   "bastille_day": {
-    "intro": "Ranskan kansallispäivänä 14. heinäkuuta muistutetaan Bastillen myrskystä vuonna 1789 ja Fête de la Fédérationista vuonna 1790 – vallankumouksen ja kansallisen yhtenäisyyden symboleista.",
-    "history": "14. heinäkuuta 1789 pariisilaiset hyökkäsivät Bastilleen, joka on kuninkaallisen absolutismin vihattu symboli, ja sytytti Ranskan vallankumouksen. Vuotta myöhemmin Fête de la Fédération juhli uutta kansakuntaa, ja vuonna 1880 kolmas tasavalta teki heinäkuun 14. päivästä virallisen kansallispäivän.",
-    "traditions": "Päivä alkaa Euroopan suurimmalla sotilasparaatilla Champs-Élysées'llä Pariisissa, presidentin arvioimalla. Kaupungeissa järjestetään palomiesten palloja edellisenä iltana, ja ilta päättyy mahtavaan ilotulitteeseen, tunnetuin Eiffel-tornin yllä.",
+    "intro": "Ranskan kansallispäivänä 14. heinäkuuta muistutetaan Bastillen valtauksesta vuonna 1789 ja Fête de la Fédérationista vuonna 1790 – vallankumouksen ja kansallisen yhtenäisyyden symboleista.",
+    "history": "14. heinäkuuta 1789 pariisilaiset hyökkäsivät Bastilleen, kuninkaallisen yksinvallan vihattuun symboliin. Valtauksesta tuli Ranskan vallankumouksen merkkitapahtuma. Vuotta myöhemmin Fête de la Fédération juhli uutta kansakuntaa, ja vuonna 1880 kolmas tasavalta teki heinäkuun 14. päivästä virallisen kansallispäivän.",
+    "traditions": "Päivän kohokohtia on Pariisin sotilasparaati, jonka presidentti vastaanottaa. Kaupungeissa järjestetään palomiesten tanssiaisia jo edellisenä iltana. Juhlapäivän ilta päättyy suuriin ilotulituksiin, joista tunnetuin nähdään Eiffel-tornin yllä.",
     "funFacts": [
-      "Bastillessa oli vain seitsemän vankia, kun se myrskytettiin vuonna 1789.",
-      "Champs-Élysées-paraati on järjestetty lähes joka vuosi vuodesta 1880 lähtien.",
+      "Bastillessa oli vain seitsemän vankia, kun se vallattiin vuonna 1789.",
+      "Vuodesta 1880 sotilasparaati pidettiin aluksi Longchampissa; sen reitti vaihteli myöhemmin.",
       "Ranskassa päivää kutsutaan yksinkertaisesti \"le 14 juillet\", ei \"Bastille Day\"."
     ]
   },
   "armistice_day": {
-    "intro": "11. marraskuuta on vuoden 1918 aselepo, joka päätti ensimmäisen maailmansodan ja kunnioittaa kaikkia maan puolesta kuolleita ranskalaisia ​​sotilaita.",
-    "history": "Klo 11.00 11. marraskuuta 1918 Compiègnessa allekirjoitettu aselepo hiljensi länsirintaman aseet. Ranska menetti noin 1,4 miljoonaa sotilasta. Vuodesta 1922 lähtien päivämäärä on ollut kansallinen muistopäivä, joka laajennettiin myöhemmin kaikissa sodissa kaatuneiden muistopäivänä.",
+    "intro": "Marraskuun 11. päivänä muistetaan vuoden 1918 aselepoa, joka päätti ensimmäisen maailmansodan taistelut länsirintamalla. Päivänä kunnioitetaan kaikkia maansa puolesta kaatuneita ranskalaisia sotilaita.",
+    "history": "Compiègnessa allekirjoitettu aselepo hiljensi länsirintaman aseet 11. marraskuuta 1918 kello 11. Ranska menetti sodassa noin 1,4 miljoonaa sotilasta. Vuodesta 1922 päivämäärä on ollut kansallinen muistopäivä, joka laajennettiin myöhemmin kaikkien sotien kaatuneiden muistopäiväksi.",
     "traditions": "Presidentti laskee seppeleen Tuntemattoman sotilaan haudalle Riemukaaren alla Pariisissa, jossa ikuinen liekki palaa. Eri puolilla maata kansalaiset ja veteraanit kokoontuvat sotamuistomerkeille minuutin hiljaisuudelle.",
     "funFacts": [
-      "Aselepo tuli voimaan 11. kuukauden 11. päivän 11. tunnin kuluttua.",
-      "Riemukaaren alla oleva ikuinen liekki syttyy uudelleen joka ilta vuodesta 1923 lähtien.",
+      "Aselepo tuli voimaan yhdennentoista kuukauden yhdentenätoista päivänä kello 11.",
+      "Riemukaaren alla olevan ikuisen liekin äärellä on järjestetty jokailtainen sytytysseremonia vuodesta 1923.",
       "Sininen ruiskukka (le Bleuet) on Ranskan muiston symboli."
+    ]
+  },
+  "victory_in_europe_day": {
+    "intro": "Ranska juhlii 8. toukokuuta liittoutuneiden voittoa natsi-Saksasta vuonna 1945 ja toisen maailmansodan päättymistä Euroopassa. Se on kansallinen muistopäivä.",
+    "history": "Saksan sotilaallinen antautuminen tuli voimaan 8. toukokuuta 1945. Päivämäärästä tuli osa Ranskan julkisia sodan muistojuhlia, vaikka sen asema vapaapäivänä muuttui useita kertoja. Se palautettiin lakisääteiseksi yleiseksi vapaapäiväksi vuonna 1981.",
+    "traditions": "Virkamiehet, veteraanit, koululaiset ja asukkaat kokoontuvat sotamuistomerkkeihin seppeleen laskemiseen ja hiljaisuuden hetkiin. Pariisissa kansallinen seremonia keskittyy Riemukaareen ja Tuntemattoman sotilaan haudalle. Ranskan liput juhlistavat tilaisuutta.",
+    "funFacts": [
+      "8. toukokuuta merkitsee sodan loppua Euroopassa, ei Tyynenmeren sodan loppua.",
+      "Ranska viettää myös ensimmäisen maailmansodan aselevon muistoa 11. marraskuuta.",
+      "Paikallisissa seremonioissa kunnioitetaan sekä sodanaikaisia uhrauksia että rauhan paluuta."
     ]
   }
 }

@@ -12,11 +12,31 @@
   "hangul_day": {
     "intro": "O Dia do Hangul, 9 de outubro, celebra a criação do sistema de escrita coreano, o hangul.",
     "history": "O dia marca a proclamação em 1446 do Hunminjeongeum, o alfabeto coreano criado sob o rei Sejong, o Grande, para que o povo pudesse ler e escrever. O hangul é celebrado como uma escrita singularmente científica e acessível, e uma fonte de orgulho nacional.",
-    "traditions": "Eventos culturais, exposições de caligrafia e concursos celebram o alfabeto, e há cerimónias em honra do rei Sejong. É o único feriado nacional do mundo dedicado a um sistema de escrita.",
+    "traditions": "Eventos culturais, exposições de caligrafia e concursos celebram o alfabeto, e há cerimónias em honra do rei Sejong.",
     "funFacts": [
       "O hangul foi criado sob o rei Sejong, o Grande.",
       "Foi proclamado em 1446 para uso do povo.",
-      "É o único feriado do mundo que celebra um alfabeto."
+      "O feriado celebra a escrita coreana e o seu papel na alfabetização."
+    ]
+  },
+  "lunar_new_year": {
+    "intro": "Seollal é o Ano Novo Lunar coreano e um dos principais feriados familiares do país. A sua data segue o calendário lunisolar tradicional e ocorre geralmente em janeiro ou fevereiro.",
+    "history": "Seollal pertence a uma longa tradição de assinalar o primeiro dia do ano lunar. Embora o seu estatuto oficial tenha mudado durante o século XX, continua a ser uma ocasião central para as reuniões familiares, o respeito pelos mais velhos e a recordação dos antepassados.",
+    "traditions": "As famílias reúnem-se e os familiares mais novos realizam sebae, uma vénia formal de Ano Novo aos mais velhos. Os mais velhos oferecem bons desejos e muitas vezes presentes em dinheiro. Tteokguk, uma sopa com bolos de arroz fatiados, é uma refeição tradicional; as famílias também podem jogar yutnori ou usar hanbok.",
+    "funFacts": [
+      "Tteokguk simboliza o início de um novo ano; comê-lo não altera a idade legal de uma pessoa.",
+      "Yutnori usa quatro varas de madeira em vez de dados.",
+      "Seollal e Chuseok são ocasiões importantes para viajar para casa para ver parentes."
+    ]
+  },
+  "liberation_day": {
+    "intro": "Gwangbokjeol, no dia 15 de agosto, comemora a libertação da Coreia do domínio colonial japonês em 1945. Na Coreia do Sul é um feriado nacional marcado por bandeiras e lembranças.",
+    "history": "O anúncio da rendição do Japão a 15 de agosto de 1945 pôs fim ao seu domínio colonial sobre a Coreia, iniciado em 1910. Na mesma data, em 1948, foi inaugurada a República da Coreia. O feriado recorda a libertação e homenageia o movimento independentista.",
+    "traditions": "A bandeira nacional, Taegeukgi, é exibida em casas e edifícios públicos. As cerimónias oficiais homenageiam os activistas da independência e as suas famílias. Museus, concertos e eventos comemorativos exploram a história do domínio colonial e da luta pela independência.",
+    "funFacts": [
+      "Gwangbok é frequentemente traduzido como a restauração da luz.",
+      "O Movimento Primeiro de Março de 1919 é recordado num feriado separado.",
+      "O Dia da Libertação e o Dia da Fundação Nacional, a 3 de outubro, comemoram diferentes eventos."
     ]
   }
 }

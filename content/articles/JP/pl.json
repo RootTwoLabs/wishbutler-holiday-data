@@ -1,7 +1,7 @@
 {
   "foundation_day": {
     "intro": "Dzień Założenia Państwa, 11 lutego, świętuje legendarne założenie Japonii.",
-    "history": "Dzień upamiętnia mityczne wstąpienie na tron cesarza Jimmu, legendarnego pierwszego cesarza Japonii, w 660 r. p.n.e. Ustanowiony jako święto krzewiące patriotyzm, został przywrócony w nowoczesnej formie w 1966 roku jako dzień refleksji nad założeniem narodu.",
+    "history": "Święto upamiętnia legendarne wstąpienie na tron cesarza Jimmu, tradycyjnie datowane na 660 r. p.n.e. Obecne święto ustanowiono ustawą w 1966 roku, a po raz pierwszy obchodzono je w 1967 roku.",
     "traditions": "W porównaniu ze świętami narodowymi innych krajów obchody są stonowane. Odbywają się pewne uroczystości patriotyczne i wywieszanie flag oraz nieliczne festyny i pochody, a wielu po prostu cieszy się wolnym dniem.",
     "funFacts": [
       "Przypomina legendarnego pierwszego cesarza Jimmu.",
@@ -11,12 +11,42 @@
   },
   "coming_of_age_day": {
     "intro": "Dzień Pełnoletności, w drugi poniedziałek stycznia, świętuje młodych ludzi, którzy osiągnęli dorosłość.",
-    "history": "Święto czci wszystkich, którzy w minionym roku osiągnęli pełnoletność. Wywodzi się z dawnych obrzędów przejścia i ustanowiono je jako święto narodowe w 1948 roku, by zachęcić młodych dorosłych do zajęcia miejsca w społeczeństwie.",
-    "traditions": "Samorządy organizują ceremonie „seijin-shiki” dla nowych dorosłych. Wiele młodych kobiet zakłada wystawne kimona „furisode”, mężczyźni garnitury lub strój tradycyjny, a rodziny robią pamiątkowe zdjęcia.",
+    "history": "Święto celebruje wejście młodych ludzi w dorosłe życie. Wywodzi się z dawnych obrzędów przejścia i ustanowiono je jako święto narodowe w 1948 roku, by zachęcić młodych dorosłych do zajęcia miejsca w społeczeństwie.",
+    "traditions": "Samorządy organizują ceremonie, które często nadal są przeznaczone dla dwudziestolatków. Wiele młodych kobiet zakłada wystawne kimona „furisode”, mężczyźni garnitury lub strój tradycyjny, a rodziny robią pamiątkowe zdjęcia.",
     "funFacts": [
       "Wiele kobiet nosi barwne kimona „furisode” z długimi rękawami.",
-      "Miasta organizują ceremonie dla nowych dorosłych.",
+      "Od kwietnia 2022 roku pełnoletność osiąga się w wieku 18 lat, ale wiele ceremonii nadal dotyczy dwudziestolatków.",
       "Pełnoletność w Japonii wynosi teraz 18 lat."
+    ]
+  },
+  "childrens_day": {
+    "intro": "Dzień Dziecka, Kodomo no Hi, przypada 5 maja i jest świętem szczęścia oraz zdrowego rozwoju dzieci. Kolorowe rękawy wiatrowe w kształcie karpi sprawiają, że należy do najbardziej rozpoznawalnych wiosennych świąt Japonii.",
+    "history": "Święto nawiązuje do Tango no Sekku, sezonowego festiwalu tradycyjnie kojarzonego z chłopcami. Zgodnie z ustawą o święcie państwowym z 1948 r. 5 maja stał się Dniem Dziecka, w którym świętowano wszystkie dzieci i wyrażano wdzięczność matkom. Jest to część okresu świątecznego Złotego Tygodnia.",
+    "traditions": "Rodziny wywieszają koinobori, rękawy wiatrowe w kształcie karpi, oraz prezentują miniaturowe hełmy lub zbroje. Tradycyjne potrawy to kashiwa mochi, ciastka ryżowe w liściach dębu, i regionalne odmiany chimaki. Niektóre rodziny biorą kąpiele z aromatycznymi liśćmi tataraku.",
+    "funFacts": [
+      "Karp pływający pod prąd symbolizuje siłę i wytrwałość.",
+      "Kodomo oznacza po japońsku dziecko lub dzieci.",
+      "Święto przypada pod koniec Złotego Tygodnia, obok kilku innych świąt narodowych."
+    ]
+  },
+  "constitution_memorial_day": {
+    "intro": "Dzień Pamięci Konstytucji obchodzony 3 maja upamiętnia wejście w życie powojennej konstytucji Japonii. Jest to święto narodowe w ramach Złotego Tygodnia.",
+    "history": "Konstytucja została ogłoszona 3 listopada 1946 r. i weszła w życie 3 maja 1947 r. Jako główne zasady ustanawia suwerenność ludu, podstawowe prawa człowieka i pacyfizm. Święto państwowe upamiętniające jego rozpoczęcie zostało wprowadzone w 1948 roku.",
+    "traditions": "Wykłady publiczne, wystawy i dyskusje medialne dotyczą konstytucji i przyszłości kraju. Grupy polityczne i obywatelskie organizują wydarzenia odzwierciedlające różne poglądy. Wiele rodzin wykorzystuje przerwę w Złotym Tygodniu także na podróże i wizyty.",
+    "funFacts": [
+      "Jego japońska nazwa to Kenpō Kinenbi.",
+      "Ogłoszenie i wejście w życie nastąpiło w różnych terminach, w odstępie sześciu miesięcy.",
+      "Artykuł 9 to dobrze znany zapis konstytucji dotyczący wyrzeczenia się wojny."
+    ]
+  },
+  "culture_day": {
+    "intro": "Dzień Kultury Bunka no Hi przypadający 3 listopada upamiętnia kulturę oraz ideały wolności i pokoju w Japonii. Sztuka, nauka i kreatywność zajmują centralne miejsce.",
+    "history": "Dzień Kultury został ustanowiony ustawą o święcie państwowym z 1948 roku. Jego data zbiega się z ogłoszeniem powojennej konstytucji Japonii 3 listopada 1946 roku. Ta sama data kalendarzowa wyznaczała wcześniej urodziny cesarza Meiji, jednak współczesne święto ma inny cel.",
+    "traditions": "Muzea, galerie i instytucje kultury organizują wystawy i specjalne programy. Szkoły i gminy organizują festiwale kulturalne. Cesarz nadaje Order Kultury osobom uznanym za wybitne zasługi w życiu kulturalnym i intelektualnym.",
+    "funFacts": [
+      "Bunka to po japońsku kultura.",
+      "Dzień Kultury przypada na 3 listopada; Dzień Pamięci Konstytucji przypada 3 maja.",
+      "Niektóre muzea oferują bezpłatne wstępy lub specjalne wydarzenia, w zależności od instytucji."
     ]
   }
 }

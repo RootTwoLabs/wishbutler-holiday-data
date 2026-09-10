@@ -5,7 +5,7 @@
     "traditions": "La journée s’ouvre par le plus grand défilé militaire d’Europe sur les Champs-Élysées, passé en revue par le président. La veille, les bals des pompiers animent les villes, et la soirée s’achève par un grand feu d’artifice, célèbre au-dessus de la tour Eiffel.",
     "funFacts": [
       "La Bastille ne comptait que sept prisonniers le jour de sa prise en 1789.",
-      "Le défilé des Champs-Élysées a lieu presque chaque année depuis 1880.",
+      "À partir de 1880, le défilé militaire se tenait d’abord à Longchamp ; son parcours a ensuite varié.",
       "En France, on dit simplement « le 14 juillet »."
     ]
   },
@@ -17,6 +17,16 @@
       "L’armistice est entré en vigueur à la 11e heure du 11e jour du 11e mois.",
       "La flamme sous l’Arc de triomphe est ravivée chaque soir depuis 1923.",
       "Le Bleuet de France est le symbole du souvenir."
+    ]
+  },
+  "victory_in_europe_day": {
+    "intro": "Le 8 mai, la France commémore la victoire des Alliés sur l'Allemagne nazie en 1945 et la fin de la Seconde Guerre mondiale en Europe. C'est une journée nationale du souvenir.",
+    "history": "La capitulation militaire de l’Allemagne a pris effet le 8 mai 1945. Cette date est devenue partie intégrante des commémorations publiques de la guerre en France, bien que son statut de fête ait changé à plusieurs reprises. Il a été rétabli comme jour férié légal en 1981.",
+    "traditions": "Fonctionnaires, anciens combattants, écoliers et résidents se rassemblent devant les monuments aux morts pour le dépôt de couronnes et des moments de silence. A Paris, la cérémonie nationale est centrée sur l'Arc de Triomphe et la Tombe du Soldat inconnu. Les drapeaux français marquent le coup.",
+    "funFacts": [
+      "Le 8 mai marque la fin de la guerre en Europe, pas la fin de la guerre dans le Pacifique.",
+      "La France commémore également l'armistice de la Première Guerre mondiale le 11 novembre.",
+      "Les cérémonies locales honorent à la fois les sacrifices de guerre et le retour de la paix."
     ]
   }
 }

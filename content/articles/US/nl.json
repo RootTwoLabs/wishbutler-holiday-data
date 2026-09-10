@@ -13,12 +13,12 @@
   },
   "presidents_day": {
     "intro": "Op Presidents’ Day, de derde maandag van februari, worden de Amerikaanse presidenten geëerd — oorspronkelijk was deze dag specifiek gewijd aan de geboortedag van George Washington.",
-    "history": "22 februari — de geboortedag van Washington — werd in 1879 een nationale feestdag. In 1968 werden door de ‘Uniform Monday Holiday Act’ verschillende feestdagen verplaatst naar een maandag om lange weekenden te creëren. Sindsdien valt deze dag op de derde maandag van februari (tussen de 15e en de 21e — de werkelijke verjaardag van Washington, 22 februari, is dus nooit de feestdag zelf). In de volksmond is ‘Washington's Birthday’ in de loop der tijd ‘Presidents' Day’ geworden, aangezien ook de verjaardag van Abraham Lincoln (12 februari) in februari valt.",
+    "history": "De Uniform Monday Holiday Act werd in 1968 aangenomen en ging in 1971 in. Washingtons verjaardag verschoof naar de derde maandag van februari. De federale feestdag heet officieel nog Washington’s Birthday, hoewel Presidents’ Day veel wordt gebruikt.",
     "traditions": "Scholen organiseren projecten rond het thema ‘presidenten’; musea bieden gratis toegang tot tentoonstellingen over politieke geschiedenis. In Mount Vernon, het landgoed van Washington, vindt een ceremoniële kranslegging plaats. De dag staat ook bekend als een belangrijke uitverkoopdag — de ‘Presidents’ Day Sales’ met kortingen op meubels, matrassen en auto’s.",
     "funFacts": [
       "In de federale wetgeving wordt de feestdag nog steeds ‘Washington's Birthday’ genoemd — de gangbare nieuwe benaming is niet officieel.",
       "De beroemde uitverkoopacties zijn zo grootschalig dat veel Amerikanen deze dag meer met winkelen associëren dan met politiek.",
-      "George Washington was de enige president die tijdens zijn ambtsperiode nooit in Washington D.C. heeft gewoond — de stad werd pas na zijn dood voltooid.",
+      "Washington was de enige Amerikaanse president die nooit in het Witte Huis woonde. John Adams werd in 1800 de eerste presidentiële bewoner.",
       "De favoriete hond van Washington heette ‘Sweetlips’ — een anekdote die op scholen graag wordt verteld."
     ],
     "imageCredit": "Foto: Gilbert Stuart · Publiek domein via Wikimedia Commons"
@@ -28,10 +28,10 @@
     "history": "Deze dag vindt zijn oorsprong in de Amerikaanse Burgeroorlog (1861–1865), waarin meer dan 600.000 soldaten omkwamen. In mei 1868 riep generaal John A. Logan een ‘Decoration Day’ uit, waarop de graven van gesneuvelde soldaten met bloemen moesten worden versierd. De gewoonte verspreidde zich na beide wereldoorlogen en herdenkt tegenwoordig alle Amerikaanse soldaten die in de oorlog zijn gesneuveld. In 1971 werd de dag officieel verplaatst naar de laatste maandag van mei — om een lang weekend te creëren.",
     "traditions": "Op de Nationale Begraafplaats van Arlington legt de president een krans bij het Graf van de Onbekende Soldaat. Familieleden bezoeken de graven en versieren deze met vlaggen en bloemen. Om 15.00 uur lokale tijd wordt tijdens het ‘Nationaal Herdenkingsmoment’ in het hele land een moment van stilte in acht genomen. Daarnaast zijn er traditionele optochten, barbecues en de Indianapolis 500-autorace.",
     "funFacts": [
-      "Op de Nationale Begraafplaats van Arlington liggen meer dan 400.000 gesneuvelden begraven.",
+      "Op de Nationale Begraafplaats van Arlington rusten militairen, veteranen en familieleden die voor bijzetting in aanmerking komen, niet alleen gesneuvelden.",
       "De rode klaproos werd na de Eerste Wereldoorlog een symbool van herdenking — geïnspireerd door het gedicht ‘In Flanders Fields’.",
-      "De Indy 500 wordt sinds 1911 tijdens het Memorial Day-weekend verreden en is een van de grootste sportevenementen in de VS.",
-      "Vóór 1971 heette deze feestdag ‘Decoration Day’ — deze benaming wordt in sommige zuidelijke staten nog steeds gebruikt."
+      "De eerste Indianapolis 500 vond plaats op 30 mei 1911. Tegenwoordig hoort de race traditioneel bij het Memorial Day-weekend.",
+      "De oudere naam ‘Decoration Day’ verwijst naar het versieren van graven. De naam ‘Memorial Day’ werd al lang vóór 1971 gebruikt."
     ],
     "imageCredit": "Foto: Arlington National Cemetery · Publiek domein via Wikimedia Commons"
   },
@@ -40,8 +40,8 @@
     "history": "Op 4 juli 1776 keurde het Tweede Continentale Congres in Philadelphia de Onafhankelijkheidsverklaring goed, die grotendeels door Thomas Jefferson was opgesteld. Het congres had eigenlijk al twee dagen eerder (op 2 juli) voor afscheiding gestemd — John Adams ging er dan ook van uit dat 2 juli zou worden gevierd. Pas in 1870 werd Onafhankelijkheidsdag een officiële feestdag, en in 1938 een betaalde feestdag. De oorlog tegen Groot-Brittannië duurde tot 1783; de onafhankelijkheid werd pas erkend in het Verdrag van Parijs.",
     "traditions": "Deze dag is waarschijnlijk de kleurrijkste feestdag van de VS: grootschalig vuurwerk (het grootste wordt gesponsord door Macy’s boven de East River in New York), optochten met fanfares, hotdog-eetwedstrijden op Coney Island, barbecues in de achtertuin, honkbalwedstrijden en het zingen van het volkslied. Het Capitool straalt in rood, wit en blauw, en velen dragen patriottische T-shirts.",
     "funFacts": [
-      "De beroemde hotdog-eetwedstrijd van Nathan's op Coney Island wordt sinds 1916 elk jaar op 4 juli gehouden — record: 76 hotdogs in 10 minuten (Joey Chestnut, 2021).",
-      "John Adams en Thomas Jefferson — beiden voormalige presidenten — stierven op 4 juli 1826, precies 50 jaar na de ondertekening.",
+      "De deelnemers aan Nathan’s hotdogeetwedstrijd op Coney Island krijgen tien minuten.",
+      "John Adams en Thomas Jefferson stierven beiden op 4 juli 1826, 50 jaar na de aanneming van de Onafhankelijkheidsverklaring.",
       "De Liberty Bell in Philadelphia wordt symbolisch 13 keer aangetikt (voorzichtig — hij is namelijk gebarsten) — één keer voor elke stichtende kolonie.",
       "Het vuurwerk bij Macy's in New York duurt ongeveer 25 minuten en er worden meer dan 75.000 vuurwerkelementen afgestoken."
     ],
@@ -49,26 +49,46 @@
   },
   "labour_day_us": {
     "intro": "Op de Amerikaanse Labor Day, die op de eerste maandag van september wordt gevierd, worden werknemers geëerd. Het markeert tevens het onofficiële einde van de zomer.",
-    "history": "Labor Day werd in 1882 in het leven geroepen door de Central Labor Union in New York — als tegenhanger van 1 mei, dat voor de VS te socialistisch leek. In 1894, na de bloedige Pullman-stakingen, riep president Grover Cleveland het uit tot federale feestdag om de arbeiders te sussen. Ironisch genoeg vieren de meeste landen 1 mei, een dag die zelf herinnert aan de Haymarket-affaire in Chicago uit 1886 – een Amerikaanse gebeurtenis. De VS wilden zich daar bewust van distantiëren.",
-    "traditions": "Deze dag luidt het lange ‘Labor Day-weekend’ in — traditioneel met barbecues, stranduitstapjes en een laatste grote zomerse roadtrip. Stijltip: na Labor Day wordt er in de VS traditioneel geen wit gedragen. Het is ook de start van het NFL-seizoen en een van de grootste uitverkoopdagen van het jaar. In sommige steden worden nog steeds vakbondsoptochten gehouden.",
+    "history": "De Central Labor Union organiseerde de eerste Amerikaanse Labor Day op 5 september 1882 in New York. Later namen verschillende staten de feestdag over, en president Grover Cleveland tekende de federale wet op 28 juni 1894. De septemberdatum gaat dus vooraf aan de Haymarket-affaire van 1886 en de latere internationale traditie van 1 mei.",
+    "traditions": "Deze dag sluit het lange ‘Labor Day-weekend’ af — traditioneel met barbecues, stranduitstapjes en een laatste grote zomerse roadtrip. Stijltip: na Labor Day wordt er in de VS traditioneel geen wit gedragen. Rond deze tijd begint ook het NFL-seizoen en een van de grootste uitverkoopdagen van het jaar. In sommige steden worden nog steeds vakbondsoptochten gehouden.",
     "funFacts": [
       "De gewoonte om ‘na Labor Day geen wit te dragen’ ontstond aan het einde van de 19e eeuw in de New Yorkse high society — tegenwoordig is het meer een modegrap dan een regel.",
-      "De Amerikaanse Labor Day is bewust in september vastgesteld om zich te onderscheiden van de 1 mei van de arbeidersbeweging.",
-      "Het NFL-seizoen begint al sinds 1934 traditioneel in de week na Labor Day.",
-      "Pullman, die de spoorwegstaking van 1894 ontketende, leidde een imperium van luxe slaaprijtuigen — een industriestad met een eigen postdienst en politiemacht."
+      "De eerste Amerikaanse Labor Day werd in 1882 in New York gevierd, voordat de internationale traditie van 1 mei ontstond.",
+      "De start van het reguliere NFL-seizoen is een bekend evenement begin september, rond Labor Day; de precieze datum hangt af van het seizoensschema.",
+      "George Pullman bouwde luxe slaaprijtuigen en stichtte bij Chicago een bedrijfsstad voor zijn werknemers. Daar begon de staking van 1894."
     ],
     "imageCredit": "Foto: foto van Bain News Service · Publiek domein via Wikimedia Commons"
   },
   "thanksgiving_day": {
     "intro": "Thanksgiving, dat op de vierde donderdag van november wordt gevierd, is de belangrijkste familiefeestdag in de VS — een oogstfeest en een kalkoenfeest met een geschiedenis van meer dan 400 jaar.",
     "history": "De eerste ‘Thanksgiving’ werd in 1621 gevierd door de Pilgrim Fathers uit Engeland, samen met de Wampanoag in Plymouth (Massachusetts), nadat de lokale bevolking de kolonisten had geleerd hoe ze het land moesten bewerken. Meer dan twee eeuwen lang bleef het een lokale feestdag. In 1863, midden in de Burgeroorlog, riep president Abraham Lincoln Thanksgiving uit tot nationale feestdag — een teken van hoop. President Franklin D. Roosevelt legde in 1941 bij federale wet de vierde donderdag van november vast.",
-    "traditions": "De familie komt samen aan een feestelijk gedekte tafel met kalkoen, pompoentaart, cranberrysaus, zoete-aardappelschotel en vulling. Voor de maaltijd vertelt iedereen waar hij of zij dankbaar voor is. In New York vindt de beroemde Macy's Thanksgiving Day Parade plaats met zijn gigantische heliumballonnen; er worden American footballwedstrijden op tv uitgezonden en de president ‘vergeeft’ een kalkoen.",
+    "traditions": "De familie komt samen aan een feestelijk gedekte tafel met kalkoen, pompoentaart, cranberrysaus, zoete-aardappelschotel en vulling. Voor de maaltijd vertelt iedereen waar hij of zij dankbaar voor is. In New York vindt de beroemde Macy's Thanksgiving Day Parade plaats met zijn gigantische heliumballonnen; er worden American footballwedstrijden op tv uitgezonden en de president verleent een kalkoen gratie.",
     "funFacts": [
       "Elke Thanksgiving worden er in de VS meer dan 46 miljoen kalkoenen gegeten.",
       "De traditie van het ‘gratie verlenen aan de kalkoen’ werd in 1989 officieel ingesteld door George H.W. Bush.",
       "De Macy's-parade wordt al sinds 1924 gehouden en trekt elk jaar zo’n 3,5 miljoen toeschouwers in New York.",
-      "‘Black Friday’, de dag na Thanksgiving, was oorspronkelijk de dag waarop de detailhandel ‘uit de rode cijfers kwam’."
+      "Black Friday, de vrijdag na Thanksgiving, is een belangrijke winkeldag met veel aanbiedingen."
     ],
     "imageCredit": "Foto: Mark Miller · CC BY-SA 4.0 via Wikimedia Commons"
+  },
+  "juneteenth_national_independence_day": {
+    "intro": "Juneteenth op 19 juni herdenkt de aankondiging van de vrijheid voor tot slaaf gemaakte mensen in Galveston, Texas, in 1865. Het combineert de viering van de Afro-Amerikaanse vrijheid met reflectie op de strijd voor gelijkheid.",
+    "history": "Op 19 juni 1865 vaardigde Union General Gordon Granger General Order No. 3 uit in Galveston. De Emancipatieproclamatie was in 1863 in werking getreden, maar de vrijheid moest nog steeds worden afgedwongen. Jaarlijkse vieringen ontwikkelden zich in Texas en verspreidden zich onder Afro-Amerikaanse gemeenschappen. Juneteenth werd in 2021 een federale feestdag.",
+    "traditions": "Families en gemeenschappen komen samen voor reünies, parades, muziek en gedeelde maaltijden. Historische lezingen en educatieve evenementen herinneren aan de emancipatie en de ervaringen van voorheen tot slaaf gemaakte mensen. Rode voedingsmiddelen en dranken zijn op veel feesten aanwezig.",
+    "funFacts": [
+      "De naam combineert de Engelse woorden June (juni) en nineteenth (negentiende).",
+      "Juneteenth herdenkt gebeurtenissen in Texas; De slavernij in het hele land werd in december 1865 afgeschaft door het Dertiende Amendement.",
+      "Vieringen combineren vaak familiegeschiedenis, eten en dienstverlening aan de gemeenschap."
+    ]
+  },
+  "veterans_day": {
+    "intro": "Veteranendag op 11 november eert iedereen die heeft gediend in de strijdkrachten van de Verenigde Staten. Het is een dag van dank en herdenking, met bijzondere erkenning voor levende veteranen.",
+    "history": "De datum herinnert aan de wapenstilstand die op 11 november 1918 stopte met vechten aan het Westelijk Front. Oorspronkelijk gevierd als Wapenstilstandsdag, werd deze in 1954 omgedoopt tot Veteranendag ter ere van veteranen uit alle oorlogen. Na een periode van maandagviering keerde de feestdag in 1978 terug naar 11 november.",
+    "traditions": "Gemeenschappen organiseren ceremonies, parades en ontmoetingen met veteranen. Op Arlington National Cemetery vindt een kranslegging plaats bij het Graf van de Onbekende Soldaat. Scholen en musea delen de ervaringen van militairen.",
+    "funFacts": [
+      "Veteranendag eert iedereen die heeft gediend; Memorial Day herdenkt vooral degenen die tijdens militaire dienst zijn omgekomen.",
+      "De officiële Engelse naam Veterans Day wordt zonder apostrof geschreven.",
+      "De oorspronkelijke wapenstilstand werd op 11 november 1918 om 11.00 uur van kracht."
+    ]
   }
 }

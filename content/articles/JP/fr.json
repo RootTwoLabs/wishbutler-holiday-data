@@ -1,7 +1,7 @@
 {
   "foundation_day": {
     "intro": "Le jour de la fondation nationale, le 11 février, célèbre la fondation légendaire du Japon.",
-    "history": "Le jour marque l’accession mythique de l’empereur Jimmu, légendaire premier empereur du Japon, en 660 av. J.-C. Instauré comme fête pour stimuler le patriotisme, il fut rétabli sous sa forme moderne en 1966 comme journée de réflexion sur la fondation du pays.",
+    "history": "La fête rappelle l’accession légendaire au trône de l’empereur Jimmu, traditionnellement datée de 660 av. J.-C. Le jour férié actuel a été instauré par la loi en 1966 et célébré pour la première fois en 1967.",
     "traditions": "Comparées aux fêtes nationales d’autres pays, les célébrations sont discrètes. Il y a quelques cérémonies patriotiques et des drapeaux, ainsi que quelques fêtes et défilés, tandis que beaucoup profitent simplement du jour férié.",
     "funFacts": [
       "Il rappelle le légendaire premier empereur, Jimmu.",
@@ -11,12 +11,42 @@
   },
   "coming_of_age_day": {
     "intro": "Le jour de la majorité, le deuxième lundi de janvier, célèbre les jeunes ayant atteint l’âge adulte.",
-    "history": "La fête honore tous ceux qui ont atteint la majorité au cours de l’année écoulée. Elle puise dans d’anciens rites de passage et fut instaurée comme jour férié national en 1948 pour encourager les jeunes adultes à prendre leur place dans la société.",
-    "traditions": "Les municipalités organisent des cérémonies « seijin-shiki » pour les nouveaux adultes. Beaucoup de jeunes femmes portent de somptueux kimonos « furisode », les hommes un costume ou une tenue traditionnelle, et les familles prennent des photos souvenirs.",
+    "history": "La fête célèbre les jeunes qui entrent dans la vie adulte. Elle puise dans d’anciens rites de passage et fut instaurée comme jour férié national en 1948 pour encourager les jeunes adultes à prendre leur place dans la société.",
+    "traditions": "Les municipalités organisent des cérémonies souvent destinées aux jeunes de 20 ans. Beaucoup de jeunes femmes portent de somptueux kimonos « furisode », les hommes un costume ou une tenue traditionnelle, et les familles prennent des photos souvenirs.",
     "funFacts": [
       "Beaucoup de femmes portent des kimonos « furisode » à longues manches.",
-      "Les villes organisent des cérémonies pour les nouveaux adultes.",
+      "Depuis avril 2022, la majorité est fixée à 18 ans, mais de nombreuses cérémonies restent consacrées aux jeunes de 20 ans.",
       "L’âge de la majorité au Japon est désormais de 18 ans."
+    ]
+  },
+  "childrens_day": {
+    "intro": "La Journée des enfants, Kodomo no Hi, le 5 mai, célèbre leur bonheur et leur santé. Les manches à air colorées en forme de carpe en font l'une des fêtes printanières les plus reconnaissables du Japon.",
+    "history": "Cette fête s'inspire du Tango no Sekku, un festival saisonnier traditionnellement associé aux garçons. En vertu de la loi sur les jours fériés de 1948, le 5 mai est devenu la Journée des enfants, célébrant tous les enfants et exprimant leur gratitude aux mères. Cela fait partie de la période de vacances de la Golden Week.",
+    "traditions": "Les familles exposent des koinobori, des manches à air en forme de carpe, et des casques ou armures miniatures. On mange des kashiwa mochi, des gâteaux de riz enveloppés dans des feuilles de chêne, et des variétés régionales de chimaki. Certaines familles prennent un bain parfumé aux feuilles d'acore.",
+    "funFacts": [
+      "Les carpes nageant en amont symbolisent la force et la persévérance.",
+      "Kodomo signifie enfant ou enfants en japonais.",
+      "Cette fête tombe vers la fin de la Golden Week, aux côtés de plusieurs autres jours fériés nationaux."
+    ]
+  },
+  "constitution_memorial_day": {
+    "intro": "Le 3 mai, Journée commémorative de la Constitution, marque l'entrée en vigueur de la constitution japonaise d'après-guerre. C'est une fête nationale au sein de la Golden Week.",
+    "history": "La Constitution a été promulguée le 3 novembre 1946 et est entrée en vigueur le 3 mai 1947. Elle établit la souveraineté populaire, les droits humains fondamentaux et le pacifisme comme principes centraux. Le jour férié commémorant son commencement a été introduit en 1948.",
+    "traditions": "Des débats publics, des expositions et des débats médiatiques examinent la constitution et l’avenir du pays. Les groupes politiques et civiques organisent des événements reflétant des points de vue différents. De nombreuses familles profitent également de la Golden Week pour voyager et visiter.",
+    "funFacts": [
+      "Son nom japonais est Kenpō Kinenbi.",
+      "La promulgation et l'entrée en vigueur ont eu lieu à des dates différentes, à six mois d'intervalle.",
+      "L’article 9 est la disposition bien connue de la constitution sur la renonciation à la guerre."
+    ]
+  },
+  "culture_day": {
+    "intro": "La Journée de la culture, Bunka no Hi, le 3 novembre, célèbre la culture et les idéaux de liberté et de paix au Japon. L’art, l’apprentissage et la créativité occupent une place centrale.",
+    "history": "La Fête de la culture a été instituée en vertu de la loi sur les jours fériés de 1948. Sa date coïncide avec la promulgation de la constitution japonaise d'après-guerre, le 3 novembre 1946. La même date calendaire marquait auparavant l'anniversaire de l'empereur Meiji, mais cette fête moderne a un objectif différent.",
+    "traditions": "Les musées, galeries et institutions culturelles organisent des expositions et des programmes spéciaux. Les écoles et les communautés organisent des festivals culturels. L'Empereur remet l'Ordre de la Culture à des personnes reconnues pour leurs contributions exceptionnelles à la vie culturelle et intellectuelle.",
+    "funFacts": [
+      "Bunka signifie culture en japonais.",
+      "La Journée de la culture a lieu le 3 novembre ; Le Jour du Souvenir de la Constitution est le 3 mai.",
+      "Certains musées proposent une entrée gratuite ou des événements spéciaux, selon l'institution."
     ]
   }
 }

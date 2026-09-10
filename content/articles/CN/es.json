@@ -1,0 +1,32 @@
+{
+  "chinese_new_year_spring_festival": {
+    "intro": "El Festival de Primavera, o Año Nuevo chino, comienza el primer día del tradicional año lunisolar chino. Las reuniones familiares y los deseos de buena fortuna son el centro de las celebraciones.",
+    "history": "El festival surgió de las tradiciones que dan la bienvenida al nuevo año y honran a los antepasados. A lo largo de siglos, las costumbres regionales se desarrollaron en torno a la renovación del hogar, las comidas compartidas y las esperanzas de prosperidad. La celebración sigue un calendario lunisolar, por lo que su fecha gregoriana cambia cada año.",
+    "traditions": "Las familias limpian y decoran sus casas, colocan coplas rojas y se reúnen para una cena de reunión en la víspera de Año Nuevo. Los niños suelen recibir sobres rojos que contienen dinero. Los alimentos varían según la región, incluidos dumplings, pasteles de arroz y pescado. Las festividades públicas dependen de las costumbres y normas locales.",
+    "funFacts": [
+      "El festival se llama Chunjie en chino mandarín.",
+      "Las celebraciones tradicionalmente continúan hasta el Festival de los Faroles, el decimoquinto día del primer mes lunar.",
+      "Cada año está asociado con un animal en el ciclo zodiacal de doce animales."
+    ]
+  },
+  "mid_autumn_festival": {
+    "intro": "El Festival del Medio Otoño cae el decimoquinto día del octavo mes del calendario tradicional chino. La luna llena es un símbolo de reencuentro y un foco para las familias cercanas y lejanas.",
+    "history": "El festival se desarrolló a partir del culto a la luna y las celebraciones estacionales de la cosecha. Las historias de Chang'e, la diosa de la luna, se asociaron estrechamente con él. Sigue siendo una ocasión importante para reuniones familiares, con costumbres que varían en toda China.",
+    "traditions": "Las familias comparten pasteles de luna, intercambian regalos y admiran la luna cuando el clima lo permite. Los faroles aparecen en las celebraciones de algunas regiones. Las personas que están separadas pueden enviarse deseos entre sí, tomando la misma luna como símbolo de conexión.",
+    "funFacts": [
+      "Su nombre en mandarín, Zhongqiujie, significa Festival del Medio Otoño.",
+      "Los pasteles de luna varían mucho en rellenos, pastelería y estilo regional.",
+      "La fecha gregoriana cambia porque la fiesta sigue un calendario lunisolar."
+    ]
+  },
+  "national_day": {
+    "intro": "El Día Nacional de China, el 1 de octubre, conmemora la fundación de la República Popular China en 1949. Es una ocasión nacional importante y el comienzo de un ajetreado período de vacaciones de otoño.",
+    "history": "Mao Zedong proclamó la República Popular China en Beijing el 1 de octubre de 1949. La fecha fue designada Día Nacional ese mismo año. Desde entonces, ceremonias oficiales y celebraciones públicas han marcado el aniversario.",
+    "traditions": "Aparecen banderas nacionales y adornos festivos en espacios públicos. Ceremonias de izamiento de banderas, eventos culturales y monumentos iluminados marcan la ocasión. Muchas familias viajan o visitan a familiares durante el período vacacional; la disposición precisa de los días libres se anuncia para cada año.",
+    "funFacts": [
+      "Un gran desfile militar se asocia con aniversarios importantes seleccionados, no todos los años.",
+      "El período de vacaciones de otoño se llama comúnmente Semana Dorada.",
+      "El Día Nacional y el Festival del Medio Otoño a veces caen en fechas próximas."
+    ]
+  }
+}

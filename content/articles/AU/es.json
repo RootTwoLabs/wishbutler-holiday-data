@@ -16,7 +16,7 @@
     "funFacts": [
       "ANZAC significa Australian and New Zealand Army Corps.",
       "Los oficios al amanecer recuerdan el desembarco matutino en Gallipoli.",
-      "Jugar al two-up en los pubs solo se permite el Anzac Day."
+      "El two-up forma parte de las tradiciones del Anzac Day. Las condiciones para jugar legalmente dependen de las normas de cada estado."
     ]
   },
   "labour_day_au": {
@@ -31,20 +31,20 @@
     ]
   },
   "kings_birthday": {
-    "intro": "El feriado del Cumpleaños del Rey, el segundo lunes de junio, en la mayoría de los estados le da a Australia un fin de semana largo de mediados de invierno. No tiene nada que ver con el cumpleaños real del monarca, que cae en noviembre.",
-    "history": "El gobernador Arthur Phillip celebró el cumpleaños del rey Jorge III el 4 de junio de 1788, sólo unos meses después de la llegada de la Primera Flota. Australia mantuvo una fecha de junio durante todos los reinados desde entonces, y después de la muerte de la reina Isabel II en 2022, la festividad simplemente pasó a llamarse.",
+    "intro": "El Cumpleaños del Rey, celebrado el segundo lunes de junio en la mayoría de los estados australianos, ofrece un fin de semana largo en invierno. Es una fecha oficial distinta del cumpleaños de Carlos III, el 14 de noviembre.",
+    "history": "El gobernador Arthur Phillip celebró el cumpleaños del rey Jorge III el 4 de junio de 1788, sólo unos meses después de la llegada de la Primera Flota. La fecha cambió con el tiempo. Tras la muerte de Isabel II en 2022, la festividad pasó a llamarse Cumpleaños del Rey.",
     "traditions": "Se publica la lista de honores del cumpleaños del rey, se abre la temporada de esquí en los Alpes y la AFL organiza su gran partido Collingwood versus Melbourne en el MCG. Queensland y Australia Occidental celebran el feriado en otras fechas para extender sus fines de semana largos.",
     "funFacts": [
       "El rey Carlos III nació el 14 de noviembre, cinco meses después de su cumpleaños en Australia.",
-      "Queensland trasladó sus vacaciones a octubre en 2016 para que el estado tuviera un fin de semana largo de primavera.",
+      "Queensland trasladó el festivo a octubre en 2016 para que el estado tuviera un fin de semana largo de primavera.",
       "El fin de semana de junio tradicionalmente abre la temporada de nieve en Thredbo y Perisher.",
       "Los fuegos artificiales están permitidos en el Territorio del Norte solo el Día del Territorio, no este fin de semana."
     ]
   },
   "melbourne_cup": {
-    "intro": "El Día de la Copa de Melbourne, el primer martes de noviembre, es un día festivo en el área metropolitana de Melbourne para una carrera de caballos. La carrera de handicap de 3.200 metros en Flemington es conocida como la carrera que detiene a una nación.",
+    "intro": "El Día de la Copa de Melbourne, el primer martes de noviembre, es un día festivo en el área metropolitana de Melbourne para una carrera de caballos. La carrera con hándicap de 3.200 metros en Flemington es conocida como la carrera que detiene a una nación.",
     "history": "La primera Copa se disputó en 1861 y la ganó Archer, quien, según la leyenda, caminó desde Nueva Gales del Sur para competir. La carrera se convirtió en día festivo en Melbourne en 1877 y desde entonces se ha celebrado todos los años, incluso durante las dos guerras mundiales.",
-    "traditions": "Los australianos de todas partes se detienen a las 3 pm para ver la carrera, unirse a las limpiezas de oficinas y vestirse elegantes para el almuerzo. En Flemington, la competencia Fashions on the Field es tan famosa como los caballos, y toda la semana es un carnaval de carreras y fiestas.",
+    "traditions": "Los australianos de todas partes se detienen a las 3 pm para ver la carrera, participar en las porras de la oficina y vestirse elegantes para el almuerzo. En Flemington, la competencia Fashions on the Field es tan famosa como los caballos, y toda la semana es un carnaval de carreras y fiestas.",
     "funFacts": [
       "La Copa cuenta con más de 8 millones de dólares australianos en premios.",
       "Makybe Diva es el único caballo que ganó tres Copas seguidas, de 2003 a 2005.",
@@ -55,9 +55,9 @@
   "western_australia_day": {
     "intro": "El Día de Australia Occidental, el primer lunes de junio, celebra la fundación de Swan River Colony en 1829 y la historia del estado, incluidos sus pueblos aborígenes.",
     "history": "El capitán James Stirling proclamó la colonia el 18 de junio de 1829 en el sitio de Perth. La festividad se llamó Día de la Fundación hasta 2012, cuando se le cambió el nombre para reconocer la historia aborigen antes de la colonización europea como parte de la historia del estado.",
-    "traditions": "Perth organiza un festival comunitario gratuito en la costa del río Swan, se entregan los premios al australiano occidental del año y las ceremonias de ciudadanía dan la bienvenida a los nuevos residentes. Las ciudades regionales celebran sus propios festivales y eventos culturales aborígenes.",
+    "traditions": "Perth organiza un festival comunitario gratuito en la ribera del río Swan, se entregan los premios al australiano occidental del año y las ceremonias de ciudadanía dan la bienvenida a los nuevos residentes. Las ciudades regionales celebran sus propios festivales y eventos culturales aborígenes.",
     "funFacts": [
-      "Australia Occidental es el único estado con un día festivo por su propia fundación.",
+      "Western Australia Day celebra la historia y las comunidades del estado.",
       "El estado cubre aproximadamente un tercio de Australia pero tiene sólo una décima parte de su población.",
       "Perth está más cerca de Yakarta que de Sydney.",
       "El cambio de nombre de 2012 se produjo después de consultar con los ancianos aborígenes."
@@ -76,12 +76,12 @@
   },
   "friday_before_afl_grand_final": {
     "intro": "El viernes previo a la Gran Final de la AFL ha sido festivo en Victoria desde 2015. Le da a Melbourne un fin de semana largo para el día más importante del fútbol australiano.",
-    "history": "El Primer Ministro Daniel Andrews presentó el feriado para permitir que las familias asistan al Desfile de la Gran Final, que se lleva a cabo el viernes. La Gran Final en sí se remonta a 1898 y se ha jugado en el Melbourne Cricket Ground casi todos los años desde 1902.",
+    "history": "El jefe del Gobierno de Victoria, Daniel Andrews, presentó el feriado para permitir que las familias asistieran al Desfile de la Gran Final, que se lleva a cabo el viernes. La Gran Final en sí se remonta a 1898 y se ha jugado en el Melbourne Cricket Ground casi todos los años desde 1902.",
     "traditions": "Los dos equipos rivales desfilan por el centro de la ciudad en coches abiertos, y los aficionados con los colores del club se alinean en las calles. El sábado tendrá lugar la gran final con unas 100.000 personas en el MCG, conciertos previos al partido y barbacoas en el patio frente al televisor.",
     "funFacts": [
       "La festividad recibió el sobrenombre de Víspera de la Gran Final.",
       "El récord de público del MCG para una Gran Final es de 121.696 desde 1970.",
-      "Las empresas se quejaron del costo, pero las vacaciones continuaron.",
+      "Las empresas se quejaron del costo, pero el festivo se mantuvo.",
       "Los pasteles de carne y los rollitos de salchicha son la comida tradicional de la Gran Final."
     ]
   }

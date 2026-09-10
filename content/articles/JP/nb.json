@@ -1,22 +1,52 @@
 {
   "foundation_day": {
     "intro": "National Foundation Day 11. februar feirer den legendariske grunnleggelsen av Japan.",
-    "history": "Dagen markerer den mytiske tiltredelsen av keiser Jimmu, Japans legendariske første keiser, i 660 f.Kr. Etablert som en ferie for å fremme patriotisme, ble den gjenopplivet i sin moderne form i 1966 som en dag for å reflektere over nasjonens grunnleggelse.",
+    "history": "Dagen minner om keiser Jimmus legendariske tronbestigelse, tradisjonelt datert til 660 f.Kr. Den nåværende helligdagen ble innført ved lov i 1966 og feiret første gang i 1967.",
     "traditions": "Sammenlignet med andre lands nasjonaldager er feiringen lavmælt. Det er noen patriotiske seremonier og flaggutstillinger, og noen få festivaler og parader, mens mange bare nyter fridagen.",
     "funFacts": [
       "Den minner om den legendariske første keiseren, Jimmu.",
       "Den tradisjonelle grunnlagsdatoen er 660 f.Kr.",
-      "Den ble gjenopplivet som en ferie i 1966."
+      "Den nåværende helligdagen ble innført ved lov i 1966 og feiret første gang i 1967."
     ]
   },
   "coming_of_age_day": {
-    "intro": "Coming of Age Day, den andre mandagen i januar, feirer unge mennesker som har nådd voksen alder.",
-    "history": "Høytiden hedrer alle som har nådd myndighetsalder det siste året. Den har røtter i eldgamle voksende ritualer og ble satt som en nasjonal høytid i 1948 for å oppmuntre unge voksne til å ta sin plass i samfunnet.",
-    "traditions": "Lokale myndigheter holder 'seijin-shiki'-seremonier for nye voksne. Mange unge kvinner bærer forseggjort \"furisode\"-kimono og menn bruker dress eller tradisjonell kjole, og familier tar minnebilder.",
+    "intro": "Myndighetsdagen, den andre mandagen i januar, feirer unge mennesker som har nådd voksen alder.",
+    "history": "Høytiden markerer unge menneskers overgang til voksenlivet. Den har røtter i gamle overgangsritualer og ble satt som en nasjonal høytid i 1948 for å oppmuntre unge voksne til å ta sin plass i samfunnet.",
+    "traditions": "Kommunene holder seremonier som ofte fortsatt er rettet mot 20-åringer. Mange unge kvinner bærer forseggjort \"furisode\"-kimono og menn bruker dress eller tradisjonelle klær, og familier tar minnebilder.",
     "funFacts": [
-      "Mange kvinner bruker en lys 'furisode'-kimono med lange ermer.",
-      "Byer holder spesielle seremonier for nye voksne.",
+      "Mange kvinner bruker en fargerik 'furisode'-kimono med lange ermer.",
+      "Myndighetsalderen ble senket til 18 år i april 2022, men mange seremonier feirer fortsatt 20-åringer.",
       "Voksenalderen i Japan er nå 18."
+    ]
+  },
+  "childrens_day": {
+    "intro": "Barnas dag, Kodomo no Hi, feires 5. mai og setter barns lykke og helse i sentrum. Fargerike vindpølser formet som karper gjør dagen til en av Japans mest gjenkjennelige vårhøytider.",
+    "history": "Helligdagen bygger på Tango no Sekku, en sesongbasert festival som tradisjonelt forbindes med gutter. Under helligdagsloven av 1948 ble 5. mai barnas dag, som feirer alle barn og uttrykker takknemlighet til mødre. Det er en del av ferieperioden Golden Week.",
+    "traditions": "Familier henger opp koinobori, vindpølser formet som karper, og viser miniatyrhjelmer eller rustninger. Tradisjonell mat er kashiwa mochi, riskaker pakket i eikeblader, og regionale varianter av chimaki. Noen familier bader med duftende kalmusblader i vannet.",
+    "funFacts": [
+      "Karpe som svømmer oppstrøms symboliserer styrke og utholdenhet.",
+      "Kodomo betyr barn på japansk.",
+      "Helligdagen faller mot slutten av Golden Week, sammen med flere andre nasjonale helligdager."
+    ]
+  },
+  "constitution_memorial_day": {
+    "intro": "Grunnlovens minnedag 3. mai markerer at Japans etterkrigskonstitusjon trer i kraft. Det er en nasjonal høytid innenfor Golden Week.",
+    "history": "Grunnloven ble kunngjort 3. november 1946 og trådte i kraft 3. mai 1947. Den etablerer folkesuverenitet, grunnleggende menneskerettigheter og pasifisme som sentrale prinsipper. Helligdagen til minne om dens begynnelse ble introdusert i 1948.",
+    "traditions": "Offentlige samtaler, utstillinger og mediediskusjoner undersøker grunnloven og landets fremtid. Politiske og sivile grupper holder arrangementer som gjenspeiler forskjellige synspunkter. Mange familier bruker også Golden Week-pausen til reiser og besøk.",
+    "funFacts": [
+      "Det japanske navnet er Kenpō Kinenbi.",
+      "Kunngjøring og ikrafttredelse skjedde på forskjellige datoer med seks måneders mellomrom.",
+      "Artikkel 9 er grunnlovens velkjente bestemmelse om å gi avkall på krig."
+    ]
+  },
+  "culture_day": {
+    "intro": "Kulturdagen, Bunka no Hi, 3. november feirer kultur og idealene om frihet og fred i Japan. Kunst, læring og kreativitet står i sentrum.",
+    "history": "Kulturdagen ble opprettet under helligdagsloven av 1948. Datoen sammenfaller med kunngjøringen av Japans etterkrigskonstitusjon 3. november 1946. Den samme kalenderdatoen hadde tidligere markert keiser Meijis fødselsdag, men den moderne høytiden har et annet formål.",
+    "traditions": "Museer, gallerier og kulturinstitusjoner holder utstillinger og spesialprogrammer. Skoler og lokalsamfunn arrangerer kulturfestivaler. Keiseren presenterer kulturordenen til mennesker som er anerkjent for fremragende bidrag til det kulturelle og intellektuelle livet.",
+    "funFacts": [
+      "Bunka betyr kultur på japansk.",
+      "Kulturdagen er 3. november; Grunnlovsminnedagen er 3. mai.",
+      "Noen museer tilbyr gratis adgang eller spesielle arrangementer, avhengig av institusjon."
     ]
   }
 }

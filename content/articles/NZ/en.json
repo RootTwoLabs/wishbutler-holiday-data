@@ -20,11 +20,11 @@
     ]
   },
   "matariki": {
-    "intro": "Matariki is the Maori New Year, marked by the mid-winter rising of the Pleiades star cluster. Since 2022 it has been a public holiday on a Friday in late June or July, the first to honour te ao Maori, the Maori world.",
-    "history": "Maori navigators and farmers watched for the return of Matariki before dawn to open the new year and read the coming season from the brightness of its stars. The government made it a public holiday in 2022, with dates set by an advisory group of Maori astronomers.",
+    "intro": "Matariki is the Māori New Year, marked by the mid-winter rising of the Pleiades star cluster. Since 2022 it has been a public holiday on a Friday in late June or July, the first to honour te ao Māori, the Māori world.",
+    "history": "Māori navigators and farmers watched for the return of Matariki before dawn to open the new year and read the coming season from the brightness of its stars. The government made it a public holiday in 2022, with dates set by an advisory group of Māori astronomers.",
     "traditions": "The three principles are remembering those who have died, celebrating the present and looking to the future. Families gather at dawn for the hautapu ceremony in which food is offered to the stars, share a feast, fly kites and attend light shows and concerts.",
     "funFacts": [
-      "The cluster is called Matariki, the eyes of the god Tawhirimatea, in Maori tradition.",
+      "The cluster is called Matariki, the eyes of the god Tāwhirimātea, in Māori tradition.",
       "The first public holiday was celebrated on 24 June 2022.",
       "Each star in the cluster is linked to an area of life, such as food from the sea or the wind.",
       "The date moves each year with the lunar calendar and always falls on a Friday."
@@ -36,7 +36,7 @@
     "traditions": "The King's Birthday Honours are announced, the ski fields of Queenstown and Ruapehu open for the season and families use the long weekend for a winter getaway. Wellington and Auckland host winter festivals and the rugby season is in full swing.",
     "funFacts": [
       "King Charles III's real birthday is 14 November.",
-      "It is the last public holiday before Matariki and Labour Day in spring.",
+      "Matariki follows in winter, while Labour Day falls in spring.",
       "Many Kiwis take Friday off to make a four-day weekend.",
       "The honours list often includes All Blacks and film-makers."
     ]
@@ -53,9 +53,9 @@
     ]
   },
   "auckland_anniversary_day": {
-    "intro": "Auckland Anniversary Day, on the Monday closest to 29 January, marks the founding of the province in 1840. It is a public holiday for Auckland and Northland and the biggest summer weekend of the region.",
-    "history": "Governor William Hobson arrived in the Bay of Islands on 29 January 1840, a week before the Treaty of Waitangi was signed, and Auckland became the capital later that year. The anniversary has been celebrated with a sailing regatta since 1840.",
-    "traditions": "The Auckland Anniversary Regatta fills the Waitemata Harbour with yachts, tugboats and waka. The city also hosts the Buskers Festival and lantern events, and thousands head to the beaches of the Hauraki Gulf.",
+    "intro": "Auckland Anniversary Day, on the Monday closest to 29 January, marks William Hobson’s arrival in 1840. It is a public holiday for Auckland and Northland and the biggest summer weekend of the region.",
+    "history": "William Hobson arrived in the Bay of Islands on 29 January 1840. Auckland became the capital in 1841, and the first anniversary regatta was held in 1842. Auckland Province was not established until 1853.",
+    "traditions": "The Auckland Anniversary Regatta fills the Waitematā Harbour with yachts, tugboats and waka. The city also hosts the Buskers Festival and lantern events, and thousands head to the beaches of the Hauraki Gulf.",
     "funFacts": [
       "The regatta claims to be the largest one-day sailing event in the world.",
       "Auckland is nicknamed the City of Sails because it has more boats per person than any other city.",
@@ -70,7 +70,7 @@
     "funFacts": [
       "The settlers first landed at Petone, but flooding drove them to the site of today's city.",
       "Wellington is the southernmost capital city in the world.",
-      "The city celebrates its anniversary before it even existed: the settlers arrived a year earlier.",
+      "The Aurora brought New Zealand Company settlers to Petone on 22 January 1840.",
       "The Wellington Cup is one of the oldest horse races in the country."
     ]
   },
@@ -88,12 +88,12 @@
   "taranaki_anniversary_day": {
     "intro": "Taranaki Anniversary Day on the second Monday of March celebrates the founding of New Plymouth in 1841. It is a public holiday for the Taranaki region on the west coast of the North Island.",
     "history": "The Plymouth Company's ship William Bryan landed the first settlers from Devon and Cornwall at New Plymouth on 31 March 1841. The anniversary was moved to the second Monday of March so it would always create a long weekend.",
-    "traditions": "The holiday weekend coincides with the WOMAD world music festival in New Plymouth's Bowl of Brooklands and the last of the summer garden festivals. Families walk the coastal walkway or drive to the slopes of Mount Taranaki.",
+    "traditions": "Families walk the coastal walkway or drive to the slopes of Mount Taranaki.",
     "funFacts": [
       "Mount Taranaki stood in for Mount Fuji in the film \"The Last Samurai\".",
       "New Plymouth was settled mainly by families from Devon and Cornwall.",
-      "The mountain was called Egmont by Captain Cook and officially has both names.",
-      "WOMAD has been held in New Plymouth every March since 2003."
+      "Captain Cook named the mountain Egmont; since 2025 its official name has been Taranaki Maunga.",
+      "WOMAD was first held in New Plymouth in 2003."
     ]
   },
   "otago_anniversary_day": {
@@ -109,7 +109,7 @@
   },
   "southland_anniversary_day": {
     "intro": "Southland Anniversary Day is celebrated on Easter Tuesday, giving the southernmost region of New Zealand a five-day Easter break. It commemorates Southland becoming a separate province in 1861.",
-    "history": "Southland split from the Otago Province on 17 January 1861 after settlers around Invercargill demanded their own government. The anniversary was long held on the Monday nearest 17 January, but in 2011 the region voted to move it to Easter Tuesday.",
+    "history": "Southland split from the Otago Province on 1 April 1861 after settlers around Invercargill demanded their own government. The anniversary was long held on the Monday nearest 1 April, but in 2011 the region voted to move it to Easter Tuesday.",
     "traditions": "The Easter Tuesday holiday is used for family trips to Stewart Island, the Catlins or Fiordland, and it is the time of the Bluff Oyster season. Invercargill hosts the Southland Anniversary events and the region's A&P shows.",
     "funFacts": [
       "Southland is the only region that celebrates its anniversary at Easter.",
@@ -121,7 +121,7 @@
   "canterbury_south_anniversary_day": {
     "intro": "South Canterbury Anniversary Day on the fourth Monday of September is the public holiday of the Timaru district and the Mackenzie Country. It celebrates the same Canterbury settlement of 1850 but on a spring date of its own.",
     "history": "Canterbury was founded when the First Four Ships arrived at Lyttelton in December 1850. South Canterbury, centred on Timaru, chose to hold its anniversary in September instead of on Canterbury's November show day, giving the district a spring long weekend.",
-    "traditions": "Families visit Caroline Bay in Timaru or drive into the Mackenzie Basin to Lake Tekapo and Aoraki Mount Cook, where the lupins begin to bloom. Local A&P shows and the Timaru festival programme fill the weekend.",
+    "traditions": "Families visit Caroline Bay in Timaru or drive into the Mackenzie Basin to Lake Tekapo and Aoraki Mount Cook. Local A&P shows and the Timaru festival programme fill the weekend.",
     "funFacts": [
       "The Church of the Good Shepherd at Lake Tekapo is one of the most photographed churches in New Zealand.",
       "Aoraki Mount Cook, the country's highest peak, lies in South Canterbury.",
@@ -148,17 +148,17 @@
       "Marlborough produces about three quarters of all New Zealand wine, above all Sauvignon Blanc.",
       "The province was named after the Duke of Marlborough.",
       "The Marlborough Sounds contain a fifth of New Zealand's coastline.",
-      "The Wairau Bar is one of the oldest known Maori settlement sites in the country."
+      "The Wairau Bar is one of the oldest known Māori settlement sites in the country."
     ]
   },
   "canterbury_anniversary_day": {
     "intro": "Canterbury Anniversary Day, better known as Show Day, is celebrated on the second Friday after the first Tuesday of November. It commemorates the founding of the Canterbury settlement in 1850 and is a public holiday for Christchurch and the surrounding region.",
-    "history": "The First Four Ships reached Lyttelton on 16 December 1850 with settlers of the Anglican Canterbury Association. Because December was already busy, the province chose to celebrate on the Friday of the Canterbury A&P Show in November, a custom kept ever since.",
+    "history": "The First Four Ships reached Lyttelton between 16 and 27 December 1850 with settlers of the Anglican Canterbury Association. Because December was already busy, the province chose to celebrate on the Friday of the Canterbury A&P Show in November, a custom kept ever since.",
     "traditions": "Show Day is the climax of Cup and Show Week: the Canterbury A&P Show at Canterbury Agricultural Park, the New Zealand Trotting Cup on Tuesday and the galloping New Zealand Cup on Saturday. Christchurch dresses up for the races, and the city fills with visitors.",
     "funFacts": [
       "The Canterbury A&P Show is the largest agricultural show in New Zealand.",
       "Cup and Show Week is the biggest week of the year for Christchurch fashion and hospitality.",
-      "The date formula makes Show Day fall between 9 and 15 November.",
+      "The date formula makes Show Day fall between 11 and 17 November.",
       "Christchurch was planned as a model Anglican settlement with its cathedral at the centre."
     ]
   },
@@ -169,19 +169,19 @@
     "funFacts": [
       "The Chathams keep their own time zone, 45 minutes ahead of the rest of New Zealand.",
       "With about 600 residents they are New Zealand's most remote inhabited islands.",
-      "The islands are the first inhabited place on Earth to see the new day.",
-      "The Moriori name for the main island is Rekohu, \"misty sun\"."
+      "The Chathams greet the new day early, but Kiribati’s inhabited Line Islands are further ahead.",
+      "The Moriori name for the main island is Rēkohu, \"misty sun\"."
     ]
   },
   "westland_anniversary_day": {
     "intro": "Westland Anniversary Day, on the Monday closest to 1 December, commemorates the creation of Westland as a separate province in 1873. It is a public holiday for the West Coast of the South Island.",
     "history": "The West Coast boomed in the gold rush of the 1860s, and Hokitika briefly rivalled Dunedin in size. Frustrated by rule from Christchurch across the Southern Alps, the coast won its own province on 1 December 1873, though it lasted only until 1876.",
-    "traditions": "The holiday opens the summer season on the coast: locals fish for whitebait in the rivers, visit Hokitika Gorge and the glaciers, and Greymouth and Hokitika hold community events. The Hokitika Wildfoods Festival is the region's best-known celebration.",
+    "traditions": "The holiday opens the summer season on the coast: locals visit Hokitika Gorge and the glaciers, and Greymouth and Hokitika hold community events. The Hokitika Wildfoods Festival is the region's best-known celebration.",
     "funFacts": [
       "Hokitika had more than 100 hotels at the height of the gold rush.",
       "The West Coast receives some of the highest rainfall in the country.",
       "Pounamu, New Zealand greenstone, comes from West Coast rivers.",
-      "Franz Josef and Fox glaciers descend almost to sea level through rainforest."
+      "Franz Josef and Fox glaciers lie in a landscape of mountains and temperate rainforest."
     ]
   }
 }

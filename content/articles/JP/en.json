@@ -1,7 +1,7 @@
 {
   "foundation_day": {
     "intro": "National Foundation Day on 11 February celebrates the legendary founding of Japan.",
-    "history": "The day marks the mythical accession of Emperor Jimmu, Japan's legendary first emperor, in 660 BC. Established as a holiday to foster patriotism, it was revived in its modern form in 1966 as a day to reflect on the nation's founding.",
+    "history": "The day recalls the legendary accession of Emperor Jimmu, traditionally dated to 660 BC. The modern holiday was established by law in 1966 and first observed in 1967.",
     "traditions": "Compared with other countries' national days, celebrations are low-key. There are some patriotic ceremonies and flag displays, and a few festivals and parades, while many people simply enjoy the day off.",
     "funFacts": [
       "It recalls the legendary first emperor, Jimmu.",
@@ -11,12 +11,42 @@
   },
   "coming_of_age_day": {
     "intro": "Coming of Age Day, on the second Monday of January, celebrates young people who have reached adulthood.",
-    "history": "The holiday honours everyone who has reached the age of majority in the past year. It has roots in ancient coming-of-age rites and was set as a national holiday in 1948 to encourage young adults to take their place in society.",
-    "traditions": "Local governments hold 'seijin-shiki' ceremonies for new adults. Many young women wear elaborate 'furisode' kimono and men wear suits or traditional dress, and families take commemorative photos.",
+    "history": "The holiday celebrates young people entering adult life. It has roots in ancient coming-of-age rites and was set as a national holiday in 1948 to encourage young adults to take their place in society.",
+    "traditions": "Local governments hold ceremonies that often still welcome 20-year-olds. Many young women wear elaborate 'furisode' kimono and men wear suits or traditional dress, and families take commemorative photos.",
     "funFacts": [
       "Many women wear bright 'furisode' kimono with long sleeves.",
-      "Cities hold special ceremonies for new adults.",
+      "The legal age of majority has been 18 since April 2022, but many ceremonies still celebrate turning 20.",
       "The age of adulthood in Japan is now 18."
+    ]
+  },
+  "childrens_day": {
+    "intro": "Children’s Day, Kodomo no Hi, on 5 May celebrates children’s happiness and healthy growth. Colourful carp streamers make it one of Japan’s most recognisable spring holidays.",
+    "history": "The holiday draws on Tango no Sekku, a seasonal festival traditionally associated with boys. Under the public holiday law of 1948, 5 May became Children’s Day, celebrating all children and expressing gratitude to mothers. It is part of the Golden Week holiday period.",
+    "traditions": "Families display koinobori carp streamers and miniature helmets or armour. Traditional foods include kashiwa mochi, rice cakes wrapped in oak leaves, and regional varieties of chimaki. Some households take baths scented with sweet flag (calamus) leaves.",
+    "funFacts": [
+      "Carp swimming upstream symbolise strength and perseverance.",
+      "Kodomo means child or children in Japanese.",
+      "The holiday falls near the end of Golden Week, alongside several other national holidays."
+    ]
+  },
+  "constitution_memorial_day": {
+    "intro": "Constitution Memorial Day on 3 May marks the entry into force of Japan’s post-war constitution. It is a national holiday within Golden Week.",
+    "history": "The constitution was promulgated on 3 November 1946 and came into force on 3 May 1947. It establishes popular sovereignty, fundamental human rights and pacifism as central principles. The public holiday commemorating its commencement was introduced in 1948.",
+    "traditions": "Public talks, exhibitions and media discussions examine the constitution and the country’s future. Political and civic groups hold events reflecting different views. Many families also use the Golden Week break for travel and visits.",
+    "funFacts": [
+      "Its Japanese name is Kenpō Kinenbi.",
+      "Promulgation and entry into force occurred on different dates, six months apart.",
+      "Article 9 is the constitution’s well-known provision on renouncing war."
+    ]
+  },
+  "culture_day": {
+    "intro": "Culture Day, Bunka no Hi, on 3 November celebrates culture and the ideals of freedom and peace in Japan. Art, learning and creativity take centre stage.",
+    "history": "Culture Day was established under the public holiday law of 1948. Its date coincides with the promulgation of Japan’s post-war constitution on 3 November 1946. The same calendar date had previously marked Emperor Meiji’s birthday, but the modern holiday has a different purpose.",
+    "traditions": "Museums, galleries and cultural institutions hold exhibitions and special programmes. Schools and communities organise cultural festivals. The Emperor presents the Order of Culture to people recognised for outstanding contributions to cultural and intellectual life.",
+    "funFacts": [
+      "Bunka means culture in Japanese.",
+      "Culture Day is on 3 November; Constitution Memorial Day is on 3 May.",
+      "Some museums offer free admission or special events, depending on the institution."
     ]
   }
 }

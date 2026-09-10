@@ -57,8 +57,8 @@
     "label": "Journée de la barbe à papa",
     "intro": "Du sucre filé sur un bâton, presque uniquement de l'air, disparu en quelques secondes. La journée célèbre un classique des fêtes foraines qui fait d'une cuillerée de sucre un nuage gros comme une tête.",
     "funFacts": [
-      "La machine à filer a été brevetée en 1897 par le dentiste William Morrison et le confiseur John C. Wharton.",
-      "Vendue sous le nom de Fairy Floss à l'Exposition de Saint-Louis en 1904, elle s'écoula à plus de 68 000 boîtes à 25 cents.",
+      "La machine à filer a été brevetée en 1899 par le dentiste William Morrison et le confiseur John C. Wharton.",
+      "À l’Exposition de Saint-Louis en 1904, les inventeurs vendirent plus de 68 000 boîtes de barbe à papa sous le nom de Fairy Floss, à 25 cents pièce.",
       "Les Allemands parlent de Zuckerwatte, ouate de sucre, quand les Français commandent une barbe à papa."
     ]
   },
@@ -138,14 +138,14 @@
     "label": "Journée du tout enrobé de chocolat",
     "intro": "Fraises, bretzels, chips, grains de café : si ça ne bouge pas, ça peut être trempé. Une journée qui traite le chocolat comme un enrobage plutôt que comme un aliment à part entière.",
     "funFacts": [
-      "Le chocolat ne devient brillant et cassant que s'il est tempéré, c'est-à-dire cristallisé autour de 31 degrés.",
+      "Le tempérage donne brillant et cassant : le chocolat noir se travaille souvent à 31–32 °C, le chocolat au lait et blanc à température plus basse.",
       "Les enrobeuses ont remplacé le trempage à la main vers 1900 et versent encore un rideau de chocolat sur les bonbons.",
       "Le Japon vend depuis des décennies des chips enrobées de chocolat, bien avant que le sucré-salé soit à la mode."
     ]
   },
   "wright_brothers_day": {
     "label": "Journée des frères Wright",
-    "intro": "Le 17 décembre 1903, un avion motorisé a porté un homme pour la première fois, pendant douze secondes tout au plus. La journée marque le moment où voler a cessé d'être un rêve.",
+    "intro": "Le 17 décembre 1903, les frères Wright ont réalisé les premiers vols motorisés, contrôlés et soutenus en avion. Le premier a duré douze secondes : un bref trajet qui a marqué l’histoire de l’aviation.",
     "funFacts": [
       "Le premier vol à Kill Devil Hills a duré 12 secondes sur environ 36 mètres, l'envergure d'un moyen-courrier actuel.",
       "La quatrième tentative du même jour a tenu 59 secondes et couvert 260 mètres.",
@@ -157,7 +157,7 @@
     "intro": "Une journée pour le pot au fond du placard : le miel, seul sucrant fabriqué par des insectes, tourné dans le thé, étalé sur le pain ou mangé directement à la cuillère.",
     "funFacts": [
       "Pour 500 grammes de miel, les abeilles visitent près de deux millions de fleurs et parcourent quelque 90 000 kilomètres.",
-      "Le miel ne se gâte pas : des pots scellés retrouvés dans des tombes égyptiennes étaient encore comestibles.",
+      "Le miel se conserve longtemps dans de bonnes conditions et dans un récipient bien fermé, mais un excès d’humidité peut le faire fermenter.",
       "Une abeille ouvrière produit environ un douzième de cuillère à café de miel dans toute sa vie."
     ]
   },
@@ -194,12 +194,12 @@
     "funFacts": [
       "Ramanujan est né le 22 décembre 1887 et n'a presque reçu aucune formation mathématique.",
       "Il a laissé quelque 3 900 résultats, que les mathématiciens démontraient encore des décennies après sa mort.",
-      "Le nombre 1729 est célèbre : c'est le plus petit qui soit somme de deux cubes de deux façons différentes."
+      "Le nombre 1729 est célèbre : c’est le plus petit entier positif qui s’écrit comme somme de deux cubes d’entiers strictement positifs de deux façons différentes."
     ]
   },
   "festivus": {
     "label": "Festivus",
-    "intro": "La fête pour tous les autres : pas de sapin, pas de cadeaux, juste un mât d'aluminium nu et l'occasion de dire tout haut ce qui vous a agacé cette année. Inventée à la télévision, adoptée pour de vrai.",
+    "intro": "La fête pour tous les autres : pas de sapin, pas de cadeaux, juste un mât d'aluminium nu et l'occasion de dire tout haut ce qui vous a agacé cette année. Popularisée à la télévision, adoptée pour de vrai.",
     "funFacts": [
       "Festivus a atteint le monde entier grâce à l'épisode The Strike de Seinfeld, en 1997.",
       "Le scénariste Dan O'Keefe l'a emprunté à sa famille : son père en célébrait une version depuis les années 1960.",
@@ -212,7 +212,7 @@
     "funFacts": [
       "Le lait de poule descend du posset, une boisson anglaise médiévale de lait chaud caillé à la bière ou au vin.",
       "Une explication du mot nog renvoie au noggin, une petite tasse de bois autrefois utilisée pour servir à boire.",
-      "La recette de la maison de George Washington à Mount Vernon mêlait whisky de seigle, rhum et xérès."
+      "Certaines recettes d’eggnog associent plusieurs alcools, par exemple du rhum, du whisky et du xérès."
     ]
   },
   "pumpkin_pie_day": {
@@ -239,7 +239,7 @@
     "funFacts": [
       "Les vrais cristaux de neige poussent en six branches parce que l'eau se fige en réseau hexagonal.",
       "Le fermier Wilson Bentley a photographié plus de 5 000 cristaux à partir de 1885 sans jamais en trouver deux identiques.",
-      "Plier le papier en six avant de couper, c'est l'astuce qui fait ressembler le flocon découpé à un vrai."
+      "Pour obtenir une symétrie à six branches, on replie le papier en six secteurs superposés avant de découper, puis on déplie le flocon."
     ]
   },
   "card_playing_day": {
@@ -274,7 +274,7 @@
     "intro": "Le dernier jour de l'année est le seul où presque tout le monde attrape la même bouteille. Le champagne a sa date, bouchon compris.",
     "funFacts": [
       "Une bouteille contient environ cinq bars de pression, plus du double de ce que porte un pneu de voiture.",
-      "Dom Pérignon, moine bénédictin et maître de chai, a passé sa carrière à vouloir supprimer les bulles, pas les créer.",
+      "Dom Pérignon était un moine bénédictin et maître de chai qui contribua à améliorer la qualité des vins de Champagne.",
       "Le physicien Gérard Liger-Belair a calculé qu'environ un million de bulles montent dans un verre servi."
     ]
   }

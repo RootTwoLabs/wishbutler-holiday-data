@@ -1,7 +1,7 @@
 {
   "foundation_day": {
     "intro": "Den nationella grundläggningsdagen den 11 februari firar Japans legendariska grundande.",
-    "history": "Dagen markerar den mytiska tronbestigningen av kejsar Jimmu, Japans legendariske förste kejsare, år 660 f.Kr. Den instiftades som en helgdag för att främja patriotismen och återinfördes i sin moderna form år 1966 som en dag för att reflektera över nationens grundande.",
+    "history": "Dagen minner om kejsar Jimmus legendariska tronbestigning, som traditionellt dateras till år 660 f.Kr. Den nuvarande helgdagen infördes genom lag 1966 och firades första gången 1967.",
     "traditions": "Jämfört med andra länders nationaldagar är firandet ganska återhållsamt. Det hålls några patriotiska ceremonier och flaggceremonier, samt ett fåtal festivaler och parader, medan många helt enkelt njuter av ledigheten.",
     "funFacts": [
       "Det påminner om den legendariske förste kejsaren, Jimmu.",
@@ -11,12 +11,42 @@
   },
   "coming_of_age_day": {
     "intro": "Vuxendagen, som infaller den andra måndagen i januari, firar ungdomar som har nått vuxen ålder.",
-    "history": "Helgdagen är tillägnad alla som har fyllt 18 år under det senaste året. Den har sina rötter i forntida övergångsriter och infördes som nationell helgdag 1948 för att uppmuntra unga vuxna att ta sin plats i samhället.",
-    "traditions": "Kommunerna anordnar ”seijin-shiki”-ceremonier för de som just blivit myndiga. Många unga kvinnor bär utsmyckade ”furisode”-kimonor och männen bär kostymer eller traditionella kläder, och familjerna tar minnesfoton.",
+    "history": "Helgdagen firar unga människors inträde i vuxenlivet. Den har sina rötter i forntida övergångsriter och infördes som nationell helgdag 1948 för att uppmuntra unga vuxna att ta sin plats i samhället.",
+    "traditions": "Kommunerna anordnar ceremonier som ofta fortfarande riktar sig till 20-åringar. Många unga kvinnor bär utsmyckade ”furisode”-kimonor och männen bär kostymer eller traditionella kläder, och familjerna tar minnesfoton.",
     "funFacts": [
       "Många kvinnor bär färgglada ”furisode”-kimonor med långa ärmar.",
-      "Städerna anordnar särskilda ceremonier för de nyblivna vuxna.",
+      "Myndighetsåldern sänktes till 18 år i april 2022, men många ceremonier firar fortfarande 20-åringar.",
       "I Japan är myndighetsåldern numera 18 år."
+    ]
+  },
+  "childrens_day": {
+    "intro": "Barnens dag, Kodomo no Hi, firas den 5 maj och lyfter fram barns lycka och hälsa. Färgglada vindstrutar i form av karpar gör den till en av Japans mest välkända vårhögtider.",
+    "history": "Helgdagen bygger på Tango no Sekku, en säsongsbetonad festival som traditionellt förknippas med pojkar. Under helgdagslagen från 1948 blev den 5 maj barnens dag, som firade alla barn och uttryckte tacksamhet till mammor. Det är en del av semesterperioden Golden Week.",
+    "traditions": "Familjer hänger upp koinobori, vindstrutar i form av karpar, och visar miniatyrhjälmar eller rustningar. Man äter kashiwa mochi, riskakor i eklöv, och regionala varianter av chimaki. Vissa familjer badar med doftande kalmusblad i vattnet.",
+    "funFacts": [
+      "Karp som simmar uppströms symboliserar styrka och uthållighet.",
+      "Kodomo betyder barn på japanska.",
+      "Helgdagen infaller nära slutet av Golden Week, tillsammans med flera andra nationella helgdagar."
+    ]
+  },
+  "constitution_memorial_day": {
+    "intro": "Constitution Memorial Day den 3 maj markerar ikraftträdandet av Japans efterkrigskonstitution. Det är en nationell helgdag inom Golden Week.",
+    "history": "Konstitutionen promulgerades den 3 november 1946 och trädde i kraft den 3 maj 1947. Den fastställer folksuveränitet, grundläggande mänskliga rättigheter och pacifism som centrala principer. Den allmänna helgdagen till minne av dess början infördes 1948.",
+    "traditions": "Offentliga samtal, utställningar och mediadiskussioner granskar konstitutionen och landets framtid. Politiska och medborgerliga grupper håller evenemang som speglar olika åsikter. Många familjer använder också Golden Week-uppehållet för resor och besök.",
+    "funFacts": [
+      "Dess japanska namn är Kenpō Kinenbi.",
+      "Kungörelse och ikraftträdande skedde vid olika datum med sex månaders mellanrum.",
+      "Artikel 9 är konstitutionens välkända bestämmelse om att avstå från krig."
+    ]
+  },
+  "culture_day": {
+    "intro": "Kulturdagen, Bunka no Hi, den 3 november firar kultur och idealen om frihet och fred i Japan. Konst, lärande och kreativitet står i centrum.",
+    "history": "Kulturdagen inrättades under helgdagslagen från 1948. Dess datum sammanfaller med promulgeringen av Japans efterkrigskonstitution den 3 november 1946. Samma kalenderdatum hade tidigare markerat kejsar Meijis födelsedag, men den moderna högtiden har ett annat syfte.",
+    "traditions": "Museer, gallerier och kulturinstitutioner håller utställningar och specialprogram. Skolor och samhällen anordnar kulturfestivaler. Kejsaren presenterar kulturorden till människor som är erkända för enastående bidrag till det kulturella och intellektuella livet.",
+    "funFacts": [
+      "Bunka betyder kultur på japanska.",
+      "Kulturdagen är den 3 november; Konstitutionens minnesdag är den 3 maj.",
+      "Vissa museer erbjuder gratis inträde eller speciella evenemang, beroende på institution."
     ]
   }
 }

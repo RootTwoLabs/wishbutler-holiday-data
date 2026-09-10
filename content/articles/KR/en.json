@@ -12,11 +12,31 @@
   "hangul_day": {
     "intro": "Hangul Day on 9 October celebrates the creation of Korea's writing system, Hangul.",
     "history": "The day marks the 1446 proclamation of Hunminjeongeum, the Korean alphabet created under King Sejong the Great so that ordinary people could read and write. Hangul is celebrated as a uniquely scientific and accessible script and a source of national pride.",
-    "traditions": "Cultural events, calligraphy exhibitions and contests celebrate the alphabet, and there are ceremonies honouring King Sejong. It is the only national holiday in the world dedicated to a writing system.",
+    "traditions": "Cultural events, calligraphy exhibitions and contests celebrate the alphabet, and there are ceremonies honouring King Sejong.",
     "funFacts": [
       "Hangul was created under King Sejong the Great.",
       "It was proclaimed in 1446 for ordinary people to use.",
-      "It is the world's only holiday celebrating an alphabet."
+      "The holiday celebrates the Korean writing system and its role in literacy."
+    ]
+  },
+  "lunar_new_year": {
+    "intro": "Seollal is the Korean Lunar New Year and one of the country’s major family holidays. Its date follows the traditional lunisolar calendar and usually falls in January or February.",
+    "history": "Seollal belongs to a long tradition of marking the first day of the lunar year. Although its official status changed during the twentieth century, it remains a central occasion for family reunions, respect for elders and remembrance of ancestors.",
+    "traditions": "Families gather, and younger relatives perform sebae, a formal New Year bow to their elders. Elders offer good wishes and often gifts of money. Tteokguk, a soup with sliced rice cakes, is a traditional meal; families may also play yutnori or wear hanbok.",
+    "funFacts": [
+      "Tteokguk symbolises the beginning of a new year; eating it does not change a person’s legal age.",
+      "Yutnori uses four wooden sticks rather than dice.",
+      "Seollal and Chuseok are both major occasions for travelling home to see relatives."
+    ]
+  },
+  "liberation_day": {
+    "intro": "Gwangbokjeol on 15 August commemorates Korea’s liberation from Japanese colonial rule in 1945. In South Korea it is a national holiday marked by flags and remembrance.",
+    "history": "Japan’s surrender announcement on 15 August 1945 ended its colonial rule over Korea, which had begun in 1910. On the same date in 1948, the Republic of Korea was inaugurated. The holiday recalls liberation and honours the independence movement.",
+    "traditions": "The national flag, Taegeukgi, is displayed on homes and public buildings. Official ceremonies honour independence activists and their families. Museums, concerts and commemorative events explore the history of colonial rule and the struggle for independence.",
+    "funFacts": [
+      "Gwangbok is often translated as the restoration of light.",
+      "The March First Movement of 1919 is remembered on a separate holiday.",
+      "Liberation Day and National Foundation Day on 3 October commemorate different events."
     ]
   }
 }

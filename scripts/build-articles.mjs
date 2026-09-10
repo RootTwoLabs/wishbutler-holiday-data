@@ -21,6 +21,7 @@ import {
 } from './lib/contentLoader.mjs';
 import { loadCreditHints, decorateImageRef } from './lib/imageCredits.mjs';
 import { FUN_COUNTRY_CODE } from './lib/funDays.mjs';
+import { loadLabelCatalog, mergeHolidayLabels } from './lib/labelCatalog.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -58,7 +59,7 @@ async function latestPackageInfo(cc) {
   };
 }
 
-async function mergePackage(cc, globalArticles, countryArticles, creditHints) {
+async function mergePackage(cc, globalArticles, countryArticles, creditHints, labelCatalog) {
   const info = await latestPackageInfo(cc);
   if (!info) {
     console.warn(`  ${cc}: no package, skip`);
@@ -93,7 +94,7 @@ async function mergePackage(cc, globalArticles, countryArticles, creditHints) {
   // Rebuild the package with a deterministic field order (mirroring the order
   // emitted by fetch-holidays) so the content comparison below is stable across
   // runs. The version is intentionally left off here and decided afterwards.
-  const i18n = { holidays: pkg.i18n?.holidays ?? {} };
+  const i18n = { holidays: mergeHolidayLabels(pkg.i18n?.holidays, labelCatalog) };
   if (Object.keys(holidayInfo).length > 0) i18n.holidayInfo = holidayInfo;
 
   const base = {
@@ -120,7 +121,10 @@ async function mergePackage(cc, globalArticles, countryArticles, creditHints) {
   }
 
   const out = { ...base, version };
-  await writeFile(outPath, JSON.stringify(out, null, 2) + '\n', 'utf8');
+  // Published versions are immutable, including formatting and field order.
+  if (outPath !== info.path) {
+    await writeFile(outPath, JSON.stringify(out, null, 2) + '\n', 'utf8');
+  }
 
   const articleCount = Object.values(holidayInfo).reduce(
     (n, m) => n + Object.keys(m).length,
@@ -207,8 +211,10 @@ async function buildGlobalPackage(globalArticles, creditHints) {
 
   const pkg = { ...base, version };
   const dir = join(globalDir, `v${version}`);
-  await mkdir(dir, { recursive: true });
-  await writeFile(join(dir, 'package.json'), JSON.stringify(pkg, null, 2) + '\n', 'utf8');
+  if (version !== prevVersion) {
+    await mkdir(dir, { recursive: true });
+    await writeFile(join(dir, 'package.json'), JSON.stringify(pkg, null, 2) + '\n', 'utf8');
+  }
 
   const articleCount = Object.values(holidayInfo).reduce(
     (n, m) => n + Object.keys(m).length,
@@ -224,13 +230,14 @@ async function main() {
   const globalArticles = await loadGlobalArticles(CONTENT);
   const countryArticles = await loadCountryArticles(CONTENT);
   const creditHints = await loadCreditHints(join(ROOT, 'CREDITS.md'));
+  const labelCatalog = await loadLabelCatalog(join(CONTENT, 'holiday-labels'));
 
   const countries =
     only.length > 0 ? only : (await listDirs(PACKAGES)).filter((c) => /^[A-Z]{2}$/.test(c));
 
   console.log(`Merging articles into ${countries.length} country packages...`);
   for (const cc of countries.sort()) {
-    await mergePackage(cc, globalArticles, countryArticles, creditHints);
+    await mergePackage(cc, globalArticles, countryArticles, creditHints, labelCatalog);
   }
 
   // The GLOBAL package is independent of the per-country build above and is only

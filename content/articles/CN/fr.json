@@ -1,0 +1,32 @@
+{
+  "chinese_new_year_spring_festival": {
+    "intro": "La Fête du Printemps, ou Nouvel An chinois, commence le premier jour de l'année luni-solaire traditionnelle chinoise. Réunions familiales et vœux de bonne fortune sont au cœur des célébrations.",
+    "history": "Le festival est né des traditions accueillant une nouvelle année et honorant les ancêtres. Au fil des siècles, les coutumes régionales se sont développées autour du renouveau du foyer, des repas partagés et des espoirs de prospérité. La célébration suit un calendrier luni-solaire, sa date grégorienne change donc chaque année.",
+    "traditions": "Les familles nettoient et décorent leur maison, arborent des distiques rouges et se réunissent pour un dîner de retrouvailles le soir du Nouvel An. Les enfants reçoivent souvent des enveloppes rouges contenant de l'argent. Les aliments varient selon les régions, notamment les raviolis, les galettes de riz et le poisson. Les festivités publiques dépendent des coutumes et des règles locales.",
+    "funFacts": [
+      "Le festival s'appelle Chunjie en chinois mandarin.",
+      "Les célébrations se poursuivent traditionnellement vers la Fête des Lanternes le quinzième jour du premier mois lunaire.",
+      "Chaque année est associée à un animal dans le cycle des douze animaux du zodiaque."
+    ]
+  },
+  "mid_autumn_festival": {
+    "intro": "La fête de la mi-automne tombe le quinzième jour du huitième mois du calendrier traditionnel chinois. La pleine lune est un symbole de retrouvailles et un centre d’intérêt pour les familles proches et lointaines.",
+    "history": "Le festival s'est développé à partir du culte de la lune et des célébrations saisonnières des récoltes. Les histoires de Chang’e, la déesse de la lune, y sont étroitement associées. Cela reste une occasion importante pour les réunions de famille, avec des coutumes qui varient à travers la Chine.",
+    "traditions": "Les familles partagent des gâteaux de lune, échangent des cadeaux et admirent la lune lorsque le temps le permet. Les lanternes figurent lors des célébrations dans certaines régions. Les personnes séparées peuvent s’envoyer des vœux, prenant la même lune comme symbole de connexion.",
+    "funFacts": [
+      "Son nom mandarin, Zhongqiujie, signifie Fête de la Mi-Automne.",
+      "Les gâteaux de lune varient beaucoup par leur garniture, leur pâte et leur style régional.",
+      "La date grégorienne change car le festival suit un calendrier luni-solaire."
+    ]
+  },
+  "national_day": {
+    "intro": "La Fête nationale chinoise, le 1er octobre, commémore la fondation de la République populaire de Chine en 1949. Il s'agit d'un événement national majeur et du début d'une période de vacances d'automne bien remplie.",
+    "history": "Mao Zedong a proclamé la République populaire de Chine à Pékin le 1er octobre 1949. Cette date a été désignée comme Fête nationale plus tard cette année-là. Des cérémonies officielles et des célébrations publiques ont depuis marqué cet anniversaire.",
+    "traditions": "Des drapeaux nationaux et des décorations festives apparaissent dans les espaces publics. Cérémonies de lever du drapeau, événements culturels et monuments illuminés marquent l'occasion. De nombreuses familles voyagent ou rendent visite à des proches pendant la période des vacances ; la répartition précise des jours de congé est annoncée pour chaque année.",
+    "funFacts": [
+      "Un grand défilé militaire est associé à certains anniversaires majeurs, pas chaque année.",
+      "La période des vacances d'automne est communément appelée Golden Week.",
+      "La fête nationale et la fête de la mi-automne sont parfois proches l'une de l'autre."
+    ]
+  }
+}

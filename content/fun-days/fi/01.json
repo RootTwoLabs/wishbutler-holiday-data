@@ -23,7 +23,7 @@
     "funFacts": [
       "Noin kolmasosa elämästämme kuluu nukkuen.",
       "Yksi unisykli kestää noin 90 minuuttia ja toistuu neljästä kuuteen kertaan yössä.",
-      "Kissat nukkuvat kahdestatoista kuuteentoista tuntia vuorokaudessa ja pitävät kiistatta kärkisijaa."
+      "Kissat nukkuvat kahdestatoista kuuteentoista tuntia vuorokaudessa, useina lyhyinä torkkuina."
     ]
   },
   "spaghetti_day": {
@@ -55,7 +55,7 @@
   },
   "tempura_day": {
     "label": "Tempuran päivä",
-    "intro": "Höyhenenkevyt taikina, kuumaa öljyä, kolmekymmentä sekuntia kärsivällisyyttä: tempura muuttaa katkaravut, sienet ja vihreät pavut rapeaksi ja kullanruskeaksi.",
+    "intro": "Höyhenenkevyt taikina, kuumaa öljyä, hieman kärsivällisyyttä: tempura muuttaa katkaravut, sienet ja vihreät pavut rapeaksi ja kullanruskeaksi.",
     "funFacts": [
       "Portugalilaiset lähetyssaarnaajat toivat ajatuksen taikinassa uppopaistamisesta Japaniin 1500-luvulla.",
       "Nimi johdetaan yleensä latinan sanasta ”tempora”, paastopäivistä, joina syötiin kalaa.",
@@ -84,7 +84,7 @@
     "label": "Huonekasvien päivä",
     "intro": "Joulukuusi on viety, koristeet pakattu — ja huonekasvit ovat yhä paikoillaan. Aika kastella, pyyhkiä lehdet ja antaa hieman kehuja.",
     "funFacts": [
-      "Monsteran lehtiin kasvaa reikiä, jotta valo ja tuuli pääsevät myös alempiin lehtiin.",
+      "Monsteran lehtien reikien tehtävää ei tunneta varmasti. Yksi hypoteesi yhdistää ne sademetsän vaihtelevaan valoon.",
       "Viktoriaanisessa Britanniassa riehui ”pteridomania”, täysimittainen saniaisten keräilyvimma.",
       "Vuonna 1989 NASA testasi huonekasveja suljetuissa kammioissa nähdäkseen, miten hyvin ne puhdistavat ilmaa."
     ]
@@ -140,11 +140,11 @@
     "funFacts": [
       "Kolumnisti Harold Pullman Coffin ehdotti ei-tapahtumaa vuonna 1972; sitä on vietetty vuodesta 1973.",
       "Ideana oli vastapaino kalenterin jatkuvasti kasvavalle teemapäivien tulvalle.",
-      "Hollantilaisilla on sana tuottavalle jouten olemiselle: ”niksen” eli tarkoituksellinen joutenolo."
+      "Hollannin ”niksen” tarkoittaa tarkoituksellista joutenoloa ilman tavoitetta."
     ]
   },
   "kid_inventors_day": {
-    "label": "Lasten keksijöiden päivä",
+    "label": "Lapsikeksijöiden päivä",
     "intro": "Osa parhaista arkiesineistä on lasten keksimiä. Päivämäärä on Benjamin Franklinin syntymäpäivä — hän rakensi ensimmäisen keksintönsä kaksitoistavuotiaana.",
     "funFacts": [
       "17. tammikuuta 1706 syntynyt Benjamin Franklin veisti kaksitoistavuotiaana puiset räpylät käsiinsä.",
@@ -167,7 +167,7 @@
     "funFacts": [
       "Jyvä poksahtaa noin 180 °C:ssa, kun sisällä oleva vesi muuttuu höyryksi ja räjäyttää kuoren.",
       "Uuden-Meksikon luolista on löydetty useita tuhansia vuosia vanhoja popcornin jäänteitä.",
-      "Charles Cretors esitteli ensimmäisen siirrettävän popcornkoneen vuonna 1885."
+      "Charles Cretors esitteli höyrykäyttöisen popcornkoneen Chicagon maailmannäyttelyssä vuonna 1893."
     ]
   },
   "cheese_lovers_day": {
@@ -256,8 +256,8 @@
     "intro": "Ulkoa rapea, sisältä ilmava ja pöytä täynnä muruja: croissant on paras syy nousta aikaisin. Tänään se käy täysipainoisesta aamiaisesta.",
     "funFacts": [
       "Croissant polveutuu itävaltalaisesta kipferlistä; wieniläisleipuri August Zang toi sen Pariisiin vuonna 1839.",
-      "Taikina taitellaan yhä uudelleen, jotta uunissa kohoaa kymmeniä ohuita voikerroksia.",
-      "Ranskassa muoto kertoo raaka-aineen: suorat croissantit tehdään voista, kaarevat perinteisesti margariinista."
+      "Taikinan väliin taitellaan ohuita voikerroksia. Uunissa vesihöyry erottaa taikinakerroksia ja tekee croissantista ilmavan.",
+      "Croissant au beurre tarkoittaa voicroissantia; pelkkä muoto ei kerro luotettavasti aineksia."
     ]
   },
   "backwards_day": {
@@ -265,7 +265,7 @@
     "intro": "Villapaita väärinpäin, jälkiruoka ennen keittoa, nimet luettuna lopusta: tammikuun viimeinen päivä kääntää kaiken järjestyksen. Yhdysvaltain kouluissa se on klassikko.",
     "funFacts": [
       "Leonardo da Vinci kirjoitti muistikirjansa peilikirjoituksella, joka aukeaa vasta peiliä vasten.",
-      "Aaron Yoder juoksi vuonna 2015 mailin takaperin ajassa 5.54 ja pitää Guinnessin maailmanennätystä.",
+      "Vuonna 2015 Aaron Yoder juoksi mailin takaperin ajassa 5.54,25 ja teki silloisen Guinnessin maailmanennätyksen.",
       "Palindromit toimivat molempiin suuntiin: ”saippuakauppias” luetaan samoin eteen- ja taaksepäin."
     ]
   }

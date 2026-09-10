@@ -95,6 +95,25 @@ npm run build        # fetch sources -> write data/ -> rebuild index.json
 
 CI (`.github/workflows/build.yml`) runs the generators, commits `data/`, and tags a release.
 
+### Editing translations
+
+Edit holiday names in `content/holiday-labels/<locale>.json` and articles in
+`content/articles/`. Existing label translations (including editorial English)
+take precedence over translation-cache output. Both article translation scripts
+only fill missing article slugs. To retranslate an existing entry, remove that
+entry deliberately first; changing the English source does not overwrite an
+existing translation automatically.
+
+For text-only changes, run `npm run build:articles`, `npm run build:labels`,
+`npm run build:index`, `npm test`, and `npm run validate`. The article build merges
+both articles and labels into a single new package version when content changes.
+The standalone label build also creates a new version when needed. Existing
+versions are never rewritten, and unchanged builds do not increase versions.
+The full `build` command also fetches external data and is not needed for text edits.
+
+The September 2026 corrections and their scope are documented in
+[`docs/text-review-2026-09-10.md`](docs/text-review-2026-09-10.md).
+
 ### Adding articles + images for a holiday
 
 1. Register the slug in `content/key-map.mjs` (`COUNTRY_ARTICLE_MAP` + `NAMESPACED_SLUGS`

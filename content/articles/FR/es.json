@@ -5,7 +5,7 @@
     "traditions": "El día se abre con el mayor desfile militar de Europa por los Campos Elíseos, presidido por el presidente. La víspera se celebran los bailes de bomberos, y la velada termina con grandes fuegos artificiales, célebres junto a la Torre Eiffel.",
     "funFacts": [
       "La Bastilla solo tenía siete presos cuando fue tomada en 1789.",
-      "El desfile de los Campos Elíseos se celebra casi cada año desde 1880.",
+      "Desde 1880, el desfile militar se celebró inicialmente en Longchamp; su recorrido cambió con el tiempo.",
       "En Francia el día se llama simplemente «le 14 juillet»."
     ]
   },
@@ -17,6 +17,16 @@
       "El armisticio entró en vigor a la 11.ª hora del 11.º día del 11.º mes.",
       "La llama bajo el Arco del Triunfo se reaviva cada tarde desde 1923.",
       "El aciano azul (le Bleuet) es el símbolo francés del recuerdo."
+    ]
+  },
+  "victory_in_europe_day": {
+    "intro": "El 8 de mayo, Francia conmemora la victoria aliada sobre la Alemania nazi en 1945 y el fin de la Segunda Guerra Mundial en Europa. Es un día nacional de recuerdo.",
+    "history": "La rendición militar de Alemania entró en vigor el 8 de mayo de 1945. La fecha pasó a formar parte de las conmemoraciones públicas de la guerra en Francia, aunque su estatus de feriado cambió varias veces. Fue restablecido como día festivo oficial en 1981.",
+    "traditions": "Funcionarios, veteranos, escolares y residentes se reúnen en los monumentos de guerra para depositar ofrendas florales y momentos de silencio. En París, la ceremonia nacional se centra en el Arco de Triunfo y la Tumba del Soldado Desconocido. Las banderas francesas marcan la ocasión.",
+    "funFacts": [
+      "El 8 de mayo marca el fin de la guerra en Europa, no el fin de la guerra en el Pacífico.",
+      "Francia también conmemora el armisticio de la Primera Guerra Mundial el 11 de noviembre.",
+      "Las ceremonias locales honran tanto los sacrificios en tiempos de guerra como el regreso de la paz."
     ]
   }
 }

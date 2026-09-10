@@ -162,11 +162,14 @@ async function translateDeepLBatch(batch, targetLang, delayMs) {
   });
 }
 
-function collectUniqueStrings(articleFiles) {
+function collectUniqueStrings(articleFiles, locale) {
   const strings = new Set();
   for (const file of articleFiles) {
     const articleFile = JSON.parse(fs.readFileSync(file, 'utf8'));
-    for (const value of flattenStrings(articleFile)) {
+    const outPath = path.join(path.dirname(file), `${locale}.json`);
+    const existing = fs.existsSync(outPath) ? JSON.parse(fs.readFileSync(outPath, 'utf8')) : {};
+    const missing = Object.fromEntries(Object.entries(articleFile).filter(([slug]) => !existing[slug]));
+    for (const value of flattenStrings(missing)) {
       strings.add(value);
     }
   }
@@ -203,8 +206,11 @@ function writeLocaleFiles(articleFiles, target, translations) {
   let written = 0;
   for (const file of articleFiles) {
     const english = JSON.parse(fs.readFileSync(file, 'utf8'));
-    const translated = mapStrings(english, (value) => translations.get(value) ?? value);
     const outPath = path.join(path.dirname(file), `${target.locale}.json`);
+    const existing = fs.existsSync(outPath) ? JSON.parse(fs.readFileSync(outPath, 'utf8')) : {};
+    const missing = Object.fromEntries(Object.entries(english).filter(([slug]) => !existing[slug]));
+    if (!Object.keys(missing).length) continue;
+    const translated = { ...mapStrings(missing, (value) => translations.get(value) ?? value), ...existing };
     fs.writeFileSync(outPath, `${JSON.stringify(translated, null, 2)}\n`, 'utf8');
     written += 1;
   }
@@ -215,12 +221,12 @@ async function main() {
   const { only, delayMs } = parseArgs();
   const targets = TARGETS.filter((target) => !only || only.has(target.locale));
   const articleFiles = walkEnglishArticleFiles(articlesRoot);
-  const strings = collectUniqueStrings(articleFiles);
   const cache = loadCache();
 
-  process.stderr.write(`Article sources: ${articleFiles.length}; unique strings: ${strings.length}\n`);
+  process.stderr.write(`Article sources: ${articleFiles.length}; existing articles are preserved.\n`);
 
   for (const target of targets) {
+    const strings = collectUniqueStrings(articleFiles, target.locale);
     process.stderr.write(`\n=== ${target.locale} (${target.deeplTo}) ===\n`);
     const translations = await ensureTranslations(strings, target, cache, delayMs);
     const written = writeLocaleFiles(articleFiles, target, translations);

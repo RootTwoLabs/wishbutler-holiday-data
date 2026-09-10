@@ -1,0 +1,32 @@
+{
+  "chinese_new_year_spring_festival": {
+    "intro": "Kevätjuhla eli kiinalainen uusivuosi alkaa perinteisen kiinalaisen kuu aurinkovuoden ensimmäisenä päivänä. Sukutapaamiset ja onnentoivotukset ovat juhlan ytimessä.",
+    "history": "Festivaali sai alkunsa perinteistä uuden vuoden toivottamisesta ja esi-isiensä kunnioittamisesta. Vuosisatojen aikana alueelliset tavat kehittyivät kodin uudistamisen, yhteisten aterioiden ja vaurauden toivon ympärille. Juhla noudattaa kuukalenteria, joten sen gregoriaaninen päivämäärä vaihtuu joka vuosi.",
+    "traditions": "Perheet siivoavat ja koristelevat kotinsa, ripustavat punaisia onnentoivotustekstejä ja kokoontuvat yhteiselle aterialle uudenvuodenaattona. Lapset saavat usein punaisia rahakuoria. Ruoat vaihtelevat alueittain; niihin kuuluu esimerkiksi täytettyjä taikinanyyttejä, riisikakkuja ja kalaa. Julkiset juhlat riippuvat paikallisista tavoista ja säännöistä.",
+    "funFacts": [
+      "Festivaalin nimi on mandariinikiinaksi Chunjie.",
+      "Juhlat jatkuvat perinteisesti kohti Lyhtyjuhlaa ensimmäisen kuun viidentenätoista päivänä.",
+      "Jokainen vuosi liittyy johonkin eläimeen kahdentoista eläimen horoskooppisyklissä."
+    ]
+  },
+  "mid_autumn_festival": {
+    "intro": "keskisyksyn juhla osuu perinteisen kiinalaisen kalenterin kahdeksannen kuukauden 15. päivälle. Täysikuu on jälleennäkemisen symboli ja perheiden painopiste lähellä ja kaukana.",
+    "history": "Festivaali kehittyi kuun palvonnasta ja sadonkorjuun kausiluontoisista juhlista. Tarinat Chang'esta, kuun jumalattaresta, liittyivät siihen läheisesti. Se on edelleen tärkeä tilaisuus perhejuhlille, ja tavat vaihtelevat eri puolilla Kiinaa.",
+    "traditions": "Perheet jakavat kuukakkuja, vaihtavat lahjoja ja ihailevat kuuta sään salliessa. Lyhdyt esiintyvät juhlissa joillakin alueilla. Erillään olevat ihmiset voivat lähettää toisilleen toiveita pitäen samaa kuuta yhteyden symbolina.",
+    "funFacts": [
+      "Sen mandariinikiinalainen nimi, Zhongqiujie, tarkoittaa keskisyksyn juhla.",
+      "Kuukakkujen täytteet, taikina ja valmistustavat vaihtelevat alueittain.",
+      "Gregoriaaninen päivämäärä muuttuu, koska festivaali noudattaa kuukalenteria."
+    ]
+  },
+  "national_day": {
+    "intro": "Kiinan kansallispäivänä 1. lokakuuta juhlistetaan Kiinan kansantasavallan perustamista vuonna 1949. Se on suuri kansallinen juhla ja kiireisen syyslomakauden alku.",
+    "history": "Mao Zedong julisti Kiinan kansantasavallan Pekingissä 1. lokakuuta 1949. Päivämäärä nimettiin kansallispäiväksi myöhemmin samana vuonna. Viralliset seremoniat ja julkiset juhlat ovat sittemmin vieneet vuosipäivää.",
+    "traditions": "Kansallisliput ja juhlakoristeet näkyvät julkisissa tiloissa. Lipunnosoitusseremoniat, kulttuuritapahtumat ja valaistut maamerkit merkitsevät tilaisuutta. Monet perheet matkustavat tai vierailevat sukulaisten luona loman aikana; vapaapäivien tarkka järjestely ilmoitetaan joka vuosi.",
+    "funFacts": [
+      "Suuri sotilasparaati liittyy valittuihin suuriin vuosipäiviin, ei joka vuosi.",
+      "Syksyn loma-aikaa kutsutaan yleisesti kultaiseksi viikoksi.",
+      "Kansallispäivä ja keskisyksyn juhla osuvat joskus lähekkäin."
+    ]
+  }
+}

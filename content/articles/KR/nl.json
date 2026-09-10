@@ -12,11 +12,31 @@
   "hangul_day": {
     "intro": "Op Hangul-dag, op 9 oktober, wordt de invoering van het Koreaanse schriftsysteem, Hangul, gevierd.",
     "history": "Op deze dag wordt de afkondiging in 1446 van het Hunminjeongeum herdacht, het Koreaanse alfabet dat onder koning Sejong de Grote werd ontwikkeld om gewone mensen in staat te stellen te lezen en te schrijven. Hangul wordt geprezen als een uniek wetenschappelijk en toegankelijk schrift en is een bron van nationale trots.",
-    "traditions": "Culturele evenementen, kalligrafietentoonstellingen en wedstrijden staan in het teken van het alfabet, en er worden ceremonies gehouden ter ere van koning Sejong. Het is de enige nationale feestdag ter wereld die aan een schriftsysteem is gewijd.",
+    "traditions": "Culturele evenementen, kalligrafietentoonstellingen en wedstrijden staan in het teken van het alfabet, en er worden ceremonies gehouden ter ere van koning Sejong.",
     "funFacts": [
       "Hangul is ontstaan onder koning Sejong de Grote.",
       "In 1446 werd bepaald dat het door het gewone volk mocht worden gebruikt.",
-      "Het is de enige feestdag ter wereld die in het teken staat van het alfabet."
+      "De feestdag eert het Koreaanse schrift en zijn rol bij het leren lezen en schrijven."
+    ]
+  },
+  "lunar_new_year": {
+    "intro": "Seollal is het Koreaanse nieuwjaarsfeest en een van de belangrijkste familiefeesten van het land. De datum volgt de traditionele lunisolaire kalender en valt meestal in januari of februari.",
+    "history": "Seollal behoort tot een lange traditie van het markeren van de eerste dag van het maanjaar. Hoewel de officiële status in de twintigste eeuw veranderde, blijft het een centrale gelegenheid voor familiereünies, respect voor ouderen en de herinnering aan voorouders.",
+    "traditions": "Families komen samen en jongere familieleden maken sebae, een formele nieuwjaarsbuiging voor hun ouderen. Die geven goede wensen en vaak geldcadeaus. Tteokguk, soep met plakjes rijstcake, is een traditionele maaltijd. Gezinnen spelen ook yutnori of dragen hanbok.",
+    "funFacts": [
+      "Tteokguk symboliseert het begin van een nieuw jaar; het eten ervan verandert niets aan de wettelijke leeftijd van een persoon.",
+      "Yutnori gebruikt vier houten stokjes in plaats van dobbelstenen.",
+      "Seollal en Chuseok zijn beide belangrijke gelegenheden om naar huis te reizen om familieleden te zien."
+    ]
+  },
+  "liberation_day": {
+    "intro": "Gwangbokjeol herdenkt op 15 augustus de bevrijding van Korea van de Japanse koloniale overheersing in 1945. In Zuid-Korea is het een nationale feestdag die wordt gekenmerkt door vlaggen en herdenkingen.",
+    "history": "De Japanse overgaveaankondiging op 15 augustus 1945 maakte een einde aan de koloniale heerschappij over Korea, die in 1910 was begonnen. Op dezelfde datum in 1948 werd de Republiek Korea ingehuldigd. De feestdag herinnert aan de bevrijding en eert de onafhankelijkheidsbeweging.",
+    "traditions": "De nationale vlag, Taegeukgi, wordt getoond op huizen en openbare gebouwen. Officiële ceremonies eren onafhankelijkheidsactivisten en hun families. Musea, concerten en herdenkingsevenementen verkennen de geschiedenis van de koloniale overheersing en de strijd voor onafhankelijkheid.",
+    "funFacts": [
+      "Gwangbok wordt vaak vertaald als het herstel van licht.",
+      "De Eerste Maartbeweging van 1919 wordt op een aparte feestdag herdacht.",
+      "Bevrijdingsdag en Nationale Stichtingsdag op 3 oktober herdenken verschillende gebeurtenissen."
     ]
   }
 }

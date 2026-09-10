@@ -102,6 +102,7 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 - `images/FUN/carrot_cake_day/01.jpg` — Joe Mabel (CC BY-SA 3.0)
 - `images/FUN/carrot_day/01.jpg` — domdomegg (CC BY 4.0)
 - `images/FUN/cartoonists_day/01.jpg` — Joshin Yamada from Portland, USA (CC BY 2.0)
+- `images/FUN/checkers_day/00.jpg` — Hephaestos / Caronna — American Cocker Spaniel, illustrative photo (CC BY-SA 3.0)
 - `images/FUN/checkers_day/01.jpg` — TaurusEmerald (CC BY-SA 4.0)
 - `images/FUN/cheese_day/01.jpg` — Andrea Goh (CC BY 2.0)
 - `images/FUN/cheese_doodle_day/01.jpg` — annulla (CC BY 2.0)
@@ -408,9 +409,36 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 - `images/TR/eid_al_fitr_first_day/02.jpg` — James Gordon from Los Angeles, California, USA (CC BY 2.0)
 - `images/TR/eid_al_fitr_first_day/03.jpg` — James Gordon from Los Angeles, California, USA (CC BY 2.0)
 - `images/TR/republic_day/03.jpg` — longuner (CC BY-SA 3.0)
+- `images/US/juneteenth_national_independence_day/01.jpg` — Mrs. Charles Stephenson (Grace Murray) (Public domain)
+- `images/US/veterans_day/01.jpg` — Arlington National Cemetery (Public domain)
+- `images/FR/victory_in_europe_day/01.jpg` — xiquinhosilva (CC BY 2.0)
+- `images/FI/independence_day/01.jpg` — FinnishGovernment (CC BY 2.0)
+- `images/FI/midsummer_day/01.jpg` — Poyhosa (CC BY-SA 3.0)
+- `images/JP/childrens_day/01.jpg` — kiukey from Nagoya (CC BY 2.0)
+- `images/JP/constitution_memorial_day/01.jpg` — Daderot (CC0)
+- `images/JP/culture_day/01.jpg` — Wiiii (CC BY-SA 3.0)
+- `images/KR/lunar_new_year/01.jpg` — 최광모 (CC BY-SA 4.0)
+- `images/KR/liberation_day/01.jpg` — Korea.net / Korean Culture and Information Service (CC BY-SA 2.0)
+- `images/CN/chinese_new_year_spring_festival/01.jpg` — Paul Louis (CC BY-SA 3.0)
+- `images/CN/mid_autumn_festival/01.jpg` — Lybil BER (CC BY-SA 3.0)
+- `images/CN/national_day/01.jpg` — Christophe95 (CC BY-SA 4.0)
+- `images/SG/deepavali/01.jpg` — Public domain: Use these pix for any purpose (CC BY 2.0)
+- `images/SG/vesak_day/01.jpg` — Amilawapc (CC BY-SA 4.0)
+- `images/UA/independence_day/01.jpg` — Ввласенко (CC BY-SA 3.0)
+- `images/GR/independence_day/01.jpg` — Skylax30 (CC BY-SA 4.0)
+- `images/GR/ochi_day/01.jpg` — Chrischerf (CC BY-SA 3.0)
+- `images/CZ/independent_czechoslovak_state_day/01.jpg` — spaceman117 (CC BY 3.0)
+- `images/BR/our_lady_of_aparecida/01.jpg` — HVL (CC BY 3.0)
 <!-- END:IMAGE-CREDITS -->
 
 ## Data sources
+
+The Checkers Day image `data/images/FUN/checkers_day/00.jpg` shows the American
+Cocker Spaniel Riley as an illustrative breed photo, not Richard Nixon's actual
+dog Checkers. It is copied unchanged from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:American_Cocker_Spaniel.jpg),
+credited there to Hephaestos with the migrated attribution Caronna, under
+[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+The former board-game image `01.jpg` is retained only for historical package references.
 
 - **Public holidays**: Nager.Date (MIT), OpenHolidays API (CC-BY-4.0).
 - **Israel (IL)**: Jewish calendar dates from [Hebcal](https://www.hebcal.com/)

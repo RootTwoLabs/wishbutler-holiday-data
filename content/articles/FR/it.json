@@ -2,10 +2,10 @@
   "bastille_day": {
     "intro": "La festa nazionale francese del 14 luglio ricorda la presa della Bastiglia del 1789 e la Festa della Federazione del 1790, simboli della Rivoluzione e dell’unità nazionale.",
     "history": "Il 14 luglio 1789 i parigini presero la Bastiglia, simbolo odiato dell’assolutismo regio, dando inizio alla Rivoluzione francese. Un anno dopo la Festa della Federazione celebrò la nuova nazione; nel 1880 la Terza Repubblica fece del 14 luglio la festa nazionale.",
-    "traditions": "La giornata si apre con la più grande parata militare d’Europa sugli Champs-Élysées, passata in rivista dal presidente. La vigilia animano i balli dei pompieri, e la serata si chiude con grandi fuochi d’artificio, celebri presso la Tour Eiffel.",
+    "traditions": "La giornata si apre con la più grande parata militare d’Europa sugli Champs-Élysées, passata in rivista dal presidente. La vigilia è animata dai balli dei pompieri, e la serata si chiude con grandi fuochi d’artificio, celebri presso la Tour Eiffel.",
     "funFacts": [
       "Nel 1789 la Bastiglia ospitava solo sette prigionieri.",
-      "La parata sugli Champs-Élysées si tiene quasi ogni anno dal 1880.",
+      "Dal 1880 la parata militare si svolse inizialmente a Longchamp; il percorso cambiò nel tempo.",
       "In Francia il giorno si chiama semplicemente « le 14 juillet »."
     ]
   },
@@ -17,6 +17,16 @@
       "L’armistizio entrò in vigore all’11ª ora dell’11° giorno dell’11° mese.",
       "La fiamma sotto l’Arco di Trionfo è riaccesa ogni sera dal 1923.",
       "Il fiordaliso azzurro (le Bleuet) è il simbolo francese del ricordo."
+    ]
+  },
+  "victory_in_europe_day": {
+    "intro": "L'8 maggio la Francia commemora la vittoria degli Alleati sulla Germania nazista nel 1945 e la fine della Seconda Guerra Mondiale in Europa. È una giornata nazionale del ricordo.",
+    "history": "La resa militare della Germania entrò in vigore l'8 maggio 1945. La data entrò a far parte delle commemorazioni pubbliche francesi della guerra, anche se il suo status festivo cambiò più volte. È stato ripristinato come giorno festivo legale nel 1981.",
+    "traditions": "Funzionari, veterani, scolari e residenti si riuniscono ai memoriali di guerra per la deposizione di corone e momenti di silenzio. A Parigi, la cerimonia nazionale è incentrata sull'Arco di Trionfo e sulla Tomba del Milite Ignoto. Le bandiere francesi segnano l'occasione.",
+    "funFacts": [
+      "L'8 maggio segna la fine della guerra in Europa, non la fine della guerra nel Pacifico.",
+      "Anche la Francia commemora l'armistizio della Prima Guerra Mondiale l'11 novembre.",
+      "Le cerimonie locali onorano sia i sacrifici in tempo di guerra che il ritorno della pace."
     ]
   }
 }

@@ -1,8 +1,8 @@
 {
   "independence_day": {
     "intro": "Brasilian itsenäisyyspäivä 7. syyskuuta merkitsee prinssi Pedron julistamaa eroa Portugalista vuonna 1822.",
-    "history": "São Paulon Ipiranga-puron varrella prinssi Regent Pedro julisti 7. syyskuuta 1822 Brasilian itsenäiseksi Portugalista huudahduksella \"Independence or death!\", jolloin hänestä tuli keisari Pedro I. Portugali tunnusti itsenäisyyden vuonna 1825, mikä päätti kolme vuosisataa kestäneen siirtomaavallan.",
-    "traditions": "Brasíliassa järjestetään presidentin edessä suuri kansalais-sotilasparaati, jossa ilmavoimien Esquadrilha da Fumaça jäljittää vihreää ja keltaista savua. Brasilian kaupungeissa ja kouluissa järjestetään omat paraatit ja lippuseremoniat.",
+    "history": "São Paulon Ipiranga-puron varrella sijaishallitsijana toiminut prinssi Pedro julisti 7. syyskuuta 1822 Brasilian itsenäiseksi Portugalista huudahduksella \"Itsenäisyys tai kuolema!\", jolloin hänestä tuli keisari Pedro I. Portugali tunnusti itsenäisyyden vuonna 1825, mikä päätti kolme vuosisataa kestäneen siirtomaavallan.",
+    "traditions": "Brasíliassa järjestetään presidentin edessä suuri kansalais-sotilasparaati, jossa ilmavoimien Esquadrilha da Fumaça piirtää taivaalle vihreitä ja keltaisia savuvanoja. Brasilian kaupungeissa ja kouluissa järjestetään omat paraatit ja lippuseremoniat.",
     "funFacts": [
       "Julistus tunnetaan nimellä \"Grito do Ipiranga\".",
       "Pedro I julisti itsenäisyyden ja hänestä tuli keisari vain 23-vuotiaana.",
@@ -10,13 +10,23 @@
     ]
   },
   "carnival": {
-    "intro": "Brasilian karnevaali on maan kuuluisin festivaali, paastoa edeltävä samba, paraatit ja katujuhlat.",
+    "intro": "Brasilian karnevaali on maan kuuluisin juhla: ennen paastonaikaa kadut täyttyvät sambasta, paraateista ja katujuhlista.",
     "history": "Karnevaali saapui portugalilaisten siirtolaisten kanssa ja sulautui orjuutettujen ihmisten tuomiin afrikkalaisiin rytmeihin synnyttäen samban. Ensimmäiset sambakoulut syntyivät Rioon 1920-luvun lopulla, ja Sambadrome-paraaatit kasvoivat maailmanlaajuiseksi spektaakkeliksi.",
-    "traditions": "Riossa sambakoulut kilpailevat Sambadromessa hienostuneilla kellukkeilla ja asuilla, kun taas Salvador täyttää sähköiset \"trios elétricos\" ja Olinda jättiläisnukkeilla. Ilmaiset katublokit houkuttelevat miljoonia tanssijoita päivien ajan.",
+    "traditions": "Riossa sambakoulut kilpailevat Sambadromella näyttävillä paraativaunuilla ja puvuilla. Salvadorissa musiikkia soittavat liikkuvat »trios elétricos« -lavat, ja Olindassa kuljetetaan jättiläisnukkeja. Ilmaiset blocos-katujuhlat houkuttelevat miljoonia tanssijoita.",
     "funFacts": [
       "Rion Sambadromin on suunnitellut arkkitehti Oscar Niemeyer.",
-      "Karnevaalipäivät muuttuvat joka vuosi paastoa edeltävänä päivänä.",
+      "Karnevaalin päivämäärät vaihtelevat vuosittain pääsiäisen ja sitä edeltävän paaston ajankohdan mukaan.",
       "Salvadorin katukarnevaalit ovat yksi maailman suurimmista."
+    ]
+  },
+  "our_lady_of_aparecida": {
+    "intro": "Brasilia kunnioittaa 12. lokakuuta Aparecidan Neitsyt Mariaa, maan suojeluspyhimystä. Kansallispäivä on erityisen tärkeä katolisille yhteisöille ja pyhiinvaeltajille.",
+    "history": "Pyhäkön perinteen mukaan kolme kalastajaa löysi pienen Neitsyt Marian kuvan Paraíba do Sul -joesta vuonna 1717. Kuvan ja Aparecidan kaupungin ympärille kasvoi omistautuminen. Paavi Pius XI julisti Aparecidan Neitsyt Marian Brasilian suojelijaksi vuonna 1930; Lokakuun 12. päivästä tuli kansallinen vapaapäivä vuonna 1980.",
+    "traditions": "Pyhiinvaeltajat matkustavat Aparecidan kansallispyhäkköön São Paulon osavaltiossa osallistuakseen messuihin, rukouksiin ja kulkueisiin. Seurakunnat muualla järjestävät omia juhliaan, ja uskovaiset kiittävät tai täyttävät uskonnollisia lupauksiaan. Perheet voivat viettää myös samalle päivälle osuvaa lastenpäivää.",
+    "funFacts": [
+      "Pieni alkuperäinen kuva on tehty terrakottasta.",
+      "Aparecida on saanut nimensä kuvasta, jonka kuvataan ilmestyneen joessa.",
+      "Pyhäkkö sijaitsee São Paulon ja Rio de Janeiron kaupunkien välissä."
     ]
   }
 }

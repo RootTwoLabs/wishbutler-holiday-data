@@ -16,7 +16,7 @@
     "funFacts": [
       "ANZAC significa Australian and New Zealand Army Corps.",
       "Os ofícios ao amanhecer recordam o desembarque matinal em Gallipoli.",
-      "Jogar two-up nos pubs só é permitido no Anzac Day."
+      "O two-up faz parte das tradições do Anzac Day. As condições em que é permitido dependem das regras de cada estado."
     ]
   },
   "labour_day_au": {
@@ -24,7 +24,7 @@
     "history": "Em 1856, os pedreiros de Melbourne largaram as ferramentas e marcharam até ao Parlamento exigindo oito horas de trabalho, oito horas de recreio e oito horas de descanso. Venceram e o “888” tornou-se um símbolo do movimento operário mundial. Victoria declarou o primeiro feriado em 1879.",
     "traditions": "O festival Moomba de Melbourne preenche o fim de semana prolongado com desfiles e eventos fluviais, e os sindicatos marcham nas capitais. Para a maioria dos australianos é simplesmente um fim de semana prolongado para acampar, praticar desporto e fazer churrascos em família.",
     "funFacts": [
-      "O monumento do Dia das Oito Horas em Melbourne tem o dígito 888.",
+      "O monumento do Dia das Oito Horas em Melbourne tem a inscrição 888.",
       "Queensland e o Território do Norte comemoram em maio, a Tasmânia chama-lhe o Dia das Oito Horas.",
       "A Austrália é um dos poucos países onde o Dia do Trabalhador tem cinco datas diferentes.",
       "A marcha original de 1856 começou no estaleiro de construção da Universidade de Melbourne."
@@ -32,11 +32,11 @@
   },
   "kings_birthday": {
     "intro": "O feriado do Aniversário do Rei, na segunda segunda-feira de junho, na maioria dos estados, proporciona à Austrália um fim de semana prolongado em pleno inverno. Não tem nada a ver com o aniversário real do monarca, que calha em novembro.",
-    "history": "O governador Arthur Phillip celebrou o aniversário do rei Jorge III a 4 de junho de 1788, poucos meses após a chegada da Primeira Frota. A Austrália manteve uma data de junho em todos os reinados desde então e, depois de a Rainha Isabel II ter morrido em 2022, o feriado foi simplesmente renomeado.",
+    "history": "O governador Arthur Phillip celebrou o aniversário do rei Jorge III a 4 de junho de 1788, poucos meses após a chegada da Primeira Frota. A data mudou ao longo do tempo. Após a morte de Isabel II em 2022, o feriado passou a chamar-se Aniversário do Rei.",
     "traditions": "A lista de homenagens ao aniversário do rei é publicada, a temporada de esqui abre nos Alpes e a AFL organiza o seu grande jogo entre Collingwood e Melbourne no MCG. Queensland e a Austrália Ocidental celebram o feriado noutras datas para espalhar os seus fins de semana prolongados.",
     "funFacts": [
       "O rei Carlos III nasceu a 14 de novembro, cinco meses após o seu aniversário na Austrália.",
-      "Queensland mudou o seu feriado para outubro de 2016 para que o estado tivesse um fim de semana prolongado de primavera.",
+      "Queensland mudou o seu feriado para outubro a partir de 2016 para que o estado tivesse um fim de semana prolongado de primavera.",
       "O fim de semana de junho abre tradicionalmente a temporada de neve em Thredbo e Perisher.",
       "Os fogos de artifício são permitidos no Território do Norte apenas no Dia do Território, não este fim de semana."
     ]
@@ -44,7 +44,7 @@
   "melbourne_cup": {
     "intro": "O Melbourne Cup Day, na primeira terça-feira de novembro, é feriado na área metropolitana de Melbourne para uma corrida de cavalos. O handicap de 3.200 metros em Flemington é conhecido como a corrida que pára uma nação.",
     "history": "A primeira Taça foi disputada em 1861 e ganha por Archer, que segundo a lenda veio de Nova Gales do Sul para competir. A corrida tornou-se feriado em Melbourne em 1877 e tem acontecido todos os anos desde então, mesmo durante as duas guerras mundiais.",
-    "traditions": "Australianos de todo o lado param às 15h00 para assistir à corrida, participar em scans no escritório e vestir-se a rigor para o almoço. No Flemington a competição Fashions on the Field é tão famosa como os cavalos, e toda a semana é um carnaval de corridas e festas.",
+    "traditions": "Australianos de todo o lado param às 15h00 para assistir à corrida, participar em sorteios de apostas entre colegas de trabalho e vestir-se a rigor para o almoço. No Flemington a competição Fashions on the Field é tão famosa como os cavalos, e toda a semana é um carnaval de corridas e festas.",
     "funFacts": [
       "A Taça traz mais de 8 milhões de dólares australianos em prémios em dinheiro.",
       "Makybe Diva é o único cavalo a vencer três Taças consecutivas, de 2003 a 2005.",
@@ -55,9 +55,9 @@
   "western_australia_day": {
     "intro": "O Dia da Austrália Ocidental, na primeira segunda-feira de junho, celebra a fundação da Colónia do Rio Swan em 1829 e a história do estado, incluindo os seus povos aborígenes.",
     "history": "O capitão James Stirling proclamou a colónia a 18 de junho de 1829 no local de Perth. O feriado foi denominado Dia da Fundação até 2012, quando foi renomeado para reconhecer a história aborígene antes da colonização europeia como parte da história do estado.",
-    "traditions": "Perth organiza um festival comunitário gratuito na costa do Rio Swan, os prémios da Austrália Ocidental do Ano são entregues e as cerimónias de cidadania dão as boas-vindas aos novos residentes. As cidades regionais realizam os seus próprios festivais e eventos culturais aborígenes.",
+    "traditions": "Perth organiza um festival comunitário gratuito nas margens do Rio Swan, os prémios da Austrália Ocidental do Ano são entregues e as cerimónias de cidadania dão as boas-vindas aos novos residentes. As cidades regionais realizam os seus próprios festivais e eventos culturais aborígenes.",
     "funFacts": [
-      "A Austrália Ocidental é o único estado com um feriado para a sua própria fundação.",
+      "O Western Australia Day celebra a história e as comunidades do estado.",
       "O estado cobre cerca de um terço da Austrália, mas tem apenas um décimo da sua população.",
       "Perth está mais perto de Jacarta do que de Sydney.",
       "A renomeação de 2012 ocorreu após consulta aos anciãos aborígenes."
@@ -76,7 +76,7 @@
   },
   "friday_before_afl_grand_final": {
     "intro": "A sexta-feira antes da Grande Final da AFL é feriado em Victoria desde 2015. Isto dá a Melbourne um fim de semana prolongado para o maior dia do futebol australiano.",
-    "history": "O Primeiro-Ministro Daniel Andrews introduziu o feriado para permitir que as famílias participem no Desfile da Grande Final, que se realiza na sexta-feira. A Grande Final remonta a 1898 e tem sido disputada no Melbourne Cricket Ground quase todos os anos desde 1902.",
+    "history": "O então chefe do governo de Victoria, Daniel Andrews, introduziu o feriado para permitir que as famílias participem no Desfile da Grande Final, que se realiza na sexta-feira. A Grande Final remonta a 1898 e tem sido disputada no Melbourne Cricket Ground quase todos os anos desde 1902.",
     "traditions": "As duas equipas concorrentes desfilam pelo centro da cidade em carros abertos, e os adeptos com as cores do clube ocupam as ruas. Sábado traz a Grande Final com cerca de 100 mil pessoas no MCG, concertos antes do jogo e churrascos no quintal em frente à televisão.",
     "funFacts": [
       "O feriado foi apelidado de Véspera da Grande Final.",

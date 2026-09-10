@@ -57,7 +57,7 @@
     "label": "Hattaran päivä",
     "intro": "Kehrättyä sokeria tikun päässä, enimmäkseen ilmaa ja hetkessä poissa. Päivä kunnioittaa tivoliklassikkoa, joka muuttaa lusikallisen sokeria pään kokoiseksi pilveksi.",
     "funFacts": [
-      "Kehruukoneen patentoivat 1897 hammaslääkäri William Morrison ja konditori John C. Wharton yhdessä.",
+      "Kehruukoneen patentoivat 1899 hammaslääkäri William Morrison ja konditori John C. Wharton yhdessä.",
       "Nimellä Fairy Floss sitä myytiin St. Louisin maailmannäyttelyssä 1904 yli 68 000 rasiaa, 25 senttiä kappale.",
       "Saksassa sitä sanotaan sokerivanuksi (Zuckerwatte), Ranskassa tilataan barbe à papa eli isin parta."
     ]
@@ -131,21 +131,21 @@
     "funFacts": [
       "Amelia Simmons kuvasi pienissä kupeissa paistettua kevyttä kakkua kirjassaan American Cookery vuonna 1796.",
       "Eliza Leslie painatti 1828 reseptin nimellä cup cake; nimi tulee mitä ilmeisimmin kupillisin mittaamisesta.",
-      "1-2-3-4-kakku on nimetty ainesosiensa mukaan: kuppi voita, sokeria ja jauhoja sekä neljä kananmunaa."
+      "1-2-3-4-kakkuun tulee yksi kupillinen voita, kaksi sokeria, kolme jauhoja ja neljä kananmunaa."
     ]
   },
   "chocolate_covered_anything_day": {
     "label": "Suklaakuorrutetun kaiken päivä",
     "intro": "Mansikoita, suolarinkeleitä, sipsejä, kahvipapuja: jos se pysyy paikallaan, sen voi dipata. Päivä, joka kohtelee suklaata kuorrutteena eikä omana ruokanaan.",
     "funFacts": [
-      "Suklaa jähmettyy kiiltäväksi ja napsahtaa siististi vain temperoituna eli kiteytettynä noin 31 asteessa.",
+      "Temperointi antaa kiillon ja napsahtavan rakenteen. Tummaa suklaata työstetään usein 31–32 °C:ssa, maito- ja valkosuklaata viileämpänä.",
       "Kuorrutuskoneet syrjäyttivät käsin dippaamisen noin 1900 ja kaatavat yhä suklaaverhon ohi kulkevien makeisten päälle.",
       "Japanissa on myyty suklaakuorrutettuja perunalastuja vuosikymmeniä – suolaa ja sokeria kauan ennen kuin se oli muotia."
     ]
   },
   "wright_brothers_day": {
     "label": "Wrightin veljesten päivä",
-    "intro": "17. joulukuuta 1903 moottorilentokone kantoi ihmistä ensimmäistä kertaa, kokonaiset kaksitoista sekuntia. Päivä merkitsee hetkeä, jolloin lentäminen lakkasi olemasta unelma.",
+    "intro": "Wrightin veljekset tekivät 17. joulukuuta 1903 ensimmäiset hallitut ja yhtäjaksoiset lennot moottorilentokoneella. Ensimmäinen kesti kaksitoista sekuntia: lyhyt matka, joka jäi ilmailun historiaan.",
     "funFacts": [
       "Ensilento Kill Devil Hillsissä kesti 12 sekuntia ja kattoi noin 36 metriä – lyhyen matkan suihkukoneen siipivälin verran.",
       "Saman päivän neljäs yritys pysyi ilmassa 59 sekuntia ja kattoi 260 metriä.",
@@ -157,7 +157,7 @@
     "intro": "Päivä kaapin perällä olevalle purkille: hunaja, ainoa hyönteisten tekemä makeutusaine, teehen sekoitettuna, leivälle levitettynä tai suoraan lusikalta syötynä.",
     "funFacts": [
       "Puoli kiloa hunajaa vaatii mehiläisiltä noin kahden miljoonan kukan vierailut ja noin 90 000 kilometrin lentelyn.",
-      "Hunaja ei pilaannu: egyptiläisistä haudoista löytyneet suljetut ruukut olivat syötäviä vuosituhansien jälkeenkin.",
+      "Hunaja säilyy pitkään oikein säilytettynä tiiviissä astiassa, mutta liika kosteus voi saada sen käymään.",
       "Yksi työmehiläinen tuottaa koko elämänsä aikana noin kahdestoistaosan teelusikallista hunajaa."
     ]
   },
@@ -194,12 +194,12 @@
     "funFacts": [
       "Ramanujan syntyi 22. joulukuuta 1887, eikä hänellä ollut juuri lainkaan muodollista matematiikan koulutusta.",
       "Hän jätti jälkeensä noin 3 900 tulosta, ja matemaatikot todistelivat niitä vielä vuosikymmeniä hänen kuolemansa jälkeen.",
-      "Luku 1729 tuli kuuluisaksi pienimpänä lukuna, joka on kahden kuution summa kahdella eri tavalla."
+      "1729 on pienin positiivinen kokonaisluku, joka voidaan esittää kahden positiivisen kokonaisluvun kuutioiden summana kahdella eri tavalla."
     ]
   },
   "festivus": {
     "label": "Festivus",
-    "intro": "Juhla meille muille: ei kuusta, ei lahjoja, vain paljas alumiinitanko ja tilaisuus sanoa ääneen, mikä tänä vuonna ärsytti. Keksittiin televisiossa, otettiin käyttöön tosissaan.",
+    "intro": "Juhla meille muille: ei kuusta, ei lahjoja, vain paljas alumiinitanko ja tilaisuus sanoa ääneen, mikä tänä vuonna ärsytti. Tuli tunnetuksi televisiossa, otettiin käyttöön tosissaan.",
     "funFacts": [
       "Festivus levisi maailmalle Seinfeldin jaksossa The Strike vuonna 1997.",
       "Käsikirjoittaja Dan O'Keefe lainasi sen omasta perheestään; hänen isänsä oli juhlinut versiota siitä 1960-luvulta asti.",
@@ -212,7 +212,7 @@
     "funFacts": [
       "Eggnog polveutuu possetista, keskiaikaisesta juomasta, jossa kuuma maito juoksetettiin oluella tai viinillä.",
       "Yksi selitys sanalle nog on noggin, pieni veistetty puukuppi, jossa juomia aikoinaan tarjoiltiin.",
-      "George Washingtonin Mount Vernonin talouden resepti vaati ruisviskiä, rommia ja sherryä yhdellä kertaa."
+      "Joissakin eggnog-resepteissä yhdistetään useita alkoholijuomia, kuten rommia, viskiä ja sherryä."
     ]
   },
   "pumpkin_pie_day": {
@@ -235,7 +235,7 @@
   },
   "cut_out_snowflakes_day": {
     "label": "Leikkaa paperilumihiutaleita -päivä",
-    "intro": "Taittele paperi, napsauta muutama lovi, avaa ja yllity. Askartelupäivä välipäivien hiljaiselle viikolle ja halpa koriste jokaiseen ikkunaan.",
+    "intro": "Taittele paperi, napsauta muutama lovi, avaa ja ylläty. Askartelupäivä välipäivien hiljaiselle viikolle ja halpa koriste jokaiseen ikkunaan.",
     "funFacts": [
       "Oikeat lumikiteet kasvavat kuusisakaraisiksi, koska vesimolekyylit lukittuvat jäätyessään heksagoniseen hilaan.",
       "Maanviljelijä Wilson Bentley valokuvasi vuodesta 1885 yli 5 000 lumikidettä eikä löytänyt kahta samanlaista.",
@@ -253,7 +253,7 @@
   },
   "tick_tock_day": {
     "label": "Tik tak -päivä",
-    "intro": "Vuotta on jäljellä kaksi päivää ja lista tekemättömiä asioita. Tik tak -päivä on ystävällinen muistutus hoitaa niistä edes yksi ennen kuin kello loppuu.",
+    "intro": "Vuotta on jäljellä kaksi päivää ja lista tekemättömiä asioita. Tik tak -päivä on ystävällinen muistutus hoitaa niistä edes yksi ennen kuin aika loppuu.",
     "funFacts": [
       "Keskiaikaisten luostarien varhaisissa mekaanisissa kelloissa ei ollut viisareita lainkaan: ne vain soittivat oikean tunnin.",
       "Christiaan Huygensin heilurikello vuodelta 1656 pienensi päivävirheen noin viidestätoista minuutista viiteentoista sekuntiin.",
@@ -274,7 +274,7 @@
     "intro": "Vuoden viimeisenä päivänä lähes kaikki tarttuvat samaan pulloon. Samppanja saa oman päivämääränsä, korkki mukaan lukien.",
     "funFacts": [
       "Pullossa on noin viiden baarin paine, yli kaksi kertaa niin paljon kuin auton renkaassa.",
-      "Dom Pérignon, benediktiiniläinen kellarimestari, käytti uransa yrittäen päästä kuplista eroon, ei luoda niitä.",
+      "Dom Pérignon oli benediktiinimunkki ja kellarimestari, joka auttoi parantamaan Champagnen viinien laatua.",
       "Fyysikko Gérard Liger-Belair laski, että yhdestä kaadetusta lasillisesta nousee noin miljoona kuplaa."
     ]
   }

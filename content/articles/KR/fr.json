@@ -12,11 +12,31 @@
   "hangul_day": {
     "intro": "Le jour du Hangeul, le 9 octobre, célèbre la création du système d’écriture coréen, le hangeul.",
     "history": "Le jour marque la proclamation en 1446 du Hunminjeongeum, l’alphabet coréen créé sous le roi Sejong le Grand pour que le peuple puisse lire et écrire. Le hangeul est célébré comme une écriture remarquablement scientifique et accessible, et une source de fierté nationale.",
-    "traditions": "Des événements culturels, des expositions de calligraphie et des concours célèbrent l’alphabet, et des cérémonies honorent le roi Sejong. C’est le seul jour férié national au monde consacré à un système d’écriture.",
+    "traditions": "Des événements culturels, des expositions de calligraphie et des concours célèbrent l’alphabet, et des cérémonies honorent le roi Sejong.",
     "funFacts": [
       "Le hangeul fut créé sous le roi Sejong le Grand.",
       "Il fut proclamé en 1446 pour l’usage du peuple.",
-      "C’est le seul jour férié au monde célébrant un alphabet."
+      "La fête célèbre l’écriture coréenne et son rôle dans l’alphabétisation."
+    ]
+  },
+  "lunar_new_year": {
+    "intro": "Seollal est le Nouvel An lunaire coréen et l'une des principales fêtes familiales du pays. Sa date suit le calendrier luni-solaire traditionnel et tombe généralement en janvier ou février.",
+    "history": "Seollal s'inscrit dans une longue tradition de célébration du premier jour de l'année lunaire. Malgré les changements de son statut officiel au XXe siècle, cette fête reste une occasion majeure de se retrouver en famille, de témoigner du respect aux aînés et de se souvenir des ancêtres.",
+    "traditions": "Les familles se rassemblent et les plus jeunes membres de la famille exécutent le sebae, un salut formel du Nouvel An adressé à leurs aînés. Les aînés offrent leurs meilleurs vœux et souvent des cadeaux en argent. Le tteokguk, une soupe composée de tranches de galettes de riz, est un repas traditionnel ; les familles peuvent également jouer au yutnori ou porter du hanbok.",
+    "funFacts": [
+      "Tteokguk symbolise le début d'une nouvelle année ; en manger ne change pas l’âge légal d’une personne.",
+      "Yutnori utilise quatre bâtons de bois plutôt que des dés.",
+      "Seollal et Chuseok sont tous deux des occasions majeures de rentrer chez eux pour voir des proches."
+    ]
+  },
+  "liberation_day": {
+    "intro": "Gwangbokjeol, le 15 août, commémore la libération de la Corée de la domination coloniale japonaise en 1945. En Corée du Sud, c'est une fête nationale marquée par des drapeaux et du souvenir.",
+    "history": "L'annonce de la capitulation du Japon le 15 août 1945 a mis fin à sa domination coloniale sur la Corée, qui avait commencé en 1910. À la même date, en 1948, la République de Corée a été inaugurée. La fête rappelle la libération et honore le mouvement indépendantiste.",
+    "traditions": "Le drapeau national, Taegeukgi, est affiché sur les maisons et les bâtiments publics. Des cérémonies officielles honorent les militants indépendantistes et leurs familles. Des musées, des concerts et des événements commémoratifs explorent l'histoire de la domination coloniale et la lutte pour l'indépendance.",
+    "funFacts": [
+      "Gwangbok est souvent traduit par la restauration de la lumière.",
+      "Le mouvement du 1er mars 1919 est commémoré lors d'un jour férié distinct.",
+      "Le Jour de la Libération et le Jour de la Fondation nationale, le 3 octobre, commémorent différents événements."
     ]
   }
 }

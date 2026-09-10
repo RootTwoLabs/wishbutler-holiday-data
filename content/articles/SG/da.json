@@ -2,21 +2,41 @@
   "national_day": {
     "intro": "Singapores nationaldag den 9. august fejrer nationens uafhængighed i 1965.",
     "history": "Den 9. august 1965 adskilte Singapore sig fra Malaysia og blev en uafhængig, suveræn republik. Fra en lille havneby voksede den hurtigt til en af ​​verdens rigeste nationer, en forvandling, der fejres hvert år.",
-    "traditions": "Højdepunktet er nationaldagsparaden med militære og civile processioner, et fly forbi flyvevåbnet og et spektakulært fyrværkeri over Marina Bay. Singaporeanere reciterer National Pledge og synger med på en særligt bestilt temasang.",
+    "traditions": "Højdepunktet er nationaldagsparaden med militære og civile processioner, en flyopvisning og et spektakulært fyrværkeri over Marina Bay. Singaporeanere reciterer National Pledge og synger med på en særligt bestilt temasang.",
     "funFacts": [
       "Det markerer Singapores adskillelse fra Malaysia i 1965.",
-      "Nationaldagsparaden byder på en dramatisk flypas og fyrværkeri.",
-      "Borgere reciterer National Pledge sammen kl. 20.22."
+      "Nationaldagsparaden byder på flyopvisning og fyrværkeri.",
+      "At fremsige det nationale løfte sammen er en del af nationaldagsfejringen."
     ]
   },
   "chinese_new_year": {
     "intro": "Kinesisk nytår er en af ​​Singapores største festivaler, en to-dages helligdag, der byder velkommen til det nye måneår.",
-    "history": "Medbragt af kinesiske immigranter, der udgør størstedelen af ​​Singapores befolkning, markerer det kinesiske nytår starten på månekalenderen. Gennem generationer er det blevet en afgørende national fest i det multikulturelle Singapore.",
+    "history": "Kinesiske indvandrere bragte nytårsfesten til Singapore. Mange singaporeanere har kinesiske rødder, og festen markerer begyndelsen på et nyt år i den traditionelle kinesiske kalender. Gennem generationer er den blevet en vigtig fejring i det multikulturelle Singapore.",
     "traditions": "Familier samles til genforeningsmiddage og smider \"yusheng\", en velstandssalat, for held og lykke. Chinatown er dekoreret med lys, børn modtager røde pakker (hongbao), og løvedanse udføres for velstand.",
     "funFacts": [
       "At kaste \"yusheng\" salat højere siges at bringe større formue.",
       "Røde pakker kaldet \"hongbao\" indeholder penge til held.",
-      "Chinatowns årlige oplysning tiltrækker store menneskemængder."
+      "Chinatowns årlige lysudsmykning tiltrækker store menneskemængder."
+    ]
+  },
+  "deepavali": {
+    "intro": "Deepavali, lysfesten, er en vigtig hinduistisk fest og en helligdag i Singapore. Lamper og familiesammenkomster udtrykker lysets triumf over mørket og det gode over det onde.",
+    "history": "Deepavali har rødder i adskillige hinduistiske traditioner, hvis historier og praksis varierer fra samfund til samfund. I Singapore har tamilske og andre indiske samfund gjort det til en vigtig del af landets kulturelle liv. Dens kalenderdato skifter fra år til år.",
+    "traditions": "Familier renser deres hjem, dekorerer døråbninger med olielamper og kolammønstre og besøger templer og slægtninge. Nyt tøj, slik og fælles måltider er en del af fejringen. Lille Indien er kendt for sine festlige gadedekorationer og markeder.",
+    "funFacts": [
+      "Navnet Deepavali refererer til en række lys.",
+      "Kolam-mønstre kan laves med farvet rispulver.",
+      "Singapores festligheder afspejler traditionerne i dets lokale hinduistiske samfund."
+    ]
+  },
+  "vesak_day": {
+    "intro": "Vesak Day er en buddhistisk fest og en helligdag i Singapore. Det mindes Buddhas fødsel, oplysning og overgang til endeligt nirvana, især i Theravada-traditionen.",
+    "history": "Vesak har fået sit navn fra en måned i den traditionelle indiske kalender. Buddhistiske samfund observerer dets begivenheder på forskellige måder og nogle gange på forskellige datoer. I Singapore samler lejligheden tempeltilbedelse, refleksion og generøsitetshandlinger.",
+    "traditions": "Hengivne besøger templer, byder på blomster og lys og lytter til lærdomme. Nogle templer holder ceremonier, der bader et lille billede af spædbarnet Buddha. At give til velgørenhed, frivilligt arbejde og deling af vegetariske måltider udtrykker medfølelse i hverdagen.",
+    "funFacts": [
+      "Blomster i tempeloffer kan symbolisere livets forgængelighed.",
+      "Praksis er forskellig blandt Singapores buddhistiske samfund.",
+      "Datoen i den gregorianske kalender varierer efter den kalender, der bruges til at fastlægge højtiden."
     ]
   }
 }

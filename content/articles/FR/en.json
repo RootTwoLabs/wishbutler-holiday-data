@@ -5,7 +5,7 @@
     "traditions": "The day opens with the largest military parade in Europe down the Champs-Élysées in Paris, reviewed by the President. Towns hold firefighters’ balls the night before, and the evening ends with grand fireworks, most famously over the Eiffel Tower.",
     "funFacts": [
       "The Bastille held only seven prisoners when it was stormed in 1789.",
-      "The Champs-Élysées parade has run almost every year since 1880.",
+      "From 1880 the military parade initially took place at Longchamp; its route changed over time.",
       "In France the day is simply called 'le 14 juillet', not 'Bastille Day'."
     ]
   },
@@ -17,6 +17,16 @@
       "The armistice took effect at the 11th hour of the 11th day of the 11th month.",
       "The eternal flame under the Arc de Triomphe is rekindled every evening since 1923.",
       "The blue cornflower (le Bleuet) is France’s symbol of remembrance."
+    ]
+  },
+  "victory_in_europe_day": {
+    "intro": "On 8 May, France commemorates the Allied victory over Nazi Germany in 1945 and the end of the Second World War in Europe. It is a national day of remembrance.",
+    "history": "Germany’s military surrender took effect on 8 May 1945. The date became part of France’s public commemorations of the war, although its holiday status changed several times. It was restored as a statutory public holiday in 1981.",
+    "traditions": "Officials, veterans, schoolchildren and residents gather at war memorials for wreath-laying and moments of silence. In Paris, the national ceremony centres on the Arc de Triomphe and the Tomb of the Unknown Soldier. French flags mark the occasion.",
+    "funFacts": [
+      "8 May marks the end of the war in Europe, not the end of the war in the Pacific.",
+      "France also commemorates the First World War armistice on 11 November.",
+      "Local ceremonies honour both wartime sacrifice and the return of peace."
     ]
   }
 }

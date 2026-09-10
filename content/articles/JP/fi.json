@@ -1,22 +1,52 @@
 {
   "foundation_day": {
-    "intro": "Kansallinen säätiöpäivä 11. helmikuuta juhlii Japanin legendaarista perustamista.",
-    "history": "Päivä merkitsee Japanin legendaarisen ensimmäisen keisarin keisari Jimmun myyttistä liittymistä vuonna 660 eaa. Se perustettiin isänmaallisuuden vaalipäiväksi, ja se herätettiin nykyaikaiseen muotoonsa vuonna 1966, jolloin pohdittiin kansakunnan perustamista.",
+    "intro": "Kansallinen perustamispäivä 11. helmikuuta juhlii Japanin legendaarista perustamista.",
+    "history": "Päivä muistuttaa keisari Jimmun tarunomaisesta valtaannoususta, joka ajoitetaan perinteisesti vuoteen 660 eaa. Nykyinen juhlapäivä säädettiin lailla vuonna 1966, ja sitä vietettiin ensimmäisen kerran vuonna 1967.",
     "traditions": "Muiden maiden kansallispäiviin verrattuna juhlat ovat vaatimattomia. Siellä on joitain isänmaallisia seremonioita ja lippunäytöksiä sekä muutamia festivaaleja ja paraatteja, kun taas monet ihmiset vain nauttivat vapaapäivästä.",
     "funFacts": [
       "Se muistuttaa legendaarista ensimmäistä keisaria, Jimmua.",
       "Perinteinen perustamispäivä on 660 eaa.",
-      "Se herätettiin henkiin lomana vuonna 1966."
+      "Nykyinen juhlapäivä säädettiin lailla vuonna 1966, ja sitä vietettiin ensimmäisen kerran vuonna 1967."
     ]
   },
   "coming_of_age_day": {
-    "intro": "Vanhenemispäivänä tammikuun toisena maanantaina juhlitaan täysi-ikäisiä nuoria.",
-    "history": "Loma kunnioittaa kaikkia viimeisen vuoden aikana täysi-ikäisiä. Sen juuret ovat muinaisissa vanhenemisriiteissä, ja se asetettiin kansalliseksi juhlaksi vuonna 1948 rohkaisemaan nuoria aikuisia ottamaan paikkansa yhteiskunnassa.",
-    "traditions": "Paikallishallinnot järjestävät \"seijin-shiki\" -seremonioita uusille aikuisille. Monet nuoret naiset pukeutuvat hienostuneeseen \"furisode\"-kimonoon ja miehet pukeutumiseen tai perinteiseen mekkoon, ja perheet ottavat muistokuvia.",
+    "intro": "Aikuistumisen päivää vietetään tammikuun toisena maanantaina nuorten aikuisten kunniaksi.",
+    "history": "Juhlapäivänä juhlistetaan nuorten siirtymistä aikuisuuteen. Sen juuret ovat muinaisissa aikuistumisriiteissä, ja se asetettiin kansalliseksi juhlaksi vuonna 1948 rohkaisemaan nuoria aikuisia ottamaan paikkansa yhteiskunnassa.",
+    "traditions": "Kunnat järjestävät seremonioita, jotka on usein edelleen tarkoitettu 20-vuotiaille. Monet nuoret naiset pukeutuvat hienostuneeseen \"furisode\"-kimonoon ja miehet pukuun tai perinteiseen asuun, ja perheet ottavat muistokuvia.",
     "funFacts": [
-      "Monet naiset käyttävät kirkasta \"furisode\"-kimonoa pitkähihaisilla hihoilla.",
-      "Kaupungit järjestävät erityisiä seremonioita uusille aikuisille.",
+      "Monet naiset pukeutuvat värikkäisiin, pitkähihaisiin furisode-kimonoihin.",
+      "Täysi-ikäisyyden raja laski 18 vuoteen huhtikuussa 2022, mutta monet seremoniat juhlistavat yhä 20-vuotiaita.",
       "Aikuisuusikä Japanissa on nyt 18 vuotta."
+    ]
+  },
+  "childrens_day": {
+    "intro": "Lastenpäivää, Kodomo no Hi, vietetään 5. toukokuuta lasten onnellisuuden ja terveyden kunniaksi. Värikkäät karpinmuotoiset tuulipussit tekevät siitä yhden Japanin tunnetuimmista kevätjuhlista.",
+    "history": "Juhla perustuu Tango no Sekku -festivaaliin, joka on perinteisesti poikien sesonkitapahtuma. Vuoden 1948 yleisen vapaapäivälain mukaan 5. toukokuuta tuli lasten päivä, jolloin juhlitaan kaikkia lapsia ja ilmaistaan kiitollisuutta äideille. Se on osa kultaisen viikon loma-aikaa.",
+    "traditions": "Perheet ripustavat esille koinoboreja eli karpinmuotoisia tuulipusseja sekä pienoiskypäriä tai haarniskoja. Perinteisiä ruokia ovat tammenlehtiin käärityt kashiwa mochi -riisikakut ja alueelliset chimaki-versiot. Joissakin perheissä kylvetään tuoksuvien kalmojuuren lehtien kanssa.",
+    "funFacts": [
+      "Vastavirtaan uivat karpit symboloivat voimaa ja sinnikkyyttä.",
+      "Kodomo tarkoittaa lasta tai lapsia japaniksi.",
+      "Juhlapäivä osuu kultaisen viikon loppupuolelle yhdessä useiden muiden kansallisten vapaapäivien kanssa."
+    ]
+  },
+  "constitution_memorial_day": {
+    "intro": "Perustuslain muistopäivä 3. toukokuuta merkitsee Japanin sodanjälkeisen perustuslain voimaantuloa. Se on kultaisen viikon kansallinen vapaapäivä.",
+    "history": "Perustuslaki julkaistiin 3. marraskuuta 1946 ja tuli voimaan 3. toukokuuta 1947. Siinä vahvistetaan kansansuvereniteetti, perusihmisoikeudet ja pasifismi keskeisiksi periaatteiksi. Sen alkamisen muistojuhla otettiin käyttöön vuonna 1948.",
+    "traditions": "Julkisissa keskusteluissa, näyttelyissä ja mediakeskusteluissa tarkastellaan perustuslakia ja maan tulevaisuutta. Poliittiset ja kansalaisryhmät järjestävät erilaisia näkemyksiä kuvaavia tapahtumia. Monet perheet käyttävät Kultaisen viikon taukoa myös matkustamiseen ja vierailuihin.",
+    "funFacts": [
+      "Sen japanilainen nimi on Kenpō Kinenbi.",
+      "Julkaiseminen ja voimaantulo tapahtuivat eri päivinä kuuden kuukauden välein.",
+      "Artikla 9 on perustuslain tunnettu säännös sodasta luopumisesta."
+    ]
+  },
+  "culture_day": {
+    "intro": "Kulttuuripäivä, Bunka no Hi, 3. marraskuuta juhlii Japanin kulttuuria sekä vapauden ja rauhan ihanteita. Taide, oppiminen ja luovuus ovat keskiössä.",
+    "history": "Kulttuuripäivä perustettiin vuoden 1948 yleisen vapaapäivälain nojalla. Sen päivämäärä on sama kuin Japanin sodanjälkeisen perustuslain julistaminen 3. marraskuuta 1946. Sama kalenteripäivä oli aiemmin ollut keisari Meijin syntymäpäivänä, mutta nykypäivällä on eri tarkoitus.",
+    "traditions": "Museot, galleriat ja kulttuurilaitokset järjestävät näyttelyitä ja erikoisohjelmaa. Koulut ja yhteisöt järjestävät kulttuurifestivaaleja. Keisari luovuttaa Kulttuuriritarikunnan ihmisille, jotka on tunnustettu erinomaisesta panoksesta kulttuuri- ja henkiseen elämään.",
+    "funFacts": [
+      "Bunka tarkoittaa kulttuuria japaniksi.",
+      "Kulttuuripäivä on 3. marraskuuta; Perustuslain muistopäivää vietetään 3. toukokuuta.",
+      "Jotkut museot tarjoavat ilmaisen sisäänpääsyn tai erikoistapahtumia laitoksesta riippuen."
     ]
   }
 }

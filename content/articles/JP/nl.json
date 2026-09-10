@@ -1,7 +1,7 @@
 {
   "foundation_day": {
     "intro": "Op de Nationale Oprichtingsdag op 11 februari wordt de legendarische stichting van Japan gevierd.",
-    "history": "Op deze dag wordt de mythische troonsbestijging van keizer Jimmu, de legendarische eerste keizer van Japan, in 660 v.Chr. herdacht. Deze feestdag, die oorspronkelijk was ingesteld om het patriottisme te bevorderen, werd in 1966 in zijn moderne vorm opnieuw ingevoerd als een dag om stil te staan bij de stichting van de natie.",
+    "history": "De dag herinnert aan de legendarische troonsbestijging van keizer Jimmu, die traditioneel op 660 v.Chr. wordt gedateerd. De huidige feestdag werd in 1966 bij wet ingesteld en in 1967 voor het eerst gevierd.",
     "traditions": "In vergelijking met de nationale feestdagen van andere landen zijn de vieringen hier vrij bescheiden. Er zijn enkele patriottische ceremonies en vlaggenparades, en een paar festivals en optochten, terwijl veel mensen gewoon genieten van de vrije dag.",
     "funFacts": [
       "Het doet denken aan de legendarische eerste keizer, Jimmu.",
@@ -11,12 +11,42 @@
   },
   "coming_of_age_day": {
     "intro": "Op de Dag van de Volwassenwording, die valt op de tweede maandag van januari, worden jongeren gevierd die volwassen zijn geworden.",
-    "history": "Deze feestdag is een eerbetoon aan iedereen die het afgelopen jaar meerderjarig is geworden. De feestdag vindt zijn oorsprong in oude volwassenheidsrituelen en werd in 1948 tot nationale feestdag uitgeroepen om jongvolwassenen aan te moedigen hun plaats in de samenleving in te nemen.",
-    "traditions": "Lokale overheden organiseren ‘seijin-shiki’-ceremonies voor nieuwe volwassenen. Veel jonge vrouwen dragen prachtig versierde ‘furisode’-kimono’s en mannen dragen pakken of traditionele kleding, en gezinnen maken herdenkingsfoto’s.",
+    "history": "Deze feestdag viert de stap naar het volwassen leven. De feestdag vindt zijn oorsprong in oude volwassenheidsrituelen en werd in 1948 tot nationale feestdag uitgeroepen om jongvolwassenen aan te moedigen hun plaats in de samenleving in te nemen.",
+    "traditions": "Gemeenten organiseren ceremonies die vaak nog steeds voor twintigjarigen bedoeld zijn. Veel jonge vrouwen dragen prachtig versierde ‘furisode’-kimono’s en mannen dragen pakken of traditionele kleding, en gezinnen maken herdenkingsfoto’s.",
     "funFacts": [
       "Veel vrouwen dragen kleurrijke ‘furisode’-kimono’s met lange mouwen.",
-      "Steden organiseren speciale ceremonies voor pasvolwassenen.",
+      "Sinds april 2022 ben je in Japan met 18 jaar meerderjarig, maar veel ceremonies blijven voor twintigjarigen.",
       "De meerderjarigheidsleeftijd in Japan is nu 18 jaar."
+    ]
+  },
+  "childrens_day": {
+    "intro": "Kinderdag, Kodomo no Hi, viert op 5 mei het geluk en de gezondheid van kinderen. Kleurrijke windzakken in de vorm van karpers maken het tot een van de herkenbaarste voorjaarsfeesten van Japan.",
+    "history": "De feestdag komt voort uit Tango no Sekku, een seizoensfeest dat traditioneel met jongens verbonden was. De feestdagenwet van 1948 maakte 5 mei tot Kinderdag, voor alle kinderen en als uiting van dankbaarheid aan moeders. De dag behoort tot de Gouden Week.",
+    "traditions": "Gezinnen hangen koinobori op, windzakken in de vorm van karpers, en tonen miniatuurhelmen of harnassen. Traditionele gerechten zijn kashiwa mochi, rijstgebak in eikenbladeren, en regionale varianten van chimaki. Sommige gezinnen nemen een bad met geurige kalmoesbladeren.",
+    "funFacts": [
+      "Karpers die stroomopwaarts zwemmen symboliseren kracht en doorzettingsvermogen.",
+      "Kodomo betekent kind of kinderen in het Japans.",
+      "Deze feestdag valt tegen het einde van de Gouden Week, naast verschillende andere nationale feestdagen."
+    ]
+  },
+  "constitution_memorial_day": {
+    "intro": "Constitution Memorial Day op 3 mei markeert de inwerkingtreding van de naoorlogse grondwet van Japan. Het is een nationale feestdag binnen de Gouden Week.",
+    "history": "De grondwet werd afgekondigd op 3 november 1946 en trad in werking op 3 mei 1947. De grondwet stelt volkssoevereiniteit, fundamentele mensenrechten en pacifisme als centrale beginselen vast. De feestdag ter herdenking van het begin ervan werd geïntroduceerd in 1948.",
+    "traditions": "Openbare lezingen, tentoonstellingen en mediadiscussies onderzoeken de grondwet en de toekomst van het land. Politieke en maatschappelijke groeperingen organiseren evenementen die verschillende opvattingen weerspiegelen. Veel gezinnen maken ook gebruik van de Gouden Week voor reizen en bezoeken.",
+    "funFacts": [
+      "De Japanse naam is Kenpō Kinenbi.",
+      "De afkondiging en inwerkingtreding vonden plaats op verschillende data, met een tussenpoos van zes maanden.",
+      "Artikel 9 is de bekende bepaling van de grondwet over het afzweren van oorlog."
+    ]
+  },
+  "culture_day": {
+    "intro": "Cultuurdag, Bunka no Hi, op 3 november viert cultuur en de idealen van vrijheid en vrede in Japan. Kunst, leren en creativiteit staan centraal.",
+    "history": "Cultuurdag werd ingesteld krachtens de feestdagwet van 1948. De datum valt samen met de afkondiging van de naoorlogse grondwet van Japan op 3 november 1946. Dezelfde kalenderdatum markeerde voorheen de verjaardag van keizer Meiji, maar de moderne feestdag heeft een ander doel.",
+    "traditions": "Musea, galeries en culturele instellingen organiseren tentoonstellingen en speciale programma's. Scholen en gemeenschappen organiseren culturele festivals. De keizer reikt de Orde van Cultuur uit aan mensen die worden erkend vanwege hun uitmuntende bijdragen aan het culturele en intellectuele leven.",
+    "funFacts": [
+      "Bunka betekent cultuur in het Japans.",
+      "Cultuurdag is op 3 november; Constitution Memorial Day is op 3 mei.",
+      "Sommige musea bieden gratis toegang of speciale evenementen aan, afhankelijk van de instelling."
     ]
   }
 }

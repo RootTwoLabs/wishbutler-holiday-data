@@ -2,7 +2,7 @@
   "martin_luther_king_jr_day": {
     "intro": "El día de Martin Luther King Jr., el tercer lunes de enero, honra al líder estadounidense de los derechos civiles. Es uno de los pocos festivos de EE. UU. dedicados a una persona.",
     "history": "Martin Luther King Jr. nació el 15 de enero de 1929 y lideró desde los años 50 el movimiento por los derechos civiles afroamericano. En 1963 pronunció su famoso discurso ‘I Have a Dream' en la Marcha sobre Washington. Recibió el Nobel de la Paz en 1964 y fue asesinado en Memphis en 1968. Tras 15 años de presión — incluida la canción ‘Happy Birthday' (1980) de Stevie Wonder — Reagan firmó en 1983 la ley del festivo. Desde 2000 lo celebran los 50 estados.",
-    "traditions": "El lema es ‘A Day On, Not a Day Off'. Más que un día libre, busca animar al voluntariado: comedores sociales, ayuda vecinal, programas escolares. En Atlanta hay un gran desfile y misa en la antigua iglesia de King. En las escuelas se leen sus discursos y se proyectan documentales sobre derechos civiles.",
+    "traditions": "El lema es ‘A Day On, Not a Day Off'. Más que un día libre, busca animar al voluntariado: comedores sociales, ayuda vecinal, programas escolares. En Atlanta hay un gran desfile y oficios religiosos en la antigua iglesia de King. En las escuelas se leen sus discursos y se proyectan documentales sobre derechos civiles.",
     "funFacts": [
       "King fue el más joven Premio Nobel de la Paz en el momento de la concesión — con solo 35 años.",
       "Su famoso ‘I Have a Dream' originalmente se planeó distinto — improvisó las frases icónicas tras el grito de Mahalia Jackson.",
@@ -13,12 +13,12 @@
   },
   "presidents_day": {
     "intro": "El Día de los Presidentes, el tercer lunes de febrero, honra a los presidentes de EE. UU. — originalmente el cumpleaños de George Washington.",
-    "history": "El 22 de febrero — cumpleaños de Washington — fue declarado fiesta nacional en 1879. La ‘Uniform Monday Holiday Act' de 1968 trasladó varios festivos a un lunes para crear puentes largos. Desde entonces cae el tercer lunes de febrero (entre el 15 y el 21 — nunca exactamente el 22). El nombre ‘Presidents' Day' se popularizó porque también el cumpleaños de Lincoln (12 de febrero) cae en febrero.",
+    "history": "La Uniform Monday Holiday Act, aprobada en 1968 y vigente desde 1971, trasladó el cumpleaños de Washington al tercer lunes de febrero. El festivo federal sigue llamándose oficialmente Washington’s Birthday, aunque se usa mucho Presidents’ Day.",
     "traditions": "Las escuelas hacen proyectos sobre presidentes, los museos ofrecen entrada gratis a exposiciones de historia política. En Mount Vernon, finca de Washington, se realiza una ofrenda floral ceremonial. El día también es famoso por las grandes ofertas — ‘Presidents' Day Sales' con descuentos en muebles, colchones y coches.",
     "funFacts": [
       "Oficialmente la ley federal sigue llamándolo ‘Washington's Birthday' — el cambio de nombre es popular pero no oficial.",
       "Las ofertas son tan grandes que muchos americanos asocian el día más con compras que con política.",
-      "George Washington fue el único presidente que jamás vivió en Washington D.C. como presidente — la ciudad se acabó tras su muerte.",
+      "Washington fue el único presidente de EE. UU. que nunca vivió en la Casa Blanca. John Adams fue su primer residente presidencial en 1800.",
       "El perro favorito de Washington se llamaba ‘Sweetlips' — anécdota muy citada en las escuelas."
     ],
     "imageCredit": "Foto: Gilbert Stuart · Public domain vía Wikimedia Commons"
@@ -28,10 +28,10 @@
     "history": "El día surge tras la Guerra Civil estadounidense (1861–1865), en la que murieron más de 600.000 soldados. En mayo de 1868 el general John A. Logan instituyó un ‘Decoration Day' para adornar tumbas con flores. La costumbre se extendió tras las guerras mundiales y hoy honra a todos los soldados estadounidenses caídos. En 1971 se trasladó al último lunes de mayo para crear puente.",
     "traditions": "En el Cementerio Nacional de Arlington el presidente deposita una corona en la Tumba del Soldado Desconocido. Las familias visitan tumbas y las decoran con banderas y flores. A las 15:00 hora local se observa el ‘National Moment of Remembrance' — minuto de silencio nacional. Hay desfiles, barbacoas y la carrera Indianapolis 500.",
     "funFacts": [
-      "En Arlington descansan más de 400.000 caídos.",
+      "En el Cementerio Nacional de Arlington descansan militares, veteranos y familiares que cumplen los requisitos de sepultura, no solo fallecidos en combate.",
       "La amapola roja se convirtió en símbolo del recuerdo tras la Primera Guerra Mundial — inspirada en el poema ‘In Flanders Fields'.",
-      "La Indy 500 se corre en el fin de semana del Memorial Day desde 1911 — uno de los mayores eventos deportivos de EE. UU.",
-      "Antes de 1971 el día se llamaba ‘Decoration Day' — el término sigue vigente en algunos estados del sur."
+      "Las primeras 500 Millas de Indianápolis se celebraron el 30 de mayo de 1911. Hoy la carrera forma parte tradicionalmente del fin de semana del Memorial Day.",
+      "El antiguo nombre «Decoration Day» alude a decorar las tumbas. «Memorial Day» ya se usaba mucho antes de 1971."
     ],
     "imageCredit": "Foto: Arlington National Cemetery · Public domain vía Wikimedia Commons"
   },
@@ -40,8 +40,8 @@
     "history": "El 4 de julio de 1776 el Segundo Congreso Continental, en Filadelfia, aprobó la Declaración de Independencia, redactada principalmente por Thomas Jefferson. El órgano había votado la separación dos días antes (2 de julio); John Adams creía que se celebraría el día 2. Solo en 1870 fue festivo oficial y en 1938 día pagado. La guerra contra Gran Bretaña duró hasta 1783; la independencia se reconoció en el Tratado de París.",
     "traditions": "Es probablemente el festivo más vistoso de EE. UU.: enormes fuegos artificiales (los mayores patrocinados por Macy's sobre el East River de Nueva York), desfiles con bandas, concursos de comer perritos calientes en Coney Island, barbacoas en los patios traseros, partidos de béisbol y himno nacional. El Capitolio se ilumina rojo, blanco y azul.",
     "funFacts": [
-      "El concurso de Nathan's Famous en Coney Island se celebra cada 4 de julio desde 1916 — récord: 76 perritos en 10 minutos (Joey Chestnut, 2021).",
-      "John Adams y Thomas Jefferson — ambos expresidentes — murieron el 4 de julio de 1826, exactamente 50 años después de la firma.",
+      "Los participantes en el concurso de hot dogs de Nathan’s en Coney Island tienen diez minutos.",
+      "John Adams y Thomas Jefferson murieron el 4 de julio de 1826, 50 años después de la adopción de la Declaración de Independencia.",
       "La Campana de la Libertad de Filadelfia se golpea simbólicamente (suave: está agrietada) 13 veces — una por cada colonia fundadora.",
       "El espectáculo de Macy's en Nueva York dura unos 25 minutos y dispara más de 75.000 efectos pirotécnicos."
     ],
@@ -49,26 +49,46 @@
   },
   "labour_day_us": {
     "intro": "El Labor Day estadounidense, primer lunes de septiembre, honra a los trabajadores. Marca el final no oficial del verano.",
-    "history": "Lo introdujo en 1882 el Central Labor Union de Nueva York como contrapunto al 1 de mayo, considerado demasiado socialista para EE. UU. En 1894, tras las sangrientas huelgas de Pullman, el presidente Cleveland lo declaró festivo federal para apaciguar al movimiento obrero. Irónicamente, la mayoría de países celebran el 1 de mayo, que recuerda los sucesos de Haymarket de 1886 — un evento estadounidense del que EE. UU. quiso desmarcarse.",
-    "traditions": "El día abre el ‘Labor Day Weekend' largo — barbacoas, playa y la última gran ruta veraniega en coche. Norma de estilo: tras el Labor Day, tradicionalmente no se viste de blanco en EE. UU. También arranca la temporada de la NFL y es uno de los días de mayores ofertas. Algunas ciudades aún celebran desfiles sindicales.",
+    "history": "La Central Labor Union organizó la primera celebración estadounidense de Labor Day en Nueva York el 5 de septiembre de 1882. Después la adoptaron varios estados, y el presidente Grover Cleveland firmó la ley federal el 28 de junio de 1894. La fecha de septiembre precede, por tanto, a los hechos de Haymarket de 1886 y a la posterior tradición internacional del 1 de mayo.",
+    "traditions": "El día culmina el fin de semana largo de Labor Day — barbacoas, playa y la última gran ruta veraniega en coche. Norma de estilo: tras el Labor Day, tradicionalmente no se viste de blanco en EE. UU. También arranca la temporada de la NFL y es uno de los días de mayores ofertas. Algunas ciudades aún celebran desfiles sindicales.",
     "funFacts": [
       "La regla ‘nada de blanco después del Labor Day' surgió en la alta sociedad neoyorquina del siglo XIX — hoy más broma que regla.",
-      "El Labor Day se fijó en septiembre para distanciarse del 1 de mayo del movimiento obrero.",
-      "Desde 1934 la NFL inicia su temporada en la semana posterior al Labor Day.",
-      "Pullman, que provocó la huelga de 1894, era un imperio de coches cama de lujo — con su propia ciudad, correos y policía."
+      "La primera celebración estadounidense de Labor Day tuvo lugar en Nueva York en 1882, antes de que surgiera la tradición internacional del 1 de mayo.",
+      "El inicio de la temporada regular de la NFL es una cita de principios de septiembre, cerca de Labor Day; la fecha exacta depende del calendario de cada temporada.",
+      "George Pullman, cuyo conflicto laboral desencadenó la huelga ferroviaria de 1894, dirigía un imperio de coches cama de lujo y una ciudad industrial con servicios propios."
     ],
     "imageCredit": "Foto: Bain News Service photograph · Public domain vía Wikimedia Commons"
   },
   "thanksgiving_day": {
     "intro": "Acción de Gracias, el cuarto jueves de noviembre, es la festividad familiar más importante de EE. UU. — un banquete de pavo y agradecimiento con más de 400 años de historia.",
     "history": "El primer ‘Thanksgiving' fue en 1621: los Padres Peregrinos ingleses lo celebraron junto a los wampanoag en Plymouth (Massachusetts), tras enseñarles los nativos a cultivar la tierra local. Durante más de dos siglos fue celebración local. En 1863, en plena Guerra Civil, Lincoln la declaró fiesta nacional como signo de esperanza. Roosevelt fijó en 1941 el cuarto jueves de noviembre por ley federal.",
-    "traditions": "La familia se reúne en torno a una mesa festiva con pavo, pastel de calabaza, salsa de arándanos, gratinado de boniato y stuffing (relleno de pan). Antes de comer, cada uno dice por qué está agradecido. En Nueva York el famoso desfile de Macy's con globos gigantes; en TV partidos de fútbol americano y el presidente ‘indulta' a un pavo.",
+    "traditions": "La familia se reúne en torno a una mesa festiva con pavo, pastel de calabaza, salsa de arándanos, gratinado de boniato y stuffing (relleno de pan). Antes de comer, cada uno dice por qué está agradecido. En Nueva York se celebra el famoso desfile de Macy’s con globos gigantes; en televisión se emiten partidos de fútbol americano y el presidente ‘indulta' a un pavo.",
     "funFacts": [
       "Más de 46 millones de pavos se consumen cada Acción de Gracias en EE. UU.",
       "El ‘perdón del pavo' fue oficializado por George H.W. Bush en 1989.",
       "El desfile de Macy's existe desde 1924 y atrae a unos 3,5 millones de espectadores en directo en Nueva York.",
-      "‘Black Friday' nació como el día en que el comercio entraba ‘en números negros'."
+      "El Black Friday, viernes posterior a Acción de Gracias, es un importante día de compras con numerosas ofertas."
     ],
     "imageCredit": "Foto: Mark Miller · CC BY-SA 4.0 vía Wikimedia Commons"
+  },
+  "juneteenth_national_independence_day": {
+    "intro": "Juneteenth, el 19 de junio, conmemora el anuncio de la libertad a los pueblos esclavizados en Galveston, Texas, en 1865. Combina la celebración de la libertad de los afroamericanos con la reflexión sobre la lucha por la igualdad.",
+    "history": "El 19 de junio de 1865, el general de la Unión Gordon Granger emitió la Orden General n.º 3 en Galveston. La Proclamación de Emancipación había entrado en vigor en 1863, pero aún había que hacer efectiva la libertad. Las celebraciones anuales surgieron en Texas y se extendieron por las comunidades afroamericanas. Juneteenth se convirtió en festivo federal en 2021.",
+    "traditions": "Las familias y comunidades se reúnen para reuniones, desfiles, música y comidas compartidas. Lecturas históricas y eventos educativos recuerdan la emancipación y las experiencias de personas anteriormente esclavizadas. Los alimentos y bebidas rojos aparecen en muchas celebraciones.",
+    "funFacts": [
+      "El nombre combina las palabras inglesas June (junio) y nineteenth (diecinueve).",
+      "Juneteenth conmemora eventos en Texas; La esclavitud en todo el país fue abolida por la Decimotercera Enmienda en diciembre de 1865.",
+      "Las celebraciones a menudo combinan historia familiar, comida y servicio comunitario."
+    ]
+  },
+  "veterans_day": {
+    "intro": "El Día de los Veteranos, el 11 de noviembre, rinde homenaje a todos los que han servido en las fuerzas armadas de los Estados Unidos. Es un día de agradecimiento y recuerdo, con especial reconocimiento a los veteranos vivos.",
+    "history": "La fecha recuerda el armisticio que puso fin a los combates en el Frente Occidental el 11 de noviembre de 1918. Originalmente celebrado como Día del Armisticio, pasó a llamarse Día de los Veteranos en 1954 para honrar a los veteranos de todas las guerras. Después de un período de observancia del lunes, el feriado volvió al 11 de noviembre de 1978.",
+    "traditions": "Las comunidades celebran ceremonias, desfiles y eventos con veteranos. Se lleva a cabo una ceremonia de colocación de ofrenda floral en la Tumba del Soldado Desconocido en el Cementerio Nacional de Arlington. Las escuelas y museos aprovechan la ocasión para compartir las experiencias de los miembros del servicio.",
+    "funFacts": [
+      "El Día de los Veteranos honra a todos los que sirvieron; El Día de los Caídos recuerda especialmente a aquellos que murieron en el servicio militar.",
+      "El nombre oficial en inglés, Veterans Day, se escribe sin apóstrofo.",
+      "El armisticio original entró en vigor a las 11 de la mañana del 11 de noviembre de 1918."
+    ]
   }
 }

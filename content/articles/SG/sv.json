@@ -2,21 +2,41 @@
   "national_day": {
     "intro": "Singapores nationaldag den 9 augusti firas till minne av landets självständighet 1965.",
     "history": "Den 9 augusti 1965 lösgjorde sig Singapore från Malaysia och blev en självständig, suverän republik. Från att ha varit en liten hamnstad växte landet snabbt till en av världens rikaste nationer, en utveckling som firas varje år.",
-    "traditions": "Höjdpunkten är nationaldagsparaden, med militära och civila upptåg, en flyguppvisning av flygvapnet och ett spektakulärt fyrverkeri över Marina Bay. Singaporeanerna reciterar nationaleden och sjunger med i en specialkomponerad temalåt.",
+    "traditions": "Höjdpunkten är nationaldagsparaden, med militära och civila parader, en flyguppvisning av flygvapnet och ett spektakulärt fyrverkeri över Marina Bay. Singaporeanerna reciterar nationaleden och sjunger med i en specialkomponerad temalåt.",
     "funFacts": [
       "Det markerar Singapores avskiljning från Malaysia år 1965.",
       "Nationaldagsparaden bjuder på en spektakulär flyguppvisning och fyrverkerier.",
-      "Medborgarna reciterar tillsammans den nationella eden klockan 20.22."
+      "Att gemensamt läsa den nationella eden ingår i nationaldagsfirandet."
     ]
   },
   "chinese_new_year": {
-    "intro": "Det kinesiska nyåret är en av Singapores största högtider, en tvådagars helgdag då man firar det kinesiska nyåret.",
-    "history": "Det kinesiska nyåret, som infördes av kinesiska invandrare som utgör majoriteten av Singapores befolkning, markerar början på månkalendern. Genom generationerna har det blivit en viktig nationell högtid i det mångkulturella Singapore.",
-    "traditions": "Familjerna samlas till återföreningsmiddagar och kastar ”yusheng”, en välståndssallad, för att bringa lycka. Chinatown är upplyst med julbelysning, barnen får röda kuvert (hongbao) och lejondanser framförs för att bringa välstånd.",
+    "intro": "Det kinesiska nyåret är en av Singapores största högtider. Två allmänna helgdagar markerar början på det nya året enligt den kinesiska kalendern.",
+    "history": "Det kinesiska nyåret, som infördes av kinesiska invandrare, vars ättlingar nu utgör en majoritet av Singapores befolkning, markerar början på det nya året enligt den kinesiska kalendern. Genom generationerna har det blivit en viktig nationell högtid i det mångkulturella Singapore.",
+    "traditions": "Familjerna samlas till återföreningsmiddagar och kastar ”yusheng”, en välståndssallad, för att bringa lycka. Chinatown är upplyst med festbelysning, barnen får röda kuvert (hongbao) och lejondanser framförs för att bringa välstånd.",
     "funFacts": [
       "Det sägs att ju högre man kastar ”yusheng”-salladen, desto större lycka ger det.",
       "Röda kuvert som kallas ”hongbao” innehåller pengar som ska bringa tur.",
       "Chinatowns årliga belysningsceremoni lockar stora folkmassor."
+    ]
+  },
+  "deepavali": {
+    "intro": "Deepavali, Ljusfestivalen, är en viktig hinduisk högtid och en allmän helgdag i Singapore. Lampor och familjesammankomster uttrycker ljusets triumf över mörkret och det goda över det onda.",
+    "history": "Deepavali har rötter i flera hinduiska traditioner, vars berättelser och metoder varierar beroende på samhälle. I Singapore har tamilska och andra indiska samhällen gjort det till en viktig del av landets kulturliv. Dess kalenderdatum ändras från år till år.",
+    "traditions": "Familjer städar sina hem, dekorerar dörröppningar med oljelampor och kolammönster och besöker tempel och släktingar. Nya kläder, godis och gemensamma måltider är en del av firandet. Little India är känt för sina festliga gatutsmyckningar och marknader.",
+    "funFacts": [
+      "Namnet Deepavali syftar på en rad med lampor.",
+      "Kolam-mönster kan göras med färgat rispulver.",
+      "Singapores firande speglar traditionerna i dess lokala hinduiska samhällen."
+    ]
+  },
+  "vesak_day": {
+    "intro": "Vesak Day är ett buddhistiskt firande och en allmän helgdag i Singapore. Den firar Buddhas födelse, upplysning och övergång till slutgiltigt nirvana, särskilt i Theravada-traditionen.",
+    "history": "Vesak har fått sitt namn från en månad i den traditionella indiska kalendern. Buddhistiska samfund observerar dess händelser på olika sätt och ibland på olika datum. I Singapore förenar tillfället tempeldyrkan, reflektion och generositetshandlingar.",
+    "traditions": "Anhängare besöker tempel, bjuder på blommor och ljus och lyssnar på lärdomar. Vissa tempel håller ceremonier som badar en liten bild av spädbarnet Buddha. Att ge till välgörenhet, volontärarbete och att dela vegetariska måltider uttrycker medkänsla i vardagen.",
+    "funFacts": [
+      "Blommor i tempeloffer kan symbolisera livets förgänglighet.",
+      "Praxis skiljer sig mellan Singapores buddhistiska samhällen.",
+      "Datumet i den gregorianska kalendern varierar enligt den kalender som används för högtiden."
     ]
   }
 }

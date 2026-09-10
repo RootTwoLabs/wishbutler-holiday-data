@@ -1,0 +1,1146 @@
+{
+  "countryCode": "BA",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "BA_new_years_day",
+      "countryCode": "BA",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "BA_christmas_eve_orthodox",
+      "countryCode": "BA",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve_orthodox",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 6
+      }
+    },
+    {
+      "id": "BA_christmas_day_orthodox",
+      "countryCode": "BA",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_day_orthodox",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 7
+      }
+    },
+    {
+      "id": "BA_independence_day",
+      "countryCode": "BA",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 1
+      }
+    },
+    {
+      "id": "BA_good_friday",
+      "countryCode": "BA",
+      "kind": "precomputed",
+      "labelKey": "holidays.good_friday_ba",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-10",
+          "2027": "04-30",
+          "2028": "04-14",
+          "2029": "04-06",
+          "2030": "04-26",
+          "2031": "04-11",
+          "2032": "04-30",
+          "2033": "04-22",
+          "2034": "04-07",
+          "2035": "04-27"
+        }
+      }
+    },
+    {
+      "id": "BA_easter_sunday",
+      "countryCode": "BA",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-12",
+          "2027": "05-02",
+          "2028": "04-16",
+          "2029": "04-08",
+          "2030": "04-28",
+          "2031": "04-13",
+          "2032": "05-02",
+          "2033": "04-24",
+          "2034": "04-09",
+          "2035": "04-29"
+        }
+      }
+    },
+    {
+      "id": "BA_easter_monday",
+      "countryCode": "BA",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_monday_ba",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-13",
+          "2027": "05-03",
+          "2028": "04-17",
+          "2029": "04-09",
+          "2030": "04-29",
+          "2031": "04-14",
+          "2032": "05-03",
+          "2033": "04-25",
+          "2034": "04-10",
+          "2035": "04-30"
+        }
+      }
+    },
+    {
+      "id": "BA_may_day_international_workers_day",
+      "countryCode": "BA",
+      "kind": "fixed",
+      "labelKey": "holidays.may_day_international_workers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "BA_victory_day_over_fascism",
+      "countryCode": "BA",
+      "kind": "fixed",
+      "labelKey": "holidays.victory_day_over_fascism",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 9
+      }
+    },
+    {
+      "id": "BA_day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih",
+      "countryCode": "BA",
+      "kind": "fixed",
+      "labelKey": "holidays.day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 21
+      }
+    },
+    {
+      "id": "BA_statehood_day",
+      "countryCode": "BA",
+      "kind": "fixed",
+      "labelKey": "holidays.statehood_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 25
+      }
+    },
+    {
+      "id": "BA_christmas_eve_roman_catholic",
+      "countryCode": "BA",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_eve_roman_catholic",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 24
+      }
+    },
+    {
+      "id": "BA_christmas_day_roman_catholic",
+      "countryCode": "BA",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas_day_roman_catholic",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "christmas_eve_orthodox": "Christmas Eve (Orthodox)",
+        "christmas_day_orthodox": "Christmas Day (Orthodox)",
+        "independence_day": "Independence Day",
+        "good_friday_ba": "Good Friday",
+        "easter_sunday": "Easter Sunday",
+        "easter_monday_ba": "Easter Monday",
+        "may_day_international_workers_day": "May Day / International Workers' Day",
+        "victory_day_over_fascism": "Victory Day over fascism",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "Day of the establishment of the General Framework Agreement for Peace in BiH",
+        "statehood_day": "Statehood Day",
+        "christmas_eve_roman_catholic": "Christmas Eve (Roman Catholic)",
+        "christmas_day_roman_catholic": "Christmas Day (Roman Catholic)"
+      },
+      "bs": {
+        "christmas_eve_orthodox": "Božić (za pravoslavce)",
+        "christmas_day_orthodox": "Božić (za pravoslavce)",
+        "independence_day": "Dan nezavisnosti Bosne i Hercegovine",
+        "good_friday_ba": "Veliki petak",
+        "easter_sunday": "Vaskrs (Uskrs)",
+        "easter_monday_ba": "Vaskrsni (Uskrsni) ponedeljak",
+        "may_day_international_workers_day": "Praznik rada",
+        "victory_day_over_fascism": "Dan pobjede nad fašizmom",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "Dan uspostavljanja Opšteg okvirnog sporazuma za mir u BiH",
+        "statehood_day": "Dan državnosti Bosne i Hercegovine",
+        "christmas_eve_roman_catholic": "Božić (za rimokatolike)",
+        "christmas_day_roman_catholic": "Božić (za rimokatolike)"
+      },
+      "de": {
+        "christmas_eve_orthodox": "Heiligabend (orthodox)",
+        "christmas_day_orthodox": "Weihnachtstag (orthodox)",
+        "independence_day": "Unabhängigkeitstag",
+        "good_friday_ba": "Karfreitag",
+        "easter_sunday": "Ostersonntag",
+        "easter_monday_ba": "Ostermontag",
+        "may_day_international_workers_day": "1. Mai / Internationaler Tag der Arbeit",
+        "victory_day_over_fascism": "Tag des Sieges über den Faschismus",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "Tag der Gründung des Allgemeinen Rahmenabkommens für Frieden in Bosnien und Herzegowina",
+        "statehood_day": "Tag der Eigenstaatlichkeit",
+        "christmas_eve_roman_catholic": "Heiligabend (römisch-katholisch)",
+        "christmas_day_roman_catholic": "Weihnachtstag (römisch-katholisch)"
+      },
+      "fr": {
+        "christmas_eve_orthodox": "Réveillon de Noël (orthodoxe)",
+        "christmas_day_orthodox": "Jour de Noël (orthodoxe)",
+        "independence_day": "Jour de l'Indépendance",
+        "good_friday_ba": "Vendredi Saint",
+        "easter_sunday": "Dimanche de Pâques",
+        "easter_monday_ba": "Lundi de Pâques",
+        "may_day_international_workers_day": "1er mai / Journée internationale des travailleurs",
+        "victory_day_over_fascism": "Jour de la Victoire sur le fascisme",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "Journée de la création de l'Accord-cadre général pour la paix en Bosnie-Herzégovine",
+        "statehood_day": "Journée de l'État",
+        "christmas_eve_roman_catholic": "Veille de Noël (catholique romaine)",
+        "christmas_day_roman_catholic": "Jour de Noël (catholique romaine)"
+      },
+      "es": {
+        "christmas_eve_orthodox": "Nochebuena (ortodoxa)",
+        "christmas_day_orthodox": "Día de Navidad (ortodoxo)",
+        "independence_day": "Día de la Independencia",
+        "good_friday_ba": "Viernes Santo",
+        "easter_sunday": "Domingo de Pascua",
+        "easter_monday_ba": "Lunes de Pascua",
+        "may_day_international_workers_day": "Primero de Mayo / Día Internacional de los Trabajadores",
+        "victory_day_over_fascism": "Día de la Victoria sobre el fascismo",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "Día del establecimiento del Acuerdo Marco General de Paz en Bosnia y Herzegovina",
+        "statehood_day": "Día de la Estadidad",
+        "christmas_eve_roman_catholic": "Nochebuena (católica romana)",
+        "christmas_day_roman_catholic": "Día de Navidad (católico romano)"
+      },
+      "pt": {
+        "christmas_eve_orthodox": "Véspera de Natal (Ortodoxa)",
+        "christmas_day_orthodox": "Dia de Natal (Ortodoxo)",
+        "independence_day": "Dia da Independência",
+        "good_friday_ba": "Sexta-feira Santa",
+        "easter_sunday": "Domingo de Páscoa",
+        "easter_monday_ba": "Segunda-feira de Páscoa",
+        "may_day_international_workers_day": "Primeiro de Maio / Dia Internacional do Trabalhador",
+        "victory_day_over_fascism": "Dia da Vitória sobre o fascismo",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "Dia do estabelecimento do Acordo-Quadro Geral para a Paz na Bósnia-Herzegovina",
+        "statehood_day": "Dia do Estado",
+        "christmas_eve_roman_catholic": "Véspera de Natal (Católica Romana)",
+        "christmas_day_roman_catholic": "Dia de Natal (Católica Romana)"
+      },
+      "it": {
+        "christmas_eve_orthodox": "Vigilia di Natale (ortodossa)",
+        "christmas_day_orthodox": "Giorno di Natale (ortodosso)",
+        "independence_day": "Giorno dell'Indipendenza",
+        "good_friday_ba": "Venerdì Santo",
+        "easter_sunday": "Domenica di Pasqua",
+        "easter_monday_ba": "Lunedì di Pasquetta",
+        "may_day_international_workers_day": "Primo Maggio / Giornata internazionale dei lavoratori",
+        "victory_day_over_fascism": "Giorno della Vittoria sul fascismo",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "Giorno della firma dell'Accordo quadro generale per la pace in Bosnia-Erzegovina",
+        "statehood_day": "Giornata dello Stato",
+        "christmas_eve_roman_catholic": "Vigilia di Natale (cattolica romana)",
+        "christmas_day_roman_catholic": "Giorno di Natale (cattolico romano)"
+      },
+      "pl": {
+        "christmas_eve_orthodox": "Wigilia (prawosławna)",
+        "christmas_day_orthodox": "Boże Narodzenie (prawosławne)",
+        "independence_day": "Święto Niepodległości",
+        "good_friday_ba": "Dobry piątek",
+        "easter_sunday": "Niedziela Wielkanocna",
+        "easter_monday_ba": "Poniedziałek Wielkanocny",
+        "may_day_international_workers_day": "Majówka/Międzynarodowy Dzień Pracy",
+        "victory_day_over_fascism": "Dzień Zwycięstwa nad faszyzmem",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "Dzień zawarcia Ogólnego Porozumienia Ramowego dla Pokoju w BiH",
+        "statehood_day": "Dzień Państwowości",
+        "christmas_eve_roman_catholic": "Wigilia (rzymskokatolicka)",
+        "christmas_day_roman_catholic": "Boże Narodzenie (rzymskokatolickie)"
+      },
+      "nl": {
+        "christmas_eve_orthodox": "Kerstavond (Orthodox)",
+        "christmas_day_orthodox": "Eerste Kerstdag (Orthodox)",
+        "independence_day": "Onafhankelijkheidsdag",
+        "good_friday_ba": "Goede Vrijdag",
+        "easter_sunday": "Paaszondag",
+        "easter_monday_ba": "Paasmaandag",
+        "may_day_international_workers_day": "1 mei / Internationale Dag van de Arbeid",
+        "victory_day_over_fascism": "Dag van de overwinning op het fascisme",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "Dag van de totstandkoming van de Algemene Kaderovereenkomst voor Vrede in BiH",
+        "statehood_day": "Dag van de staat",
+        "christmas_eve_roman_catholic": "Kerstavond (rooms-katholiek)",
+        "christmas_day_roman_catholic": "Eerste Kerstdag (rooms-katholiek)"
+      },
+      "sv": {
+        "christmas_eve_orthodox": "Julafton (ortodox)",
+        "christmas_day_orthodox": "Juldagen (ortodox)",
+        "independence_day": "Självständighetsdagen",
+        "good_friday_ba": "Långfredag",
+        "easter_sunday": "Påskdagen",
+        "easter_monday_ba": "Annandag påsk",
+        "may_day_international_workers_day": "Första maj / Internationella arbetardagen",
+        "victory_day_over_fascism": "Segerdagen över fascismen",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "Dagen för upprättandet av det allmänna ramavtalet för fred i Bosnien och Hercegovina",
+        "statehood_day": "Statens dag",
+        "christmas_eve_roman_catholic": "Julafton (romersk-katolsk)",
+        "christmas_day_roman_catholic": "Juldagen (romersk-katolsk)"
+      },
+      "nb": {
+        "christmas_eve_orthodox": "Julaften (ortodoks)",
+        "christmas_day_orthodox": "juledag (ortodoks)",
+        "independence_day": "Uavhengighetsdagen",
+        "good_friday_ba": "Langfredag",
+        "easter_sunday": "Første påskedag",
+        "easter_monday_ba": "påskedag",
+        "may_day_international_workers_day": "mai / arbeidernes internasjonale dag",
+        "victory_day_over_fascism": "Seiersdagen over fascismen",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "Dagen for etableringen av den generelle rammeavtalen for fred i BiH",
+        "statehood_day": "Statsdannelsesdagen",
+        "christmas_eve_roman_catholic": "Julaften (romersk-katolsk)",
+        "christmas_day_roman_catholic": "juledag (romersk-katolsk)"
+      },
+      "da": {
+        "christmas_eve_orthodox": "Juleaften (ortodoks)",
+        "christmas_day_orthodox": "juledag (ortodoks)",
+        "independence_day": "Uafhængighedsdag",
+        "good_friday_ba": "Langfredag",
+        "easter_sunday": "Påskedag",
+        "easter_monday_ba": "påskedag",
+        "may_day_international_workers_day": "1. maj / arbejdernes internationale dag",
+        "victory_day_over_fascism": "Sejrsdag over fascismen",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "Dagen for oprettelsen af den generelle rammeaftale for fred i BiH",
+        "statehood_day": "Statsskabsdag",
+        "christmas_eve_roman_catholic": "Juleaften (romersk-katolsk)",
+        "christmas_day_roman_catholic": "juledag (romersk-katolsk)"
+      },
+      "fi": {
+        "christmas_eve_orthodox": "Jouluaatto (ortodoksinen)",
+        "christmas_day_orthodox": "joulupäivä (ortodoksinen)",
+        "independence_day": "Itsenäisyyspäivä",
+        "good_friday_ba": "Pitkäperjantai",
+        "easter_sunday": "Pääsiäispäivä",
+        "easter_monday_ba": "pääsiäismaanantai",
+        "may_day_international_workers_day": "Vappu / kansainvälinen työntekijöiden päivä",
+        "victory_day_over_fascism": "Voitonpäivä fasismista",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "Bosnia ja Hertsegovinan rauhan yleisen puitesopimuksen solmimispäivä",
+        "statehood_day": "Valtiopäivä",
+        "christmas_eve_roman_catholic": "jouluaatto (roomalaiskatolinen)",
+        "christmas_day_roman_catholic": "joulupäivä (roomalaiskatolinen)"
+      },
+      "ru": {
+        "christmas_eve_orthodox": "Сочельник (православный)",
+        "christmas_day_orthodox": "Рождество Христово",
+        "independence_day": "День независимости",
+        "good_friday_ba": "Страстная пятница",
+        "easter_sunday": "Пасхальное воскресенье",
+        "easter_monday_ba": "Пасхальный понедельник",
+        "may_day_international_workers_day": "Первомай / Международный день трудящихся",
+        "victory_day_over_fascism": "День Победы над фашизмом",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "День заключения Общего рамочного соглашения о мире в БиГ",
+        "statehood_day": "День государственности",
+        "christmas_eve_roman_catholic": "Сочельник (римско-католический)",
+        "christmas_day_roman_catholic": "Рождество (римско-католическое)"
+      },
+      "uk": {
+        "christmas_eve_orthodox": "Святвечір (православний)",
+        "christmas_day_orthodox": "Різдво (православне)",
+        "independence_day": "День Незалежності",
+        "good_friday_ba": "Страсна п'ятниця",
+        "easter_sunday": "Великдень",
+        "easter_monday_ba": "Великодній понеділок",
+        "may_day_international_workers_day": "Перше травня / День міжнародної солідарності трудящих",
+        "victory_day_over_fascism": "День перемоги над фашизмом",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "День створення Загальної рамкової угоди про мир у БіГ",
+        "statehood_day": "День Української Державності",
+        "christmas_eve_roman_catholic": "Святвечір (римсько-католицький)",
+        "christmas_day_roman_catholic": "Різдво (римсько-католицьке)"
+      },
+      "ja": {
+        "christmas_eve_orthodox": "クリスマスイブ（正統派）",
+        "christmas_day_orthodox": "クリスマスの日（正統派）",
+        "independence_day": "独立記念日",
+        "good_friday_ba": "グッドフライデー",
+        "easter_sunday": "イースターサンデー",
+        "easter_monday_ba": "イースターマンデー",
+        "may_day_international_workers_day": "メーデー / 国際労働者の日",
+        "victory_day_over_fascism": "ファシズムに対する戦勝記念日",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "BiH における平和のための一般枠組協定が締結された日",
+        "statehood_day": "州就任記念日",
+        "christmas_eve_roman_catholic": "クリスマスイブ (ローマカトリック)",
+        "christmas_day_roman_catholic": "クリスマスの日 (ローマカトリック)"
+      },
+      "ko": {
+        "christmas_eve_orthodox": "크리스마스 이브(정교회)",
+        "christmas_day_orthodox": "크리스마스(정교회)",
+        "independence_day": "독립기념일",
+        "good_friday_ba": "성금요일",
+        "easter_sunday": "부활절 일요일",
+        "easter_monday_ba": "부활절 월요일",
+        "may_day_international_workers_day": "메이데이/세계 근로자의 날",
+        "victory_day_over_fascism": "파시즘에 대한 승리의 날",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "BiH 평화를 위한 기본협정 체결일",
+        "statehood_day": "건국 기념일",
+        "christmas_eve_roman_catholic": "크리스마스 이브(로마 카톨릭)",
+        "christmas_day_roman_catholic": "크리스마스(로마 카톨릭)"
+      },
+      "zh-Hant": {
+        "christmas_eve_orthodox": "平安夜（東正教）",
+        "christmas_day_orthodox": "聖誕節（東正教）",
+        "independence_day": "獨立日",
+        "good_friday_ba": "耶稣受难日",
+        "easter_sunday": "復活節週日",
+        "easter_monday_ba": "復活節星期一",
+        "may_day_international_workers_day": "五一節/國際勞動節",
+        "victory_day_over_fascism": "戰勝法西斯主義勝利日",
+        "day_of_the_establishment_of_the_general_framework_agreement_for_peace_in_bih": "波士尼亞和平總框架協定建立日",
+        "statehood_day": "建州日",
+        "christmas_eve_roman_catholic": "平安夜（羅馬天主教）",
+        "christmas_day_roman_catholic": "聖誕節（羅馬天主教）"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "new_year": {
+          "intro": "Der 1. Januar markiert weltweit den Beginn eines neuen Jahres im gregorianischen Kalender. Für viele ist es ein Tag der Hoffnung, des Neuanfangs und der guten Vorsätze.",
+          "history": "Bereits 153 v. Chr. legten die Römer den Jahresbeginn auf den 1. Januar, den Antrittstag der neuen Konsuln. Im Mittelalter wechselte der Jahresanfang in vielen Regionen zu Weihnachten oder Ostern. Der gregorianische Kalender wurde 1582 eingeführt. Die europäischen Länder übernahmen ihn und den Jahresbeginn am 1. Januar jedoch zu unterschiedlichen Zeiten. Der Monatsname Januar geht auf den römischen Gott Janus zurück, der mit zwei Gesichtern zugleich auf das Vergangene und das Kommende blickte – ein passendes Sinnbild für diesen Tag.",
+          "traditions": "Um Mitternacht stoßen Familien und Freunde mit Sekt an und feiern den Jahreswechsel mit Feuerwerk, Glücksbringern wie Kleeblatt, Schornsteinfeger oder Marienkäfer und dem traditionellen Bleigießen (heute Wachsgießen). Beliebt sind außerdem Neujahrsbrunch und der gemeinsame Spaziergang an der frischen Luft. Viele fassen Vorsätze für das neue Jahr.",
+          "funFacts": [
+            "In Spanien isst man zu jedem der zwölf Glockenschläge eine Weintraube – eine pro Wunsch.",
+            "In Dänemark zerbricht man altes Geschirr vor den Türen guter Freunde, um Glück zu bringen.",
+            "Wiens Neujahrskonzert wird in über 90 Länder übertragen und gilt als musikalischer Auftakt des Jahres.",
+            "Auf Kiritimati im Inselstaat Kiribati beginnt das neue Jahr 26 Stunden früher als auf der Insel Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "christmas_day_orthodox": {
+          "intro": "Viele orthodoxe Kirchen feiern Weihnachten am 7. Januar, andere am 25. Dezember. Der Unterschied entsteht durch die verwendeten Kirchenkalender. Auch koptische und äthiopische Christen haben eigene Kalendertraditionen.",
+          "history": "Der 25. Dezember des julianischen Kalenders entspricht derzeit dem 7. Januar des gregorianischen Kalenders. Der Abstand beträgt heute 13 Tage; bei Einführung des gregorianischen Kalenders 1582 waren es zehn. Das koptische und das äthiopische Kirchenjahr beruhen auf eigenen Kalendern.",
+          "traditions": "Am Heiligen Abend gibt es ein fleischloses Festmahl, oft mit zwölf Gerichten und der süßen Weizenspeise Kutja. Serben verbrennen im Kirchhof einen Eichenzweig, den Badnjak, Kopten fasten bis zur Mitternachtsliturgie, und auf den Gruß „Christus ist geboren“ antwortet man „Verherrlicht ihn“.",
+          "funFacts": [
+            "Russen öffnen ihre Geschenke an Silvester, gebracht von Väterchen Frost.",
+            "In Serbien wird eine Münze ins Weihnachtsbrot gebacken; wer sie findet, hat Glück.",
+            "Das äthiopische Weihnachten, Genna, wird mit einem traditionellen hockeyähnlichen Spiel gefeiert.",
+            "Koptische Christen beenden ihr Fasten mit einer Mitternachtsmesse in der Kathedrale von Kairo."
+          ]
+        },
+        "easter_sunday": {
+          "intro": "Ostersonntag ist das höchste Fest des Christentums – Tag der Auferstehung Jesu Christi und Höhepunkt des Kirchenjahres.",
+          "history": "Ostern entwickelte sich aus dem jüdischen Pessachfest und wird seit dem 1. Jahrhundert von Christen begangen. Die Kirche legte 325 in Nicäa fest, dass Ostern stets am ersten Sonntag nach dem ersten Frühlingsvollmond gefeiert wird – daher das wechselnde Datum zwischen 22. März und 25. April. Der Name „Ostern” geht möglicherweise auf die germanische Frühlingsgöttin Ostara zurück, oder schlicht auf das althochdeutsche „eostarum” (Morgenröte).",
+          "traditions": "Familien beginnen den Tag mit einem festlichen Osterfrühstück mit gefärbten Eiern, Hefezopf und Osterlamm. Kinder suchen die vom Osterhasen versteckten Eier und Süßigkeiten im Garten. In vielen Gemeinden gibt es Osterfeuer, Osterprozessionen und feierliche Gottesdienste mit Glockenklang.",
+          "funFacts": [
+            "Das Osterdatum kann zwischen dem 22. März und dem 25. April liegen – der nächste „frühe” Ostersonntag (22. März) findet erst 2285 wieder statt.",
+            "Der größte Osterhase der Welt steht in Brasilien und ist über 4,2 m hoch.",
+            "Russisch-Orthodoxe Christen feiern Ostern oft an einem anderen Tag als West-Christen, weil sie den julianischen Kalender benutzen.",
+            "In Polen lässt man am Karsamstag Speisen in Körben für die Ostersonntag-Mahlzeit segnen („Święconka”)."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "new_year": {
+          "intro": "January 1st marks the start of a new year in the Gregorian calendar around the world. For many it's a day of hope, fresh starts and New Year’s resolutions.",
+          "history": "As early as 153 BC the Romans set the start of the year on January 1st, the day new consuls took office. During the Middle Ages, the start of the year shifted in many regions to Christmas or Easter. The Gregorian calendar was introduced in 1582. European countries adopted it and the 1 January start of the year at different times. The name January goes back to the Roman god Janus, who looked simultaneously at the past and the future with two faces — a fitting symbol for the day.",
+          "traditions": "At midnight, families and friends toast with sparkling wine and celebrate the turn of the year with fireworks, lucky charms (clover, chimney sweep, ladybug) and traditional lead pouring (now wax pouring). New Year's brunch and a fresh-air walk are popular too. Many people make resolutions for the year ahead.",
+          "funFacts": [
+            "In Spain, people eat one grape with each of the twelve bell strokes — one wish per grape.",
+            "In Denmark, people break old crockery in front of friends' doors to bring them luck.",
+            "Vienna's New Year's Concert is broadcast in over 90 countries and counts as the year's musical kick-off.",
+            "On Kiritimati in the island nation of Kiribati, the new year arrives 26 hours earlier than on Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "christmas_day_orthodox": {
+          "intro": "Many Orthodox churches celebrate Christmas on 7 January, while others celebrate on 25 December. The date depends on the church calendar. Coptic and Ethiopian Christians also have their own calendar traditions.",
+          "history": "Julian 25 December currently corresponds to Gregorian 7 January. The calendars are now 13 days apart; when the Gregorian calendar was introduced in 1582, the gap was ten days. The Coptic and Ethiopian church years use their own calendars.",
+          "traditions": "Christmas Eve brings a meatless Holy Supper, often with twelve dishes and sweet wheat porridge called kutia. Serbs burn an oak branch, the badnjak, in the churchyard, Copts fast until the midnight liturgy, and the greeting \"Christ is born\" is answered with \"Glorify him\".",
+          "funFacts": [
+            "Russians open presents on New Year's Eve, brought by Grandfather Frost.",
+            "In Serbia a coin is baked into the Christmas bread and brings luck to whoever finds it.",
+            "Ethiopian Christmas, Genna, is celebrated with a traditional hockey-like game.",
+            "Coptic Christians end their fast with a midnight mass at Cairo's cathedral."
+          ]
+        },
+        "easter_sunday": {
+          "intro": "Easter Sunday is Christianity's highest festival — the day of Jesus Christ's resurrection and the climax of the church year.",
+          "history": "Easter grew out of the Jewish Passover and has been observed by Christians since the 1st century. The Church set in 325 at Nicaea that Easter is always celebrated on the first Sunday after the first spring full moon — hence the moving date between March 22nd and April 25th. The English name ‘Easter' may go back to the Germanic spring goddess Eostre, or simply to the Old High German ‘eostarum' (dawn).",
+          "traditions": "Families start the day with a festive Easter breakfast featuring colored eggs, sweet braided bread and Easter lamb cake. Children search the garden for the eggs and treats hidden by the Easter Bunny. Many parishes hold Easter fires, processions and joyful services with bells.",
+          "funFacts": [
+            "Easter can fall between March 22nd and April 25th — the next ‘early' Easter (March 22nd) won't return until 2285.",
+            "The world's largest Easter Bunny stands in Brazil and is over 4.2 m tall.",
+            "Russian Orthodox Christians often celebrate Easter on a different day from Western Christians because they use the Julian calendar.",
+            "In Poland, Holy Saturday baskets of food (‘Święconka') are blessed for the Sunday meal."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "new_year": {
+          "intro": "Le 1er janvier marque le début d'une nouvelle année dans le calendrier grégorien partout dans le monde. Pour beaucoup, c'est un jour d'espoir, de renouveau et de bonnes résolutions.",
+          "history": "Dès 153 av. J.-C., les Romains fixèrent le début de l'année au 1er janvier, jour d'entrée en fonction des nouveaux consuls. Au Moyen Âge, le début de l'année se déplaça dans de nombreuses régions à Noël ou à Pâques. Le calendrier grégorien a été introduit en 1582. Les pays européens l’ont adopté, ainsi que le début de l’année au 1er janvier, à des époques différentes. Le nom janvier vient du dieu romain Janus, qui regardait simultanément le passé et l'avenir avec deux visages.",
+          "traditions": "À minuit, familles et amis trinquent au champagne et célèbrent le passage à la nouvelle année avec des feux d'artifice, des porte-bonheur (trèfle, ramoneur, coccinelle) et la traditionnelle coulée de plomb (aujourd'hui de cire). Le brunch du Nouvel An et la promenade au grand air sont aussi populaires. Beaucoup formulent des résolutions pour l'année.",
+          "funFacts": [
+            "En Espagne, on mange un grain de raisin à chacun des douze coups de minuit — un vœu par grain.",
+            "Au Danemark, on brise de la vieille vaisselle devant la porte des amis pour leur porter chance.",
+            "Le Concert du Nouvel An de Vienne est diffusé dans plus de 90 pays — coup d'envoi musical de l'année.",
+            "Sur Kiritimati, dans l’État insulaire des Kiribati, le Nouvel An arrive 26 heures avant celui de l’île Howland."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "christmas_day_orthodox": {
+          "intro": "De nombreuses Églises orthodoxes fêtent Noël le 7 janvier, d’autres le 25 décembre, selon leur calendrier liturgique. Les chrétiens coptes et éthiopiens ont aussi leurs propres traditions calendaires.",
+          "history": "Le 25 décembre du calendrier julien correspond actuellement au 7 janvier grégorien. L’écart est de 13 jours aujourd’hui, contre dix lors de l’introduction du calendrier grégorien en 1582. Les années liturgiques copte et éthiopienne suivent leurs propres calendriers.",
+          "traditions": "Le réveillon de Noël apporte un dîner sans viande, souvent composé de douze plats et de bouillie de blé sucrée appelée kutia. Les Serbes brûlent une branche de chêne, le badnjak, sur le parvis de l’église, les Coptes jeûnent jusqu'à la liturgie de minuit, et la salutation « Le Christ est né » reçoit en réponse « Glorifiez-le ».",
+          "funFacts": [
+            "En Russie, les cadeaux du Nouvel An sont traditionnellement apportés par le Père Gel, appelé Ded Moroz.",
+            "En Serbie, une pièce de monnaie est cuite dans le pain de Noël et porte chance à celui qui la trouve.",
+            "Le Noël éthiopien, Genna, est célébré avec un jeu traditionnel proche du hockey.",
+            "Les chrétiens coptes terminent leur jeûne par une messe de minuit à la cathédrale du Caire."
+          ]
+        },
+        "easter_sunday": {
+          "intro": "Le dimanche de Pâques est la fête la plus importante du christianisme — jour de la résurrection de Jésus-Christ et sommet de l'année liturgique.",
+          "history": "Pâques est issue de la Pâque juive et célébrée par les chrétiens depuis le Ier siècle. L'Église fixa en 325 à Nicée que Pâques se célébrerait toujours le premier dimanche après la première pleine lune de printemps — d'où la date mobile entre le 22 mars et le 25 avril. Le nom ‘Easter' (anglais) viendrait de la déesse germanique du printemps Eostre, ou simplement du vieux haut-allemand ‘eostarum' (aurore).",
+          "traditions": "Les familles entament la journée par un petit-déjeuner pascal festif avec œufs colorés, brioche tressée et agneau pascal. Les enfants cherchent les œufs et friandises cachés par le lapin de Pâques. Dans de nombreuses paroisses, on allume des feux de Pâques et on organise des processions ainsi que des messes solennelles au son des cloches.",
+          "funFacts": [
+            "Pâques peut tomber entre le 22 mars et le 25 avril — le prochain Pâques ‘précoce' (22 mars) ne reviendra qu'en 2285.",
+            "Le plus grand lapin de Pâques du monde se trouve au Brésil et mesure plus de 4,2 m.",
+            "Les chrétiens orthodoxes russes célèbrent souvent Pâques un autre jour, car ils utilisent le calendrier julien.",
+            "En Pologne, on bénit le Samedi Saint des paniers de nourriture (‘Święconka') pour le repas du dimanche."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "new_year": {
+          "intro": "El 1 de enero marca el inicio de un nuevo año en el calendario gregoriano en todo el mundo. Para muchos es un día de esperanza, comienzos y buenos propósitos.",
+          "history": "Ya en el 153 a. C., los romanos fijaron el inicio del año el 1 de enero, día en que tomaban posesión los nuevos cónsules. En la Edad Media el comienzo del año cambió en muchas regiones a Navidad o Pascua. El calendario gregoriano se introdujo en 1582. Los países europeos lo adoptaron, al igual que el inicio del año el 1 de enero, en momentos distintos. El nombre del mes de enero deriva de Jano, el dios romano de las dos caras, que miraba al pasado y al futuro a la vez.",
+          "traditions": "A medianoche, familias y amigos brindan con cava o champán y celebran con fuegos artificiales, amuletos como tréboles, deshollinadores o mariquitas, y la tradicional fundición de cera para predecir el año. También son populares el brunch de Año Nuevo y los paseos al aire libre. Muchos hacen propósitos para el año entrante.",
+          "funFacts": [
+            "En España se come una uva con cada una de las doce campanadas — un deseo por uva.",
+            "En Dinamarca se rompe vajilla vieja delante de las puertas de los amigos para darles suerte.",
+            "El Concierto de Año Nuevo de Viena se transmite en más de 90 países y se considera el arranque musical del año.",
+            "En Kiritimati, en el Estado insular de Kiribati, el Año Nuevo llega 26 horas antes que en la isla Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 vía Wikimedia Commons"
+        },
+        "christmas_day_orthodox": {
+          "intro": "Muchas iglesias ortodoxas celebran la Navidad el 7 de enero y otras el 25 de diciembre, según su calendario eclesiástico. Los cristianos coptos y etíopes también tienen sus propias tradiciones calendáricas.",
+          "history": "El 25 de diciembre juliano corresponde actualmente al 7 de enero gregoriano. Hoy la diferencia es de 13 días; cuando se introdujo el calendario gregoriano en 1582, era de diez. Los años litúrgicos copto y etíope siguen calendarios propios.",
+          "traditions": "La víspera de Navidad trae consigo una Santa Cena sin carne, a menudo con doce platos y gachas de trigo dulce llamadas kutia. Los serbios queman una rama de roble, el badnjak, en el patio de la iglesia, los coptos ayunan hasta la liturgia de medianoche y al saludo \"Cristo ha nacido\" se responde con \"Glorifícalo\".",
+          "funFacts": [
+            "Los rusos abren regalos en Nochevieja, traídos por el Abuelo Escarcha.",
+            "En Serbia se hornea una moneda en el pan de Navidad y trae suerte a quien la encuentra.",
+            "La Navidad etíope, Genna, se celebra con un juego tradicional parecido al hockey.",
+            "Los cristianos coptos terminan su ayuno con una misa de medianoche en la catedral de El Cairo."
+          ]
+        },
+        "easter_sunday": {
+          "intro": "El Domingo de Pascua es la fiesta más importante del cristianismo: el día de la resurrección de Jesús y culmen del año litúrgico.",
+          "history": "La Pascua surgió de la fiesta judía de Pésaj y se celebra desde el siglo I. La Iglesia fijó en 325 en Nicea que se celebrara el primer domingo tras la primera luna llena de primavera — de ahí la fecha variable entre el 22 de marzo y el 25 de abril. El nombre ‘Easter' (inglés) puede derivar de la diosa germánica de la primavera Eostre, o del antiguo alto alemán ‘eostarum' (alba).",
+          "traditions": "Las familias inician el día con un desayuno festivo con huevos coloreados, trenzas dulces y cordero pascual. Los niños buscan los huevos y dulces escondidos por el Conejo de Pascua. En muchas comunidades hay hogueras de Pascua, procesiones y misas solemnes con campanas.",
+          "funFacts": [
+            "La Pascua puede caer entre el 22 de marzo y el 25 de abril — el próximo Domingo de Pascua ‘temprano' (22 de marzo) no llegará hasta 2285.",
+            "El conejo de Pascua más grande del mundo está en Brasil y mide más de 4,2 m.",
+            "Los cristianos ortodoxos rusos suelen celebrar la Pascua otro día, ya que usan el calendario juliano.",
+            "En Polonia se bendicen las cestas de comida (‘Święconka') el Sábado Santo para el almuerzo del domingo."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "new_year": {
+          "intro": "1 de janeiro marca o início de um novo ano no calendário gregoriano em todo o mundo. Para muitos é um dia de esperança, novos começos e boas resoluções.",
+          "history": "Já em 153 a.C. os romanos fixaram o início do ano em 1 de janeiro, dia em que tomavam posse os novos cônsules. Na Idade Média, o início do ano deslocou-se em muitas regiões para o Natal ou a Páscoa. O calendário gregoriano foi introduzido em 1582. Os países europeus adotaram-no, tal como o início do ano a 1 de janeiro, em momentos diferentes. O nome do mês de janeiro deriva de Jano, o deus romano de duas faces, que olhava simultaneamente para o passado e o futuro.",
+          "traditions": "À meia-noite, famílias e amigos brindam com espumante e celebram com fogo de artifício, amuletos como trevos, limpa-chaminés ou joaninhas, e a tradicional fundição de cera para prever o ano. Também são populares o brunch de Ano Novo e os passeios ao ar livre. Muitos fazem resoluções para o ano que começa.",
+          "funFacts": [
+            "Em Portugal, comem-se tradicionalmente doze passas à meia-noite; em Espanha, doze uvas, uma por badalada.",
+            "Na Dinamarca, partem-se louças velhas em frente à porta dos amigos para lhes dar sorte.",
+            "O Concerto de Ano Novo de Viena é transmitido em mais de 90 países — abertura musical do ano.",
+            "Em Kiritimati, no Estado insular de Kiribati, o Ano Novo chega 26 horas antes do que na ilha Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "christmas_day_orthodox": {
+          "intro": "Muitas igrejas ortodoxas celebram o Natal a 7 de janeiro e outras a 25 de dezembro, conforme o calendário eclesiástico. Os cristãos coptas e etíopes também têm tradições de calendário próprias.",
+          "history": "O dia 25 de dezembro do calendário juliano corresponde atualmente a 7 de janeiro do gregoriano. A diferença é hoje de 13 dias; em 1582, quando o calendário gregoriano foi introduzido, era de dez. Os anos litúrgicos copta e etíope seguem calendários próprios.",
+          "traditions": "A véspera de Natal traz uma Santa Ceia sem carne, muitas vezes com doze pratos e papas de trigo doce chamadas kutia. Os sérvios queimam um ramo de carvalho, o badnjak, no adro da igreja, os coptas jejuam até à liturgia da meia-noite, e a saudação “Cristo nasceu” é respondida com “Glorifica-o”.",
+          "funFacts": [
+            "Russos abrem presentes na véspera de Ano Novo, trazidos pelo Ded Moroz, o Avô do Gelo.",
+            "Na Sérvia, coze-se uma moeda no pão de Natal e traz sorte a quem a encontra.",
+            "O Natal etíope, Genna, é celebrado com um jogo tradicional semelhante ao hóquei.",
+            "Os cristãos coptas terminam o jejum com uma missa da meia-noite na catedral do Cairo."
+          ]
+        },
+        "easter_sunday": {
+          "intro": "O Domingo de Páscoa é a festa mais importante do cristianismo — dia da ressurreição de Jesus Cristo e ápice do ano litúrgico.",
+          "history": "A Páscoa surgiu da festa judaica de Pessach e é celebrada pelos cristãos desde o século I. A Igreja fixou em 325 em Niceia que a Páscoa se celebra sempre no primeiro domingo após a primeira lua cheia da primavera — daí a data móvel entre 22 de março e 25 de abril. Em Portugal, é uma das festas religiosas mais importantes, com missas solenes, procissões e a tradição do compasso pascal — visita do pároco às casas para abençoá-las.",
+          "traditions": "Em Portugal o Domingo de Páscoa é dia de almoço de família com cabrito assado, folar e amêndoas. Antes do almoço, em algumas regiões (sobretudo Trás-os-Montes), o pároco visita as casas levando a cruz para beijar — o ‘compasso pascal'. As crianças procuram amêndoas e ovos de chocolate escondidos. Em muitas paróquias acendem-se fogos pascais e há procissões.",
+          "funFacts": [
+            "A Páscoa pode cair entre 22 de março e 25 de abril — a próxima Páscoa ‘precoce' (22 de março) só voltará em 2285.",
+            "O maior coelho da Páscoa do mundo está no Brasil e mede mais de 4,2 m.",
+            "Os cristãos ortodoxos russos costumam celebrar a Páscoa noutro dia, pois usam o calendário juliano.",
+            "Em Portugal, no compasso pascal, o pároco visita as casas com a cruz para beijar — quem não recebe o compasso é considerado ‘casa fechada'."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "new_year": {
+          "intro": "Il 1° gennaio segna l'inizio di un nuovo anno nel calendario gregoriano in tutto il mondo. Per molti è un giorno di speranza, di nuovi inizi e di buoni propositi.",
+          "history": "Già nel 153 a.C. i Romani fissarono l'inizio dell'anno al 1° gennaio, giorno dell'insediamento dei nuovi consoli. Nel Medioevo l'inizio dell'anno si spostò in molte regioni a Natale o Pasqua. Il calendario gregoriano fu introdotto nel 1582. I paesi europei lo adottarono, così come l’inizio dell’anno al 1° gennaio, in momenti diversi. Il nome ‘gennaio' deriva dal dio romano Giano, che con due volti guardava contemporaneamente al passato e al futuro.",
+          "traditions": "A mezzanotte famiglie e amici brindano con spumante e festeggiano con fuochi d'artificio, portafortuna come quadrifogli, spazzacamini o coccinelle e la tradizionale colata di piombo (oggi di cera). Sono diffusi anche il brunch di Capodanno e la passeggiata all'aria aperta. Molti formulano buoni propositi per l'anno che inizia.",
+          "funFacts": [
+            "In Spagna si mangia un chicco d'uva a ogni rintocco delle dodici campane — un desiderio per chicco.",
+            "In Danimarca si rompono stoviglie davanti alle porte degli amici per portare loro fortuna.",
+            "Il Concerto di Capodanno di Vienna è trasmesso in oltre 90 paesi — apertura musicale dell'anno.",
+            "A Kiritimati, nello Stato insulare di Kiribati, il Capodanno arriva 26 ore prima che sull’isola Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "christmas_day_orthodox": {
+          "intro": "Molte Chiese ortodosse celebrano il Natale il 7 gennaio, altre il 25 dicembre, secondo il calendario liturgico adottato. Anche i cristiani copti ed etiopi hanno proprie tradizioni calendariali.",
+          "history": "Il 25 dicembre del calendario giuliano corrisponde oggi al 7 gennaio gregoriano. Lo scarto attuale è di 13 giorni; quando il calendario gregoriano fu introdotto nel 1582, era di dieci. Gli anni liturgici copto ed etiope seguono calendari propri.",
+          "traditions": "La vigilia di Natale porta una Santa Cena senza carne, spesso con dodici piatti e porridge di grano dolce chiamato kutia. I serbi bruciano un ramo di quercia, il badnjak, sul sagrato, i copti digiunano fino alla liturgia di mezzanotte, e al saluto “Cristo è nato” si risponde con “Glorificatelo”.",
+          "funFacts": [
+            "I russi aprono i regali a Capodanno, portati da Nonno Gelo.",
+            "In Serbia una moneta viene cotta nel pane di Natale e porta fortuna a chi la trova.",
+            "Il Natale etiope, Genna, viene celebrato con una tradizionale partita simile all'hockey.",
+            "I cristiani copti terminano il loro digiuno con una messa di mezzanotte nella cattedrale del Cairo."
+          ]
+        },
+        "easter_sunday": {
+          "intro": "La Domenica di Pasqua è la festa più importante del cristianesimo — giorno della resurrezione di Gesù e culmine dell'anno liturgico.",
+          "history": "La Pasqua si è sviluppata dalla festa ebraica di Pesach ed è celebrata dai cristiani dal I secolo. La Chiesa stabilì nel 325 a Nicea che la Pasqua si celebra sempre la prima domenica dopo il primo plenilunio di primavera — da qui la data variabile tra il 22 marzo e il 25 aprile. In Italia, oltre al pranzo familiare con agnello, colomba e uova di cioccolato, è tradizione la benedizione delle case.",
+          "traditions": "Le famiglie iniziano la giornata con una colazione pasquale festiva con uova colorate, colomba e agnello pasquale. I bambini cercano le uova nascoste dal coniglio pasquale. In molte parrocchie si accendono fuochi pasquali e si celebrano processioni e messe solenni con suono delle campane. In Italia, è tradizione il pranzo con agnello al forno, colomba pasquale e uova di cioccolato.",
+          "funFacts": [
+            "La Pasqua può cadere tra il 22 marzo e il 25 aprile — la prossima Pasqua ‘precoce' (22 marzo) tornerà solo nel 2285.",
+            "Il più grande coniglio pasquale del mondo si trova in Brasile e supera i 4,2 m.",
+            "I cristiani ortodossi russi spesso celebrano la Pasqua in un altro giorno, perché usano il calendario giuliano.",
+            "In Polonia il Sabato Santo si benedicono cesti di cibo (‘Święconka') per il pranzo della domenica."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "new_year": {
+          "intro": "1 stycznia oznacza początek nowego roku w kalendarzu gregoriańskim na całym świecie. Dla wielu jest to dzień nadziei, nowych początków i postanowień.",
+          "history": "Już w 153 r. p.n.e. Rzymianie ustalili początek roku na 1 stycznia, dzień objęcia urzędu nowych konsulów. W średniowieczu początek roku w wielu regionach przesunięto na Boże Narodzenie lub Wielkanoc. Kalendarz gregoriański wprowadzono w 1582 roku. Kraje europejskie przyjmowały go, podobnie jak początek roku 1 stycznia, w różnych terminach. Łacińska nazwa miesiąca, Ianuarius, pochodzi od rzymskiego boga Janusa, który dwiema twarzami spoglądał jednocześnie w przeszłość i przyszłość.",
+          "traditions": "O północy rodziny i przyjaciele wznoszą toast szampanem i świętują przejście do nowego roku fajerwerkami, talizmanami szczęścia (czterolistna koniczyna, kominiarz, biedronka) oraz tradycyjnym lanym ołowiem (dziś woskiem). Popularne są noworoczne brunche i spacery. Wielu składa noworoczne postanowienia.",
+          "funFacts": [
+            "W Hiszpanii zjada się winogronko z każdym z dwunastu uderzeń zegara — życzenie na każde winogronko.",
+            "W Danii rozbija się stare naczynia przed drzwiami przyjaciół, aby przyniosło im to szczęście.",
+            "Wiedeński Koncert Noworoczny transmitowany jest w ponad 90 krajach — muzyczne otwarcie roku.",
+            "Na Kiritimati w wyspiarskim państwie Kiribati Nowy Rok zaczyna się 26 godzin wcześniej niż na wyspie Howland."
+          ],
+          "imageCredit": "Zdjęcie: Vyacheslav Argenberg · CC BY 4.0 przez Wikimedia Commons"
+        },
+        "christmas_day_orthodox": {
+          "intro": "Wiele Kościołów prawosławnych obchodzi Boże Narodzenie 7 stycznia, inne 25 grudnia. Data zależy od kalendarza kościelnego. Chrześcijanie koptyjscy i etiopscy również mają własne tradycje kalendarzowe.",
+          "history": "25 grudnia w kalendarzu juliańskim odpowiada obecnie 7 stycznia w gregoriańskim. Dziś różnica wynosi 13 dni; przy wprowadzeniu kalendarza gregoriańskiego w 1582 roku wynosiła dziesięć. Koptyjski i etiopski rok kościelny opierają się na własnych kalendarzach.",
+          "traditions": "Wigilia przynosi bezmięsną wieczerzę wigilijną, często składającą się z dwunastu dań i słodkiej kaszy pszennej zwanej kutią. Serbowie palą na placu przed kościołem gałązkę dębu, badnjaka, Koptowie poszczą aż do liturgii o północy, a na pozdrowienie „Narodził się Chrystus” odpowiada się „Wychwalajcie go”.",
+          "funFacts": [
+            "Rosjanie otwierają w sylwestra prezenty przyniesione przez Dziadka Mrozu.",
+            "W Serbii w bożonarodzeniowym chlebie zapieka się monetę, która przynosi szczęście temu, kto ją znajdzie.",
+            "Etiopskie Boże Narodzenie, zwane Genna, wiąże się z tradycyjną grą przypominającą hokej.",
+            "Chrześcijanie koptyjscy kończą swój post mszą o północy w katedrze w Kairze."
+          ]
+        },
+        "easter_sunday": {
+          "intro": "Niedziela Wielkanocna jest najważniejszym świętem chrześcijaństwa — dniem zmartwychwstania Jezusa Chrystusa i punktem kulminacyjnym roku liturgicznego.",
+          "history": "Wielkanoc wywodzi się z żydowskiego święta Paschy i obchodzona jest przez chrześcijan od I wieku. Kościół ustalił w 325 roku w Nicei, że Wielkanoc świętowana jest zawsze w pierwszą niedzielę po pierwszej wiosennej pełni księżyca — stąd ruchoma data między 22 marca a 25 kwietnia. W Polsce tradycja święcenia pokarmów (‘święconki') sięga XIV wieku i jest jedną z najsilniej zachowanych tradycji.",
+          "traditions": "W Polsce w Niedzielę Wielkanocną rodziny zaczynają dzień uroczystym śniadaniem z poświęconych w Wielką Sobotę pokarmów (‘święconki') — jajek, kiełbasy, szynki, chrzanu, baranka z masła czy cukru, mazurka i babki. Następnie idzie się na uroczystą mszę. Wieczorem często odbywają się rodzinne spotkania.",
+          "funFacts": [
+            "Wielkanoc może wypadać między 22 marca a 25 kwietnia — następna ‘wczesna' Wielkanoc (22 marca) wypadnie dopiero w 2285 roku.",
+            "Polskie tradycyjne palmy wielkanocne z Kurpii i Łysych potrafią mieć ponad 30 metrów wysokości — coroczny konkurs w Niedzielę Palmową.",
+            "Rosyjscy prawosławni często świętują Wielkanoc innego dnia, bo używają kalendarza juliańskiego.",
+            "Polskie ‘pisanki' to jedne z najpiękniejszych ozdób wielkanocnych świata — popularne motywy regionalne, np. opolskie, kurpiowskie."
+          ],
+          "imageCredit": "Zdjęcie: Geolina163 · CC BY-SA 4.0 przez Wikimedia Commons"
+        }
+      },
+      "nl": {
+        "new_year": {
+          "intro": "1 januari markeert wereldwijd het begin van een nieuw jaar volgens de Gregoriaanse kalender. Voor velen is het een dag vol hoop, een nieuwe start en goede voornemens.",
+          "history": "Al in 153 v.Chr. stelden de Romeinen 1 januari vast als het begin van het jaar, de dag waarop de nieuwe consuls hun ambt aanvaardden. Tijdens de Middeleeuwen verschoof het begin van het jaar in veel regio’s naar Kerstmis of Pasen. De Gregoriaanse kalender werd in 1582 ingevoerd. Europese landen namen deze kalender en 1 januari als jaarbegin op verschillende momenten over. De naam januari is afgeleid van de Romeinse god Janus, die met zijn twee gezichten tegelijkertijd naar het verleden en de toekomst keek — een passend symbool voor deze dag.",
+          "traditions": "Om middernacht proosten families en vrienden met mousserende wijn en vieren ze de jaarwisseling met vuurwerk, geluksbrengers (klaver, schoorsteenveger, lieveheersbeestje) en het traditionele loodgieten (tegenwoordig wasgieten). Ook een nieuwjaarsbrunch en een wandeling in de frisse lucht zijn populair. Veel mensen nemen goede voornemens voor het komende jaar.",
+          "funFacts": [
+            "In Spanje eten mensen bij elk van de twaalf klokslagen één druif — één wens per druif.",
+            "In Denemarken breken mensen oud serviesgoed voor de deur van vrienden om hen geluk te brengen.",
+            "Het Nieuwjaarsconcert van Wenen wordt in meer dan 90 landen uitgezonden en geldt als de muzikale start van het jaar.",
+            "Op Kiritimati in de eilandstaat Kiribati begint het nieuwe jaar 26 uur eerder dan op Howland Island."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "christmas_day_orthodox": {
+          "intro": "Veel orthodoxe kerken vieren Kerstmis op 7 januari, andere op 25 december. De datum hangt af van de kerkelijke kalender. Ook Koptische en Ethiopische christenen hebben eigen kalendertradities.",
+          "history": "De Juliaanse 25 december valt momenteel op de Gregoriaanse 7 januari. Het verschil is nu 13 dagen; bij de invoering van de Gregoriaanse kalender in 1582 was dat tien dagen. Het Koptische en Ethiopische kerkelijk jaar volgen eigen kalenders.",
+          "traditions": "Op kerstavond wordt een feestmaaltijd zonder vlees gegeten, vaak met twaalf gerechten en zoete tarwepap genaamd kutia. Serviërs verbranden een eikentak, de badnjak, op het kerkplein, Kopten vasten tot de middernachtliturgie, en de begroeting \"Christus is geboren\" wordt beantwoord met \"Verheerlijk hem\".",
+          "funFacts": [
+            "Russen openen op oudejaarsavond cadeautjes, gebracht door Grootvadertje Vorst.",
+            "In Servië wordt een munt in het kerstbrood gebakken; wie haar vindt, zou geluk krijgen.",
+            "Ethiopische Kerstmis, Genna, wordt gevierd met een traditioneel hockeyachtig spel.",
+            "Koptische christenen beëindigen hun vasten met een middernachtmis in de kathedraal van Caïro."
+          ]
+        },
+        "easter_sunday": {
+          "intro": "Paaszondag is het belangrijkste feest in het christendom — de dag van de verrijzenis van Jezus Christus en het hoogtepunt van het kerkelijk jaar.",
+          "history": "Pasen is voortgekomen uit het joodse Pesach en wordt al sinds de 1e eeuw door christenen gevierd. In 325 besloot de Kerk in Nicea dat Pasen altijd wordt gevierd op de eerste zondag na de eerste volle maan van de lente — vandaar dat de datum varieert tussen 22 maart en 25 april. De Engelse naam ‘Easter’ zou kunnen teruggaan op de Germaanse lentegodin Eostre, of simpelweg op het Oudhoogduitse ‘eostarum’ (dageraad).",
+          "traditions": "Gezinnen beginnen de dag met een feestelijk paasontbijt met gekleurde eieren, zoet gevlochten brood en paaslamscake. Kinderen zoeken in de tuin naar de eieren en lekkernijen die door de paashaas zijn verstopt. Veel parochies organiseren paasvuren, processies en vrolijke diensten met klokken.",
+          "funFacts": [
+            "Pasen kan tussen 22 maart en 25 april vallen — de volgende ‘vroege’ Pasen (22 maart) valt pas weer in 2285.",
+            "De grootste paashaas ter wereld staat in Brazilië en is meer dan 4,2 m hoog.",
+            "Russisch-orthodoxe christenen vieren Pasen vaak op een andere dag dan westerse christenen, omdat ze de Juliaanse kalender gebruiken.",
+            "In Polen worden op Paaszaterdag manden met etenswaren (‘Święconka’) gezegend voor de maaltijd op zondag."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "sv": {
+        "new_year": {
+          "intro": "Den 1 januari markerar början på ett nytt år enligt den gregorianska kalendern över hela världen. För många är det en dag präglad av hopp, nystart och nyårslöften.",
+          "history": "Redan 153 f.Kr. fastställde romarna att året skulle börja den 1 januari, den dag då de nya konsulerna tillträdde sina ämbeten. Under medeltiden flyttades årets början i många regioner till jul eller påsk. Den gregorianska kalendern infördes 1582. Europas länder antog den och den 1 januari som årets början vid olika tidpunkter. Namnet januari härstammar från den romerske guden Janus, som med sina två ansikten blickade samtidigt mot det förflutna och framtiden – en passande symbol för dagen.",
+          "traditions": "Vid midnatt skålar familjer och vänner med mousserande vin och firar årsskiftet med fyrverkerier, lyckosymboler (klöver, sotare, nyckelpiga) och den traditionella blygjutningen (numera vaxgjutning). Nyårsbrunch och en promenad i friska luften är också populära inslag. Många sätter upp nyårslöften inför det kommande året.",
+          "funFacts": [
+            "I Spanien äter man en vindruva för varje klockslag av de tolv – en önskan per vindruva.",
+            "I Danmark brukar man krossa gammalt porslin framför vännernas dörrar för att önska dem lycka.",
+            "Nyårskonserten i Wien sänds i över 90 länder och räknas som årets musikaliska startskott.",
+            "På Kiritimati i önationen Kiribati börjar det nya året 26 timmar tidigare än på Howlandön."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "christmas_day_orthodox": {
+          "intro": "Många ortodoxa kyrkor firar jul den 7 januari, andra den 25 december. Datumet beror på kyrkans kalender. Även koptiska och etiopiska kristna har egna kalendertraditioner.",
+          "history": "Den julianska kalenderns 25 december motsvarar för närvarande den gregorianska kalenderns 7 januari. Skillnaden är nu 13 dagar; när den gregorianska kalendern infördes 1582 var den tio dagar. De koptiska och etiopiska kyrkoåren följer egna kalendrar.",
+          "traditions": "På julafton serveras en köttfri festmåltid, ofta med tolv rätter och söt vetegröt som kallas kutia. Serber bränner en ekgren, badnjaken, utanför kyrkan, kopter fastar till midnattsliturgin, och hälsningen \"Kristus är född\" besvaras med \"Förhärliga honom\".",
+          "funFacts": [
+            "Ryssar öppnar presenter på nyårsafton, medförda av farfar Frost.",
+            "I Serbien bakas ett mynt in i julbrödet och ger lycka till den som hittar det.",
+            "Etiopisk jul, Genna, firas med en traditionell hockeyliknande match.",
+            "Koptiska kristna avslutar sin fasta med en midnattsmässa i Kairos katedral."
+          ]
+        },
+        "easter_sunday": {
+          "intro": "Påskdagen är kristendomens viktigaste högtid – dagen då Jesus Kristus uppstod från de döda och kyrkoårets höjdpunkt.",
+          "history": "Påsken har sitt ursprung i den judiska påskhögtiden och har firats av kristna sedan 1:a århundradet. År 325 fastställde kyrkan vid kyrkomötet i Nikea att påsken alltid ska firas den första söndagen efter vårens första fullmåne – därav det varierande datumet mellan den 22 mars och den 25 april. Det engelska namnet ”Easter” kan härledas till den germanska vårgudinnan Eostre, eller helt enkelt till det fornhögtyska ordet ”eostarum” (gryning).",
+          "traditions": "Familjerna inleder dagen med en festlig påskfrukost med färgade ägg, söta flätade bröd och påsklammkaka. Barnen letar i trädgården efter ägg och godsaker som påskharen har gömt. Många församlingar anordnar påskeldar, processioner och glada gudstjänster med klockklang.",
+          "funFacts": [
+            "Påsken kan infalla mellan den 22 mars och den 25 april – nästa ”tidiga” påsk (den 22 mars) infaller inte förrän år 2285.",
+            "Världens största påskhare står i Brasilien och är över 4,2 m hög.",
+            "Rysk-ortodoxa kristna firar ofta påsk en annan dag än västerländska kristna, eftersom de använder den julianska kalendern.",
+            "I Polen välsignas matkorgar (”Święconka”) på påsklördagen inför söndagens måltid."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "nb": {
+        "new_year": {
+          "intro": "1. januar markerer starten på et nytt år i den gregorianske kalenderen rundt om i verden. For mange er det en dag med håp, en ny begynnelse og gode forsetter.",
+          "history": "Så tidlig som i 153 f.Kr. satte romerne starten på året den 1. januar, den dagen nye konsuler tiltrådte. I løpet av middelalderen skiftet starten av året i mange regioner til jul eller påske. Den gregorianske kalenderen ble innført i 1582. Europeiske land tok den og 1. januar som årets begynnelse i bruk på ulike tidspunkter. Navnet januar går tilbake til den romerske guden Janus, som så på fortiden og fremtiden samtidig med to ansikter - et passende symbol for dagen.",
+          "traditions": "Ved midnatt skåler familier og venner med musserende vin og feirer årsskiftet med fyrverkeri, lykkebringere (kløver, skorsteinsfeier, marihøne) og tradisjonell blyhelling (nå vokshelling). Nyttårsbrunsj og en tur i frisk luft er også populært. Mange setter seg mål for året som kommer.",
+          "funFacts": [
+            "I Spania spiser folk én drue med hvert av de tolv klokkeslagene – ett ønske per drue.",
+            "I Danmark knuser folk gammelt servise foran venners dører for å bringe dem flaks.",
+            "Wiens nyttårskonsert sendes i over 90 land og teller som årets musikalske kick-off.",
+            "På Kiritimati i øystaten Kiribati kommer det nye året 26 timer tidligere enn på Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "christmas_day_orthodox": {
+          "intro": "Mange ortodokse kirker feirer jul 7. januar, andre 25. desember. Datoen avhenger av kirkens kalender. Koptiske og etiopiske kristne har også egne kalendertradisjoner.",
+          "history": "25. desember i den julianske kalenderen tilsvarer nå 7. januar i den gregorianske. Forskjellen er i dag 13 dager; da den gregorianske kalenderen ble innført i 1582, var den ti dager. De koptiske og etiopiske kirkeårene følger egne kalendere.",
+          "traditions": "Julaften bringer et festmåltid uten kjøtt, ofte med tolv retter og søt hvetegrøt kalt kutia. Serbere brenner en eikegren, badnjaken, foran kirken, kopterne faster til midnattsliturgien, og hilsenen «Kristus er født» besvares med «Glorifiser ham».",
+          "funFacts": [
+            "Russerne åpner gaver på nyttårsaften, brakt av bestefar Frost.",
+            "I Serbia bakes en mynt inn i julebrødet og bringer lykke til den som finner den.",
+            "Etiopisk jul, Genna, feires med en tradisjonell hockeylignende kamp.",
+            "Koptiske kristne avslutter fasten med en midnattsmesse i Kairos katedral."
+          ]
+        },
+        "easter_sunday": {
+          "intro": "Påskedag er kristendommens høyeste høytid – dagen for Jesu Kristi oppstandelse og høydepunktet i kirkeåret.",
+          "history": "Påsken vokste ut av den jødiske påsken og har blitt observert av kristne siden det 1. århundre. Kirken satte i 325 i Nicaea at påsken alltid feires den første søndagen etter den første vårfullmånen – derav den bevegelige datoen mellom 22. mars og 25. april. Det engelske navnet 'Easter' kan gå tilbake til den germanske vårgudinnen Eostre, eller ganske enkelt til det gammelhøytyske 'eostarum' (daggry).",
+          "traditions": "Familier starter dagen med en festlig påskefrokost med fargede egg, søtt flettet brød og påskelammekake. Barn søker i hagen etter eggene og godbitene som er gjemt av påskeharen. Mange menigheter holder påskebål, prosesjoner og gledesgudstjenester med bjeller.",
+          "funFacts": [
+            "Påsken kan falle mellom 22. mars og 25. april — neste «tidlige» påske (22. mars) kommer ikke tilbake før i år 2285.",
+            "Verdens største påskehare står i Brasil og er over 4,2 m høy.",
+            "Russisk-ortodokse kristne feirer ofte påsken på en annen dag enn vestlige kristne fordi de bruker den julianske kalenderen.",
+            "I Polen er kurver som tas med til kirken på påskeaften med mat (‘Święconka’) velsignet til søndagsmåltidet."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "da": {
+        "new_year": {
+          "intro": "1. januar markerer starten på et nyt år i den gregorianske kalender rundt om i verden. For mange er det en dag med håb, nye begyndelser og gode forsætter.",
+          "history": "Så tidligt som i 153 f.Kr. satte romerne starten på året den 1. januar, den dag, hvor nye konsuler tiltrådte. I løbet af middelalderen skiftede starten af ​​året i mange regioner til jul eller påske. Den gregorianske kalender blev indført i 1582. Europæiske lande tog den og 1. januar som årets begyndelse i brug på forskellige tidspunkter. Navnet januar går tilbage til den romerske gud Janus, som samtidig så på fortiden og fremtiden med to ansigter - et passende symbol for dagen.",
+          "traditions": "Ved midnat skåler familier og venner med mousserende vin og fejrer årsskiftet med fyrværkeri, lykkebringere (kløver, skorstensfejer, mariehøne) og traditionel blyophældning (nu vokshældning). Nytårsbrunch og en tur i frisk luft er også populære. Mange mennesker laver nytårsforsætter for det kommende år.",
+          "funFacts": [
+            "I Spanien spiser man én drue med hvert af de tolv klokkeslag - ét ønske pr. drue.",
+            "I Danmark knuser folk gammelt service foran venners døre for at bringe dem held.",
+            "Wiens nytårskoncert sendes i over 90 lande og tæller som årets musikalske kick-off.",
+            "På Kiritimati i østaten Kiribati begynder det nye år 26 timer tidligere end på Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "christmas_day_orthodox": {
+          "intro": "Mange ortodokse kirker fejrer jul den 7. januar, andre den 25. december. Datoen afhænger af kirkens kalender. Koptiske og etiopiske kristne har også egne kalendertraditioner.",
+          "history": "Den julianske kalenders 25. december svarer i øjeblikket til den gregorianske kalenders 7. januar. Forskellen er nu 13 dage; da den gregorianske kalender blev indført i 1582, var den ti dage. De koptiske og etiopiske kirkeår følger egne kalendere.",
+          "traditions": "Juleaften byder på et festmåltid uden kød, ofte med tolv retter og sød hvedegrød kaldet kutia. Serbere brænder en egegren, badnjaken, foran kirken, koptere faster indtil midnatsliturgien, og hilsenen \"Kristus er født\" besvares med \"Lovpris ham\".",
+          "funFacts": [
+            "Russerne åbner gaver nytårsaften, bragt af bedstefar Frost.",
+            "I Serbien er en mønt bagt i julebrødet og bringer held til den, der finder den.",
+            "Etiopisk jul, Genna, fejres med et traditionelt hockeylignende spil.",
+            "Koptiske kristne afslutter deres faste med en midnatsmesse i Kairos katedral."
+          ]
+        },
+        "easter_sunday": {
+          "intro": "Påskesøndag er kristendommens højeste højtid — dagen for Jesu Kristi opstandelse og kirkeårets klimaks.",
+          "history": "Påsken voksede ud af den jødiske påske og er blevet holdt af kristne siden det 1. århundrede. Kirken fastsatte i 325 i Nicaea, at påsken altid fejres den første søndag efter den første forårs fuldmåne - derfor den skiftende dato mellem 22. marts og 25. april. Det engelske navn 'Easter' kan gå tilbage til den germanske forårsgudinde Eostre, eller blot til det oldhøjtyske 'eostarum' (daggry).",
+          "traditions": "Familier starter dagen med en festlig påskefrokost med farvede æg, sødt flettet brød og påskelammekage. Børn søger i haven efter æg og godbidder, der er gemt af påskeharen. Mange sogne holder påskebål, optog og glade gudstjenester med klokker.",
+          "funFacts": [
+            "Påsken kan falde mellem 22. marts og 25. april — den næste 'tidlige' påske (22. marts) vender først tilbage i år 2285.",
+            "Verdens største påskehare står i Brasilien og er over 4,2 m høj.",
+            "Russisk-ortodokse kristne fejrer ofte påsken på en anden dag end vestlige kristne, fordi de bruger den julianske kalender.",
+            "I Polen velsignes påskelørdagskurve med mad ('Święconka') til søndagsmåltidet."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fi": {
+        "new_year": {
+          "intro": "Tammikuun 1. päivänä alkaa uusi vuosi gregoriaanisessa kalenterissa kaikkialla maailmassa. Monille se on toivon, uusien alkujen ja hyvien päätösten päivä.",
+          "history": "Jo vuonna 153 eKr. roomalaiset asettivat vuoden alun tammikuun 1. päiväksi, jolloin uudet konsulit astuivat virkaan. Keskiajalla vuoden alku siirtyi monilla alueilla jouluun tai pääsiäiseen. Gregoriaaninen kalenteri otettiin käyttöön vuonna 1582. Euroopan maat omaksuivat sen ja tammikuun 1. päivän vuoden aluksi eri aikoina. Tammikuun latinankielinen nimi Ianuarius juontaa juurensa roomalaiselle jumalalle Janukselle, joka katsoi samanaikaisesti menneisyyteen ja tulevaisuuteen kahdella kasvolla – sopiva symboli tälle päivälle.",
+          "traditions": "Keskiyöllä perheet ja ystävät nostavat maljan kuohuviiniä ja juhlivat vuodenvaihdetta ilotulituksella, onnenkoruilla (apila, nuohoaja, leppäkerttu) ja perinteisellä lyijynvalannalla (nykyisin vahanvalannalla). Uudenvuoden brunssi ja raitisilmakävely ovat myös suosittuja. Monet ihmiset tekevät lupauksia tulevalle vuodelle.",
+          "funFacts": [
+            "Espanjassa ihmiset syövät yhden rypäleen kullakin kahdellatoista kelloniskulla – yksi toive rypälettä kohden.",
+            "Tanskassa ihmiset rikkovat vanhoja astioita ystävien ovien edessä tuodakseen heille onnea.",
+            "Wienin uudenvuoden konsertti lähetetään yli 90 maassa ja se lasketaan vuoden musiikilliseksi aloitukseksi.",
+            "Kiribatin saarivaltioon kuuluvalla Kiritimatilla uusi vuosi alkaa 26 tuntia aikaisemmin kuin Howlandinsaarella."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "christmas_day_orthodox": {
+          "intro": "Monet ortodoksiset kirkot viettävät joulua 7. tammikuuta, toiset 25. joulukuuta. Ajankohta riippuu kirkon kalenterista. Myös koptilaisilla ja etiopialaisilla kristityillä on omat kalenteriperinteensä.",
+          "history": "Juliaanisen kalenterin 25. joulukuuta vastaa nykyisin gregoriaanisen kalenterin 7. tammikuuta. Ero on nyt 13 päivää; gregoriaanisen kalenterin käyttöönoton aikaan vuonna 1582 se oli kymmenen päivää. Koptilainen ja etiopialainen kirkkovuosi noudattavat omia kalentereitaan.",
+          "traditions": "Jouluaattona on lihaton juhla-ateria, joka sisältää usein kaksitoista ruokaa ja makeaa vehnäpuuroa nimeltä kutia. Serbit polttavat kirkon pihalla tammenoksan, badnjakin, koptit paastoavat keskiyön liturgiaan ja tervehdykseen \"Kristus on syntynyt\" vastataan \"Ylistäkää häntä\".",
+          "funFacts": [
+            "Venäläiset avaavat uudenvuodenaattona lahjoja, jotka isoisä Frost toi.",
+            "Serbiassa joululeipään leivotaan kolikko, joka tuo onnea sille, joka sen löytää.",
+            "Etiopialaista joulua, Gennaa, juhlitaan perinteisellä jääkiekkomaisella pelillä.",
+            "Koptikristityt päättävät paastonsa keskiyön messulla Kairon katedraalissa."
+          ]
+        },
+        "easter_sunday": {
+          "intro": "Pääsiäissunnuntai on kristinuskon korkein juhla - Jeesuksen Kristuksen ylösnousemuksen päivä ja kirkkovuoden huipentuma.",
+          "history": "Pääsiäinen syntyi juutalaisten pääsiäisestä, ja kristityt ovat viettäneet sitä 1. vuosisadasta lähtien. Kirkko asetti vuonna 325 Nikeassa, että pääsiäistä vietetään aina ensimmäisenä sunnuntaina kevään ensimmäisen täysikuun jälkeen – siksi päivämäärä vaihtelee 22. maaliskuuta ja 25. huhtikuuta välillä. Englanninkielinen nimi \"Easter\" voi juontaa juurensa germaaniseen kevätjumalattareen Eostreen tai yksinkertaisesti vanhaan yläsaksaan \"eostarum\" (aamunkoitto).",
+          "traditions": "Perheet aloittavat päivänsä juhlavalla pääsiäisaamiaisella, joka sisältää värillisiä munia, makeaa palmikoitua leipää ja pääsiäislammaskakkua. Lapset etsivät puutarhasta pääsiäispupun piilottamia munia ja herkkuja. Monissa seurakunnissa järjestetään pääsiäistulia, kulkueita ja iloisia jumalanpalveluksia kellojen kanssa.",
+          "funFacts": [
+            "Pääsiäinen voi olla 22. maaliskuuta ja 25. huhtikuuta välisenä aikana – seuraava \"varhainen\" pääsiäinen (22. maaliskuuta) palaa vasta vuonna 2285.",
+            "Maailman suurin pääsiäispupu seisoo Brasiliassa ja on yli 4,2 metriä pitkä.",
+            "Venäjän ortodoksiset kristityt viettävät pääsiäistä usein eri päivänä kuin länsimaiset kristityt, koska he käyttävät Juliaanista kalenteria.",
+            "Puolassa pyhän lauantain ruokakorit ('Święconka') siunataan sunnuntai-ateriaa varten."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "ru": {
+        "new_year": {
+          "intro": "1 января знаменует собой начало нового года по григорианскому календарю во всем мире. Для многих это день надежды, новых начинаний и новых планов.",
+          "history": "Еще в 153 г. до н.э. римляне установили начало года 1 января, в день вступления в должность новых консулов. В средние века начало года во многих регионах переносилось на Рождество или Пасху. Григорианский календарь ввели в 1582 году. Европейские страны переходили на него и на начало года 1 января в разное время. Название «январь» восходит к римскому богу Янусу, который смотрел одновременно на прошлое и будущее двумя лицами — подходящий символ дня.",
+          "traditions": "В полночь семьи и друзья поднимают бокалы с игристым вином и отмечают начало года фейерверками, талисманами (клевер, трубочист, божья коровка) и традиционным гаданием на расплавленном свинце (сейчас чаще используют воск). Популярны также новогодние бранчи и прогулки на свежем воздухе. Многие люди дают себе обещания на предстоящий год.",
+          "funFacts": [
+            "В Испании люди съедают одну виноградинку при каждом из двенадцати ударов колокола — одно желание на виноградинку.",
+            "В Дании люди разбивают старую посуду перед дверями друзей, чтобы принести им удачу.",
+            "Венский новогодний концерт транслируется более чем в 90 странах и считается музыкальным началом года.",
+            "На Киритимати в островном государстве Кирибати Новый год наступает на 26 часов раньше, чем на острове Хауленд."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "christmas_day_orthodox": {
+          "intro": "Многие православные церкви празднуют Рождество 7 января, другие — 25 декабря. Дата зависит от церковного календаря. У коптских и эфиопских христиан также есть собственные календарные традиции.",
+          "history": "25 декабря по юлианскому календарю сейчас соответствует 7 января по григорианскому. Сегодня разница составляет 13 дней, а при введении григорианского календаря в 1582 году она равнялась десяти. Коптский и эфиопский церковные годы следуют собственным календарям.",
+          "traditions": "В сочельник проводится постная Святая вечеря, часто состоящая из двенадцати блюд и сладкой пшеничной каши, называемой кутией. Сербы сжигают на церковном дворе дубовую ветку, бадняк, копты постятся до полуночной литургии, а на приветствие «Христос рождается» отвечают «Славьте Его».",
+          "funFacts": [
+            "Россияне в новогоднюю ночь открывают подарки, принесенные Дедом Морозом.",
+            "В Сербии в рождественский хлеб запекают монету, которая приносит удачу тому, кто ее найдет.",
+            "Эфиопское Рождество, Генна, отмечается традиционной игрой, напоминающей хоккей.",
+            "Коптские христиане заканчивают свой пост полуночной мессой в каирском соборе."
+          ]
+        },
+        "easter_sunday": {
+          "intro": "Пасхальное воскресенье — высший праздник христианства — день воскресения Иисуса Христа и кульминация церковного года.",
+          "history": "Пасха выросла из еврейской Пасхи и отмечается христианами с I века. В 325 году в Никее Церковь установила, что Пасха всегда празднуется в первое воскресенье после первого весеннего полнолуния — отсюда и передвижная дата между 22 марта и 25 апреля. Английское название Easter, возможно, восходит к германской богине весны Эостре или просто к древневерхненемецкому «eostarum» (рассвет).",
+          "traditions": "Семьи начинают день с праздничного пасхального завтрака, состоящего из крашеных яиц, сладкой плетенки и пасхального кекса в форме ягнёнка. Дети ищут в саду яйца и угощения, спрятанные пасхальным кроликом. Во многих приходах устраивают пасхальные костры, крестные ходы и радостные службы с колоколами.",
+          "funFacts": [
+            "Пасха может выпасть на период с 22 марта по 25 апреля — следующая «ранняя» Пасха (22 марта) не вернется до 2285 года.",
+            "Самый большой в мире пасхальный кролик находится в Бразилии, его рост превышает 4,2 метра.",
+            "Русские православные христиане часто празднуют Пасху в другой день, чем западные христиане, поскольку они используют юлианский календарь.",
+            "В Польше в Великую субботу освящаются корзины с едой («Święconka») для воскресной трапезы."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "uk": {
+        "new_year": {
+          "intro": "1 січня відзначає початок нового року за григоріанським календарем у всьому світі. Для багатьох це день надії, нових починань і нових планів.",
+          "history": "Ще в 153 році до нашої ери римляни встановили початок року 1 січня, день, коли нові консули вступали на посаду. У середні віки початок року в багатьох регіонах зміщувався на Різдво чи Великдень. Григоріанський календар запровадили 1582 року. Європейські країни переходили на нього та на початок року 1 січня в різний час. Англійська назва січня January походить від римського бога Януса, який двома обличчями дивився одночасно на минуле і майбутнє — відповідний символ дня.",
+          "traditions": "Опівночі родини та друзі піднімають келихи з ігристим вином і святкують початок року феєрверками, щасливими талісманами (конюшина, сажотрус, сонечко) і традиційним ворожінням на розплавленому свинці (нині частіше використовують віск). Також популярний новорічний бранч і прогулянка на свіжому повітрі. Багато людей дають собі обіцянки на прийдешній рік.",
+          "funFacts": [
+            "В Іспанії люди їдять одну виноградину під час кожного з дванадцяти ударів дзвоника — одне бажання на кожну виноградину.",
+            "У Данії люди розбивають старий посуд перед дверима друзів, щоб принести їм удачу.",
+            "Віденський новорічний концерт транслюється в понад 90 країнах і вважається музичним початком року.",
+            "На Кіритіматі в острівній державі Кірибаті Новий рік настає на 26 годин раніше, ніж на острові Гауленд."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "christmas_day_orthodox": {
+          "intro": "Багато православних церков святкують Різдво 7 січня, інші — 25 грудня. Дата залежить від церковного календаря. Коптські та ефіопські християни також мають власні календарні традиції.",
+          "history": "25 грудня за юліанським календарем нині відповідає 7 січня за григоріанським. Сьогодні різниця становить 13 днів, а під час запровадження григоріанського календаря 1582 року вона дорівнювала десяти. Коптський та ефіопський церковні роки спираються на власні календарі.",
+          "traditions": "Напередодні Різдва святкують пісну Святу вечерю, часто з дванадцятьма стравами та солодкою пшеничною кашею, яка називається кутею. Серби спалюють на церковному подвір’ї дубову гілку, бадняк, копти постять до півночі, а на вітання «Христос народився» відповідають «Славімо його».",
+          "funFacts": [
+            "Росіяни на Новий рік відкривають подарунки, які приніс Дід Мороз.",
+            "У Сербії в різдвяний хліб запікають монету, яка приносить удачу тому, хто її знайде.",
+            "Ефіопське Різдво, Генна, святкується традиційною грою, схожою на хокей.",
+            "Християни-копти завершують піст опівнічною месою в кафедральному соборі Каїра."
+          ]
+        },
+        "easter_sunday": {
+          "intro": "Великдень — найвище свято християнства — день воскресіння Ісуса Христа і кульмінація церковного року.",
+          "history": "Великдень виник із єврейської Пасхи і відзначається християнами з 1 століття. У 325 році в Нікеї церква встановила, що Великдень завжди святкується в першу неділю після першого весняного повного місяця — звідси рухається дата між 22 березня та 25 квітня. Англійська назва Easter може походити від германської богині весни Еостре або просто від давньоверхньонімецького «eostarum» (світанок).",
+          "traditions": "Сім’ї починають день зі святкового великоднього сніданку з фарбованими яйцями, солодким плетеним хлібом та пасхальним баранчиком. Діти шукають у саду яйця та ласощі, заховані Великоднім кроликом. У багатьох парафіях проводяться великодні вогнища, хресні ходи та радісні богослужіння з дзвонами.",
+          "funFacts": [
+            "Великдень може припасти на період з 22 березня по 25 квітня — наступна «рання» Пасха (22 березня) повернеться лише у 2285 році.",
+            "Найбільший у світі пасхальний кролик стоїть у Бразилії, його висота перевищує 4,2 м.",
+            "Російські православні християни часто святкують Великдень в інший день, ніж західні християни, оскільки вони використовують юліанський календар.",
+            "У Польщі у Велику Суботу кошики зі їжею («Święconka») освячуються для недільної трапези."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "ja": {
+        "new_year": {
+          "intro": "1月1日は、世界中でグレゴリオ暦による新年の始まりを告げる日です。多くの人々にとって、この日は希望に満ちた日であり、新たなスタートを切る日であり、新年の抱負を立てる日でもあります。",
+          "history": "早くも紀元前153年、ローマ人は新年の始まりを、新任の執政官が就任する1月1日と定めた。中世になると、多くの地域で新年の始まりはクリスマスやイースターへと移っていった。 グレゴリオ暦は1582年に導入されました。ヨーロッパ各国がこの暦を採用した時期や、1月1日を年初とした時期は、それぞれ異なります。「1月（January）」という名称は、二つの顔で過去と未来を同時に見つめていたローマの神ヤヌスに由来しており、この日はまさにその神にふさわしい象徴である。",
+          "traditions": "真夜中になると、家族や友人はスパークリングワインで乾杯し、花火や縁起物（クローバー、煙突掃除人、てんとう虫）、そして伝統的な鉛流し（現在は蝋流し）で年越しを祝います。新年のブランチや、新鮮な空気を吸いながらの散歩も人気です。多くの人が、その年の抱負を立てます。",
+          "funFacts": [
+            "スペインでは、鐘が12回鳴るたびに、そのたびにブドウを1粒ずつ食べます。ブドウ1粒ごとに1つの願いを込めるのです。",
+            "デンマークでは、友人たちの家の玄関先で古い食器を割ることで、その人たちに幸運をもたらす習慣があります。",
+            "ウィーンの新年コンサートは90カ国以上で放送され、その年の音楽界の幕開けとして知られています。",
+            "島国キリバスのキリティマティ島では、ハウランド島よりも26時間早く新年を迎えます。"
+          ],
+          "imageCredit": "写真：ヴィャチェスラフ・アルゲンベルク · CC BY 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "christmas_day_orthodox": {
+          "intro": "多くの正教会は1月7日に、別の正教会は12月25日にクリスマスを祝います。日付は教会が使う暦によって異なります。コプト教会やエチオピアのキリスト教徒にも独自の暦の伝統があります。",
+          "history": "現在、ユリウス暦の12月25日はグレゴリオ暦の1月7日に当たります。両者の差は現在13日ですが、1582年にグレゴリオ暦が導入された時点では10日でした。コプト教会とエチオピアの教会暦は、それぞれ独自の暦に基づいています。",
+          "traditions": "クリスマスイブには、肉を使わない聖晩餐が行われ、多くの場合、12 品の料理とクティアと呼ばれる甘い小麦のお粥が含まれます。セルビア人は教会の庭でオークの枝、バドニャクを燃やし、コプト人は真夜中の典礼まで断食し、「キリストが生まれた」という挨拶には「キリストを讃えよ」と答えます。",
+          "funFacts": [
+            "ロシア人は大晦日にフロストおじいさんが持ってきたプレゼントを開けます。",
+            "セルビアでは、クリスマスのパンにコインが焼き込まれ、それを見つけた人には幸運がもたらされます。",
+            "エチオピアのクリスマス、ゲンナは伝統的なホッケーに似たゲームで祝われます。",
+            "コプト教徒のキリスト教徒は、カイロの大聖堂で真夜中のミサを行って断食を終えます。"
+          ]
+        },
+        "easter_sunday": {
+          "intro": "イースターの日曜日は、キリスト教において最も重要な祭日であり、イエス・キリストの復活の日であり、教会暦のクライマックスでもあります。",
+          "history": "イースターはユダヤ教の過越祭に由来し、1世紀以来、キリスト教徒によって祝われてきました。教会は325年にニカイアで、イースターを常に春の最初の満月の後の最初の日曜日に祝うことを定めました。そのため、その日付は3月22日から4月25日の間で変動します。 英語の「イースター（Easter）」という名称は、ゲルマン神話の春の女神エオストレ（Eostre）に由来する可能性もあれば、単に古高ドイツ語の「eostarum」（夜明け）に由来する可能性もあります。",
+          "traditions": "各家庭では、色とりどりの卵や甘い編み込みパン、イースター・ラムケーキなどが並ぶ、お祝いのイースター朝食で一日を始めます。子供たちは、イースター・バニーが庭に隠した卵やお菓子を探し回ります。多くの教区では、イースターの焚き火や行列、鐘の音を伴う賑やかな礼拝が行われます。",
+          "funFacts": [
+            "イースターは3月22日から4月25日までの間に当たることがあります。次に「早い」イースター（3月22日）が訪れるのは、2285年になってからです。",
+            "世界最大のイースターバニーはブラジルにあり、高さは4.2メートル以上あります。",
+            "ロシア正教徒はユリウス暦を採用しているため、西洋のキリスト教徒とは異なる日に復活祭を祝うことがよくあります。",
+            "ポーランドでは、聖土曜日に、日曜日の食事用に用意された食べ物の入ったかご（「シュヴィェコンカ」）が祝福されます。"
+          ],
+          "imageCredit": "写真：Geolina163 · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        }
+      },
+      "ko": {
+        "new_year": {
+          "intro": "1월 1일은 전 세계적으로 그레고리력에 따른 새해의 시작을 알리는 날입니다. 많은 이들에게 이 날은 희망과 새로운 시작, 그리고 새해 결심을 다지는 날입니다.",
+          "history": "기원전 153년 무렵, 로마인들은 새 집정관이 취임하는 날인 1월 1일을 한 해의 시작으로 정했습니다. 중세 시대에는 많은 지역에서 한 해의 시작이 크리스마스나 부활절로 바뀌었습니다. 그레고리력은 1582년에 도입됐습니다. 유럽 각국이 이 달력을 채택한 시기와 1월 1일을 한 해의 시작으로 정한 시기는 서로 달랐습니다. ‘1월(January)’이라는 이름은 두 개의 얼굴로 과거와 미래를 동시에 바라보던 로마 신 야누스(Janus)에서 유래한 것으로, 이 날을 상징하기에 더할 나위 없이 적합한 이름입니다.",
+          "traditions": "자정이 되면 가족과 친구들은 스파클링 와인으로 건배를 나누고, 불꽃놀이와 행운의 상징(클로버, 굴뚝 청소부, 무당벌레), 그리고 전통적인 납 부어보기(현재는 왁스 부어보기)를 통해 새해의 시작을 축하합니다. 새해 브런치와 야외 산책도 인기가 많습니다. 많은 사람들이 다가올 한 해를 위한 새해 결심을 세우기도 합니다.",
+          "funFacts": [
+            "스페인에서는 종소리가 12번 울릴 때마다 포도 한 알씩 먹는데, 포도 한 알마다 소원 하나를 빌게 됩니다.",
+            "덴마크에서는 친구들에게 행운을 빌어주기 위해 친구 집 문 앞에서 낡은 그릇을 깨뜨리는 풍습이 있습니다.",
+            "비엔나 신년 콘서트는 90여 개국에서 방송되며, 한 해의 음악 활동을 시작하는 행사로 꼽힌다.",
+            "섬나라 키리바티의 키리티마티섬에서는 하울랜드섬보다 26시간 먼저 새해를 맞이합니다."
+          ],
+          "imageCredit": "사진: Vyacheslav Argenberg · CC BY 4.0 (위키미디어 공용 제공)"
+        },
+        "christmas_day_orthodox": {
+          "intro": "많은 정교회는 1월 7일에, 다른 정교회는 12월 25일에 성탄절을 기념합니다. 날짜는 교회가 사용하는 달력에 따라 달라집니다. 콥트교회와 에티오피아의 그리스도인들도 고유한 달력 전통을 지니고 있습니다.",
+          "history": "현재 율리우스력 12월 25일은 그레고리력 1월 7일에 해당합니다. 두 달력의 차이는 지금은 13일이지만, 1582년 그레고리력이 도입될 당시에는 10일이었습니다. 콥트교회와 에티오피아의 교회력은 각각 고유한 달력을 따릅니다.",
+          "traditions": "크리스마스 이브에는 고기 없는 명절 저녁 식사이 제공되며, 종종 12가지 요리와 쿠티아라고 불리는 달콤한 밀죽이 함께 제공됩니다. 세르비아인들은 교회 마당에서 참나무 가지인 바드냐크(badnjak)를 불태우고, 콥트교인들은 자정 예배까지 금식하며, \"그리스도 탄생\"이라는 인사말에 \"그분을 영광스럽게 하소서\"로 응답합니다.",
+          "funFacts": [
+            "러시아인들이 새해를 맞아 프로스트 할아버지가 가져온 선물을 공개합니다.",
+            "세르비아에서는 동전을 크리스마스 빵에 구워서 찾는 사람에게 행운을 가져다줍니다.",
+            "에티오피아의 크리스마스인 Genna는 전통적인 하키 같은 게임으로 기념됩니다.",
+            "콥트 기독교인들은 카이로 대성당에서 자정 미사로 금식을 마칩니다."
+          ]
+        },
+        "easter_sunday": {
+          "intro": "부활절 주일은 기독교에서 가장 중요한 축일로서, 예수 그리스도의 부활을 기념하는 날이자 교회 연중의 절정입니다.",
+          "history": "부활절은 유대교의 유월절에서 유래했으며, 1세기부터 기독교인들에 의해 기념되어 왔다. 교회는 325년 니케아 공의회에서 부활절을 항상 봄의 첫 보름달이 뜬 후 첫 번째 일요일에 기념하기로 정했다. 따라서 부활절 날짜는 3월 22일부터 4월 25일 사이로 매년 달라진다. 영어 이름 ‘Easter’는 게르만족의 봄의 여신 에오스트레(Eostre)에서 유래했을 수도 있고, 단순히 고대 고지 독일어 ‘eostarum’(새벽)에서 비롯되었을 수도 있습니다.",
+          "traditions": "가족들은 색칠한 달걀, 달콤한 땋은 빵, 부활절 양 모양 케이크가 어우러진 축제 분위기의 부활절 아침 식사로 하루를 시작합니다. 아이들은 정원에서 부활절 토끼가 숨겨 놓은 달걀과 간식을 찾아 헤맵니다. 많은 본당에서는 부활절 모닥불을 피우고, 행렬을 벌이며, 종소리가 울려 퍼지는 즐거운 미사를 거행합니다.",
+          "funFacts": [
+            "부활절은 3월 22일부터 4월 25일 사이에 찾아올 수 있는데, 다음 ‘이른’ 부활절(3월 22일)은 2285년이 되어야 다시 찾아옵니다.",
+            "세계에서 가장 큰 부활절 토끼 조각상이 브라질에 세워져 있으며, 높이는 4.2m가 넘는다.",
+            "러시아 정교회 신자들은 율리우스력을 사용하기 때문에 서방 기독교인들과는 다른 날에 부활절을 기념하는 경우가 많습니다.",
+            "폴란드에서는 성토일에 일요일 식사를 위해 준비한 음식 바구니('Święconka')에 축복을 받습니다."
+          ],
+          "imageCredit": "사진: Geolina163 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        }
+      },
+      "zh-Hant": {
+        "new_year": {
+          "intro": "1月1日標誌著全球公曆新年的開始。對許多人來說，這是一天充滿希望、嶄新起點與美好決心的日子。",
+          "history": "早在公元前153年，羅馬人便將新年的起始日定為1月1日，即新任執政官就職之日。中世紀期間，許多地區的新年起始日轉變為聖誕節或復活節。 格里曆於1582年開始實施，但歐洲各國採用這套曆法及將1月1日定為年初的時間並不相同。「一月」（January）這個名稱源自羅馬神祇雅努斯（Janus），他擁有兩張面孔，能同時凝視過去與未來——這正是對這一天的恰當象徵。",
+          "traditions": "午夜時分，親友們舉起氣泡酒共飲，並以煙火、吉祥物（三葉草、煙囪清掃工、瓢蟲）以及傳統的鉛鑄（現已改為蠟鑄）儀式來慶祝新年到來。新年早午餐和戶外散步也是很受歡迎的活動。許多人會為新的一年訂立新年決議。",
+          "funFacts": [
+            "在西班牙，人們會隨著鐘聲敲響的十二下，每響吃一顆葡萄——每顆葡萄代表一個願望。",
+            "在丹麥，人們會將舊陶器砸在朋友家門前，以祈求他們好運。",
+            "維也納新年音樂會的轉播遍及90多個國家，被視為年度音樂盛事的開端。",
+            "在島國吉里巴斯的吉里地馬地島，新年比豪蘭島早到來26小時。"
+          ],
+          "imageCredit": "照片：維亞切斯拉夫·阿根伯格 · 透過維基共享資源，採用 CC BY 4.0 授權"
+        },
+        "christmas_day_orthodox": {
+          "intro": "許多東正教會在1月7日慶祝聖誕節，另一些則在12月25日慶祝，日期取決於教會採用的曆法。科普特和衣索比亞的基督徒也有各自的曆法傳統。",
+          "history": "儒略曆的12月25日，目前對應格里曆的1月7日。兩者如今相差13天；1582年格里曆開始實施時，差距是10天。科普特教會和衣索比亞教會的教會年各自依循不同的曆法。",
+          "traditions": "聖誕夜帶來無肉的聖晚餐，通常有十二道菜和稱為kutia的甜麥粥。塞爾維亞人在教堂前的空地焚燒一根橡樹枝，即巴德尼亞克（badnjak），科普特人禁食直到午夜禮拜儀式，問候語“基督誕生”會得到“榮耀他”的回應。",
+          "funFacts": [
+            "俄羅斯人在除夕夜打開弗羅斯特爺爺帶來的禮物。",
+            "在塞爾維亞，一枚硬幣被烤進聖誕麵包裡，為找到它的人帶來好運。",
+            "埃塞俄比亞聖誕節，Genna，以傳統的曲棍球比賽來慶祝。",
+            "科普特基督徒在開羅大教堂舉行午夜彌撒來結束齋戒。"
+          ]
+        },
+        "easter_sunday": {
+          "intro": "復活節主日是基督教最重要的節日——這一天是耶穌基督復活的日子，也是教會年曆的高潮。",
+          "history": "復活節源自猶太教的逾越節，自一世紀起便為基督徒所慶祝。教會於西元325年在尼西亞會議上規定，復活節應固定在春季首次滿月後的第一个星期日慶祝——因此日期會在3月22日至4月25日之間變動。 英文名稱「Easter」可能源自日耳曼春季女神伊奧斯特雷（Eostre），也可能單純源自古高地德語「eostarum」（黎明）。",
+          "traditions": "各家各戶會以一頓充滿節日氣氛的復活節早餐開啟新的一天，餐桌上擺滿彩蛋、甜味編織麵包和復活節羔羊蛋糕。孩子們會在花園裡尋找復活節兔子藏起來的彩蛋和點心。許多教區都會舉行復活節篝火、遊行，以及伴隨著鐘聲的歡樂禮拜。",
+          "funFacts": [
+            "復活節的日期可能落在 3 月 22 日至 4 月 25 日之間——下一個「較早」的復活節（3 月 22 日）要等到 2285 年才會再次出現。",
+            "世界上最大的復活節兔子矗立在巴西，高度超過 4.2 公尺。",
+            "俄羅斯東正教信徒慶祝復活節的日子通常與西方基督徒不同，因為他們使用儒略曆。",
+            "在波蘭，人們會在聖週六將裝有食物的籃子（「Święconka」）帶去接受祝福，以便用於週日的餐宴。"
+          ],
+          "imageCredit": "照片：Geolina163 · 透過維基共享資源，採用 CC BY-SA 4.0 授權"
+        }
+      }
+    }
+  },
+  "images": {
+    "new_year": [
+      {
+        "path": "images/new_year/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas_day_orthodox": [
+      {
+        "path": "images/christmas_day_orthodox/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas_day_orthodox/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas_day_orthodox/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "easter_sunday": [
+      {
+        "path": "images/easter_sunday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/easter_sunday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/easter_sunday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 23
+}

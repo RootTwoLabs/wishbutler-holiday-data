@@ -2,21 +2,41 @@
   "chuseok": {
     "intro": "Chuseok er Koreas store høstfestival, en tid for familiegjenforeninger og ære for forfedre.",
     "history": "Chuseok, som feires den 15. dagen i den åttende månemåneden, kalles ofte koreansk Thanksgiving. Den er forankret i eldgamle høstfeiringer og takker for årets avlinger og minnes forfedre som gjorde innhøstingen mulig.",
-    "traditions": "Familier reiser hjem for minneritualer kalt \"charye\", besøker forfedres graver og deler mat. Signaturretten er 'songpyeon', halvmåne riskaker, og folk spiller folkespill og danser sirkel.",
+    "traditions": "Familier reiser hjem for minneritualer kalt \"charye\", besøker forfedres graver og deler mat. Signaturretten er 'songpyeon', halvmåneformede riskaker, og folk spiller folkespill og danser i ring.",
     "funFacts": [
       "Det kalles ofte 'koreansk Thanksgiving'.",
-      "Halvmåne riskaker kalt 'songpyeon' er festivalmaten.",
-      "Millioner reiser hjem, noe som forårsaker Koreas største trafikk i året."
+      "Halvmåneformede riskaker kalt 'songpyeon' er festivalmaten.",
+      "Millioner reiser hjem, noe som forårsaker noen av årets største trafikkøer."
     ]
   },
   "hangul_day": {
     "intro": "Hangul-dagen 9. oktober feirer etableringen av Koreas skrivesystem, Hangul.",
-    "history": "Dagen markerer proklamasjonen av Hunminjeongeum i 1446, det koreanske alfabetet opprettet under kong Sejong den store slik at vanlige mennesker kunne lese og skrive. Hangul feires som et unikt vitenskapelig og tilgjengelig manus og en kilde til nasjonal stolthet.",
-    "traditions": "Kulturelle begivenheter, kalligrafiutstillinger og konkurranser feirer alfabetet, og det er seremonier som hedrer kong Sejong. Det er den eneste nasjonale høytiden i verden som er dedikert til et skriftsystem.",
+    "history": "Dagen markerer proklamasjonen av Hunminjeongeum i 1446, det koreanske alfabetet opprettet under kong Sejong den store slik at vanlige mennesker kunne lese og skrive. Hangul feires som et unikt systematisk og tilgjengelig skriftsystem og en kilde til nasjonal stolthet.",
+    "traditions": "Kulturelle begivenheter, kalligrafiutstillinger og konkurranser feirer alfabetet, og det er seremonier som hedrer kong Sejong.",
     "funFacts": [
       "Hangul ble opprettet under kong Sejong den store.",
       "Den ble proklamert i 1446 for vanlige folk å bruke.",
-      "Det er verdens eneste høytid som feirer et alfabet."
+      "Høytiden hedrer det koreanske skriftsystemet og dets betydning for lese- og skriveferdigheter."
+    ]
+  },
+  "lunar_new_year": {
+    "intro": "Seollal er det koreanske månenyttåret og en av landets store familiehøytider. Datoen følger den tradisjonelle lunisolar-kalenderen og faller vanligvis i januar eller februar.",
+    "history": "Seollal tilhører en lang tradisjon for å markere den første dagen i måneåret. Selv om dens offisielle status endret seg i løpet av det tjuende århundre, er den fortsatt en sentral anledning for familiegjenforeninger, respekt for eldste og minne om forfedre.",
+    "traditions": "Familier samles, og yngre slektninger gjør sebae, en formell nyttårsbukking for de eldre. De eldre gir gode ønsker og ofte pengegaver. Tteokguk, suppe med riskaker i skiver, er et tradisjonelt måltid. Familier kan også spille yutnori eller bruke hanbok.",
+    "funFacts": [
+      "Tteokguk symboliserer begynnelsen på et nytt år; å spise det endrer ikke en persons lovlige alder.",
+      "Yutnori bruker fire trepinner i stedet for terninger.",
+      "Seollal og Chuseok er begge viktige anledninger for å reise hjem for å se slektninger."
+    ]
+  },
+  "liberation_day": {
+    "intro": "Gwangbokjeol 15. august minnes Koreas frigjøring fra japansk kolonistyre i 1945. I Sør-Korea er det en nasjonal høytid preget av flagg og minne.",
+    "history": "Japans kunngjøring om overgivelse 15. august 1945 avsluttet dets kolonistyre over Korea, som hadde begynt i 1910. På samme dato i 1948 ble Republikken Korea innviet. Høytiden minner om frigjøring og hedrer uavhengighetsbevegelsen.",
+    "traditions": "Nasjonalflagget, Taegeukgi, vises på boliger og offentlige bygninger. Offisielle seremonier hedrer uavhengighetsaktivister og deres familier. Museer, konserter og minnearrangementer utforsker historien til kolonistyret og kampen for uavhengighet.",
+    "funFacts": [
+      "Gwangbok blir ofte oversatt som restaurering av lys.",
+      "Den første marsbevegelsen i 1919 huskes på en egen helligdag.",
+      "Frigjøringsdagen og den nasjonale grunnleggelsesdagen 3. oktober markerer ulike hendelser."
     ]
   }
 }

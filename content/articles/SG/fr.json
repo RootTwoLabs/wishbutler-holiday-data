@@ -2,21 +2,41 @@
   "national_day": {
     "intro": "La fête nationale de Singapour, le 9 août, célèbre l’indépendance de la nation en 1965.",
     "history": "Le 9 août 1965, Singapour se sépara de la Malaisie et devint une république indépendante et souveraine. De petite ville portuaire, elle devint rapidement l’une des nations les plus riches du monde, une transformation célébrée chaque année.",
-    "traditions": "Le point culminant est la National Day Parade, avec des défilés militaires et civils, un survol de l’armée de l’air et un spectaculaire feu d’artifice au-dessus de Marina Bay. Les Singapouriens récitent le Serment national et chantent l’hymne composé pour l’occasion.",
+    "traditions": "Le point culminant est la National Day Parade, avec des défilés militaires et civils, un survol de l’armée de l’air et un spectaculaire feu d’artifice au-dessus de Marina Bay. Les Singapouriens récitent le Serment national et chantent l’hymne national et des chansons de fête nationale.",
     "funFacts": [
       "Elle marque la séparation de Singapour d’avec la Malaisie en 1965.",
       "La National Day Parade comprend un survol aérien et un feu d’artifice.",
-      "Les citoyens récitent ensemble le Serment national à 20 h 22."
+      "La récitation collective du Serment national fait partie des célébrations de la fête nationale."
     ]
   },
   "chinese_new_year": {
     "intro": "Le Nouvel An chinois est l’une des plus grandes fêtes de Singapour, un jour férié de deux jours qui accueille le nouvel an lunaire.",
     "history": "Apporté par les immigrants chinois qui forment la majorité de la population de Singapour, le Nouvel An chinois marque le début du calendrier lunaire. Au fil des générations, il est devenu une célébration nationale emblématique dans la Singapour multiculturelle.",
-    "traditions": "Les familles se réunissent pour le repas des retrouvailles et lancent le « yusheng », une salade de prospérité, pour la chance. Chinatown est décoré de lumières, les enfants reçoivent des enveloppes rouges (hongbao) et des danses du lion sont exécutées pour la prospérité.",
+    "traditions": "Les familles se réunissent pour le repas des retrouvailles et lancent le « yusheng », une salade de prospérité, pour attirer la chance. Chinatown est décoré de lumières, les enfants reçoivent des enveloppes rouges (hongbao) et des danses du lion sont exécutées pour la prospérité.",
     "funFacts": [
       "Lancer la salade « yusheng » plus haut porterait davantage chance.",
       "Les enveloppes rouges appelées « hongbao » contiennent de l’argent porte-bonheur.",
       "Les illuminations annuelles de Chinatown attirent des foules immenses."
+    ]
+  },
+  "deepavali": {
+    "intro": "Deepavali, la Fête des Lumières, est une célébration hindoue importante et un jour férié à Singapour. Les lampes et les réunions de famille expriment le triomphe de la lumière sur les ténèbres et du bien sur le mal.",
+    "history": "Deepavali a ses racines dans plusieurs traditions hindoues, dont les histoires et les pratiques varient selon les communautés. À Singapour, les communautés tamoules et indiennes en ont fait un élément important de la vie culturelle du pays. Sa date calendaire change d'année en année.",
+    "traditions": "Les familles nettoient leur maison, décorent les portes avec des lampes à huile et des motifs de kolam et visitent les temples et leurs proches. Nouveaux vêtements, friandises et repas partagés sont au rendez-vous. Little India est connue pour ses décorations de rue et ses marchés festifs.",
+    "funFacts": [
+      "Le nom Deepavali fait référence à une rangée de lumières.",
+      "Les motifs Kolam peuvent être réalisés avec de la poudre de riz colorée.",
+      "Les célébrations de Singapour reflètent les traditions de ses communautés hindoues locales."
+    ]
+  },
+  "vesak_day": {
+    "intro": "Le Vesak Day est une célébration bouddhiste et un jour férié à Singapour. Il commémore la naissance du Bouddha, son illumination et son passage au nirvana final, en particulier dans la tradition Theravada.",
+    "history": "Vesak tire son nom d'un mois du calendrier indien traditionnel. Les communautés bouddhistes observent ses événements de différentes manières et parfois à des dates différentes. À Singapour, l'occasion rassemble le culte du temple, la réflexion et les actes de générosité.",
+    "traditions": "Les fidèles visitent les temples, offrent des fleurs et des lumières et écoutent les enseignements. Certains temples organisent des cérémonies pour baigner une petite image du Bouddha enfant. Donner à des œuvres caritatives, faire du bénévolat et partager des repas végétariens expriment la compassion dans la vie de tous les jours.",
+    "funFacts": [
+      "Les fleurs présentes dans les offrandes au temple peuvent symboliser l'impermanence de la vie.",
+      "Les pratiques diffèrent selon les communautés bouddhistes de Singapour.",
+      "La date grégorienne change avec le calendrier utilisé pour déterminer l'observance."
     ]
   }
 }

@@ -1,22 +1,42 @@
 {
   "chuseok": {
-    "intro": "Chuseok on Korean suurin sadonkorjuujuhla, perhejuhlia ja esi-isiensä kunnioittamista.",
-    "history": "Chuseokia vietetään kahdeksannen kuun 15. päivänä, ja sitä kutsutaan usein korealaiseksi kiitospäiväksi. Muinaisissa sadonkorjuujuhlissa juurtunut se kiittää vuoden sadoista ja muistaa esivanhempia, jotka mahdollistivat sadonkorjuun.",
-    "traditions": "Perheet matkustavat kotiin muistorituaaleihin nimeltä \"charye\", vierailevat esi-isien haudoissa ja jakavat ruokaa. Tunnusruoka on \"songpyeon\", puolikuun riisikakkuja, ja ihmiset pelaavat kansanpelejä ja esittävät ympyrätanssia.",
+    "intro": "Chuseok on Korean suurin sadonkorjuujuhla, jota vietetään perheen kanssa ja esivanhempia kunnioittaen.",
+    "history": "Chuseokia vietetään kahdeksannen kuukauden 15. päivänä perinteisen kuukalenterin mukaan. Sitä kutsutaan usein korealaiseksi kiitospäiväksi. Muinaisiin sadonkorjuujuhliin juurtunut päivä on kiitos vuoden sadosta ja tilaisuus muistaa esivanhempia.",
+    "traditions": "Perheet matkustavat kotiin muistorituaaleihin nimeltä \"charye\", vierailevat esi-isien haudoilla ja jakavat ruokaa. Tunnusruoka on \"songpyeon\", puolikuun muotoisia riisikakkuja, ja ihmiset pelaavat kansanpelejä ja esittävät ympyrätanssia.",
     "funFacts": [
       "Sitä kutsutaan usein \"Korean kiitospäiväksi\".",
-      "Songpyeon-nimiset puolikuun riisikakut ovat festivaaliruokaa.",
-      "Miljoonat matkustavat kotiin aiheuttaen Korean vuoden suurimman liikenteen."
+      "Songpyeon-nimiset puolikuun muotoiset riisikakut ovat festivaaliruokaa.",
+      "Miljoonat matkustavat kotiin, mikä aiheuttaa Korean vuoden suurimpia liikenneruuhkia."
     ]
   },
   "hangul_day": {
     "intro": "Hangul-päivä 9. lokakuuta juhlii Korean kirjoitusjärjestelmän, Hangulin, luomista.",
-    "history": "Päivää juhlitaan vuonna 1446, kun Hunminjeongeum, korealainen aakkosto, joka luotiin kuningas Sejong Suuren aikana, julistettiin, jotta tavalliset ihmiset voisivat lukea ja kirjoittaa. Hangulia juhlitaan ainutlaatuisen tieteellisenä ja helppokäyttöisenä käsikirjoituksena ja kansallisen ylpeyden lähteenä.",
-    "traditions": "Kulttuuritapahtumissa, kalligrafianäyttelyissä ja -kilpailuissa juhlitaan aakkosia, ja kuningas Sejongin kunniaksi järjestetään seremonioita. Se on ainoa kirjoitusjärjestelmälle omistettu kansallinen juhla maailmassa.",
+    "history": "Päivänä muistetaan korean aakkoston julkistamista vuonna 1446. Kuningas Sejong Suuren aikana luotu kirjoitusjärjestelmä esiteltiin Hunminjeongeum-teoksessa tavallisten ihmisten lukemisen ja kirjoittamisen helpottamiseksi. Hangulia arvostetaan järjestelmällisenä, helposti opittavana kirjoitusjärjestelmänä.",
+    "traditions": "Kulttuuritapahtumissa, kalligrafianäyttelyissä ja -kilpailuissa juhlitaan aakkosia, ja kuningas Sejongin kunniaksi järjestetään seremonioita.",
     "funFacts": [
       "Hangul luotiin kuningas Sejong Suuren alaisuudessa.",
       "Se julistettiin vuonna 1446 tavallisten ihmisten käyttöön.",
-      "Se on maailman ainoa juhlapäivä, jossa vietetään aakkoset."
+      "Juhlapäivä kunnioittaa korean kirjoitusjärjestelmää ja sen merkitystä lukutaidolle."
+    ]
+  },
+  "lunar_new_year": {
+    "intro": "Seollal on korealainen uusivuosi ja yksi maan tärkeimmistä perhejuhlista. Se määräytyy perinteisen kuu-aurinkokalenterin mukaan ja osuu yleensä tammi- tai helmikuuhun.",
+    "history": "Seollal kuuluu pitkälle perinteeseen juhlistaa kuun vuoden ensimmäistä päivää. Vaikka sen virallinen asema muuttui 1900-luvun aikana, se on edelleen keskeinen tilaisuus perhejuhlia, vanhinten kunnioittamista ja esi-isiensä muistoa.",
+    "traditions": "Perheet kokoontuvat yhteen, ja nuoremmat sukulaiset tekevät vanhemmille sukulaisille sebae-kumarruksen uudenvuoden tervehdykseksi. Vanhemmat toivottavat hyvää uutta vuotta ja antavat usein rahalahjoja. Tteokguk eli keitto viipaloiduista riisikakuista kuuluu juhlaan. Perheet voivat myös pelata yutnoria tai pukeutua hanbokiin.",
+    "funFacts": [
+      "Tteokguk symboloi uuden vuoden alkua; sen syöminen ei muuta henkilön laillista ikää.",
+      "Yutnori käyttää neljää puutikkua noppien sijaan.",
+      "Seollal ja Chuseok ovat molemmat tärkeitä tilaisuuksia matkustaa kotiin tapaamaan sukulaisia."
+    ]
+  },
+  "liberation_day": {
+    "intro": "Gwangbokjeol 15. elokuuta juhlii Korean vapautumista Japanin siirtomaavallasta vuonna 1945. Etelä-Koreassa se on kansallinen juhlapäivä, jota leimaavat liput ja muistot.",
+    "history": "Japanin antautumisilmoitus 15. elokuuta 1945 päätti sen vuonna 1910 alkaneen siirtomaavallan Koreassa. Samana päivämääränä vuonna 1948 julistettiin Korean tasavalta. Juhlapäivä muistuttaa vapautumisesta ja kunnioittaa itsenäisyysliikettä.",
+    "traditions": "Kansallislippu, Taegeukgi, on esillä kodeissa ja julkisissa rakennuksissa. Virallisissa seremonioissa kunnioitetaan itsenäisyysaktivisteja ja heidän perheitään. Museot, konsertit ja muistotapahtumat tutkivat siirtomaavallan ja itsenäisyystaistelun historiaa.",
+    "funFacts": [
+      "Gwangbok käännetään usein valon palauttamiseksi.",
+      "Maaliskuun ensimmäistä liikettä 1919 muistetaan omana juhlapäivänään.",
+      "Vapautuspäivä ja kansallinen perustamispäivä 3. lokakuuta muistavat eri tapahtumia."
     ]
   }
 }

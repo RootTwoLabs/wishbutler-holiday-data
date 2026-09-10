@@ -1,0 +1,32 @@
+{
+  "chinese_new_year_spring_festival": {
+    "intro": "Il Festival di Primavera, o Capodanno cinese, inizia il primo giorno del tradizionale anno lunisolare cinese. Riunioni familiari e auguri di buona fortuna sono al centro delle celebrazioni.",
+    "history": "Il festival nasce dalla tradizione di accogliere il nuovo anno e onorare gli antenati. Nel corso dei secoli, le usanze regionali si sono sviluppate attorno al rinnovamento domestico, ai pasti condivisi e alle speranze di prosperità. La celebrazione segue un calendario lunisolare, quindi la sua data gregoriana cambia ogni anno.",
+    "traditions": "Le famiglie puliscono e decorano le case, appendono distici augurali rossi e si riuniscono per una cena alla vigilia del Capodanno. I bambini ricevono spesso buste rosse contenenti denaro. I cibi variano secondo la regione e comprendono ravioli, dolci di riso e pesce. Le feste pubbliche dipendono dalle usanze e dalle regole locali.",
+    "funFacts": [
+      "Il festival si chiama Chunjie in cinese mandarino.",
+      "I festeggiamenti continuano tradizionalmente verso la Festa delle Lanterne il quindicesimo giorno del primo mese lunare.",
+      "Ogni anno è associato a un animale nel ciclo zodiacale di dodici animali."
+    ]
+  },
+  "mid_autumn_festival": {
+    "intro": "La Festa di Metà Autunno cade il quindicesimo giorno dell'ottavo mese del calendario tradizionale cinese. La luna piena è un simbolo di riunione e un punto focale per le famiglie vicine e lontane.",
+    "history": "La festa si è sviluppata dal culto della luna e dalle celebrazioni stagionali del raccolto. Le storie di Chang’e, la dea della luna, furono strettamente associate ad esso. Rimane un'occasione importante per le riunioni di famiglia, con usanze che variano in tutta la Cina.",
+    "traditions": "Le famiglie condividono torte lunari, si scambiano regali e ammirano la luna quando il tempo lo permette. Le lanterne sono presenti nelle celebrazioni in alcune regioni. Le persone che sono lontane possono scambiarsi auguri, prendendo la stessa luna come simbolo di connessione.",
+    "funFacts": [
+      "Il suo nome in mandarino, Zhongqiujie, significa Festa di Metà Autunno.",
+      "Le torte lunari variano molto nel ripieno, nella pasta e nello stile regionale.",
+      "La data gregoriana cambia perché la festa segue un calendario lunisolare."
+    ]
+  },
+  "national_day": {
+    "intro": "La Giornata nazionale cinese del 1° ottobre commemora la fondazione della Repubblica popolare cinese nel 1949. È un'importante occasione nazionale e l'inizio di un intenso periodo di vacanze autunnali.",
+    "history": "Mao Zedong proclamò la Repubblica popolare cinese a Pechino il 1° ottobre 1949. La data fu designata Giornata nazionale più tardi quell'anno. Da allora, cerimonie ufficiali e celebrazioni pubbliche hanno segnato l'anniversario.",
+    "traditions": "Negli spazi pubblici compaiono bandiere nazionali e decorazioni festive. Cerimonie di alzabandiera, eventi culturali e monumenti illuminati caratterizzano l'occasione. Molte famiglie viaggiano o fanno visita ai parenti durante il periodo delle vacanze; per ogni anno viene comunicata la precisa disposizione dei giorni di riposo.",
+    "funFacts": [
+      "Una grande parata militare è associata ad anniversari importanti selezionati, non tutti gli anni.",
+      "Il periodo delle vacanze autunnali è comunemente chiamato Settimana d'Oro.",
+      "La Giornata Nazionale e la Festa di Metà Autunno a volte coincidono."
+    ]
+  }
+}

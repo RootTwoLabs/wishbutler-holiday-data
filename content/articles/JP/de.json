@@ -1,7 +1,7 @@
 {
   "foundation_day": {
     "intro": "Der Staatsgründungstag am 11. Februar feiert die legendäre Gründung Japans.",
-    "history": "Der Tag erinnert an die mythische Thronbesteigung Kaiser Jimmus, des legendären ersten Kaisers Japans, im Jahr 660 v. Chr. Als Feiertag zur Förderung des Patriotismus eingeführt, wurde er 1966 in moderner Form wiederbelebt, um über die Gründung der Nation nachzudenken.",
+    "history": "Der Tag erinnert an die legendäre Thronbesteigung Kaiser Jimmus, die traditionell auf 660 v. Chr. datiert wird. Der heutige Feiertag wurde 1966 gesetzlich eingeführt und 1967 erstmals begangen.",
     "traditions": "Verglichen mit den Nationalfeiertagen anderer Länder fallen die Feiern zurückhaltend aus. Es gibt einige patriotische Zeremonien und Beflaggungen sowie vereinzelte Feste und Umzüge, während viele einfach den freien Tag genießen.",
     "funFacts": [
       "Er erinnert an den legendären ersten Kaiser Jimmu.",
@@ -11,12 +11,42 @@
   },
   "coming_of_age_day": {
     "intro": "Der Tag der Volljährigkeit am zweiten Montag im Januar feiert die jungen Menschen, die das Erwachsenenalter erreicht haben.",
-    "history": "Der Feiertag ehrt alle, die im vergangenen Jahr volljährig geworden sind. Er wurzelt in alten Initiationsriten und wurde 1948 als nationaler Feiertag eingeführt, um junge Erwachsene zu ermutigen, ihren Platz in der Gesellschaft einzunehmen.",
-    "traditions": "Die Gemeinden veranstalten „Seijin-shiki”-Zeremonien für die neuen Erwachsenen. Viele junge Frauen tragen prächtige „Furisode”-Kimonos, Männer Anzüge oder traditionelle Kleidung, und Familien machen Erinnerungsfotos.",
+    "history": "Der Feiertag würdigt junge Menschen auf ihrem Weg ins Erwachsenenleben. Er wurzelt in alten Initiationsriten und wurde 1948 als nationaler Feiertag eingeführt, um junge Erwachsene zu ermutigen, ihren Platz in der Gesellschaft einzunehmen.",
+    "traditions": "Die Gemeinden veranstalten Zeremonien, die sich häufig weiterhin an 20-Jährige richten. Viele junge Frauen tragen prächtige „Furisode”-Kimonos, Männer Anzüge oder traditionelle Kleidung, und Familien machen Erinnerungsfotos.",
     "funFacts": [
       "Viele Frauen tragen leuchtende „Furisode”-Kimonos mit langen Ärmeln.",
-      "Städte richten eigene Zeremonien für neue Erwachsene aus.",
+      "Seit April 2022 liegt die Volljährigkeitsgrenze bei 18 Jahren; viele Feiern gelten weiterhin den 20-Jährigen.",
       "Das Erwachsenenalter liegt in Japan nun bei 18 Jahren."
+    ]
+  },
+  "childrens_day": {
+    "intro": "Der Kindertag Kodomo no Hi am 5. Mai feiert das Glück und das gesunde Aufwachsen der Kinder. Bunte Windfahnen in Karpfenform machen ihn zu einem der bekanntesten Frühlingsfeiertage Japans.",
+    "history": "Der Feiertag basiert auf Tango no Sekku, einem saisonalen Fest, das traditionell mit Jungen in Verbindung gebracht wird. Durch das Feiertagsgesetz von 1948 wurde der 5. Mai zum Kindertag, an dem alle Kinder gefeiert und den Müttern Dankbarkeit zum Ausdruck gebracht wurde. Es ist Teil der Ferienzeit der Goldenen Woche.",
+    "traditions": "Familien hängen Koinobori auf, Windfahnen in Karpfenform, und stellen Miniaturhelme oder Rüstungen aus. Zu den traditionellen Speisen gehören Kashiwa Mochi, in Eichenblätter gewickelte Reiskuchen, und regionale Chimaki-Varianten. Manche Haushalte nehmen ein Bad mit duftenden Blättern des Japanischen Kalmus.",
+    "funFacts": [
+      "Karpfen, die flussaufwärts schwimmen, symbolisieren Stärke und Ausdauer.",
+      "Kodomo bedeutet auf Japanisch Kind oder Kinder.",
+      "Der Feiertag fällt zusammen mit mehreren anderen nationalen Feiertagen gegen Ende der Goldenen Woche."
+    ]
+  },
+  "culture_day": {
+    "intro": "Der Kulturtag Bunka no Hi am 3. November feiert die Kultur und die Ideale von Freiheit und Frieden in Japan. Kunst, Lernen und Kreativität stehen im Mittelpunkt.",
+    "history": "Der Kulturtag wurde mit dem Feiertagsgesetz von 1948 eingeführt. Sein Datum fällt mit der Verkündung der japanischen Nachkriegsverfassung am 3. November 1946 zusammen. Zuvor erinnerte der 3. November an den Geburtstag von Kaiser Meiji; der heutige Feiertag hat einen anderen Zweck.",
+    "traditions": "Museen, Galerien und Kultureinrichtungen veranstalten Ausstellungen und Sonderprogramme. Schulen und Gemeinden organisieren Kulturfestivals. Der Kaiser verleiht den Kulturorden an Persönlichkeiten, die sich durch herausragende Verdienste um das kulturelle und geistige Leben auszeichnen.",
+    "funFacts": [
+      "Bunka bedeutet auf Japanisch Kultur.",
+      "Kulturtag ist am 3. November; Der Verfassungsgedenktag ist am 3. Mai.",
+      "Einige Museen bieten je nach Institution freien Eintritt oder Sonderveranstaltungen an."
+    ]
+  },
+  "constitution_memorial_day": {
+    "intro": "Der Verfassungsgedenktag Kenpō Kinenbi am 3. Mai erinnert an das Inkrafttreten der japanischen Nachkriegsverfassung im Jahr 1947. Er gehört zur Feiertagszeit Golden Week.",
+    "history": "Die Verfassung wurde am 3. November 1946 verkündet und trat am 3. Mai 1947 in Kraft. Zu ihren Grundprinzipien zählen Volkssouveränität, die Achtung der Menschenrechte und Pazifismus. Das Feiertagsgesetz von 1948 machte den Jahrestag zu einem nationalen Feiertag.",
+    "traditions": "Vorträge, öffentliche Debatten und Medienbeiträge beschäftigen sich mit der Verfassung und ihrer Bedeutung. Zugleich nutzen viele Menschen die Golden Week für Reisen, Ausflüge oder Zeit mit der Familie.",
+    "funFacts": [
+      "Kenpō bedeutet Verfassung.",
+      "Zwischen Verkündung und Inkrafttreten der Verfassung lagen sechs Monate.",
+      "Artikel 9 ist für den Verzicht auf Krieg als Mittel zur Beilegung internationaler Streitigkeiten bekannt."
     ]
   }
 }

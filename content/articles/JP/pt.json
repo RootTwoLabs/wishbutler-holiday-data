@@ -1,7 +1,7 @@
 {
   "foundation_day": {
     "intro": "O Dia da Fundação Nacional, 11 de fevereiro, celebra a fundação lendária do Japão.",
-    "history": "O dia marca a mítica entronização do imperador Jimmu, lendário primeiro imperador do Japão, em 660 a.C. Instituído como festa para fomentar o patriotismo, foi restabelecido na sua forma moderna em 1966 como dia de reflexão sobre a fundação do país.",
+    "history": "A festa recorda a lendária entronização do imperador Jimmu, tradicionalmente datada de 660 a.C. O feriado atual foi instituído por lei em 1966 e celebrado pela primeira vez em 1967.",
     "traditions": "Em comparação com as festas nacionais de outros países, as celebrações são discretas. Há algumas cerimónias patrióticas e bandeiras, além de algumas festas e desfiles, enquanto muitos simplesmente aproveitam o dia de folga.",
     "funFacts": [
       "Recorda o lendário primeiro imperador, Jimmu.",
@@ -11,12 +11,42 @@
   },
   "coming_of_age_day": {
     "intro": "O Dia da Maioridade, na segunda segunda-feira de janeiro, celebra os jovens que atingiram a idade adulta.",
-    "history": "A festa honra todos os que atingiram a maioridade no último ano. Tem raízes em antigos ritos de iniciação e foi instituída como feriado nacional em 1948 para incentivar os jovens adultos a ocuparem o seu lugar na sociedade.",
-    "traditions": "Os municípios realizam cerimónias «seijin-shiki» para os novos adultos. Muitas jovens vestem sumptuosos quimonos «furisode», os homens fato ou traje tradicional, e as famílias tiram fotografias de recordação.",
+    "history": "A festa celebra a entrada dos jovens na vida adulta. Tem raízes em antigos ritos de iniciação e foi instituída como feriado nacional em 1948 para incentivar os jovens adultos a ocuparem o seu lugar na sociedade.",
+    "traditions": "Os municípios organizam cerimónias que muitas vezes continuam a destinar-se a jovens de 20 anos. Muitas jovens vestem sumptuosos quimonos «furisode», os homens fato ou traje tradicional, e as famílias tiram fotografias de recordação.",
     "funFacts": [
       "Muitas mulheres vestem vistosos quimonos «furisode» de mangas longas.",
-      "As cidades realizam cerimónias para os novos adultos.",
+      "A maioridade passou para os 18 anos em abril de 2022, mas muitas cerimónias continuam a celebrar os 20 anos.",
       "A maioridade no Japão é agora aos 18 anos."
+    ]
+  },
+  "childrens_day": {
+    "intro": "O Dia da Criança, Kodomo no Hi, a 5 de maio, celebra a felicidade e o crescimento saudável das crianças. As flâmulas coloridas de carpa fazem deste um dos feriados de primavera mais conhecidos do Japão.",
+    "history": "O feriado baseia-se no Tango no Sekku, um festival sazonal tradicionalmente associado aos rapazes. De acordo com a lei das festas de 1948, o dia 5 de maio tornou-se o Dia da Criança, celebrando todas as crianças e expressando gratidão às mães. Faz parte do período de férias da Golden Week.",
+    "traditions": "As famílias expõem koinobori, mangas de vento em forma de carpa, e capacetes ou armaduras em miniatura. Os alimentos tradicionais incluem kashiwa mochi, bolos de arroz envoltos em folhas de carvalho, e variedades regionais de chimaki. Algumas famílias tomam banhos perfumados com folhas de cálamo.",
+    "funFacts": [
+      "As carpas a nadar contra a corrente simbolizam força e perseverança.",
+      "Kodomo significa criança ou crianças em japonês.",
+      "O feriado ocorre perto do final da Golden Week, juntamente com vários outros feriados nacionais."
+    ]
+  },
+  "constitution_memorial_day": {
+    "intro": "O Dia em Memória da Constituição, a 3 de maio, marca a entrada em vigor da constituição do Japão no pós-guerra. É um feriado nacional dentro da Golden Week.",
+    "history": "A constituição foi promulgada a 3 de novembro de 1946 e entrou em vigor a 3 de maio de 1947. Estabelece a soberania popular, os direitos humanos fundamentais e o pacifismo como princípios centrais. O feriado que comemora o seu início foi introduzido em 1948.",
+    "traditions": "Palestras públicas, exposições e discussões nos meios de comunicação social examinam a constituição e o futuro do país. Os grupos políticos e cívicos realizam eventos que reflectem diferentes pontos de vista. Muitas famílias aproveitam também a pausa da Golden Week para viagens e visitas.",
+    "funFacts": [
+      "O seu nome japonês é Kenpō Kinenbi.",
+      "A promulgação e a entrada em vigor ocorreram em datas diferentes, com um intervalo de seis meses.",
+      "O artigo 9.º é a conhecida disposição da Constituição sobre a renúncia à guerra."
+    ]
+  },
+  "culture_day": {
+    "intro": "Dia da Cultura, Bunka no Hi, a 3 de novembro celebra a cultura e os ideais de liberdade e paz no Japão. A arte, a aprendizagem e a criatividade ocupam o centro das atenções.",
+    "history": "O Dia da Cultura foi estabelecido ao abrigo da lei dos feriados de 1948. A sua data coincide com a promulgação da constituição do pós-guerra do Japão a 3 de novembro de 1946. A mesma data do calendário marcava anteriormente o aniversário do Imperador Meiji, mas o feriado moderno tem um propósito diferente.",
+    "traditions": "Museus, galerias e instituições culturais realizam exposições e programas especiais. As escolas e as comunidades organizam festivais culturais. O Imperador apresenta a Ordem da Cultura a pessoas reconhecidas por contribuições notáveis para a vida cultural e intelectual.",
+    "funFacts": [
+      "Bunka significa cultura em japonês.",
+      "O Dia da Cultura é no dia 3 de novembro; O Dia Memorial da Constituição é a 3 de maio.",
+      "Alguns museus oferecem entrada gratuita ou eventos especiais, dependendo da instituição."
     ]
   }
 }

@@ -5,11 +5,11 @@
  *
  * Usage: node scripts/build-labels.mjs [CC ...]
  */
-import { readFile, writeFile, readdir } from 'node:fs/promises';
+import { readFile, writeFile, readdir, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { LOCALES } from './config.mjs';
+import { loadLabelCatalog, mergeHolidayLabels } from './lib/labelCatalog.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -41,27 +41,6 @@ async function latestPackagePath(cc) {
   return latest == null ? null : join(countryDir, `v${latest}`, 'package.json');
 }
 
-async function loadLabelCatalog() {
-  const catalog = {};
-  for (const locale of LOCALES) {
-    const file = join(LABELS, `${locale}.json`);
-    if (!existsSync(file)) continue;
-    catalog[locale] = await readJson(file);
-  }
-  return catalog;
-}
-
-function buildLocaleLabels(keys, source) {
-  const labels = {};
-  for (const key of keys) {
-    const value = source[key];
-    if (typeof value === 'string' && value.trim()) {
-      labels[key] = value;
-    }
-  }
-  return labels;
-}
-
 async function mergePackage(cc, labelCatalog) {
   const packagePath = await latestPackagePath(cc);
   if (!packagePath) return false;
@@ -70,27 +49,14 @@ async function mergePackage(cc, labelCatalog) {
   const english = pkg.i18n?.holidays?.en;
   if (!english) return false;
 
-  const keys = Object.keys(english);
-  pkg.i18n ??= {};
-  pkg.i18n.holidays ??= {};
-
-  let changed = false;
-  for (const locale of LOCALES) {
-    const source = locale === 'en' ? english : labelCatalog[locale];
-    if (!source) continue;
-
-    const labels = locale === 'en' ? english : buildLocaleLabels(keys, source);
-    if (Object.keys(labels).length === 0) continue;
-
-    const current = pkg.i18n.holidays[locale] ?? {};
-    if (JSON.stringify(current) !== JSON.stringify(labels)) {
-      pkg.i18n.holidays[locale] = labels;
-      changed = true;
-    }
-  }
-
+  const labels = mergeHolidayLabels(pkg.i18n.holidays, labelCatalog);
+  const changed = JSON.stringify(labels) !== JSON.stringify(pkg.i18n.holidays);
   if (changed) {
-    await writeFile(packagePath, `${JSON.stringify(pkg, null, 2)}\n`, 'utf8');
+    pkg.i18n.holidays = labels;
+    pkg.version += 1;
+    const outputDir = join(PACKAGES, cc, `v${pkg.version}`);
+    await mkdir(outputDir, { recursive: true });
+    await writeFile(join(outputDir, 'package.json'), `${JSON.stringify(pkg, null, 2)}\n`, 'utf8');
   }
   return changed;
 }
@@ -98,7 +64,7 @@ async function mergePackage(cc, labelCatalog) {
 async function main() {
   const only = process.argv.slice(2).filter((arg) => !arg.startsWith('-'));
   const countries = only.length > 0 ? only : (await listDirs(PACKAGES)).filter((cc) => /^[A-Z]{2}$/.test(cc));
-  const labelCatalog = await loadLabelCatalog();
+  const labelCatalog = await loadLabelCatalog(LABELS);
   const loadedLocales = Object.keys(labelCatalog).sort().join(', ');
 
   console.log(`Merging holiday labels (${loadedLocales}) into ${countries.length} country packages...`);

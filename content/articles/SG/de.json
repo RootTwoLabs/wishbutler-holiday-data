@@ -6,17 +6,37 @@
     "funFacts": [
       "Er markiert die Trennung Singapurs von Malaysia 1965.",
       "Die National Day Parade bietet einen Überflug und ein Feuerwerk.",
-      "Die Bürger sprechen das Nationalgelöbnis gemeinsam um 20:22 Uhr."
+      "Das gemeinsame Sprechen des Nationalgelöbnisses gehört zu den Nationalfeiern."
     ]
   },
   "chinese_new_year": {
     "intro": "Das Chinesische Neujahr ist eines der größten Feste Singapurs – ein zweitägiger Feiertag zur Begrüßung des Mondneujahrs.",
     "history": "Eingeführt von chinesischen Einwanderern, die die Bevölkerungsmehrheit Singapurs bilden, markiert das Chinesische Neujahr den Beginn des Mondkalenders. Über Generationen wurde es zu einer prägenden nationalen Feier im multikulturellen Singapur.",
-    "traditions": "Familien kommen zum Wiedersehensessen zusammen und werfen „Yusheng”, einen Glückssalat, für gutes Glück in die Höhe. Chinatown ist mit Lichtern geschmückt, Kinder erhalten rote Umschläge (Hongbao), und Löwentänze werden für Wohlstand aufgeführt.",
+    "traditions": "Familien kommen zum Wiedersehensessen zusammen und werfen „Yusheng”, einen Glückssalat, als Glücksritual in die Höhe. Chinatown ist mit Lichtern geschmückt, Kinder erhalten rote Umschläge (Hongbao), und Löwentänze werden für Wohlstand aufgeführt.",
     "funFacts": [
       "Je höher man den „Yusheng”-Salat wirft, desto mehr Glück soll es bringen.",
       "Rote Umschläge namens „Hongbao” enthalten Geld als Glücksbringer.",
       "Die jährliche Lichterschau in Chinatown zieht riesige Menschenmengen an."
+    ]
+  },
+  "deepavali": {
+    "intro": "Deepavali, das Lichterfest, ist ein wichtiges hinduistisches Fest und ein gesetzlicher Feiertag in Singapur. Lampen und Familientreffen drücken den Triumph des Lichts über die Dunkelheit und des Guten über das Böse aus.",
+    "history": "Deepavali hat Wurzeln in mehreren hinduistischen Traditionen, deren Geschichten und Praktiken je nach Gemeinschaft variieren. In Singapur haben Tamilen und andere indische Gemeinschaften es zu einem wichtigen Teil des kulturellen Lebens des Landes gemacht. Sein Kalenderdatum ändert sich von Jahr zu Jahr.",
+    "traditions": "Familien putzen ihre Häuser, schmücken Türen mit Öllampen und Kolam-Mustern und besuchen Tempel und Verwandte. Neue Kleidung, Süßigkeiten und gemeinsame Mahlzeiten sind Teil der Feier. Little India ist bekannt für seine festlichen Straßendekorationen und Märkte.",
+    "funFacts": [
+      "Der Name Deepavali bezieht sich auf eine Reihe von Lichtern.",
+      "Kolam-Muster können mit farbigem Reispulver hergestellt werden.",
+      "Singapurs Feierlichkeiten spiegeln die Traditionen seiner lokalen Hindu-Gemeinschaften wider."
+    ]
+  },
+  "vesak_day": {
+    "intro": "Der Vesak-Tag ist ein buddhistisches Fest und ein gesetzlicher Feiertag in Singapur. Es erinnert an die Geburt des Buddha, seine Erleuchtung und seinen Übergang ins endgültige Nirvana, insbesondere in der Theravada-Tradition.",
+    "history": "Vesak hat seinen Namen von einem Monat des traditionellen indischen Kalenders. Buddhistische Gemeinschaften begehen die Ereignisse auf unterschiedliche Weise und manchmal zu unterschiedlichen Terminen. In Singapur vereint dieser Anlass Tempelanbetung, Besinnung und großzügige Taten.",
+    "traditions": "Anhänger besuchen Tempel, spenden Blumen und Lichter und hören sich Lehren an. In einigen Tempeln finden Zeremonien statt, bei denen ein kleines Bildnis des Buddha-Kindes gebadet wird. Spenden für wohltätige Zwecke, ehrenamtliches Engagement und das Teilen vegetarischer Mahlzeiten drücken Mitgefühl im Alltag aus.",
+    "funFacts": [
+      "Blumen in Tempelopfern können die Vergänglichkeit des Lebens symbolisieren.",
+      "Die Praktiken unterscheiden sich in den buddhistischen Gemeinschaften Singapurs.",
+      "Das gregorianische Datum ändert sich mit dem Kalender, der zur Festlegung des Feiertags verwendet wird."
     ]
   }
 }

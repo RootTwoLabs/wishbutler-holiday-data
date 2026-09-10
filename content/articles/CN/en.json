@@ -1,0 +1,32 @@
+{
+  "chinese_new_year_spring_festival": {
+    "intro": "The Spring Festival, or Chinese New Year, begins on the first day of the traditional Chinese lunisolar year. Family reunions and wishes for good fortune are at the heart of the celebrations.",
+    "history": "The festival grew from traditions welcoming a new year and honouring ancestors. Over centuries, regional customs developed around household renewal, shared meals and hopes for prosperity. The celebration follows a lunisolar calendar, so its Gregorian date changes each year.",
+    "traditions": "Families clean and decorate their homes, put up red couplets and gather for a reunion dinner on New Year’s Eve. Children often receive red envelopes containing money. Foods vary by region, including dumplings, rice cakes and fish. Public festivities depend on local customs and rules.",
+    "funFacts": [
+      "The festival is called Chunjie in Mandarin Chinese.",
+      "Celebrations traditionally continue towards the Lantern Festival on the fifteenth day of the first lunar month.",
+      "Each year is associated with an animal in the twelve-animal zodiac cycle."
+    ]
+  },
+  "mid_autumn_festival": {
+    "intro": "The Mid-Autumn Festival falls on the fifteenth day of the eighth month of the traditional Chinese calendar. The full moon is a symbol of reunion and a focus for families near and far.",
+    "history": "The festival developed from moon worship and seasonal celebrations of the harvest. Stories of Chang’e, the moon goddess, became closely associated with it. It remains an important occasion for family gatherings, with customs that vary across China.",
+    "traditions": "Families share mooncakes, exchange gifts and admire the moon when the weather allows. Lanterns feature in celebrations in some regions. People who are apart may send wishes to one another, taking the same moon as a symbol of connection.",
+    "funFacts": [
+      "Its Mandarin name, Zhongqiujie, means Mid-Autumn Festival.",
+      "Mooncakes vary widely in fillings, pastry and regional style.",
+      "The Gregorian date changes because the festival follows a lunisolar calendar."
+    ]
+  },
+  "national_day": {
+    "intro": "China’s National Day on 1 October commemorates the founding of the People’s Republic of China in 1949. It is a major national occasion and the start of a busy autumn holiday period.",
+    "history": "Mao Zedong proclaimed the People’s Republic of China in Beijing on 1 October 1949. The date was designated National Day later that year. Official ceremonies and public celebrations have since marked the anniversary.",
+    "traditions": "National flags and festive decorations appear in public spaces. Flag-raising ceremonies, cultural events and illuminated landmarks mark the occasion. Many families travel or visit relatives during the holiday period; the precise arrangement of days off is announced for each year.",
+    "funFacts": [
+      "A large military parade is associated with selected major anniversaries, not every year.",
+      "The autumn holiday period is commonly called Golden Week.",
+      "National Day and the Mid-Autumn Festival sometimes fall close together."
+    ]
+  }
+}

@@ -2,21 +2,41 @@
   "national_day": {
     "intro": "Święto Narodowe Singapuru, 9 sierpnia, świętuje niepodległość narodu uzyskaną w 1965 roku.",
     "history": "9 sierpnia 1965 roku Singapur oddzielił się od Malezji i stał się niepodległą, suwerenną republiką. Z małego miasta portowego szybko wyrósł na jeden z najbogatszych krajów świata — przemianę tę świętuje się co roku.",
-    "traditions": "Punktem kulminacyjnym jest National Day Parade z defiladami wojskowymi i cywilnymi, przelotem lotnictwa i spektakularnym pokazem fajerwerków nad Marina Bay. Singapurczycy recytują Ślubowanie Narodowe i śpiewają skomponowany na tę okazję hymn.",
+    "traditions": "Punktem kulminacyjnym jest National Day Parade z defiladami wojskowymi i cywilnymi, przelotem lotnictwa i spektakularnym pokazem fajerwerków nad Marina Bay. Singapurczycy recytują Ślubowanie Narodowe i śpiewają hymn i pieśni patriotyczne.",
     "funFacts": [
       "Upamiętnia oddzielenie Singapuru od Malezji w 1965 roku.",
       "National Day Parade obejmuje przelot lotnictwa i fajerwerki.",
-      "Obywatele wspólnie recytują Ślubowanie Narodowe o 20:22."
+      "Wspólne recytowanie Ślubowania Narodowego jest częścią obchodów święta narodowego."
     ]
   },
   "chinese_new_year": {
     "intro": "Chiński Nowy Rok to jedno z największych świąt Singapuru — dwudniowe święto witające księżycowy nowy rok.",
-    "history": "Przyniesiony przez chińskich imigrantów, którzy stanowią większość ludności Singapuru, Chiński Nowy Rok wyznacza początek kalendarza księżycowego. Przez pokolenia stał się charakterystycznym świętem narodowym w wielokulturowym Singapurze.",
-    "traditions": "Rodziny spotykają się na kolacji pojednania i podrzucają „yusheng”, sałatkę pomyślności, na szczęście. Chinatown zdobią światła, dzieci dostają czerwone koperty (hongbao), a dla pomyślności wykonywane są tańce lwa.",
+    "history": "Przyniesiony przez chińskich imigrantów, których potomkowie tworzą największą grupę etniczną Singapuru, Chiński Nowy Rok wyznacza początek roku w chińskim kalendarzu księżycowo-słonecznym. Przez pokolenia stał się charakterystycznym świętem narodowym w wielokulturowym Singapurze.",
+    "traditions": "Rodziny spotykają się na uroczystej kolacji rodzinnej i podrzucają „yusheng”, sałatkę pomyślności, na szczęście. Chinatown zdobią światła, dzieci dostają czerwone koperty (hongbao), a dla pomyślności wykonywane są tańce lwa.",
     "funFacts": [
       "Im wyżej podrzuci się sałatkę „yusheng”, tym większe ma być szczęście.",
       "Czerwone koperty zwane „hongbao” zawierają pieniądze na szczęście.",
       "Doroczna iluminacja Chinatown przyciąga ogromne tłumy."
+    ]
+  },
+  "deepavali": {
+    "intro": "Deepavali, Święto Świateł, to ważne hinduskie święto i święto państwowe w Singapurze. Lampy i spotkania rodzinne wyrażają triumf światła nad ciemnością i dobra nad złem.",
+    "history": "Deepavali ma korzenie w kilku tradycjach hinduskich, których historie i praktyki różnią się w zależności od społeczności. W Singapurze społeczności tamilskie i inne indyjskie uczyniły z tego ważną część życia kulturalnego kraju. Jego data kalendarzowa zmienia się z roku na rok.",
+    "traditions": "Rodziny sprzątają swoje domy, dekorują drzwi lampami oliwnymi i wzorami kolamu, odwiedzają świątynie i krewnych. Częścią uroczystości są nowe ubrania, słodycze i wspólne posiłki. Małe Indie słyną ze świątecznych dekoracji ulicznych i targowisk.",
+    "funFacts": [
+      "Nazwa Deepavali odnosi się do rzędu świateł.",
+      "Wzory Kolama można wykonać z kolorowego proszku ryżowego.",
+      "Obchody Singapuru odzwierciedlają tradycje lokalnych społeczności hinduskich."
+    ]
+  },
+  "vesak_day": {
+    "intro": "Dzień Vesaka to buddyjskie święto i święto państwowe w Singapurze. Upamiętnia narodziny, oświecenie i przejście Buddy w ostateczną nirwanę, szczególnie w tradycji Therawady.",
+    "history": "Vesak bierze swoją nazwę od miesiąca tradycyjnego kalendarza indyjskiego. Społeczności buddyjskie obserwują jego wydarzenia na różne sposoby i czasami w różnych terminach. W Singapurze wydarzenie to łączy w sobie kult świątynny, refleksję i akty hojności.",
+    "traditions": "Wielbiciele odwiedzają świątynie, ofiarowują kwiaty i światła oraz słuchają nauk. W niektórych świątyniach odbywają się ceremonie kąpieli małego posągu Buddy. Datki na cele charytatywne, wolontariat i dzielenie się wegetariańskimi posiłkami wyrażają współczucie w życiu codziennym.",
+    "funFacts": [
+      "Kwiaty w ofiarach świątynnych mogą symbolizować nietrwałość życia.",
+      "Praktyki różnią się w społecznościach buddyjskich w Singapurze.",
+      "Data gregoriańska zmienia się wraz z kalendarzem używanym do określenia tego święta."
     ]
   }
 }

@@ -5,7 +5,7 @@
     "traditions": "Dagen inleds med Europas största militärparad längs Champs-Élysées i Paris, där presidenten inspekterar trupperna. Kvällen före anordnas brandmansbaler i olika städer, och kvällen avslutas med storslagna fyrverkerier, framför allt över Eiffeltornet.",
     "funFacts": [
       "I Bastillen fanns endast sju fångar när den stormades 1789.",
-      "Paraden på Champs-Élysées har hållits nästan varje år sedan 1880.",
+      "Från 1880 hölls militärparaden först i Longchamp; sträckningen ändrades med tiden.",
       "I Frankrike kallas dagen helt enkelt ”le 14 juillet”, inte ”Bastilledagen”."
     ]
   },
@@ -16,7 +16,17 @@
     "funFacts": [
       "Vapenvilan trädde i kraft den 11:e timmen den 11:e dagen i den 11:e månaden.",
       "Den eviga lågan under Triumfbågen tänds på nytt varje kväll sedan 1923.",
-      "Den blå blåklint (le Bleuet) är Frankrikes symbol för minnet."
+      "Den blå blåklinten (le Bleuet) är Frankrikes symbol för minnet."
+    ]
+  },
+  "victory_in_europe_day": {
+    "intro": "Den 8 maj firar Frankrike de allierades seger över Nazityskland 1945 och slutet av andra världskriget i Europa. Det är en nationell minnesdag.",
+    "history": "Tysklands militära kapitulation trädde i kraft den 8 maj 1945. Datumet blev en del av Frankrikes offentliga åminnelse av kriget, även om dess status som helgdag ändrades flera gånger. Det återställdes som en lagstadgad allmän helgdag 1981.",
+    "traditions": "Tjänstemän, veteraner, skolbarn och invånare samlas vid krigsminnesmärken för kransnedläggning och stunder av tystnad. I Paris är den nationella ceremonin centrerad kring Triumfbågen och den okände soldatens grav. Franska flaggor markerar tillfället.",
+    "funFacts": [
+      "Den 8 maj markerar slutet på kriget i Europa, inte slutet på kriget i Stilla havet.",
+      "Frankrike firar också det första världskrigets vapenstillestånd den 11 november.",
+      "Lokala ceremonier hedrar både krigsoffer och fredens återkomst."
     ]
   }
 }

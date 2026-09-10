@@ -1,12 +1,12 @@
 {
   "swiss_national_day": {
     "intro": "Der Schweizer Bundesfeiertag am 1. August erinnert an den Bundesbrief von 1291 – den symbolischen Gründungsakt der Eidgenossenschaft.",
-    "history": "Im August 1291 schlossen die Urkantone Uri, Schwyz und Unterwalden auf der Rütliwiese ein „ewiges Bündnis” gegen die habsburgische Vorherrschaft. Lange war der Tag nur eine regionale Feier in einzelnen Kantonen; erst 1891 wurde er zum 600-jährigen Jubiläum gesamtschweizerisch eingeführt. Bis 1994 war er allerdings nur ein „halber Feiertag”; in einer Volksabstimmung beschlossen die Schweizer mit großer Mehrheit, ihn zum vollen, arbeitsfreien Feiertag aufzuwerten.",
-    "traditions": "Höhepunkt ist die abendliche Bundesfeier mit Reden, traditionellen Liedern wie „Schweizerpsalm” und Höhenfeuern auf den Bergen. Familien versammeln sich auf dem Rütli, am Vierwaldstättersee oder in den Gemeinden zu Festakten. Brauchtümlich gehört auch das Schwingen von Schweizer Flaggen, Glockengeläut und Wehrfeuern an Höhen. Klassiker auf dem Tisch: Cervelat vom Grill und Schweizer Apfelkuchen.",
+    "history": "Der Bundesbrief von 1291 dokumentiert ein Bündnis von Uri, Schwyz und Unterwalden. Der Rütlischwur gehört dagegen zur Gründungsüberlieferung; die Urkunde nennt die Rütliwiese nicht als Ort. Auf die Jubiläumsfeier von 1891 folgten ab 1899 jährliche nationale Feiern. Seit 1994 ist der 1. August nach einer Volksabstimmung landesweit ein arbeitsfreier Feiertag.",
+    "traditions": "Höhepunkt ist die abendliche Bundesfeier mit Reden, traditionellen Liedern wie „Schweizerpsalm” und Höhenfeuern auf den Bergen. Familien versammeln sich auf dem Rütli, am Vierwaldstättersee oder in den Gemeinden zu Festakten. Zum Brauchtum gehören auch Fahnenschwingen, Glockengeläut und Höhenfeuer. Klassiker auf dem Tisch: Cervelat vom Grill und Schweizer Apfelkuchen.",
     "funFacts": [
       "Das Datum „1. August” stammt aus dem Bundesbrief, der „in den ersten Tagen des Augustmonats” 1291 unterzeichnet wurde – der konkrete Tag ist also Schätzung.",
       "Auf der Rütliwiese am Vierwaldstättersee findet jedes Jahr die zentrale Bundesfeier statt – Eintritt frei.",
-      "Es gibt traditionell „Bundesfeier-Bonbons” mit dem Schweizerkreuz – ein süßes Wahrzeichen jeder Feier.",
+      "Zum 1. August gibt es 1.-August-Weggen: kleine Brote mit einem eingeschnittenen Schweizerkreuz.",
       "Die Schweiz ist eines der wenigen Länder weltweit, in denen das nationale Datum nicht durch eine Schlacht, sondern durch ein Vertragsdokument bestimmt ist."
     ],
     "imageCredit": "Foto: Thomas Roessler · CC BY-SA 3.0 via Wikimedia Commons"
@@ -27,7 +27,7 @@
     "traditions": "Jedes Jahr gehen Wanderer nachts den Weg der Revolutionäre über den Pass Vue des Alpes nach und erreichen am Morgen das Schloss. Familien treffen sich zur „Torrée“, Würsten aus der Glut eines offenen Feuers, und die Kantonsregierung lädt zu einer offiziellen Feier.",
     "funFacts": [
       "Der Marsch führt rund 20 Kilometer durch den Schnee des Juras.",
-      "Der König von Preußen hat sein Fürstentum Neuenburg nie betreten.",
+      "Der preußische König Friedrich Wilhelm IV. besuchte das Fürstentum 1842.",
       "Neuenburg wurde als letzter Schweizer Kanton eine Republik.",
       "Die Torrée ist so typisch, dass Neuenburg sich Kanton der Feuerwurst nennt."
     ]
@@ -45,35 +45,35 @@
   },
   "geneva_prayday": {
     "intro": "Der Genfer Bettag, Jeûne genevois, findet am Donnerstag nach dem ersten Septembersonntag statt und ist nur im Kanton Genf Feiertag. Sein Wahrzeichen ist die Zwetschgenwähe.",
-    "history": "Genf hielt seit dem 16. Jahrhundert Fast- und Bettage, und die Tradition verbindet das Septemberdatum mit der Trauer um die in der Bartholomäusnacht 1572 ermordeten Hugenotten. Der Kanton legte das heutige Datum 1831 fest, lange vor dem eidgenössischen Bettag.",
+    "history": "Der erste bekannte Genfer Fasttag wurde 1567 nach Nachrichten über die Verfolgung von Protestanten in Lyon abgehalten. Die verbreitete Herleitung von der Bartholomäusnacht 1572 ist dagegen eine spätere Deutung. Aus außerordentlichen Fast- und Bettagen entwickelte sich eine regelmäßige Genfer Tradition.",
     "traditions": "Die Genfer essen „Tarte aux pruneaux“, eine Zwetschgenwähe, die einst die einzige erlaubte einfache Speise am Fasttag war. Heute ist der Feiertag vor allem ein langes Wochenende für Wanderungen und Familienbesuche, während die Bäckereien Tausende Wähen verkaufen.",
     "funFacts": [
-      "Die Zwetschgenwähe soll erfunden worden sein, damit Familien am Fasttag ohne Kochen essen konnten.",
-      "Genf begeht den eidgenössischen Bettag zwei Wochen später nicht.",
-      "Der Feiertag ist der einzige offizielle Fasttag, der noch im Schweizer Kalender steht.",
-      "Genfer Bäcker verkaufen an diesem Tag rund 20.000 Zwetschgenwähen."
+      "Die Zwetschgenwähe gehört zur kulinarischen Tradition des Genfer Bettags; früher konnte sie die ganze Mittagsmahlzeit bilden.",
+      "Der eidgenössische Bettag am dritten Septembersonntag liegt zehn Tage nach dem Genfer Bettag.",
+      "Neben dem Genfer Bettag gibt es in der Schweiz den eidgenössischen Dank-, Buß- und Bettag.",
+      "Ein Gesetz von 1966 machte den Genfer Bettag wieder zum gesetzlichen Feiertag."
     ]
   },
   "federal_day_of_thanksgiving": {
-    "intro": "Der Eidgenössische Dank-, Buss- und Bettag wird am dritten Sonntag im September in allen Kantonen außer Genf begangen. Er ist ein ökumenischer Tag der Besinnung, den alle Religionsgemeinschaften teilen.",
-    "history": "Die Kantone hielten jahrhundertelang Bettage in Kriegs- und Pestzeiten. 1832 legte die Tagsatzung ein gemeinsames Datum für das ganze Land fest, ein Zeichen der Einheit über den Graben zwischen katholischen und reformierten Kantonen hinweg, die einander gerade noch bekämpft hatten.",
+    "intro": "Der Eidgenössische Dank-, Buss- und Bettag wird am dritten Sonntag im September in allen Kantonen außer Genf begangen.",
+    "history": "1832 legte die Tagsatzung den dritten Sonntag im September als gemeinsamen Bettag fest. Die Tradition sollte den Zusammenhalt über Konfessionsgrenzen hinweg stärken.",
     "traditions": "Die Kirchen feiern gemeinsame Gottesdienste, und die Kantonsregierungen veröffentlichen ein traditionelles Bettagsmandat zu einem Thema von öffentlichem Belang. In mehreren Kantonen sind Tanz und Sportveranstaltungen eingeschränkt, und im Waadtland ist der folgende Montag frei.",
     "funFacts": [
       "Der Tag gehört keiner Konfession: Katholiken, Reformierte, Juden und Christkatholiken nehmen teil.",
       "Der Name nennt Dank, Buße und Gebet, ein Wort für jeden Zweck.",
-      "Der erste eidgenössische Bettag 1832 fand statt, als die Schweiz noch ein lockerer Staatenbund war.",
-      "In Genf findet das Gegenstück, der Genfer Bettag, zwei Wochen früher statt."
+      "Gemeinsame eidgenössische Bettage gab es bereits vor der Festlegung des heutigen Termins 1832.",
+      "Der eidgenössische Bettag am dritten Septembersonntag liegt zehn Tage nach dem Genfer Bettag."
     ]
   },
   "federal_fast_monday": {
     "intro": "Der Montag nach dem Eidgenössischen Bettag, „Lundi du Jeûne fédéral“, ist im Kanton Waadt Feiertag. Er verlängert den Bettag im September für den ganzen Kanton zu einem langen Wochenende.",
-    "history": "Allein die Waadt behielt den alten Brauch bei, am Tag nach dem Fasten zu ruhen, sodass der Sonntag dem Gottesdienst und der Montag der Erholung gehört. Der Feiertag steht seit dem 19. Jahrhundert im kantonalen Kalender.",
+    "history": "In der Waadt ergänzt der freie Montag den sonntäglichen Bettag. So verbindet das verlängerte Wochenende religiöse Besinnung mit Zeit für Familie und Erholung.",
     "traditions": "Familien essen Zwetschgenwähe, das klassische Gericht der Schweizer Fasttage, und nutzen den Tag für einen letzten Sommerspaziergang durch die Rebberge des Lavaux, wo die Weinlese kurz bevorsteht. Viele Waadtländer besuchen Verwandte oder machen einen Kurzausflug.",
     "funFacts": [
-      "Die Waadt ist der einzige Kanton mit einem Feiertag am Montag nach dem Bettag.",
+      "Auch Neuenburg kennt den Montag nach dem Bettag als arbeitsfreien Tag; die rechtliche Einordnung unterscheidet sich von der Waadt.",
       "Die Zwetschgensaison hat im September ihren Höhepunkt, daher die Wähe auf dem Tisch.",
       "Die Rebterrassen des Lavaux über dem Genfersee sind UNESCO-Welterbe.",
-      "Die Läden in Lausanne bleiben geschlossen, während die in den Nachbarkantonen öffnen."
+      "Die Regeln für Ladenöffnungszeiten unterscheiden sich je nach Kanton; für einzelne Betriebe gelten Ausnahmen."
     ]
   },
   "restoration_day": {
@@ -81,9 +81,9 @@
     "history": "Genf war 1798 von Frankreich annektiert worden. Am 31. Dezember 1813, als Napoleons Reich zerfiel und österreichische Truppen näher rückten, riefen die früheren Magistraten die Wiederherstellung der Republik aus. 1815 trat Genf der Eidgenossenschaft bei.",
     "traditions": "Die Kantonsregierung legt Kränze am Restaurationsdenkmal nieder und lädt zu einem offiziellen Empfang, während die meisten Genfer einfach einen freien Tag vor den Silvesterfeiern genießen. In der Altstadt gibt es kleine Zeremonien, und an öffentlichen Gebäuden wehen Fahnen.",
     "funFacts": [
-      "Genf feiert im Dezember zwei Befreiungen: die Escalade eine Woche zuvor und die Restauration am 31.",
+      "Die Escalade erinnert an die Abwehr des Angriffs in der Nacht vom 11. auf den 12. Dezember 1602; der 31. Dezember erinnert an die Wiederherstellung der Republik 1813.",
       "Die Schweizer Truppen, die die Restauration absicherten, landeten am 1. Juni 1814 am Port Noir.",
-      "Genf ist der einzige Kanton mit einem Feiertag am 31. Dezember.",
+      "Der 31. Dezember ist sowohl in Genf als auch in Neuenburg ein Feiertag.",
       "Das Restaurationsdenkmal steht im Jardin Anglais am See."
     ]
   }

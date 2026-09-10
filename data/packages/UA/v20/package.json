@@ -1,0 +1,1455 @@
+{
+  "countryCode": "UA",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "UA_new_years_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.new_year",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 1
+      }
+    },
+    {
+      "id": "UA_international_womens_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.womens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 8
+      }
+    },
+    {
+      "id": "UA_easter_sunday",
+      "countryCode": "UA",
+      "kind": "precomputed",
+      "labelKey": "holidays.easter_sunday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-12",
+          "2027": "05-02",
+          "2028": "04-16",
+          "2029": "04-08",
+          "2030": "04-28",
+          "2031": "04-13",
+          "2032": "05-02",
+          "2033": "04-24",
+          "2034": "04-09",
+          "2035": "04-29"
+        }
+      }
+    },
+    {
+      "id": "UA_international_workers_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.international_workers_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 1
+      }
+    },
+    {
+      "id": "UA_victory_day_over_nazism_in_world_war_ii",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.victory_day_over_nazism_in_world_war_ii",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 8
+      }
+    },
+    {
+      "id": "UA_pentecost",
+      "countryCode": "UA",
+      "kind": "precomputed",
+      "labelKey": "holidays.pentecost",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-31",
+          "2027": "06-20",
+          "2028": "06-04",
+          "2029": "05-27",
+          "2030": "06-16",
+          "2031": "06-01",
+          "2032": "06-20",
+          "2033": "06-12",
+          "2034": "05-28",
+          "2035": "06-17"
+        }
+      }
+    },
+    {
+      "id": "UA_constitution_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.constitution_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 28
+      }
+    },
+    {
+      "id": "UA_statehood_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.statehood_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 15
+      }
+    },
+    {
+      "id": "UA_independence_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.independence_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 24
+      }
+    },
+    {
+      "id": "UA_defender_of_ukraine_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.defender_of_ukraine_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 1
+      }
+    },
+    {
+      "id": "UA_christmas_day",
+      "countryCode": "UA",
+      "kind": "fixed",
+      "labelKey": "holidays.christmas",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 25
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "easter_sunday": "Easter Sunday",
+        "international_workers_day": "International Workers' Day",
+        "victory_day_over_nazism_in_world_war_ii": "Victory day over Nazism in World War II",
+        "pentecost": "Pentecost",
+        "constitution_day": "Constitution Day",
+        "statehood_day": "Statehood Day",
+        "independence_day": "Independence Day",
+        "defender_of_ukraine_day": "Defender of Ukraine Day"
+      },
+      "uk": {
+        "easter_sunday": "Великдень",
+        "international_workers_day": "День праці",
+        "victory_day_over_nazism_in_world_war_ii": "День перемоги над нацизмом у Другій світовій війні",
+        "pentecost": "Трійця",
+        "constitution_day": "День Конституції",
+        "statehood_day": "День Української Державності",
+        "independence_day": "День Незалежності",
+        "defender_of_ukraine_day": "День захисників і захисниць України"
+      },
+      "de": {
+        "easter_sunday": "Ostersonntag",
+        "international_workers_day": "Internationaler Tag der Arbeit",
+        "victory_day_over_nazism_in_world_war_ii": "Tag des Sieges über den Nationalsozialismus im Zweiten Weltkrieg",
+        "pentecost": "Pfingsten",
+        "constitution_day": "Tag der Verfassung",
+        "statehood_day": "Tag der Eigenstaatlichkeit",
+        "independence_day": "Unabhängigkeitstag",
+        "defender_of_ukraine_day": "Tag des Verteidigers der Ukraine"
+      },
+      "fr": {
+        "easter_sunday": "Dimanche de Pâques",
+        "international_workers_day": "Journée internationale des travailleurs",
+        "victory_day_over_nazism_in_world_war_ii": "Jour de la victoire sur le nazisme pendant la Seconde Guerre mondiale",
+        "pentecost": "Pentecôte",
+        "constitution_day": "Jour de la Constitution",
+        "statehood_day": "Journée de l'État",
+        "independence_day": "Jour de l'Indépendance",
+        "defender_of_ukraine_day": "Journée du défenseur de l'Ukraine"
+      },
+      "es": {
+        "easter_sunday": "Domingo de Pascua",
+        "international_workers_day": "Día Internacional de los Trabajadores",
+        "victory_day_over_nazism_in_world_war_ii": "Día de la victoria sobre el nazismo en la Segunda Guerra Mundial",
+        "pentecost": "Pentecostés",
+        "constitution_day": "Día de la Constitución",
+        "statehood_day": "Día de la Estadidad",
+        "independence_day": "Día de la Independencia",
+        "defender_of_ukraine_day": "Día del Defensor de Ucrania"
+      },
+      "pt": {
+        "easter_sunday": "Domingo de Páscoa",
+        "international_workers_day": "Dia Internacional do Trabalhador",
+        "victory_day_over_nazism_in_world_war_ii": "Dia da vitória sobre o nazismo na II Guerra Mundial",
+        "pentecost": "Pentecostes",
+        "constitution_day": "Dia da Constituição",
+        "statehood_day": "Dia do Estado",
+        "independence_day": "Dia da Independência",
+        "defender_of_ukraine_day": "Dia do Defensor da Ucrânia"
+      },
+      "it": {
+        "easter_sunday": "Domenica di Pasqua",
+        "international_workers_day": "Giornata internazionale dei lavoratori",
+        "victory_day_over_nazism_in_world_war_ii": "Giorno della vittoria sul nazismo nella seconda guerra mondiale",
+        "pentecost": "Pentecoste",
+        "constitution_day": "Giorno della Costituzione",
+        "statehood_day": "Giornata dello Stato",
+        "independence_day": "Giorno dell'Indipendenza",
+        "defender_of_ukraine_day": "Giornata dei difensori dell'Ucraina"
+      },
+      "pl": {
+        "easter_sunday": "Niedziela Wielkanocna",
+        "international_workers_day": "Międzynarodowy Dzień Pracy",
+        "victory_day_over_nazism_in_world_war_ii": "Dzień zwycięstwa nad nazizmem podczas II wojny światowej",
+        "pentecost": "Zesłanie Ducha Świętego",
+        "constitution_day": "Święto Konstytucji",
+        "statehood_day": "Dzień Państwowości",
+        "independence_day": "Święto Niepodległości",
+        "defender_of_ukraine_day": "Dzień Obrońcy Ukrainy"
+      },
+      "nl": {
+        "easter_sunday": "Paaszondag",
+        "international_workers_day": "Internationale Dag van de Arbeid",
+        "victory_day_over_nazism_in_world_war_ii": "Dag van de overwinning op het nazisme in de Tweede Wereldoorlog",
+        "pentecost": "Pinksteren",
+        "constitution_day": "Dag van de Grondwet",
+        "statehood_day": "Dag van de staat",
+        "independence_day": "Onafhankelijkheidsdag",
+        "defender_of_ukraine_day": "Dag van de Verdediger van Oekraïne"
+      },
+      "sv": {
+        "easter_sunday": "Påskdagen",
+        "international_workers_day": "Internationella arbetardagen",
+        "victory_day_over_nazism_in_world_war_ii": "Segerdagen över nazismen i andra världskriget",
+        "pentecost": "Pingst",
+        "constitution_day": "Konstitutionsdagen",
+        "statehood_day": "Statens dag",
+        "independence_day": "Självständighetsdagen",
+        "defender_of_ukraine_day": "Ukrainas försvarares dag"
+      },
+      "nb": {
+        "easter_sunday": "Første påskedag",
+        "international_workers_day": "Arbeidernes internasjonale dag",
+        "victory_day_over_nazism_in_world_war_ii": "Seiersdagen over nazismen i andre verdenskrig",
+        "pentecost": "Første pinsedag",
+        "constitution_day": "Syttende mai",
+        "statehood_day": "Statsdannelsesdagen",
+        "independence_day": "Uavhengighetsdagen",
+        "defender_of_ukraine_day": "Defender of Ukraine-dagen"
+      },
+      "da": {
+        "easter_sunday": "Påskedag",
+        "international_workers_day": "arbejdernes internationale dag",
+        "victory_day_over_nazism_in_world_war_ii": "Sejrsdag over nazismen i Anden Verdenskrig",
+        "pentecost": "Pinsedag",
+        "constitution_day": "Grundlovsdag",
+        "statehood_day": "Statsskabsdag",
+        "independence_day": "Uafhængighedsdag",
+        "defender_of_ukraine_day": "Ukraines forsvarer-dag"
+      },
+      "fi": {
+        "easter_sunday": "Pääsiäispäivä",
+        "international_workers_day": "Kansainvälinen työntekijöiden päivä",
+        "victory_day_over_nazism_in_world_war_ii": "Voitonpäivä natsismista toisessa maailmansodassa",
+        "pentecost": "Helluntaipäivä",
+        "constitution_day": "perustuslain päivä",
+        "statehood_day": "Valtiopäivä",
+        "independence_day": "Itsenäisyyspäivä",
+        "defender_of_ukraine_day": "Ukrainan puolustajan päivä"
+      },
+      "ru": {
+        "easter_sunday": "Пасхальное воскресенье",
+        "international_workers_day": "Международный день трудящихся",
+        "victory_day_over_nazism_in_world_war_ii": "День победы над нацизмом во Второй мировой войне",
+        "pentecost": "Пятидесятница",
+        "constitution_day": "День Конституции",
+        "statehood_day": "День государственности",
+        "independence_day": "День независимости",
+        "defender_of_ukraine_day": "День Защитника Украины"
+      },
+      "ja": {
+        "easter_sunday": "イースターサンデー",
+        "international_workers_day": "国際労働者の日",
+        "victory_day_over_nazism_in_world_war_ii": "第二次世界大戦におけるナチズムに対する戦勝記念日",
+        "pentecost": "ペンテコステ",
+        "constitution_day": "憲法記念日",
+        "statehood_day": "州就任記念日",
+        "independence_day": "独立記念日",
+        "defender_of_ukraine_day": "ウクライナ擁護者の日"
+      },
+      "ko": {
+        "easter_sunday": "부활절 일요일",
+        "international_workers_day": "세계 노동자의 날",
+        "victory_day_over_nazism_in_world_war_ii": "제2차 세계대전 나치즘 승리의 날",
+        "pentecost": "오순절",
+        "constitution_day": "제헌절",
+        "statehood_day": "건국 기념일",
+        "independence_day": "독립기념일",
+        "defender_of_ukraine_day": "우크라이나 수비수의 날"
+      },
+      "zh-Hant": {
+        "easter_sunday": "復活節週日",
+        "international_workers_day": "國際勞動節",
+        "victory_day_over_nazism_in_world_war_ii": "第二次世界大戰戰勝納粹主義勝利日",
+        "pentecost": "五旬節",
+        "constitution_day": "憲法日",
+        "statehood_day": "建州日",
+        "independence_day": "獨立日",
+        "defender_of_ukraine_day": "烏克蘭捍衛者日"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "new_year": {
+          "intro": "Der 1. Januar markiert weltweit den Beginn eines neuen Jahres im gregorianischen Kalender. Für viele ist es ein Tag der Hoffnung, des Neuanfangs und der guten Vorsätze.",
+          "history": "Bereits 153 v. Chr. legten die Römer den Jahresbeginn auf den 1. Januar, den Antrittstag der neuen Konsuln. Im Mittelalter wechselte der Jahresanfang in vielen Regionen zu Weihnachten oder Ostern. Der gregorianische Kalender wurde 1582 eingeführt. Die europäischen Länder übernahmen ihn und den Jahresbeginn am 1. Januar jedoch zu unterschiedlichen Zeiten. Der Monatsname Januar geht auf den römischen Gott Janus zurück, der mit zwei Gesichtern zugleich auf das Vergangene und das Kommende blickte – ein passendes Sinnbild für diesen Tag.",
+          "traditions": "Um Mitternacht stoßen Familien und Freunde mit Sekt an und feiern den Jahreswechsel mit Feuerwerk, Glücksbringern wie Kleeblatt, Schornsteinfeger oder Marienkäfer und dem traditionellen Bleigießen (heute Wachsgießen). Beliebt sind außerdem Neujahrsbrunch und der gemeinsame Spaziergang an der frischen Luft. Viele fassen Vorsätze für das neue Jahr.",
+          "funFacts": [
+            "In Spanien isst man zu jedem der zwölf Glockenschläge eine Weintraube – eine pro Wunsch.",
+            "In Dänemark zerbricht man altes Geschirr vor den Türen guter Freunde, um Glück zu bringen.",
+            "Wiens Neujahrskonzert wird in über 90 Länder übertragen und gilt als musikalischer Auftakt des Jahres.",
+            "Auf Kiritimati im Inselstaat Kiribati beginnt das neue Jahr 26 Stunden früher als auf der Insel Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "Der Internationale Frauentag am 8. März steht weltweit für die Gleichberechtigung von Frauen, ihre Errungenschaften und den Kampf gegen Diskriminierung.",
+          "history": "Der Internationale Frauentag entstand aus der sozialistischen Frauenbewegung. Clara Zetkin schlug 1910 in Kopenhagen einen jährlichen internationalen Aktionstag vor; die ersten Veranstaltungen fanden 1911 statt. Die Vereinten Nationen begingen den Tag erstmals 1975. Im Dezember 1977 verabschiedete die UN-Generalversammlung eine Resolution zu einem Tag für die Rechte der Frau und den Weltfrieden.",
+          "traditions": "Frauen erhalten Blumen – traditionell Mimosen oder Tulpen – und werden mit Karten oder kleinen Geschenken bedacht. In vielen Städten finden Demonstrationen, Vorträge und kulturelle Veranstaltungen statt. In Berlin ist der 8. März seit 2019 gesetzlicher Feiertag, in Italien schenken Männer Frauen Mimosenzweige.",
+          "funFacts": [
+            "In Russland und mehreren ehemaligen Sowjetstaaten ist der 8. März offizieller arbeitsfreier Feiertag.",
+            "Mecklenburg-Vorpommern führte 2023 als zweites deutsches Bundesland nach Berlin den Frauentag als Feiertag ein.",
+            "Das UN-Motto zum Frauentag 2024 lautete „In Frauen investieren: Fortschritt beschleunigen“.",
+            "In Italien gilt die Mimose als Symbol weiblicher Stärke, weil sie auch in widrigen Bedingungen blüht."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Ostersonntag ist das höchste Fest des Christentums – Tag der Auferstehung Jesu Christi und Höhepunkt des Kirchenjahres.",
+          "history": "Ostern entwickelte sich aus dem jüdischen Pessachfest und wird seit dem 1. Jahrhundert von Christen begangen. Die Kirche legte 325 in Nicäa fest, dass Ostern stets am ersten Sonntag nach dem ersten Frühlingsvollmond gefeiert wird – daher das wechselnde Datum zwischen 22. März und 25. April. Der Name „Ostern” geht möglicherweise auf die germanische Frühlingsgöttin Ostara zurück, oder schlicht auf das althochdeutsche „eostarum” (Morgenröte).",
+          "traditions": "Familien beginnen den Tag mit einem festlichen Osterfrühstück mit gefärbten Eiern, Hefezopf und Osterlamm. Kinder suchen die vom Osterhasen versteckten Eier und Süßigkeiten im Garten. In vielen Gemeinden gibt es Osterfeuer, Osterprozessionen und feierliche Gottesdienste mit Glockenklang.",
+          "funFacts": [
+            "Das Osterdatum kann zwischen dem 22. März und dem 25. April liegen – der nächste „frühe” Ostersonntag (22. März) findet erst 2285 wieder statt.",
+            "Der größte Osterhase der Welt steht in Brasilien und ist über 4,2 m hoch.",
+            "Russisch-Orthodoxe Christen feiern Ostern oft an einem anderen Tag als West-Christen, weil sie den julianischen Kalender benutzen.",
+            "In Polen lässt man am Karsamstag Speisen in Körben für die Ostersonntag-Mahlzeit segnen („Święconka”)."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "pentecost": {
+          "intro": "Pfingsten wird am fünfzigsten Tag der Osterzeit gefeiert und erinnert an die Herabkunft des Heiligen Geistes auf die Apostel. In vielen Ländern eröffnet der Pfingstsonntag zusammen mit dem Pfingstmontag ein langes Wochenende.",
+          "history": "Der Name kommt vom griechischen „pentekoste“, der fünfzigste Tag, und das Fest ging aus dem jüdischen Schawuot hervor. Die Apostelgeschichte erzählt, wie die Jünger in vielen Sprachen zu reden begannen und 3.000 Menschen getauft wurden, weshalb Pfingsten als Geburtstag der Kirche gilt.",
+          "traditions": "Kirchen sind in Rot geschmückt, der Farbe des Geistes, und Tauben erscheinen in Bildern und Prozessionen. Auf dem Land ist der Tag mit dem Frühsommer verbunden: Birkenzweige zieren die Türen, Dörfer küren einen Pfingstkönig, und Familien ziehen zum ersten großen Picknick des Jahres hinaus.",
+          "funFacts": [
+            "In italienischen Kirchen ließ man einst rote Rosenblätter von der Decke regnen, als Sinnbild der Feuerzungen.",
+            "Der englische Name Whitsun kommt von den weißen Gewändern der an diesem Tag Getauften.",
+            "Pfingsten fällt immer zwischen den 10. Mai und den 13. Juni.",
+            "Pfingstrosen heißen in mehreren Sprachen so, weil sie pünktlich zum Fest blühen."
+          ]
+        },
+        "christmas": {
+          "intro": "Weihnachten am 25. Dezember ist eines der wichtigsten Feste des Christentums – das Fest der Geburt Jesu Christi und weltweit ein Fest der Familie, des Friedens und der Geschenke.",
+          "history": "Bereits 354 ist der 25. Dezember in einem römischen Kalender als „dies natalis Christi” belegt. Die Kirche wählte das Datum vermutlich, um das römische Fest des „Sol Invictus” – der Sonnenwende – christlich umzudeuten. Der Brauch des Schenkens hat seine Wurzeln in den Geschenken der Heiligen Drei Könige. Der gewohnte Weihnachtsmann mit rotem Mantel und weißem Bart ist eine Mischung aus dem heiligen Nikolaus und einer Coca-Cola-Werbekampagne von 1931.",
+          "traditions": "Familien versammeln sich zu festlichen Mahlzeiten – Truthahn, Gans, Karpfen oder Raclette. Geschenke werden ausgetauscht, Weihnachtslieder gesungen, viele besuchen den Festgottesdienst. Der geschmückte Christbaum mit Lichterketten, Kugeln und Strohsternen ist das zentrale Symbol. Adventskalender, Plätzchen und der Besuch von Weihnachtsmärkten gehören zur Vorbereitung.",
+          "funFacts": [
+            "Der erste kommerzielle Adventskalender erschien 1908 in München – Erfinder war Gerhard Lang.",
+            "Die Weihnachtsmärkte in Dresden („Striezelmarkt”, seit 1434) und Frankfurt (seit 1393) gehören zu den ältesten der Welt.",
+            "Norwegen schenkt Großbritannien seit 1947 jährlich einen riesigen Weihnachtsbaum für den Trafalgar Square – als Dank für die Hilfe im Zweiten Weltkrieg.",
+            "Die Weihnachtsfilm-Klassiker „Drei Haselnüsse für Aschenbrödel” und „Tatsächlich… Liebe” laufen weltweit jedes Jahr Dutzende Male im TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "en": {
+        "new_year": {
+          "intro": "January 1st marks the start of a new year in the Gregorian calendar around the world. For many it's a day of hope, fresh starts and New Year’s resolutions.",
+          "history": "As early as 153 BC the Romans set the start of the year on January 1st, the day new consuls took office. During the Middle Ages, the start of the year shifted in many regions to Christmas or Easter. The Gregorian calendar was introduced in 1582. European countries adopted it and the 1 January start of the year at different times. The name January goes back to the Roman god Janus, who looked simultaneously at the past and the future with two faces — a fitting symbol for the day.",
+          "traditions": "At midnight, families and friends toast with sparkling wine and celebrate the turn of the year with fireworks, lucky charms (clover, chimney sweep, ladybug) and traditional lead pouring (now wax pouring). New Year's brunch and a fresh-air walk are popular too. Many people make resolutions for the year ahead.",
+          "funFacts": [
+            "In Spain, people eat one grape with each of the twelve bell strokes — one wish per grape.",
+            "In Denmark, people break old crockery in front of friends' doors to bring them luck.",
+            "Vienna's New Year's Concert is broadcast in over 90 countries and counts as the year's musical kick-off.",
+            "On Kiritimati in the island nation of Kiribati, the new year arrives 26 hours earlier than on Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "International Women's Day on March 8th stands worldwide for women's equality, their achievements and the fight against discrimination.",
+          "history": "International Women’s Day grew out of the socialist women’s movement. Clara Zetkin proposed an annual international day of action in Copenhagen in 1910; the first events took place in 1911. The United Nations first observed the day in 1975. In December 1977, the UN General Assembly adopted a resolution on a day for women’s rights and international peace.",
+          "traditions": "Women receive flowers — traditionally mimosas or tulips — along with cards and small gifts. Many cities host demonstrations, talks and cultural events. In Berlin, March 8th has been a public holiday since 2019; in Italy men give women sprigs of mimosa.",
+          "funFacts": [
+            "In Russia and several former Soviet states, March 8th is an official non-working public holiday.",
+            "Mecklenburg-Vorpommern in 2023 became the second German state after Berlin to make Women's Day a public holiday.",
+            "The UN theme for International Women’s Day 2024 was “Invest in women: Accelerate progress”.",
+            "In Italy the mimosa is the symbol of women's strength because it blooms even in tough conditions."
+          ],
+          "imageCredit": "Photo: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Easter Sunday is Christianity's highest festival — the day of Jesus Christ's resurrection and the climax of the church year.",
+          "history": "Easter grew out of the Jewish Passover and has been observed by Christians since the 1st century. The Church set in 325 at Nicaea that Easter is always celebrated on the first Sunday after the first spring full moon — hence the moving date between March 22nd and April 25th. The English name ‘Easter' may go back to the Germanic spring goddess Eostre, or simply to the Old High German ‘eostarum' (dawn).",
+          "traditions": "Families start the day with a festive Easter breakfast featuring colored eggs, sweet braided bread and Easter lamb cake. Children search the garden for the eggs and treats hidden by the Easter Bunny. Many parishes hold Easter fires, processions and joyful services with bells.",
+          "funFacts": [
+            "Easter can fall between March 22nd and April 25th — the next ‘early' Easter (March 22nd) won't return until 2285.",
+            "The world's largest Easter Bunny stands in Brazil and is over 4.2 m tall.",
+            "Russian Orthodox Christians often celebrate Easter on a different day from Western Christians because they use the Julian calendar.",
+            "In Poland, Holy Saturday baskets of food (‘Święconka') are blessed for the Sunday meal."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "pentecost": {
+          "intro": "Pentecost, or Whit Sunday, is celebrated on the fiftieth day of the Easter season and marks the descent of the Holy Spirit on the apostles. In many countries it opens a long weekend together with Whit Monday.",
+          "history": "The name comes from the Greek \"pentekoste\", the fiftieth day, and the feast grew out of the Jewish Shavuot. The Acts of the Apostles tell how the disciples began to speak in many languages and 3,000 people were baptised, which is why Pentecost is called the birthday of the Church.",
+          "traditions": "Churches are decorated in red, the colour of the Spirit, and doves appear in artwork and processions. In rural Europe the day is tied to early summer: birch branches decorate doors, villages crown a Pentecost king, and families head outdoors for the first big picnic of the year.",
+          "funFacts": [
+            "In Italian churches red rose petals were once dropped from the ceiling to represent tongues of fire.",
+            "The English name Whitsun comes from the white robes of people baptised on this day.",
+            "Pentecost always falls between 10 May and 13 June.",
+            "Peonies are called Pentecost roses in several languages because they bloom right on time."
+          ]
+        },
+        "christmas": {
+          "intro": "Christmas on December 25th is one of Christianity’s major festivals — celebrating the birth of Jesus Christ — and worldwide a festival of family, peace and gifts.",
+          "history": "December 25th is documented as ‘dies natalis Christi' as early as 354 in a Roman calendar. The Church likely chose the date to give the Roman ‘Sol Invictus' winter solstice festival a Christian meaning. Gift-giving has its roots in the gifts of the Magi. The familiar Santa Claus with red coat and white beard is a mix of Saint Nicholas and a 1931 Coca-Cola advertising campaign.",
+          "traditions": "Families gather for festive meals — turkey, goose, carp or raclette. Gifts are exchanged, carols sung, many attend the festive service. The decorated Christmas tree with lights, ornaments and straw stars is the central symbol. Advent calendars, cookies and visits to Christmas markets are part of the run-up.",
+          "funFacts": [
+            "The first commercial Advent calendar appeared in 1908 in Munich — invented by Gerhard Lang.",
+            "The Christmas markets in Dresden (‘Striezelmarkt', since 1434) and Frankfurt (since 1393) are among the oldest in the world.",
+            "Norway has gifted the UK a giant Christmas tree for Trafalgar Square every year since 1947 — as thanks for help during World War II.",
+            "Holiday classics like ‘Three Wishes for Cinderella' and ‘Love Actually' run dozens of times on TV worldwide every year."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fr": {
+        "new_year": {
+          "intro": "Le 1er janvier marque le début d'une nouvelle année dans le calendrier grégorien partout dans le monde. Pour beaucoup, c'est un jour d'espoir, de renouveau et de bonnes résolutions.",
+          "history": "Dès 153 av. J.-C., les Romains fixèrent le début de l'année au 1er janvier, jour d'entrée en fonction des nouveaux consuls. Au Moyen Âge, le début de l'année se déplaça dans de nombreuses régions à Noël ou à Pâques. Le calendrier grégorien a été introduit en 1582. Les pays européens l’ont adopté, ainsi que le début de l’année au 1er janvier, à des époques différentes. Le nom janvier vient du dieu romain Janus, qui regardait simultanément le passé et l'avenir avec deux visages.",
+          "traditions": "À minuit, familles et amis trinquent au champagne et célèbrent le passage à la nouvelle année avec des feux d'artifice, des porte-bonheur (trèfle, ramoneur, coccinelle) et la traditionnelle coulée de plomb (aujourd'hui de cire). Le brunch du Nouvel An et la promenade au grand air sont aussi populaires. Beaucoup formulent des résolutions pour l'année.",
+          "funFacts": [
+            "En Espagne, on mange un grain de raisin à chacun des douze coups de minuit — un vœu par grain.",
+            "Au Danemark, on brise de la vieille vaisselle devant la porte des amis pour leur porter chance.",
+            "Le Concert du Nouvel An de Vienne est diffusé dans plus de 90 pays — coup d'envoi musical de l'année.",
+            "Sur Kiritimati, dans l’État insulaire des Kiribati, le Nouvel An arrive 26 heures avant celui de l’île Howland."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "La Journée internationale des femmes, le 8 mars, symbolise l'égalité des femmes, leurs avancées et la lutte contre les discriminations.",
+          "history": "La Journée internationale des femmes est née du mouvement socialiste des femmes. Clara Zetkin proposa une journée internationale annuelle d’action à Copenhague en 1910 ; les premières manifestations eurent lieu en 1911. Les Nations Unies célébrèrent cette journée pour la première fois en 1975. En décembre 1977, l’Assemblée générale de l’ONU adopta une résolution consacrée à une journée pour les droits des femmes et la paix internationale.",
+          "traditions": "Les femmes reçoivent des fleurs — traditionnellement des mimosas ou des tulipes — accompagnées de cartes et petits cadeaux. De nombreuses villes organisent manifestations, conférences et événements culturels. À Berlin, le 8 mars est jour férié depuis 2019 ; en Italie, les hommes offrent un brin de mimosa.",
+          "funFacts": [
+            "En Russie et plusieurs anciens États soviétiques, le 8 mars est jour férié officiel.",
+            "Le Mecklembourg-Poméranie occidentale est devenu en 2023 le deuxième Land allemand, après Berlin, à ériger le 8 mars en jour férié.",
+            "Le thème de l’ONU pour la Journée des femmes 2024 était « Investir en faveur des femmes : accélérer le rythme ».",
+            "En Italie, le mimosa symbolise la force féminine car il fleurit même dans des conditions difficiles."
+          ],
+          "imageCredit": "Photo: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Le dimanche de Pâques est la fête la plus importante du christianisme — jour de la résurrection de Jésus-Christ et sommet de l'année liturgique.",
+          "history": "Pâques est issue de la Pâque juive et célébrée par les chrétiens depuis le Ier siècle. L'Église fixa en 325 à Nicée que Pâques se célébrerait toujours le premier dimanche après la première pleine lune de printemps — d'où la date mobile entre le 22 mars et le 25 avril. Le nom ‘Easter' (anglais) viendrait de la déesse germanique du printemps Eostre, ou simplement du vieux haut-allemand ‘eostarum' (aurore).",
+          "traditions": "Les familles entament la journée par un petit-déjeuner pascal festif avec œufs colorés, brioche tressée et agneau pascal. Les enfants cherchent les œufs et friandises cachés par le lapin de Pâques. Dans de nombreuses paroisses, on allume des feux de Pâques et on organise des processions ainsi que des messes solennelles au son des cloches.",
+          "funFacts": [
+            "Pâques peut tomber entre le 22 mars et le 25 avril — le prochain Pâques ‘précoce' (22 mars) ne reviendra qu'en 2285.",
+            "Le plus grand lapin de Pâques du monde se trouve au Brésil et mesure plus de 4,2 m.",
+            "Les chrétiens orthodoxes russes célèbrent souvent Pâques un autre jour, car ils utilisent le calendrier julien.",
+            "En Pologne, on bénit le Samedi Saint des paniers de nourriture (‘Święconka') pour le repas du dimanche."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "pentecost": {
+          "intro": "La Pentecôte, ou dimanche de Pentecôte, est célébrée le cinquantième jour du temps pascal et marque la descente du Saint-Esprit sur les apôtres. Dans de nombreux pays, ce dimanche ouvre un long week-end avec le lundi de Pentecôte.",
+          "history": "Le nom vient du grec \"pentekoste\", le cinquantième jour, et la fête est issue de la fête juive de Chavouot. Les Actes des Apôtres racontent comment les disciples ont commencé à parler dans de nombreuses langues et que 3 000 personnes ont été baptisées, c'est pourquoi la Pentecôte est appelée l'anniversaire de l'Église.",
+          "traditions": "Les églises sont décorées en rouge, la couleur de l'Esprit, et des colombes apparaissent dans les œuvres d'art et les processions. Dans l'Europe rurale, la journée est liée au début de l'été : des branches de bouleau décorent les portes, les villages couronnent un roi de Pentecôte et les familles se rendent dehors pour le premier grand pique-nique de l'année.",
+          "funFacts": [
+            "Dans les églises italiennes, des pétales de roses rouges tombaient autrefois du plafond pour représenter des langues de feu.",
+            "Le nom anglais Whitsun vient des robes blanches des personnes baptisées ce jour-là.",
+            "La Pentecôte tombe toujours entre le 10 mai et le 13 juin.",
+            "Les pivoines sont appelées roses de Pentecôte dans plusieurs langues car elles fleurissent juste à temps."
+          ]
+        },
+        "christmas": {
+          "intro": "Noël, le 25 décembre, est l’une des grandes fêtes du christianisme — la naissance de Jésus-Christ — et, partout dans le monde, une fête de la famille, de la paix et des cadeaux.",
+          "history": "Dès 354, le 25 décembre est attesté comme ‘dies natalis Christi' dans un calendrier romain. L'Église a probablement choisi cette date pour christianiser la fête romaine du ‘Sol Invictus'. La coutume des cadeaux trouve ses racines dans les présents des Mages. Le Père Noël en habit rouge à la barbe blanche est un mélange de saint Nicolas et d'une campagne publicitaire Coca-Cola de 1931.",
+          "traditions": "Les familles se rassemblent autour de repas festifs — dinde, oie, carpe ou raclette. On échange des cadeaux, chante des cantiques, beaucoup assistent à la messe festive. Le sapin décoré de lumières, boules et étoiles de paille est le symbole central. Calendrier de l'avent, biscuits et marchés de Noël jalonnent la préparation.",
+          "funFacts": [
+            "Le premier calendrier de l'avent commercial parut en 1908 à Munich — invention de Gerhard Lang.",
+            "Les marchés de Noël de Dresde (‘Striezelmarkt', depuis 1434) et de Francfort (depuis 1393) figurent parmi les plus anciens du monde.",
+            "La Norvège offre chaque année au Royaume-Uni un immense sapin pour Trafalgar Square depuis 1947 — en remerciement de l'aide pendant la Seconde Guerre mondiale.",
+            "Les classiques de Noël comme ‘Trois noisettes pour Cendrillon' ou ‘Love Actually' sont diffusés des dizaines de fois à la télé chaque année."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "es": {
+        "new_year": {
+          "intro": "El 1 de enero marca el inicio de un nuevo año en el calendario gregoriano en todo el mundo. Para muchos es un día de esperanza, comienzos y buenos propósitos.",
+          "history": "Ya en el 153 a. C., los romanos fijaron el inicio del año el 1 de enero, día en que tomaban posesión los nuevos cónsules. En la Edad Media el comienzo del año cambió en muchas regiones a Navidad o Pascua. El calendario gregoriano se introdujo en 1582. Los países europeos lo adoptaron, al igual que el inicio del año el 1 de enero, en momentos distintos. El nombre del mes de enero deriva de Jano, el dios romano de las dos caras, que miraba al pasado y al futuro a la vez.",
+          "traditions": "A medianoche, familias y amigos brindan con cava o champán y celebran con fuegos artificiales, amuletos como tréboles, deshollinadores o mariquitas, y la tradicional fundición de cera para predecir el año. También son populares el brunch de Año Nuevo y los paseos al aire libre. Muchos hacen propósitos para el año entrante.",
+          "funFacts": [
+            "En España se come una uva con cada una de las doce campanadas — un deseo por uva.",
+            "En Dinamarca se rompe vajilla vieja delante de las puertas de los amigos para darles suerte.",
+            "El Concierto de Año Nuevo de Viena se transmite en más de 90 países y se considera el arranque musical del año.",
+            "En Kiritimati, en el Estado insular de Kiribati, el Año Nuevo llega 26 horas antes que en la isla Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 vía Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "El Día Internacional de la Mujer, el 8 de marzo, simboliza la igualdad de las mujeres, sus logros y la lucha contra la discriminación.",
+          "history": "El Día Internacional de la Mujer surgió del movimiento socialista de mujeres. Clara Zetkin propuso una jornada internacional anual de acción en Copenhague en 1910; los primeros actos se celebraron en 1911. Las Naciones Unidas conmemoraron el día por primera vez en 1975. En diciembre de 1977, la Asamblea General de la ONU aprobó una resolución sobre un día dedicado a los derechos de la mujer y la paz internacional.",
+          "traditions": "Las mujeres reciben flores — tradicionalmente mimosas o tulipanes — junto con tarjetas y pequeños obsequios. Muchas ciudades organizan manifestaciones, charlas y eventos culturales. En Berlín el 8 de marzo es festivo desde 2019, en Italia los hombres regalan ramitas de mimosa a las mujeres.",
+          "funFacts": [
+            "En Rusia y varios estados ex-soviéticos el 8 de marzo es festivo oficial no laborable.",
+            "En 2023 Mecklemburgo-Pomerania Occidental se convirtió en el segundo estado alemán, tras Berlín, en convertir el Día de la Mujer en festivo.",
+            "El tema de la ONU para el Día de la Mujer de 2024 fue «Invertir en las mujeres: acelerar el progreso».",
+            "En Italia la mimosa simboliza la fortaleza femenina porque florece incluso en condiciones difíciles."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "El Domingo de Pascua es la fiesta más importante del cristianismo: el día de la resurrección de Jesús y culmen del año litúrgico.",
+          "history": "La Pascua surgió de la fiesta judía de Pésaj y se celebra desde el siglo I. La Iglesia fijó en 325 en Nicea que se celebrara el primer domingo tras la primera luna llena de primavera — de ahí la fecha variable entre el 22 de marzo y el 25 de abril. El nombre ‘Easter' (inglés) puede derivar de la diosa germánica de la primavera Eostre, o del antiguo alto alemán ‘eostarum' (alba).",
+          "traditions": "Las familias inician el día con un desayuno festivo con huevos coloreados, trenzas dulces y cordero pascual. Los niños buscan los huevos y dulces escondidos por el Conejo de Pascua. En muchas comunidades hay hogueras de Pascua, procesiones y misas solemnes con campanas.",
+          "funFacts": [
+            "La Pascua puede caer entre el 22 de marzo y el 25 de abril — el próximo Domingo de Pascua ‘temprano' (22 de marzo) no llegará hasta 2285.",
+            "El conejo de Pascua más grande del mundo está en Brasil y mide más de 4,2 m.",
+            "Los cristianos ortodoxos rusos suelen celebrar la Pascua otro día, ya que usan el calendario juliano.",
+            "En Polonia se bendicen las cestas de comida (‘Święconka') el Sábado Santo para el almuerzo del domingo."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 vía Wikimedia Commons"
+        },
+        "pentecost": {
+          "intro": "Pentecostés, o Domingo de Pentecostés, se celebra el quincuagésimo día del tiempo pascual y marca el descenso del Espíritu Santo sobre los apóstoles. En muchos países se abre un fin de semana largo junto con el lunes de Pentecostés.",
+          "history": "El nombre proviene del griego \"pentekoste\", el quincuagésimo día, y la fiesta surgió del Shavuot judío. Los Hechos de los Apóstoles cuentan cómo los discípulos comenzaron a hablar en muchos idiomas y 3.000 personas fueron bautizadas, por eso a Pentecostés se le llama el cumpleaños de la Iglesia.",
+          "traditions": "Las iglesias están decoradas en rojo, el color del Espíritu, y aparecen palomas en obras de arte y procesiones. En la Europa rural, el día está ligado al comienzo del verano: ramas de abedul decoran las puertas, los pueblos coronan a un rey de Pentecostés y las familias salen al aire libre para el primer gran picnic del año.",
+          "funFacts": [
+            "En las iglesias italianas alguna vez se dejaron caer pétalos de rosas rojas desde el techo para representar lenguas de fuego.",
+            "El nombre inglés Whitsun proviene de las túnicas blancas de las personas bautizadas en este día.",
+            "Pentecostés siempre cae entre el 10 de mayo y el 13 de junio.",
+            "Las peonías se llaman rosas de Pentecostés en varios idiomas porque florecen justo a tiempo."
+          ]
+        },
+        "christmas": {
+          "intro": "La Navidad, el 25 de diciembre, es una de las fiestas más importantes del cristianismo — el nacimiento de Jesús — y, en todo el mundo, una celebración de familia, paz y regalos.",
+          "history": "Ya en el año 354 un calendario romano consigna el 25 de diciembre como ‘dies natalis Christi'. Probablemente la Iglesia eligió la fecha para reinterpretar cristianamente el ‘Sol Invictus' romano. El intercambio de regalos arraiga en los obsequios de los Magos. El moderno Papá Noel con abrigo rojo y barba blanca es una mezcla de San Nicolás con una campaña publicitaria de Coca-Cola de 1931.",
+          "traditions": "Las familias se reúnen para comidas festivas — pavo, ganso, carpa o raclette. Se intercambian regalos, se cantan villancicos y muchos asisten a los oficios religiosos. El árbol decorado con luces y bolas es el símbolo central. El calendario de Adviento, las galletas y los mercadillos forman parte de la preparación.",
+          "funFacts": [
+            "El primer calendario de Adviento comercial apareció en 1908 en Múnich — invento de Gerhard Lang.",
+            "Los mercadillos navideños de Dresde (‘Striezelmarkt', desde 1434) y Fráncfort (desde 1393) son de los más antiguos del mundo.",
+            "Noruega regala al Reino Unido un enorme árbol de Navidad para Trafalgar Square cada año desde 1947 — agradecimiento por la ayuda en la Segunda Guerra Mundial.",
+            "Los clásicos como ‘Tres Avellanas para Cenicienta' o ‘Love Actually' se emiten decenas de veces cada año en TV."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 vía Wikimedia Commons"
+        }
+      },
+      "pt": {
+        "new_year": {
+          "intro": "1 de janeiro marca o início de um novo ano no calendário gregoriano em todo o mundo. Para muitos é um dia de esperança, novos começos e boas resoluções.",
+          "history": "Já em 153 a.C. os romanos fixaram o início do ano em 1 de janeiro, dia em que tomavam posse os novos cônsules. Na Idade Média, o início do ano deslocou-se em muitas regiões para o Natal ou a Páscoa. O calendário gregoriano foi introduzido em 1582. Os países europeus adotaram-no, tal como o início do ano a 1 de janeiro, em momentos diferentes. O nome do mês de janeiro deriva de Jano, o deus romano de duas faces, que olhava simultaneamente para o passado e o futuro.",
+          "traditions": "À meia-noite, famílias e amigos brindam com espumante e celebram com fogo de artifício, amuletos como trevos, limpa-chaminés ou joaninhas, e a tradicional fundição de cera para prever o ano. Também são populares o brunch de Ano Novo e os passeios ao ar livre. Muitos fazem resoluções para o ano que começa.",
+          "funFacts": [
+            "Em Portugal, comem-se tradicionalmente doze passas à meia-noite; em Espanha, doze uvas, uma por badalada.",
+            "Na Dinamarca, partem-se louças velhas em frente à porta dos amigos para lhes dar sorte.",
+            "O Concerto de Ano Novo de Viena é transmitido em mais de 90 países — abertura musical do ano.",
+            "Em Kiritimati, no Estado insular de Kiribati, o Ano Novo chega 26 horas antes do que na ilha Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "O Dia Internacional da Mulher, 8 de março, simboliza a igualdade das mulheres, as suas conquistas e a luta contra a discriminação.",
+          "history": "O Dia Internacional da Mulher nasceu do movimento socialista de mulheres. Clara Zetkin propôs um dia internacional anual de ação em Copenhaga, em 1910; as primeiras celebrações realizaram-se em 1911. As Nações Unidas assinalaram o dia pela primeira vez em 1975. Em dezembro de 1977, a Assembleia Geral da ONU aprovou uma resolução sobre um dia dedicado aos direitos das mulheres e à paz internacional.",
+          "traditions": "As mulheres recebem flores — tradicionalmente mimosas ou tulipas — junto com cartões e pequenas lembranças. Em muitas cidades realizam-se manifestações, palestras e eventos culturais. Em Berlim, o 8 de março é feriado desde 2019; em Itália, os homens oferecem ramos de mimosa às mulheres.",
+          "funFacts": [
+            "Na Rússia e em vários antigos estados soviéticos, o 8 de março é feriado oficial não trabalhado.",
+            "Em 2023, Mecklemburgo-Pomerânia Ocidental tornou-se o segundo estado alemão a seguir Berlim a tornar o Dia da Mulher feriado.",
+            "O tema da ONU para o Dia da Mulher de 2024 foi «Investir nas mulheres: acelerar o progresso».",
+            "Em Itália, a mimosa simboliza a força feminina porque floresce mesmo em condições difíceis."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "O Domingo de Páscoa é a festa mais importante do cristianismo — dia da ressurreição de Jesus Cristo e ápice do ano litúrgico.",
+          "history": "A Páscoa surgiu da festa judaica de Pessach e é celebrada pelos cristãos desde o século I. A Igreja fixou em 325 em Niceia que a Páscoa se celebra sempre no primeiro domingo após a primeira lua cheia da primavera — daí a data móvel entre 22 de março e 25 de abril. Em Portugal, é uma das festas religiosas mais importantes, com missas solenes, procissões e a tradição do compasso pascal — visita do pároco às casas para abençoá-las.",
+          "traditions": "Em Portugal o Domingo de Páscoa é dia de almoço de família com cabrito assado, folar e amêndoas. Antes do almoço, em algumas regiões (sobretudo Trás-os-Montes), o pároco visita as casas levando a cruz para beijar — o ‘compasso pascal'. As crianças procuram amêndoas e ovos de chocolate escondidos. Em muitas paróquias acendem-se fogos pascais e há procissões.",
+          "funFacts": [
+            "A Páscoa pode cair entre 22 de março e 25 de abril — a próxima Páscoa ‘precoce' (22 de março) só voltará em 2285.",
+            "O maior coelho da Páscoa do mundo está no Brasil e mede mais de 4,2 m.",
+            "Os cristãos ortodoxos russos costumam celebrar a Páscoa noutro dia, pois usam o calendário juliano.",
+            "Em Portugal, no compasso pascal, o pároco visita as casas com a cruz para beijar — quem não recebe o compasso é considerado ‘casa fechada'."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "pentecost": {
+          "intro": "O Pentecostes, ou Domingo de Pentecostes, é celebrado no quinquagésimo dia do tempo pascal e marca a descida do Espírito Santo sobre os apóstolos. Em muitos países abre um fim de semana prolongado juntamente com a Segunda-feira de Pentecostes.",
+          "history": "O nome vem do grego “pentekoste”, o quinquagésimo dia, e a festa surgiu do Shavuot judaico. Os Atos dos Apóstolos contam como os discípulos começaram a falar em muitas línguas e 3.000 pessoas foram batizadas, razão pela qual o Pentecostes é chamado o aniversário da Igreja.",
+          "traditions": "As igrejas são decoradas de vermelho, a cor do Espírito, e as pombas aparecem em obras de arte e procissões. Na Europa rural, o dia está ligado ao início do verão: ramos de bétula decoram portas, aldeias coroam um rei de Pentecostes e as famílias saem para o primeiro grande piquenique do ano.",
+          "funFacts": [
+            "Nas igrejas italianas, pétalas de rosas vermelhas eram largadas do teto para representar línguas de fogo.",
+            "O nome inglês «Whitsunday» é tradicionalmente associado às vestes brancas das pessoas batizadas neste dia.",
+            "O Pentecostes ocorre sempre entre 10 de maio e 13 de junho.",
+            "As peónias são chamadas de rosas de Pentecostes em várias línguas porque florescem na altura certa."
+          ]
+        },
+        "christmas": {
+          "intro": "O Natal, 25 de dezembro, é uma das festas mais importantes do cristianismo — o nascimento de Jesus Cristo — e, em todo o mundo, uma festa da família, da paz e dos presentes.",
+          "history": "Já em 354 o 25 de dezembro está atestado como ‘dies natalis Christi' num calendário romano. A Igreja escolheu provavelmente a data para cristianizar a festa romana do ‘Sol Invictus'. A tradição dos presentes tem raiz nos dons dos Magos. O moderno Pai Natal de casaco vermelho e barba branca é uma mistura de São Nicolau com uma campanha publicitária da Coca-Cola de 1931.",
+          "traditions": "As famílias reúnem-se em refeições festivas — por exemplo, ganso ou raclette nos países de língua alemã; em Portugal, o típico almoço de Natal com peru ou cabrito assado, e as sobremesas de bolo-rei, sonhos, rabanadas, aletria e arroz-doce. Trocam-se presentes, cantam-se cânticos, muitos vão à missa festiva. A árvore decorada e o presépio são símbolos centrais.",
+          "funFacts": [
+            "O primeiro calendário do Advento comercial apareceu em 1908 em Munique — invenção de Gerhard Lang.",
+            "Os mercados de Natal de Dresden (‘Striezelmarkt', desde 1434) e Frankfurt (desde 1393) estão entre os mais antigos do mundo.",
+            "A Noruega oferece ao Reino Unido um enorme abeto para Trafalgar Square todos os anos desde 1947 — em agradecimento pela ajuda na II Guerra.",
+            "Em Portugal, a tradição do bolo-rei remonta ao século XIX, importado da pastelaria francesa."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "it": {
+        "new_year": {
+          "intro": "Il 1° gennaio segna l'inizio di un nuovo anno nel calendario gregoriano in tutto il mondo. Per molti è un giorno di speranza, di nuovi inizi e di buoni propositi.",
+          "history": "Già nel 153 a.C. i Romani fissarono l'inizio dell'anno al 1° gennaio, giorno dell'insediamento dei nuovi consoli. Nel Medioevo l'inizio dell'anno si spostò in molte regioni a Natale o Pasqua. Il calendario gregoriano fu introdotto nel 1582. I paesi europei lo adottarono, così come l’inizio dell’anno al 1° gennaio, in momenti diversi. Il nome ‘gennaio' deriva dal dio romano Giano, che con due volti guardava contemporaneamente al passato e al futuro.",
+          "traditions": "A mezzanotte famiglie e amici brindano con spumante e festeggiano con fuochi d'artificio, portafortuna come quadrifogli, spazzacamini o coccinelle e la tradizionale colata di piombo (oggi di cera). Sono diffusi anche il brunch di Capodanno e la passeggiata all'aria aperta. Molti formulano buoni propositi per l'anno che inizia.",
+          "funFacts": [
+            "In Spagna si mangia un chicco d'uva a ogni rintocco delle dodici campane — un desiderio per chicco.",
+            "In Danimarca si rompono stoviglie davanti alle porte degli amici per portare loro fortuna.",
+            "Il Concerto di Capodanno di Vienna è trasmesso in oltre 90 paesi — apertura musicale dell'anno.",
+            "A Kiritimati, nello Stato insulare di Kiribati, il Capodanno arriva 26 ore prima che sull’isola Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "La Giornata internazionale della donna, l'8 marzo, simboleggia la parità delle donne, le loro conquiste e la lotta contro la discriminazione.",
+          "history": "La Giornata internazionale della donna nacque dal movimento socialista delle donne. Clara Zetkin propose una giornata internazionale annuale di mobilitazione a Copenaghen nel 1910; le prime manifestazioni si tennero nel 1911. Le Nazioni Unite celebrarono la giornata per la prima volta nel 1975. Nel dicembre 1977, l’Assemblea generale dell’ONU adottò una risoluzione su una giornata dedicata ai diritti delle donne e alla pace internazionale.",
+          "traditions": "In Italia le donne ricevono mimose, simbolo della giornata. Si organizzano manifestazioni, conferenze ed eventi culturali. A Berlino l’8 marzo è festivo dal 2019.",
+          "funFacts": [
+            "In Russia e in vari ex stati sovietici l'8 marzo è festivo ufficiale non lavorativo.",
+            "Nel 2023 il Meclemburgo-Pomerania Anteriore è diventato il secondo Land tedesco, dopo Berlino, a istituire la festa come festivo.",
+            "Il tema dell’ONU per la Giornata della donna 2024 era «Investire nelle donne: accelerare il progresso».",
+            "In Italia la mimosa simboleggia la forza femminile perché fiorisce anche in condizioni difficili."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "La Domenica di Pasqua è la festa più importante del cristianesimo — giorno della resurrezione di Gesù e culmine dell'anno liturgico.",
+          "history": "La Pasqua si è sviluppata dalla festa ebraica di Pesach ed è celebrata dai cristiani dal I secolo. La Chiesa stabilì nel 325 a Nicea che la Pasqua si celebra sempre la prima domenica dopo il primo plenilunio di primavera — da qui la data variabile tra il 22 marzo e il 25 aprile. In Italia, oltre al pranzo familiare con agnello, colomba e uova di cioccolato, è tradizione la benedizione delle case.",
+          "traditions": "Le famiglie iniziano la giornata con una colazione pasquale festiva con uova colorate, colomba e agnello pasquale. I bambini cercano le uova nascoste dal coniglio pasquale. In molte parrocchie si accendono fuochi pasquali e si celebrano processioni e messe solenni con suono delle campane. In Italia, è tradizione il pranzo con agnello al forno, colomba pasquale e uova di cioccolato.",
+          "funFacts": [
+            "La Pasqua può cadere tra il 22 marzo e il 25 aprile — la prossima Pasqua ‘precoce' (22 marzo) tornerà solo nel 2285.",
+            "Il più grande coniglio pasquale del mondo si trova in Brasile e supera i 4,2 m.",
+            "I cristiani ortodossi russi spesso celebrano la Pasqua in un altro giorno, perché usano il calendario giuliano.",
+            "In Polonia il Sabato Santo si benedicono cesti di cibo (‘Święconka') per il pranzo della domenica."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "pentecost": {
+          "intro": "La Pentecoste, o domenica di Pentecoste, si celebra il cinquantesimo giorno del tempo pasquale e segna la discesa dello Spirito Santo sugli apostoli. In molti paesi apre il lungo fine settimana insieme al lunedì di Pentecoste.",
+          "history": "Il nome deriva dal greco \"pentekoste\", il cinquantesimo giorno, e la festa trae origine dallo Shavuot ebraico. Gli Atti degli Apostoli raccontano come i discepoli cominciarono a parlare in molte lingue e furono battezzate 3.000 persone, motivo per cui la Pentecoste è chiamata il compleanno della Chiesa.",
+          "traditions": "Le chiese sono decorate in rosso, il colore dello Spirito, e le colombe compaiono nelle opere d'arte e nelle processioni. Nell’Europa rurale la giornata è legata all’inizio dell’estate: rami di betulla decorano le porte, i villaggi incoronano un re di Pentecoste e le famiglie si recano all’aperto per il primo grande picnic dell’anno.",
+          "funFacts": [
+            "Nelle chiese italiane un tempo venivano lasciati cadere dal soffitto petali di rose rosse per rappresentare lingue di fuoco.",
+            "Il nome inglese Whitsun deriva dalle vesti bianche delle persone battezzate in questo giorno.",
+            "La Pentecoste cade sempre tra il 10 maggio e il 13 giugno.",
+            "Le peonie sono chiamate rose di Pentecoste in diverse lingue perché fioriscono puntualmente."
+          ]
+        },
+        "christmas": {
+          "intro": "Il Natale, il 25 dicembre, è una delle feste più importanti del cristianesimo — la nascita di Gesù Cristo — e in tutto il mondo una festa di famiglia, pace e doni.",
+          "history": "Già nel 354 il 25 dicembre è attestato come ‘dies natalis Christi' in un calendario romano. La Chiesa scelse probabilmente la data per cristianizzare la festa romana del ‘Sol Invictus'. L'usanza dei doni ha radici nei doni dei Magi. Il moderno Babbo Natale con cappotto rosso e barba bianca è un misto di San Nicola e di una campagna pubblicitaria Coca-Cola del 1931. In Italia, San Francesco creò il primo presepe nel 1223 a Greccio.",
+          "traditions": "Le famiglie si riuniscono per pasti festosi — tacchino, oca, carpa o raclette al nord; pranzo natalizio con tortellini in brodo, lasagne, capponi e panettone in Italia. Si scambiano regali, si cantano canti natalizi, molti partecipano alla messa festiva. L'albero decorato e il presepe sono i simboli centrali. Calendario dell'Avvento, biscotti e mercatini scandiscono la preparazione.",
+          "funFacts": [
+            "Il primo calendario dell'Avvento commerciale apparve nel 1908 a Monaco — invenzione di Gerhard Lang.",
+            "I mercatini di Natale di Dresda (‘Striezelmarkt', dal 1434) e Francoforte (dal 1393) sono tra i più antichi al mondo.",
+            "La Norvegia regala al Regno Unito un enorme albero di Natale per Trafalgar Square ogni anno dal 1947 — come ringraziamento per l'aiuto nella Seconda Guerra Mondiale.",
+            "Il panettone milanese e il pandoro veronese sono i due dolci natalizi italiani per eccellenza."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "pl": {
+        "new_year": {
+          "intro": "1 stycznia oznacza początek nowego roku w kalendarzu gregoriańskim na całym świecie. Dla wielu jest to dzień nadziei, nowych początków i postanowień.",
+          "history": "Już w 153 r. p.n.e. Rzymianie ustalili początek roku na 1 stycznia, dzień objęcia urzędu nowych konsulów. W średniowieczu początek roku w wielu regionach przesunięto na Boże Narodzenie lub Wielkanoc. Kalendarz gregoriański wprowadzono w 1582 roku. Kraje europejskie przyjmowały go, podobnie jak początek roku 1 stycznia, w różnych terminach. Łacińska nazwa miesiąca, Ianuarius, pochodzi od rzymskiego boga Janusa, który dwiema twarzami spoglądał jednocześnie w przeszłość i przyszłość.",
+          "traditions": "O północy rodziny i przyjaciele wznoszą toast szampanem i świętują przejście do nowego roku fajerwerkami, talizmanami szczęścia (czterolistna koniczyna, kominiarz, biedronka) oraz tradycyjnym lanym ołowiem (dziś woskiem). Popularne są noworoczne brunche i spacery. Wielu składa noworoczne postanowienia.",
+          "funFacts": [
+            "W Hiszpanii zjada się winogronko z każdym z dwunastu uderzeń zegara — życzenie na każde winogronko.",
+            "W Danii rozbija się stare naczynia przed drzwiami przyjaciół, aby przyniosło im to szczęście.",
+            "Wiedeński Koncert Noworoczny transmitowany jest w ponad 90 krajach — muzyczne otwarcie roku.",
+            "Na Kiritimati w wyspiarskim państwie Kiribati Nowy Rok zaczyna się 26 godzin wcześniej niż na wyspie Howland."
+          ],
+          "imageCredit": "Zdjęcie: Vyacheslav Argenberg · CC BY 4.0 przez Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "Międzynarodowy Dzień Kobiet, 8 marca, symbolizuje równość kobiet, ich osiągnięcia oraz walkę z dyskryminacją.",
+          "history": "Międzynarodowy Dzień Kobiet wywodzi się z socjalistycznego ruchu kobiecego. Clara Zetkin zaproponowała coroczny międzynarodowy dzień działań w Kopenhadze w 1910 roku; pierwsze obchody odbyły się w 1911 roku. Organizacja Narodów Zjednoczonych po raz pierwszy obchodziła ten dzień w 1975 roku. W grudniu 1977 roku Zgromadzenie Ogólne ONZ przyjęło rezolucję dotyczącą dnia praw kobiet i pokoju międzynarodowego.",
+          "traditions": "W Polsce kobiety otrzymują kwiaty — tradycyjnie tulipany, goździki lub mimozy. Mężowie i synowie składają życzenia, koledzy w pracy wręczają drobne upominki. W wielu miastach odbywają się manifestacje, spotkania i wydarzenia kulturalne. W Berlinie 8 marca jest dniem wolnym od pracy od 2019 roku.",
+          "funFacts": [
+            "W Rosji i kilku byłych państwach radzieckich 8 marca jest oficjalnym dniem wolnym od pracy.",
+            "W 2023 roku Meklemburgia-Pomorze Przednie stała się drugim landem niemieckim po Berlinie, który ustanowił Dzień Kobiet dniem wolnym.",
+            "W PRL goździk był symbolem dnia — ze względu na łatwą dostępność i kolor czerwony.",
+            "We Włoszech mimoza symbolizuje siłę kobiet, ponieważ kwitnie nawet w trudnych warunkach."
+          ],
+          "imageCredit": "Zdjęcie: Alina.neve · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Niedziela Wielkanocna jest najważniejszym świętem chrześcijaństwa — dniem zmartwychwstania Jezusa Chrystusa i punktem kulminacyjnym roku liturgicznego.",
+          "history": "Wielkanoc wywodzi się z żydowskiego święta Paschy i obchodzona jest przez chrześcijan od I wieku. Kościół ustalił w 325 roku w Nicei, że Wielkanoc świętowana jest zawsze w pierwszą niedzielę po pierwszej wiosennej pełni księżyca — stąd ruchoma data między 22 marca a 25 kwietnia. W Polsce tradycja święcenia pokarmów (‘święconki') sięga XIV wieku i jest jedną z najsilniej zachowanych tradycji.",
+          "traditions": "W Polsce w Niedzielę Wielkanocną rodziny zaczynają dzień uroczystym śniadaniem z poświęconych w Wielką Sobotę pokarmów (‘święconki') — jajek, kiełbasy, szynki, chrzanu, baranka z masła czy cukru, mazurka i babki. Następnie idzie się na uroczystą mszę. Wieczorem często odbywają się rodzinne spotkania.",
+          "funFacts": [
+            "Wielkanoc może wypadać między 22 marca a 25 kwietnia — następna ‘wczesna' Wielkanoc (22 marca) wypadnie dopiero w 2285 roku.",
+            "Polskie tradycyjne palmy wielkanocne z Kurpii i Łysych potrafią mieć ponad 30 metrów wysokości — coroczny konkurs w Niedzielę Palmową.",
+            "Rosyjscy prawosławni często świętują Wielkanoc innego dnia, bo używają kalendarza juliańskiego.",
+            "Polskie ‘pisanki' to jedne z najpiękniejszych ozdób wielkanocnych świata — popularne motywy regionalne, np. opolskie, kurpiowskie."
+          ],
+          "imageCredit": "Zdjęcie: Geolina163 · CC BY-SA 4.0 przez Wikimedia Commons"
+        },
+        "pentecost": {
+          "intro": "Zesłanie Ducha Świętego, czyli Zielone Świątki, obchodzone jest w pięćdziesiątym dniu okresu wielkanocnego i upamiętnia zstąpienie Ducha Świętego na apostołów. W wielu krajach następny poniedziałek również jest dniem wolnym.",
+          "history": "Nazwa pochodzi od greckiego „pentekoste”, czyli pięćdziesiątego dnia, a święto wyrosło z żydowskiego Szawuot. Dzieje Apostolskie opowiadają, jak uczniowie zaczęli mówić wieloma językami i przyjęło chrzest 3000 osób, dlatego też Pięćdziesiątnica nazywana jest narodzinami Kościoła.",
+          "traditions": "Kościoły dekoruje się czerwienią, liturgicznym kolorem Ducha Świętego, a w dziełach sztuki i podczas procesji pojawiają się gołębie. Na wiejskich obszarach Europy dzień ten kojarzy się z wczesnym latem: gałęzie brzozy ozdabiają drzwi, wioski koronują króla Zesłania Ducha Świętego, a rodziny wyruszają na zewnątrz na pierwszy duży piknik w roku.",
+          "funFacts": [
+            "We włoskich kościołach zrzucono kiedyś z sufitu płatki czerwonych róż, które symbolizowały języki ognia.",
+            "Angielska nazwa Whitsun pochodzi od białych szat osób ochrzczonych w tym dniu.",
+            "Pięćdziesiątnica przypada zawsze pomiędzy 10 maja a 13 czerwca.",
+            "Piwonie nazywane są w kilku językach różami Pięćdziesiątnicy, ponieważ kwitną punktualnie."
+          ]
+        },
+        "christmas": {
+          "intro": "Boże Narodzenie 25 grudnia to jedno z głównych świąt chrześcijaństwa — narodziny Jezusa Chrystusa — i na całym świecie święto rodziny, pokoju i prezentów.",
+          "history": "Już w 354 roku 25 grudnia odnotowany jest jako ‘dies natalis Christi' w rzymskim kalendarzu. Kościół wybrał tę datę prawdopodobnie po to, by chrześcijańsko zinterpretować rzymskie święto ‘Sol Invictus'. Tradycja prezentów ma korzenie w darach Trzech Mędrców. Współczesny Święty Mikołaj w czerwonym płaszczu i z białą brodą to mieszanka św. Mikołaja i kampanii reklamowej Coca-Coli z 1931 roku.",
+          "traditions": "W Polsce Boże Narodzenie obchodzi się przez dwa dni (25 i 26 grudnia). Rodziny zbierają się na obfitym obiedzie — często rosół z makaronem, schab, indyk, sałatka jarzynowa, makowiec, sernik. Wymienia się prezenty (w Polsce zwykle wręczane już w Wigilię), śpiewa kolędy, wielu uczestniczy w nabożeństwach. Choinka i szopka są centralnymi symbolami.",
+          "funFacts": [
+            "Pierwszy komercyjny kalendarz adwentowy ukazał się w 1908 roku w Monachium — wynalazek Gerharda Langa.",
+            "Polskie kolędy — m.in. ‘Wśród nocnej ciszy', ‘Bóg się rodzi', ‘Lulajże, Jezuniu' — uchodzą za jedne z najpiękniejszych na świecie.",
+            "Norwegia podarowuje Wielkiej Brytanii corocznie od 1947 roku ogromną choinkę na Trafalgar Square — w podzięce za pomoc w II wojnie światowej.",
+            "Tradycja choinki dotarła do Polski z Niemiec na początku XIX wieku, a powszechna stała się po 1830 roku."
+          ],
+          "imageCredit": "Zdjęcie: Chris Olszewski · CC BY-SA 4.0 przez Wikimedia Commons"
+        }
+      },
+      "nl": {
+        "new_year": {
+          "intro": "1 januari markeert wereldwijd het begin van een nieuw jaar volgens de Gregoriaanse kalender. Voor velen is het een dag vol hoop, een nieuwe start en goede voornemens.",
+          "history": "Al in 153 v.Chr. stelden de Romeinen 1 januari vast als het begin van het jaar, de dag waarop de nieuwe consuls hun ambt aanvaardden. Tijdens de Middeleeuwen verschoof het begin van het jaar in veel regio’s naar Kerstmis of Pasen. De Gregoriaanse kalender werd in 1582 ingevoerd. Europese landen namen deze kalender en 1 januari als jaarbegin op verschillende momenten over. De naam januari is afgeleid van de Romeinse god Janus, die met zijn twee gezichten tegelijkertijd naar het verleden en de toekomst keek — een passend symbool voor deze dag.",
+          "traditions": "Om middernacht proosten families en vrienden met mousserende wijn en vieren ze de jaarwisseling met vuurwerk, geluksbrengers (klaver, schoorsteenveger, lieveheersbeestje) en het traditionele loodgieten (tegenwoordig wasgieten). Ook een nieuwjaarsbrunch en een wandeling in de frisse lucht zijn populair. Veel mensen nemen goede voornemens voor het komende jaar.",
+          "funFacts": [
+            "In Spanje eten mensen bij elk van de twaalf klokslagen één druif — één wens per druif.",
+            "In Denemarken breken mensen oud serviesgoed voor de deur van vrienden om hen geluk te brengen.",
+            "Het Nieuwjaarsconcert van Wenen wordt in meer dan 90 landen uitgezonden en geldt als de muzikale start van het jaar.",
+            "Op Kiritimati in de eilandstaat Kiribati begint het nieuwe jaar 26 uur eerder dan op Howland Island."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "Internationale Vrouwendag op 8 maart staat wereldwijd symbool voor de gelijkheid van vrouwen, hun prestaties en de strijd tegen discriminatie.",
+          "history": "Internationale Vrouwendag ontstond vanuit de socialistische vrouwenbeweging. Clara Zetkin stelde in 1910 in Kopenhagen een jaarlijkse internationale actiedag voor; de eerste bijeenkomsten vonden plaats in 1911. De Verenigde Naties vierden de dag voor het eerst in 1975. In december 1977 nam de Algemene Vergadering van de VN een resolutie aan over een dag voor vrouwenrechten en internationale vrede.",
+          "traditions": "Vrouwen krijgen bloemen — traditioneel mimosa’s of tulpen — samen met kaartjes en kleine cadeautjes. In veel steden worden demonstraties, lezingen en culturele evenementen georganiseerd. In Berlijn is 8 maart sinds 2019 een officiële feestdag; in Italië geven mannen vrouwen takjes mimosa.",
+          "funFacts": [
+            "In Rusland en verschillende voormalige Sovjetstaten is 8 maart een officiële vrije feestdag.",
+            "Mecklenburg-Vorpommern heeft in 2023, na Berlijn, als tweede Duitse deelstaat Vrouwendag tot officiële feestdag uitgeroepen.",
+            "Het VN-thema voor Internationale Vrouwendag 2024 was “Investeren in vrouwen: de vooruitgang versnellen”.",
+            "In Italië staat de mimosa symbool voor de kracht van vrouwen, omdat ze zelfs onder moeilijke omstandigheden bloeit."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Paaszondag is het belangrijkste feest in het christendom — de dag van de verrijzenis van Jezus Christus en het hoogtepunt van het kerkelijk jaar.",
+          "history": "Pasen is voortgekomen uit het joodse Pesach en wordt al sinds de 1e eeuw door christenen gevierd. In 325 besloot de Kerk in Nicea dat Pasen altijd wordt gevierd op de eerste zondag na de eerste volle maan van de lente — vandaar dat de datum varieert tussen 22 maart en 25 april. De Engelse naam ‘Easter’ zou kunnen teruggaan op de Germaanse lentegodin Eostre, of simpelweg op het Oudhoogduitse ‘eostarum’ (dageraad).",
+          "traditions": "Gezinnen beginnen de dag met een feestelijk paasontbijt met gekleurde eieren, zoet gevlochten brood en paaslamscake. Kinderen zoeken in de tuin naar de eieren en lekkernijen die door de paashaas zijn verstopt. Veel parochies organiseren paasvuren, processies en vrolijke diensten met klokken.",
+          "funFacts": [
+            "Pasen kan tussen 22 maart en 25 april vallen — de volgende ‘vroege’ Pasen (22 maart) valt pas weer in 2285.",
+            "De grootste paashaas ter wereld staat in Brazilië en is meer dan 4,2 m hoog.",
+            "Russisch-orthodoxe christenen vieren Pasen vaak op een andere dag dan westerse christenen, omdat ze de Juliaanse kalender gebruiken.",
+            "In Polen worden op Paaszaterdag manden met etenswaren (‘Święconka’) gezegend voor de maaltijd op zondag."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "pentecost": {
+          "intro": "Pinksteren wordt op de vijftigste dag van de paastijd gevierd en herdenkt de neerdaling van de Heilige Geest op de apostelen. In veel landen vormt het samen met tweede pinksterdag een lang weekend.",
+          "history": "De naam komt van het Griekse \"pentekoste\", de vijftigste dag, en het feest is voortgekomen uit het Joodse Sjavoeot. De Handelingen van de Apostelen vertellen hoe de discipelen in vele talen begonnen te spreken en 3.000 mensen werden gedoopt. Daarom wordt Pinksteren de geboortedag van de Kerk genoemd.",
+          "traditions": "Kerken zijn versierd met rood, de kleur van de Geest, en duiven verschijnen in kunstwerken en processies. Op het platteland van Europa is de dag verbonden met de vroege zomer: berkentakken versieren deuren, dorpen kronen een Pinksterkoning en gezinnen gaan naar buiten voor de eerste grote picknick van het jaar.",
+          "funFacts": [
+            "In Italiaanse kerken worden met Pinksteren rode rozenblaadjes naar beneden gestrooid als symbool voor de vurige tongen.",
+            "De Engelse naam Whitsun komt van de witte gewaden van mensen die op deze dag gedoopt zijn.",
+            "Pinksteren valt altijd tussen 10 mei en 13 juni.",
+            "Pioenrozen worden in meerdere talen Pinksterrozen genoemd omdat ze precies op tijd bloeien."
+          ]
+        },
+        "christmas": {
+          "intro": "Kerstmis op 25 december is een van de belangrijkste christelijke feesten — ter ere van de geboorte van Jezus Christus — en wereldwijd een feest van familie, vrede en cadeautjes.",
+          "history": "Al in 354 wordt 25 december in een Romeinse kalender vermeld als ‘dies natalis Christi’. De Kerk heeft deze datum waarschijnlijk gekozen om het Romeinse winterzonnewendefeest ‘Sol Invictus’ een christelijke betekenis te geven. Het geven van cadeaus vindt zijn oorsprong in de geschenken van de drie koningen. De bekende kerstman met rode jas en witte baard is een mengeling van Sint Nicolaas en een reclamecampagne van Coca-Cola uit 1931.",
+          "traditions": "Gezinnen komen samen voor feestelijke maaltijden — kalkoen, gans, karper of raclette. Er worden cadeautjes uitgewisseld, kerstliederen gezongen en velen wonen de feestelijke kerkdienst bij. De versierde kerstboom met lichtjes, kerstballen en stro-sterren vormt het centrale symbool. Adventskalenders, koekjes en bezoekjes aan kerstmarkten horen bij de aanloop naar Kerstmis.",
+          "funFacts": [
+            "De eerste commerciële adventskalender verscheen in 1908 in München — uitgevonden door Gerhard Lang.",
+            "De kerstmarkten in Dresden (‘Striezelmarkt’, sinds 1434) en Frankfurt (sinds 1393) behoren tot de oudste ter wereld.",
+            "Noorwegen schenkt het Verenigd Koninkrijk al sinds 1947 elk jaar een reusachtige kerstboom voor Trafalgar Square — als dank voor de hulp tijdens de Tweede Wereldoorlog.",
+            "Kerstklassiekers als ‘Three Wishes for Cinderella’ en ‘Love Actually’ worden elk jaar wereldwijd tientallen keren op tv uitgezonden."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "sv": {
+        "new_year": {
+          "intro": "Den 1 januari markerar början på ett nytt år enligt den gregorianska kalendern över hela världen. För många är det en dag präglad av hopp, nystart och nyårslöften.",
+          "history": "Redan 153 f.Kr. fastställde romarna att året skulle börja den 1 januari, den dag då de nya konsulerna tillträdde sina ämbeten. Under medeltiden flyttades årets början i många regioner till jul eller påsk. Den gregorianska kalendern infördes 1582. Europas länder antog den och den 1 januari som årets början vid olika tidpunkter. Namnet januari härstammar från den romerske guden Janus, som med sina två ansikten blickade samtidigt mot det förflutna och framtiden – en passande symbol för dagen.",
+          "traditions": "Vid midnatt skålar familjer och vänner med mousserande vin och firar årsskiftet med fyrverkerier, lyckosymboler (klöver, sotare, nyckelpiga) och den traditionella blygjutningen (numera vaxgjutning). Nyårsbrunch och en promenad i friska luften är också populära inslag. Många sätter upp nyårslöften inför det kommande året.",
+          "funFacts": [
+            "I Spanien äter man en vindruva för varje klockslag av de tolv – en önskan per vindruva.",
+            "I Danmark brukar man krossa gammalt porslin framför vännernas dörrar för att önska dem lycka.",
+            "Nyårskonserten i Wien sänds i över 90 länder och räknas som årets musikaliska startskott.",
+            "På Kiritimati i önationen Kiribati börjar det nya året 26 timmar tidigare än på Howlandön."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "Internationella kvinnodagen den 8 mars står världen över för kvinnors jämställdhet, deras prestationer och kampen mot diskriminering.",
+          "history": "Internationella kvinnodagen har sitt ursprung i den socialistiska kvinnorörelsen. Clara Zetkin föreslog en årlig internationell aktionsdag i Köpenhamn 1910; de första arrangemangen hölls 1911. Förenta nationerna uppmärksammade dagen för första gången 1975. I december 1977 antog FN:s generalförsamling en resolution om en dag för kvinnors rättigheter och internationell fred.",
+          "traditions": "Kvinnor får blommor – traditionellt mimosa eller tulpaner – tillsammans med kort och små presenter. I många städer anordnas demonstrationer, föreläsningar och kulturevenemang. I Berlin har den 8 mars varit en allmän helgdag sedan 2019; i Italien ger män kvinnor mimosa-kvistar.",
+          "funFacts": [
+            "I Ryssland och flera före detta sovjetstater är den 8 mars en officiell helgdag då man inte arbetar.",
+            "Mecklenburg-Vorpommern blev 2023 den andra tyska delstaten efter Berlin som gjorde kvinnodagen till en allmän helgdag.",
+            "FN:s tema för internationella kvinnodagen 2024 var ”Investera i kvinnor: påskynda framstegen”.",
+            "I Italien är mimosan en symbol för kvinnors styrka eftersom den blommar även under svåra förhållanden."
+          ],
+          "imageCredit": "Foto: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Påskdagen är kristendomens viktigaste högtid – dagen då Jesus Kristus uppstod från de döda och kyrkoårets höjdpunkt.",
+          "history": "Påsken har sitt ursprung i den judiska påskhögtiden och har firats av kristna sedan 1:a århundradet. År 325 fastställde kyrkan vid kyrkomötet i Nikea att påsken alltid ska firas den första söndagen efter vårens första fullmåne – därav det varierande datumet mellan den 22 mars och den 25 april. Det engelska namnet ”Easter” kan härledas till den germanska vårgudinnan Eostre, eller helt enkelt till det fornhögtyska ordet ”eostarum” (gryning).",
+          "traditions": "Familjerna inleder dagen med en festlig påskfrukost med färgade ägg, söta flätade bröd och påsklammkaka. Barnen letar i trädgården efter ägg och godsaker som påskharen har gömt. Många församlingar anordnar påskeldar, processioner och glada gudstjänster med klockklang.",
+          "funFacts": [
+            "Påsken kan infalla mellan den 22 mars och den 25 april – nästa ”tidiga” påsk (den 22 mars) infaller inte förrän år 2285.",
+            "Världens största påskhare står i Brasilien och är över 4,2 m hög.",
+            "Rysk-ortodoxa kristna firar ofta påsk en annan dag än västerländska kristna, eftersom de använder den julianska kalendern.",
+            "I Polen välsignas matkorgar (”Święconka”) på påsklördagen inför söndagens måltid."
+          ],
+          "imageCredit": "Foto: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "pentecost": {
+          "intro": "Pingstdagen firas på påsktidens femtionde dag och markerar den helige Andes nedstigning över apostlarna. I många länder bildar den en långhelg tillsammans med annandag pingst.",
+          "history": "Namnet kommer från det grekiska \"pentekoste\", den femtionde dagen, och högtiden växte fram ur den judiska shavuoten. Apostlagärningarna berättar hur lärjungarna började tala på många språk och 3 000 personer döptes, varför pingsten kallas för kyrkans födelsedag.",
+          "traditions": "Kyrkor är dekorerade i rött, Andens färg, och duvor visas i konstverk och processioner. På landsbygden i Europa är dagen bunden till försommaren: björkgrenar pryder dörrar, byar kröner en pingstkung och familjer beger sig utomhus för årets första stora picknick.",
+          "funFacts": [
+            "I italienska kyrkor släpptes en gång röda rosenblad från taket för att representera eldtungor.",
+            "Det engelska namnet Whitsun kommer från de vita kläderna från människor som döpts denna dag.",
+            "Pingst infaller alltid mellan 10 maj och 13 juni.",
+            "Pioner kallas pingstrosor på flera språk eftersom de blommar precis i tid."
+          ]
+        },
+        "christmas": {
+          "intro": "Juldagen den 25 december är kristendomens viktigaste högtid – då man firar Jesus Kristus födelse – och över hela världen en högtid som präglas av familj, fred och gåvor.",
+          "history": "Den 25 december omnämns som ”dies natalis Christi” redan år 354 i en romersk kalender. Kyrkan valde troligen detta datum för att ge den romerska vintersolståndsfesten ”Sol Invictus” en kristen innebörd. Traditionen att ge gåvor har sina rötter i de tre vise männens gåvor. Den välkände jultomten med röd kappa och vitt skägg är en blandning av Sankt Nikolaus och en reklamkampanj från Coca-Cola från 1931.",
+          "traditions": "Familjerna samlas för festmåltider – kalkon, gås, karp eller raclette. Man utbyter julklappar, sjunger julsånger och många deltar i julgudstjänsten. Den pyntade julgranen med ljus, julgranspynt och halmstjärnor är den centrala symbolen. Adventskalendrar, pepparkakor och besök på julmarknader är en del av förberedelserna inför julen.",
+          "funFacts": [
+            "Den första kommersiella adventskalendern kom ut 1908 i München – uppfunnen av Gerhard Lang.",
+            "Julmarknaderna i Dresden (”Striezelmarkt”, sedan 1434) och Frankfurt (sedan 1393) hör till de äldsta i världen.",
+            "Norge har varje år sedan 1947 skänkt Storbritannien en gigantisk julgran till Trafalgar Square – som tack för hjälpen under andra världskriget.",
+            "Julklassiker som ”Three Wishes for Cinderella” och ”Love Actually” visas dussintals gånger på TV världen över varje år."
+          ],
+          "imageCredit": "Foto: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "nb": {
+        "new_year": {
+          "intro": "1. januar markerer starten på et nytt år i den gregorianske kalenderen rundt om i verden. For mange er det en dag med håp, en ny begynnelse og gode forsetter.",
+          "history": "Så tidlig som i 153 f.Kr. satte romerne starten på året den 1. januar, den dagen nye konsuler tiltrådte. I løpet av middelalderen skiftet starten av året i mange regioner til jul eller påske. Den gregorianske kalenderen ble innført i 1582. Europeiske land tok den og 1. januar som årets begynnelse i bruk på ulike tidspunkter. Navnet januar går tilbake til den romerske guden Janus, som så på fortiden og fremtiden samtidig med to ansikter - et passende symbol for dagen.",
+          "traditions": "Ved midnatt skåler familier og venner med musserende vin og feirer årsskiftet med fyrverkeri, lykkebringere (kløver, skorsteinsfeier, marihøne) og tradisjonell blyhelling (nå vokshelling). Nyttårsbrunsj og en tur i frisk luft er også populært. Mange setter seg mål for året som kommer.",
+          "funFacts": [
+            "I Spania spiser folk én drue med hvert av de tolv klokkeslagene – ett ønske per drue.",
+            "I Danmark knuser folk gammelt servise foran venners dører for å bringe dem flaks.",
+            "Wiens nyttårskonsert sendes i over 90 land og teller som årets musikalske kick-off.",
+            "På Kiritimati i øystaten Kiribati kommer det nye året 26 timer tidligere enn på Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "Den internasjonale kvinnedagen 8. mars står over hele verden for kvinners likestilling, deres prestasjoner og kampen mot diskriminering.",
+          "history": "Den internasjonale kvinnedagen har sitt utspring i den sosialistiske kvinnebevegelsen. Clara Zetkin foreslo en årlig internasjonal aksjonsdag i København i 1910; de første markeringene fant sted i 1911. FN markerte dagen for første gang i 1975. I desember 1977 vedtok FNs generalforsamling en resolusjon om en dag for kvinners rettigheter og internasjonal fred.",
+          "traditions": "Kvinner mottar blomster – tradisjonelt mimoser eller tulipaner – sammen med kort og små gaver. Mange byer arrangerer demonstrasjoner, foredrag og kulturelle arrangementer. I Berlin har 8. mars vært en helligdag siden 2019; i Italia gir menn kvinner kvister av mimosa.",
+          "funFacts": [
+            "I Russland og flere tidligere sovjetstater er 8. mars en offisiell fridag.",
+            "Mecklenburg-Vorpommern ble i 2023 den andre tyske staten etter Berlin som gjorde kvinnedagen til en helligdag.",
+            "FN-temaet for kvinnedagen i 2024 var «Invester i kvinner: få fart på fremgangen».",
+            "I Italia er mimosaen symbolet på kvinners styrke fordi den blomstrer selv under tøffe forhold."
+          ],
+          "imageCredit": "Photo: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Påskedag er kristendommens høyeste høytid – dagen for Jesu Kristi oppstandelse og høydepunktet i kirkeåret.",
+          "history": "Påsken vokste ut av den jødiske påsken og har blitt observert av kristne siden det 1. århundre. Kirken satte i 325 i Nicaea at påsken alltid feires den første søndagen etter den første vårfullmånen – derav den bevegelige datoen mellom 22. mars og 25. april. Det engelske navnet 'Easter' kan gå tilbake til den germanske vårgudinnen Eostre, eller ganske enkelt til det gammelhøytyske 'eostarum' (daggry).",
+          "traditions": "Familier starter dagen med en festlig påskefrokost med fargede egg, søtt flettet brød og påskelammekake. Barn søker i hagen etter eggene og godbitene som er gjemt av påskeharen. Mange menigheter holder påskebål, prosesjoner og gledesgudstjenester med bjeller.",
+          "funFacts": [
+            "Påsken kan falle mellom 22. mars og 25. april — neste «tidlige» påske (22. mars) kommer ikke tilbake før i år 2285.",
+            "Verdens største påskehare står i Brasil og er over 4,2 m høy.",
+            "Russisk-ortodokse kristne feirer ofte påsken på en annen dag enn vestlige kristne fordi de bruker den julianske kalenderen.",
+            "I Polen er kurver som tas med til kirken på påskeaften med mat (‘Święconka’) velsignet til søndagsmåltidet."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "pentecost": {
+          "intro": "Pinsedag feires på påsketidens femtiende dag og markerer Den Hellige Ånds nedstigning over apostlene. I mange land inngår den i en langhelg sammen med andre pinsedag.",
+          "history": "Navnet kommer fra det greske \"pentekoste\", den femtiende dagen, og festen vokste ut av den jødiske Shavuot. Apostlenes gjerninger forteller hvordan disiplene begynte å snakke på mange språk og 3000 mennesker ble døpt, og derfor kalles pinsen Kirkens fødselsdag.",
+          "traditions": "Kirker er dekorert i rødt, Åndens farge, og duer vises i kunstverk og prosesjoner. På landsbygda i Europa er dagen knyttet til forsommeren: bjørkegrener pryder dører, landsbyer kroner en pinsekonge, og familier drar utendørs for årets første store piknik.",
+          "funFacts": [
+            "I italienske kirker ble røde roseblader en gang sluppet fra taket for å representere ildtunger.",
+            "Det engelske navnet Whitsun kommer fra de hvite klærne til mennesker som ble døpt på denne dagen.",
+            "Pinsen faller alltid mellom 10. mai og 13. juni.",
+            "Peoner kalles pinseroser på flere språk fordi de blomstrer rett i tide."
+          ]
+        },
+        "christmas": {
+          "intro": "Julen den 25. desember er kristendommens store høytid – som feirer Jesu Kristi fødsel – og verdensomspennende en høytid for familie, fred og gaver.",
+          "history": "25. desember er dokumentert som ‘dies natalis Christi’ så tidlig som 354 i en romersk kalender. Kirken valgte sannsynligvis datoen for å gi den romerske 'Sol Invictus' vintersolvervfestival en kristen betydning. Å gi gaver har sine røtter i vismennenes gaver. Den kjente julenissen med rød frakk og hvitt skjegg er en blanding av Saint Nicholas og en Coca-Cola-reklamekampanje fra 1931.",
+          "traditions": "Familier samles for festmåltider – kalkun, gås, karpe eller raclette. Gaver utveksles, julesanger synges, mange deltar på festgudstjenesten. Det pyntede juletreet med lys, pynt og stråstjerner er det sentrale symbolet. Adventskalendere, småkaker og besøk på julemarkeder hører med i oppkjøringen.",
+          "funFacts": [
+            "Den første kommersielle adventskalenderen dukket opp i 1908 i München — oppfunnet av Gerhard Lang.",
+            "Julemarkedene i Dresden (‘Striezelmarkt’, siden 1434) og Frankfurt (siden 1393) er blant de eldste i verden.",
+            "Norge har gitt Storbritannia et gigantisk juletre til Trafalgar Square hvert år siden 1947 — som takk for hjelpen under andre verdenskrig.",
+            "Juleklassikere som «Three Wishes for Cinderella» og «Love Actually» går dusinvis av ganger på TV over hele verden hvert år."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "da": {
+        "new_year": {
+          "intro": "1. januar markerer starten på et nyt år i den gregorianske kalender rundt om i verden. For mange er det en dag med håb, nye begyndelser og gode forsætter.",
+          "history": "Så tidligt som i 153 f.Kr. satte romerne starten på året den 1. januar, den dag, hvor nye konsuler tiltrådte. I løbet af middelalderen skiftede starten af ​​året i mange regioner til jul eller påske. Den gregorianske kalender blev indført i 1582. Europæiske lande tog den og 1. januar som årets begyndelse i brug på forskellige tidspunkter. Navnet januar går tilbage til den romerske gud Janus, som samtidig så på fortiden og fremtiden med to ansigter - et passende symbol for dagen.",
+          "traditions": "Ved midnat skåler familier og venner med mousserende vin og fejrer årsskiftet med fyrværkeri, lykkebringere (kløver, skorstensfejer, mariehøne) og traditionel blyophældning (nu vokshældning). Nytårsbrunch og en tur i frisk luft er også populære. Mange mennesker laver nytårsforsætter for det kommende år.",
+          "funFacts": [
+            "I Spanien spiser man én drue med hvert af de tolv klokkeslag - ét ønske pr. drue.",
+            "I Danmark knuser folk gammelt service foran venners døre for at bringe dem held.",
+            "Wiens nytårskoncert sendes i over 90 lande og tæller som årets musikalske kick-off.",
+            "På Kiritimati i østaten Kiribati begynder det nye år 26 timer tidligere end på Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "Den internationale kvindedag den 8. marts står verden over for kvinders ligestilling, deres resultater og kampen mod diskrimination.",
+          "history": "Den internationale kvindedag udspringer af den socialistiske kvindebevægelse. Clara Zetkin foreslog en årlig international aktionsdag i København i 1910; de første markeringer fandt sted i 1911. FN markerede dagen for første gang i 1975. I december 1977 vedtog FN’s Generalforsamling en resolution om en dag for kvinders rettigheder og international fred.",
+          "traditions": "Kvinder modtager blomster - traditionelt mimoser eller tulipaner - sammen med kort og små gaver. Mange byer er vært for demonstrationer, foredrag og kulturelle begivenheder. I Berlin har den 8. marts været en helligdag siden 2019; i Italien giver mænd kvinder kviste af mimosa.",
+          "funFacts": [
+            "I Rusland og flere tidligere sovjetstater er den 8. marts en officiel fridag.",
+            "Mecklenburg-Vorpommern blev i 2023 den anden tyske stat efter Berlin, der gjorde kvindedagen til en helligdag.",
+            "FN’s tema for kvindedagen i 2024 var »Invester i kvinder: sæt fart på fremskridtene«.",
+            "I Italien er mimosaen symbolet på kvinders styrke, fordi den blomstrer selv under hårde forhold."
+          ],
+          "imageCredit": "Photo: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Påskesøndag er kristendommens højeste højtid — dagen for Jesu Kristi opstandelse og kirkeårets klimaks.",
+          "history": "Påsken voksede ud af den jødiske påske og er blevet holdt af kristne siden det 1. århundrede. Kirken fastsatte i 325 i Nicaea, at påsken altid fejres den første søndag efter den første forårs fuldmåne - derfor den skiftende dato mellem 22. marts og 25. april. Det engelske navn 'Easter' kan gå tilbage til den germanske forårsgudinde Eostre, eller blot til det oldhøjtyske 'eostarum' (daggry).",
+          "traditions": "Familier starter dagen med en festlig påskefrokost med farvede æg, sødt flettet brød og påskelammekage. Børn søger i haven efter æg og godbidder, der er gemt af påskeharen. Mange sogne holder påskebål, optog og glade gudstjenester med klokker.",
+          "funFacts": [
+            "Påsken kan falde mellem 22. marts og 25. april — den næste 'tidlige' påske (22. marts) vender først tilbage i år 2285.",
+            "Verdens største påskehare står i Brasilien og er over 4,2 m høj.",
+            "Russisk-ortodokse kristne fejrer ofte påsken på en anden dag end vestlige kristne, fordi de bruger den julianske kalender.",
+            "I Polen velsignes påskelørdagskurve med mad ('Święconka') til søndagsmåltidet."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "pentecost": {
+          "intro": "Pinse, eller pinsedag, fejres på påsketidens halvtredsindstyvende dag og markerer Helligåndens nedstigning over apostlene. I mange lande åbner den en lang weekend sammen med pinsemandag.",
+          "history": "Navnet kommer fra det græske \"pentekoste\", den halvtredsindstyvende dag, og festen voksede ud af den jødiske Shavuot. Apostlenes Gerninger fortæller, hvordan disciplene begyndte at tale på mange sprog, og 3.000 mennesker blev døbt, hvorfor pinsen kaldes Kirkens fødselsdag.",
+          "traditions": "Kirker er dekoreret i rødt, Åndens farve, og duer optræder i kunstværker og processioner. I landdistrikterne i Europa er dagen bundet til forsommeren: Birkegrene pynter på døre, landsbyer kroner en pinsekonge, og familier tager udendørs til årets første store picnic.",
+          "funFacts": [
+            "I italienske kirker blev røde rosenblade engang drysset ned fra loftet for at repræsentere ildtunger.",
+            "Det engelske navn Whitsun kommer fra de hvide klæder fra mennesker, der blev døbt på denne dag.",
+            "Pinsen falder altid mellem 10. maj og 13. juni.",
+            "Pæoner kaldes pinseroser på flere sprog, fordi de blomstrer lige til tiden."
+          ]
+        },
+        "christmas": {
+          "intro": "Julen den 25. december er kristendommens store højtid – der fejrer Jesu Kristi fødsel – og verdensomspændende en højtid for familie, fred og gaver.",
+          "history": "Den 25. december er dokumenteret som 'dies natalis Christi' så tidligt som 354 i en romersk kalender. Kirken valgte sandsynligvis datoen for at give den romerske 'Sol Invictus' vintersolhvervsfestival en kristen betydning. Gavegivning har sine rødder i vismændenes gaver. Den velkendte julemand med rød frakke og hvidt skæg er en blanding af Saint Nicholas og en Coca-Cola-reklamekampagne fra 1931.",
+          "traditions": "Familier samles til festmåltider - kalkun, gås, karpe eller raclette. Der udveksles gaver, synges julesange, mange deltager i festgudstjenesten. Det pyntede juletræ med lys, pynt og halmstjerner er det centrale symbol. Adventskalendere, småkager og besøg på julemarkeder hører med til optakten.",
+          "funFacts": [
+            "Den første kommercielle adventskalender dukkede op i 1908 i München — opfundet af Gerhard Lang.",
+            "Julemarkederne i Dresden ('Striezelmarkt', siden 1434) og Frankfurt (siden 1393) er blandt de ældste i verden.",
+            "Norge har givet Storbritannien et kæmpe juletræ til Trafalgar Square hvert år siden 1947 - som tak for hjælpen under Anden Verdenskrig.",
+            "Juleklassikere som 'Three Wishes for Askepot' og 'Love Actually' vises dusinvis af gange på tv over hele verden hvert år."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "fi": {
+        "new_year": {
+          "intro": "Tammikuun 1. päivänä alkaa uusi vuosi gregoriaanisessa kalenterissa kaikkialla maailmassa. Monille se on toivon, uusien alkujen ja hyvien päätösten päivä.",
+          "history": "Jo vuonna 153 eKr. roomalaiset asettivat vuoden alun tammikuun 1. päiväksi, jolloin uudet konsulit astuivat virkaan. Keskiajalla vuoden alku siirtyi monilla alueilla jouluun tai pääsiäiseen. Gregoriaaninen kalenteri otettiin käyttöön vuonna 1582. Euroopan maat omaksuivat sen ja tammikuun 1. päivän vuoden aluksi eri aikoina. Tammikuun latinankielinen nimi Ianuarius juontaa juurensa roomalaiselle jumalalle Janukselle, joka katsoi samanaikaisesti menneisyyteen ja tulevaisuuteen kahdella kasvolla – sopiva symboli tälle päivälle.",
+          "traditions": "Keskiyöllä perheet ja ystävät nostavat maljan kuohuviiniä ja juhlivat vuodenvaihdetta ilotulituksella, onnenkoruilla (apila, nuohoaja, leppäkerttu) ja perinteisellä lyijynvalannalla (nykyisin vahanvalannalla). Uudenvuoden brunssi ja raitisilmakävely ovat myös suosittuja. Monet ihmiset tekevät lupauksia tulevalle vuodelle.",
+          "funFacts": [
+            "Espanjassa ihmiset syövät yhden rypäleen kullakin kahdellatoista kelloniskulla – yksi toive rypälettä kohden.",
+            "Tanskassa ihmiset rikkovat vanhoja astioita ystävien ovien edessä tuodakseen heille onnea.",
+            "Wienin uudenvuoden konsertti lähetetään yli 90 maassa ja se lasketaan vuoden musiikilliseksi aloitukseksi.",
+            "Kiribatin saarivaltioon kuuluvalla Kiritimatilla uusi vuosi alkaa 26 tuntia aikaisemmin kuin Howlandinsaarella."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "Kansainvälinen naistenpäivä 8. maaliskuuta edustaa maailmanlaajuisesti naisten tasa-arvoa, heidän saavutuksiaan ja syrjinnän vastaista taistelua.",
+          "history": "Kansainvälinen naistenpäivä sai alkunsa sosialistisesta naisliikkeestä. Clara Zetkin ehdotti vuosittaista kansainvälistä toimintapäivää Kööpenhaminassa vuonna 1910; ensimmäiset tapahtumat järjestettiin vuonna 1911. Yhdistyneet kansakunnat vietti päivää ensimmäisen kerran vuonna 1975. Joulukuussa 1977 YK:n yleiskokous hyväksyi päätöslauselman naisten oikeuksien ja kansainvälisen rauhan päivästä.",
+          "traditions": "Naiset saavat kukkia – perinteisesti mimoosia tai tulppaaneja – sekä kortteja ja pieniä lahjoja. Monissa kaupungeissa järjestetään mielenosoituksia, keskusteluja ja kulttuuritapahtumia. Berliinissä maaliskuun 8. päivä on ollut yleinen vapaapäivä vuodesta 2019 lähtien; Italiassa miehet antavat naisille mimosan oksia.",
+          "funFacts": [
+            "Venäjällä ja useissa entisissä neuvostovaltioissa maaliskuun 8. päivä on virallinen vapaapäivä.",
+            "Mecklenburg-Vorpommernista tuli vuonna 2023 toinen Saksan osavaltio Berliinin jälkeen, joka teki naistenpäivästä yleisen vapaapäivän.",
+            "YK:n naistenpäivän teema vuonna 2024 oli ”Investoi naisiin: vauhdita edistystä”.",
+            "Italiassa mimosa on naisten voiman symboli, koska se kukkii vaikeissakin olosuhteissa."
+          ],
+          "imageCredit": "Photo: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Pääsiäissunnuntai on kristinuskon korkein juhla - Jeesuksen Kristuksen ylösnousemuksen päivä ja kirkkovuoden huipentuma.",
+          "history": "Pääsiäinen syntyi juutalaisten pääsiäisestä, ja kristityt ovat viettäneet sitä 1. vuosisadasta lähtien. Kirkko asetti vuonna 325 Nikeassa, että pääsiäistä vietetään aina ensimmäisenä sunnuntaina kevään ensimmäisen täysikuun jälkeen – siksi päivämäärä vaihtelee 22. maaliskuuta ja 25. huhtikuuta välillä. Englanninkielinen nimi \"Easter\" voi juontaa juurensa germaaniseen kevätjumalattareen Eostreen tai yksinkertaisesti vanhaan yläsaksaan \"eostarum\" (aamunkoitto).",
+          "traditions": "Perheet aloittavat päivänsä juhlavalla pääsiäisaamiaisella, joka sisältää värillisiä munia, makeaa palmikoitua leipää ja pääsiäislammaskakkua. Lapset etsivät puutarhasta pääsiäispupun piilottamia munia ja herkkuja. Monissa seurakunnissa järjestetään pääsiäistulia, kulkueita ja iloisia jumalanpalveluksia kellojen kanssa.",
+          "funFacts": [
+            "Pääsiäinen voi olla 22. maaliskuuta ja 25. huhtikuuta välisenä aikana – seuraava \"varhainen\" pääsiäinen (22. maaliskuuta) palaa vasta vuonna 2285.",
+            "Maailman suurin pääsiäispupu seisoo Brasiliassa ja on yli 4,2 metriä pitkä.",
+            "Venäjän ortodoksiset kristityt viettävät pääsiäistä usein eri päivänä kuin länsimaiset kristityt, koska he käyttävät Juliaanista kalenteria.",
+            "Puolassa pyhän lauantain ruokakorit ('Święconka') siunataan sunnuntai-ateriaa varten."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "pentecost": {
+          "intro": "Helluntaita vietetään pääsiäisajan viidentenäkymmenentenä päivänä ja se merkitsee Pyhän Hengen laskeutumista apostolien päälle. Monissa maissa se avaa pitkän viikonlopun yhdessä helluntaimaanantain kanssa.",
+          "history": "Nimi tulee kreikan sanasta \"pentekoste\", 50. päivä, ja juhla kasvoi juutalaisesta shavuotista. Apostolien teot kertovat kuinka opetuslapset alkoivat puhua monilla kielillä ja 3000 ihmistä kastettiin, minkä vuoksi helluntaita kutsutaan kirkon syntymäpäiväksi.",
+          "traditions": "Kirkot on koristeltu punaisella, Hengen värillä, ja kyyhkyset näkyvät taideteoksissa ja kulkueissa. Euroopan maaseudulla päivä on sidottu alkukesään: koivunoksat koristavat ovia, kylät kruunaavat helluntaikuninkaan ja perheet suuntaavat ulos vuoden ensimmäiselle suurelle piknikille.",
+          "funFacts": [
+            "Italian kirkoissa punaisia ​​ruusun terälehtiä pudotettiin kerran katosta edustamaan tulen kieliä.",
+            "Englanninkielinen nimi Whitsun tulee tänä päivänä kastettujen ihmisten valkoisista vaatteista.",
+            "Helluntai on aina 10. toukokuuta ja 13. kesäkuuta välisenä aikana.",
+            "Pioneja kutsutaan helluntairuusuiksi useilla kielillä, koska ne kukkivat juuri oikeaan aikaan."
+          ]
+        },
+        "christmas": {
+          "intro": "Joulu 25. joulukuuta on kristinuskon tärkein juhla – Jeesuksen Kristuksen syntymän juhla – ja maailmanlaajuinen perheen, rauhan ja lahjojen juhla.",
+          "history": "Joulukuun 25. päivä on dokumentoitu nimellä \"dies natalis Christi\" jo vuonna 354 roomalaisessa kalenterissa. Kirkko valitsi todennäköisesti päivämäärän antaakseen roomalaiselle Sol Invictus -talvipäivänseisauksen juhlalle kristillisen merkityksen. Lahjojen antamisen juuret ovat tietäjien lahjoissa. Tuttu joulupukki, jolla on punainen takki ja valkoinen parta, on sekoitus Pyhää Nikolausta ja vuoden 1931 Coca-Cola-mainoskampanjaa.",
+          "traditions": "Perheet kokoontuvat nauttimaan juhlaaterioita – kalkkunaa, hanhia, karppia tai raclettea. Lahjoja vaihdetaan, lauluja lauletaan, monet osallistuvat juhlajumalanpalvelukseen. Valoilla, koristeilla ja olkitähdillä koristeltu joulukuusi on keskeinen symboli. Adventtikalenterit, keksit ja vierailut joulumarkkinoille kuuluvat joulun odotukseen.",
+          "funFacts": [
+            "Ensimmäinen kaupallinen adventtikalenteri ilmestyi vuonna 1908 Münchenissä – sen kehitti Gerhard Lang.",
+            "Dresdenin (Striezelmarkt, vuodesta 1434) ja Frankfurtin (vuodesta 1393) joulumarkkinat ovat maailman vanhimpia.",
+            "Norja on lahjoittanut Iso-Britannialle jättiläismäisen joulukuusen Trafalgar Squarelle joka vuosi vuodesta 1947 lähtien – kiitoksena avusta toisen maailmansodan aikana.",
+            "Jouluklassikot, kuten \"Three Wishes for Cinderella\" ja \"Love Actually\", esitetään televisiossa kymmeniä kertoja maailmanlaajuisesti joka vuosi."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "ru": {
+        "new_year": {
+          "intro": "1 января знаменует собой начало нового года по григорианскому календарю во всем мире. Для многих это день надежды, новых начинаний и новых планов.",
+          "history": "Еще в 153 г. до н.э. римляне установили начало года 1 января, в день вступления в должность новых консулов. В средние века начало года во многих регионах переносилось на Рождество или Пасху. Григорианский календарь ввели в 1582 году. Европейские страны переходили на него и на начало года 1 января в разное время. Название Январь восходит к римскому богу Янусу, который смотрел одновременно на прошлое и будущее двумя лицами — подходящий символ дня.",
+          "traditions": "В полночь семьи и друзья поднимают бокалы с игристым вином и отмечают начало года фейерверками, талисманами (клевер, трубочист, божья коровка) и традиционным гаданием на расплавленном свинце (сейчас чаще используют воск). Популярны также новогодние бранчи и прогулки на свежем воздухе. Многие люди дают себе обещания на предстоящий год.",
+          "funFacts": [
+            "В Испании люди съедают одну виноградинку при каждом из двенадцати ударов колокола — одно желание на виноградинку.",
+            "В Дании люди разбивают старую посуду перед дверями друзей, чтобы принести им удачу.",
+            "Венский новогодний концерт транслируется более чем в 90 странах и считается музыкальным началом года.",
+            "На Киритимати в островном государстве Кирибати Новый год наступает на 26 часов раньше, чем на острове Хауленд."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "Международный женский день 8 марта выступает во всем мире за равенство женщин, их достижения и борьбу с дискриминацией.",
+          "history": "Международный женский день возник из социалистического женского движения. В 1910 году в Копенгагене Клара Цеткин предложила проводить ежегодный международный день действий; первые мероприятия состоялись в 1911 году. ООН впервые отметила этот день в 1975 году. В декабре 1977 года Генеральная Ассамблея ООН приняла резолюцию о дне борьбы за права женщин и международный мир.",
+          "traditions": "Женщины получают цветы — традиционно мимозы или тюльпаны — вместе с открытками и небольшими подарками. Во многих городах проводятся демонстрации, лекции и культурные мероприятия. В Берлине 8 марта является государственным праздником с 2019 года; в Италии мужчины дарят женщинам веточки мимозы.",
+          "funFacts": [
+            "В России и ряде стран бывшего СССР 8 марта является официальным нерабочим государственным праздником.",
+            "Мекленбург-Передняя Померания в 2023 году стала второй землей Германии после Берлина, сделавшей Женский день государственным праздником.",
+            "Тема ООН ко Дню женщин в 2024 году: «Инвестируйте в женщин: ускоряйте прогресс».",
+            "В Италии мимоза является символом женской силы, ведь она цветет даже в самых суровых условиях."
+          ],
+          "imageCredit": "Photo: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Пасхальное воскресенье — высший праздник христианства — день воскресения Иисуса Христа и кульминация церковного года.",
+          "history": "Пасха выросла из еврейской Пасхи и отмечается христианами с I века. В 325 году в Никее Церковь установила, что Пасха всегда празднуется в первое воскресенье после первого весеннего полнолуния — отсюда и передвижная дата между 22 марта и 25 апреля. Английское название «Пасха», возможно, восходит к германской богине весны Эостре или просто к древневерхненемецкому «eostarum» (рассвет).",
+          "traditions": "Семьи начинают день с праздничного пасхального завтрака, состоящего из крашеных яиц, сладкой плетенки и пасхального кулича из барашка. Дети ищут в саду яйца и угощения, спрятанные пасхальным кроликом. Во многих приходах устраивают пасхальные костры, крестные ходы и радостные службы с колоколами.",
+          "funFacts": [
+            "Пасха может выпасть на период с 22 марта по 25 апреля — следующая «ранняя» Пасха (22 марта) не вернется до 2285 года.",
+            "Самый большой в мире пасхальный кролик находится в Бразилии, его рост превышает 4,2 метра.",
+            "Русские православные христиане часто празднуют Пасху в другой день, чем западные христиане, поскольку они используют юлианский календарь.",
+            "В Польше в Великую субботу освящаются корзины с едой («Święconka») для воскресной трапезы."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "pentecost": {
+          "intro": "Пятидесятница отмечается на пятидесятый день пасхального периода и посвящена сошествию Святого Духа на апостолов. Во многих странах следующий понедельник также является праздничным выходным.",
+          "history": "Название происходит от греческого «пентекосте», пятидесятый день, и праздник вырос из еврейского Шавуота. В Деяниях Апостолов рассказывается, как ученики начали говорить на многих языках и крестилось 3000 человек, поэтому Пятидесятницу называют днем ​​рождения Церкви.",
+          "traditions": "Церкви украшены красным цветом, цветом Духа, а на произведениях искусства и процессиях появляются голуби. В сельской Европе этот день привязан к началу лета: березовые ветки украшают двери, деревни коронуют короля Пятидесятницы, а семьи отправляются на природу на первый большой пикник в году.",
+          "funFacts": [
+            "В итальянских церквях когда-то с потолка падали лепестки красных роз, изображая языки огня.",
+            "Английское название Whitsun происходит от белых одежд людей, крестившихся в этот день.",
+            "Пятидесятница всегда приходится на период с 10 мая по 13 июня.",
+            "Пионы на нескольких языках называют розами Пятидесятницы, потому что они цветут точно в срок."
+          ]
+        },
+        "christmas": {
+          "intro": "Рождество 25 декабря — один из важнейших праздников христианства — празднование рождения Иисуса Христа — и во всем мире праздник семьи, мира и подарков.",
+          "history": "25 декабря задокументировано как «dies natalis Christi» уже в 354 году по римскому календарю. Церковь, вероятно, выбрала эту дату, чтобы придать римскому фестивалю зимнего солнцестояния Sol Invictus христианское значение. Дарение подарков уходит своими корнями в дары волхвов. Знакомый Санта-Клаус в красном пальто и белой бороде — это смесь Святого Николая и рекламной кампании Coca-Cola 1931 года.",
+          "traditions": "Семьями собираются за праздничным обедом — индейкой, гусем, карпом или раклетом. Обмениваются подарками, поются колядки, многие посещают праздничную службу. Центральным символом является украшенная елка с огнями, украшениями и соломенными звездами. Адвент-календари, печенье и посещение рождественских рынков являются частью подготовки.",
+          "funFacts": [
+            "Первый коммерческий адвент-календарь появился в 1908 году в Мюнхене — его изобрел Герхард Ланг.",
+            "Рождественские ярмарки в Дрездене («Штризельмаркт», с 1434 г.) и Франкфурте (с 1393 г.) являются одними из старейших в мире.",
+            "Норвегия дарит Великобритании гигантскую рождественскую елку на Трафальгарской площади каждый год, начиная с 1947 года — в знак благодарности за помощь во время Второй мировой войны.",
+            "Праздничные классические фильмы, такие как «Три желания для Золушки» и «Реальная любовь», каждый год десятки раз показывают по телевидению по всему миру."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "uk": {
+        "new_year": {
+          "intro": "1 січня відзначає початок нового року за григоріанським календарем у всьому світі. Для багатьох це день надії, нових починань і нових планів.",
+          "history": "Ще в 153 році до нашої ери римляни встановили початок року 1 січня, день, коли нові консули вступали на посаду. У середні віки початок року в багатьох регіонах зміщувався на Різдво чи Великдень. Григоріанський календар запровадили 1582 року. Європейські країни переходили на нього та на початок року 1 січня в різний час. Англійська назва січня January походить від римського бога Януса, який двома обличчями дивився одночасно на минуле і майбутнє — відповідний символ дня.",
+          "traditions": "Опівночі родини та друзі піднімають келихи з ігристим вином і святкують початок року феєрверками, щасливими талісманами (конюшина, сажотрус, сонечко) і традиційним ворожінням на розплавленому свинці (нині частіше використовують віск). Також популярний новорічний бранч і прогулянка на свіжому повітрі. Багато людей дають собі обіцянки на прийдешній рік.",
+          "funFacts": [
+            "В Іспанії люди їдять одну виноградину під час кожного з дванадцяти ударів дзвоника — одне бажання на кожну виноградину.",
+            "У Данії люди розбивають старий посуд перед дверима друзів, щоб принести їм удачу.",
+            "Віденський новорічний концерт транслюється в понад 90 країнах і вважається музичним початком року.",
+            "На Кіритіматі в острівній державі Кірибаті Новий рік настає на 26 годин раніше, ніж на острові Гауленд."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "womens_day": {
+          "intro": "Міжнародний жіночий день 8 березня в усьому світі виступає за рівність жінок, їхні досягнення та боротьбу з дискримінацією.",
+          "history": "Міжнародний жіночий день виник із соціалістичного жіночого руху. У 1910 році в Копенгагені Клара Цеткін запропонувала проводити щорічний міжнародний день дій; перші заходи відбулися 1911 року. ООН уперше відзначила цей день у 1975 році. У грудні 1977 року Генеральна Асамблея ООН ухвалила резолюцію про день боротьби за права жінок і міжнародний мир.",
+          "traditions": "Жінки отримують квіти — традиційно мімози або тюльпани — разом із листівками та маленькими подарунками. У багатьох містах проводяться демонстрації, лекції та культурні заходи. У Берліні 8 березня є державним святом з 2019 року; в Італії чоловіки дарують жінкам гілочки мімози.",
+          "funFacts": [
+            "У Росії та деяких країнах колишнього СРСР 8 березня є офіційним неробочим святом.",
+            "У 2023 році Мекленбург-Передня Померанія стала другою після Берліна землею Німеччини, яка зробила жіночий день державним святом.",
+            "Тема ООН до Дня жінок у 2024 році: «Інвестуйте в жінок: прискорюйте прогрес».",
+            "В Італії мімоза є символом жіночої сили, тому що вона цвіте навіть у важких умовах."
+          ],
+          "imageCredit": "Photo: Alina.neve · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "easter_sunday": {
+          "intro": "Великдень — найвище свято християнства — день воскресіння Ісуса Христа і кульмінація церковного року.",
+          "history": "Великдень виник із єврейської Пасхи і відзначається християнами з 1 століття. У 325 році в Нікеї церква встановила, що Великдень завжди святкується в першу неділю після першого весняного повного місяця — звідси рухається дата між 22 березня та 25 квітня. Англійська назва «Великдень» може походити від німецької богині весни Еостре або просто від давньоверхньонімецького «eostarum» (світанок).",
+          "traditions": "Сім’ї починають день зі святкового великоднього сніданку з фарбованими яйцями, солодким плетеним хлібом та пасхальним баранчиком. Діти шукають у саду яйця та ласощі, заховані Великоднім кроликом. У багатьох парафіях проводяться великодні вогнища, хресні ходи та радісні богослужіння з дзвонами.",
+          "funFacts": [
+            "Великдень може припасти на період з 22 березня по 25 квітня — наступна «рання» Пасха (22 березня) повернеться лише у 2285 році.",
+            "Найбільший у світі пасхальний кролик стоїть у Бразилії, його висота перевищує 4,2 м.",
+            "Російські православні християни часто святкують Великдень в інший день, ніж західні християни, оскільки вони використовують юліанський календар.",
+            "У Польщі у Велику Суботу кошики зі їжею («Święconka») освячуються для недільної трапези."
+          ],
+          "imageCredit": "Photo: Geolina163 · CC BY-SA 4.0 via Wikimedia Commons"
+        },
+        "pentecost": {
+          "intro": "П’ятидесятницю, або Троїчну неділю, відзначають на п’ятдесятий день великоднього періоду. Вона присвячена зішестю Святого Духа на апостолів. У багатьох країнах наступний понеділок також є святковим вихідним.",
+          "history": "Назва походить від грецького «pentekoste», п’ятдесятий день, а свято виросло з єврейського Шавуот. У Діяннях Апостолів розповідається про те, як учні почали говорити багатьма мовами і 3000 людей охрестилися, тому П’ятидесятницю називають днем ​​народження Церкви.",
+          "traditions": "Церкви прикрашені червоним кольором, кольором Духа, а на витворах мистецтва та процесіях з’являються голуби. У сільській Європі цей день прив’язаний до початку літа: березові гілки прикрашають двері, у селах вінчають короля П’ятидесятниці, а сім’ї збираються на вулицю на перший великий пікнік у році.",
+          "funFacts": [
+            "В італійських церквах колись скидали зі стелі пелюстки червоних троянд, символізуючи язики вогню.",
+            "Англійська назва Whitsun походить від білих шат людей, хрещених у цей день.",
+            "П'ятидесятниця завжди припадає на період з 10 травня до 13 червня.",
+            "У кількох мовах півонії називають трояндами П’ятидесятниці, тому що вони розпускаються точно вчасно."
+          ]
+        },
+        "christmas": {
+          "intro": "Різдво 25 грудня є одним із найважливіших християнських свят — святкуванням народження Ісуса Христа — і в усьому світі святом сім’ї, миру та подарунків.",
+          "history": "25 грудня задокументовано як «dies natalis Christi» ще в 354 році в римському календарі. Ймовірно, церква вибрала цю дату, щоб надати римському фестивалю зимового сонцестояння «Sol Invictus» християнського значення. Дарування подарунків сягає корінням у дари волхвів. Знайомий Санта-Клаус у червоному халаті та білій бороді – це суміш Святого Миколая та рекламної кампанії Coca-Cola 1931 року.",
+          "traditions": "Сім'ї збираються на святкові страви — індичку, гуску, коропа чи раклет. Обмінюються подарунками, співають колядки, багато хто відвідує святкову службу. Центральним символом є прикрашена вогнями, прикрасами та солом’яними зірками ялинка. Адвент-календарі, печиво та відвідування різдвяних ярмарків є частиною підготовки.",
+          "funFacts": [
+            "Перший комерційний адвент-календар з'явився в 1908 році в Мюнхені — його винайшов Герхард Ланг.",
+            "Різдвяні ярмарки в Дрездені («Striezelmarkt», з 1434 р.) і Франкфурті (з 1393 р.) є одними з найстаріших у світі.",
+            "Норвегія щороку з 1947 року дарує Великій Британії гігантську ялинку на Трафальгарській площі — як подяку за допомогу під час Другої світової війни.",
+            "Святкова класика, як-от «Три бажання для Попелюшки» та «Справжнє кохання» щороку показують десятки разів на телебаченні по всьому світу."
+          ],
+          "imageCredit": "Photo: Chris Olszewski · CC BY-SA 4.0 via Wikimedia Commons"
+        }
+      },
+      "ja": {
+        "new_year": {
+          "intro": "1月1日は、世界中でグレゴリオ暦による新年の始まりを告げる日です。多くの人々にとって、この日は希望に満ちた日であり、新たなスタートを切る日であり、新年の抱負を立てる日でもあります。",
+          "history": "早くも紀元前153年、ローマ人は新年の始まりを、新任の執政官が就任する1月1日と定めた。中世になると、多くの地域で新年の始まりはクリスマスやイースターへと移っていった。 グレゴリオ暦は1582年に導入されました。ヨーロッパ各国がこの暦を採用した時期や、1月1日を年初とした時期は、それぞれ異なります。「1月（January）」という名称は、二つの顔で過去と未来を同時に見つめていたローマの神ヤヌスに由来しており、この日はまさにその神にふさわしい象徴である。",
+          "traditions": "真夜中になると、家族や友人はスパークリングワインで乾杯し、花火や縁起物（クローバー、煙突掃除人、てんとう虫）、そして伝統的な鉛流し（現在は蝋流し）で年越しを祝います。新年のブランチや、新鮮な空気を吸いながらの散歩も人気です。多くの人が、その年の抱負を立てます。",
+          "funFacts": [
+            "スペインでは、鐘が12回鳴るたびに、そのたびにブドウを1粒ずつ食べます。ブドウ1粒ごとに1つの願いを込めるのです。",
+            "デンマークでは、友人たちの家の玄関先で古い食器を割ることで、その人たちに幸運をもたらす習慣があります。",
+            "ウィーンの新年コンサートは90カ国以上で放送され、その年の音楽界の幕開けとして知られています。",
+            "島国キリバスのキリティマティ島では、ハウランド島よりも26時間早く新年を迎えます。"
+          ],
+          "imageCredit": "写真：ヴィャチェスラフ・アルゲンベルク · CC BY 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "womens_day": {
+          "intro": "3月8日の「国際女性デー」は、世界中で女性の平等、女性の功績、そして差別との闘いを象徴する日となっています。",
+          "history": "国際女性デーは、社会主義の女性運動から生まれました。クララ・ツェトキンは1910年にコペンハーゲンで、毎年開催する国際的な行動の日を提案し、最初の催しは1911年に行われました。国連が初めてこの日を祝ったのは1975年です。1977年12月には、国連総会が女性の権利と国際平和のための日に関する決議を採択しました。",
+          "traditions": "女性たちは、カードやささやかな贈り物とともに、花（伝統的にはミモザやチューリップ）を贈られます。多くの都市では、デモ行進や講演、文化イベントが開催されます。ベルリンでは、2019年から3月8日が祝日となっています。イタリアでは、男性が女性にミモザの小枝を贈ります。",
+          "funFacts": [
+            "ロシアや旧ソ連諸国のいくつかでは、3月8日は公式の祝日であり、休業日となっています。",
+            "2023年、メクレンブルク＝フォアポンメルン州は、ベルリンに次いでドイツで2番目の州として、国際女性デーを公休日としました。",
+            "2024年の国際女性デーの国連テーマは「女性への投資：進歩を加速させよう」でした。",
+            "イタリアでは、ミモザは過酷な環境でも花を咲かせることから、女性の強さの象徴とされています。"
+          ],
+          "imageCredit": "写真：Alina.neve · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "easter_sunday": {
+          "intro": "イースターの日曜日は、キリスト教において最も重要な祭日であり、イエス・キリストの復活の日であり、教会暦のクライマックスでもあります。",
+          "history": "イースターはユダヤ教の過越祭に由来し、1世紀以来、キリスト教徒によって祝われてきました。教会は325年にニカイアで、イースターを常に春の最初の満月の後の最初の日曜日に祝うことを定めました。そのため、その日付は3月22日から4月25日の間で変動します。 英語の「イースター（Easter）」という名称は、ゲルマン神話の春の女神エオストレ（Eostre）に由来する可能性もあれば、単に古高ドイツ語の「eostarum」（夜明け）に由来する可能性もあります。",
+          "traditions": "各家庭では、色とりどりの卵や甘い編み込みパン、イースター・ラムケーキなどが並ぶ、お祝いのイースター朝食で一日を始めます。子供たちは、イースター・バニーが庭に隠した卵やお菓子を探し回ります。多くの教区では、イースターの焚き火や行列、鐘の音を伴う賑やかな礼拝が行われます。",
+          "funFacts": [
+            "イースターは3月22日から4月25日までの間に当たることがあります。次に「早い」イースター（3月22日）が訪れるのは、2285年になってからです。",
+            "世界最大のイースターバニーはブラジルにあり、高さは4.2メートル以上あります。",
+            "ロシア正教徒はユリウス暦を採用しているため、西洋のキリスト教徒とは異なる日に復活祭を祝うことがよくあります。",
+            "ポーランドでは、聖土曜日に、日曜日の食事用に用意された食べ物の入ったかご（「シュヴィェコンカ」）が祝福されます。"
+          ],
+          "imageCredit": "写真：Geolina163 · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "pentecost": {
+          "intro": "ペンテコステ、または聖霊降臨祭の日曜日は、復活祭当日を含めて50日目に祝われ、使徒たちに聖霊が降臨したことを記念します。多くの国では、聖霊降臨祭の月曜日とともに長い週末が始まります。",
+          "history": "名前はギリシャ語の「ペンテコステ」（50日目）に由来しており、この祝日はユダヤ人のシャブオットから派生したものです。使徒言行録には、弟子たちがどのようにして多くの言語を話し始め、3,000人が洗礼を受けたかが記されており、ペンテコステが教会の誕生日と呼ばれる所以です。",
+          "traditions": "教会は聖霊の色である赤で装飾され、芸術作品や行列には鳩が登場します。ヨーロッパの田舎では、この日は初夏と結びついています。白樺の枝がドアを飾り、村ではペンテコステの王に戴冠があり、家族はその年最初の大きなピクニックに屋外に出かけます。",
+          "funFacts": [
+            "イタリアの教会では、かつては火の舌を表すために天井から赤いバラの花びらが落ちていました。",
+            "英語名 Whitsun は、この日に洗礼を受けた人々の白いローブに由来しています。",
+            "ペンテコステは常に 5 月 10 日から 6 月 13 日までの間にあります。",
+            "牡丹は、ちょうどいいタイミングで開花するため、いくつかの言語でペンテコステのバラと呼ばれています。"
+          ]
+        },
+        "christmas": {
+          "intro": "12月25日のクリスマスは、キリスト教において最も重要な祭日であり、イエス・キリストの誕生を祝うもので、世界中で家族、平和、そして贈り物を祝う祭りとなっています。",
+          "history": "12月25日は、早くも354年のローマ暦において「dies natalis Christi（キリストの誕生日）」として記録されている。教会がこの日付を選んだのは、ローマの冬至祭「ソル・インヴィクトゥス」にキリスト教的な意味を持たせるためだったと考えられる。 贈り物の習慣は、東方の三博士が持参した贈り物にその起源があります。赤いコートに白いひげというお馴染みのサンタクロースは、聖ニコラウスと1931年のコカ・コーラの広告キャンペーンが融合した姿です。",
+          "traditions": "家族が集まり、七面鳥やガチョウ、鯉、あるいはラクレットといったお祝いの食事を楽しみます。贈り物を交換し、クリスマスキャロルを歌い、多くの人がクリスマス礼拝に出席します。ライトやオーナメント、わらの星で飾られたクリスマスツリーが、その中心的なシンボルです。アドベントカレンダーやクッキー、クリスマスマーケットへの訪問も、クリスマスに向けた準備の一環です。",
+          "funFacts": [
+            "最初の市販のアドベントカレンダーは、1908年にミュンヘンで登場しました。これはゲルハルト・ラングによって考案されたものです。",
+            "ドレスデン（「シュトリーツェルマルクト」、1434年より）とフランクフルト（1393年より）のクリスマスマーケットは、世界でも最も古いものの一つに数えられます。",
+            "ノルウェーは、第二次世界大戦中の支援への感謝の印として、1947年以来毎年、トラファルガー広場に飾る巨大なクリスマスツリーを英国に贈呈している。",
+            "『シンデレラの3つの願い』や『ラブ・アクチュアリー』といったホリデーシーズンの定番作品は、毎年世界中のテレビで数十回も放送されている。"
+          ],
+          "imageCredit": "写真：クリス・オルシェフスキー · CC BY-SA 4.0（ウィキメディア・コモンズ経由）"
+        }
+      },
+      "ko": {
+        "new_year": {
+          "intro": "1월 1일은 전 세계적으로 그레고리력에 따른 새해의 시작을 알리는 날입니다. 많은 이들에게 이 날은 희망과 새로운 시작, 그리고 새해 결심을 다지는 날입니다.",
+          "history": "기원전 153년 무렵, 로마인들은 새 집정관이 취임하는 날인 1월 1일을 한 해의 시작으로 정했습니다. 중세 시대에는 많은 지역에서 한 해의 시작이 크리스마스나 부활절로 바뀌었습니다. 그레고리력은 1582년에 도입됐습니다. 유럽 각국이 이 달력을 채택한 시기와 1월 1일을 한 해의 시작으로 정한 시기는 서로 달랐습니다. ‘1월(January)’이라는 이름은 두 개의 얼굴로 과거와 미래를 동시에 바라보던 로마 신 야누스(Janus)에서 유래한 것으로, 이 날을 상징하기에 더할 나위 없이 적합한 이름입니다.",
+          "traditions": "자정이 되면 가족과 친구들은 스파클링 와인으로 건배를 나누고, 불꽃놀이와 행운의 상징(클로버, 굴뚝 청소부, 무당벌레), 그리고 전통적인 납 부어보기(현재는 왁스 부어보기)를 통해 새해의 시작을 축하합니다. 새해 브런치와 야외 산책도 인기가 많습니다. 많은 사람들이 다가올 한 해를 위한 새해 결심을 세우기도 합니다.",
+          "funFacts": [
+            "스페인에서는 종소리가 12번 울릴 때마다 포도 한 알씩 먹는데, 포도 한 알마다 소원 하나를 빌게 됩니다.",
+            "덴마크에서는 친구들에게 행운을 빌어주기 위해 친구 집 문 앞에서 낡은 그릇을 깨뜨리는 풍습이 있습니다.",
+            "비엔나 신년 콘서트는 90여 개국에서 방송되며, 한 해의 음악 활동을 시작하는 행사로 꼽힌다.",
+            "섬나라 키리바티의 키리티마티섬에서는 하울랜드섬보다 26시간 먼저 새해를 맞이합니다."
+          ],
+          "imageCredit": "사진: Vyacheslav Argenberg · CC BY 4.0 (위키미디어 공용 제공)"
+        },
+        "womens_day": {
+          "intro": "3월 8일 세계 여성의 날은 전 세계적으로 여성의 평등, 여성의 업적, 그리고 차별에 맞선 투쟁을 상징합니다.",
+          "history": "세계 여성의 날은 사회주의 여성 운동에서 비롯되었습니다. 클라라 체트킨은 1910년 코펜하겐에서 매년 국제적인 행동의 날을 열자고 제안했고, 첫 행사는 1911년에 열렸습니다. 유엔은 1975년에 처음으로 이 날을 기념했습니다. 1977년 12월에는 유엔 총회가 여성의 권리와 국제 평화를 위한 날에 관한 결의를 채택했습니다.",
+          "traditions": "여성들은 전통적으로 미모사나 튤립 같은 꽃과 함께 카드 및 소소한 선물을 받습니다. 많은 도시에서 시위, 강연, 문화 행사가 열립니다. 베를린에서는 2019년부터 3월 8일이 공휴일로 지정되었으며, 이탈리아에서는 남성들이 여성들에게 미모사 가지를 선물합니다.",
+          "funFacts": [
+            "러시아와 몇몇 구소련 국가에서는 3월 8일이 공식 휴일입니다.",
+            "메클렌부르크-포어포메른주는 2023년 베를린에 이어 독일에서 두 번째로 여성의 날을 공휴일로 지정했습니다.",
+            "2024년 세계 여성의 날 유엔 주제는 ‘여성에게 투자하라: 발전을 가속하라’였습니다.",
+            "이탈리아에서 미모사는 험난한 환경 속에서도 꽃을 피우기 때문에 여성의 강인함을 상징합니다."
+          ],
+          "imageCredit": "사진: Alina.neve · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "easter_sunday": {
+          "intro": "부활절 주일은 기독교에서 가장 중요한 축일로서, 예수 그리스도의 부활을 기념하는 날이자 교회 연중의 절정입니다.",
+          "history": "부활절은 유대교의 유월절에서 유래했으며, 1세기부터 기독교인들에 의해 기념되어 왔다. 교회는 325년 니케아 공의회에서 부활절을 항상 봄의 첫 보름달이 뜬 후 첫 번째 일요일에 기념하기로 정했다. 따라서 부활절 날짜는 3월 22일부터 4월 25일 사이로 매년 달라진다. 영어 이름 ‘Easter’는 게르만족의 봄의 여신 에오스트레(Eostre)에서 유래했을 수도 있고, 단순히 고대 고지 독일어 ‘eostarum’(새벽)에서 비롯되었을 수도 있습니다.",
+          "traditions": "가족들은 색칠한 달걀, 달콤한 땋은 빵, 부활절 양 모양 케이크가 어우러진 축제 분위기의 부활절 아침 식사로 하루를 시작합니다. 아이들은 정원에서 부활절 토끼가 숨겨 놓은 달걀과 간식을 찾아 헤맵니다. 많은 본당에서는 부활절 모닥불을 피우고, 행렬을 벌이며, 종소리가 울려 퍼지는 즐거운 미사를 거행합니다.",
+          "funFacts": [
+            "부활절은 3월 22일부터 4월 25일 사이에 찾아올 수 있는데, 다음 ‘이른’ 부활절(3월 22일)은 2285년이 되어야 다시 찾아옵니다.",
+            "세계에서 가장 큰 부활절 토끼 조각상이 브라질에 세워져 있으며, 높이는 4.2m가 넘는다.",
+            "러시아 정교회 신자들은 율리우스력을 사용하기 때문에 서방 기독교인들과는 다른 날에 부활절을 기념하는 경우가 많습니다.",
+            "폴란드에서는 성토일에 일요일 식사를 위해 준비한 음식 바구니('Święconka')에 축복을 받습니다."
+          ],
+          "imageCredit": "사진: Geolina163 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        },
+        "pentecost": {
+          "intro": "성령 강림 대축일은 부활절 당일부터 세어 쉰째 날에 지내며, 사도들에게 성령이 내려오신 일을 기념합니다. 많은 나라에서는 다음 월요일도 공휴일이어서 연휴로 이어집니다.",
+          "history": "이름은 50일을 의미하는 그리스어 \"pentekoste\"에서 유래되었으며 이 절기는 유대인의 Shavuot에서 유래되었습니다. 사도행전에는 제자들이 여러 언어로 말하기 시작하고 3,000명이 세례를 받은 일이 기록되어 있는데, 이것이 바로 오순절을 교회의 탄생일이라고 부르는 이유입니다.",
+          "traditions": "교회는 성령의 색인 붉은색으로 장식되고, 예술품과 행렬에는 비둘기가 등장한다. 유럽 ​​시골 지역에서는 그 날이 초여름과 관련이 있습니다. 자작나무 가지가 문을 장식하고, 마을이 오순절 왕으로 왕관을 쓰고, 가족들은 올해 첫 번째 큰 소풍을 위해 밖으로 나갑니다.",
+          "funFacts": [
+            "이탈리아 교회에서는 불의 혀를 상징하기 위해 붉은 장미 꽃잎이 천장에서 떨어진 적이 있습니다.",
+            "영어이름 Whitsun은 이날 세례를 받은 사람들의 흰옷에서 따온 것이다.",
+            "오순절은 항상 5월 10일에서 6월 13일 사이에 옵니다.",
+            "모란은 제때에 꽃이 핀다고 해서 여러 언어로 오순절 장미라고 불립니다."
+          ]
+        },
+        "christmas": {
+          "intro": "12월 25일의 크리스마스는 예수 그리스도의 탄생을 기념하는 기독교에서 가장 중요한 명절이며, 전 세계적으로 가족, 평화, 선물을 나누는 축제입니다.",
+          "history": "12월 25일은 빠르면 354년 로마 달력에서 ‘dies natalis Christi’로 기록되어 있다. 교회는 로마의 동지 축제인 ‘솔 인빅투스(Sol Invictus)’에 기독교적 의미를 부여하기 위해 이 날짜를 선택한 것으로 보인다. 선물 교환의 기원은 동방박사들이 가져온 선물에서 비롯됩니다. 빨간 옷과 흰 수염을 한 우리에게 친숙한 산타클로스는 성 니콜라스와 1931년 코카콜라 광고 캠페인이 결합된 모습입니다.",
+          "traditions": "가족들은 칠면조, 거위, 잉어, 라클렛 등 명절 음식을 함께 즐기기 위해 모입니다. 선물을 주고받고, 캐럴을 부르며, 많은 이들이 성탄 예배에 참석합니다. 불빛과 장식품, 짚으로 만든 별이 장식된 크리스마스 트리는 이 시기의 중심적인 상징입니다. 대림 달력, 쿠키, 크리스마스 마켓 방문 등은 성탄절을 앞둔 기간의 풍경입니다.",
+          "funFacts": [
+            "최초의 상업용 어드벤트 캘린더는 1908년 뮌헨에서 등장했는데, 게르하르트 랑이 발명했다.",
+            "드레스덴(‘스트리첼마르크트’, 1434년부터)과 프랑크푸르트(1393년부터)의 크리스마스 시장은 세계에서 가장 오래된 시장 중 하나입니다.",
+            "노르웨이는 제2차 세계대전 당시 영국이 제공한 도움에 대한 감사의 표시로, 1947년부터 매년 트라팔가 광장에 세울 거대한 크리스마스 트리를 영국에 기증해 왔다.",
+            "‘신데렐라의 세 가지 소원’이나 ‘러브 액츄얼리’와 같은 명절 명작 영화들은 매년 전 세계 TV에서 수십 차례 방영된다."
+          ],
+          "imageCredit": "사진: 크리스 올셰프스키 · CC BY-SA 4.0 (위키미디어 공용 제공)"
+        }
+      },
+      "zh-Hant": {
+        "new_year": {
+          "intro": "1月1日標誌著全球公曆新年的開始。對許多人來說，這是一天充滿希望、嶄新起點與美好決心的日子。",
+          "history": "早在公元前153年，羅馬人便將新年的起始日定為1月1日，即新任執政官就職之日。中世紀期間，許多地區的新年起始日轉變為聖誕節或復活節。 格里曆於1582年開始實施，但歐洲各國採用這套曆法及將1月1日定為年初的時間並不相同。「一月」（January）這個名稱源自羅馬神祇雅努斯（Janus），他擁有兩張面孔，能同時凝視過去與未來——這正是對這一天的恰當象徵。",
+          "traditions": "午夜時分，親友們舉起氣泡酒共飲，並以煙火、吉祥物（三葉草、煙囪清掃工、瓢蟲）以及傳統的鉛鑄（現已改為蠟鑄）儀式來慶祝新年到來。新年早午餐和戶外散步也是很受歡迎的活動。許多人會為新的一年訂立新年決議。",
+          "funFacts": [
+            "在西班牙，人們會隨著鐘聲敲響的十二下，每響吃一顆葡萄——每顆葡萄代表一個願望。",
+            "在丹麥，人們會將舊陶器砸在朋友家門前，以祈求他們好運。",
+            "維也納新年音樂會的轉播遍及90多個國家，被視為年度音樂盛事的開端。",
+            "在島國吉里巴斯的吉里地馬地島，新年比豪蘭島早到來26小時。"
+          ],
+          "imageCredit": "照片：維亞切斯拉夫·阿根伯格 · 透過維基共享資源，採用 CC BY 4.0 授權"
+        },
+        "womens_day": {
+          "intro": "3月8日的國際婦女節在全球範圍內象徵著婦女平等、她們的成就以及反對歧視的鬥爭。",
+          "history": "國際婦女節源於社會主義婦女運動。克拉拉·蔡特金於1910年在哥本哈根提議設立每年一次的國際行動日，首批活動於1911年舉行。聯合國於1975年首次慶祝這一天。1977年12月，聯合國大會通過了關於婦女權利與國際和平日的決議。",
+          "traditions": "女性會收到鮮花——傳統上通常是含羞草或鬱金香——以及賀卡和小禮物。許多城市會舉辦示威遊行、講座和文化活動。在柏林，3月8日自2019年起即為法定假日；在義大利，男性會贈送女性含羞草枝條。",
+          "funFacts": [
+            "在俄羅斯及若干前蘇聯國家，3月8日是官方指定的非工作日。",
+            "2023年，梅克倫堡-前波美拉尼亞州成為繼柏林之後，德國第二個將婦女節定為公共假日的州。",
+            "2024年國際婦女節的聯合國主題是「投資於婦女：加速進步」。",
+            "在義大利，含羞草是女性力量的象徵，因為即使在艱困的環境下，它依然能綻放。"
+          ],
+          "imageCredit": "照片：Alina.neve · 透過維基共享資源，採用 CC BY-SA 4.0 授權"
+        },
+        "easter_sunday": {
+          "intro": "復活節主日是基督教最重要的節日——這一天是耶穌基督復活的日子，也是教會年曆的高潮。",
+          "history": "復活節源自猶太教的逾越節，自一世紀起便為基督徒所慶祝。教會於西元325年在尼西亞會議上規定，復活節應固定在春季首次滿月後的第一个星期日慶祝——因此日期會在3月22日至4月25日之間變動。 英文名稱「Easter」可能源自日耳曼春季女神伊奧斯特雷（Eostre），也可能單純源自古高地德語「eostarum」（黎明）。",
+          "traditions": "各家各戶會以一頓充滿節日氣氛的復活節早餐開啟新的一天，餐桌上擺滿彩蛋、甜味編織麵包和復活節羔羊蛋糕。孩子們會在花園裡尋找復活節兔子藏起來的彩蛋和點心。許多教區都會舉行復活節篝火、遊行，以及伴隨著鐘聲的歡樂禮拜。",
+          "funFacts": [
+            "復活節的日期可能落在 3 月 22 日至 4 月 25 日之間——下一個「較早」的復活節（3 月 22 日）要等到 2285 年才會再次出現。",
+            "世界上最大的復活節兔子矗立在巴西，高度超過 4.2 公尺。",
+            "俄羅斯東正教信徒慶祝復活節的日子通常與西方基督徒不同，因為他們使用儒略曆。",
+            "在波蘭，人們會在聖週六將裝有食物的籃子（「Święconka」）帶去接受祝福，以便用於週日的餐宴。"
+          ],
+          "imageCredit": "照片：Geolina163 · 透過維基共享資源，採用 CC BY-SA 4.0 授權"
+        },
+        "pentecost": {
+          "intro": "五旬節，或聖靈降臨節，在從復活節當天算起的第五十天慶祝，標誌著聖靈降臨在使徒身上。在許多國家，長週末與聖靈降臨節星期一一起開始。",
+          "history": "這個名字來自希臘語“pentekoste”，即第五十天，這個節日源自於猶太教的五旬節。 《使徒行傳》講述了門徒如何開始講多種語言，並有 3,000 人受洗，這就是為什麼五旬節被稱為教會的生日。",
+          "traditions": "教堂以紅色裝飾，這是聖靈的顏色，鴿子出現在藝術品和遊行中。在歐洲鄉村，這一天與初夏聯繫在一起：樺樹枝裝飾門，村莊為五旬節國王加冕，家庭前往戶外參加一年中的第一次大型野餐。",
+          "funFacts": [
+            "在義大利教堂裡，紅色的玫瑰花瓣曾經從天花板掉落，代表火舌。",
+            "英文名稱Whitsun來自於這一天受洗的人們的白袍。",
+            "五旬節總是在5月10日至6月13日之間。",
+            "牡丹在多種語言中被稱為五旬節玫瑰，因為它們準時開花。"
+          ]
+        },
+        "christmas": {
+          "intro": "12月25日的聖誕節是基督教最重要的節日——慶祝耶穌基督的誕生——也是全球各地以家庭、和平與禮物為主題的節日。",
+          "history": "早在354年，羅馬曆法中便已將12月25日記載為「dies natalis Christi」。教會選擇這個日期，很可能是為了賦予羅馬「不敗之太陽」（Sol Invictus）冬至節慶以基督教的意義。 互贈禮物的習俗源於東方三博士所獻的禮物。大家熟悉的紅衣白鬍子聖誕老人，是聖尼古拉斯與1931年可口可樂廣告活動的融合產物。",
+          "traditions": "家人們齊聚一堂享用節日大餐——火雞、鵝肉、鯉魚或拉克雷特起司。大家互贈禮物、齊唱聖誕頌歌，許多人還會參加節日禮拜。那棵裝飾著燈飾、掛飾和稻草星星的聖誕樹，正是節日的核心象徵。降臨節倒數日曆、聖誕餅乾以及逛聖誕市集，都是節日前夕的傳統活動。",
+          "funFacts": [
+            "第一款商業化的降臨節日曆於1908年在慕尼黑問世——由格哈德·朗發明。",
+            "德累斯頓（「Striezelmarkt」，自1434年起）和法蘭克福（自1393年起）的聖誕市集，均屬世界上歷史最悠久的聖誕市集之一。",
+            "自1947年起，挪威每年都會贈送一棵巨型聖誕樹給英國，供特拉法加廣場擺放——以此感謝英國在第二次世界大戰期間提供的援助。",
+            "像《灰姑娘的三個願望》和《真愛至上》這類節日經典電影，每年在全球各地的電視上都會播出數十次。"
+          ],
+          "imageCredit": "照片：克里斯·奧爾謝夫斯基 · 經維基共享資源提供，採用 CC BY-SA 4.0 授權"
+        }
+      }
+    }
+  },
+  "images": {
+    "new_year": [
+      {
+        "path": "images/new_year/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "womens_day": [
+      {
+        "path": "images/womens_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      }
+    ],
+    "easter_sunday": [
+      {
+        "path": "images/easter_sunday/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/easter_sunday/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/easter_sunday/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "pentecost": [
+      {
+        "path": "images/pentecost/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/pentecost/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/pentecost/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "christmas": [
+      {
+        "path": "images/christmas/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/christmas/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 20
+}

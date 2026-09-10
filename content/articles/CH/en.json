@@ -1,12 +1,12 @@
 {
   "swiss_national_day": {
     "intro": "Switzerland's National Day on August 1st commemorates the Federal Charter of 1291 — the symbolic founding act of the Confederation.",
-    "history": "In August 1291 the founding cantons of Uri, Schwyz and Unterwalden formed an ‘eternal alliance' on the Rütli meadow against Habsburg rule. For a long time the day was only a regional celebration in some cantons; only in 1891, on its 600-year jubilee, was it introduced nationwide. Until 1994 it was only a ‘half holiday'; in a referendum the Swiss decided by a large majority to upgrade it to a full work-free public holiday.",
+    "history": "The Federal Charter of 1291 records an alliance between Uri, Schwyz and Unterwalden. The Rütli oath belongs to the founding tradition; the charter does not name the meadow as its location. The jubilee celebration of 1891 was followed by annual national celebrations from 1899. Following a referendum, August 1 became a nationwide public holiday with time off work in 1994.",
     "traditions": "The highlight is the evening federal celebration with speeches, traditional songs like the ‘Swiss Psalm' and bonfires on the mountains. Families gather on the Rütli, on Lake Lucerne or in their communities for celebrations. Customary elements include waving Swiss flags, ringing bells and lighting beacon fires on heights. Classics on the table: cervelat sausage from the grill and Swiss apple cake.",
     "funFacts": [
       "The date ‘August 1st' comes from the Federal Charter, signed ‘in the first days of the month of August' 1291 — the exact day is an estimate.",
       "On the Rütli meadow on Lake Lucerne the central federal celebration takes place each year — admission is free.",
-      "There are traditional ‘federal celebration candies' with the Swiss cross — a sweet emblem of every party.",
+      "For 1 August, bakeries make 1.-August-Weggen: small loaves with a Swiss cross cut into the top.",
       "Switzerland is one of few countries worldwide whose national date is set not by a battle but by a treaty document."
     ],
     "imageCredit": "Photo: Thomas Roessler · CC BY-SA 3.0 via Wikimedia Commons"
@@ -27,7 +27,7 @@
     "traditions": "Every year walkers retrace the revolutionaries' route over the Vue des Alpes pass by night, arriving at the castle in the morning. Families gather for a \"torree\", sausages cooked in the embers of an open fire, and the cantonal government hosts an official ceremony.",
     "funFacts": [
       "The march covers about 20 kilometres through the snow of the Jura mountains.",
-      "The King of Prussia never set foot in his principality of Neuchatel.",
+      "Prussian King Frederick William IV visited the principality in 1842.",
       "Neuchatel was the last Swiss canton to become a republic.",
       "The torree is so typical that Neuchatel calls itself the canton of the open-fire sausage."
     ]
@@ -45,35 +45,35 @@
   },
   "geneva_prayday": {
     "intro": "The Geneva Fast, Jeune genevois, is held on the Thursday after the first Sunday of September and is a public holiday only in the canton of Geneva. Its symbol is the plum tart.",
-    "history": "Geneva held days of fasting and prayer from the sixteenth century, and tradition links the September date to mourning for the Huguenots killed in the Saint Bartholomew's Day massacre of 1572. The canton fixed the current date in 1831, long before the federal day of prayer.",
+    "history": "Geneva’s first known fast day was held in 1567 following news of the persecution of Protestants in Lyon. Its popular association with the Saint Bartholomew’s Day massacre of 1572 is a later interpretation. Extraordinary days of fasting and prayer gradually developed into a regular Geneva tradition.",
     "traditions": "Genevans eat \"tarte aux pruneaux\", a plum tart, which was once the simple dish permitted on a fast day. Today the holiday is mostly a long weekend for hiking and family visits, while bakeries sell thousands of tarts.",
     "funFacts": [
-      "The plum tart is said to have been invented so families could eat without cooking on a fast day.",
-      "Geneva does not observe the federal day of prayer two weeks later.",
-      "The holiday is the only official fast day still in the Swiss calendar.",
-      "Bakers in Geneva sell around 20,000 plum tarts on the day."
+      "Plum tart belongs to the culinary tradition of the Geneva Fast; it could once form the entire midday meal.",
+      "The federal day of prayer on the third Sunday of September falls ten days after the Geneva Fast.",
+      "Switzerland observes both the Geneva Fast and the Federal Day of Thanksgiving, Repentance and Prayer.",
+      "A law passed in 1966 restored the Geneva Fast as an official public holiday."
     ]
   },
   "federal_day_of_thanksgiving": {
-    "intro": "The Federal Day of Thanksgiving, Repentance and Prayer is held on the third Sunday of September in every canton except Geneva. It is an ecumenical day of reflection shared by all religious communities.",
-    "history": "Cantons had held days of prayer in times of war and plague for centuries. In 1832 the Federal Diet fixed a common date for the whole country, a symbol of unity across the religious divide between Catholic and Protestant cantons that had just fought each other.",
+    "intro": "The Federal Day of Thanksgiving, Repentance and Prayer is held on the third Sunday of September in every canton except Geneva.",
+    "history": "In 1832 the Federal Diet set the third Sunday in September as a common day of prayer. The tradition was intended to strengthen unity across denominational boundaries.",
     "traditions": "Churches hold joint services, and cantonal governments issue a traditional proclamation on a topic of public concern. In several cantons dancing and sport events are restricted, and the following Monday is a holiday in Vaud.",
     "funFacts": [
       "The day has no fixed religious owner: Catholics, Protestants, Jews and Christian Catholics all take part.",
       "The name mentions thanksgiving, repentance and prayer, one word for each purpose.",
-      "The first federal day of prayer in 1832 was held while Switzerland was still a loose confederation.",
-      "In Geneva the equivalent, the Geneva Fast, takes place two weeks earlier."
+      "Joint federal days of prayer existed before the present date was fixed in 1832.",
+      "The federal day of prayer on the third Sunday of September falls ten days after the Geneva Fast."
     ]
   },
   "federal_fast_monday": {
     "intro": "The Monday after the Federal Day of Prayer, \"Lundi du Jeune federal\", is a public holiday in the canton of Vaud. It extends the September day of prayer into a long weekend for the whole canton.",
-    "history": "Vaud alone kept the old custom of resting on the day after the fast, so that the Sunday remained a day of worship and the Monday a day of leisure. The holiday has been in the cantonal calendar since the nineteenth century.",
+    "history": "In Vaud, a free Monday follows the Sunday of prayer. The long weekend combines religious reflection with time for family and relaxation.",
     "traditions": "Families eat plum tart, the classic dish of Swiss fast days, and use the day for a last summer walk through the vineyards of Lavaux, where the grape harvest is about to begin. Many Vaudois visit relatives or take a short trip.",
     "funFacts": [
-      "Vaud is the only canton with a holiday on the Monday after the day of prayer.",
+      "Neuchâtel also recognises the Monday after the day of prayer as a non-working day, though its legal classification differs from Vaud’s.",
       "Plum season peaks in September, which explains the tart on the table.",
       "The Lavaux terraced vineyards above Lake Geneva are a UNESCO World Heritage site.",
-      "Shops in Lausanne stay closed while those in neighbouring cantons open."
+      "Shop-opening rules vary by canton, with exceptions for certain businesses."
     ]
   },
   "restoration_day": {
@@ -81,9 +81,9 @@
     "history": "Geneva had been annexed by France in 1798. On 31 December 1813, as Napoleon's empire collapsed and Austrian troops approached, the former magistrates proclaimed the restoration of the republic. Geneva then joined the Swiss Confederation in 1815.",
     "traditions": "The cantonal government lays wreaths at the Restoration monument and holds an official reception, while most Genevans simply enjoy a day off before the New Year celebrations begin. The old town hosts small ceremonies and flags fly on public buildings.",
     "funFacts": [
-      "Geneva celebrates two liberations: the Restoration in December and the Escalade in December too, a week earlier.",
+      "The Escalade commemorates the defence against the attack on the night of December 11–12, 1602; December 31 commemorates the restoration of the republic in 1813.",
       "The Swiss troops that guaranteed the restoration landed at Port Noir on 1 June 1814.",
-      "Geneva is the only canton with a public holiday on 31 December.",
+      "December 31 is a public holiday in both Geneva and Neuchâtel.",
       "The monument to the Restoration stands in the Jardin Anglais by the lake."
     ]
   }

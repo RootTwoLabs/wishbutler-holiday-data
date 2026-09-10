@@ -13,6 +13,7 @@ import { join, dirname } from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { LOCALES } from './config.mjs';
+import { loadLabelCatalog, preserveLabelCatalog } from './lib/labelCatalog.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -147,7 +148,8 @@ async function translateGoogleBatch(batch, targetLang, delayMs) {
 
 async function main() {
   const { only, delayMs } = parseArgs();
-  const english = await collectEnglishLabels();
+  const existing = await loadLabelCatalog(LABELS);
+  const english = preserveLabelCatalog(await collectEnglishLabels(), existing.en ?? {});
   const targets = LOCALES.filter((locale) => locale !== 'en' && TARGET_LANG[locale] && (!only || only.has(locale)));
   const cache = existsSync(CACHE) ? JSON.parse(await readFile(CACHE, 'utf8')) : {};
 
@@ -161,7 +163,8 @@ async function main() {
       value,
       cacheKey: `${locale}::${hash(value)}`,
     }));
-    const missing = entries.filter((entry) => cache[entry.cacheKey] == null);
+    const curated = existing[locale] ?? {};
+    const missing = entries.filter((entry) => !curated[entry.key]?.trim() && cache[entry.cacheKey] == null);
     const batches = chunkEntries(missing);
     let done = 0;
 
@@ -180,7 +183,7 @@ async function main() {
     for (const entry of entries) {
       out[entry.key] = cache[entry.cacheKey] ?? entry.value;
     }
-    await writeFile(join(LABELS, `${locale}.json`), `${JSON.stringify(out, null, 2)}\n`, 'utf8');
+    await writeFile(join(LABELS, `${locale}.json`), `${JSON.stringify(preserveLabelCatalog(out, curated), null, 2)}\n`, 'utf8');
     console.log(`Wrote ${locale}.json`);
   }
 }

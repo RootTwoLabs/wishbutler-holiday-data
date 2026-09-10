@@ -1,8 +1,8 @@
 {
   "independence_day": {
     "intro": "Brasils uavhengighetsdag 7. september markerer bruddet fra Portugal i 1822 som ble utropt av prins Pedro.",
-    "history": "Den 7. september 1822, ved Ipiranga-bekken i São Paulo, erklærte prins Regent Pedro Brasil uavhengig av Portugal med ropet «Uavhengighet eller død!», og ble keiser Pedro I. Portugal anerkjente uavhengighet i 1825, og avsluttet tre århundrer med kolonistyre.",
-    "traditions": "En storslått borger-militær parade holdes i Brasília foran presidenten, med luftforsvarets Esquadrilha da Fumaça etterfølgende grønn og gul røyk. Byer og skoler over hele Brasil holder sine egne parader og flaggseremonier.",
+    "history": "Den 7. september 1822, ved Ipiranga-bekken i São Paulo, erklærte prinsregent Pedro Brasil uavhengig av Portugal med ropet «Uavhengighet eller død!», og ble keiser Pedro I. Portugal anerkjente uavhengighet i 1825, og avsluttet tre århundrer med kolonistyre.",
+    "traditions": "En storslått borger-militær parade holdes i Brasília foran presidenten, mens luftforsvarets Esquadrilha da Fumaça etterlater grønn og gul røyk på himmelen. Byer og skoler over hele Brasil holder sine egne parader og flaggseremonier.",
     "funFacts": [
       "Proklamasjonen er kjent som ‚Grito do Ipiranga‘.",
       "Pedro I erklærte uavhengighet og ble keiser bare 23 år gammel.",
@@ -11,12 +11,22 @@
   },
   "carnival": {
     "intro": "Brasils karneval er landets mest kjente festival, en eksplosjon av samba, parader og gatefester før fastetiden.",
-    "history": "Carnival ankom med portugisiske kolonister og fusjonerte med afrikanske rytmer brakt av slaver, og fødte samba. De første sambaskolene ble dannet i Rio på slutten av 1920-tallet, og Sambadrome-paradene vokste til et globalt skue.",
-    "traditions": "I Rio konkurrerer sambaskolene i Sambadrome med forseggjorte flottører og kostymer, mens Salvador fyller med elektriske ‚trios elétricos‘ og Olinda med gigantiske dukker. Gratis gate-blokker trekker millioner av dansere i flere dager.",
+    "history": "Karnevalet ankom med portugisiske kolonister og smeltet sammen med afrikanske rytmer brakt av slaver, og fødte samba. De første sambaskolene ble dannet i Rio på slutten av 1920-tallet, og Sambadrome-paradene vokste til et globalt skue.",
+    "traditions": "I Rio konkurrerer sambaskolene i Sambadromen med utsmykkede paradevogner og kostymer. Salvador fylles med musikk fra høyttalerlastebilene trios elétricos, og Olinda med kjempedukker. Gratis gatefester, blocos, trekker store folkemengder i flere dager.",
     "funFacts": [
       "Rios Sambadrome ble designet av arkitekten Oscar Niemeyer.",
       "Karnevalsdatoer skifter hvert år ettersom det går før fasten.",
       "Salvadors gatekarneval er blant de største i verden."
+    ]
+  },
+  "our_lady_of_aparecida": {
+    "intro": "12. oktober hedrer Brasil Vår Frue av Aparecida, landets skytshelgen. Nasjonaldagen er spesielt viktig for katolske samfunn og pilegrimer.",
+    "history": "I følge helligdommens tradisjon fant tre fiskere et lite bilde av Jomfru Maria i elven Paraíba do Sul i 1717. Hengivenhet vokste rundt bildet og byen Aparecida. Pave Pius XI erklærte Vår Frue av Aparecida Brasils skytshelgen i 1930; 12. oktober ble en nasjonal fridag i 1980.",
+    "traditions": "Pilegrimer reiser til nasjonalhelligdommen i Aparecida, i delstaten São Paulo, for messe, bønn og prosesjoner. Menigheter andre steder holder sine egne feiringer, og mange hengivne takker eller oppfyller religiøse løfter. Familier kan også markere Barnas dag, som deler datoen.",
+    "funFacts": [
+      "Det lille originalbildet er laget av terrakotta.",
+      "Aparecida henter navnet sitt fra bildet beskrevet som å ha dukket opp i elven.",
+      "Helligdommen står mellom byene São Paulo og Rio de Janeiro."
     ]
   }
 }

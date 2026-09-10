@@ -7,6 +7,51 @@
  */
 /** @type {Record<string, string[] | Record<string, string[]>>} */
 export const IMAGE_QUERIES = {
+  our_lady_of_aparecida: {
+    BR: ["Basilica Nossa Senhora Aparecida"],
+  },
+  independent_czechoslovak_state_day: {
+    CZ: ["Prague Castle Czech flag"],
+  },
+  ochi_day: {
+    GR: ["Ohi Day parade"],
+  },
+  vesak_day: {
+    SG: ["Vesak Singapore"],
+  },
+  deepavali: {
+    SG: ["Deepavali Little India Singapore"],
+  },
+  mid_autumn_festival: {
+    CN: ["Mooncakes"],
+  },
+  chinese_new_year_spring_festival: {
+    CN: ["Spring Festival China lanterns"],
+  },
+  lunar_new_year: {
+    KR: ["Tteokguk"],
+  },
+  culture_day: {
+    JP: ["Tokyo National Museum Honkan"],
+  },
+  constitution_memorial_day: {
+    JP: ["National Diet Building Tokyo"],
+  },
+  childrens_day: {
+    JP: ["Koinobori"],
+  },
+  midsummer_day: {
+    FI: ["Juhannus bonfire Finland"],
+  },
+  victory_in_europe_day: {
+    FR: ["Arc de Triomphe flame"],
+  },
+  veterans_day: {
+    US: ["Veterans Day Arlington ceremony"],
+  },
+  juneteenth_national_independence_day: {
+    US: ["Juneteenth celebration"],
+  },
   // --- global ---
   new_year: ['New Year fireworks night sky'],
   valentines_day: ['red roses heart valentine bouquet'],
@@ -77,6 +122,9 @@ export const IMAGE_QUERIES = {
     US: ['arlington cemetery flag american', 'memorial day american flag'],
   },
   independence_day: {
+    GR: ["25 March parade Athens"],
+    UA: ["Ukrainian flag Kyiv"],
+    FI: ["Finland independence candles"],
     US: ['American flag fireworks july 4', 'Independence Day USA celebration'],
     PL: ['Warsaw Polish Independence Day', 'flag of Poland Warsaw'],
     BR: ['Brazil Independence Day parade Brasilia', 'Brazilian flag Sete de Setembro'],
@@ -122,6 +170,7 @@ export const IMAGE_QUERIES = {
     IT: ['Festa della Repubblica parade Rome', 'Frecce Tricolori Italian flag flyover'],
   },
   liberation_day: {
+    KR: ["Gwangbokjeol"],
     IT: ['Festa della Liberazione Italy 25 April', 'Italian partisans liberation memorial'],
     NL: [
       'Bevrijdingsdag Netherlands',
@@ -143,6 +192,7 @@ export const IMAGE_QUERIES = {
     BR: ['Rio Carnival samba parade Sambadrome', 'Brazil carnival costumes dancers'],
   },
   national_day: {
+    CN: ["Tiananmen National Day"],
     PT: ['Portugal Day Lisbon celebration', 'Luis de Camoes monument Lisbon'],
     SG: [
       'Singapore National Day Parade Marina Bay',

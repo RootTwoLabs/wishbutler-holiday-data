@@ -2,21 +2,31 @@
   "bastille_day": {
     "intro": "Frankrikes nasjonaldag 14. juli minner om stormingen av Bastillen i 1789 og Fête de la Fédération i 1790 – symboler på revolusjon og nasjonal enhet.",
     "history": "Den 14. juli 1789 stormet pariserne Bastillen, et forhatt symbol på kongelig absolutisme, og startet den franske revolusjonen. Et år senere feiret Fête de la Fédération den nye nasjonen, og i 1880 gjorde den tredje republikken 14. juli til den offisielle nasjonale helligdagen.",
-    "traditions": "Dagen åpner med den største militærparaden i Europa nedover Champs-Élysées i Paris, gjennomgått av presidenten. Byer holder brannmannsball kvelden før, og kvelden avsluttes med storslått fyrverkeri, mest kjent over Eiffeltårnet.",
+    "traditions": "Dagen åpner med den største militærparaden i Europa nedover Champs-Élysées i Paris, med presidenten til stede. Byer holder brannmannsball kvelden før, og kvelden avsluttes med storslått fyrverkeri, mest kjent over Eiffeltårnet.",
     "funFacts": [
       "Bastillen holdt bare syv fanger da den ble stormet i 1789.",
-      "Champs-Élysées-paraden har gått nesten hvert år siden 1880.",
+      "Fra 1880 ble militærparaden først holdt i Longchamp; ruten endret seg med tiden.",
       "I Frankrike kalles dagen ganske enkelt 'le 14 juillet', ikke 'Bastilledagen'."
     ]
   },
   "armistice_day": {
     "intro": "11. november markerer våpenhvilen i 1918 som avsluttet første verdenskrig og hedrer alle franske soldater som døde for landet.",
-    "history": "Klokken 11.00 den 11. november 1918 gjorde våpenhvilen som ble undertegnet i Compiègne, kanonene til Vestfronten. Frankrike mistet rundt 1,4 millioner soldater. Siden 1922 har datoen vært en nasjonal minnedag, senere utvidet til de falne i alle kriger.",
+    "history": "Klokken 11.00 den 11. november 1918 stilnet våpenhvilen som var undertegnet i Compiègne, kanonene på vestfronten. Frankrike mistet rundt 1,4 millioner soldater. Siden 1922 har datoen vært en nasjonal minnedag, senere utvidet til de falne i alle kriger.",
     "traditions": "Presidenten legger ned en krans ved graven til den ukjente soldaten under Triumfbuen i Paris, der en evig flamme brenner. Over hele landet samles innbyggere og veteraner ved krigsminnesmerker for et minutts stillhet.",
     "funFacts": [
       "Våpenhvilen trådte i kraft den 11. timen den 11. dagen i den 11. måneden.",
       "Den evige flammen under Triumfbuen tennes på nytt hver kveld siden 1923.",
       "Den blå kornblomsten (le Bleuet) er Frankrikes minnesymbol."
+    ]
+  },
+  "victory_in_europe_day": {
+    "intro": "Den 8. mai minnes Frankrike den allierte seieren over Nazi-Tyskland i 1945 og slutten av andre verdenskrig i Europa. Det er en nasjonal minnedag.",
+    "history": "Tysklands militære overgivelse trådte i kraft 8. mai 1945. Datoen ble en del av Frankrikes offentlige markeringer av krigen, selv om statusen som helligdag endret seg flere ganger. Den ble gjenopprettet som en lovfestet helligdag i 1981.",
+    "traditions": "Tjenestemenn, veteraner, skoleelever og innbyggere samles ved krigsminnesmerker for kransenedleggelse og øyeblikk av stillhet. I Paris sentreres den nasjonale seremonien om Triumfbuen og den ukjente soldats grav. Franske flagg markerer anledningen.",
+    "funFacts": [
+      "8. mai markerer slutten på krigen i Europa, ikke slutten på krigen i Stillehavet.",
+      "Frankrike minnes også våpenhvilen fra første verdenskrig 11. november.",
+      "Lokale seremonier hedrer både ofringer i krigstid og fredens tilbakekomst."
     ]
   }
 }
