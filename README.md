@@ -32,7 +32,7 @@ data/
   images/<articleKey>/<nn>.jpg     # holiday images, multiple per holiday allowed
 content/fun-days/
   days/<MM>.json                   # kuriose Feiertage: Datum, Slug, Bild-Suchbegriffe (1 pro Kalendertag, 366)
-  <locale>/<MM>.json               # Label, Intro, 3 Fun Facts je Slug in 12 Sprachen
+  <locale>/<MM>.json               # Label, Intro, 3 Fun Facts je Slug in 17 Sprachen (alle App-Locales)
 data/images/FUN/<slug>/01.jpg      # ein freies Bild pro kuriosem Feiertag
 schema/
   index.schema.json                # JSON Schema for index.json

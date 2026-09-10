@@ -10,7 +10,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
 import { LOCALES } from './config.mjs';
-import { allCalendarDays } from './lib/funDays.mjs';
+import { allCalendarDays, FUN_LOCALES } from './lib/funDays.mjs';
 import { isCc0OrPd } from './lib/imageLicense.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -119,7 +119,8 @@ function checkFunOccasions(pkg, errors, warnings) {
 }
 
 /**
- * FUN ab v5: jede Definition braucht Label + Artikel in allen LOCALES und ein
+ * FUN ab v5: jede Definition braucht Label + Artikel in allen FUN_LOCALES (ab
+ * v6 alle 17 App-Sprachen, nicht nur die 12 aus LOCALES) und ein
  * Bild mit Lizenz; genau eine Definition pro echtem Kalendertag (366), alle
  * Regeln `fixed`, iconName/category fest ("party-popper"/"observance").
  * Bilder ohne CC0/Public-Domain-Lizenz brauchen einen Credit.
@@ -145,7 +146,7 @@ export function checkFunDefinitions(pkg, errors) {
       if (seenDays.has(dayKey)) errors.push(`FUN ${def.id}: duplicate day ${dayKey}`);
       seenDays.add(dayKey);
     }
-    for (const locale of LOCALES) {
+    for (const locale of FUN_LOCALES) {
       if (!labels[locale]?.[key]) errors.push(`FUN ${def.id}: missing "${locale}" label`);
       if (!info[locale]?.[key]) errors.push(`FUN ${def.id}: missing "${locale}" article`);
     }
