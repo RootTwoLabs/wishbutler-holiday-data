@@ -66,6 +66,25 @@ Dates are described by rules so the client computes any year offline:
   are only fetched explicitly via `node scripts/fetch-images.mjs --fun` — the
   regular CI run does not fetch them.
 
+### Title length (`label`)
+
+The app shows a fun day's `label` as the big headline of its hero card, so titles
+have hard limits enforced by `npm run check:fun-days` (constants in
+`scripts/lib/funDays.mjs`):
+
+- `LABEL_MAX = 36` characters per label — in **every** locale (`label too long`).
+- `LABEL_WORD_MAX = 24` characters for a single space-delimited word, in the
+  Latin-script locales `de, en, fr, es, pt, it, pl, nl, sv, nb, da, fi`
+  (`LABEL_WORD_LOCALES`); a hyphen does not count as a word break, so German,
+  Dutch and Finnish compounds are caught too (`label word too long`).
+  `ja`, `ko` and `zh-Hant` write without spaces — there only `LABEL_MAX` applies.
+
+Keep titles short and idiomatic rather than literal: drop
+"International/National/World" prefixes and parenthetical English originals
+("Internationaler Sprich-wie-ein-Pirat-Tag" → "Sprich-wie-ein-Pirat-Tag"), and
+shorten compounds ("Tag des Erdnussbutter-Marmeladen-Brots" → "Tag des
+Erdnussbutterbrots"). The full name belongs in `intro`, not in the headline.
+
 ### Deliberately empty days (`blackout.json`)
 
 Normally every calendar day carries exactly one fun day. A day that must stay
