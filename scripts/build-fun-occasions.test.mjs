@@ -141,7 +141,10 @@ test('checkFunDefinitions: gültiges Paket (alle erwarteten Tage) hat keine Fehl
   assert.deepEqual(errors, []);
 });
 
-test('checkFunDefinitions: Definition an einem Blackout-Tag wird gemeldet', async (t) => {
+// Nur sinnvoll, solange das Repo mindestens einen Blackout-Tag pflegt —
+// `checkFunDefinitions` liest die echte blackout.json, nicht das Fixture.
+const hasRepoBlackout = Object.keys(REPO_BLACKOUT).length > 0;
+test('checkFunDefinitions: Definition an einem Blackout-Tag wird gemeldet', { skip: !hasRepoBlackout && 'blackout.json ist leer' }, async (t) => {
   const { root, pkg } = await buildFixturePackage();
   t.after(() => rm(root, { recursive: true, force: true }));
   const [blackoutDay] = Object.keys(REPO_BLACKOUT);

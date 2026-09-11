@@ -88,12 +88,14 @@ Erdnussbutterbrots"). The full name belongs in `intro`, not in the headline.
 ### Deliberately empty days (`blackout.json`)
 
 Normally every calendar day carries exactly one fun day. A day that must stay
-**without** one — e.g. 27 January, International Holocaust Remembrance Day —
-is listed in `content/fun-days/blackout.json`:
+**without** one can be listed in `content/fun-days/blackout.json`, e.g.:
 
 ```json
 { "01-27": "Internationaler Tag des Gedenkens an die Opfer des Holocaust — bewusst kein kurioser Feiertag" }
 ```
+
+The list is currently empty (`{}`): since FUN v17 all 366 days carry a fun day
+(27 January = Punch the Clock Day, decided 2026-09-11 so the calendar has no gap).
 
 The key is the `MM-DD` day, the value a non-empty rationale. Blacked-out days
 drop out of the expected set (`expectedFunDays()` in `scripts/lib/funDays.mjs`),

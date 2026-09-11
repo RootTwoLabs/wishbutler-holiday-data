@@ -417,20 +417,20 @@ test('buildFunPackage: fehlender Text-Eintrag für eine Locale wird übersprunge
 });
 
 // Integrationstest gegen den echten Content (Plan Task 9, Step 1): ein Tag je
-// Kalendertag außer den bewusst leeren Blackout-Tagen (aktuell nur der 27.01.,
-// Holocaust-Gedenktag), alle 17 Locales, ein Bild pro Tag — der Stand, den
-// build-fun-occasions baut.
+// Kalendertag außer den bewusst leeren Blackout-Tagen (seit FUN v10 keiner mehr:
+// der 27.01. trägt den Tag der Stechuhr, Entscheidung Evgeny 2026-09-11), alle
+// 17 Locales, ein Bild pro Tag — der Stand, den build-fun-occasions baut.
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 const REPO = join(dirname(fileURLToPath(import.meta.url)), '..');
 
-test('echter Content: 365 Tage + Blackout 01-27, 17 Locales, Bilder vollständig', async () => {
+test('echter Content: 366 Tage ohne Blackout, 17 Locales, Bilder vollständig', async () => {
   const data = await loadFunDays(join(REPO, 'content', 'fun-days'));
   const errors = validateFunDays(data, { imagesRoot: join(REPO, 'data', 'images'), requireImages: true });
   assert.deepEqual(errors, [], errors.slice(0, 20).join('\n'));
-  assert.deepEqual(Object.keys(data.blackout), ['01-27']);
-  assert.equal(data.days.length, 365);
-  assert.ok(!data.days.some((d) => d.date === '01-27'));
+  assert.deepEqual(data.blackout, {});
+  assert.equal(data.days.length, 366);
+  assert.equal(data.days.find((d) => d.date === '01-27')?.slug, 'punch_the_clock_day');
 });
 
 test('imageFile: kuratierter Commons-Titel wird als Target-Datei durchgereicht und validiert', async (t) => {
