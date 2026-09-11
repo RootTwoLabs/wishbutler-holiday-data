@@ -112,7 +112,13 @@
         },
         "credit": { "type": "string" },
         "license": { "type": "string" },
-        "primary": { "type": "boolean" }
+        "primary": { "type": "boolean" },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://",
+          "description": "Dateiseite der Quelle (Wikimedia Commons) — Linkziel der Credit-Zeile in der App"
+        }
       }
     },
     "holidayDefinition": {

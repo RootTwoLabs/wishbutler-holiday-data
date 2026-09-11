@@ -116,6 +116,35 @@ npm run build        # fetch sources -> write data/ -> rebuild index.json
 
 CI (`.github/workflows/build.yml`) runs the generators, commits `data/`, and tags a release.
 
+### Thumbnails
+
+List views in the app render holiday images as 52 px circles, while the full
+images are ~1 MB each and jsDelivr does not resize. Every `NN.jpg` therefore
+has a `NN.thumb.jpg` sidecar next to it (192×192, cover-cropped, JPEG q80,
+no metadata, ~5–15 KB):
+
+```
+data/images/christmas/01.jpg        # full image, referenced by the package
+data/images/christmas/01.thumb.jpg  # thumbnail, derived by convention
+```
+
+The convention is the contract: packages reference **only** the full image
+(`path`), and the app derives the thumbnail URL by replacing the trailing
+`.jpg` with `.thumb.jpg`, falling back to the full image on a 404. Thumbnails
+are never written into `package.json` — `buildImageRefs` and `fetch-images`
+ignore `*.thumb.jpg`, so adding or regenerating thumbnails does not bump any
+package version.
+
+CI does **not** build thumbnails. Run this locally after every `fetch-images`
+(and after `curate-images promote|drop`, which deletes the folder's stale
+thumbnails) and commit the sidecars together with the images:
+
+```bash
+npm run build:thumbnails                  # all missing/outdated thumbnails (idempotent, mtime-based)
+npm run build:thumbnails -- FUN           # only data/images/FUN/**
+npm run build:thumbnails -- --force       # regenerate everything
+```
+
 ### Editing translations
 
 Edit holiday names in `content/holiday-labels/<locale>.json` and articles in

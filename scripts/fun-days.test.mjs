@@ -97,6 +97,14 @@ test('gültiges Content-Set: keine Fehler', async (t) => {
   assert.deepEqual(errors, []);
 });
 
+test('Thumbnail-Sidecar (01.thumb.jpg) neben 01.jpg stört requireImages nicht', async (t) => {
+  const { root, content, images } = await writeFixture();
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const data = await loadFunDays(content);
+  for (const d of data.days) await writeFile(join(images, 'FUN', d.slug, '01.thumb.jpg'), 't');
+  assert.deepEqual(validateFunDays(data, { imagesRoot: images, requireImages: true }), []);
+});
+
 test('Blackout-Tag ohne Eintrag ist kein Fehler', async (t) => {
   const blackout = { '01-27': 'Internationaler Tag des Gedenkens an die Opfer des Holocaust' };
   const { root, content, images } = await writeFixture({ blackout });

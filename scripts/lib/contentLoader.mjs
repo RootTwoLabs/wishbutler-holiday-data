@@ -79,7 +79,14 @@ function resolveArticleExact(slug, countryCode, locale, globalArticles, countryA
   return globalArticles[locale]?.[slug] ?? null;
 }
 
-/** Builds image refs from files on disk for a slug. */
+/** `NN.thumb.jpg`-Sidecars (scripts/build-thumbnails.mjs) sind kein Paketinhalt. */
+export const THUMB_SIDECAR_RE = /\.thumb\.jpe?g$/i;
+
+/**
+ * Builds image refs from files on disk for a slug.
+ * Thumbnails (`NN.thumb.jpg`) werden ausgeschlossen: Die App leitet ihre URL
+ * per Konvention aus `path` ab, im Paket steht nur das Vollbild.
+ */
 export async function buildImageRefs(dataRoot, slug, countryCode) {
   const dir = countryCode
     ? join(dataRoot, 'images', countryCode, slug)
@@ -87,7 +94,9 @@ export async function buildImageRefs(dataRoot, slug, countryCode) {
 
   if (!existsSync(dir)) return [];
 
-  const files = (await readdir(dir)).filter((f) => /\.jpe?g$/i.test(f)).sort();
+  const files = (await readdir(dir))
+    .filter((f) => /\.jpe?g$/i.test(f) && !THUMB_SIDECAR_RE.test(f))
+    .sort();
   return files.map((file, i) => {
     const path = countryCode
       ? `images/${countryCode}/${slug}/${file}`

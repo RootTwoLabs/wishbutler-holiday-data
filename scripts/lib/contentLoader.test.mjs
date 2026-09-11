@@ -1,6 +1,25 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { resolveArticle, canonicalArticleSlug } from './contentLoader.mjs';
+import { mkdtemp, mkdir, writeFile, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { resolveArticle, canonicalArticleSlug, buildImageRefs } from './contentLoader.mjs';
+
+test('buildImageRefs: Thumbnail-Sidecars (NN.thumb.jpg) landen nicht in den Refs', async () => {
+  const root = await mkdtemp(join(tmpdir(), 'wb-refs-'));
+  try {
+    const dir = join(root, 'images', 'christmas');
+    await mkdir(dir, { recursive: true });
+    for (const f of ['01.jpg', '01.thumb.jpg', '02.jpg']) await writeFile(join(dir, f), 'x');
+
+    assert.deepEqual(await buildImageRefs(root, 'christmas'), [
+      { path: 'images/christmas/01.jpg', primary: true },
+      { path: 'images/christmas/02.jpg', primary: false },
+    ]);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
 
 test('canonicalArticleSlug: explizite Aliase und Regelaliase', () => {
   assert.equal(canonicalArticleSlug('christmas_day'), 'christmas');
