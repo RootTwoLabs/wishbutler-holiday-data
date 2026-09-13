@@ -247,15 +247,14 @@
     {
       "id": "AU_friday_before_afl_grand_final",
       "countryCode": "AU",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.friday_before_afl_grand_final",
       "iconName": "event",
       "category": "public",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "09-25"
-        }
+        "type": "fixed",
+        "month": 9,
+        "day": 25
       }
     },
     {
@@ -321,23 +320,16 @@
     {
       "id": "AU_friday_before_afl_grand_final_tentative_date",
       "countryCode": "AU",
-      "kind": "precomputed",
+      "kind": "nth_weekday",
       "labelKey": "holidays.friday_before_afl_grand_final_tentative_date",
       "iconName": "event",
       "category": "public",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2027": "09-24",
-          "2028": "09-29",
-          "2029": "09-28",
-          "2030": "09-27",
-          "2031": "09-26",
-          "2032": "09-24",
-          "2033": "09-30",
-          "2034": "09-29",
-          "2035": "09-28"
-        }
+        "type": "nth_weekday",
+        "month": 9,
+        "nth": 5,
+        "weekday": 5,
+        "last": true
       }
     }
   ],
@@ -3854,17 +3846,20 @@
       {
         "path": "images/AU/canberra_day/01.jpg",
         "primary": true,
-        "license": "CC0"
+        "credit": "JJ Harrison (https://www.jjharrison.com.au/)",
+        "license": "CC BY-SA 3.0"
       },
       {
         "path": "images/AU/canberra_day/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Dietmar Rabich",
+        "license": "CC BY-SA 4.0"
       },
       {
         "path": "images/AU/canberra_day/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Thennicke",
+        "license": "CC BY-SA 4.0"
       }
     ],
     "good_friday": [
@@ -3939,7 +3934,8 @@
       {
         "path": "images/AU/anzac_day/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Yu Chu Chin",
+        "license": "CC BY-SA 4.0"
       }
     ],
     "western_australia_day": [
@@ -3973,7 +3969,8 @@
       {
         "path": "images/AU/kings_birthday/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Allan warren",
+        "license": "CC BY-SA 4.0"
       }
     ],
     "friday_before_afl_grand_final": [
@@ -3985,12 +3982,14 @@
       {
         "path": "images/AU/friday_before_afl_grand_final/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "SwoopingMagpie10",
+        "license": "CC BY-SA 4.0"
       },
       {
         "path": "images/AU/friday_before_afl_grand_final/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Storm machine",
+        "license": "CC BY-SA 4.0"
       }
     ],
     "melbourne_cup": [
@@ -4048,12 +4047,14 @@
       {
         "path": "images/AU/friday_before_afl_grand_final/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "SwoopingMagpie10",
+        "license": "CC BY-SA 4.0"
       },
       {
         "path": "images/AU/friday_before_afl_grand_final/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Storm machine",
+        "license": "CC BY-SA 4.0"
       }
     ]
   },

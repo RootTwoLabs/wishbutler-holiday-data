@@ -650,15 +650,14 @@
     {
       "id": "LV_final_day_of_the_nationwide_latvian_song_and_dance_celebration",
       "countryCode": "LV",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.final_day_of_the_nationwide_latvian_song_and_dance_celebration",
       "iconName": "event",
       "category": "public",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2028": "07-10"
-        }
+        "type": "fixed",
+        "month": 7,
+        "day": 10
       }
     }
   ],
@@ -6036,12 +6035,14 @@
       {
         "path": "images/new_years_eve/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Vivu Vietnam",
+        "license": "CC BY-SA 4.0"
       },
       {
         "path": "images/new_years_eve/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Btezra",
+        "license": "CC BY-SA 2.0"
       }
     ]
   },

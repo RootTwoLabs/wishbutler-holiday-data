@@ -1,0 +1,2395 @@
+{
+  "countryCode": "IL",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "IL_rosh_hashanah",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.rosh_hashanah",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-12",
+          "2027": "10-02",
+          "2028": "09-21",
+          "2029": "09-10",
+          "2030": "09-28",
+          "2031": "09-18",
+          "2032": "09-06",
+          "2033": "09-24",
+          "2034": "09-14",
+          "2035": "10-04"
+        }
+      }
+    },
+    {
+      "id": "IL_yom_kippur",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.yom_kippur",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-21",
+          "2027": "10-11",
+          "2028": "09-30",
+          "2029": "09-19",
+          "2030": "10-07",
+          "2031": "09-27",
+          "2032": "09-15",
+          "2033": "10-03",
+          "2034": "09-23",
+          "2035": "10-13"
+        }
+      }
+    },
+    {
+      "id": "IL_sukkot",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.sukkot",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-26",
+          "2027": "10-16",
+          "2028": "10-05",
+          "2029": "09-24",
+          "2030": "10-12",
+          "2031": "10-02",
+          "2032": "09-20",
+          "2033": "10-08",
+          "2034": "09-28",
+          "2035": "10-18"
+        }
+      }
+    },
+    {
+      "id": "IL_shemini_atzeret_simchat_torah",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.shemini_atzeret_simchat_torah",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "10-03",
+          "2027": "10-23",
+          "2028": "10-12",
+          "2029": "10-01",
+          "2030": "10-19",
+          "2031": "10-09",
+          "2032": "09-27",
+          "2033": "10-15",
+          "2034": "10-05",
+          "2035": "10-25"
+        }
+      }
+    },
+    {
+      "id": "IL_hanukkah",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.hanukkah",
+      "iconName": "event",
+      "category": "religious",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "12-04",
+          "2027": "12-24",
+          "2028": "12-12",
+          "2029": "12-01",
+          "2030": "12-20",
+          "2031": "12-09",
+          "2032": "11-27",
+          "2033": "12-16",
+          "2034": "12-06",
+          "2035": "12-25"
+        }
+      }
+    },
+    {
+      "id": "IL_tu_bishvat",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.tu_bishvat",
+      "iconName": "event",
+      "category": "observance",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-02",
+          "2027": "01-23",
+          "2028": "02-12",
+          "2029": "01-31",
+          "2030": "01-19",
+          "2031": "02-08",
+          "2032": "01-28",
+          "2033": "01-15",
+          "2034": "02-04",
+          "2035": "01-25"
+        }
+      }
+    },
+    {
+      "id": "IL_purim",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.purim",
+      "iconName": "event",
+      "category": "religious",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "03-03",
+          "2027": "03-23",
+          "2028": "03-12",
+          "2029": "03-01",
+          "2030": "03-19",
+          "2031": "03-09",
+          "2032": "02-26",
+          "2033": "03-15",
+          "2034": "03-05",
+          "2035": "03-25"
+        }
+      }
+    },
+    {
+      "id": "IL_passover",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.passover",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-02",
+          "2027": "04-22",
+          "2028": "04-11",
+          "2029": "03-31",
+          "2030": "04-18",
+          "2031": "04-08",
+          "2032": "03-27",
+          "2033": "04-14",
+          "2034": "04-04",
+          "2035": "04-24"
+        }
+      }
+    },
+    {
+      "id": "IL_passover_seventh_day",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.passover_seventh_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-08",
+          "2027": "04-28",
+          "2028": "04-17",
+          "2029": "04-06",
+          "2030": "04-24",
+          "2031": "04-14",
+          "2032": "04-02",
+          "2033": "04-20",
+          "2034": "04-10",
+          "2035": "04-30"
+        }
+      }
+    },
+    {
+      "id": "IL_yom_hashoah",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.yom_hashoah",
+      "iconName": "event",
+      "category": "observance",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-14",
+          "2027": "05-04",
+          "2028": "04-24",
+          "2029": "04-12",
+          "2030": "04-30",
+          "2031": "04-21",
+          "2032": "04-08",
+          "2033": "04-26",
+          "2034": "04-17",
+          "2035": "05-07"
+        }
+      }
+    },
+    {
+      "id": "IL_yom_hazikaron",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.yom_hazikaron",
+      "iconName": "event",
+      "category": "observance",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-21",
+          "2027": "05-11",
+          "2028": "05-01",
+          "2029": "04-18",
+          "2030": "05-07",
+          "2031": "04-28",
+          "2032": "04-14",
+          "2033": "05-03",
+          "2034": "04-24",
+          "2035": "05-14"
+        }
+      }
+    },
+    {
+      "id": "IL_yom_haatzmaut",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.yom_haatzmaut",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-22",
+          "2027": "05-12",
+          "2028": "05-02",
+          "2029": "04-19",
+          "2030": "05-08",
+          "2031": "04-29",
+          "2032": "04-15",
+          "2033": "05-04",
+          "2034": "04-25",
+          "2035": "05-15"
+        }
+      }
+    },
+    {
+      "id": "IL_lag_baomer",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.lag_baomer",
+      "iconName": "event",
+      "category": "observance",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-05",
+          "2027": "05-25",
+          "2028": "05-14",
+          "2029": "05-03",
+          "2030": "05-21",
+          "2031": "05-11",
+          "2032": "04-29",
+          "2033": "05-17",
+          "2034": "05-07",
+          "2035": "05-27"
+        }
+      }
+    },
+    {
+      "id": "IL_yom_yerushalayim",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.yom_yerushalayim",
+      "iconName": "event",
+      "category": "observance",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-15",
+          "2027": "06-04",
+          "2028": "05-24",
+          "2029": "05-13",
+          "2030": "05-31",
+          "2031": "05-21",
+          "2032": "05-09",
+          "2033": "05-27",
+          "2034": "05-17",
+          "2035": "06-06"
+        }
+      }
+    },
+    {
+      "id": "IL_shavuot",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.shavuot",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-22",
+          "2027": "06-11",
+          "2028": "05-31",
+          "2029": "05-20",
+          "2030": "06-07",
+          "2031": "05-28",
+          "2032": "05-16",
+          "2033": "06-03",
+          "2034": "05-24",
+          "2035": "06-13"
+        }
+      }
+    },
+    {
+      "id": "IL_tisha_bav",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.tisha_bav",
+      "iconName": "event",
+      "category": "religious",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "07-23",
+          "2027": "08-12",
+          "2028": "08-01",
+          "2029": "07-22",
+          "2030": "08-08",
+          "2031": "07-29",
+          "2032": "07-18",
+          "2033": "08-04",
+          "2034": "07-25",
+          "2035": "08-14"
+        }
+      }
+    },
+    {
+      "id": "IL_tu_bav",
+      "countryCode": "IL",
+      "kind": "precomputed",
+      "labelKey": "holidays.tu_bav",
+      "iconName": "event",
+      "category": "observance",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "07-29",
+          "2027": "08-18",
+          "2028": "08-07",
+          "2029": "07-27",
+          "2030": "08-14",
+          "2031": "08-04",
+          "2032": "07-23",
+          "2033": "08-10",
+          "2034": "07-31",
+          "2035": "08-20"
+        }
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "rosh_hashanah": "Rosh Hashanah",
+        "yom_kippur": "Yom Kippur",
+        "sukkot": "Sukkot",
+        "shemini_atzeret_simchat_torah": "Shemini Atzeret & Simchat Torah",
+        "hanukkah": "Hanukkah",
+        "tu_bishvat": "Tu BiShvat",
+        "purim": "Purim",
+        "passover": "Passover",
+        "passover_seventh_day": "Seventh Day of Passover",
+        "yom_hashoah": "Yom HaShoah (Holocaust Remembrance Day)",
+        "yom_hazikaron": "Yom HaZikaron (Memorial Day)",
+        "yom_haatzmaut": "Yom HaAtzmaut (Independence Day)",
+        "lag_baomer": "Lag BaOmer",
+        "yom_yerushalayim": "Jerusalem Day",
+        "shavuot": "Shavuot",
+        "tisha_bav": "Tisha B'Av",
+        "tu_bav": "Tu B'Av"
+      },
+      "he": {
+        "rosh_hashanah": "ראש השנה",
+        "yom_kippur": "יום כיפור",
+        "sukkot": "סוכות",
+        "shemini_atzeret_simchat_torah": "שמיני עצרת ושמחת תורה",
+        "hanukkah": "חנוכה",
+        "tu_bishvat": "ט״ו בשבט",
+        "purim": "פורים",
+        "passover": "פסח",
+        "passover_seventh_day": "שביעי של פסח",
+        "yom_hashoah": "יום השואה",
+        "yom_hazikaron": "יום הזיכרון",
+        "yom_haatzmaut": "יום העצמאות",
+        "lag_baomer": "ל״ג בעומר",
+        "yom_yerushalayim": "יום ירושלים",
+        "shavuot": "שבועות",
+        "tisha_bav": "תשעה באב",
+        "tu_bav": "ט״ו באב"
+      },
+      "de": {
+        "rosh_hashanah": "Rosch ha-Schana",
+        "yom_kippur": "Jom Kippur",
+        "sukkot": "Sukkot",
+        "shemini_atzeret_simchat_torah": "Schemini Azeret und Simchat Tora",
+        "hanukkah": "Chanukka",
+        "tu_bishvat": "Tu biSchvat",
+        "purim": "Purim",
+        "passover": "Pessach",
+        "passover_seventh_day": "Siebter Tag von Pessach",
+        "yom_hashoah": "Jom haScho’a (Holocaust-Gedenktag)",
+        "yom_hazikaron": "Jom haSikaron (Gedenktag für die Gefallenen)",
+        "yom_haatzmaut": "Jom haAtzma’ut (Unabhängigkeitstag)",
+        "lag_baomer": "Lag baOmer",
+        "yom_yerushalayim": "Jerusalemtag",
+        "shavuot": "Schawuot",
+        "tisha_bav": "Tischa beAv",
+        "tu_bav": "Tu beAv"
+      },
+      "fr": {
+        "rosh_hashanah": "Roch Hachana",
+        "yom_kippur": "Yom Kippour",
+        "sukkot": "Souccot",
+        "shemini_atzeret_simchat_torah": "Chemini Atseret et Simhat Torah",
+        "hanukkah": "Hanoucca",
+        "tu_bishvat": "Tou Bichvat",
+        "purim": "Pourim",
+        "passover": "Pessah",
+        "passover_seventh_day": "Septième jour de Pessah",
+        "yom_hashoah": "Yom HaShoah (Journée du souvenir de la Shoah)",
+        "yom_hazikaron": "Yom HaZikaron (Journée du souvenir)",
+        "yom_haatzmaut": "Yom HaAtsmaout (Fête de l’Indépendance)",
+        "lag_baomer": "Lag Ba’omer",
+        "yom_yerushalayim": "Journée de Jérusalem",
+        "shavuot": "Chavouot",
+        "tisha_bav": "Tisha Beav",
+        "tu_bav": "Tou Beav"
+      },
+      "es": {
+        "rosh_hashanah": "Rosh Hashaná",
+        "yom_kippur": "Yom Kipur",
+        "sukkot": "Sucot",
+        "shemini_atzeret_simchat_torah": "Shemini Atzeret y Simjat Torá",
+        "hanukkah": "Janucá",
+        "tu_bishvat": "Tu Bishvat",
+        "purim": "Purim",
+        "passover": "Pésaj",
+        "passover_seventh_day": "Séptimo día de Pésaj",
+        "yom_hashoah": "Yom HaShoá (Día del Recuerdo del Holocausto)",
+        "yom_hazikaron": "Yom HaZikarón (Día del Recuerdo)",
+        "yom_haatzmaut": "Yom HaAtzmaut (Día de la Independencia)",
+        "lag_baomer": "Lag BaOmer",
+        "yom_yerushalayim": "Día de Jerusalén",
+        "shavuot": "Shavuot",
+        "tisha_bav": "Tishá BeAv",
+        "tu_bav": "Tu BeAv"
+      },
+      "pt": {
+        "rosh_hashanah": "Rosh Hashaná",
+        "yom_kippur": "Yom Kipur",
+        "sukkot": "Sucot",
+        "shemini_atzeret_simchat_torah": "Shemini Atzeret e Simchat Torá",
+        "hanukkah": "Chanucá",
+        "tu_bishvat": "Tu Bishvat",
+        "purim": "Purim",
+        "passover": "Pessach",
+        "passover_seventh_day": "Sétimo dia de Pessach",
+        "yom_hashoah": "Yom HaShoá (Dia da Memória do Holocausto)",
+        "yom_hazikaron": "Yom HaZikaron (Dia da Memória)",
+        "yom_haatzmaut": "Yom HaAtzmaut (Dia da Independência)",
+        "lag_baomer": "Lag BaOmer",
+        "yom_yerushalayim": "Dia de Jerusalém",
+        "shavuot": "Shavuot",
+        "tisha_bav": "Tishá BeAv",
+        "tu_bav": "Tu BeAv"
+      },
+      "it": {
+        "rosh_hashanah": "Rosh haShanah",
+        "yom_kippur": "Yom Kippur",
+        "sukkot": "Sukkot",
+        "shemini_atzeret_simchat_torah": "Shemini Atzeret e Simchat Torah",
+        "hanukkah": "Chanukkah",
+        "tu_bishvat": "Tu BiShvat",
+        "purim": "Purim",
+        "passover": "Pesach",
+        "passover_seventh_day": "Settimo giorno di Pesach",
+        "yom_hashoah": "Yom HaShoah (Giorno della Memoria della Shoah)",
+        "yom_hazikaron": "Yom HaZikaron (Giorno della Memoria)",
+        "yom_haatzmaut": "Yom HaAtzmaut (Giorno dell’Indipendenza)",
+        "lag_baomer": "Lag BaOmer",
+        "yom_yerushalayim": "Giornata di Gerusalemme",
+        "shavuot": "Shavuot",
+        "tisha_bav": "Tisha BeAv",
+        "tu_bav": "Tu BeAv"
+      },
+      "pl": {
+        "rosh_hashanah": "Rosz ha-Szana",
+        "yom_kippur": "Jom Kipur",
+        "sukkot": "Sukkot",
+        "shemini_atzeret_simchat_torah": "Szemini Aceret i Simchat Tora",
+        "hanukkah": "Chanuka",
+        "tu_bishvat": "Tu bi-Szwat",
+        "purim": "Purim",
+        "passover": "Pesach",
+        "passover_seventh_day": "Siódmy dzień Pesach",
+        "yom_hashoah": "Jom ha-Szoa (Dzień Pamięci o Holokauście)",
+        "yom_hazikaron": "Jom ha-Zikaron (Dzień Pamięci Poległych)",
+        "yom_haatzmaut": "Jom ha-Acmaut (Dzień Niepodległości)",
+        "lag_baomer": "Lag ba-Omer",
+        "yom_yerushalayim": "Dzień Jerozolimy",
+        "shavuot": "Szawuot",
+        "tisha_bav": "Tisza be-Aw",
+        "tu_bav": "Tu be-Aw"
+      },
+      "nl": {
+        "rosh_hashanah": "Rosj Hasjana",
+        "yom_kippur": "Jom Kipoer",
+        "sukkot": "Soekot",
+        "shemini_atzeret_simchat_torah": "Sjemini Atseret en Simchat Thora",
+        "hanukkah": "Chanoeka",
+        "tu_bishvat": "Toe Bisjwat",
+        "purim": "Poerim",
+        "passover": "Pesach",
+        "passover_seventh_day": "Zevende dag van Pesach",
+        "yom_hashoah": "Jom Hasjoa (Holocaustherdenkingsdag)",
+        "yom_hazikaron": "Jom Hazikaron (Herdenkingsdag)",
+        "yom_haatzmaut": "Jom Ha’atsmaoet (Onafhankelijkheidsdag)",
+        "lag_baomer": "Lag Ba’omer",
+        "yom_yerushalayim": "Jeruzalemdag",
+        "shavuot": "Sjavoeot",
+        "tisha_bav": "Tisja Beav",
+        "tu_bav": "Toe Beav"
+      },
+      "sv": {
+        "rosh_hashanah": "Rosh hashana",
+        "yom_kippur": "Jom kippur",
+        "sukkot": "Sukkot",
+        "shemini_atzeret_simchat_torah": "Shemini atzeret och Simchat Tora",
+        "hanukkah": "Chanukka",
+        "tu_bishvat": "Tu bishvat",
+        "purim": "Purim",
+        "passover": "Pesach",
+        "passover_seventh_day": "Sjunde dagen av pesach",
+        "yom_hashoah": "Jom hashoah (Förintelsens minnesdag)",
+        "yom_hazikaron": "Jom hazikaron (Minnesdagen)",
+        "yom_haatzmaut": "Jom haatzmaut (Självständighetsdagen)",
+        "lag_baomer": "Lag baomer",
+        "yom_yerushalayim": "Jerusalemdagen",
+        "shavuot": "Shavuot",
+        "tisha_bav": "Tisha beav",
+        "tu_bav": "Tu beav"
+      },
+      "nb": {
+        "rosh_hashanah": "Rosh Hashanah",
+        "yom_kippur": "Yom Kippur",
+        "sukkot": "Sukkot",
+        "shemini_atzeret_simchat_torah": "Shemini Atzeret & Simchat Torah",
+        "hanukkah": "Hanukkah",
+        "tu_bishvat": "Tir BiShvat",
+        "purim": "Purim",
+        "passover": "påske",
+        "passover_seventh_day": "Syvende påskedag",
+        "yom_hashoah": "Yom HaShoah (Holocaust-minnedagen)",
+        "yom_hazikaron": "Yom HaZikaron (minnedag)",
+        "yom_haatzmaut": "Yom HaAtzmaut (uavhengighetsdag)",
+        "lag_baomer": "Lag BaOmer",
+        "yom_yerushalayim": "Jerusalem-dagen",
+        "shavuot": "Shavuot",
+        "tisha_bav": "Tisha B'Av",
+        "tu_bav": "Tu B'Av"
+      },
+      "da": {
+        "rosh_hashanah": "Rosh Hashanah",
+        "yom_kippur": "Yom Kippur",
+        "sukkot": "Sukkot",
+        "shemini_atzeret_simchat_torah": "Shemini Atzeret & Simchat Torah",
+        "hanukkah": "Hanukkah",
+        "tu_bishvat": "Tu BiShvat",
+        "purim": "Purim",
+        "passover": "Påske",
+        "passover_seventh_day": "Syvende påskedag",
+        "yom_hashoah": "Yom HaShoah (Holocaust-mindedag)",
+        "yom_hazikaron": "Yom HaZikaron (mindedag)",
+        "yom_haatzmaut": "Yom HaAtzmaut (uafhængighedsdag)",
+        "lag_baomer": "Lag BaOmer",
+        "yom_yerushalayim": "Jerusalems dag",
+        "shavuot": "Shavuot",
+        "tisha_bav": "Tisha B'Av",
+        "tu_bav": "Tu B'Av"
+      },
+      "fi": {
+        "rosh_hashanah": "Rosh Hashanah",
+        "yom_kippur": "Jom Kippur",
+        "sukkot": "Sukkot",
+        "shemini_atzeret_simchat_torah": "Shemini Atzeret & Simchat Torah",
+        "hanukkah": "Hanukka",
+        "tu_bishvat": "Tu BiShvat",
+        "purim": "Purim",
+        "passover": "pääsiäinen",
+        "passover_seventh_day": "pääsiäisen seitsemäs päivä",
+        "yom_hashoah": "Jom HaShoah (holokaustin muistopäivä)",
+        "yom_hazikaron": "Yom HaZikaron (muistopäivä)",
+        "yom_haatzmaut": "Yom HaAtzmaut (itsenäisyyspäivä)",
+        "lag_baomer": "Lag BaOmer",
+        "yom_yerushalayim": "Jerusalemin päivä",
+        "shavuot": "Shavuot",
+        "tisha_bav": "Tisha B'Av",
+        "tu_bav": "Tu B'Av"
+      },
+      "ru": {
+        "rosh_hashanah": "Рош ха-Шана",
+        "yom_kippur": "Йом Кипур",
+        "sukkot": "Суккот",
+        "shemini_atzeret_simchat_torah": "Шмини Ацерет и Симхат Тора",
+        "hanukkah": "Ханука",
+        "tu_bishvat": "Ту БиШват",
+        "purim": "Пурим",
+        "passover": "Песах",
+        "passover_seventh_day": "Седьмой день Песаха",
+        "yom_hashoah": "Йом ха-Шоа (День памяти жертв Холокоста)",
+        "yom_hazikaron": "Йом ха-Зикарон (День памяти)",
+        "yom_haatzmaut": "Йом а-Ацмаут (День независимости)",
+        "lag_baomer": "Лаг БаОмер",
+        "yom_yerushalayim": "День Иерусалима",
+        "shavuot": "Шавуот",
+        "tisha_bav": "Тиша бе-Ав",
+        "tu_bav": "Ту бе-Ав"
+      },
+      "uk": {
+        "rosh_hashanah": "Рош га-Шана",
+        "yom_kippur": "Йом Кіпур",
+        "sukkot": "Суккот",
+        "shemini_atzeret_simchat_torah": "Шеміні Ацерет і Сімхат Тора",
+        "hanukkah": "Ханука",
+        "tu_bishvat": "Ту БіШват",
+        "purim": "Пурім",
+        "passover": "Песах",
+        "passover_seventh_day": "Сьомий день Пасхи",
+        "yom_hashoah": "Йом ха-Шоа (День пам'яті жертв Голокосту)",
+        "yom_hazikaron": "Йом ха-Зікарон (День пам'яті)",
+        "yom_haatzmaut": "Йом ха-Ацмаут (День незалежності)",
+        "lag_baomer": "Лаг БаОмер",
+        "yom_yerushalayim": "День Єрусалиму",
+        "shavuot": "Шавуот",
+        "tisha_bav": "Тиша Б'Ав",
+        "tu_bav": "Ту бе-Ав"
+      },
+      "ja": {
+        "rosh_hashanah": "ロシュ・ハシャナ（ユダヤ新年）",
+        "yom_kippur": "ヨム・キプル（贖罪の日）",
+        "sukkot": "スコット（仮庵の祭り）",
+        "shemini_atzeret_simchat_torah": "シェミニ・アツェレト／シムハット・トーラー",
+        "hanukkah": "ハヌカ",
+        "tu_bishvat": "トゥ・ビシュヴァット（樹木の新年）",
+        "purim": "プリム",
+        "passover": "過越祭（ペサハ）",
+        "passover_seventh_day": "過越祭第7日",
+        "yom_hashoah": "ヨム・ハショア（ホロコースト記念日）",
+        "yom_hazikaron": "ヨム・ハジカロン（戦没者記念日）",
+        "yom_haatzmaut": "ヨム・ハアツマウト（独立記念日）",
+        "lag_baomer": "ラグ・バオメル",
+        "yom_yerushalayim": "エルサレムの日",
+        "shavuot": "シャブオット（七週の祭り）",
+        "tisha_bav": "ティシャ・ベアブ",
+        "tu_bav": "トゥ・ベアブ"
+      },
+      "ko": {
+        "rosh_hashanah": "로쉬 하샤나(유대 신년)",
+        "yom_kippur": "욤 키푸르(속죄일)",
+        "sukkot": "수코트(초막절)",
+        "shemini_atzeret_simchat_torah": "쉬미니 아체레트와 심하트 토라",
+        "hanukkah": "하누카",
+        "tu_bishvat": "투 비슈밧(나무의 새해)",
+        "purim": "부림절",
+        "passover": "유월절(페사흐)",
+        "passover_seventh_day": "유월절 일곱째 날",
+        "yom_hashoah": "욤 하쇼아(홀로코스트 추모일)",
+        "yom_hazikaron": "욤 하지카론(현충일)",
+        "yom_haatzmaut": "욤 하아츠마우트(독립기념일)",
+        "lag_baomer": "라그 바오메르",
+        "yom_yerushalayim": "예루살렘의 날",
+        "shavuot": "샤부오트(칠칠절)",
+        "tisha_bav": "티샤 베아브",
+        "tu_bav": "투 베아브"
+      },
+      "zh-Hant": {
+        "rosh_hashanah": "猶太新年",
+        "yom_kippur": "贖罪日",
+        "sukkot": "住棚節",
+        "shemini_atzeret_simchat_torah": "聖會節與妥拉節",
+        "hanukkah": "光明節",
+        "tu_bishvat": "圖比舍巴特（樹木新年）",
+        "purim": "普珥節",
+        "passover": "逾越節",
+        "passover_seventh_day": "逾越節第七日",
+        "yom_hashoah": "大屠殺紀念日",
+        "yom_hazikaron": "陣亡將士紀念日",
+        "yom_haatzmaut": "以色列獨立日",
+        "lag_baomer": "篝火節（Lag BaOmer）",
+        "yom_yerushalayim": "耶路撒冷日",
+        "shavuot": "七七節",
+        "tisha_bav": "聖殿被毀日",
+        "tu_bav": "圖比阿夫（愛情節）"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "rosh_hashanah": {
+          "intro": "Rosch ha-Schana ist das jüdische Neujahrsfest an den ersten beiden Tagen des Monats Tischri im September oder Oktober. Es eröffnet die zehn Bußtage, die mit Jom Kippur enden.",
+          "history": "Die Tora nennt den Tag einen „Tag des Schofarblasens“. Die rabbinische Tradition machte ihn zum Jahrestag der Erschaffung der Welt und zum Tag, an dem Gott jeden Menschen für das kommende Jahr richtet. Hier beginnt die jüdische Jahreszählung: 5787 startet im Herbst 2026.",
+          "traditions": "In der Synagoge wird der Schofar, ein Widderhorn, geblasen. Familien tauchen Apfelstücke in Honig für ein süßes Jahr, essen runde Challa und Granatäpfel und wünschen sich „Schana tova“. Beim Taschlich werden Brotkrumen in fließendes Wasser geworfen, um symbolisch die Sünden abzulegen.",
+          "funFacts": [
+            "Die runde Challa steht für den Kreislauf des Jahres und die Krone des Königs der Könige.",
+            "Ein Granatapfel soll 613 Kerne haben, einen für jedes Gebot der Tora.",
+            "An jedem Festtag werden in der Synagoge bis zu 100 Schofartöne geblasen.",
+            "Zu Rosch ha-Schana verschicken Israelis mehr Grüße als zu jedem anderen Fest."
+          ]
+        },
+        "yom_kippur": {
+          "intro": "Jom Kippur, der Versöhnungstag, ist der heiligste Tag des jüdischen Jahres. Er fällt auf den 10. Tischri, neun Tage nach Beginn von Rosch ha-Schana, und wird mit rund 25 Stunden Fasten und Gebet begangen.",
+          "history": "Zur Zeit des Tempels betrat der Hohepriester nur an diesem Tag das Allerheiligste, um für das Volk zu sühnen. Nach der Zerstörung des Tempels traten Fasten, Gebet und Sündenbekenntnis an die Stelle der Opfer. Der Jom-Kippur-Krieg von 1973 begann an diesem Tag und hat ihn im israelischen Gedächtnis noch tiefer verankert.",
+          "traditions": "Das Fasten beginnt bei Sonnenuntergang mit dem eindringlichen Kol-Nidre-Gebet und endet am nächsten Abend mit einem einzigen Schofarton. Viele tragen Weiß und verzichten auf Lederschuhe. In Israel steht das ganze Land still: kein Verkehr, kein Rundfunk, keine Geschäfte, und Kinder radeln über die leeren Autobahnen.",
+          "funFacts": [
+            "Israelische Fernseh- und Radiosender stellen den Betrieb für den ganzen Tag ein.",
+            "Leere Autobahnen werden für einen Tag zum größten Fahrradspielplatz der Welt.",
+            "Die Luftverschmutzung in Israel sinkt während des Feiertags um bis zu 99 Prozent.",
+            "Der traditionelle Wunsch lautet „Gmar chatima tova“: Mögest du im Buch des Lebens besiegelt sein."
+          ]
+        },
+        "sukkot": {
+          "intro": "Sukkot, das Laubhüttenfest, beginnt am 15. Tischri, fünf Tage nach Jom Kippur, und dauert sieben Tage. In Israel ist der erste Tag arbeitsfrei, die übrigen sind festliche Halbfeiertage.",
+          "history": "Das Fest erinnert an die vierzig Jahre, die die Israeliten nach dem Auszug aus Ägypten in provisorischen Hütten in der Wüste verbrachten. Es war zudem eines der drei Wallfahrtsfeste, zu denen man zum Tempel nach Jerusalem zog, und es schließt die Herbsternte ab.",
+          "traditions": "Familien bauen eine Sukka, eine Hütte mit einem Dach aus Zweigen, und essen und schlafen dort eine Woche lang. Die vier Arten, Palmwedel, Myrte, Bachweide und Etrog-Zitrone, werden beim Gebet geschwenkt. Das Fest endet mit Schemini Azeret und Simchat Tora, wenn der Lesezyklus der Tora von vorn beginnt.",
+          "funFacts": [
+            "In ganz Israel stehen Laubhütten auf Balkonen, Dächern und Gehwegen, sogar vor Restaurants.",
+            "Durch das Dach einer Sukka muss man die Sterne sehen, es muss aber mehr Schatten als Licht spenden.",
+            "Der Etrog wird so sorgfältig gezüchtet, dass eine makellose Frucht Hunderte Schekel kosten kann.",
+            "Der Jerusalem-Marsch zieht in dieser Woche Tausende Israelis und christliche Besucher an."
+          ]
+        },
+        "hanukkah": {
+          "intro": "Chanukka, das Lichterfest, beginnt am 25. Kislew Ende November oder im Dezember und dauert acht Tage. In Israel ist es kein arbeitsfreier Tag, aber die Schulen schließen, und die Städte leuchten im Kerzenschein.",
+          "history": "Es erinnert an die Neuweihe des Zweiten Tempels im Jahr 164 v. Chr., nachdem die Makkabäer die seleukidischen Herrscher besiegt hatten. Laut Talmud brannte ein einziger Krug reinen Öls, der nur für einen Tag reichte, acht Tage lang in der Tempelmenora, bis neues Öl bereitet war.",
+          "traditions": "Jeden Abend wird eine Kerze mehr an der Chanukkia entzündet, bis acht gemeinsam brennen; die Lichter stehen sichtbar im Fenster. Man isst in Öl Gebackenes, vor allem mit Marmelade gefüllte Sufganiyot und Kartoffelpuffer, spielt Dreidel und schenkt den Kindern Chanukka-Geld.",
+          "funFacts": [
+            "Israelis essen zu Chanukka schätzungsweise 20 Millionen Sufganiyot.",
+            "Auf israelischen Dreideln steht „Ein großes Wunder geschah hier“, nicht „dort“.",
+            "Die neunte Kerze, der Schamasch, dient nur dazu, die anderen anzuzünden.",
+            "An der Klagemauer und auf Stadtplätzen werden jeden Abend riesige Chanukkien entzündet."
+          ]
+        },
+        "purim": {
+          "intro": "Purim am 14. Adar, im Februar oder März, ist der ausgelassenste Tag des jüdischen Jahres. Gefeiert wird die Rettung der persischen Juden vor Hamans Anschlag, wie sie das Buch Ester erzählt.",
+          "history": "Der biblischen Erzählung zufolge vereitelten Königin Ester und ihr Cousin Mordechai den Plan des Wesirs Haman, die Juden des Perserreichs zu vernichten. Der Name kommt vom „Pur“, dem Los, das Haman warf, um das Datum des Massakers zu bestimmen.",
+          "traditions": "Das Buch Ester wird vorgelesen, und die Gemeinde übertönt Hamans Namen mit Ratschen. Man verkleidet sich, tauscht Essenspakete namens Mischloach Manot, gibt den Armen und isst dreieckige Hamantaschen. Tel Aviv und Holon feiern mit Straßenfesten und einem großen Umzug.",
+          "funFacts": [
+            "Auf Hebräisch heißt das Gebäck „Osnei Haman“, Hamans Ohren.",
+            "Jerusalem feiert einen Tag später an Schuschan Purim, weil es eine ummauerte Stadt ist.",
+            "Der Tradition nach darf man trinken, bis man „verflucht sei Haman“ nicht mehr von „gesegnet sei Mordechai“ unterscheiden kann.",
+            "Purim ist das einzige Fest, an dem das jüdische Gesetz Lärm in der Synagoge ausdrücklich fördert."
+          ]
+        },
+        "passover": {
+          "intro": "Pessach beginnt am 15. Nissan im März oder April und dauert in Israel sieben Tage. Es feiert den Auszug aus Ägypten und ist das am weitesten verbreitete jüdische Fest.",
+          "history": "Die Tora erzählt, wie Gott die Israeliten aus der Sklaverei befreite und wie die zehnte Plage an den mit Lammblut markierten Häusern „vorüberging“. Beim eiligen Aufbruch buk das Volk ungesäuertes Brot, weshalb die ganze Woche nichts Gesäuertes gegessen wird.",
+          "traditions": "Am ersten Abend versammeln sich die Familien zum Seder, einem rituellen Mahl nach der Haggada mit vier Bechern Wein, Bitterkräutern, Matze und der für die Kinder nacherzählten Geschichte. In Israel sind der erste und der siebte Tag Feiertage, und die Bäckereien stellen auf Matze um.",
+          "funFacts": [
+            "Vor dem Fest werden die Wohnungen von jedem Krümel Chametz, gesäuerter Speise, gereinigt.",
+            "Kinder suchen den Afikoman, ein verstecktes Stück Matze, und tauschen es gegen ein Geschenk.",
+            "Israelische Supermärkte verhüllen die Brotregale für eine Woche mit Plastikfolie.",
+            "Der Seder endet mit den Worten „Nächstes Jahr in Jerusalem“, sogar in Jerusalem."
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "Jom haAtzma'ut ist Israels Unabhängigkeitstag am 5. Ijar im April oder Mai. Er erinnert an die Ausrufung des Staates Israel am 14. Mai 1948 und folgt direkt auf den Gedenktag für die Gefallenen.",
+          "history": "Am 14. Mai 1948, wenige Stunden vor dem Ende des britischen Mandats, verlas David Ben-Gurion im Tel Aviver Museum die Unabhängigkeitserklärung. Der Feiertag richtet sich nach dem hebräischen Kalender und wird um ein bis zwei Tage verschoben, wenn er neben den Schabbat fiele.",
+          "traditions": "Der Tag beginnt am Vorabend mit der Fackelzeremonie auf dem Herzlberg, die die Trauer von Jom haSikaron in Feier verwandelt. Israelis picknicken und grillen in Parks, sehen die Flugschau der Luftwaffe und das Feuerwerk, und am Abend wird der Israel-Preis verliehen.",
+          "funFacts": [
+            "Der Mangal, ein Holzkohlegrill, ist so zentral, dass der Tag scherzhaft Grilltag heißt.",
+            "Auf dem Herzlberg werden zwölf Fackeln entzündet, eine für jeden Stamm Israels.",
+            "Das Finale des Internationalen Bibelwettbewerbs findet jedes Jahr am Unabhängigkeitstag statt.",
+            "Schon Wochen vorher wehen Fahnen an Autos und Balkonen."
+          ]
+        },
+        "shavuot": {
+          "intro": "Schawuot, das Wochenfest, fällt auf den 6. Siwan im Mai oder Juni, nach der siebenwöchigen Omerzählung ab dem zweiten Pessachtag. Es feiert die Übergabe der Tora am Berg Sinai und die Weizenernte.",
+          "history": "Die Tora beschreibt Schawuot als Tag der Erstlingsfrüchte, an dem die Bauern ihre Ernte zum Tempel nach Jerusalem trugen. Die rabbinische Tradition verband es mit der Offenbarung am Sinai, sodass das Fest Erntefeier und Geburtstag der Tora zugleich ist.",
+          "traditions": "Milchspeisen sind das Essen des Tages: Käsekuchen, Blintzes und mit Käse gefülltes Gebäck. Viele lernen die ganze Nacht Tora, und in der Synagoge wird das Buch Rut gelesen. Kibbuzim veranstalten Erstlingsfrucht-Umzüge, Kinder tragen Weiß und Blumenkränze.",
+          "funFacts": [
+            "Der Name bedeutet „Wochen“, weil von Pessach an sieben Wochen gezählt werden.",
+            "In der Woche vor Schawuot kaufen Israelis mehr Käse als zu jeder anderen Zeit des Jahres.",
+            "Die nächtlichen Lernrunden enden mit dem Morgengebet an der Klagemauer.",
+            "Landwirtschaftliche Dörfer lassen mit Obst und Getreide geschmückte Traktoren paradieren."
+          ]
+        }
+      },
+      "en": {
+        "rosh_hashanah": {
+          "intro": "Rosh Hashanah is the Jewish New Year, celebrated on the first two days of the month of Tishrei in September or October. It opens the Ten Days of Repentance that end with Yom Kippur.",
+          "history": "The Torah calls the day a \"day of the shofar blast\". Rabbinic tradition made it the anniversary of the creation of the world and the day on which God judges every person for the coming year. The Jewish year count starts here: 5787 begins in autumn 2026.",
+          "traditions": "The shofar, a ram's horn, is sounded in synagogue. Families dip apples in honey for a sweet year, eat round challah and pomegranates, and greet each other with \"Shana tova\". At Tashlich, bread crumbs are cast into flowing water to symbolically shed sins.",
+          "funFacts": [
+            "The round challah symbolises the cycle of the year and the crown of the King of Kings.",
+            "A pomegranate is said to hold 613 seeds, one for each commandment in the Torah.",
+            "Up to 100 shofar blasts are sounded in synagogue on each day of the festival.",
+            "Israelis send more holiday greetings for Rosh Hashanah than for any other festival."
+          ]
+        },
+        "yom_kippur": {
+          "intro": "Yom Kippur, the Day of Atonement, is the holiest day of the Jewish year. It falls on 10 Tishrei, nine days after the start of Rosh Hashanah, and is observed with about 25 hours of fasting and prayer.",
+          "history": "In Temple times the High Priest entered the Holy of Holies only on this day to atone for the people. After the Temple was destroyed, fasting, prayer and confession took the place of the sacrifices. The Yom Kippur War of 1973 began on this day, which deepened its place in Israeli memory.",
+          "traditions": "The fast begins at sunset with the haunting Kol Nidre prayer and ends the next evening with a single shofar blast. Many wear white and avoid leather shoes. In Israel the whole country falls silent: no traffic, no broadcasts, no shops, and children ride bicycles on the empty motorways.",
+          "funFacts": [
+            "Israeli television and radio stations go off the air for the entire day.",
+            "Empty highways turn into the biggest bicycle playground in the world for one day.",
+            "Air pollution in Israel drops by up to 99 percent during the holiday.",
+            "The traditional wish is \"Gmar chatima tova\": may you be sealed in the Book of Life."
+          ]
+        },
+        "sukkot": {
+          "intro": "Sukkot, the Feast of Tabernacles, starts on 15 Tishrei, five days after Yom Kippur, and lasts seven days. In Israel the first day is a public holiday and the rest are festive half-holidays.",
+          "history": "The festival recalls the forty years the Israelites spent in temporary shelters in the desert after the Exodus. It was also one of the three pilgrimage festivals on which people travelled to the Temple in Jerusalem, and it closes the autumn harvest season.",
+          "traditions": "Families build a sukkah, a hut with a roof of branches, and eat and sometimes sleep in it for a week. The four species, palm frond, myrtle, willow and etrog citron, are waved in prayer. The festival ends with Shemini Atzeret and Simchat Torah, when the Torah reading cycle begins again.",
+          "funFacts": [
+            "Sukkahs appear on balconies, rooftops and pavements all over Israel, even outside restaurants.",
+            "A sukkah roof must let you see the stars but provide more shade than sunlight.",
+            "The etrog is grown so carefully that a perfect fruit can cost hundreds of shekels.",
+            "The Jerusalem March draws thousands of Israelis and Christian visitors during the week."
+          ]
+        },
+        "hanukkah": {
+          "intro": "Hanukkah, the Festival of Lights, begins on 25 Kislev in late November or December and lasts eight days. It is not a day off work in Israel, but schools close and cities glow with candlelight.",
+          "history": "It commemorates the rededication of the Second Temple in 164 BCE after the Maccabees defeated the Seleucid rulers. According to the Talmud a single jug of pure oil, enough for one day, burned in the Temple menorah for eight days until new oil could be prepared.",
+          "traditions": "Each evening one more candle is lit on the hanukkiah until eight burn together, and the lights are placed in windows for all to see. Families eat foods fried in oil, above all jam-filled sufganiyot and potato latkes, play dreidel and give children Hanukkah money.",
+          "funFacts": [
+            "Israelis eat an estimated 20 million sufganiyot every Hanukkah season.",
+            "Dreidels in Israel carry the letters for \"a great miracle happened here\", not \"there\".",
+            "The ninth candle, the shamash, is only there to light the others.",
+            "Huge public hanukkiahs are lit at the Western Wall and in city squares each night."
+          ]
+        },
+        "purim": {
+          "intro": "Purim on 14 Adar, in February or March, is the most exuberant day of the Jewish year. It celebrates the rescue of the Persian Jews from Haman's plot as told in the Book of Esther.",
+          "history": "According to the biblical story, Queen Esther and her cousin Mordechai foiled the plan of the vizier Haman to destroy the Jews of the Persian Empire. The name comes from the \"pur\", the lot Haman cast to choose the date of the massacre.",
+          "traditions": "The Book of Esther is read aloud and the crowd drowns out Haman's name with rattles. People dress up in costumes, exchange food parcels called mishloach manot, give to the poor and eat triangular hamantaschen. Tel Aviv and Holon host street parties and a big parade.",
+          "funFacts": [
+            "In Hebrew the pastries are \"oznei Haman\", Haman's ears.",
+            "Jerusalem celebrates a day later on Shushan Purim, because it is a walled city.",
+            "Tradition says one may drink until unable to tell \"cursed Haman\" from \"blessed Mordechai\".",
+            "Purim is the only festival on which Jewish law encourages noise in the synagogue."
+          ]
+        },
+        "passover": {
+          "intro": "Passover, Pesach in Hebrew, begins on 15 Nisan in March or April and lasts seven days in Israel. It celebrates the Exodus from Egypt and is the most widely observed Jewish festival.",
+          "history": "The Torah tells how God freed the Israelites from slavery, and how the tenth plague \"passed over\" the houses marked with lamb's blood. Leaving in haste, the people baked unleavened bread, which is why no leavened food is eaten for the whole week.",
+          "traditions": "On the first evening families gather for the seder, a ritual meal following the Haggadah with four cups of wine, bitter herbs, matzah and the story retold for the children. In Israel the first and seventh days are public holidays, and bakeries switch to matzah.",
+          "funFacts": [
+            "Before the festival homes are cleaned of every crumb of chametz, leavened food.",
+            "Children hunt for the afikoman, a hidden piece of matzah, and trade it for a prize.",
+            "Israeli supermarkets cover bread shelves with plastic sheets for the week.",
+            "The seder ends with the words \"Next year in Jerusalem\", even in Jerusalem."
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "Yom HaAtzmaut is Israel's Independence Day, celebrated on 5 Iyar in April or May. It marks the declaration of the State of Israel on 14 May 1948 and follows directly after Memorial Day.",
+          "history": "On 14 May 1948, hours before the British Mandate ended, David Ben-Gurion read the Declaration of Independence in the Tel Aviv Museum. The holiday is fixed by the Hebrew calendar and is moved by a day or two when it would fall next to Shabbat.",
+          "traditions": "The day begins the evening before with the torch-lighting ceremony on Mount Herzl, which turns the mourning of Yom HaZikaron into celebration. Israelis picnic and barbecue in parks, watch the air force flyover and the fireworks, and the Israel Prize is awarded in the evening.",
+          "funFacts": [
+            "The mangal, a charcoal barbecue, is so central that the day is jokingly called Barbecue Day.",
+            "Twelve torches are lit on Mount Herzl, one for each tribe of Israel.",
+            "The International Bible Contest final is held on Independence Day every year.",
+            "Flags go up on cars and balconies weeks before the holiday."
+          ]
+        },
+        "shavuot": {
+          "intro": "Shavuot, the Feast of Weeks, falls on 6 Sivan in May or June, after seven weeks of Omer counting from the second day of Passover. It celebrates the giving of the Torah at Mount Sinai and the wheat harvest.",
+          "history": "The Torah describes Shavuot as the day of the first fruits, when farmers carried their harvest to the Temple in Jerusalem. Rabbinic tradition linked it to the revelation at Sinai, so the festival combines a harvest celebration with the birth of the Torah.",
+          "traditions": "Dairy dishes are the food of the day: cheesecake, blintzes and cheese-filled pastries. Many stay up all night studying Torah, and the Book of Ruth is read in synagogue. Kibbutzim hold first-fruits parades, and children wear white and flower wreaths.",
+          "funFacts": [
+            "The name means \"weeks\" because seven weeks are counted from Passover.",
+            "Israelis buy more cheese in the week before Shavuot than at any other time of year.",
+            "All-night study sessions end with dawn prayers at the Western Wall.",
+            "Farming villages parade tractors decorated with fruit and grain."
+          ]
+        }
+      },
+      "fr": {
+        "rosh_hashanah": {
+          "intro": "Roch Hachana est le Nouvel An juif, célébré les deux premiers jours du mois de Tishrei en septembre ou octobre. Il ouvre les dix jours de repentance qui se terminent par Yom Kippour.",
+          "history": "La Torah appelle ce jour « le jour du son du shofar ». La tradition rabbinique en faisait l'anniversaire de la création du monde et le jour où Dieu juge chaque personne pour l'année à venir. Le décompte des années juives commence ici : 5787 commence à l’automne 2026.",
+          "traditions": "Le shofar, une corne de bélier, retentit dans la synagogue. Les familles trempent des pommes dans du miel pour une année douce, mangent de la challah ronde et des grenades et se saluent avec « Shana tova ». À Tashlich, des miettes de pain sont jetées dans l’eau courante pour se débarrasser symboliquement des péchés.",
+          "funFacts": [
+            "La challah ronde symbolise le cycle de l'année et la couronne du Roi des Rois.",
+            "On dit qu'une grenade contient 613 graines, une pour chaque commandement de la Torah.",
+            "Jusqu'à 100 coups de shofar retentissent dans la synagogue chaque jour du festival.",
+            "Les Israéliens envoient plus de vœux pour Roch Hachana que pour toute autre fête."
+          ]
+        },
+        "yom_kippur": {
+          "intro": "Yom Kippour, le Jour des Expiations, est le jour le plus saint de l'année juive. Il tombe le 10 Tishrei, neuf jours après le début de Roch Hachana, et est marqué par un jeûne d’environ 25 heures et des prières intenses.",
+          "history": "À l'époque du Temple, le Grand Prêtre n'entrait dans le Saint des Saints que ce jour-là pour accomplir les rites d’expiation pour le peuple. Après la destruction du Temple, le jeûne, la prière et la confession ont remplacé les sacrifices. La guerre du Yom Kippour de 1973 a commencé ce jour-là, ce qui a approfondi sa place dans la mémoire israélienne.",
+          "traditions": "Le jeûne commence au coucher du soleil avec la prière envoûtante du Kol Nidre et se termine le lendemain soir avec un seul coup de shofar. Beaucoup portent du blanc et évitent les chaussures en cuir. En Israël, le pays tout entier est silencieux : pas de circulation, pas d'émissions, pas de magasins et les enfants font du vélo sur les autoroutes désertes.",
+          "funFacts": [
+            "Les chaînes de télévision et de radio israéliennes sont fermées toute la journée.",
+            "Les autoroutes vides se transforment le temps d'une journée en le plus grand terrain de jeu pour vélos au monde.",
+            "La pollution de l'air en Israël diminue jusqu'à 99 pour cent pendant les vacances.",
+            "Le souhait traditionnel est \"Gmar chatima tova\" : puissiez-vous être scellé dans le Livre de Vie."
+          ]
+        },
+        "sukkot": {
+          "intro": "Souccot, la Fête des Tabernacles, commence le 15 Tishrei, cinq jours après Yom Kippour, et dure sept jours. En Israël, le premier jour est un jour férié et les jours suivants sont les jours intermédiaires de la fête, appelés Hol Hamoed.",
+          "history": "Le festival rappelle les quarante années que les Israélites ont passées dans des abris temporaires dans le désert après l'Exode. C'était également l'une des trois fêtes de pèlerinage au cours desquelles les gens se rendaient au Temple de Jérusalem et clôturait la saison des récoltes d'automne.",
+          "traditions": "Les familles construisent une soucca, une hutte avec un toit de branches, et y mangent et parfois dorment pendant une semaine. Les quatre espèces, la palme, le myrte, le saule et le cédrat (etrog), sont agitées en prière. Le festival se termine avec Shemini Atzeret et Sim'hat Torah, lorsque le cycle de lecture de la Torah recommence.",
+          "funFacts": [
+            "Les souccas apparaissent sur les balcons, les toits et les trottoirs partout en Israël, même à l'extérieur des restaurants.",
+            "Un toit de soucca doit vous permettre de voir les étoiles mais fournir plus d'ombre que la lumière du soleil.",
+            "L'etrog est cultivé avec tant de soin qu'un fruit parfait peut coûter des centaines de shekels.",
+            "La Marche de Jérusalem attire des milliers de visiteurs israéliens et chrétiens pendant la semaine."
+          ]
+        },
+        "hanukkah": {
+          "intro": "Hanoukka, la Fête des Lumières, commence le 25 Kislev fin novembre ou décembre et dure huit jours. Ce n’est pas un jour de congé en Israël, mais les écoles ferment et les villes brillent aux chandelles.",
+          "history": "La fête commémore la reconsécration du Second Temple en 164 avant notre ère après la victoire des Maccabées sur les dirigeants séleucides. Selon le Talmud, une seule cruche d'huile pure, suffisante pour une journée, brûlait dans la menorah du Temple pendant huit jours jusqu'à ce qu'une nouvelle huile puisse être préparée.",
+          "traditions": "Chaque soir, une bougie supplémentaire est allumée sur la hanoukkia jusqu'à ce que huit bougies brûlent ensemble, et les lumières sont placées dans les fenêtres à la vue de tous. Les familles mangent des aliments frits dans l'huile, surtout des sufganiyot remplis de confiture et des latkes de pommes de terre, jouent au dreidel et donnent de l'argent aux enfants pour Hanoukka.",
+          "funFacts": [
+            "Les Israéliens mangent environ 20 millions de sufganiyot à chaque saison de Hanoukka.",
+            "Les Dreidels en Israël portent les lettres signifiant \"un grand miracle s'est produit ici\", et non \"là-bas\".",
+            "La neuvième bougie, le shamash, n'est là que pour allumer les autres.",
+            "D'immenses hanoukkias publiques sont allumées chaque soir au Mur Occidental et sur les places de la ville."
+          ]
+        },
+        "purim": {
+          "intro": "Pourim, le 14 Adar, en février ou mars, est le jour le plus exubérant de l'année juive. Il célèbre le sauvetage des Juifs perses du complot d'Haman, tel que raconté dans le Livre d'Esther.",
+          "history": "Selon l'histoire biblique, la reine Esther et son cousin Mordechai ont déjoué le plan du vizir Haman visant à détruire les Juifs de l'empire perse. Le nom vient du « pur », le sort qu'Haman a tiré pour choisir la date du massacre.",
+          "traditions": "Le Livre d'Esther est lu à haute voix et la foule noie le nom d'Haman avec des crécelles. Les gens se déguisent, échangent des colis de nourriture appelés mishloach manot, donnent aux pauvres et mangent des hamantaschen triangulaires. Tel Aviv et Holon organisent des fêtes de rue et un grand défilé.",
+          "funFacts": [
+            "En hébreu les pâtisseries sont \"oznei Haman\", les oreilles d'Haman.",
+            "Jérusalem célèbre un jour plus tard Shushan Pourim, car c'est une ville fortifiée.",
+            "La tradition dit qu'on peut boire jusqu'à ce qu'on ne puisse plus distinguer « le maudit Haman » du « bienheureux Mardochée ».",
+            "Pourim est la seule fête au cours de laquelle la loi juive encourage le bruit dans la synagogue."
+          ]
+        },
+        "passover": {
+          "intro": "La Pâque, Pessah en hébreu, commence le 15 Nisan en mars ou avril et dure sept jours en Israël. Elle célèbre l’Exode d’Égypte et constitue la fête juive la plus largement observée.",
+          "history": "La Torah raconte comment Dieu libéra les Israélites de l'esclavage et comment la dixième plaie « épargna » les maisons marquées par le sang de l'agneau. Partis en toute hâte, les gens ont fait cuire du pain sans levain, c'est pourquoi on ne mange pas d'aliments au levain pendant toute la semaine.",
+          "traditions": "Le premier soir, les familles se réunissent pour le seder, un repas rituel qui suit la Haggadah avec quatre coupes de vin, des herbes amères, de la matsa et l'histoire racontée aux enfants. En Israël, les premier et septième jours sont des jours fériés et les boulangeries passent à la matsa.",
+          "funFacts": [
+            "Avant le festival, les maisons sont nettoyées de chaque miette de chametz, nourriture au levain.",
+            "Les enfants recherchent l'afikoman, un morceau caché de matsa, et l'échangent contre un prix.",
+            "Les supermarchés israéliens recouvrent les rayons de pain de bâches en plastique pour la semaine.",
+            "Le Seder se termine par les mots \"L'année prochaine à Jérusalem\", même à Jérusalem."
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "Yom HaAtzmaut est le jour de l'indépendance d'Israël, célébré le 5 Iyar en avril ou en mai. Il marque la déclaration de l’État d’Israël le 14 mai 1948 et suit directement Yom HaZikaron, la journée du souvenir.",
+          "history": "Le 14 mai 1948, quelques heures avant la fin du mandat britannique, David Ben Gourion a lu la Déclaration d'indépendance au Musée de Tel Aviv. La fête est fixée par le calendrier hébreu et est décalée d’un jour ou deux lorsqu’elle tombe à côté du Shabbat.",
+          "traditions": "La journée commence la veille au soir avec la cérémonie d'allumage des flambeaux sur le mont Herzl, qui transforme le deuil de Yom HaZikaron en célébration. Les Israéliens pique-niquent et font des barbecues dans les parcs, assistent au survol de l’armée de l’air et aux feux d’artifice, et le Prix Israël est décerné dans la soirée.",
+          "funFacts": [
+            "Le mangal, un barbecue au charbon de bois, est si central que cette journée est appelée en plaisantant Journée du barbecue.",
+            "Douze torches sont allumées sur le mont Herzl, une pour chaque tribu d'Israël.",
+            "La finale du Concours biblique international a lieu chaque année le jour de l'Indépendance.",
+            "Des drapeaux sont hissés sur les voitures et les balcons des semaines avant la fête."
+          ]
+        },
+        "shavuot": {
+          "intro": "Chavouot, la Fête des Semaines, tombe le 6 Sivan en mai ou juin, après les sept semaines du compte de l’Omer à partir du deuxième jour de Pessa’h. La fête célèbre le don de la Torah au Mont Sinaï et la récolte du blé.",
+          "history": "La Torah décrit Chavouot comme le jour des prémices, lorsque les agriculteurs transportaient leur récolte au Temple de Jérusalem. La tradition rabbinique la liait à la révélation au Sinaï, c'est pourquoi la fête combine la célébration des récoltes avec la naissance de la Torah.",
+          "traditions": "Les plats laitiers sont la nourriture du jour : cheesecake, blintz et pâtisseries fourrées au fromage. Beaucoup restent éveillés toute la nuit à étudier la Torah et le Livre de Ruth est lu à la synagogue. Les kibboutzim organisent des défilés de prémices et les enfants portent des couronnes blanches et fleuries.",
+          "funFacts": [
+            "Le nom signifie « semaines » car sept semaines sont comptées à partir de Pâque.",
+            "Les Israéliens achètent plus de fromage la semaine précédant Shavouot qu'à tout autre moment de l'année.",
+            "Les séances d'étude d'une nuit entière se terminent par des prières à l'aube au Mur Occidental.",
+            "Les villages agricoles font défiler des tracteurs décorés de fruits et de céréales."
+          ]
+        }
+      },
+      "es": {
+        "rosh_hashanah": {
+          "intro": "Rosh Hashaná es el Año Nuevo judío, que se celebra los dos primeros días del mes de Tishrei en septiembre u octubre. Abre los Diez Días de Arrepentimiento que terminan con Yom Kipur.",
+          "history": "La Torá llama a ese día \"el día del sonido del shofar\". La tradición rabínica lo convirtió en el aniversario de la creación del mundo y el día en el que Dios juzga a cada persona para el año próximo. La cuenta del año judío comienza aquí: 5787 comienza en el otoño de 2026.",
+          "traditions": "El shofar, un cuerno de carnero, suena en la sinagoga. Las familias sumergen manzanas en miel para disfrutar de un año dulce, comen jalá redonda y granadas y se saludan con \"Shana tová\". En Tashlich, se arrojan migas de pan en agua corriente para desprenderse simbólicamente de los pecados.",
+          "funFacts": [
+            "La jalá redonda simboliza el ciclo del año y la corona del Rey de Reyes.",
+            "Se dice que una granada contiene 613 semillas, una para cada mandamiento de la Torá.",
+            "Se hacen sonar hasta 100 toques de shofar en la sinagoga cada día del festival.",
+            "Los israelíes envían más saludos festivos por Rosh Hashaná que por cualquier otro festival."
+          ]
+        },
+        "yom_kippur": {
+          "intro": "Yom Kippur, el Día de la Expiación, es el día más sagrado del año judío. Cae el 10 de Tishrei, nueve días después del comienzo de Rosh Hashaná, y está marcado por un ayuno de 25 horas y una oración intensa.",
+          "history": "En los tiempos del Templo, el Sumo Sacerdote entraba al Lugar Santísimo sólo en este día para expiar los pecados del pueblo. Después de la destrucción del Templo, el ayuno, la oración y la confesión reemplazaron a los sacrificios. La Guerra de Yom Kippur de 1973 comenzó ese día, lo que profundizó su lugar en la memoria israelí.",
+          "traditions": "El ayuno comienza al atardecer con la conmovedora oración Kol Nidre y termina la noche siguiente con un solo toque del shofar. Muchos visten de blanco y evitan los zapatos de cuero. En Israel todo el país está en silencio: no hay tráfico, no hay transmisiones, no hay tiendas y los niños andan en bicicleta por las autopistas vacías.",
+          "funFacts": [
+            "Las estaciones de radio y televisión israelíes están fuera del aire durante todo el día.",
+            "Las autopistas vacías se convierten por un día en el mayor parque infantil para bicicletas del mundo.",
+            "La contaminación del aire en Israel cae hasta un 99 por ciento durante las vacaciones.",
+            "El deseo tradicional es \"Gmar jatima tova\": que seas sellado en el Libro de la Vida."
+          ]
+        },
+        "sukkot": {
+          "intro": "Sucot, la Fiesta de los Tabernáculos, comienza el 15 de Tishrei, cinco días después de Yom Kipur, y dura siete días. En Israel, el primer día es festivo y los días siguientes son días intermedios de la festividad, llamados Jol Hamoed.",
+          "history": "El festival recuerda los cuarenta años que los israelitas pasaron en refugios temporales en el desierto después del Éxodo. También era uno de los tres festivales de peregrinación en los que la gente viajaba al Templo de Jerusalén y cierra la temporada de cosecha de otoño.",
+          "traditions": "Las familias construyen una sucá, una cabaña con techo de ramas, y comen y a veces duermen en ella durante una semana. Las cuatro especies, hoja de palma, mirto, sauce y cidra etrog, se agitan en oración. La festividad finaliza con Shemini Atzeret y Simjat Torá, cuando comienza nuevamente el ciclo de lectura de la Torá.",
+          "funFacts": [
+            "Las sucot aparecen en balcones, tejados y aceras en todo Israel, incluso fuera de los restaurantes.",
+            "El techo de una sucá debe permitirte ver las estrellas pero proporcionar más sombra que la luz del sol.",
+            "El etrog se cultiva con tanto cuidado que una fruta perfecta puede costar cientos de shekels.",
+            "La Marcha de Jerusalén atrae a miles de visitantes israelíes y cristianos durante la semana."
+          ]
+        },
+        "hanukkah": {
+          "intro": "Hanukkah, el Festival de las Luces, comienza el 25 de Kislev a finales de noviembre o diciembre y dura ocho días. No es día libre en Israel, pero las escuelas cierran y las ciudades brillan con velas.",
+          "history": "Conmemora la nueva dedicación del Segundo Templo en 164 a. C. después de que los Macabeos derrotaran a los gobernantes seléucidas. Según el Talmud, una sola jarra de aceite puro, suficiente para un día, se quemaba en la menorá del templo durante ocho días hasta que se podía preparar aceite nuevo.",
+          "traditions": "Cada noche se enciende una vela más en la januquiá hasta que ocho arden juntas, y las luces se colocan en las ventanas para que todos las vean. Las familias comen alimentos fritos en aceite, sobre todo sufganiyot rellenas de mermelada y latkes de patata, juegan al trompo y dan dinero a los niños para Janucá.",
+          "funFacts": [
+            "Los israelíes comen aproximadamente 20 millones de sufganiyot cada temporada de Hanukkah.",
+            "Los Dreidels en Israel llevan las letras que dicen \"un gran milagro ocurrió aquí\", no \"allá\".",
+            "La novena vela, el shamash, sólo está ahí para encender las demás.",
+            "Cada noche se encienden enormes hanukkiahs públicas en el Muro Occidental y en las plazas de la ciudad."
+          ]
+        },
+        "purim": {
+          "intro": "Purim el 14 de Adar, en febrero o marzo, es el día más exuberante del año judío. Celebra el rescate de los judíos persas del complot de Amán como se cuenta en el Libro de Ester.",
+          "history": "Según la historia bíblica, la reina Ester y su primo Mordejai frustraron el plan del visir Amán de destruir a los judíos del Imperio Persa. El nombre proviene del \"pur\", la suerte que echó Amán para elegir la fecha de la masacre.",
+          "traditions": "Se lee el Libro de Ester en voz alta y la multitud ahoga el nombre de Amán con matracas. La gente se disfraza, intercambia paquetes de comida llamados mishloaj manot, se los da a los pobres y come hamantaschen triangulares. Tel Aviv y Holon organizan fiestas callejeras y un gran desfile.",
+          "funFacts": [
+            "En hebreo los pasteles son \"oznei Haman\", las orejas de Amán.",
+            "Jerusalén celebra un día después Shushan Purim, porque es una ciudad amurallada.",
+            "La tradición dice que uno puede beber hasta que no pueda distinguir al \"maldito Amán\" del \"bendito Mordejai\".",
+            "Purim es la única festividad en la que la ley judía fomenta el ruido en la sinagoga."
+          ]
+        },
+        "passover": {
+          "intro": "La Pascua judía, Pésaj, comienza el 15 de Nisán en marzo o abril y dura siete días en Israel. Celebra el Éxodo de Egipto y es la fiesta judía más observada.",
+          "history": "La Torá cuenta cómo Dios liberó a los israelitas de la esclavitud y cómo la décima plaga \"pasó por alto\" las casas marcadas con sangre de cordero. La gente salió apresuradamente y horneó pan sin levadura, de ahí la tradición de evitar el jametz durante la festividad.",
+          "traditions": "La primera noche, las familias se reúnen para el seder, una comida ritual guiada por la Hagadá con cuatro copas de vino, hierbas amargas, matzá y la historia contada a los niños. En Israel, el primer y el séptimo día son festivos y las panaderías cambian a matzá.",
+          "funFacts": [
+            "Antes del festival, las casas se limpian de cada migaja de jametz, alimento con levadura.",
+            "Los niños buscan el afikoman, un trozo escondido de matzá, y lo cambian por un premio.",
+            "Los supermercados israelíes cubren los estantes de pan con láminas de plástico durante la semana.",
+            "El seder termina con las palabras \"El año que viene en Jerusalén\", incluso en Jerusalén."
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "Yom HaAtzmaut es el Día de la Independencia de Israel, que se celebra el 5 de Iyar en abril o mayo. Marca la declaración del Estado de Israel el 14 de mayo de 1948 y sigue inmediatamente después del Día de los Caídos.",
+          "history": "El 14 de mayo de 1948, horas antes de que terminara el Mandato Británico, David Ben-Gurion leyó la Declaración de Independencia en el Museo de Tel Aviv. El feriado está fijado por el calendario hebreo y se adelanta uno o dos días cuando caería junto al Shabat.",
+          "traditions": "El día comienza la noche anterior con la ceremonia de encendido de antorchas en el Monte Herzl, que convierte el duelo de Yom HaZikaron en celebración. Los israelíes hacen picnic y hacen barbacoas en los parques, contemplan el sobrevuelo de la fuerza aérea y los fuegos artificiales, y por la noche se entrega el Premio Israel.",
+          "funFacts": [
+            "El mangal, una barbacoa de carbón, es tan central que el día se llama en broma Día de la Barbacoa.",
+            "Se encienden doce antorchas en el monte Herzl, una por cada tribu de Israel.",
+            "La final del Concurso Bíblico Internacional se lleva a cabo cada año el Día de la Independencia.",
+            "Se izan banderas en automóviles y balcones semanas antes de la festividad."
+          ]
+        },
+        "shavuot": {
+          "intro": "Shavuot, la Fiesta de las Semanas, cae el 6 de Siván en mayo o junio, tras siete semanas de la cuenta del Ómer desde el segundo día de Pésaj. Celebra la entrega de la Torá en el Monte Sinaí y la cosecha del trigo.",
+          "history": "La Torá describe Shavuot como el día de los primeros frutos, cuando los agricultores llevaban su cosecha al Templo en Jerusalén. La tradición rabínica lo vincula con la revelación en el Sinaí, por lo que el festival combina una celebración de la cosecha con el nacimiento de la Torá.",
+          "traditions": "Los platos lácteos son la comida del día: tarta de queso, blintzes y pasteles rellenos de queso. Muchos se quedan despiertos toda la noche estudiando Torá y se lee el Libro de Rut en la sinagoga. Los kibutzim celebran desfiles de primicias y los niños visten de blanco y llevan coronas de flores.",
+          "funFacts": [
+            "El nombre significa \"semanas\" porque se cuentan siete semanas desde Pesaj.",
+            "Los israelíes compran más queso la semana anterior a Shavuot que en cualquier otra época del año.",
+            "Las sesiones de estudio que duran toda la noche terminan con las oraciones del amanecer en el Muro de las Lamentaciones.",
+            "Los pueblos agrícolas desfilan con tractores decorados con frutas y cereales."
+          ]
+        }
+      },
+      "pt": {
+        "rosh_hashanah": {
+          "intro": "Rosh Hashanah é o Ano Novo Judaico, celebrado nos dois primeiros dias do mês de Tishrei, em setembro ou outubro. Abre os Dez Dias de Arrependimento que terminam com o Yom Kippur.",
+          "history": "A Torá chama a este dia o \"dia do toque do shofar\". A tradição rabínica fez deste o aniversário da criação do mundo e o dia em que Deus julgará cada pessoa para o próximo ano. A contagem do ano judaico começa aqui: 5.787 começa no outono de 2026.",
+          "traditions": "O shofar, um chifre de carneiro, é tocado na sinagoga. As famílias mergulham maçãs no mel para um ano doce, comem challah redonda e romãs e cumprimentam-se com \"Shana tova\". Em Tashlich, as migalhas de pão são lançadas em água corrente para se livrarem simbolicamente dos pecados.",
+          "funFacts": [
+            "A challah redonda simboliza o ciclo do ano e a coroa do Rei dos Reis.",
+            "Diz-se que uma romã contém 613 sementes, uma para cada mandamento da Torá.",
+            "São tocados até 100 toques de shofar na sinagoga em cada dia do festival.",
+            "Os israelitas enviam mais mensagens de boas-festas para o Rosh Hashanah do que para qualquer outro festival."
+          ]
+        },
+        "yom_kippur": {
+          "intro": "Yom Kippur, o Dia da Expiação, é o dia mais sagrado do ano judaico. Ocorre a 10 de Tishrei, nove dias após o início do Rosh Hashaná, e é assinalado com cerca de 25 horas de jejum e oração.",
+          "history": "Nos tempos do Templo, o Sumo Sacerdote entrava no Santo dos Santos apenas neste dia para expiar os pecados do povo. Depois de destruído o Templo, o jejum, a oração e a confissão tomaram o lugar dos sacrifícios. A Guerra do Yom Kippur de 1973 começou neste dia, o que aprofundou o seu lugar na memória israelita.",
+          "traditions": "O jejum começa ao pôr-do-sol com a comovente oração de Kol Nidre e termina na noite seguinte com um único toque de shofar. Muitos usam branco e evitam sapatos de pele. Em Israel, todo o país está em silêncio: não há trânsito, não há transmissões, não há lojas e as crianças andam de bicicleta nas autoestradas vazias.",
+          "funFacts": [
+            "As estações de televisão e rádio israelitas estão fora do ar o dia inteiro.",
+            "Autoestradas vazias transformam-se no maior parque de diversões para bicicletas do mundo por um dia.",
+            "A poluição do ar em Israel desce até 99% durante o feriado.",
+            "O desejo tradicional é \"Gmar chatima tova\": que sejas selado no Livro da Vida."
+          ]
+        },
+        "sukkot": {
+          "intro": "Sucot, a Festa dos Tabernáculos, começa a 15 de Tishrei, cinco dias depois de Yom Kippur, e dura sete dias. Em Israel, o primeiro dia é feriado e os restantes pertencem ao período festivo intermédio chamado Chol HaMoed.",
+          "history": "O festival recorda os quarenta anos que os israelitas passaram em abrigos temporários no deserto após o Êxodo. Era também um dos três festivais de peregrinação em que as pessoas se deslocavam para o Templo de Jerusalém, e encerra a época das colheitas do Outono.",
+          "traditions": "As famílias constroem uma sucá, uma cabana com telhado de ramos, onde comem e, por vezes, dormem durante uma semana. As quatro espécies, folha de palmeira, murta, salgueiro e cidra etrog, agitam-se em oração. O festival termina com Shemini Atzeret e Simchat Torá, quando o ciclo de leitura da Torá recomeça.",
+          "funFacts": [
+            "As cabanas, chamadas sucot, aparecem em varandas, telhados e passeios por todo o Israel, até mesmo à porta de restaurantes.",
+            "Um telhado de sucá deve permitir ver as estrelas, mas proporciona mais sombra do que luz solar.",
+            "O etrog é cultivado com tanto cuidado que um fruto perfeito pode custar centenas de shekels.",
+            "A Marcha de Jerusalém atrai milhares de visitantes israelitas e cristãos durante a semana."
+          ]
+        },
+        "hanukkah": {
+          "intro": "Hanukkah, o Festival das Luzes, começa a 25 de Kislev no final de novembro ou dezembro e dura oito dias. Não é um dia de folga em Israel, mas as escolas fecham e as cidades brilham à luz das velas.",
+          "history": "Comemora a rededicação do Segundo Templo em 164 a.C., depois de os Macabeus terem derrotado os governantes selêucidas. Segundo o Talmude, um único jarro de óleo puro, suficiente para um dia, era queimado na menorah do Templo durante oito dias até que um novo óleo pudesse ser preparado.",
+          "traditions": "Todas as noites, mais uma vela é acesa no hanukkiah até que oito queimem juntas, e as luzes são colocadas nas janelas para que todos possam ver. As famílias comem alimentos fritos em óleo, sobretudo sufganiyot recheados com geleia e latkes de batata, jogam ao pião e dão dinheiro de Hanukkah às crianças.",
+          "funFacts": [
+            "Os israelitas comem cerca de 20 milhões de sufganiyot a cada temporada de Hanukkah.",
+            "Os piões dreidel em Israel têm letras que representam «um grande milagre aconteceu aqui», em vez de «ali», como fora de Israel.",
+            "A nona vela, o shamash, existe apenas para acender as outras.",
+            "Enormes hanukkiahs públicos são acesos no Muro das Lamentações e nas praças da cidade todas as noites."
+          ]
+        },
+        "purim": {
+          "intro": "Purim no dia 14 de Adar, em Fevereiro ou Março, é o dia mais exuberante do ano judaico. Celebra o resgate dos judeus persas da conspiração de Hamã, contada no Livro de Ester.",
+          "history": "De acordo com a história bíblica, a rainha Ester e o seu primo Mordechai frustraram o plano do vizir Hamã de destruir os judeus do Império Persa. O nome vem de \"pur\", a sorte que Hamã lançou para escolher a data do massacre.",
+          "traditions": "O Livro de Ester é lido em voz alta e a multidão abafa o nome de Hamã com chocalhos. As pessoas usam disfarces, trocam pacotes de comida chamados mishloach manot, dão aos pobres e comem hamantaschen triangulares. Tel Aviv e Holon organizam festas de rua e um grande desfile.",
+          "funFacts": [
+            "Em hebraico os pastéis são \"oznei Haman\", as orelhas de Haman.",
+            "Jerusalém celebra um dia depois em Shushan Purim, porque é uma cidade amuralhada.",
+            "A tradição diz que alguém pode beber até não conseguir distinguir o \"amaldiçoado Hamã\" do \"bem-aventurado Mordechai\".",
+            "Purim é o único festival em que a lei judaica incentiva o barulho na sinagoga."
+          ]
+        },
+        "passover": {
+          "intro": "A Páscoa judaica, Pessach em hebraico, começa a 15 de nisã, em março ou abril, e dura sete dias em Israel. Celebra o Êxodo do Egito e é a festa judaica mais amplamente observada.",
+          "history": "A Torá conta como Deus libertou os israelitas da escravidão e como a décima praga \"passou\" pelas casas marcadas com sangue de cordeiro. Saindo apressadamente, o povo cozeu pães ázimos, por isso não se come fermento durante toda a semana.",
+          "traditions": "Na primeira noite as famílias reúnem-se para o seder, uma refeição ritual guiada pela Hagadá com quatro copos de vinho, ervas amargas, matzá e a história recontada às crianças. Em Israel, o primeiro e o sétimo dias são feriados e as padarias mudam para a matzá.",
+          "funFacts": [
+            "Antes do festival, as casas são limpas de qualquer migalha de chametz, comida fermentada.",
+            "As crianças caçam o afikoman, um pedaço escondido de matsá, e trocam-no por um prémio.",
+            "Os supermercados israelitas cobrem as prateleiras de pão com folhas de plástico durante a semana.",
+            "O seder termina com as palavras “No próximo ano em Jerusalém”, mesmo em Jerusalém."
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "Yom HaAtzmaut é o Dia da Independência de Israel, comemorado a 5 de Iyar, em abril ou maio,. Marca a declaração do Estado de Israel a 14 de maio de 1948 e segue-se logo após o Dia da Memória, Yom HaZikaron.",
+          "history": "A 14 de maio de 1948, horas antes do fim do Mandato Britânico, David Ben-Gurion leu a Declaração de Independência no Museu de Telavive. O feriado é fixado pelo calendário hebraico e a data pode ser ajustada para evitar conflitos com o Shabat.",
+          "traditions": "O dia começa na noite anterior com a cerimónia de acender da tocha no Monte Herzl, que transforma o luto de Yom HaZikaron numa celebração. Os israelitas fazem piqueniques e churrascos nos parques, assistem ao sobrevoo da Força Aérea e ao fogo de artifício, e o Prémio Israel é atribuído à noite.",
+          "funFacts": [
+            "O mangal, um churrasco a carvão, é tão central que o dia é jocosamente chamado de Dia do Churrasco.",
+            "Doze tochas estão acesas no Monte Herzl, uma por cada tribo de Israel.",
+            "A final do Concurso Bíblico Internacional é realizada no Dia da Independência todos os anos.",
+            "As bandeiras são hasteadas nos carros e nas varandas semanas antes do feriado."
+          ]
+        },
+        "shavuot": {
+          "intro": "Shavuot, a Festa das Semanas, ocorre no dia 6 de Sivan, em maio ou junho, após as sete semanas da contagem do Ómer iniciada no segundo dia de Pessach. Celebra a entrega da Torá no Monte Sinai e a colheita do trigo.",
+          "history": "A Torá descreve Shavuot como o dia dos primeiros frutos, quando os agricultores levavam a sua colheita para o Templo de Jerusalém. A tradição rabínica ligou-o à revelação no Sinai, de modo que o festival combina a celebração da colheita com o nascimento da Torá.",
+          "traditions": "Os pratos lácteos são a comida do dia: cheesecake, blintzes e pastéis recheados com queijo. Muitos ficam acordados toda a noite a estudar a Torá, e o Livro de Rute é lido na sinagoga. Os kibutzim realizam desfiles de primícias e as crianças vestem-se de branco e usam grinaldas de flores.",
+          "funFacts": [
+            "O nome significa \"semanas\" porque sete semanas são contadas a partir da Páscoa.",
+            "Os israelitas compram mais queijo na semana anterior ao Shavuot do que em qualquer outra altura do ano.",
+            "As sessões de estudo que duram toda a noite terminam com as orações da madrugada no Muro das Lamentações.",
+            "Aldeias agrícolas desfilam tratores decorados com frutas e grãos."
+          ]
+        }
+      },
+      "it": {
+        "rosh_hashanah": {
+          "intro": "Rosh Hashanah è il Capodanno ebraico, celebrato i primi due giorni del mese di Tishrei a settembre o ottobre. Apre i dieci giorni del pentimento che terminano con lo Yom Kippur.",
+          "history": "La Torah definisce questo giorno un \"giorno del suono dello shofar\". La tradizione rabbinica ne ha fatto l'anniversario della creazione del mondo e il giorno in cui Dio giudica ogni persona per il prossimo anno. Il conteggio dell'anno ebraico inizia qui: 5787 inizia nell'autunno 2026.",
+          "traditions": "Lo shofar, il corno di montone, viene suonato nella sinagoga. Le famiglie immergono le mele nel miele per un anno dolce, mangiano challah e melograni e si salutano con \"Shana tova\". A Tashlich, le briciole di pane vengono gettate nell'acqua corrente per liberarsi simbolicamente dei peccati.",
+          "funFacts": [
+            "La challah rotonda simboleggia il ciclo dell'anno e la corona del Re dei Re.",
+            "Si dice che una melagrana contenga 613 semi, uno per ogni comandamento della Torah.",
+            "Ogni giorno del festival nella sinagoga vengono suonati fino a 100 colpi di shofar.",
+            "Gli israeliani inviano più auguri di festività per Rosh Hashanah che per qualsiasi altra festività."
+          ]
+        },
+        "yom_kippur": {
+          "intro": "Yom Kippur, il Giorno dell’Espiazione, è il giorno più sacro dell’anno ebraico. Cade il 10 Tishrei, nove giorni dopo l’inizio di Rosh Hashanah, e si osserva con circa 25 ore di digiuno e preghiera.",
+          "history": "Ai tempi del Tempio il Sommo Sacerdote entrava nel Santo dei Santi solo in questo giorno per espiare i peccati del popolo. Dopo la distruzione del Tempio, il digiuno, la preghiera e la confessione presero il posto dei sacrifici. In questo giorno iniziò la guerra dello Yom Kippur del 1973, che consolidò il suo posto nella memoria israeliana.",
+          "traditions": "Il digiuno inizia al tramonto con la suggestiva preghiera di Kol Nidre e termina la sera successiva con un singolo colpo di shofar. Molti indossano abiti bianchi ed evitano le scarpe di cuoio. In Israele tutto il Paese tace: niente traffico, niente trasmissioni, niente negozi, e i bambini vanno in bicicletta sulle autostrade deserte.",
+          "funFacts": [
+            "Le stazioni televisive e radiofoniche israeliane restano inattive per l'intera giornata.",
+            "Autostrade vuote si trasformano per un giorno nel più grande parco giochi per biciclette del mondo.",
+            "L'inquinamento atmosferico in Israele diminuisce fino al 99% durante la festività.",
+            "L'augurio tradizionale è \"Gmar chatima tova\": che tu possa essere sigillato nel Libro della Vita."
+          ]
+        },
+        "sukkot": {
+          "intro": "Sukkot, la Festa dei Tabernacoli, inizia il 15 Tishrei, cinque giorni dopo Yom Kippur, e dura sette giorni. In Israele il primo giorno è un giorno festivo; i giorni successivi sono giorni intermedi di festa, chiamati Chol HaMoed.",
+          "history": "La festa ricorda i quaranta anni trascorsi dagli Israeliti in rifugi temporanei nel deserto dopo l'Esodo. Era anche una delle tre feste di pellegrinaggio in cui le persone si recavano al Tempio di Gerusalemme e chiude la stagione del raccolto autunnale.",
+          "traditions": "Le famiglie costruiscono una sukkah, una capanna con un tetto di rami, e lì mangiano e talvolta dormono per una settimana. Le quattro specie, fronda di palma, mirto, salice e cedro (etrog), vengono agitate in preghiera. Il festival si conclude con Shemini Atzeret e Simchat Torah, quando ricomincia il ciclo di lettura della Torah.",
+          "funFacts": [
+            "Le Sukkah compaiono sui balconi, sui tetti e sui marciapiedi di tutto Israele, anche fuori dai ristoranti.",
+            "Il tetto di una sukkah deve lasciarti vedere le stelle ma fornire più ombra che luce solare.",
+            "L'etrog viene coltivato con tale cura che un frutto perfetto può costare centinaia di shekel.",
+            "La Marcia di Gerusalemme attira migliaia di visitatori israeliani e cristiani durante la settimana."
+          ]
+        },
+        "hanukkah": {
+          "intro": "Hanukkah, il Festival delle luci, inizia il 25 Kislev a fine novembre o dicembre e dura otto giorni. Non è un giorno libero dal lavoro in Israele, ma le scuole chiudono e le città brillano di candele.",
+          "history": "Commemora la ridedicazione del Secondo Tempio nel 164 aEV dopo che i Maccabei sconfissero i sovrani seleucidi. Secondo il Talmud una singola brocca di olio puro, sufficiente per un giorno, bruciava nella menorah del Tempio per otto giorni finché non si poteva preparare nuovo olio.",
+          "traditions": "Ogni sera viene accesa un'altra candela sull’hanukkiah finché non ne bruciano insieme le otto, e le luci vengono poste alle finestre affinché tutti possano vederle. Le famiglie mangiano cibi fritti nell'olio, soprattutto sufganiyot ripieni di marmellata e latkes di patate, giocano a dreidel e danno soldi ai bambini per Hanukkah.",
+          "funFacts": [
+            "Gli israeliani mangiano circa 20 milioni di sufganiyot ogni stagione di Hanukkah.",
+            "Sui dreidel israeliani, le quattro lettere sono le iniziali di «un grande miracolo è avvenuto qui», anziché «là».",
+            "La nona candela, lo shamash, è lì solo per accendere le altre.",
+            "Ogni sera vengono accesi enormi Hanukkiah pubblici al Muro del Pianto e nelle piazze delle città."
+          ]
+        },
+        "purim": {
+          "intro": "Purim il 14 Adar, a febbraio o marzo, è il giorno più esuberante dell'anno ebraico. Celebra il salvataggio degli ebrei persiani dal complotto di Haman raccontato nel Libro di Ester.",
+          "history": "Secondo la storia biblica, la regina Ester e suo cugino Mordechai sventarono il piano del visir Haman di distruggere gli ebrei dell'impero persiano. Il nome deriva dal \"pur\", il sorteggio con cui Haman scelse la data del massacro.",
+          "traditions": "Il libro di Ester viene letto ad alta voce e la folla copre il nome di Haman con sonagli. Le persone si travestono in costume, si scambiano pacchi di cibo chiamati mishloach manot, donano ai poveri e mangiano hamantaschen triangolari. Tel Aviv e Holon ospitano feste di strada e una grande parata.",
+          "funFacts": [
+            "In ebraico i dolci sono \"oznei Haman\", le orecchie di Haman.",
+            "Gerusalemme, in quanto città murata, celebra Shushan Purim il 15 Adar, un giorno dopo il Purim del 14 Adar.",
+            "La tradizione dice che si può bere finché non si è in grado di distinguere il \"maledetto Haman\" dal \"beato Mordechai\".",
+            "Purim è l'unica festa in cui la legge ebraica incoraggia il rumore nella sinagoga."
+          ]
+        },
+        "passover": {
+          "intro": "La Pasqua ebraica, Pesach in ebraico, inizia il 15 Nisan, tra marzo e aprile e dura sette giorni in Israele. Celebra l'esodo dall'Egitto ed è la festa ebraica più osservata.",
+          "history": "La Torah racconta come Dio liberò gli Israeliti dalla schiavitù, e come la decima piaga “risparmiò” le case segnate dal sangue dell'agnello. Partendo in fretta, il popolo cuoceva il pane azzimo, motivo per cui per tutta la settimana non si mangiava cibo lievitato.",
+          "traditions": "La prima sera le famiglie si riuniscono per il seder, un pasto rituale che segue l'Haggadah con quattro coppe di vino, erbe amare, matzah e la storia raccontata ai bambini. In Israele il primo e il settimo giorno sono giorni festivi e i panifici passano alla matzah.",
+          "funFacts": [
+            "Prima della festa le case vengono ripulite da ogni briciola di chametz, cibo lievitato.",
+            "I bambini vanno a caccia dell'afikoman, un pezzo nascosto di matzah, e lo scambiano con un premio.",
+            "I supermercati israeliani coprono gli scaffali del pane con teli di plastica per tutta la settimana.",
+            "Il seder termina con le parole \"L'anno prossimo a Gerusalemme\", anche quando viene celebrato a Gerusalemme."
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "Yom HaAtzmaut è il Giorno dell'Indipendenza di Israele, celebrato il 5 Iyar in aprile o maggio. Segna la dichiarazione dello Stato di Israele il 14 maggio 1948 e segue direttamente il giorno commemorativo dei caduti, Yom HaZikaron.",
+          "history": "Il 14 maggio 1948, poche ore prima della fine del mandato britannico, David Ben-Gurion lesse la Dichiarazione di Indipendenza al Museo di Tel Aviv. La festività è fissata dal calendario ebraico e può essere anticipata o posticipata per evitare conflitti con lo Shabbat.",
+          "traditions": "La giornata inizia la sera prima con la cerimonia dell'accensione delle fiaccole sul monte Herzl, che trasforma il lutto dello Yom HaZikaron in festa. Gli israeliani fanno picnic e barbecue nei parchi, guardano il sorvolo dell'aeronautica militare e i fuochi d'artificio, e la sera viene assegnato il Premio Israele.",
+          "funFacts": [
+            "Il mangal, il barbecue a carbonella, è così centrale che la giornata viene scherzosamente chiamata Barbecue Day.",
+            "Sul monte Herzl vengono accese dodici torce, una per ogni tribù d'Israele.",
+            "La finale del Concorso Biblico Internazionale si tiene ogni anno nel Giorno dell'Indipendenza.",
+            "Le bandiere vengono affisse sulle auto e sui balconi settimane prima della festività."
+          ]
+        },
+        "shavuot": {
+          "intro": "Shavuot, la Festa delle Settimane, cade il 6 Sivan di maggio o giugno, dopo le sette settimane del conteggio dell’Omer dal secondo giorno di Pesach. Celebra la donazione della Torah al Monte Sinai e la mietitura del grano.",
+          "history": "La Torah descrive Shavuot come il giorno delle primizie, quando i contadini portavano il loro raccolto al Tempio di Gerusalemme. La tradizione rabbinica la collega alla rivelazione avvenuta al Sinai, quindi la festa unisce la celebrazione del raccolto con la nascita della Torah.",
+          "traditions": "I latticini sono protagonisti della giornata: cheesecake, blintz e pasticcini ripieni di formaggio. Molti stanno svegli tutta la notte a studiare la Torah e il Libro di Ruth viene letto nella sinagoga. I kibbutz organizzano sfilate di primizie e i bambini indossano abiti bianchi e ghirlande di fiori.",
+          "funFacts": [
+            "Il nome significa \"settimane\" perché sette settimane si contano a partire dalla Pasqua ebraica.",
+            "Gli israeliani acquistano più formaggio nella settimana prima di Shavuot che in qualsiasi altro periodo dell'anno.",
+            "Le sessioni di studio notturne terminano con le preghiere dell'alba al Muro del Pianto.",
+            "Nei villaggi contadini sfilano trattori addobbati con frutta e grano."
+          ]
+        }
+      },
+      "pl": {
+        "rosh_hashanah": {
+          "intro": "Rosz ha-Szana to żydowski Nowy Rok obchodzony w dwa pierwsze dni miesiąca Tiszrei we wrześniu lub październiku. Rozpoczyna Dziesięć Dni Pokuty, które kończą się Jom Kippur.",
+          "history": "Tora nazywa ten dzień „dniem dęcia w szofar”. Tradycja rabiniczna uczyniła ten dzień rocznicą stworzenia świata i dniem, w którym Bóg sądzi każdego człowieka na nadchodzący rok. Liczenie lat żydowskich zaczyna się tutaj: 5787 rozpoczyna się jesienią 2026 roku.",
+          "traditions": "W synagodze dmie się w szofar, róg barani. Rodziny maczają jabłka w miodzie na słodki rok, zajadają się chałką i granatami i pozdrawiają się „Shana tova”. W Taszlich okruszki chleba wrzuca się do płynącej wody, aby symbolicznie zmyć grzechy.",
+          "funFacts": [
+            "Okrągła chała symbolizuje cykl roku i koronę Króla Królów.",
+            "Mówi się, że granat zawiera 613 nasion, po jednym na każde przykazanie Tory.",
+            "Podczas nabożeństw świątecznych rozbrzmiewają dźwięki szofaru; tradycyjnie nie dmie się w niego w szabat.",
+            "Izraelczycy przesyłają więcej pozdrowień świątecznych z okazji Rosz Haszana niż z okazji jakiegokolwiek innego święta."
+          ]
+        },
+        "yom_kippur": {
+          "intro": "Jom Kippur, Dzień Pojednania, to najświętszy dzień roku żydowskiego. Przypada 10 tiszri, dziewięć dni po rozpoczęciu Rosz ha-Szana, i jest obchodzony przez około 25 godzin postu i modlitwy.",
+          "history": "W czasach świątynnych Arcykapłan wchodził do Miejsca Najświętszego tylko tego dnia, aby dokonać obrzędu przebłagania za grzechy ludu. Po zniszczeniu Świątyni ofiary zastąpiono postem, modlitwą i spowiedzią. Tego dnia rozpoczęła się wojna Jom Kippur w 1973 roku, która umocniła znaczenie tego dnia w izraelskiej pamięci.",
+          "traditions": "Post rozpoczyna się o zachodzie słońca przejmującą modlitwą Kol Nidre i kończy następnego wieczoru pojedynczym dźwiękiem szofaru. Wiele osób nosi biel i unika skórzanych butów. W Izraelu milczy cały kraj: nie ma ruchu, nie ma transmisji, nie ma sklepów, a dzieci jeżdżą na rowerach po pustych autostradach.",
+          "funFacts": [
+            "Izraelskie stacje telewizyjne i radiowe przerywają nadawanie na czas święta.",
+            "Puste autostrady na jeden dzień zamieniają się w największy rowerowy plac zabaw na świecie.",
+            "Podczas święta zanieczyszczenie powietrza w Izraelu spada nawet o 99 procent.",
+            "Tradycyjne życzenie brzmi „Gmar chatima tova”: bądź zapieczętowany w Księdze Życia."
+          ]
+        },
+        "sukkot": {
+          "intro": "Sukkot, Święto Namiotów, rozpoczyna się 15 Tiszrei, pięć dni po Jom Kippur i trwa siedem dni. W Izraelu pierwszy dzień jest świętem państwowym, a pozostałe należą do pośrednich dni święta, zwanych Chol ha-Moed.",
+          "history": "Festiwal upamiętnia czterdzieści lat, jakie Izraelici spędzili po wyjściu z Egiptu w tymczasowych schronieniach na pustyni. Było to także jedno z trzech świąt pielgrzymkowych, podczas których ludzie udawali się do Świątyni Jerozolimskiej i zamykało jesienny okres żniw.",
+          "traditions": "Rodziny budują kuczkę, czyli szałas z dachem z gałęzi, w którym jedzą, a czasem śpią przez tydzień. Podczas modlitwy potrząsa się czterema gatunkami roślin: liściem palmowym, mirtem, wierzbą i owocem cytronu, etrogiem. Festiwal kończy się Szmini Aceret i Simchat Tora, kiedy to cykl czytania Tory rozpoczyna się od nowa.",
+          "funFacts": [
+            "Sukki pojawiają się na balkonach, dachach i chodnikach w całym Izraelu, a nawet przed restauracjami.",
+            "Dach suki musi umożliwiać oglądanie gwiazd, ale zapewniać więcej cienia niż światła słonecznego.",
+            "Etrog uprawiany jest tak starannie, że doskonały owoc może kosztować setki szekli.",
+            "Marsz Jerozolimski przyciąga w ciągu tygodnia tysiące Izraelczyków i chrześcijan."
+          ]
+        },
+        "hanukkah": {
+          "intro": "Chanuka, Święto Świateł, rozpoczyna się 25 Kislew pod koniec listopada lub grudnia i trwa osiem dni. W Izraelu nie jest to dzień wolny od pracy, ale szkoły są zamykane, a miasta jaśnieją blaskiem świec.",
+          "history": "Upamiętnia ponowne poświęcenie Drugiej Świątyni w 164 roku p.n.e., po pokonaniu przez Machabeuszów władców Seleucydów. Według Talmudu czysta oliwa z jednego dzbanka, wystarczająca na jeden dzień, płonęła w menorze świątynnej przez osiem dni, aż można było przygotować nową oliwę.",
+          "traditions": "Każdego wieczoru na chanukiji zapala się kolejną świecę, aż ósmego wieczoru płonie ich osiem, oprócz pomocniczego szamasza. Świecznik ustawia się w widocznym miejscu, często przy oknie. Rodziny jedzą smażone potrawy, zwłaszcza pączki sufganiyot z dżemem i placki ziemniaczane, grają drejdlem i dają dzieciom chanukowe pieniądze.",
+          "funFacts": [
+            "Izraelczycy zjadają szacunkowo 20 milionów sufganiyot w każdym sezonie Chanuki.",
+            "Litery na izraelskich drejdlach oznaczają „tu wydarzył się wielki cud”; poza Izraelem — „tam”.",
+            "Dziewiąta świeca, szamasz, istnieje tylko po to, aby zapalić pozostałe.",
+            "Każdego wieczoru pod Ścianą Płaczu i na placach miejskich zapala się świece na wielkich chanukijach."
+          ]
+        },
+        "purim": {
+          "intro": "Purim 14 Adar, w lutym lub marcu, to najbardziej huczny dzień w roku żydowskim. Świętuje uratowanie perskich Żydów przed spiskiem Hamana, jak opisano w Księdze Estery.",
+          "history": "Według historii biblijnej królowa Estera i jej kuzyn Mordechaj pokrzyżowali plan wezyra Hamana mający na celu zniszczenie Żydów w imperium perskim. Nazwa pochodzi od „pur”, losu, który Haman rzucił, aby wybrać datę masakry.",
+          "traditions": "Czyta się na głos Księgę Estery, a tłum grzechotkami zagłusza imię Hamana. Ludzie przebierają się w kostiumy, wymieniają paczki żywnościowe zwane mishloach manot, obdarowują potrzebujących i jedzą trójkątne hamantaschen. W Tel Awiwie i Holonie odbywają się imprezy uliczne i wielkie parady.",
+          "funFacts": [
+            "Po hebrajsku ciastka to „oznei Haman”, czyli uszy Hamana.",
+            "Jerozolima świętuje dzień później, w Szuszan Purim, ponieważ jest miastem otoczonym murami.",
+            "Tradycja mówi, że można pić do momentu, aż nie będzie można odróżnić „przeklętego Hamana” od „błogosławionego Mordechaja”.",
+            "Podczas odczytywania Księgi Estery uczestnicy zagłuszają imię Hamana grzechotkami i tupaniem."
+          ]
+        },
+        "passover": {
+          "intro": "Pascha, czyli Pesach po hebrajsku, rozpoczyna się 15 Nisan w marcu lub kwietniu i trwa w Izraelu siedem dni. Świętuje wyjście z Egiptu i jest najczęściej obchodzonym świętem żydowskim.",
+          "history": "Tora opowiada, jak Bóg wyzwolił Izraelitów z niewoli i jak dziesiąta plaga ominęła domy naznaczone krwią baranka. Wychodząc w pośpiechu, ludzie piekli przaśny chleb, dlatego przez cały tydzień nie je się nic na zakwasie.",
+          "traditions": "Pierwszego wieczoru rodziny zbierają się na seder, rytualny posiłek zgodny z porządkiem opisanym w Hagadzie z czterema kielichami wina, gorzkimi ziołami, macą i historią opowiadaną dzieciom. W Izraelu pierwszy i siódmy dzień są świętami państwowymi i piekarnie przestawiają się na macę.",
+          "funFacts": [
+            "Przed festiwalem domy są oczyszczane z wszelkich okruszków chametzu, żywności na zakwasie.",
+            "Dzieci polują na afikomana, ukryty kawałek macy i wymieniają go na nagrodę.",
+            "Izraelskie supermarkety przez tydzień zakrywają półki z pieczywem folią.",
+            "Seder kończy się słowami „Za rok w Jerozolimie”, nawet w Jerozolimie."
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "Jom HaAtzmaut to Dzień Niepodległości Izraela obchodzony 5 Iyar w kwietniu lub maju. Oznacza ogłoszenie Państwa Izrael 14 maja 1948 r. i następuje bezpośrednio po Dniu Pamięci.",
+          "history": "14 maja 1948 roku, na kilka godzin przed zakończeniem mandatu brytyjskiego, David Ben-Gurion odczytał Deklarację Niepodległości w Muzeum Tel Awiwu. Święto to jest ustalane w kalendarzu hebrajskim i przesuwane o dzień lub dwa, gdy wypada obok Szabatu.",
+          "traditions": "Dzień zaczyna się poprzedniego wieczoru od ceremonii zapalenia pochodni na górze Herzl, która zamienia żałobę Jom HaZikaron w święto. Izraelczycy piknikują i grillują w parkach, oglądają przelot samolotów sił powietrznych i sztuczne ognie, a wieczorem wręczana jest Nagroda Izraela.",
+          "funFacts": [
+            "Mangal, grill węglowy, jest tak centralny, że dzień ten żartobliwie nazywany jest Dniem Grilla.",
+            "Na górze Herzl zapala się dwanaście pochodni, po jednej na każde plemię Izraela.",
+            "Finał Międzynarodowego Konkursu Biblijnego odbywa się co roku w Święto Niepodległości.",
+            "Na kilka tygodni przed świętem na samochodach i balkonach wywieszane są flagi."
+          ]
+        },
+        "shavuot": {
+          "intro": "Szawuot, Święto Tygodni, przypada 6 Siwan w maju lub czerwcu, po siedmiu tygodniach liczenia omeru, rozpoczynanego w drugi dzień Pesach. Świętuje nadanie Tory na górze Synaj i żniwa pszenicy.",
+          "history": "Tora opisuje Szawuot jako dzień pierwszych owoców, kiedy rolnicy zanieśli swoje żniwa do świątyni jerozolimskiej. Tradycja rabiniczna łączyła je z objawieniem na Synaju, dlatego święto to łączy święto żniw z narodzinami Tory.",
+          "traditions": "Potrawami dnia są dania mleczne: serniki, bliny i ciasta z nadzieniem serowym. Wielu nie śpi całą noc, studiując Torę, a w synagodze czyta się Księgę Rut. W kibucach odbywają się parady pierwszych owoców, a dzieci noszą białe ubrania i kwiatowe wianki.",
+          "funFacts": [
+            "Nazwa oznacza „tygodnie”, ponieważ od Paschy liczy się siedem tygodni.",
+            "Izraelczycy kupują więcej sera w tygodniu poprzedzającym Szawuot niż o jakiejkolwiek innej porze roku.",
+            "Całonocne sesje studyjne kończą się modlitwami o świcie pod Ścianą Płaczu.",
+            "Wioski rolnicze paradują traktorami udekorowanymi owocami i zbożem."
+          ]
+        }
+      },
+      "nl": {
+        "rosh_hashanah": {
+          "intro": "Rosj Hasjana is het Joodse Nieuwjaar, gevierd op de eerste twee dagen van de maand Tishrei in september of oktober. Het opent de Tien Dagen van Berouw die eindigen met Jom Kipoer.",
+          "history": "De Torah noemt de dag een \"dag van de sjofarstoot\". De rabbijnse traditie maakte het tot de verjaardag van de schepping van de wereld en de dag waarop God ieder mens voor het komende jaar oordeelt. De joodse jaartelling begint hier: 5787 begint in het najaar van 2026.",
+          "traditions": "De sjofar, een ramshoorn, klinkt in de synagoge. Gezinnen dopen appels in honing als wens voor een zoet jaar, eten ronde challah en granaatappels en begroeten elkaar met \"Shana Tova\". In Tashlich worden broodkruimels in stromend water geworpen om symbolisch zonden af te leggen.",
+          "funFacts": [
+            "De ronde challah symboliseert de cyclus van het jaar en de kroon van de Koning der Koningen.",
+            "Er wordt gezegd dat een granaatappel 613 zaden bevat, één voor elk gebod in de Thora.",
+            "In veel gemeenschappen klinken op een feestdag honderd sjofarstoten; op sjabbat wordt de sjofar traditioneel niet geblazen.",
+            "Israëli's sturen meer feestgroeten voor Rosj Hasjana dan voor welk ander festival dan ook."
+          ]
+        },
+        "yom_kippur": {
+          "intro": "Jom Kipoer, Grote Verzoendag, is de heiligste dag van het Joodse jaar. De dag valt op 10 Tishrei, negen dagen na het begin van Rosj Hasjana, en wordt met ongeveer 25 uur vasten en gebed doorgebracht.",
+          "history": "In de tijd van de Tempel ging de Hogepriester het Heilige der Heiligen alleen op deze dag binnen om verzoening te doen voor de mensen. Nadat de Tempel verwoest was, namen vasten, gebed en biecht de plaats in van de offers. Op deze dag begon de Jom Kipoeroorlog van 1973, die zijn plaats in de Israëlische herinnering verdiepte.",
+          "traditions": "Het vasten begint bij zonsondergang met het indringende Kol Nidre-gebed en eindigt de volgende avond met een enkele sjofarstoot. Velen dragen witte kleding en vermijden leren schoenen. In Israël valt het hele land stil: geen verkeer, geen uitzendingen, geen winkels en kinderen fietsen op de lege snelwegen.",
+          "funFacts": [
+            "Israëlische televisie- en radiostations zijn de hele dag uit de lucht.",
+            "Lege snelwegen veranderen voor één dag in de grootste fietsspeeltuin ter wereld.",
+            "De luchtvervuiling in Israël daalt tijdens de feestdag met maar liefst 99 procent.",
+            "De traditionele wens is \"Gmar chatima tova\": moge je verzegeld worden in het Boek des Levens."
+          ]
+        },
+        "sukkot": {
+          "intro": "Soekot, het Loofhuttenfeest, begint op 15 Tishrei, vijf dagen na Jom Kipoer, en duurt zeven dagen. In Israël is de eerste dag een feestdag en daarna volgen de tussendagen, Chol haMoëd.",
+          "history": "Het festival herinnert aan de veertig jaar die de Israëlieten na de Exodus in tijdelijke onderkomens in de woestijn doorbrachten. Het was ook een van de drie pelgrimsfestivals waarop mensen naar de Tempel in Jeruzalem reisden, en het sluit het herfstoogstseizoen af.",
+          "traditions": "Gezinnen bouwen een soeka, een hut met een dak van takken, en eten en slapen er soms een week lang in. Tijdens het gebed beweegt men de vier soorten planten: palmblad, mirte, wilg en etrog. Het festival eindigt met Shemini Atzeret en Simchat Torah, wanneer de Torah-leescyclus opnieuw begint.",
+          "funFacts": [
+            "Sukkahs verschijnen op balkons, daken en trottoirs in heel Israël, zelfs buiten restaurants.",
+            "Een sukkah-dak moet je de sterren laten zien, maar meer schaduw bieden dan zonlicht.",
+            "De etrog wordt zo zorgvuldig gekweekt dat een perfecte vrucht honderden sjekels kan kosten.",
+            "De Jeruzalemmars trekt tijdens de feestweek duizenden Israëliërs en christenen."
+          ]
+        },
+        "hanukkah": {
+          "intro": "Chanoeka, het Lichtfeest, begint eind november of december op 25 Kislev en duurt acht dagen. Het is geen vrije dag in Israël, maar scholen sluiten en steden gloeien van kaarslicht.",
+          "history": "Het herdenkt de herinwijding van de Tweede Tempel in 164 vGT nadat de Makkabeeën de Seleucidische heersers hadden verslagen. Volgens de Talmoed brandde één kruik met zuivere olie, genoeg voor één dag, acht dagen lang in de tempelmenora totdat er nieuwe olie kon worden bereid.",
+          "traditions": "Elke avond wordt er nog een kaars op de chanoekia aangestoken totdat er acht tegelijk branden, en de lichten worden in de ramen geplaatst zodat iedereen ze kan zien. Gezinnen eten in olie gebakken voedsel, vooral met jam gevulde soefganiyot en aardappellatkes, spelen met de dreidel en geven kinderen Chanoeka-geld.",
+          "funFacts": [
+            "Israëli's eten elk Chanoeka-seizoen naar schatting 20 miljoen sufganiyot.",
+            "De letters op Israëlische dreidels staan voor “een groot wonder gebeurde hier”, in plaats van “daar”.",
+            "De negende kaars, de shamash, is er alleen om de andere aan te steken.",
+            "Elke avond worden er enorme openbare chanoekia's aangestoken bij de Westelijke Muur en op stadspleinen."
+          ]
+        },
+        "purim": {
+          "intro": "Poerim op 14 Adar, in februari of maart, is de meest uitbundige dag van het Joodse jaar. Het viert de redding van de Perzische Joden uit het complot van Haman, zoals verteld in het boek Esther.",
+          "history": "Volgens het bijbelverhaal verijdelden koningin Esther en haar neef Mordechai het plan van vizier Haman om de Joden van het Perzische Rijk te vernietigen. De naam komt van de \"pur\", het lot dat Haman wierp om de datum van het bloedbad te kiezen.",
+          "traditions": "Het boek Esther wordt voorgelezen en de menigte overstemt Hamans naam met rammelaars. Mensen verkleden zich in kostuums, wisselen voedselpakketten uit, mishloach manot genaamd, geven aan de armen en eten driehoekige hamantaschen. Tel Aviv en Holon organiseren straatfeesten en een grote parade.",
+          "funFacts": [
+            "In het Hebreeuws zijn de gebakjes \"oznei Haman\", de oren van Haman.",
+            "Jeruzalem viert een dag later Shushan Purim, omdat het een ommuurde stad is.",
+            "De traditie zegt dat je mag drinken totdat je de \"vervloekte Haman\" niet meer kunt onderscheiden van de \"gezegende Mordechai\".",
+            "Bij het voorlezen van het boek Esther overstemt de menigte Hamans naam met rammelaars."
+          ]
+        },
+        "passover": {
+          "intro": "Pesach begint op 15 Nisan in maart of april en duurt in Israël zeven dagen. Het viert de uittocht uit Egypte en is een van de meest gevierde Joodse feesten.",
+          "history": "De Torah vertelt hoe God de Israëlieten bevrijdde van de slavernij, en hoe de huizen die waren gemarkeerd met lamsbloed bij de tiende plaag gespaard bleven. De mensen vertrokken haastig en bakten ongedesemd brood, daarom wordt er de hele week geen gezuurd voedsel gegeten.",
+          "traditions": "Op de eerste avond komen families samen voor de seder, een rituele maaltijd volgens de Haggada met vier glazen wijn, bittere kruiden, matzah en het verhaal dat wordt naverteld aan de kinderen. In Israël zijn de eerste en de zevende dag feestdagen en schakelen bakkerijen over op matsa.",
+          "funFacts": [
+            "Vóór het festival worden de huizen ontdaan van elk kruimeltje chameets, gezuurd voedsel.",
+            "Kinderen jagen op de afikoman, een verborgen stukje matzah, en ruilen dit voor een prijs.",
+            "Israëlische supermarkten bedekken de broodplanken deze week met plastic folie.",
+            "De seder eindigt met de woorden \"Volgend jaar in Jeruzalem\", zelfs in Jeruzalem."
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "Jom HaAtzmaut is de Israëlische Onafhankelijkheidsdag, gevierd op 5 Iyar in april of mei. Het markeert de verklaring van de staat Israël op 14 mei 1948 en volgt direct op Jom HaZikaron, de Israëlische herdenkingsdag.",
+          "history": "Op 14 mei 1948, uren voordat het Britse mandaat eindigde, las David Ben-Gurion de Onafhankelijkheidsverklaring voor in het Tel Aviv Museum. De feestdag wordt vastgelegd door de Hebreeuwse kalender en wordt een dag of twee verschoven wanneer deze naast de Sjabbat zou vallen.",
+          "traditions": "De dag begint de avond ervoor met de fakkelverlichtingsceremonie op de berg Herzl, die de rouw om Jom HaZikaron in een feest verandert. Israëli's picknicken en barbecueën in parken, kijken naar overvliegende vliegtuigen van de luchtmacht en het vuurwerk, en 's avonds wordt de Israëlprijs uitgereikt.",
+          "funFacts": [
+            "De mangal, een houtskoolbarbecue, staat zo centraal dat de dag gekscherend Barbecuedag wordt genoemd.",
+            "Op de berg Herzl worden twaalf fakkels aangestoken, één voor elke stam van Israël.",
+            "De finale van de Internationale Bijbelwedstrijd wordt elk jaar gehouden op Onafhankelijkheidsdag.",
+            "Al weken voor de feestdag worden vlaggen aan auto’s en balkons bevestigd."
+          ]
+        },
+        "shavuot": {
+          "intro": "Sjavoeot, het Wekenfeest, valt op 6 Sivan in mei of juni, na zeven weken tellen vanaf de tweede dag van Pesach. Het viert het geven van de Thora op de berg Sinaï en de tarweoogst.",
+          "history": "De Torah beschrijft Sjavoeot als de dag van de eerste vruchten, toen boeren hun oogst naar de Tempel in Jeruzalem droegen. De rabbijnse traditie koppelde het aan de openbaring op de Sinaï, dus combineert het festival een oogstfeest met de geboorte van de Thora.",
+          "traditions": "Zuivelgerechten zijn het eten van de dag: cheesecake, blintzes en met kaas gevulde gebakjes. Velen blijven de hele nacht op om de Thora te bestuderen, en het boek Ruth wordt in de synagoge gelezen. Kibboetsen houden parades van de eerstelingen, en kinderen dragen witte kleding en bloemenkransen.",
+          "funFacts": [
+            "De naam betekent \"weken\", omdat er zeven weken worden geteld vanaf Pesach.",
+            "Israëli's kopen in de week vóór Sjavoeot meer kaas dan in welke andere tijd van het jaar dan ook.",
+            "De hele nacht durende studiesessies eindigen met ochtendgebeden bij de Westelijke Muur.",
+            "Boerendorpen paraderen met tractoren versierd met fruit en graan."
+          ]
+        }
+      },
+      "sv": {
+        "rosh_hashanah": {
+          "intro": "Rosh Hashanah är det judiska nyåret, som firas de två första dagarna i månaden Tishrei i september eller oktober. Det öppnar de tio dagar av omvändelse som slutar med Yom Kippur.",
+          "history": "Toran kallar dagen för en dag då shofaren ljuder. Rabbinsk tradition gjorde det till årsdagen av världens skapelse och dagen då Gud dömer varje person för det kommande året. Den judiska årsräkningen börjar här: 5787 börjar hösten 2026.",
+          "traditions": "Shofar, ett baggehorn, ljuder i synagogan. Familjer doppar äpplen i honung för ett sött år, äter rund challah och granatäpplen och hälsar på varandra med \"Shana tova\". Vid Tashlich kastas brödsmulor i strömmande vatten för att symboliskt göra sig av med synder.",
+          "funFacts": [
+            "Den runda challahen symboliserar årets cykel och konungarnas konungs krona.",
+            "Ett granatäpple sägs innehålla 613 frön, ett för varje bud i Toran.",
+            "I många församlingar ljuder hundra shofar-stötar under en högtidsdag; på sabbaten blåser man traditionellt inte i shofaren.",
+            "Israeler skickar fler högtidshälsningar till Rosh Hashanah än för någon annan festival."
+          ]
+        },
+        "yom_kippur": {
+          "intro": "Jom kippur, försoningsdagen, är den heligaste dagen under det judiska året. Den infaller den 10 tishri, nio dagar efter början av rosh hashana, och präglas av omkring 25 timmars fasta och bön.",
+          "history": "På templets tid gick översteprästen in i det allra heligaste endast denna dag för att sona för folket. Efter att templet förstördes ersattes offren av fasta, bön och bekännelse. Yom Kippur-kriget 1973 började denna dag, vilket gav dagen en ännu starkare plats i Israels kollektiva minne.",
+          "traditions": "Fastan börjar vid solnedgången med den gripande Kol Nidre-bönen och avslutas nästa kväll med en enda shofar-stöt. Många bär vitt och undviker läderskor. I Israel tystnar hela landet: ingen trafik, inga sändningar, inga butiker och barn cyklar på de tomma motorvägarna.",
+          "funFacts": [
+            "Israeliska tv- och radiostationer gör sändningsuppehåll hela dagen.",
+            "Tomma motorvägar förvandlas till den största cykellekplatsen i världen för en dag.",
+            "Luftföroreningarna i Israel minskar med upp till 99 procent under helgdagen.",
+            "Den traditionella önskan är \"Gmar chatima tova\": må du bli beseglad i Livets bok."
+          ]
+        },
+        "sukkot": {
+          "intro": "Sukkot, lövhyddohögtiden, börjar den 15 Tishrei, fem dagar efter Yom Kippur, och varar i sju dagar. I Israel är den första dagen en allmän helgdag och därefter följer mellandagarna, chol hamoed.",
+          "history": "Festivalen påminner om de fyrtio år som israeliterna tillbringade i tillfälliga härbärgen i öknen efter uttåget. Det var också en av de tre pilgrimsfärdsfester där människor reste till templet i Jerusalem, och det avslutar höstens skördesäsong.",
+          "traditions": "Familjer bygger en sukka, en hydda med tak av grenar, och äter och sover ibland i den i en vecka. Under bönen svänger man de fyra växtslagen: palmblad, myrten, pil och etrog. Festivalen avslutas med Shemini Atzeret och Simchat Torah, när Torahläsningscykeln börjar igen.",
+          "funFacts": [
+            "Lövhyddor byggs på balkonger, hustak och trottoarer över hela Israel, även utanför restauranger.",
+            "Ett sukkatak måste låta dig se stjärnorna men ge mer skugga än solljus.",
+            "Etrogen odlas så noggrant att en perfekt frukt kan kosta hundratals siklar.",
+            "Jerusalemmarschen drar tusentals israeler och kristna besökare under veckan."
+          ]
+        },
+        "hanukkah": {
+          "intro": "Hanukkah, Ljusfestivalen, börjar den 25 Kislev i slutet av november eller december och varar i åtta dagar. Det är inte en ledig dag i Israel, men skolor stänger och städer lyser av levande ljus.",
+          "history": "Den firar återinvigningen av det andra templet 164 fvt efter att makkabeerna besegrat de seleukidiska härskarna. Enligt Talmud brann en enda kanna ren olja, tillräckligt för en dag, i templets menorah i åtta dagar tills ny olja kunde förberedas.",
+          "traditions": "Varje kväll tänds ytterligare ett ljus på hanukkiah tills åtta brinner tillsammans, och ljusen placeras i fönster så att alla kan se. Familjer äter mat stekt i olja, framför allt syltfyllda sufganiyot och potatis-latkes, spelar med dreidelsnurror och ger barn Hanukkah-pengar.",
+          "funFacts": [
+            "Israeler äter uppskattningsvis 20 miljoner sufganiyot varje Hanukkah-säsong.",
+            "Dreidels i Israel bär bokstäverna för \"ett stort mirakel hände här\", inte \"där\".",
+            "Det nionde ljuset, shamash, är bara där för att tända de andra.",
+            "Enorma offentliga hanukkiahs tänds vid Västra muren och på stadens torg varje kväll."
+          ]
+        },
+        "purim": {
+          "intro": "Purim den 14 adar, i februari eller mars, är den mest sprudlande dagen på det judiska året. Den firar räddningen av de persiska judarna från Hamans komplott som berättas i Esters bok.",
+          "history": "Enligt den bibliska berättelsen omintetgjorde drottning Ester och hennes kusin Mordechai vesiren Hamans plan att förgöra judarna i det persiska imperiet. Namnet kommer från \"pur\", den lott som Haman kastade för att välja datum för massakern.",
+          "traditions": "Esters bok läses högt och folkmassan dränker Hamans namn med skallror. Människor klär ut sig i kostymer, byter matpaket som kallas mishloach manot, ger till de fattiga och äter triangulära hamantaschen. Tel Aviv och Holon arrangerar gatufester och en stor parad.",
+          "funFacts": [
+            "På hebreiska är bakverken \"oznei Haman\", Hamans öron.",
+            "Jerusalem firar en dag senare på Shushan Purim, eftersom det är en muromgärdad stad.",
+            "Traditionen säger att man kan dricka tills man inte kan skilja \"förbannade Haman\" från \"välsignade Mordechai\".",
+            "När Esters bok läses upp överröstar deltagarna Hamans namn med skallror."
+          ]
+        },
+        "passover": {
+          "intro": "Pesach, den judiska påsken, börjar den 15 nisan i mars eller april och varar i sju dagar i Israel. Den firar uttåget från Egypten och är en av de mest firade judiska högtiderna.",
+          "history": "Toran berättar hur Gud befriade israeliterna från slaveriet och hur husen som var märkta med lammblod skonades från den tionde plågan. När folket i all hast gick därifrån bakade de osyrat bröd, varför ingen jäst mat äts på hela veckan.",
+          "traditions": "Den första kvällen samlas familjer för seder, en rituell måltid enligt Haggadan med fyra glas vin, bittra örter, matzah och berättelsen återberättad för barnen. I Israel är den första och sjunde dagen helgdagar, och bagerierna går över till matzah.",
+          "funFacts": [
+            "Innan festivalen städas hemmen från varje smula chametz, jäst mat.",
+            "Barn jagar efter afikoman, en gömd bit matzah, och byter ut den mot ett pris.",
+            "Israeliska stormarknader täcker brödhyllor med plastark för veckan.",
+            "Sedern avslutas med orden \"Nästa år i Jerusalem\", även i Jerusalem."
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "Yom HaAtzmaut är Israels självständighetsdag, som firas den 5 Iyar i april eller maj. Den markerar utropandet av staten Israel den 14 maj 1948 och följer direkt efter Yom HaZikaron, Israels minnesdag.",
+          "history": "Den 14 maj 1948, timmar innan det brittiska mandatet upphörde, läste David Ben-Gurion självständighetsförklaringen i Tel Aviv-museet. Helgdagen är fastställd av den hebreiska kalendern och flyttas med en dag eller två när den skulle infalla bredvid sabbaten.",
+          "traditions": "Dagen börjar kvällen innan med fackeltändningsceremonin på berget Herzl, som förvandlar sorgen över Yom HaZikaron till ett firande. Israeler picknickar och grillar i parker, tittar på flygvapnets överflygning och fyrverkerierna, och Israelpriset delas ut på kvällen.",
+          "funFacts": [
+            "Mangalen, en kolgrill, är så central att dagen skämtsamt kallas för Grilldagen.",
+            "Tolv facklor tänds på berget Herzl, en för var och en av Israels stammar.",
+            "Finalen i den internationella bibeltävlingen hålls på självständighetsdagen varje år.",
+            "Flaggor åker upp på bilar och balkonger veckor innan helgdagen."
+          ]
+        },
+        "shavuot": {
+          "intro": "Shavuot, veckofesten, infaller den 6 Sivan i maj eller juni, efter sju veckors räkning från pesachs andra dag. Den firar givandet av Toran vid berget Sinai och veteskörden.",
+          "history": "Toran beskriver Shavuot som dagen för de första frukterna, då bönder bar sin skörd till templet i Jerusalem. Rabbinsk tradition kopplade det till uppenbarelsen vid Sinai, så högtiden kombinerar ett skördefirande med Torans födelse.",
+          "traditions": "Mejerirätter är dagens mat: cheesecake, blintz och ostfyllda bakverk. Många stannar uppe hela natten och studerar Toran, och Ruts bok läses i synagogan. Kibbutzim håller förstafruktparader och barn bär vita kläder och blomkransar.",
+          "funFacts": [
+            "Namnet betyder \"veckor\" eftersom sju veckor räknas från pesachs andra dag.",
+            "Israeler köper mer ost veckan före Shavuot än någon annan tid på året.",
+            "Hela nattens studietillfällen avslutas med gryningsböner vid Västra muren.",
+            "Lantbruksbyar paraderar traktorer dekorerade med frukt och spannmål."
+          ]
+        }
+      },
+      "nb": {
+        "rosh_hashanah": {
+          "intro": "Rosh Hashanah er det jødiske nyttåret, feiret på de to første dagene i måneden Tishrei i september eller oktober. Den åpner de ti dagene med omvendelse som ender med Yom Kippur.",
+          "history": "Torahen kaller dagen en dag da det blåses i shofar. Rabbinsk tradisjon gjorde det til årsdagen for skapelsen av verden og dagen da Gud dømmer hver person for det kommende året. Den jødiske årstellingen starter her: 5787 begynner høsten 2026.",
+          "traditions": "Shofaren, et værhorn, lyder i synagogen. Familier dypper epler i honning for et søtt år, spiser rund challah og granatepler og hilser på hverandre med \"Shana tova\". På Tashlich blir brødsmuler kastet i rennende vann for å symbolsk avskaffe synder.",
+          "funFacts": [
+            "Den runde challaen symboliserer årets syklus og kronen til Kongenes Konge.",
+            "Et granateple sies å inneholde 613 frø, ett for hvert bud i Toraen.",
+            "Opptil 100 støt fra shofaren høres i synagogen hver dag av festivalen.",
+            "Israelere sender flere høytidshilsener for Rosh Hashanah enn for noen annen festival."
+          ]
+        },
+        "yom_kippur": {
+          "intro": "Jom kippur, forsoningsdagen, er den helligste dagen i det jødiske året. Den faller på 10. tisjri, ni dager etter starten på rosj hasjana, og markeres med rundt 25 timers faste og bønn.",
+          "history": "I tempeltiden gikk ypperstepresten inn i Det Aller Helligste bare denne dagen for å sone for folket. Etter at tempelet ble ødelagt, erstattet faste, bønn og syndsbekjennelse ofringene. Yom Kippur-krigen i 1973 begynte på denne dagen, noe som styrket dagens plass i israelsk minne.",
+          "traditions": "Fasten begynner ved solnedgang med den gripende Kol Nidre-bønnen og avsluttes neste kveld med et enkelt shofar-støt. Mange går i hvitt og unngår skinnsko. I Israel blir hele landet stille: ingen trafikk, ingen sendinger, ingen butikker, og barn sykler på de tomme motorveiene.",
+          "funFacts": [
+            "Israelske TV- og radiostasjoner går av lufta hele dagen.",
+            "Tomme motorveier blir til den største sykkellekeplassen i verden for én dag.",
+            "Luftforurensningen i Israel synker med opptil 99 prosent i løpet av ferien.",
+            "Det tradisjonelle ønsket er \"Gmar chatima tova\": må du bli beseglet i Livets bok."
+          ]
+        },
+        "sukkot": {
+          "intro": "Sukkot, løvhyttefesten, starter 15. Tishrei, fem dager etter Yom Kippur, og varer i syv dager. I Israel er den første dagen en helligdag og mellomdagene har en særskilt religiøs status, chol hamoed.",
+          "history": "Festivalen minner om de førti årene israelittene tilbrakte i midlertidige hytter i ørkenen etter utvandringen. Det var også en av de tre pilegrimsfestene der folk reiste til tempelet i Jerusalem, og den avslutter innhøstingssesongen.",
+          "traditions": "Familier bygger en sukka, en hytte med tak av grener, og spiser og sover noen ganger i den i en uke. De fire artene, palmeblad, myrt, selje og etrogsitron, vinkes i bønn. Festivalen avsluttes med Shemini Atzeret og Simchat Torah, når Torah-lesesyklusen begynner igjen.",
+          "funFacts": [
+            "Sukkaer dukker opp på balkonger, hustak og fortau over hele Israel, også utenfor restauranter.",
+            "Et sukkatak må la deg se stjernene, men gi mer skygge enn sollys.",
+            "Etrogen er dyrket så nøye at en perfekt frukt kan koste hundrevis av sekel.",
+            "Jerusalem-marsjen trekker tusenvis av israelere og kristne besøkende i løpet av uken."
+          ]
+        },
+        "hanukkah": {
+          "intro": "Hanukkah, lysfestivalen, begynner 25. Kislev i slutten av november eller desember og varer i åtte dager. Det er ikke en fridag i Israel, men skoler stenger og byer gløder av levende lys.",
+          "history": "Den minnes gjeninnvielsen av Det andre tempelet i 164 fvt etter at makkabeerne beseiret seleukide-herskerne. I følge Talmud brant en enkelt kanne med ren olje, nok for én dag, i tempelmenorahen i åtte dager til ny olje kunne tilberedes.",
+          "traditions": "Hver kveld tennes ett lys til i den niarmede hanukkastaken til åtte brenner sammen, og lysene er plassert i vinduer slik at alle kan se. Familier spiser mat stekt i olje, fremfor alt syltetøyfylte sufganiyot og potet-latkes, leker dreidel og gir barna Hanukkah-penger.",
+          "funFacts": [
+            "Israelere spiser anslagsvis 20 millioner sufganiyot hver Hanukkah-sesong.",
+            "Dreidels i Israel bærer bokstavene for \"et stort mirakel skjedde her\", ikke \"der\".",
+            "Det niende lyset, shamashen, er bare der for å tenne de andre.",
+            "Store offentlige hanukkiahs tennes ved Vestmuren og på byens torg hver kveld."
+          ]
+        },
+        "purim": {
+          "intro": "Purim den 14. adar, i februar eller mars, er den mest sprudlende dagen i det jødiske året. Den feirer redningen av de persiske jødene fra Hamans komplott som fortalt i Esters bok.",
+          "history": "Ifølge den bibelske historien, forpurret dronning Ester og hennes fetter Mordechai planen til vesiren Haman om å ødelegge jødene i det persiske riket. Navnet kommer fra \"pur\", loddet Haman kastet for å velge datoen for massakren.",
+          "traditions": "Esters bok leses høyt og mengden overdøver Hamans navn med rangler. Folk kler seg ut i kostymer, bytter matpakker kalt mishloach manot, gir til de fattige og spiser trekantede hamantaschen. Tel Aviv og Holon arrangerer gatefester og en stor parade.",
+          "funFacts": [
+            "På hebraisk er bakverkene \"oznei Haman\", Hamans ører.",
+            "Jerusalem feirer en dag senere på Shushan Purim, fordi det er en by med murer.",
+            "Tradisjonen sier at man kan drikke til man ikke kan skille \"forbannet Haman\" fra \"salige Mordechai\".",
+            "Purim er den eneste festivalen der jødisk lov oppfordrer til støy i synagogen."
+          ]
+        },
+        "passover": {
+          "intro": "Påsken, Pesach på hebraisk, begynner 15. nisan i mars eller april og varer syv dager i Israel. Den feirer utvandringen fra Egypt og er den mest utbredte jødiske festivalen.",
+          "history": "Toraen forteller hvordan Gud frigjorde israelittene fra slaveri, og hvordan den tiende plagen \"gikk over\" husene merket med lammeblod. I all hast bakte folket usyret brød, og det er grunnen til at det ikke spises surdeig på hele uken.",
+          "traditions": "Den første kvelden samles familier til seder, et rituelt måltid som følger Haggada, med fire glass vin, bitre urter, matzah og historien gjenfortalt for barna. I Israel er den første og syvende dagen helligdager, og bakerier går over til matzah.",
+          "funFacts": [
+            "Før høytiden fjernes chamets, syrnet mat laget av bestemte kornslag, fra hjemmet.",
+            "Barn jakter på afikoman, en skjult bit matzah, og bytter den mot en premie.",
+            "Israelske supermarkeder dekker brødhyller med plastplater for uken.",
+            "Sederen avsluttes med ordene \"Neste år i Jerusalem\", selv i Jerusalem."
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "Yom HaAtzmaut er Israels uavhengighetsdag, feiret 5. Iyar i april eller mai. Den markerer staten Israels erklæring 14. mai 1948 og følger rett etter minnedagen.",
+          "history": "Den 14. mai 1948, timer før det britiske mandatet sluttet, leste David Ben-Gurion uavhengighetserklæringen i Tel Aviv-museet. Høytiden er fastsatt av den hebraiske kalenderen og flyttes med en dag eller to når den faller ved siden av sabbaten.",
+          "traditions": "Dagen begynner kvelden før med fakkeltenningsseremonien på Herzl-fjellet, som gjør sorgen over Yom HaZikaron til feiring. Israelere drar på piknik og griller i parker, ser luftforsvarets flyoppvisning og fyrverkeriet, og Israel-prisen deles ut om kvelden.",
+          "funFacts": [
+            "Mangalen, en kullgrill, er så sentral at dagen på spøk kalles Grilldagen.",
+            "Tolv fakler tennes på Herzl-fjellet, én for hver av Israels stammer.",
+            "Finalen i den internasjonale bibelkonkurransen arrangeres på uavhengighetsdagen hvert år.",
+            "Flagg går opp på biler og balkonger uker før ferien."
+          ]
+        },
+        "shavuot": {
+          "intro": "Shavuot, ukefesten, faller på 6. sivan i mai eller juni, etter at sju uker er telt fra andre pesachdag. Den feirer overleveringen av Toraen ved Sinaifjellet og hvetehøsten.",
+          "history": "Toraen beskriver Shavuot som dagen for de første fruktene, da bøndene bar avlingen sin til tempelet i Jerusalem. Rabbinsk tradisjon knyttet det til åpenbaringen på Sinai, så festivalen kombinerer en høstfeiring med fødselen av Toraen.",
+          "traditions": "Meieriretter er dagens mat: ostekake, blintzer og ostefylte bakverk. Mange holder seg oppe hele natten og studerer Torah, og Ruts bok leses i synagogen. Kibbutzer holder førstefruktparader, og barn bærer hvite klær og blomsterkranser.",
+          "funFacts": [
+            "Navnet betyr «uker» fordi sju uker telles fra andre pesachdag før høytiden begynner.",
+            "Israelere kjøper mer ost i uken før Shavuot enn på noen annen tid på året.",
+            "Hele nattens studieøkter avsluttes med morgengrysbønner ved Vestmuren.",
+            "Bondelandsbyer paraderer traktorer dekorert med frukt og korn."
+          ]
+        }
+      },
+      "da": {
+        "rosh_hashanah": {
+          "intro": "Rosh Hashanah er det jødiske nytår, der fejres på de første to dage i Tishrei-måneden i september eller oktober. Det åbner de ti dages omvendelse, der slutter med Yom Kippur.",
+          "history": "Toraen kalder dagen for en dag, hvor der blæses i shofar. Rabbinsk tradition gjorde det til årsdagen for verdens skabelse og den dag, hvor Gud dømmer enhver person for det kommende år. Den jødiske årstælling starter her: 5787 begynder i efteråret 2026.",
+          "traditions": "Shofaren, et vædderhorn, lyder i synagogen. Familier dypper æbler i honning til et sødt år, spiser rund challah og granatæbler og hilser på hinanden med \"Shana tova\". Ved Tashlich kastes brødkrummer i rindende vand for symbolsk at udslette synder.",
+          "funFacts": [
+            "Den runde challah symboliserer årets cyklus og kongernes konges krone.",
+            "Et granatæble siges at indeholde 613 frø, et for hvert bud i Toraen.",
+            "Der lyder op til 100 stød fra shofaren i synagogen på hver festivaldag.",
+            "Israelere sender flere højtidshilsener til Rosh Hashanah end til nogen anden festival."
+          ]
+        },
+        "yom_kippur": {
+          "intro": "Jom kippur, forsoningsdagen, er den helligste dag i det jødiske år. Den falder den 10. tisjri, ni dage efter begyndelsen på rosh hashana, og markeres med omkring 25 timers faste og bøn.",
+          "history": "I templets tid gik ypperstepræsten kun ind i Det Allerhelligste på denne dag for at sone for folket. Efter at templet var blevet ødelagt, erstattede faste, bøn og syndsbekendelse ofringerne. Yom Kippur-krigen i 1973 begyndte på denne dag, hvilket styrkede dagens plads i israelsk hukommelse.",
+          "traditions": "Fasten begynder ved solnedgang med den gribende Kol Nidre-bøn og slutter næste aften med et enkelt shofar-stød. Mange går i hvidt og undgår lædersko. I Israel bliver hele landet tavst: ingen trafik, ingen udsendelser, ingen butikker, og børn cykler på de tomme motorveje.",
+          "funFacts": [
+            "Israelske tv- og radiostationer går ud af luften hele dagen.",
+            "Tomme motorveje bliver til den største cykellegeplads i verden for en dag.",
+            "Luftforureningen i Israel falder med op til 99 procent i løbet af ferien.",
+            "Det traditionelle ønske er \"Gmar chatima tova\": må du blive beseglet i Livets Bog."
+          ]
+        },
+        "sukkot": {
+          "intro": "Sukkot, løvhyttefesten, starter den 15. Tishrei, fem dage efter Yom Kippur, og varer syv dage. I Israel er den første dag en helligdag, og mellemdagene har en særlig religiøs status, chol hamoed.",
+          "history": "Festivalen minder om de fyrre år, israelitterne tilbragte i midlertidige hytter i ørkenen efter udvandringen. Det var også en af ​​de tre pilgrimsfester, hvor folk rejste til templet i Jerusalem, og den afslutter høstsæsonen i efteråret.",
+          "traditions": "Familier bygger en sukkah, en hytte med et tag af grene, og spiser og sover nogle gange i den i en uge. De fire arter, palmeblad, myrte, pil og etrogcitron, vinkes i bøn. Festivalen slutter med Shemini Atzeret og Simchat Torah, når Toraens læsecyklus begynder igen.",
+          "funFacts": [
+            "Sukkaer optræder på balkoner, hustage og fortove over hele Israel, selv uden for restauranter.",
+            "Et sukkahtag skal lade dig se stjernerne, men give mere skygge end sollys.",
+            "Etrogen er dyrket så omhyggeligt, at en perfekt frugt kan koste hundredvis af sekel.",
+            "Jerusalem-marchen trækker tusindvis af israelere og kristne besøgende i løbet af ugen."
+          ]
+        },
+        "hanukkah": {
+          "intro": "Hanukkah, Lysfesten, begynder den 25. Kislev i slutningen af ​​november eller december og varer otte dage. Det er ikke en fridag i Israel, men skoler lukker, og byer gløder af levende lys.",
+          "history": "Det mindes genindvielsen af ​​det andet tempel i 164 f.v.t. efter at makkabæerne besejrede seleukidernes herskere. Ifølge Talmud brændte en enkelt kande ren olie, nok til én dag, i Templets menorah i otte dage, indtil ny olie kunne tilberedes.",
+          "traditions": "Hver aften tændes endnu et lys i den niarmede hanukkastage, indtil otte brænder sammen, og lysene er placeret i vinduer, så alle kan se. Familier spiser mad stegt i olie, frem for alt syltetøjsfyldt sufganiyot og kartoffel-latkes, leger dreidel og giver børn Hanukkah-penge.",
+          "funFacts": [
+            "Israelere spiser anslået 20 millioner sufganiyot hver Hanukka-sæson.",
+            "Dreidels i Israel bærer bogstaverne for \"et stort mirakel skete her\", ikke \"der\".",
+            "Det niende lys, shamashen, er der kun for at tænde de andre.",
+            "Kæmpe offentlige hanukkiahs tændes ved den vestlige mur og på byens torve hver nat."
+          ]
+        },
+        "purim": {
+          "intro": "Purim den 14. Adar, i februar eller marts, er den mest sprudlende dag i det jødiske år. Det fejrer redningen af ​​de persiske jøder fra Hamans komplot som fortalt i Esters Bog.",
+          "history": "Ifølge den bibelske historie forpurrede dronning Esther og hendes fætter Mordechai vesiren Hamans plan om at ødelægge jøderne i det persiske imperium. Navnet kommer fra \"pur\", det lod Haman kastede for at vælge datoen for massakren.",
+          "traditions": "Esters Bog læses højt, og mængden overdøver Hamans navn med rangler. Folk klæder sig ud i kostumer, udveksler madpakker kaldet mishloach manot, giver til de fattige og spiser trekantede hamantaschen. Tel Aviv og Holon afholder gadefester og en stor parade.",
+          "funFacts": [
+            "På hebraisk er bagværket \"oznei Haman\", Hamans ører.",
+            "Jerusalem fejrer en dag senere på Shushan Purim, fordi det er en befæstet by.",
+            "Traditionen siger, at man kan drikke, indtil man ikke kan kende \"forbandede Haman\" fra \"salige Mordechai\".",
+            "Purim er den eneste festival, hvor jødisk lov opfordrer til larm i synagogen."
+          ]
+        },
+        "passover": {
+          "intro": "Påske, Pesach på hebraisk, begynder den 15. Nisan i marts eller april og varer syv dage i Israel. Det fejrer udvandringen fra Egypten og er den mest udbredte jødiske festival.",
+          "history": "Toraen fortæller, hvordan Gud befriede israelitterne fra slaveri, og hvordan den tiende plage \"gik forbi\" husene mærket med lammeblod. I hast gik folk afsted og bagte usyret brød, hvorfor der ikke spises syret mad på hele ugen.",
+          "traditions": "Den første aften samles familier til seder, et rituelt måltid som følger Haggadah, med fire glas vin, bitre urter, matzah og historien genfortalt for børnene. I Israel er den første og syvende dag helligdage, og bagerier skifter til matzah.",
+          "funFacts": [
+            "Før festivalen bliver hjemmene renset for hver krumme chametz, hævet mad.",
+            "Børn jager afikoman, et skjult stykke matzah, og bytter det til en præmie.",
+            "Israelske supermarkeder dækker brødhylder med plastikplader for ugen.",
+            "Sederen slutter med ordene \"Næste år i Jerusalem\", selv i Jerusalem."
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "Yom HaAtzmaut er Israels uafhængighedsdag, der fejres den 5. Iyar i april eller maj. Den markerer staten Israels erklæring den 14. maj 1948 og følger direkte efter mindedagen.",
+          "history": "Den 14. maj 1948, timer før det britiske mandat sluttede, læste David Ben-Gurion uafhængighedserklæringen i Tel Aviv-museet. Helligdagen er fastsat af den hebraiske kalender og flyttes med en dag eller to, hvor den falder ved siden af ​​sabbat.",
+          "traditions": "Dagen begynder aftenen før med fakkeltændingsceremonien på Herzl-bjerget, som gør sorgen over Yom HaZikaron til fest. Israelerne holder picnic og griller i parker, ser luftvåbnets flyopvisning og fyrværkeriet, og Israel-prisen uddeles om aftenen.",
+          "funFacts": [
+            "Mangalen, en kulgrill, er så central, at dagen i spøg kaldes Grilldag.",
+            "Tolv fakler tændes på Herzl-bjerget, én for hver af Israels stammer.",
+            "Finalen i den internationale bibelkonkurrence afholdes på uafhængighedsdagen hvert år.",
+            "Der går flag op på biler og altaner uger før ferien."
+          ]
+        },
+        "shavuot": {
+          "intro": "Shavuot, ugefesten, falder den 6. sivan i maj eller juni, efter at syv uger er talt fra anden pesachdag. Den fejrer overleveringen af Toraen ved Sinai-bjerget og hvedehøsten.",
+          "history": "Toraen beskriver Shavuot som dagen for de første frugter, hvor bønderne bar deres høst til templet i Jerusalem. Rabbinsk tradition knyttede det til åbenbaringen ved Sinai, så festivalen kombinerer en høstfest med Toraens fødsel.",
+          "traditions": "Mejeriretter er dagens mad: cheesecake, blintzes og ostefyldte kager. Mange bliver oppe hele natten og studerer Tora, og Ruths Bog læses i synagogen. Kibbutzer holder førstefrugtparader, og børn bærer hvidt tøj og blomsterkranse.",
+          "funFacts": [
+            "Navnet betyder »uger«, fordi syv uger tælles fra anden pesachdag, før højtiden begynder.",
+            "Israelere køber mere ost i ugen før Shavuot end på nogen anden tid af året.",
+            "Helnatstudier afsluttes med daggrysbøn ved Vestmuren.",
+            "Landbrugslandsbyer paraderer traktorer dekoreret med frugt og korn."
+          ]
+        }
+      },
+      "fi": {
+        "rosh_hashanah": {
+          "intro": "Rosh Hashanah on juutalainen uusivuosi, jota vietetään Tishrei-kuukauden kahtena ensimmäisenä päivänä syys- tai lokakuussa. Se avaa kymmenen katumuspäivän jakson, joka päättyvät Jom Kippuriin.",
+          "history": "Toora kutsuu päivää \"shofarin puhaltamisen päiväksi\". Rabbiiniperinne teki siitä maailman luomisen vuosipäivän ja päivän, jolloin Jumala tuomitsee jokaisen tulevan vuoden osalta. Juutalaisten vuosilaskenta alkaa tästä: 5787 alkaa syksyllä 2026.",
+          "traditions": "Shofar, pässinsarvesta tehty soitin, soi synagogassa. Perheet kastavat omenoita hunajaan makean vuoden toivossa, syövät pyöreää challahia ja granaattiomenia ja tervehtivät toisiaan \"Shana tovalla\". Tashlichissa leivänmurut heitetään virtaavaan veteen synneistä luopumisen vertauskuvana.",
+          "funFacts": [
+            "Pyöreä challa symboloi vuoden kiertokulkua ja Kuninkaiden kuninkaan kruunua.",
+            "Granaattiomenassa sanotaan olevan 613 siementä, yksi jokaista Tooran käskyä kohden.",
+            "Jopa 100 shofarin puhallusta kuullaan synagogassa jokaisena festivaalin päivänä.",
+            "Israelilaiset lähettävät enemmän lomaterveisiä Rosh Hashanahille kuin minkään muun festivaalin kunniaksi."
+          ]
+        },
+        "yom_kippur": {
+          "intro": "Jom kippur eli sovituspäivä on juutalaisen vuoden pyhin päivä. Se osuu tisrikuun 10. päivään, yhdeksän päivää roš hašanan alkamisen jälkeen. Päivään kuuluu noin 25 tunnin paasto ja rukous.",
+          "history": "Temppeliaikoina ylimmäinen pappi astui kaikkeinpyhimpään vain tänä päivänä sovittaakseen ihmisten puolesta. Temppelin tuhoutumisen jälkeen paasto, rukous ja tunnustus tulivat uhrien tilalle. Tänä päivänä alkoi vuoden 1973 Jom Kippurin sota, joka syvensi sen asemaa Israelin muistossa.",
+          "traditions": "Paasto alkaa auringonlaskun aikaan koskettavalla Kol Nidre -rukouksella ja päättyy seuraavana iltana yhteen shofarin puhallukseen. Monet pukeutuvat valkoisiin vaatteisiin ja välttävät nahkakenkiä. Israelissa koko maa hiljenee: ei liikennettä, ei lähetyksiä, ei kauppoja, ja lapset ajavat polkupyörällä tyhjillä moottoriteillä.",
+          "funFacts": [
+            "Israelin televisio- ja radioasemat ovat poissa lähetyksistä koko päivän.",
+            "Tyhjät moottoritiet muuttuvat yhdeksi päiväksi maailman suurimmaksi polkupyörän leikkipaikaksi.",
+            "Ilman saastuminen Israelissa putoaa jopa 99 prosenttia loman aikana.",
+            "Perinteinen toive on \"Gmar chatima tova\": sinetöidään elämän kirjaan."
+          ]
+        },
+        "sukkot": {
+          "intro": "Sukkot, lehtimajanjuhla, alkaa 15. Tishreissä, viisi päivää Jom Kippurin jälkeen, ja kestää seitsemän päivää. Israelissa ensimmäinen päivä on yleinen vapaapäivä ja loput ovat juhlan välipäiviä.",
+          "history": "Festivaali muistelee niitä neljäkymmentä vuotta, jotka israelilaiset viettivät väliaikaisissa suojissa erämaassa Exoduksen jälkeen. Se oli myös yksi kolmesta pyhiinvaellusjuhlasta, joilla ihmiset matkustivat Jerusalemin temppeliin, ja se päättää syksyn sadonkorjuukauden.",
+          "traditions": "Perheet rakentavat sukan, oksikattoisen majan, syövät ja joskus nukkuvat siinä viikon. Neljä lajia, palmunlehti, myrtti, paju ja etrogisitruuna, heilutetaan rukouksessa. Festivaali päättyy Shemini Atzeretiin ja Simchat Torahiin, jolloin Tooran lukusykli alkaa taas.",
+          "funFacts": [
+            "Lehtimajoja näkyy parvekkeilla, katoilla ja jalkakäytävällä kaikkialla Israelissa, jopa ravintoloiden ulkopuolella.",
+            "Sukkah-katon täytyy antaa sinun nähdä tähdet, mutta tarjota enemmän varjoa kuin auringonvaloa.",
+            "Etrog kasvatetaan niin huolellisesti, että täydellinen hedelmä voi maksaa satoja sekelejä.",
+            "Jerusalemin marssi houkuttelee tuhansia israelilaisia ​​ja kristittyjä vierailijoita viikon aikana."
+          ]
+        },
+        "hanukkah": {
+          "intro": "Hanukkah, valojuhla, alkaa 25. Kislevissä marraskuun lopussa tai joulukuussa ja kestää kahdeksan päivää. Israelissa ei ole vapaapäivä töistä, vaan koulut sulkeutuvat ja kaupungit hehkuvat kynttilän valossa.",
+          "history": "Sillä muistetaan toisen temppelin uudelleenvihkimistä vuonna 164 eaa. sen jälkeen, kun makkabeat voittivat Seleukidien hallitsijat. Talmudin mukaan yksi kannu puhdasta öljyä, joka riitti yhdeksi päiväksi, poltettiin temppelin menorassa kahdeksan päivää, kunnes uutta öljyä voitiin valmistaa.",
+          "traditions": "Hanukkialla sytytetään joka ilta yksi kynttilä lisää, kunnes kahdeksan palaa yhdessä, ja valot laitetaan ikkunoihin kaikkien nähtäville. Perheet syövät öljyssä paistettua ruokaa, ennen kaikkea hillolla täytettyjä sufganiyotteja ja perunalatkeja, leikkivät dreideliä ja antavat lapsille Hanukan rahaa.",
+          "funFacts": [
+            "Israelilaiset syövät arviolta 20 miljoonaa sufganiyotia joka Hanukka-kausi.",
+            "Dreidelit Israelissa kantavat kirjaimia \"suuri ihme tapahtui täällä\", ei \"siellä\".",
+            "Yhdeksäs kynttilä, shamash, on olemassa vain sytyttämään muut.",
+            "Länsimuurilla ja kaupungin aukioilla sytytetään suuria julkisia hanukkia joka ilta."
+          ]
+        },
+        "purim": {
+          "intro": "Purim 14. Adar helmi- tai maaliskuussa on juutalaisen vuoden riehakkaimpia juhlapäiviä. Se juhlii persialaisten juutalaisten pelastusta Hamanin juonesta, kuten Esterin kirjassa kerrotaan.",
+          "history": "Raamatun tarinan mukaan kuningatar Esther ja hänen serkkunsa Mordechai tekivät tyhjäksi visiiri Hamanin suunnitelman Persian valtakunnan juutalaisten tuhoamiseksi. Nimi tulee sanasta »pur«, arpa, jolla Haman valitsi suunnitellun verilöylyn päivämäärän.",
+          "traditions": "Esterin kirjaa luetaan ääneen ja väkijoukko peittää Hamanin nimen räikillä. Ihmiset pukeutuvat naamiaisasuihin, vaihtavat ruokapaketteja nimeltä mishloach manot, antavat köyhille ja syövät kolmiomaista hamantaschenia. Tel Aviv ja Holon isännöivät katujuhlia ja suuren paraatin.",
+          "funFacts": [
+            "Hepreaksi leivonnaiset ovat \"oznei Haman\", Hamanin korvat.",
+            "Jerusalem juhlii päivää myöhemmin Shushan Purimia, koska se on muurien ympäröimä kaupunki.",
+            "Perinteen mukaan juoda saa, kunnes ei pysty erottamaan \"kirottu Hamani\" \"siunatusta Mordokaista\".",
+            "Purim on ainoa juhla, jolla juutalainen laki kannustaa meluamaan synagogassa."
+          ]
+        },
+        "passover": {
+          "intro": "Pääsiäinen, hepreaksi pesach, alkaa nisanin 15. päivänä maaliskuussa tai huhtikuussa ja kestää seitsemän päivää Israelissa. Se juhlii Egyptistä lähtöä ja on laajimmin vietetty juutalainen festivaali.",
+          "history": "Toora kertoo kuinka Jumala vapautti israelilaiset orjuudesta ja kuinka kymmenes vitsaus \"kulki\" lampaanverellä merkittyjen talojen yli. Kiireessä lähtiessään ihmiset leipoivat happamatonta leipää, minkä vuoksi hapatettua ruokaa ei syödä koko viikkoon.",
+          "traditions": "Ensimmäisenä iltana perheet kokoontuvat sederiin, Haggadan ohjeita noudattavaan rituaaliateriaan, johon kuuluu neljä lasillista viiniä, katkerat yrtit, matza ja lapsille kerrottu tarina. Israelissa ensimmäinen ja seitsemäs päivä ovat yleisiä vapaapäiviä, ja leipomot siirtyvät matzahin.",
+          "funFacts": [
+            "Ennen festivaalin alkua kodit puhdistetaan jokaisesta chametz-murusta, hapatettua ruokaa.",
+            "Lapset metsästävät afikomania, piilotettua matzahia, ja vaihtavat sen palkintoon.",
+            "Israelilaiset supermarketit peittävät leipähyllyt muovilevyillä viikon ajan.",
+            "Seder päättyy sanoihin \"Ensi vuonna Jerusalemissa\", jopa Jerusalemissa."
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "Yom HaAtzmaut on Israelin itsenäisyyspäivä, jota vietetään 5. Iyar huhtikuussa tai toukokuussa. Se merkitsee Israelin valtion julistusta 14. toukokuuta 1948 ja seuraa välittömästi muistopäivän jälkeen.",
+          "history": "14. toukokuuta 1948, tuntia ennen Britannian mandaatin päättymistä, David Ben-Gurion luki itsenäisyysjulistuksen Tel Avivin museossa. Juhlapäivä määräytyy heprealaisen kalenterin mukaan, ja sitä siirretään päivällä tai kahdella, kun se osuisi sapatin viereen.",
+          "traditions": "Päivä alkaa edellisenä iltana soihdun sytytysseremonialla Herzl-vuorella, joka muuttaa Yom HaZikaronin surun juhlaksi. Israelilaiset viettävät piknikkejä ja grillaavat puistoissa, katsovat ilmavoimien ylilentoa ja ilotulitteita, ja Israel-palkinto jaetaan illalla.",
+          "funFacts": [
+            "Mangal, hiiligrilli, on niin keskeinen, että päivää kutsutaan leikin mukaan Grillipäiväksi.",
+            "Herzl-vuorella sytytetään kaksitoista soihtua, yksi jokaiselle Israelin heimolle.",
+            "Kansainvälisen raamattukilpailun finaali pidetään itsenäisyyspäivänä joka vuosi.",
+            "Liput nousevat autoihin ja parvekkeisiin viikkoja ennen lomaa."
+          ]
+        },
+        "shavuot": {
+          "intro": "Shavuot, viikkojen juhla, osuu 6. Sivanille touko- tai kesäkuussa, pesachin toisena päivänä alkavan seitsemän viikon laskennan jälkeen. Se juhlii Tooran antamista Siinain vuorella ja vehnän sadonkorjuuta.",
+          "history": "Toora kuvailee Shavuotia ensimmäisten hedelmien päiväksi, jolloin maanviljelijät veivät satonsa Jerusalemin temppeliin. Rabbiiniperinne yhdisti sen Siinain ilmestykseen, joten festivaali yhdistää sadonkorjuun juhlan Tooran syntymään.",
+          "traditions": "Maitotuotteet ovat päivän ruokaa: juustokakkua, blintzejä ja juustolla täytettyjä leivonnaisia. Monet valvovat koko yön tutkien Tooraa, ja Ruthin kirjaa luetaan synagogassa. Kibbutsimit järjestävät ensihedelmäparaateja, ja lapset pukeutuvat valkoisiin ja kukkaseppeleisiin.",
+          "funFacts": [
+            "Nimi tarkoittaa »viikkoja«: pesachin toisesta päivästä lasketaan seitsemän viikkoa ennen juhlaa.",
+            "Israelilaiset ostavat enemmän juustoa Shavuotia edeltävällä viikolla kuin mihinkään muuhun aikaan vuodesta.",
+            "Koko yön kestävät opiskeluistunnot päättyvät aamunkoittoon Länsimuurilla.",
+            "Viljelijät kuljettavat paraateissa hedelmillä ja viljalla koristeltuja traktoreita."
+          ]
+        }
+      },
+      "ru": {
+        "rosh_hashanah": {
+          "intro": "Рош ха-Шана — еврейский Новый год, который отмечается в первые два дня месяца Тишрей в сентябре или октябре. Он открывает Десять дней покаяния, которые заканчиваются Йом Кипуром.",
+          "history": "Тора называет этот день «днем звука шофара». Раввинская традиция сделала его годовщиной сотворения мира и днем, когда Бог будет судить каждого человека в наступающем году. Отсчет еврейского года начинается здесь: осенью 2026 года начинается 5787 год.",
+          "traditions": "В синагоге звучит шофар - бараний рог. Семьи макают яблоки в мед в честь сладкого года, едят круглую халу и гранаты и приветствуют друг друга «Шана Това». В Ташлихе хлебные крошки бросают в проточную воду, чтобы символически избавиться от грехов.",
+          "funFacts": [
+            "Круглая хала символизирует годовой цикл и корону Царя Царей.",
+            "Говорят, что в гранате содержится 613 зерен, по одному на каждую заповедь Торы.",
+            "Каждый день фестиваля в синагоге звучит до 100 звуков шофара.",
+            "Израильтяне посылают больше поздравлений с праздником Рош ха-Шана, чем с любым другим праздником."
+          ]
+        },
+        "yom_kippur": {
+          "intro": "Йом Кипур, День искупления, — самый священный день еврейского года. Он приходится на 10 тишрея, через девять дней после начала Рош ха-Шана, и отмечается примерно 25 часами поста и молитвы.",
+          "history": "Во времена Храма Первосвященник входил в Святая Святых только в этот день, чтобы искупить грехи народа. После разрушения Храма место жертвоприношений заняли пост, молитва и исповедь. В этот день началась Война Судного дня 1973 года, которая закрепила его значение в памяти израильтян.",
+          "traditions": "Пост начинается на закате с запоминающейся молитвы Коль Нидре и заканчивается на следующий вечер одним звуком шофара. Многие носят белое и избегают кожаной обуви. В Израиле вся страна молчит: ни движения, ни радиопередач, ни магазинов, а дети катаются на велосипедах по пустым автомагистралям.",
+          "funFacts": [
+            "Израильские теле- и радиостанции отключаются на весь день.",
+            "Пустые шоссе на один день превращаются в самую большую велосипедную площадку в мире.",
+            "Во время праздников загрязнение воздуха в Израиле снижается до 99 процентов.",
+            "Традиционное пожелание — «Гмар чатима това»: пусть ты будешь запечатан в Книге Жизни."
+          ]
+        },
+        "sukkot": {
+          "intro": "Суккот, Праздник кущей, начинается 15 Тишрея, через пять дней после Йом Кипура, и длится семь дней. В Израиле первый день — государственный праздник, остальные — промежуточные дни праздника.",
+          "history": "Фестиваль вспоминает сорок лет, которые израильтяне провели во временных убежищах в пустыне после Исхода. Это также был один из трех праздников паломничества, во время которых люди отправлялись в Храм в Иерусалиме, и он завершал осенний сезон сбора урожая.",
+          "traditions": "Семьи строят сукку, хижину с крышей из ветвей, и едят, а иногда и спят в ней в течение недели. Четыре вида: пальмовая ветвь, мирт, ива и цитрон-этрог - возносятся в молитве. Фестиваль заканчивается Шмини Ацерет и Симхат Тора, когда цикл чтения Торы начинается снова.",
+          "funFacts": [
+            "Сукки появляются на балконах, крышах и тротуарах по всему Израилю, даже возле ресторанов.",
+            "Крыша сукки должна позволять видеть звезды, но обеспечивать больше тени, чем солнечного света.",
+            "Этрог выращивают настолько тщательно, что идеальный плод может стоить сотни шекелей.",
+            "Иерусалимский марш в течение недели собирает тысячи израильтян и христиан."
+          ]
+        },
+        "hanukkah": {
+          "intro": "Ханука, Фестиваль огней, начинается 25 кислева в конце ноября или декабря и длится восемь дней. В Израиле это не официальный выходной, но школы закрываются, а города светятся свечами.",
+          "history": "Праздник посвящён повторному освящению Второго Храма в 164 г. до н.э. после того, как Маккавеи победили правителей Селевкидов. Согласно Талмуду, один кувшин с чистым маслом, которого хватило на один день, горел в храмовой меноре в течение восьми дней, пока не удалось приготовить новое масло.",
+          "traditions": "Каждый вечер в ханукии зажигается еще одна свеча, пока не будут гореть все восемь, а огни выставляются в окнах на всеобщее обозрение. Семьи едят пищу, обжаренную в масле, прежде всего суфганийот с вареньем и картофельные латкес, играют в дрейдл и дарят детям деньги на Хануку.",
+          "funFacts": [
+            "Израильтяне съедают около 20 миллионов суфганийот каждый сезон Хануки.",
+            "Дрейделы в Израиле несут буквы «великое чудо произошло здесь», а не «там».",
+            "Девятая свеча, шамаш, предназначена только для того, чтобы зажечь остальные.",
+            "Каждую ночь у Стены Плача и на городских площадях зажигаются огромные публичные ханукии."
+          ]
+        },
+        "purim": {
+          "intro": "Пурим 14 Адара в феврале или марте — самый яркий день еврейского года. Он празднует спасение персидских евреев от заговора Амана, как сказано в Книге Эстер.",
+          "history": "Согласно библейскому сюжету, царица Эстер и ее двоюродный брат Мордехай сорвали план визиря Амана по уничтожению евреев Персидской империи. Название происходит от слова «пур» — жребия, который бросил Аман, чтобы выбрать дату резни.",
+          "traditions": "Книга Эстер читается вслух, и толпа заглушает имя Амана треском. Люди наряжаются в костюмы, обмениваются продуктовыми посылками, называемыми мишлоах манот, помогают бедным и едят треугольные хаманташены. В Тель-Авиве и Холоне проходят уличные вечеринки и большой парад.",
+          "funFacts": [
+            "На иврите выпечка называется \"озней аман\", уши Амана.",
+            "Иерусалим празднует Шушан Пурим на день позже, потому что это город-крепость.",
+            "Традиция гласит, что пить можно до тех пор, пока не сможешь отличить «проклятого Амана» от «благословенного Мордехая».",
+            "Пурим — единственный праздник, во время которого еврейский закон поощряет шум в синагоге."
+          ]
+        },
+        "passover": {
+          "intro": "Песах, праздник Исхода, начинается 15 нисана в марте или апреле и длится в Израиле семь дней. Он празднует Исход из Египта и является наиболее широко отмечаемым еврейским праздником.",
+          "history": "Тора рассказывает, как Бог освободил израильтян от рабства и как десятая казнь «обошла стороной» дома, отмеченные кровью ягненка. Уходя в спешке, люди пекли пресный хлеб, поэтому всю неделю квасное не едят.",
+          "traditions": "В первый вечер семьи собираются на седер, ритуальную трапезу по порядку, описанному в Агаде с четырьмя чашами вина, горькими травами, мацей и историей, рассказанной детям. В Израиле первый и седьмой дни — государственные праздники, и пекарни переходят на мацу.",
+          "funFacts": [
+            "Перед праздником дома очищаются от всех крошек хамеца, квасного.",
+            "Дети ищут афикоман, спрятанный кусок мацы, и обменивают его на приз.",
+            "Израильские супермаркеты на неделю накрывают полки с хлебом полиэтиленовыми пленками.",
+            "Седер заканчивается словами «Следующий год в Иерусалиме», даже в Иерусалиме."
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "Йом ха-Ацмаут — День независимости Израиля, который отмечается 5 ияра в апреле или мае. Он знаменует провозглашение Государства Израиль 14 мая 1948 года и следует сразу после Дня памяти.",
+          "history": "14 мая 1948 года, за несколько часов до окончания британского мандата, Давид Бен-Гурион прочитал Декларацию независимости в Тель-Авивском музее. Праздник зафиксирован еврейским календарем и переносится на день или два, когда он приходится на субботу.",
+          "traditions": "День начинается накануне вечером с церемонии зажжения факела на горе Герцля, которая превращает траур Йом ха-Зикарон в праздник. Израильтяне устраивают пикники и барбекю в парках, смотрят пролет ВВС и фейерверк, а вечером вручают Премию Израиля.",
+          "funFacts": [
+            "Мангал, барбекю на углях, настолько популярен, что этот день в шутку называют Днем барбекю.",
+            "На горе Герцля зажигаются двенадцать факелов, по одному на каждое колено Израиля.",
+            "Финал Международного библейского конкурса проводится каждый год в День независимости.",
+            "Флаги поднимаются на машинах и балконах за несколько недель до праздника."
+          ]
+        },
+        "shavuot": {
+          "intro": "Шавуот, праздник недель, приходится на 6 сивана в мае или июне, после семи недель отсчёта, начинающегося во второй день Песаха. Он празднует дарование Торы на горе Синай и сбор урожая пшеницы.",
+          "history": "Тора описывает Шавуот как день первых плодов, когда земледельцы несли свой урожай в Храм в Иерусалиме. Раввинская традиция связывает его с откровением на Синае, поэтому праздник сочетает в себе празднование урожая с рождением Торы.",
+          "traditions": "Молочные блюда – еда дня: чизкейки, блины и выпечка с сырной начинкой. Многие не спят всю ночь, изучая Тору, а в синагоге читают Книгу Руфь. Кибуцы проводят парады первых фруктов, а дети носят белую одежду и цветочные венки.",
+          "funFacts": [
+            "Название означает «недели»: семь недель отсчитывают начиная со второго дня Песаха.",
+            "За неделю перед Шавуотом израильтяне покупают больше сыра, чем в любое другое время года.",
+            "Ночные занятия заканчиваются утренней молитвой у Стены Плача.",
+            "Фермерские деревни выставляют напоказ тракторы, украшенные фруктами и зерном."
+          ]
+        }
+      },
+      "uk": {
+        "rosh_hashanah": {
+          "intro": "Рош га-Шана — єврейський Новий рік, який святкують у перші два дні місяця тишрей у вересні або жовтні. Він відкриває десять днів покаяння, які закінчуються Йом Кіпур.",
+          "history": "Тора називає цей день «днем шофара». Рабинська традиція робила його річницею створення світу і днем, коли Бог судить кожну людину на наступний рік. Тут починається відлік єврейського року: 5787 починається восени 2026 року.",
+          "traditions": "У синагозі звучить шофар, баранячий ріг. Родини вмочують яблука в мед на солодкий рік, їдять круглі хали та гранати, вітають один одного «Шана това». На Ташлич крихти хліба кидають у течучу воду, щоб символічно позбутися гріхів.",
+          "funFacts": [
+            "Кругла хала символізує цикл року та корону Царя Царів.",
+            "Кажуть, що гранат містить 613 зерен, по одному для кожної заповіді Тори.",
+            "Під час святкового богослужіння можна почути сто звуків шофара; у шабат у нього зазвичай не сурмлять.",
+            "Ізраїльтяни надсилають більше святкових привітань з Рош Ха-Шана, ніж з будь-яким іншим святом."
+          ]
+        },
+        "yom_kippur": {
+          "intro": "Йом Кіпур, День спокути, — найсвятіший день єврейського року. Він припадає на 10 тішрея, через дев’ять днів після початку Рош га-Шана, і його відзначають приблизно 25 годинами посту та молитви.",
+          "history": "У часи Храму Первосвященик входив у Святая Святих лише в цей день, щоб спокутувати людей. Після руйнування Храму місце жертвоприношень зайняли піст, молитва та сповідь. Цього дня почалася війна Судного дня 1973 року, яка поглибила своє місце в пам’яті Ізраїлю.",
+          "traditions": "Піст починається на заході сонця з проникливої молитви Коль Нідре і закінчується наступного вечора одним звуком шофара. Багато носять біле і уникають шкіряного взуття. В Ізраїлі вся країна затихає: немає руху, немає трансляцій, немає магазинів, а діти їздять на велосипедах по порожніх автобанах.",
+          "funFacts": [
+            "Ізраїльські теле- та радіостанції припиняють ефір на весь день.",
+            "Порожні шосе на один день перетворюються на найбільший велосипедний майданчик у світі.",
+            "Під час свят рівень забруднення повітря в Ізраїлі знижується на 99 відсотків.",
+            "Традиційне побажання «Gmar chatima tova»: хай будеш запечатаний у Книзі Життя."
+          ]
+        },
+        "sukkot": {
+          "intro": "Сукот, свято кучок, починається 15 тишрей, через п'ять днів після Йом Кіпур, і триває сім днів. В Ізраїлі перший день є державним святом, а решта - святкові напіввихідні.",
+          "history": "Фестиваль нагадує сорок років, які ізраїльтяни провели у тимчасових притулках у пустелі після Виходу. Це також було одне з трьох паломницьких свят, на які люди подорожували до Єрусалимського храму, і воно завершує осінній сезон збору врожаю.",
+          "traditions": "Сім'ї будують сукку, хатину з дахом з гілок, і їдять, а іноді й сплять у ній протягом тижня. Під час молитви помахують чотирма видами рослин: пальмовою гілкою, миртом, вербою та цитроном етрогом. Фестиваль закінчується Шеміні Ацерет і Сімхат Тора, коли знову починається цикл читання Тори.",
+          "funFacts": [
+            "Сукки з’являються на балконах, дахах і тротуарах по всьому Ізраїлю, навіть біля ресторанів.",
+            "Дах сукки має дозволяти бачити зірки, але створювати більше тіні, ніж сонячного світла.",
+            "Етрог вирощують настільки ретельно, що ідеальний плід може коштувати сотні шекелів.",
+            "Протягом тижня Єрусалимський марш збирає тисячі ізраїльтян і християн."
+          ]
+        },
+        "hanukkah": {
+          "intro": "Ханука, Фестиваль вогнів, починається 25 Кислева в кінці листопада або в грудні і триває вісім днів. В Ізраїлі не вихідний, але школи закриваються, а міста сяють від свічок.",
+          "history": "Свято вшановує повторне освячення Другого храму в 164 році до нашої ери після перемоги Маккавеїв над правителями Селевкідів. Згідно з Талмудом, один глечик чистої олії, якого вистачило на один день, горів у храмовій менорі протягом восьми днів, поки не можна було приготувати нову олію.",
+          "traditions": "Кожного вечора на Ханукії запалюють ще одну свічку, доки всі вісім не горітимуть разом, і вогні розміщують у вікнах, щоб усі бачили. Сім’ї їдять їжу, смажену в олії, насамперед суфганійот із варенням і картопляні латке, грають у дрейдель і дають дітям гроші на Хануку.",
+          "funFacts": [
+            "Ізраїльтяни з’їдають приблизно 20 мільйонів суфганійот кожного сезону Хануки.",
+            "Дрейдели в Ізраїлі несуть літери, що означають \"тут сталося велике диво\", а не \"там\".",
+            "Дев'ята свічка, шамаш, є лише для того, щоб запалити інші.",
+            "Щовечора біля Стіни плачу та на міських площах запалюють величезні публічні ханукії."
+          ]
+        },
+        "purim": {
+          "intro": "Пурім 14 адара, у лютому або березні, є найбільш насиченим днем ​​у єврейському році. Він святкує порятунок перських євреїв від змови Гамана, як розповідається в Книзі Естер.",
+          "history": "Згідно з біблійною історією, цариця Естер та її двоюрідний брат Мордехай зірвали план візира Гамана щодо знищення євреїв Перської імперії. Назва походить від «пур», жеребка, який Гаман кинув, щоб вибрати дату різанини.",
+          "traditions": "Книгу Естер читають вголос, і натовп заглушає ім’я Гамана брязкальцями. Люди одягаються в костюми, обмінюються продуктовими наборами, які називаються мішлоах манот, роздають бідним і їдять трикутний хаманташен. Тель-Авів і Холон проводять вуличні вечірки та великий парад.",
+          "funFacts": [
+            "На івриті випічка називається «озней Гаман», вуха Гамана.",
+            "Єрусалим святкує на день пізніше Шушан Пурім, тому що це місто, оточене муром.",
+            "Традиція каже, що можна пити, поки не вдасться відрізнити «проклятого Гамана» від «благословенного Мордехая».",
+            "Пурім — єдине свято, під час якого єврейський закон заохочує шум у синагозі."
+          ]
+        },
+        "passover": {
+          "intro": "Песах починається 15 нісана в березні або квітні і триває сім днів в Ізраїлі. Він святкує Вихід з Єгипту і є найбільш поширеним єврейським святом.",
+          "history": "Тора розповідає про те, як Бог звільнив ізраїльтян від рабства, і як десята кара «пройшла повз» будинки, помічені кров’ю ягняти. Поспіхом пішовши, люди спекли опрісноки, тому цілий тиждень не їдять квасного.",
+          "traditions": "Першого вечора сім’ї збираються на седер, ритуальну трапезу за порядком, описаним в Агаді, з чотирма чашками вина, гіркими травами, мацою та розповіддю для дітей. В Ізраїлі перший і сьомий дні є державними святами, а пекарні переходять на мацу.",
+          "funFacts": [
+            "Перед святом домівки очищають від усякої крихти хамеца, закваски.",
+            "Діти шукають афікоман, захований шматок маци, і обмінюють його на приз.",
+            "Ізраїльські супермаркети накривають хлібні полиці поліетиленовими листами на тиждень.",
+            "Седер закінчується словами «Наступного року в Єрусалимі», навіть в Єрусалимі."
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "Йом ха-Ацмаут — це День незалежності Ізраїлю, який відзначається 5 іяра в квітні або травні. Він відзначає проголошення Держави Ізраїль 14 травня 1948 року і слідує безпосередньо після Дня пам’яті.",
+          "history": "14 травня 1948 року, за кілька годин до завершення британського мандату, Давид Бен-Гуріон зачитав Декларацію незалежності в Тель-Авівському музеї. Свято закріплене за єврейським календарем і зсувається на день-два, коли наближається до шабату.",
+          "traditions": "День починається напередодні з церемонії запалювання смолоскипів на горі Герцля, яка перетворює траур Йом ха-Зікарон на свято. Ізраїльтяни влаштовують пікнік і барбекю в парках, дивляться показові прольоти військової авіації і феєрверки, а ввечері вручають премію Ізраїлю.",
+          "funFacts": [
+            "Мангал, барбекю на деревному вугіллі, є настільки центральним, що цей день жартома називають Днем барбекю.",
+            "Дванадцять смолоскипів запалені на горі Герцля, по одному для кожного племені Ізраїлю.",
+            "Фінал Міжнародного біблійного конкурсу проходить щороку на День Незалежності.",
+            "Прапори вивішують на автомобілях і балконах за тижні до свята."
+          ]
+        },
+        "shavuot": {
+          "intro": "Шавуот, свято тижнів, припадає на 6 Сиван у травні або червні, після семи тижнів відліку від другого дня Песаха. Це святкування дарування Тори на горі Синай і збору врожаю пшениці.",
+          "history": "Тора описує Шавуот як день перших плодів, коли фермери несли свій урожай до храму в Єрусалимі. Равинська традиція пов’язувала його з одкровенням на Синаї, тому свято поєднує в собі святкування врожаю з народженням Тори.",
+          "traditions": "Молочні страви – це їжа дня: чізкейк, блінці та тістечка з сирною начинкою. Багато хто не спить всю ніч, вивчаючи Тору, а Книгу Рут читають у синагозі. У кібуцах проводять паради перших плодів, а діти вдягаються в біле та носять квіткові вінки.",
+          "funFacts": [
+            "Назва означає «тижні»: від другого дня Песаха відраховують сім тижнів.",
+            "За тиждень до свята Шавуот ізраїльтяни купують більше сиру, ніж будь-якої іншої пори року.",
+            "Цілонічні навчальні сесії закінчуються світанковою молитвою біля Стіни Плачу.",
+            "Фермерські села демонструють трактори, прикрашені фруктами та зерном."
+          ]
+        }
+      },
+      "ja": {
+        "rosh_hashanah": {
+          "intro": "ロシュ・ハシャナはユダヤ人の新年で、9 月または 10 月のティシュレイの月の最初の 2 日に祝われます。それはヨム・キプールで終わる10日間の悔い改めの始まりです。",
+          "history": "律法ではこの日を「角笛を吹き鳴らす日」と呼んでいます。ラビの伝統により、この日は世界創造の記念日であり、神が来年に向けてすべての人を裁く日とされています。ユダヤ年のカウントはここから始まります: 5787 は 2026 年の秋から始まります。",
+          "traditions": "シナゴーグではショファールという雄羊の角が鳴らされます。家族は甘い一年を迎えるためにリンゴを蜂蜜に浸し、丸いチャラーとザクロを食べ、「シャナ・トヴァ」とお互いに挨拶します。タシュリチでは、象徴的に罪を洗い流すために、パン粉が流水に投げ込まれます。",
+          "funFacts": [
+            "丸いチャラは、一年の周期と王の中の王の王冠を象徴しています。",
+            "ザクロには 613 個の種子があり、律法の各戒律に 1 つずつ対応していると言われています。",
+            "礼拝ではショファールを百回ほど吹き鳴らす伝統がありますが、安息日には通常吹きません。",
+            "イスラエル人は、他のどの祭りよりもロシュ・ハシャナーに休日の挨拶を送ります。"
+          ]
+        },
+        "yom_kippur": {
+          "intro": "ヨム・キプール（贖罪の日）は、ユダヤ暦の一年で最も神聖な日です。ロシュ・ハシャナーの始まりから9日後にあたるティシュレイ月10日に、約25時間の断食と祈りで過ごします。",
+          "history": "神殿の時代、大祭司はこの日だけ、人々の罪を償うために至聖所に入りました。神殿が破壊された後は、断食、祈り、告解が犠牲の代わりとなりました。 1973 年のヨムキプール戦争はこの日に始まり、イスラエルの記憶にその地位が深まりました。",
+          "traditions": "断食は日没とともに忘れられないコル・ニドレの祈りで始まり、次の夕方にショファールの一吹きで終わります。多くの人は白い服を着て革靴を避けます。イスラエルでは国全体が静まり返り、交通も放送も店もなく、子供たちは空いている高速道路を自転車に乗っている。",
+          "funFacts": [
+            "イスラエルのテレビ局とラジオ局は一日中放送を停止します。",
+            "誰もいない高速道路が、一日だけ世界最大の自転車遊び場に変わります。",
+            "イスラエルの大気汚染は、休暇中に最大 99 パーセント減少します。",
+            "伝統的な願いは「Gmar chatima tova」です。あなたが命の書に封印されますように。"
+          ]
+        },
+        "sukkot": {
+          "intro": "スコット（仮庵の祭り）は、ヨム・キプールの 5 日後のティシュレイ 15 日に始まり、7 日間続きます。イスラエルでは初日が祝日で、残りはお祭りの半休日となります。",
+          "history": "この祭りは、イスラエル人がエジプト脱出後、砂漠の仮設避難所で過ごした40年間を思い出させます。この日は、人々がエルサレム神殿に向かう 3 つの巡礼祭の 1 つでもあり、秋の収穫期を締めくくる日です。",
+          "traditions": "家族はスッカ（木の枝で屋根をかぶった小屋）を建て、そこで 1 週間食事をし、時には寝ます。祈りの際には、ヤシの葉、ギンバイカ、ヤナギ、シトロンの実エトログの四種を手にして振ります。祭りはシェミニ・アツェレトとシムチャット・トーラーで終わり、トーラーの朗読サイクルが再び始まります。",
+          "funFacts": [
+            "スカはイスラエル全土のバルコニー、屋上、歩道、さらにはレストランの外にも現れます。",
+            "スッカの屋根は星を眺めることができますが、日光よりも日陰を提供する必要があります。",
+            "エトログは非常に注意深く栽培されているため、完璧な果物には数百シェケルの値段がかかることもあります。",
+            "エルサレム行進には、平日に何千人ものイスラエル人とキリスト教徒が訪れます。"
+          ]
+        },
+        "hanukkah": {
+          "intro": "光の祭りであるハヌカは、11 月下旬または 12 月のキスレブ 25 日に始まり、8 日間続きます。イスラエルでは今日は仕事が休みではありませんが、学校は休みになり、街はろうそくの明かりで輝きます。",
+          "history": "マカベア家がセレウコス朝の支配者を破った後、紀元前 164 年に第二神殿が再奉献されたことを記念しています。タルムードによれば、1日分に相当する純粋な油が入った水差し1杯が、新しい油が準備できるまで8日間神殿の枝分かれした燭台の中で燃やされたという。",
+          "traditions": "毎晩、ハヌキアのろうそくにさらに 1 本のろうそくが灯され、8 本が一緒に燃え上がり、その明かりが窓に設置され、全員が見えるようになります。家族は油で揚げた食べ物、とりわけジャム入りのスフガニーヨットやジャガイモのラトケを食べ、ドレイドルで遊び、子供たちにハヌカのお金を渡します。",
+          "funFacts": [
+            "イスラエル人はハヌカの季節ごとに推定 2,000 万スフガニヨトを食べます。",
+            "イスラエルのドライデルには、「そこで」ではなく「ここで大きな奇跡が起こった」という文字が刻まれています。",
+            "9 番目のキャンドルであるシャマッシュは、他のキャンドルに火を灯すためだけにあります。",
+            "嘆きの壁や街の広場では、毎晩巨大な公共のハヌキアが灯されます。"
+          ]
+        },
+        "purim": {
+          "intro": "2 月または 3 月のアダル 14 日のプリムは、ユダヤ人の一年の中で最も活気に満ちた日です。エステル記に書かれているように、ハマンの陰謀からペルシャ系ユダヤ人を救出したことを祝います。",
+          "history": "聖書の物語によると、エステル女王とそのいとこモルデカイは、ペルシア帝国のユダヤ人を滅ぼすという宰相ハマンの計画を阻止しました。名前は、ハマンが虐殺の日付を決めるために投げたくじ「プール」に由来しています。",
+          "traditions": "エステル記が朗読され、群衆はガラガラという音でハマンの名前をかき消します。人々は衣装を着て、ミシュロアハ・マノットと呼ばれる食料の小包を交換し、貧しい人々に施しをし、三角形のハマンタッシェンを食べます。テルアビブとホロンでは、ストリート パーティーや大規模なパレードが開催されます。",
+          "funFacts": [
+            "ヘブライ語でペストリーは「オズネイ・ハマン」、ハマンの耳です。",
+            "エルサレムは城壁に囲まれた都市であるため、その 1 日後のシュシャン プリムを祝います。",
+            "伝統によれば、「呪われたハマン」と「祝福されたモルデカイ」の区別がつかなくなるまで酒を飲んでもよいという。",
+            "プリムは、ユダヤ教の法律によりシナゴーグでの騒音が奨励されている唯一の祭りです。"
+          ]
+        },
+        "passover": {
+          "intro": "過越の祭り（ヘブライ語でペサハ）は、3月または4月のニサン15日に始まり、イスラエルでは7日間続きます。エジプトからの脱出を祝い、最も広く行われているユダヤ人の祭りです。",
+          "history": "律法は、神がどのようにしてイスラエル人を奴隷状態から解放したのか、そしてどのようにして第十の疫病が子羊の血が塗られた家々を「通り過ぎた」のかを語っています。人々は急いで出発し、種なしパンを焼きました。そのため、祭りの期間は発酵させたパンなどを食べず、種なしパンを食べます。",
+          "traditions": "最初の夕方、家族はセーダーに集まり、ハガダに記された順序に従う儀式的な食事として、ワイン 4 杯、苦いハーブ、マッツァ、そして子供たちに語られる物語を楽しみます。イスラエルでは1日目と7日目が祝日なので、パン屋さんはマッツァに切り替わります。",
+          "funFacts": [
+            "祭りの前に、ハメツと呼ばれる発酵させた穀物食品を家から取り除きます。",
+            "子供たちはマツァの隠された部分であるアフィコマンを探し、賞品と交換します。",
+            "イスラエルのスーパーマーケットでは、パンの棚を一週間ビニールシートで覆っています。",
+            "セダーはエルサレムでも「来年はエルサレムで」という言葉で終わっています。"
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "ヨム・ハアツマウート はイスラエルの独立記念日で、4 月または 5 月の イヤール月5日 に祝われます。これは 1948 年 5 月 14 日のイスラエル国家の宣言を記念し、戦没将兵追悼記念日の直後に続きます。",
+          "history": "1948 年 5 月 14 日、イギリスの委任統治が終了する数時間前に、デヴィッド ベングリオンはテルアビブ博物館で独立宣言を読み上げました。祝日はユダヤ暦によって固定されており、安息日の隣になる場合は 1 ～ 2 日ずらされます。",
+          "traditions": "この日は、前日の夕方、ヘルツル山の聖火採火式で始まり、ヨム・ハジカロンの追悼がお祝いに変わります。イスラエル人は公園でピクニックやバーベキューをし、空軍の高空飛行や花火を鑑賞し、夜にはイスラエル賞が授与されます。",
+          "funFacts": [
+            "炭火でバーベキューするマンガルは、冗談めかしてバーベキューの日と呼ばれるほど中心的な行事です。",
+            "ヘルツル山では、イスラエルの十二部族を表す十二本の松明に火が灯されます。",
+            "国際聖書コンテストの決勝戦は毎年独立記念日に開催されます。",
+            "休日の数週間前から車やバルコニーに旗が掲げられます。"
+          ]
+        },
+        "shavuot": {
+          "intro": "週の祝日であるシャブオットは、過越祭の二日目から七週間を数えた後の 5 月または 6 月のシヴァン 6 日に当たります。シナイ山での律法の授与と小麦の収穫を祝います。",
+          "history": "律法ではシャブオットを、農民が収穫物をエルサレムの神殿に運ぶ初穂の日と説明しています。ラビの伝統はそれをシナイでの啓示と結びつけているため、この祭りは収穫のお祝いとトーラーの誕生を組み合わせています。",
+          "traditions": "チーズケーキ、ブリント、チーズ入りのペストリーなど、乳製品を使った料理がその日のおすすめです。多くの人が徹夜で律法を学び、シナゴーグではルツ記が読まれます。キブツでは初穂パレードが行われ、子供たちは白い服を着て花冠をかぶります。",
+          "funFacts": [
+            "名前は「週」を意味します。過越祭の二日目から七週間を数えることに由来します。",
+            "イスラエル人はシャブオットの前の週に、他のどの時期よりも多くのチーズを買います。",
+            "徹夜勉強会は嘆きの壁での夜明けの祈りで終わります。",
+            "果物や穀物で飾られたトラクターが農村をパレードします。"
+          ]
+        }
+      },
+      "ko": {
+        "rosh_hashanah": {
+          "intro": "로쉬 하샤나는 9월이나 10월 티슈레이(Tishrei) 달의 첫 이틀에 기념되는 유대인의 새해입니다. 욤 키푸르(Yom Kippur)로 끝나는 10일간의 회개가 시작됩니다.",
+          "history": "토라는 그 날을 \"나팔을 부는 날\"이라고 부릅니다. 랍비 전통에서는 이 날을 세상 창조의 기념일이자 신이 내년에 모든 사람을 심판하는 날로 삼았습니다. 유대 연도 계산은 여기에서 시작됩니다. 5787년은 2026년 가을에 시작됩니다.",
+          "traditions": "회당에서는 양의 뿔로 만든 쇼파르 소리가 울립니다. 가족들은 달콤한 한 해를 바라며 사과를 꿀에 담그고 둥근 할라와 석류를 먹으며 \"샤나 토바\"로 서로 인사합니다. Tashlich에서는 상징적으로 죄를 흘리기 위해 빵 부스러기를 흐르는 물에 던집니다.",
+          "funFacts": [
+            "둥근 찰라는 한 해의 순환과 만왕의 왕의 왕관을 상징합니다.",
+            "석류 한 알에는 토라의 각 계명에 하나씩 613개의 씨앗이 들어 있다고 합니다.",
+            "예배에서는 쇼파르를 약 100번 부는 전통이 있지만, 안식일에는 보통 불지 않습니다.",
+            "이스라엘인들은 다른 어떤 축제보다 로쉬 하샤나(Rosh Hashanah)에 명절 인사를 더 많이 보냅니다."
+          ]
+        },
+        "yom_kippur": {
+          "intro": "욤 키푸르, 즉 속죄일은 유대력에서 가장 신성한 날입니다. 로쉬 하샤나가 시작된 지 9일 뒤인 티쉬레이월 10일에 해당하며, 약 25시간 동안 금식하고 기도하며 보냅니다.",
+          "history": "성전 시대에는 대제사장이 백성을 속죄하기 위해 이날에만 지성소에 들어갔습니다. 성전이 파괴된 후에는 금식과 기도와 고백이 제사를 대신하게 되었습니다. 1973년 욤 키푸르 전쟁(Yom Kippur War)이 이날 시작되었으며, 이는 이스라엘의 기억 속에 더욱 깊게 자리 잡았습니다.",
+          "traditions": "금식은 해질녘에 잊혀지지 않는 콜 니드레(Kol Nidre) 기도로 시작되고 다음날 저녁 나팔 소리 한 번으로 끝납니다. 많은 사람들이 흰색 옷을 입고 가죽 신발을 피합니다. 이스라엘에서는 온 나라가 조용합니다. 교통도 없고, 방송도 없고, 상점도 없고, 아이들은 텅 빈 고속도로에서 자전거를 타고 있습니다.",
+          "funFacts": [
+            "이스라엘 텔레비전과 라디오 방송국은 하루 종일 방송을 중단합니다.",
+            "텅 빈 고속도로가 하루 동안 세계 최대의 자전거 놀이터로 변합니다.",
+            "이스라엘의 대기 오염은 휴일 동안 최대 99%까지 감소합니다.",
+            "전통적인 소원은 \"Gmar chatima tova\"입니다. 생명책에 인봉되기를 바랍니다."
+          ]
+        },
+        "sukkot": {
+          "intro": "수코트, 즉 초막절은 욤 키푸르(Yom Kippur)로부터 5일 후인 티쉬레이(Tishrei) 15일에 시작하여 7일 동안 지속됩니다. 이스라엘에서는 첫날이 공휴일이고 나머지는 반휴일입니다.",
+          "history": "이 축제는 출애굽 이후 이스라엘 백성들이 사막의 임시 거처에서 보낸 40년을 회상합니다. 예루살렘 성전으로 향하는 3대 순례 축제 중 하나이자 가을 수확기를 마무리하는 축제이기도 합니다.",
+          "traditions": "가족들은 나뭇가지로 지붕을 얹은 오두막인 숙카(sukkah)를 짓고 일주일 동안 그 안에서 먹고 때로는 잠을 잔다. 종려나무 잎, 머틀, 버드나무, 에트로그 유자의 네 가지 종을 흔들며 기도합니다. 축제는 토라 읽기 주기가 다시 시작되는 셰미니 아체레트와 심하트 토라로 끝납니다.",
+          "funFacts": [
+            "Sukkahs는 이스라엘 전역의 발코니, 옥상, 포장 도로, 심지어 레스토랑 외부에도 나타납니다.",
+            "숙카 지붕은 별을 볼 수 있어야 하지만 햇빛보다 더 많은 그늘을 제공해야 합니다.",
+            "에트로그는 너무 조심스럽게 재배되기 때문에 완벽한 과일을 만드는 데 수백 셰켈이 들 수도 있습니다.",
+            "예루살렘 행진에는 주중에 수천 명의 이스라엘인과 기독교인 방문객이 모였습니다."
+          ]
+        },
+        "hanukkah": {
+          "intro": "빛의 축제인 하누카는 11월 말 또는 12월 키슬레브월 25일에 시작하여 8일간 지속됩니다. 이스라엘에서는 쉬는 날이 아니지만 학교는 문을 닫고 도시는 촛불로 빛납니다.",
+          "history": "마카비 왕조가 셀레우코스 왕조를 물리친 후 기원전 164년에 두 번째 성전을 재헌납한 것을 기념합니다. 탈무드에 따르면 하루 분량의 순수한 기름 한 병을 새 기름이 준비될 때까지 성전 메노라에서 8일 동안 태웠습니다.",
+          "traditions": "매일 저녁 하누키아에 촛불 하나를 더 켜서 8개가 함께 타오르게 하고, 모든 사람이 볼 수 있도록 창문에 조명을 설치합니다. 가족들은 기름에 튀긴 음식, 무엇보다도 잼이 가득한 수프가니요트와 감자전 라트케를 먹고, 드레이델 팽이놀이를 하고 아이들에게 하누카 돈을 줍니다.",
+          "funFacts": [
+            "이스라엘인들은 하누카 시즌마다 약 2천만 수프가니요트를 먹습니다.",
+            "이스라엘의 드레이델(Dreidels)은 '저기'가 아닌 '여기서 큰 기적이 일어났다'라는 글자를 가지고 다닙니다.",
+            "아홉 번째 양초인 샤마시는 다른 양초를 밝히기 위해 존재합니다.",
+            "통곡의 벽과 도시 광장에서는 매일 밤 거대한 공개 하누키아가 켜집니다."
+          ]
+        },
+        "purim": {
+          "intro": "2월이나 3월 아다르 14일의 부림절은 유대력 중 가장 활기 넘치는 날입니다. 에스더서에 나오는 하만의 음모에서 바사 유대인들을 구출한 것을 기념하는 날입니다.",
+          "history": "성경 이야기에 따르면, 에스더 왕후와 그녀의 사촌 모르드개는 페르시아 제국의 유대인들을 멸망시키려는 고관 하만의 계획을 좌절시켰습니다. 이름은 하만이 학살 날짜를 선택하기 위해 뽑은 제비인 \"푸르\"에서 유래되었습니다.",
+          "traditions": "에스더서를 큰 소리로 낭독하고 군중은 딸랑이 소리를 내며 하만의 이름을 지워버립니다. 사람들은 의상을 차려입고, 미슐로아흐 마노트(mishloach manot)라고 불리는 음식 꾸러미를 교환하고, 가난한 사람들에게 나눠주고, 삼각형의 하만타셴(hamantaschen)을 먹습니다. 텔아비브와 홀론에서는 거리 파티와 대규모 퍼레이드가 열립니다.",
+          "funFacts": [
+            "히브리어로 페이스트리는 \"oznei Haman\", 즉 하만의 귀입니다.",
+            "예루살렘은 성벽으로 둘러싸인 도시이기 때문에 하루 후인 슈산 푸림(Shushan Purim)을 기념합니다.",
+            "전통에 따르면 \"저주받은 하만\"과 \"축복받은 모르드개\"를 구별할 수 없을 때까지 술을 마셔야 합니다.",
+            "부림절은 유대인 율법에 따라 회당에서 소음을 장려하는 유일한 축제입니다."
+          ]
+        },
+        "passover": {
+          "intro": "히브리어로 유월절(Pesach)은 3월이나 4월 니산월 15일에 시작하여 이스라엘에서 7일 동안 지속됩니다. 이는 이집트 탈출을 기념하는 날로, 가장 널리 지켜지는 유대인 축제입니다.",
+          "history": "토라는 하나님께서 어떻게 이스라엘 백성들을 노예 생활에서 해방시키셨는지, 그리고 어떻게 열 번째 재앙이 양의 피가 묻은 집들을 \"넘어갔는지\"를 알려줍니다. 서둘러 떠난 사람들은 누룩 없는 빵을 구웠기 때문에 일주일 내내 누룩 있는 음식을 먹지 않았습니다.",
+          "traditions": "첫날 저녁에는 가족들이 모여 하가다(Haggadah)에 적힌 순서에 따라 네 잔의 포도주, 쓴 나물, 무교병 마차와 함께 의식 식사를 하고 아이들을 위해 이야기를 들려주는 세데르(seder)를 위해 모입니다. 이스라엘에서는 첫째 날과 일곱째 날이 공휴일이므로 빵집에서는 마차로 바꿉니다.",
+          "funFacts": [
+            "축제가 시작되기 전에 집에서는 누룩이 들어간 음식인 차메츠 부스러기를 모두 청소합니다.",
+            "아이들은 숨겨진 마차 조각인 아피코만을 찾아 상품과 교환합니다.",
+            "이스라엘 슈퍼마켓은 일주일 동안 빵 진열대를 플라스틱 시트로 덮습니다.",
+            "유월절은 예루살렘에서도 \"내년에는 예루살렘에서\"라는 말로 끝납니다."
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "욤 하아츠마우트는 유대력 이야르월 5일 무렵, 보통 4월이나 5월에 지내는 이스라엘 독립기념일입니다. 1948년 5월 14일의 독립 선언을 기념하며, 현충일 바로 다음에 이어집니다.",
+          "history": "영국 위임 통치가 끝나기 몇 시간 전인 1948년 5월 14일, 데이비드 벤 구리온(David Ben-Gurion)은 텔아비브 박물관에서 독립 선언문을 낭독했습니다. 이 휴일은 히브리 달력으로 정해져 있으며 안식일과 추모일의 관계를 고려해 앞당기거나 늦추기도 합니다.",
+          "traditions": "하루는 전날 저녁 헤르츨 산에서 횃불 점화식으로 시작되며, 이는 욤 하지카론의 애도를 축하로 바꿉니다. 이스라엘 사람들은 공원에서 피크닉과 바비큐를 하고, 공군 비행과 불꽃놀이를 관람하고, 저녁에는 이스라엘 상이 수여됩니다.",
+          "funFacts": [
+            "숯불바비큐인 망갈이 중심이 되어 이 날은 농담으로 바비큐데이(Barbecue Day)라고도 불린다.",
+            "헤르츨산에는 이스라엘 각 지파마다 하나씩 12개의 횃불이 켜집니다.",
+            "국제성경대회 결승전은 매년 독립기념일에 열립니다.",
+            "휴일이 시작되기 몇 주 전에 자동차와 발코니에 깃발이 게양됩니다."
+          ]
+        },
+        "shavuot": {
+          "intro": "칠칠절인 샤부옷은 유월절 둘째 날부터 일곱 주를 센 뒤인 5월이나 6월 시완월 6일에 해당됩니다. 시내산에서 토라를 주신 것과 밀 수확을 기념하는 날입니다.",
+          "history": "토라는 오순절을 농부들이 수확물을 예루살렘 성전으로 가져가는 첫 열매의 날로 묘사합니다. 랍비 전통은 그것을 시내산의 계시와 연결시켰기 때문에 이 축제는 추수 축하 행사와 토라의 탄생을 결합한 것입니다.",
+          "traditions": "오늘의 음식은 치즈케이크, 블린츠, 치즈를 채운 페이스트리 등 유제품 요리입니다. 많은 사람들이 밤새도록 토라를 공부하고, 회당에서는 룻기를 읽습니다. 키부츠에서는 첫 열매 퍼레이드가 열리며 어린이들은 흰옷을 입고 꽃관을 씁니다.",
+          "funFacts": [
+            "이름은 ‘주들’을 뜻하며, 유월절 둘째 날부터 일곱 주를 세는 데서 유래합니다.",
+            "이스라엘인들은 일년 중 다른 어느 때보다 샤부오트 전 주에 더 많은 치즈를 구입합니다.",
+            "철야공부는 통곡의 벽 새벽기도로 마무리됩니다.",
+            "농촌에서는 과일과 곡식으로 장식한 트랙터가 퍼레이드를 벌인다."
+          ]
+        }
+      },
+      "zh-Hant": {
+        "rosh_hashanah": {
+          "intro": "猶太新年（Rosh Hashanah），在九月或十月的提斯利月的前兩天慶祝。它開啟了以贖罪日結束的十天悔改。",
+          "history": "《妥拉》稱這一天為「吹角日」。拉比傳統將這一天定為創世週年紀念日，也是上帝在來年審判每個人的日子。猶太年份計數從這裡開始：5787 從 2026 年秋季開始。",
+          "traditions": "猶太教堂裡吹響了羊角號。家人吃蘋果蘸蜂蜜，祈求甜蜜的新年，吃圓形的白麵包和石榴，並用“Shana tova”互相問候。在塔什利奇，麵包屑被投入流水中，象徵懺悔罪孽。",
+          "funFacts": [
+            "圓形的白麵包象徵著一年的循環和萬王之王的王冠。",
+            "據說，一顆石榴含有 613 粒種子，每粒種子代表《妥拉》中的每條誡命。",
+            "依傳統，禮拜中會吹響約100聲羊角號；若逢安息日，通常不吹號。",
+            "以色列人對猶太新年的節日問候比其他任何節日都多。"
+          ]
+        },
+        "yom_kippur": {
+          "intro": "贖罪日是猶太曆一年中最神聖的日子，落在提市利月10日，也就是猶太新年開始後九天，人們以約25小時的禁食與祈禱度過。",
+          "history": "在聖殿時代，大祭司只在這一天進入至聖所為人贖罪。聖殿被毀後，禁食、祈禱和告解取代了獻祭。 1973 年的贖罪日戰爭從這一天開始，加深了以色列記憶中的地位。",
+          "traditions": "齋戒在日落時以令人難忘的 Kol Nidre 祈禱開始，並在第二天晚上以一聲號角聲結束。許多人穿白色衣服，避免穿皮鞋。在以色列，整個國家一片寂靜：沒有交通，沒有廣播，沒有商店，孩子們在空蕩蕩的高速公路上騎自行車。",
+          "funFacts": [
+            "以色列電視台和廣播電台全天停播。",
+            "空曠的高速公路有一天會變成世界上最大的自行車遊樂場。",
+            "假期期間，以色列的空氣污染下降了高達 99%。",
+            "傳統的願望是「Gmar chatima tova」：願你被封印在生命之書中。"
+          ]
+        },
+        "sukkot": {
+          "intro": "住棚節（Sukkot），於贖罪日五天後的提斯利月十五日開始，持續七天。在以色列，第一天是公共假期，其餘的都是節日半假。",
+          "history": "這個節日讓人回想起以色列人出埃及後在沙漠臨時避難所度過的四十年。這也是人們前往耶路撒冷聖殿的三個朝聖節日之一，它結束了秋季收穫季節。",
+          "traditions": "家庭建造一個住棚，一個用樹枝搭建屋頂的小屋，在裡面吃飯，有時睡覺，持續一周。棕櫚葉、香桃木、柳樹和香櫞這四種植物在祈禱中揮舞著。節日以 第八日嚴肅會（Shemini Atzeret）與妥拉歡慶節（Simchat Torah） 結束，此時托拉閱讀週期再次開始。",
+          "funFacts": [
+            "住棚屋出現在以色列各地的陽台、屋頂和人行道上，甚至在餐廳外面。",
+            "住棚屋頂必須讓您看到星星，但提供比陽光更多的陰影。",
+            "etrog 的種植非常仔細，以至於一個完美的水果可能要花費數百謝克爾。",
+            "耶路撒冷遊行在一周內吸引了數千名以色列人和基督徒遊客。"
+          ]
+        },
+        "hanukkah": {
+          "intro": "光明節（Hanukkah），於 11 月下旬或 12 月的基斯列夫 25 日開始，持續八天。在以色列，這不是休息日，但學校關閉，城市裡燭光閃爍。",
+          "history": "它紀念公元前 164 年馬卡比擊敗塞琉古統治者後重新落成的第二聖殿。根據《塔木德》記載，一壺足夠一天使用的純油在聖殿燭台上燃燒八天，直到準備好新的油。",
+          "traditions": "每天晚上，家人在光明節燭台上多點一支蠟燭，直到八支全亮，並把燭台放在窗邊。節慶食物以油炸為特色，包括果醬甜甜圈和馬鈴薯餅。大家也會玩字母陀螺，並送給孩子節慶禮金。",
+          "funFacts": [
+            "以色列人每個光明節季節估計要吃 2000 萬個 sufganiyot。",
+            "以色列的陀螺上寫著“這裡發生了偉大的奇蹟”，而不是“那裡”。",
+            "第九根蠟燭，shamash，只是用來點燃其他蠟燭的。",
+            "光明節期間，西牆與各城市廣場的大型燭台會舉行公開點燭儀式。"
+          ]
+        },
+        "purim": {
+          "intro": "亞達月十四日的普珥節，二月或三月，是猶太年中最熱鬧的一天。它慶祝《以斯帖記》中記載的波斯猶太人從哈曼的陰謀中被拯救出來。",
+          "history": "根據聖經故事，以斯帖王后和她的堂親末底改挫敗了大臣哈曼消滅波斯帝國猶太人的計劃。這個名字來自“pur”，哈曼為選擇大屠殺日期而抽籤。",
+          "traditions": "《以斯帖記》被大聲朗讀，人群發出的嘎嘎聲蓋過了哈曼的名字。人們穿上盛裝，交換被稱為「mishloach manot」的食物包，施捨給窮人，並吃三角形的hamantaschen。特拉維夫和霍隆舉辦街頭派對和大型遊行。",
+          "funFacts": [
+            "在希伯來語中，糕點是“oznei Haman”，即哈曼的耳朵。",
+            "耶路撒冷在一天後慶祝書山普珥節，因為它是一個有城牆的城市。",
+            "傳統說，人們可能會喝酒，直到無法區分「被詛咒的哈曼」和「受祝福的莫迪凱」。",
+            "普珥節是猶太法律鼓勵在猶太教堂裡喧鬧的唯一節日。"
+          ]
+        },
+        "passover": {
+          "intro": "逾越節（希伯來文為 Pesach）在以色列於 3 月或 4 月的尼散月 15 日開始，持續 7 天。它慶祝出埃及，是最廣泛遵守的猶太節日。",
+          "history": "《妥拉》講述上帝如何解救受奴役的以色列人，以及第十災如何「越過」門框塗有羔羊血的房屋。人們匆忙離開，麵團來不及發酵；節日期間吃無酵餅，並避免食用「chametz」，即特定穀物製成的發酵食品。",
+          "traditions": "第一晚，家人按照《哈加達》的次序舉行逾越節家宴，喝四杯酒、吃苦菜和無酵餅，並向孩子重述出埃及的故事。在以色列，第一天和第七天是公共假日，許多商店與餐飲業者供應符合逾越節飲食規範的食品。",
+          "funFacts": [
+            "節日前，家庭會清除「chametz」，包括以特定穀物製成的發酵麵包等食品。",
+            "孩子們尋找 afikoman（一塊隱藏的無酵餅），並用它換取獎品。",
+            "以色列超市本週用塑膠布覆蓋麵包架。",
+            "家宴以「明年在耶路撒冷」結束，即使在耶路撒冷。"
+          ]
+        },
+        "yom_haatzmaut": {
+          "intro": "以色列獨立日（Yom HaAtzmaut）的曆定日期是希伯來曆以珥月5日，約在公曆四月或五月，紀念1948年5月14日宣布建國。實際日期有時會調整，前一天則是陣亡將士紀念日。",
+          "history": "1948年5月14日，英國託管結束前數小時，大衛·本-古里安在特拉維夫博物館宣讀《獨立宣言》。紀念日期按希伯來曆計算，並可能為避免與安息日衝突而提前或延後。",
+          "traditions": "這一天從前一天晚上在赫茨爾山舉行的點燃火炬儀式開始，這將陣亡將士紀念日的哀悼變成了慶祝。以色列人在公園野餐、燒烤，觀賞空軍飛越表演和煙火，晚上頒發以色列獎。",
+          "funFacts": [
+            "mangal（木炭燒烤）是如此重要，以至於這一天被戲稱為燒烤日。",
+            "赫茲爾山上點燃了十二支火把，每個以色列部落一支。",
+            "國際聖經大賽決賽於每年的獨立日舉行。",
+            "節前幾週，汽車和陽台上都會升起旗幟。"
+          ]
+        },
+        "shavuot": {
+          "intro": "七七節（Shavuot）在希伯來曆西彎月6日慶祝，約在公曆五月或六月。從逾越節第二天起算滿七週後迎來這一天，紀念西奈山頒授妥拉，也慶祝小麥豐收。",
+          "history": "《妥拉》將五旬節描述為初熟果子的日子，農民將收成帶到耶路撒冷的聖殿。拉比傳統將其與西奈山的啟示聯繫起來，因此這個節日將豐收慶典與托拉的誕生結合在一起。",
+          "traditions": "乳製品是當天的主食：起司蛋糕、薄餅和起司糕點。許多人徹夜不眠地學習妥拉，猶太教堂裡也有人朗誦《路得記》。基布茲舉行初熟成果遊行，孩子們穿著白衣、戴上鮮花花環。",
+          "funFacts": [
+            "這個名字的意思是“週”，因為七週是從逾越節算起的。",
+            "以色列人在五旬節前一周購買的起司比一年中任何其他時間都多。",
+            "通宵學習課程以西牆的黎明祈禱結束。",
+            "農村拖拉機遊行，裝飾著水果和穀物。"
+          ]
+        }
+      }
+    }
+  },
+  "images": {
+    "rosh_hashanah": [
+      {
+        "path": "images/IL/rosh_hashanah/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/IL/rosh_hashanah/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "yom_kippur": [
+      {
+        "path": "images/IL/yom_kippur/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/IL/yom_kippur/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/IL/yom_kippur/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "sukkot": [
+      {
+        "path": "images/IL/sukkot/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/IL/sukkot/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/IL/sukkot/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "hanukkah": [
+      {
+        "path": "images/IL/hanukkah/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/IL/hanukkah/02.jpg",
+        "primary": false,
+        "credit": "HaJunkiyada",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "purim": [
+      {
+        "path": "images/IL/purim/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/IL/purim/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/IL/purim/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "passover": [
+      {
+        "path": "images/IL/passover/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/IL/passover/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/IL/passover/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "yom_haatzmaut": [
+      {
+        "path": "images/IL/yom_haatzmaut/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      }
+    ],
+    "shavuot": [
+      {
+        "path": "images/IL/shavuot/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/IL/shavuot/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/IL/shavuot/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ]
+  },
+  "version": 18
+}

@@ -11,7 +11,7 @@ const images=Object.fromEntries(rows.map(({definition,meta})=>{
   const motif=meta.topic==='memorial'?'candle':/teacher|education|literacy|science|culture|reformation/.test(definition.id)?'books':'flowers';
   const image=imageCatalog[motif];
   assert.equal(image.license,'CC0');
-  return [definition.labelKey.slice(9),[{path:image.path,license:image.license,credit:image.author+' · CC0',primary:true}]];
+  return [definition.labelKey.slice(9),[{path:image.path,license:image.license,credit:image.author+' · CC0',sourceUrl:image.source,primary:true}]];
 }));
 const definitions=rows.map(r=>r.definition),memorial=Object.fromEntries(rows.map(r=>[r.definition.id,r.meta]));
 assert.equal(new Set(definitions.map(d=>d.id)).size,definitions.length);

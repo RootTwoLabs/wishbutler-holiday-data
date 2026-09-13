@@ -9,6 +9,11 @@
  * <dir> relativ zu data/images, z. B. `IL/rosh_hashanah` oder `pentecost`.
  * Die Attributionszeilen in CREDITS.md (Pfad -> Credit) werden mit umbenannt
  * bzw. entfernt, damit build-articles.mjs die richtigen Credits zuordnet.
+ *
+ * Thumbnail-Sidecars (`NN.thumb.jpg`, s. build-thumbnails.mjs) werden von
+ * promote/drop nicht mitgezaehlt (Filter `^\d\d\.jpg$`). Nach dem Umbenennen
+ * passen sie aber nicht mehr zu ihren Originalen, daher werden alle Thumbs des
+ * Ordners geloescht — anschliessend `npm run build:thumbnails -- <dir>` laufen lassen.
  */
 import { readFile, writeFile, rename, unlink, readdir } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
@@ -57,6 +62,13 @@ if (cmd === 'promote') {
     setCredit(rel(name(i - 1)), line ? line.replace(rel(name(i)), rel(name(i - 1))) : null);
   }
   console.log(`${dir}: ${name(n)} geloescht`);
+}
+
+// Veraltete Thumbs entsorgen: nach promote/drop stimmt die NN-Zuordnung nicht mehr.
+const staleThumbs = (await readdir(abs)).filter((f) => /\.thumb\.jpe?g$/i.test(f));
+for (const f of staleThumbs) await unlink(join(abs, f));
+if (staleThumbs.length > 0) {
+  console.log(`${dir}: ${staleThumbs.length} Thumbnail(s) geloescht — jetzt \`npm run build:thumbnails -- ${dir}\` ausfuehren`);
 }
 
 // Credit-Block sortiert halten (wie fetch-images.mjs ihn schreibt).

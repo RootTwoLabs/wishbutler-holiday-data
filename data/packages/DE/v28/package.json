@@ -251,6 +251,19 @@
         "month": 12,
         "day": 26
       }
+    },
+    {
+      "id": "DE_75th_anniversary_of_the_uprising_of_june_17_1953",
+      "countryCode": "DE",
+      "kind": "fixed",
+      "labelKey": "holidays.75th_anniversary_of_the_uprising_of_june_17_1953",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 17
+      }
     }
   ],
   "namedays": {
@@ -6388,12 +6401,14 @@
       {
         "path": "images/DE/world_childrens_day/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Shamrock23",
+        "license": "CC BY-SA 3.0"
       },
       {
         "path": "images/DE/world_childrens_day/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Avis19871",
+        "license": "CC BY-SA 4.0"
       }
     ],
     "german_unity_day": [

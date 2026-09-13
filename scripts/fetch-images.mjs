@@ -107,7 +107,9 @@ function imageRelPath(slug, countryCode, file) {
 async function listExistingJpegs(dir) {
   if (!existsSync(dir)) return [];
   const entries = await readdir(dir);
-  return entries.filter((f) => /\.jpe?g$/i.test(f)).sort();
+  // `NN.thumb.jpg`-Sidecars (build-thumbnails.mjs) zaehlen nicht als Bild —
+  // sonst wuerden sie im Skip-Pfad als Paket-Refs zurueckgegeben.
+  return entries.filter((f) => /\.jpe?g$/i.test(f) && !/\.thumb\.jpe?g$/i.test(f)).sort();
 }
 
 async function searchCommonsTitles(term, limit = 12) {
@@ -365,6 +367,7 @@ async function fetchTarget(target) {
         cc0: c.cc0,
         bytes,
         title: c.title,
+        sourceUrl: c.descriptionurl || '',
       });
       console.log(
         `  ${label}/${file}: ${c.license.padEnd(16)} ${(bytes / 1024).toFixed(0)} KB`,
@@ -402,7 +405,9 @@ async function updateCredits(allSaved) {
   for (const item of allSaved) {
     if (item.skipped) continue;
     if (!needsCredit(item.license)) continue;
-    preserved.set(item.path, `- \`${item.path}\` — ${item.credit} (${item.license})`);
+    // Quell-URL (Commons-Dateiseite) hinten anhängen, s. imageCredits.mjs.
+    const source = /^https?:\/\/\S+$/.test(item.sourceUrl ?? '') ? ` — <${item.sourceUrl}>` : '';
+    preserved.set(item.path, `- \`${item.path}\` — ${item.credit} (${item.license})${source}`);
   }
 
   const lines = [...preserved.entries()].sort((a, b) => a[0].localeCompare(b[0])).map((e) => e[1]);

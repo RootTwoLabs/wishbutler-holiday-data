@@ -245,16 +245,14 @@
     {
       "id": "ES_santiago_apostol",
       "countryCode": "ES",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.santiago_apostol",
       "iconName": "event",
       "category": "public",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "07-25",
-          "2027": "07-25"
-        }
+        "type": "fixed",
+        "month": 7,
+        "day": 25
       }
     },
     {
@@ -5245,17 +5243,20 @@
       {
         "path": "images/ES/national_day_of_spain/01.jpg",
         "primary": true,
-        "license": "CC0"
+        "credit": "Barcex",
+        "license": "CC BY-SA 3.0"
       },
       {
         "path": "images/ES/national_day_of_spain/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Draceane",
+        "license": "CC BY-SA 4.0"
       },
       {
         "path": "images/ES/national_day_of_spain/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Draceane",
+        "license": "CC BY-SA 4.0"
       }
     ],
     "all_saints_day": [
@@ -5289,7 +5290,8 @@
       {
         "path": "images/ES/constitution_day/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "User:Error",
+        "license": "CC BY-SA 3.0"
       }
     ],
     "immaculate_conception": [

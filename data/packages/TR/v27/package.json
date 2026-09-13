@@ -18,43 +18,40 @@
     {
       "id": "TR_eid_al_fitr_first_day",
       "countryCode": "TR",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.eid_al_fitr_first_day",
       "iconName": "event",
       "category": "public",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "03-20"
-        }
+        "type": "fixed",
+        "month": 3,
+        "day": 20
       }
     },
     {
       "id": "TR_eid_al_fitr_second_day",
       "countryCode": "TR",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.eid_al_fitr_second_day",
       "iconName": "event",
       "category": "public",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "03-21"
-        }
+        "type": "fixed",
+        "month": 3,
+        "day": 21
       }
     },
     {
       "id": "TR_eid_al_fitr_third_day",
       "countryCode": "TR",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.eid_al_fitr_third_day",
       "iconName": "event",
       "category": "public",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "03-22"
-        }
+        "type": "fixed",
+        "month": 3,
+        "day": 22
       }
     },
     {
@@ -99,57 +96,53 @@
     {
       "id": "TR_eid_al_adha_first_day",
       "countryCode": "TR",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.eid_al_adha_first_day",
       "iconName": "event",
       "category": "public",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "05-27"
-        }
+        "type": "fixed",
+        "month": 5,
+        "day": 27
       }
     },
     {
       "id": "TR_eid_al_adha_second_day",
       "countryCode": "TR",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.eid_al_adha_second_day",
       "iconName": "event",
       "category": "public",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "05-28"
-        }
+        "type": "fixed",
+        "month": 5,
+        "day": 28
       }
     },
     {
       "id": "TR_eid_al_adha_third_day",
       "countryCode": "TR",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.eid_al_adha_third_day",
       "iconName": "event",
       "category": "public",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "05-29"
-        }
+        "type": "fixed",
+        "month": 5,
+        "day": 29
       }
     },
     {
       "id": "TR_eid_al_adha_fourth_day",
       "countryCode": "TR",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.eid_al_adha_fourth_day",
       "iconName": "event",
       "category": "public",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "05-30"
-        }
+        "type": "fixed",
+        "month": 5,
+        "day": 30
       }
     },
     {
@@ -4712,51 +4705,60 @@
       {
         "path": "images/TR/eid_al_fitr_first_day/01.jpg",
         "primary": true,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       },
       {
         "path": "images/TR/eid_al_fitr_first_day/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       },
       {
         "path": "images/TR/eid_al_fitr_first_day/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       }
     ],
     "eid_al_fitr_second_day": [
       {
         "path": "images/TR/eid_al_fitr_first_day/01.jpg",
         "primary": true,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       },
       {
         "path": "images/TR/eid_al_fitr_first_day/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       },
       {
         "path": "images/TR/eid_al_fitr_first_day/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       }
     ],
     "eid_al_fitr_third_day": [
       {
         "path": "images/TR/eid_al_fitr_first_day/01.jpg",
         "primary": true,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       },
       {
         "path": "images/TR/eid_al_fitr_first_day/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       },
       {
         "path": "images/TR/eid_al_fitr_first_day/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       }
     ],
     "national_independence_childrens_day": [
@@ -4792,7 +4794,8 @@
       {
         "path": "images/TR/ataturk_commemoration_youth_day/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "𐰇𐱅𐰚𐰤",
+        "license": "CC BY-SA 4.0"
       }
     ],
     "eid_al_adha_first_day": [
@@ -4861,58 +4864,68 @@
       {
         "path": "images/TR/republic_day/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "longuner",
+        "license": "CC BY-SA 3.0"
       }
     ],
     "eid_al_fitr_first_day_tentative_date": [
       {
         "path": "images/TR/eid_al_fitr_first_day/01.jpg",
         "primary": true,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       },
       {
         "path": "images/TR/eid_al_fitr_first_day/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       },
       {
         "path": "images/TR/eid_al_fitr_first_day/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       }
     ],
     "eid_al_fitr_second_day_tentative_date": [
       {
         "path": "images/TR/eid_al_fitr_first_day/01.jpg",
         "primary": true,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       },
       {
         "path": "images/TR/eid_al_fitr_first_day/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       },
       {
         "path": "images/TR/eid_al_fitr_first_day/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       }
     ],
     "eid_al_fitr_third_day_tentative_date": [
       {
         "path": "images/TR/eid_al_fitr_first_day/01.jpg",
         "primary": true,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       },
       {
         "path": "images/TR/eid_al_fitr_first_day/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       },
       {
         "path": "images/TR/eid_al_fitr_first_day/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "James Gordon from Los Angeles, California, USA",
+        "license": "CC BY 2.0"
       }
     ],
     "eid_al_adha_first_day_tentative_date": [

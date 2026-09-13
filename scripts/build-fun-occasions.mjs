@@ -18,7 +18,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { loadFunDays, validateFunDays, buildFunPackage, FUN_COUNTRY_CODE } from './lib/funDays.mjs';
 import { buildImageRefs } from './lib/contentLoader.mjs';
-import { loadCreditHints, decorateImageRef } from './lib/imageCredits.mjs';
+import { loadCreditHints, decorateImageRef, commonsFileUrl } from './lib/imageCredits.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -105,7 +105,13 @@ async function main() {
   for (const d of data.days) {
     const refs = await buildImageRefs(DATA, d.slug, FUN_COUNTRY_CODE);
     // Spec: genau ein Bild pro kuriosem Feiertag — überzählige Dateien im Ordner ignorieren.
-    imageRefs[d.slug] = refs.slice(0, 1).map((ref) => decorateImageRef(ref, creditHints));
+    // Quell-URL: der kuratierte Commons-Titel (`imageFile`) ist die Wahrheit,
+    // CREDITS.md nur Fallback (ältere Zeilen tragen keine URL).
+    const curatedUrl = commonsFileUrl(d.imageFile);
+    imageRefs[d.slug] = refs.slice(0, 1).map((ref) => {
+      const decorated = decorateImageRef(ref, creditHints);
+      return curatedUrl ? { ...decorated, sourceUrl: curatedUrl } : decorated;
+    });
   }
 
   const candidate = buildFunPackage(data, { version: forced ?? prev ?? 1, imageRefs });

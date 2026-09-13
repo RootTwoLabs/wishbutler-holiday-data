@@ -100,15 +100,14 @@
     {
       "id": "EG_eid_al_adha",
       "countryCode": "EG",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.eid_al_adha",
       "iconName": "event",
       "category": "public",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "05-27"
-        }
+        "type": "fixed",
+        "month": 5,
+        "day": 27
       }
     },
     {
@@ -167,15 +166,14 @@
     {
       "id": "EG_prophet_muhammads_birthday",
       "countryCode": "EG",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.prophet_muhammads_birthday",
       "iconName": "event",
       "category": "public",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "08-26"
-        }
+        "type": "fixed",
+        "month": 8,
+        "day": 26
       }
     },
     {
@@ -2805,19 +2803,22 @@
       {
         "path": "images/EG/easter_monday_eg/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Faris knight",
+        "license": "CC BY-SA 4.0"
       },
       {
         "path": "images/EG/easter_monday_eg/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Faris knight",
+        "license": "CC BY-SA 3.0"
       }
     ],
     "sinai_liberation_day": [
       {
         "path": "images/EG/sinai_liberation_day/01.jpg",
         "primary": true,
-        "license": "CC0"
+        "credit": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0"
       },
       {
         "path": "images/EG/sinai_liberation_day/02.jpg",
@@ -2868,12 +2869,14 @@
       {
         "path": "images/EG/islamic_new_year/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Maro tharwat",
+        "license": "CC BY-SA 3.0"
       },
       {
         "path": "images/EG/islamic_new_year/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Zeynel Cebeci Meoin Motlagh Gabby Canonizado from Dubai, United Arab Emirates Rhmtdns Miansari66 Guillaume Paumier JeanHavoc",
+        "license": "CC BY-SA 3.0"
       }
     ],
     "june_30_revolution": [

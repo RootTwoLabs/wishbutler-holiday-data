@@ -1,0 +1,1818 @@
+{
+  "countryCode": "JP",
+  "schemaVersion": 1,
+  "definitions": [
+    {
+      "id": "JP_new_years_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.new_years_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "01-01",
+          "2027": "01-01",
+          "2028": "01-01",
+          "2029": "01-01",
+          "2030": "01-01",
+          "2031": "01-01",
+          "2032": "01-01",
+          "2033": "01-01",
+          "2034": "01-02",
+          "2035": "01-01"
+        }
+      }
+    },
+    {
+      "id": "JP_coming_of_age_day",
+      "countryCode": "JP",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.coming_of_age_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 1,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "JP_foundation_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.foundation_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-11",
+          "2027": "02-11",
+          "2028": "02-11",
+          "2029": "02-12",
+          "2030": "02-11",
+          "2031": "02-11",
+          "2032": "02-11",
+          "2033": "02-11",
+          "2034": "02-11",
+          "2035": "02-12"
+        }
+      }
+    },
+    {
+      "id": "JP_the_emperors_birthday",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.the_emperors_birthday",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "02-23",
+          "2027": "02-23",
+          "2028": "02-23",
+          "2029": "02-23",
+          "2030": "02-23",
+          "2031": "02-24",
+          "2032": "02-23",
+          "2033": "02-23",
+          "2034": "02-23",
+          "2035": "02-23"
+        }
+      }
+    },
+    {
+      "id": "JP_vernal_equinox_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.vernal_equinox_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "03-20",
+          "2027": "03-21",
+          "2028": "03-20",
+          "2029": "03-20",
+          "2030": "03-20",
+          "2031": "03-21",
+          "2032": "03-20",
+          "2033": "03-20",
+          "2034": "03-20",
+          "2035": "03-21"
+        }
+      }
+    },
+    {
+      "id": "JP_showa_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.showa_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-29",
+          "2027": "04-29",
+          "2028": "04-29",
+          "2029": "04-30",
+          "2030": "04-29",
+          "2031": "04-29",
+          "2032": "04-29",
+          "2033": "04-29",
+          "2034": "04-29",
+          "2035": "04-30"
+        }
+      }
+    },
+    {
+      "id": "JP_constitution_memorial_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.constitution_memorial_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-06",
+          "2027": "05-03",
+          "2028": "05-03",
+          "2029": "05-03",
+          "2030": "05-03",
+          "2031": "05-03",
+          "2032": "05-03",
+          "2033": "05-03",
+          "2034": "05-03",
+          "2035": "05-03"
+        }
+      }
+    },
+    {
+      "id": "JP_greenery_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.greenery_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-04",
+          "2027": "05-04",
+          "2028": "05-04",
+          "2029": "05-04",
+          "2030": "05-04",
+          "2031": "05-06",
+          "2032": "05-04",
+          "2033": "05-04",
+          "2034": "05-04",
+          "2035": "05-04"
+        }
+      }
+    },
+    {
+      "id": "JP_childrens_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.childrens_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "05-05",
+          "2027": "05-05",
+          "2028": "05-05",
+          "2029": "05-05",
+          "2030": "05-06",
+          "2031": "05-05",
+          "2032": "05-05",
+          "2033": "05-05",
+          "2034": "05-05",
+          "2035": "05-05"
+        }
+      }
+    },
+    {
+      "id": "JP_marine_day",
+      "countryCode": "JP",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.marine_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 7,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "JP_mountain_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.mountain_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "08-11",
+          "2027": "08-11",
+          "2028": "08-11",
+          "2029": "08-11",
+          "2030": "08-12",
+          "2031": "08-11",
+          "2032": "08-11",
+          "2033": "08-11",
+          "2034": "08-11",
+          "2035": "08-11"
+        }
+      }
+    },
+    {
+      "id": "JP_respect_for_the_aged_day",
+      "countryCode": "JP",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.respect_for_the_aged_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 9,
+        "nth": 3,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "JP_autumnal_equinox_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.autumnal_equinox_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "09-23",
+          "2027": "09-23",
+          "2028": "09-22",
+          "2029": "09-23",
+          "2030": "09-23",
+          "2031": "09-23",
+          "2032": "09-22",
+          "2033": "09-23",
+          "2034": "09-23",
+          "2035": "09-23"
+        }
+      }
+    },
+    {
+      "id": "JP_sports_day",
+      "countryCode": "JP",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.sports_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 10,
+        "nth": 2,
+        "weekday": 1
+      }
+    },
+    {
+      "id": "JP_culture_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.culture_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-03",
+          "2027": "11-03",
+          "2028": "11-03",
+          "2029": "11-03",
+          "2030": "11-04",
+          "2031": "11-03",
+          "2032": "11-03",
+          "2033": "11-03",
+          "2034": "11-03",
+          "2035": "11-03"
+        }
+      }
+    },
+    {
+      "id": "JP_labour_thanksgiving_day",
+      "countryCode": "JP",
+      "kind": "precomputed",
+      "labelKey": "holidays.labour_thanksgiving_day",
+      "iconName": "event",
+      "category": "public",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-23",
+          "2027": "11-23",
+          "2028": "11-23",
+          "2029": "11-23",
+          "2030": "11-23",
+          "2031": "11-24",
+          "2032": "11-23",
+          "2033": "11-23",
+          "2034": "11-23",
+          "2035": "11-23"
+        }
+      }
+    }
+  ],
+  "i18n": {
+    "holidays": {
+      "en": {
+        "new_years_day": "New Year's Day",
+        "coming_of_age_day": "Coming of Age Day",
+        "foundation_day": "Foundation Day",
+        "the_emperors_birthday": "The Emperor's Birthday",
+        "vernal_equinox_day": "Vernal Equinox Day",
+        "showa_day": "Shōwa Day",
+        "constitution_memorial_day": "Constitution Memorial Day",
+        "greenery_day": "Greenery Day",
+        "childrens_day": "Children's Day",
+        "marine_day": "Marine Day",
+        "mountain_day": "Mountain Day",
+        "respect_for_the_aged_day": "Respect for the Aged Day",
+        "autumnal_equinox_day": "Autumnal Equinox Day",
+        "sports_day": "Sports Day",
+        "culture_day": "Culture Day",
+        "labour_thanksgiving_day": "Labour Thanksgiving Day"
+      },
+      "ja": {
+        "new_years_day": "元旦",
+        "coming_of_age_day": "成人の日",
+        "foundation_day": "建国記念の日",
+        "the_emperors_birthday": "天皇誕生日",
+        "vernal_equinox_day": "春分の日",
+        "showa_day": "昭和の日",
+        "constitution_memorial_day": "憲法記念日",
+        "greenery_day": "みどりの日",
+        "childrens_day": "こどもの日",
+        "marine_day": "海の日",
+        "mountain_day": "山の日",
+        "respect_for_the_aged_day": "敬老の日",
+        "autumnal_equinox_day": "秋分の日",
+        "sports_day": "運動会",
+        "culture_day": "文化の日",
+        "labour_thanksgiving_day": "勤労感謝の日"
+      },
+      "de": {
+        "new_years_day": "Neujahr",
+        "coming_of_age_day": "Coming-of-Age-Tag",
+        "foundation_day": "Gründungstag",
+        "the_emperors_birthday": "Der Geburtstag des Kaisers",
+        "vernal_equinox_day": "Tag der Frühlings-Tagundnachtgleiche",
+        "showa_day": "Shōwa-Tag",
+        "constitution_memorial_day": "Gedenktag der Verfassung",
+        "greenery_day": "Grüner Tag",
+        "childrens_day": "Kindertag",
+        "marine_day": "Tag des Meeres",
+        "mountain_day": "Bergtag",
+        "respect_for_the_aged_day": "Tag der Ehrung der älteren Menschen",
+        "autumnal_equinox_day": "Herbstlicher Tag der Tag-und-Nachtgleiche",
+        "sports_day": "Sporttag",
+        "culture_day": "Kulturtag",
+        "labour_thanksgiving_day": "Labor Thanksgiving Day"
+      },
+      "fr": {
+        "new_years_day": "Jour de l'An",
+        "coming_of_age_day": "Journée de passage à l'âge adulte",
+        "foundation_day": "Journée de la Fondation",
+        "the_emperors_birthday": "L'anniversaire de l'Empereur",
+        "vernal_equinox_day": "Jour de l'équinoxe vernal",
+        "showa_day": "Journée Shōwa",
+        "constitution_memorial_day": "Journée commémorative de la Constitution",
+        "greenery_day": "Journée de la verdure",
+        "childrens_day": "Journée des enfants",
+        "marine_day": "Journée maritime",
+        "mountain_day": "Journée de la montagne",
+        "respect_for_the_aged_day": "Journée du respect des personnes âgées",
+        "autumnal_equinox_day": "Jour de l'équinoxe d'automne",
+        "sports_day": "Journée du sport",
+        "culture_day": "Fête de la culture",
+        "labour_thanksgiving_day": "Jour de Thanksgiving du travail"
+      },
+      "es": {
+        "new_years_day": "Día de Año Nuevo",
+        "coming_of_age_day": "Día de la mayoría de edad",
+        "foundation_day": "Día de la Fundación",
+        "the_emperors_birthday": "El cumpleaños del Emperador",
+        "vernal_equinox_day": "Día del Equinoccio de Primavera",
+        "showa_day": "Día Showa",
+        "constitution_memorial_day": "Día Conmemorativo de la Constitución",
+        "greenery_day": "Día Verde",
+        "childrens_day": "Día del Niño",
+        "marine_day": "Día Marino",
+        "mountain_day": "Día de Montaña",
+        "respect_for_the_aged_day": "Día del Respeto a los Ancianos",
+        "autumnal_equinox_day": "Día del Equinoccio de Otoño",
+        "sports_day": "Día del Deporte",
+        "culture_day": "Día de la Cultura",
+        "labour_thanksgiving_day": "Día de Acción de Gracias del Trabajo"
+      },
+      "pt": {
+        "new_years_day": "Dia de Ano Novo",
+        "coming_of_age_day": "Dia da maioridade",
+        "foundation_day": "Dia da Fundação",
+        "the_emperors_birthday": "Aniversário do Imperador",
+        "vernal_equinox_day": "Dia do Equinócio da Primavera",
+        "showa_day": "Dia de Showa",
+        "constitution_memorial_day": "Dia Memorial da Constituição",
+        "greenery_day": "Dia da Hortaliça",
+        "childrens_day": "Dia da Criança",
+        "marine_day": "Dia da Marinha",
+        "mountain_day": "Dia da Montanha",
+        "respect_for_the_aged_day": "Dia do Respeito pelo Idoso",
+        "autumnal_equinox_day": "Dia do Equinócio de Outono",
+        "sports_day": "Dia do Desporto",
+        "culture_day": "Dia da Cultura",
+        "labour_thanksgiving_day": "Dia de Ação de Graças do Trabalho"
+      },
+      "it": {
+        "new_years_day": "Capodanno",
+        "coming_of_age_day": "Giorno del raggiungimento della maggiore età",
+        "foundation_day": "Giorno della Fondazione",
+        "the_emperors_birthday": "Il compleanno dell'Imperatore",
+        "vernal_equinox_day": "Giorno dell'equinozio primaverile",
+        "showa_day": "Giorno dello Showa",
+        "constitution_memorial_day": "Giorno della memoria della Costituzione",
+        "greenery_day": "Giornata del verde",
+        "childrens_day": "Festa dei bambini",
+        "marine_day": "Giornata della Marina",
+        "mountain_day": "Giornata della Montagna",
+        "respect_for_the_aged_day": "Giornata del rispetto per gli anziani",
+        "autumnal_equinox_day": "Giorno dell'equinozio d'autunno",
+        "sports_day": "Giornata dello sport",
+        "culture_day": "Giornata della Cultura",
+        "labour_thanksgiving_day": "Giorno del Ringraziamento del lavoro"
+      },
+      "pl": {
+        "new_years_day": "Nowy Rok",
+        "coming_of_age_day": "Dzień dojrzewania",
+        "foundation_day": "Dzień Fundacji",
+        "the_emperors_birthday": "Urodziny Cesarza",
+        "vernal_equinox_day": "Dzień równonocy wiosennej",
+        "showa_day": "Dzień Showa",
+        "constitution_memorial_day": "Dzień Pamięci Konstytucji",
+        "greenery_day": "Dzień Zieleni",
+        "childrens_day": "Dzień Dziecka",
+        "marine_day": "Dzień Morski",
+        "mountain_day": "Dzień Gór",
+        "respect_for_the_aged_day": "Dzień szacunku dla osób starszych",
+        "autumnal_equinox_day": "Dzień równonocy jesiennej",
+        "sports_day": "Dzień Sportu",
+        "culture_day": "Dzień Kultury",
+        "labour_thanksgiving_day": "Święto Dziękczynienia za Pracę"
+      },
+      "nl": {
+        "new_years_day": "Nieuwjaarsdag",
+        "coming_of_age_day": "Coming of Age-dag",
+        "foundation_day": "Stichtingsdag",
+        "the_emperors_birthday": "De verjaardag van de keizer",
+        "vernal_equinox_day": "Lente-equinoxdag",
+        "showa_day": "Shōwa-dag",
+        "constitution_memorial_day": "Herdenkingsdag van de Grondwet",
+        "greenery_day": "Groendag",
+        "childrens_day": "Kinderdag",
+        "marine_day": "Maritieme dag",
+        "mountain_day": "Bergdag",
+        "respect_for_the_aged_day": "Respect voor de ouderendag",
+        "autumnal_equinox_day": "Herfst-equinoxdag",
+        "sports_day": "Sportdag",
+        "culture_day": "Cultuurdag",
+        "labour_thanksgiving_day": "Thanksgiving-dag van de Arbeid"
+      },
+      "sv": {
+        "new_years_day": "Nyårsdagen",
+        "coming_of_age_day": "Ålderns dag",
+        "foundation_day": "Grundläggningsdagen",
+        "the_emperors_birthday": "Kejsarens födelsedag",
+        "vernal_equinox_day": "Vårdagjämningsdagen",
+        "showa_day": "Shōwa-dagen",
+        "constitution_memorial_day": "Konstitutionens minnesdag",
+        "greenery_day": "Grönskans dag",
+        "childrens_day": "Barnens dag",
+        "marine_day": "Marinens dag",
+        "mountain_day": "Bergsdagen",
+        "respect_for_the_aged_day": "Respekt för de äldres dag",
+        "autumnal_equinox_day": "Höstdagjämningen",
+        "sports_day": "Sportens dag",
+        "culture_day": "Kulturdagen",
+        "labour_thanksgiving_day": "Labor Thanksgiving Day"
+      },
+      "nb": {
+        "new_years_day": "nyttårsdag",
+        "coming_of_age_day": "Myndighetsdagen",
+        "foundation_day": "Grunnleggelsesdagen",
+        "the_emperors_birthday": "Keiserens bursdag",
+        "vernal_equinox_day": "Vårjevndøgn",
+        "showa_day": "Shōwa-dagen",
+        "constitution_memorial_day": "Grunnlovens minnedag",
+        "greenery_day": "Grønn dag",
+        "childrens_day": "Barnas dag",
+        "marine_day": "Marinens dag",
+        "mountain_day": "Fjelldag",
+        "respect_for_the_aged_day": "Respekt for eldredagen",
+        "autumnal_equinox_day": "Høstjevndøgn",
+        "sports_day": "Sportsdag",
+        "culture_day": "Kulturdagen",
+        "labour_thanksgiving_day": "Labor Thanksgiving Day"
+      },
+      "da": {
+        "new_years_day": "nytårsdag",
+        "coming_of_age_day": "Myndighedsdagen",
+        "foundation_day": "Grundlæggelsesdagen",
+        "the_emperors_birthday": "Kejserens fødselsdag",
+        "vernal_equinox_day": "Forårsjævndøgn",
+        "showa_day": "Shōwa-dag",
+        "constitution_memorial_day": "Grundlovsmindedag",
+        "greenery_day": "Grøn dag",
+        "childrens_day": "Børnenes Dag",
+        "marine_day": "Marinens dag",
+        "mountain_day": "Bjergdag",
+        "respect_for_the_aged_day": "Respekt for de ældres dag",
+        "autumnal_equinox_day": "Efterårsjævndøgn",
+        "sports_day": "Sportsdag",
+        "culture_day": "Kulturdag",
+        "labour_thanksgiving_day": "Labor Thanksgiving Day"
+      },
+      "fi": {
+        "new_years_day": "uudenvuodenpäivä",
+        "coming_of_age_day": "Ikääntymisen päivä",
+        "foundation_day": "Perustuspäivä",
+        "the_emperors_birthday": "Keisarin syntymäpäivä",
+        "vernal_equinox_day": "Kevätpäiväntasauspäivä",
+        "showa_day": "Shōwa-päivä",
+        "constitution_memorial_day": "perustuslain muistopäivä",
+        "greenery_day": "Vihreäpäivä",
+        "childrens_day": "Lasten päivä",
+        "marine_day": "Meripäivä",
+        "mountain_day": "Vuoristopäivä",
+        "respect_for_the_aged_day": "Ikääntyneiden päivä",
+        "autumnal_equinox_day": "syyspäiväntasauspäivä",
+        "sports_day": "Urheilupäivä",
+        "culture_day": "Kulttuuripäivä",
+        "labour_thanksgiving_day": "työväen kiitospäivä"
+      },
+      "ru": {
+        "new_years_day": "Новый год",
+        "coming_of_age_day": "День совершеннолетия",
+        "foundation_day": "День основания",
+        "the_emperors_birthday": "День Рождения Императора",
+        "vernal_equinox_day": "День весеннего равноденствия",
+        "showa_day": "День Сёва",
+        "constitution_memorial_day": "День памяти Конституции",
+        "greenery_day": "День зелени",
+        "childrens_day": "День защиты детей",
+        "marine_day": "День морской пехоты",
+        "mountain_day": "День гор",
+        "respect_for_the_aged_day": "День уважения к пожилым людям",
+        "autumnal_equinox_day": "День осеннего равноденствия",
+        "sports_day": "День спорта",
+        "culture_day": "День культуры",
+        "labour_thanksgiving_day": "День благодарения труда"
+      },
+      "uk": {
+        "new_years_day": "Новий рік",
+        "coming_of_age_day": "День повноліття",
+        "foundation_day": "День заснування",
+        "the_emperors_birthday": "День народження імператора",
+        "vernal_equinox_day": "День весняного рівнодення",
+        "showa_day": "День Сьова",
+        "constitution_memorial_day": "День пам'яті Конституції",
+        "greenery_day": "День зелені",
+        "childrens_day": "День захисту дітей",
+        "marine_day": "День моряка",
+        "mountain_day": "День гір",
+        "respect_for_the_aged_day": "День поваги до старих",
+        "autumnal_equinox_day": "День осіннього рівнодення",
+        "sports_day": "День спорту",
+        "culture_day": "День культури",
+        "labour_thanksgiving_day": "День подяки праці"
+      },
+      "ko": {
+        "new_years_day": "설날",
+        "coming_of_age_day": "성년의 날",
+        "foundation_day": "창립기념일",
+        "the_emperors_birthday": "천황 탄신일",
+        "vernal_equinox_day": "춘분일",
+        "showa_day": "쇼와의 날",
+        "constitution_memorial_day": "제헌절 기념일",
+        "greenery_day": "녹지의 날",
+        "childrens_day": "어린이날",
+        "marine_day": "해양의 날",
+        "mountain_day": "산의 날",
+        "respect_for_the_aged_day": "경로의 날",
+        "autumnal_equinox_day": "추분의 날",
+        "sports_day": "운동회",
+        "culture_day": "문화의 날",
+        "labour_thanksgiving_day": "노동감사절"
+      },
+      "zh-Hant": {
+        "new_years_day": "元旦",
+        "coming_of_age_day": "成人日",
+        "foundation_day": "基金會日",
+        "the_emperors_birthday": "天皇誕辰",
+        "vernal_equinox_day": "春分日",
+        "showa_day": "昭和日",
+        "constitution_memorial_day": "憲法紀念日",
+        "greenery_day": "綠化日",
+        "childrens_day": "兒童節",
+        "marine_day": "海洋日",
+        "mountain_day": "山日",
+        "respect_for_the_aged_day": "敬老日",
+        "autumnal_equinox_day": "秋分日",
+        "sports_day": "運動會",
+        "culture_day": "文化日",
+        "labour_thanksgiving_day": "勞動感恩節"
+      }
+    },
+    "holidayInfo": {
+      "de": {
+        "new_years_day": {
+          "intro": "Der 1. Januar markiert weltweit den Beginn eines neuen Jahres im gregorianischen Kalender. Für viele ist es ein Tag der Hoffnung, des Neuanfangs und der guten Vorsätze.",
+          "history": "Bereits 153 v. Chr. legten die Römer den Jahresbeginn auf den 1. Januar, den Antrittstag der neuen Konsuln. Im Mittelalter wechselte der Jahresanfang in vielen Regionen zu Weihnachten oder Ostern. Der gregorianische Kalender wurde 1582 eingeführt. Die europäischen Länder übernahmen ihn und den Jahresbeginn am 1. Januar jedoch zu unterschiedlichen Zeiten. Der Monatsname Januar geht auf den römischen Gott Janus zurück, der mit zwei Gesichtern zugleich auf das Vergangene und das Kommende blickte – ein passendes Sinnbild für diesen Tag.",
+          "traditions": "Um Mitternacht stoßen Familien und Freunde mit Sekt an und feiern den Jahreswechsel mit Feuerwerk, Glücksbringern wie Kleeblatt, Schornsteinfeger oder Marienkäfer und dem traditionellen Bleigießen (heute Wachsgießen). Beliebt sind außerdem Neujahrsbrunch und der gemeinsame Spaziergang an der frischen Luft. Viele fassen Vorsätze für das neue Jahr.",
+          "funFacts": [
+            "In Spanien isst man zu jedem der zwölf Glockenschläge eine Weintraube – eine pro Wunsch.",
+            "In Dänemark zerbricht man altes Geschirr vor den Türen guter Freunde, um Glück zu bringen.",
+            "Wiens Neujahrskonzert wird in über 90 Länder übertragen und gilt als musikalischer Auftakt des Jahres.",
+            "Auf Kiritimati im Inselstaat Kiribati beginnt das neue Jahr 26 Stunden früher als auf der Insel Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "coming_of_age_day": {
+          "intro": "Der Tag der Volljährigkeit am zweiten Montag im Januar feiert die jungen Menschen, die das Erwachsenenalter erreicht haben.",
+          "history": "Der Feiertag würdigt junge Menschen auf ihrem Weg ins Erwachsenenleben. Er wurzelt in alten Initiationsriten und wurde 1948 als nationaler Feiertag eingeführt, um junge Erwachsene zu ermutigen, ihren Platz in der Gesellschaft einzunehmen.",
+          "traditions": "Die Gemeinden veranstalten Zeremonien, die sich häufig weiterhin an 20-Jährige richten. Viele junge Frauen tragen prächtige „Furisode”-Kimonos, Männer Anzüge oder traditionelle Kleidung, und Familien machen Erinnerungsfotos.",
+          "funFacts": [
+            "Viele Frauen tragen leuchtende „Furisode”-Kimonos mit langen Ärmeln.",
+            "Seit April 2022 liegt die Volljährigkeitsgrenze bei 18 Jahren; viele Feiern gelten weiterhin den 20-Jährigen.",
+            "Das Erwachsenenalter liegt in Japan nun bei 18 Jahren."
+          ]
+        },
+        "foundation_day": {
+          "intro": "Der Staatsgründungstag am 11. Februar feiert die legendäre Gründung Japans.",
+          "history": "Der Tag erinnert an die legendäre Thronbesteigung Kaiser Jimmus, die traditionell auf 660 v. Chr. datiert wird. Der heutige Feiertag wurde 1966 gesetzlich eingeführt und 1967 erstmals begangen.",
+          "traditions": "Verglichen mit den Nationalfeiertagen anderer Länder fallen die Feiern zurückhaltend aus. Es gibt einige patriotische Zeremonien und Beflaggungen sowie vereinzelte Feste und Umzüge, während viele einfach den freien Tag genießen.",
+          "funFacts": [
+            "Er erinnert an den legendären ersten Kaiser Jimmu.",
+            "Das überlieferte Gründungsdatum ist 660 v. Chr.",
+            "Als Feiertag wurde er 1966 wiederbelebt."
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "Der Verfassungsgedenktag Kenpō Kinenbi am 3. Mai erinnert an das Inkrafttreten der japanischen Nachkriegsverfassung im Jahr 1947. Er gehört zur Feiertagszeit Golden Week.",
+          "history": "Die Verfassung wurde am 3. November 1946 verkündet und trat am 3. Mai 1947 in Kraft. Zu ihren Grundprinzipien zählen Volkssouveränität, die Achtung der Menschenrechte und Pazifismus. Das Feiertagsgesetz von 1948 machte den Jahrestag zu einem nationalen Feiertag.",
+          "traditions": "Vorträge, öffentliche Debatten und Medienbeiträge beschäftigen sich mit der Verfassung und ihrer Bedeutung. Zugleich nutzen viele Menschen die Golden Week für Reisen, Ausflüge oder Zeit mit der Familie.",
+          "funFacts": [
+            "Kenpō bedeutet Verfassung.",
+            "Zwischen Verkündung und Inkrafttreten der Verfassung lagen sechs Monate.",
+            "Artikel 9 ist für den Verzicht auf Krieg als Mittel zur Beilegung internationaler Streitigkeiten bekannt."
+          ]
+        },
+        "childrens_day": {
+          "intro": "Der Kindertag Kodomo no Hi am 5. Mai feiert das Glück und das gesunde Aufwachsen der Kinder. Bunte Windfahnen in Karpfenform machen ihn zu einem der bekanntesten Frühlingsfeiertage Japans.",
+          "history": "Der Feiertag basiert auf Tango no Sekku, einem saisonalen Fest, das traditionell mit Jungen in Verbindung gebracht wird. Durch das Feiertagsgesetz von 1948 wurde der 5. Mai zum Kindertag, an dem alle Kinder gefeiert und den Müttern Dankbarkeit zum Ausdruck gebracht wurde. Es ist Teil der Ferienzeit der Goldenen Woche.",
+          "traditions": "Familien hängen Koinobori auf, Windfahnen in Karpfenform, und stellen Miniaturhelme oder Rüstungen aus. Zu den traditionellen Speisen gehören Kashiwa Mochi, in Eichenblätter gewickelte Reiskuchen, und regionale Chimaki-Varianten. Manche Haushalte nehmen ein Bad mit duftenden Blättern des Japanischen Kalmus.",
+          "funFacts": [
+            "Karpfen, die flussaufwärts schwimmen, symbolisieren Stärke und Ausdauer.",
+            "Kodomo bedeutet auf Japanisch Kind oder Kinder.",
+            "Der Feiertag fällt zusammen mit mehreren anderen nationalen Feiertagen gegen Ende der Goldenen Woche."
+          ]
+        },
+        "culture_day": {
+          "intro": "Der Kulturtag Bunka no Hi am 3. November feiert die Kultur und die Ideale von Freiheit und Frieden in Japan. Kunst, Lernen und Kreativität stehen im Mittelpunkt.",
+          "history": "Der Kulturtag wurde mit dem Feiertagsgesetz von 1948 eingeführt. Sein Datum fällt mit der Verkündung der japanischen Nachkriegsverfassung am 3. November 1946 zusammen. Zuvor erinnerte der 3. November an den Geburtstag von Kaiser Meiji; der heutige Feiertag hat einen anderen Zweck.",
+          "traditions": "Museen, Galerien und Kultureinrichtungen veranstalten Ausstellungen und Sonderprogramme. Schulen und Gemeinden organisieren Kulturfestivals. Der Kaiser verleiht den Kulturorden an Persönlichkeiten, die sich durch herausragende Verdienste um das kulturelle und geistige Leben auszeichnen.",
+          "funFacts": [
+            "Bunka bedeutet auf Japanisch Kultur.",
+            "Kulturtag ist am 3. November; Der Verfassungsgedenktag ist am 3. Mai.",
+            "Einige Museen bieten je nach Institution freien Eintritt oder Sonderveranstaltungen an."
+          ]
+        }
+      },
+      "en": {
+        "new_years_day": {
+          "intro": "January 1st marks the start of a new year in the Gregorian calendar around the world. For many it's a day of hope, fresh starts and New Year’s resolutions.",
+          "history": "As early as 153 BC the Romans set the start of the year on January 1st, the day new consuls took office. During the Middle Ages, the start of the year shifted in many regions to Christmas or Easter. The Gregorian calendar was introduced in 1582. European countries adopted it and the 1 January start of the year at different times. The name January goes back to the Roman god Janus, who looked simultaneously at the past and the future with two faces — a fitting symbol for the day.",
+          "traditions": "At midnight, families and friends toast with sparkling wine and celebrate the turn of the year with fireworks, lucky charms (clover, chimney sweep, ladybug) and traditional lead pouring (now wax pouring). New Year's brunch and a fresh-air walk are popular too. Many people make resolutions for the year ahead.",
+          "funFacts": [
+            "In Spain, people eat one grape with each of the twelve bell strokes — one wish per grape.",
+            "In Denmark, people break old crockery in front of friends' doors to bring them luck.",
+            "Vienna's New Year's Concert is broadcast in over 90 countries and counts as the year's musical kick-off.",
+            "On Kiritimati in the island nation of Kiribati, the new year arrives 26 hours earlier than on Howland Island."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "coming_of_age_day": {
+          "intro": "Coming of Age Day, on the second Monday of January, celebrates young people who have reached adulthood.",
+          "history": "The holiday celebrates young people entering adult life. It has roots in ancient coming-of-age rites and was set as a national holiday in 1948 to encourage young adults to take their place in society.",
+          "traditions": "Local governments hold ceremonies that often still welcome 20-year-olds. Many young women wear elaborate 'furisode' kimono and men wear suits or traditional dress, and families take commemorative photos.",
+          "funFacts": [
+            "Many women wear bright 'furisode' kimono with long sleeves.",
+            "The legal age of majority has been 18 since April 2022, but many ceremonies still celebrate turning 20.",
+            "The age of adulthood in Japan is now 18."
+          ]
+        },
+        "foundation_day": {
+          "intro": "National Foundation Day on 11 February celebrates the legendary founding of Japan.",
+          "history": "The day recalls the legendary accession of Emperor Jimmu, traditionally dated to 660 BC. The modern holiday was established by law in 1966 and first observed in 1967.",
+          "traditions": "Compared with other countries' national days, celebrations are low-key. There are some patriotic ceremonies and flag displays, and a few festivals and parades, while many people simply enjoy the day off.",
+          "funFacts": [
+            "It recalls the legendary first emperor, Jimmu.",
+            "The traditional founding date is 660 BC.",
+            "It was revived as a holiday in 1966."
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "Constitution Memorial Day on 3 May marks the entry into force of Japan’s post-war constitution. It is a national holiday within Golden Week.",
+          "history": "The constitution was promulgated on 3 November 1946 and came into force on 3 May 1947. It establishes popular sovereignty, fundamental human rights and pacifism as central principles. The public holiday commemorating its commencement was introduced in 1948.",
+          "traditions": "Public talks, exhibitions and media discussions examine the constitution and the country’s future. Political and civic groups hold events reflecting different views. Many families also use the Golden Week break for travel and visits.",
+          "funFacts": [
+            "Its Japanese name is Kenpō Kinenbi.",
+            "Promulgation and entry into force occurred on different dates, six months apart.",
+            "Article 9 is the constitution’s well-known provision on renouncing war."
+          ]
+        },
+        "childrens_day": {
+          "intro": "Children’s Day, Kodomo no Hi, on 5 May celebrates children’s happiness and healthy growth. Colourful carp streamers make it one of Japan’s most recognisable spring holidays.",
+          "history": "The holiday draws on Tango no Sekku, a seasonal festival traditionally associated with boys. Under the public holiday law of 1948, 5 May became Children’s Day, celebrating all children and expressing gratitude to mothers. It is part of the Golden Week holiday period.",
+          "traditions": "Families display koinobori carp streamers and miniature helmets or armour. Traditional foods include kashiwa mochi, rice cakes wrapped in oak leaves, and regional varieties of chimaki. Some households take baths scented with sweet flag (calamus) leaves.",
+          "funFacts": [
+            "Carp swimming upstream symbolise strength and perseverance.",
+            "Kodomo means child or children in Japanese.",
+            "The holiday falls near the end of Golden Week, alongside several other national holidays."
+          ]
+        },
+        "culture_day": {
+          "intro": "Culture Day, Bunka no Hi, on 3 November celebrates culture and the ideals of freedom and peace in Japan. Art, learning and creativity take centre stage.",
+          "history": "Culture Day was established under the public holiday law of 1948. Its date coincides with the promulgation of Japan’s post-war constitution on 3 November 1946. The same calendar date had previously marked Emperor Meiji’s birthday, but the modern holiday has a different purpose.",
+          "traditions": "Museums, galleries and cultural institutions hold exhibitions and special programmes. Schools and communities organise cultural festivals. The Emperor presents the Order of Culture to people recognised for outstanding contributions to cultural and intellectual life.",
+          "funFacts": [
+            "Bunka means culture in Japanese.",
+            "Culture Day is on 3 November; Constitution Memorial Day is on 3 May.",
+            "Some museums offer free admission or special events, depending on the institution."
+          ]
+        }
+      },
+      "fr": {
+        "new_years_day": {
+          "intro": "Le 1er janvier marque le début d'une nouvelle année dans le calendrier grégorien partout dans le monde. Pour beaucoup, c'est un jour d'espoir, de renouveau et de bonnes résolutions.",
+          "history": "Dès 153 av. J.-C., les Romains fixèrent le début de l'année au 1er janvier, jour d'entrée en fonction des nouveaux consuls. Au Moyen Âge, le début de l'année se déplaça dans de nombreuses régions à Noël ou à Pâques. Le calendrier grégorien a été introduit en 1582. Les pays européens l’ont adopté, ainsi que le début de l’année au 1er janvier, à des époques différentes. Le nom janvier vient du dieu romain Janus, qui regardait simultanément le passé et l'avenir avec deux visages.",
+          "traditions": "À minuit, familles et amis trinquent au champagne et célèbrent le passage à la nouvelle année avec des feux d'artifice, des porte-bonheur (trèfle, ramoneur, coccinelle) et la traditionnelle coulée de plomb (aujourd'hui de cire). Le brunch du Nouvel An et la promenade au grand air sont aussi populaires. Beaucoup formulent des résolutions pour l'année.",
+          "funFacts": [
+            "En Espagne, on mange un grain de raisin à chacun des douze coups de minuit — un vœu par grain.",
+            "Au Danemark, on brise de la vieille vaisselle devant la porte des amis pour leur porter chance.",
+            "Le Concert du Nouvel An de Vienne est diffusé dans plus de 90 pays — coup d'envoi musical de l'année.",
+            "Sur Kiritimati, dans l’État insulaire des Kiribati, le Nouvel An arrive 26 heures avant celui de l’île Howland."
+          ],
+          "imageCredit": "Photo: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "coming_of_age_day": {
+          "intro": "Le jour de la majorité, le deuxième lundi de janvier, célèbre les jeunes ayant atteint l’âge adulte.",
+          "history": "La fête célèbre les jeunes qui entrent dans la vie adulte. Elle puise dans d’anciens rites de passage et fut instaurée comme jour férié national en 1948 pour encourager les jeunes adultes à prendre leur place dans la société.",
+          "traditions": "Les municipalités organisent des cérémonies souvent destinées aux jeunes de 20 ans. Beaucoup de jeunes femmes portent de somptueux kimonos « furisode », les hommes un costume ou une tenue traditionnelle, et les familles prennent des photos souvenirs.",
+          "funFacts": [
+            "Beaucoup de femmes portent des kimonos « furisode » à longues manches.",
+            "Depuis avril 2022, la majorité est fixée à 18 ans, mais de nombreuses cérémonies restent consacrées aux jeunes de 20 ans.",
+            "L’âge de la majorité au Japon est désormais de 18 ans."
+          ]
+        },
+        "foundation_day": {
+          "intro": "Le jour de la fondation nationale, le 11 février, célèbre la fondation légendaire du Japon.",
+          "history": "La fête rappelle l’accession légendaire au trône de l’empereur Jimmu, traditionnellement datée de 660 av. J.-C. Le jour férié actuel a été instauré par la loi en 1966 et célébré pour la première fois en 1967.",
+          "traditions": "Comparées aux fêtes nationales d’autres pays, les célébrations sont discrètes. Il y a quelques cérémonies patriotiques et des drapeaux, ainsi que quelques fêtes et défilés, tandis que beaucoup profitent simplement du jour férié.",
+          "funFacts": [
+            "Il rappelle le légendaire premier empereur, Jimmu.",
+            "La date de fondation traditionnelle est 660 av. J.-C.",
+            "Il fut rétabli comme jour férié en 1966."
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "Le 3 mai, Journée commémorative de la Constitution, marque l'entrée en vigueur de la constitution japonaise d'après-guerre. C'est une fête nationale au sein de la Golden Week.",
+          "history": "La Constitution a été promulguée le 3 novembre 1946 et est entrée en vigueur le 3 mai 1947. Elle établit la souveraineté populaire, les droits humains fondamentaux et le pacifisme comme principes centraux. Le jour férié commémorant son commencement a été introduit en 1948.",
+          "traditions": "Des débats publics, des expositions et des débats médiatiques examinent la constitution et l’avenir du pays. Les groupes politiques et civiques organisent des événements reflétant des points de vue différents. De nombreuses familles profitent également de la Golden Week pour voyager et visiter.",
+          "funFacts": [
+            "Son nom japonais est Kenpō Kinenbi.",
+            "La promulgation et l'entrée en vigueur ont eu lieu à des dates différentes, à six mois d'intervalle.",
+            "L’article 9 est la disposition bien connue de la constitution sur la renonciation à la guerre."
+          ]
+        },
+        "childrens_day": {
+          "intro": "La Journée des enfants, Kodomo no Hi, le 5 mai, célèbre leur bonheur et leur santé. Les manches à air colorées en forme de carpe en font l'une des fêtes printanières les plus reconnaissables du Japon.",
+          "history": "Cette fête s'inspire du Tango no Sekku, un festival saisonnier traditionnellement associé aux garçons. En vertu de la loi sur les jours fériés de 1948, le 5 mai est devenu la Journée des enfants, célébrant tous les enfants et exprimant leur gratitude aux mères. Cela fait partie de la période de vacances de la Golden Week.",
+          "traditions": "Les familles exposent des koinobori, des manches à air en forme de carpe, et des casques ou armures miniatures. On mange des kashiwa mochi, des gâteaux de riz enveloppés dans des feuilles de chêne, et des variétés régionales de chimaki. Certaines familles prennent un bain parfumé aux feuilles d'acore.",
+          "funFacts": [
+            "Les carpes nageant en amont symbolisent la force et la persévérance.",
+            "Kodomo signifie enfant ou enfants en japonais.",
+            "Cette fête tombe vers la fin de la Golden Week, aux côtés de plusieurs autres jours fériés nationaux."
+          ]
+        },
+        "culture_day": {
+          "intro": "La Journée de la culture, Bunka no Hi, le 3 novembre, célèbre la culture et les idéaux de liberté et de paix au Japon. L’art, l’apprentissage et la créativité occupent une place centrale.",
+          "history": "La Fête de la culture a été instituée en vertu de la loi sur les jours fériés de 1948. Sa date coïncide avec la promulgation de la constitution japonaise d'après-guerre, le 3 novembre 1946. La même date calendaire marquait auparavant l'anniversaire de l'empereur Meiji, mais cette fête moderne a un objectif différent.",
+          "traditions": "Les musées, galeries et institutions culturelles organisent des expositions et des programmes spéciaux. Les écoles et les communautés organisent des festivals culturels. L'Empereur remet l'Ordre de la Culture à des personnes reconnues pour leurs contributions exceptionnelles à la vie culturelle et intellectuelle.",
+          "funFacts": [
+            "Bunka signifie culture en japonais.",
+            "La Journée de la culture a lieu le 3 novembre ; Le Jour du Souvenir de la Constitution est le 3 mai.",
+            "Certains musées proposent une entrée gratuite ou des événements spéciaux, selon l'institution."
+          ]
+        }
+      },
+      "es": {
+        "new_years_day": {
+          "intro": "El 1 de enero marca el inicio de un nuevo año en el calendario gregoriano en todo el mundo. Para muchos es un día de esperanza, comienzos y buenos propósitos.",
+          "history": "Ya en el 153 a. C., los romanos fijaron el inicio del año el 1 de enero, día en que tomaban posesión los nuevos cónsules. En la Edad Media el comienzo del año cambió en muchas regiones a Navidad o Pascua. El calendario gregoriano se introdujo en 1582. Los países europeos lo adoptaron, al igual que el inicio del año el 1 de enero, en momentos distintos. El nombre del mes de enero deriva de Jano, el dios romano de las dos caras, que miraba al pasado y al futuro a la vez.",
+          "traditions": "A medianoche, familias y amigos brindan con cava o champán y celebran con fuegos artificiales, amuletos como tréboles, deshollinadores o mariquitas, y la tradicional fundición de cera para predecir el año. También son populares el brunch de Año Nuevo y los paseos al aire libre. Muchos hacen propósitos para el año entrante.",
+          "funFacts": [
+            "En España se come una uva con cada una de las doce campanadas — un deseo por uva.",
+            "En Dinamarca se rompe vajilla vieja delante de las puertas de los amigos para darles suerte.",
+            "El Concierto de Año Nuevo de Viena se transmite en más de 90 países y se considera el arranque musical del año.",
+            "En Kiritimati, en el Estado insular de Kiribati, el Año Nuevo llega 26 horas antes que en la isla Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 vía Wikimedia Commons"
+        },
+        "coming_of_age_day": {
+          "intro": "El Día de la Mayoría de Edad, el segundo lunes de enero, celebra a los jóvenes que han alcanzado la edad adulta.",
+          "history": "La fiesta celebra a los jóvenes que entran en la vida adulta. Tiene raíces en antiguos ritos de iniciación y se instauró como festivo nacional en 1948 para animar a los jóvenes adultos a ocupar su lugar en la sociedad.",
+          "traditions": "Los municipios organizan ceremonias que a menudo siguen dirigidas a quienes cumplen 20 años. Muchas jóvenes visten suntuosos kimonos «furisode», los hombres traje o ropa tradicional, y las familias se hacen fotos de recuerdo.",
+          "funFacts": [
+            "Muchas mujeres visten vistosos kimonos «furisode» de mangas largas.",
+            "La mayoría de edad es de 18 años desde abril de 2022, aunque muchas ceremonias siguen celebrando los 20 años.",
+            "La mayoría de edad en Japón es ahora a los 18 años."
+          ]
+        },
+        "foundation_day": {
+          "intro": "El Día de la Fundación Nacional, el 11 de febrero, celebra la fundación legendaria de Japón.",
+          "history": "La fiesta recuerda la legendaria entronización del emperador Jimmu, fechada tradicionalmente en el año 660 a. C. El festivo actual se estableció por ley en 1966 y se celebró por primera vez en 1967.",
+          "traditions": "En comparación con las fiestas nacionales de otros países, las celebraciones son discretas. Hay algunas ceremonias patrióticas y banderas, además de unas pocas fiestas y desfiles, mientras muchos simplemente disfrutan del día libre.",
+          "funFacts": [
+            "Recuerda al legendario primer emperador, Jimmu.",
+            "La fecha tradicional de fundación es el 660 a. C.",
+            "Se restableció como festivo en 1966."
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "El Día Conmemorativo de la Constitución, el 3 de mayo, marca la entrada en vigor de la constitución japonesa de posguerra. Es un feriado nacional dentro de la Semana Dorada.",
+          "history": "La constitución fue promulgada el 3 de noviembre de 1946 y entró en vigor el 3 de mayo de 1947. Establece la soberanía popular, los derechos humanos fundamentales y el pacifismo como principios centrales. El día festivo que conmemora su inicio se introdujo en 1948.",
+          "traditions": "Charlas públicas, exposiciones y debates en los medios examinan la constitución y el futuro del país. Grupos políticos y cívicos organizan eventos que reflejan diferentes puntos de vista. Muchas familias también aprovechan las vacaciones de la Semana Dorada para viajes y visitas.",
+          "funFacts": [
+            "Su nombre japonés es Kenpō Kinenbi.",
+            "La promulgación y entrada en vigor se produjeron en fechas diferentes, con seis meses de diferencia.",
+            "El artículo 9 es la disposición bien conocida de la Constitución sobre la renuncia a la guerra."
+          ]
+        },
+        "childrens_day": {
+          "intro": "El Día del Niño, Kodomo no Hi, se celebra el 5 de mayo y está dedicado a la felicidad y la salud de los niños. Las coloridas mangas de viento con forma de carpa lo convierten en una de las fiestas primaverales más reconocibles de Japón.",
+          "history": "La festividad se basa en Tango no Sekku, un festival de temporada tradicionalmente asociado con los niños. Según la ley de días festivos de 1948, el 5 de mayo se convirtió en el Día del Niño, en el que se celebra a todos los niños y se expresa gratitud a las madres. Es parte del período vacacional de la Semana Dorada.",
+          "traditions": "Las familias cuelgan koinobori, mangas de viento con forma de carpa, y exhiben cascos o armaduras en miniatura. Las comidas tradicionales incluyen kashiwa mochi, pasteles de arroz envueltos en hojas de roble, y variedades regionales de chimaki. Algunas familias toman baños aromatizados con hojas de cálamo.",
+          "funFacts": [
+            "La carpa nadando contra la corriente simboliza la fuerza y la perseverancia.",
+            "Kodomo significa niño o niños en japonés.",
+            "El feriado cae cerca del final de la Semana Dorada, junto con varios otros feriados nacionales."
+          ]
+        },
+        "culture_day": {
+          "intro": "Día de la Cultura, Bunka no Hi, el 3 de noviembre celebra la cultura y los ideales de libertad y paz en Japón. El arte, el aprendizaje y la creatividad toman protagonismo.",
+          "history": "El Día de la Cultura se estableció en virtud de la ley de días festivos de 1948. Su fecha coincide con la promulgación de la constitución japonesa de posguerra el 3 de noviembre de 1946. La misma fecha del calendario había marcado anteriormente el cumpleaños del emperador Meiji, pero el feriado moderno tiene un propósito diferente.",
+          "traditions": "Museos, galerías e instituciones culturales organizan exposiciones y programas especiales. Las escuelas y comunidades organizan festivales culturales. El Emperador entrega la Orden de la Cultura a personas reconocidas por sus destacadas contribuciones a la vida cultural e intelectual.",
+          "funFacts": [
+            "Bunka significa cultura en japonés.",
+            "El Día de la Cultura es el 3 de noviembre; el Día Conmemorativo de la Constitución es el 3 de mayo.",
+            "Algunos museos ofrecen entrada gratuita o eventos especiales, según la institución."
+          ]
+        }
+      },
+      "pt": {
+        "new_years_day": {
+          "intro": "1 de janeiro marca o início de um novo ano no calendário gregoriano em todo o mundo. Para muitos é um dia de esperança, novos começos e boas resoluções.",
+          "history": "Já em 153 a.C. os romanos fixaram o início do ano em 1 de janeiro, dia em que tomavam posse os novos cônsules. Na Idade Média, o início do ano deslocou-se em muitas regiões para o Natal ou a Páscoa. O calendário gregoriano foi introduzido em 1582. Os países europeus adotaram-no, tal como o início do ano a 1 de janeiro, em momentos diferentes. O nome do mês de janeiro deriva de Jano, o deus romano de duas faces, que olhava simultaneamente para o passado e o futuro.",
+          "traditions": "À meia-noite, famílias e amigos brindam com espumante e celebram com fogo de artifício, amuletos como trevos, limpa-chaminés ou joaninhas, e a tradicional fundição de cera para prever o ano. Também são populares o brunch de Ano Novo e os passeios ao ar livre. Muitos fazem resoluções para o ano que começa.",
+          "funFacts": [
+            "Em Portugal, comem-se tradicionalmente doze passas à meia-noite; em Espanha, doze uvas, uma por badalada.",
+            "Na Dinamarca, partem-se louças velhas em frente à porta dos amigos para lhes dar sorte.",
+            "O Concerto de Ano Novo de Viena é transmitido em mais de 90 países — abertura musical do ano.",
+            "Em Kiritimati, no Estado insular de Kiribati, o Ano Novo chega 26 horas antes do que na ilha Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "coming_of_age_day": {
+          "intro": "O Dia da Maioridade, na segunda segunda-feira de janeiro, celebra os jovens que atingiram a idade adulta.",
+          "history": "A festa celebra a entrada dos jovens na vida adulta. Tem raízes em antigos ritos de iniciação e foi instituída como feriado nacional em 1948 para incentivar os jovens adultos a ocuparem o seu lugar na sociedade.",
+          "traditions": "Os municípios organizam cerimónias que muitas vezes continuam a destinar-se a jovens de 20 anos. Muitas jovens vestem sumptuosos quimonos «furisode», os homens fato ou traje tradicional, e as famílias tiram fotografias de recordação.",
+          "funFacts": [
+            "Muitas mulheres vestem vistosos quimonos «furisode» de mangas longas.",
+            "A maioridade passou para os 18 anos em abril de 2022, mas muitas cerimónias continuam a celebrar os 20 anos.",
+            "A maioridade no Japão é agora aos 18 anos."
+          ]
+        },
+        "foundation_day": {
+          "intro": "O Dia da Fundação Nacional, 11 de fevereiro, celebra a fundação lendária do Japão.",
+          "history": "A festa recorda a lendária entronização do imperador Jimmu, tradicionalmente datada de 660 a.C. O feriado atual foi instituído por lei em 1966 e celebrado pela primeira vez em 1967.",
+          "traditions": "Em comparação com as festas nacionais de outros países, as celebrações são discretas. Há algumas cerimónias patrióticas e bandeiras, além de algumas festas e desfiles, enquanto muitos simplesmente aproveitam o dia de folga.",
+          "funFacts": [
+            "Recorda o lendário primeiro imperador, Jimmu.",
+            "A data tradicional de fundação é 660 a.C.",
+            "Foi restabelecido como feriado em 1966."
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "O Dia em Memória da Constituição, a 3 de maio, marca a entrada em vigor da constituição do Japão no pós-guerra. É um feriado nacional dentro da Golden Week.",
+          "history": "A constituição foi promulgada a 3 de novembro de 1946 e entrou em vigor a 3 de maio de 1947. Estabelece a soberania popular, os direitos humanos fundamentais e o pacifismo como princípios centrais. O feriado que comemora o seu início foi introduzido em 1948.",
+          "traditions": "Palestras públicas, exposições e discussões nos meios de comunicação social examinam a constituição e o futuro do país. Os grupos políticos e cívicos realizam eventos que reflectem diferentes pontos de vista. Muitas famílias aproveitam também a pausa da Golden Week para viagens e visitas.",
+          "funFacts": [
+            "O seu nome japonês é Kenpō Kinenbi.",
+            "A promulgação e a entrada em vigor ocorreram em datas diferentes, com um intervalo de seis meses.",
+            "O artigo 9.º é a conhecida disposição da Constituição sobre a renúncia à guerra."
+          ]
+        },
+        "childrens_day": {
+          "intro": "O Dia da Criança, Kodomo no Hi, a 5 de maio, celebra a felicidade e o crescimento saudável das crianças. As flâmulas coloridas de carpa fazem deste um dos feriados de primavera mais conhecidos do Japão.",
+          "history": "O feriado baseia-se no Tango no Sekku, um festival sazonal tradicionalmente associado aos rapazes. De acordo com a lei das festas de 1948, o dia 5 de maio tornou-se o Dia da Criança, celebrando todas as crianças e expressando gratidão às mães. Faz parte do período de férias da Golden Week.",
+          "traditions": "As famílias expõem koinobori, mangas de vento em forma de carpa, e capacetes ou armaduras em miniatura. Os alimentos tradicionais incluem kashiwa mochi, bolos de arroz envoltos em folhas de carvalho, e variedades regionais de chimaki. Algumas famílias tomam banhos perfumados com folhas de cálamo.",
+          "funFacts": [
+            "As carpas a nadar contra a corrente simbolizam força e perseverança.",
+            "Kodomo significa criança ou crianças em japonês.",
+            "O feriado ocorre perto do final da Golden Week, juntamente com vários outros feriados nacionais."
+          ]
+        },
+        "culture_day": {
+          "intro": "Dia da Cultura, Bunka no Hi, a 3 de novembro celebra a cultura e os ideais de liberdade e paz no Japão. A arte, a aprendizagem e a criatividade ocupam o centro das atenções.",
+          "history": "O Dia da Cultura foi estabelecido ao abrigo da lei dos feriados de 1948. A sua data coincide com a promulgação da constituição do pós-guerra do Japão a 3 de novembro de 1946. A mesma data do calendário marcava anteriormente o aniversário do Imperador Meiji, mas o feriado moderno tem um propósito diferente.",
+          "traditions": "Museus, galerias e instituições culturais realizam exposições e programas especiais. As escolas e as comunidades organizam festivais culturais. O Imperador apresenta a Ordem da Cultura a pessoas reconhecidas por contribuições notáveis para a vida cultural e intelectual.",
+          "funFacts": [
+            "Bunka significa cultura em japonês.",
+            "O Dia da Cultura é no dia 3 de novembro; O Dia Memorial da Constituição é a 3 de maio.",
+            "Alguns museus oferecem entrada gratuita ou eventos especiais, dependendo da instituição."
+          ]
+        }
+      },
+      "it": {
+        "new_years_day": {
+          "intro": "Il 1° gennaio segna l'inizio di un nuovo anno nel calendario gregoriano in tutto il mondo. Per molti è un giorno di speranza, di nuovi inizi e di buoni propositi.",
+          "history": "Già nel 153 a.C. i Romani fissarono l'inizio dell'anno al 1° gennaio, giorno dell'insediamento dei nuovi consoli. Nel Medioevo l'inizio dell'anno si spostò in molte regioni a Natale o Pasqua. Il calendario gregoriano fu introdotto nel 1582. I paesi europei lo adottarono, così come l’inizio dell’anno al 1° gennaio, in momenti diversi. Il nome ‘gennaio' deriva dal dio romano Giano, che con due volti guardava contemporaneamente al passato e al futuro.",
+          "traditions": "A mezzanotte famiglie e amici brindano con spumante e festeggiano con fuochi d'artificio, portafortuna come quadrifogli, spazzacamini o coccinelle e la tradizionale colata di piombo (oggi di cera). Sono diffusi anche il brunch di Capodanno e la passeggiata all'aria aperta. Molti formulano buoni propositi per l'anno che inizia.",
+          "funFacts": [
+            "In Spagna si mangia un chicco d'uva a ogni rintocco delle dodici campane — un desiderio per chicco.",
+            "In Danimarca si rompono stoviglie davanti alle porte degli amici per portare loro fortuna.",
+            "Il Concerto di Capodanno di Vienna è trasmesso in oltre 90 paesi — apertura musicale dell'anno.",
+            "A Kiritimati, nello Stato insulare di Kiribati, il Capodanno arriva 26 ore prima che sull’isola Howland."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "coming_of_age_day": {
+          "intro": "Il Giorno della maggiore età, il secondo lunedì di gennaio, celebra i giovani che hanno raggiunto l’età adulta.",
+          "history": "La festa celebra i giovani che entrano nella vita adulta. Affonda le radici in antichi riti di passaggio e fu istituita come festività nazionale nel 1948 per incoraggiare i giovani adulti a prendere il loro posto nella società.",
+          "traditions": "I comuni organizzano cerimonie che spesso continuano a essere rivolte ai ventenni. Molte ragazze indossano sontuosi kimono «furisode», gli uomini un completo o un abito tradizionale, e le famiglie scattano foto ricordo.",
+          "funFacts": [
+            "Molte donne indossano vivaci kimono «furisode» a maniche lunghe.",
+            "Da aprile 2022 la maggiore età è fissata a 18 anni, ma molte cerimonie continuano a celebrare i ventenni.",
+            "In Giappone la maggiore età è ora a 18 anni."
+          ]
+        },
+        "foundation_day": {
+          "intro": "Il Giorno della fondazione nazionale, l’11 febbraio, celebra la fondazione leggendaria del Giappone.",
+          "history": "La festa ricorda la leggendaria ascesa al trono dell’imperatore Jimmu, tradizionalmente datata al 660 a.C. La festività attuale fu istituita per legge nel 1966 e celebrata per la prima volta nel 1967.",
+          "traditions": "Rispetto alle feste nazionali di altri Paesi, le celebrazioni sono sobrie. Vi sono alcune cerimonie patriottiche e bandiere, oltre a qualche festa e sfilata, mentre molti semplicemente godono del giorno libero.",
+          "funFacts": [
+            "Ricorda il leggendario primo imperatore, Jimmu.",
+            "La data tradizionale di fondazione è il 660 a.C.",
+            "Fu ripristinato come festività nel 1966."
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "Il 3 maggio, il Giorno della Memoria della Costituzione, segna l'entrata in vigore della costituzione giapponese del dopoguerra. È una festa nazionale all'interno della Settimana d'Oro.",
+          "history": "La Costituzione è stata promulgata il 3 novembre 1946 ed è entrata in vigore il 3 maggio 1947. Essa stabilisce come principi centrali la sovranità popolare, i diritti umani fondamentali e il pacifismo. Il giorno festivo che commemora il suo inizio fu introdotto nel 1948.",
+          "traditions": "Dibattiti pubblici, mostre e dibattiti sui media esaminano la costituzione e il futuro del Paese. Gruppi politici e civici organizzano eventi che riflettono punti di vista diversi. Molte famiglie utilizzano la pausa della Golden Week anche per viaggi e visite.",
+          "funFacts": [
+            "Il suo nome giapponese è Kenpō Kinenbi.",
+            "La promulgazione e l'entrata in vigore sono avvenute in date diverse, a sei mesi di distanza.",
+            "L'articolo 9 è la nota disposizione della Costituzione sulla rinuncia alla guerra."
+          ]
+        },
+        "childrens_day": {
+          "intro": "La Giornata dei bambini, Kodomo no Hi, il 5 maggio celebra la loro felicità e salute. Le colorate maniche a vento a forma di carpa la rendono una delle feste primaverili più riconoscibili del Giappone.",
+          "history": "La festa si ispira al Tango no Sekku, un festival stagionale tradizionalmente associato ai ragazzi. Secondo la legge sui giorni festivi del 1948, il 5 maggio divenne la Giornata dei bambini, celebrando tutti i bambini ed esprimendo gratitudine alle madri. Fa parte del periodo festivo della Settimana d'Oro.",
+          "traditions": "Le famiglie espongono koinobori, maniche a vento a forma di carpa, ed elmetti o armature in miniatura. Si mangiano kashiwa mochi, dolci di riso avvolti in foglie di quercia, e varietà regionali di chimaki. Alcune famiglie fanno bagni profumati con foglie di calamo aromatico.",
+          "funFacts": [
+            "La carpa che nuota controcorrente simboleggia la forza e la perseveranza.",
+            "Kodomo significa bambino o bambini in giapponese.",
+            "La festività cade verso la fine della Settimana d'Oro, insieme a numerose altre festività nazionali."
+          ]
+        },
+        "culture_day": {
+          "intro": "Bunka no Hi, il 3 novembre, la Giornata della Cultura celebra la cultura e gli ideali di libertà e pace in Giappone. L'arte, l'apprendimento e la creatività sono al centro dell'attenzione.",
+          "history": "La Giornata della Cultura è stata istituita dalla legge sui giorni festivi del 1948. La sua data coincide con la promulgazione della costituzione giapponese del dopoguerra il 3 novembre 1946. La stessa data di calendario aveva precedentemente segnato il compleanno dell'Imperatore Meiji, ma la festività moderna ha uno scopo diverso.",
+          "traditions": "Musei, gallerie e istituzioni culturali organizzano mostre e programmi speciali. Le scuole e le comunità organizzano festival culturali. L'Imperatore conferisce l'Ordine della Cultura a persone riconosciute per gli eccezionali contributi alla vita culturale e intellettuale.",
+          "funFacts": [
+            "Bunka significa cultura in giapponese.",
+            "La Giornata della Cultura è il 3 novembre; Il 3 maggio ricorre il Giorno della Memoria della Costituzione.",
+            "Alcuni musei offrono l'ingresso gratuito o eventi speciali, a seconda dell'istituzione."
+          ]
+        }
+      },
+      "pl": {
+        "new_years_day": {
+          "intro": "1 stycznia oznacza początek nowego roku w kalendarzu gregoriańskim na całym świecie. Dla wielu jest to dzień nadziei, nowych początków i postanowień.",
+          "history": "Już w 153 r. p.n.e. Rzymianie ustalili początek roku na 1 stycznia, dzień objęcia urzędu nowych konsulów. W średniowieczu początek roku w wielu regionach przesunięto na Boże Narodzenie lub Wielkanoc. Kalendarz gregoriański wprowadzono w 1582 roku. Kraje europejskie przyjmowały go, podobnie jak początek roku 1 stycznia, w różnych terminach. Łacińska nazwa miesiąca, Ianuarius, pochodzi od rzymskiego boga Janusa, który dwiema twarzami spoglądał jednocześnie w przeszłość i przyszłość.",
+          "traditions": "O północy rodziny i przyjaciele wznoszą toast szampanem i świętują przejście do nowego roku fajerwerkami, talizmanami szczęścia (czterolistna koniczyna, kominiarz, biedronka) oraz tradycyjnym lanym ołowiem (dziś woskiem). Popularne są noworoczne brunche i spacery. Wielu składa noworoczne postanowienia.",
+          "funFacts": [
+            "W Hiszpanii zjada się winogronko z każdym z dwunastu uderzeń zegara — życzenie na każde winogronko.",
+            "W Danii rozbija się stare naczynia przed drzwiami przyjaciół, aby przyniosło im to szczęście.",
+            "Wiedeński Koncert Noworoczny transmitowany jest w ponad 90 krajach — muzyczne otwarcie roku.",
+            "Na Kiritimati w wyspiarskim państwie Kiribati Nowy Rok zaczyna się 26 godzin wcześniej niż na wyspie Howland."
+          ],
+          "imageCredit": "Zdjęcie: Vyacheslav Argenberg · CC BY 4.0 przez Wikimedia Commons"
+        },
+        "coming_of_age_day": {
+          "intro": "Dzień Pełnoletności, w drugi poniedziałek stycznia, świętuje młodych ludzi, którzy osiągnęli dorosłość.",
+          "history": "Święto celebruje wejście młodych ludzi w dorosłe życie. Wywodzi się z dawnych obrzędów przejścia i ustanowiono je jako święto narodowe w 1948 roku, by zachęcić młodych dorosłych do zajęcia miejsca w społeczeństwie.",
+          "traditions": "Samorządy organizują ceremonie, które często nadal są przeznaczone dla dwudziestolatków. Wiele młodych kobiet zakłada wystawne kimona „furisode”, mężczyźni garnitury lub strój tradycyjny, a rodziny robią pamiątkowe zdjęcia.",
+          "funFacts": [
+            "Wiele kobiet nosi barwne kimona „furisode” z długimi rękawami.",
+            "Od kwietnia 2022 roku pełnoletność osiąga się w wieku 18 lat, ale wiele ceremonii nadal dotyczy dwudziestolatków.",
+            "Pełnoletność w Japonii wynosi teraz 18 lat."
+          ]
+        },
+        "foundation_day": {
+          "intro": "Dzień Założenia Państwa, 11 lutego, świętuje legendarne założenie Japonii.",
+          "history": "Święto upamiętnia legendarne wstąpienie na tron cesarza Jimmu, tradycyjnie datowane na 660 r. p.n.e. Obecne święto ustanowiono ustawą w 1966 roku, a po raz pierwszy obchodzono je w 1967 roku.",
+          "traditions": "W porównaniu ze świętami narodowymi innych krajów obchody są stonowane. Odbywają się pewne uroczystości patriotyczne i wywieszanie flag oraz nieliczne festyny i pochody, a wielu po prostu cieszy się wolnym dniem.",
+          "funFacts": [
+            "Przypomina legendarnego pierwszego cesarza Jimmu.",
+            "Tradycyjna data założenia to 660 r. p.n.e.",
+            "Jako święto przywrócono go w 1966 roku."
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "Dzień Pamięci Konstytucji obchodzony 3 maja upamiętnia wejście w życie powojennej konstytucji Japonii. Jest to święto narodowe w ramach Złotego Tygodnia.",
+          "history": "Konstytucja została ogłoszona 3 listopada 1946 r. i weszła w życie 3 maja 1947 r. Jako główne zasady ustanawia suwerenność ludu, podstawowe prawa człowieka i pacyfizm. Święto państwowe upamiętniające jego rozpoczęcie zostało wprowadzone w 1948 roku.",
+          "traditions": "Wykłady publiczne, wystawy i dyskusje medialne dotyczą konstytucji i przyszłości kraju. Grupy polityczne i obywatelskie organizują wydarzenia odzwierciedlające różne poglądy. Wiele rodzin wykorzystuje przerwę w Złotym Tygodniu także na podróże i wizyty.",
+          "funFacts": [
+            "Jego japońska nazwa to Kenpō Kinenbi.",
+            "Ogłoszenie i wejście w życie nastąpiło w różnych terminach, w odstępie sześciu miesięcy.",
+            "Artykuł 9 to dobrze znany zapis konstytucji dotyczący wyrzeczenia się wojny."
+          ]
+        },
+        "childrens_day": {
+          "intro": "Dzień Dziecka, Kodomo no Hi, przypada 5 maja i jest świętem szczęścia oraz zdrowego rozwoju dzieci. Kolorowe rękawy wiatrowe w kształcie karpi sprawiają, że należy do najbardziej rozpoznawalnych wiosennych świąt Japonii.",
+          "history": "Święto nawiązuje do Tango no Sekku, sezonowego festiwalu tradycyjnie kojarzonego z chłopcami. Zgodnie z ustawą o święcie państwowym z 1948 r. 5 maja stał się Dniem Dziecka, w którym świętowano wszystkie dzieci i wyrażano wdzięczność matkom. Jest to część okresu świątecznego Złotego Tygodnia.",
+          "traditions": "Rodziny wywieszają koinobori, rękawy wiatrowe w kształcie karpi, oraz prezentują miniaturowe hełmy lub zbroje. Tradycyjne potrawy to kashiwa mochi, ciastka ryżowe w liściach dębu, i regionalne odmiany chimaki. Niektóre rodziny biorą kąpiele z aromatycznymi liśćmi tataraku.",
+          "funFacts": [
+            "Karp pływający pod prąd symbolizuje siłę i wytrwałość.",
+            "Kodomo oznacza po japońsku dziecko lub dzieci.",
+            "Święto przypada pod koniec Złotego Tygodnia, obok kilku innych świąt narodowych."
+          ]
+        },
+        "culture_day": {
+          "intro": "Dzień Kultury Bunka no Hi przypadający 3 listopada upamiętnia kulturę oraz ideały wolności i pokoju w Japonii. Sztuka, nauka i kreatywność zajmują centralne miejsce.",
+          "history": "Dzień Kultury został ustanowiony ustawą o święcie państwowym z 1948 roku. Jego data zbiega się z ogłoszeniem powojennej konstytucji Japonii 3 listopada 1946 roku. Ta sama data kalendarzowa wyznaczała wcześniej urodziny cesarza Meiji, jednak współczesne święto ma inny cel.",
+          "traditions": "Muzea, galerie i instytucje kultury organizują wystawy i specjalne programy. Szkoły i gminy organizują festiwale kulturalne. Cesarz nadaje Order Kultury osobom uznanym za wybitne zasługi w życiu kulturalnym i intelektualnym.",
+          "funFacts": [
+            "Bunka to po japońsku kultura.",
+            "Dzień Kultury przypada na 3 listopada; Dzień Pamięci Konstytucji przypada 3 maja.",
+            "Niektóre muzea oferują bezpłatne wstępy lub specjalne wydarzenia, w zależności od instytucji."
+          ]
+        }
+      },
+      "nl": {
+        "new_years_day": {
+          "intro": "1 januari markeert wereldwijd het begin van een nieuw jaar volgens de Gregoriaanse kalender. Voor velen is het een dag vol hoop, een nieuwe start en goede voornemens.",
+          "history": "Al in 153 v.Chr. stelden de Romeinen 1 januari vast als het begin van het jaar, de dag waarop de nieuwe consuls hun ambt aanvaardden. Tijdens de Middeleeuwen verschoof het begin van het jaar in veel regio’s naar Kerstmis of Pasen. De Gregoriaanse kalender werd in 1582 ingevoerd. Europese landen namen deze kalender en 1 januari als jaarbegin op verschillende momenten over. De naam januari is afgeleid van de Romeinse god Janus, die met zijn twee gezichten tegelijkertijd naar het verleden en de toekomst keek — een passend symbool voor deze dag.",
+          "traditions": "Om middernacht proosten families en vrienden met mousserende wijn en vieren ze de jaarwisseling met vuurwerk, geluksbrengers (klaver, schoorsteenveger, lieveheersbeestje) en het traditionele loodgieten (tegenwoordig wasgieten). Ook een nieuwjaarsbrunch en een wandeling in de frisse lucht zijn populair. Veel mensen nemen goede voornemens voor het komende jaar.",
+          "funFacts": [
+            "In Spanje eten mensen bij elk van de twaalf klokslagen één druif — één wens per druif.",
+            "In Denemarken breken mensen oud serviesgoed voor de deur van vrienden om hen geluk te brengen.",
+            "Het Nieuwjaarsconcert van Wenen wordt in meer dan 90 landen uitgezonden en geldt als de muzikale start van het jaar.",
+            "Op Kiritimati in de eilandstaat Kiribati begint het nieuwe jaar 26 uur eerder dan op Howland Island."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "coming_of_age_day": {
+          "intro": "Op de Dag van de Volwassenwording, die valt op de tweede maandag van januari, worden jongeren gevierd die volwassen zijn geworden.",
+          "history": "Deze feestdag viert de stap naar het volwassen leven. De feestdag vindt zijn oorsprong in oude volwassenheidsrituelen en werd in 1948 tot nationale feestdag uitgeroepen om jongvolwassenen aan te moedigen hun plaats in de samenleving in te nemen.",
+          "traditions": "Gemeenten organiseren ceremonies die vaak nog steeds voor twintigjarigen bedoeld zijn. Veel jonge vrouwen dragen prachtig versierde ‘furisode’-kimono’s en mannen dragen pakken of traditionele kleding, en gezinnen maken herdenkingsfoto’s.",
+          "funFacts": [
+            "Veel vrouwen dragen kleurrijke ‘furisode’-kimono’s met lange mouwen.",
+            "Sinds april 2022 ben je in Japan met 18 jaar meerderjarig, maar veel ceremonies blijven voor twintigjarigen.",
+            "De meerderjarigheidsleeftijd in Japan is nu 18 jaar."
+          ]
+        },
+        "foundation_day": {
+          "intro": "Op de Nationale Oprichtingsdag op 11 februari wordt de legendarische stichting van Japan gevierd.",
+          "history": "De dag herinnert aan de legendarische troonsbestijging van keizer Jimmu, die traditioneel op 660 v.Chr. wordt gedateerd. De huidige feestdag werd in 1966 bij wet ingesteld en in 1967 voor het eerst gevierd.",
+          "traditions": "In vergelijking met de nationale feestdagen van andere landen zijn de vieringen hier vrij bescheiden. Er zijn enkele patriottische ceremonies en vlaggenparades, en een paar festivals en optochten, terwijl veel mensen gewoon genieten van de vrije dag.",
+          "funFacts": [
+            "Het doet denken aan de legendarische eerste keizer, Jimmu.",
+            "Volgens de overlevering is de stichtingsdatum 660 v.Chr.",
+            "In 1966 werd het weer als feestdag ingevoerd."
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "Constitution Memorial Day op 3 mei markeert de inwerkingtreding van de naoorlogse grondwet van Japan. Het is een nationale feestdag binnen de Gouden Week.",
+          "history": "De grondwet werd afgekondigd op 3 november 1946 en trad in werking op 3 mei 1947. De grondwet stelt volkssoevereiniteit, fundamentele mensenrechten en pacifisme als centrale beginselen vast. De feestdag ter herdenking van het begin ervan werd geïntroduceerd in 1948.",
+          "traditions": "Openbare lezingen, tentoonstellingen en mediadiscussies onderzoeken de grondwet en de toekomst van het land. Politieke en maatschappelijke groeperingen organiseren evenementen die verschillende opvattingen weerspiegelen. Veel gezinnen maken ook gebruik van de Gouden Week voor reizen en bezoeken.",
+          "funFacts": [
+            "De Japanse naam is Kenpō Kinenbi.",
+            "De afkondiging en inwerkingtreding vonden plaats op verschillende data, met een tussenpoos van zes maanden.",
+            "Artikel 9 is de bekende bepaling van de grondwet over het afzweren van oorlog."
+          ]
+        },
+        "childrens_day": {
+          "intro": "Kinderdag, Kodomo no Hi, viert op 5 mei het geluk en de gezondheid van kinderen. Kleurrijke windzakken in de vorm van karpers maken het tot een van de herkenbaarste voorjaarsfeesten van Japan.",
+          "history": "De feestdag komt voort uit Tango no Sekku, een seizoensfeest dat traditioneel met jongens verbonden was. De feestdagenwet van 1948 maakte 5 mei tot Kinderdag, voor alle kinderen en als uiting van dankbaarheid aan moeders. De dag behoort tot de Gouden Week.",
+          "traditions": "Gezinnen hangen koinobori op, windzakken in de vorm van karpers, en tonen miniatuurhelmen of harnassen. Traditionele gerechten zijn kashiwa mochi, rijstgebak in eikenbladeren, en regionale varianten van chimaki. Sommige gezinnen nemen een bad met geurige kalmoesbladeren.",
+          "funFacts": [
+            "Karpers die stroomopwaarts zwemmen symboliseren kracht en doorzettingsvermogen.",
+            "Kodomo betekent kind of kinderen in het Japans.",
+            "Deze feestdag valt tegen het einde van de Gouden Week, naast verschillende andere nationale feestdagen."
+          ]
+        },
+        "culture_day": {
+          "intro": "Cultuurdag, Bunka no Hi, op 3 november viert cultuur en de idealen van vrijheid en vrede in Japan. Kunst, leren en creativiteit staan centraal.",
+          "history": "Cultuurdag werd ingesteld krachtens de feestdagwet van 1948. De datum valt samen met de afkondiging van de naoorlogse grondwet van Japan op 3 november 1946. Dezelfde kalenderdatum markeerde voorheen de verjaardag van keizer Meiji, maar de moderne feestdag heeft een ander doel.",
+          "traditions": "Musea, galeries en culturele instellingen organiseren tentoonstellingen en speciale programma's. Scholen en gemeenschappen organiseren culturele festivals. De keizer reikt de Orde van Cultuur uit aan mensen die worden erkend vanwege hun uitmuntende bijdragen aan het culturele en intellectuele leven.",
+          "funFacts": [
+            "Bunka betekent cultuur in het Japans.",
+            "Cultuurdag is op 3 november; Constitution Memorial Day is op 3 mei.",
+            "Sommige musea bieden gratis toegang of speciale evenementen aan, afhankelijk van de instelling."
+          ]
+        }
+      },
+      "sv": {
+        "new_years_day": {
+          "intro": "Den 1 januari markerar början på ett nytt år enligt den gregorianska kalendern över hela världen. För många är det en dag präglad av hopp, nystart och nyårslöften.",
+          "history": "Redan 153 f.Kr. fastställde romarna att året skulle börja den 1 januari, den dag då de nya konsulerna tillträdde sina ämbeten. Under medeltiden flyttades årets början i många regioner till jul eller påsk. Den gregorianska kalendern infördes 1582. Europas länder antog den och den 1 januari som årets början vid olika tidpunkter. Namnet januari härstammar från den romerske guden Janus, som med sina två ansikten blickade samtidigt mot det förflutna och framtiden – en passande symbol för dagen.",
+          "traditions": "Vid midnatt skålar familjer och vänner med mousserande vin och firar årsskiftet med fyrverkerier, lyckosymboler (klöver, sotare, nyckelpiga) och den traditionella blygjutningen (numera vaxgjutning). Nyårsbrunch och en promenad i friska luften är också populära inslag. Många sätter upp nyårslöften inför det kommande året.",
+          "funFacts": [
+            "I Spanien äter man en vindruva för varje klockslag av de tolv – en önskan per vindruva.",
+            "I Danmark brukar man krossa gammalt porslin framför vännernas dörrar för att önska dem lycka.",
+            "Nyårskonserten i Wien sänds i över 90 länder och räknas som årets musikaliska startskott.",
+            "På Kiritimati i önationen Kiribati börjar det nya året 26 timmar tidigare än på Howlandön."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "coming_of_age_day": {
+          "intro": "Vuxendagen, som infaller den andra måndagen i januari, firar ungdomar som har nått vuxen ålder.",
+          "history": "Helgdagen firar unga människors inträde i vuxenlivet. Den har sina rötter i forntida övergångsriter och infördes som nationell helgdag 1948 för att uppmuntra unga vuxna att ta sin plats i samhället.",
+          "traditions": "Kommunerna anordnar ceremonier som ofta fortfarande riktar sig till 20-åringar. Många unga kvinnor bär utsmyckade ”furisode”-kimonor och männen bär kostymer eller traditionella kläder, och familjerna tar minnesfoton.",
+          "funFacts": [
+            "Många kvinnor bär färgglada ”furisode”-kimonor med långa ärmar.",
+            "Myndighetsåldern sänktes till 18 år i april 2022, men många ceremonier firar fortfarande 20-åringar.",
+            "I Japan är myndighetsåldern numera 18 år."
+          ]
+        },
+        "foundation_day": {
+          "intro": "Den nationella grundläggningsdagen den 11 februari firar Japans legendariska grundande.",
+          "history": "Dagen minner om kejsar Jimmus legendariska tronbestigning, som traditionellt dateras till år 660 f.Kr. Den nuvarande helgdagen infördes genom lag 1966 och firades första gången 1967.",
+          "traditions": "Jämfört med andra länders nationaldagar är firandet ganska återhållsamt. Det hålls några patriotiska ceremonier och flaggceremonier, samt ett fåtal festivaler och parader, medan många helt enkelt njuter av ledigheten.",
+          "funFacts": [
+            "Det påminner om den legendariske förste kejsaren, Jimmu.",
+            "Det traditionella grundläggningsåret är 660 f.Kr.",
+            "Den återinfördes som helgdag år 1966."
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "Constitution Memorial Day den 3 maj markerar ikraftträdandet av Japans efterkrigskonstitution. Det är en nationell helgdag inom Golden Week.",
+          "history": "Konstitutionen promulgerades den 3 november 1946 och trädde i kraft den 3 maj 1947. Den fastställer folksuveränitet, grundläggande mänskliga rättigheter och pacifism som centrala principer. Den allmänna helgdagen till minne av dess början infördes 1948.",
+          "traditions": "Offentliga samtal, utställningar och mediadiskussioner granskar konstitutionen och landets framtid. Politiska och medborgerliga grupper håller evenemang som speglar olika åsikter. Många familjer använder också Golden Week-uppehållet för resor och besök.",
+          "funFacts": [
+            "Dess japanska namn är Kenpō Kinenbi.",
+            "Kungörelse och ikraftträdande skedde vid olika datum med sex månaders mellanrum.",
+            "Artikel 9 är konstitutionens välkända bestämmelse om att avstå från krig."
+          ]
+        },
+        "childrens_day": {
+          "intro": "Barnens dag, Kodomo no Hi, firas den 5 maj och lyfter fram barns lycka och hälsa. Färgglada vindstrutar i form av karpar gör den till en av Japans mest välkända vårhögtider.",
+          "history": "Helgdagen bygger på Tango no Sekku, en säsongsbetonad festival som traditionellt förknippas med pojkar. Under helgdagslagen från 1948 blev den 5 maj barnens dag, som firade alla barn och uttryckte tacksamhet till mammor. Det är en del av semesterperioden Golden Week.",
+          "traditions": "Familjer hänger upp koinobori, vindstrutar i form av karpar, och visar miniatyrhjälmar eller rustningar. Man äter kashiwa mochi, riskakor i eklöv, och regionala varianter av chimaki. Vissa familjer badar med doftande kalmusblad i vattnet.",
+          "funFacts": [
+            "Karp som simmar uppströms symboliserar styrka och uthållighet.",
+            "Kodomo betyder barn på japanska.",
+            "Helgdagen infaller nära slutet av Golden Week, tillsammans med flera andra nationella helgdagar."
+          ]
+        },
+        "culture_day": {
+          "intro": "Kulturdagen, Bunka no Hi, den 3 november firar kultur och idealen om frihet och fred i Japan. Konst, lärande och kreativitet står i centrum.",
+          "history": "Kulturdagen inrättades under helgdagslagen från 1948. Dess datum sammanfaller med promulgeringen av Japans efterkrigskonstitution den 3 november 1946. Samma kalenderdatum hade tidigare markerat kejsar Meijis födelsedag, men den moderna högtiden har ett annat syfte.",
+          "traditions": "Museer, gallerier och kulturinstitutioner håller utställningar och specialprogram. Skolor och samhällen anordnar kulturfestivaler. Kejsaren presenterar kulturorden till människor som är erkända för enastående bidrag till det kulturella och intellektuella livet.",
+          "funFacts": [
+            "Bunka betyder kultur på japanska.",
+            "Kulturdagen är den 3 november; Konstitutionens minnesdag är den 3 maj.",
+            "Vissa museer erbjuder gratis inträde eller speciella evenemang, beroende på institution."
+          ]
+        }
+      },
+      "nb": {
+        "new_years_day": {
+          "intro": "1. januar markerer starten på et nytt år i den gregorianske kalenderen rundt om i verden. For mange er det en dag med håp, en ny begynnelse og gode forsetter.",
+          "history": "Så tidlig som i 153 f.Kr. satte romerne starten på året den 1. januar, den dagen nye konsuler tiltrådte. I løpet av middelalderen skiftet starten av året i mange regioner til jul eller påske. Den gregorianske kalenderen ble innført i 1582. Europeiske land tok den og 1. januar som årets begynnelse i bruk på ulike tidspunkter. Navnet januar går tilbake til den romerske guden Janus, som så på fortiden og fremtiden samtidig med to ansikter - et passende symbol for dagen.",
+          "traditions": "Ved midnatt skåler familier og venner med musserende vin og feirer årsskiftet med fyrverkeri, lykkebringere (kløver, skorsteinsfeier, marihøne) og tradisjonell blyhelling (nå vokshelling). Nyttårsbrunsj og en tur i frisk luft er også populært. Mange setter seg mål for året som kommer.",
+          "funFacts": [
+            "I Spania spiser folk én drue med hvert av de tolv klokkeslagene – ett ønske per drue.",
+            "I Danmark knuser folk gammelt servise foran venners dører for å bringe dem flaks.",
+            "Wiens nyttårskonsert sendes i over 90 land og teller som årets musikalske kick-off.",
+            "På Kiritimati i øystaten Kiribati kommer det nye året 26 timer tidligere enn på Howland Island."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "coming_of_age_day": {
+          "intro": "Myndighetsdagen, den andre mandagen i januar, feirer unge mennesker som har nådd voksen alder.",
+          "history": "Høytiden markerer unge menneskers overgang til voksenlivet. Den har røtter i gamle overgangsritualer og ble satt som en nasjonal høytid i 1948 for å oppmuntre unge voksne til å ta sin plass i samfunnet.",
+          "traditions": "Kommunene holder seremonier som ofte fortsatt er rettet mot 20-åringer. Mange unge kvinner bærer forseggjort \"furisode\"-kimono og menn bruker dress eller tradisjonelle klær, og familier tar minnebilder.",
+          "funFacts": [
+            "Mange kvinner bruker en fargerik 'furisode'-kimono med lange ermer.",
+            "Myndighetsalderen ble senket til 18 år i april 2022, men mange seremonier feirer fortsatt 20-åringer.",
+            "Voksenalderen i Japan er nå 18."
+          ]
+        },
+        "foundation_day": {
+          "intro": "National Foundation Day 11. februar feirer den legendariske grunnleggelsen av Japan.",
+          "history": "Dagen minner om keiser Jimmus legendariske tronbestigelse, tradisjonelt datert til 660 f.Kr. Den nåværende helligdagen ble innført ved lov i 1966 og feiret første gang i 1967.",
+          "traditions": "Sammenlignet med andre lands nasjonaldager er feiringen lavmælt. Det er noen patriotiske seremonier og flaggutstillinger, og noen få festivaler og parader, mens mange bare nyter fridagen.",
+          "funFacts": [
+            "Den minner om den legendariske første keiseren, Jimmu.",
+            "Den tradisjonelle grunnlagsdatoen er 660 f.Kr.",
+            "Den nåværende helligdagen ble innført ved lov i 1966 og feiret første gang i 1967."
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "Grunnlovens minnedag 3. mai markerer at Japans etterkrigskonstitusjon trer i kraft. Det er en nasjonal høytid innenfor Golden Week.",
+          "history": "Grunnloven ble kunngjort 3. november 1946 og trådte i kraft 3. mai 1947. Den etablerer folkesuverenitet, grunnleggende menneskerettigheter og pasifisme som sentrale prinsipper. Helligdagen til minne om dens begynnelse ble introdusert i 1948.",
+          "traditions": "Offentlige samtaler, utstillinger og mediediskusjoner undersøker grunnloven og landets fremtid. Politiske og sivile grupper holder arrangementer som gjenspeiler forskjellige synspunkter. Mange familier bruker også Golden Week-pausen til reiser og besøk.",
+          "funFacts": [
+            "Det japanske navnet er Kenpō Kinenbi.",
+            "Kunngjøring og ikrafttredelse skjedde på forskjellige datoer med seks måneders mellomrom.",
+            "Artikkel 9 er grunnlovens velkjente bestemmelse om å gi avkall på krig."
+          ]
+        },
+        "childrens_day": {
+          "intro": "Barnas dag, Kodomo no Hi, feires 5. mai og setter barns lykke og helse i sentrum. Fargerike vindpølser formet som karper gjør dagen til en av Japans mest gjenkjennelige vårhøytider.",
+          "history": "Helligdagen bygger på Tango no Sekku, en sesongbasert festival som tradisjonelt forbindes med gutter. Under helligdagsloven av 1948 ble 5. mai barnas dag, som feirer alle barn og uttrykker takknemlighet til mødre. Det er en del av ferieperioden Golden Week.",
+          "traditions": "Familier henger opp koinobori, vindpølser formet som karper, og viser miniatyrhjelmer eller rustninger. Tradisjonell mat er kashiwa mochi, riskaker pakket i eikeblader, og regionale varianter av chimaki. Noen familier bader med duftende kalmusblader i vannet.",
+          "funFacts": [
+            "Karpe som svømmer oppstrøms symboliserer styrke og utholdenhet.",
+            "Kodomo betyr barn på japansk.",
+            "Helligdagen faller mot slutten av Golden Week, sammen med flere andre nasjonale helligdager."
+          ]
+        },
+        "culture_day": {
+          "intro": "Kulturdagen, Bunka no Hi, 3. november feirer kultur og idealene om frihet og fred i Japan. Kunst, læring og kreativitet står i sentrum.",
+          "history": "Kulturdagen ble opprettet under helligdagsloven av 1948. Datoen sammenfaller med kunngjøringen av Japans etterkrigskonstitusjon 3. november 1946. Den samme kalenderdatoen hadde tidligere markert keiser Meijis fødselsdag, men den moderne høytiden har et annet formål.",
+          "traditions": "Museer, gallerier og kulturinstitusjoner holder utstillinger og spesialprogrammer. Skoler og lokalsamfunn arrangerer kulturfestivaler. Keiseren presenterer kulturordenen til mennesker som er anerkjent for fremragende bidrag til det kulturelle og intellektuelle livet.",
+          "funFacts": [
+            "Bunka betyr kultur på japansk.",
+            "Kulturdagen er 3. november; Grunnlovsminnedagen er 3. mai.",
+            "Noen museer tilbyr gratis adgang eller spesielle arrangementer, avhengig av institusjon."
+          ]
+        }
+      },
+      "da": {
+        "new_years_day": {
+          "intro": "1. januar markerer starten på et nyt år i den gregorianske kalender rundt om i verden. For mange er det en dag med håb, nye begyndelser og gode forsætter.",
+          "history": "Så tidligt som i 153 f.Kr. satte romerne starten på året den 1. januar, den dag, hvor nye konsuler tiltrådte. I løbet af middelalderen skiftede starten af ​​året i mange regioner til jul eller påske. Den gregorianske kalender blev indført i 1582. Europæiske lande tog den og 1. januar som årets begyndelse i brug på forskellige tidspunkter. Navnet januar går tilbage til den romerske gud Janus, som samtidig så på fortiden og fremtiden med to ansigter - et passende symbol for dagen.",
+          "traditions": "Ved midnat skåler familier og venner med mousserende vin og fejrer årsskiftet med fyrværkeri, lykkebringere (kløver, skorstensfejer, mariehøne) og traditionel blyophældning (nu vokshældning). Nytårsbrunch og en tur i frisk luft er også populære. Mange mennesker laver nytårsforsætter for det kommende år.",
+          "funFacts": [
+            "I Spanien spiser man én drue med hvert af de tolv klokkeslag - ét ønske pr. drue.",
+            "I Danmark knuser folk gammelt service foran venners døre for at bringe dem held.",
+            "Wiens nytårskoncert sendes i over 90 lande og tæller som årets musikalske kick-off.",
+            "På Kiritimati i østaten Kiribati begynder det nye år 26 timer tidligere end på Howland Island."
+          ],
+          "imageCredit": "Foto: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "coming_of_age_day": {
+          "intro": "Myndighedsdagen, den anden mandag i januar, fejrer unge mennesker, der er blevet voksne.",
+          "history": "Højtiden markerer unges overgang til voksenlivet. Den har rødder i gamle overgangsritualer og blev sat som en national helligdag i 1948 for at opmuntre unge voksne til at tage deres plads i samfundet.",
+          "traditions": "Kommunerne holder ceremonier, som ofte stadig er for 20-årige. Mange unge kvinder bærer en kunstfærdig 'furisode'-kimono, og mænd bærer jakkesæt eller traditionel beklædning, og familier tager erindringsbilleder.",
+          "funFacts": [
+            "Mange kvinder bærer en farverig 'furisode'-kimono med lange ærmer.",
+            "Myndighedsalderen blev sænket til 18 år i april 2022, men mange ceremonier fejrer fortsat de 20-årige.",
+            "Voksenalderen i Japan er nu 18."
+          ]
+        },
+        "foundation_day": {
+          "intro": "National Foundation Day den 11. februar fejrer den legendariske grundlæggelse af Japan.",
+          "history": "Dagen mindes kejser Jimmus legendariske tronbestigelse, som traditionelt dateres til 660 f.Kr. Den nuværende helligdag blev indført ved lov i 1966 og fejret første gang i 1967.",
+          "traditions": "Sammenlignet med andre landes nationaldage er festlighederne afdæmpede. Der er nogle patriotiske ceremonier og flagudstillinger og et par festivaler og parader, mens mange mennesker simpelthen nyder fridagen.",
+          "funFacts": [
+            "Det minder om den legendariske første kejser, Jimmu.",
+            "Den traditionelle grundlæggelsesdato er 660 f.Kr.",
+            "Den nuværende helligdag blev indført ved lov i 1966 og fejret første gang i 1967."
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "Forfatningens mindedag den 3. maj markerer ikrafttrædelsen af Japans efterkrigsforfatning. Det er en national helligdag i Golden Week.",
+          "history": "Forfatningen blev bekendtgjort den 3. november 1946 og trådte i kraft den 3. maj 1947. Den etablerer folkesuverænitet, grundlæggende menneskerettigheder og pacifisme som centrale principper. Helligdagen til minde om dens begyndelse blev indført i 1948.",
+          "traditions": "Offentlige samtaler, udstillinger og mediediskussioner undersøger forfatningen og landets fremtid. Politiske og borgerlige grupper holder arrangementer, der afspejler forskellige synspunkter. Mange familier bruger også Golden Week-pausen til rejser og besøg.",
+          "funFacts": [
+            "Dens japanske navn er Kenpō Kinenbi.",
+            "Bekendtgørelse og ikrafttræden fandt sted på forskellige datoer med seks måneders mellemrum.",
+            "Artikel 9 er forfatningens velkendte bestemmelse om at give afkald på krig."
+          ]
+        },
+        "childrens_day": {
+          "intro": "Børnenes dag, Kodomo no Hi, fejres den 5. maj og sætter børns lykke og sundhed i centrum. Farverige vindposer formet som karper gør dagen til en af Japans mest genkendelige forårshøjtider.",
+          "history": "Helligdagen trækker på Tango no Sekku, en sæsonbestemt festival, der traditionelt forbindes med drenge. Under helligdagsloven af 1948 blev den 5. maj børnenes dag, hvor man fejrede alle børn og udtrykte taknemmelighed over for mødre. Det er en del af ferieperioden Golden Week.",
+          "traditions": "Familier hænger koinobori op, vindposer formet som karper, og udstiller miniaturehjelme eller rustninger. Man spiser kashiwa mochi, riskager pakket i egeblade, og regionale varianter af chimaki. Nogle familier tager bade med duftende kalmusblade.",
+          "funFacts": [
+            "Karpesvømning opstrøms symboliserer styrke og vedholdenhed.",
+            "Kodomo betyder barn eller børn på japansk.",
+            "Helligdagen falder nær slutningen af Golden Week sammen med flere andre nationale helligdage."
+          ]
+        },
+        "culture_day": {
+          "intro": "Kulturdagen, Bunka no Hi, den 3. november fejrer kulturen og idealerne om frihed og fred i Japan. Kunst, læring og kreativitet er i centrum.",
+          "history": "Kulturdagen blev indstiftet under helligdagsloven af 1948. Dens dato falder sammen med offentliggørelsen af Japans efterkrigsforfatning den 3. november 1946. Den samme kalenderdato havde tidligere markeret kejser Meijis fødselsdag, men den moderne helligdag har et andet formål.",
+          "traditions": "Museer, gallerier og kulturinstitutioner afholder udstillinger og særlige programmer. Skoler og lokalsamfund arrangerer kulturelle festivaler. Kejseren præsenterer kulturordenen til mennesker, der er anerkendt for enestående bidrag til det kulturelle og intellektuelle liv.",
+          "funFacts": [
+            "Bunka betyder kultur på japansk.",
+            "Kulturdagen er den 3. november; Grundlovsmindedag er den 3. maj.",
+            "Nogle museer tilbyder gratis adgang eller særlige arrangementer, afhængigt af institutionen."
+          ]
+        }
+      },
+      "fi": {
+        "new_years_day": {
+          "intro": "Tammikuun 1. päivänä alkaa uusi vuosi gregoriaanisessa kalenterissa kaikkialla maailmassa. Monille se on toivon, uusien alkujen ja hyvien päätösten päivä.",
+          "history": "Jo vuonna 153 eKr. roomalaiset asettivat vuoden alun tammikuun 1. päiväksi, jolloin uudet konsulit astuivat virkaan. Keskiajalla vuoden alku siirtyi monilla alueilla jouluun tai pääsiäiseen. Gregoriaaninen kalenteri otettiin käyttöön vuonna 1582. Euroopan maat omaksuivat sen ja tammikuun 1. päivän vuoden aluksi eri aikoina. Tammikuun latinankielinen nimi Ianuarius juontaa juurensa roomalaiselle jumalalle Janukselle, joka katsoi samanaikaisesti menneisyyteen ja tulevaisuuteen kahdella kasvolla – sopiva symboli tälle päivälle.",
+          "traditions": "Keskiyöllä perheet ja ystävät nostavat maljan kuohuviiniä ja juhlivat vuodenvaihdetta ilotulituksella, onnenkoruilla (apila, nuohoaja, leppäkerttu) ja perinteisellä lyijynvalannalla (nykyisin vahanvalannalla). Uudenvuoden brunssi ja raitisilmakävely ovat myös suosittuja. Monet ihmiset tekevät lupauksia tulevalle vuodelle.",
+          "funFacts": [
+            "Espanjassa ihmiset syövät yhden rypäleen kullakin kahdellatoista kelloniskulla – yksi toive rypälettä kohden.",
+            "Tanskassa ihmiset rikkovat vanhoja astioita ystävien ovien edessä tuodakseen heille onnea.",
+            "Wienin uudenvuoden konsertti lähetetään yli 90 maassa ja se lasketaan vuoden musiikilliseksi aloitukseksi.",
+            "Kiribatin saarivaltioon kuuluvalla Kiritimatilla uusi vuosi alkaa 26 tuntia aikaisemmin kuin Howlandinsaarella."
+          ],
+          "imageCredit": "Kuva: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "coming_of_age_day": {
+          "intro": "Aikuistumisen päivää vietetään tammikuun toisena maanantaina nuorten aikuisten kunniaksi.",
+          "history": "Juhlapäivänä juhlistetaan nuorten siirtymistä aikuisuuteen. Sen juuret ovat muinaisissa aikuistumisriiteissä, ja se asetettiin kansalliseksi juhlaksi vuonna 1948 rohkaisemaan nuoria aikuisia ottamaan paikkansa yhteiskunnassa.",
+          "traditions": "Kunnat järjestävät seremonioita, jotka on usein edelleen tarkoitettu 20-vuotiaille. Monet nuoret naiset pukeutuvat hienostuneeseen \"furisode\"-kimonoon ja miehet pukuun tai perinteiseen asuun, ja perheet ottavat muistokuvia.",
+          "funFacts": [
+            "Monet naiset pukeutuvat värikkäisiin, pitkähihaisiin furisode-kimonoihin.",
+            "Täysi-ikäisyyden raja laski 18 vuoteen huhtikuussa 2022, mutta monet seremoniat juhlistavat yhä 20-vuotiaita.",
+            "Aikuisuusikä Japanissa on nyt 18 vuotta."
+          ]
+        },
+        "foundation_day": {
+          "intro": "Kansallinen perustamispäivä 11. helmikuuta juhlii Japanin legendaarista perustamista.",
+          "history": "Päivä muistuttaa keisari Jimmun tarunomaisesta valtaannoususta, joka ajoitetaan perinteisesti vuoteen 660 eaa. Nykyinen juhlapäivä säädettiin lailla vuonna 1966, ja sitä vietettiin ensimmäisen kerran vuonna 1967.",
+          "traditions": "Muiden maiden kansallispäiviin verrattuna juhlat ovat vaatimattomia. Siellä on joitain isänmaallisia seremonioita ja lippunäytöksiä sekä muutamia festivaaleja ja paraatteja, kun taas monet ihmiset vain nauttivat vapaapäivästä.",
+          "funFacts": [
+            "Se muistuttaa legendaarista ensimmäistä keisaria, Jimmua.",
+            "Perinteinen perustamispäivä on 660 eaa.",
+            "Nykyinen juhlapäivä säädettiin lailla vuonna 1966, ja sitä vietettiin ensimmäisen kerran vuonna 1967."
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "Perustuslain muistopäivä 3. toukokuuta merkitsee Japanin sodanjälkeisen perustuslain voimaantuloa. Se on kultaisen viikon kansallinen vapaapäivä.",
+          "history": "Perustuslaki julkaistiin 3. marraskuuta 1946 ja tuli voimaan 3. toukokuuta 1947. Siinä vahvistetaan kansansuvereniteetti, perusihmisoikeudet ja pasifismi keskeisiksi periaatteiksi. Sen alkamisen muistojuhla otettiin käyttöön vuonna 1948.",
+          "traditions": "Julkisissa keskusteluissa, näyttelyissä ja mediakeskusteluissa tarkastellaan perustuslakia ja maan tulevaisuutta. Poliittiset ja kansalaisryhmät järjestävät erilaisia näkemyksiä kuvaavia tapahtumia. Monet perheet käyttävät Kultaisen viikon taukoa myös matkustamiseen ja vierailuihin.",
+          "funFacts": [
+            "Sen japanilainen nimi on Kenpō Kinenbi.",
+            "Julkaiseminen ja voimaantulo tapahtuivat eri päivinä kuuden kuukauden välein.",
+            "Artikla 9 on perustuslain tunnettu säännös sodasta luopumisesta."
+          ]
+        },
+        "childrens_day": {
+          "intro": "Lastenpäivää, Kodomo no Hi, vietetään 5. toukokuuta lasten onnellisuuden ja terveyden kunniaksi. Värikkäät karpinmuotoiset tuulipussit tekevät siitä yhden Japanin tunnetuimmista kevätjuhlista.",
+          "history": "Juhla perustuu Tango no Sekku -festivaaliin, joka on perinteisesti poikien sesonkitapahtuma. Vuoden 1948 yleisen vapaapäivälain mukaan 5. toukokuuta tuli lasten päivä, jolloin juhlitaan kaikkia lapsia ja ilmaistaan kiitollisuutta äideille. Se on osa kultaisen viikon loma-aikaa.",
+          "traditions": "Perheet ripustavat esille koinoboreja eli karpinmuotoisia tuulipusseja sekä pienoiskypäriä tai haarniskoja. Perinteisiä ruokia ovat tammenlehtiin käärityt kashiwa mochi -riisikakut ja alueelliset chimaki-versiot. Joissakin perheissä kylvetään tuoksuvien kalmojuuren lehtien kanssa.",
+          "funFacts": [
+            "Vastavirtaan uivat karpit symboloivat voimaa ja sinnikkyyttä.",
+            "Kodomo tarkoittaa lasta tai lapsia japaniksi.",
+            "Juhlapäivä osuu kultaisen viikon loppupuolelle yhdessä useiden muiden kansallisten vapaapäivien kanssa."
+          ]
+        },
+        "culture_day": {
+          "intro": "Kulttuuripäivä, Bunka no Hi, 3. marraskuuta juhlii Japanin kulttuuria sekä vapauden ja rauhan ihanteita. Taide, oppiminen ja luovuus ovat keskiössä.",
+          "history": "Kulttuuripäivä perustettiin vuoden 1948 yleisen vapaapäivälain nojalla. Sen päivämäärä on sama kuin Japanin sodanjälkeisen perustuslain julistaminen 3. marraskuuta 1946. Sama kalenteripäivä oli aiemmin ollut keisari Meijin syntymäpäivänä, mutta nykypäivällä on eri tarkoitus.",
+          "traditions": "Museot, galleriat ja kulttuurilaitokset järjestävät näyttelyitä ja erikoisohjelmaa. Koulut ja yhteisöt järjestävät kulttuurifestivaaleja. Keisari luovuttaa Kulttuuriritarikunnan ihmisille, jotka on tunnustettu erinomaisesta panoksesta kulttuuri- ja henkiseen elämään.",
+          "funFacts": [
+            "Bunka tarkoittaa kulttuuria japaniksi.",
+            "Kulttuuripäivä on 3. marraskuuta; Perustuslain muistopäivää vietetään 3. toukokuuta.",
+            "Jotkut museot tarjoavat ilmaisen sisäänpääsyn tai erikoistapahtumia laitoksesta riippuen."
+          ]
+        }
+      },
+      "ru": {
+        "new_years_day": {
+          "intro": "1 января знаменует собой начало нового года по григорианскому календарю во всем мире. Для многих это день надежды, новых начинаний и новых планов.",
+          "history": "Еще в 153 г. до н.э. римляне установили начало года 1 января, в день вступления в должность новых консулов. В средние века начало года во многих регионах переносилось на Рождество или Пасху. Григорианский календарь ввели в 1582 году. Европейские страны переходили на него и на начало года 1 января в разное время. Название «январь» восходит к римскому богу Янусу, который смотрел одновременно на прошлое и будущее двумя лицами — подходящий символ дня.",
+          "traditions": "В полночь семьи и друзья поднимают бокалы с игристым вином и отмечают начало года фейерверками, талисманами (клевер, трубочист, божья коровка) и традиционным гаданием на расплавленном свинце (сейчас чаще используют воск). Популярны также новогодние бранчи и прогулки на свежем воздухе. Многие люди дают себе обещания на предстоящий год.",
+          "funFacts": [
+            "В Испании люди съедают одну виноградинку при каждом из двенадцати ударов колокола — одно желание на виноградинку.",
+            "В Дании люди разбивают старую посуду перед дверями друзей, чтобы принести им удачу.",
+            "Венский новогодний концерт транслируется более чем в 90 странах и считается музыкальным началом года.",
+            "На Киритимати в островном государстве Кирибати Новый год наступает на 26 часов раньше, чем на острове Хауленд."
+          ],
+          "imageCredit": "Фото: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "coming_of_age_day": {
+          "intro": "День совершеннолетия, который отмечается во второй понедельник января, отмечает молодых людей, достигших совершеннолетия.",
+          "history": "Праздник посвящён вступлению молодых людей во взрослую жизнь. Он уходит корнями в древние обряды совершеннолетия и был установлен в качестве национального праздника в 1948 году, чтобы побудить молодых людей занять свое место в обществе.",
+          "traditions": "Муниципалитеты проводят церемонии, которые часто по-прежнему предназначены для двадцатилетних. Многие молодые женщины носят изысканные кимоно «фурисодэ», мужчины носят костюмы или традиционную одежду, а семьи делают памятные фотографии.",
+          "funFacts": [
+            "Многие женщины носят яркое кимоно «фурисодэ» с длинными рукавами.",
+            "С апреля 2022 года совершеннолетие наступает в 18 лет, но многие церемонии по-прежнему посвящены двадцатилетним.",
+            "Возраст совершеннолетия в Японии сейчас 18."
+          ]
+        },
+        "foundation_day": {
+          "intro": "День национального основания 11 февраля отмечает легендарное основание Японии.",
+          "history": "Праздник напоминает о легендарном восшествии на престол императора Дзимму, которое традиционно относят к 660 году до нашей эры. Современный праздник был учреждён законом в 1966 году и впервые отмечался в 1967 году.",
+          "traditions": "По сравнению с национальными праздниками других стран, празднования проходят сдержанно. Есть несколько патриотических церемоний и показов флагов, а также несколько фестивалей и парадов, а многие люди просто наслаждаются выходным днем.",
+          "funFacts": [
+            "Праздник напоминает о легендарном первом императоре Дзимму.",
+            "Традиционная дата основания – 660 г. до н.э.",
+            "Современный праздник учредили законом в 1966 году и впервые отметили в 1967 году."
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "День памяти Конституции 3 мая знаменует вступление в силу послевоенной конституции Японии. Это национальный праздник в рамках Золотой недели.",
+          "history": "Конституция была обнародована 3 ноября 1946 года и вступила в силу 3 мая 1947 года. Она устанавливает народный суверенитет, основные права человека и пацифизм в качестве центральных принципов. Государственный праздник в честь его начала был введен в 1948 году.",
+          "traditions": "Публичные беседы, выставки и дискуссии в СМИ рассматривают конституцию и будущее страны. Политические и гражданские группы проводят мероприятия, отражающие различные взгляды. Многие семьи также используют перерыв «Золотой недели» для путешествий и визитов.",
+          "funFacts": [
+            "Его японское имя - Кенпо Киненби.",
+            "Обнародование и вступление в силу произошли в разные даты с интервалом в шесть месяцев.",
+            "Статья 9 – это широко известное положение конституции об отказе от войны."
+          ]
+        },
+        "childrens_day": {
+          "intro": "День защиты детей, Кодомо-но-Хи, 5 мая отмечает детское счастье и здоровый рост. Красочные карповые ленты делают этот праздник одним из самых узнаваемых весенних праздников Японии.",
+          "history": "Праздник основан на Танго-но Сэкку, сезонном фестивале, который традиционно ассоциируется с мальчиками. Согласно закону о государственных праздниках 1948 года, 5 мая стал Днем защиты детей, в честь всех детей и в знак благодарности матерям. Это часть периода праздников Золотой недели.",
+          "traditions": "Семьи вывешивают коинобори — полые тканевые флаги в форме карпов — и выставляют миниатюрные шлемы или доспехи. Едят касива-моти, рисовые сладости в дубовых листьях, и региональные разновидности тимаки. В некоторых семьях принимают ванны с ароматными листьями аира.",
+          "funFacts": [
+            "Карп, плывущий против течения, символизирует силу и упорство.",
+            "Кодомо по-японски означает ребенок или дети.",
+            "Праздник приходится на конец Золотой недели, наряду с несколькими другими национальными праздниками."
+          ]
+        },
+        "culture_day": {
+          "intro": "День культуры Бунка-но-Хи, отмечаемый 3 ноября, посвящен культуре и идеалам свободы и мира в Японии. Искусство, обучение и творчество занимают центральное место.",
+          "history": "День культуры был учрежден в соответствии с законом о государственных праздниках 1948 года. Его дата совпадает с обнародованием послевоенной конституции Японии 3 ноября 1946 года. Ранее в эту же календарную дату отмечался день рождения императора Мэйдзи, но современный праздник имеет другую цель.",
+          "traditions": "Музеи, галереи и учреждения культуры проводят выставки и специальные программы. Школы и общины организуют культурные фестивали. Император вручает Орден Культуры людям, признанным за выдающийся вклад в культурную и интеллектуальную жизнь.",
+          "funFacts": [
+            "Бунка по-японски означает культура.",
+            "День культуры – 3 ноября; День памяти Конституции отмечается 3 мая.",
+            "Некоторые музеи предлагают бесплатный вход или специальные мероприятия, в зависимости от учреждения."
+          ]
+        }
+      },
+      "uk": {
+        "new_years_day": {
+          "intro": "1 січня відзначає початок нового року за григоріанським календарем у всьому світі. Для багатьох це день надії, нових починань і нових планів.",
+          "history": "Ще в 153 році до нашої ери римляни встановили початок року 1 січня, день, коли нові консули вступали на посаду. У середні віки початок року в багатьох регіонах зміщувався на Різдво чи Великдень. Григоріанський календар запровадили 1582 року. Європейські країни переходили на нього та на початок року 1 січня в різний час. Англійська назва січня January походить від римського бога Януса, який двома обличчями дивився одночасно на минуле і майбутнє — відповідний символ дня.",
+          "traditions": "Опівночі родини та друзі піднімають келихи з ігристим вином і святкують початок року феєрверками, щасливими талісманами (конюшина, сажотрус, сонечко) і традиційним ворожінням на розплавленому свинці (нині частіше використовують віск). Також популярний новорічний бранч і прогулянка на свіжому повітрі. Багато людей дають собі обіцянки на прийдешній рік.",
+          "funFacts": [
+            "В Іспанії люди їдять одну виноградину під час кожного з дванадцяти ударів дзвоника — одне бажання на кожну виноградину.",
+            "У Данії люди розбивають старий посуд перед дверима друзів, щоб принести їм удачу.",
+            "Віденський новорічний концерт транслюється в понад 90 країнах і вважається музичним початком року.",
+            "На Кіритіматі в острівній державі Кірибаті Новий рік настає на 26 годин раніше, ніж на острові Гауленд."
+          ],
+          "imageCredit": "Фото: Vyacheslav Argenberg · CC BY 4.0 via Wikimedia Commons"
+        },
+        "coming_of_age_day": {
+          "intro": "У другий понеділок січня відзначають День повноліття — свято вступу молоді в доросле життя.",
+          "history": "Свято присвячене вступу молоді в доросле життя. Воно сягає корінням у стародавні обряди повноліття і було встановлено як національне свято в 1948 році, щоб заохотити молодь зайняти своє місце в суспільстві.",
+          "traditions": "Муніципалітети проводять церемонії, які часто й надалі призначені для двадцятирічних. Багато молодих жінок носять вишукані кімоно «фурісоди», а чоловіки — костюми чи традиційний одяг, а сім’ї роблять фото на пам’ять.",
+          "funFacts": [
+            "Багато жінок носять яскраві кімоно типу «фурізоди» з довгими рукавами.",
+            "З квітня 2022 року повноліття настає у 18 років, але багато церемоній і далі присвячені двадцятирічним.",
+            "Вік повноліття в Японії зараз становить 18 років."
+          ]
+        },
+        "foundation_day": {
+          "intro": "Національний день заснування 11 лютого відзначає легендарне заснування Японії.",
+          "history": "Свято нагадує про легендарне сходження на престол імператора Дзімму, яке традиційно датують 660 роком до нашої ери. Сучасне свято встановили законом у 1966 році, а вперше відзначили у 1967 році.",
+          "traditions": "У порівнянні з національними днями інших країн святкування стримані. Є кілька патріотичних церемоній і демонстрацій прапорів, а також кілька фестивалів і парадів, тоді як багато людей просто насолоджуються вихідним днем.",
+          "funFacts": [
+            "Це нагадує легендарного першого імператора Джімму.",
+            "Традиційною датою заснування вважається 660 рік до нашої ери.",
+            "Сучасне свято встановили законом у 1966 році, а вперше відзначили 1967 року."
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "День пам’яті Конституції 3 травня відзначає набуття чинності післявоєнної конституції Японії. Це національне свято в рамках Золотого тижня.",
+          "history": "Конституція була проголошена 3 листопада 1946 року та набула чинності 3 травня 1947 року. Вона встановлює народний суверенітет, основні права людини та пацифізм як головні принципи. Державне свято на честь його початку було введено в 1948 році.",
+          "traditions": "Публічні бесіди, виставки та дискусії в ЗМІ розглядають конституцію та майбутнє країни. Політичні та громадські групи проводять заходи, що відображають різні погляди. Багато сімей також використовують перерву на Золотому тижні для подорожей і візитів.",
+          "funFacts": [
+            "Його японська назва Kenpō Kinenbi.",
+            "Промульгація та набуття чинності відбулися в різні дати з інтервалом у шість місяців.",
+            "Стаття 9 — відоме положення конституції про відмову від війни."
+          ]
+        },
+        "childrens_day": {
+          "intro": "День захисту дітей, Kodomo no Hi, 5 травня відзначає щастя та здорове зростання дітей. Різнокольорові коропові серпантини роблять це одне з найвідоміших весняних свят Японії.",
+          "history": "Це свято засноване на сезонному фестивалі Tango no Sekku, який традиційно асоціюється з хлопцями. Відповідно до закону про державні свята 1948 року, 5 травня стало Днем захисту дітей, вшановуючи всіх дітей і висловлюючи вдячність матерям. Це частина святкового періоду Золотого тижня.",
+          "traditions": "Сім’ї вивішують койноборі — порожнисті тканинні прапори у формі коропів — та виставляють мініатюрні шоломи чи обладунки. Їдять касіва-моті, рисові солодощі в дубовому листі, та місцеві різновиди тімакі. Деякі родини приймають ванни з ароматним листям аїру.",
+          "funFacts": [
+            "Короп, що пливе проти течії, символізує силу та наполегливість.",
+            "Кодомо японською означає дитина або діти.",
+            "Свято припадає на кінець Золотого тижня разом із кількома іншими національними святами."
+          ]
+        },
+        "culture_day": {
+          "intro": "День культури, Bunka no Hi, 3 листопада відзначає культуру та ідеали свободи та миру в Японії. Мистецтво, навчання та творчість займають центральне місце.",
+          "history": "День культури було встановлено відповідно до закону про державні свята 1948 року. Його дата збігається з проголошенням післявоєнної конституції Японії 3 листопада 1946 року. Ця ж календарна дата раніше відзначала день народження імператора Мейдзі, але сучасне свято має іншу мету.",
+          "traditions": "Музеї, галереї та заклади культури проводять виставки та спеціальні програми. Школи та громади організовують культурні фестивалі. Імператор вручає орден Культури людям, відзначеним за видатний внесок у культурне та інтелектуальне життя.",
+          "funFacts": [
+            "Бунка японською означає культура.",
+            "День культури – 3 листопада; День пам'яті Конституції - 3 травня.",
+            "Деякі музеї пропонують безкоштовний вхід або спеціальні заходи, залежно від установи."
+          ]
+        }
+      },
+      "ja": {
+        "new_years_day": {
+          "intro": "1月1日は、世界中でグレゴリオ暦による新年の始まりを告げる日です。多くの人々にとって、この日は希望に満ちた日であり、新たなスタートを切る日であり、新年の抱負を立てる日でもあります。",
+          "history": "早くも紀元前153年、ローマ人は新年の始まりを、新任の執政官が就任する1月1日と定めた。中世になると、多くの地域で新年の始まりはクリスマスやイースターへと移っていった。 グレゴリオ暦は1582年に導入されました。ヨーロッパ各国がこの暦を採用した時期や、1月1日を年初とした時期は、それぞれ異なります。英語の「1月（January）」という名称は、二つの顔で過去と未来を同時に見つめていたローマの神ヤヌスに由来しており、この日はまさにその神にふさわしい象徴である。",
+          "traditions": "真夜中になると、家族や友人はスパークリングワインで乾杯し、花火や縁起物（クローバー、煙突掃除人、てんとう虫）、そして伝統的な鉛流し（現在は蝋流し）で年越しを祝います。新年のブランチや、新鮮な空気を吸いながらの散歩も人気です。多くの人が、その年の抱負を立てます。",
+          "funFacts": [
+            "スペインでは、鐘が12回鳴るたびに、そのたびにブドウを1粒ずつ食べます。ブドウ1粒ごとに1つの願いを込めるのです。",
+            "デンマークでは、友人たちの家の玄関先で古い食器を割ることで、その人たちに幸運をもたらす習慣があります。",
+            "ウィーンの新年コンサートは90カ国以上で放送され、その年の音楽界の幕開けとして知られています。",
+            "島国キリバスのキリティマティ島では、ハウランド島よりも26時間早く新年を迎えます。"
+          ],
+          "imageCredit": "写真：ヴィャチェスラフ・アルゲンベルク · CC BY 4.0（ウィキメディア・コモンズ経由）"
+        },
+        "coming_of_age_day": {
+          "intro": "1月の第2月曜日に行われる「成人の日」は、成人となった若者たちを祝う日です。",
+          "history": "成人の日は、若者の大人としての門出を祝う日です。その起源は古代の成人式にあり、若者が社会の一員としての役割を果たすよう促すため、1948年に国民の祝日として制定されました。",
+          "traditions": "自治体の式典は、今も20歳になる人を対象とするものが多くあります。多くの若い女性は華やかな「振袖」を着て、男性はスーツや和装を身に着け、家族と一緒に記念写真を撮ります。",
+          "funFacts": [
+            "多くの女性が、鮮やかな色の長袖の「振袖」を着ています。",
+            "2022年4月に成年年齢は18歳へ引き下げられましたが、多くの自治体では今も20歳を対象に式典を開いています。",
+            "日本では現在、成人の年齢は18歳となっています。"
+          ]
+        },
+        "foundation_day": {
+          "intro": "2月11日の「建国記念の日」は、日本の伝説的な建国を祝う日です。",
+          "history": "この日は、伝説上の初代天皇である神武天皇が紀元前660年に即位したとされる日に由来します。現在の祝日は1966年に法律で定められ、1967年に初めて祝われました。",
+          "traditions": "他国の建国記念日と比べると、祝賀行事は控えめだ。愛国的な式典や国旗の掲揚、いくつかの祭りやパレードが行われるものの、多くの人々は単に休日を楽しんでいる。",
+          "funFacts": [
+            "それは、伝説の初代天皇である神武天皇を彷彿とさせる。",
+            "伝統的な建国年は紀元前660年とされています。",
+            "現在の祝日は1966年の法律で定められ、1967年に初めて祝われました。"
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "5 月 3 日の憲法記念日は、日本の戦後憲法の発効を記念します。ゴールデンウイーク内の祝日です。",
+          "history": "憲法は 1946 年 11 月 3 日に公布され、1947 年 5 月 3 日に発効しました。この憲法は、国民主権、基本的人権、平和主義を中心原則として確立しています。これを記念する祝日は 1948 年に導入されました。",
+          "traditions": "公開講演、展示会、メディアでの議論により、憲法と国の将来が検討されます。政治団体や市民団体は、さまざまな意見を反映するイベントを開催します。ゴールデンウイークを旅行や帰省に利用するご家庭も多いでしょう。",
+          "funFacts": [
+            "日本名は憲法記念日。",
+            "憲法の公布から施行までは6か月の間隔がありました。",
+            "第 9 条は、戦争放棄に関する憲法のよく知られた条項です。"
+          ]
+        },
+        "childrens_day": {
+          "intro": "5月5日のこどもの日は、子どもたちの幸福と健やかな成長を願う祝日です。色鮮やかな鯉のぼりが、日本の春の風景を彩ります。",
+          "history": "この祝日は、伝統的に男の子と関連付けられている季節のお祭り、端午の節句に基づいています。 1948 年の祝日法に基づき、5 月 5 日はすべての子どもを祝い、母親への感謝の気持ちを表す「こどもの日」となりました。ゴールデンウイーク期間の一部です。",
+          "traditions": "家庭では鯉のぼりや兜、鎧飾りを飾ります。柏の葉で包んだ柏餅や、地域によって異なるちまきも親しまれています。菖蒲の葉を浮かべた菖蒲湯に入る習慣もあります。",
+          "funFacts": [
+            "遡上する鯉は強さと忍耐力を象徴しています。",
+            "コドモは日本語で子供を意味します。",
+            "この祝日は、他のいくつかの祝日と同じく、ゴールデン ウィークの終わり近くにあたります。"
+          ]
+        },
+        "culture_day": {
+          "intro": "11月3日の文化の日は、自由と平和を愛し、文化を大切にする祝日です。芸術や学び、創作に親しむさまざまな催しが行われます。",
+          "history": "文化の日は、1948 年の祝日法に基づいて制定されました。その日は、1946 年 11 月 3 日の戦後日本憲法の公布と一致します。以前は同じ暦日が明治天皇の誕生日でしたが、現代の祝日には異なる目的があります。",
+          "traditions": "博物館、ギャラリー、文化施設では、展覧会や特別プログラムが開催されます。学校や地域社会が文化祭を主催します。天皇は、文化的および知的生活への顕著な貢献を認められた人物に文化勲章を授与します。",
+          "funFacts": [
+            "Bunkaは日本語で文化を意味します。",
+            "文化の日は 11 月 3 日です。憲法記念日は5月3日です。",
+            "博物館によっては、入場無料または特別イベントを開催している場合があります。"
+          ]
+        }
+      },
+      "ko": {
+        "new_years_day": {
+          "intro": "1월 1일은 전 세계적으로 그레고리력에 따른 새해의 시작을 알리는 날입니다. 많은 이들에게 이 날은 희망과 새로운 시작, 그리고 새해 결심을 다지는 날입니다.",
+          "history": "기원전 153년 무렵, 로마인들은 새 집정관이 취임하는 날인 1월 1일을 한 해의 시작으로 정했습니다. 중세 시대에는 많은 지역에서 한 해의 시작이 크리스마스나 부활절로 바뀌었습니다. 그레고리력은 1582년에 도입됐습니다. 유럽 각국이 이 달력을 채택한 시기와 1월 1일을 한 해의 시작으로 정한 시기는 서로 달랐습니다. ‘1월(January)’이라는 이름은 두 개의 얼굴로 과거와 미래를 동시에 바라보던 로마 신 야누스(Janus)에서 유래한 것으로, 이 날을 상징하기에 더할 나위 없이 적합한 이름입니다.",
+          "traditions": "자정이 되면 가족과 친구들은 스파클링 와인으로 건배를 나누고, 불꽃놀이와 행운의 상징(클로버, 굴뚝 청소부, 무당벌레), 그리고 전통적인 납 부어보기(현재는 왁스 부어보기)를 통해 새해의 시작을 축하합니다. 새해 브런치와 야외 산책도 인기가 많습니다. 많은 사람들이 다가올 한 해를 위한 새해 결심을 세우기도 합니다.",
+          "funFacts": [
+            "스페인에서는 종소리가 12번 울릴 때마다 포도 한 알씩 먹는데, 포도 한 알마다 소원 하나를 빌게 됩니다.",
+            "덴마크에서는 친구들에게 행운을 빌어주기 위해 친구 집 문 앞에서 낡은 그릇을 깨뜨리는 풍습이 있습니다.",
+            "비엔나 신년 콘서트는 90여 개국에서 방송되며, 한 해의 음악 활동을 시작하는 행사로 꼽힌다.",
+            "섬나라 키리바티의 키리티마티섬에서는 하울랜드섬보다 26시간 먼저 새해를 맞이합니다."
+          ],
+          "imageCredit": "사진: Vyacheslav Argenberg · CC BY 4.0 (위키미디어 공용 제공)"
+        },
+        "coming_of_age_day": {
+          "intro": "1월 둘째 주 월요일인 성년의 날은 성인이 된 젊은이들을 축하하는 날입니다.",
+          "history": "성년의 날은 젊은이들이 어른으로서 새 출발을 하는 것을 축하하는 날입니다. 이 날은 고대의 성인식에서 유래했으며, 젊은이들이 사회에서 제 몫을 다하도록 장려하기 위해 1948년에 공휴일로 지정되었습니다.",
+          "traditions": "지방자치단체의 기념행사는 여전히 스무 살이 되는 사람들을 대상으로 하는 경우가 많습니다. 많은 젊은 여성들은 화려한 ‘후리소데’ 기모노를 입고, 남성들은 정장이나 전통 의상을 차려입으며, 가족들은 기념사진을 찍습니다.",
+          "funFacts": [
+            "많은 여성들이 소매가 긴 밝은 색의 ‘후리소데’ 기모노를 입습니다.",
+            "2022년 4월부터 법적 성년은 18세지만, 많은 기념행사는 여전히 스무 살을 대상으로 합니다.",
+            "일본의 성인 연령은 현재 18세입니다."
+          ]
+        },
+        "foundation_day": {
+          "intro": "2월 11일 ‘건국 기념일’은 일본의 전설적인 건국 과정을 기념하는 날입니다.",
+          "history": "이 날은 전설 속 초대 천황인 진무 천황이 기원전 660년에 즉위했다는 이야기에서 유래했습니다. 현재의 공휴일은 1966년 법으로 제정되었으며 1967년에 처음 기념했습니다.",
+          "traditions": "다른 나라들의 국경일에 비하면 기념 행사는 비교적 소박하게 치러집니다. 애국적인 행사와 국기 게양식이 열리고, 몇 가지 축제와 퍼레이드도 있지만, 많은 사람들은 그저 휴일을 즐기며 보냅니다.",
+          "funFacts": [
+            "이는 전설적인 초대 황제인 진무 천황을 떠올리게 한다.",
+            "전통적으로 전해지는 건국 연도는 기원전 660년입니다.",
+            "현재의 공휴일은 1966년 법으로 제정되어 1967년에 처음 기념되었습니다."
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "5월 3일 헌법기념일은 일본의 전후 헌법이 시행된 것을 기념하는 날입니다. 골든위크에 포함되는 공휴일입니다.",
+          "history": "헌법은 1946년 11월 3일에 공포되었고 1947년 5월 3일에 발효되었습니다. 이 헌법은 국민주권, 기본적 인권, 평화주의를 핵심 원칙으로 삼고 있습니다. 1948년부터 이를 기념하는 공휴일이 제정됐다.",
+          "traditions": "공개 강연, 전시회 및 미디어 토론을 통해 헌법과 국가의 미래를 검토합니다. 정치·시민단체에서는 서로 다른 견해를 반영하는 행사를 연다. 많은 가족들이 골든위크 연휴를 여행과 방문을 위해 활용합니다.",
+          "funFacts": [
+            "일본 이름은 Kenpō Kinenbi입니다.",
+            "공포와 발효는 6개월 간격을 두고 다른 날짜에 이루어졌습니다.",
+            "헌법 9조는 전쟁 포기에 관한 잘 알려진 조항이다."
+          ]
+        },
+        "childrens_day": {
+          "intro": "5월 5일 어린이날인 고도모노히는 어린이의 행복과 건강한 성장을 기리는 날입니다. 알록달록한 잉어 모양 깃발이 일본의 봄 풍경을 장식합니다.",
+          "history": "이 휴일은 전통적으로 소년과 관련된 계절 축제인 Tango no Sekku를 따릅니다. 1948년 공휴일법에 따라 5월 5일은 모든 어린이를 축하하고 어머니들에게 감사를 표하는 어린이날이 되었습니다. 골든위크 연휴 기간의 일부입니다.",
+          "traditions": "가족들은 코이노보리 잉어 깃발과 소형 투구 또는 갑옷을 전시합니다. 전통 음식으로는 카시와모치, 참나무 잎으로 싸인 떡, 지역 품종의 치마키 등이 있습니다. 어떤 집에서는 창포잎 향을 맡아 목욕을 합니다.",
+          "funFacts": [
+            "상류로 헤엄치는 잉어는 힘과 인내를 상징합니다.",
+            "고도모는 일본어로 어린이를 뜻합니다.",
+            "이 휴일은 다른 여러 공휴일과 함께 골든위크가 끝나갈 무렵에 해당됩니다."
+          ]
+        },
+        "culture_day": {
+          "intro": "문화의 날인 Bunka no Hi는 11월 3일에 일본의 문화와 자유 및 평화의 이상을 기념하는 날입니다. 예술, 학습, 창의성이 중심이 됩니다.",
+          "history": "문화의 날은 1948년 공휴일법에 따라 제정되었습니다. 이 날은 1946년 11월 3일 일본의 전후 헌법이 공포된 날과 일치합니다. 이전에는 같은 달력 날짜가 메이지 천황의 생일을 표시했지만 현대의 휴일은 다른 목적을 가지고 있습니다.",
+          "traditions": "박물관, 미술관, 문화 기관에서는 전시회와 특별 프로그램을 개최합니다. 학교와 지역사회에서는 문화 축제를 조직합니다. 황제는 문화 및 지적 생활에 탁월한 공헌을 한 사람들에게 문화 훈장을 수여합니다.",
+          "funFacts": [
+            "분카는 일본어로 문화를 뜻합니다.",
+            "문화의 날은 11월 3일입니다. 제헌절은 5월 3일이다.",
+            "일부 박물관에서는 기관에 따라 무료 입장 또는 특별 이벤트를 제공합니다."
+          ]
+        }
+      },
+      "zh-Hant": {
+        "new_years_day": {
+          "intro": "1月1日標誌著全球公曆新年的開始。對許多人來說，這是充滿希望、嶄新起點與美好決心的日子。",
+          "history": "早在公元前153年，羅馬人便將新年的起始日定為1月1日，即新任執政官就職之日。中世紀期間，許多地區的新年起始日轉變為聖誕節或復活節。 格里曆於1582年開始實施，但歐洲各國採用這套曆法及將1月1日定為年初的時間並不相同。「一月」（January）這個名稱源自羅馬神祇雅努斯（Janus），他擁有兩張面孔，能同時凝視過去與未來——這正是對這一天的恰當象徵。",
+          "traditions": "午夜時分，親友們舉起氣泡酒共飲，並以煙火、吉祥物（三葉草、煙囪清掃工、瓢蟲）以及傳統的鉛鑄（現已改為蠟鑄）儀式來慶祝新年到來。新年早午餐和戶外散步也是很受歡迎的活動。許多人會為新的一年訂立新年決議。",
+          "funFacts": [
+            "在西班牙，人們會隨著鐘聲敲響的十二下，每響吃一顆葡萄——每顆葡萄代表一個願望。",
+            "在丹麥，人們會將舊陶器砸在朋友家門前，以祈求他們好運。",
+            "維也納新年音樂會的轉播遍及90多個國家，被視為年度音樂盛事的開端。",
+            "在島國吉里巴斯的吉里地馬地島，新年比豪蘭島早到來26小時。"
+          ],
+          "imageCredit": "照片：維亞切斯拉夫·阿根伯格 · 透過維基共享資源，採用 CC BY 4.0 授權"
+        },
+        "coming_of_age_day": {
+          "intro": "「成人日」定於一月的第二個星期一，旨在慶祝已邁入成年的年輕人。",
+          "history": "成人日慶祝年輕人邁入成年生活。其源於古代的成年禮，並於1948年被定為國定假日，旨在鼓勵年輕成年人融入社會。",
+          "traditions": "許多地方政府的慶祝儀式仍以年滿20歲的年輕人為對象。許多年輕女性身著華麗的「振袖」和服，男性則穿著西裝或傳統服裝，全家人會一起拍攝紀念照。",
+          "funFacts": [
+            "許多女性身穿色彩鮮豔、長袖的「振袖」和服。",
+            "日本在2022年4月將法定成年年齡降為18歲，但許多地方政府仍為20歲的年輕人舉辦儀式。",
+            "在日本，成年年齡現已定為18歲。"
+          ]
+        },
+        "foundation_day": {
+          "intro": "2月11日的「建國紀念日」是為了紀念日本傳說中的建國。",
+          "history": "這一天源於神武天皇在西元前660年登基的傳說。現行節日於1966年立法設立，並在1967年首次慶祝。",
+          "traditions": "與其他國家的國慶日相比，慶祝活動較為低調。雖然會有一些愛國儀式和升旗活動，以及少數節慶和遊行，但許多人只是單純地享受這一天的假期。",
+          "funFacts": [
+            "這讓人聯想到傳說中的第一位皇帝——神武天皇。",
+            "傳說中的建國年份是西元前660年，並非經歷史證實的日期。",
+            "現行節日於1966年立法設立，1967年首次慶祝。"
+          ]
+        },
+        "constitution_memorial_day": {
+          "intro": "5 月 3 日憲法紀念日標誌著日本戰後憲法的生效。這是黃金周內的國定假日。",
+          "history": "憲法於1946年11月3日頒布，並於1947年5月3日生效。它將人民主權、基本人權和和平主義確立為核心原則。 1948 年設立了紀念其成立的公眾假期。",
+          "traditions": "公開演講、展覽和媒體討論審視憲法和國家的未來。政治和民間團體舉辦反映不同觀點的活動。許多家庭也利用黃金周假期去旅遊、探親。",
+          "funFacts": [
+            "它的日文名稱是 Kenpō Kinenbi。",
+            "頒布和生效的日期不同，相隔六個月。",
+            "第九條是眾所周知的憲法關於放棄戰爭的規定。"
+          ]
+        },
+        "childrens_day": {
+          "intro": "兒童節，Kodomo no Hi，5 月 5 日慶祝孩子們的幸福和健康成長。色彩繽紛的鯉魚旗使其成為日本最知名的春季假期之一。",
+          "history": "這個節日源自 Tango no Sekku，這是一個傳統上與男孩相關的季節性節日。根據 1948 年的公共假期法，5 月 5 日成為兒童節，慶祝所有兒童並向母親表示感謝。這是黃金周假期的一部分。",
+          "traditions": "家庭懸掛鯉魚旗，並展示小型頭盔或鎧甲。傳統食品包括用槲葉包裹的柏餅，以及各地不同風味的日式粽子。有些家庭會在浴池中放入菖蒲葉，享受菖蒲湯浴。",
+          "funFacts": [
+            "鯉魚逆流而上，象徵力量和毅力。",
+            "Kodomo 在日文中的意思是「孩子」。",
+            "這個假期接近黃金週結束時，還有其他幾個國家假期。"
+          ]
+        },
+        "culture_day": {
+          "intro": "文化日（Bunka no Hi）於 11 月 3 日慶祝日本的文化以及自由與和平的理想。藝術、學習和創造力佔據中心舞台。",
+          "history": "文化日是根據1948年的公共假期法而設立的。它的日期與日本戰後憲法於1946年11月3日頒布的日期一致。同一日曆日期以前是明治天皇的生日，但現代節日有不同的目的。",
+          "traditions": "博物館、畫廊和文化機構舉辦展覽和特別節目。學校和社區組織文化節。天皇頒發文化勳章給對文化和知識生活做出傑出貢獻的人。",
+          "funFacts": [
+            "Bunka 在日文中是文化的意思。",
+            "文化日為 11 月 3 日；憲法紀念日是5月3日。",
+            "一些博物館提供免費入場或特別活動，具體取決於機構。"
+          ]
+        }
+      }
+    }
+  },
+  "images": {
+    "new_years_day": [
+      {
+        "path": "images/new_year/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/new_year/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "coming_of_age_day": [
+      {
+        "path": "images/JP/coming_of_age_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/JP/coming_of_age_day/02.jpg",
+        "primary": false,
+        "credit": "Marc Dalmulder",
+        "license": "CC BY 2.0"
+      },
+      {
+        "path": "images/JP/coming_of_age_day/03.jpg",
+        "primary": false,
+        "credit": "Nikita from Russian Federation",
+        "license": "CC BY 2.0"
+      }
+    ],
+    "foundation_day": [
+      {
+        "path": "images/JP/foundation_day/01.jpg",
+        "primary": true,
+        "license": "CC0"
+      },
+      {
+        "path": "images/JP/foundation_day/02.jpg",
+        "primary": false,
+        "license": "CC0"
+      },
+      {
+        "path": "images/JP/foundation_day/03.jpg",
+        "primary": false,
+        "license": "CC0"
+      }
+    ],
+    "constitution_memorial_day": [
+      {
+        "path": "images/JP/constitution_memorial_day/01.jpg",
+        "primary": true,
+        "credit": "Daderot",
+        "license": "CC0"
+      }
+    ],
+    "childrens_day": [
+      {
+        "path": "images/JP/childrens_day/01.jpg",
+        "primary": true,
+        "credit": "kiukey from Nagoya",
+        "license": "CC BY 2.0"
+      }
+    ],
+    "culture_day": [
+      {
+        "path": "images/JP/culture_day/01.jpg",
+        "primary": true,
+        "credit": "Wiiii",
+        "license": "CC BY-SA 3.0"
+      }
+    ]
+  },
+  "version": 29
+}

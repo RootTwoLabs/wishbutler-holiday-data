@@ -133,15 +133,14 @@
     {
       "id": "KR_local_election_day",
       "countryCode": "KR",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.local_election_day",
       "iconName": "event",
       "category": "public",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "06-03"
-        }
+        "type": "fixed",
+        "month": 6,
+        "day": 3
       }
     },
     {
@@ -1695,12 +1694,14 @@
       {
         "path": "images/KR/chuseok/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "by Joseph Steinberg (Baltimoron in Korea) at Flickr",
+        "license": "CC BY-SA 2.0"
       },
       {
         "path": "images/KR/chuseok/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "by 'Speculando",
+        "license": "CC BY 2.0"
       }
     ],
     "hangul_day": [

@@ -143,15 +143,14 @@
     {
       "id": "MX_inauguration_day",
       "countryCode": "MX",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.inauguration_day",
       "iconName": "event",
       "category": "public",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2030": "10-01"
-        }
+        "type": "fixed",
+        "month": 10,
+        "day": 1
       }
     }
   ],
@@ -1356,34 +1355,40 @@
       {
         "path": "images/MX/independence_day/01.jpg",
         "primary": true,
-        "license": "CC0"
+        "credit": "Reading Tom from Reading, UK",
+        "license": "CC BY 2.0"
       },
       {
         "path": "images/MX/independence_day/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Jim Evans",
+        "license": "CC BY-SA 4.0"
       },
       {
         "path": "images/MX/independence_day/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Miguelsyn",
+        "license": "CC BY-SA 4.0"
       }
     ],
     "revolution_day": [
       {
         "path": "images/MX/revolution_day/01.jpg",
         "primary": true,
-        "license": "CC0"
+        "credit": "AlejandroLinaresGarcia",
+        "license": "CC BY-SA 4.0"
       },
       {
         "path": "images/MX/revolution_day/02.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "AlejandroLinaresGarcia",
+        "license": "CC BY-SA 4.0"
       },
       {
         "path": "images/MX/revolution_day/03.jpg",
         "primary": false,
-        "license": "CC0"
+        "credit": "Carlos Valenzuela",
+        "license": "CC BY-SA 4.0"
       }
     ],
     "christmas": [
