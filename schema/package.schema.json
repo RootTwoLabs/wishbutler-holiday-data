@@ -3,22 +3,40 @@
   "$id": "https://wishbutler.app/schema/holiday-package.json",
   "title": "WishButler Holiday Country Package",
   "type": "object",
-  "required": ["countryCode", "version", "schemaVersion", "definitions"],
+  "required": [
+    "countryCode",
+    "version",
+    "schemaVersion",
+    "definitions"
+  ],
   "additionalProperties": false,
   "properties": {
-    "countryCode": { "type": "string", "pattern": "^([A-Z]{2}|GLOBAL|FUN)$" },
-    "version": { "type": "integer", "minimum": 1 },
-    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "countryCode": {
+      "type": "string",
+      "pattern": "^([A-Z]{2}|GLOBAL|FUN|MEMORIAL)$"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "schemaVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
     "definitions": {
       "type": "array",
-      "items": { "$ref": "#/definitions/holidayDefinition" }
+      "items": {
+        "$ref": "#/definitions/holidayDefinition"
+      }
     },
     "namedays": {
       "type": "object",
       "patternProperties": {
         "^[0-1][0-9]-[0-3][0-9]$": {
           "type": "array",
-          "items": { "type": "string" }
+          "items": {
+            "type": "string"
+          }
         }
       },
       "additionalProperties": false
@@ -30,7 +48,9 @@
           "type": "array",
           "minItems": 1,
           "maxItems": 3,
-          "items": { "$ref": "#/definitions/funOccasion" }
+          "items": {
+            "$ref": "#/definitions/funOccasion"
+          }
         }
       },
       "additionalProperties": false
@@ -43,21 +63,27 @@
           "type": "object",
           "additionalProperties": {
             "type": "object",
-            "additionalProperties": { "type": "string" }
+            "additionalProperties": {
+              "type": "string"
+            }
           }
         },
         "holidayInfo": {
           "type": "object",
           "additionalProperties": {
             "type": "object",
-            "additionalProperties": { "$ref": "#/definitions/holidayArticle" }
+            "additionalProperties": {
+              "$ref": "#/definitions/holidayArticle"
+            }
           }
         },
         "funOccasions": {
           "type": "object",
           "additionalProperties": {
             "type": "object",
-            "additionalProperties": { "type": "string" }
+            "additionalProperties": {
+              "type": "string"
+            }
           }
         }
       }
@@ -66,43 +92,116 @@
       "type": "object",
       "additionalProperties": {
         "type": "array",
-        "items": { "$ref": "#/definitions/imageRef" }
+        "items": {
+          "$ref": "#/definitions/imageRef"
+        }
+      }
+    },
+    "memorial": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "originCountry",
+          "topic",
+          "source"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "originCountry": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}$"
+          },
+          "topic": {
+            "enum": [
+              "memorial",
+              "awareness"
+            ]
+          },
+          "source": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "originalId": {
+            "type": "string"
+          }
+        }
       }
     }
   },
   "definitions": {
     "funOccasion": {
       "type": "object",
-      "required": ["id", "labelKey"],
+      "required": [
+        "id",
+        "labelKey"
+      ],
       "additionalProperties": false,
       "properties": {
-        "id": { "type": "string", "pattern": "^fun_[a-z0-9_]+$" },
-        "labelKey": { "type": "string", "pattern": "^funOccasions\\." },
-        "emoji": { "type": "string", "minLength": 1, "maxLength": 8 },
-        "iconName": { "type": "string" },
-        "tags": { "type": "array", "items": { "type": "string" } }
+        "id": {
+          "type": "string",
+          "pattern": "^fun_[a-z0-9_]+$"
+        },
+        "labelKey": {
+          "type": "string",
+          "pattern": "^funOccasions\\."
+        },
+        "emoji": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 8
+        },
+        "iconName": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       }
     },
     "holidayArticle": {
       "type": "object",
-      "required": ["intro", "funFacts"],
+      "required": [
+        "intro",
+        "funFacts"
+      ],
       "additionalProperties": false,
       "properties": {
-        "intro": { "type": "string", "minLength": 1 },
-        "history": { "type": "string", "minLength": 1 },
-        "traditions": { "type": "string", "minLength": 1 },
+        "intro": {
+          "type": "string",
+          "minLength": 1
+        },
+        "history": {
+          "type": "string",
+          "minLength": 1
+        },
+        "traditions": {
+          "type": "string",
+          "minLength": 1
+        },
         "funFacts": {
           "type": "array",
           "minItems": 1,
           "maxItems": 8,
-          "items": { "type": "string", "minLength": 1 }
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
         },
-        "imageCredit": { "type": "string" }
+        "imageCredit": {
+          "type": "string"
+        }
       }
     },
     "imageRef": {
       "type": "object",
-      "required": ["path"],
+      "required": [
+        "path"
+      ],
       "additionalProperties": false,
       "properties": {
         "path": {
@@ -110,48 +209,168 @@
           "description": "Relativer Pfad unter data/ — keine Traversal (..), nur images/<...>.jpg",
           "pattern": "^(?!.*\\.\\.)images/[A-Za-z0-9_./-]+\\.(jpg|jpeg|png|webp)$"
         },
-        "credit": { "type": "string" },
-        "license": { "type": "string" },
-        "primary": { "type": "boolean" }
+        "credit": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "primary": {
+          "type": "boolean"
+        }
       }
     },
     "holidayDefinition": {
       "type": "object",
-      "required": ["id", "countryCode", "kind", "labelKey", "iconName", "rule"],
+      "required": [
+        "id",
+        "countryCode",
+        "kind",
+        "labelKey",
+        "iconName",
+        "rule"
+      ],
       "additionalProperties": false,
       "properties": {
-        "id": { "type": "string" },
-        "countryCode": { "type": "string" },
-        "kind": {
-          "enum": ["fixed", "easter_relative", "nth_weekday", "precomputed"]
+        "id": {
+          "type": "string"
         },
-        "labelKey": { "type": "string" },
-        "iconName": { "type": "string" },
-        "category": { "enum": ["public", "religious", "observance"] },
-        "requiredGender": { "enum": ["female", "male"] },
+        "countryCode": {
+          "type": "string",
+          "pattern": "^([A-Z]{2}|GLOBAL|FUN|MEMORIAL)$"
+        },
+        "kind": {
+          "enum": [
+            "fixed",
+            "easter_relative",
+            "nth_weekday",
+            "precomputed"
+          ]
+        },
+        "labelKey": {
+          "type": "string"
+        },
+        "iconName": {
+          "type": "string"
+        },
+        "category": {
+          "enum": [
+            "public",
+            "religious",
+            "observance"
+          ]
+        },
+        "requiredGender": {
+          "enum": [
+            "female",
+            "male"
+          ]
+        },
         "requiredRelationshipTypes": {
           "type": "array",
-          "items": { "type": "string" }
+          "items": {
+            "type": "string"
+          }
         },
-        "proOnly": { "type": "boolean" },
-        "rule": { "$ref": "#/definitions/rule" }
+        "proOnly": {
+          "type": "boolean"
+        },
+        "rule": {
+          "$ref": "#/definitions/rule"
+        }
       },
       "allOf": [
         {
-          "if": { "required": ["kind"], "properties": { "kind": { "const": "fixed" } } },
-          "then": { "properties": { "rule": { "properties": { "type": { "const": "fixed" } } } } }
+          "if": {
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "const": "fixed"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "rule": {
+                "properties": {
+                  "type": {
+                    "const": "fixed"
+                  }
+                }
+              }
+            }
+          }
         },
         {
-          "if": { "required": ["kind"], "properties": { "kind": { "const": "easter_relative" } } },
-          "then": { "properties": { "rule": { "properties": { "type": { "const": "easter_relative" } } } } }
+          "if": {
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "const": "easter_relative"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "rule": {
+                "properties": {
+                  "type": {
+                    "const": "easter_relative"
+                  }
+                }
+              }
+            }
+          }
         },
         {
-          "if": { "required": ["kind"], "properties": { "kind": { "const": "nth_weekday" } } },
-          "then": { "properties": { "rule": { "properties": { "type": { "const": "nth_weekday" } } } } }
+          "if": {
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "const": "nth_weekday"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "rule": {
+                "properties": {
+                  "type": {
+                    "const": "nth_weekday"
+                  }
+                }
+              }
+            }
+          }
         },
         {
-          "if": { "required": ["kind"], "properties": { "kind": { "const": "precomputed" } } },
-          "then": { "properties": { "rule": { "properties": { "type": { "const": "precomputed" } } } } }
+          "if": {
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "const": "precomputed"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "rule": {
+                "properties": {
+                  "type": {
+                    "const": "precomputed"
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     },
@@ -159,45 +378,95 @@
       "oneOf": [
         {
           "type": "object",
-          "required": ["type", "month", "day"],
+          "required": [
+            "type",
+            "month",
+            "day"
+          ],
           "additionalProperties": false,
           "properties": {
-            "type": { "const": "fixed" },
-            "month": { "type": "integer", "minimum": 1, "maximum": 12 },
-            "day": { "type": "integer", "minimum": 1, "maximum": 31 }
+            "type": {
+              "const": "fixed"
+            },
+            "month": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "day": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 31
+            }
           }
         },
         {
           "type": "object",
-          "required": ["type", "offsetDays"],
+          "required": [
+            "type",
+            "offsetDays"
+          ],
           "additionalProperties": false,
           "properties": {
-            "type": { "const": "easter_relative" },
-            "offsetDays": { "type": "integer" }
+            "type": {
+              "const": "easter_relative"
+            },
+            "offsetDays": {
+              "type": "integer"
+            }
           }
         },
         {
           "type": "object",
-          "required": ["type", "month", "nth", "weekday"],
+          "required": [
+            "type",
+            "month",
+            "nth",
+            "weekday"
+          ],
           "additionalProperties": false,
           "properties": {
-            "type": { "const": "nth_weekday" },
-            "month": { "type": "integer", "minimum": 1, "maximum": 12 },
-            "nth": { "type": "integer", "minimum": 1, "maximum": 5 },
-            "weekday": { "type": "integer", "minimum": 0, "maximum": 6 },
-            "last": { "type": "boolean" }
+            "type": {
+              "const": "nth_weekday"
+            },
+            "month": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "nth": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            },
+            "weekday": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 6
+            },
+            "last": {
+              "type": "boolean"
+            }
           }
         },
         {
           "type": "object",
-          "required": ["type", "dates"],
+          "required": [
+            "type",
+            "dates"
+          ],
           "additionalProperties": false,
           "properties": {
-            "type": { "const": "precomputed" },
+            "type": {
+              "const": "precomputed"
+            },
             "dates": {
               "type": "object",
               "patternProperties": {
-                "^[0-9]{4}$": { "type": "string", "pattern": "^[0-1][0-9]-[0-3][0-9]$" }
+                "^[0-9]{4}$": {
+                  "type": "string",
+                  "pattern": "^[0-1][0-9]-[0-3][0-9]$"
+                }
               },
               "additionalProperties": false
             }

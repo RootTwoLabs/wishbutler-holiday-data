@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "baseUrl": "https://cdn.jsdelivr.net/gh/RootTwoLabs/wishbutler-holiday-data@main/data",
-  "generatedAt": "2026-09-10T23:25:51.306Z",
+  "generatedAt": "2026-09-11T11:24:22.781Z",
   "countries": [
     {
       "code": "AD",
@@ -92,9 +92,9 @@
     },
     {
       "code": "AO",
-      "version": 22,
-      "package": "packages/AO/v22/package.json",
-      "sizeBytes": 184195,
+      "version": 23,
+      "package": "packages/AO/v23/package.json",
+      "sizeBytes": 184252,
       "locales": [
         "da",
         "de",
@@ -176,9 +176,9 @@
     },
     {
       "code": "AU",
-      "version": 28,
-      "package": "packages/AU/v28/package.json",
-      "sizeBytes": 454665,
+      "version": 29,
+      "package": "packages/AU/v29/package.json",
+      "sizeBytes": 454884,
       "locales": [
         "da",
         "de",
@@ -346,9 +346,9 @@
     },
     {
       "code": "BG",
-      "version": 26,
-      "package": "packages/BG/v26/package.json",
-      "sizeBytes": 185560,
+      "version": 27,
+      "package": "packages/BG/v27/package.json",
+      "sizeBytes": 185590,
       "locales": [
         "bg",
         "da",
@@ -883,9 +883,9 @@
     },
     {
       "code": "DE",
-      "version": 27,
-      "package": "packages/DE/v27/package.json",
-      "sizeBytes": 622944,
+      "version": 28,
+      "package": "packages/DE/v28/package.json",
+      "sizeBytes": 622593,
       "locales": [
         "da",
         "de",
@@ -1024,9 +1024,9 @@
     },
     {
       "code": "EG",
-      "version": 26,
-      "package": "packages/EG/v26/package.json",
-      "sizeBytes": 312473,
+      "version": 27,
+      "package": "packages/EG/v27/package.json",
+      "sizeBytes": 312531,
       "locales": [
         "ar",
         "da",
@@ -1053,9 +1053,9 @@
     },
     {
       "code": "ES",
-      "version": 26,
-      "package": "packages/ES/v26/package.json",
-      "sizeBytes": 455285,
+      "version": 27,
+      "package": "packages/ES/v27/package.json",
+      "sizeBytes": 455341,
       "locales": [
         "da",
         "de",
@@ -1194,9 +1194,9 @@
     },
     {
       "code": "GB",
-      "version": 26,
-      "package": "packages/GB/v26/package.json",
-      "sizeBytes": 276985,
+      "version": 27,
+      "package": "packages/GB/v27/package.json",
+      "sizeBytes": 277014,
       "locales": [
         "da",
         "de",
@@ -1931,9 +1931,9 @@
     },
     {
       "code": "KR",
-      "version": 27,
-      "package": "packages/KR/v27/package.json",
-      "sizeBytes": 160413,
+      "version": 28,
+      "package": "packages/KR/v28/package.json",
+      "sizeBytes": 160443,
       "locales": [
         "da",
         "de",
@@ -2101,9 +2101,9 @@
     },
     {
       "code": "LV",
-      "version": 28,
-      "package": "packages/LV/v28/package.json",
-      "sizeBytes": 516094,
+      "version": 29,
+      "package": "packages/LV/v29/package.json",
+      "sizeBytes": 516123,
       "locales": [
         "da",
         "de",
@@ -2389,9 +2389,9 @@
     },
     {
       "code": "MX",
-      "version": 27,
-      "package": "packages/MX/v27/package.json",
-      "sizeBytes": 146757,
+      "version": 28,
+      "package": "packages/MX/v28/package.json",
+      "sizeBytes": 146786,
       "locales": [
         "da",
         "de",
@@ -3234,9 +3234,9 @@
     },
     {
       "code": "TR",
-      "version": 26,
-      "package": "packages/TR/v26/package.json",
-      "sizeBytes": 586660,
+      "version": 27,
+      "package": "packages/TR/v27/package.json",
+      "sizeBytes": 586863,
       "locales": [
         "da",
         "de",
@@ -3520,6 +3520,33 @@
     "version": 18,
     "package": "packages/GLOBAL/v18/package.json",
     "sizeBytes": 897450,
+    "locales": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "ja",
+      "ko",
+      "nb",
+      "nl",
+      "pl",
+      "pt",
+      "ru",
+      "sv",
+      "uk",
+      "zh-Hant"
+    ],
+    "hasInfo": true,
+    "hasImages": true
+  },
+  "memorial": {
+    "code": "MEMORIAL",
+    "version": 5,
+    "package": "packages/MEMORIAL/v5/package.json",
+    "sizeBytes": 343637,
     "locales": [
       "da",
       "de",

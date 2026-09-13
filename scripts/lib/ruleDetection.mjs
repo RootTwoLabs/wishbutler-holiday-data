@@ -158,11 +158,17 @@ export function ruleMatchesAllYears(rule, years, byYear) {
   return true;
 }
 
-export function detectRule(entry) {
+export function detectRule(entry, { expectedYears = [] } = {}) {
   const years = Object.keys(entry.years)
     .map(Number)
     .sort((a, b) => a - b);
   const mmdds = years.map((y) => entry.years[y]);
+
+  // A one-off anniversary or a partially announced calendar must never become
+  // an annual holiday. Only infer recurrence from a complete observation window.
+  if (years.length < 3 || expectedYears.some((y) => entry.years[y] == null)) {
+    return { type: 'precomputed', dates: { ...entry.years } };
+  }
 
   let candidate = null;
   if (new Set(mmdds).size === 1) {

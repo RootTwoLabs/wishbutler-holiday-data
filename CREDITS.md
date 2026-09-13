@@ -448,3 +448,9 @@ The former board-game image `01.jpg` is retained only for historical package ref
 
 When adding a new source, record its license here and ensure redistribution
 through this public repository is permitted.
+
+## Gedenk- und Aktionstage (CC0-Symbolbilder)
+
+- `images/MEMORIAL/candle.jpg` — USER-62114; CC0 1.0. [Original und Lizenznachweis](https://commons.wikimedia.org/wiki/File:Burning-candle.jpg). Geprüft: 2026-09-11. Symbolbild, keine historische Aufnahme des zugeordneten Anlasses.
+- `images/MEMORIAL/flowers.jpg` — Valerie Wiersma; CC0 1.0. [Original und Lizenznachweis](https://commons.wikimedia.org/wiki/File:White_flower_(unidentified).jpg). Geprüft: 2026-09-11. Symbolbild, keine historische Aufnahme des zugeordneten Anlasses.
+- `images/MEMORIAL/books.jpg` — Chris Schiemann; CC0 1.0. [Original und Lizenznachweis](https://commons.wikimedia.org/wiki/File:Books_on_a_Library_Cart.jpg). Geprüft: 2026-09-11. Symbolbild, keine historische Aufnahme des zugeordneten Anlasses.

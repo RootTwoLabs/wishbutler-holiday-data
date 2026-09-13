@@ -27,6 +27,18 @@ test('pickHolidayStart: Duplikate gleicher Tage (mehrere Kantone) und Einzeltage
 
 const YEARS = [2026, 2027, 2028, 2029, 2030];
 
+test('one-off Berlin anniversary stays limited to 2028', () => {
+  assert.deepEqual(detectRule({ years: { 2028: '06-17' } }, { expectedYears: YEARS }), {
+    type: 'precomputed', dates: { 2028: '06-17' },
+  });
+});
+
+test('recurrence is not inferred across missing or unannounced years', () => {
+  const years = { 2026: '09-25', 2027: '09-24', 2028: '09-29' };
+  assert.deepEqual(detectRule({ years }, { expectedYears: YEARS }), { type: 'precomputed', dates: years });
+  assert.equal(detectRule({ years: { 2026: '01-02', 2027: '01-02' } }).type, 'precomputed');
+});
+
 function entryFromRule(rule) {
   return { years: Object.fromEntries(YEARS.map((y) => [y, mmddFromRule(rule, y)])) };
 }

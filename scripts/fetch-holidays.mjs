@@ -28,6 +28,7 @@ import {
 import { detectRule, pickHolidayStart } from './lib/ruleDetection.mjs';
 import { fetchJsonWithTimeout, FailureBudget } from './lib/httpClient.mjs';
 import { holidayDefinition, writePackage } from './lib/packageWriter.mjs';
+import { isSelectedHoliday } from './lib/holidaySelection.mjs';
 
 // #130: Timeout + Retry/Backoff statt nacktem fetch (kein unbegrenztes Haengen).
 async function fetchJson(url) {
@@ -82,8 +83,9 @@ async function buildCountry(cc) {
 
   const definitions = [];
   for (const [, entry] of byName) {
-    const rule = detectRule(entry);
     const id = `${cc}_${entry.slug}`;
+    if (!isSelectedHoliday(id)) continue;
+    const rule = detectRule(entry, { expectedYears: years });
 
     // Merge onto a bundled global holiday only when an alias AND the exact rule
     // match (so e.g. NZ "Labour Day" in October never collapses onto May 1st).

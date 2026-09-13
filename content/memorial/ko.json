@@ -1,0 +1,167 @@
+{
+  "labels": {
+    "memorial_am_armenian_genocide_remembrance_day": "아르메니아 대량 학살 현충일",
+    "memorial_ar_day_of_remembrance_for_truth_and_justice": "진실과 정의를 추모하는 날",
+    "memorial_ar_day_of_the_veterans_and_fallen_of_the_malvinas_war": "말비나스 전쟁 참전용사 및 전사자의 날",
+    "memorial_ar_general_jose_de_san_martin_memorial_day": "호세 데 산 마르틴 장군 현충일",
+    "memorial_au_anzac_day": "안작데이",
+    "memorial_be_armistice_day": "휴전일",
+    "memorial_by_commemoration_day": "기념일",
+    "memorial_ca_national_day_for_truth_and_reconciliation": "진실과 화해를 위한 국경일",
+    "memorial_ca_armistice_day": "휴전일",
+    "memorial_ca_remembrance_day": "현충일",
+    "memorial_cd_laurent_desire_kabila_assassination": "로랑-데지레 카빌라 암살",
+    "memorial_cd_patrice_lumumba_assassination": "파트리스 루뭄바 암살",
+    "memorial_cd_congolese_genocide_day": "콩고 대량 학살의 날",
+    "memorial_fr_armistice_day": "휴전일",
+    "memorial_gi_workers_memorial_day": "근로자의 날",
+    "memorial_hr_remembrance_day": "현충일",
+    "memorial_il_yom_hashoah": "욤 하쇼아(홀로코스트 추모일)",
+    "memorial_il_yom_hazikaron": "욤 하지카론(현충일)",
+    "memorial_il_tisha_bav": "티샤 베아브",
+    "memorial_kr_memorial_day": "현충일",
+    "memorial_lv_commemoration_day_of_defenders_of_the_barricades_in_1991": "1991년 바리케이드 수호자 추모일",
+    "memorial_lv_day_of_the_international_de_jure_recognition_of_the_republic_of_latvia": "라트비아 공화국 국제 법적 승인 기념일",
+    "memorial_lv_world_non_governmental_organization_day": "세계 비정부기구의 날",
+    "memorial_lv_national_partisan_armed_resistance_remembrance_day": "민족 파르티잔 무장 저항 추모일",
+    "memorial_lv_national_resistance_movement_remembrance_day": "민족 저항 운동 추모일",
+    "memorial_lv_commemoration_day_of_victims_of_communist_terror": "공산주의 테러 희생자 추모일",
+    "memorial_lv_latgale_congress_day": "라트갈레 회의의 날",
+    "memorial_lv_day_of_the_defeat_of_nazism_and_commemoration_day_of_victims_of_world_war_ii": "나치즘 패배 및 제2차 세계대전 희생자 추모일",
+    "memorial_lv_europe_day": "유럽의 날",
+    "memorial_lv_international_day_of_the_family": "국제 가정의 날",
+    "memorial_lv_firefighter_and_rescuer_day": "소방관과 구조대원의 날",
+    "memorial_lv_international_day_for_protection_of_children": "국제 아동 보호의 날",
+    "memorial_lv_day_of_the_occupation_of_the_republic_of_latvia": "라트비아 공화국 점령 추모일",
+    "memorial_lv_medical_worker_day": "의료인의 날",
+    "memorial_lv_heroes_commemoration_day_anniversary_of_the_battle_of_cesis": "영웅 추모일·체시스 전투 기념일",
+    "memorial_lv_commemoration_day_of_genocide_against_the_jews": "유대인 집단학살 희생자 추모일",
+    "memorial_lv_day_of_the_sea_festival": "바다 축제의 날",
+    "memorial_lv_latvian_freedom_fighters_remembrance_day": "라트비아 자유 투사 추모일",
+    "memorial_lv_day_of_the_passing_of_the_constitutional_law_on_the_status_of_the_republic_of_latvia_as_a_state": "라트비아 공화국 국가 지위에 관한 헌법적 법률 채택 기념일",
+    "memorial_lv_day_of_remembrance_for_victims_of_stalinism_and_nazism": "스탈린주의와 나치즘 희생자 추모일",
+    "memorial_lv_knowledge_day": "지식의 날",
+    "memorial_lv_baltic_unity_day": "발트 연대의 날",
+    "memorial_lv_international_day_of_older_persons": "국제 노인의 날",
+    "memorial_lv_teachers_day": "스승의날",
+    "memorial_lv_official_language_day": "공용어의 날",
+    "memorial_lv_border_guards_day": "국경수비대의 날",
+    "memorial_lv_lacplesis_day": "라치플레시스의 날",
+    "memorial_lv_remembrance_day_of_the_tragedy_of_21_november_2013": "2013년 11월 21일 참사 추모일",
+    "memorial_lv_police_day": "경찰의 날",
+    "memorial_lv_commemoration_day_of_victims_of_genocide_against_the_latvian_people_by_the_totalitarian_communist_regime": "전체주의 공산 정권에 의한 라트비아인 집단학살 희생자 추모일",
+    "memorial_md_victory_and_commemoration_day": "승전기념일",
+    "memorial_md_memorial_day": "현충일",
+    "memorial_na_cassinga_day": "카싱가 데이",
+    "memorial_na_genocide_remembrance_day": "집단 학살 추모일",
+    "memorial_nz_anzac_day": "안작데이",
+    "memorial_pg_remembrance_day": "현충일",
+    "memorial_pr_memorial_day": "현충일",
+    "memorial_rs_armistice_day": "휴전일",
+    "memorial_si_primoz_trubar_day": "프리모즈 트루바르 데이",
+    "memorial_si_sovereignty_day": "주권의 날",
+    "memorial_si_unification_of_prekmurje_slovenes_with_the_mother_nation": "프레크무르예 슬로베니아와 모국의 통일",
+    "memorial_si_integration_of_primorska_into_the_homeland": "프리모르스카를 본토에 통합",
+    "memorial_si_slovenian_sports_day": "슬로베니아 체육대회",
+    "memorial_si_rudolf_maister_day": "루돌프 마이스터 데이",
+    "memorial_sk_day_of_the_constitution_of_the_slovak_republic": "슬로바키아 공화국 헌법 기념일",
+    "memorial_sk_struggle_for_freedom_and_democracy_day": "자유민주주의의 날을 위한 투쟁",
+    "memorial_sm_commemoration_of_all_those_who_died_at_war": "전쟁에서 죽은 모든 사람들을 추모합니다.",
+    "memorial_us_lincolns_birthday": "링컨 탄생일",
+    "memorial_us_memorial_day": "현충일",
+    "memorial_ve_teachers_day": "스승의날",
+    "memorial_ve_youth_day": "청소년의 날",
+    "memorial_ve_slavery_abolition_anniversary": "노예제도 폐지 기념일",
+    "memorial_ve_foundation_anniversary_day_of_san_cristobal_tachira": "타치라 산 크리스토발 창립기념일",
+    "memorial_ve_journalists_day": "언론인의 날",
+    "memorial_ve_caracas_city_foundation_day": "카라카스 시 창립일",
+    "memorial_ve_flag_day": "국기의 날",
+    "memorial_za_human_rights_day": "인권의 날",
+    "memorial_de_june_17_uprising": "1953년 6월 17일 동독 봉기",
+    "memorial_de_november_pogroms": "1938년 11월 반유대인 폭력 추모",
+    "memorial_de_victims_of_national_socialism": "나치즘 희생자 추모"
+  },
+  "articles": {
+    "memorial_au_anzac_day": {
+      "intro": "4월 25일 ‘안작 데이(Anzac Day)’는 1915년 갈리폴리 상륙 작전을 기리며, 전쟁에 참전하여 목숨을 바친 호주인과 뉴질랜드인을 추모하는 날입니다.",
+      "history": "1915년 4월 25일, 제1차 세계대전 중 호주·뉴질랜드 군단(ANZAC)이 오스만 제국의 갈리폴리에 상륙했습니다. 막대한 인명 피해를 낸 이 작전은 국가적 기억의 상징이 되었으며, 오늘날 이 날은 참전한 모든 이들을 기리는 날로 기념되고 있습니다.",
+      "traditions": "하루는 엄숙한 새벽 추모식으로 시작되며, 이어 참전용사들의 행진, ‘라스트 포스트’ 연주, 그리고 “우리가 잊지 않도록(Lest we forget)”이라는 말이 이어집니다. 사람들은 로즈마리 가지를 달고, 전통적인 동전 게임인 ‘투업(two-up)’을 즐깁니다.",
+      "funFacts": [
+        "ANZAC은 호주·뉴질랜드 군단(Australian and New Zealand Army Corps)의 약자입니다.",
+        "새벽 추모식은 이른 아침에 이루어진 갈리폴리 상륙 작전을 기리는 행사입니다.",
+        "투업은 안작 데이의 전통적인 동전 게임입니다. 합법적으로 즐길 수 있는 경우와 장소는 주별 규정에 따라 다릅니다."
+      ]
+    },
+    "memorial_ca_national_day_for_truth_and_reconciliation": {
+      "intro": "9월 30일 진실과 화해를 위한 국경일은 기숙학교로 보내진 어린이와 생존자, 피해를 입은 가족 및 지역사회를 기리는 날입니다. 2021년부터 연방 공휴일로 지정되었습니다.",
+      "history": "한 세기가 넘는 기간 동안 약 150,000명의 원주민 어린이가 교회가 운영하는 기숙학교에 보내졌고, 그곳에서 많은 사람이 학대를 당하고 수천 명이 사망했습니다. 진실화해위원회는 2015년에 추모일 제정을 권고했고, 캠루프스에서 표시 없는 매장지일 가능성을 보여 주는 조사 결과가 발표된 후 의회는 2021년에 이 기념일을 제정했습니다.",
+      "traditions": "캐나다인들은 주황색 셔츠를 입는데, 이는 생존자 Phyllis Webstad가 시작한 관습인데, 그녀는 학교 첫날 새 주황색 셔츠를 빼앗겼습니다. 공동체에서는 산책, 행사, 침묵의 시간을 가지며 건물은 주황색으로 켜집니다.",
+      "funFacts": [
+        "9월 말에 아이들이 가족과 헤어졌기 때문에 날짜를 선택했습니다.",
+        "오렌지 셔츠 데이(Orange Shirt Day)는 2013년 브리티시 컬럼비아주 윌리엄스 레이크에서 시작되었습니다.",
+        "오늘의 메시지는 \"Every Child Matters\"입니다.",
+        "마지막 기숙학교는 1996년에 문을 닫았습니다."
+      ]
+    },
+    "memorial_ca_remembrance_day": {
+      "intro": "11월 11일 ‘현충의 날’은 전쟁에 참전하여 목숨을 바친 캐나다인들을 기리는 날로, 붉은 양귀비가 이를 상징합니다.",
+      "history": "11월 11일은 제1차 세계대전을 종식시킨 1918년 휴전 협정을 기리는 날입니다. 당시 전쟁에서 6만 명 이상의 희생자를 낸 캐나다는 모든 전쟁에서 전사한 이들을 기리고 있습니다. 양귀비 꽃은 캐나다인 존 맥크레이의 시 ‘플랜더스의 들판(In Flanders Fields)’에서 유래했습니다.",
+      "traditions": "오전 11시, 캐나다 국민들은 2분간의 묵념을 올립니다. 오타와에 있는 국립 전쟁 기념관에서 열리는 국가 추모식에서는 화환 헌정, ‘라스트 포스트’ 연주, 공군 비행 축하 행사가 진행되며, 그 전 몇 주 동안 수백만 명의 사람들이 양귀비 꽃을 달고 다닙니다.",
+      "funFacts": [
+        "『플랜더스의 들판』은 1915년 캐나다인 존 맥크레이가 지은 시입니다.",
+        "양귀비 꽃은 10월 말부터 11월 11일까지 착용합니다.",
+        "실버 크로스 어머니가 모든 유가족을 위해 화환을 바칩니다."
+      ]
+    },
+    "memorial_fr_armistice_day": {
+      "intro": "11월 11일은 제1차 세계대전을 종식시킨 1918년 휴전 협정을 기념하는 날이며, 조국을 위해 목숨을 바친 모든 프랑스 군인들을 기리는 날입니다.",
+      "history": "1918년 11월 11일 오전 11시, 캉피에뉴에서 체결된 휴전 협정으로 서부 전선의 총성이 멎었습니다. 프랑스는 약 140만 명의 군인을 잃었습니다. 1922년부터 이 날은 국가 추모의 날로 지정되었으며, 이후 모든 전쟁에서 전사한 이들을 기리는 날로 확대되었습니다.",
+      "traditions": "대통령은 영원한 불꽃이 타오르는 파리의 개선문 아래에 있는 무명용사의 묘에 화환을 바칩니다. 전국 각지의 시민들과 참전용사들은 전쟁 기념비 앞에 모여 1분간의 묵념을 올리고 있다.",
+      "funFacts": [
+        "휴전 협정은 11월 11일 11시에 발효되었다.",
+        "1923년부터 매일 저녁, 개선문 아래의 영원한 불꽃이 다시 타오르고 있다.",
+        "푸른 수레국화(르 블뢰)는 프랑스의 추모의 상징입니다."
+      ]
+    },
+    "memorial_nz_anzac_day": {
+      "intro": "4월 25일 ‘안작의 날(Anzac Day)’은 1915년 갈리폴리 상륙 작전을 기리며, 전쟁에 참전하여 목숨을 잃은 뉴질랜드인과 호주인들을 추모하는 날입니다.",
+      "history": "1915년 4월 25일, 제1차 세계대전 중 호주·뉴질랜드 군단(ANZAC)이 갈리폴리에 상륙했습니다. 신생 국가였던 뉴질랜드에게 이 엄청난 희생은 강력한 상징이 되었으며, 오늘날 이 날은 참전했던 모든 뉴질랜드인을 기리는 날로 기념되고 있습니다.",
+      "traditions": "뉴질랜드 국민들은 전쟁 기념관에서 새벽 추모식에 모인 뒤, 참전용사들의 행진, 화환 헌화, 그리고 ‘라스트 포스트’ 연주가 이어집니다. 많은 이들이 붉은 양귀비 꽃을 달고, 참전용사 클럽에서는 기념행사가 열립니다.",
+      "funFacts": [
+        "ANZAC은 호주·뉴질랜드 군단(Australian and New Zealand Army Corps)의 약자입니다.",
+        "붉은 양귀비는 추모의 상징입니다.",
+        "새벽 추모식은 1915년 갈리폴리의 새벽 상륙 작전을 기억하는 행사입니다."
+      ]
+    },
+    "memorial_us_memorial_day": {
+      "intro": "5월 마지막 월요일에 기념되는 메모리얼 데이는 전사한 미국 군인들을 기리는 미국의 추모의 날입니다. 또한 이 날은 미국에서 여름이 비공식적으로 시작되는 날이기도 합니다.",
+      "history": "이 날은 60만 명 이상의 군인이 목숨을 잃은 미국 남북전쟁(1861–1865)에서 유래했습니다. 1868년 5월, 존 A. 로건 장군은 전사한 군인들의 무덤에 꽃을 바치는 ‘추모의 날(Decoration Day)’을 제정했습니다. 이 관습은 두 차례의 세계대전 이후 널리 퍼졌으며, 오늘날에는 전쟁에서 전사한 모든 미국 군인들을 기리는 날로 자리 잡았습니다. 1971년에는 긴 주말을 만들기 위해 이 기념일이 공식적으로 5월 마지막 월요일로 변경되었습니다.",
+      "traditions": "알링턴 국립묘지에서 대통령은 무명용사의 묘소에 화환을 바칩니다. 유가족들은 묘소를 찾아 국기와 꽃으로 장식합니다. 현지 시간 오후 3시에는 ‘전국 추모의 시간’을 맞아 전국적으로 묵념의 시간을 갖습니다. 또한 전통적인 퍼레이드와 바비큐 행사, 인디애나폴리스 500 자동차 경주도 열립니다.",
+      "funFacts": [
+        "알링턴 국립묘지에는 전사자뿐 아니라 군인, 참전용사, 안장 자격을 갖춘 가족도 안장되어 있습니다.",
+        "붉은 양귀비는 제1차 세계대전 이후 시 ‘플랜더스의 들판(In Flanders Fields)’에서 영감을 받아 추모의 상징이 되었습니다.",
+        "첫 인디애나폴리스 500은 1911년 5월 30일에 열렸습니다. 현재는 전통적으로 메모리얼 데이 주말에 열립니다.",
+        "옛 명칭인 ‘데코레이션 데이’는 묘를 장식하는 관습에서 유래했습니다. ‘메모리얼 데이’라는 이름은 1971년보다 훨씬 전부터 쓰였습니다."
+      ],
+      "imageCredit": "사진: 알링턴 국립묘지 · 위키미디어 공용을 통한 퍼블릭 도메인"
+    },
+    "memorial_de_june_17_uprising": {
+      "intro": "6월 17일은 1953년 동독 봉기를 추모하는 날입니다.",
+      "funFacts": [
+        "시위는 폭력적으로 진압되었습니다."
+      ]
+    },
+    "memorial_de_november_pogroms": {
+      "intro": "11월 9일은 1938년 반유대인 폭력을 추모하는 날입니다.",
+      "funFacts": [
+        "유대교 회당이 파괴되었고 유대인들이 박해, 강제 이송, 살해당했습니다."
+      ]
+    },
+    "memorial_de_victims_of_national_socialism": {
+      "intro": "1월 27일은 나치즘 희생자를 추모하는 날입니다.",
+      "funFacts": [
+        "1945년 이날 아우슈비츠 강제 수용소이자 절멸 수용소가 해방되었습니다."
+      ]
+    }
+  }
+}

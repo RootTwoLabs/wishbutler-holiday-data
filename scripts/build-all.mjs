@@ -35,6 +35,7 @@ async function main() {
     'build-fun-occasions.mjs',
     'build-articles.mjs',
     'build-labels.mjs',
+    'build-memorial.mjs',
     'build-index.mjs',
     'validate.mjs',
   ];

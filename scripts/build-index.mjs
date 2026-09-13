@@ -52,6 +52,7 @@ async function bestVersionEntry(code) {
 async function main() {
   const countries = [];
   let global = null;
+  let memorial = null;
   let funOccasions = null;
 
   for (const code of await listDirs(PACKAGES)) {
@@ -59,6 +60,11 @@ async function main() {
     if (!entry) continue;
     const { best, rel, pkg, size } = entry;
 
+    if (code === 'MEMORIAL') {
+      memorial = { code, version: best.version, package: rel, sizeBytes: size,
+        locales: Object.keys(pkg.i18n?.holidays ?? {}).sort(), hasInfo: true, hasImages: Boolean(Object.keys(pkg.images ?? {}).length) };
+      continue;
+    }
     if (code === 'FUN') {
       // Das FUN-Paket (kuriose Feiertage, ab v5 mit echten Definitionen, Artikeln
       // und Bildern) lebt außerhalb der Länderliste unter `funOccasions` und wird
@@ -129,6 +135,7 @@ async function main() {
     generatedAt: new Date().toISOString(),
     countries,
     ...(global ? { global } : {}),
+    ...(memorial ? { memorial } : {}),
     ...(funOccasions ? { funOccasions } : {}),
   };
 

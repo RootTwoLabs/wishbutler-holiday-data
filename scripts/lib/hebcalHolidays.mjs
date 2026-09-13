@@ -92,7 +92,7 @@ export function buildIsraelDefinitions(items, { countryCode = 'IL' } = {}) {
       countryCode,
       slug: h.slug,
       category: h.category,
-      rule: detectRule({ years }),
+      rule: detectRule({ years }, { expectedYears: [...expectedYears] }),
     });
     labels.en[h.slug] = h.en;
     labels.he[h.slug] = h.he;
