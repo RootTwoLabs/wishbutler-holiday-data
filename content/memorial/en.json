@@ -146,21 +146,743 @@
       "imageCredit": "Photo: Arlington National Cemetery · Public domain via Wikimedia Commons"
     },
     "memorial_de_june_17_uprising": {
-      "intro": "17 June commemorates the 1953 uprising in East Germany.",
+      "intro": "17 June commemorates the popular uprising of 1953 in East Germany, when more than a million people protested against the SED regime and were crushed by Soviet tanks.",
+      "history": "The uprising began on 16 June 1953 with a strike by construction workers on the Stalinallee in East Berlin against increased work quotas and spread within a day to hundreds of towns. Soviet troops declared martial law, and at least 55 people died. West Germany made 17 June the 'Day of German Unity' from 1954 until reunification in 1990.",
+      "traditions": "Wreaths are laid at the memorial in front of the former House of Ministries on Leipziger Straße in Berlin and at the graves of the victims in Seestraße cemetery. The Bundestag and state parliaments hold commemorations.",
       "funFacts": [
-        "The protests were violently suppressed."
+        "The boulevard leading to the Brandenburg Gate in Berlin has been called 'Straße des 17. Juni' since 1953.",
+        "Around 15,000 people were arrested after the uprising.",
+        "The events are considered the first popular uprising against a communist regime in the Eastern Bloc."
       ]
     },
     "memorial_de_november_pogroms": {
-      "intro": "9 November commemorates the antisemitic pogroms of 1938.",
+      "intro": "9 November commemorates the November pogroms of 1938, when synagogues, Jewish shops and homes across Germany and Austria were attacked and destroyed.",
+      "history": "On the night of 9 to 10 November 1938 the Nazi regime organised nationwide violence against Jews: more than 1,400 synagogues were set on fire, about 30,000 Jewish men were deported to concentration camps and hundreds of people were killed. The pogroms marked the transition from discrimination to systematic persecution.",
+      "traditions": "Commemorations are held at synagogues and memorial sites; in many towns people clean the Stolpersteine, small brass plaques set into the pavement in front of the last homes of victims, and place candles beside them. Schools discuss the history of the day.",
       "funFacts": [
-        "Synagogues were destroyed and Jewish people were persecuted, deported and murdered."
+        "9 November is called Germany's 'day of fate': the republic was proclaimed in 1918 and the Berlin Wall fell in 1989 on the same date.",
+        "More than 100,000 Stolpersteine have been laid across Europe since 1992.",
+        "The Nazi term 'Kristallnacht' is avoided today because it trivialises the violence."
       ]
     },
     "memorial_de_victims_of_national_socialism": {
-      "intro": "27 January commemorates the victims of National Socialism.",
+      "intro": "27 January is Germany's day of remembrance for the victims of National Socialism, the anniversary of the liberation of the Auschwitz concentration and extermination camp in 1945.",
+      "history": "Federal President Roman Herzog proclaimed the day in 1996. In 2005 the United Nations adopted 27 January as International Holocaust Remembrance Day. Soviet troops liberated Auschwitz on 27 January 1945, where more than one million people had been murdered.",
+      "traditions": "The Bundestag holds a memorial hour with a speech by a survivor or a prominent guest. Flags fly at half mast on public buildings, and memorial sites, schools and churches organise events. Many people light a candle in their window in the evening.",
       "funFacts": [
-        "On this date in 1945, the Auschwitz concentration and extermination camp was liberated."
+        "The day remembers all groups persecuted by the Nazis: Jews, Sinti and Roma, people with disabilities, homosexuals, political prisoners and many others.",
+        "The Memorial to the Murdered Jews of Europe in Berlin consists of 2,711 concrete stelae.",
+        "The words 'Never again' are the message that unites commemorations on this day worldwide."
+      ]
+    },
+    "memorial_am_armenian_genocide_remembrance_day": {
+      "intro": "On 24 April Armenians around the world remember the victims of the 1915 genocide in the Ottoman Empire, in which an estimated 1.5 million Armenians lost their lives.",
+      "history": "On 24 April 1915 hundreds of Armenian intellectuals and community leaders were arrested in Constantinople, the event that came to mark the beginning of the deportations and massacres. Armenia has observed the day officially since 1988, and it became a public holiday after independence.",
+      "traditions": "Hundreds of thousands walk up to the Tsitsernakaberd memorial in Yerevan to lay flowers around the eternal flame. Church services, a minute of silence and concerts of remembrance take place across Armenia and the diaspora.",
+      "funFacts": [
+        "The Tsitsernakaberd memorial was opened in 1967; its twelve basalt slabs symbolise the lost provinces of historic Western Armenia.",
+        "The forget-me-not became the official symbol of the centenary in 2015 and is still worn today.",
+        "More than 30 countries have formally recognised the events of 1915 as genocide."
+      ]
+    },
+    "memorial_ar_day_of_remembrance_for_truth_and_justice": {
+      "intro": "24 March, the Day of Remembrance for Truth and Justice, marks the anniversary of the 1976 military coup in Argentina and honours the victims of the dictatorship that followed.",
+      "history": "On 24 March 1976 the armed forces overthrew President Isabel Perón and ruled until 1983. During those years an estimated 30,000 people were kidnapped, tortured and 'disappeared'. The day was created by law in 2002 and became a public holiday in 2006.",
+      "traditions": "Human-rights organisations, above all the Mothers and Grandmothers of Plaza de Mayo, lead a large march to the Plaza de Mayo in Buenos Aires. Schools hold lessons on memory and democracy, and former detention centres such as the ESMA open their doors.",
+      "funFacts": [
+        "The white headscarf of the Mothers of Plaza de Mayo, originally a cloth nappy, became the symbol of the search for the disappeared.",
+        "The Grandmothers of Plaza de Mayo have identified more than 130 grandchildren born in captivity.",
+        "'Nunca más' (Never again) is the title of the 1984 report of the truth commission and the motto of the day."
+      ]
+    },
+    "memorial_ar_day_of_the_veterans_and_fallen_of_the_malvinas_war": {
+      "intro": "On 2 April Argentina remembers the soldiers who fought and fell in the 1982 war over the Malvinas (Falkland Islands) and honours the veterans.",
+      "history": "On 2 April 1982 Argentine forces landed on the islands, whose sovereignty Argentina has claimed since 1833. The 74-day war with the United Kingdom cost 649 Argentine and 255 British lives. The day was established in 2000 and became a public holiday in 2001.",
+      "traditions": "Ceremonies are held at the Monument to the Fallen in Malvinas on Plaza San Martín in Buenos Aires and in towns across the country. Veterans parade, flags fly at half mast in the morning, and schools recall the islands' history.",
+      "funFacts": [
+        "The monument on Plaza San Martín lists the names of all 649 Argentine fallen on black marble slabs.",
+        "Many of the conscripts were only 18 or 19 years old.",
+        "The Darwin cemetery on the islands holds the graves of 237 Argentine soldiers; families have been able to visit since 1991."
+      ]
+    },
+    "memorial_ar_general_jose_de_san_martin_memorial_day": {
+      "intro": "Argentina commemorates the death of General José de San Martín, the liberator of Argentina, Chile and Peru, who died on 17 August 1850 in France.",
+      "history": "San Martín led the Army of the Andes across the mountains in 1817, helped free Chile and proclaimed the independence of Peru in 1821. He spent his final decades in exile in Europe. The holiday was created in 1938 and is moved to a Monday to form a long weekend.",
+      "traditions": "Wreaths are laid at his mausoleum in the Metropolitan Cathedral of Buenos Aires, guarded by the Regiment of Mounted Grenadiers he founded. Schools stage plays and sing the 'March of San Lorenzo'.",
+      "funFacts": [
+        "San Martín is known as the 'Father of the Nation' and appears on many Argentine banknotes and coins.",
+        "His remains were brought back from France to Buenos Aires in 1880.",
+        "The crossing of the Andes covered passes higher than 4,000 metres with about 5,000 soldiers."
+      ]
+    },
+    "memorial_be_armistice_day": {
+      "intro": "Armistice Day on 11 November commemorates the end of the First World War in 1918 and honours the Belgian soldiers and civilians who died in both world wars.",
+      "history": "At 11 a.m. on 11 November 1918 the armistice signed at Compiègne came into force and the guns fell silent on the Western Front. Belgium had been occupied for four years and much of Flanders lay in ruins. The day has been a public holiday since 1922.",
+      "traditions": "The King lays a wreath at the Tomb of the Unknown Soldier at the Colonne du Congrès in Brussels. In Ypres the Last Post is sounded under the Menin Gate, as it is every evening, followed by a large parade. Poppies are worn in memory of the dead.",
+      "funFacts": [
+        "The Last Post has been played under the Menin Gate every evening since 1928, with the exception of the German occupation.",
+        "The Menin Gate bears the names of more than 54,000 Commonwealth soldiers with no known grave.",
+        "The poem 'In Flanders Fields', which made the poppy a symbol of remembrance, was written near Ypres in 1915."
+      ]
+    },
+    "memorial_by_commemoration_day": {
+      "intro": "Radunitsa, on the ninth day after Orthodox Easter, is Belarus's day of remembrance for the dead, when families visit the graves of their relatives.",
+      "history": "The custom of commemorating ancestors in spring predates Christianity in the Slavic world and was absorbed into the Orthodox calendar. In Belarus Radunitsa was declared a public holiday in 1993, one of the few explicitly religious commemorations with that status.",
+      "traditions": "Families tidy the graves, decorate them with flowers and dyed eggs, and share a simple meal at the cemetery. Priests hold memorial services, and the day is meant to be quiet rather than mournful, as the name derives from the word for joy.",
+      "funFacts": [
+        "Radunitsa always falls on a Tuesday, the second day of the week after Easter week.",
+        "The name is related to the Slavic word 'radost', meaning joy, because Easter joy is shared with the departed.",
+        "In Russia and Ukraine the same custom is observed but is not a public holiday."
+      ]
+    },
+    "memorial_ca_armistice_day": {
+      "intro": "Armistice Day on 11 November marks the end of the First World War in 1918; in Canada it has been observed as Remembrance Day since 1931.",
+      "history": "The armistice took effect at 11 a.m. on 11 November 1918. Canada first marked Armistice Day in 1919 together with Thanksgiving, until Parliament separated the two and renamed the day in 1931 to honour all who served.",
+      "traditions": "Two minutes of silence are observed at 11 a.m., and wreaths are laid at the National War Memorial in Ottawa and at cenotaphs across the country. Canadians wear a red poppy in the weeks before the day.",
+      "funFacts": [
+        "More than 66,000 Canadians died in the First World War, out of a population of about eight million.",
+        "The poppy tradition goes back to the poem 'In Flanders Fields' by Canadian doctor John McCrae.",
+        "The Tomb of the Unknown Soldier in Ottawa holds the remains of an unidentified Canadian soldier from Vimy Ridge."
+      ]
+    },
+    "memorial_cd_laurent_desire_kabila_assassination": {
+      "intro": "On 16 January the Democratic Republic of the Congo remembers President Laurent-Désiré Kabila, who was assassinated in Kinshasa in 2001.",
+      "history": "Kabila led the rebellion that ended Mobutu Sese Seko's rule in 1997 and became president. On 16 January 2001 he was shot by one of his bodyguards in the presidential palace. His son Joseph Kabila succeeded him and led the country to the 2002 peace agreement.",
+      "traditions": "Official ceremonies are held at Kabila's mausoleum in front of the Palais de la Nation in Kinshasa, where wreaths are laid. The day is a public holiday and is often marked together with the Lumumba commemoration on the following day.",
+      "funFacts": [
+        "Kabila is honoured with the title 'Mzee', a Swahili word of respect for an elder.",
+        "His mausoleum in Kinshasa was inaugurated in 2002 and features a bronze statue.",
+        "16 and 17 January together form two consecutive days of remembrance for the country's two 'heroes of independence'."
+      ]
+    },
+    "memorial_cd_patrice_lumumba_assassination": {
+      "intro": "17 January commemorates Patrice Lumumba, the first prime minister of the independent Congo, who was murdered in 1961.",
+      "history": "Lumumba led the Congo to independence from Belgium on 30 June 1960 but was overthrown within months during the Congo Crisis. He was handed over to secessionist forces in Katanga and executed on 17 January 1961 with Belgian complicity, as a Belgian parliamentary inquiry acknowledged in 2001.",
+      "traditions": "Ceremonies are held at the Lumumba monument on the Boulevard Lumumba in Kinshasa and in his home region. His independence speech is read in schools, and the day is a public holiday.",
+      "funFacts": [
+        "Lumumba was only 35 years old when he was killed.",
+        "In 2022 Belgium returned a gold-capped tooth, the only remaining relic of his body, to his family; it was buried in a mausoleum in Kinshasa.",
+        "He is regarded as one of the leading figures of African independence movements and appears on the country's banknotes."
+      ]
+    },
+    "memorial_cd_congolese_genocide_day": {
+      "intro": "On 2 August the Democratic Republic of the Congo commemorates the victims of the wars and mass atrocities in the east of the country since 1996, a day known as 'Genocost'.",
+      "history": "The date recalls the outbreak of the Second Congo War on 2 August 1998, in which several African states and countless armed groups were involved. The conflicts in the east have claimed millions of lives through violence, hunger and disease. The government made 2 August a national day of remembrance in 2022.",
+      "traditions": "A national ceremony is held in Kisangani, a city that suffered heavy fighting in 2000, with a minute of silence at midday. Churches hold services, and civil-society groups organise marches and exhibitions.",
+      "funFacts": [
+        "The word 'Genocost' combines 'genocide' and 'cost' to point to the economic motives behind the violence.",
+        "The Second Congo War is sometimes called 'Africa's World War' because nine countries took part.",
+        "Nobel Peace Prize laureate Denis Mukwege, a doctor from Bukavu, has long campaigned for the recognition of the victims."
+      ]
+    },
+    "memorial_gi_workers_memorial_day": {
+      "intro": "Workers' Memorial Day on 28 April remembers people who have been killed, injured or made ill by their work. In Gibraltar it is a public holiday.",
+      "history": "The day was started by Canadian trade unions in 1984 and is now observed in more than 100 countries. The International Labour Organization made 28 April the World Day for Safety and Health at Work in 2003. Gibraltar added it to its public holidays in 2009 at the initiative of the unions.",
+      "traditions": "A wreath-laying ceremony takes place in Gibraltar, and unions hold a minute of silence for workers who lost their lives. The motto of the day is 'Remember the dead, fight for the living'.",
+      "funFacts": [
+        "The date recalls 28 April 1914, when Ontario passed its first workers' compensation act.",
+        "Gibraltar is one of only a few places where the day is a full public holiday.",
+        "Purple ribbons and purple forget-me-nots are the symbols of the day in the United Kingdom."
+      ]
+    },
+    "memorial_hr_remembrance_day": {
+      "intro": "On 18 November Croatia remembers the victims of the Homeland War, above all the fall of Vukovar in 1991 and the massacre in Škabrnja on the same day.",
+      "history": "After an 87-day siege the town of Vukovar fell to the Yugoslav People's Army and Serb paramilitaries on 18 November 1991. Around 200 wounded and staff were taken from the hospital and killed at the Ovčara farm. The day of remembrance was created in 1999 and became a public holiday in 2020.",
+      "traditions": "Tens of thousands walk in the 'Column of Remembrance' from the Vukovar hospital to the memorial cemetery, where a candle is lit for every victim. Church bells ring across Croatia, and the water tower of Vukovar, riddled with bullet holes, has become the symbol of the town.",
+      "funFacts": [
+        "The Vukovar water tower was hit more than 600 times during the siege and was opened as a memorial in 2020.",
+        "The memorial cemetery contains 938 white crosses, one for each of the identified victims from the mass graves.",
+        "The Croatian parliament made 18 November a public holiday in 2019, effective from 2020."
+      ]
+    },
+    "memorial_il_yom_hashoah": {
+      "intro": "Yom HaShoah, on the 27th of Nisan in the Jewish calendar, is Israel's day of remembrance for the six million Jews murdered in the Holocaust and for the heroism of those who resisted.",
+      "history": "The Knesset established the day in 1951, and in 1959 it became a national memorial day by law. The date lies a week after Passover and a week before Israel's Memorial Day, and was chosen to fall close to the anniversary of the Warsaw Ghetto Uprising of April 1943.",
+      "traditions": "At 10 a.m. sirens sound for two minutes across Israel and everything comes to a halt, even traffic on the motorways. The state ceremony takes place at Yad Vashem in Jerusalem on the eve of the day, where six survivors light six torches. Places of entertainment close, and names of victims are read aloud.",
+      "funFacts": [
+        "The full name of the day is 'Day of Remembrance of the Holocaust and Heroism'.",
+        "The 'March of the Living' brings thousands of young people from Auschwitz to Birkenau on this day each year.",
+        "Yad Vashem holds the names of about 4.8 million of the six million victims in its central database."
+      ]
+    },
+    "memorial_il_yom_hazikaron": {
+      "intro": "Yom HaZikaron, on the 4th of Iyar, is Israel's Memorial Day for fallen soldiers and victims of terrorism. It ends at sunset as Independence Day begins.",
+      "history": "Israel first marked the fallen of the 1948 war on Independence Day itself; from 1951 the day of remembrance was moved to the eve of the celebrations. It was enshrined in law in 1963. Since 1998 victims of terrorist attacks have been commemorated on the same day.",
+      "traditions": "A siren sounds for one minute at 8 p.m. on the eve and for two minutes at 11 a.m. on the day, when the country stands still. Ceremonies are held at Mount Herzl in Jerusalem and at military cemeteries, and families visit the graves. Television and radio broadcast only sombre programmes.",
+      "funFacts": [
+        "The transition from mourning to celebration at sunset is deliberate: Israel's independence is understood as the price paid by the fallen.",
+        "The state ceremony at the Western Wall on the eve opens with the lowering of the flag to half mast.",
+        "A red flower, the 'blood of the Maccabees' (Helichrysum), is the symbol of the day and is worn as a sticker."
+      ]
+    },
+    "memorial_il_tisha_bav": {
+      "intro": "Tisha B'Av, the 9th of Av, is the saddest day in the Jewish calendar. It mourns the destruction of both Temples in Jerusalem and other catastrophes of Jewish history.",
+      "history": "The First Temple was destroyed by the Babylonians in 586 BCE and the Second Temple by the Romans in 70 CE, according to tradition on the same date. Later disasters such as the expulsion of the Jews from Spain in 1492 are also associated with the day. In Israel it is an optional day off.",
+      "traditions": "Observant Jews fast for about 25 hours from sunset to nightfall, do not wear leather shoes and sit on low stools while the Book of Lamentations is read by candlelight. Thousands gather at the Western Wall in Jerusalem for evening prayers.",
+      "funFacts": [
+        "The three weeks before Tisha B'Av are a period of mourning in which weddings and celebrations are avoided.",
+        "The fast is the only one besides Yom Kippur that lasts a full day and night.",
+        "Restaurants and places of entertainment in Israel are closed by law on the eve of the day."
+      ]
+    },
+    "memorial_kr_memorial_day": {
+      "intro": "Memorial Day (Hyeonchungil) on 6 June honours the soldiers and civilians who died for South Korea, especially in the Korean War of 1950 to 1953.",
+      "history": "The day was established in 1956, three years after the armistice, to remember the fallen of the war. The date follows the traditional calendar, on which early June marks the start of the season for tending ancestral graves.",
+      "traditions": "At 10 a.m. a siren sounds nationwide for one minute of silence. The president leads a ceremony at the Seoul National Cemetery, where families lay flowers on the graves, and flags are flown at half mast throughout the country.",
+      "funFacts": [
+        "The Korean War has never formally ended; only an armistice was signed in 1953.",
+        "The Seoul National Cemetery in Dongjak-gu is the resting place of more than 160,000 people.",
+        "Because it is a day of mourning, the national flag is raised to half mast rather than full height."
+      ]
+    },
+    "memorial_md_victory_and_commemoration_day": {
+      "intro": "On 9 May Moldova commemorates the victory over Nazi Germany in 1945 and the soldiers who fell in the Second World War.",
+      "history": "The German surrender took effect late on 8 May 1945, which was already 9 May in Moscow, hence the Soviet date. Moldova kept the holiday after independence in 1991 and renamed it 'Victory and Commemoration Day' in memory of the fallen. Since 2017 Europe Day has also been marked on the same date.",
+      "traditions": "Wreaths are laid at the Eternitate memorial complex in Chișinău, where an eternal flame burns in the centre of five stylised rifles. Veterans are honoured, and families visit war graves; many also wear the blue-and-yellow ribbon of Europe Day.",
+      "funFacts": [
+        "The Eternitate memorial was inaugurated in 1975 and rises 25 metres above the graves of soldiers.",
+        "Since 2022 the display of the St George ribbon associated with the Russian commemoration has been banned in Moldova.",
+        "Moldova celebrates both the Soviet victory and Europe Day on 9 May, a combination found in few other countries."
+      ]
+    },
+    "memorial_md_memorial_day": {
+      "intro": "Paștele Blajinilor, the 'Easter of the Meek', on the Monday after Easter week, is Moldova's day of remembrance for the dead, when families gather at cemeteries.",
+      "history": "The custom of sharing Easter joy with deceased ancestors is rooted in Orthodox tradition and pre-Christian spring rites. In Moldova the day became a public holiday in 1990 and is one of the most widely observed family occasions of the year.",
+      "traditions": "Families tidy the graves, decorate them with flowers and dyed eggs and share a meal there; priests bless the graves and food. Bread, sweets and wine are given to neighbours and strangers 'for the soul' of the departed.",
+      "funFacts": [
+        "'Blajini' means 'the meek' and refers to legendary gentle beings who are said to live at the edge of the world and celebrate Easter later.",
+        "Many Moldovans who work abroad plan their visits home around this day.",
+        "The day always falls eight days after Orthodox Easter Sunday."
+      ]
+    },
+    "memorial_na_cassinga_day": {
+      "intro": "Cassinga Day on 4 May commemorates the South African attack on the Namibian refugee camp of Cassinga in southern Angola in 1978, in which about 600 people were killed.",
+      "history": "On 4 May 1978 South African paratroopers and aircraft attacked the camp of the liberation movement SWAPO at Cassinga, where thousands of refugees lived. The attack became one of the defining events of the struggle for independence, which Namibia achieved in 1990.",
+      "traditions": "A national ceremony with wreath-laying takes place at Heroes' Acre near Windhoek, and survivors share their memories. Flags fly at half mast, and the day is a public holiday.",
+      "funFacts": [
+        "Many of the survivors of Cassinga were children who later completed their schooling in Cuba.",
+        "Heroes' Acre was opened in 2002 and is dominated by a 34-metre obelisk.",
+        "The camp was located about 250 kilometres north of the Namibian border."
+      ]
+    },
+    "memorial_na_genocide_remembrance_day": {
+      "intro": "Genocide Remembrance Day on 28 May commemorates the Ovaherero and Nama who were killed under German colonial rule between 1904 and 1908.",
+      "history": "After the uprising of 1904 the German colonial army drove the Herero into the Omaheke desert and imprisoned survivors in camps such as Shark Island. Tens of thousands died. Germany officially recognised the events as genocide in 2021. Namibia observed the day for the first time in 2025, choosing the date on which the camps were ordered closed in 1907.",
+      "traditions": "A national ceremony with a minute of silence and candle lighting is held, and descendants of the victims hold memorial gatherings in Okahandja, Swakopmund and Lüderitz. The day is a public holiday.",
+      "funFacts": [
+        "The genocide of the Herero and Nama is considered the first genocide of the 20th century.",
+        "In 2018 Germany returned human remains that had been taken to Berlin for racial research.",
+        "The Genocide Memorial in Windhoek was unveiled in 2014 on the site of the former equestrian monument to German colonial soldiers."
+      ]
+    },
+    "memorial_pg_remembrance_day": {
+      "intro": "Remembrance Day on 23 July honours Papua New Guineans who served and died in the Second World War, especially the soldiers of the Papuan Infantry Battalion.",
+      "history": "On 23 July 1942 the Papuan Infantry Battalion fought its first engagement against Japanese troops near Awala at the start of the Kokoda campaign. The day became a national holiday after independence in 1975.",
+      "traditions": "Wreaths are laid at the Bomana War Cemetery near Port Moresby and at the Remembrance Park in the capital. Veterans' families, the defence force and schoolchildren take part, and the Last Post is sounded.",
+      "funFacts": [
+        "Papua New Guineans who carried wounded soldiers along the Kokoda Track became known as the 'Fuzzy Wuzzy Angels'.",
+        "Bomana War Cemetery is the largest war cemetery in the Pacific with more than 3,800 graves.",
+        "The Papuan Infantry Battalion was the first indigenous military unit of the country."
+      ]
+    },
+    "memorial_pr_memorial_day": {
+      "intro": "Memorial Day on the last Monday of May honours the men and women who died while serving in the United States armed forces. Puerto Ricans have served in every American war since 1917.",
+      "history": "Memorial Day grew out of Decoration Day after the American Civil War, when graves were decorated with flowers. It became a federal holiday in 1971. Puerto Ricans became US citizens in 1917 and have served in large numbers, including the 65th Infantry Regiment, the 'Borinqueneers'.",
+      "traditions": "Ceremonies are held at the Puerto Rico National Cemetery in Bayamón, where small flags are placed on every grave. Veterans' groups parade, and many families visit the graves of relatives.",
+      "funFacts": [
+        "The 65th Infantry Regiment received the Congressional Gold Medal in 2016 for its service in the Korean War.",
+        "The Puerto Rico National Cemetery is the resting place of more than 50,000 veterans and family members.",
+        "A national moment of remembrance is observed at 3 p.m. local time across the United States."
+      ]
+    },
+    "memorial_rs_armistice_day": {
+      "intro": "Armistice Day on 11 November commemorates the end of the First World War in 1918 and the Serbian soldiers and civilians who died in it.",
+      "history": "Serbia lost more than a quarter of its population in the First World War, a higher share than any other country. The day was introduced as a public holiday in 2012 to honour the victims and the role of the Serbian army in the Allied victory.",
+      "traditions": "Wreaths are laid at the monument to the Unknown Hero on Avala mountain near Belgrade and at war memorials across the country. People wear the Natalie's ramonda, a small purple flower, in memory of the fallen.",
+      "funFacts": [
+        "The Natalie's ramonda is a 'resurrection plant' that can revive after drying out, which is why it symbolises Serbia's recovery after the war.",
+        "The flower is often worn together with a ribbon in the colours of the Albanian Retreat medal from 1915.",
+        "The Monument to the Unknown Hero on Avala was designed by the sculptor Ivan Meštrović in 1938."
+      ]
+    },
+    "memorial_sm_commemoration_of_all_those_who_died_at_war": {
+      "intro": "On 2 November, All Souls' Day, San Marino commemorates all those who died in war, together with the Catholic remembrance of the dead.",
+      "history": "The tiny republic remained neutral in both world wars but was bombed by mistake by British aircraft in June 1944, killing 63 people, and took in about 100,000 refugees. The commemoration on All Souls' Day is one of the country's official holidays.",
+      "traditions": "Families visit the cemeteries, above all Montalbo cemetery, and lay flowers and light candles on the graves. A ceremony honours the war dead of the republic, and the Captains Regent take part in a memorial mass.",
+      "funFacts": [
+        "San Marino's population is only about 34,000, so almost every family had relatives among the wartime refugees.",
+        "A plaque at the railway station remembers the victims of the 1944 bombing.",
+        "All Souls' Day has been observed by the Catholic Church since the 11th century."
+      ]
+    },
+    "memorial_us_lincolns_birthday": {
+      "intro": "Lincoln's Birthday on 12 February honours Abraham Lincoln, the 16th president of the United States, who led the country through the Civil War and ended slavery.",
+      "history": "Lincoln was born in a log cabin in Kentucky in 1809 and was assassinated in April 1865, days after the end of the Civil War. His birthday was first celebrated publicly in 1866 and became a legal holiday in several states, though never a federal one. Today many states combine it with Washington's Birthday as Presidents' Day.",
+      "traditions": "A wreath-laying ceremony is held at the Lincoln Memorial in Washington, and the Gettysburg Address is read in many schools. In Illinois, the 'Land of Lincoln', the day remains a state holiday.",
+      "funFacts": [
+        "At 1.93 metres, Lincoln was the tallest US president.",
+        "The Gettysburg Address is only about 270 words long and lasted around two minutes.",
+        "The Lincoln Memorial was dedicated in 1922 and features a 5.8-metre marble statue."
+      ]
+    },
+    "memorial_za_human_rights_day": {
+      "intro": "Human Rights Day on 21 March commemorates the Sharpeville massacre of 1960 and celebrates the rights enshrined in South Africa's democratic constitution.",
+      "history": "On 21 March 1960 police opened fire on a peaceful crowd protesting the pass laws in Sharpeville, killing 69 people. The massacre drew worldwide condemnation of apartheid. After the first democratic elections the day was made a public holiday in 1994, and Nelson Mandela signed the new constitution in Sharpeville in 1996.",
+      "traditions": "Ceremonies are held at the Sharpeville memorial and Human Rights Precinct, and the government uses the day to promote the Bill of Rights. Communities organise marches, concerts and educational events.",
+      "funFacts": [
+        "The United Nations declared 21 March the International Day for the Elimination of Racial Discrimination in 1966, in memory of Sharpeville.",
+        "The South African Bill of Rights is considered one of the most progressive in the world.",
+        "The Sharpeville memorial lists the names of all 69 victims on individual pillars."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_defenders_of_the_barricades_in_1991": {
+      "intro": "20 January remembers the defenders of the barricades of January 1991, when people in Riga protected the young Latvian democracy against Soviet special forces.",
+      "history": "After the Soviet crackdown in Vilnius on 13 January 1991, tens of thousands of Latvians built barricades around the parliament, the television centre and the bridges of Riga. On 20 January the OMON special police stormed the Interior Ministry; five people were killed, among them two cameramen filming the events.",
+      "traditions": "Bonfires are lit on Dome Square in Old Riga as they were in 1991, and wreaths are laid at the memorial stones in Bastejkalns park where the victims fell. The Barricades Museum in Old Riga keeps the memory alive with original film footage.",
+      "funFacts": [
+        "The barricades were built from trucks, tractors and concrete blocks brought in from all over Latvia.",
+        "Farmers kept the defenders supplied with hot food and firewood for days.",
+        "The Barricades Museum was opened in 2001 in a house on Krāmu iela in Old Riga."
+      ]
+    },
+    "memorial_lv_day_of_the_international_de_jure_recognition_of_the_republic_of_latvia": {
+      "intro": "On 26 January 1921 the Allied Supreme Council recognised the Republic of Latvia de jure, confirming the young state's place among the nations of the world.",
+      "history": "Latvia had proclaimed independence on 18 November 1918 and fought a war of independence until 1920. The de jure recognition by Britain, France, Italy, Japan and Belgium opened the door to the League of Nations, which Latvia joined in September 1921.",
+      "traditions": "The state flag is raised on public buildings, and the Foreign Ministry marks the day as the anniversary of Latvian diplomacy. Schools recall how the country found its place in the international community.",
+      "funFacts": [
+        "The United States did not recognise Latvia de jure until July 1922.",
+        "The Latvian flag with its dark red and white stripes is one of the oldest flag designs in the world, mentioned in a chronicle of 1279.",
+        "The decision was taken at a meeting of the Allied Supreme Council in Paris."
+      ]
+    },
+    "memorial_lv_world_non_governmental_organization_day": {
+      "intro": "World NGO Day on 27 February celebrates non-governmental organisations and the volunteers who work in them; the idea was born in Latvia.",
+      "history": "The day was proposed by Latvian activist Marcis Liors Skadmanis and recognised by the Baltic Sea NGO Forum in 2010. It was first marked internationally in 2014 and has since been supported by the United Nations and the European Union.",
+      "traditions": "NGOs open their doors, present their projects and thank their volunteers. Conferences and award ceremonies honour civil-society initiatives, and many people use the day to sign up as volunteers.",
+      "funFacts": [
+        "The day is now observed in around 90 countries.",
+        "Latvia has more than 25,000 registered associations and foundations.",
+        "The Baltic Sea NGO Forum brings together civil-society groups from ten countries around the Baltic."
+      ]
+    },
+    "memorial_lv_national_partisan_armed_resistance_remembrance_day": {
+      "intro": "2 March remembers the Latvian national partisans, the 'Forest Brothers', who fought against the Soviet occupation after 1944.",
+      "history": "The date recalls the Battle of Stompaki on 2 and 3 March 1945 in Latgale, the largest engagement between Latvian partisans and Soviet forces. Around 20,000 Latvians took part in the armed resistance, which lasted into the 1950s. The remembrance day was added to the law in 2020.",
+      "traditions": "Wreaths are laid at partisan memorials and bunkers in the forests, and the National Armed Forces hold ceremonies. Local museums and historians tell the stories of individual resistance groups.",
+      "funFacts": [
+        "At Stompaki about 350 partisans held out against several thousand Soviet troops before breaking out of the encirclement.",
+        "The last known Latvian partisan came out of hiding only in the 1990s.",
+        "Similar days of remembrance exist in Estonia and Lithuania."
+      ]
+    },
+    "memorial_lv_national_resistance_movement_remembrance_day": {
+      "intro": "17 March honours the national resistance movement, above all the Latvian Central Council, which demanded the restoration of independence during the German occupation in 1944.",
+      "history": "On 17 March 1944, 188 leading Latvian politicians and public figures signed a memorandum calling for the restoration of the independent Republic of Latvia. The Central Council was led by Konstantīns Čakste, who was arrested by the Gestapo and died in a concentration camp in 1945.",
+      "traditions": "Wreaths are laid at the memorial plaque to the Central Council in Riga, and the president or speaker of parliament gives a commemorative address. Historians recall the many forms of resistance to both occupying powers.",
+      "funFacts": [
+        "Konstantīns Čakste was the son of Latvia's first president, Jānis Čakste.",
+        "The Central Council also organised boat crossings that helped refugees escape to Sweden.",
+        "The memorandum was smuggled out of the country and handed to the Western Allies."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_victims_of_communist_terror": {
+      "intro": "14 June remembers the victims of communist terror, in particular the mass deportation of 14 June 1941, when more than 15,000 people were taken from Latvia to Siberia in a single night.",
+      "history": "On the night of 13 to 14 June 1941 the Soviet authorities arrested families across Latvia, separated men from women and children and sent them east in freight wagons. Many did not survive the first winter. A second, even larger deportation followed on 25 March 1949, which is also a day of remembrance.",
+      "traditions": "Flags fly with black ribbons, and wreaths are laid at Torņakalns railway station in Riga, from where the trains left. Names of the deported are read aloud, and the Museum of the Occupation holds a memorial event.",
+      "funFacts": [
+        "A memorial wagon at Torņakalns station shows the conditions of the deportations.",
+        "Together the deportations of 1941 and 1949 affected almost 60,000 people in Latvia.",
+        "In 1987 a flower-laying at the Freedom Monument on 14 June became one of the first public protests of the Latvian independence movement."
+      ]
+    },
+    "memorial_lv_latgale_congress_day": {
+      "intro": "Latgale Congress Day on 27 April recalls the congress of 1917 in Rēzekne, at which the Latvians of Latgale decided to unite with the other Latvian regions.",
+      "history": "Latgale had been separated from Courland and Livonia since the 17th century and belonged to a different Russian province. On 26 and 27 April 1917 delegates in Rēzekne voted to join the other Latvian lands, an essential step toward the state founded in 1918.",
+      "traditions": "Celebrations are held in Rēzekne at the statue 'Latgales Māra', which bears the words 'United for Latvia'. Concerts, exhibitions and events in the Latgalian language mark the day.",
+      "funFacts": [
+        "The Latgales Māra statue was unveiled in 1939, removed by the Soviets twice and restored in 1992.",
+        "Latgalian has its own written tradition and is protected as a historical variant of Latvian.",
+        "Rēzekne is known as the 'heart of Latgale'."
+      ]
+    },
+    "memorial_lv_day_of_the_defeat_of_nazism_and_commemoration_day_of_victims_of_world_war_ii": {
+      "intro": "8 May marks the defeat of Nazism in 1945 and commemorates the victims of the Second World War, which cost Latvia hundreds of thousands of lives.",
+      "history": "The German surrender came into force on 8 May 1945. For Latvia the end of the war did not bring freedom but the return of Soviet rule, and Latvians had been conscripted on both sides. The day was introduced after independence in the spirit of the Western European date rather than the Soviet 9 May.",
+      "traditions": "Wreaths are laid at the Salaspils memorial and at graves of soldiers and civilians. Since 2023 events on the Soviet date of 9 May have been restricted, and the day is observed with reconciliation and remembrance of all victims.",
+      "funFacts": [
+        "The Salaspils memorial ensemble was opened in 1967 on the site of a Nazi camp.",
+        "Latvia lost about a third of its pre-war population to war, deportations and emigration.",
+        "Riga's Soviet Victory Monument was dismantled in 2022."
+      ]
+    },
+    "memorial_lv_europe_day": {
+      "intro": "Europe Day on 9 May celebrates peace and unity in Europe and recalls the Schuman Declaration of 1950 that led to the European Union.",
+      "history": "On 9 May 1950 French foreign minister Robert Schuman proposed placing coal and steel production under a common authority, the seed of European integration. Latvia joined the European Union on 1 May 2004 and marks the day officially in its calendar.",
+      "traditions": "European flags fly on public buildings, and information events, concerts and discussions take place in Riga and other towns. Schools hold projects about the EU, and the European Parliament office opens its doors.",
+      "funFacts": [
+        "Latvia adopted the euro in 2014.",
+        "The EU flag's twelve stars stand for perfection and unity, not the number of member states.",
+        "Riga hosted the presidency of the Council of the EU in the first half of 2015."
+      ]
+    },
+    "memorial_lv_international_day_of_the_family": {
+      "intro": "The International Day of Families on 15 May draws attention to the importance of families and the challenges they face.",
+      "history": "The United Nations General Assembly proclaimed the day in 1993, following the International Year of the Family in 1994. Latvia included it in its official calendar as a day to be celebrated.",
+      "traditions": "Family festivals, open-air events and sports days are organised in parks and cultural centres. Organisations use the day to discuss support for parents and children, and many families simply spend the day together.",
+      "funFacts": [
+        "Each year the UN chooses a theme, such as families and climate change or digital technology.",
+        "Latvia has one of the most generous parental-leave systems in Europe.",
+        "The day is not a public holiday but is marked with events across the country."
+      ]
+    },
+    "memorial_lv_firefighter_and_rescuer_day": {
+      "intro": "Firefighter and Rescuer Day on 17 May honours the men and women of Latvia's fire and rescue services.",
+      "history": "The date recalls 17 May 1865, when the Riga Voluntary Firefighters' Society was founded, the first in the country. Today the State Fire and Rescue Service (VUGD) responds to fires, accidents and natural disasters nationwide.",
+      "traditions": "Fire stations open their doors, and children can climb into fire engines. Ceremonies honour long-serving and distinguished firefighters, and demonstrations show the work of the rescue teams.",
+      "funFacts": [
+        "The Latvian Fire Museum in Riga is housed in a fire station built in 1912.",
+        "The VUGD has around 3,000 employees.",
+        "Voluntary fire brigades still play an important role in rural Latvia."
+      ]
+    },
+    "memorial_lv_international_day_for_protection_of_children": {
+      "intro": "International Children's Day on 1 June celebrates children and reminds society of their right to protection, education and a happy childhood.",
+      "history": "The date was set in 1949 by the Women's International Democratic Federation and is observed above all in Eastern and Central Europe and Asia. In Latvia it has remained a popular day for families since Soviet times.",
+      "traditions": "Parks, museums and theatres offer free events, and towns organise festivals with games, concerts and face painting. Children's rights organisations use the day to draw attention to child protection.",
+      "funFacts": [
+        "Universal Children's Day proclaimed by the UN falls on 20 November, so many countries have two children's days.",
+        "Latvia has a Children's Ombudsman within the Ombudsman's Office.",
+        "On this day the Latvian National Opera traditionally offers performances for children."
+      ]
+    },
+    "memorial_lv_day_of_the_occupation_of_the_republic_of_latvia": {
+      "intro": "17 June marks the Soviet occupation of Latvia in 1940, when the Red Army marched into the country following an ultimatum from Moscow.",
+      "history": "On 16 June 1940 the Soviet Union demanded a new government and the admission of unlimited troops; the next day Soviet forces occupied Latvia. A staged election followed, and in August Latvia was annexed as a Soviet republic. Independence was not restored until 1991.",
+      "traditions": "Flags are raised with black ribbons of mourning, and wreaths are laid at the Freedom Monument in Riga. The Museum of the Occupation holds a memorial event, and the president addresses the nation.",
+      "funFacts": [
+        "The Museum of the Occupation of Latvia in Riga documents the years 1940 to 1991.",
+        "The occupation was a consequence of the secret protocol of the Molotov-Ribbentrop Pact.",
+        "Many Western countries never recognised the annexation and continued to accept Latvian diplomats."
+      ]
+    },
+    "memorial_lv_medical_worker_day": {
+      "intro": "Medical Worker Day on the third Sunday of June honours doctors, nurses and everyone who works in Latvia's health care system.",
+      "history": "The day has its roots in the Soviet 'Day of the Medical Worker', which was celebrated on the same date. Latvia kept it after independence as a day to thank health professionals.",
+      "traditions": "Hospitals and the Ministry of Health hold ceremonies at which outstanding doctors and nurses receive awards. Patients and colleagues bring flowers, and the media report on the work of the health service.",
+      "funFacts": [
+        "Latvia's Pauls Stradiņš University Hospital in Riga is the country's largest medical centre.",
+        "Riga Stradiņš University trains doctors from many countries in English.",
+        "The day always falls on a Sunday, so celebrations often take place on the preceding Friday."
+      ]
+    },
+    "memorial_lv_heroes_commemoration_day_anniversary_of_the_battle_of_cesis": {
+      "intro": "Heroes' Commemoration Day on 22 June recalls the Battle of Cēsis in 1919, a turning point of the Latvian War of Independence.",
+      "history": "Between 19 and 23 June 1919 Estonian troops and Latvian units defeated the German Baltic Landeswehr near Cēsis. The victory ended German plans to control the Baltic and secured the government of Kārlis Ulmanis. Estonia celebrates the same battle on 23 June as Victory Day.",
+      "traditions": "Ceremonies are held at the monument to the fallen in Cēsis and at the Brothers' Cemetery in Riga. Latvian and Estonian officials often commemorate the battle together.",
+      "funFacts": [
+        "Latvian schoolboys from Cēsis fought in the battle as a volunteer company.",
+        "Cēsis Castle, one of the best-preserved medieval castles in Latvia, overlooks the town.",
+        "The battle is sometimes called the 'Battle of Võnnu' in Estonia, after the Estonian name of Cēsis."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_genocide_against_the_jews": {
+      "intro": "4 July commemorates the genocide against the Jews of Latvia during the German occupation, in which around 70,000 Latvian Jews were murdered.",
+      "history": "On 4 July 1941 the Great Choral Synagogue in Riga was set on fire with people inside, as were other synagogues in the city. Mass shootings followed, above all at Rumbula and Biķernieki in late 1941. The remembrance day was established in 1990.",
+      "traditions": "Wreaths are laid at the ruins of the Great Choral Synagogue on Gogoļa iela and at the Rumbula and Biķernieki memorials. The Žanis Lipke Memorial honours Latvians who hid Jews at the risk of their own lives.",
+      "funFacts": [
+        "Žanis Lipke, a Riga dock worker, saved more than 50 Jews and is honoured as Righteous Among the Nations.",
+        "The memorial at the synagogue ruins includes a wall of names of the rescuers.",
+        "Before the war about 93,000 Jews lived in Latvia, roughly five percent of the population."
+      ]
+    },
+    "memorial_lv_day_of_the_sea_festival": {
+      "intro": "The Sea Festival on the second Saturday of July celebrates fishermen, sailors and everyone whose life is bound to the Baltic Sea.",
+      "history": "The festival grew out of the fishermen's celebrations of the 1930s and became a tradition in coastal towns such as Liepāja, Ventspils and Roja. It survived the Soviet era and has been an official day of celebration since independence.",
+      "traditions": "Boats are blessed and decorated, Neptune arrives from the sea and 'baptises' newcomers, and fish soup is served on the quays. Concerts, boat races and fairs continue late into the summer night.",
+      "funFacts": [
+        "Latvia's coastline is about 500 kilometres long.",
+        "Smoked fish, especially sprats and flounder, are the classic dish of the festival.",
+        "In Ventspils the festival is combined with the city festival and draws tens of thousands of visitors."
+      ]
+    },
+    "memorial_lv_latvian_freedom_fighters_remembrance_day": {
+      "intro": "11 August honours the freedom fighters of the Latvian War of Independence and marks the peace treaty with Soviet Russia of 1920 that ended the war.",
+      "history": "In the Treaty of Riga of 11 August 1920 Soviet Russia recognised Latvia's independence 'for all time'. The war of 1918 to 1920 had been fought against Bolshevik forces, German units and the West Russian Volunteer Army. About 3,000 Latvian soldiers died.",
+      "traditions": "Wreaths are laid at the Freedom Monument and at the Brothers' Cemetery in Riga, where the fallen of the war are buried. The National Armed Forces hold a ceremony, and veterans' organisations remember the volunteers.",
+      "funFacts": [
+        "The Brothers' Cemetery in Riga was designed by sculptor Kārlis Zāle, who also created the Freedom Monument.",
+        "The Freedom Monument, unveiled in 1935, bears the inscription 'For Fatherland and Freedom'.",
+        "The Soviet Union broke the 'eternal' peace treaty twenty years later with the occupation of 1940."
+      ]
+    },
+    "memorial_lv_day_of_the_passing_of_the_constitutional_law_on_the_status_of_the_republic_of_latvia_as_a_state": {
+      "intro": "21 August marks the day in 1991 when the Latvian parliament passed the constitutional law that fully restored the country's independence.",
+      "history": "Latvia had declared a transition to independence on 4 May 1990. During the failed coup in Moscow, the Supreme Council adopted on 21 August 1991 the law declaring Latvia a fully independent state. Within days the Soviet Union and the world recognised it.",
+      "traditions": "The flag is raised on public buildings, and the Saeima holds a ceremony. The day is often remembered together with 4 May, the Day of the Restoration of Independence, which is a public holiday.",
+      "funFacts": [
+        "Iceland was the first country to recognise the restored Latvian independence, on 22 August 1991.",
+        "The vote in the Supreme Council was taken while Soviet troops were still in the country.",
+        "Latvia rejoined the United Nations on 17 September 1991."
+      ]
+    },
+    "memorial_lv_day_of_remembrance_for_victims_of_stalinism_and_nazism": {
+      "intro": "23 August is the European Day of Remembrance for the victims of Stalinism and Nazism, the anniversary of the Molotov-Ribbentrop Pact of 1939 and of the Baltic Way of 1989.",
+      "history": "On 23 August 1939 Germany and the Soviet Union signed a non-aggression pact with a secret protocol dividing Eastern Europe, which sealed the fate of the Baltic states. Fifty years later, on 23 August 1989, about two million people formed a human chain from Tallinn through Riga to Vilnius to demand independence.",
+      "traditions": "Ceremonies are held at the Freedom Monument in Riga, and candles are lit in memory of the victims of both regimes. The Baltic Way is recalled with exhibitions and films, and the day is marked across the European Union.",
+      "funFacts": [
+        "The Baltic Way stretched about 675 kilometres across the three countries.",
+        "The documents of the Baltic Way were added to the UNESCO Memory of the World Register in 2009.",
+        "The European Parliament proclaimed the day of remembrance in 2009."
+      ]
+    },
+    "memorial_lv_knowledge_day": {
+      "intro": "Knowledge Day on 1 September is the first day of the school year in Latvia, when pupils bring flowers to their teachers and first-graders start school.",
+      "history": "The tradition of a ceremonial first school day comes from the Soviet era, when 1 September was made the uniform start of the school year across the country. Latvia has kept the date and the festive character.",
+      "traditions": "Pupils in their best clothes carry bouquets of gladioli and asters; first-graders are led into school by older pupils. Schools hold assemblies with speeches and music, and universities open the academic year.",
+      "funFacts": [
+        "Flower shops in Latvia have their busiest day of the year on 1 September.",
+        "The first bell is rung by a senior pupil carrying a first-grader on their shoulders in many schools.",
+        "The day is also celebrated in Russia, Ukraine and other former Soviet countries."
+      ]
+    },
+    "memorial_lv_baltic_unity_day": {
+      "intro": "Baltic Unity Day on 22 September recalls the Battle of Saule in 1236 and celebrates the shared roots of Latvians and Lithuanians.",
+      "history": "On 22 September 1236 Samogitian and Semigallian forces defeated the Livonian Brothers of the Sword near Saule, the first great victory of the Baltic peoples over the crusading orders. The parliaments of Latvia and Lithuania established the day in 2000.",
+      "traditions": "Bonfires are lit on both sides of the border, and folk groups perform ancient songs and dances. Concerts and joint events take place in border towns, and scholars discuss the common heritage of the Baltic languages.",
+      "funFacts": [
+        "Latvian and Lithuanian are the only two surviving Baltic languages.",
+        "Bonfires at the same hour along the border symbolise unity.",
+        "The exact location of the battle is still disputed between historians."
+      ]
+    },
+    "memorial_lv_international_day_of_older_persons": {
+      "intro": "The International Day of Older Persons on 1 October honours the contribution of older people to society and raises awareness of their needs.",
+      "history": "The United Nations General Assembly proclaimed the day in 1990, and it was first observed in 1991. Latvia, whose population is among the oldest in Europe, includes it in its official calendar.",
+      "traditions": "Senior clubs, municipalities and cultural centres organise concerts, exhibitions and health days. Pensioners' organisations use the day to discuss pensions and care, and grandchildren often visit their grandparents.",
+      "funFacts": [
+        "Every fifth inhabitant of Latvia is over 65.",
+        "Many Latvian municipalities offer free public transport for pensioners.",
+        "The UN sets a theme each year, such as digital inclusion or resilience."
+      ]
+    },
+    "memorial_lv_teachers_day": {
+      "intro": "Teachers' Day on 5 October thanks teachers for their work and coincides with UNESCO's World Teachers' Day.",
+      "history": "UNESCO proclaimed World Teachers' Day in 1994 to commemorate the 1966 recommendation on the status of teachers. In Latvia a Teachers' Day was already celebrated in Soviet times on the first Sunday of October; the date was later aligned with the international day.",
+      "traditions": "Pupils bring flowers and small gifts, and older students often take over the lessons for a day. The Ministry of Education awards outstanding teachers, and schools hold concerts.",
+      "funFacts": [
+        "In many Latvian schools pupils organise a 'day of self-government' on which they run the school.",
+        "Latvia has about 25,000 teachers.",
+        "The Latvian Teacher of the Year award has been presented since 1994."
+      ]
+    },
+    "memorial_lv_official_language_day": {
+      "intro": "Official Language Day on 15 October celebrates Latvian as the state language and its role in the identity of the country.",
+      "history": "On 15 October 1998 the Saeima amended the constitution to declare Latvian the official language of the Republic of Latvia. The day is used to promote the language, which is spoken by about two million people worldwide.",
+      "traditions": "Libraries, schools and the National Library in Riga hold readings, dictation contests and lectures. Awards are given to people who have contributed to the Latvian language, and events for newcomers learning Latvian are organised.",
+      "funFacts": [
+        "Latvian is one of the two surviving Baltic languages alongside Lithuanian.",
+        "The Latvian National Library, the 'Castle of Light', opened in 2014 on the banks of the Daugava.",
+        "The Latvian alphabet has 33 letters, including 'ķ', 'ļ' and 'ņ'."
+      ]
+    },
+    "memorial_lv_border_guards_day": {
+      "intro": "Border Guards Day on 7 November honours the Latvian State Border Guard, founded on this date in 1919.",
+      "history": "The first border guard units were created on 7 November 1919 during the War of Independence. Dissolved under Soviet rule, the service was re-established in 1991 and today protects the external border of the European Union with Russia and Belarus.",
+      "traditions": "The Border Guard holds a ceremonial parade and award ceremony, and the Border Guard College in Rēzekne opens its doors. Wreaths are laid in memory of guards who died on duty.",
+      "funFacts": [
+        "Latvia's eastern border with Russia and Belarus is about 460 kilometres long.",
+        "The Border Guard uses dogs, drones and patrol boats on the Baltic Sea.",
+        "A border fence along the Belarusian border was completed in the 2020s."
+      ]
+    },
+    "memorial_lv_lacplesis_day": {
+      "intro": "Lāčplēsis Day on 11 November commemorates the victory of the Latvian army over the West Russian Volunteer Army at Riga in 1919 and honours all who fought for Latvia's freedom.",
+      "history": "On 11 November 1919 Latvian troops drove Pavel Bermondt-Avalov's forces out of Riga, a decisive victory in the War of Independence. The day is named after Lāčplēsis, the 'bear-slayer' hero of the Latvian national epic, and the Order of Lāčplēsis was created for the heroes of the war.",
+      "traditions": "In the evening thousands of people place candles along the wall of Riga Castle on the Daugava embankment, creating a sea of light. Torchlight processions and ceremonies are held throughout the country, and people wear a red-white-red ribbon.",
+      "funFacts": [
+        "The epic 'Lāčplēsis' was written by Andrejs Pumpurs in 1888.",
+        "The Order of Lāčplēsis was awarded to 2,146 people, including 11 women.",
+        "The candle tradition at Riga Castle began in 1988 during the independence movement."
+      ]
+    },
+    "memorial_lv_remembrance_day_of_the_tragedy_of_21_november_2013": {
+      "intro": "21 November remembers the 54 people who died when the roof of a supermarket collapsed in the Zolitūde district of Riga in 2013.",
+      "history": "On the evening of 21 November 2013 the roof of a Maxima supermarket collapsed during shopping hours; among the dead were three firefighters killed when a second section fell during the rescue. It was the deadliest disaster in Latvia since independence and led to stricter building rules.",
+      "traditions": "A memorial service is held at the memorial in Zolitūde, and candles are lit at the site. Flags fly at half mast, and the names of the victims are read aloud.",
+      "funFacts": [
+        "The prime minister resigned six days after the disaster, taking political responsibility.",
+        "The memorial at the site bears the names of all 54 victims.",
+        "A national day of mourning was declared for the first time in independent Latvia."
+      ]
+    },
+    "memorial_lv_police_day": {
+      "intro": "Police Day on 5 December honours the Latvian State Police, founded on this date in 1918, three weeks after the proclamation of independence.",
+      "history": "The Latvian police was created on 5 December 1918 as one of the first institutions of the new state. Abolished under Soviet rule, it was re-established in 1991 and today includes the State Police, municipal police and the Security Police.",
+      "traditions": "The Ministry of the Interior holds an award ceremony for distinguished officers, and police stations open their doors to the public. Wreaths are laid in memory of officers who died on duty.",
+      "funFacts": [
+        "The State Police has around 6,000 employees.",
+        "The Latvian Police Museum in Riga displays uniforms and equipment from a century of policing.",
+        "Police Day and Border Guards Day are both linked to the founding years of the state."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_victims_of_genocide_against_the_latvian_people_by_the_totalitarian_communist_regime": {
+      "intro": "On the first Sunday of December Latvia remembers the Latvians killed during the Soviet 'Latvian Operation' of 1937 and 1938 and all victims of the communist regime.",
+      "history": "On 3 December 1937 the Soviet secret police NKVD began the 'Latvian Operation', in which more than 22,000 Latvians living in the Soviet Union were arrested and some 16,000 shot. The remembrance day recalls this and the later repressions after 1940.",
+      "traditions": "Memorial services are held at the Freedom Monument in Riga and in churches, and candles are lit at memorials. The Museum of the Occupation and historians present research on the fate of the victims.",
+      "funFacts": [
+        "The Latvian Operation was one of several 'national operations' of the Great Terror.",
+        "Many of the victims were descendants of Latvian farmers who had settled in Russia in the 19th century.",
+        "The memorial site at Levashovo near St Petersburg holds a monument to the Latvian victims."
+      ]
+    },
+    "memorial_si_primoz_trubar_day": {
+      "intro": "Primož Trubar Day on 8 June honours the Protestant reformer who wrote and printed the first books in the Slovene language in 1550.",
+      "history": "Trubar was born on 8 June 1508 in Rašica near Ljubljana. As a Lutheran preacher he had to flee to Germany, where he published the 'Catechismus' and 'Abecedarium', the first printed Slovene books, laying the foundation of the written language. The day has been a national holiday since 2010.",
+      "traditions": "Ceremonies are held at Trubar's monument in Ljubljana and at his birthplace in Rašica, where a memorial house stands. Schools discuss the history of the Slovene language, and the Protestant church holds services.",
+      "funFacts": [
+        "Trubar appears on the Slovenian one-euro coin.",
+        "He addressed his readers as 'my dear Slovenes', one of the first uses of the name for the whole nation.",
+        "Reformation Day on 31 October is also a public holiday in Slovenia, partly in his honour."
+      ]
+    },
+    "memorial_si_sovereignty_day": {
+      "intro": "Sovereignty Day on 25 October marks the departure of the last Yugoslav soldier from Slovenian territory in 1991, completing the country's independence.",
+      "history": "After the Ten-Day War of June and July 1991 the Yugoslav People's Army agreed to withdraw. On the night of 25 to 26 October 1991 the last soldiers left through the port of Koper. The day became a national holiday in 2015.",
+      "traditions": "A state ceremony is held, often in Koper, and the flag is raised on public buildings. Veterans of the independence war take part, and schools recall the events of 1991.",
+      "funFacts": [
+        "The last soldiers left by ferry from Koper to Rijeka.",
+        "Slovenia's Ten-Day War caused fewer than 80 deaths, far fewer than the later wars in the region.",
+        "Slovenia joined the European Union and NATO in 2004."
+      ]
+    },
+    "memorial_si_unification_of_prekmurje_slovenes_with_the_mother_nation": {
+      "intro": "17 August commemorates the unification of Prekmurje with the rest of the Slovene lands in 1919, after centuries of Hungarian rule.",
+      "history": "Prekmurje, the region beyond the river Mura, had belonged to the Kingdom of Hungary for a thousand years. Following the First World War the Paris Peace Conference assigned it to the new Kingdom of Serbs, Croats and Slovenes, and on 17 August 1919 the union was celebrated at a rally in Beltinci. The day has been a national holiday since 2006.",
+      "traditions": "A state ceremony is held in Prekmurje, often in Beltinci or Murska Sobota, with folk music and the region's traditional dishes. Local associations organise exhibitions on the history of the region.",
+      "funFacts": [
+        "Prekmurje is famous for its layered pastry 'prekmurska gibanica' and for its storks.",
+        "The region developed its own literary language in the 18th century.",
+        "Murska Sobota is the only Slovenian regional capital on the far side of the Mura."
+      ]
+    },
+    "memorial_si_integration_of_primorska_into_the_homeland": {
+      "intro": "15 September marks the day in 1947 when the Paris Peace Treaty came into force and most of the Slovenian Littoral (Primorska) was joined to Slovenia.",
+      "history": "After the First World War the Littoral had been assigned to Italy, where the Slovene population suffered forced Italianisation under Fascism. The 1947 peace treaty with Italy returned the greater part of the region to Yugoslavia and thus to Slovenia. The day became a national holiday in 2005.",
+      "traditions": "A state ceremony takes place in one of the Littoral towns such as Nova Gorica, Koper or Sežana, with speeches and concerts. The Littoral anthem 'Vstala Primorska' is sung, and choirs perform across the region.",
+      "funFacts": [
+        "Trieste, the historic centre of the region, remained in Italy and was disputed until 1954.",
+        "Nova Gorica was built after 1947 as a new town because Gorizia stayed on the Italian side.",
+        "Slovenia's short coastline of about 47 kilometres lies entirely in Primorska."
+      ]
+    },
+    "memorial_si_slovenian_sports_day": {
+      "intro": "Slovenian Sports Day on 23 September celebrates the country's athletes and encourages everyone to be active.",
+      "history": "The date recalls 23 September 2000, when Slovenia won its first Olympic gold medals at the Sydney Games in rowing and shooting. The holiday was introduced in 2020 and is not a day off work.",
+      "traditions": "Sports clubs and schools organise free training sessions, runs and tournaments, and top athletes are honoured. Many people simply go hiking, cycling or skiing, the national pastimes.",
+      "funFacts": [
+        "Slovenia has won more Olympic medals per capita than almost any other country.",
+        "Ski jumping at Planica and cycling stars such as Tadej Pogačar and Primož Roglič are national passions.",
+        "The Slovenian Olympic Committee runs a nationwide 'sport for all' programme on this day."
+      ]
+    },
+    "memorial_si_rudolf_maister_day": {
+      "intro": "Rudolf Maister Day on 23 November honours the general who secured Maribor and the Lower Styria region for Slovenia in 1918.",
+      "history": "In November 1918, as the Austro-Hungarian Empire collapsed, Major Rudolf Maister took command in Maribor, disarmed the German-Austrian guard on 23 November and secured the northern border for the new South Slavic state. The day has been a national holiday since 2005.",
+      "traditions": "Ceremonies are held at Maister's monument in Maribor and in Ljubljana, and the armed forces pay tribute. Schools and local associations recall the fighting for the northern border.",
+      "funFacts": [
+        "Maister was also a poet who published under the pen name Vojanov.",
+        "Without his action Maribor might have become part of Austria, as its German-speaking council had wanted.",
+        "The Slovenian armed forces named a barracks and an award after him."
+      ]
+    },
+    "memorial_sk_day_of_the_constitution_of_the_slovak_republic": {
+      "intro": "Constitution Day on 1 September commemorates the adoption of the constitution of the Slovak Republic in 1992, four months before the country became independent.",
+      "history": "The Slovak National Council adopted the constitution on 1 September 1992, and it was signed two days later at Bratislava Castle. On 1 January 1993 Czechoslovakia peacefully dissolved into the Czech Republic and Slovakia. The day was a public holiday until 2024 and remains a memorial day.",
+      "traditions": "Bratislava Castle opens its doors, and the National Council holds a ceremony. The president awards state honours to distinguished citizens, and the flag is raised on public buildings.",
+      "funFacts": [
+        "The constitution was signed in the Knights' Hall of Bratislava Castle.",
+        "The peaceful separation of Czechoslovakia is known as the 'Velvet Divorce'.",
+        "Slovakia introduced the euro in 2009, four years after its neighbour the Czech Republic did not."
+      ]
+    },
+    "memorial_sk_struggle_for_freedom_and_democracy_day": {
+      "intro": "17 November commemorates the students' protests of 1939 and 1989 and the beginning of the Velvet Revolution that ended communist rule in Czechoslovakia.",
+      "history": "On 17 November 1939 the Nazi occupiers closed Czech universities and executed nine students after protests in Prague. Fifty years later, on 17 November 1989, a student demonstration in Prague was violently dispersed, triggering the mass protests that brought down the regime within weeks. The day is a public holiday in both Slovakia and the Czech Republic.",
+      "traditions": "Gatherings with candles and speeches are held in Bratislava and other towns, and people ring keys as they did in 1989. Concerts and discussions with participants of the revolution take place, and the day is also International Students' Day.",
+      "funFacts": [
+        "Jingling keys became the sound of the Velvet Revolution, symbolising the message 'time to go' to the communists.",
+        "In Bratislava the first large demonstration took place on the Square of the Slovak National Uprising.",
+        "Alexander Dubček, the face of the 1968 Prague Spring, returned to public life during the revolution."
+      ]
+    },
+    "memorial_ve_teachers_day": {
+      "intro": "Teachers' Day on 15 January honours Venezuela's teachers and recalls the founding of the first national teachers' association in 1932.",
+      "history": "On 15 January 1932 educators founded the Sociedad Venezolana de Maestros de Instrucción Primaria to improve schooling during the Gómez dictatorship. President Rómulo Betancourt made the date the official Teachers' Day in 1945.",
+      "traditions": "Pupils bring flowers, cards and small gifts, and schools hold assemblies and concerts. Teachers with long service receive awards, and universities honour distinguished educators.",
+      "funFacts": [
+        "Simón Rodríguez, the teacher of Simón Bolívar, is regarded as the model of the Venezuelan educator.",
+        "The founders of the society included the writer Luis Beltrán Prieto Figueroa, later a candidate for president.",
+        "Many Latin American countries celebrate their teachers on different dates; Venezuela's is one of the earliest in the year."
+      ]
+    },
+    "memorial_ve_youth_day": {
+      "intro": "Youth Day on 12 February commemorates the Battle of La Victoria in 1814, in which students and seminarians fought under José Félix Ribas for Venezuela's independence.",
+      "history": "On 12 February 1814 Ribas defended the town of La Victoria against royalist troops with a force that included hundreds of young students from Caracas. His words 'We cannot choose between winning or dying: we must win' became famous. The day was declared Youth Day in 1947.",
+      "traditions": "Parades, concerts and sporting events for young people are held across the country, and wreaths are laid at the monument to Ribas in La Victoria. Schools stage re-enactments of the battle.",
+      "funFacts": [
+        "12 February is also the birthday of Abraham Lincoln and of Charles Darwin.",
+        "Ribas was the uncle by marriage of Simón Bolívar.",
+        "The Venezuelan state of Aragua, where La Victoria lies, calls itself the cradle of youth."
+      ]
+    },
+    "memorial_ve_slavery_abolition_anniversary": {
+      "intro": "This day commemorates the abolition of slavery in Venezuela, decreed by President José Gregorio Monagas in March 1854.",
+      "history": "Slavery had existed in Venezuela since the 16th century, especially on the cocoa plantations. Simón Bolívar had promised freedom to enslaved people during the wars of independence, but full abolition came only with the law of 1854, which freed around 40,000 people. The day is marked as an observance in the national calendar.",
+      "traditions": "Afro-Venezuelan communities organise drum festivals, dances and cultural events, particularly in the coastal regions of Barlovento and Yaracuy. Schools and museums discuss the history of slavery and its legacy.",
+      "funFacts": [
+        "José Leonardo Chirino led an uprising of enslaved and free people in Coro in 1795, remembered today as a precursor of abolition.",
+        "The tambor drum traditions of Venezuela's coast have their roots in the culture of enslaved Africans.",
+        "Venezuela was one of the last Spanish-speaking republics on the mainland to abolish slavery."
+      ]
+    },
+    "memorial_ve_foundation_anniversary_day_of_san_cristobal_tachira": {
+      "intro": "31 March marks the founding of San Cristóbal, the capital of the Andean state of Táchira, by the Spanish captain Juan Maldonado in 1561.",
+      "history": "Juan Maldonado y Ordóñez founded the 'Villa de San Cristóbal' on 31 March 1561 as a stopping point on the road between the Andes and the plains. The town grew into a trading centre for coffee and today has about 300,000 inhabitants.",
+      "traditions": "The city celebrates with a civic parade, concerts and a mass in the cathedral. The anniversary lies close to the Feria Internacional de San Sebastián in January, the region's biggest festival, and local pride is expressed with music and food.",
+      "funFacts": [
+        "San Cristóbal lies at about 800 metres above sea level in a valley of the Andes.",
+        "The city's football club, Deportivo Táchira, is one of Venezuela's most successful.",
+        "The Feria de San Sebastián draws hundreds of thousands of visitors every January."
+      ]
+    },
+    "memorial_ve_journalists_day": {
+      "intro": "Journalists' Day on 27 June recalls the first issue of the newspaper 'Correo del Orinoco', founded by Simón Bolívar in 1818.",
+      "history": "The Correo del Orinoco was first published in Angostura, today Ciudad Bolívar, on 27 June 1818 as the voice of the independence movement. The day was declared Journalists' Day in 1964 and also commemorates a decree of 1870 that made primary education free and compulsory.",
+      "traditions": "Journalists' associations present awards, and universities hold discussions on press freedom. The house of the Correo del Orinoco in Ciudad Bolívar, now a museum, hosts a ceremony.",
+      "funFacts": [
+        "Bolívar called the printing press 'as useful as military supplies'.",
+        "The original printing press of the Correo del Orinoco can still be seen in Ciudad Bolívar.",
+        "27 June is also the Day of Education in Venezuela because of the 1870 decree."
+      ]
+    },
+    "memorial_ve_caracas_city_foundation_day": {
+      "intro": "25 July marks the founding of Caracas by the Spanish conquistador Diego de Losada in 1567, the birthday of Venezuela's capital.",
+      "history": "Losada founded 'Santiago de León de Caracas' on 25 July 1567 in the valley of the Guaire river, on the feast of Saint James. The city became the seat of the Captaincy General of Venezuela in 1777 and the birthplace of Simón Bolívar.",
+      "traditions": "The city holds concerts, exhibitions and a traditional mass in the cathedral on Plaza Bolívar, where the city's founding is recalled. Museums and the historic centre offer free visits, and the day is marked with fireworks.",
+      "funFacts": [
+        "Caracas lies at about 900 metres above sea level beneath the Ávila mountain, whose national park is the city's green lung.",
+        "The Ávila cable car takes visitors to over 2,000 metres with views of the city and the Caribbean.",
+        "The city's coat of arms shows a lion holding a scallop shell, the symbol of Saint James."
+      ]
+    },
+    "memorial_ve_flag_day": {
+      "intro": "Flag Day on 3 August celebrates the first raising of the Venezuelan tricolour by Francisco de Miranda at La Vela de Coro in 1806.",
+      "history": "Miranda, a forerunner of independence, landed at La Vela de Coro on 3 August 1806 and raised the yellow, blue and red flag he had designed. The flag day was celebrated on 12 March until 2006, when it was moved to 3 August to honour the first raising on Venezuelan soil.",
+      "traditions": "Flags are raised at schools, public buildings and military bases, and the national anthem is sung. A ceremony is held at La Vela de Coro, and children learn the meaning of the colours: gold for wealth, blue for the sea and red for the blood of the heroes.",
+      "funFacts": [
+        "The same three colours appear on the flags of Colombia and Ecuador, which belonged to Gran Colombia.",
+        "The flag's arc of stars grew from seven to eight in 2006, adding the province of Guayana.",
+        "Miranda's original flag was hoisted from his ship, the Leander."
       ]
     }
   }

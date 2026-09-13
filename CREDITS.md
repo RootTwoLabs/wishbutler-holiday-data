@@ -395,6 +395,76 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 - `images/KR/chuseok/03.jpg` — by 'Speculando (CC BY 2.0)
 - `images/KR/liberation_day/01.jpg` — Korea.net / Korean Culture and Information Service (CC BY-SA 2.0)
 - `images/KR/lunar_new_year/01.jpg` — 최광모 (CC BY-SA 4.0)
+- `images/MEMORIAL/am_armenian_genocide_remembrance_day/01.jpg` — Violmsyan (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Tsitsernakaberd%2C_Armenian_Genocide_memorial_complex_04.jpg>
+- `images/MEMORIAL/ar_day_of_remembrance_for_truth_and_justice/01.jpg` — ProtoplasmaKid (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Parque_de_la_Memoria%2C_Buenos_Aires_-_7.JPG>
+- `images/MEMORIAL/ar_day_of_the_veterans_and_fallen_of_the_malvinas_war/01.jpg` — Leandro Kibisz (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:CABA_-_Retiro_-_Monumento_a_los_caidos_en_Malvinas_en_Plaza_San_Martin.jpg>
+- `images/MEMORIAL/ar_general_jose_de_san_martin_memorial_day/01.jpg` — Bernard Gagnon (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Equestrian_statue_of_Jos%C3%A9_de_San_Mart%C3%ADn%2C_Buenos_Aires.jpg>
+- `images/MEMORIAL/au_anzac_day/01.jpg` — Thennicke (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:ANZAC_Parade_from_the_Australian_War_Memorial%2C_Canberra_ACT.jpg>
+- `images/MEMORIAL/be_armistice_day/01.jpg` — Trougnouf (Benoit Brummer) (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Last_Post_ceremony_at_the_Menin_Gate_in_Ypres_(DSCF9452).jpg>
+- `images/MEMORIAL/by_commemoration_day/01.jpg` — Eugene Zelenko (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Belarus-Rakaw-Orthodox_cemetery-Grave-2.jpg>
+- `images/MEMORIAL/ca_armistice_day/01.jpg` — Michael Ignatieff (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Remembrance_Day_National_War_Memorial_Ottawa_2010.jpg>
+- `images/MEMORIAL/ca_national_day_for_truth_and_reconciliation/01.jpg` — NorthernFalcon (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Orange_Shirt_Day_Banner_2.jpg>
+- `images/MEMORIAL/ca_remembrance_day/01.jpg` — Brian Burger from Victoria, Canada (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Placing_poppies_on_the_cenotaph.jpg>
+- `images/MEMORIAL/cd_congolese_genocide_day/01.jpg` — Antoine Moens de Hase (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:2013_Boulevard_du_30_Juin_Kinshasa_8756682965.jpg>
+- `images/MEMORIAL/cd_laurent_desire_kabila_assassination/01.jpg` — Henri van der Noot (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Kinshasa_-_Mausol%C3%A9e_de_Laurent_D%C3%A9sir%C3%A9_Kabila_(2%2C_cropped).jpg>
+- `images/MEMORIAL/cd_patrice_lumumba_assassination/01.jpg` — MONUSCO Photos (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Le_17_janvier_1961%2C_Patrice_Lumumba_mourrait%2C_victime_de_son_%C2%AB_r%C3%AAve_%C2%BB_pour_un_Congo_libre%2C_d%C3%A9mocratique_et_d%C3%A9velopp%C3%A9._(16112526649).jpg>
+- `images/MEMORIAL/de_june_17_uprising/01.jpg` — acediscovery (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Berlin_Tiergarten_Stra%C3%9Fe_des_17_Juni.jpg>
+- `images/MEMORIAL/de_november_pogroms/01.jpg` — Neuköllner (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Neue_Synagoge%2C_Oranienburger_Stra%C3%9Fe%2C_Berlin-Mitte.jpg>
+- `images/MEMORIAL/de_victims_of_national_socialism/01.jpg` — Dietmar Rabich (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Berlin%2C_Denkmal_f%C3%BCr_die_ermordeten_Juden_Europas_--_2011_--_2415.jpg>
+- `images/MEMORIAL/gi_workers_memorial_day/01.jpg` — Jungpionier (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Manchester_Workers'_Memorial.jpg>
+- `images/MEMORIAL/hr_remembrance_day/01.jpg` — Tromber (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Vukovar_Memorial_Cemetery_%E2%80%93_Eternal_Flame%2C_20150429160745.jpg>
+- `images/MEMORIAL/il_tisha_bav/01.jpg` — IPPA photographer (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Tisha_B'Av_at_the_Western_Wall_(FL61957791).jpg>
+- `images/MEMORIAL/il_yom_hashoah/01.jpg` — Bahnfrend (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Hall_of_Remembrance%2C_Yad_Vashem%2C_2019_(02).jpg>
+- `images/MEMORIAL/il_yom_hazikaron/01.jpg` — ד"ר אבישי טייכר (CC BY 2.5) — <https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_12579_entrance_to_the_military_cemetery_on_mount_herzl.jpg>
+- `images/MEMORIAL/kr_memorial_day/01.jpg` — Republic of Korea from Seoul, Republic of Korea (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Seoul_National_Cemetery_01_(18290569278).jpg>
+- `images/MEMORIAL/lv_baltic_unity_day/01.jpg` — Ainars Brūvelis (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Constructing_of_monument_to_Saules_Battle%2C_AD1236_-_panoramio.jpg>
+- `images/MEMORIAL/lv_border_guards_day/01.jpg` — Dor Shabashewitz (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Estonia-Latvia_border_in_Valka.jpg>
+- `images/MEMORIAL/lv_commemoration_day_of_defenders_of_the_barricades_in_1991/01.jpg` — Jens-Olaf (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Riga_barricades_TV_station_1991.jpg>
+- `images/MEMORIAL/lv_commemoration_day_of_genocide_against_the_jews/01.jpg` — J. Sedols (CC BY 3.0) — <https://commons.wikimedia.org/wiki/File:Rumbulas_memori%C4%81ls_2002-11-30_-_panoramio.jpg>
+- `images/MEMORIAL/lv_commemoration_day_of_victims_of_communist_terror/01.jpg` — Ken Eckert (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Cattle_Car_for_Deportation_Memorial%2C_Near_Torkakalns%2C_Riga.jpg>
+- `images/MEMORIAL/lv_commemoration_day_of_victims_of_genocide_against_the_latvian_people_by_the_totalitarian_communist_regime/01.jpg` — Nenea hartia (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:St%C5%ABra_m%C4%81ja_(Corner_House)_in_Riga.02.jpg>
+- `images/MEMORIAL/lv_day_of_remembrance_for_victims_of_stalinism_and_nazism/01.jpg` — Kusurija (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Baltsk%C3%BD%C5%98et%C4%9Bz.jpg>
+- `images/MEMORIAL/lv_day_of_the_defeat_of_nazism_and_commemoration_day_of_victims_of_world_war_ii/01.jpg` — Laima Gūtmane (simka… (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Salaspils_Memorial_Ensemble_-_panoramio_-_Laima_G%C5%ABtmane_(simka%E2%80%A6_(1).jpg>
+- `images/MEMORIAL/lv_day_of_the_international_de_jure_recognition_of_the_republic_of_latvia/01.jpg` — Olga Strogonova (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Latvijas_Br%C4%ABv%C4%ABbas_piemineklis_R%C4%ABg%C4%81.jpg>
+- `images/MEMORIAL/lv_day_of_the_occupation_of_the_republic_of_latvia/01.jpg` — Pudelek (Marcin Szala) (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Shack_from_Gulag_-_Museum_of_the_Occupation_of_Latvia_(2_photo).JPG>
+- `images/MEMORIAL/lv_day_of_the_passing_of_the_constitutional_law_on_the_status_of_the_republic_of_latvia_as_a_state/01.jpg` — Uhooep (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Main_building_of_the_Saeima.jpg>
+- `images/MEMORIAL/lv_day_of_the_sea_festival/01.jpg` — Laima Gūtmane (simka… (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Boats_in_Ventspils_harbour_-_panoramio.jpg>
+- `images/MEMORIAL/lv_europe_day/01.jpg` — Thijs ter Haar (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:European_Union_Flags_2.jpg>
+- `images/MEMORIAL/lv_heroes_commemoration_day_anniversary_of_the_battle_of_cesis/01.jpg` — AgrisR (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:C%C4%93sis_Castle_from_C%C4%93sis_New_Castle.jpg>
+- `images/MEMORIAL/lv_international_day_for_protection_of_children/01.jpg` — Daniel Case (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Woman_with_children_playing_in_fountain_on_Como_lakefront.jpg>
+- `images/MEMORIAL/lv_international_day_of_older_persons/01.jpg` — Ding Kezhong (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:%E5%88%9D%E5%86%AC%E9%98%B3%E5%85%89%E4%B8%8B%E7%9A%84%E8%80%81%E5%B9%B4%E5%A4%AB%E5%A6%87.jpg>
+- `images/MEMORIAL/lv_international_day_of_the_family/01.jpg` — Rick Obst (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Family_Picnic_Near_Orchard_Point_Marina.jpg>
+- `images/MEMORIAL/lv_knowledge_day/01.jpg` — Дністровська районна військова адміністрація Чернівецької області (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Knowledge_Day_in_Kelmentsi_2025_(01).jpg>
+- `images/MEMORIAL/lv_lacplesis_day/01.jpg` — Saeima (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Flickr_-_Saeima_-_L%C4%81%C4%8Dpl%C4%93%C5%A1a_diena_(1).jpg>
+- `images/MEMORIAL/lv_latgale_congress_day/01.jpg` — J. Sedols (CC BY 3.0) — <https://commons.wikimedia.org/wiki/File:R%C4%93zekne%2C_piemineklis_Latgales_M%C4%81ra_1999-09-14_-_panoramio.jpg>
+- `images/MEMORIAL/lv_latvian_freedom_fighters_remembrance_day/01.jpg` — Anneli Salo (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Honour_guard_at_The_Freedom_Monument_IMG_2414_C.JPG>
+- `images/MEMORIAL/lv_medical_worker_day/01.jpg` — ainars brūvelis (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Hospital_(J.Stradina)_entrance_-_ainars_br%C5%ABvelis_-_Panoramio.jpg>
+- `images/MEMORIAL/lv_national_partisan_armed_resistance_remembrance_day/01.jpg` — Laima Gūtmane (simka… (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Memorial_Site_of_National_Partisans_in_%C4%B6ikuri.jpg>
+- `images/MEMORIAL/lv_national_resistance_movement_remembrance_day/01.jpg` — AfroBrazilian (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Commemorative_plaque-Konstant%C4%ABns_%C4%8Cakste_01.JPG>
+- `images/MEMORIAL/lv_official_language_day/01.jpg` — giggel (CC BY 3.0) — <https://commons.wikimedia.org/wiki/File:Riga_-_Latvian_National_Library_%22Gaismas_pils%22_-_Latvijos_nacionalin%C4%97_biblioteka_%22%C5%A0viesos_pilis%22_-_panoramio.jpg>
+- `images/MEMORIAL/lv_police_day/01.jpg` — Tony Webster (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Latvian_State_Police_Citroen_Jumpy_in_Riga.jpg>
+- `images/MEMORIAL/lv_remembrance_day_of_the_tragedy_of_21_november_2013/01.jpg` — Saeima (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Saeimas_Prezidija_p%C4%81rst%C4%81vji_godina_Zolit%C5%ABdes_tra%C4%A3%C4%93dijas_upuru_piemi%C5%86u_(31044989127).jpg>
+- `images/MEMORIAL/md_victory_and_commemoration_day/01.jpg` — Pudelek (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Chi%C8%99in%C4%83u_-_Memorial_complex_Eternitate_(by_Pudelek).jpg>
+- `images/MEMORIAL/na_cassinga_day/01.jpg` — Olga Ernst & Hp.Baumeler (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Heldenacker_Namibia_Vogelperspektive._2017.jpg>
+- `images/MEMORIAL/na_genocide_remembrance_day/01.jpg` — Pemba.mpimaji (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Genozid-Denkmal_vor_der_Alten_Feste_in_Windhoek3.jpg>
+- `images/MEMORIAL/nz_anzac_day/01.jpg` — Daan Hoffmann / Auckland War Memorial Museum Tāmaki Paenga Hira (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Auckland_War_Memorial_Museum_in_2021.jpg>
+- `images/MEMORIAL/pr_memorial_day/01.jpg` — P. Hughes (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Puerto_Rico_National_Cemetery_-_partial_view.jpg>
+- `images/MEMORIAL/rs_armistice_day/01.jpg` — Francine Riez (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Ramonda_nathaliae.jpg>
+- `images/MEMORIAL/si_integration_of_primorska_into_the_homeland/01.jpg` — Michal Klajban (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:View_to_Piran_from_St._George's_Parish_Church%2C_Piran%2C_Slovenia_11.jpg>
+- `images/MEMORIAL/si_primoz_trubar_day/01.jpg` — Sjaak Kempe from Groningen, The Netherlands (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:20230429_06_Ljubljana_-_Trubarjev_Spomenik_(52911398068).jpg>
+- `images/MEMORIAL/si_rudolf_maister_day/01.jpg` — August Dominus (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Republika_Slovenija-Maribor_2021.jpg>
+- `images/MEMORIAL/si_sovereignty_day/01.jpg` — Adam Jones from Kelowna, BC, Canada (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Slovenian_Flag_Flying_over_Ljubljana_Castle_-_Ljubljana_-_Slovenia_(54556430852).jpg>
+- `images/MEMORIAL/sk_day_of_the_constitution_of_the_slovak_republic/01.jpg` — Dennis G. Jarvis (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Slovakia-03091_-_Leaving_Bratislava_Castle_(32167165711).jpg>
+- `images/MEMORIAL/sk_struggle_for_freedom_and_democracy_day/01.jpg` — RobbieIanMorrison (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:1989_November_Prague_Velvet_Revolution_protest_crowd_fingers_in_air_tight_shot.jpg>
+- `images/MEMORIAL/sm_commemoration_of_all_those_who_died_at_war/01.jpg` — Max_Ryazanov (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Fortress_of_Guaita_2013-09-19.jpg>
+- `images/MEMORIAL/us_lincolns_birthday/01.jpg` — Frank Schulenburg (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Statue_of_Abraham_Lincoln%2C_Lincoln_Memorial_(2024)-L1005507.jpg>
+- `images/MEMORIAL/ve_caracas_city_foundation_day/01.jpg` — Flauta (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Caracas_skyline_and_Avila_mountain_from_my_penthouse.JPG>
+- `images/MEMORIAL/ve_flag_day/01.jpg` — Pulkstenis (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Monumento_a_la_Bandera_en_La_Vela_de_Coro.jpg>
+- `images/MEMORIAL/ve_journalists_day/01.jpg` — Guillermo Ramos Flamerich (CC BY 2.5) — <https://commons.wikimedia.org/wiki/File:Casa_del_Correo_del_Orinoco.jpg>
+- `images/MEMORIAL/ve_slavery_abolition_anniversary/01.jpg` — Rube96pinto (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Monumento_a_los_precursores%2C_Paseo_Los_Pr%C3%B3ceres%2C_Paseo_de_los_Precursores.jpg>
+- `images/MEMORIAL/ve_teachers_day/01.jpg` — Zerojosefer (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Instituto_de_Ni%C3%B1os_Cantores_del_Zulia_001.jpg>
+- `images/MEMORIAL/ve_youth_day/01.jpg` — Gustavo Dos Santos (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:MONUMENT_TO_YOUTH_VENEZUELA.jpg>
+- `images/MEMORIAL/za_human_rights_day/01.jpg` — Ijon (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Constitutional_Court_of_South_Africa_judges_view.jpg>
 - `images/MX/independence_day/01.jpg` — Reading Tom from Reading, UK (CC BY 2.0)
 - `images/MX/independence_day/02.jpg` — Jim Evans (CC BY-SA 4.0)
 - `images/MX/independence_day/03.jpg` — Miguelsyn (CC BY-SA 4.0)
@@ -450,7 +520,19 @@ The former board-game image `01.jpg` is retained only for historical package ref
 When adding a new source, record its license here and ensure redistribution
 through this public repository is permitted.
 
-## Gedenk- und Aktionstage (CC0-Symbolbilder)
+## Gedenk- und Aktionstage (Paket MEMORIAL)
+
+Seit v7 trägt jeder der 80 Einträge ein eigenes, kuratiertes Foto von
+Wikimedia Commons (`images/MEMORIAL/<slug>/01.jpg`, Auswahl über
+`content/memorial/image-queries.mjs`, Download und Provenienz über
+`scripts/fetch-memorial-images.mjs` → `content/memorial/images.json`).
+Attributionspflichtige Lizenzen (CC BY / CC BY-SA) stehen im automatischen
+Block oben; Public-Domain- und CC0-Bilder tragen Autor und Quelle in
+`images.json` und im Paket-Ref. Motivregel: bei stillem Gedenken
+Gedenkstätten, Denkmäler und Zeremonien, keine Gewaltdarstellungen.
+
+Die drei CC0-Symbolbilder bleiben als Rückfall für Einträge ohne eigenes Foto
+und für das in der App gebündelte Paket erhalten:
 
 - `images/MEMORIAL/candle.jpg` — USER-62114; CC0 1.0. [Original und Lizenznachweis](https://commons.wikimedia.org/wiki/File:Burning-candle.jpg). Geprüft: 2026-09-11. Symbolbild, keine historische Aufnahme des zugeordneten Anlasses.
 - `images/MEMORIAL/flowers.jpg` — Valerie Wiersma; CC0 1.0. [Original und Lizenznachweis](https://commons.wikimedia.org/wiki/File:White_flower_(unidentified).jpg). Geprüft: 2026-09-11. Symbolbild, keine historische Aufnahme des zugeordneten Anlasses.

@@ -1127,16 +1127,24 @@
     "definition": {
       "id": "MEMORIAL_MD_memorial_day",
       "countryCode": "MEMORIAL",
-      "kind": "nth_weekday",
+      "kind": "precomputed",
       "labelKey": "holidays.memorial_md_memorial_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
-        "type": "nth_weekday",
-        "month": 8,
-        "nth": 5,
-        "weekday": 1,
-        "last": true
+        "type": "precomputed",
+        "dates": {
+          "2026": "04-20",
+          "2027": "05-10",
+          "2028": "04-24",
+          "2029": "04-16",
+          "2030": "05-06",
+          "2031": "04-21",
+          "2032": "05-10",
+          "2033": "05-02",
+          "2034": "04-17",
+          "2035": "05-07"
+        }
       }
     },
     "meta": {
@@ -1294,8 +1302,8 @@
       "category": "observance",
       "rule": {
         "type": "fixed",
-        "month": 5,
-        "day": 2
+        "month": 6,
+        "day": 8
       }
     },
     "meta": {
@@ -1315,8 +1323,8 @@
       "category": "observance",
       "rule": {
         "type": "fixed",
-        "month": 8,
-        "day": 14
+        "month": 10,
+        "day": 25
       }
     },
     "meta": {
@@ -1337,7 +1345,7 @@
       "rule": {
         "type": "fixed",
         "month": 8,
-        "day": 15
+        "day": 17
       }
     },
     "meta": {

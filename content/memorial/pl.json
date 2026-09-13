@@ -145,22 +145,744 @@
       ],
       "imageCredit": "Zdjęcie: Arlington National Cemetery · Public domain przez Wikimedia Commons"
     },
-    "memorial_de_june_17_uprising": {
-      "intro": "17 czerwca upamiętnia powstanie w NRD w 1953 roku.",
+    "memorial_am_armenian_genocide_remembrance_day": {
+      "intro": "24 kwietnia Ormianie na całym świecie wspominają ofiary ludobójstwa z 1915 roku w Imperium Osmańskim, w którym życie straciło około 1,5 miliona Ormian.",
+      "history": "24 kwietnia 1915 roku w Konstantynopolu aresztowano setki ormiańskich intelektualistów i przywódców społecznych, co zapoczątkowało deportacje i masakry. Armenia oficjalnie obchodzi ten dzień od 1988 r., a po uzyskaniu niepodległości stał się świętem państwowym.",
+      "traditions": "Setki tysięcy ludzi udaje się pod pomnik Cicernakaberd w Erywaniu, aby złożyć kwiaty wokół wiecznego płomienia. Nabożeństwa kościelne, minuta ciszy i koncerty pamięci odbywają się w całej Armenii i diasporze.",
       "funFacts": [
-        "Protesty zostały brutalnie stłumione."
+        "Pomnik Cicernakaberd został otwarty w 1967 roku; jego dwanaście bazaltowych płyt symbolizuje utracone prowincje historycznej zachodniej Armenii.",
+        "Niezapominajka stała się oficjalnym symbolem stulecia w 2015 roku i jest noszona do dziś.",
+        "Ponad 30 krajów formalnie uznało wydarzenia 1915 roku za ludobójstwo."
+      ]
+    },
+    "memorial_ar_day_of_remembrance_for_truth_and_justice": {
+      "intro": "24 marca, Dzień Pamięci o Prawdzie i Sprawiedliwości, upamiętnia rocznicę wojskowego zamachu stanu w Argentynie w 1976 r. i oddaje cześć ofiarom późniejszej dyktatury.",
+      "history": "24 marca 1976 r. siły zbrojne obaliły prezydent Isabel Perón i rządziły do ​​1983 r. Szacuje się, że w tych latach porwano, torturowano i „zaginęło” około 30 000 osób. Dzień ten został ustanowiony ustawą w 2002 r., a w 2006 r. stał się świętem państwowym.",
+      "traditions": "Organizacje praw człowieka, przede wszystkim Matki i Babcie z Plaza de Mayo, prowadzą wielki marsz na Plaza de Mayo w Buenos Aires. Szkoły prowadzą lekcje na temat pamięci i demokracji, a dawne ośrodki zatrzymań, takie jak ESMA, otwierają swoje podwoje.",
+      "funFacts": [
+        "Biała chusta Matki z Plaza de Mayo, pierwotnie materiałowa pieluszka, stała się symbolem poszukiwań zaginionych.",
+        "Babcie z Plaza de Mayo zidentyfikowały ponad 130 wnuków urodzonych w niewoli.",
+        "„Nunca más” (Nigdy więcej) to tytuł raportu komisji prawdy z 1984 roku i motto dnia."
+      ]
+    },
+    "memorial_ar_day_of_the_veterans_and_fallen_of_the_malvinas_war": {
+      "intro": "2 kwietnia Argentyna wspomina żołnierzy, którzy walczyli i polegli w wojnie 1982 roku o Malwiny (Falklandy) i oddaje cześć weteranom.",
+      "history": "2 kwietnia 1982 roku na wyspy wylądowały siły argentyńskie, do których suwerenności Argentyna rości sobie od 1833 roku. 74-dniowa wojna z Wielką Brytanią kosztowała życie 649 Argentyńczyków i 255 Brytyjczyków. Dzień ten został ustanowiony w 2000 roku, a w 2001 roku stał się świętem państwowym.",
+      "traditions": "Uroczystości odbywają się pod Pomnikiem Poległych na Malwinach na Plaza San Martín w Buenos Aires oraz w miastach na terenie całego kraju. Parada weteranów, rano flagi opuszczone do połowy masztów, a szkoły przypominają o historii wysp.",
+      "funFacts": [
+        "Pomnik na Plaza San Martín zawiera nazwiska wszystkich 649 Argentyńczyków poległych na płytach z czarnego marmuru.",
+        "Wielu poborowych miało zaledwie 18 lub 19 lat.",
+        "Na cmentarzu Darwin na wyspach pochowano 237 żołnierzy argentyńskich; rodziny mogą odwiedzać je od 1991 roku."
+      ]
+    },
+    "memorial_ar_general_jose_de_san_martin_memorial_day": {
+      "intro": "Argentyna upamiętnia śmierć generała José de San Martín, wyzwoliciela Argentyny, Chile i Peru, który zmarł 17 sierpnia 1850 roku we Francji.",
+      "history": "San Martín poprowadził Armię Andów przez góry w 1817 r., pomógł uwolnić Chile i ogłosił niepodległość Peru w 1821 r. Ostatnie dziesięciolecia spędził na wygnaniu w Europie. Święto powstało w 1938 roku i zostało przeniesione na poniedziałek, tworząc długi weekend.",
+      "traditions": "Złożono wieńce na jego mauzoleum w Katedrze Metropolitalnej w Buenos Aires, strzeżonego przez założony przez niego Pułk Grenadierów Konnych. Szkoły wystawiają przedstawienia i śpiewają „Marsz San Lorenzo”.",
+      "funFacts": [
+        "San Martín jest znany jako „Ojciec Narodu” i widnieje na wielu argentyńskich banknotach i monetach.",
+        "Jego szczątki sprowadzono z Francji do Buenos Aires w 1880 roku.",
+        "Przeprawa przez Andy pokonała przełęcze wyższe niż 4000 metrów, w których uczestniczyło około 5000 żołnierzy."
+      ]
+    },
+    "memorial_be_armistice_day": {
+      "intro": "Dzień Rozejmu obchodzony 11 listopada upamiętnia zakończenie I wojny światowej w 1918 roku i oddaje cześć belgijskim żołnierzom i cywilom, którzy zginęli w obu wojnach światowych.",
+      "history": "11 listopada 1918 roku o godzinie 11:00 wszedł w życie rozejm podpisany w Compiègne i na froncie zachodnim ucichły działa. Belgia była okupowana przez cztery lata, a znaczna część Flandrii legła w gruzach. Od 1922 roku dzień ten jest świętem państwowym.",
+      "traditions": "Król składa wieniec na Grobie Nieznanego Żołnierza w Colonne du Congrès w Brukseli. W Ypres pod Bramą Menin, jak każdego wieczoru, słychać dźwięk „Ostatniego postu”, po którym następuje wielka parada. Maki nosi się na pamiątkę zmarłych.",
+      "funFacts": [
+        "Ostatni Post odtwarzany jest pod Bramą Menin każdego wieczoru od 1928 roku, z wyjątkiem okupacji niemieckiej.",
+        "Brama Menin nosi nazwiska ponad 54 000 żołnierzy Wspólnoty Narodów bez znanego grobu.",
+        "Wiersz „In Flanders Fields”, w którym mak stał się symbolem pamięci, powstał niedaleko Ypres w 1915 roku."
+      ]
+    },
+    "memorial_by_commemoration_day": {
+      "intro": "Radunitsa, dziewiąty dzień po prawosławnej Wielkanocy, to na Białorusi dzień pamięci o zmarłych, kiedy rodziny odwiedzają groby swoich bliskich.",
+      "history": "Zwyczaj wspominania przodków na wiosnę wyprzedził chrześcijaństwo w świecie słowiańskim i został wchłonięty przez kalendarz prawosławny. Na Białorusi Radunitsa została uznana za święto państwowe w 1993 roku i było to jedno z nielicznych obchodów o charakterze jednoznacznie religijnym o takim statusie.",
+      "traditions": "Rodziny sprzątają groby, dekorują je kwiatami i farbowanymi jajkami, a na cmentarzu spożywają prosty posiłek. Księża odprawiają nabożeństwa żałobne, a dzień ten ma być raczej spokojny niż żałobny, ponieważ nazwa wywodzi się od słowa oznaczającego radość.",
+      "funFacts": [
+        "Radunitsa przypada zawsze we wtorek, drugi dzień tygodnia po tygodniu wielkanocnym.",
+        "Nazwa nawiązuje do słowiańskiego słowa „radost”, czyli radość, bo wielkanocną radością dzieli się ze zmarłymi.",
+        "W Rosji i na Ukrainie ten sam zwyczaj jest przestrzegany, ale nie jest to święto państwowe."
+      ]
+    },
+    "memorial_ca_armistice_day": {
+      "intro": "Dzień zawieszenia broni przypadający 11 listopada oznacza zakończenie I wojny światowej w 1918 roku; w Kanadzie obchodzony jest jako Dzień Pamięci od 1931 roku.",
+      "history": "Zawieszenie broni weszło w życie o godzinie 11:00 11 listopada 1918 r. Kanada po raz pierwszy obchodziła Dzień Rozejmu w 1919 r. razem ze Świętem Dziękczynienia, aż do czasu, gdy Parlament rozdzielił te obydwa i w 1931 r. zmienił nazwę tego dnia, aby uhonorować wszystkich, którzy służyli.",
+      "traditions": "O godzinie 11:00 dwie minuty ciszy i złożenie wieńców pod Narodowym Pomnikiem Wojennym w Ottawie oraz przy grobowcach w całym kraju. Kanadyjczycy noszą czerwony mak na kilka tygodni przed dniem.",
+      "funFacts": [
+        "W pierwszej wojnie światowej zginęło ponad 66 000 Kanadyjczyków z około ośmiu milionów populacji.",
+        "Tradycja makowa sięga wiersza „In Flanders Fields” kanadyjskiego lekarza Johna McCrae.",
+        "Grób Nieznanego Żołnierza w Ottawie przechowuje szczątki niezidentyfikowanego żołnierza kanadyjskiego z Vimy Ridge."
+      ]
+    },
+    "memorial_cd_laurent_desire_kabila_assassination": {
+      "intro": "16 stycznia Demokratyczna Republika Konga wspomina prezydenta Laurenta-Désiré Kabilę, który został zamordowany w Kinszasie w 2001 roku.",
+      "history": "Kabila poprowadził bunt, który zakończył rządy Mobutu Sese Seko w 1997 roku i został prezydentem. 16 stycznia 2001 r. został zastrzelony przez jednego ze swoich ochroniarzy w pałacu prezydenckim. Jego następcą został jego syn Joseph Kabila, który doprowadził kraj do porozumienia pokojowego z 2002 roku.",
+      "traditions": "Oficjalne uroczystości odbywają się w mauzoleum Kabili przed Palais de la Nation w Kinszasie, gdzie składane są wieńce. Dzień ten jest świętem państwowym i często jest obchodzony wraz z obchodami Lumumby następnego dnia.",
+      "funFacts": [
+        "Kabila zostaje uhonorowany tytułem „Mzee”, co w języku suahili oznacza szacunek dla starszego.",
+        "Jego mauzoleum w Kinszasie zostało otwarte w 2002 roku i zawiera posąg z brązu.",
+        "16 i 17 stycznia tworzą razem dwa kolejne dni pamięci o dwóch „bohaterach niepodległości” kraju."
+      ]
+    },
+    "memorial_cd_patrice_lumumba_assassination": {
+      "intro": "17 stycznia upamiętnia Patrice’a Lumumbę, pierwszego premiera niepodległego Konga, zamordowanego w 1961 roku.",
+      "history": "Lumumba poprowadził Kongo do niepodległości od Belgii 30 czerwca 1960 r., ale został obalony w ciągu kilku miesięcy podczas kryzysu w Kongu. Został przekazany siłom secesjonistycznym w Katandze i stracony 17 stycznia 1961 r. przy współudziale Belgii, jak potwierdziło belgijskie dochodzenie parlamentarne w 2001 r.",
+      "traditions": "Ceremonie odbywają się pod pomnikiem Lumumby na bulwarze Lumumba w Kinszasie i w jego rodzinnym regionie. Jego przemówienie niepodległościowe jest czytane w szkołach, a dzień ten jest świętem państwowym.",
+      "funFacts": [
+        "Lumumba miał zaledwie 35 lat, kiedy został zabity.",
+        "W 2022 roku Belgia zwróciła rodzinie pozłacany ząb, jedyną pozostałość po jego ciele; został pochowany w mauzoleum w Kinszasie.",
+        "Uważany jest za jedną z czołowych postaci afrykańskich ruchów niepodległościowych i widnieje na banknotach tego kraju."
+      ]
+    },
+    "memorial_cd_congolese_genocide_day": {
+      "intro": "2 sierpnia Demokratyczna Republika Konga upamiętnia ofiary wojen i masowych okrucieństw na wschodzie kraju od 1996 roku, w dniu znanym jako „Genocost”.",
+      "history": "Data przypomina wybuch II wojny w Kongu 2 sierpnia 1998 r., w którą zaangażowanych było kilka państw afrykańskich i niezliczone grupy zbrojne. Konflikty na wschodzie pochłonęły miliony istnień ludzkich w wyniku przemocy, głodu i chorób. Rząd uczynił 2 sierpnia narodowym dniem pamięci w 2022 r.",
+      "traditions": "W Kisangani, mieście, które w 2000 roku ucierpiało podczas ciężkich walk, odbywa się narodowa ceremonia, z minutą ciszy w południe. W kościołach odprawiane są nabożeństwa, a grupy społeczeństwa obywatelskiego organizują marsze i wystawy.",
+      "funFacts": [
+        "Słowo „Genocost” łączy w sobie słowa „ludobójstwo” i „koszt”, aby wskazać ekonomiczne motywy przemocy.",
+        "Druga wojna w Kongu jest czasami nazywana „wojną światową w Afryce”, ponieważ wzięło w niej udział dziewięć krajów.",
+        "Laureat Pokojowej Nagrody Nobla Denis Mukwege, lekarz z Bukavu, od dawna prowadzi kampanię na rzecz uznania ofiar."
+      ]
+    },
+    "memorial_gi_workers_memorial_day": {
+      "intro": "Dzień Pamięci Robotników obchodzony 28 kwietnia upamiętnia osoby, które wskutek swojej pracy poniosły śmierć, zostały ranne lub zachorowały. Na Gibraltarze jest to święto państwowe.",
+      "history": "Dzień ten został zapoczątkowany przez kanadyjskie związki zawodowe w 1984 roku i obecnie jest obchodzony w ponad 100 krajach. Międzynarodowa Organizacja Pracy ustanowiła 28 kwietnia Światowym Dniem Bezpieczeństwa i Zdrowia w Pracy w 2003 r. Gibraltar dodał go do swoich świąt państwowych w 2009 r. z inicjatywy związków zawodowych.",
+      "traditions": "Na Gibraltarze odbywa się ceremonia złożenia wieńców, a związki zawodowe uczczą minutą ciszy pamięć pracowników, którzy stracili życie. Motto tego dnia brzmi: „Pamiętajcie o zmarłych, walczcie za żywych”.",
+      "funFacts": [
+        "Data przypomina 28 kwietnia 1914, kiedy Ontario uchwaliło pierwszą ustawę o odszkodowaniach pracowniczych.",
+        "Gibraltar jest jednym z niewielu miejsc, gdzie dzień jest w pełni świętem państwowym.",
+        "Fioletowe wstążki i fioletowe niezapominajki to symbole tego dnia w Wielkiej Brytanii."
+      ]
+    },
+    "memorial_hr_remembrance_day": {
+      "intro": "18 listopada Chorwacja wspomina ofiary wojny domowej, przede wszystkim upadek Vukovaru w 1991 roku i masakrę w Škabrnji tego samego dnia.",
+      "history": "Po 87-dniowym oblężeniu miasto Vukovar padło 18 listopada 1991 r. w ręce Jugosłowiańskiej Armii Ludowej i serbskich oddziałów paramilitarnych. Około 200 rannych i personelu zostało zabranych ze szpitala i zabitych na farmie Ovčara. Dzień pamięci został ustanowiony w 1999 r., a w 2020 r. stał się świętem państwowym.",
+      "traditions": "Dziesiątki tysięcy ludzi przechodzą „Kolumną Pamięci” prowadzącą ze szpitala w Vukovar na cmentarz pamięci, gdzie zapala się znicz w intencji każdej ofiary. W całej Chorwacji biją dzwony kościelne, a wieża ciśnień Vukovaru, pełna dziur po kulach, stała się symbolem miasta.",
+      "funFacts": [
+        "Podczas oblężenia wieża ciśnień w Vukovar została trafiona ponad 600 razy, a w 2020 roku została otwarta jako pomnik.",
+        "Na cmentarzu pamięci znajduje się 938 białych krzyży, po jednym dla każdej zidentyfikowanej ofiary z masowych grobów.",
+        "Chorwacki parlament ustanowił 18 listopada świętem państwowym w 2019 r. ze skutkiem od 2020 r."
+      ]
+    },
+    "memorial_il_yom_hashoah": {
+      "intro": "Jom HaShoah, 27 dzień Nisan w kalendarzu żydowskim, jest dniem pamięci Izraela o sześciu milionach Żydów zamordowanych w Holokauście i bohaterstwie tych, którzy stawiali opór.",
+      "history": "Kneset ustanowił to święto w 1951 r., a w 1959 r. stało się ono na mocy prawa narodowym dniem pamięci. Data przypada na tydzień po Paschy i tydzień przed Dniem Pamięci Izraela i została wybrana tak, aby przypadała w pobliżu rocznicy powstania w getcie warszawskim w kwietniu 1943 roku.",
+      "traditions": "O godzinie 10:00 w całym Izraelu na dwie minuty wyją syreny i wszystko ustanie, nawet ruch na autostradach. Ceremonia państwowa odbywa się w wigilię tego dnia w Yad Vashem w Jerozolimie, podczas której sześciu ocalałych zapala sześć pochodni. Miejsca rozrywki są zamykane, a nazwiska ofiar odczytywane są na głos.",
+      "funFacts": [
+        "Pełna nazwa tego dnia to „Dzień Pamięci o Holokauście i Bohaterstwie”.",
+        "„Marsz Żywych” co roku gromadzi w tym dniu tysiące młodych ludzi z Auschwitz do Birkenau.",
+        "Yad Vashem przechowuje w swojej centralnej bazie danych nazwiska około 4,8 miliona z sześciu milionów ofiar."
+      ]
+    },
+    "memorial_il_yom_hazikaron": {
+      "intro": "Jom HaZikaron, 4-ty dzień Ijar, jest w Izraelu Dniem Pamięci poległych żołnierzy i ofiar terroryzmu. Kończy się o zachodzie słońca, gdy zaczyna się Dzień Niepodległości.",
+      "history": "Izrael po raz pierwszy upamiętnił porażkę wojny 1948 r. w samo Święto Niepodległości; od 1951 r. dzień pamięci przeniesiono na wigilię uroczystości. Zostało to zapisane w prawie w 1963 r. Od 1998 r. w tym samym dniu upamiętnia się ofiary ataków terrorystycznych.",
+      "traditions": "O godzinie 20:00 przez minutę włącza się syrena. w wigilię i przez dwie minuty o godzinie 11:00 w dniu, w którym kraj stoi w miejscu. Ceremonie odbywają się na górze Herzl w Jerozolimie oraz na cmentarzach wojskowych, a groby odwiedzają rodziny. Telewizja i radio nadawały tylko ponure programy.",
+      "funFacts": [
+        "Przejście od żałoby do świętowania o zachodzie słońca jest zamierzone: niepodległość Izraela rozumiana jest jako cena, jaką płacą polegli.",
+        "Uroczystość państwową pod Ścianą Płaczu w wigilię rozpocznie się opuszczeniem flagi do połowy masztu.",
+        "Czerwony kwiat, „krew Machabeuszów” (Helichrysum), jest symbolem dnia i noszony jest jako naklejka."
+      ]
+    },
+    "memorial_il_tisha_bav": {
+      "intro": "Tisha B'Av, 9 Aw, to najsmutniejszy dzień w kalendarzu żydowskim. Opłakuje zniszczenie obu Świątyń w Jerozolimie i inne katastrofy w historii Żydów.",
+      "history": "Pierwsza Świątynia została zniszczona przez Babilończyków w 586 roku p.n.e., a Druga Świątynia przez Rzymian w 70 roku n.e., zgodnie z tradycją, w tym samym dniu. Z tym dniem kojarzone są także późniejsze katastrofy, takie jak wypędzenie Żydów z Hiszpanii w 1492 roku. W Izraelu jest to dzień wolny od pracy.",
+      "traditions": "Spostrzegawczy Żydzi poszczą przez około 25 godzin od zachodu słońca do zmroku, nie noszą skórzanych butów i siedzą na niskich stołkach podczas czytania Księgi Lamentacji przy świecach. Tysiące ludzi gromadzi się pod Ścianą Płaczu w Jerozolimie na wieczorne modlitwy.",
+      "funFacts": [
+        "Trzy tygodnie przed Tisha B'Av to okres żałoby, w którym unika się ślubów i uroczystości.",
+        "Post jest jedynym, poza Jom Kippur, który trwa cały dzień i noc.",
+        "Restauracje i miejsca rozrywki w Izraelu są prawnie zamknięte w wigilię tego dnia."
+      ]
+    },
+    "memorial_kr_memorial_day": {
+      "intro": "Dzień Pamięci (Hyeonchungil) obchodzony 6 czerwca upamiętnia żołnierzy i cywilów, którzy zginęli za Koreę Południową, zwłaszcza w wojnie koreańskiej toczącej się w latach 1950–1953.",
+      "history": "Dzień ten ustanowiono w 1956 roku, trzy lata po zawieszeniu broni, dla upamiętnienia poległych w wojnie. Data jest zgodna z tradycyjnym kalendarzem, według którego na początku czerwca rozpoczyna się sezon pielęgnacji grobów przodków.",
+      "traditions": "O godzinie 10:00 w całym kraju zawyje syrena nakazująca minutę ciszy. Prezydent przewodniczy ceremonii na Cmentarzu Narodowym w Seulu, podczas której rodziny składają kwiaty na grobach, a w całym kraju flagi są opuszczone do połowy masztów.",
+      "funFacts": [
+        "Wojna koreańska nigdy formalnie się nie zakończyła; dopiero w 1953 roku podpisano rozejm.",
+        "Cmentarz Narodowy w Seulu w Dongjak-gu jest miejscem spoczynku ponad 160 000 osób.",
+        "Ponieważ jest to dzień żałoby, flaga narodowa jest podniesiona do połowy masztu, a nie do pełnej wysokości."
+      ]
+    },
+    "memorial_md_victory_and_commemoration_day": {
+      "intro": "9 maja Mołdawia upamiętnia zwycięstwo nad nazistowskimi Niemcami w 1945 roku i żołnierzy poległych w II wojnie światowej.",
+      "history": "Kapitulacja Niemiec weszła w życie późnym wieczorem 8 maja 1945 roku, czyli w Moskwie był już 9 maja, stąd data radziecka. Mołdawia zachowała to święto po uzyskaniu niepodległości w 1991 r. i przemianowała je na „Dzień Zwycięstwa i Pamięci” ku pamięci poległych. Od 2017 r. w tym samym dniu obchodzony jest także Dzień Europy.",
+      "traditions": "Złożenie wieńców pod pomnikiem Eternitate w Kiszyniowie, gdzie w środku pięciu stylizowanych karabinów płonie wieczny płomień. Weterani są honorowani, a rodziny odwiedzają groby wojenne; wielu nosi także niebiesko-żółtą wstążkę z okazji Dnia Europy.",
+      "funFacts": [
+        "Pomnik Eternitate został otwarty w 1975 roku i wznosi się 25 metrów nad grobami żołnierzy.",
+        "Od 2022 roku w Mołdawii obowiązuje zakaz eksponowania wstęgi św. Jerzego związanej z upamiętnieniem Rosji.",
+        "Mołdawia świętuje 9 maja zarówno zwycięstwo Związku Radzieckiego, jak i Dzień Europy, co można spotkać w kilku innych krajach."
+      ]
+    },
+    "memorial_md_memorial_day": {
+      "intro": "Paștele Blajinilor, „Wielkanoc Cichy”, przypadająca w poniedziałek po tygodniu wielkanocnym, to w Mołdawii dzień pamięci o zmarłych, kiedy rodziny gromadzą się na cmentarzach.",
+      "history": "Zwyczaj dzielenia się wielkanocną radością ze zmarłymi przodkami ma swoje korzenie w tradycji prawosławnej i przedchrześcijańskich obrzędach wiosennych. W Mołdawii ten dzień stał się świętem państwowym w 1990 roku i jest jednym z najczęściej obchodzonych rodzinnych wydarzeń w roku.",
+      "traditions": "Rodziny sprzątają groby, dekorują je kwiatami i farbowanymi jajkami oraz wspólnie spożywają tam posiłek; księża błogosławią groby i żywność. Chleb, słodycze i wino rozdaje się sąsiadom i nieznajomym „za duszę” zmarłego.",
+      "funFacts": [
+        "„Blajini” oznacza „cichy” i odnosi się do legendarnych łagodnych istot, o których mówi się, że żyją na krańcu świata i obchodzą Wielkanoc później.",
+        "Wielu Mołdawian pracujących za granicą planuje swoje wizyty w domu właśnie na ten dzień.",
+        "Dzień przypada zawsze osiem dni po prawosławnej Niedzieli Wielkanocnej."
+      ]
+    },
+    "memorial_na_cassinga_day": {
+      "intro": "Dzień Cassinga obchodzony 4 maja upamiętnia południowoafrykański atak na obóz uchodźców w Namibii w Cassinga w południowej Angoli w 1978 roku, w którym zginęło około 600 osób.",
+      "history": "4 maja 1978 roku południowoafrykańscy spadochroniarze i samoloty zaatakowali obóz ruchu wyzwoleńczego SWAPO w Cassinga, gdzie mieszkały tysiące uchodźców. Atak stał się jednym z kluczowych wydarzeń w walce o niepodległość, którą Namibia osiągnęła w 1990 roku.",
+      "traditions": "Na Polu Bohaterów niedaleko Windhoek odbywa się narodowa ceremonia połączona ze złożeniem wieńców, podczas której ocaleni dzielą się swoimi wspomnieniami. Flagi powiewają do połowy masztów, a ten dzień jest świętem państwowym.",
+      "funFacts": [
+        "Wiele osób, które przeżyły Cassingę, to dzieci, które później ukończyły szkołę na Kubie.",
+        "Pole Bohaterów zostało otwarte w 2002 roku i góruje nad nim 34-metrowy obelisk.",
+        "Obóz znajdował się około 250 kilometrów na północ od granicy z Namibią."
+      ]
+    },
+    "memorial_na_genocide_remembrance_day": {
+      "intro": "Dzień Pamięci o Ludobójstwie obchodzony 28 maja upamiętnia Ovaherero i Nama, którzy zginęli pod niemieckimi rządami kolonialnymi w latach 1904–1908.",
+      "history": "Po powstaniu w 1904 roku niemiecka armia kolonialna wypędziła Herero na pustynię Omaheke i uwięziła ocalałych w obozach takich jak Shark Island. Zginęły dziesiątki tysięcy. Niemcy oficjalnie uznały te wydarzenia za ludobójstwo w 2021 r. Namibia po raz pierwszy obchodziła ten dzień w 2025 r., wybierając datę, w której nakazano zamknięcie obozów w 1907 r.",
+      "traditions": "Odbywa się narodowa ceremonia z minutą ciszy i zapaleniem zniczy, a potomkowie ofiar organizują spotkania upamiętniające w Okahandja, Swakopmund i Lüderitz. Dzień ten jest świętem państwowym.",
+      "funFacts": [
+        "Ludobójstwo Herero i Nama uważane jest za pierwsze ludobójstwo XX wieku.",
+        "W 2018 roku Niemcy zwróciły szczątki ludzkie przewiezione do Berlina w celu przeprowadzenia badań rasowych.",
+        "Pomnik Ludobójstwa w Windhoek został odsłonięty w 2014 roku w miejscu dawnego pomnika konnego poświęconego niemieckim żołnierzom kolonialnym."
+      ]
+    },
+    "memorial_pg_remembrance_day": {
+      "intro": "Dzień Pamięci obchodzony 23 lipca upamiętnia mieszkańców Papui-Nowej Gwinei, którzy służyli i polegli w czasie II wojny światowej, zwłaszcza żołnierzy Papuaskiego Batalionu Piechoty.",
+      "history": "23 lipca 1942 roku batalion piechoty papuaskiej stoczył swoje pierwsze starcie z wojskami japońskimi w pobliżu Awala na początku kampanii Kokoda. Dzień ten stał się świętem narodowym po uzyskaniu niepodległości w 1975 roku.",
+      "traditions": "Złożenie wieńców na Cmentarzu Wojennym Bomana niedaleko Port Moresby oraz w Parku Pamięci w stolicy. W akcji biorą udział rodziny weteranów, siły zbrojne i uczniowie. Rozbrzmiewa „Ostatni post”.",
+      "funFacts": [
+        "Papua-Nowa Gwinea, która niosła rannych żołnierzy szlakiem Kokoda, stała się znana jako „Fuzzy Wuzzy Angels”.",
+        "Cmentarz Wojenny Bomana to największy cmentarz wojenny na Pacyfiku, na którym znajduje się ponad 3800 grobów.",
+        "Papuaski Batalion Piechoty był pierwszą rodzimą jednostką wojskową w kraju."
+      ]
+    },
+    "memorial_pr_memorial_day": {
+      "intro": "Dzień Pamięci przypadający w ostatni poniedziałek maja upamiętnia mężczyzn i kobiety, którzy zginęli podczas służby w siłach zbrojnych Stanów Zjednoczonych. Portorykańczycy brali udział w każdej wojnie amerykańskiej od 1917 roku.",
+      "history": "Dzień Pamięci wyrósł z Dnia Dekoracji po wojnie secesyjnej, kiedy to groby dekorowano kwiatami. W 1971 r. stało się świętem federalnym. Portorykańczycy otrzymali obywatelstwo USA w 1917 r. i licznie służyli, w tym w 65. pułku piechoty, „Borinqueneers”.",
+      "traditions": "Ceremonie odbywają się na Cmentarzu Narodowym Puerto Rico w Bayamón, gdzie na każdym grobie umieszczane są małe flagi. Organizują parady grup weteranów, a wiele rodzin odwiedza groby swoich bliskich.",
+      "funFacts": [
+        "65 Pułk Piechoty otrzymał w 2016 roku Złoty Medal Kongresu za służbę w wojnie koreańskiej.",
+        "Cmentarz Narodowy w Portoryko to miejsce spoczynku ponad 50 000 weteranów i członków ich rodzin.",
+        "Narodowy moment pamięci obchodzony jest o godzinie 15:00. czasu lokalnego w całych Stanach Zjednoczonych."
+      ]
+    },
+    "memorial_rs_armistice_day": {
+      "intro": "Dzień Rozejmu obchodzony 11 listopada upamiętnia zakończenie I wojny światowej w 1918 roku oraz poległych w niej serbskich żołnierzy i cywilów.",
+      "history": "Serbia straciła podczas pierwszej wojny światowej ponad jedną czwartą swojej populacji, czyli więcej niż jakikolwiek inny kraj. Dzień ten został wprowadzony jako święto państwowe w 2012 roku, aby uczcić ofiary i rolę armii serbskiej w zwycięstwie aliantów.",
+      "traditions": "Złożenie wieńców pod pomnikiem Nieznanego Bohatera na górze Avala niedaleko Belgradu oraz pod pomnikami wojennymi w całym kraju. Ludzie noszą ramondę Natalie, mały fioletowy kwiatek, ku pamięci poległych.",
+      "funFacts": [
+        "Ramonda Natalii to „roślina zmartwychwstania”, która po wyschnięciu potrafi odrodzić się, dlatego symbolizuje odrodzenie Serbii po wojnie.",
+        "Kwiat często noszony jest ze wstążką w barwach medalu Albańskich Rekolekcji z 1915 roku.",
+        "Pomnik Nieznanego Bohatera na Avali został zaprojektowany przez rzeźbiarza Ivana Meštrovicia w 1938 roku."
+      ]
+    },
+    "memorial_sm_commemoration_of_all_those_who_died_at_war": {
+      "intro": "2 listopada, w Dzień Zaduszny, San Marino upamiętnia wszystkich, którzy zginęli na wojnie, wraz z katolicką pamięcią o zmarłych.",
+      "history": "Mała republika zachowała neutralność podczas obu wojen światowych, ale w czerwcu 1944 roku została przez pomyłkę zbombardowana przez brytyjskie samoloty, zabijając 63 osoby i przyjęła około 100 000 uchodźców. Wspomnienie Dnia Zadusznego jest jednym z oficjalnych świąt w kraju.",
+      "traditions": "Rodziny odwiedzają cmentarze, przede wszystkim cmentarz Montalbo, składają kwiaty i zapalają znicze na grobach. Ceremonia ku czci poległych w wojnie republiki, a Kapitan Regent bierze udział w mszy żałobnej.",
+      "funFacts": [
+        "Populacja San Marino liczy zaledwie około 34 000 mieszkańców, więc prawie każda rodzina miała krewnych wśród uchodźców z czasów wojny.",
+        "Tablica na dworcu upamiętnia ofiary bombardowania w 1944 roku.",
+        "Dzień Zaduszny obchodzony jest w Kościele katolickim już od XI wieku."
+      ]
+    },
+    "memorial_us_lincolns_birthday": {
+      "intro": "Urodziny Lincolna obchodzone 12 lutego upamiętniają Abrahama Lincolna, 16. prezydenta Stanów Zjednoczonych, który przewodził krajowi przez wojnę secesyjną i położył kres niewolnictwu.",
+      "history": "Lincoln urodził się w chatce z bali w Kentucky w 1809 roku i został zamordowany w kwietniu 1865 roku, kilka dni po zakończeniu wojny domowej. Jego urodziny po raz pierwszy obchodzono publicznie w 1866 roku i stały się świętem prawnym w kilku stanach, choć nigdy federalnym. Dziś wiele stanów łączy to z urodzinami Waszyngtonu jako Dniem Prezydenta.",
+      "traditions": "Pod pomnikiem Lincolna w Waszyngtonie odbywa się ceremonia złożenia wieńców, a w wielu szkołach czytane jest przemówienie gettysburgskie. W Illinois, „Krainie Lincolna”, ten dzień pozostaje świętem państwowym.",
+      "funFacts": [
+        "Mierzący 1,93 m Lincoln był najwyższym prezydentem USA.",
+        "Przemówienie Gettysburga ma tylko około 270 słów i trwało około dwóch minut.",
+        "Pomnik Lincolna został poświęcony w 1922 roku i zawiera marmurowy posąg o wysokości 5,8 metra."
+      ]
+    },
+    "memorial_za_human_rights_day": {
+      "intro": "Dzień Praw Człowieka obchodzony 21 marca upamiętnia masakrę w Sharpeville w 1960 r. i świętuje prawa zapisane w demokratycznej konstytucji Republiki Południowej Afryki.",
+      "history": "21 marca 1960 roku policja otworzyła ogień do pokojowego tłumu protestującego przeciwko przepisom dotyczącym przepustek w Sharpeville, zabijając 69 osób. Masakra wywołała ogólnoświatowe potępienie apartheidu. Po pierwszych demokratycznych wyborach w 1994 r. ten dzień uznano za święto państwowe, a w 1996 r. Nelson Mandela podpisał nową konstytucję w Sharpeville.",
+      "traditions": "Ceremonie odbywają się pod pomnikiem w Sharpeville i w Okręgu Praw Człowieka, a rząd wykorzystuje ten dzień do promowania Karty Praw. Wspólnoty organizują marsze, koncerty i wydarzenia edukacyjne.",
+      "funFacts": [
+        "Organizacja Narodów Zjednoczonych ogłosiła 21 marca Międzynarodowym Dniem Likwidacji Dyskryminacji Rasowej w 1966 roku, ku pamięci Sharpeville.",
+        "Południowoafrykańska Karta Praw uważana jest za jedną z najbardziej postępowych na świecie.",
+        "Pomnik w Sharpeville zawiera nazwiska wszystkich 69 ofiar na poszczególnych filarach."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_defenders_of_the_barricades_in_1991": {
+      "intro": "20 stycznia upamiętnia obrońców barykad ze stycznia 1991 roku, kiedy ludzie w Rydze bronili młodej łotewskiej demokracji przed sowieckimi siłami specjalnymi.",
+      "history": "Po sowieckich represjach w Wilnie 13 stycznia 1991 r. dziesiątki tysięcy Łotyszy zbudowały barykady wokół parlamentu, centrum telewizyjnego i mostów w Rydze. 20 stycznia specjalna policja OMON szturmowała Ministerstwo Spraw Wewnętrznych; zginęło pięć osób, w tym dwóch kamerzystów filmujących wydarzenia.",
+      "traditions": "Na Placu Dome w Starej Rydze rozpalane są ogniska, tak jak to miało miejsce w 1991 r., a pod kamieniami pamiątkowymi w parku Bastejkalns, gdzie padły ofiary, składane są wieńce. Muzeum Barykad w Starej Rydze ożywia pamięć dzięki oryginalnym materiałom filmowym.",
+      "funFacts": [
+        "Barykady zbudowano z ciężarówek, traktorów i bloków betonowych sprowadzonych z całej Łotwy.",
+        "Rolnicy przez kilka dni dostarczali obrońcom gorącą żywność i drewno na opał.",
+        "Muzeum Barykad zostało otwarte w 2001 roku w domu na Krāmu iela w Starej Rydze."
+      ]
+    },
+    "memorial_lv_day_of_the_international_de_jure_recognition_of_the_republic_of_latvia": {
+      "intro": "26 stycznia 1921 roku Rada Najwyższa Aliantów uznała de iure Republikę Łotewską, potwierdzając miejsce młodego państwa wśród narodów świata.",
+      "history": "Łotwa proklamowała niepodległość 18 listopada 1918 r. i toczyła wojnę o niepodległość do 1920 r. Uznanie de iure przez Wielką Brytanię, Francję, Włochy, Japonię i Belgię otworzyło drzwi do Ligi Narodów, do której Łotwa przystąpiła we wrześniu 1921 r.",
+      "traditions": "Na budynkach użyteczności publicznej wywieszana jest flaga państwowa, a Ministerstwo Spraw Zagranicznych upamiętnia ten dzień jako rocznicę łotewskiej dyplomacji. Szkoły przypominają, jak kraj znalazł swoje miejsce w społeczności międzynarodowej.",
+      "funFacts": [
+        "Stany Zjednoczone uznały Łotwę de iure dopiero w lipcu 1922 roku.",
+        "Flaga Łotwy z ciemnoczerwonymi i białymi paskami to jeden z najstarszych wzorów flag na świecie, wspomniany w kronice z 1279 roku.",
+        "Decyzja została podjęta na posiedzeniu Rady Najwyższej Sojuszników w Paryżu."
+      ]
+    },
+    "memorial_lv_world_non_governmental_organization_day": {
+      "intro": "Światowy Dzień Organizacji Pozarządowych przypadający 27 lutego to święto organizacji pozarządowych i pracujących w nich wolontariuszy; pomysł narodził się na Łotwie.",
+      "history": "Dzień został zaproponowany przez łotewskiego aktywistę Marcisa Liorsa Skadmanisa i uznany przez Bałtyckie Forum Organizacji Pozarządowych w 2010 roku. Po raz pierwszy został obchodzony na arenie międzynarodowej w 2014 roku i od tego czasu cieszy się poparciem Organizacji Narodów Zjednoczonych i Unii Europejskiej.",
+      "traditions": "Organizacje pozarządowe otwierają swoje drzwi, prezentują swoje projekty i dziękują swoim wolontariuszom. Konferencje i ceremonie wręczania nagród honorują inicjatywy społeczeństwa obywatelskiego, a wiele osób wykorzystuje ten dzień, aby zgłosić się jako wolontariusze.",
+      "funFacts": [
+        "Dzień ten obchodzony jest obecnie w około 90 krajach.",
+        "Na Łotwie zarejestrowanych jest ponad 25 000 stowarzyszeń i fundacji.",
+        "Bałtyckie Forum Organizacji Pozarządowych zrzesza grupy społeczeństwa obywatelskiego z dziesięciu krajów regionu Morza Bałtyckiego."
+      ]
+    },
+    "memorial_lv_national_partisan_armed_resistance_remembrance_day": {
+      "intro": "2 marca wspominamy łotewskich partyzantów narodowych „Leśnych Braci”, którzy po 1944 roku walczyli z okupacją sowiecką.",
+      "history": "Data nawiązuje do bitwy pod Stompakami, która miała miejsce 2 i 3 marca 1945 roku w Łatgalii i była największym starciem partyzantów łotewskich z siłami sowieckimi. W zbrojnym oporze, który trwał do lat pięćdziesiątych XX wieku, wzięło udział około 20 000 Łotyszy. W 2020 roku do ustawy dodano dzień pamięci.",
+      "traditions": "Pod pomnikami partyzanckimi i bunkrami w lasach składane są wieńce, a także odbywają się uroczystości Narodowych Sił Zbrojnych. Lokalne muzea i historycy opowiadają historie poszczególnych grup oporu.",
+      "funFacts": [
+        "W Stompakach około 350 partyzantów stawiło czoła kilku tysiącom żołnierzy radzieckich, zanim wyrwało się z okrążenia.",
+        "Ostatni znany łotewski partyzant wyszedł z ukrycia dopiero w latach 90-tych.",
+        "Podobne dni pamięci istnieją w Estonii i na Litwie."
+      ]
+    },
+    "memorial_lv_national_resistance_movement_remembrance_day": {
+      "intro": "17 marca upamiętnia narodowy ruch oporu, przede wszystkim Łotewską Radę Centralną, która domagała się przywrócenia niepodległości podczas okupacji niemieckiej w 1944 roku.",
+      "history": "17 marca 1944 roku 188 czołowych łotewskich polityków i osobistości publicznych podpisało memorandum wzywające do przywrócenia niepodległej Republiki Łotewskiej. Na czele Rady Centralnej stał Konstantīns Čakste, aresztowany przez gestapo i zginął w obozie koncentracyjnym w 1945 roku.",
+      "traditions": "Pod tablicą pamiątkową Rady Centralnej w Rydze złożone są wieńce, a prezydent lub marszałek parlamentu wygłasza przemówienie pamiątkowe. Historycy pamiętają liczne formy oporu wobec obu mocarstw okupacyjnych.",
+      "funFacts": [
+        "Konstantīns Čakste był synem pierwszego prezydenta Łotwy, Jānisa Čakste.",
+        "Rada Centralna organizowała także przeprawy łodziowe, które pomagały uchodźcom w ucieczce do Szwecji.",
+        "Memorandum zostało przemycone z kraju i przekazane zachodnim aliantom."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_victims_of_communist_terror": {
+      "intro": "14 czerwca upamiętnia ofiary komunistycznego terroru, a w szczególności masowych deportacji z 14 czerwca 1941 r., kiedy w ciągu jednej nocy z Łotwy wywieziono na Syberię ponad 15 000 osób.",
+      "history": "W nocy z 13 na 14 czerwca 1941 władze sowieckie aresztowały rodziny na całej Łotwie, oddzielały mężczyzn od kobiet i dzieci i wysyłały ich na wschód w wagonach towarowych. Wielu nie przeżyło pierwszej zimy. Druga, jeszcze większa deportacja miała miejsce 25 marca 1949 r., który jest jednocześnie dniem pamięci.",
+      "traditions": "Na stacji kolejowej Torņakalns w Rydze, skąd odjeżdżają pociągi, powiewają flagi z czarnymi wstążkami i składane są wieńce. Odczytuje się głośno nazwiska deportowanych, a w Muzeum Okupacji organizuje się uroczystość upamiętniającą.",
+      "funFacts": [
+        "Wagon pamiątkowy na stacji Torņakalns przedstawia warunki wysiedleń.",
+        "Razem deportacje z lat 1941 i 1949 dotknęły na Łotwie prawie 60 000 osób.",
+        "W 1987 roku złożenie kwiatów pod Pomnikiem Wolności 14 czerwca stało się jednym z pierwszych publicznych protestów łotewskiego ruchu niepodległościowego."
+      ]
+    },
+    "memorial_lv_latgale_congress_day": {
+      "intro": "Dzień Kongresu Łatgalii obchodzony 27 kwietnia przypomina kongres z 1917 roku w Rēzekne, na którym Łotysze z Łatgalii postanowili zjednoczyć się z pozostałymi regionami Łotwy.",
+      "history": "Łatgalia od XVII wieku była oddzielona od Kurlandii i Inflant i należała do innej prowincji rosyjskiej. W dniach 26 i 27 kwietnia 1917 r. delegaci w Rēzekne głosowali za przyłączeniem pozostałych ziem łotewskich, co stanowiło istotny krok w kierunku państwa założonego w 1918 r.",
+      "traditions": "W Rēzekne odbywają się uroczystości pod pomnikiem „Latgales Māra”, na którym widnieje napis „Zjednoczeni dla Łotwy”. W tym dniu odbywają się koncerty, wystawy i wydarzenia w języku łatgalskim.",
+      "funFacts": [
+        "Pomnik Łatgalii Māry odsłonięto w 1939 r., dwukrotnie usuwany przez Sowietów i odnawiany w 1992 r.",
+        "Język łatgalski ma swoją własną tradycję pisaną i jest chroniony jako historyczna odmiana języka łotewskiego.",
+        "Rēzekne nazywane jest „sercem Łatgalii”."
+      ]
+    },
+    "memorial_lv_day_of_the_defeat_of_nazism_and_commemoration_day_of_victims_of_world_war_ii": {
+      "intro": "8 maja upamiętnia klęskę nazizmu w 1945 roku i upamiętnia ofiary II wojny światowej, która kosztowała Łotwę setki tysięcy istnień ludzkich.",
+      "history": "Kapitulacja Niemiec weszła w życie 8 maja 1945 roku. Dla Łotwy koniec wojny nie przyniósł wolności, ale powrót sowieckich rządów, a Łotysze zostali wcieleni po obu stronach. Dzień ten wprowadzono po uzyskaniu niepodległości w duchu daty zachodnioeuropejskiej, a nie sowieckiej 9 maja.",
+      "traditions": "Złożenie wieńców pod pomnikiem w Salaspils oraz na grobach żołnierzy i ludności cywilnej. Od 2023 r. wydarzenia w sowieckiej dacie 9 maja zostały ograniczone, a dzień ten obchodzony jest w ramach pojednania i pamięci o wszystkich ofiarach.",
+      "funFacts": [
+        "Zespół pamięci Salaspils został otwarty w 1967 roku na terenie nazistowskiego obozu.",
+        "Łotwa straciła około jednej trzeciej swojej przedwojennej populacji w wyniku wojny, deportacji i emigracji.",
+        "Pomnik Zwycięstwa Radzieckiego w Rydze został rozebrany w 2022 roku."
+      ]
+    },
+    "memorial_lv_europe_day": {
+      "intro": "Dzień Europy obchodzony 9 maja świętuje pokój i jedność w Europie i przypomina Deklarację Schumana z 1950 r., która doprowadziła do powstania Unii Europejskiej.",
+      "history": "9 maja 1950 roku francuski minister spraw zagranicznych Robert Schuman zaproponował umieszczenie produkcji węgla i stali pod wspólną władzą, co stanowi zalążek integracji europejskiej. Łotwa przystąpiła do Unii Europejskiej 1 maja 2004 r. i oficjalnie zaznacza ten dzień w swoim kalendarzu.",
+      "traditions": "Na budynkach użyteczności publicznej powiewają flagi europejskie, a w Rydze i innych miastach odbywają się wydarzenia informacyjne, koncerty i dyskusje. Szkoły realizują projekty dotyczące UE, a biuro Parlamentu Europejskiego otwiera swoje podwoje.",
+      "funFacts": [
+        "Łotwa przyjęła euro w 2014 roku.",
+        "Dwanaście gwiazd flagi UE oznacza doskonałość i jedność, a nie liczbę państw członkowskich.",
+        "Ryga była gospodarzem prezydencji Rady UE w pierwszej połowie 2015 roku."
+      ]
+    },
+    "memorial_lv_international_day_of_the_family": {
+      "intro": "Międzynarodowy Dzień Rodziny przypadający 15 maja zwraca uwagę na wagę rodziny i wyzwania, jakie przed nią stoją.",
+      "history": "Zgromadzenie Ogólne Narodów Zjednoczonych ogłosiło ten dzień w 1993 r., po Międzynarodowym Roku Rodziny w 1994 r. Łotwa umieściła go w swoim oficjalnym kalendarzu jako dzień, który należy obchodzić.",
+      "traditions": "W parkach i domach kultury organizowane są festyny ​​rodzinne, imprezy plenerowe i dni sportowe. Organizacje wykorzystują ten dzień do omówienia kwestii wsparcia dla rodziców i dzieci, a wiele rodzin po prostu spędza ten dzień razem.",
+      "funFacts": [
+        "Każdego roku ONZ wybiera temat, np. rodzinę i zmiany klimatyczne lub technologię cyfrową.",
+        "Łotwa ma jeden z najbardziej hojnych systemów urlopów rodzicielskich w Europie.",
+        "Dzień ten nie jest świętem państwowym, ale wiąże się z wydarzeniami w całym kraju."
+      ]
+    },
+    "memorial_lv_firefighter_and_rescuer_day": {
+      "intro": "Dzień Strażaka i Ratownika obchodzony 17 maja jest świętem mężczyzn i kobiet łotewskiej straży pożarnej i ratownictwa.",
+      "history": "Data przypomina 17 maja 1865 roku, kiedy to założono pierwsze w kraju Towarzystwo Ochotniczych Straży Pożarnych w Rydze. Dziś Państwowa Straż Pożarna i Ratownictwo (VUGD) reaguje na pożary, wypadki i klęski żywiołowe na terenie całego kraju.",
+      "traditions": "Remizy strażackie otwierają swoje drzwi, a dzieci mogą wejść do wozów strażackich. Uroczystości oddają cześć zasłużonym i zasłużonym strażakom, a pokazy ukazują pracę ekip ratowniczych.",
+      "funFacts": [
+        "Łotewskie Muzeum Pożarnictwa w Rydze mieści się w remizie strażackiej zbudowanej w 1912 roku.",
+        "VUGD zatrudnia około 3000 pracowników.",
+        "Ochotnicze straże pożarne nadal odgrywają ważną rolę na obszarach wiejskich Łotwy."
+      ]
+    },
+    "memorial_lv_international_day_for_protection_of_children": {
+      "intro": "Międzynarodowy Dzień Dziecka przypadający 1 czerwca to święto dzieci i przypominanie społeczeństwu o ich prawie do ochrony, edukacji i szczęśliwego dzieciństwa.",
+      "history": "Data została ustalona w 1949 roku przez Międzynarodową Federację Kobiet Demokratyczną i jest obchodzona przede wszystkim w Europie Wschodniej i Środkowej oraz w Azji. Na Łotwie jest to popularny dzień dla rodzin od czasów sowieckich.",
+      "traditions": "Parki, muzea i teatry oferują bezpłatne wydarzenia, a miasta organizują festiwale z grami, koncertami i malowaniem twarzy. Organizacje zajmujące się prawami dziecka wykorzystują ten dzień, aby zwrócić uwagę na ochronę dzieci.",
+      "funFacts": [
+        "Ogłoszony przez ONZ Powszechny Dzień Dziecka przypada 20 listopada, dlatego w wielu krajach obchodzone są dwa dni dziecka.",
+        "Na Łotwie działa Rzecznik Praw Dziecka w ramach Biura Rzecznika.",
+        "W tym dniu Łotewska Opera Narodowa tradycyjnie zaprasza na przedstawienia dla dzieci."
+      ]
+    },
+    "memorial_lv_day_of_the_occupation_of_the_republic_of_latvia": {
+      "intro": "17 czerwca przypada rocznica sowieckiej okupacji Łotwy w 1940 roku, kiedy Armia Czerwona wkroczyła do kraju po ultimatum ze strony Moskwy.",
+      "history": "16 czerwca 1940 roku Związek Radziecki zażądał utworzenia nowego rządu i przyjęcia nieograniczonej liczby wojsk; następnego dnia wojska radzieckie zajęły Łotwę. Nastąpiły inscenizowane wybory, a w sierpniu Łotwa została zaanektowana jako republika radziecka. Niepodległość została przywrócona dopiero w 1991 r.",
+      "traditions": "Wywieszono flagi z czarnymi wstęgami żałoby i złożono wieńce pod Pomnikiem Wolności w Rydze. W Muzeum Okupacji odbywa się uroczystość upamiętniająca, a prezydent przemawia do narodu.",
+      "funFacts": [
+        "Muzeum Okupacji Łotwy w Rydze dokumentuje lata 1940-1991.",
+        "Okupacja była konsekwencją tajnego protokołu paktu Ribbentrop-Mołotow.",
+        "Wiele krajów zachodnich nigdy nie uznało aneksji i nadal przyjmowało łotewskich dyplomatów."
+      ]
+    },
+    "memorial_lv_medical_worker_day": {
+      "intro": "Dzień Pracownika Medycznego przypadający w trzecią niedzielę czerwca jest świętem lekarzy, pielęgniarek i wszystkich osób pracujących w łotewskim systemie opieki zdrowotnej.",
+      "history": "Korzenie tego dnia sięgają sowieckiego „Dnia Pracownika Medycyny”, który obchodzony był tego samego dnia. Łotwa zachowała ten dzień po uzyskaniu niepodległości jako dzień podziękowania pracownikom służby zdrowia.",
+      "traditions": "W szpitalach i Ministerstwie Zdrowia odbywają się uroczystości wręczania odznaczeń wybitnym lekarzom i pielęgniarkom. Pacjenci i współpracownicy przynoszą kwiaty, a media donoszą o pracy służby zdrowia.",
+      "funFacts": [
+        "Łotewski Szpital Uniwersytecki im. Paulsa Stradiņša w Rydze jest największym ośrodkiem medycznym w kraju.",
+        "Uniwersytet Stradiņš w Rydze kształci lekarzy z wielu krajów w języku angielskim.",
+        "Dzień ten przypada zawsze w niedzielę, dlatego często uroczystości odbywają się w poprzedzający piątek."
+      ]
+    },
+    "memorial_lv_heroes_commemoration_day_anniversary_of_the_battle_of_cesis": {
+      "intro": "Dzień Pamięci Bohaterów obchodzony 22 czerwca upamiętnia bitwę pod Cēsis w 1919 r., punkt zwrotny łotewskiej wojny o niepodległość.",
+      "history": "W dniach 19-23 czerwca 1919 wojska estońskie i jednostki łotewskie pokonały niemiecką bałtycką Landeswehrę pod Cēsis. Zwycięstwo zakończyło niemieckie plany kontroli Bałtyku i zapewniło rządowi Kārlisa Ulmanisa. Estonia obchodzi tę samą bitwę 23 czerwca jako Dzień Zwycięstwa.",
+      "traditions": "Uroczystości odbywają się pod pomnikiem poległych w Cēsis i na Cmentarzu Braci w Rydze. Urzędnicy łotewscy i estońscy często wspólnie upamiętniają bitwę.",
+      "funFacts": [
+        "Łotewscy uczniowie z Cēsis walczyli w bitwie jako kompania ochotnicza.",
+        "Zamek Cēsis, jeden z najlepiej zachowanych średniowiecznych zamków na Łotwie, góruje nad miastem.",
+        "Bitwa ta jest czasami nazywana w Estonii „bitwą pod Võnnu”, od estońskiej nazwy Cēsis."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_genocide_against_the_jews": {
+      "intro": "4 lipca upamiętnia ludobójstwo na Żydach Łotewskich podczas okupacji niemieckiej, podczas którego zamordowano około 70 000 łotewskich Żydów.",
+      "history": "4 lipca 1941 roku podpalono Wielką Synagogę Chóralną w Rydze z ludźmi w środku, podobnie jak inne synagogi w mieście. Pod koniec 1941 r. doszło do masowych strzelanin, przede wszystkim w Rumbuli i Biķerniekach. Dzień Pamięci ustanowiono w 1990 r.",
+      "traditions": "Złożenie wieńców pod ruinami Wielkiej Synagogi Chóralnej na Gogoļa iela oraz pod pomnikami Rumbula i Biķernieki. Pomnik Žanisa Lipkego upamiętnia Łotyszy, którzy ukrywali Żydów, ryzykując własnym życiem.",
+      "funFacts": [
+        "Žanis Lipke, pracownik portowy w Rydze, uratował ponad 50 Żydów i został uhonorowany tytułem Sprawiedliwego wśród Narodów Świata.",
+        "Przy pomniku przy ruinach synagogi znajduje się ściana z nazwiskami ratujących.",
+        "Przed wojną na Łotwie żyło około 93 000 Żydów, co stanowiło około pięciu procent populacji."
+      ]
+    },
+    "memorial_lv_day_of_the_sea_festival": {
+      "intro": "Festiwal Morza odbywający się w drugą sobotę lipca to święto rybaków, żeglarzy i wszystkich, których życie związane jest z Morzem Bałtyckim.",
+      "history": "Festiwal wyrósł z uroczystości rybackich z lat 30. XX wieku i stał się tradycją w nadmorskich miejscowościach, takich jak Liepāja, Ventspils i Roja. Przetrwał epokę sowiecką i jest oficjalnym świętem od czasu uzyskania niepodległości.",
+      "traditions": "Łodzie są poświęcane i dekorowane, z morza przybywa Neptun i „chrzci” przybyszów, a na nabrzeżach podaje się zupę rybną. Koncerty, wyścigi łodzi i targi trwają do późnych letnich nocy.",
+      "funFacts": [
+        "Linia brzegowa Łotwy ma długość około 500 kilometrów.",
+        "Wędzone ryby, zwłaszcza szproty i flądry, to klasyka festiwalu.",
+        "W Ventspils festiwal łączy się z festiwalem miejskim i przyciąga dziesiątki tysięcy gości."
+      ]
+    },
+    "memorial_lv_latvian_freedom_fighters_remembrance_day": {
+      "intro": "11 sierpnia upamiętnia bojowników o wolność łotewskiej wojny o niepodległość i upamiętnia traktat pokojowy z Rosją Radziecką z 1920 roku, który zakończył tę wojnę.",
+      "history": "W Traktacie Ryskim z 11 sierpnia 1920 roku Rosja Sowiecka uznała niepodległość Łotwy „na zawsze”. Wojna lat 1918–1920 toczyła się z siłami bolszewickimi, oddziałami niemieckimi i Zachodniorosyjską Armią Ochotniczą. Zginęło około 3000 łotewskich żołnierzy.",
+      "traditions": "Złożenie wieńców pod Pomnikiem Wolności i na Cmentarzu Braci w Rydze, gdzie pochowani są polegli. Narodowe Siły Zbrojne organizują uroczystość, a organizacje kombatanckie pamiętają o ochotnikach.",
+      "funFacts": [
+        "Cmentarz Braci w Rydze został zaprojektowany przez rzeźbiarza Kārlisa Zāle, który jest także twórcą Pomnika Wolności.",
+        "Pomnik Wolności, odsłonięty w 1935 roku, widnieje napis „Za Ojczyznę i Wolność”.",
+        "Związek Radziecki złamał „wieczny” traktat pokojowy dwadzieścia lat później wraz z okupacją w 1940 roku."
+      ]
+    },
+    "memorial_lv_day_of_the_passing_of_the_constitutional_law_on_the_status_of_the_republic_of_latvia_as_a_state": {
+      "intro": "21 sierpnia przypada dzień 1991 roku, kiedy łotewski parlament przyjął ustawę konstytucyjną, która w pełni przywróciła krajowi niepodległość.",
+      "history": "Łotwa ogłosiła odzyskanie niepodległości 4 maja 1990 r. Podczas nieudanego zamachu stanu w Moskwie Rada Najwyższa przyjęła 21 sierpnia 1991 r. ustawę uznającą Łotwę za w pełni niepodległe państwo. W ciągu kilku dni Związek Radziecki i świat to uznały.",
+      "traditions": "Na budynkach użyteczności publicznej zostaje podniesiona flaga i w Saeimie odbywa się uroczystość. Dzień ten często wspomina się razem z 4 maja, Dniem Odzyskania Niepodległości, który jest świętem państwowym.",
+      "funFacts": [
+        "Islandia była pierwszym krajem, który uznał przywróconą niepodległość Łotwy 22 sierpnia 1991 roku.",
+        "Głosowanie w Radzie Najwyższej odbyło się w czasie pobytu wojsk radzieckich w kraju.",
+        "Łotwa ponownie dołączyła do Organizacji Narodów Zjednoczonych 17 września 1991 r."
+      ]
+    },
+    "memorial_lv_day_of_remembrance_for_victims_of_stalinism_and_nazism": {
+      "intro": "23 sierpnia to Europejski Dzień Pamięci Ofiar Stalinizmu i Nazizmu, rocznica Paktu Ribbentrop-Mołotow z 1939 r. i Drogi Bałtyckiej z 1989 r.",
+      "history": "23 sierpnia 1939 roku Niemcy i Związek Radziecki podpisały pakt o nieagresji z tajnym protokołem dzielącym Europę Wschodnią, który przypieczętował los państw bałtyckich. Pięćdziesiąt lat później, 23 sierpnia 1989 r., około dwa miliony ludzi utworzyło ludzki łańcuch od Tallina przez Rygę do Wilna, domagając się niepodległości.",
+      "traditions": "Pod Pomnikiem Wolności w Rydze odbywają się uroczystości, po których zapalane są znicze ku pamięci ofiar obu reżimów. Bałtycki Szlak przypominany jest wystawami i filmami, a dzień ten obchodzony jest w całej Unii Europejskiej.",
+      "funFacts": [
+        "Bałtycka Droga rozciągała się na długości około 675 kilometrów przez trzy kraje.",
+        "Dokumenty Bałtyckiej Drogi zostały wpisane na Listę Pamięć Świata UNESCO w 2009 roku.",
+        "Parlament Europejski ogłosił dzień pamięci w 2009 roku."
+      ]
+    },
+    "memorial_lv_knowledge_day": {
+      "intro": "Dzień Wiedzy obchodzony 1 września to pierwszy dzień roku szkolnego na Łotwie, kiedy uczniowie przynoszą kwiaty swoim nauczycielom, a pierwszoklasiści rozpoczynają naukę w szkole.",
+      "history": "Tradycja uroczystego pierwszego dnia szkoły wywodzi się z czasów sowieckich, kiedy to 1 września w całym kraju uznawano jednolite rozpoczęcie roku szkolnego. Łotwa zachowała datę i świąteczny charakter.",
+      "traditions": "Uczniowie w najlepszych strojach niosą bukiety mieczyków i astry; pierwszoklasiści są prowadzeni do szkoły przez starszych uczniów. W szkołach odbywają się apele z przemówieniami i muzyką, a na uniwersytetach rozpoczyna się rok akademicki.",
+      "funFacts": [
+        "1 września kwiaciarnie na Łotwie obchodzą najbardziej pracowity dzień w roku.",
+        "W wielu szkołach pierwszy dzwonek bije maturzysta niosący na ramionach pierwszoklasistę.",
+        "Dzień ten obchodzony jest także w Rosji, na Ukrainie i innych krajach byłego Związku Radzieckiego."
+      ]
+    },
+    "memorial_lv_baltic_unity_day": {
+      "intro": "Dzień Jedności Bałtyku obchodzony 22 września upamiętnia bitwę pod Saule w 1236 roku i celebruje wspólne korzenie Łotyszy i Litwinów.",
+      "history": "22 września 1236 roku wojska żmudzkie i semigalskie pokonały inflanckich braci mieczowych pod Saule, co było pierwszym wielkim zwycięstwem ludów bałtyckich nad zakonami krzyżowymi. Parlamenty Łotwy i Litwy ustanowiły ten dzień w 2000 roku.",
+      "traditions": "Po obu stronach granicy rozpalane są ogniska, a zespoły folklorystyczne wykonują dawne pieśni i tańce. W przygranicznych miejscowościach odbywają się koncerty i wspólne wydarzenia, a uczeni dyskutują o wspólnym dziedzictwie języków bałtyckich.",
+      "funFacts": [
+        "Łotewski i litewski to jedyne dwa zachowane języki bałtyckie.",
+        "Ogniska o tej samej godzinie wzdłuż granicy symbolizują jedność.",
+        "Dokładne miejsce bitwy jest nadal przedmiotem sporów między historykami."
+      ]
+    },
+    "memorial_lv_international_day_of_older_persons": {
+      "intro": "Międzynarodowy Dzień Osób Starszych obchodzony 1 października honoruje wkład osób starszych w społeczeństwo i podnosi świadomość ich potrzeb.",
+      "history": "Zgromadzenie Ogólne Narodów Zjednoczonych ogłosiło ten dzień w 1990 r., a po raz pierwszy został obchodzony w 1991 r. Łotwa, której populacja należy do najstarszych w Europie, włącza go do swojego oficjalnego kalendarza.",
+      "traditions": "Kluby seniora, gminy i domy kultury organizują koncerty, wystawy i dni zdrowia. Organizacje emerytów wykorzystują ten dzień do rozmów na temat emerytur i opieki, a wnuki często odwiedzają swoich dziadków.",
+      "funFacts": [
+        "Co piąty mieszkaniec Łotwy ma ponad 65 lat.",
+        "Wiele łotewskich gmin oferuje emerytom bezpłatny transport publiczny.",
+        "ONZ co roku wyznacza temat przewodni, np. włączenie cyfrowe lub odporność."
+      ]
+    },
+    "memorial_lv_teachers_day": {
+      "intro": "Dzień Nauczyciela przypadający 5 października jest wyrazem podziękowania nauczycielom za ich pracę i zbiega się z obchodzonym przez UNESCO Światowym Dniem Nauczyciela.",
+      "history": "UNESCO ogłosiło Światowy Dzień Nauczyciela w 1994 roku dla upamiętnienia zalecenia z 1966 roku dotyczącego statusu nauczyciela. Na Łotwie Dzień Nauczyciela obchodzono już w czasach sowieckich w pierwszą niedzielę października; datę później zrównano z dniem międzynarodowym.",
+      "traditions": "Uczniowie przynoszą kwiaty i drobne upominki, a starsi uczniowie często przejmują lekcje na jeden dzień. Ministerstwo Oświaty nagradza wybitnych nauczycieli, a szkoły organizują koncerty.",
+      "funFacts": [
+        "W wielu łotewskich szkołach uczniowie organizują „dzień samorządu”, podczas którego prowadzą szkołę.",
+        "Na Łotwie pracuje około 25 000 nauczycieli.",
+        "Łotewska nagroda Nauczyciela Roku przyznawana jest od 1994 roku."
+      ]
+    },
+    "memorial_lv_official_language_day": {
+      "intro": "Dzień Języka Urzędowego obchodzony 15 października upamiętnia łotewski jako język państwowy i jego rolę w tożsamości kraju.",
+      "history": "15 października 1998 r. Saeima zmieniła konstytucję, uznając łotewski za język urzędowy Republiki Łotewskiej. Dzień ten służy promocji języka, którym posługuje się około dwóch milionów ludzi na całym świecie.",
+      "traditions": "W bibliotekach, szkołach i Bibliotece Narodowej w Rydze odbywają się odczyty, konkursy dyktatorskie i wykłady. Wręczane są nagrody osobom, które przyczyniły się do rozwoju języka łotewskiego. Organizowane są także wydarzenia dla nowoprzybyłych uczących się języka łotewskiego.",
+      "funFacts": [
+        "Łotewski jest obok litewskiego jednym z dwóch zachowanych języków bałtyckich.",
+        "Łotewska Biblioteka Narodowa, „Zamek Światła”, została otwarta w 2014 roku nad brzegiem Dźwiny.",
+        "Alfabet łotewski składa się z 33 liter, w tym „ķ”, „ļ” i „ņ”."
+      ]
+    },
+    "memorial_lv_border_guards_day": {
+      "intro": "Święto Straży Granicznej przypadające 7 listopada upamiętnia Łotewską Państwową Straż Graniczną, utworzoną tego dnia w 1919 roku.",
+      "history": "Pierwsze jednostki straży granicznej powstały 7 listopada 1919 roku podczas wojny o niepodległość. Rozwiązana pod panowaniem sowieckim służba została reaktywowana w 1991 roku i dziś chroni zewnętrzną granicę Unii Europejskiej z Rosją i Białorusią.",
+      "traditions": "Straż Graniczna organizuje uroczystą defiladę i wręczenie nagród, otwiera swoje podwoje Kolegium Straży Granicznej w Rēzekne. Złożono wieńce ku pamięci strażników, którzy zginęli na służbie.",
+      "funFacts": [
+        "Wschodnia granica Łotwy z Rosją i Białorusią ma długość około 460 kilometrów.",
+        "Straż Graniczna wykorzystuje na Bałtyku psy, drony i łodzie patrolowe.",
+        "W latach 20. XX w. ukończono ogrodzenie graniczne na granicy z Białorusią."
+      ]
+    },
+    "memorial_lv_lacplesis_day": {
+      "intro": "Dzień Lāčplēsis obchodzony 11 listopada upamiętnia zwycięstwo armii łotewskiej nad Zachodniorosyjską Armią Ochotniczą pod Rygą w 1919 roku i oddaje cześć wszystkim, którzy walczyli o wolność Łotwy.",
+      "history": "11 listopada 1919 roku wojska łotewskie wyparły siły Pawła Bermondta-Awalowa z Rygi, co było zdecydowanym zwycięstwem wojny o niepodległość. Dzień ten nosi imię Lāčplēsisa, bohatera „pogromcy niedźwiedzi” z łotewskiej epopei narodowej, a dla bohaterów wojny utworzono Zakon Lāčplēsis.",
+      "traditions": "Wieczorem tysiące ludzi ustawia świece pod ścianą zamku w Rydze na nabrzeżu Dźwiny, tworząc morze światła. W całym kraju odbywają się procesje i ceremonie z pochodniami, a ludzie noszą czerwono-biało-czerwoną wstążkę.",
+      "funFacts": [
+        "Epos „Lāčplēsis” został napisany przez Andrejsa Pumpursa w 1888 roku.",
+        "Order Lāčplēsis otrzymało 2146 osób, w tym 11 kobiet.",
+        "Tradycja świec na zamku w Rydze rozpoczęła się w 1988 roku podczas ruchu niepodległościowego."
+      ]
+    },
+    "memorial_lv_remembrance_day_of_the_tragedy_of_21_november_2013": {
+      "intro": "21 listopada upamiętnia 54 osoby, które zginęły w wyniku zawalenia się dachu supermarketu w dzielnicy Zolitūde w Rydze w 2013 roku.",
+      "history": "Wieczorem 21 listopada 2013 w godzinach zakupów zawalił się dach supermarketu Maxima; wśród zabitych było trzech strażaków zabitych, gdy podczas akcji ratunkowej spadła druga sekcja. Była to najbardziej śmiertelna katastrofa na Łotwie od czasu uzyskania niepodległości, która doprowadziła do zaostrzenia przepisów budowlanych.",
+      "traditions": "Pod pomnikiem w Zolitūde odprawiane jest nabożeństwo żałobne, po którym zapalane są znicze. Flagi opuszczone są do połowy masztów, a nazwiska ofiar są odczytywane na głos.",
+      "funFacts": [
+        "Premier sześć dni po katastrofie podał się do dymisji, biorąc na siebie odpowiedzialność polityczną.",
+        "Na pomniku w tym miejscu widnieją nazwiska wszystkich 54 ofiar.",
+        "Po raz pierwszy na niepodległej Łotwie ogłoszono dzień żałoby narodowej."
+      ]
+    },
+    "memorial_lv_police_day": {
+      "intro": "Święto Policji przypadające 5 grudnia upamiętnia łotewską Policję Państwową, założoną tego dnia w 1918 roku, trzy tygodnie po ogłoszeniu niepodległości.",
+      "history": "Łotewska policja powstała 5 grudnia 1918 roku jako jedna z pierwszych instytucji nowego państwa. Zniesiona pod rządami sowieckimi, została przywrócona w 1991 roku i obecnie obejmuje Policję Państwową, Straż Miejską i Policję Bezpieczeństwa.",
+      "traditions": "Ministerstwo Spraw Wewnętrznych organizuje uroczystość wręczenia odznaczeń zasłużonym funkcjonariuszom, a komisariaty Policji otwierają swoje podwoje dla publiczności. Złożono wieńce ku pamięci funkcjonariuszy, którzy zginęli na służbie.",
+      "funFacts": [
+        "Policja Państwowa zatrudnia około 6000 pracowników.",
+        "Łotewskie Muzeum Policji w Rydze prezentuje mundury i sprzęt z stulecia policji.",
+        "Święto Policji i Święto Straży Granicznej nawiązują do lat założycielskich państwa."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_victims_of_genocide_against_the_latvian_people_by_the_totalitarian_communist_regime": {
+      "intro": "W pierwszą niedzielę grudnia Łotwa wspomina Łotyszy poległych podczas sowieckiej „operacji łotewskiej” w latach 1937 i 1938 oraz wszystkie ofiary reżimu komunistycznego.",
+      "history": "3 grudnia 1937 roku radziecka tajna policja NKWD rozpoczęła „operację łotewską”, podczas której aresztowano ponad 22 000 Łotyszy mieszkających na terenie Związku Radzieckiego, a około 16 000 rozstrzelano. Dzień Pamięci przypomina o tym i późniejszych represjach po 1940 roku.",
+      "traditions": "Nabożeństwa żałobne odprawiane są pod Pomnikiem Wolności w Rydze oraz w kościołach, a przy pomnikach zapalane są znicze. Muzeum Okupacji wraz z historykami prezentuje badania dotyczące losów ofiar.",
+      "funFacts": [
+        "Operacja łotewska była jedną z kilku „operacji narodowych” Wielkiego Terroru.",
+        "Wiele ofiar to potomkowie łotewskich rolników, którzy osiedlili się w Rosji w XIX wieku.",
+        "W miejscu pamięci w Lewaszowie pod Petersburgiem znajduje się pomnik ofiar łotewskich."
+      ]
+    },
+    "memorial_si_primoz_trubar_day": {
+      "intro": "Primož Trubar obchodzony 8 czerwca upamiętnia protestanckiego reformatora, który w 1550 roku napisał i wydrukował pierwsze książki w języku słoweńskim.",
+      "history": "Trubar urodził się 8 czerwca 1508 roku w Rašicy koło Lublany. Jako kaznodzieja luterański musiał uciekać do Niemiec, gdzie opublikował „Katechizm” i „Abecedarium”, pierwsze drukowane książki słoweńskie, kładąc podwaliny pod język pisany. Od 2010 roku dzień ten jest świętem narodowym.",
+      "traditions": "Ceremonie odbywają się pod pomnikiem Trubara w Lublanie oraz w miejscu jego urodzenia w Rašicy, gdzie stoi dom pamięci. W szkołach omawia się historię języka słoweńskiego, a w kościele protestanckim odbywają się nabożeństwa.",
+      "funFacts": [
+        "Trubar widnieje na słoweńskiej monecie o nominale jednego euro.",
+        "Do swoich czytelników zwrócił się „moi drodzy Słoweńcy”, co było jednym z pierwszych zastosowań tego imienia w odniesieniu do całego narodu.",
+        "Dzień Reformacji przypadający 31 października jest także świętem państwowym w Słowenii, częściowo na jego cześć."
+      ]
+    },
+    "memorial_si_sovereignty_day": {
+      "intro": "Dzień Suwerenności obchodzony 25 października to dzień, w którym w 1991 roku ostatni żołnierz jugosłowiański opuścił terytorium Słowenii, kończąc tym samym niepodległość kraju.",
+      "history": "Po wojnie dziesięciodniowej w czerwcu i lipcu 1991 roku Jugosłowiańska Armia Ludowa zgodziła się na wycofanie. W nocy z 25 na 26 października 1991 roku ostatni żołnierze wyszli z portu w Koprze. W 2015 roku dzień ten stał się świętem narodowym.",
+      "traditions": "Często w Koprze odbywają się uroczystości państwowe i wywieszanie flagi na budynkach użyteczności publicznej. Biorą w nim udział weterani wojny o niepodległość, a szkoły wspominają wydarzenia z 1991 roku.",
+      "funFacts": [
+        "Ostatni żołnierze odpłynęli promem z Kopru do Rijeki.",
+        "Wojna dziesięciodniowa w Słowenii spowodowała śmierć mniej niż 80 osób, znacznie mniej niż późniejsze wojny w regionie.",
+        "Słowenia dołączyła do Unii Europejskiej i NATO w 2004 roku."
+      ]
+    },
+    "memorial_si_unification_of_prekmurje_slovenes_with_the_mother_nation": {
+      "intro": "17 sierpnia upamiętnia zjednoczenie Prekmurje z resztą ziem słoweńskich w 1919 roku, po wiekach panowania węgierskiego.",
+      "history": "Prekmurje, kraina za rzeką Murą, od tysiąca lat należała do Królestwa Węgier. Po I wojnie światowej Konferencja Pokojowa w Paryżu przydzieliła ją nowemu Królestwu Serbów, Chorwatów i Słoweńców, a 17 sierpnia 1919 r. na wiecu w Beltinci uczczono unię. Od 2006 roku dzień ten jest świętem narodowym.",
+      "traditions": "W Prekmurju, często w Beltinci lub Murskiej Sobocie, odbywają się uroczystości państwowe, przy muzyce ludowej i tradycyjnych potrawach regionu. Lokalne stowarzyszenia organizują wystawy poświęcone historii regionu.",
+      "funFacts": [
+        "Prekmurje słynie z warstwowego ciasta „prekmurska gibanica” i bocianów.",
+        "W XVIII wieku region ten rozwinął swój własny język literacki.",
+        "Murska Sobota to jedyna stolica regionu Słowenii po drugiej stronie rzeki Mura."
+      ]
+    },
+    "memorial_si_integration_of_primorska_into_the_homeland": {
+      "intro": "15 września przypada dzień 1947 roku, kiedy wszedł w życie Traktat Pokojowy z Paryża i większość słoweńskiego wybrzeża (Primorska) została przyłączona do Słowenii.",
+      "history": "Po I wojnie światowej Wybrzeże zostało przydzielone Włochom, gdzie ludność Słowenii doświadczyła wymuszonej włoskacji w czasach faszyzmu. Traktat pokojowy z Włochami z 1947 r. zwrócił większą część regionu Jugosławii, a tym samym Słowenii. W 2005 roku dzień ten stał się świętem narodowym.",
+      "traditions": "W jednym z nadmorskich miast, takich jak Nova Gorica, Koper czy Sežana, odbywa się uroczystość państwowa, której towarzyszą przemówienia i koncerty. Śpiewany jest hymn Wybrzeża „Vstala Primorska”, a w całym regionie występują chóry.",
+      "funFacts": [
+        "Triest, historyczne centrum regionu, pozostał we Włoszech i był przedmiotem sporów do 1954 roku.",
+        "Nova Gorica została zbudowana po 1947 roku jako nowe miasto, ponieważ Gorizia pozostała po stronie włoskiej.",
+        "Krótka linia brzegowa Słowenii o długości około 47 kilometrów leży w całości w Primorskiej."
+      ]
+    },
+    "memorial_si_slovenian_sports_day": {
+      "intro": "Słoweński Dzień Sportu obchodzony 23 września upamiętnia sportowców z tego kraju i zachęca wszystkich do aktywności.",
+      "history": "Data przypomina 23 września 2000 roku, kiedy Słowenia zdobyła swoje pierwsze złote medale olimpijskie na Igrzyskach w Sydney w wioślarstwie i strzelectwie. Święto zostało wprowadzone w 2020 roku i nie jest dniem wolnym od pracy.",
+      "traditions": "Kluby i szkoły sportowe organizują bezpłatne treningi, biegi i turnieje, a najlepsi sportowcy są nagradzani. Wiele osób po prostu uprawia turystykę pieszą, rowerową lub narciarską, co jest narodowym sposobem spędzania wolnego czasu.",
+      "funFacts": [
+        "Słowenia zdobyła więcej medali olimpijskich na mieszkańca niż prawie jakikolwiek inny kraj.",
+        "Skoki narciarskie w Planicy i gwiazdy kolarstwa takie jak Tadej Pogačar i Primož Roglič to narodowe pasje.",
+        "Słoweński Komitet Olimpijski prowadzi w tym dniu ogólnokrajowy program „sport dla wszystkich”."
+      ]
+    },
+    "memorial_si_rudolf_maister_day": {
+      "intro": "Dzień Rudolfa Maistera obchodzony 23 listopada upamiętnia generała, który w 1918 roku zapewnił Słowenii Maribor i region Dolnej Styrii.",
+      "history": "W listopadzie 1918 roku, wraz z upadkiem Cesarstwa Austro-Węgierskiego, dowództwo w Mariborze objął major Rudolf Maister, 23 listopada rozbroił gwardię niemiecko-austriacką i zabezpieczył północną granicę nowego państwa południowosłowiańskiego. Od 2005 roku dzień ten jest świętem narodowym.",
+      "traditions": "Pod pomnikiem Maistera w Mariborze i Lublanie odbywają się uroczystości, podczas których siły zbrojne składają hołd. Szkoły i stowarzyszenia lokalne wspominają walki o północną granicę.",
+      "funFacts": [
+        "Maister był także poetą publikującym pod pseudonimem Vojanov.",
+        "Bez jego działania Maribor mógłby stać się częścią Austrii, tak jak chciała jej niemieckojęzyczna rada.",
+        "Słoweńskie siły zbrojne nazwały jego imieniem koszary i nagrodę."
+      ]
+    },
+    "memorial_sk_day_of_the_constitution_of_the_slovak_republic": {
+      "intro": "Dzień Konstytucji przypadający 1 września upamiętnia przyjęcie konstytucji Republiki Słowackiej w 1992 roku, cztery miesiące przed uzyskaniem przez kraj niepodległości.",
+      "history": "Słowacka Rada Narodowa przyjęła konstytucję 1 września 1992 roku, a dwa dni później została podpisana na zamku w Bratysławie. 1 stycznia 1993 r. Czechosłowacja pokojowo rozpadła się na Czechy i Słowację. Dzień ten był świętem państwowym do 2024 roku i pozostaje dniem pamięci.",
+      "traditions": "Zamek Bratysławski otwiera swoje podwoje, a Rada Narodowa organizuje uroczystość. Prezydent przyznaje odznaczenia państwowe zasłużonym obywatelom, a na budynkach użyteczności publicznej wywiesza się flagę.",
+      "funFacts": [
+        "W Sali Rycerskiej Zamku Bratysławskiego podpisano konstytucję.",
+        "Pokojowy rozdział Czechosłowacji znany jest jako „aksamitny rozwód”.",
+        "Słowacja wprowadziła euro w 2009 roku, cztery lata po tym, jak nie zrobił tego jej sąsiad, Czechy."
+      ]
+    },
+    "memorial_sk_struggle_for_freedom_and_democracy_day": {
+      "intro": "17 listopada upamiętnia protesty studenckie z lat 1939 i 1989 oraz początek aksamitnej rewolucji, która zakończyła komunistyczne rządy w Czechosłowacji.",
+      "history": "Po protestach w Pradze 17 listopada 1939 roku hitlerowscy okupanci zamknęli czeskie uniwersytety i rozstrzelali dziewięciu studentów. Pięćdziesiąt lat później, 17 listopada 1989 r., demonstracja studencka w Pradze została brutalnie rozpędzona, co wywołało masowe protesty, które w ciągu kilku tygodni obaliły reżim. Dzień ten jest świętem państwowym zarówno na Słowacji, jak i w Czechach.",
+      "traditions": "W Bratysławie i innych miastach odbywają się spotkania przy świecach i przemówieniach, a ludzie dzwonią kluczami jak w 1989 roku. Odbywają się koncerty i dyskusje z uczestnikami rewolucji, a dzień ten jest jednocześnie Międzynarodowym Dniem Studenta.",
+      "funFacts": [
+        "Brzęczące klawisze stały się dźwiękiem aksamitnej rewolucji, symbolizując przesłanie skierowane do komunistów „czas już iść”.",
+        "W Bratysławie na Placu Słowackiego Powstania Narodowego odbyła się pierwsza duża demonstracja.",
+        "Alexander Dubček, twarz Praskiej Wiosny 1968, w czasie rewolucji powrócił do życia publicznego."
+      ]
+    },
+    "memorial_ve_teachers_day": {
+      "intro": "Dzień Nauczyciela obchodzony 15 stycznia jest hołdem dla nauczycieli Wenezueli i przypomina o założeniu pierwszego ogólnokrajowego stowarzyszenia nauczycieli w 1932 roku.",
+      "history": "15 stycznia 1932 roku nauczyciele założyli Sociedad Venezolana de Maestros de Instrucción Primaria, aby usprawnić edukację w czasach dyktatury Gómeza. Prezydent Rómulo Betancourt ustanowił tę datę oficjalnym Dniem Nauczyciela w 1945 roku.",
+      "traditions": "Uczniowie przynoszą kwiaty, kartki i drobne upominki, a szkoły organizują apele i koncerty. Nauczyciele z długoletnim stażem otrzymują nagrody, a uniwersytety honorują wybitnych pedagogów.",
+      "funFacts": [
+        "Simón Rodríguez, nauczyciel Simóna Bolívara, uważany jest za wzór wenezuelskiego pedagoga.",
+        "Założycielami stowarzyszenia był pisarz Luis Beltrán Prieto Figueroa, późniejszy kandydat na prezydenta.",
+        "Wiele krajów Ameryki Łacińskiej świętuje swoich nauczycieli w różnych terminach; Wenezuela jest jednym z najwcześniejszych w roku."
+      ]
+    },
+    "memorial_ve_youth_day": {
+      "intro": "Dzień Młodzieży obchodzony 12 lutego upamiętnia bitwę pod La Victoria w 1814 roku, w której studenci i seminarzyści walczyli pod dowództwem José Félixa Ribasa o niepodległość Wenezueli.",
+      "history": "12 lutego 1814 r. Ribas bronił miasta La Victoria przed oddziałami rojalistów siłami składającymi się z setek młodych studentów z Caracas. Jego słowa: „Nie możemy wybierać między zwycięstwem a śmiercią: musimy wygrać” stały się sławne. W 1947 roku ten dzień został ogłoszony Dniem Młodzieży.",
+      "traditions": "W całym kraju odbywają się parady, koncerty i wydarzenia sportowe dla młodzieży, a pod pomnikiem Ribasa w La Victoria składają wieńce. Szkoły organizują inscenizacje bitwy.",
+      "funFacts": [
+        "12 lutego to także urodziny Abrahama Lincolna i Karola Darwina.",
+        "Ribas był wujkiem z małżeństwa Simóna Bolívara.",
+        "Wenezuelski stan Aragua, w którym leży La Victoria, nazywa siebie kolebką młodości."
+      ]
+    },
+    "memorial_ve_slavery_abolition_anniversary": {
+      "intro": "Ten dzień upamiętnia zniesienie niewolnictwa w Wenezueli dekretem prezydenta José Gregorio Monagasa w marcu 1854 roku.",
+      "history": "Niewolnictwo istniało w Wenezueli od XVI wieku, szczególnie na plantacjach kakao. Simón Bolívar obiecał wolność zniewolonym ludziom podczas wojen o niepodległość, ale pełne zniesienie kary nastąpiło dopiero wraz z ustawą z 1854 r., która uwolniła około 40 000 ludzi. Dzień ten zaznaczony jest jako święto w kalendarzu narodowym.",
+      "traditions": "Społeczności afro-wenezuelskie organizują festiwale bębnów, tańce i wydarzenia kulturalne, szczególnie w nadmorskich regionach Barlovento i Yaracuy. Szkoły i muzea dyskutują o historii niewolnictwa i jego dziedzictwie.",
+      "funFacts": [
+        "José Leonardo Chirino przewodził powstaniu zniewolonych i wolnych ludzi w Coro w 1795 r., dziś wspominanym jako prekursor abolicji.",
+        "Tradycje bębnów tamborskich na wybrzeżu Wenezueli mają swoje korzenie w kulturze zniewolonych Afrykanów.",
+        "Wenezuela była jedną z ostatnich hiszpańskojęzycznych republik na kontynencie, która zniosła niewolnictwo."
+      ]
+    },
+    "memorial_ve_foundation_anniversary_day_of_san_cristobal_tachira": {
+      "intro": "31 marca upamiętnia założenie San Cristóbal, stolicy andyjskiego stanu Táchira, przez hiszpańskiego kapitana Juana Maldonado w 1561 roku.",
+      "history": "Juan Maldonado y Ordóñez założył „Villa de San Cristóbal” 31 marca 1561 roku jako przystanek na drodze między Andami a równinami. Miasto wyrosło na ośrodek handlu kawą i liczy dziś około 300 000 mieszkańców.",
+      "traditions": "Miasto świętuje obywatelską paradą, koncertami i mszą w katedrze. Rocznica przypada w styczniu w pobliżu Feria Internacional de San Sebastián, największego festiwalu w regionie, a lokalna duma wyraża się muzyką i jedzeniem.",
+      "funFacts": [
+        "San Cristóbal leży na wysokości około 800 metrów nad poziomem morza, w dolinie Andów.",
+        "Miejski klub piłkarski Deportivo Táchira jest jednym z odnoszących największe sukcesy wenezuelskich klubów.",
+        "Feria de San Sebastián co roku w styczniu przyciąga setki tysięcy gości."
+      ]
+    },
+    "memorial_ve_journalists_day": {
+      "intro": "Dzień Dziennikarza obchodzony 27 czerwca upamiętnia pierwszy numer gazety „Correo del Orinoco”, założonej przez Simóna Bolívara w 1818 roku.",
+      "history": "Correo del Orinoco zostało po raz pierwszy opublikowane w Angosturze, dziś Ciudad Bolívar, 27 czerwca 1818 roku jako głos ruchu niepodległościowego. Dzień ten został ogłoszony Dniem Dziennikarzy w 1964 r. i upamiętnia także dekret z 1870 r., który uczynił edukację na poziomie podstawowym bezpłatną i obowiązkową.",
+      "traditions": "Stowarzyszenia dziennikarskie wręczają nagrody, a na uczelniach trwają dyskusje na temat wolności prasy. Ceremonia odbywa się w domu Correo del Orinoco w Ciudad Bolívar, obecnie mieszczącym muzeum.",
+      "funFacts": [
+        "Bolívar nazwał prasę drukarską „równie użyteczną jak zaopatrzenie wojskowe”.",
+        "Oryginalną prasę drukarską Correo del Orinoco nadal można zobaczyć w Ciudad Bolívar.",
+        "27 czerwca jest także Dniem Edukacji w Wenezueli ze względu na dekret z 1870 roku."
+      ]
+    },
+    "memorial_ve_caracas_city_foundation_day": {
+      "intro": "25 lipca przypada rocznica założenia Caracas przez hiszpańskiego konkwistadora Diego de Losada w 1567 roku, w rocznicę urodzin stolicy Wenezueli.",
+      "history": "Losada założył „Santiago de León de Caracas” 25 lipca 1567 roku w dolinie rzeki Guaire, w święto św. Jakuba. Miasto stało się siedzibą Kapitana Generalnego Wenezueli w 1777 roku i miejscem narodzin Simóna Bolívara.",
+      "traditions": "W mieście odbywają się koncerty, wystawy i tradycyjna msza w katedrze na Plaza Bolívar, gdzie upamiętnia się założenie miasta. Muzea i historyczne centrum oferują bezpłatne zwiedzanie, a dzień uświetniają fajerwerki.",
+      "funFacts": [
+        "Caracas leży około 900 metrów nad poziomem morza, pod górą Ávila, której park narodowy jest zielonym płucem miasta.",
+        "Kolejka linowa Ávila zabiera gości na wysokość ponad 2000 metrów, skąd roztacza się widok na miasto i Karaiby.",
+        "Herb miasta przedstawia lwa trzymającego muszlę przegrzebka, symbol św. Jakuba."
+      ]
+    },
+    "memorial_ve_flag_day": {
+      "intro": "Dzień Flagi obchodzony 3 sierpnia upamiętnia pierwsze podniesienie wenezuelskiego tricoloru przez Francisco de Mirandę w La Vela de Coro w 1806 roku.",
+      "history": "Miranda, prekursorka niepodległości, wylądowała w La Vela de Coro 3 sierpnia 1806 roku i podniosła zaprojektowaną przez siebie żółtą, niebieską i czerwoną flagę. Dzień flagi obchodzony był od 12 marca do 2006 r., kiedy to został przeniesiony na 3 sierpnia, aby uczcić pierwsze podniesienie na ziemi wenezuelskiej.",
+      "traditions": "Przy szkołach, budynkach użyteczności publicznej i bazach wojskowych wywieszane są flagi oraz śpiewany jest hymn narodowy. W La Vela de Coro odbywa się ceremonia, podczas której dzieci poznają znaczenie kolorów: złoty oznaczający bogactwo, niebieski oznaczający morze i czerwony oznaczający krew bohaterów.",
+      "funFacts": [
+        "Te same trzy kolory widnieją na flagach Kolumbii i Ekwadoru, które należały do ​​Wielkiej Kolumbii.",
+        "Łuk gwiazd flagi wzrósł z siedmiu do ośmiu w 2006 roku, dodając prowincję Guayana.",
+        "Oryginalna flaga Mirandy została podniesiona z jego statku, Leandera."
+      ]
+    },
+    "memorial_de_june_17_uprising": {
+      "intro": "17 czerwca upamiętnia powstanie ludowe z 1953 roku w Niemczech Wschodnich, kiedy ponad milion ludzi protestowało przeciwko reżimowi SED i zostało zmiażdżonych przez radzieckie czołgi.",
+      "history": "Powstanie rozpoczęło się 16 czerwca 1953 strajkiem robotników budowlanych na Alei Stalina w Berlinie Wschodnim przeciwko zwiększonym normom pracy i w ciągu jednego dnia rozprzestrzeniło się na setki miast. Wojska radzieckie ogłosiły stan wojenny, w wyniku którego zginęło co najmniej 55 osób. Niemcy Zachodnie ustanowiły 17 czerwca „Dniem Jedności Niemiec” od 1954 r. do zjednoczenia Niemiec w 1990 r.",
+      "traditions": "Złożenie wieńców pod pomnikiem przed dawnym Domem Ministrów przy Leipziger Straße w Berlinie oraz na grobach ofiar na cmentarzu Seestraße. Bundestag i parlamenty krajowe organizują uroczystości upamiętniające.",
+      "funFacts": [
+        "Bulwar prowadzący do Bramy Brandenburskiej w Berlinie od 1953 roku nosi nazwę „Straße des 17. Juni”.",
+        "Po powstaniu aresztowano około 15 000 osób.",
+        "Wydarzenia te uznawane są za pierwsze powstanie ludowe przeciwko reżimowi komunistycznemu w bloku wschodnim."
       ]
     },
     "memorial_de_november_pogroms": {
-      "intro": "9 listopada upamiętnia antysemickie pogromy z 1938 roku.",
+      "intro": "9 listopada upamiętnia listopadowe pogromy z 1938 r., kiedy zaatakowano i zniszczono synagogi, żydowskie sklepy i domy w całych Niemczech i Austrii.",
+      "history": "W nocy z 9 na 10 listopada 1938 roku reżim nazistowski zorganizował ogólnokrajową przemoc wobec Żydów: podpalono ponad 1400 synagog, około 30 000 żydowskich mężczyzn wywieziono do obozów koncentracyjnych, a setki ludzi zginęło. Pogromy oznaczały przejście od dyskryminacji do systematycznych prześladowań.",
+      "traditions": "Uroczystości odbywają się w synagogach i miejscach pamięci; w wielu miastach ludzie sprzątają Stolpersteine, małe mosiężne tabliczki wmurowane w chodnik przed ostatnimi domami ofiar i ustawiają obok nich świece. Szkoły omawiają historię dnia.",
       "funFacts": [
-        "Niszczono synagogi, a osoby żydowskie prześladowano, deportowano i mordowano."
+        "9 listopada nazywany jest „dniem losu” Niemiec: w 1918 r. proklamowano republikę, a w 1989 r. upadł mur berliński.",
+        "Od 1992 roku w całej Europie ułożono ponad 100 000 sztuk Stolpersteine.",
+        "Dziś unika się nazistowskiego określenia „Noc Kryształowa”, ponieważ trywializuje ono przemoc."
       ]
     },
     "memorial_de_victims_of_national_socialism": {
-      "intro": "27 stycznia upamiętnia ofiary nazizmu.",
+      "intro": "27 stycznia to w Niemczech dzień pamięci o ofiarach narodowego socjalizmu, rocznica wyzwolenia obozu koncentracyjnego i zagłady Auschwitz w 1945 roku.",
+      "history": "Prezydent Federalny Roman Herzog ogłosił ten dzień w 1996 r. W 2005 r. Organizacja Narodów Zjednoczonych przyjęła dzień 27 stycznia jako Międzynarodowy Dzień Pamięci o Holokauście. Wojska radzieckie wyzwoliły Auschwitz 27 stycznia 1945 r., gdzie zamordowano ponad milion osób.",
+      "traditions": "Bundestag organizuje godzinę pamięci z przemówieniem ocalałego lub wybitnego gościa. Na budynkach użyteczności publicznej flagi opuszczone są do połowy masztów, a miejsca pamięci, szkoły i kościoły organizują wydarzenia. Wiele osób wieczorem zapala świecę w oknie.",
       "funFacts": [
-        "Tego dnia w 1945 roku wyzwolono obóz koncentracyjny i zagłady Auschwitz."
+        "W tym dniu upamiętniamy wszystkie grupy prześladowane przez nazistów: Żydów, Sinti i Romów, osoby niepełnosprawne, homoseksualistów, więźniów politycznych i wiele innych.",
+        "Pomnik Pomordowanych Żydów Europy w Berlinie składa się z 2711 betonowych stel.",
+        "Słowa „Nigdy więcej” są przesłaniem, które jednoczy obchody tego dnia na całym świecie."
       ]
     }
   }

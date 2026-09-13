@@ -145,22 +145,744 @@
       ],
       "imageCredit": "Photo: Arlington National Cemetery · Public domain via Wikimedia Commons"
     },
-    "memorial_de_june_17_uprising": {
-      "intro": "Kesäkuun 17. päivänä muistetaan DDR:n vuoden 1953 kansannousua.",
+    "memorial_am_armenian_genocide_remembrance_day": {
+      "intro": "24. huhtikuuta armenialaiset ympäri maailmaa muistavat vuoden 1915 kansanmurhan uhreja Ottomaanien valtakunnassa, jossa arviolta 1,5 miljoonaa armenialaista menetti henkensä.",
+      "history": "24. huhtikuuta 1915 satoja armenialaisia ​​älymystöjä ja yhteisön johtajia pidätettiin Konstantinopolissa, tapahtuma, joka merkitsi karkotusten ja joukkomurhien alkua. Armenia on viettänyt päivää virallisesti vuodesta 1988 lähtien, ja siitä tuli yleinen vapaapäivä itsenäistymisen jälkeen.",
+      "traditions": "Sadat tuhannet kävelevät Tsitsernakaberdin muistomerkille Jerevanissa laskemaan kukkia ikuisen liekin ympärille. Armeniassa ja diasporassa järjestetään jumalanpalveluksia, minuutin hiljaisuus ja muistokonsertteja.",
       "funFacts": [
-        "Mielenosoitukset tukahdutettiin väkivaltaisesti."
+        "Tsitsernakaberdin muistomerkki avattiin vuonna 1967; sen kaksitoista basalttilevyä symboloivat historiallisen Länsi-Armenian kadonneita provinsseja.",
+        "Unohda-muistomerkistä tuli 100-vuotisjuhlan virallinen symboli vuonna 2015, ja sitä käytetään edelleen.",
+        "Yli 30 maata on virallisesti tunnustanut vuoden 1915 tapahtumat kansanmurhaksi."
+      ]
+    },
+    "memorial_ar_day_of_remembrance_for_truth_and_justice": {
+      "intro": "24. maaliskuuta, totuuden ja oikeuden muistopäivänä, vietetään Argentiinan vuoden 1976 sotilasvallankaappauksen vuosipäivää ja kunnioitetaan sitä seuranneen diktatuurin uhreja.",
+      "history": "Asevoimat syrjäyttivät presidentti Isabel Perónin 24. maaliskuuta 1976 ja hallitsivat vuoteen 1983. Noina vuosina arviolta 30 000 ihmistä siepattiin, kidutettiin ja \"kadonnut\". Päivä perustettiin lailla vuonna 2002 ja siitä tuli yleinen vapaapäivä vuonna 2006.",
+      "traditions": "Ihmisoikeusjärjestöt, ennen kaikkea Plaza de Mayon äidit ja isoäidit, johtavat laajaa marssia Plaza de Mayolle Buenos Airesissa. Koulut pitävät oppitunteja muistista ja demokratiasta, ja entiset pidätyskeskukset, kuten ESMA, avaavat ovensa.",
+      "funFacts": [
+        "Plaza de Mayon äitien valkoisesta huivista, alun perin kangasvaipasta, tuli kadonneiden etsinnän symboli.",
+        "Plaza de Mayon isoäidit ovat tunnistaneet yli 130 vankeudessa syntynyttä lastenlasta.",
+        "\"Nunca más\" (Ei koskaan enää) on totuuskomission vuoden 1984 raportin otsikko ja päivän motto."
+      ]
+    },
+    "memorial_ar_day_of_the_veterans_and_fallen_of_the_malvinas_war": {
+      "intro": "Argentiina muistaa 2. huhtikuuta sotilaita, jotka taistelivat ja kaatuivat vuoden 1982 sodassa Malvinoista (Falklandinsaaret) ja kunnioittaa veteraaneja.",
+      "history": "Argentiinan joukot laskeutuivat 2. huhtikuuta 1982 saarille, joiden suvereniteettiin Argentiina on pitänyt itseään vuodesta 1833 lähtien. 74 päivää kestänyt sota Yhdistyneen kuningaskunnan kanssa maksoi 649 argentiinalaisen ja 255 brittiläisen hengen. Päivä perustettiin vuonna 2000 ja siitä tuli yleinen vapaapäivä vuonna 2001.",
+      "traditions": "Seremoniat pidetään kaatuneiden muistomerkillä Malvinasissa Plaza San Martínilla Buenos Airesissa ja kaupungeissa eri puolilla maata. Veteraaniparaati, liput liehuvat aamulla puolimastoon ja koulut muistelevat saarten historiaa.",
+      "funFacts": [
+        "Plaza San Martínin muistomerkillä luetellaan kaikkien mustille marmorilaatoille kaatuneiden 649 argentiinalaisen nimet.",
+        "Monet varusmiehistä olivat vain 18- tai 19-vuotiaita.",
+        "Darwinin hautausmaalla saarilla on 237 argentiinalaisen sotilaan haudat; perheet ovat voineet vierailla vuodesta 1991 lähtien."
+      ]
+    },
+    "memorial_ar_general_jose_de_san_martin_memorial_day": {
+      "intro": "Argentiina juhlii Argentiinan, Chilen ja Perun vapauttajan kenraali José de San Martínin kuolemaa, joka kuoli 17. elokuuta 1850 Ranskassa.",
+      "history": "San Martín johti Andien armeijaa vuorten yli vuonna 1817, auttoi vapauttamaan Chilen ja julisti Perun itsenäisyyden vuonna 1821. Hän vietti viimeiset vuosikymmeninsä maanpaossa Euroopassa. Loma luotiin vuonna 1938 ja se on siirretty maanantaiksi pitkän viikonlopun muodostamiseksi.",
+      "traditions": "Seppeleitä lasketaan hänen mausoleumiinsa Buenos Airesin Metropolitan Cathedralissa, jota vartioi hänen perustamansa ratsukranadiersrykmentti. Koulut näyttävät näytelmiä ja laulavat \"San Lorenzon marssia\".",
+      "funFacts": [
+        "San Martín tunnetaan \"kansakunnan isänä\", ja se esiintyy monissa argentiinalaisissa seteleissä ja kolikoissa.",
+        "Hänen jäännöksensä tuotiin takaisin Ranskasta Buenos Airesiin vuonna 1880.",
+        "Andien ylitys kulkee yli 4 000 metrin korkeudessa noin 5 000 sotilaalla."
+      ]
+    },
+    "memorial_be_armistice_day": {
+      "intro": "Aselepopäivä 11. marraskuuta juhlistaa ensimmäisen maailmansodan päättymistä vuonna 1918 ja kunnioittaa molemmissa maailmansodissa kuolleita belgialaisia ​​sotilaita ja siviilejä.",
+      "history": "Kello 11.00 11. marraskuuta 1918 Compiègnessa allekirjoitettu aselepo tuli voimaan ja aseet vaienivat länsirintamalla. Belgia oli ollut miehitetty neljä vuotta ja suuri osa Flanderista oli raunioina. Päivä on ollut yleinen vapaapäivä vuodesta 1922 lähtien.",
+      "traditions": "Kuningas laskee seppeleen Tuntemattoman sotilaan haudalle Colonne du Congrèsissa Brysselissä. Ypresissä viimeinen viesti soi Menin-portin alta, kuten joka ilta, ja sitä seuraa suuri paraati. Unikkoja käytetään kuolleiden muistoksi.",
+      "funFacts": [
+        "The Last Post on pelattu Meninin portin alla joka ilta vuodesta 1928 lähtien, lukuun ottamatta Saksan miehitystä.",
+        "Menin-portilla on yli 54 000 Kansainyhteisön sotilaan nimet, joiden hautaa ei tunneta.",
+        "Runo In Flanders Fields, joka teki unikon muistamisen symbolin, kirjoitettiin lähellä Ypresiä vuonna 1915."
+      ]
+    },
+    "memorial_by_commemoration_day": {
+      "intro": "Radunitsa, yhdeksäntenä päivänä ortodoksisen pääsiäisen jälkeen, on Valko-Venäjän kuolleiden muistopäivä, jolloin perheet vierailevat sukulaistensa haudoilla.",
+      "history": "Keväällä esi-isiensä muisteleminen tapahtui ennen kristinuskoa slaavilaisessa maailmassa, ja se sisällytettiin ortodoksiseen kalenteriin. Valko-Venäjällä Radunitsa julistettiin yleiseksi vapaapäiväksi vuonna 1993, yhdeksi harvoista selkeästi uskonnollisista muistojuhlista, joilla on tämä asema.",
+      "traditions": "Perheet siivoavat hautoja, koristelevat ne kukilla ja värjätyillä munilla ja syövät yksinkertaisen aterian hautausmaalla. Papit pitävät muistotilaisuuksia, ja päivän on tarkoitus olla mieluummin hiljainen kuin surullinen, kuten nimi tulee sanasta ilo.",
+      "funFacts": [
+        "Radunitsa osuu aina tiistaihin, pääsiäisviikon jälkeiseen viikon toiseen päivään.",
+        "Nimi liittyy slaavilaiseen sanaan 'radost', joka tarkoittaa iloa, koska pääsiäisen ilo jaetaan poismenneiden kanssa.",
+        "Venäjällä ja Ukrainassa noudatetaan samaa tapaa, mutta se ei ole yleinen vapaapäivä."
+      ]
+    },
+    "memorial_ca_armistice_day": {
+      "intro": "Aselepopäivä 11. marraskuuta merkitsee ensimmäisen maailmansodan päättymistä vuonna 1918; Kanadassa sitä on vietetty muistopäivänä vuodesta 1931.",
+      "history": "Aselepo tuli voimaan klo 11.00 11. marraskuuta 1918. Kanada vietti ensimmäisen kerran aselepopäivää vuonna 1919 yhdessä kiitospäivän kanssa, kunnes parlamentti erotti nämä kaksi ja nimesi päivän uudelleen vuonna 1931 kaikkien palvelleiden kunniaksi.",
+      "traditions": "Kahden minuutin hiljaisuus vietetään klo 11, ja seppeleitä lasketaan kansalliselle sotamuistomerkille Ottawassa ja kenotafeille eri puolilla maata. Kanadalaiset käyttävät punaista unikkoa päivää edeltävinä viikkoina.",
+      "funFacts": [
+        "Yli 66 000 kanadalaista kuoli ensimmäisessä maailmansodassa noin kahdeksan miljoonan väestön joukosta.",
+        "Unikon perinne juontaa juurensa kanadalaisen lääkärin John McCraen runoon \"In Flanders Fields\".",
+        "Tuntemattoman sotilaan haudassa Ottawassa on Vimy Ridgestä kotoisin olevan tuntemattoman kanadalaisen sotilaan jäännökset."
+      ]
+    },
+    "memorial_cd_laurent_desire_kabila_assassination": {
+      "intro": "Kongon demokraattinen tasavalta muistaa 16. tammikuuta presidentti Laurent-Désiré Kabilaa, joka murhattiin Kinshasassa vuonna 2001.",
+      "history": "Kabila johti kapinaa, joka päätti Mobutu Sese Sekon hallinnon vuonna 1997 ja tuli presidentiksi. 16. tammikuuta 2001 yksi hänen henkivartijoistaan ​​ampui hänet presidentinlinnassa. Hänen poikansa Joseph Kabila seurasi häntä ja johti maan vuoden 2002 rauhansopimukseen.",
+      "traditions": "Viralliset seremoniat pidetään Kabilan mausoleumissa Kinshasan Palais de la Nationin edessä, jossa lasketaan seppeleitä. Päivä on yleinen vapaapäivä ja sitä vietetään usein seuraavan päivän Lumumba-muistojuhlan yhteydessä.",
+      "funFacts": [
+        "Kabila saa kunnian arvonimen 'Mzee', swahilinkielinen kunnioituksen sana vanhimmalle.",
+        "Hänen mausoleuminsa Kinshasassa vihittiin käyttöön vuonna 2002, ja siinä on pronssinen patsas.",
+        "16. ja 17. tammikuuta muodostavat yhdessä kaksi peräkkäistä maan kahden \"itsenäisyyden sankarin\" muistopäivää."
+      ]
+    },
+    "memorial_cd_patrice_lumumba_assassination": {
+      "intro": "17. tammikuuta muistetaan Patrice Lumumbaa, itsenäisen Kongon ensimmäistä pääministeriä, joka murhattiin vuonna 1961.",
+      "history": "Lumumba johti Kongon itsenäistymiseen Belgiasta 30. kesäkuuta 1960, mutta syrjäytettiin muutamassa kuukaudessa Kongon kriisin aikana. Hänet luovutettiin separatistijoukoille Katangassa ja teloitettiin 17. tammikuuta 1961 belgialaisten avustuksella, kuten Belgian parlamentaarinen tutkinta myönsi vuonna 2001.",
+      "traditions": "Seremoniat pidetään Lumumba-monumentilla Boulevard Lumumballa Kinshasassa ja hänen kotiseudullaan. Hänen itsenäisyyspuheensa luetaan kouluissa, ja päivä on yleinen vapaapäivä.",
+      "funFacts": [
+        "Lumumba oli vain 35-vuotias, kun hänet tapettiin.",
+        "Vuonna 2022 Belgia palautti kultakantaisen hampaan, hänen ruumiinsa ainoan jäljellä olevan jäännöksen, hänen perheelleen. se haudattiin mausoleumiin Kinshasassa.",
+        "Häntä pidetään yhtenä Afrikan itsenäisyysliikkeiden johtavista henkilöistä ja hän esiintyy maan seteleissä."
+      ]
+    },
+    "memorial_cd_congolese_genocide_day": {
+      "intro": "Kongon demokraattinen tasavalta muistelee 2. elokuuta maan itäosissa vuodesta 1996 lähtien käytyjen sotien ja joukkojulmuuksien uhreja, joka tunnetaan nimellä \"Genocost\".",
+      "history": "Päivämäärä muistuttaa toisen Kongon sodan puhkeamisesta 2. elokuuta 1998, johon osallistui useita Afrikan valtioita ja lukemattomia aseellisia ryhmiä. Idän konfliktit ovat vaatineet miljoonia ihmishenkiä väkivallan, nälän ja sairauksien kautta. Hallitus valitsi 2. elokuuta kansalliseksi muistopäiväksi vuonna 2022.",
+      "traditions": "Kansallinen seremonia pidetään Kisanganissa, kaupungissa, joka kärsi rajuista taisteluista vuonna 2000, ja minuutin hiljaisuus keskipäivällä. Kirkot pitävät jumalanpalveluksia, ja kansalaisjärjestöt järjestävät marsseja ja näyttelyitä.",
+      "funFacts": [
+        "Sana \"Genocost\" yhdistää sanat \"kansanmurha\" ja \"kustannukset\" osoittamaan väkivallan taustalla olevia taloudellisia motiiveja.",
+        "Toista Kongon sotaa kutsutaan joskus \"Afrikan maailmansodaksi\", koska siihen osallistui yhdeksän maata.",
+        "Nobelin rauhanpalkinnon saanut Bukavulainen lääkäri Denis Mukwege on pitkään kampanjoinut uhrien tunnustamisen puolesta."
+      ]
+    },
+    "memorial_gi_workers_memorial_day": {
+      "intro": "Työntekijöiden muistopäivä 28. huhtikuuta muistaa ihmisiä, jotka ovat työssään kuolleet, loukkaantuneet tai sairastuneet. Gibraltarilla on yleinen vapaapäivä.",
+      "history": "Päivän aloittivat Kanadan ammattiliitot vuonna 1984, ja nyt sitä vietetään yli 100 maassa. Kansainvälinen työjärjestö valitsi 28. huhtikuuta kansainväliseksi työturvallisuuden ja työterveyspäivän päiväksi vuonna 2003. Gibraltar lisäsi sen pyhäpäiviensä joukkoon vuonna 2009 ammattiliittojen aloitteesta.",
+      "traditions": "Gibraltarilla järjestetään seppeleenlaskutilaisuus, ja ammattiliitot pitävät minuutin hiljaisuuden henkensä menettäneiden työntekijöiden puolesta. Päivän motto on \"Muista kuolleita, taistele elävien puolesta\".",
+      "funFacts": [
+        "Päivämäärä muistuttaa 28. huhtikuuta 1914, jolloin Ontario hyväksyi ensimmäisen työntekijöiden korvauslain.",
+        "Gibraltar on yksi harvoista paikoista, joissa päivä on täysi yleinen vapaapäivä.",
+        "Purppuranauhat ja violetit unohtajat ovat päivän symboleja Yhdistyneessä kuningaskunnassa."
+      ]
+    },
+    "memorial_hr_remembrance_day": {
+      "intro": "18. marraskuuta Kroatia muistelee kotimaasodan uhreja, ennen kaikkea Vukovarin kukistamista vuonna 1991 ja samana päivänä Škabrnjan joukkomurhaa.",
+      "history": "87 päivää kestäneen piirityksen jälkeen Vukovarin kaupunki joutui Jugoslavian kansanarmeijan ja serbipuolusotilaiden haltuun 18. marraskuuta 1991. Noin 200 haavoittunutta ja henkilökuntaa vietiin sairaalasta ja tapettiin Ovčaran tilalla. Muistopäivä perustettiin vuonna 1999 ja siitä tuli yleinen vapaapäivä vuonna 2020.",
+      "traditions": "Kymmenet tuhannet kävelevät \"muistopylväässä\" Vukovarin sairaalasta muistohautausmaalle, jossa sytytetään kynttilä jokaiselle uhrille. Kirkonkellot soivat halki Kroatian, ja Vukovarin vesitornista, joka on täynnä luodinreikiä, on tullut kaupungin symboli.",
+      "funFacts": [
+        "Vukovarin vesitorniin osui yli 600 kertaa piirityksen aikana, ja se avattiin muistomerkiksi vuonna 2020.",
+        "Muistohautausmaalla on 938 valkoista ristiä, yksi kullekin joukkohautojen tunnistetulle uhrille.",
+        "Kroatian parlamentti valitsi marraskuun 18. päivän yleiseksi vapaapäiväksi vuonna 2019, ja se tulee voimaan vuodesta 2020."
+      ]
+    },
+    "memorial_il_yom_hashoah": {
+      "intro": "Jom HaShoah, nisanin 27. päivänä juutalaisen kalenterin mukaan, on Israelin muistopäivä kuudelle miljoonalle juutalaisen murhatulle ja vastustaneiden sankaruudelle.",
+      "history": "Knesset perusti päivän vuonna 1951, ja vuonna 1959 siitä tuli lain mukaan kansallinen muistopäivä. Päivämäärä on viikko pääsiäisen jälkeen ja viikko ennen Israelin muistopäivää, ja se valittiin lähelle huhtikuun 1943 Varsovan geton kapinan vuosipäivää.",
+      "traditions": "Klo 10.00 sireenit soivat kahden minuutin ajan eri puolilla Israelia ja kaikki pysähtyy, jopa liikenne moottoriteillä. Valtion seremonia järjestetään Yad Vashemissa Jerusalemissa päivän aattona, jossa kuusi selviytyjää sytyttää kuusi soihtua. Viihdepaikat sulkeutuvat ja uhrien nimet luetaan ääneen.",
+      "funFacts": [
+        "Päivän koko nimi on \"Holokaustin ja sankaruuden muistopäivä\".",
+        "\"Elävien marssi\" tuo tuhansia nuoria Auschwitzista Birkenauhun tänä päivänä joka vuosi.",
+        "Yad Vashem pitää keskustietokannassaan noin 4,8 miljoonan nimet kuudesta miljoonasta uhrista."
+      ]
+    },
+    "memorial_il_yom_hazikaron": {
+      "intro": "Yom HaZikaron, 4. Iyar, on Israelin kaatuneiden sotilaiden ja terrorismin uhrien muistopäivä. Se päättyy auringonlaskun aikaan itsenäisyyspäivän alkaessa.",
+      "history": "Israel merkitsi ensimmäisen kerran vuoden 1948 sodan kaatumista itsenäisyyspäivänä; Vuodesta 1951 muistopäivä siirrettiin juhlien aattoon. Se vahvistettiin laissa vuonna 1963. Vuodesta 1998 lähtien terrori-iskujen uhreja on muistettu samana päivänä.",
+      "traditions": "Sireeni soi minuutin ajan klo 20. aattona ja kaksi minuuttia klo 11 päivänä, jolloin maa seisoo paikallaan. Seremoniat pidetään Herzl-vuorella Jerusalemissa ja sotilaiden hautausmailla, ja perheet vierailevat haudoilla. Televisio ja radio lähettävät vain synkkiä ohjelmia.",
+      "funFacts": [
+        "Siirtyminen surusta juhlimiseen auringonlaskun aikaan on tarkoituksellista: Israelin itsenäisyys ymmärretään kaatuneiden maksamana hintana.",
+        "Länsimuurilla aattona järjestettävä valtiollinen seremonia alkaa lipun laskulla puolimastoon.",
+        "Punainen kukka, \"Makkabealaisten veri\" (Helichrysum), on päivän symboli ja sitä käytetään tarrana."
+      ]
+    },
+    "memorial_il_tisha_bav": {
+      "intro": "Tisha B'Av, 9. päivä Av, on juutalaisen kalenterin surullisin päivä. Se suree sekä Jerusalemin temppelien tuhoa että muita juutalaisen historian katastrofeja.",
+      "history": "Babylonialaiset tuhosivat ensimmäisen temppelin vuonna 586 eaa. ja roomalaiset vuonna 70 eaa. toisen temppelin samana päivämäärän perinteen mukaan. Myöhemmät katastrofit, kuten juutalaisten karkottaminen Espanjasta vuonna 1492, liittyvät myös tähän päivään. Israelissa vapaapäivä on vapaaehtoinen.",
+      "traditions": "Tarkkailijat juutalaiset paastoavat noin 25 tuntia auringonlaskusta iltahämärään, eivät käytä nahkakenkiä ja istuvat matalilla jakkarailla, kun Valituslaulua luetaan kynttilänvalossa. Tuhannet kokoontuvat Jerusalemin länsimuurille iltarukouksiin.",
+      "funFacts": [
+        "Kolme viikkoa ennen Tisha B'Avia ovat surun aikaa, jolloin häitä ja juhlia vältetään.",
+        "Paasto on Jom Kippurin lisäksi ainoa, joka kestää koko päivän ja yön.",
+        "Israelin ravintolat ja viihdepaikat ovat lain mukaan suljettuina päivän aattona."
+      ]
+    },
+    "memorial_kr_memorial_day": {
+      "intro": "Memorial Day (Hyeonchungil) 6. kesäkuuta kunnioittaa sotilaita ja siviilejä, jotka kuolivat Etelä-Korean puolesta, erityisesti Korean sodassa vuosina 1950–1953.",
+      "history": "Päivä perustettiin vuonna 1956, kolme vuotta aselevon jälkeen, sodan kaatuneiden muistoksi. Päivämäärä noudattaa perinteistä kalenteria, jolloin kesäkuun alussa alkaa esi-isien hautojen hoitokausi.",
+      "traditions": "Klo 10.00 sireeni soi valtakunnallisesti minuutin hiljaiseksi. Presidentti johtaa seremoniaa Soulin kansallisella hautausmaalla, jossa perheet laskevat kukkia haudalle ja liput liehuvat puolimastoon kaikkialla maassa.",
+      "funFacts": [
+        "Korean sota ei ole koskaan muodollisesti päättynyt; vasta aselepo allekirjoitettiin vuonna 1953.",
+        "Soulin kansallinen hautausmaa Dongjak-gussa on yli 160 000 ihmisen lepopaikka.",
+        "Koska on surupäivä, kansallislippu nostetaan puolimastoon täyskorkeuden sijaan."
+      ]
+    },
+    "memorial_md_victory_and_commemoration_day": {
+      "intro": "Moldova juhlii 9. toukokuuta voittoa natsi-Saksasta vuonna 1945 ja toisessa maailmansodassa kaatuneita sotilaita.",
+      "history": "Saksan antautuminen astui voimaan myöhään 8. toukokuuta 1945, mikä oli jo 9. toukokuuta Moskovassa, eli Neuvostoliiton päivämäärä. Moldova piti juhlapäivän itsenäistymisen jälkeen vuonna 1991 ja nimesi sen uudelleen \"Voiton ja muistopäiväksi\" kaatuneiden muistoksi. Vuodesta 2017 lähtien myös Eurooppa-päivää on vietetty samana päivänä.",
+      "traditions": "Seppeleitä lasketaan Eternitaten muistomerkkikompleksissa Chișinăussa, jossa ikuinen liekki palaa viiden tyylitellyn kiväärin keskellä. Veteraaneja kunnioitetaan, ja perheet vierailevat sotahaudoissa; monet käyttävät myös Eurooppa-päivän sini-keltaista nauhaa.",
+      "funFacts": [
+        "Eternitaten muistomerkki vihittiin käyttöön vuonna 1975, ja se kohoaa 25 metriä sotilaiden hautojen yläpuolelle.",
+        "Vuodesta 2022 lähtien Venäjän muistojuhlaan liittyvän Pyhän Yrjön nauhan näyttäminen on kielletty Moldovassa.",
+        "Moldova juhlii sekä Neuvostoliiton voittoa että Eurooppa-päivää 9. toukokuuta, mikä on yhdistelmä muutamissa muissa maissa."
+      ]
+    },
+    "memorial_md_memorial_day": {
+      "intro": "Paștele Blajinilor, \"sävyisten pääsiäinen\", pääsiäisviikon jälkeisenä maanantaina on Moldovan kuolleiden muistopäivä, jolloin perheet kokoontuvat hautausmaille.",
+      "history": "Tapa jakaa pääsiäisen iloa kuolleiden esi-isiensä kanssa on juurtunut ortodoksiseen perinteeseen ja esikristillisiin kevätrituaaleihin. Moldovassa päivästä tuli yleinen vapaapäivä vuonna 1990, ja se on yksi vuoden yleisimmin havaituista perhejuhlista.",
+      "traditions": "Perheet siivoavat hautoja, koristelevat ne kukilla ja värjättyillä munilla ja syövät siellä aterian. papit siunaavat hautoja ja ruokaa. Leipää, makeisia ja viiniä annetaan naapureille ja muukalaisille \"sielun vuoksi\".",
+      "funFacts": [
+        "'Blajini' tarkoittaa 'sävyä' ja viittaa legendaarisiin lempeisiin olentoihin, joiden sanotaan elävän maailman laidalla ja juhlivan pääsiäistä myöhemmin.",
+        "Monet ulkomailla työskentelevät moldovalaiset suunnittelevat kotimatkansa tälle päivälle.",
+        "Päivä osuu aina kahdeksan päivää ortodoksisen pääsiäissunnuntain jälkeen."
+      ]
+    },
+    "memorial_na_cassinga_day": {
+      "intro": "Cassinga-päivänä 4. toukokuuta juhlistetaan Etelä-Afrikkalaisten hyökkäystä Namibian pakolaisleirille Etelä-Angolassa vuonna 1978, jossa kuoli noin 600 ihmistä.",
+      "history": "4. toukokuuta 1978 eteläafrikkalaiset laskuvarjomiehet ja lentokoneet hyökkäsivät vapautusliikkeen SWAPO leiriin Cassingassa, jossa asui tuhansia pakolaisia. Hyökkäyksestä tuli yksi Namibian vuonna 1990 saavuttaman itsenäisyystaistelun ratkaisevista tapahtumista.",
+      "traditions": "Kansallinen seremonia ja seppeleiden laskeminen järjestetään Heroes' Acressa lähellä Windhoekia, ja selviytyjät jakavat muistonsa. Liput liehuvat puolimastoon, ja päivä on yleinen vapaapäivä.",
+      "funFacts": [
+        "Monet Cassingan eloonjääneistä olivat lapsia, jotka valmistuivat myöhemmin koulunsa Kuubassa.",
+        "Heroes' Acre avattiin vuonna 2002, ja sitä hallitsee 34-metrinen obeliski.",
+        "Leiri sijaitsi noin 250 kilometriä Namibian rajalta pohjoiseen."
+      ]
+    },
+    "memorial_na_genocide_remembrance_day": {
+      "intro": "Kansanmurhan muistopäivänä 28. toukokuuta muistetaan Ovahereroa ja Namaa, jotka tapettiin Saksan siirtomaavallan aikana vuosina 1904–1908.",
+      "history": "Vuoden 1904 kansannousun jälkeen Saksan siirtomaa-armeija ajoi Hereron Omaheken autiomaahan ja vangitsi eloonjääneitä leireille, kuten Shark Islandille. Kymmeniä tuhansia kuoli. Saksa tunnusti tapahtumat virallisesti kansanmurhaksi vuonna 2021. Namibia vietti päivää ensimmäistä kertaa vuonna 2025 ja valitsi päivämäärän, jolloin leirit määrättiin suljettavaksi vuonna 1907.",
+      "traditions": "Valtakunnallinen seremonia, minuutin hiljaisuus ja kynttilänsytytys pidetään, ja uhrien jälkeläiset pitävät muistotilaisuudet Okahandjassa, Swakopmundissa ja Lüderitzissä. Päivä on yleinen vapaapäivä.",
+      "funFacts": [
+        "Hereron ja Naman kansanmurhaa pidetään 1900-luvun ensimmäisenä kansanmurhana.",
+        "Vuonna 2018 Saksa palautti ihmisjäännökset, jotka oli viety Berliiniin rotututkimusta varten.",
+        "Kansanmurhan muistomerkki Windhoekissa paljastettiin vuonna 2014 saksalaisten siirtomaa-sotilaiden entisen ratsastusmuistomerkin paikalle."
+      ]
+    },
+    "memorial_pg_remembrance_day": {
+      "intro": "Muistopäivänä 23. heinäkuuta kunnioitetaan toisessa maailmansodassa palvelleita ja siinä kuolleita papua-uusi-guinealaisia, erityisesti Papuan jalkaväkipataljoonan sotilaita.",
+      "history": "23. heinäkuuta 1942 Papuan jalkaväkipataljoona taisteli ensimmäisen taistelunsa japanilaisia ​​joukkoja vastaan ​​lähellä Awalaa Kokoda-kampanjan alussa. Päivästä tuli kansallinen vapaapäivä itsenäistymisen jälkeen vuonna 1975.",
+      "traditions": "Seppeleitä lasketaan Bomanan sotahautausmaalle lähellä Port Moresbyä ja Remembrance Parkiin pääkaupungissa. Mukana ovat veteraanien perheet, puolustusvoimat ja koululaiset, ja viimeinen viesti soi.",
+      "funFacts": [
+        "Papua-uusi-guinealaiset, jotka kuljettivat haavoittuneita sotilaita Kokoda-radalla, tunnettiin nimellä \"Fuzzy Wuzzy Angels\".",
+        "Bomana War Cemetery on Tyynenmeren suurin sotahautausmaa, jossa on yli 3 800 hautaa.",
+        "Papuan jalkaväkipataljoona oli maan ensimmäinen alkuperäiskansojen sotilasyksikkö."
+      ]
+    },
+    "memorial_pr_memorial_day": {
+      "intro": "Memorial Day toukokuun viimeisenä maanantaina kunnioittaa miehiä ja naisia, jotka kuolivat palvellessaan Yhdysvaltain armeijassa. Puerto Ricalaiset ovat palvelleet jokaisessa Yhdysvaltain sodassa vuodesta 1917 lähtien.",
+      "history": "Memorial Day syntyi Yhdysvaltain sisällissodan jälkeisestä Decoration Daysta, jolloin haudat koristeltiin kukilla. Siitä tuli liittovaltion loma vuonna 1971. Puerto Ricanista tuli Yhdysvaltain kansalaisia ​​vuonna 1917, ja he ovat palvelleet suuria määriä, mukaan lukien 65. jalkaväkirykmentti, \"Borinqueneers\".",
+      "traditions": "Seremoniat pidetään Puerto Ricon kansallisella hautausmaalla Bayamónissa, jossa jokaiselle haudalle asetetaan pienet liput. Veteraaniryhmät kulkuevat, ja monet perheet vierailevat sukulaisten haudoilla.",
+      "funFacts": [
+        "65. jalkaväkirykmentti sai kongressin kultamitalin vuonna 2016 palveluksestaan ​​Korean sodassa.",
+        "Puerto Ricon kansallinen hautausmaa on yli 50 000 veteraanin ja perheenjäsenen lepopaikka.",
+        "Kansallista muistohetkeä vietetään klo 15. paikallista aikaa kaikkialla Yhdysvalloissa."
+      ]
+    },
+    "memorial_rs_armistice_day": {
+      "intro": "Aselepopäivänä 11. marraskuuta muistetaan ensimmäisen maailmansodan päättymistä vuonna 1918 ja siinä kuolleita serbialaisia ​​sotilaita ja siviilejä.",
+      "history": "Serbia menetti yli neljänneksen väestöstään ensimmäisessä maailmansodassa, mikä on suurempi osuus kuin mikään muu maa. Päivä otettiin käyttöön yleisenä vapaapäivänä vuonna 2012 uhrien ja Serbian armeijan roolin kunnioittamiseksi liittoutuneiden voitossa.",
+      "traditions": "Seppeleitä lasketaan Tuntemattoman sankarin muistomerkille Avala-vuorella lähellä Belgradia ja sotamuistomerkeille eri puolilla maata. Ihmiset käyttävät Natalien ramondaa, pientä violettia kukkaa, kaatuneiden muistoksi.",
+      "funFacts": [
+        "Natalien ramonda on \"ylösnousemuskasvi\", joka voi elpyä kuivumisen jälkeen, minkä vuoksi se symboloi Serbian toipumista sodan jälkeen.",
+        "Kukkaa käytetään usein yhdessä nauhan kanssa, joka on vuoden 1915 Albanian Retreat -mitalin väreissä.",
+        "Tuntemattoman sankarin muistomerkin Avalalla suunnitteli kuvanveistäjä Ivan Meštrović vuonna 1938."
+      ]
+    },
+    "memorial_sm_commemoration_of_all_those_who_died_at_war": {
+      "intro": "2. marraskuuta, Sielunpäivänä, San Marino muistelee kaikkia sodassa kuolleita yhdessä katolisen kuolleiden muiston kanssa.",
+      "history": "Pieni tasavalta pysyi puolueettomana molemmissa maailmansodissa, mutta brittiläiset lentokoneet pommittivat sitä vahingossa kesäkuussa 1944 tappaen 63 ihmistä ja otti vastaan ​​noin 100 000 pakolaista. Sielunpäivän muistojuhla on yksi maan virallisista vapaapäivistä.",
+      "traditions": "Perheet vierailevat hautausmailla, ennen kaikkea Montalbon hautausmaalla, laskevat kukkia ja sytyttävät kynttilöitä haudoille. Seremoniassa kunnioitetaan tasavallan sodassa kuolleita, ja kapteenit Regent osallistuvat muistomessuun.",
+      "funFacts": [
+        "San Marinon väkiluku on vain noin 34 000, joten lähes jokaisella perheellä oli sukulaisia ​​sodan aikaisten pakolaisten joukossa.",
+        "Rautatieasemalla oleva laatta muistelee vuoden 1944 pommi-iskun uhreja.",
+        "Katolinen kirkko on viettänyt sielujen päivää 1000-luvulta lähtien."
+      ]
+    },
+    "memorial_us_lincolns_birthday": {
+      "intro": "Lincolnin syntymäpäivänä 12. helmikuuta kunnioitetaan Abraham Lincolnia, Yhdysvaltain 16. presidenttiä, joka johti maan sisällissodan läpi ja lopetti orjuuden.",
+      "history": "Lincoln syntyi hirsimökissä Kentuckyssa vuonna 1809 ja hänet murhattiin huhtikuussa 1865, päiviä sisällissodan päättymisen jälkeen. Hänen syntymäpäiväänsä vietettiin ensimmäisen kerran julkisesti vuonna 1866, ja siitä tuli laillinen vapaapäivä useissa osavaltioissa, vaikkakaan ei koskaan liittovaltion. Nykyään monet osavaltiot yhdistävät sen Washingtonin syntymäpäivään presidenttien päivänä.",
+      "traditions": "Seppeleenlaskuseremonia pidetään Lincoln Memorialissa Washingtonissa, ja Gettysburgin puhe luetaan monissa kouluissa. Illinoisissa, \"Lincolnin osavaltiossa\", päivä on edelleen osavaltion vapaapäivä.",
+      "funFacts": [
+        "Lincoln oli 1,93 metrisenä Yhdysvaltain pisin presidentti.",
+        "Gettysburgin puhe on vain noin 270 sanaa pitkä ja kesti noin kaksi minuuttia.",
+        "Lincoln Memorial vihittiin käyttöön vuonna 1922, ja siinä on 5,8-metrinen marmoripatsas."
+      ]
+    },
+    "memorial_za_human_rights_day": {
+      "intro": "Ihmisoikeuspäivänä 21. maaliskuuta juhlistetaan Sharpevillen vuoden 1960 joukkomurhaa ja juhlitaan Etelä-Afrikan demokraattiseen perustuslakiin kirjattuja oikeuksia.",
+      "history": "21. maaliskuuta 1960 poliisi avasi tulen rauhanomaista väkijoukkoa vastaan, joka protestoi lakia vastaan ​​Sharpevillessä ja tappoi 69 ihmistä. Verilöyly sai apartheidin tuomitsemisen maailmanlaajuisesti. Ensimmäisten demokraattisten vaalien jälkeen päivästä tehtiin yleinen vapaapäivä vuonna 1994, ja Nelson Mandela allekirjoitti uuden perustuslain Sharpevillessä vuonna 1996.",
+      "traditions": "Seremoniat pidetään Sharpevillen muistomerkillä ja ihmisoikeusalueella, ja hallitus käyttää tätä päivää edistääkseen Bill of Rights -ohjelmaa. Yhteisöt järjestävät marsseja, konsertteja ja koulutustilaisuuksia.",
+      "funFacts": [
+        "Yhdistyneet Kansakunnat julisti 21. maaliskuuta kansainväliseksi rotusyrjinnän poistamispäiväksi vuonna 1966 Sharpevillen muistoksi.",
+        "Etelä-Afrikan Bill of Rights -sopimusta pidetään yhtenä maailman edistyksellisimmistä.",
+        "Sharpevillen muistomerkissä on kaikkien 69 uhrin nimet yksittäisissä pilareissa."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_defenders_of_the_barricades_in_1991": {
+      "intro": "20. tammikuuta muistetaan tammikuun 1991 barrikadien puolustajia, jolloin Riiassa suojattiin nuorta latvialaista demokratiaa Neuvostoliiton erikoisjoukkoja vastaan.",
+      "history": "Neuvostoliiton tukahdutuksen jälkeen Vilnassa 13. tammikuuta 1991 kymmenet tuhannet latvialaiset rakensivat barrikadeja parlamentin, televisiokeskuksen ja Riian siltojen ympärille. 20. tammikuuta OMON-erikoispoliisi hyökkäsi sisäministeriöön; viisi ihmistä kuoli, heidän joukossaan kaksi tapahtumia kuvaavaa kuvaajaa.",
+      "traditions": "Kot sytytetään Riian vanhankaupungin aukiolla kuten vuonna 1991, ja seppeleitä lasketaan Bastejkalnsin puiston muistokiville, jossa uhrit kaatuivat. Vanhan Riian barrikadimuseo pitää muiston elossa alkuperäisillä elokuvamateriaalilla.",
+      "funFacts": [
+        "Barrikadit rakennettiin kuorma-autoista, traktoreista ja betoniharkoista, joita tuotiin kaikkialta Latviasta.",
+        "Maanviljelijät tarjosivat puolustajille lämmintä ruokaa ja polttopuita päivien ajan.",
+        "Barrikadimuseo avattiin vuonna 2001 vanhassa Riiassa Krāmu ielassa sijaitsevassa talossa."
+      ]
+    },
+    "memorial_lv_day_of_the_international_de_jure_recognition_of_the_republic_of_latvia": {
+      "intro": "Liittoutuneiden korkein neuvosto tunnusti 26. tammikuuta 1921 Latvian tasavallan de jure ja vahvisti nuoren valtion paikan maailman kansojen joukossa.",
+      "history": "Latvia oli julistautunut itsenäiseksi 18. marraskuuta 1918 ja taisteli vapaussotaa vuoteen 1920 asti. Britannian, Ranskan, Italian, Japanin ja Belgian de jure -tunnustus avasi oven Kansainliittoon, johon Latvia liittyi syyskuussa 1921.",
+      "traditions": "Valtion lippu nostetaan julkisiin rakennuksiin, ja ulkoministeriö viettää päivää Latvian diplomatian vuosipäivänä. Koulut muistelevat, kuinka maa löysi paikkansa kansainvälisessä yhteisössä.",
+      "funFacts": [
+        "Yhdysvallat tunnusti Latvian de jure vasta heinäkuussa 1922.",
+        "Latvian lippu tummanpunaisine ja valkoisine raidoineen on yksi maailman vanhimmista lippumalleista, joka mainitaan vuoden 1279 kronikassa.",
+        "Päätös tehtiin liittoutuneiden korkeimman neuvoston kokouksessa Pariisissa."
+      ]
+    },
+    "memorial_lv_world_non_governmental_organization_day": {
+      "intro": "Maailman kansalaisjärjestöjen päivä 27. helmikuuta juhlii kansalaisjärjestöjä ja niissä työskenteleviä vapaaehtoisia; idea syntyi Latviassa.",
+      "history": "Päivän ehdotti latvialainen aktivisti Marcis Liors Skadmanis, ja Itämeren kansalaisjärjestöfoorumi sai tunnustuksensa vuonna 2010. Sitä juhlittiin ensimmäisen kerran kansainvälisesti vuonna 2014, ja siitä lähtien Yhdistyneet Kansakunnat ja Euroopan unioni ovat tukeneet sitä.",
+      "traditions": "Kansalaisjärjestöt avaavat ovensa, esittelevät projektejaan ja kiittävät vapaaehtoisia. Konferenssit ja palkintoseremoniat kunnioittavat kansalaisyhteiskunnan aloitteita, ja monet ihmiset käyttävät päivää ilmoittautuakseen vapaaehtoisiksi.",
+      "funFacts": [
+        "Päivää vietetään nyt noin 90 maassa.",
+        "Latviassa on yli 25 000 rekisteröityä yhdistystä ja säätiötä.",
+        "Itämeren kansalaisjärjestöfoorumi kokoaa yhteen kansalaisyhteiskunnan ryhmiä kymmenestä Itämeren maasta."
+      ]
+    },
+    "memorial_lv_national_partisan_armed_resistance_remembrance_day": {
+      "intro": "2. maaliskuuta muistetaan Latvian kansallispartisaaneja, \"metsäveljiä\", jotka taistelivat neuvostomiehitystä vastaan vuoden 1944 jälkeen.",
+      "history": "Päivämäärä muistelee Stompakin taistelua 2. ja 3. maaliskuuta 1945 Latgalessa, mikä oli suurin taistelu Latvian partisaanien ja Neuvostoliiton joukkojen välillä. Noin 20 000 latvialaista osallistui aseelliseen vastarintaan, joka kesti 1950-luvulle asti. Muistopäivä lisättiin lakiin vuonna 2020.",
+      "traditions": "Seppeleitä lasketaan partisaanimuistomerkeille ja metsien bunkkereille, ja kansalliset asevoimat järjestävät seremonioita. Paikalliset museot ja historioitsijat kertovat yksittäisten vastarintaryhmien tarinoita.",
+      "funFacts": [
+        "Stompakilla noin 350 partisaania vastusti useita tuhansia neuvostosotilaita ennen kuin murtautuivat piirityksestä.",
+        "Viimeinen tunnettu latvialainen partisaani ilmestyi piilostaan ​​vasta 1990-luvulla.",
+        "Vastaavia muistopäiviä on Virossa ja Liettuassa."
+      ]
+    },
+    "memorial_lv_national_resistance_movement_remembrance_day": {
+      "intro": "17. maaliskuuta kunnioitetaan kansallista vastarintaliikettä, ennen kaikkea Latvian keskusneuvostoa, joka vaati itsenäisyyden palauttamista Saksan miehityksen aikana vuonna 1944.",
+      "history": "17. maaliskuuta 1944 188 johtavaa latvialaista poliitikkoa ja julkisuuden henkilöä allekirjoitti muistion, jossa vaadittiin itsenäisen Latvian tasavallan palauttamista. Keskusneuvostoa johti Konstantīns Čakste, jonka Gestapo pidätti ja kuoli keskitysleirillä vuonna 1945.",
+      "traditions": "Riian keskusneuvoston muistotaululle lasketaan seppeleitä, ja presidentti tai parlamentin puhemies pitää muistopuheen. Historioitsijat muistelevat molempia miehitysvaltoja vastaan ​​vastustamisen monia muotoja.",
+      "funFacts": [
+        "Konstantīns Čakste oli Latvian ensimmäisen presidentin Jānis Čaksten poika.",
+        "Keskusneuvosto järjesti myös veneristyksiä, jotka auttoivat pakolaisia ​​pakenemaan Ruotsiin.",
+        "Muistio salakuljetettiin maasta ja annettiin läntisille liittolaisille."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_victims_of_communist_terror": {
+      "intro": "14. kesäkuuta muistetaan kommunistisen terrorin uhreja, erityisesti 14. kesäkuuta 1941 tapahtunutta joukkokarkotusta, jolloin yli 15 000 ihmistä vietiin Latviasta Siperiaan yhden yön aikana.",
+      "history": "Yöllä 13. ja 14. kesäkuuta 1941 Neuvostoviranomaiset pidättivät perheitä eri puolilla Latviaa, erottivat miehet naisista ja lapsista ja lähettivät heidät itään tavaravaunuissa. Monet eivät selvinneet ensimmäisestä talvesta. Toinen, vielä suurempi karkotus seurasi 25. maaliskuuta 1949, joka on myös muistopäivä.",
+      "traditions": "Liput liehuvat mustilla nauhoilla ja seppeleitä lasketaan Torņakalnsin rautatieasemalle Riiassa, josta junat lähtivät. Karkotettujen nimet luetaan ääneen, ja Miehitysmuseo järjestää muistotilaisuuden.",
+      "funFacts": [
+        "Torņakalnsin asemalla oleva muistovaunu näyttää karkotusolosuhteet.",
+        "Yhdessä vuosien 1941 ja 1949 karkotukset vaikuttivat lähes 60 000 ihmiseen Latviassa.",
+        "Vuonna 1987 14. kesäkuuta pidetty kukkienlasku Vapauden muistomerkillä oli yksi Latvian itsenäisyysliikkeen ensimmäisistä julkisista mielenosoituksista."
+      ]
+    },
+    "memorial_lv_latgale_congress_day": {
+      "intro": "Latgalen kongressipäivä 27. huhtikuuta muistuttaa vuoden 1917 kongressia Rēzeknessä, jossa Latgalen latvialaiset päättivät yhdistyä muiden Latvian alueiden kanssa.",
+      "history": "Latgale oli erotettu Kurinmaalta ja Liivinmaalta 1600-luvulta lähtien ja kuului eri Venäjän maakuntaan. Rēzeknen edustajat äänestivät 26. ja 27. huhtikuuta 1917 muiden Latvian maiden liittymisen puolesta, mikä oli olennainen askel kohti vuonna 1918 perustettua valtiota.",
+      "traditions": "Juhlat vietetään Rēzeknessä Latgales Māra -patsaalla, jossa on sanat \"United for Latvia\". Päivää juhlistavat latgalinkieliset konsertit, näyttelyt ja tapahtumat.",
+      "funFacts": [
+        "Latgales Māra -patsas paljastettiin vuonna 1939, Neuvostoliitto poisti sen kahdesti ja kunnostettiin vuonna 1992.",
+        "Latgalilla on oma kirjallinen perinne ja se on suojattu latvian historiallisena muunnelmana.",
+        "Rēzekne tunnetaan \"Latgalen sydämenä\"."
+      ]
+    },
+    "memorial_lv_day_of_the_defeat_of_nazism_and_commemoration_day_of_victims_of_world_war_ii": {
+      "intro": "8. toukokuuta vietetään natsismin tappiota vuonna 1945 ja muistetaan Latvialle satoja tuhansia ihmishenkiä vaatineen toisen maailmansodan uhreja.",
+      "history": "Saksan antautuminen tuli voimaan 8. toukokuuta 1945. Latvialle sodan päättyminen ei tuonut vapautta vaan Neuvostovallan paluuta, ja latvialaisia ​​oli asetettu molemmin puolin. Päivä otettiin käyttöön itsenäistymisen jälkeen Länsi-Euroopan päivämäärän hengessä eikä Neuvostoliiton 9. toukokuuta.",
+      "traditions": "Seppeleitä lasketaan Salaspilsin muistomerkille sekä sotilaiden ja siviilien haudalle. Vuodesta 2023 lähtien neuvostopäivän 9. toukokuuta tapahtumia on rajoitettu, ja päivää vietetään sovinnolla ja kaikkien uhrien muistolla.",
+      "funFacts": [
+        "Salaspilsin muistomerkki avattiin vuonna 1967 natsien leirin paikalle.",
+        "Latvia menetti noin kolmanneksen sotaa edeltävästä väestöstään sodan, karkotusten ja maastamuuton vuoksi.",
+        "Riian Neuvostoliiton voiton muistomerkki purettiin vuonna 2022."
+      ]
+    },
+    "memorial_lv_europe_day": {
+      "intro": "Eurooppa-päivänä 9. toukokuuta juhlitaan rauhaa ja yhtenäisyyttä Euroopassa ja muistetaan Schumanin julistus vuodelta 1950, joka johti Euroopan unioniin.",
+      "history": "Ranskan ulkoministeri Robert Schuman ehdotti 9. toukokuuta 1950 hiilen ja teräksen tuotannon asettamista yhteisen vallan alaisuuteen, mikä on Euroopan yhdentymisen siemen. Latvia liittyi Euroopan unioniin 1. toukokuuta 2004 ja merkitsee sitä virallisesti sen kalenterissa.",
+      "traditions": "Euroopan liput liehuvat julkisissa rakennuksissa, ja Riiassa ja muissa kaupungeissa järjestetään tiedotustilaisuuksia, konsertteja ja keskusteluja. Kouluissa järjestetään EU-hankkeita, ja Euroopan parlamentin toimisto avaa ovensa.",
+      "funFacts": [
+        "Latvia otti euron käyttöön vuonna 2014.",
+        "EU-lipun kaksitoista tähteä edustavat täydellisyyttä ja yhtenäisyyttä, eivät jäsenmaiden määrää.",
+        "Riika isännöi EU:n neuvoston puheenjohtajuutta vuoden 2015 ensimmäisellä puoliskolla."
+      ]
+    },
+    "memorial_lv_international_day_of_the_family": {
+      "intro": "Kansainvälinen perhepäivä 15. toukokuuta kiinnittää huomion perheiden tärkeyteen ja heidän kohtaamiinsa haasteisiin.",
+      "history": "Yhdistyneiden Kansakuntien yleiskokous julisti päivän vuonna 1993 kansainvälisen perheen vuoden 1994 jälkeen. Latvia sisällytti sen viralliseen kalenteriinsa juhlapäivänä.",
+      "traditions": "Puistoissa ja kulttuurikeskuksissa järjestetään perhefestivaaleja, ulkoilmatapahtumia ja liikuntapäiviä. Järjestöt käyttävät päivää keskustelemaan vanhempien ja lasten tukemisesta, ja monet perheet viettävät päivän vain yhdessä.",
+      "funFacts": [
+        "YK valitsee joka vuosi teeman, kuten perheet ja ilmastonmuutos tai digitaaliteknologia.",
+        "Latviassa on yksi Euroopan anteliaimmista vanhempainvapaajärjestelmistä.",
+        "Päivä ei ole yleinen vapaapäivä, mutta siihen liittyy tapahtumia eri puolilla maata."
+      ]
+    },
+    "memorial_lv_firefighter_and_rescuer_day": {
+      "intro": "Palomies- ja pelastuspäivänä 17. toukokuuta kunnioitetaan Latvian palo- ja pelastuspalveluiden miehiä ja naisia.",
+      "history": "Päivämäärä muistuttaa 17. toukokuuta 1865, jolloin perustettiin Riian Vapaaehtoinen Palomiesseura, ensimmäinen maassa. Tänään Valtion palo- ja pelastuslaitos (VUGD) vastaa tulipaloihin, onnettomuuksiin ja luonnonkatastrofeihin valtakunnallisesti.",
+      "traditions": "Paloasemat avaavat ovensa, ja lapset voivat kiivetä paloautoihin. Seremonioissa kunnioitetaan pitkäaikaisia ​​ja ansioituneita palomiehiä, ja mielenosoitukset esittelevät pelastusryhmien työtä.",
+      "funFacts": [
+        "Latvian palomuseo Riiassa sijaitsee vuonna 1912 rakennetussa paloasemassa.",
+        "VUGD:llä on noin 3 000 työntekijää.",
+        "Vapaaehtoisilla palokunnilla on edelleen tärkeä rooli Latvian maaseudulla."
+      ]
+    },
+    "memorial_lv_international_day_for_protection_of_children": {
+      "intro": "Kansainvälinen lasten päivä 1. kesäkuuta juhlii lapsia ja muistuttaa yhteiskuntaa heidän oikeudestaan ​​suojeluun, koulutukseen ja onnelliseen lapsuuteen.",
+      "history": "Naisten kansainvälinen demokraattinen liitto asetti päivämäärän vuonna 1949, ja sitä noudatetaan ennen kaikkea Itä- ja Keski-Euroopassa sekä Aasiassa. Latviassa se on pysynyt suosittuna perhepäivänä Neuvostoliiton ajoista lähtien.",
+      "traditions": "Puistot, museot ja teatterit tarjoavat ilmaisia ​​tapahtumia, ja kaupungit järjestävät festivaaleja, joissa on pelejä, konsertteja ja kasvomaalausta. Lastenoikeusjärjestöt käyttävät päivää kiinnittääkseen huomiota lastensuojeluun.",
+      "funFacts": [
+        "YK:n julistama yleinen lasten päivä osuu 20. marraskuuta, joten monissa maissa on kaksi lasten päivää.",
+        "Latviassa on oikeusasiamiehen toimistossa lapsiasiamies.",
+        "Tänä päivänä Latvian kansallisooppera tarjoaa perinteisesti esityksiä lapsille."
+      ]
+    },
+    "memorial_lv_day_of_the_occupation_of_the_republic_of_latvia": {
+      "intro": "17. kesäkuuta on Neuvostoliiton miehitys Latviassa vuonna 1940, jolloin Puna-armeija marssi maahan Moskovan uhkavaatimuksen jälkeen.",
+      "history": "Neuvostoliitto vaati 16. kesäkuuta 1940 uutta hallitusta ja rajoittamattomien joukkojen pääsyä; seuraavana päivänä Neuvostoliiton joukot miehittivät Latvian. Seurasi lavastetut vaalit, ja elokuussa Latvia liitettiin neuvostotasavallaksi. Itsenäisyys palautettiin vasta vuonna 1991.",
+      "traditions": "Liput nostetaan mustilla surunauhoilla ja seppeleitä lasketaan vapauden muistomerkillä Riiassa. Miehitysmuseossa järjestetään muistotilaisuus, ja presidentti puhuu kansalle.",
+      "funFacts": [
+        "Latvian miehitysmuseo Riiassa dokumentoi vuodet 1940-1991.",
+        "Miehitys oli seurausta Molotov-Ribbentrop-sopimuksen salaisesta pöytäkirjasta.",
+        "Monet länsimaat eivät koskaan tunnustaneet liittämistä ja jatkoivat latvialaisten diplomaattien hyväksymistä."
+      ]
+    },
+    "memorial_lv_medical_worker_day": {
+      "intro": "Terveydenhuollon työntekijöiden päivä kesäkuun kolmantena sunnuntaina kunnioittaa lääkäreitä, sairaanhoitajia ja kaikkia Latvian terveydenhuoltojärjestelmässä työskenteleviä.",
+      "history": "Päivän juuret ovat Neuvostoliiton \"lääketieteen työntekijöiden päivä\", jota vietettiin samana päivänä. Latvia piti sitä itsenäistymisen jälkeen terveydenhuollon ammattilaisten kiitoksena.",
+      "traditions": "Sairaalat ja terveysministeriö järjestävät seremonioita, joissa erinomaiset lääkärit ja sairaanhoitajat palkitaan. Potilaat ja työtoverit tuovat kukkia, ja tiedotusvälineet raportoivat terveydenhuollon työstä.",
+      "funFacts": [
+        "Latvian Pauls Stradiņšin yliopistollinen sairaala Riiassa on maan suurin terveyskeskus.",
+        "Riian Stradiņšin yliopisto kouluttaa lääkäreitä useista maista englanniksi.",
+        "Päivä osuu aina sunnuntaille, joten juhlat järjestetään usein edeltävänä perjantaina."
+      ]
+    },
+    "memorial_lv_heroes_commemoration_day_anniversary_of_the_battle_of_cesis": {
+      "intro": "Sankarien muistopäivä 22. kesäkuuta muistuttaa Cēsisin taistelusta vuonna 1919, joka oli Latvian vapaussodan käännekohta.",
+      "history": "19. - 23. kesäkuuta 1919 Viron joukot ja latvialaiset joukot voittivat saksalaisen Baltian Landeswehrin lähellä Cēsistä. Voitto päätti Saksan suunnitelmat hallita Itämerta ja turvasi Kārlis Ulmanisin hallituksen. Virossa juhlitaan samaa taistelua 23. kesäkuuta voitonpäivänä.",
+      "traditions": "Seremoniat pidetään kaatuneiden muistomerkillä Cēsisissä ja veljeshautausmaalla Riiassa. Latvian ja Viron viranomaiset muistelevat taistelua usein yhdessä.",
+      "funFacts": [
+        "Latvian koululaiset Cēsisistä taistelivat taistelussa vapaaehtoiskomppaniana.",
+        "Cēsisin linna, yksi Latvian parhaiten säilyneistä keskiaikaisista linnoista, avautuu kaupunkiin.",
+        "Taistelua kutsutaan joskus Virossa 'Võnnun taisteluksi' virolaisen Cēsiksen nimen mukaan."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_genocide_against_the_jews": {
+      "intro": "4. heinäkuuta muistetaan Latvian juutalaisiin kohdistunutta kansanmurhaa Saksan miehityksen aikana, jossa noin 70 000 Latvian juutalaista murhattiin.",
+      "history": "4. heinäkuuta 1941 Riian suuri kuorosynagoga sytytettiin tuleen ihmisten ollessa sisällä, samoin kuin muut kaupungin synagogit. Sen jälkeen seurasi joukkoampuja, ennen kaikkea Rumbulassa ja Biķerniekissä loppuvuodesta 1941. Muistopäivä perustettiin vuonna 1990.",
+      "traditions": "Seppeleitä lasketaan Suuren kuorosynagogan raunioille Gogoļa ielalla sekä Rumbulan ja Biķerniekin muistomerkeille. Žanis Lipken muistomerkki kunnioittaa latvialaisia, jotka piilottivat juutalaisia ​​oman henkensä uhalla.",
+      "funFacts": [
+        "Žanis Lipke, Riian telakkatyöntekijä, pelasti yli 50 juutalaista ja hänet kunnioitetaan kansojen vanhurskaana.",
+        "Synagogan raunioiden muistomerkki sisältää muurin pelastajien nimistä.",
+        "Ennen sotaa Latviassa asui noin 93 000 juutalaista, noin viisi prosenttia väestöstä."
+      ]
+    },
+    "memorial_lv_day_of_the_sea_festival": {
+      "intro": "Merijuhla heinäkuun toisena lauantaina juhlii kalastajia, merimiehiä ja kaikkia, joiden elämä on sidoksissa Itämereen.",
+      "history": "Festivaali syntyi 1930-luvun kalastajien juhlallisuuksista ja siitä tuli perinne rannikkokaupungeissa, kuten Liepājassa, Ventspilsissä ja Rojassa. Se selviytyi Neuvostoliitosta ja on ollut virallinen juhlapäivä itsenäistymisestä lähtien.",
+      "traditions": "Veneitä siunataan ja koristellaan, Neptunus saapuu mereltä ja \"kastaa\" tulokkaita, ja laitureilla tarjoillaan kalakeittoa. Konsertit, venekilpailut ja messut jatkuvat myöhään kesäyöhön.",
+      "funFacts": [
+        "Latvian rannikko on noin 500 kilometriä pitkä.",
+        "Savustettu kala, erityisesti kilohaili ja kampela, ovat festivaalin klassikkoruoka.",
+        "Ventspilsissä festivaali yhdistetään kaupunkifestivaaliin ja houkuttelee kymmeniätuhansia kävijöitä."
+      ]
+    },
+    "memorial_lv_latvian_freedom_fighters_remembrance_day": {
+      "intro": "11. elokuuta kunnioitetaan Latvian vapaussodan vapaustaistelijoita ja merkitään sodan päättäneen vuoden 1920 rauhansopimusta Neuvosto-Venäjän kanssa.",
+      "history": "Riian sopimuksessa 11. elokuuta 1920 Neuvosto-Venäjä tunnusti Latvian itsenäisyyden \"kaikiksi ajoiksi\". Vuosien 1918–1920 sota oli käyty bolshevikkijoukkoja, saksalaisia ​​yksiköitä ja Länsi-Venäjän vapaaehtoisarmeijaa vastaan. Noin 3000 latvialaista sotilasta kuoli.",
+      "traditions": "Seppeleitä lasketaan Vapauden muistomerkille ja Riian veljeshautausmaalle, jonne sodassa kaatuneet on haudattu. Puolustusvoimat pitävät seremonian, ja veteraanijärjestöt muistavat vapaaehtoisia.",
+      "funFacts": [
+        "Veljesten hautausmaan Riiassa suunnitteli kuvanveistäjä Kārlis Zāle, joka loi myös Vapauden muistomerkin.",
+        "Vuonna 1935 paljastetussa Vapauden muistomerkissä on teksti \"Isänmaalle ja vapaudelle\".",
+        "Neuvostoliitto rikkoi \"ikuisen\" rauhansopimuksen 20 vuotta myöhemmin vuoden 1940 miehityksen myötä."
+      ]
+    },
+    "memorial_lv_day_of_the_passing_of_the_constitutional_law_on_the_status_of_the_republic_of_latvia_as_a_state": {
+      "intro": "21. elokuuta on päivä vuonna 1991, jolloin Latvian parlamentti hyväksyi perustuslain, jolla palautettiin maan itsenäisyys täysin.",
+      "history": "Latvia oli julistanut siirtymävaiheen itsenäisyyteen 4. toukokuuta 1990. Moskovan epäonnistuneen vallankaappauksen aikana korkein neuvosto hyväksyi 21. elokuuta 1991 lain, joka julisti Latvian täysin itsenäiseksi valtioksi. Neuvostoliitto ja maailma tunnustivat sen muutamassa päivässä.",
+      "traditions": "Lippu nostetaan julkisiin rakennuksiin, ja parlamentti järjestää seremonia. Päivää muistetaan usein yhdessä itsenäisyyspäivän 4. toukokuuta kanssa, joka on yleinen vapaapäivä.",
+      "funFacts": [
+        "Islanti oli ensimmäinen maa, joka tunnusti Latvian palautetun itsenäisyyden 22. elokuuta 1991.",
+        "Äänestys korkeimmassa neuvostossa toimitettiin Neuvostoliiton joukkojen ollessa vielä maassa.",
+        "Latvia liittyi uudelleen Yhdistyneisiin Kansakuntiin 17. syyskuuta 1991."
+      ]
+    },
+    "memorial_lv_day_of_remembrance_for_victims_of_stalinism_and_nazism": {
+      "intro": "23. elokuuta vietetään eurooppalaista stalinismin ja natsismin uhrien muistopäivää, vuoden 1939 Molotov-Ribbentrop-sopimuksen ja vuoden 1989 Baltian polun vuosipäivää.",
+      "history": "23. elokuuta 1939 Saksa ja Neuvostoliitto allekirjoittivat hyökkäämättömyyssopimuksen salaisella pöytäkirjalla, joka jakoi Itä-Euroopan ja sinetöi Baltian maiden kohtalon. Viisikymmentä vuotta myöhemmin, 23. elokuuta 1989, noin kaksi miljoonaa ihmistä muodosti ihmisketjun Tallinnasta Riian kautta Vilnaan vaatiakseen itsenäisyyttä.",
+      "traditions": "Seremoniat pidetään Riian vapaudenmonumentilla ja sytytetään kynttilöitä molempien hallitusten uhrien muistoksi. Baltian tapaa muistetaan näyttelyillä ja elokuvilla, ja päivää vietetään kaikkialla Euroopan unionissa.",
+      "funFacts": [
+        "Baltian tie ulottui noin 675 kilometriä kolmen maan halki.",
+        "Baltian tien asiakirjat lisättiin Unescon maailmanmuisti -rekisteriin vuonna 2009.",
+        "Euroopan parlamentti julisti muistopäiväksi vuonna 2009."
+      ]
+    },
+    "memorial_lv_knowledge_day": {
+      "intro": "Tietopäivä 1. syyskuuta on Latviassa kouluvuoden ensimmäinen päivä, jolloin oppilaat tuovat kukkia opettajilleen ja ekaluokkalaiset aloittavat koulun.",
+      "history": "Seremoniaalisen ensimmäisen koulupäivän perinne on peräisin neuvostoajalta, jolloin 1. syyskuuta tehtiin yhtenäinen lukuvuoden aloitus koko maassa. Latvia on säilyttänyt päivämäärän ja juhlallisuuden.",
+      "traditions": "Oppilaat parhaissa vaatteissaan kantavat kimppuja gladioleja ja astereita; ekaluokkalaiset johdattavat kouluun vanhemmat oppilaat. Koulut pitävät konventteja puheiden ja musiikin kera, ja yliopistot avaavat lukuvuoden.",
+      "funFacts": [
+        "Latvian kukkakaupoissa on vuoden vilkkain päivä 1. syyskuuta.",
+        "Ensimmäisen kellon soittaa monissa kouluissa vanhempi oppilas, joka kantaa ekaluokkalaista hartioillaan.",
+        "Päivää vietetään myös Venäjällä, Ukrainassa ja muissa entisen Neuvostoliiton maissa."
+      ]
+    },
+    "memorial_lv_baltic_unity_day": {
+      "intro": "Baltian yhtenäisyyden päivä 22. syyskuuta muistuttaa Saulen taistelusta vuonna 1236 ja juhlii latvialaisten ja liettualaisten yhteisiä juuria.",
+      "history": "22. syyskuuta 1236 Žemaitian ja Semigalin joukot voittivat Liivin miekanveljet Saulen lähellä, mikä oli Baltian kansojen ensimmäinen suuri voitto ristiretkeläiskäskyistä. Latvian ja Liettuan parlamentit perustivat päivän vuonna 2000.",
+      "traditions": "Kokkoja sytytetään molemmin puolin rajaa, ja kansanryhmät esittävät muinaisia ​​lauluja ja tansseja. Rajakaupungeissa järjestetään konsertteja ja yhteisiä tapahtumia, ja tutkijat keskustelevat balttilaisten kielten yhteisestä perinnöstä.",
+      "funFacts": [
+        "Latvia ja liettua ovat ainoat säilyneet balttilaiset kielet.",
+        "Kokkot samaan aikaan rajalla symboloivat yhtenäisyyttä.",
+        "Taistelun tarkka paikka on edelleen kiistanalainen historioitsijoiden välillä."
+      ]
+    },
+    "memorial_lv_international_day_of_older_persons": {
+      "intro": "Kansainvälinen ikääntyneiden päivä 1. lokakuuta kunnioittaa ikääntyneiden panosta yhteiskuntaan ja lisää tietoisuutta heidän tarpeistaan.",
+      "history": "YK:n yleiskokous julisti päivän vuonna 1990, ja sitä vietettiin ensimmäisen kerran vuonna 1991. Latvia, jonka väkiluku on Euroopan vanhimpia, on sisällyttänyt sen viralliseen kalenteriinsa.",
+      "traditions": "Seniorikerhot, kunnat ja kulttuurikeskukset järjestävät konsertteja, näyttelyitä ja terveyspäiviä. Eläkeläisjärjestöt käyttävät päivää keskustelemaan eläkkeistä ja hoidosta, ja lapsenlapset käyvät usein isovanhempiensa luona.",
+      "funFacts": [
+        "Joka viides Latvian asukas on yli 65-vuotias.",
+        "Monet Latvian kunnat tarjoavat ilmaista joukkoliikennettä eläkeläisille.",
+        "YK asettaa joka vuosi teeman, kuten digitaalinen osallisuus tai joustavuus."
+      ]
+    },
+    "memorial_lv_teachers_day": {
+      "intro": "Opettajien päivä 5. lokakuuta kiittää opettajia heidän työstään ja osuu samaan aikaan Unescon Maailman opettajien päivän kanssa.",
+      "history": "UNESCO julisti Maailman opettajien päivän vuonna 1994 muistaakseen vuonna 1966 annettua suositusta opettajien asemasta. Latviassa opettajien päivää vietettiin jo Neuvostoliiton aikana lokakuun ensimmäisenä sunnuntaina; päivämäärä mukautettiin myöhemmin kansainvälisen päivän kanssa.",
+      "traditions": "Oppilaat tuovat kukkia ja pieniä lahjoja, ja vanhemmat opiskelijat ottavat usein oppitunnit päiväksi. Opetusministeriö palkitsee erinomaisia ​​opettajia ja koulut järjestävät konsertteja.",
+      "funFacts": [
+        "Monissa latvialaisissa kouluissa oppilaat järjestävät \"itsehallinnon päivän\", jonka aikana he johtavat koulua.",
+        "Latviassa on noin 25 000 opettajaa.",
+        "Latvian Vuoden opettaja -palkintoa on jaettu vuodesta 1994 lähtien."
+      ]
+    },
+    "memorial_lv_official_language_day": {
+      "intro": "Virallisen kielen päivänä 15. lokakuuta juhlitaan latviaa valtionkielenä ja sen roolia maan identiteetissä.",
+      "history": "Parlamentti muutti 15. lokakuuta 1998 perustuslakia julistaakseen latvian Latvian tasavallan viralliseksi kieleksi. Päivää käytetään edistämään kieltä, jota puhuu noin kaksi miljoonaa ihmistä ympäri maailmaa.",
+      "traditions": "Riian kirjastot, koulut ja kansalliskirjasto pitävät luentoja, sanelukilpailuja ja luentoja. Palkintoja jaetaan latvian kielen edistämiseen osallistuneille ja järjestetään tapahtumia latviaa opiskeleville tulokkaille.",
+      "funFacts": [
+        "Latvia on yksi kahdesta säilyneestä balttialaisesta kielestä liettuan kielen rinnalla.",
+        "Latvian kansalliskirjasto, \"valon linna\", avattiin vuonna 2014 Daugavan rannalla.",
+        "Latvian aakkostossa on 33 kirjainta, mukaan lukien 'ķ', 'ļ' ja 'ņ'."
+      ]
+    },
+    "memorial_lv_border_guards_day": {
+      "intro": "Rajavartijoiden päivä 7. marraskuuta kunnioittaa Latvian valtion rajavartiolaitosta, joka perustettiin tänä päivänä vuonna 1919.",
+      "history": "Ensimmäiset rajavartioyksiköt perustettiin 7. marraskuuta 1919 vapaussodan aikana. Neuvostovallan aikana hajotettu palvelu perustettiin uudelleen vuonna 1991 ja se suojaa nykyään Euroopan unionin ulkorajaa Venäjän ja Valko-Venäjän kanssa.",
+      "traditions": "Rajavartiolaitos pitää seremoniallisen paraatin ja palkintojenjakotilaisuuden, ja Rēzeknen rajavartioopisto avaa ovensa. Seppeleitä lasketaan virkatehtävissä kuolleiden vartijoiden muistoksi.",
+      "funFacts": [
+        "Latvian itäraja Venäjän ja Valko-Venäjän kanssa on noin 460 kilometriä pitkä.",
+        "Rajavartiolaitos käyttää koiria, droneja ja partioveneitä Itämerellä.",
+        "Valko-Venäjän rajalle valmistui raja-aita 2020-luvulla."
+      ]
+    },
+    "memorial_lv_lacplesis_day": {
+      "intro": "Lāčplēsis-päivänä 11. marraskuuta juhlistetaan Latvian armeijan voittoa Länsi-Venäjän vapaaehtoisarmeijasta Riiassa vuonna 1919 ja kunnioitetaan kaikkia Latvian vapauden puolesta taistelijoita.",
+      "history": "11. marraskuuta 1919 Latvian joukot ajoivat Pavel Bermondt-Avalovin joukot ulos Riiasta, mikä oli ratkaiseva voitto vapaussodassa. Päivä on nimetty Latvian kansalliseeposen \"karhuntappajan\" sankarin Lāčplēsisin mukaan, ja Lāčplēsiksen ritarikunta luotiin sodan sankareille.",
+      "traditions": "Illalla tuhannet ihmiset asettavat kynttilöitä Riian linnan seinälle Daugavan pengerrelle luoden valomeren. Soihtukulkueita ja seremonioita järjestetään kaikkialla maassa, ja ihmiset käyttävät puna-valko-punaista nauhaa.",
+      "funFacts": [
+        "Eepoksen \"Lāčplēsis\" kirjoitti Andrejs Pumpurs vuonna 1888.",
+        "Lāčplēsisin ritarikunta myönnettiin 2 146 henkilölle, joista 11 oli naista.",
+        "Riian linnan kynttiläperinne sai alkunsa vuonna 1988 itsenäisyysliikkeen aikana."
+      ]
+    },
+    "memorial_lv_remembrance_day_of_the_tragedy_of_21_november_2013": {
+      "intro": "21. marraskuuta muistetaan 54 ihmistä, jotka kuolivat supermarketin katon romahtaessa Riian Zolitūden kaupunginosassa vuonna 2013.",
+      "history": "Illalla 21.11.2013 Maxima-supermarketin katto romahti ostosten aikana; kuolleiden joukossa oli kolme palomiestä, jotka kuolivat, kun toinen osa putosi pelastuksen aikana. Se oli tappavin katastrofi Latviassa itsenäistymisen jälkeen ja johti tiukempiin rakennusmääräyksiin.",
+      "traditions": "Zolitūden muistomerkillä pidetään muistotilaisuus ja paikalla sytytetään kynttilöitä. Liput liehuvat puolimastoon, ja uhrien nimet luetaan ääneen.",
+      "funFacts": [
+        "Pääministeri erosi kuusi päivää katastrofin jälkeen ja otti poliittisen vastuun.",
+        "Paikan muistomerkillä on kaikkien 54 uhrin nimet.",
+        "Kansallinen surupäivä julistettiin ensimmäistä kertaa itsenäisessä Latviassa."
+      ]
+    },
+    "memorial_lv_police_day": {
+      "intro": "Poliisipäivänä 5. joulukuuta kunnioitetaan Latvian valtion poliisia, joka perustettiin tänä päivänä vuonna 1918, kolme viikkoa itsenäisyyden julistamisen jälkeen.",
+      "history": "Latvian poliisi perustettiin 5. joulukuuta 1918 yhdeksi uuden valtion ensimmäisistä instituutioista. Neuvostovallan aikana lakkautettu se perustettiin uudelleen vuonna 1991. Nykyään siihen kuuluvat valtion poliisi, kunnallinen poliisi ja turvallisuuspoliisi.",
+      "traditions": "Sisäministeriö järjestää palkintojenjakotilaisuuden ansioituneille virkamiehille, ja poliisiasemat avaavat ovensa yleisölle. Seppeleitä lasketaan virkatehtävissä kuolleiden upseerien muistoksi.",
+      "funFacts": [
+        "Valtion poliisilla on noin 6 000 työntekijää.",
+        "Latvian poliisimuseo Riiassa esittelee univormuja ja varusteita vuosisadan poliisitoiminnalta.",
+        "Poliisipäivä ja Rajavartiopäivä liittyvät molemmat valtion perustamisvuosiin."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_victims_of_genocide_against_the_latvian_people_by_the_totalitarian_communist_regime": {
+      "intro": "Joulukuun ensimmäisenä sunnuntaina Latvia muistaa vuosina 1937 ja 1938 Neuvostoliiton \"Latvian-operaation\" aikana kuolleita latvialaisia ​​ja kaikkia kommunistisen hallinnon uhreja.",
+      "history": "Neuvostoliiton salainen poliisi NKVD aloitti 3. joulukuuta 1937 \"Latvian operaation\", jossa yli 22 000 Neuvostoliitossa asuvaa latvialaista pidätettiin ja noin 16 000 ammuttiin. Muistopäivä muistelee tätä ja myöhempiä sortotoimia vuoden 1940 jälkeen.",
+      "traditions": "Muistotilaisuudet pidetään Riian Vapaudenmonumentilla ja kirkoissa, ja muistomerkeillä sytytetään kynttilöitä. Miehitysmuseo ja historioitsijat esittelevät tutkimusta uhrien kohtalosta.",
+      "funFacts": [
+        "Latvian operaatio oli yksi useista Suuren Terrorin \"kansallisista operaatioista\".",
+        "Monet uhreista olivat latvialaisten maanviljelijöiden jälkeläisiä, jotka olivat asettuneet Venäjälle 1800-luvulla.",
+        "Pietarin lähellä sijaitsevalla Levashovon muistomerkillä on monumentti latvialaisten uhrien muistolle."
+      ]
+    },
+    "memorial_si_primoz_trubar_day": {
+      "intro": "Primož Trubar -päivänä 8. kesäkuuta kunnioitetaan protestanttista uudistajaa, joka kirjoitti ja painoi ensimmäiset sloveniankieliset kirjat vuonna 1550.",
+      "history": "Trubar syntyi 8. kesäkuuta 1508 Rašicassa lähellä Ljubljanaa. Luterilaisena saarnaajana hän joutui pakenemaan Saksaan, missä hän julkaisi \"Catekismus\" ja \"Abecedarium\", ensimmäiset painetut slovenialaiset kirjat, jotka loivat kirjoitetun kielen perustan. Päivä on ollut kansallinen vapaapäivä vuodesta 2010 lähtien.",
+      "traditions": "Seremoniat pidetään Trubarin muistomerkillä Ljubljanassa ja hänen syntymäkodissaan Rašicassa, jossa on muistomerkki. Kouluissa keskustellaan slovenian kielen historiasta, ja protestanttisessa kirkossa pidetään jumalanpalveluksia.",
+      "funFacts": [
+        "Trubar näkyy Slovenian yhden euron kolikossa.",
+        "Hän puhui lukijoilleen \"rakas sloveenini\", joka on yksi ensimmäisistä koko kansakunnan nimen käytöstä.",
+        "Uskonpuhdistuspäivä 31. lokakuuta on myös yleinen vapaapäivä Sloveniassa, osittain hänen kunniakseen."
+      ]
+    },
+    "memorial_si_sovereignty_day": {
+      "intro": "Suvereniteettipäivänä 25. lokakuuta viimeinen jugoslavian sotilas poistui Slovenian alueelta vuonna 1991, mikä täydentää maan itsenäisyyttä.",
+      "history": "Kesä- ja heinäkuun 1991 kymmenen päivän sodan jälkeen Jugoslavian kansanarmeija suostui vetäytymään. Yöllä 25. ja 26. lokakuuta 1991 viimeiset sotilaat lähtivät Koperin sataman kautta. Päivästä tuli kansallinen vapaapäivä vuonna 2015.",
+      "traditions": "Valtion seremonia pidetään usein Koperissa, ja lippu nostetaan julkisiin rakennuksiin. Vapaussodan veteraaneja osallistuu, ja koulut muistelevat vuoden 1991 tapahtumia.",
+      "funFacts": [
+        "Viimeiset sotilaat lähtivät lautalla Koperista Rijekaan.",
+        "Slovenian kymmenen päivän sota aiheutti alle 80 kuolemaa, paljon vähemmän kuin myöhemmät sodat alueella.",
+        "Slovenia liittyi Euroopan unioniin ja Natoon vuonna 2004."
+      ]
+    },
+    "memorial_si_unification_of_prekmurje_slovenes_with_the_mother_nation": {
+      "intro": "17. elokuuta muistetaan Prekmurjen yhdistämistä muihin Slovenian maihin vuonna 1919 vuosisatoja kestäneen Unkarin hallinnon jälkeen.",
+      "history": "Prekmurje, Murajoen takana oleva alue, oli kuulunut Unkarin kuningaskunnalle tuhat vuotta. Ensimmäisen maailmansodan jälkeen Pariisin rauhankonferenssi siirsi sen uudelle serbien, kroaattien ja sloveenien kuningaskunnalle, ja 17. elokuuta 1919 unionia juhlittiin mielenosoituksella Beltincissä. Päivä on ollut kansallinen vapaapäivä vuodesta 2006.",
+      "traditions": "Valtiollinen seremonia järjestetään Prekmurjessa, usein Beltincissä tai Murska Sobotassa, kansanmusiikkia ja alueen perinteisiä ruokia. Paikalliset yhdistykset järjestävät näyttelyitä alueen historiasta.",
+      "funFacts": [
+        "Prekmurje on kuuluisa kerrosleivästä \"prekmurska gibanica\" ja haikaraistaan.",
+        "Alue kehitti oman kirjallisen kielensä 1700-luvulla.",
+        "Murska Sobota on ainoa Slovenian aluepääkaupunki Muran toisella puolella."
+      ]
+    },
+    "memorial_si_integration_of_primorska_into_the_homeland": {
+      "intro": "15. syyskuuta on päivä vuonna 1947, jolloin Pariisin rauhansopimus tuli voimaan ja suurin osa Slovenian rannikosta (Primorska) liitettiin Sloveniaan.",
+      "history": "Ensimmäisen maailmansodan jälkeen rannikko oli osoitettu Italiaan, jossa slovenialaiset kärsivät pakkoitalisoitumisesta fasismin alaisina. Vuoden 1947 rauhansopimus Italian kanssa palautti suurimman osan alueesta Jugoslavialle ja siten Slovenialle. Päivästä tuli kansallinen vapaapäivä vuonna 2005.",
+      "traditions": "Osavaltion seremonia järjestetään jossakin rannikkokaupungissa, kuten Nova Goricassa, Koperissa tai Sežanassa, puheiden ja konserttien kera. Laulataan Litoral-hymni Vstala Primorska, ja kuorot esiintyvät eri puolilla aluetta.",
+      "funFacts": [
+        "Trieste, alueen historiallinen keskus, pysyi Italiassa ja kiistanalainen vuoteen 1954 asti.",
+        "Nova Gorica rakennettiin vuoden 1947 jälkeen uudeksi kaupungiksi, koska Gorizia pysyi Italian puolella.",
+        "Slovenian lyhyt, noin 47 kilometrin rantaviiva sijaitsee kokonaan Primorskassa."
+      ]
+    },
+    "memorial_si_slovenian_sports_day": {
+      "intro": "Slovenian urheilupäivä 23. syyskuuta juhlii maan urheilijoita ja kannustaa kaikkia olemaan aktiivisia.",
+      "history": "Päivämäärä muistuttaa 23. syyskuuta 2000, jolloin Slovenia voitti ensimmäiset olympiakultaa Sydneyn kisoissa soutussa ja ammunnassa. Loma otettiin käyttöön vuonna 2020, eikä se ole vapaapäivä töistä.",
+      "traditions": "Urheiluseurat ja koulut järjestävät ilmaisia ​​harjoituksia, juoksuja ja turnauksia, ja huippu-urheilijoita kunnioitetaan. Monet ihmiset lähtevät yksinkertaisesti patikoimaan, pyöräilemään tai hiihtämään, jotka ovat kansallisia harrastuksia.",
+      "funFacts": [
+        "Slovenia on voittanut enemmän olympiamitaleita asukasta kohden kuin lähes mikään muu maa.",
+        "Mäkihyppy Planicassa ja pyöräilytähdet, kuten Tadej Pogačar ja Primož Roglič, ovat kansallisia intohimoja.",
+        "Slovenian olympiakomitea järjestää tänä päivänä valtakunnallista urheilua kaikille -ohjelmaa."
+      ]
+    },
+    "memorial_si_rudolf_maister_day": {
+      "intro": "Rudolf Maister -päivänä 23. marraskuuta kunnioitetaan kenraalia, joka turvasi Mariborin ja Ala-Steiermarkin alueen Slovenialle vuonna 1918.",
+      "history": "Marraskuussa 1918, kun Itävalta-Unkarin valtakunta romahti, majuri Rudolf Maister otti komennon Mariborissa, riisui saksalais-itävaltalaisen vartijan aseista 23. marraskuuta ja turvasi pohjoisen rajan uudelle eteläslaavilaiselle valtiolle. Päivä on ollut kansallinen vapaapäivä vuodesta 2005.",
+      "traditions": "Seremoniat pidetään Maisterin muistomerkillä Mariborissa ja Ljubljanassa, ja asevoimat osoittavat kunnioitusta. Koulut ja paikallisyhdistykset muistelevat taistelua pohjoisrajan puolesta.",
+      "funFacts": [
+        "Maister oli myös runoilija, joka julkaisi kynänimellä Vojanov.",
+        "Ilman hänen toimintaansa Mariborista olisi voinut tulla osa Itävaltaa, kuten sen saksankielinen neuvosto oli halunnut.",
+        "Slovenian asevoimat nimesivät hänen mukaansa kasarmin ja palkinnon."
+      ]
+    },
+    "memorial_sk_day_of_the_constitution_of_the_slovak_republic": {
+      "intro": "Perustuslakipäivänä 1. syyskuuta juhlistetaan Slovakian tasavallan perustuslain hyväksymistä vuonna 1992, neljä kuukautta ennen maan itsenäistymistä.",
+      "history": "Slovakian kansallisneuvosto hyväksyi perustuslain 1. syyskuuta 1992, ja se allekirjoitettiin kaksi päivää myöhemmin Bratislavan linnassa. 1. tammikuuta 1993 Tšekkoslovakia hajosi rauhanomaisesti Tšekin tasavaltaan ja Slovakiaan. Päivä oli yleinen vapaapäivä vuoteen 2024 asti ja on edelleen muistopäivä.",
+      "traditions": "Bratislavan linna avaa ovensa, ja kansallisneuvosto pitää seremonian. Presidentti myöntää valtion kunniamerkit ansioituneille kansalaisille, ja lippu nostetaan julkisiin rakennuksiin.",
+      "funFacts": [
+        "Perustuslaki allekirjoitettiin Bratislavan linnan ritarisalissa.",
+        "Tšekkoslovakian rauhanomainen erottaminen tunnetaan nimellä \"Velvet Divorce\".",
+        "Slovakia otti euron käyttöön vuonna 2009, neljä vuotta sen jälkeen, kun sen naapuri Tšekki ei ottanut sitä käyttöön."
+      ]
+    },
+    "memorial_sk_struggle_for_freedom_and_democracy_day": {
+      "intro": "17. marraskuuta muistetaan opiskelijoiden mielenosoituksia vuosina 1939 ja 1989 sekä samettivallankumouksen alkamista, joka päätti kommunistisen hallinnon Tšekkoslovakiassa.",
+      "history": "17. marraskuuta 1939 natsimiehittäjät sulkivat tšekkiläiset yliopistot ja teloittivat yhdeksän opiskelijaa Prahan mielenosoitusten jälkeen. Viisikymmentä vuotta myöhemmin, 17. marraskuuta 1989, Prahassa järjestetty opiskelijamielenosoitus hajotettiin väkivaltaisesti, mikä laukaisi joukkomielenosoitukset, jotka kaatoivat hallinnon muutamassa viikossa. Päivä on yleinen vapaapäivä sekä Slovakiassa että Tšekin tasavallassa.",
+      "traditions": "Bratislavassa ja muissa kaupungeissa pidetään kynttiläistuntoja ja puheita, ja ihmiset soittavat avaimia kuten vuonna 1989. Vallankumouksen osallistujien kanssa järjestetään konsertteja ja keskusteluja, ja päivä on myös kansainvälinen opiskelijoiden päivä.",
+      "funFacts": [
+        "Jingling avaimet tulivat Velvet Revolutionin ääni, joka symboloi viestiä \"aika mennä\" kommunisteille.",
+        "Bratislavassa ensimmäinen suuri mielenosoitus pidettiin Slovakian kansallisen kansannousun aukiolla.",
+        "Alexander Dubček, vuoden 1968 Prahan kevään kasvot, palasi julkisuuteen vallankumouksen aikana."
+      ]
+    },
+    "memorial_ve_teachers_day": {
+      "intro": "Opettajien päivä 15. tammikuuta kunnioittaa Venezuelan opettajia ja muistuttaa ensimmäisen kansallisen opettajien yhdistyksen perustamisesta vuonna 1932.",
+      "history": "Kasvattajat perustivat 15. tammikuuta 1932 Sociedad Venezolana de Maestros de Instrucción Primarian parantaakseen koulunkäyntiä Gómezin diktatuurin aikana. Presidentti Rómulo Betancourt asetti päivämäärän viralliseksi opettajien päiväksi vuonna 1945.",
+      "traditions": "Oppilaat tuovat kukkia, kortteja ja pieniä lahjoja, ja koulut pitävät konventteja ja konsertteja. Pitkään työskennelleet opettajat palkitaan, ja yliopistot kunnioittavat ansioituneita opettajia.",
+      "funFacts": [
+        "Simón Rodríguezia, Simón Bolívarin opettajaa, pidetään venezuelalaisen kouluttajan mallina.",
+        "Seuran perustajiin kuului kirjailija Luis Beltrán Prieto Figueroa, myöhemmin presidenttiehdokas.",
+        "Monet Latinalaisen Amerikan maat juhlivat opettajiaan eri päivinä; Venezuela on yksi vuoden varhaisimmista."
+      ]
+    },
+    "memorial_ve_youth_day": {
+      "intro": "Nuortenpäivänä 12. helmikuuta muistetaan La Victorian taistelua vuonna 1814, jossa opiskelijat ja seminaarit taistelivat José Félix Ribasin johdolla Venezuelan itsenäisyyden puolesta.",
+      "history": "12. helmikuuta 1814 Ribas puolusti La Victorian kaupunkia rojalistijoukkoja vastaan ​​joukolla, johon kuului satoja nuoria opiskelijoita Caracasista. Hänen sanansa \"Emme voi valita voittamisen tai kuoleman välillä: meidän on voitettava\" tulivat kuuluisiksi. Päivä julistettiin nuorten päiväksi vuonna 1947.",
+      "traditions": "Nuorten paraatteja, konsertteja ja urheilutapahtumia järjestetään eri puolilla maata, ja seppeleitä lasketaan Ribasin muistomerkille La Victoriassa. Koulut esittävät taistelun uusintoja.",
+      "funFacts": [
+        "12. helmikuuta on myös Abraham Lincolnin ja Charles Darwinin syntymäpäivä.",
+        "Ribas oli Simón Bolívarin setä.",
+        "Venezuelan Araguan osavaltio, jossa La Victoria sijaitsee, kutsuu itseään nuoruuden kehdoksi."
+      ]
+    },
+    "memorial_ve_slavery_abolition_anniversary": {
+      "intro": "Tänä päivänä muistetaan presidentti José Gregorio Monagasin maaliskuussa 1854 antamaa orjuuden lakkauttamista Venezuelassa.",
+      "history": "Orjuutta on ollut Venezuelassa 1500-luvulta lähtien, erityisesti kaakaoviljelmillä. Simón Bolívar oli luvannut vapautta orjuutetuille ihmisille vapaussotien aikana, mutta täydellinen lakkauttaminen tuli vasta vuoden 1854 lain myötä, joka vapautti noin 40 000 ihmistä. Päivä on merkitty kansalliskalenteriin juhlapäiväksi.",
+      "traditions": "Afro-Venezuelalaiset yhteisöt järjestävät rumpufestivaaleja, tansseja ja kulttuuritapahtumia erityisesti Barloventon ja Yaracuyn rannikkoalueilla. Koulut ja museot keskustelevat orjuuden historiasta ja sen perinnöstä.",
+      "funFacts": [
+        "José Leonardo Chirino johti orjuutettujen ja vapaiden ihmisten kansannousua Corossa vuonna 1795, jota muistetaan nykyään lakkauttamisen edeltäjänä.",
+        "Venezuelan rannikon tamborrumpuperinteiden juuret ovat orjuutettujen afrikkalaisten kulttuurissa.",
+        "Venezuela oli yksi viimeisistä espanjankielisistä tasavalloista mantereella, joka poisti orjuuden."
+      ]
+    },
+    "memorial_ve_foundation_anniversary_day_of_san_cristobal_tachira": {
+      "intro": "Espanjan kapteeni Juan Maldonado perusti 31. maaliskuuta 1561 San Cristóbalin, Andien Táchiran osavaltion pääkaupungin.",
+      "history": "Juan Maldonado y Ordóñez perusti \"Villa de San Cristóbalin\" 31. maaliskuuta 1561 pysähdyspaikaksi Andien ja tasankojen väliselle tielle. Kaupunki kasvoi kahvin kauppakeskukseksi ja nykyään siellä on noin 300 000 asukasta.",
+      "traditions": "Kaupunki juhlii kansalaisparaatilla, konserteilla ja messulla katedraalissa. Juhlapäivä on lähellä Feria Internacional de San Sebastiánia tammikuussa, alueen suurinta festivaalia, ja paikallinen ylpeys ilmaistaan ​​musiikilla ja ruoalla.",
+      "funFacts": [
+        "San Cristóbal sijaitsee noin 800 metriä merenpinnan yläpuolella Andien laaksossa.",
+        "Kaupungin jalkapalloseura Deportivo Táchira on yksi Venezuelan menestyneimmistä.",
+        "Feria de San Sebastian houkuttelee satoja tuhansia kävijöitä joka tammikuu."
+      ]
+    },
+    "memorial_ve_journalists_day": {
+      "intro": "Journalistien päivä 27. kesäkuuta muistuttaa Simón Bolívarin vuonna 1818 perustaman Correo del Orinoco -sanomalehden ensimmäisestä numerosta.",
+      "history": "Correo del Orinoco julkaistiin ensimmäisen kerran Angosturassa, nykyisessä Ciudad Bolívarissa, 27. kesäkuuta 1818 itsenäisyysliikkeen äänenä. Päivä julistettiin Journalistien päiväksi vuonna 1964, ja siinä muistetaan myös vuonna 1870 annettua asetusta, joka teki peruskoulutuksesta ilmaisen ja pakollisen.",
+      "traditions": "Toimittajayhdistykset jakavat palkintoja ja yliopistot keskustelevat lehdistönvapaudesta. Correo del Orinocon talo Ciudad Bolívarissa, joka on nykyään museo, isännöi seremoniaa.",
+      "funFacts": [
+        "Bolívar kutsui painokonetta \"yhtä hyödylliseksi kuin sotilastarvikkeet\".",
+        "Correo del Orinocon alkuperäinen painokone on edelleen nähtävissä Ciudad Bolívarissa.",
+        "27. kesäkuuta on myös koulutuspäivä Venezuelassa vuoden 1870 asetuksen vuoksi."
+      ]
+    },
+    "memorial_ve_caracas_city_foundation_day": {
+      "intro": "25. heinäkuuta espanjalainen valloittaja Diego de Losada perusti Caracasin vuonna 1567, Venezuelan pääkaupungin syntymäpäivänä.",
+      "history": "Losada perusti \"Santiago de León de Caracasin\" 25. heinäkuuta 1567 Guaire-joen laaksoon Pyhän Jaakobin juhlana. Kaupungista tuli Venezuelan kenraalikapteenin kotipaikka vuonna 1777 ja Simón Bolívarin syntymäpaikka.",
+      "traditions": "Kaupunki järjestää konsertteja, näyttelyitä ja perinteisen messun Plaza Bolívarin katedraalissa, jossa muistetaan kaupungin perustamista. Museot ja historiallinen keskusta tarjoavat ilmaisia ​​vierailuja, ja päivä on merkitty ilotulituksella.",
+      "funFacts": [
+        "Caracas sijaitsee noin 900 metriä merenpinnan yläpuolella Ávila-vuoren alla, jonka kansallispuisto on kaupungin vihreä keuhko.",
+        "Ávilan köysirata vie vierailijat yli 2 000 metrin päähän, josta on näkymät kaupunkiin ja Karibianmerelle.",
+        "Kaupungin vaakunassa on leijona, joka pitää kädessään kampasimpun kuorta, Pyhän Jaakobin symbolia."
+      ]
+    },
+    "memorial_ve_flag_day": {
+      "intro": "Lippupäivä 3. elokuuta juhlii sitä, että Francisco de Miranda nosti ensimmäisen Venezuelan trikolorin La Vela de Corossa vuonna 1806.",
+      "history": "Miranda, itsenäisyyden edelläkävijä, laskeutui La Vela de Coroon 3. elokuuta 1806 ja nosti suunnittelemansa keltaisen, sinisen ja punaisen lipun. Lippupäivää vietettiin 12. maaliskuuta 2006 asti, jolloin se siirrettiin 3. elokuuta kunnioittamaan ensimmäistä Venezuelan maaperällä tapahtuvaa lippua.",
+      "traditions": "Liput nostetaan kouluissa, julkisissa rakennuksissa ja sotilastukikohdissa ja lauletaan kansallislaulua. La Vela de Corossa järjestetään seremonia, ja lapset oppivat värien merkityksen: kulta tarkoittaa rikkautta, sininen merta ja punainen sankarien verta.",
+      "funFacts": [
+        "Samat kolme väriä esiintyvät Gran Kolumbialle kuuluneiden Kolumbian ja Ecuadorin lipuissa.",
+        "Lipun tähtien kaari kasvoi seitsemästä kahdeksaan vuonna 2006 ja lisäsi Guayanan maakunnan.",
+        "Mirandan alkuperäinen lippu nostettiin hänen aluksestaan, Leanderistä."
+      ]
+    },
+    "memorial_de_june_17_uprising": {
+      "intro": "17. kesäkuuta muistetaan vuoden 1953 kansannousua Itä-Saksassa, kun yli miljoona ihmistä protestoi SED-hallintoa vastaan ​​ja Neuvostoliiton panssarivaunut murskasivat heidät.",
+      "history": "Kapina alkoi 16. kesäkuuta 1953 Itä-Berliinin Stalinalleella rakennustyöläisten lakolla korotettuja työkiintiöitä vastaan ​​ja levisi päivässä satoihin kaupunkeihin. Neuvostoliiton joukot julistivat sotatilan, ja ainakin 55 ihmistä kuoli. Länsi-Saksa julisti 17. kesäkuuta \"Saksan yhtenäisyyden päiväksi\" vuodesta 1954 vuoden 1990 yhdistymiseen asti.",
+      "traditions": "Seppeleitä lasketaan Berliinin Leipziger Straßella entisen ministeriöiden talon edessä olevalle muistomerkille ja Seestraßen hautausmaalla uhrien haudoille. Bundestag ja osavaltioiden parlamentit pitävät muistotilaisuuksia.",
+      "funFacts": [
+        "Berliinin Brandenburgin portille johtava bulevardi on ollut nimeltään \"Straße des 17. Juni\" vuodesta 1953 lähtien.",
+        "Noin 15 000 ihmistä pidätettiin kapinan jälkeen.",
+        "Tapahtumia pidetään ensimmäisenä kansannousuna kommunistista hallintoa vastaan ​​itäblokissa."
       ]
     },
     "memorial_de_november_pogroms": {
-      "intro": "Marraskuun 9. päivänä muistetaan vuoden 1938 antisemitistisiä pogromeja.",
+      "intro": "9. marraskuuta muistetaan vuoden 1938 marraskuun pogromeja, jolloin synagogien, juutalaiskauppojen ja kotien kimppuun Saksassa ja Itävallassa hyökättiin ja ne tuhottiin.",
+      "history": "Yöllä 9. ja 10. marraskuuta 1938 natsihallinto järjesti valtakunnallista väkivaltaa juutalaisia ​​vastaan: yli 1 400 synagogaa sytytettiin tuleen, noin 30 000 juutalaista karkotettiin keskitysleireille ja satoja ihmisiä tapettiin. Pogromit merkitsivät siirtymistä syrjinnästä järjestelmälliseen vainoon.",
+      "traditions": "Muistotilaisuuksia pidetään synagogissa ja muistopaikoissa; monissa kaupungeissa ihmiset puhdistavat Stolpersteinen, pieniä messinkilaattoja, jotka asetetaan jalkakäytävälle uhrien viimeisten kotien eteen, ja asettavat kynttilöitä niiden viereen. Koulut keskustelevat päivän historiasta.",
       "funFacts": [
-        "Synagogia tuhottiin ja juutalaisia vainottiin, karkotettiin ja murhattiin."
+        "9. marraskuuta kutsutaan Saksan \"kohtalon päiväksi\": tasavalta julistettiin vuonna 1918 ja Berliinin muuri kaatui vuonna 1989 samana päivänä.",
+        "Yli 100 000 Stolpersteinea on munittu eri puolilla Eurooppaa vuodesta 1992 lähtien.",
+        "Natsien termiä \"Kristallnacht\" vältetään nykyään, koska se vähättelee väkivaltaa."
       ]
     },
     "memorial_de_victims_of_national_socialism": {
-      "intro": "Tammikuun 27. päivänä muistetaan natsismin uhreja.",
+      "intro": "27. tammikuuta on Saksassa kansallissosialismin uhrien muistopäivä, Auschwitzin keskitys- ja tuhoamisleirin vapauttamisen vuosipäivä vuonna 1945.",
+      "history": "Liittovaltion presidentti Roman Herzog julisti päivän vuonna 1996. Vuonna 2005 Yhdistyneet Kansakunnat valitsi 27. tammikuuta kansainväliseksi holokaustin muistopäiväksi. Neuvostoliiton joukot vapauttivat Auschwitzin 27. tammikuuta 1945, jossa yli miljoona ihmistä oli murhattu.",
+      "traditions": "Bundestag pitää muistotunnin, jossa puhutaan selviytyneen tai näkyvän vieraan. Liput liehuvat puolimastoon julkisissa rakennuksissa, ja muistopaikat, koulut ja kirkot järjestävät tapahtumia. Monet ihmiset sytyttävät kynttilän ikkunassaan illalla.",
       "funFacts": [
-        "Tänä päivänä vuonna 1945 Auschwitzin keskitys- ja tuhoamisleiri vapautettiin."
+        "Päivä muistaa kaikkia natsien vainoamia ryhmiä: juutalaisia, sintiä ja romaneja, vammaisia, homoseksuaaleja, poliittisia vankeja ja monia muita.",
+        "Euroopan murhattujen juutalaisten muistomerkki Berliinissä koostuu 2 711 betonikivistä.",
+        "Sanat \"Ei koskaan enää\" ovat viesti, joka yhdistää tämän päivän muistot maailmanlaajuisesti."
       ]
     }
   }

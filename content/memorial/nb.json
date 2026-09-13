@@ -145,22 +145,744 @@
       ],
       "imageCredit": "Photo: Arlington National Cemetery · Public domain via Wikimedia Commons"
     },
-    "memorial_de_june_17_uprising": {
-      "intro": "17. juni minnes oppstanden i DDR i 1953.",
+    "memorial_am_armenian_genocide_remembrance_day": {
+      "intro": "Den 24. april minnes armenere over hele verden ofrene for folkemordet i 1915 i Det osmanske riket, der anslagsvis 1,5 millioner armenere mistet livet.",
+      "history": "Den 24. april 1915 ble hundrevis av armenske intellektuelle og samfunnsledere arrestert i Konstantinopel, begivenheten som kom til å markere begynnelsen på deportasjonene og massakrene. Armenia har markert dagen offisielt siden 1988, og den ble en helligdag etter uavhengigheten.",
+      "traditions": "Hundretusener går opp til Tsitsernakaberd-minnesmerket i Jerevan for å legge blomster rundt den evige flammen. Gudstjenester, ett minutts stillhet og minnekonserter finner sted over hele Armenia og diasporaen.",
       "funFacts": [
-        "Protestene ble slått ned med vold."
+        "Tsitsernakaberd-minnesmerket ble åpnet i 1967; dens tolv basaltplater symboliserer de tapte provinsene i det historiske Vest-Armenia.",
+        "Forglem-meg-ikke ble det offisielle symbolet på hundreårsjubileet i 2015 og bæres fortsatt i dag.",
+        "Mer enn 30 land har formelt anerkjent hendelsene i 1915 som folkemord."
+      ]
+    },
+    "memorial_ar_day_of_remembrance_for_truth_and_justice": {
+      "intro": "24. mars, minnedagen for sannhet og rettferdighet, markerer årsdagen for militærkuppet i 1976 i Argentina og hedrer ofrene for diktaturet som fulgte.",
+      "history": "Den 24. mars 1976 styrtet de væpnede styrkene president Isabel Perón og styrte til 1983. I løpet av disse årene ble anslagsvis 30 000 mennesker kidnappet, torturert og 'forsvunnet'. Dagen ble opprettet ved lov i 2002 og ble en helligdag i 2006.",
+      "traditions": "Menneskerettighetsorganisasjoner, fremfor alt mødrene og bestemødrene på Plaza de Mayo, leder en stor marsj til Plaza de Mayo i Buenos Aires. Skoler holder leksjoner om hukommelse og demokrati, og tidligere interneringssentre som ESMA åpner dørene.",
+      "funFacts": [
+        "Det hvite hodeskjerfet til Mothers of Plaza de Mayo, opprinnelig en tøybleie, ble symbolet på søket etter de forsvunne.",
+        "Bestemødrene på Plaza de Mayo har identifisert mer enn 130 barnebarn født i fangenskap.",
+        "'Nunca más' (Aldri mer) er tittelen på sannhetskommisjonens rapport fra 1984 og dagens motto."
+      ]
+    },
+    "memorial_ar_day_of_the_veterans_and_fallen_of_the_malvinas_war": {
+      "intro": "2. april minnes Argentina soldatene som kjempet og falt i 1982-krigen over Malvinas (Falklandsøyene) og hedrer veteranene.",
+      "history": "Den 2. april 1982 landet argentinske styrker på øyene, hvis suverenitet Argentina har gjort krav på siden 1833. Den 74 dager lange krigen med Storbritannia kostet 649 argentinske og 255 britiske liv. Dagen ble etablert i 2000 og ble en helligdag i 2001.",
+      "traditions": "Seremonier holdes ved Monumentet til de falne i Malvinas på Plaza San Martín i Buenos Aires og i byer over hele landet. Veteraner paraderer, flagg vaier på halv stang om morgenen, og skoler minner om øyenes historie.",
+      "funFacts": [
+        "Monumentet på Plaza San Martín viser navnene på alle 649 argentinske falne på svarte marmorplater.",
+        "Mange av de vernepliktige var bare 18 eller 19 år.",
+        "Darwin-kirkegården på øyene holder gravene til 237 argentinske soldater; familier har vært i stand til å besøke siden 1991."
+      ]
+    },
+    "memorial_ar_general_jose_de_san_martin_memorial_day": {
+      "intro": "Argentina minnes dødsfallet til general José de San Martín, befrieren av Argentina, Chile og Peru, som døde 17. august 1850 i Frankrike.",
+      "history": "San Martín ledet Army of the Andes over fjellene i 1817, hjalp til med å frigjøre Chile og proklamerte Perus uavhengighet i 1821. Han tilbrakte sine siste tiår i eksil i Europa. Ferien ble opprettet i 1938 og flyttes til en mandag for å danne en langhelg.",
+      "traditions": "Kranser blir lagt ved mausoleet hans i Metropolitan Cathedral of Buenos Aires, bevoktet av Regiment of Mounted Grenadiers han grunnla. Skoler iscenesetter skuespill og synger 'Mars of San Lorenzo'.",
+      "funFacts": [
+        "San Martín er kjent som 'nasjonens far' og vises på mange argentinske sedler og mynter.",
+        "Hans levninger ble brakt tilbake fra Frankrike til Buenos Aires i 1880.",
+        "Krysset av Andesfjellene passerer høyere enn 4000 meter med rundt 5000 soldater."
+      ]
+    },
+    "memorial_be_armistice_day": {
+      "intro": "Våpenvåpendagen 11. november markerer slutten på første verdenskrig i 1918 og hedrer de belgiske soldatene og sivile som døde i begge verdenskrigene.",
+      "history": "Klokken 11.00 den 11. november 1918 trådte våpenhvilen undertegnet i Compiègne i kraft og kanonene ble stille på vestfronten. Belgia hadde vært okkupert i fire år og store deler av Flandern lå i ruiner. Dagen har vært en helligdag siden 1922.",
+      "traditions": "Kongen legger ned en krans ved graven til den ukjente soldaten ved Colonne du Congrès i Brussel. I Ypres lyder Last Post under Meninporten, som den er hver kveld, etterfulgt av en stor parade. Valmuer bæres til minne om de døde.",
+      "funFacts": [
+        "The Last Post har blitt spilt under Meninporten hver kveld siden 1928, med unntak av den tyske okkupasjonen.",
+        "Menin-porten bærer navnene til mer enn 54 000 Commonwealth-soldater uten kjent grav.",
+        "Diktet 'In Flanders Fields', som gjorde valmuen til et minnesymbol, ble skrevet nær Ypres i 1915."
+      ]
+    },
+    "memorial_by_commemoration_day": {
+      "intro": "Radunitsa, den niende dagen etter ortodoks påske, er Hviterussland sin minnedag for de døde, når familier besøker gravene til sine slektninger.",
+      "history": "Skikken med å minnes forfedre om våren går før kristendommen i den slaviske verden og ble absorbert i den ortodokse kalenderen. I Hviterussland ble Radunitsa erklært en helligdag i 1993, en av få eksplisitt religiøse markeringer med den statusen.",
+      "traditions": "Familier rydder gravene, pynter dem med blomster og fargede egg, og deler et enkelt måltid på kirkegården. Prester holder minnegudstjenester, og dagen er ment å være stille i stedet for sørgmodig, da navnet kommer fra ordet for glede.",
+      "funFacts": [
+        "Radunitsa faller alltid på en tirsdag, den andre dagen i uken etter påskeuken.",
+        "Navnet er relatert til det slaviske ordet 'radost', som betyr glede, fordi påskeglede deles med de avdøde.",
+        "I Russland og Ukraina overholdes den samme skikken, men er ikke en helligdag."
+      ]
+    },
+    "memorial_ca_armistice_day": {
+      "intro": "Våpenvåpendagen 11. november markerer slutten på første verdenskrig i 1918; i Canada har den blitt markert som minnedag siden 1931.",
+      "history": "Våpenhvilen trådte i kraft kl. 11.00 den 11. november 1918. Canada markerte først våpenhviledagen i 1919 sammen med Thanksgiving, inntil parlamentet skilte de to og omdøpte dagen i 1931 for å hedre alle som tjenestegjorde.",
+      "traditions": "To minutters stillhet holdes klokken 11, og kranser legges ved National War Memorial i Ottawa og ved cenotafer over hele landet. Kanadiere bærer en rød valmue i ukene før dagen.",
+      "funFacts": [
+        "Mer enn 66 000 kanadiere døde i første verdenskrig, av en befolkning på rundt åtte millioner.",
+        "Valmuetradisjonen går tilbake til diktet 'In Flanders Fields' av den kanadiske legen John McCrae.",
+        "Graven til den ukjente soldaten i Ottawa inneholder restene av en uidentifisert kanadisk soldat fra Vimy Ridge."
+      ]
+    },
+    "memorial_cd_laurent_desire_kabila_assassination": {
+      "intro": "Den 16. januar minnes Den demokratiske republikken Kongo president Laurent-Désiré Kabila, som ble myrdet i Kinshasa i 2001.",
+      "history": "Kabila ledet opprøret som gjorde slutt på Mobutu Sese Sekos styre i 1997 og ble president. 16. januar 2001 ble han skutt av en av livvaktene sine i presidentpalasset. Hans sønn Joseph Kabila etterfulgte ham og ledet landet til fredsavtalen fra 2002.",
+      "traditions": "Offisielle seremonier holdes ved Kabilas mausoleum foran Palais de la Nation i Kinshasa, hvor det legges ned kranser. Dagen er en helligdag og markeres ofte sammen med Lumumba-markeringen dagen etter.",
+      "funFacts": [
+        "Kabila er hedret med tittelen 'Mzee', et swahili-ord av respekt for en eldste.",
+        "Hans mausoleum i Kinshasa ble innviet i 2002 og har en bronsestatue.",
+        "16. og 17. januar utgjør sammen to påfølgende minnedager for landets to 'uavhengighetshelter'."
+      ]
+    },
+    "memorial_cd_patrice_lumumba_assassination": {
+      "intro": "17. januar minnes Patrice Lumumba, den første statsministeren i det uavhengige Kongo, som ble myrdet i 1961.",
+      "history": "Lumumba førte Kongo til uavhengighet fra Belgia 30. juni 1960, men ble styrtet i løpet av måneder under Kongokrisen. Han ble overlevert til løsrivelsesstyrker i Katanga og henrettet 17. januar 1961 med belgisk medvirkning, som en belgisk parlamentarisk undersøkelse erkjent i 2001.",
+      "traditions": "Seremonier holdes ved Lumumba-monumentet på Boulevard Lumumba i Kinshasa og i hans hjemregion. Uavhengighetstalen hans leses på skolene, og dagen er en helligdag.",
+      "funFacts": [
+        "Lumumba var bare 35 år gammel da han ble drept.",
+        "I 2022 returnerte Belgia en gullbelagt tann, den eneste gjenværende relikvien av kroppen hans, til familien hans; den ble gravlagt i et mausoleum i Kinshasa.",
+        "Han regnes som en av de ledende skikkelsene i afrikanske uavhengighetsbevegelser og vises på landets sedler."
+      ]
+    },
+    "memorial_cd_congolese_genocide_day": {
+      "intro": "Den 2. august minnes Den demokratiske republikken Kongo ofrene for krigene og massegrusomhetene øst i landet siden 1996, en dag kjent som \"Genokost\".",
+      "history": "Datoen minner om utbruddet av den andre Kongo-krigen 2. august 1998, der flere afrikanske stater og utallige væpnede grupper var involvert. Konfliktene i øst har krevd millioner av liv gjennom vold, sult og sykdom. Regjeringen gjorde 2. august til en nasjonal minnedag i 2022.",
+      "traditions": "En nasjonal seremoni holdes i Kisangani, en by som led harde kamper i 2000, med ett minutts stillhet ved middagstid. Kirker holder gudstjenester, og sivilsamfunnsgrupper organiserer marsjer og utstillinger.",
+      "funFacts": [
+        "Ordet 'Genocost' kombinerer 'folkemord' og 'kostnad' for å peke på de økonomiske motivene bak volden.",
+        "Den andre Kongo-krigen kalles noen ganger 'Afrikas verdenskrig' fordi ni land deltok.",
+        "Nobels fredsprisvinner Denis Mukwege, en lege fra Bukavu, har lenge aksjonert for anerkjennelse av ofrene."
+      ]
+    },
+    "memorial_gi_workers_memorial_day": {
+      "intro": "Arbeidernes minnedag 28. april minnes mennesker som har blitt drept, skadet eller gjort syke av arbeidet sitt. I Gibraltar er det en helligdag.",
+      "history": "Dagen ble startet av kanadiske fagforeninger i 1984 og er nå observert i mer enn 100 land. Den internasjonale arbeidsorganisasjonen gjorde 28. april til verdensdagen for sikkerhet og helse på arbeidsplassen i 2003. Gibraltar la den til sine helligdager i 2009 på initiativ fra fagforeningene.",
+      "traditions": "En kransenedleggelse finner sted i Gibraltar, og fagforeninger holder et minutts stillhet for arbeidere som mistet livet. Dagens motto er 'Husk de døde, kjemp for de levende'.",
+      "funFacts": [
+        "Datoen minner om 28. april 1914, da Ontario vedtok sin første lov om arbeidskompensasjon.",
+        "Gibraltar er et av bare noen få steder der dagen er en helligdag.",
+        "Lilla bånd og lilla forglemmegei er dagens symboler i Storbritannia."
+      ]
+    },
+    "memorial_hr_remembrance_day": {
+      "intro": "Den 18. november minnes Kroatia ofrene for hjemlandskrigen, fremfor alt Vukovars fall i 1991 og massakren i Škabrnja samme dag.",
+      "history": "Etter en 87-dagers beleiring falt byen Vukovar til den jugoslaviske folkehæren og serbiske paramilitære soldater 18. november 1991. Rundt 200 sårede og ansatte ble tatt fra sykehuset og drept på Ovčara-gården. Minnedagen ble opprettet i 1999 og ble en helligdag i 2020.",
+      "traditions": "Titusenvis går i 'Minnesøylen' fra Vukovar sykehus til minnekirkegården, hvor det tennes et lys for hvert offer. Kirkeklokkene ringer over Kroatia, og vanntårnet i Vukovar, full av kulehull, har blitt symbolet på byen.",
+      "funFacts": [
+        "Vukovar vanntårn ble truffet mer enn 600 ganger under beleiringen og ble åpnet som et minnesmerke i 2020.",
+        "Minnekirkegården inneholder 938 hvite kors, ett for hvert av de identifiserte ofrene fra massegravene.",
+        "Det kroatiske parlamentet gjorde 18. november til en offentlig fridag i 2019, med virkning fra 2020."
+      ]
+    },
+    "memorial_il_yom_hashoah": {
+      "intro": "Yom HaShoah, den 27. Nisan i den jødiske kalenderen, er Israels minnedag for de seks millioner jødene som ble myrdet i Holocaust og for heltemotet til de som gjorde motstand.",
+      "history": "Knesset etablerte dagen i 1951, og i 1959 ble den en nasjonal minnedag ved lov. Datoen ligger en uke etter påske og en uke før Israels minnedag, og ble valgt for å falle nær årsdagen for Warszawa-gettoopprøret i april 1943.",
+      "traditions": "Klokken 10 lyder sirener i to minutter over hele Israel og alt stopper opp, selv trafikken på motorveiene. Statsseremonien finner sted ved Yad Vashem i Jerusalem på kvelden, hvor seks overlevende tenner seks fakler. Underholdningssteder stenger, og navn på ofre leses opp.",
+      "funFacts": [
+        "Dagens fulle navn er \"Day of Remembrance of Holocaust and Heroism\".",
+        "'De levendes mars' bringer tusenvis av unge mennesker fra Auschwitz til Birkenau på denne dagen hvert år.",
+        "Yad Vashem har navnene på rundt 4,8 millioner av de seks millioner ofrene i sin sentrale database."
+      ]
+    },
+    "memorial_il_yom_hazikaron": {
+      "intro": "Yom HaZikaron, den 4. Iyar, er Israels minnedag for falne soldater og ofre for terrorisme. Den slutter ved solnedgang når uavhengighetsdagen begynner.",
+      "history": "Israel markerte først de falne i krigen i 1948 på selvstendighetsdagen; fra 1951 ble minnedagen flyttet til feiringsaften. Det ble lovfestet i 1963. Siden 1998 har ofre for terrorangrep blitt minnet samme dag.",
+      "traditions": "En sirene lyder i ett minutt klokken 20.00. på kvelden og i to minutter klokken 11 på dagen, da landet står stille. Seremonier holdes på Mount Herzl i Jerusalem og på militære kirkegårder, og familier besøker gravene. Fjernsyn og radio sender bare dystre programmer.",
+      "funFacts": [
+        "Overgangen fra sorg til feiring ved solnedgang er bevisst: Israels uavhengighet forstås som prisen som de falne betaler.",
+        "Statsseremonien ved Vestmuren på kvelden åpner med senking av flagget til halv stang.",
+        "En rød blomst, 'Makkabeernes blod' (Helichrysum), er symbolet på dagen og bæres som et klistremerke."
+      ]
+    },
+    "memorial_il_tisha_bav": {
+      "intro": "Tisha B'Av, den 9. av Av, er den tristeste dagen i den jødiske kalenderen. Den sørger over ødeleggelsen av både templene i Jerusalem og andre katastrofer i jødisk historie.",
+      "history": "Det første tempelet ble ødelagt av babylonerne i 586 fvt og det andre tempelet av romerne i 70 e.Kr., ifølge tradisjonen på samme dato. Senere katastrofer som utvisningen av jødene fra Spania i 1492 er også knyttet til dagen. I Israel er det en valgfri fridag.",
+      "traditions": "Observante jøder faster i omtrent 25 timer fra solnedgang til kveld, ikke bruk skinnsko og sitte på lave krakker mens Klagesangsboken leses ved levende lys. Tusenvis samles ved Vestmuren i Jerusalem for kveldsbønn.",
+      "funFacts": [
+        "De tre ukene før Tisha B'Av er en sorgperiode der bryllup og feiringer unngås.",
+        "Fasten er den eneste foruten Yom Kippur som varer en hel dag og natt.",
+        "Restauranter og underholdningssteder i Israel er stengt ved lov på kvelden."
+      ]
+    },
+    "memorial_kr_memorial_day": {
+      "intro": "Memorial Day (Hyeonchungil) 6. juni hedrer soldatene og sivile som døde for Sør-Korea, spesielt i Korea-krigen 1950 til 1953.",
+      "history": "Dagen ble opprettet i 1956, tre år etter våpenhvilen, for å minnes krigens falne. Datoen følger den tradisjonelle kalenderen, der begynnelsen av juni markerer starten på sesongen for pleie av forfedres graver.",
+      "traditions": "Klokken 10 lyder en sirene landsomfattende i ett minutts stillhet. Presidenten leder en seremoni på Seoul National Cemetery, hvor familier legger blomster på gravene, og flagg blir flagget på halv stang over hele landet.",
+      "funFacts": [
+        "Koreakrigen har aldri formelt tatt slutt; bare en våpenhvile ble signert i 1953.",
+        "Seoul National Cemetery i Dongjak-gu er hvilestedet for mer enn 160 000 mennesker.",
+        "Fordi det er en sørgedag, heves nasjonalflagget til halv stang i stedet for full høyde."
+      ]
+    },
+    "memorial_md_victory_and_commemoration_day": {
+      "intro": "Den 9. mai minnes Moldova seieren over Nazi-Tyskland i 1945 og soldatene som falt i andre verdenskrig.",
+      "history": "Den tyske overgivelsen trådte i kraft sent 8. mai 1945, som allerede var 9. mai i Moskva, derav den sovjetiske datoen. Moldova holdt høytiden etter uavhengigheten i 1991 og omdøpte den til \"Seiers- og minnedagen\" til minne om de falne. Siden 2017 har Europadagen også blitt markert på samme dato.",
+      "traditions": "Kranser legges ved Eternitate-minnekomplekset i Chișinău, der en evig flamme brenner i midten av fem stiliserte rifler. Veteraner blir hedret, og familier besøker krigsgraver; mange bærer også Europadagens blå-gule bånd.",
+      "funFacts": [
+        "Eternitate-minnesmerket ble innviet i 1975 og reiser seg 25 meter over gravene til soldater.",
+        "Siden 2022 har visning av St. George-båndet knyttet til den russiske markeringen vært forbudt i Moldova.",
+        "Moldova feirer både den sovjetiske seieren og Europadagen 9. mai, en kombinasjon som finnes i få andre land."
+      ]
+    },
+    "memorial_md_memorial_day": {
+      "intro": "Paștele Blajinilor, \"De saktmodiges påske\", mandag etter påskeuken, er Moldovas minnedag for de døde, når familier samles på kirkegårder.",
+      "history": "Skikken med å dele påskeglede med avdøde forfedre er forankret i ortodokse tradisjoner og førkristne vårritualer. I Moldova ble dagen en helligdag i 1990 og er en av de mest observerte familiebegivenhetene i året.",
+      "traditions": "Familier rydder gravene, dekorerer dem med blomster og fargede egg og deler et måltid der; prester velsigner gravene og maten. Brød, søtsaker og vin blir gitt til naboer og fremmede 'for sjelen' til de avdøde.",
+      "funFacts": [
+        "'Blajini' betyr 'den saktmodige' og refererer til legendariske milde vesener som sies å leve på kanten av verden og feire påske senere.",
+        "Mange moldovere som jobber i utlandet planlegger hjemmebesøk rundt denne dagen.",
+        "Dagen faller alltid åtte dager etter ortodokse påskedag."
+      ]
+    },
+    "memorial_na_cassinga_day": {
+      "intro": "Cassinga-dagen 4. mai til minne om det sørafrikanske angrepet på den namibiske flyktningleiren Cassinga i Sør-Angola i 1978, der rundt 600 mennesker ble drept.",
+      "history": "Den 4. mai 1978 angrep sørafrikanske fallskjermjegere og fly leiren til frigjøringsbevegelsen SWAPO ved Cassinga, hvor tusenvis av flyktninger bodde. Angrepet ble en av de avgjørende hendelsene i kampen for uavhengighet, som Namibia oppnådde i 1990.",
+      "traditions": "En nasjonal seremoni med kransenedleggelse finner sted på Heroes' Acre nær Windhoek, og overlevende deler minnene sine. Flagg vaier på halv stang, og dagen er helligdag.",
+      "funFacts": [
+        "Mange av de overlevende fra Cassinga var barn som senere fullførte skolegangen på Cuba.",
+        "Heroes' Acre ble åpnet i 2002 og domineres av en 34 meter lang obelisk.",
+        "Leiren lå omtrent 250 kilometer nord for den namibiske grensen."
+      ]
+    },
+    "memorial_na_genocide_remembrance_day": {
+      "intro": "Folkemordets minnedag 28. mai til minne om Ovaherero og Nama som ble drept under tysk kolonistyre mellom 1904 og 1908.",
+      "history": "Etter opprøret i 1904 drev den tyske kolonihæren Hereroene inn i Omaheke-ørkenen og fengslet overlevende i leire som Shark Island. Titusenvis døde. Tyskland anerkjente offisielt hendelsene som folkemord i 2021. Namibia markerte dagen for første gang i 2025, og valgte datoen da leirene ble beordret stengt i 1907.",
+      "traditions": "Det holdes en nasjonal seremoni med ett minutts stillhet og tenning av levende lys, og etterkommere av ofrene holder minnesamlinger i Okahandja, Swakopmund og Lüderitz. Dagen er en helligdag.",
+      "funFacts": [
+        "Folkemordet på Herero og Nama regnes som det første folkemordet på 1900-tallet.",
+        "I 2018 returnerte Tyskland menneskelige levninger som hadde blitt ført til Berlin for raseforskning.",
+        "Folkemordsminnesmerket i Windhoek ble avduket i 2014 på stedet for det tidligere ryttermonumentet til tyske kolonisoldater."
+      ]
+    },
+    "memorial_pg_remembrance_day": {
+      "intro": "Remembrance Day 23. juli hedrer Papua Ny-Guineanere som tjenestegjorde og døde i andre verdenskrig, spesielt soldatene fra Papuan Infantry Battalion.",
+      "history": "Den 23. juli 1942 kjempet den papuanske infanteribataljonen sitt første engasjement mot japanske tropper nær Awala ved starten av Kokoda-kampanjen. Dagen ble en nasjonal fridag etter uavhengighet i 1975.",
+      "traditions": "Kranser legges på Bomana krigskirkegård nær Port Moresby og ved Remembrance Park i hovedstaden. Veteranfamilier, forsvaret og skoleelever deltar, og Siste innlegg lyder.",
+      "funFacts": [
+        "Papua Ny-Guineanere som bar sårede soldater langs Kokoda-banen ble kjent som 'Fuzzy Wuzzy Angels'.",
+        "Bomana krigskirkegård er den største krigskirkegården i Stillehavet med mer enn 3800 graver.",
+        "Den papuanske infanteribataljonen var den første urfolks militære enheten i landet."
+      ]
+    },
+    "memorial_pr_memorial_day": {
+      "intro": "Memorial Day den siste mandagen i mai hedrer mennene og kvinnene som døde mens de tjenestegjorde i USAs væpnede styrker. Puertoricanere har tjenestegjort i alle amerikanske kriger siden 1917.",
+      "history": "Memorial Day vokste ut av Decoration Day etter den amerikanske borgerkrigen, da graver ble dekorert med blomster. Det ble en føderal helligdag i 1971. Puertoricanere ble amerikanske statsborgere i 1917 og har tjenestegjort i stort antall, inkludert det 65. infanteriregimentet, 'Borinqueneers'.",
+      "traditions": "Seremonier holdes på Puerto Rico National Cemetery i Bayamón, hvor små flagg er plassert på hver grav. Veterangrupper paraderer, og mange familier besøker gravene til slektninger.",
+      "funFacts": [
+        "Det 65. infanteriregimentet mottok Kongressens gullmedalje i 2016 for sin tjeneste i Korea-krigen.",
+        "Puerto Rico National Cemetery er hvilestedet for mer enn 50 000 veteraner og familiemedlemmer.",
+        "Det holdes et nasjonalt minnestund kl. 15.00. lokal tid over hele USA."
+      ]
+    },
+    "memorial_rs_armistice_day": {
+      "intro": "Våpenvåpendagen 11. november minnes slutten på første verdenskrig i 1918 og de serbiske soldatene og sivile som døde i den.",
+      "history": "Serbia mistet mer enn en fjerdedel av befolkningen i første verdenskrig, en høyere andel enn noe annet land. Dagen ble introdusert som en helligdag i 2012 for å hedre ofrene og rollen til den serbiske hæren i den allierte seieren.",
+      "traditions": "Kranser legges ved monumentet til den ukjente helten på Avala-fjellet nær Beograd og ved krigsminnesmerker over hele landet. Folk bærer Natalies ramonda, en liten lilla blomst, til minne om de falne.",
+      "funFacts": [
+        "Natalies ramonda er en \"oppstandelsesplante\" som kan gjenopplives etter uttørking, og det er derfor den symboliserer Serbias bedring etter krigen.",
+        "Blomsten bæres ofte sammen med et bånd i fargene til Albanian Retreat-medaljen fra 1915.",
+        "Monumentet til den ukjente helten på Avala ble designet av billedhuggeren Ivan Meštrović i 1938."
+      ]
+    },
+    "memorial_sm_commemoration_of_all_those_who_died_at_war": {
+      "intro": "Den 2. november, Alle sjelers dag, minnes San Marino alle de som døde i krig, sammen med den katolske minne om de døde.",
+      "history": "Den lille republikken forble nøytral i begge verdenskrigene, men ble ved en feiltakelse bombet av britiske fly i juni 1944, og drepte 63 mennesker, og tok imot rundt 100 000 flyktninger. Markeringen på alle sjelers dag er en av landets offisielle høytider.",
+      "traditions": "Familier besøker kirkegårdene, fremfor alt Montalbo kirkegård, og legger blomster og tenner lys på gravene. En seremoni hedrer republikkens krigsdøde, og Captains Regent deltar i en minnemesse.",
+      "funFacts": [
+        "San Marinos befolkning er bare rundt 34 000, så nesten hver familie hadde slektninger blant krigstidsflyktningene.",
+        "En plakett på jernbanestasjonen minnes ofrene for bombingen i 1944.",
+        "Alle sjelers dag har blitt observert av den katolske kirke siden 1000-tallet."
+      ]
+    },
+    "memorial_us_lincolns_birthday": {
+      "intro": "Lincolns bursdag 12. februar hedrer Abraham Lincoln, USAs 16. president, som ledet landet gjennom borgerkrigen og gjorde slutt på slaveriet.",
+      "history": "Lincoln ble født i en tømmerhytte i Kentucky i 1809 og ble myrdet i april 1865, dager etter slutten av borgerkrigen. Bursdagen hans ble først feiret offentlig i 1866 og ble en lovlig høytid i flere stater, men aldri en føderal. I dag kombinerer mange stater det med Washingtons bursdag som presidentens dag.",
+      "traditions": "Det holdes en kransenedleggelsesseremoni ved Lincoln Memorial i Washington, og Gettysburg-adressen leses på mange skoler. I Illinois, 'Land of Lincoln', er dagen fortsatt en statlig helligdag.",
+      "funFacts": [
+        "Med sine 1,93 meter var Lincoln USAs høyeste president.",
+        "Gettysburg-adressen er bare omtrent 270 ord lang og varte i rundt to minutter.",
+        "Lincoln Memorial ble innviet i 1922 og har en 5,8 meter lang marmorstatue."
+      ]
+    },
+    "memorial_za_human_rights_day": {
+      "intro": "Menneskerettighetsdagen 21. mars til minne om Sharpeville-massakren i 1960 og feirer rettighetene som er nedfelt i Sør-Afrikas demokratiske grunnlov.",
+      "history": "Den 21. mars 1960 åpnet politiet ild mot en fredelig folkemengde som protesterte mot passlovene i Sharpeville, og drepte 69 mennesker. Massakren førte til verdensomspennende fordømmelse av apartheid. Etter det første demokratiske valget ble dagen gjort til en helligdag i 1994, og Nelson Mandela signerte den nye grunnloven i Sharpeville i 1996.",
+      "traditions": "Seremonier holdes ved Sharpeville-minnesmerket og Human Rights Precinct, og regjeringen bruker dagen til å fremme Bill of Rights. Fellesskap organiserer marsjer, konserter og pedagogiske arrangementer.",
+      "funFacts": [
+        "De forente nasjoner erklærte 21. mars den internasjonale dagen for avskaffelse av rasediskriminering i 1966, til minne om Sharpeville.",
+        "Den sørafrikanske Bill of Rights regnes som en av de mest progressive i verden.",
+        "Sharpeville-minnesmerket viser navnene på alle 69 ofrene på individuelle søyler."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_defenders_of_the_barricades_in_1991": {
+      "intro": "20. januar minnes forsvarerne av barrikadene i januar 1991, da folk i Riga beskyttet det unge latviske demokratiet mot sovjetiske spesialstyrker.",
+      "history": "Etter det sovjetiske angrepet i Vilnius 13. januar 1991 bygde titusenvis av latviere barrikader rundt parlamentet, TV-senteret og broer i Riga. Den 20. januar stormet spesialpolitiet OMON innenriksdepartementet; fem mennesker ble drept, blant dem to kameramenn som filmet hendelsene.",
+      "traditions": "Det tennes bål på Dome-plassen i gamle Riga slik de var i 1991, og det legges ned kranser ved minnesteinene i Bastejkalns-parken der ofrene falt. Barrikademuseet i gamle Riga holder minnet i live med originale filmopptak.",
+      "funFacts": [
+        "Barrikadene ble bygget av lastebiler, traktorer og betongblokker hentet inn fra hele Latvia.",
+        "Bønder holdt forsvarerne forsynt med varm mat og ved i flere dager.",
+        "Barricades Museum ble åpnet i 2001 i et hus på Krāmu iela i gamle Riga."
+      ]
+    },
+    "memorial_lv_day_of_the_international_de_jure_recognition_of_the_republic_of_latvia": {
+      "intro": "Den 26. januar 1921 anerkjente det allierte øverste råd Republikken Latvia de jure, og bekreftet den unge statens plass blant verdens nasjoner.",
+      "history": "Latvia hadde erklært uavhengighet 18. november 1918 og utkjempet en uavhengighetskrig frem til 1920. De jure-anerkjennelsen fra Storbritannia, Frankrike, Italia, Japan og Belgia åpnet døren til Folkeforbundet, som Latvia sluttet seg til i september 1921.",
+      "traditions": "Statens flagg er heist på offentlige bygninger, og UD markerer dagen som jubileet for det latviske diplomati. Skolene husker hvordan landet fant sin plass i det internasjonale samfunnet.",
+      "funFacts": [
+        "USA anerkjente ikke Latvia de jure før i juli 1922.",
+        "Det latviske flagget med sine mørkerøde og hvite striper er en av de eldste flaggdesignene i verden, nevnt i en kronikk fra 1279.",
+        "Beslutningen ble tatt på et møte i det allierte øverste råd i Paris."
+      ]
+    },
+    "memorial_lv_world_non_governmental_organization_day": {
+      "intro": "Verdens NGO-dag 27. februar feirer ikke-statlige organisasjoner og de frivillige som jobber i dem; ideen ble født i Latvia.",
+      "history": "Dagen ble foreslått av den latviske aktivisten Marcis Liors Skadmanis og anerkjent av Baltic Sea NGO Forum i 2010. Den ble første gang markert internasjonalt i 2014 og har siden blitt støttet av FN og EU.",
+      "traditions": "NGOer åpner dørene, presenterer sine prosjekter og takker sine frivillige. Konferanser og prisutdelinger hedrer sivilsamfunnsinitiativer, og mange bruker dagen til å melde seg som frivillige.",
+      "funFacts": [
+        "Dagen er nå observert i rundt 90 land.",
+        "Latvia har mer enn 25 000 registrerte foreninger og stiftelser.",
+        "Baltic Sea NGO Forum samler sivilsamfunnsgrupper fra ti land rundt Østersjøen."
+      ]
+    },
+    "memorial_lv_national_partisan_armed_resistance_remembrance_day": {
+      "intro": "2. mars minnes de latviske nasjonale partisanene, «Forest Brothers», som kjempet mot den sovjetiske okkupasjonen etter 1944.",
+      "history": "Datoen minner om slaget ved Stompaki 2. og 3. mars 1945 i Latgale, det største engasjementet mellom latviske partisaner og sovjetiske styrker. Rundt 20 000 latviere deltok i den væpnede motstanden, som varte inn i 1950-årene. Minnedagen ble lagt til loven i 2020.",
+      "traditions": "Det legges ned kranser ved partisanminnesmerker og bunkere i skogene, og det nasjonale forsvaret holder seremonier. Lokale museer og historikere forteller historiene til individuelle motstandsgrupper.",
+      "funFacts": [
+        "Ved Stompaki holdt rundt 350 partisaner ut mot flere tusen sovjetiske tropper før de brøt ut av omringingen.",
+        "Den siste kjente latviske partisanen kom ut av skjul først på 1990-tallet.",
+        "Lignende minnedager finnes i Estland og Litauen."
+      ]
+    },
+    "memorial_lv_national_resistance_movement_remembrance_day": {
+      "intro": "17. mars hedrer den nasjonale motstandsbevegelsen, fremfor alt det latviske sentralrådet, som krevde gjenoppretting av uavhengighet under den tyske okkupasjonen i 1944.",
+      "history": "Den 17. mars 1944 signerte 188 ledende latviske politikere og offentlige personer et memorandum som ber om gjenoppretting av den uavhengige republikken Latvia. Sentralrådet ble ledet av Konstantīns Čakste, som ble arrestert av Gestapo og døde i en konsentrasjonsleir i 1945.",
+      "traditions": "Det legges ned kranser ved minnetavlen til sentralrådet i Riga, og presidenten eller parlamentets taler holder en minnetale. Historikere husker de mange formene for motstand mot begge okkupasjonsmaktene.",
+      "funFacts": [
+        "Konstantīns Čakste var sønn av Latvias første president, Jānis Čakste.",
+        "Sentralrådet organiserte også båtoverfarter som hjalp flyktninger med å rømme til Sverige.",
+        "Memorandumet ble smuglet ut av landet og overlevert de vestlige allierte."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_victims_of_communist_terror": {
+      "intro": "14. juni minnes ofrene for kommunistisk terror, spesielt massedeportasjonen 14. juni 1941, da mer enn 15 000 mennesker ble ført fra Latvia til Sibir på en enkelt natt.",
+      "history": "Natt mellom 13. og 14. juni 1941 arresterte sovjetiske myndigheter familier over hele Latvia, skilte menn fra kvinner og barn og sendte dem østover i godsvogner. Mange overlevde ikke den første vinteren. En annen, enda større deportasjon fulgte 25. mars 1949, som også er en minnedag.",
+      "traditions": "Flagg vaier med svarte bånd, og kranser legges på Torņakalns jernbanestasjon i Riga, hvorfra togene gikk. Navn på de deporterte leses opp, og Okkupasjonsmuseet holder et minnearrangement.",
+      "funFacts": [
+        "En minnevogn på Torņakalns stasjon viser forholdene for deportasjonene.",
+        "Til sammen berørte deportasjonene i 1941 og 1949 nesten 60 000 mennesker i Latvia.",
+        "I 1987 ble en blomsternedlegging ved Frihetsmonumentet den 14. juni en av de første offentlige protestene til den latviske uavhengighetsbevegelsen."
+      ]
+    },
+    "memorial_lv_latgale_congress_day": {
+      "intro": "Latgale kongressdag den 27. april minner om kongressen i 1917 i Rēzekne, hvor latvierne i Latgale bestemte seg for å slå seg sammen med de andre latviske regionene.",
+      "history": "Latgale hadde vært skilt fra Kurland og Livland siden 1600-tallet og tilhørte en annen russisk provins. Den 26. og 27. april 1917 stemte delegatene i Rēzekne for å slutte seg til de andre latviske landene, et viktig skritt mot staten grunnlagt i 1918.",
+      "traditions": "Feiringen holdes i Rēzekne ved statuen 'Latgales Māra', som bærer ordene 'United for Latvia'. Konserter, utstillinger og arrangementer på Latgalian markerer dagen.",
+      "funFacts": [
+        "Latgales Māra-statuen ble avduket i 1939, fjernet av sovjeterne to ganger og restaurert i 1992.",
+        "Latgalian har sin egen skriftlige tradisjon og er beskyttet som en historisk variant av latvisk.",
+        "Rēzekne er kjent som \"hjertet til Latgale\"."
+      ]
+    },
+    "memorial_lv_day_of_the_defeat_of_nazism_and_commemoration_day_of_victims_of_world_war_ii": {
+      "intro": "8. mai markerer nazismens nederlag i 1945 og minnes ofrene for andre verdenskrig, som kostet Latvia hundretusenvis av menneskeliv.",
+      "history": "Den tyske overgivelsen trådte i kraft 8. mai 1945. For Latvia førte krigens slutt ikke til frihet, men tilbakeføringen av sovjetstyret, og latviere hadde blitt vernepliktet på begge sider. Dagen ble introdusert etter uavhengighet i ånden til den vesteuropeiske datoen snarere enn den sovjetiske 9. mai.",
+      "traditions": "Kranser legges ved Salaspils-minnesmerket og ved graver til soldater og sivile. Siden 2023 har hendelser på den sovjetiske datoen 9. mai vært begrenset, og dagen blir observert med forsoning og minne om alle ofre.",
+      "funFacts": [
+        "Salaspils minneensemble ble åpnet i 1967 på stedet for en nazileir.",
+        "Latvia mistet omtrent en tredjedel av befolkningen før krigen til krig, deportasjoner og emigrasjon.",
+        "Rigas sovjetiske seiersmonument ble demontert i 2022."
+      ]
+    },
+    "memorial_lv_europe_day": {
+      "intro": "Europadagen 9. mai feirer fred og enhet i Europa og minner om Schuman-erklæringen fra 1950 som førte til Den europeiske union.",
+      "history": "Den 9. mai 1950 foreslo den franske utenriksministeren Robert Schuman å legge kull- og stålproduksjonen under en felles myndighet, kimen til europeisk integrasjon. Latvia ble medlem av EU 1. mai 2004 og markerer dagen offisielt i sin kalender.",
+      "traditions": "Europeiske flagg vaier på offentlige bygninger, og informasjonsarrangementer, konserter og diskusjoner finner sted i Riga og andre byer. Skoler holder prosjekter om EU, og Europaparlamentets kontor åpner dørene.",
+      "funFacts": [
+        "Latvia tok i bruk euroen i 2014.",
+        "EU-flaggets tolv stjerner står for perfeksjon og enhet, ikke antall medlemsland.",
+        "Riga var vertskap for presidentskapet for EUs råd i første halvdel av 2015."
+      ]
+    },
+    "memorial_lv_international_day_of_the_family": {
+      "intro": "Den internasjonale familiedagen 15. mai retter oppmerksomheten mot viktigheten av familier og utfordringene de står overfor.",
+      "history": "FNs generalforsamling utropte dagen i 1993, etter det internasjonale familieåret i 1994. Latvia inkluderte den i sin offisielle kalender som en dag som skulle feires.",
+      "traditions": "Familiefestivaler, friluftsarrangementer og idrettsdager arrangeres i parker og kulturhus. Organisasjoner bruker dagen til å diskutere støtte til foreldre og barn, og mange familier tilbringer rett og slett dagen sammen.",
+      "funFacts": [
+        "Hvert år velger FN et tema, for eksempel familier og klimaendringer eller digital teknologi.",
+        "Latvia har et av de mest sjenerøse foreldrepermisjonssystemene i Europa.",
+        "Dagen er ikke en helligdag, men markeres med arrangementer over hele landet."
+      ]
+    },
+    "memorial_lv_firefighter_and_rescuer_day": {
+      "intro": "Brannmann og redningsmannsdag 17. mai hedrer mennene og kvinnene i Latvias brann- og redningstjenester.",
+      "history": "Datoen minner om 17. mai 1865, da Riga Frivillige Firefighters' Society ble stiftet, den første i landet. I dag yter Statens brann- og redningsetat (VUGD) branner, ulykker og naturkatastrofer over hele landet.",
+      "traditions": "Brannstasjoner åpner dørene, og barn kan klatre inn i brannbiler. Seremonier hedrer mangeårige og anerkjente brannmenn, og demonstrasjoner viser arbeidet til redningsteamene.",
+      "funFacts": [
+        "Det latviske brannmuseet i Riga ligger i en brannstasjon bygget i 1912.",
+        "VUGD har rundt 3000 ansatte.",
+        "Frivillige brannvesen spiller fortsatt en viktig rolle på landsbygda i Latvia."
+      ]
+    },
+    "memorial_lv_international_day_for_protection_of_children": {
+      "intro": "Den internasjonale barnedagen 1. juni feirer barn og minner samfunnet om deres rett til beskyttelse, utdanning og en lykkelig barndom.",
+      "history": "Datoen ble satt i 1949 av Women's International Democratic Federation og observeres fremfor alt i Øst- og Sentral-Europa og Asia. I Latvia har det vært en populær dag for familier siden sovjettiden.",
+      "traditions": "Parker, museer og teatre tilbyr gratis arrangementer, og byene arrangerer festivaler med spill, konserter og ansiktsmaling. Barnerettighetsorganisasjoner bruker dagen til å rette oppmerksomheten mot barnevernet.",
+      "funFacts": [
+        "Den universelle barnedagen utropt av FN faller 20. november, så mange land har to barnedager.",
+        "Latvia har en barneombudsmann innenfor ombudsmannens kontor.",
+        "På denne dagen tilbyr den latviske nasjonaloperaen tradisjonelt forestillinger for barn."
+      ]
+    },
+    "memorial_lv_day_of_the_occupation_of_the_republic_of_latvia": {
+      "intro": "17. juni markerer den sovjetiske okkupasjonen av Latvia i 1940, da den røde hæren marsjerte inn i landet etter et ultimatum fra Moskva.",
+      "history": "Den 16. juni 1940 krevde Sovjetunionen en ny regjering og opptak av ubegrensede tropper; neste dag okkuperte sovjetiske styrker Latvia. Et etappevis valg fulgte, og i august ble Latvia annektert som en sovjetrepublikk. Uavhengigheten ble ikke gjenopprettet før i 1991.",
+      "traditions": "Flagg heises med svarte sørgebånd, og det legges ned kranser ved Frihetsmonumentet i Riga. Okkupasjonsmuseet holder et minnearrangement, og presidenten taler til nasjonen.",
+      "funFacts": [
+        "Museum of the Occupation of Latvia i Riga dokumenterer årene 1940 til 1991.",
+        "Okkupasjonen var en konsekvens av den hemmelige protokollen til Molotov-Ribbentrop-pakten.",
+        "Mange vestlige land anerkjente aldri annekteringen og fortsatte å akseptere latviske diplomater."
+      ]
+    },
+    "memorial_lv_medical_worker_day": {
+      "intro": "Medical Worker Day den tredje søndagen i juni hedrer leger, sykepleiere og alle som jobber i Latvias helsevesen.",
+      "history": "Dagen har sine røtter i den sovjetiske «Day of the Medical Worker», som ble feiret samme dato. Latvia beholdt den etter uavhengigheten som en dag for å takke helsepersonell.",
+      "traditions": "Sykehus og Helsedepartementet holder seremonier der fremragende leger og sykepleiere mottar priser. Pasienter og kollegaer har med seg blomster, og media rapporterer om helsevesenets arbeid.",
+      "funFacts": [
+        "Latvias Pauls Stradiņš universitetssykehus i Riga er landets største medisinske senter.",
+        "Riga Stradiņš University utdanner leger fra mange land på engelsk.",
+        "Dagen faller alltid på en søndag, så feiringen finner ofte sted på fredagen før."
+      ]
+    },
+    "memorial_lv_heroes_commemoration_day_anniversary_of_the_battle_of_cesis": {
+      "intro": "Heltenes minnedag 22. juni minner om slaget ved Cēsis i 1919, et vendepunkt i den latviske uavhengighetskrigen.",
+      "history": "Mellom 19. og 23. juni 1919 beseiret estiske tropper og latviske enheter den tyske baltiske Landeswehr nær Cēsis. Seieren avsluttet tyske planer om å kontrollere Østersjøen og sikret regjeringen til Kārlis Ulmanis. Estland feirer det samme slaget 23. juni som Seiersdagen.",
+      "traditions": "Seremonier holdes ved monumentet over de falne i Cēsis og på brødrenes kirkegård i Riga. Latviske og estiske tjenestemenn minnes ofte slaget sammen.",
+      "funFacts": [
+        "Latviske skolegutter fra Cēsis kjempet i kampen som et frivillig selskap.",
+        "Cēsis slott, et av de best bevarte middelalderslottene i Latvia, har utsikt over byen.",
+        "Slaget kalles noen ganger 'slaget ved Võnnu' i Estland, etter det estiske navnet Cēsis."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_genocide_against_the_jews": {
+      "intro": "4. juli til minne om folkemordet på jødene i Latvia under den tyske okkupasjonen, der rundt 70 000 latviske jøder ble myrdet.",
+      "history": "Den 4. juli 1941 ble den store korsynagogen i Riga satt i brann med folk inne, i likhet med andre synagoger i byen. Masseskyting fulgte, fremfor alt ved Rumbula og Biķernieki på slutten av 1941. Minnedagen ble etablert i 1990.",
+      "traditions": "Kranser legges ved ruinene av den store korsynagogen på Gogoļa iela og ved minnesmerkene Rumbula og Biķernieki. Žanis Lipke-minnesmerket hedrer latviere som gjemte jøder med fare for eget liv.",
+      "funFacts": [
+        "Žanis Lipke, en havnearbeider i Riga, reddet mer enn 50 jøder og er hedret som rettferdig blant nasjonene.",
+        "Minnesmerket ved synagogeruinene inkluderer en vegg med navn på redningsmennene.",
+        "Før krigen bodde det rundt 93 000 jøder i Latvia, omtrent fem prosent av befolkningen."
+      ]
+    },
+    "memorial_lv_day_of_the_sea_festival": {
+      "intro": "Sjøfestivalen den andre lørdagen i juli feirer fiskere, sjømenn og alle som har sitt liv knyttet til Østersjøen.",
+      "history": "Festivalen vokste ut av fiskernes feiringer på 1930-tallet og ble en tradisjon i kystbyer som Liepāja, Ventspils og Roja. Den overlevde sovjettiden og har vært en offisiell feiringsdag siden uavhengigheten.",
+      "traditions": "Båter er velsignet og dekorert, Neptun kommer fra havet og 'døper' nykommere, og det serveres fiskesuppe på kaiene. Konserter, båtracer og messer fortsetter til langt ut på sommernatten.",
+      "funFacts": [
+        "Latvias kystlinje er omtrent 500 kilometer lang.",
+        "Røkt fisk, spesielt brisling og flyndre, er festivalens klassiske rett.",
+        "I Ventspils er festivalen kombinert med byfestivalen og trekker titusenvis av besøkende."
+      ]
+    },
+    "memorial_lv_latvian_freedom_fighters_remembrance_day": {
+      "intro": "11. august hedrer frihetskjemperne i den latviske uavhengighetskrigen og markerer fredsavtalen med Sovjet-Russland i 1920 som avsluttet krigen.",
+      "history": "I Riga-traktaten av 11. august 1920 anerkjente Sovjet-Russland Latvias uavhengighet \"til alle tider\". Krigen fra 1918 til 1920 hadde blitt utkjempet mot bolsjevikiske styrker, tyske enheter og den vestrussiske frivillige hæren. Rundt 3000 latviske soldater døde.",
+      "traditions": "Det legges ned kranser ved Frihetsmonumentet og på brødrenes kirkegård i Riga, hvor de falne fra krigen er gravlagt. Forsvaret holder en seremoni, og veteranorganisasjonene minnes de frivillige.",
+      "funFacts": [
+        "Brødrenes kirkegård i Riga ble designet av billedhuggeren Kārlis Zāle, som også skapte Frihetsmonumentet.",
+        "Frihetsmonumentet, avduket i 1935, bærer påskriften 'For fedreland og frihet'.",
+        "Sovjetunionen brøt den \"evige\" fredsavtalen tjue år senere med okkupasjonen i 1940."
+      ]
+    },
+    "memorial_lv_day_of_the_passing_of_the_constitutional_law_on_the_status_of_the_republic_of_latvia_as_a_state": {
+      "intro": "21. august markerer dagen i 1991 da det latviske parlamentet vedtok den konstitusjonelle loven som fullt ut gjenopprettet landets uavhengighet.",
+      "history": "Latvia hadde erklært overgang til uavhengighet 4. mai 1990. Under det mislykkede kuppet i Moskva vedtok Høyesterådet 21. august 1991 loven som erklærte Latvia som en fullstendig uavhengig stat. I løpet av få dager anerkjente Sovjetunionen og verden det.",
+      "traditions": "Flagget heises på offentlige bygninger, og Saeima holder en seremoni. Dagen huskes ofte sammen med 4. mai, dagen for gjenoppretting av uavhengighet, som er en helligdag.",
+      "funFacts": [
+        "Island var det første landet som anerkjente den gjenopprettede latviske uavhengigheten 22. august 1991.",
+        "Avstemningen i det øverste rådet ble foretatt mens sovjetiske tropper fortsatt var i landet.",
+        "Latvia meldte seg inn i FN igjen 17. september 1991."
+      ]
+    },
+    "memorial_lv_day_of_remembrance_for_victims_of_stalinism_and_nazism": {
+      "intro": "23. august er den europeiske minnedagen for ofrene for stalinisme og nazisme, årsdagen for Molotov-Ribbentrop-pakten i 1939 og for Baltic Way i 1989.",
+      "history": "Den 23. august 1939 signerte Tyskland og Sovjetunionen en ikke-angrepspakt med en hemmelig protokoll som deler Øst-Europa, som beseglet skjebnen til de baltiske statene. Femti år senere, 23. august 1989, dannet rundt to millioner mennesker en menneskelig kjede fra Tallinn gjennom Riga til Vilnius for å kreve uavhengighet.",
+      "traditions": "Seremonier holdes ved Frihetsmonumentet i Riga, og det tennes lys til minne om ofrene for begge regimene. The Baltic Way minnes tilbake med utstillinger og filmer, og dagen markeres over hele EU.",
+      "funFacts": [
+        "The Baltic Way strakte seg rundt 675 kilometer over de tre landene.",
+        "Dokumentene fra Baltic Way ble lagt til UNESCOs verdensminneregister i 2009.",
+        "Europaparlamentet utropte minnedagen i 2009."
+      ]
+    },
+    "memorial_lv_knowledge_day": {
+      "intro": "Kunnskapsdagen 1. september er første dag i skoleåret i Latvia, da elever kommer med blomster til lærerne og førsteklassinger begynner på skolen.",
+      "history": "Tradisjonen med en seremoniell første skoledag kommer fra sovjettiden, da 1. september ble gjort til uniformsstart på skoleåret over hele landet. Latvia har beholdt datoen og det festlige preget.",
+      "traditions": "Elever i sine beste klær bærer buketter av gladioler og asters; førsteklassinger ledes inn på skolen av eldre elever. Skoler holder samlinger med taler og musikk, og universiteter åpner studieåret.",
+      "funFacts": [
+        "Blomsterbutikker i Latvia har sin travleste dag i året 1. september.",
+        "Den første klokken blir ringt av en eldre elev som bærer en førsteklassing på skuldrene på mange skoler.",
+        "Dagen feires også i Russland, Ukraina og andre tidligere sovjetiske land."
+      ]
+    },
+    "memorial_lv_baltic_unity_day": {
+      "intro": "Baltic Unity Day den 22. september minner om slaget ved Saule i 1236 og feirer de felles røttene til latviere og litauere.",
+      "history": "Den 22. september 1236 beseiret samogitiske og semigalliske styrker de liviske sverdbrødrene nær Saule, den første store seieren til de baltiske folk over korstogsordenene. Parlamentene i Latvia og Litauen etablerte dagen i 2000.",
+      "traditions": "Det tennes bål på begge sider av grensen, og folkegrupper fremfører eldgamle sanger og danser. Konserter og fellesarrangementer finner sted i grensebyer, og forskere diskuterer den felles arven til de baltiske språkene.",
+      "funFacts": [
+        "Latvisk og litauisk er de eneste to overlevende baltiske språkene.",
+        "Bål på samme time langs grensen symboliserer enhet.",
+        "Den nøyaktige plasseringen av slaget er fortsatt omstridt mellom historikere."
+      ]
+    },
+    "memorial_lv_international_day_of_older_persons": {
+      "intro": "Den internasjonale dagen for eldre 1. oktober hedrer eldres bidrag til samfunnet og øker bevisstheten om deres behov.",
+      "history": "FNs generalforsamling utropte dagen i 1990, og den ble første gang observert i 1991. Latvia, hvis befolkning er blant de eldste i Europa, inkluderer den i sin offisielle kalender.",
+      "traditions": "Seniorklubber, kommuner og kulturhus arrangerer konserter, utstillinger og helsedager. Pensjonistorganisasjoner bruker dagen til å diskutere pensjon og omsorg, og barnebarn besøker ofte besteforeldrene sine.",
+      "funFacts": [
+        "Hver femte innbygger i Latvia er over 65 år.",
+        "Mange latviske kommuner tilbyr gratis offentlig transport for pensjonister.",
+        "FN setter et tema hvert år, for eksempel digital inkludering eller motstandskraft."
+      ]
+    },
+    "memorial_lv_teachers_day": {
+      "intro": "Lærernes dag 5. oktober takker lærerne for deres arbeid og faller sammen med UNESCOs verdenslærerdag.",
+      "history": "UNESCO utropte Verdens lærerdag i 1994 for å minnes anbefalingen fra 1966 om lærernes status. I Latvia ble lærernes dag feiret allerede i sovjettiden den første søndagen i oktober; datoen ble senere på linje med den internasjonale dagen.",
+      "traditions": "Elevene tar med seg blomster og små gaver, og eldre elever tar ofte over timene for en dag. Kunnskapsdepartementet premierer fremragende lærere, og skolene holder konserter.",
+      "funFacts": [
+        "På mange latviske skoler organiserer elevene en \"selvstyredag\" der de driver skolen.",
+        "Latvia har rundt 25 000 lærere.",
+        "Prisen for årets latviske lærer har blitt delt ut siden 1994."
+      ]
+    },
+    "memorial_lv_official_language_day": {
+      "intro": "Offisiell språkdag 15. oktober feirer latvisk som statsspråk og dets rolle i landets identitet.",
+      "history": "Den 15. oktober 1998 endret Saeima grunnloven for å erklære latvisk som det offisielle språket i republikken Latvia. Dagen brukes til å promotere språket, som snakkes av rundt to millioner mennesker over hele verden.",
+      "traditions": "Biblioteker, skoler og nasjonalbiblioteket i Riga holder opplesninger, dikteringskonkurranser og forelesninger. Priser deles ut til personer som har bidratt til det latviske språket, og det arrangeres arrangementer for nykommere som lærer latvisk.",
+      "funFacts": [
+        "Latvisk er ett av de to overlevende baltiske språkene ved siden av litauisk.",
+        "Det latviske nasjonalbiblioteket, 'Lysets slott', åpnet i 2014 ved bredden av Daugava.",
+        "Det latviske alfabetet har 33 bokstaver, inkludert 'ķ', 'ļ' og 'ņ'."
+      ]
+    },
+    "memorial_lv_border_guards_day": {
+      "intro": "Grensevaktens dag 7. november hedrer den latviske statsgrensevakten, grunnlagt på denne datoen i 1919.",
+      "history": "De første grensevaktenhetene ble opprettet 7. november 1919 under uavhengighetskrigen. Tjenesten ble oppløst under sovjetisk styre, og ble reetablert i 1991 og beskytter i dag den ytre grensen til EU med Russland og Hviterussland.",
+      "traditions": "Grensevakten holder en seremoniell parade og prisutdeling, og Grensevaktens høyskole i Rēzekne åpner dørene. Det legges ned kranser til minne om vakter som døde på vakt.",
+      "funFacts": [
+        "Latvias østlige grense mot Russland og Hviterussland er omtrent 460 kilometer lang.",
+        "Grensevakten bruker hunder, droner og patruljebåter på Østersjøen.",
+        "Et grensegjerde langs den hviterussiske grensen ble ferdigstilt på 2020-tallet."
+      ]
+    },
+    "memorial_lv_lacplesis_day": {
+      "intro": "Lāčplēsis-dagen 11. november minnes den latviske hærens seier over den vestrussiske frivillige hæren i Riga i 1919 og hedrer alle som kjempet for Latvias frihet.",
+      "history": "Den 11. november 1919 drev latviske tropper Pavel Bermondt-Avalovs styrker ut av Riga, en avgjørende seier i uavhengighetskrigen. Dagen er oppkalt etter Lāčplēsis, 'bjørnedreper'-helten i det latviske nasjonaleposet, og Lāčplēsis-ordenen ble opprettet for krigens helter.",
+      "traditions": "Om kvelden setter tusenvis av mennesker lys langs veggen til Riga slott på Daugava-vollen, og skaper et hav av lys. Fakkeltog og seremonier holdes over hele landet, og folk bærer et rødt-hvitt-rødt bånd.",
+      "funFacts": [
+        "Det episke 'Lāčplēsis' ble skrevet av Andrejs Pumpurs i 1888.",
+        "The Order of Lāčplēsis ble tildelt 2.146 personer, inkludert 11 kvinner.",
+        "Lystradisjonen på Riga slott begynte i 1988 under uavhengighetsbevegelsen."
+      ]
+    },
+    "memorial_lv_remembrance_day_of_the_tragedy_of_21_november_2013": {
+      "intro": "21. november minnes de 54 menneskene som døde da taket på et supermarked kollapset i Zolitūde-distriktet i Riga i 2013.",
+      "history": "Om kvelden 21. november 2013 kollapset taket på et Maxima-supermarked i løpet av handletiden; blant de døde var tre brannmenn drept da en annen seksjon falt under redningen. Det var den dødeligste katastrofen i Latvia siden uavhengigheten og førte til strengere byggeregler.",
+      "traditions": "Det holdes en minnegudstjeneste ved minnesmerket i Zolitūde, og det tennes lys på stedet. Flagg vaier på halv stang, og navnene på ofrene leses opp.",
+      "funFacts": [
+        "Statsministeren trakk seg seks dager etter katastrofen og tok politisk ansvar.",
+        "Minnesmerket på stedet bærer navnene på alle de 54 ofrene.",
+        "En nasjonal sørgedag ble erklært for første gang i det uavhengige Latvia."
+      ]
+    },
+    "memorial_lv_police_day": {
+      "intro": "Politiets dag 5. desember hedrer det latviske statspolitiet, grunnlagt på denne datoen i 1918, tre uker etter erklæringen om uavhengighet.",
+      "history": "Det latviske politiet ble opprettet 5. desember 1918 som en av de første institusjonene i den nye staten. Avskaffet under sovjetisk styre, ble det reetablert i 1991 og inkluderer i dag statspolitiet, kommunalt politi og sikkerhetspolitiet.",
+      "traditions": "Innenriksdepartementet holder en prisutdeling for anerkjente offiserer, og politistasjoner åpner dørene for publikum. Det legges ned kranser til minne om offiserer som døde på vakt.",
+      "funFacts": [
+        "Statspolitiet har rundt 6000 ansatte.",
+        "Det latviske politimuseet i Riga viser uniformer og utstyr fra et århundre med politiarbeid.",
+        "Politiets dag og grensevaktens dag er begge knyttet til grunnårene til staten."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_victims_of_genocide_against_the_latvian_people_by_the_totalitarian_communist_regime": {
+      "intro": "Den første søndagen i desember minnes Latvia latvierne som ble drept under den sovjetiske 'latvianske operasjonen' i 1937 og 1938 og alle ofrene for kommunistregimet.",
+      "history": "Den 3. desember 1937 startet det sovjetiske hemmelige politiet NKVD den 'latviske operasjonen', der mer enn 22 000 latviere bosatt i Sovjetunionen ble arrestert og rundt 16 000 skutt. Minnedagen minner om dette og de senere undertrykkelsene etter 1940.",
+      "traditions": "Minnegudstjenester holdes ved Frihetsmonumentet i Riga og i kirker, og det tennes lys ved minnesmerker. Okkupasjonsmuseet og historikere presenterer forskning om ofrenes skjebne.",
+      "funFacts": [
+        "Den latviske operasjonen var en av flere 'nasjonale operasjoner' under den store terroren.",
+        "Mange av ofrene var etterkommere av latviske bønder som hadde slått seg ned i Russland på 1800-tallet.",
+        "Minnestedet ved Levashovo nær St. Petersburg har et monument over de latviske ofrene."
+      ]
+    },
+    "memorial_si_primoz_trubar_day": {
+      "intro": "Primož Trubar-dagen 8. juni hedrer den protestantiske reformatoren som skrev og trykket de første bøkene på slovensk i 1550.",
+      "history": "Trubar ble født 8. juni 1508 i Rašica nær Ljubljana. Som luthersk predikant måtte han flykte til Tyskland, hvor han ga ut 'Catechismus' og 'Abecedarium', de første trykte slovenske bøkene, som la grunnlaget for skriftspråket. Dagen har vært en nasjonal fridag siden 2010.",
+      "traditions": "Seremonier holdes ved Trubars monument i Ljubljana og på fødestedet hans i Rašica, hvor et minnehus står. Skoler diskuterer historien til det slovenske språket, og den protestantiske kirken holder gudstjenester.",
+      "funFacts": [
+        "Trubar vises på den slovenske en-euromynten.",
+        "Han tiltalte leserne sine som \"mine kjære slovenere\", en av de første brukene av navnet for hele nasjonen.",
+        "Reformasjonsdagen 31. oktober er også en helligdag i Slovenia, delvis til ære for ham."
+      ]
+    },
+    "memorial_si_sovereignty_day": {
+      "intro": "Suverenitetsdagen 25. oktober markerer at den siste jugoslaviske soldaten dro fra slovensk territorium i 1991, og fullførte landets uavhengighet.",
+      "history": "Etter ti-dagers krigen i juni og juli 1991 gikk den jugoslaviske folkehæren med på å trekke seg. Natt mellom 25. og 26. oktober 1991 dro de siste soldatene gjennom havnen i Koper. Dagen ble en nasjonal fridag i 2015.",
+      "traditions": "Det holdes en statlig seremoni, ofte i Koper, og flagget heises på offentlige bygninger. Veteraner fra uavhengighetskrigen deltar, og skolene husker hendelsene i 1991.",
+      "funFacts": [
+        "De siste soldatene dro med ferge fra Koper til Rijeka.",
+        "Slovenias ti-dagers krig forårsaket færre enn 80 dødsfall, langt færre enn de senere krigene i regionen.",
+        "Slovenia ble med i EU og NATO i 2004."
+      ]
+    },
+    "memorial_si_unification_of_prekmurje_slovenes_with_the_mother_nation": {
+      "intro": "17. august til minne om foreningen av Prekmurje med resten av de slovenske landene i 1919, etter århundrer med ungarsk styre.",
+      "history": "Prekmurje, regionen utenfor elven Mura, hadde tilhørt kongeriket Ungarn i tusen år. Etter første verdenskrig tildelte fredskonferansen i Paris det til det nye kongeriket av serbere, kroater og slovenere, og 17. august 1919 ble unionen feiret på et møte i Beltinci. Dagen har vært en nasjonal fridag siden 2006.",
+      "traditions": "Det holdes en statlig seremoni i Prekmurje, ofte i Beltinci eller Murska Sobota, med folkemusikk og regionens tradisjonelle retter. Lokale foreninger arrangerer utstillinger om regionens historie.",
+      "funFacts": [
+        "Prekmurje er kjent for sitt lagdelte bakverk 'prekmurska gibanica' og for storkene.",
+        "Regionen utviklet sitt eget litterære språk på 1700-tallet.",
+        "Murska Sobota er den eneste slovenske regionale hovedstaden på den andre siden av Mura."
+      ]
+    },
+    "memorial_si_integration_of_primorska_into_the_homeland": {
+      "intro": "15. september markerer dagen i 1947 da fredsavtalen i Paris trådte i kraft og det meste av den slovenske Littoral (Primorska) ble sluttet til Slovenia.",
+      "history": "Etter første verdenskrig var Littoral blitt tildelt Italia, hvor den slovenske befolkningen led tvungen italienisering under fascismen. Fredsavtalen med Italia fra 1947 returnerte størstedelen av regionen til Jugoslavia og dermed til Slovenia. Dagen ble en nasjonal fridag i 2005.",
+      "traditions": "En statlig seremoni finner sted i en av Littoral-byene som Nova Gorica, Koper eller Sežana, med taler og konserter. Littoral-hymnen 'Vstala Primorska' synges, og kor opptrer over hele regionen.",
+      "funFacts": [
+        "Trieste, det historiske sentrum av regionen, forble i Italia og var omstridt til 1954.",
+        "Nova Gorica ble bygget etter 1947 som en ny by fordi Gorizia holdt seg på den italienske siden.",
+        "Slovenias korte kystlinje på rundt 47 kilometer ligger utelukkende i Primorska."
+      ]
+    },
+    "memorial_si_slovenian_sports_day": {
+      "intro": "Slovenian Sports Day 23. september feirer landets idrettsutøvere og oppfordrer alle til å være aktive.",
+      "history": "Datoen minner om 23. september 2000, da Slovenia vant sine første olympiske gullmedaljer ved lekene i Sydney i roing og skyting. Ferien ble innført i 2020 og er ikke en fridag.",
+      "traditions": "Sportsklubber og skoler arrangerer gratis treningsøkter, løp og turneringer, og toppidrettsutøvere blir hedret. Mange går bare fotturer, sykler eller går på ski, det nasjonale tidsfordriv.",
+      "funFacts": [
+        "Slovenia har vunnet flere olympiske medaljer per innbygger enn nesten noe annet land.",
+        "Skihopping på Planica og sykkelstjerner som Tadej Pogačar og Primož Roglič er nasjonale lidenskaper.",
+        "Den slovenske olympiske komité kjører et landsomfattende \"sport for alle\"-program denne dagen."
+      ]
+    },
+    "memorial_si_rudolf_maister_day": {
+      "intro": "Rudolf Maister-dagen 23. november hedrer generalen som sikret Maribor og Nedre Steiermark-regionen for Slovenia i 1918.",
+      "history": "I november 1918, da det østerriksk-ungarske riket kollapset, tok major Rudolf Maister kommandoen i Maribor, avvæpnet den tysk-østerrikske garde 23. november og sikret den nordlige grensen for den nye sørslaviske staten. Dagen har vært en nasjonal fridag siden 2005.",
+      "traditions": "Seremonier holdes ved Maisters monument i Maribor og i Ljubljana, og de væpnede styrkene hyller. Skoler og lokalforeninger minner om kampene om nordgrensen.",
+      "funFacts": [
+        "Maister var også en poet som publiserte under pennenavnet Vojanov.",
+        "Uten hans handling kunne Maribor ha blitt en del av Østerrike, slik det tysktalende rådet hadde ønsket.",
+        "De slovenske væpnede styrkene oppkalte en brakke og en pris etter ham."
+      ]
+    },
+    "memorial_sk_day_of_the_constitution_of_the_slovak_republic": {
+      "intro": "Grunnlovsdagen 1. september til minne om vedtakelsen av den slovakiske republikkens grunnlov i 1992, fire måneder før landet ble selvstendig.",
+      "history": "Det slovakiske nasjonalrådet vedtok grunnloven 1. september 1992, og den ble undertegnet to dager senere på Bratislava slott. 1. januar 1993 ble Tsjekkoslovakia fredelig oppløst i Tsjekkia og Slovakia. Dagen var en helligdag frem til 2024 og er fortsatt en minnedag.",
+      "traditions": "Bratislava slott åpner dørene, og nasjonalrådet holder en seremoni. Presidenten deler ut statlig æresbevisning til fremstående borgere, og flagget heises på offentlige bygninger.",
+      "funFacts": [
+        "Grunnloven ble signert i riddersalen på Bratislava slott.",
+        "Den fredelige separasjonen av Tsjekkoslovakia er kjent som \"Velvet Divorce\".",
+        "Slovakia introduserte euroen i 2009, fire år etter at naboen Tsjekkia ikke gjorde det."
+      ]
+    },
+    "memorial_sk_struggle_for_freedom_and_democracy_day": {
+      "intro": "17. november minnes studentenes protester i 1939 og 1989 og begynnelsen av fløyelsrevolusjonen som avsluttet kommuniststyret i Tsjekkoslovakia.",
+      "history": "Den 17. november 1939 stengte de nazistiske okkupantene tsjekkiske universiteter og henrettet ni studenter etter protester i Praha. Femti år senere, den 17. november 1989, ble en studentdemonstrasjon i Praha voldelig spredt, noe som utløste masseprotestene som falt regimet i løpet av uker. Dagen er en helligdag i både Slovakia og Tsjekkia.",
+      "traditions": "Det holdes samlinger med levende lys og taler i Bratislava og andre byer, og folk ringer på nøkler som de gjorde i 1989. Konserter og diskusjoner med deltakere i revolusjonen finner sted, og dagen er også den internasjonale studentenes dag.",
+      "funFacts": [
+        "Jingling keys ble lyden av fløyelsrevolusjonen, og symboliserte budskapet \"time to go\" til kommunistene.",
+        "I Bratislava fant den første store demonstrasjonen sted på plassen for det slovakiske nasjonalopprøret.",
+        "Alexander Dubček, ansiktet til våren i Praha i 1968, kom tilbake til det offentlige liv under revolusjonen."
+      ]
+    },
+    "memorial_ve_teachers_day": {
+      "intro": "Lærernes dag 15. januar hedrer Venezuelas lærere og minner om stiftelsen av den første nasjonale lærerforeningen i 1932.",
+      "history": "Den 15. januar 1932 grunnla lærere Sociedad Venezolana de Maestros de Instrucción Primaria for å forbedre skolegangen under Gómez-diktaturet. President Rómulo Betancourt gjorde datoen til den offisielle lærerdagen i 1945.",
+      "traditions": "Elevene har med seg blomster, kort og små gaver, og skolene holder samlinger og konserter. Lærere med lang tjeneste mottar priser, og universiteter hedrer utmerkede lærere.",
+      "funFacts": [
+        "Simón Rodríguez, læreren til Simón Bolívar, blir sett på som modellen til den venezuelanske læreren.",
+        "Grunnleggerne av samfunnet inkluderte forfatteren Luis Beltrán Prieto Figueroa, senere presidentkandidat.",
+        "Mange latinamerikanske land feirer lærerne sine på forskjellige datoer; Venezuelas er en av de tidligste på året."
+      ]
+    },
+    "memorial_ve_youth_day": {
+      "intro": "Ungdomsdagen 12. februar til minne om slaget ved La Victoria i 1814, der studenter og seminarister kjempet under José Félix Ribas for Venezuelas uavhengighet.",
+      "history": "Den 12. februar 1814 forsvarte Ribas byen La Victoria mot royalistiske tropper med en styrke som inkluderte hundrevis av unge studenter fra Caracas. Hans ord \"Vi kan ikke velge mellom å vinne eller dø: vi må vinne\" ble kjent. Dagen ble erklært ungdomsdagen i 1947.",
+      "traditions": "Parader, konserter og sportsbegivenheter for ungdom holdes over hele landet, og det legges ned kranser ved monumentet til Ribas i La Victoria. Skoler iscenesetter gjeninnføringer av slaget.",
+      "funFacts": [
+        "12. februar er også bursdagen til Abraham Lincoln og Charles Darwin.",
+        "Ribas var onkel i ekteskap til Simón Bolívar.",
+        "Den venezuelanske delstaten Aragua, der La Victoria ligger, kaller seg ungdommens vugge."
+      ]
+    },
+    "memorial_ve_slavery_abolition_anniversary": {
+      "intro": "Denne dagen til minne om avskaffelsen av slaveriet i Venezuela, vedtatt av president José Gregorio Monagas i mars 1854.",
+      "history": "Slaveri hadde eksistert i Venezuela siden 1500-tallet, spesielt på kakaoplantasjene. Simón Bolívar hadde lovet frihet til slaver under uavhengighetskrigene, men full avskaffelse kom først med loven fra 1854, som frigjorde rundt 40 000 mennesker. Dagen er markert som en høytid i den nasjonale kalenderen.",
+      "traditions": "Afro-venezuelanske samfunn organiserer trommefestivaler, danser og kulturelle arrangementer, spesielt i kystregionene Barlovento og Yaracuy. Skoler og museer diskuterer slaveriets historie og dets arv.",
+      "funFacts": [
+        "José Leonardo Chirino ledet et opprør av slaver og frie mennesker i Coro i 1795, husket i dag som en forløper for avskaffelse.",
+        "Tambor-trommetradisjonene på Venezuelas kyst har sine røtter i kulturen til slavede afrikanere.",
+        "Venezuela var en av de siste spansktalende republikkene på fastlandet som avskaffet slaveriet."
+      ]
+    },
+    "memorial_ve_foundation_anniversary_day_of_san_cristobal_tachira": {
+      "intro": "31. mars markerer grunnleggelsen av San Cristóbal, hovedstaden i den andinske delstaten Táchira, av den spanske kapteinen Juan Maldonado i 1561.",
+      "history": "Juan Maldonado y Ordóñez grunnla 'Villa de San Cristóbal' 31. mars 1561 som et stoppested på veien mellom Andesfjellene og slettene. Byen vokste til et handelssenter for kaffe og har i dag rundt 300 000 innbyggere.",
+      "traditions": "Byen feirer med en borgerparade, konserter og en messe i katedralen. Jubileet ligger like ved Feria Internacional de San Sebastián i januar, regionens største festival, og lokal stolthet uttrykkes med musikk og mat.",
+      "funFacts": [
+        "San Cristóbal ligger omtrent 800 meter over havet i en dal i Andesfjellene.",
+        "Byens fotballklubb, Deportivo Táchira, er en av Venezuelas mest suksessrike.",
+        "Feria de San Sebastián trekker hundretusenvis av besøkende hver januar."
+      ]
+    },
+    "memorial_ve_journalists_day": {
+      "intro": "Journalistdagen 27. juni minner om den første utgaven av avisen 'Correo del Orinoco', grunnlagt av Simón Bolívar i 1818.",
+      "history": "Correo del Orinoco ble først publisert i Angostura, i dag Ciudad Bolívar, den 27. juni 1818 som stemmen til uavhengighetsbevegelsen. Dagen ble erklært Journalistenes Dag i 1964 og minnes også et dekret fra 1870 som gjorde grunnskoleopplæring gratis og obligatorisk.",
+      "traditions": "Journalistforeninger deler ut priser, og universiteter holder diskusjoner om pressefrihet. Huset til Correo del Orinoco i Ciudad Bolívar, nå et museum, arrangerer en seremoni.",
+      "funFacts": [
+        "Bolívar kalte trykkpressen «like nyttig som militære forsyninger».",
+        "Den originale trykkpressen til Correo del Orinoco kan fortsatt sees i Ciudad Bolívar.",
+        "27. juni er også utdanningsdagen i Venezuela på grunn av dekretet fra 1870."
+      ]
+    },
+    "memorial_ve_caracas_city_foundation_day": {
+      "intro": "25. juli markerer grunnleggelsen av Caracas av den spanske conquistadoren Diego de Losada i 1567, fødselsdagen til Venezuelas hovedstad.",
+      "history": "Losada grunnla 'Santiago de León de Caracas' den 25. juli 1567 i dalen til elven Guaire, på festen for Saint James. Byen ble sete for generalkapteinen i Venezuela i 1777 og fødestedet til Simón Bolívar.",
+      "traditions": "Byen holder konserter, utstillinger og en tradisjonell messe i katedralen på Plaza Bolívar, hvor byens grunnleggelse minnes om. Museer og det historiske sentrum tilbyr gratis besøk, og dagen markeres med fyrverkeri.",
+      "funFacts": [
+        "Caracas ligger omtrent 900 meter over havet under Ávila-fjellet, hvis nasjonalpark er byens grønne lunge.",
+        "Taubanen Ávila tar besøkende til over 2000 meter med utsikt over byen og Karibien.",
+        "Byens våpen viser en løve som holder et kamskjell, symbolet på Saint James."
+      ]
+    },
+    "memorial_ve_flag_day": {
+      "intro": "Flaggdagen 3. august feirer den første hevingen av den venezuelanske trikoloren av Francisco de Miranda på La Vela de Coro i 1806.",
+      "history": "Miranda, en forløper for uavhengighet, landet på La Vela de Coro 3. august 1806 og heiste det gule, blå og røde flagget han hadde designet. Flaggdagen ble feiret 12. mars til 2006, da den ble flyttet til 3. august for å hedre den første hevingen på venezuelansk jord.",
+      "traditions": "Det heises flagg ved skoler, offentlige bygninger og militærbaser, og nasjonalsangen synges. Det holdes en seremoni på La Vela de Coro, og barna lærer betydningen av fargene: gull for rikdom, blått for havet og rødt for heltenes blod.",
+      "funFacts": [
+        "De samme tre fargene vises på flaggene til Colombia og Ecuador, som tilhørte Gran Colombia.",
+        "Flaggets bue av stjerner vokste fra syv til åtte i 2006, og provinsen Guayana ble lagt til.",
+        "Mirandas originale flagg ble heist fra skipet hans, Leander."
+      ]
+    },
+    "memorial_de_june_17_uprising": {
+      "intro": "17. juni til minne om folkeopprøret i 1953 i Øst-Tyskland, da mer enn en million mennesker protesterte mot SED-regimet og ble knust av sovjetiske stridsvogner.",
+      "history": "Opprøret startet 16. juni 1953 med en streik fra bygningsarbeidere på Stalinallee i Øst-Berlin mot økte arbeidskvoter og spredte seg i løpet av en dag til hundrevis av byer. Sovjetiske tropper erklærte krigslov, og minst 55 mennesker døde. Vest-Tyskland gjorde 17. juni til \"dagen for tysk enhet\" fra 1954 til gjenforeningen i 1990.",
+      "traditions": "Kranser legges ved minnesmerket foran det tidligere ministerhuset på Leipziger Straße i Berlin og ved gravene til ofrene på Seestraße kirkegård. Forbundsdagen og delstatsparlamentene holder minnemarkeringer.",
+      "funFacts": [
+        "Boulevarden som fører til Brandenburger Tor i Berlin har blitt kalt 'Straße des 17. Juni' siden 1953.",
+        "Rundt 15.000 mennesker ble arrestert etter opprøret.",
+        "Begivenhetene regnes som det første folkeopprøret mot et kommunistisk regime i østblokken."
       ]
     },
     "memorial_de_november_pogroms": {
-      "intro": "9. november minnes de antisemittiske pogromene i 1938.",
+      "intro": "9. november til minne om novemberpogromene i 1938, da synagoger, jødiske butikker og hjem over hele Tyskland og Østerrike ble angrepet og ødelagt.",
+      "history": "Natten mellom 9. og 10. november 1938 organiserte naziregimet landsomfattende vold mot jøder: mer enn 1400 synagoger ble satt i brann, rundt 30.000 jødiske menn ble deportert til konsentrasjonsleirer og hundrevis av mennesker ble drept. Pogromene markerte overgangen fra diskriminering til systematisk forfølgelse.",
+      "traditions": "Minnemarkeringer holdes ved synagoger og minnesteder; i mange byer rengjør folk Stolpersteine, små messingplaketter satt inn på fortauet foran ofrenes siste hjem, og setter lys ved siden av dem. Skolene diskuterer dagens historie.",
       "funFacts": [
-        "Synagoger ble ødelagt, og jøder ble forfulgt, deportert og drept."
+        "9. november kalles Tysklands 'skjebnedag': republikken ble utropt i 1918 og Berlinmuren falt i 1989 på samme dato.",
+        "Mer enn 100 000 Stolpersteine har blitt lagt over hele Europa siden 1992.",
+        "Det nazistiske uttrykket \"Kristallnatt\" unngås i dag fordi det bagatelliserer volden."
       ]
     },
     "memorial_de_victims_of_national_socialism": {
-      "intro": "27. januar minnes nazismens ofre.",
+      "intro": "27. januar er Tysklands minnedag for nasjonalsosialismens ofre, årsdagen for frigjøringen av konsentrasjons- og utryddelsesleiren Auschwitz i 1945.",
+      "history": "Forbundspresident Roman Herzog utropte dagen i 1996. I 2005 vedtok FN 27. januar som den internasjonale minnedagen for holocaust. Sovjetiske tropper frigjorde Auschwitz 27. januar 1945, hvor mer enn én million mennesker var blitt myrdet.",
+      "traditions": "Forbundsdagen holder en minnetime med en tale av en overlevende eller en fremtredende gjest. Flagg vaier på halv stang på offentlige bygninger, og minnesteder, skoler og kirker arrangerer arrangementer. Mange tenner et lys i vinduet sitt om kvelden.",
       "funFacts": [
-        "På denne dagen i 1945 ble konsentrasjons- og utryddelsesleiren Auschwitz befridd."
+        "Dagen minnes alle grupper som er forfulgt av nazistene: jøder, sinti og rom, mennesker med funksjonshemminger, homofile, politiske fanger og mange andre.",
+        "Minnesmerket over de myrdede jødene i Europa i Berlin består av 2711 betongsteler.",
+        "Ordene \"Aldri igjen\" er budskapet som forener minnesmerker på denne dagen over hele verden."
       ]
     }
   }

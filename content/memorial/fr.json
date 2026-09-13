@@ -145,22 +145,744 @@
       ],
       "imageCredit": "Photo: Arlington National Cemetery · Public domain via Wikimedia Commons"
     },
-    "memorial_de_june_17_uprising": {
-      "intro": "Le 17 juin rappelle le soulèvement de 1953 en RDA.",
+    "memorial_am_armenian_genocide_remembrance_day": {
+      "intro": "Le 24 avril, les Arméniens du monde entier se souviennent des victimes du génocide de 1915 dans l'Empire ottoman, au cours duquel environ 1,5 million d'Arméniens ont perdu la vie.",
+      "history": "Le 24 avril 1915, des centaines d'intellectuels et de dirigeants communautaires arméniens furent arrêtés à Constantinople, événement qui marqua le début des déportations et des massacres. L'Arménie observe officiellement cette journée depuis 1988 et elle est devenue un jour férié après l'indépendance.",
+      "traditions": "Des centaines de milliers de personnes se rendent au mémorial de Tsitsernakaberd à Erevan pour déposer des fleurs autour de la flamme éternelle. Des services religieux, une minute de silence et des concerts du souvenir ont lieu dans toute l'Arménie et la diaspora.",
       "funFacts": [
-        "Les manifestations furent violemment réprimées."
+        "Le mémorial de Tsitsernakaberd a été inauguré en 1967 ; ses douze dalles de basalte symbolisent les provinces perdues de l'Arménie occidentale historique.",
+        "Le myosotis est devenu le symbole officiel du centenaire en 2015 et est toujours porté aujourd'hui.",
+        "Plus de 30 pays ont officiellement reconnu les événements de 1915 comme un génocide."
+      ]
+    },
+    "memorial_ar_day_of_remembrance_for_truth_and_justice": {
+      "intro": "Le 24 mars, Journée de commémoration pour la vérité et la justice, marque l'anniversaire du coup d'État militaire de 1976 en Argentine et rend hommage aux victimes de la dictature qui a suivi.",
+      "history": "Le 24 mars 1976, les forces armées ont renversé la présidente Isabel Perón et ont gouverné jusqu'en 1983. Au cours de ces années, environ 30 000 personnes ont été kidnappées, torturées et « disparues ». Cette journée a été créée par la loi en 2002 et est devenue un jour férié en 2006.",
+      "traditions": "Les organisations de défense des droits de l'homme, en particulier les mères et grands-mères de la Place de Mai, mènent une grande marche vers la Place de Mai à Buenos Aires. Les écoles dispensent des cours de mémoire et de démocratie et d'anciens centres de détention comme l'ESMA ouvrent leurs portes.",
+      "funFacts": [
+        "Le foulard blanc des Mères de la Place de Mai, à l'origine une couche lavable, est devenu le symbole de la recherche des disparus.",
+        "Les grands-mères de la Place de Mai ont identifié plus de 130 petits-enfants nés en captivité.",
+        "« Nunca más » (Plus jamais ça) est le titre du rapport de 1984 de la commission vérité et la devise du jour."
+      ]
+    },
+    "memorial_ar_day_of_the_veterans_and_fallen_of_the_malvinas_war": {
+      "intro": "Le 2 avril, l'Argentine se souvient des soldats qui ont combattu et sont tombés lors de la guerre de 1982 aux Malvinas (îles Falkland) et rend hommage aux anciens combattants.",
+      "history": "Le 2 avril 1982, les forces argentines débarquèrent sur les îles, dont l'Argentine revendique la souveraineté depuis 1833. La guerre de 74 jours avec le Royaume-Uni a coûté la vie à 649 Argentins et 255 Britanniques. Cette journée a été instituée en 2000 et est devenue un jour férié en 2001.",
+      "traditions": "Des cérémonies ont lieu au Monument aux morts à Malvinas, sur la Plaza San Martín à Buenos Aires et dans les villes de tout le pays. Défilé des anciens combattants, les drapeaux flottent en berne le matin et les écoles rappellent l'histoire des îles.",
+      "funFacts": [
+        "Le monument de la Plaza San Martín répertorie les noms des 649 Argentins tombés sur des dalles de marbre noir.",
+        "La plupart des conscrits n'avaient que 18 ou 19 ans.",
+        "Le cimetière de Darwin, sur les îles, abrite les tombes de 237 soldats argentins ; les familles peuvent lui rendre visite depuis 1991."
+      ]
+    },
+    "memorial_ar_general_jose_de_san_martin_memorial_day": {
+      "intro": "L'Argentine commémore la mort du général José de San Martín, libérateur de l'Argentine, du Chili et du Pérou, décédé le 17 août 1850 en France.",
+      "history": "San Martín a dirigé l'armée des Andes à travers les montagnes en 1817, a aidé à libérer le Chili et a proclamé l'indépendance du Pérou en 1821. Il a passé ses dernières décennies en exil en Europe. Ce jour férié a été créé en 1938 et est déplacé vers un lundi pour former un long week-end.",
+      "traditions": "Des couronnes sont déposées dans son mausolée de la cathédrale métropolitaine de Buenos Aires, gardé par le régiment de grenadiers à cheval qu'il a fondé. Les écoles mettent en scène des pièces de théâtre et chantent la « Marche de San Lorenzo ».",
+      "funFacts": [
+        "San Martín est connu comme le « Père de la Nation » et apparaît sur de nombreux billets et pièces de monnaie argentins.",
+        "Sa dépouille fut ramenée de France à Buenos Aires en 1880.",
+        "La traversée des Andes a couvert des cols supérieurs à 4 000 mètres avec environ 5 000 soldats."
+      ]
+    },
+    "memorial_be_armistice_day": {
+      "intro": "Le jour de l'Armistice, le 11 novembre, commémore la fin de la Première Guerre mondiale en 1918 et rend hommage aux soldats et civils belges morts au cours des deux guerres mondiales.",
+      "history": "Le 11 novembre 1918 à 11 heures, l'armistice signé à Compiègne entre en vigueur et les canons se taisent sur le front occidental. La Belgique était occupée depuis quatre ans et une grande partie de la Flandre était en ruines. Ce jour est un jour férié depuis 1922.",
+      "traditions": "Le Roi dépose une gerbe sur la Tombe du Soldat inconnu à la Colonne du Congrès à Bruxelles. A Ypres, comme chaque soir, sous la porte de Menin, la sonnerie de la Dernière sonnerie est sonnée, suivie d'un grand cortège. Les coquelicots sont portés à la mémoire des morts.",
+      "funFacts": [
+        "La Dernière sonnerie est jouée sous la Porte de Menin tous les soirs depuis 1928, à l'exception de l'occupation allemande.",
+        "La Porte de Menin porte les noms de plus de 54 000 soldats du Commonwealth sans sépulture connue.",
+        "Le poème « Au champ d'honneur », qui fait du coquelicot un symbole du souvenir, a été écrit près d'Ypres en 1915."
+      ]
+    },
+    "memorial_by_commemoration_day": {
+      "intro": "Radunitsa, le neuvième jour après la Pâque orthodoxe, est le jour du souvenir des morts en Biélorussie, lorsque les familles visitent les tombes de leurs proches.",
+      "history": "La coutume de commémorer les ancêtres au printemps est antérieure au christianisme dans le monde slave et a été absorbée dans le calendrier orthodoxe. En Biélorussie, Radunitsa a été déclarée jour férié en 1993, l'une des rares commémorations explicitement religieuses à bénéficier de ce statut.",
+      "traditions": "Les familles rangent les tombes, les décorent de fleurs et d'œufs teints et partagent un repas simple au cimetière. Les prêtres organisent des services commémoratifs et la journée est censée être calme plutôt que triste, car le nom dérive du mot joie.",
+      "funFacts": [
+        "Radunitsa tombe toujours un mardi, le deuxième jour de la semaine après la semaine de Pâques.",
+        "Le nom est lié au mot slave « radost », qui signifie joie, car la joie de Pâques est partagée avec les défunts.",
+        "En Russie et en Ukraine, la même coutume est observée mais ce n'est pas un jour férié."
+      ]
+    },
+    "memorial_ca_armistice_day": {
+      "intro": "Le jour de l'Armistice, le 11 novembre, marque la fin de la Première Guerre mondiale en 1918 ; au Canada, il est célébré comme le jour du Souvenir depuis 1931.",
+      "history": "L'armistice est entré en vigueur à 11 heures le 11 novembre 1918. Le Canada a célébré pour la première fois le jour de l'armistice en 1919 avec Thanksgiving, jusqu'à ce que le Parlement sépare les deux et renomme ce jour en 1931 pour honorer tous ceux qui ont servi.",
+      "traditions": "Deux minutes de silence sont observées à 11 h et des couronnes sont déposées au Monument commémoratif de guerre du Canada à Ottawa et aux cénotaphes partout au pays. Les Canadiens portent un coquelicot rouge dans les semaines précédant la journée.",
+      "funFacts": [
+        "Plus de 66 000 Canadiens sont morts pendant la Première Guerre mondiale, sur une population d'environ huit millions.",
+        "La tradition du coquelicot remonte au poème « Au champ d'honneur » du médecin canadien John McCrae.",
+        "La Tombe du Soldat inconnu à Ottawa abrite les restes d'un soldat canadien non identifié de la crête de Vimy."
+      ]
+    },
+    "memorial_cd_laurent_desire_kabila_assassination": {
+      "intro": "Le 16 janvier, la République démocratique du Congo rend hommage au président Laurent-Désiré Kabila, assassiné à Kinshasa en 2001.",
+      "history": "Kabila a dirigé la rébellion qui a mis fin au règne de Mobutu Sese Seko en 1997 et est devenu président. Le 16 janvier 2001, il fut abattu par l'un de ses gardes du corps au palais présidentiel. Son fils Joseph Kabila lui succède et conduit le pays vers l'accord de paix de 2002.",
+      "traditions": "Les cérémonies officielles ont lieu au mausolée de Kabila devant le Palais de la Nation à Kinshasa, où des gerbes de fleurs sont déposées. Ce jour est un jour férié et est souvent marqué avec la commémoration de Lumumba le lendemain.",
+      "funFacts": [
+        "Kabila reçoit le titre de « Mzee », un mot swahili de respect pour un aîné.",
+        "Son mausolée à Kinshasa a été inauguré en 2002 et abrite une statue en bronze.",
+        "Les 16 et 17 janvier forment ensemble deux journées consécutives de commémoration des deux « héros de l'indépendance » du pays."
+      ]
+    },
+    "memorial_cd_patrice_lumumba_assassination": {
+      "intro": "Le 17 janvier commémore Patrice Lumumba, premier Premier ministre du Congo indépendant, assassiné en 1961.",
+      "history": "Lumumba a conduit le Congo à l'indépendance de la Belgique le 30 juin 1960, mais a été renversé quelques mois plus tard lors de la crise du Congo. Il a été remis aux forces sécessionnistes au Katanga et exécuté le 17 janvier 1961 avec la complicité belge, comme l'a reconnu une enquête parlementaire belge en 2001.",
+      "traditions": "Des cérémonies ont lieu au monument Lumumba sur le Boulevard Lumumba à Kinshasa et dans sa région d'origine. Son discours sur l'indépendance est lu dans les écoles et ce jour est un jour férié.",
+      "funFacts": [
+        "Lumumba n'avait que 35 ans lorsqu'il a été tué.",
+        "En 2022, la Belgique a restitué à sa famille une dent coiffée d'or, seule relique restante de son corps ; il a été enterré dans un mausolée à Kinshasa.",
+        "Il est considéré comme l'une des figures de proue des mouvements indépendantistes africains et apparaît sur les billets de banque du pays."
+      ]
+    },
+    "memorial_cd_congolese_genocide_day": {
+      "intro": "Le 2 août, la République démocratique du Congo commémore les victimes des guerres et des atrocités massives dans l'est du pays depuis 1996, une journée connue sous le nom de « Génocost ».",
+      "history": "Cette date rappelle le déclenchement de la Seconde Guerre du Congo, le 2 août 1998, dans laquelle furent impliqués plusieurs États africains et d'innombrables groupes armés. Les conflits à l’Est ont coûté la vie à des millions de personnes à cause de la violence, de la faim et de la maladie. Le gouvernement a fait du 2 août une journée nationale du souvenir en 2022.",
+      "traditions": "Une cérémonie nationale a lieu à Kisangani, ville qui a subi de violents combats en 2000, avec une minute de silence à midi. Les églises organisent des services religieux et des groupes de la société civile organisent des marches et des expositions.",
+      "funFacts": [
+        "Le mot « Génocost » combine « génocide » et « coût » pour indiquer les motivations économiques derrière la violence.",
+        "La Seconde Guerre du Congo est parfois appelée « Guerre mondiale africaine » car neuf pays y ont pris part.",
+        "Le prix Nobel de la paix Denis Mukwege, médecin de Bukavu, milite depuis longtemps pour la reconnaissance des victimes."
+      ]
+    },
+    "memorial_gi_workers_memorial_day": {
+      "intro": "La Journée de commémoration des travailleurs, le 28 avril, rend hommage aux personnes qui ont été tuées, blessées ou rendues malades à cause de leur travail. À Gibraltar, c'est un jour férié.",
+      "history": "Cette journée a été lancée par les syndicats canadiens en 1984 et est maintenant célébrée dans plus de 100 pays. L'Organisation internationale du travail a fait du 28 avril la Journée mondiale de la sécurité et de la santé au travail en 2003. Gibraltar l'a ajouté à ses jours fériés en 2009 à l'initiative des syndicats.",
+      "traditions": "Une cérémonie de dépôt de couronnes a lieu à Gibraltar et les syndicats observent une minute de silence à la mémoire des travailleurs qui ont perdu la vie. La devise de la journée est « Souvenez-vous des morts, combattez pour les vivants ».",
+      "funFacts": [
+        "La date rappelle le 28 avril 1914, lorsque l'Ontario a adopté sa première loi sur l'indemnisation des accidents du travail.",
+        "Gibraltar est l'un des rares endroits où la journée est un jour férié à part entière.",
+        "Les rubans violets et les myosotis violets sont les symboles de la journée au Royaume-Uni."
+      ]
+    },
+    "memorial_hr_remembrance_day": {
+      "intro": "Le 18 novembre, la Croatie se souvient des victimes de la guerre intérieure, notamment de la chute de Vukovar en 1991 et du massacre de Škabrnja le même jour.",
+      "history": "Après un siège de 87 jours, la ville de Vukovar est tombée aux mains de l'armée populaire yougoslave et des paramilitaires serbes le 18 novembre 1991. Environ 200 blessés et membres du personnel ont été retirés de l'hôpital et tués à la ferme d'Ovčara. La journée du souvenir a été créée en 1999 et est devenue un jour férié en 2020.",
+      "traditions": "Des dizaines de milliers de personnes marchent dans la « Colonne du Souvenir », depuis l'hôpital de Vukovar jusqu'au cimetière commémoratif, où une bougie est allumée pour chaque victime. Les cloches des églises sonnent dans toute la Croatie et le château d'eau de Vukovar, criblé d'impacts de balles, est devenu le symbole de la ville.",
+      "funFacts": [
+        "Le château d'eau de Vukovar a été touché plus de 600 fois pendant le siège et a été inauguré comme mémorial en 2020.",
+        "Le cimetière commémoratif contient 938 croix blanches, une pour chacune des victimes identifiées dans les fosses communes.",
+        "Le Parlement croate a fait du 18 novembre un jour férié en 2019, à compter de 2020."
+      ]
+    },
+    "memorial_il_yom_hashoah": {
+      "intro": "Yom HaShoah, le 27 Nisan du calendrier juif, est le jour de commémoration en Israël des six millions de Juifs assassinés pendant l'Holocauste et de l'héroïsme de ceux qui ont résisté.",
+      "history": "La Knesset a établi cette journée en 1951, et en 1959, elle est devenue une journée commémorative nationale par la loi. La date se situe une semaine après Pâque et une semaine avant le Jour du Souvenir d'Israël, et a été choisie pour tomber à proximité de l'anniversaire du soulèvement du ghetto de Varsovie d'avril 1943.",
+      "traditions": "A 10 heures, les sirènes retentissent pendant deux minutes dans tout Israël et tout s'arrête, même la circulation sur les autoroutes. La cérémonie d'État a lieu à Yad Vashem à Jérusalem la veille du jour, où six survivants allument six torches. Les lieux de divertissement ferment et les noms des victimes sont lus à haute voix.",
+      "funFacts": [
+        "Le nom complet de la journée est « Journée du souvenir de l'Holocauste et de l'héroïsme ».",
+        "La « Marche des vivants » rassemble chaque année des milliers de jeunes d'Auschwitz à Birkenau.",
+        "Yad Vashem détient les noms d'environ 4,8 millions des six millions de victimes dans sa base de données centrale."
+      ]
+    },
+    "memorial_il_yom_hazikaron": {
+      "intro": "Yom HaZikaron, le 4 Iyar, est le jour commémoratif d'Israël pour les soldats tombés au combat et les victimes du terrorisme. Il se termine au coucher du soleil au début du Jour de l’Indépendance.",
+      "history": "Israël a célébré pour la première fois les morts de la guerre de 1948 le jour même de l'Indépendance ; à partir de 1951, le jour du souvenir fut déplacé à la veille des célébrations. Elle a été inscrite dans la loi en 1963. Depuis 1998, les victimes des attentats terroristes sont commémorées le même jour.",
+      "traditions": "Une sirène retentit pendant une minute à 20h. la veille et pendant deux minutes à 11 heures le jour où le pays est à l'arrêt. Des cérémonies ont lieu au mont Herzl à Jérusalem et dans les cimetières militaires, et les familles visitent les tombes. La télévision et la radio ne diffusent que des programmes sombres.",
+      "funFacts": [
+        "Le passage du deuil à la célébration au coucher du soleil est délibéré : l'indépendance d'Israël est comprise comme le prix payé par ceux qui sont tombés.",
+        "La veille de la cérémonie d'État au Mur Occidental, le drapeau est mis en berne.",
+        "Une fleur rouge, le « sang des Macchabées » (Helichrysum), est le symbole de la journée et se porte comme un autocollant."
+      ]
+    },
+    "memorial_il_tisha_bav": {
+      "intro": "Tisha BeAv, le 9 Av, est le jour le plus triste du calendrier juif. Il pleure la destruction des deux temples de Jérusalem et d'autres catastrophes de l'histoire juive.",
+      "history": "Le Premier Temple a été détruit par les Babyloniens en 586 avant notre ère et le Second Temple par les Romains en 70 de notre ère, selon la tradition à la même date. Des désastres ultérieurs tels que l'expulsion des Juifs d'Espagne en 1492 sont également associés à cette journée. En Israël, c'est un jour de congé facultatif.",
+      "traditions": "Les juifs pratiquants jeûnent pendant environ 25 heures du coucher du soleil à la tombée de la nuit, ne portent pas de chaussures en cuir et s'assoient sur des tabourets bas pendant que le Livre des Lamentations est lu à la lueur des bougies. Des milliers de personnes se rassemblent au Mur Occidental à Jérusalem pour les prières du soir.",
+      "funFacts": [
+        "Les trois semaines précédant Ticha BeAv sont une période de deuil au cours de laquelle les mariages et les célébrations sont évités.",
+        "Le jeûne est le seul, à part Yom Kippour, qui dure une journée et une nuit complètes.",
+        "Les restaurants et lieux de divertissement en Israël sont fermés par la loi la veille."
+      ]
+    },
+    "memorial_kr_memorial_day": {
+      "intro": "Le Memorial Day (Hyeonchungil), le 6 juin, rend hommage aux soldats et aux civils morts pour la Corée du Sud, notamment pendant la guerre de Corée de 1950 à 1953.",
+      "history": "Cette journée a été instituée en 1956, trois ans après l'armistice, pour commémorer les morts de la guerre. La date suit le calendrier traditionnel, où le début du mois de juin marque le début de la saison d'entretien des tombes ancestrales.",
+      "traditions": "À 10 heures, une sirène retentit dans tout le pays pour une minute de silence. Le président dirige une cérémonie au cimetière national de Séoul, où les familles déposent des fleurs sur les tombes et où les drapeaux sont mis en berne dans tout le pays.",
+      "funFacts": [
+        "La guerre de Corée n'a jamais officiellement pris fin ; seul un armistice fut signé en 1953.",
+        "Le cimetière national de Séoul à Dongjak-gu est le lieu de repos de plus de 160 000 personnes.",
+        "Parce que c'est un jour de deuil, le drapeau national est mis en berne plutôt qu'en pleine hauteur."
+      ]
+    },
+    "memorial_md_victory_and_commemoration_day": {
+      "intro": "Le 9 mai, la Moldavie commémore la victoire sur l'Allemagne nazie en 1945 et les soldats tombés pendant la Seconde Guerre mondiale.",
+      "history": "La capitulation allemande prit effet à la fin du 8 mai 1945, soit déjà le 9 mai à Moscou, d'où la date soviétique. La Moldavie a maintenu cette fête après son indépendance en 1991 et l'a rebaptisée « Jour de la victoire et de la commémoration » en mémoire des morts. Depuis 2017, la Journée de l’Europe est également célébrée à la même date.",
+      "traditions": "Des couronnes sont déposées au complexe commémoratif Eternitate à Chișinău, où une flamme éternelle brûle au centre de cinq fusils stylisés. Les anciens combattants sont honorés et les familles visitent les tombes de guerre ; beaucoup portent également le ruban bleu et jaune de la Journée de l’Europe.",
+      "funFacts": [
+        "Le mémorial d'Eternitate a été inauguré en 1975 et s'élève à 25 mètres au-dessus des tombes des soldats.",
+        "Depuis 2022, l'affichage du ruban de Saint-Georges associé à la commémoration russe est interdit en Moldavie.",
+        "La Moldavie célèbre à la fois la victoire soviétique et la Journée de l'Europe le 9 mai, une combinaison que l'on retrouve dans peu d'autres pays."
+      ]
+    },
+    "memorial_md_memorial_day": {
+      "intro": "Paștele Blajinilor, la « Pâque des doux », le lundi qui suit la semaine de Pâques, est le jour du souvenir des morts en Moldavie, lorsque les familles se rassemblent dans les cimetières.",
+      "history": "La coutume de partager la joie de Pâques avec les ancêtres décédés est enracinée dans la tradition orthodoxe et les rites printaniers préchrétiens. En Moldavie, cette journée est devenue un jour férié en 1990 et constitue l'une des fêtes familiales les plus célébrées de l'année.",
+      "traditions": "Les familles rangent les tombes, les décorent de fleurs et d'œufs teints et y partagent un repas ; les prêtres bénissent les tombes et la nourriture. Du pain, des friandises et du vin sont offerts aux voisins et aux étrangers « pour l'âme » des défunts.",
+      "funFacts": [
+        "'Blajini' signifie 'le doux' et fait référence à des êtres doux et légendaires qui vivent au bout du monde et célèbrent Pâques plus tard.",
+        "De nombreux Moldaves qui travaillent à l'étranger planifient leur visite chez eux à cette date.",
+        "Le jour tombe toujours huit jours après le dimanche de Pâques orthodoxe."
+      ]
+    },
+    "memorial_na_cassinga_day": {
+      "intro": "La Journée Cassinga, le 4 mai, commémore l'attaque sud-africaine contre le camp de réfugiés namibiens de Cassinga, dans le sud de l'Angola, en 1978, au cours de laquelle environ 600 personnes ont été tuées.",
+      "history": "Le 4 mai 1978, des parachutistes et des avions sud-africains ont attaqué le camp du mouvement de libération SWAPO à Cassinga, où vivaient des milliers de réfugiés. L’attaque est devenue l’un des événements déterminants de la lutte pour l’indépendance remportée par la Namibie en 1990.",
+      "traditions": "Une cérémonie nationale avec dépôt de couronnes a lieu à Heroes' Acre, près de Windhoek, et les survivants partagent leurs souvenirs. Les drapeaux flottent en berne et ce jour est un jour férié.",
+      "funFacts": [
+        "La plupart des survivants de Cassinga étaient des enfants qui ont ensuite terminé leurs études à Cuba.",
+        "Heroes' Acre a été ouvert en 2002 et est dominé par un obélisque de 34 mètres.",
+        "Le camp était situé à environ 250 kilomètres au nord de la frontière namibienne."
+      ]
+    },
+    "memorial_na_genocide_remembrance_day": {
+      "intro": "Le 28 mai, le jour du souvenir du génocide commémore les Ovaherero et les Nama qui ont été tués sous la domination coloniale allemande entre 1904 et 1908.",
+      "history": "Après le soulèvement de 1904, l'armée coloniale allemande chassa les Herero dans le désert d'Omaheke et emprisonna les survivants dans des camps tels que Shark Island. Des dizaines de milliers de personnes sont mortes. L'Allemagne a officiellement reconnu ces événements comme un génocide en 2021. La Namibie a observé cette journée pour la première fois en 2025, choisissant la date à laquelle les camps ont reçu l'ordre de fermer en 1907.",
+      "traditions": "Une cérémonie nationale avec une minute de silence et l'allumage de bougies a lieu, et les descendants des victimes organisent des rassemblements commémoratifs à Okahandja, Swakopmund et Lüderitz. Ce jour est un jour férié.",
+      "funFacts": [
+        "Le génocide des Herero et des Nama est considéré comme le premier génocide du 20ème siècle.",
+        "En 2018, l'Allemagne a restitué des restes humains emmenés à Berlin à des fins de recherche raciale.",
+        "Le Mémorial du génocide de Windhoek a été inauguré en 2014 sur le site de l'ancien monument équestre dédié aux soldats coloniaux allemands."
+      ]
+    },
+    "memorial_pg_remembrance_day": {
+      "intro": "Le jour du Souvenir, le 23 juillet, rend hommage aux Papouasie-Néo-Guinéens qui ont servi et sont morts pendant la Seconde Guerre mondiale, en particulier les soldats du bataillon d'infanterie papou.",
+      "history": "Le 23 juillet 1942, le bataillon d'infanterie papou a mené son premier engagement contre les troupes japonaises près d'Awala au début de la campagne de Kokoda. Cette journée est devenue fête nationale après l'indépendance en 1975.",
+      "traditions": "Des couronnes sont déposées au cimetière de guerre de Bomana près de Port Moresby et au parc du Souvenir dans la capitale. Des familles d'anciens combattants, des forces de défense et des écoliers y participent, et la Dernière sonnerie retentit.",
+      "funFacts": [
+        "Les Papouasie-Néo-Guinéens qui transportaient des soldats blessés le long de la piste de Kokoda sont devenus connus sous le nom de « Fuzzy Wuzzy Angels ».",
+        "Le cimetière de guerre de Bomana est le plus grand cimetière de guerre du Pacifique avec plus de 3 800 tombes.",
+        "Le bataillon d'infanterie papou a été la première unité militaire indigène du pays."
+      ]
+    },
+    "memorial_pr_memorial_day": {
+      "intro": "Le Memorial Day, le dernier lundi de mai, rend hommage aux hommes et aux femmes décédés alors qu'ils servaient dans les forces armées américaines. Les Portoricains ont servi dans toutes les guerres américaines depuis 1917.",
+      "history": "Le Memorial Day est né du Jour de la décoration après la guerre civile américaine, lorsque les tombes étaient décorées de fleurs. C'est devenu un jour férié fédéral en 1971. Les Portoricains sont devenus citoyens américains en 1917 et ont servi en grand nombre, notamment dans le 65e régiment d'infanterie, les « Borinqueneers ».",
+      "traditions": "Les cérémonies ont lieu au cimetière national de Porto Rico à Bayamón, où de petits drapeaux sont placés sur chaque tombe. Des groupes d'anciens combattants défilent et de nombreuses familles visitent les tombes de leurs proches.",
+      "funFacts": [
+        "Le 65e Régiment d'infanterie a reçu la Médaille d'or du Congrès en 2016 pour son service pendant la guerre de Corée.",
+        "Le cimetière national de Porto Rico est le lieu de repos de plus de 50 000 anciens combattants et membres de leurs familles.",
+        "Un moment national de commémoration est observé à 15h. heure locale aux États-Unis."
+      ]
+    },
+    "memorial_rs_armistice_day": {
+      "intro": "Le jour de l'Armistice, le 11 novembre, commémore la fin de la Première Guerre mondiale en 1918 et les soldats et civils serbes qui y sont morts.",
+      "history": "La Serbie a perdu plus d'un quart de sa population au cours de la Première Guerre mondiale, une proportion plus élevée que tout autre pays. Cette journée a été déclarée jour férié en 2012 pour honorer les victimes et le rôle de l'armée serbe dans la victoire alliée.",
+      "traditions": "Des couronnes sont déposées au monument au héros inconnu sur la montagne Avala près de Belgrade et aux monuments aux morts à travers le pays. Les gens portent la ramonda de Natalie, une petite fleur violette, en mémoire des défunts.",
+      "funFacts": [
+        "La ramonda de Natalie est une « plante de résurrection » qui peut renaître après avoir séché, c'est pourquoi elle symbolise la reconstruction de la Serbie après la guerre.",
+        "La fleur est souvent portée avec un ruban aux couleurs de la médaille de la retraite albanaise de 1915.",
+        "Le monument au héros inconnu d'Avala a été conçu par le sculpteur Ivan Meštrović en 1938."
+      ]
+    },
+    "memorial_sm_commemoration_of_all_those_who_died_at_war": {
+      "intro": "Le 2 novembre, jour de la Toussaint, Saint-Marin commémore tous ceux qui sont morts à la guerre, ainsi que le souvenir catholique des morts.",
+      "history": "La petite république est restée neutre lors des deux guerres mondiales, mais a été bombardée par erreur par des avions britanniques en juin 1944, tuant 63 personnes et accueillant environ 100 000 réfugiés. La commémoration du Jour de la Toussaint est l'un des jours fériés officiels du pays.",
+      "traditions": "Les familles visitent les cimetières, en particulier celui de Montalbo, et déposent des fleurs et allument des bougies sur les tombes. Une cérémonie rend hommage aux morts de guerre de la république et les capitaines régents participent à une messe commémorative.",
+      "funFacts": [
+        "Saint-Marin ne compte qu'environ 34 000 habitants, donc presque toutes les familles avaient des proches parmi les réfugiés de guerre.",
+        "Une plaque à la gare rend hommage aux victimes du bombardement de 1944.",
+        "La Journée de la Toussaint est célébrée par l'Église catholique depuis le 11ème siècle."
+      ]
+    },
+    "memorial_us_lincolns_birthday": {
+      "intro": "L'anniversaire de Lincoln, le 12 février, rend hommage à Abraham Lincoln, le 16e président des États-Unis, qui a dirigé le pays pendant la guerre civile et mis fin à l'esclavage.",
+      "history": "Lincoln est né dans une cabane en rondins du Kentucky en 1809 et a été assassiné en avril 1865, quelques jours après la fin de la guerre civile. Son anniversaire a été célébré publiquement pour la première fois en 1866 et est devenu un jour férié dans plusieurs États, mais jamais au niveau fédéral. Aujourd'hui, de nombreux États le combinent avec l'anniversaire de Washington comme journée des présidents.",
+      "traditions": "Une cérémonie de dépôt de couronne a lieu au Lincoln Memorial à Washington et le discours de Gettysburg est lu dans de nombreuses écoles. Dans l'Illinois, le « Pays de Lincoln », ce jour reste un jour férié.",
+      "funFacts": [
+        "Avec ses 1,93 mètres, Lincoln était le plus grand président des États-Unis.",
+        "Le discours de Gettysburg ne compte qu'environ 270 mots et a duré environ deux minutes.",
+        "Le Lincoln Memorial a été inauguré en 1922 et abrite une statue en marbre de 5,8 mètres."
+      ]
+    },
+    "memorial_za_human_rights_day": {
+      "intro": "La Journée des droits de l'homme, le 21 mars, commémore le massacre de Sharpeville en 1960 et célèbre les droits inscrits dans la constitution démocratique de l'Afrique du Sud.",
+      "history": "Le 21 mars 1960, la police a ouvert le feu sur une foule pacifique qui protestait contre les lois sur les laissez-passer à Sharpeville, tuant 69 personnes. Le massacre a suscité une condamnation mondiale de l'apartheid. Après les premières élections démocratiques, ce jour est devenu jour férié en 1994 et Nelson Mandela a signé la nouvelle constitution à Sharpeville en 1996.",
+      "traditions": "Des cérémonies ont lieu au mémorial de Sharpeville et au quartier des droits de l'homme, et le gouvernement profite de cette journée pour promouvoir la Déclaration des droits. Les communautés organisent des marches, des concerts et des événements éducatifs.",
+      "funFacts": [
+        "Les Nations Unies ont déclaré le 21 mars Journée internationale pour l'élimination de la discrimination raciale en 1966, à la mémoire de Sharpeville.",
+        "La Déclaration des droits sud-africaine est considérée comme l'une des plus progressistes au monde.",
+        "Le mémorial de Sharpeville répertorie les noms des 69 victimes sur des piliers individuels."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_defenders_of_the_barricades_in_1991": {
+      "intro": "Le 20 janvier rappelle les défenseurs des barricades de janvier 1991, lorsque les habitants de Riga protégeaient la jeune démocratie lettone contre les forces spéciales soviétiques.",
+      "history": "Après la répression soviétique à Vilnius le 13 janvier 1991, des dizaines de milliers de Lettons ont construit des barricades autour du parlement, du centre de télévision et des ponts de Riga. Le 20 janvier, la police spéciale de l'OMON a pris d'assaut le ministère de l'Intérieur ; cinq personnes ont été tuées, parmi lesquelles deux cameramen qui filmaient les événements.",
+      "traditions": "Des feux de joie sont allumés sur la place du Dôme dans le vieux Riga, comme ils l'étaient en 1991, et des gerbes de fleurs sont déposées sur les pierres commémoratives du parc Bastejkalns où les victimes sont tombées. Le musée des Barricades du vieux Riga entretient le souvenir avec des séquences de films originales.",
+      "funFacts": [
+        "Les barricades ont été construites avec des camions, des tracteurs et des blocs de béton importés de toute la Lettonie.",
+        "Les agriculteurs ont approvisionné les défenseurs en nourriture chaude et en bois de chauffage pendant des jours.",
+        "Le Musée des Barricades a été ouvert en 2001 dans une maison de Krāmu iela, dans le vieux Riga."
+      ]
+    },
+    "memorial_lv_day_of_the_international_de_jure_recognition_of_the_republic_of_latvia": {
+      "intro": "Le 26 janvier 1921, le Conseil suprême allié reconnut de jure la République de Lettonie, confirmant ainsi la place du jeune État parmi les nations du monde.",
+      "history": "La Lettonie avait proclamé son indépendance le 18 novembre 1918 et mené une guerre d'indépendance jusqu'en 1920. La reconnaissance de jure par la Grande-Bretagne, la France, l'Italie, le Japon et la Belgique a ouvert la porte à la Société des Nations, à laquelle la Lettonie a adhéré en septembre 1921.",
+      "traditions": "Le drapeau national est hissé sur les bâtiments publics et le ministère des Affaires étrangères marque cette journée comme l'anniversaire de la diplomatie lettone. Les écoles rappellent comment le pays a trouvé sa place dans la communauté internationale.",
+      "funFacts": [
+        "Les États-Unis n'ont reconnu la Lettonie de jure qu'en juillet 1922.",
+        "Le drapeau letton avec ses rayures rouge foncé et blanches est l'un des plus anciens modèles de drapeau au monde, mentionné dans une chronique de 1279.",
+        "La décision a été prise lors d'une réunion du Conseil suprême allié à Paris."
+      ]
+    },
+    "memorial_lv_world_non_governmental_organization_day": {
+      "intro": "La Journée mondiale des ONG, le 27 février, célèbre les organisations non gouvernementales et les bénévoles qui y travaillent ; l'idée est née en Lettonie.",
+      "history": "Cette journée a été proposée par le militant letton Marcis Liors Skadmanis et reconnue par le Forum des ONG de la mer Baltique en 2010. Elle a été célébrée pour la première fois au niveau international en 2014 et a depuis été soutenue par les Nations Unies et l'Union européenne.",
+      "traditions": "Les ONG ouvrent leurs portes, présentent leurs projets et remercient leurs bénévoles. Des conférences et des cérémonies de remise de prix honorent les initiatives de la société civile, et de nombreuses personnes profitent de cette journée pour s'inscrire comme bénévoles.",
+      "funFacts": [
+        "Cette journée est désormais célébrée dans environ 90 pays.",
+        "La Lettonie compte plus de 25 000 associations et fondations enregistrées.",
+        "Le Forum des ONG de la mer Baltique rassemble des groupes de la société civile de dix pays riverains de la Baltique."
+      ]
+    },
+    "memorial_lv_national_partisan_armed_resistance_remembrance_day": {
+      "intro": "Le 2 mars rend hommage aux partisans nationaux lettons, les « Frères de la forêt », qui ont lutté contre l'occupation soviétique après 1944.",
+      "history": "La date rappelle la bataille de Stompaki les 2 et 3 mars 1945 à Latgale, le plus grand engagement entre partisans lettons et forces soviétiques. Environ 20 000 Lettons ont pris part à la résistance armée, qui a duré jusque dans les années 1950. Le jour du Souvenir a été ajouté à la loi en 2020.",
+      "traditions": "Des couronnes sont déposées sur les mémoriaux partisans et les bunkers dans les forêts, et les Forces armées nationales organisent des cérémonies. Les musées locaux et les historiens racontent les histoires de groupes de résistance individuels.",
+      "funFacts": [
+        "A Stompaki, environ 350 partisans ont résisté à plusieurs milliers de soldats soviétiques avant de sortir de l'encerclement.",
+        "Le dernier partisan letton connu n'est sorti de sa cachette que dans les années 1990.",
+        "Des journées de commémoration similaires existent en Estonie et en Lituanie."
+      ]
+    },
+    "memorial_lv_national_resistance_movement_remembrance_day": {
+      "intro": "Le 17 mars rend hommage au mouvement de résistance nationale, en particulier au Conseil central letton, qui a exigé le rétablissement de l'indépendance pendant l'occupation allemande en 1944.",
+      "history": "Le 17 mars 1944, 188 hommes politiques et personnalités publiques lettons de premier plan ont signé un mémorandum appelant à la restauration de la République indépendante de Lettonie. Le Conseil central était dirigé par Konstantīns Čakste, arrêté par la Gestapo et mort dans un camp de concentration en 1945.",
+      "traditions": "Des couronnes sont déposées sur la plaque commémorative du Conseil central de Riga et le président ou le président du Parlement prononce un discours commémoratif. Les historiens rappellent les nombreuses formes de résistance aux deux puissances occupantes.",
+      "funFacts": [
+        "Konstantīns Čakste était le fils du premier président letton, Jānis Čakste.",
+        "Le Conseil central a également organisé des traversées en bateau qui ont aidé les réfugiés à s'échapper vers la Suède.",
+        "Le mémorandum a été sorti clandestinement du pays et remis aux Alliés occidentaux."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_victims_of_communist_terror": {
+      "intro": "Le 14 juin rend hommage aux victimes de la terreur communiste, en particulier à la déportation massive du 14 juin 1941, lorsque plus de 15 000 personnes furent emmenées de Lettonie vers la Sibérie en une seule nuit.",
+      "history": "Dans la nuit du 13 au 14 juin 1941, les autorités soviétiques arrêtèrent des familles dans toute la Lettonie, séparèrent les hommes des femmes et des enfants et les envoyèrent vers l'est dans des wagons de marchandises. Beaucoup n’ont pas survécu au premier hiver. Une deuxième déportation, encore plus importante, suivit le 25 mars 1949, qui est également un jour de commémoration.",
+      "traditions": "Des drapeaux flottent avec des rubans noirs et des couronnes sont déposées à la gare de Torņakalns à Riga, d'où partent les trains. Les noms des déportés sont lus à haute voix et le Musée de l'Occupation organise un événement commémoratif.",
+      "funFacts": [
+        "Un wagon commémoratif à la gare de Torņakalns montre les conditions des déportations.",
+        "Au total, les déportations de 1941 et 1949 ont touché près de 60 000 personnes en Lettonie.",
+        "En 1987, un dépôt de fleurs au Monument de la Liberté, le 14 juin, est devenu l'une des premières manifestations publiques du mouvement indépendantiste letton."
+      ]
+    },
+    "memorial_lv_latgale_congress_day": {
+      "intro": "La Journée du Congrès de Latgale, le 27 avril, rappelle le congrès de 1917 à Rezekne, au cours duquel les Lettons de Latgale décidèrent de s'unir aux autres régions lettones.",
+      "history": "Latgale était séparée de la Courlande et de la Livonie depuis le 17ème siècle et appartenait à une autre province russe. Les 26 et 27 avril 1917, les délégués de Rēzekne votèrent le rattachement aux autres territoires lettons, étape essentielle vers l'État fondé en 1918.",
+      "traditions": "Les célébrations ont lieu à Rēzekne près de la statue « Latgales Māra », qui porte les mots « Unis pour la Lettonie ». Des concerts, des expositions et des événements en langue latgalienne rythment la journée.",
+      "funFacts": [
+        "La statue de Latgales Māra a été dévoilée en 1939, retirée à deux reprises par les Soviétiques et restaurée en 1992.",
+        "Le latgalien a sa propre tradition écrite et est protégé en tant que variante historique du letton.",
+        "Rēzekne est connu comme le « cœur de Latgale »."
+      ]
+    },
+    "memorial_lv_day_of_the_defeat_of_nazism_and_commemoration_day_of_victims_of_world_war_ii": {
+      "intro": "Le 8 mai marque la défaite du nazisme en 1945 et commémore les victimes de la Seconde Guerre mondiale, qui a coûté la vie à la Lettonie des centaines de milliers de personnes.",
+      "history": "La capitulation allemande entra en vigueur le 8 mai 1945. Pour la Lettonie, la fin de la guerre n'apporta pas la liberté mais le retour de la domination soviétique, et les Lettons furent enrôlés des deux côtés. Cette journée a été introduite après l'indépendance dans l'esprit de la date de l'Europe occidentale plutôt que du 9 mai soviétique.",
+      "traditions": "Des couronnes sont déposées au mémorial de Salaspils et sur les tombes de soldats et de civils. Depuis 2023, les événements à la date soviétique du 9 mai ont été restreints et cette journée est célébrée avec réconciliation et souvenir de toutes les victimes.",
+      "funFacts": [
+        "L'ensemble commémoratif de Salaspils a été inauguré en 1967 sur le site d'un camp nazi.",
+        "La Lettonie a perdu environ un tiers de sa population d'avant-guerre à cause de la guerre, des déportations et de l'émigration.",
+        "Le monument de la victoire soviétique de Riga a été démantelé en 2022."
+      ]
+    },
+    "memorial_lv_europe_day": {
+      "intro": "La Journée de l'Europe du 9 mai célèbre la paix et l'unité en Europe et rappelle la Déclaration Schuman de 1950 qui a conduit à l'Union européenne.",
+      "history": "Le 9 mai 1950, le ministre français des Affaires étrangères, Robert Schuman, proposait de placer la production de charbon et d'acier sous une autorité commune, germe de l'intégration européenne. La Lettonie a rejoint l'Union européenne le 1er mai 2004 et marque officiellement cette journée dans son calendrier.",
+      "traditions": "Des drapeaux européens flottent sur les bâtiments publics et des événements d'information, des concerts et des débats ont lieu à Riga et dans d'autres villes. Les écoles organisent des projets sur l'UE et le bureau du Parlement européen ouvre ses portes.",
+      "funFacts": [
+        "La Lettonie a adopté l'euro en 2014.",
+        "Les douze étoiles du drapeau de l'UE représentent la perfection et l'unité, et non le nombre d'États membres.",
+        "Riga a accueilli la présidence du Conseil de l'UE au premier semestre 2015."
+      ]
+    },
+    "memorial_lv_international_day_of_the_family": {
+      "intro": "La Journée internationale des familles, le 15 mai, attire l'attention sur l'importance des familles et les défis auxquels elles sont confrontées.",
+      "history": "L'Assemblée générale des Nations Unies a proclamé cette journée en 1993, après l'Année internationale de la famille en 1994. La Lettonie l'a inscrite dans son calendrier officiel comme journée à célébrer.",
+      "traditions": "Des fêtes familiales, des manifestations en plein air et des journées sportives sont organisées dans les parcs et les centres culturels. Les organisations profitent de cette journée pour discuter du soutien aux parents et aux enfants, et de nombreuses familles passent simplement la journée ensemble.",
+      "funFacts": [
+        "Chaque année, l'ONU choisit un thème, comme les familles et le changement climatique ou le numérique.",
+        "La Lettonie possède l'un des systèmes de congé parental les plus généreux d'Europe.",
+        "Cette journée n'est pas un jour férié mais est marquée par des événements à travers le pays."
+      ]
+    },
+    "memorial_lv_firefighter_and_rescuer_day": {
+      "intro": "La Journée des pompiers et des sauveteurs, le 17 mai, rend hommage aux hommes et aux femmes des services d'incendie et de secours de Lettonie.",
+      "history": "La date rappelle le 17 mai 1865, date à laquelle fut fondée la Société des pompiers volontaires de Riga, la première du pays. Aujourd'hui, le Service national d'incendie et de secours (VUGD) intervient en cas d'incendies, d'accidents et de catastrophes naturelles dans tout le pays.",
+      "traditions": "Les casernes de pompiers ouvrent leurs portes et les enfants peuvent monter dans les camions de pompiers. Des cérémonies honorent les pompiers de longue date et distingués, et des démonstrations montrent le travail des équipes de secours.",
+      "funFacts": [
+        "Le Musée letton des pompiers de Riga est installé dans une caserne de pompiers construite en 1912.",
+        "Le VUGD compte environ 3 000 collaborateurs.",
+        "Les pompiers volontaires jouent toujours un rôle important dans les zones rurales de Lettonie."
+      ]
+    },
+    "memorial_lv_international_day_for_protection_of_children": {
+      "intro": "La Journée internationale de l'enfance, le 1er juin, célèbre les enfants et rappelle à la société leur droit à la protection, à l'éducation et à une enfance heureuse.",
+      "history": "La date a été fixée en 1949 par la Fédération démocratique internationale des femmes et est observée surtout en Europe orientale et centrale ainsi qu'en Asie. En Lettonie, c'est une journée populaire auprès des familles depuis l'époque soviétique.",
+      "traditions": "Les parcs, les musées et les théâtres proposent des événements gratuits, et les villes organisent des festivals avec des jeux, des concerts et du maquillage. Les organisations de défense des droits de l'enfant profitent de cette journée pour attirer l'attention sur la protection de l'enfance.",
+      "funFacts": [
+        "La Journée universelle de l'enfance proclamée par l'ONU tombe le 20 novembre, c'est pourquoi de nombreux pays ont deux journées pour l'enfant.",
+        "La Lettonie dispose d'un médiateur pour les enfants au sein du Bureau du médiateur.",
+        "Ce jour-là, l'Opéra national de Lettonie propose traditionnellement des spectacles pour les enfants."
+      ]
+    },
+    "memorial_lv_day_of_the_occupation_of_the_republic_of_latvia": {
+      "intro": "Le 17 juin marque l'occupation soviétique de la Lettonie en 1940, lorsque l'Armée rouge est entrée dans le pays suite à un ultimatum de Moscou.",
+      "history": "Le 16 juin 1940, l'Union soviétique exigea un nouveau gouvernement et l'admission de troupes illimitées ; le lendemain, les forces soviétiques occupèrent la Lettonie. Des élections organisées ont suivi et, en août, la Lettonie a été annexée en tant que république soviétique. L'indépendance n'a été restaurée qu'en 1991.",
+      "traditions": "Les drapeaux sont hissés de rubans noirs de deuil et des couronnes sont déposées au Monument de la Liberté à Riga. Le Musée de l'Occupation organise un événement commémoratif et le président s'adresse à la nation.",
+      "funFacts": [
+        "Le Musée de l'occupation de la Lettonie à Riga documente les années 1940 à 1991.",
+        "L'occupation était une conséquence du protocole secret du pacte Molotov-Ribbentrop.",
+        "De nombreux pays occidentaux n'ont jamais reconnu l'annexion et ont continué à accepter des diplomates lettons."
+      ]
+    },
+    "memorial_lv_medical_worker_day": {
+      "intro": "La Journée du personnel médical, le troisième dimanche de juin, rend hommage aux médecins, aux infirmières et à tous ceux qui travaillent dans le système de santé letton.",
+      "history": "Cette journée trouve ses racines dans la « Journée du personnel médical » soviétique, célébrée à la même date. Après l'indépendance, la Lettonie a conservé cette journée pour remercier les professionnels de la santé.",
+      "traditions": "Les hôpitaux et le ministère de la Santé organisent des cérémonies au cours desquelles des médecins et infirmiers exceptionnels reçoivent des prix. Les patients et les collègues apportent des fleurs et les médias rendent compte du travail du service de santé.",
+      "funFacts": [
+        "L'hôpital universitaire Pauls Stradiņš de Riga, en Lettonie, est le plus grand centre médical du pays.",
+        "L'Université Riga Stradiņš forme des médecins de nombreux pays en anglais.",
+        "Le jour tombe toujours un dimanche, les célébrations ont donc souvent lieu le vendredi précédent."
+      ]
+    },
+    "memorial_lv_heroes_commemoration_day_anniversary_of_the_battle_of_cesis": {
+      "intro": "La Journée de commémoration des héros, le 22 juin, rappelle la bataille de Cēsis en 1919, un tournant dans la guerre d'indépendance de la Lettonie.",
+      "history": "Entre le 19 et le 23 juin 1919, les troupes estoniennes et les unités lettones ont vaincu la Landeswehr balte allemande près de Cēsis. La victoire met fin aux projets allemands de contrôler la Baltique et assure le gouvernement de Kārlis Ulmanis. L'Estonie célèbre la même bataille le 23 juin, jour de la Victoire.",
+      "traditions": "Les cérémonies ont lieu au monument aux morts de Cēsis et au cimetière des frères de Riga. Les responsables lettons et estoniens commémorent souvent la bataille ensemble.",
+      "funFacts": [
+        "Les écoliers lettons de Cēsis ont combattu dans la bataille en tant que compagnie bénévole.",
+        "Le château de Cēsis, l'un des châteaux médiévaux les mieux conservés de Lettonie, surplombe la ville.",
+        "La bataille est parfois appelée « Bataille de Võnnu » en Estonie, d'après le nom estonien de Cēsis."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_genocide_against_the_jews": {
+      "intro": "Le 4 juillet commémore le génocide perpétré contre les Juifs de Lettonie pendant l'occupation allemande, au cours duquel environ 70 000 Juifs lettons ont été assassinés.",
+      "history": "Le 4 juillet 1941, la Grande Synagogue Chorale de Riga fut incendiée avec des gens à l'intérieur, tout comme d'autres synagogues de la ville. Des fusillades massives suivirent, surtout à Rumbula et Biķernieki à la fin de 1941. Le jour du souvenir fut institué en 1990.",
+      "traditions": "Des couronnes sont déposées sur les ruines de la Grande Synagogue Chorale de Gogoļa iela et sur les mémoriaux de Rumbula et Biķernieki. Le mémorial de Žanis Lipke rend hommage aux Lettons qui ont caché des Juifs au péril de leur vie.",
+      "funFacts": [
+        "Žanis Lipke, un docker de Riga, a sauvé plus de 50 Juifs et est honoré comme Juste parmi les Nations.",
+        "Le mémorial situé dans les ruines de la synagogue comprend un mur avec les noms des sauveteurs.",
+        "Avant la guerre, environ 93 000 Juifs vivaient en Lettonie, soit environ cinq pour cent de la population."
+      ]
+    },
+    "memorial_lv_day_of_the_sea_festival": {
+      "intro": "La Fête de la Mer, le deuxième samedi de juillet, célèbre les pêcheurs, les marins et tous ceux dont la vie est liée à la mer Baltique.",
+      "history": "Le festival est né des célébrations des pêcheurs des années 1930 et est devenu une tradition dans les villes côtières telles que Liepāja, Ventspils et Roja. Il a survécu à l’ère soviétique et constitue un jour de célébration officiel depuis l’indépendance.",
+      "traditions": "Les bateaux sont bénis et décorés, Neptune arrive de la mer et « baptise » les nouveaux arrivants, et la soupe de poisson est servie sur les quais. Les concerts, courses de bateaux et foires se poursuivent jusque tard dans la nuit d'été.",
+      "funFacts": [
+        "Le littoral letton s'étend sur environ 500 kilomètres de long.",
+        "Le poisson fumé, notamment les sprats et la plie, est le plat classique de la fête.",
+        "À Ventspils, le festival est combiné avec le festival municipal et attire des dizaines de milliers de visiteurs."
+      ]
+    },
+    "memorial_lv_latvian_freedom_fighters_remembrance_day": {
+      "intro": "Le 11 août rend hommage aux combattants de la liberté de la guerre d'indépendance lettone et marque la signature du traité de paix avec la Russie soviétique de 1920 qui a mis fin à la guerre.",
+      "history": "Dans le traité de Riga du 11 août 1920, la Russie soviétique a reconnu l'indépendance de la Lettonie « pour toujours ». La guerre de 1918 à 1920 avait été menée contre les forces bolcheviques, les unités allemandes et l’armée des volontaires de la Russie occidentale. Environ 3 000 soldats lettons sont morts.",
+      "traditions": "Des couronnes sont déposées au Monument de la Liberté et au Cimetière des Frères de Riga, où sont enterrés les morts de la guerre. Les Forces armées nationales organisent une cérémonie et les organisations d'anciens combattants se souviennent des volontaires.",
+      "funFacts": [
+        "Le cimetière des frères de Riga a été conçu par le sculpteur Kārlis Zāle, qui a également créé le Monument de la Liberté.",
+        "Le Monument de la Liberté, inauguré en 1935, porte l'inscription « Pour la patrie et la liberté ».",
+        "L'Union soviétique a rompu le traité de paix « éternel » vingt ans plus tard avec l'occupation de 1940."
+      ]
+    },
+    "memorial_lv_day_of_the_passing_of_the_constitutional_law_on_the_status_of_the_republic_of_latvia_as_a_state": {
+      "intro": "Le 21 août marque le jour de 1991 où le parlement letton a adopté la loi constitutionnelle qui a pleinement restauré l'indépendance du pays.",
+      "history": "La Lettonie avait déclaré une transition vers l'indépendance le 4 mai 1990. Lors de l'échec du coup d'État à Moscou, le Conseil suprême a adopté le 21 août 1991 la loi déclarant la Lettonie État pleinement indépendant. En quelques jours, l’Union soviétique et le monde l’ont reconnu.",
+      "traditions": "Le drapeau est hissé sur les bâtiments publics et la Saeima organise une cérémonie. Cette journée est souvent commémorée avec le 4 mai, jour de la restauration de l'indépendance, qui est un jour férié.",
+      "funFacts": [
+        "L'Islande a été le premier pays à reconnaître l'indépendance restaurée de la Lettonie, le 22 août 1991.",
+        "Le vote au Conseil suprême a eu lieu alors que les troupes soviétiques étaient encore dans le pays.",
+        "La Lettonie a rejoint les Nations Unies le 17 septembre 1991."
+      ]
+    },
+    "memorial_lv_day_of_remembrance_for_victims_of_stalinism_and_nazism": {
+      "intro": "Le 23 août est la Journée européenne du souvenir des victimes du stalinisme et du nazisme, l'anniversaire du pacte Molotov-Ribbentrop de 1939 et de la Voie Baltique de 1989.",
+      "history": "Le 23 août 1939, l'Allemagne et l'Union soviétique ont signé un pacte de non-agression avec un protocole secret divisant l'Europe de l'Est, qui a scellé le sort des États baltes. Cinquante ans plus tard, le 23 août 1989, environ deux millions de personnes ont formé une chaîne humaine de Tallinn à Riga jusqu'à Vilnius pour exiger l'indépendance.",
+      "traditions": "Des cérémonies ont lieu au Monument de la Liberté à Riga et des bougies sont allumées à la mémoire des victimes des deux régimes. La Voie Baltique est rappelée par des expositions et des films, et cette journée est célébrée dans toute l'Union européenne.",
+      "funFacts": [
+        "La Voie Baltique s'étendait sur environ 675 kilomètres à travers les trois pays.",
+        "Les documents de la Voie Baltique ont été ajoutés au Registre de la Mémoire du monde de l'UNESCO en 2009.",
+        "Le Parlement européen a proclamé la Journée du souvenir en 2009."
+      ]
+    },
+    "memorial_lv_knowledge_day": {
+      "intro": "La Journée du savoir, le 1er septembre, est le premier jour de l'année scolaire en Lettonie, lorsque les élèves apportent des fleurs à leurs professeurs et que les élèves de première année commencent l'école.",
+      "history": "La tradition d'une rentrée scolaire cérémoniale vient de l'ère soviétique, lorsque le 1er septembre était devenu la rentrée uniforme de l'année scolaire dans tout le pays. La Lettonie a conservé la date et le caractère festif.",
+      "traditions": "Les élèves dans leurs plus beaux habits portent des bouquets de glaïeuls et d'asters ; les élèves de première année sont conduits à l'école par des élèves plus âgés. Les écoles organisent des assemblées avec discours et musique, et les universités ouvrent l'année universitaire.",
+      "funFacts": [
+        "Les fleuristes de Lettonie connaissent leur jour le plus chargé de l'année le 1er septembre.",
+        "Dans de nombreuses écoles, la première cloche est sonnée par un élève de dernière année portant un élève de première année sur ses épaules.",
+        "Cette journée est également célébrée en Russie, en Ukraine et dans d'autres pays de l'ex-Union soviétique."
+      ]
+    },
+    "memorial_lv_baltic_unity_day": {
+      "intro": "La Journée de l'unité balte, le 22 septembre, rappelle la bataille de Saule en 1236 et célèbre les racines communes des Lettons et des Lituaniens.",
+      "history": "Le 22 septembre 1236, les forces samogitiennes et sémigalles vainquirent les Frères de l'Épée de Livonie près de Saule, première grande victoire des peuples baltes sur les ordres croisés. Les parlements de Lettonie et de Lituanie ont institué cette journée en 2000.",
+      "traditions": "Des feux de joie sont allumés des deux côtés de la frontière et des groupes folkloriques interprètent des chants et des danses anciennes. Des concerts et des événements communs ont lieu dans les villes frontalières et les universitaires discutent du patrimoine commun des langues baltes.",
+      "funFacts": [
+        "Le letton et le lituanien sont les deux seules langues baltes survivantes.",
+        "Des feux de joie à la même heure le long de la frontière symbolisent l'unité.",
+        "Le lieu exact de la bataille est encore controversé entre les historiens."
+      ]
+    },
+    "memorial_lv_international_day_of_older_persons": {
+      "intro": "La Journée internationale des personnes âgées, le 1er octobre, honore la contribution des personnes âgées à la société et sensibilise à leurs besoins.",
+      "history": "L'Assemblée générale des Nations Unies a proclamé cette journée en 1990 et elle a été observée pour la première fois en 1991. La Lettonie, dont la population est parmi les plus anciennes d'Europe, l'inclut dans son calendrier officiel.",
+      "traditions": "Les clubs de seniors, les communes et les centres culturels organisent des concerts, des expositions et des journées santé. Les organisations de retraités profitent de cette journée pour discuter des pensions et des soins, et les petits-enfants rendent souvent visite à leurs grands-parents.",
+      "funFacts": [
+        "Un habitant sur cinq en Lettonie a plus de 65 ans.",
+        "De nombreuses municipalités lettones proposent des transports publics gratuits pour les retraités.",
+        "L'ONU fixe chaque année un thème, comme l'inclusion numérique ou la résilience."
+      ]
+    },
+    "memorial_lv_teachers_day": {
+      "intro": "La Journée des enseignants, le 5 octobre, remercie les enseignants pour leur travail et coïncide avec la Journée mondiale des enseignants de l'UNESCO.",
+      "history": "L'UNESCO a proclamé la Journée mondiale des enseignants en 1994 pour commémorer la recommandation de 1966 sur le statut des enseignants. En Lettonie, à l'époque soviétique, la Journée des enseignants était déjà célébrée le premier dimanche d'octobre ; la date a ensuite été alignée sur la journée internationale.",
+      "traditions": "Les élèves apportent des fleurs et des petits cadeaux, et les élèves plus âgés reprennent souvent les cours pendant une journée. Le ministère de l'Éducation récompense les enseignants exceptionnels et les écoles organisent des concerts.",
+      "funFacts": [
+        "Dans de nombreuses écoles lettones, les élèves organisent une « journée de l'autonomie gouvernementale » au cours de laquelle ils dirigent l'école.",
+        "La Lettonie compte environ 25 000 enseignants.",
+        "Le prix de l'enseignant letton de l'année est décerné depuis 1994."
+      ]
+    },
+    "memorial_lv_official_language_day": {
+      "intro": "La Journée de la langue officielle, le 15 octobre, célèbre le letton en tant que langue officielle et son rôle dans l'identité du pays.",
+      "history": "Le 15 octobre 1998, la Saeima a amendé la constitution pour déclarer le letton langue officielle de la République de Lettonie. Cette journée est utilisée pour promouvoir la langue, parlée par environ deux millions de personnes dans le monde.",
+      "traditions": "Les bibliothèques, les écoles et la Bibliothèque nationale de Riga organisent des lectures, des concours de dictée et des conférences. Des prix sont décernés aux personnes qui ont contribué à la langue lettone et des événements sont organisés pour les nouveaux arrivants apprenant le letton.",
+      "funFacts": [
+        "Le letton est l'une des deux langues baltes survivantes avec le lituanien.",
+        "La Bibliothèque nationale de Lettonie, le « Château de lumière », a ouvert ses portes en 2014 sur les rives de la Daugava.",
+        "L'alphabet letton compte 33 lettres, dont « ķ », « ļ » et « ņ »."
+      ]
+    },
+    "memorial_lv_border_guards_day": {
+      "intro": "La Journée des gardes-frontières, le 7 novembre, rend hommage aux gardes-frontières de l'État letton, fondés à cette date en 1919.",
+      "history": "Les premières unités de gardes-frontières furent créées le 7 novembre 1919 lors de la Guerre d'Indépendance. Dissous sous le régime soviétique, le service a été rétabli en 1991 et protège aujourd'hui la frontière extérieure de l'Union européenne avec la Russie et la Biélorussie.",
+      "traditions": "Les gardes-frontières organisent un défilé cérémonial et une cérémonie de remise de prix, et l'école des gardes-frontières de Rēzekne ouvre ses portes. Des couronnes sont déposées à la mémoire des gardes morts en service.",
+      "funFacts": [
+        "La frontière orientale de la Lettonie avec la Russie et la Biélorussie s'étend sur environ 460 kilomètres.",
+        "Les gardes-frontières utilisent des chiens, des drones et des patrouilleurs sur la mer Baltique.",
+        "Une clôture frontalière le long de la frontière biélorusse a été achevée dans les années 2020."
+      ]
+    },
+    "memorial_lv_lacplesis_day": {
+      "intro": "La Journée Lāčplēsis, le 11 novembre, commémore la victoire de l'armée lettone sur l'armée des volontaires de la Russie occidentale à Riga en 1919 et rend hommage à tous ceux qui se sont battus pour la liberté de la Lettonie.",
+      "history": "Le 11 novembre 1919, les troupes lettones chassèrent les forces de Pavel Bermondt-Avalov de Riga, une victoire décisive dans la guerre d'indépendance. La journée porte le nom de Lāčplēsis, le héros « tueur d'ours » de l'épopée nationale lettone, et l'Ordre de Lāčplēsis a été créé pour les héros de la guerre.",
+      "traditions": "Le soir, des milliers de personnes déposent des bougies le long du mur du château de Riga, sur la digue de la Daugava, créant ainsi une mer de lumière. Des processions et des cérémonies aux flambeaux ont lieu dans tout le pays et les gens portent un ruban rouge-blanc-rouge.",
+      "funFacts": [
+        "L'épopée 'Lāčplēsis' a été écrite par Andrejs Pumpurs en 1888.",
+        "L'Ordre de Lāčplēsis a été décerné à 2 146 personnes, dont 11 femmes.",
+        "La tradition des bougies au château de Riga a commencé en 1988, lors du mouvement indépendantiste."
+      ]
+    },
+    "memorial_lv_remembrance_day_of_the_tragedy_of_21_november_2013": {
+      "intro": "Le 21 novembre rend hommage aux 54 personnes décédées lors de l'effondrement du toit d'un supermarché dans le quartier Zolitūde de Riga en 2013.",
+      "history": "Le soir du 21 novembre 2013, le toit d'un supermarché Maxima s'est effondré pendant les heures de magasinage ; parmi les morts figuraient trois pompiers tués lorsqu'un deuxième tronçon est tombé lors du sauvetage. Il s'agit de la catastrophe la plus meurtrière en Lettonie depuis l'indépendance et elle a conduit à des règles de construction plus strictes.",
+      "traditions": "Un service commémoratif a lieu au mémorial de Zolitūde et des bougies sont allumées sur le site. Les drapeaux flottent en berne et les noms des victimes sont lus à haute voix.",
+      "funFacts": [
+        "Le Premier ministre a démissionné six jours après la catastrophe, assumant ainsi ses responsabilités politiques.",
+        "Le mémorial sur le site porte les noms des 54 victimes.",
+        "Une journée de deuil national a été déclarée pour la première fois en Lettonie indépendante."
+      ]
+    },
+    "memorial_lv_police_day": {
+      "intro": "La Journée de la police, le 5 décembre, rend hommage à la police d'État lettone, fondée à cette date en 1918, trois semaines après la proclamation de l'indépendance.",
+      "history": "La police lettone a été créée le 5 décembre 1918 comme l'une des premières institutions du nouvel État. Supprimée sous le régime soviétique, elle a été rétablie en 1991 et comprend aujourd'hui la police d'État, la police municipale et la police de sécurité.",
+      "traditions": "Le ministère de l'Intérieur organise une cérémonie de remise de prix aux officiers distingués et les commissariats de police ouvrent leurs portes au public. Des couronnes sont déposées à la mémoire des officiers morts en service.",
+      "funFacts": [
+        "La police d'État compte environ 6 000 employés.",
+        "Le Musée de la police lettone à Riga expose des uniformes et des équipements datant d'un siècle de maintien de l'ordre.",
+        "La Journée de la police et la Journée des gardes-frontières sont toutes deux liées aux années de fondation de l'État."
+      ]
+    },
+    "memorial_lv_commemoration_day_of_victims_of_genocide_against_the_latvian_people_by_the_totalitarian_communist_regime": {
+      "intro": "Le premier dimanche de décembre, la Lettonie se souvient des Lettons tués lors de « l'opération lettone » soviétique de 1937 et 1938 et de toutes les victimes du régime communiste.",
+      "history": "Le 3 décembre 1937, la police secrète soviétique NKVD a lancé « l'opération lettone », au cours de laquelle plus de 22 000 Lettons vivant en Union soviétique ont été arrêtés et environ 16 000 fusillés. Le jour du Souvenir rappelle cette situation ainsi que les répressions ultérieures d'après 1940.",
+      "traditions": "Des services commémoratifs ont lieu au Monument de la Liberté à Riga et dans les églises, et des bougies sont allumées aux monuments commémoratifs. Le Musée de l'Occupation et des historiens présentent des recherches sur le sort des victimes.",
+      "funFacts": [
+        "L'opération lettone était l'une des nombreuses « opérations nationales » de la Grande Terreur.",
+        "De nombreuses victimes étaient des descendants d'agriculteurs lettons installés en Russie au XIXe siècle.",
+        "Le site mémorial de Levashovo, près de Saint-Pétersbourg, abrite un monument aux victimes lettones."
+      ]
+    },
+    "memorial_si_primoz_trubar_day": {
+      "intro": "La Journée Primož Trubar, le 8 juin, rend hommage au réformateur protestant qui a écrit et imprimé les premiers livres en langue slovène en 1550.",
+      "history": "Trubar est né le 8 juin 1508 à Rašica près de Ljubljana. En tant que prédicateur luthérien, il dut fuir en Allemagne, où il publia le « Catéchisme » et l'« Abecedarium », les premiers livres imprimés en slovène, jetant les bases de la langue écrite. Cette journée est un jour férié national depuis 2010.",
+      "traditions": "Les cérémonies ont lieu au monument de Trubar à Ljubljana et dans sa maison natale à Rašica, où se trouve une maison commémorative. Les écoles discutent de l'histoire de la langue slovène et l'église protestante organise des offices.",
+      "funFacts": [
+        "Trubar apparaît sur la pièce d'un euro slovène.",
+        "Il s'adressait à ses lecteurs comme « mes chers Slovènes », l'une des premières utilisations du nom pour toute la nation.",
+        "Le 31 octobre, jour de la Réforme, est également un jour férié en Slovénie, en partie en son honneur."
+      ]
+    },
+    "memorial_si_sovereignty_day": {
+      "intro": "Le 25 octobre, jour de la souveraineté, marque le départ du dernier soldat yougoslave du territoire slovène en 1991, achevant ainsi l'indépendance du pays.",
+      "history": "Après la guerre des Dix Jours de juin et juillet 1991, l'Armée populaire yougoslave a accepté de se retirer. Dans la nuit du 25 au 26 octobre 1991, les derniers soldats quittent le port de Koper. Cette journée est devenue fête nationale en 2015.",
+      "traditions": "Une cérémonie d'État a lieu, souvent à Koper, et le drapeau est hissé sur les bâtiments publics. Des vétérans de la guerre d'indépendance y participent et les écoles rappellent les événements de 1991.",
+      "funFacts": [
+        "Les derniers soldats sont partis en ferry de Koper à Rijeka.",
+        "La guerre des Dix Jours en Slovénie a causé moins de 80 morts, bien moins que les guerres ultérieures dans la région.",
+        "La Slovénie a rejoint l'Union européenne et l'OTAN en 2004."
+      ]
+    },
+    "memorial_si_unification_of_prekmurje_slovenes_with_the_mother_nation": {
+      "intro": "Le 17 août commémore l'unification de Prekmurje avec le reste des terres slovènes en 1919, après des siècles de domination hongroise.",
+      "history": "Prekmurje, la région au-delà de la rivière Mura, appartenait au royaume de Hongrie depuis mille ans. Après la Première Guerre mondiale, la Conférence de paix de Paris l'attribua au nouveau Royaume des Serbes, Croates et Slovènes et le 17 août 1919, l'union fut célébrée lors d'un rassemblement à Beltinci. Cette journée est un jour férié national depuis 2006.",
+      "traditions": "Une cérémonie d'État a lieu à Prekmurje, souvent à Beltinci ou Murska Sobota, avec de la musique folklorique et des plats traditionnels de la région. Des associations locales organisent des expositions sur l'histoire de la région.",
+      "funFacts": [
+        "Prekmurje est célèbre pour sa pâtisserie feuilletée « prekmurska gibanica » et pour ses cigognes.",
+        "La région a développé sa propre langue littéraire au XVIIIe siècle.",
+        "Murska Sobota est la seule capitale régionale slovène de l'autre côté de la Mura."
+      ]
+    },
+    "memorial_si_integration_of_primorska_into_the_homeland": {
+      "intro": "Le 15 septembre marque le jour de 1947 où le Traité de paix de Paris est entré en vigueur et où la majeure partie du littoral slovène (Primorska) a été rattachée à la Slovénie.",
+      "history": "Après la Première Guerre mondiale, le Littoral a été attribué à l'Italie, où la population slovène a subi une italianisation forcée sous le fascisme. Le traité de paix de 1947 avec l'Italie a restitué la plus grande partie de la région à la Yougoslavie et donc à la Slovénie. Cette journée est devenue fête nationale en 2005.",
+      "traditions": "Une cérémonie d'État a lieu dans l'une des villes du Littoral comme Nova Gorica, Koper ou Sežana, avec des discours et des concerts. L'hymne du Littoral « Vstala Primorska » est chanté et des chorales se produisent dans toute la région.",
+      "funFacts": [
+        "Trieste, centre historique de la région, est restée en Italie et a été disputée jusqu'en 1954.",
+        "Nova Gorica a été construite après 1947 comme ville nouvelle parce que Gorizia est restée du côté italien.",
+        "Le court littoral slovène d'environ 47 kilomètres se trouve entièrement en Primorska."
+      ]
+    },
+    "memorial_si_slovenian_sports_day": {
+      "intro": "La Journée sportive slovène du 23 septembre célèbre les athlètes du pays et encourage chacun à être actif.",
+      "history": "La date rappelle le 23 septembre 2000, lorsque la Slovénie a remporté ses premières médailles d'or olympiques aux Jeux de Sydney en aviron et en tir. Ce jour férié a été introduit en 2020 et ne constitue pas un jour de congé.",
+      "traditions": "Les clubs sportifs et les écoles organisent des entraînements, des courses et des tournois gratuits et les meilleurs athlètes sont mis à l'honneur. Beaucoup de gens font simplement de la randonnée, du vélo ou du ski, les passe-temps nationaux.",
+      "funFacts": [
+        "La Slovénie a remporté plus de médailles olympiques par habitant que presque tout autre pays.",
+        "Le saut à ski à Planica et les stars du cyclisme comme Tadej Pogačar et Primož Roglič sont des passions nationales.",
+        "Le Comité olympique slovène organise ce jour-là un programme national de « sport pour tous »."
+      ]
+    },
+    "memorial_si_rudolf_maister_day": {
+      "intro": "La journée Rudolf Maister du 23 novembre rend hommage au général qui a assuré la sécurité de Maribor et de la région de Basse-Styrie pour la Slovénie en 1918.",
+      "history": "En novembre 1918, alors que l'empire austro-hongrois s'effondrait, le major Rudolf Maister prit le commandement de Maribor, désarma la garde germano-autrichienne le 23 novembre et sécurisa la frontière nord du nouvel État slave du sud. Cette journée est un jour férié national depuis 2005.",
+      "traditions": "Des cérémonies ont lieu au monument de Maister à Maribor et à Ljubljana et les forces armées lui rendent hommage. Les écoles et les associations locales rappellent les combats pour la frontière nord.",
+      "funFacts": [
+        "Maister était également un poète qui publiait sous le pseudonyme de Vojanov.",
+        "Sans son action, Maribor aurait pu devenir une partie de l'Autriche, comme le souhaitait son conseil germanophone.",
+        "Les forces armées slovènes ont donné son nom à une caserne et à une récompense."
+      ]
+    },
+    "memorial_sk_day_of_the_constitution_of_the_slovak_republic": {
+      "intro": "La Journée de la Constitution, le 1er septembre, commémore l'adoption de la constitution de la République slovaque en 1992, quatre mois avant l'indépendance du pays.",
+      "history": "Le Conseil national slovaque a adopté la constitution le 1er septembre 1992 et elle a été signée deux jours plus tard au château de Bratislava. Le 1er janvier 1993, la Tchécoslovaquie s'est dissoute pacifiquement en République tchèque et en Slovaquie. Ce jour était férié jusqu’en 2024 et reste un jour commémoratif.",
+      "traditions": "Le château de Bratislava ouvre ses portes et le Conseil national organise une cérémonie. Le président décerne les honneurs d'État aux citoyens distingués et le drapeau est hissé sur les bâtiments publics.",
+      "funFacts": [
+        "La constitution a été signée dans la salle des chevaliers du château de Bratislava.",
+        "La séparation pacifique de la Tchécoslovaquie est connue sous le nom de « divorce de velours ».",
+        "La Slovaquie a introduit l'euro en 2009, quatre ans après que son voisin la République tchèque ne l'ait pas fait."
+      ]
+    },
+    "memorial_sk_struggle_for_freedom_and_democracy_day": {
+      "intro": "Le 17 novembre commémore les manifestations étudiantes de 1939 et 1989 et le début de la Révolution de velours qui a mis fin au régime communiste en Tchécoslovaquie.",
+      "history": "Le 17 novembre 1939, les occupants nazis fermèrent les universités tchèques et exécutèrent neuf étudiants après les manifestations à Prague. Cinquante ans plus tard, le 17 novembre 1989, une manifestation étudiante à Prague fut violemment dispersée, déclenchant des manifestations de masse qui renversèrent le régime en quelques semaines. Ce jour est un jour férié en Slovaquie et en République tchèque.",
+      "traditions": "Des rassemblements avec des bougies et des discours ont lieu à Bratislava et dans d'autres villes, et les gens sonnent les clés comme en 1989. Des concerts et des discussions avec les participants de la révolution ont lieu, et cette journée est également la Journée internationale des étudiants.",
+      "funFacts": [
+        "Le tintement des touches est devenu le son de la Révolution de velours, symbolisant le message « il est temps d'y aller » adressé aux communistes.",
+        "À Bratislava, la première grande manifestation a eu lieu sur la place de l'Insurrection nationale slovaque.",
+        "Alexander Dubček, le visage du Printemps de Prague de 1968, est revenu à la vie publique pendant la révolution."
+      ]
+    },
+    "memorial_ve_teachers_day": {
+      "intro": "La Journée des enseignants, le 15 janvier, rend hommage aux enseignants du Venezuela et rappelle la fondation de la première association nationale d'enseignants en 1932.",
+      "history": "Le 15 janvier 1932, des éducateurs fondèrent la Sociedad Venezolana de Maestros de Instrucción Primaria pour améliorer l'enseignement pendant la dictature de Gómez. Le président Rómulo Betancourt a fait de cette date la Journée officielle des enseignants en 1945.",
+      "traditions": "Les élèves apportent des fleurs, des cartes et des petits cadeaux, et les écoles organisent des assemblées et des concerts. Les enseignants ayant de longues années de service reçoivent des récompenses et les universités honorent des éducateurs distingués.",
+      "funFacts": [
+        "Simón Rodríguez, le professeur de Simón Bolívar, est considéré comme le modèle de l'éducateur vénézuélien.",
+        "Parmi les fondateurs de la société figurait l'écrivain Luis Beltrán Prieto Figueroa, plus tard candidat à la présidence.",
+        "De nombreux pays d'Amérique latine célèbrent leurs enseignants à des dates différentes ; Celle du Venezuela est l'une des plus précoces de l'année."
+      ]
+    },
+    "memorial_ve_youth_day": {
+      "intro": "La Journée de la Jeunesse du 12 février commémore la bataille de La Victoria en 1814, au cours de laquelle étudiants et séminaristes se sont battus sous José Félix Ribas pour l'indépendance du Venezuela.",
+      "history": "Le 12 février 1814, Ribas défendit la ville de La Victoria contre les troupes royalistes avec une force comprenant des centaines de jeunes étudiants de Caracas. Ses paroles « Nous ne pouvons pas choisir entre gagner ou mourir : nous devons gagner » sont devenues célèbres. Cette journée a été déclarée Journée de la jeunesse en 1947.",
+      "traditions": "Des défilés, des concerts et des événements sportifs pour les jeunes ont lieu dans tout le pays et des gerbes de fleurs sont déposées au monument à Ribas à La Victoria. Les écoles organisent des reconstitutions de la bataille.",
+      "funFacts": [
+        "Le 12 février est aussi l'anniversaire d'Abraham Lincoln et de Charles Darwin.",
+        "Ribas était l'oncle par alliance de Simón Bolívar.",
+        "L'État vénézuélien d'Aragua, où se trouve La Victoria, se considère comme le berceau de la jeunesse."
+      ]
+    },
+    "memorial_ve_slavery_abolition_anniversary": {
+      "intro": "Cette journée commémore l'abolition de l'esclavage au Venezuela, décrétée par le président José Gregorio Monagas en mars 1854.",
+      "history": "L'esclavage existait au Venezuela depuis le 16ème siècle, notamment dans les plantations de cacao. Simón Bolívar avait promis la liberté aux esclaves pendant les guerres d'indépendance, mais l'abolition complète n'est intervenue qu'avec la loi de 1854, qui a libéré environ 40 000 personnes. Cette journée est marquée comme une célébration dans le calendrier national.",
+      "traditions": "Les communautés afro-vénézuéliennes organisent des festivals de tambours, des danses et des événements culturels, notamment dans les régions côtières de Barlovento et Yaracuy. Les écoles et les musées discutent de l'histoire de l'esclavage et de son héritage.",
+      "funFacts": [
+        "José Leonardo Chirino a dirigé un soulèvement de personnes esclaves et libres à Coro en 1795, dont on se souvient aujourd'hui comme d'un précurseur de l'abolition.",
+        "Les traditions des tambours tambours de la côte vénézuélienne trouvent leurs racines dans la culture des esclaves africains.",
+        "Le Venezuela a été l'une des dernières républiques hispanophones du continent à abolir l'esclavage."
+      ]
+    },
+    "memorial_ve_foundation_anniversary_day_of_san_cristobal_tachira": {
+      "intro": "Le 31 mars marque la fondation de San Cristóbal, la capitale de l'État andin de Táchira, par le capitaine espagnol Juan Maldonado en 1561.",
+      "history": "Juan Maldonado y Ordóñez fonda la « Villa de San Cristóbal » le 31 mars 1561 comme étape sur la route entre les Andes et les plaines. La ville est devenue un centre commercial du café et compte aujourd'hui environ 300 000 habitants.",
+      "traditions": "La ville célèbre avec un défilé civique, des concerts et une messe dans la cathédrale. L'anniversaire se situe à proximité de la Feria Internacional de San Sebastián en janvier, le plus grand festival de la région, et la fierté locale s'exprime à travers la musique et la nourriture.",
+      "funFacts": [
+        "San Cristóbal se trouve à environ 800 mètres d'altitude dans une vallée des Andes.",
+        "Le club de football de la ville, le Deportivo Táchira, est l'un des plus performants du Venezuela.",
+        "La Feria de San Sebastián attire des centaines de milliers de visiteurs chaque année en janvier."
+      ]
+    },
+    "memorial_ve_journalists_day": {
+      "intro": "La Journée des journalistes, le 27 juin, rappelle le premier numéro du journal « Correo del Orinoco », fondé par Simón Bolívar en 1818.",
+      "history": "Le Correo del Orinoco a été publié pour la première fois dans Angostura, aujourd'hui Ciudad Bolívar, le 27 juin 1818 comme la voix du mouvement indépendantiste. Cette journée a été déclarée Journée des journalistes en 1964 et commémore également un décret de 1870 rendant l'enseignement primaire gratuit et obligatoire.",
+      "traditions": "Les associations de journalistes décernent des prix et les universités organisent des débats sur la liberté de la presse. La maison du Correo del Orinoco à Ciudad Bolívar, aujourd'hui musée, accueille une cérémonie.",
+      "funFacts": [
+        "Bolívar a qualifié l'imprimerie d'« aussi utile que les fournitures militaires ».",
+        "L'imprimerie originale du Correo del Orinoco est encore visible à Ciudad Bolívar.",
+        "Le 27 juin est également la Journée de l'éducation au Venezuela en raison du décret de 1870."
+      ]
+    },
+    "memorial_ve_caracas_city_foundation_day": {
+      "intro": "Le 25 juillet marque la fondation de Caracas par le conquistador espagnol Diego de Losada en 1567, anniversaire de la capitale du Venezuela.",
+      "history": "Losada fonda « Santiago de León de Caracas » le 25 juillet 1567 dans la vallée de la rivière Guaire, à l'occasion de la fête de Saint-Jacques. La ville est devenue le siège de la capitainerie générale du Venezuela en 1777 et le lieu de naissance de Simón Bolívar.",
+      "traditions": "La ville organise des concerts, des expositions et une messe traditionnelle dans la cathédrale de la Plaza Bolívar, où est commémorée la fondation de la ville. Les musées et le centre historique proposent des visites gratuites, et la journée est marquée par des feux d'artifice.",
+      "funFacts": [
+        "Caracas se trouve à environ 900 mètres d'altitude, sous la montagne Ávila, dont le parc national est le poumon vert de la ville.",
+        "Le téléphérique d'Ávila emmène les visiteurs à plus de 2 000 mètres d'altitude avec vue sur la ville et les Caraïbes.",
+        "Les armoiries de la ville représentent un lion tenant une coquille Saint-Jacques, symbole de Saint-Jacques."
+      ]
+    },
+    "memorial_ve_flag_day": {
+      "intro": "Le 3 août, la Journée du drapeau célèbre la première levée du drapeau tricolore vénézuélien par Francisco de Miranda à La Vela de Coro en 1806.",
+      "history": "Miranda, précurseur de l'indépendance, débarqua à La Vela de Coro le 3 août 1806 et hissa le drapeau jaune, bleu et rouge qu'il avait conçu. Le jour du drapeau a été célébré le 12 mars jusqu'en 2006, date à laquelle il a été déplacé au 3 août pour honorer la première levée sur le sol vénézuélien.",
+      "traditions": "Des drapeaux sont hissés dans les écoles, les bâtiments publics et les bases militaires, et l'hymne national est chanté. Une cérémonie a lieu à La Vela de Coro et les enfants apprennent la signification des couleurs : l'or pour la richesse, le bleu pour la mer et le rouge pour le sang des héros.",
+      "funFacts": [
+        "Les trois mêmes couleurs apparaissent sur les drapeaux de la Colombie et de l'Équateur, qui appartenaient à la Grande Colombie.",
+        "L'arc d'étoiles du drapeau est passé de sept à huit en 2006, ajoutant la province de Guayana.",
+        "Le drapeau original de Miranda a été hissé sur son navire, le Leander."
+      ]
+    },
+    "memorial_de_june_17_uprising": {
+      "intro": "Le 17 juin commémore le soulèvement populaire de 1953 en Allemagne de l'Est, lorsque plus d'un million de personnes ont protesté contre le régime du SED et ont été écrasées par les chars soviétiques.",
+      "history": "Le soulèvement commença le 16 juin 1953 par une grève des ouvriers du bâtiment sur la Stalinallee à Berlin-Est contre l'augmentation des quotas de travail et s'étendit en un jour à des centaines de villes. Les troupes soviétiques ont déclaré la loi martiale et au moins 55 personnes sont mortes. L'Allemagne de l'Ouest a fait du 17 juin le « Jour de l'unité allemande » de 1954 jusqu'à la réunification en 1990.",
+      "traditions": "Des couronnes sont déposées sur le mémorial devant l'ancienne Maison des Ministères de la Leipziger Straße à Berlin et sur les tombes des victimes au cimetière de la Seestraße. Le Bundestag et les parlements des Länder organisent des commémorations.",
+      "funFacts": [
+        "Le boulevard menant à la Porte de Brandebourg à Berlin s'appelle depuis 1953 « Straße des 17. Juni ».",
+        "Environ 15 000 personnes ont été arrêtées après le soulèvement.",
+        "Ces événements sont considérés comme le premier soulèvement populaire contre un régime communiste dans le bloc de l'Est."
       ]
     },
     "memorial_de_november_pogroms": {
-      "intro": "Le 9 novembre rappelle les pogroms antisémites de 1938.",
+      "intro": "Le 9 novembre commémore les pogroms de novembre 1938, lorsque des synagogues, des magasins et des maisons juifs à travers l'Allemagne et l'Autriche furent attaqués et détruits.",
+      "history": "Dans la nuit du 9 au 10 novembre 1938, le régime nazi organisa une violence contre les Juifs à l'échelle nationale : plus de 1 400 synagogues furent incendiées, environ 30 000 hommes juifs furent déportés dans des camps de concentration et des centaines de personnes furent tuées. Les pogroms ont marqué le passage de la discrimination à la persécution systématique.",
+      "traditions": "Les commémorations ont lieu dans les synagogues et les sites commémoratifs ; dans de nombreuses villes, les gens nettoient les Stolpersteine, de petites plaques de cuivre placées sur le trottoir devant les dernières maisons des victimes, et placent des bougies à côté d'elles. Les écoles discutent de l’histoire de l’époque.",
       "funFacts": [
-        "Des synagogues furent détruites et des personnes juives persécutées, déportées et assassinées."
+        "Le 9 novembre est appelé le « jour du destin » de l'Allemagne : la république a été proclamée en 1918 et le mur de Berlin est tombé en 1989 à la même date.",
+        "Plus de 100 000 Stolpersteine ont été posées à travers l'Europe depuis 1992.",
+        "Le terme nazi « Nuit de Cristal » est évité aujourd'hui car il banalise la violence."
       ]
     },
     "memorial_de_victims_of_national_socialism": {
-      "intro": "Le 27 janvier commémore les victimes du nazisme.",
+      "intro": "Le 27 janvier est le jour du souvenir des victimes du national-socialisme en Allemagne, l'anniversaire de la libération du camp de concentration et d'extermination d'Auschwitz en 1945.",
+      "history": "Le président fédéral Roman Herzog a proclamé cette journée en 1996. En 2005, les Nations Unies ont adopté le 27 janvier comme Journée internationale de commémoration de l'Holocauste. Les troupes soviétiques libérèrent Auschwitz le 27 janvier 1945, où plus d'un million de personnes furent assassinées.",
+      "traditions": "Le Bundestag organise une heure commémorative avec le discours d'un survivant ou d'un invité de marque. Les drapeaux flottent en berne sur les bâtiments publics et les lieux de mémoire, les écoles et les églises organisent des événements. Beaucoup de gens allument une bougie à leur fenêtre le soir.",
       "funFacts": [
-        "À cette date, en 1945, le camp de concentration et d’extermination d’Auschwitz fut libéré."
+        "Cette journée rend hommage à tous les groupes persécutés par les nazis : Juifs, Sinti et Roms, personnes handicapées, homosexuels, prisonniers politiques et bien d'autres.",
+        "Le Mémorial des Juifs assassinés d'Europe à Berlin se compose de 2 711 stèles en béton.",
+        "Les mots « Plus jamais ça » sont le message qui unit les commémorations de cette journée dans le monde entier."
       ]
     }
   }
