@@ -47,6 +47,24 @@ test('three German remembrance days have stable annual identities, not numbered 
   const row=rows.find(r=>r.definition.id==='MEMORIAL_DE_'+slug);assert.deepEqual(row.definition.rule,{type:'fixed',month,day});assert.equal(row.meta.topic,'memorial');
  }
 });
+test('memorial translations contain no English fallback prose and ship without missing fields',()=>{
+ const english=JSON.parse(fs.readFileSync(new URL('../content/memorial/en.json',import.meta.url))).articles;
+ for(const locale of CONTENT_LOCALES){
+  const content=JSON.parse(fs.readFileSync(new URL(`../content/memorial/${locale}.json`,import.meta.url)));
+  assert.deepEqual(pkg.i18n.holidayInfo[locale],content.articles,locale+': published package differs from source');
+  for(const row of rows){
+   const slug=row.definition.labelKey.slice(9),article=content.articles[slug];
+   for(const field of ['intro','history','traditions']){
+    if(locale!=='en')assert.notEqual(article[field],english[slug][field],locale+'/'+slug+'/'+field+': English fallback');
+    assert(!/@@WB_\d+@@|\uFFFD/.test(article[field]),locale+'/'+slug+'/'+field+': damaged translation');
+   }
+   article.funFacts.forEach((fact,i)=>{
+    assert(typeof fact==='string'&&fact.trim().length>0,locale+'/'+slug+'/funFacts/'+i);
+    if(locale!=='en')assert.notEqual(fact,english[slug].funFacts[i],locale+'/'+slug+'/funFacts/'+i+': English fallback');
+   });
+  }
+ }
+});
 test('Slovenian and Moldovan dates follow the official calendars',()=>{
  const rule=id=>rows.find(r=>r.definition.id===id).definition.rule;
  assert.deepEqual(rule('MEMORIAL_SI_primoz_trubar_day'),{type:'fixed',month:6,day:8});

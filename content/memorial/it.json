@@ -105,7 +105,7 @@
     },
     "memorial_ca_remembrance_day": {
       "intro": "Il Remembrance Day, l’11 novembre, onora i canadesi che servirono e morirono in guerra, simboleggiato dal papavero rosso.",
-      "history": "L’11 novembre ricorda l’armistizio del 1918 che pose fine alla Prima guerra mondiale. Il Canada, che vi perse oltre 60.000 persone, onora i caduti di tutti i conflitti. Il papavero deriva dalla poesia «In Flanders Fields» del canadese John McCrae.",
+      "history": "L'11 novembre ricorda l'armistizio del 1918 che pose fine ai combattimenti sul fronte occidentale. Il Canada onora coloro che hanno prestato servizio e sono morti in guerra. Il papavero rosso come simbolo del ricordo è associato alla poesia \"In Flanders Fields\" del canadese John McCrae.",
       "traditions": "Alle 11 i canadesi osservano due minuti di silenzio. La cerimonia nazionale al National War Memorial di Ottawa prevede corone, il Last Post e un sorvolo; milioni indossano il papavero nelle settimane precedenti.",
       "funFacts": [
         "«In Flanders Fields» fu scritta dal canadese John McCrae nel 1915.",
@@ -114,7 +114,7 @@
       ]
     },
     "memorial_fr_armistice_day": {
-      "intro": "L’11 novembre ricorda l’armistizio del 1918 che pose fine alla Prima guerra mondiale e onora tutti i soldati francesi caduti per la patria.",
+      "intro": "L'11 novembre commemora l'armistizio del 1918 che pose fine ai combattimenti sul fronte occidentale e onora coloro che morirono per la Francia.",
       "history": "Alle 11 dell’11 novembre 1918 l’armistizio firmato a Compiègne fece tacere i cannoni del fronte occidentale. La Francia perse circa 1,4 milioni di soldati. Dal 1922 è giornata nazionale della memoria, poi estesa ai caduti di tutte le guerre.",
       "traditions": "Il presidente depone una corona sulla Tomba del Milite Ignoto sotto l’Arco di Trionfo, dove arde una fiamma eterna. In tutto il Paese cittadini e veterani si riuniscono davanti ai monumenti ai caduti per un minuto di silenzio.",
       "funFacts": [
@@ -186,7 +186,7 @@
       ]
     },
     "memorial_be_armistice_day": {
-      "intro": "Il Giorno dell'Armistizio, l'11 novembre, commemora la fine della Prima Guerra Mondiale nel 1918 e onora i soldati e i civili belgi morti in entrambe le guerre mondiali.",
+      "intro": "Il Giorno dell'Armistizio, l'11 novembre, ricorda l'armistizio del 1918 sul fronte occidentale e onora i soldati e i civili belgi morti nelle guerre mondiali.",
       "history": "L'11 novembre 1918, alle ore 11, entrò in vigore l'armistizio firmato a Compiègne e sul fronte occidentale tacquero i cannoni. Il Belgio era occupato da quattro anni e gran parte delle Fiandre giacevano in rovina. La giornata è festiva dal 1922.",
       "traditions": "Il Re depone una corona di fiori presso la Tomba del Milite Ignoto alla Colonne du Congrès di Bruxelles. A Ypres, come ogni sera, sotto la Porta Menin viene suonato l'Ultimo Post, seguito da una grande parata. I papaveri vengono indossati in memoria dei defunti.",
       "funFacts": [
@@ -206,8 +206,8 @@
       ]
     },
     "memorial_ca_armistice_day": {
-      "intro": "Il giorno dell'Armistizio, l'11 novembre, segna la fine della Prima Guerra Mondiale nel 1918; in Canada è celebrato il Giorno della Memoria dal 1931.",
-      "history": "L'armistizio entrò in vigore alle 11:00 dell'11 novembre 1918. Il Canada celebrò per la prima volta il Giorno dell'Armistizio nel 1919 insieme al Giorno del Ringraziamento, finché il Parlamento non separò i due e ribattezzò il giorno nel 1931 per onorare tutti coloro che prestarono servizio.",
+      "intro": "Il giorno dell’armistizio dell’11 novembre ricorda l’armistizio del 1918 sul fronte occidentale. In Canada dal 1931 la celebrazione è conosciuta come Giorno della Memoria.",
+      "history": "L'armistizio entrò in vigore alle ore 11 dell'11 novembre 1918, ponendo fine ai combattimenti sul fronte occidentale. Il Canada osservò per la prima volta il Giorno dell'Armistizio nel 1919. Dal 1921 condivise la data con il Giorno del Ringraziamento; nel 1931 il Parlamento separò le celebrazioni e istituì il Giorno della Memoria l'11 novembre.",
       "traditions": "Alle 11 vengono osservati due minuti di silenzio e vengono deposte corone di fiori al National War Memorial di Ottawa e nei cenotafi di tutto il paese. I canadesi indossano un papavero rosso nelle settimane precedenti il ​​giorno.",
       "funFacts": [
         "Più di 66.000 canadesi morirono nella Prima Guerra Mondiale, su una popolazione di circa otto milioni.",
@@ -272,7 +272,7 @@
       "funFacts": [
         "Il nome completo della giornata è \"Giorno della memoria dell'Olocausto e dell'Eroismo\".",
         "La \"Marcia dei vivi\" porta ogni anno migliaia di giovani da Auschwitz a Birkenau in questo giorno.",
-        "Yad Vashem conserva nel suo database centrale i nomi di circa 4,8 milioni dei sei milioni di vittime."
+        "Il database centrale dei nomi di Yad Vashem commemora milioni di ebrei assassinati durante l'Olocausto e preserva i loro dettagli biografici."
       ]
     },
     "memorial_il_yom_hazikaron": {
@@ -366,7 +366,7 @@
       ]
     },
     "memorial_rs_armistice_day": {
-      "intro": "Il Giorno dell'Armistizio, l'11 novembre, commemora la fine della Prima Guerra Mondiale nel 1918 e i soldati e civili serbi che vi morirono.",
+      "intro": "Il giorno dell'armistizio dell'11 novembre ricorda l'armistizio del 1918 sul fronte occidentale e commemora i soldati e i civili serbi morti nella prima guerra mondiale.",
       "history": "La Serbia ha perso più di un quarto della sua popolazione durante la prima guerra mondiale, una percentuale più alta di qualsiasi altro paese. La giornata è stata introdotta come giorno festivo nel 2012 per onorare le vittime e il ruolo dell'esercito serbo nella vittoria degli Alleati.",
       "traditions": "Le corone vengono deposte al monumento all'Eroe Ignoto sul monte Avala vicino a Belgrado e ai memoriali di guerra in tutto il paese. La gente indossa la ramonda di Natalie, un piccolo fiore viola, in ricordo dei caduti.",
       "funFacts": [
@@ -387,7 +387,7 @@
     },
     "memorial_us_lincolns_birthday": {
       "intro": "Il compleanno di Lincoln, il 12 febbraio, onora Abraham Lincoln, il sedicesimo presidente degli Stati Uniti, che guidò il paese durante la guerra civile e pose fine alla schiavitù.",
-      "history": "Lincoln nacque in una capanna di tronchi nel Kentucky nel 1809 e fu assassinato nell'aprile 1865, pochi giorni dopo la fine della Guerra Civile. Il suo compleanno fu celebrato pubblicamente per la prima volta nel 1866 e divenne una festa legale in diversi stati, anche se mai federale. Oggi molti stati lo abbinano al compleanno di Washington come giorno dei presidenti.",
+      "history": "Lincoln nacque nel Kentucky il 12 febbraio 1809. Il 14 aprile 1865 fu ferito da un colpo di pistola al Ford's Theatre di Washington e morì la mattina seguente, pochi giorni dopo la resa del generale Lee. Il suo compleanno divenne una festività in diversi stati, ma mai una festività federale.",
       "traditions": "Una cerimonia di deposizione della corona si tiene al Lincoln Memorial di Washington e il discorso di Gettysburg viene letto in molte scuole. Nell'Illinois, la \"Terra di Lincoln\", il giorno rimane una festa statale.",
       "funFacts": [
         "Con i suoi 1,93 metri, Lincoln era il presidente degli Stati Uniti più alto.",
@@ -497,7 +497,7 @@
     },
     "memorial_lv_international_day_of_the_family": {
       "intro": "La Giornata internazionale delle famiglie del 15 maggio richiama l'attenzione sull'importanza delle famiglie e sulle sfide che devono affrontare.",
-      "history": "L'Assemblea Generale delle Nazioni Unite ha proclamato questo giorno nel 1993, dopo l'Anno Internazionale della Famiglia nel 1994. La Lettonia lo ha inserito nel suo calendario ufficiale come giorno da celebrare.",
+      "history": "Nel 1993 l'Assemblea Generale delle Nazioni Unite ha designato il 15 maggio come Giornata Internazionale della Famiglia, da osservare a partire dal 1994. Il 1994 è stato anche l'Anno Internazionale della Famiglia. La Lettonia include la giornata nel suo calendario ufficiale delle osservanze.",
       "traditions": "Nei parchi e nei centri culturali si organizzano feste per famiglie, eventi all'aria aperta e giornate sportive. Le organizzazioni utilizzano la giornata per discutere del sostegno a genitori e figli e molte famiglie trascorrono semplicemente la giornata insieme.",
       "funFacts": [
         "Ogni anno l'ONU sceglie un tema, ad esempio famiglie e cambiamento climatico o tecnologia digitale.",
@@ -507,7 +507,7 @@
     },
     "memorial_lv_firefighter_and_rescuer_day": {
       "intro": "La Giornata dei vigili del fuoco e dei soccorritori, il 17 maggio, onora gli uomini e le donne dei servizi antincendio e di soccorso della Lettonia.",
-      "history": "La data ricorda il 17 maggio 1865, quando venne fondata la Società dei Vigili del Fuoco Volontari di Riga, la prima nel Paese. Oggi il Servizio statale di soccorso e vigili del fuoco (VUGD) risponde a incendi, incidenti e disastri naturali a livello nazionale.",
+      "history": "Il 17 maggio 1865 i vigili del fuoco volontari di Riga intervennero al primo incendio nella Città Vecchia. Questo evento è commemorato come l'inizio della lotta antincendio organizzata in Lettonia. Il Servizio statale di soccorso e vigili del fuoco (VUGD) risponde a incendi, incidenti ed emergenze.",
       "traditions": "Le caserme dei vigili del fuoco aprono le porte e i bambini possono salire sulle autopompe. Le cerimonie onorano i vigili del fuoco illustri e di lunga data, e le dimostrazioni mostrano il lavoro delle squadre di soccorso.",
       "funFacts": [
         "Il Museo lettone del fuoco di Riga è ospitato in una caserma dei pompieri costruita nel 1912.",
@@ -592,7 +592,7 @@
       "funFacts": [
         "L'Islanda è stato il primo paese a riconoscere la restaurata indipendenza lettone, il 22 agosto 1991.",
         "La votazione nel Consiglio Supremo è stata presa mentre le truppe sovietiche erano ancora nel paese.",
-        "La Lettonia è rientrata nelle Nazioni Unite il 17 settembre 1991."
+        "La Lettonia è entrata a far parte delle Nazioni Unite il 17 settembre 1991."
       ]
     },
     "memorial_lv_day_of_remembrance_for_victims_of_stalinism_and_nazism": {
@@ -602,7 +602,7 @@
       "funFacts": [
         "La Via Baltica si estendeva per circa 675 chilometri attraverso i tre paesi.",
         "I documenti della Via Baltica sono stati aggiunti al Registro della Memoria del Mondo dell'UNESCO nel 2009.",
-        "Il Parlamento Europeo ha proclamato la Giornata della Memoria nel 2009."
+        "Nel 2008 il Parlamento europeo ha chiesto che il 23 agosto diventasse una giornata in ricordo delle vittime dello stalinismo e del nazismo."
       ]
     },
     "memorial_lv_knowledge_day": {
@@ -671,7 +671,7 @@
       "traditions": "La sera migliaia di persone posizionano candele lungo il muro del castello di Riga, sull'argine di Daugava, creando un mare di luce. In tutto il paese si svolgono fiaccolate e cerimonie e le persone indossano un nastro rosso-bianco-rosso.",
       "funFacts": [
         "Il poema epico 'Lāčplēsis' è stato scritto da Andrejs Pumpurs nel 1888.",
-        "L'Ordine di Lāčplēsis è stato assegnato a 2.146 persone, tra cui 11 donne.",
+        "Tre donne hanno ricevuto l'Ordine Militare di Lāčplēsis: Valija Veščunas-Jansone, Līna Čanka-Freidenfelde ed Elza Žiglevica.",
         "La tradizione delle candele al Castello di Riga è iniziata nel 1988 durante il movimento per l'indipendenza."
       ]
     },
@@ -682,7 +682,7 @@
       "funFacts": [
         "Il primo ministro si è dimesso sei giorni dopo il disastro, assumendosi la responsabilità politica.",
         "Il memoriale sul sito porta i nomi di tutte le 54 vittime.",
-        "Per la prima volta nella Lettonia indipendente è stata dichiarata una giornata di lutto nazionale."
+        "La Lettonia ha dichiarato tre giorni di lutto nazionale dopo il disastro, dal 23 al 25 novembre 2013."
       ]
     },
     "memorial_lv_police_day": {
@@ -740,7 +740,7 @@
       "history": "Dopo la prima guerra mondiale il litorale fu assegnato all'Italia, dove la popolazione slovena subì l'italianizzazione forzata sotto il fascismo. Il trattato di pace del 1947 con l'Italia restituì la maggior parte della regione alla Jugoslavia e quindi alla Slovenia. La giornata è diventata festa nazionale nel 2005.",
       "traditions": "In una delle città del litorale come Nova Gorica, Capodistria o Sesana si svolge la cerimonia ufficiale con discorsi e concerti. Viene cantato l'inno litoraneo “Vstala Primorska” e in tutta la regione si esibiscono cori.",
       "funFacts": [
-        "Trieste, centro storico della regione, rimase all'Italia e fu contesa fino al 1954.",
+        "Il Territorio Libero di Trieste venne istituito nel 1947. La sua Zona A, comprendente la città di Trieste, passò sotto l'amministrazione italiana nel 1954.",
         "Nova Gorica fu costruita dopo il 1947 come nuova città perché Gorizia rimase sul versante italiano.",
         "La breve costa slovena di circa 47 chilometri si trova interamente nella Primorska."
       ]
@@ -767,17 +767,17 @@
     },
     "memorial_sk_day_of_the_constitution_of_the_slovak_republic": {
       "intro": "La Giornata della Costituzione del 1° settembre commemora l'adozione della costituzione della Repubblica slovacca nel 1992, quattro mesi prima che il paese diventasse indipendente.",
-      "history": "Il Consiglio nazionale slovacco adottò la Costituzione il 1° settembre 1992 e fu firmata due giorni dopo nel Castello di Bratislava. Il 1° gennaio 1993 la Cecoslovacchia si sciolse pacificamente nella Repubblica Ceca e nella Slovacchia. Il giorno è stato un giorno festivo fino al 2024 e rimane un giorno commemorativo.",
+      "history": "Il Consiglio nazionale slovacco adottò la Costituzione il 1° settembre 1992. Il 1° gennaio 1993 la Cecoslovacchia si sciolse pacificamente nella Repubblica Ceca e nella Slovacchia. Il Giorno della Costituzione rimane una festa statale, ma non è un giorno libero dal lavoro.",
       "traditions": "Il Castello di Bratislava apre le sue porte e il Consiglio nazionale tiene una cerimonia. Il presidente conferisce onorificenze statali a cittadini illustri e la bandiera viene issata sugli edifici pubblici.",
       "funFacts": [
         "La Costituzione è stata firmata nella Sala dei Cavalieri del Castello di Bratislava.",
         "La separazione pacifica della Cecoslovacchia è conosciuta come il \"divorzio di velluto\".",
-        "La Slovacchia ha introdotto l'euro nel 2009, quattro anni dopo che la Repubblica Ceca non lo aveva fatto."
+        "La Slovacchia ha adottato l’euro il 1° gennaio 2009."
       ]
     },
     "memorial_sk_struggle_for_freedom_and_democracy_day": {
       "intro": "Il 17 novembre commemora le proteste studentesche del 1939 e del 1989 e l'inizio della Rivoluzione di velluto che pose fine al regime comunista in Cecoslovacchia.",
-      "history": "Il 17 novembre 1939 gli occupanti nazisti chiusero le università ceche e giustiziarono nove studenti dopo le proteste a Praga. Cinquant’anni dopo, il 17 novembre 1989, una manifestazione studentesca a Praga fu dispersa con la violenza, innescando le proteste di massa che nel giro di poche settimane fecero cadere il regime. Il giorno è un giorno festivo sia in Slovacchia che nella Repubblica Ceca.",
+      "history": "Il 17 novembre 1939 gli occupanti nazisti chiusero le università ceche e giustiziarono nove leader studenteschi. Il 17 novembre 1989 una manifestazione studentesca a Praga fu dispersa violentemente, scatenando le proteste di massa della Rivoluzione di Velluto. In Slovacchia l'anniversario rimane una festa nazionale, ma non è un giorno libero dal lavoro.",
       "traditions": "A Bratislava e in altre città si tengono incontri con candele e discorsi e la gente suona le chiavi come nel 1989. Si svolgono concerti e dibattiti con i partecipanti alla rivoluzione, e la giornata è anche la Giornata internazionale degli studenti.",
       "funFacts": [
         "Il tintinnio delle chiavi divenne il suono della Rivoluzione di Velluto, simboleggiando il messaggio \"è ora di andare\" per i comunisti.",
@@ -818,7 +818,7 @@
     "memorial_ve_foundation_anniversary_day_of_san_cristobal_tachira": {
       "intro": "Il 31 marzo segna la fondazione di San Cristóbal, capitale dello stato andino di Táchira, da parte del capitano spagnolo Juan Maldonado nel 1561.",
       "history": "Juan Maldonado y Ordóñez fondò il 31 marzo 1561 la \"Villa de San Cristóbal\" come punto di sosta sulla strada tra le Ande e la pianura. La città divenne un centro commerciale per il caffè e oggi conta circa 300.000 abitanti.",
-      "traditions": "La città festeggia con un corteo civico, concerti e una messa in cattedrale. L'anniversario cade in prossimità della Feria Internacional de San Sebastián di gennaio, il festival più grande della regione, e l'orgoglio locale si esprime con musica e cibo.",
+      "traditions": "Cerimonie civiche, eventi culturali e servizi religiosi celebrano l'anniversario della città. I residenti ricordano la storia di San Cristóbal e celebrano le sue tradizioni locali.",
       "funFacts": [
         "San Cristóbal si trova a circa 800 metri sul livello del mare in una valle delle Ande.",
         "La squadra di calcio della città, il Deportivo Táchira, è una delle squadre di maggior successo del Venezuela.",
@@ -857,7 +857,7 @@
     },
     "memorial_de_june_17_uprising": {
       "intro": "Il 17 giugno commemora la rivolta popolare del 1953 nella Germania dell'Est, quando più di un milione di persone protestarono contro il regime della SED e furono schiacciate dai carri armati sovietici.",
-      "history": "La rivolta iniziò il 16 giugno 1953 con uno sciopero dei lavoratori edili sulla Stalinallee a Berlino Est contro l'aumento delle quote di lavoro e si estese in un giorno a centinaia di città. Le truppe sovietiche dichiararono la legge marziale e morirono almeno 55 persone. La Germania Ovest ha reso il 17 giugno il “Giorno dell’Unità Tedesca” dal 1954 fino alla riunificazione nel 1990.",
+      "history": "La rivolta iniziò il 16 giugno 1953 con uno sciopero dei lavoratori edili a Berlino Est contro l'aumento delle quote di lavoro e si estese a centinaia di città. Le truppe sovietiche repressero violentemente le proteste. Nell'agosto 1953 la Germania Ovest stabilì il 17 giugno come Giorno dell'Unità tedesca; è stato osservato ogni anno fino alla riunificazione nel 1990.",
       "traditions": "Vengono deposte corone di fiori sul monumento commemorativo davanti all'ex Palazzo dei Ministri nella Leipziger Straße a Berlino e sulle tombe delle vittime nel cimitero della Seestraße. Il Bundestag e i parlamenti regionali tengono commemorazioni.",
       "funFacts": [
         "Dal 1953 il viale che porta alla Porta di Brandeburgo a Berlino si chiama \"Straße des 17. Juni\".",
@@ -867,12 +867,12 @@
     },
     "memorial_de_november_pogroms": {
       "intro": "Il 9 novembre commemora i pogrom del novembre 1938, quando sinagoghe, negozi e case ebraiche in tutta la Germania e l'Austria furono attaccati e distrutti.",
-      "history": "Nella notte tra il 9 e il 10 novembre 1938 il regime nazista organizzò una violenza nazionale contro gli ebrei: più di 1.400 sinagoghe furono date alle fiamme, circa 30.000 ebrei furono deportati nei campi di concentramento e centinaia di persone furono uccise. I pogrom segnarono il passaggio dalla discriminazione alla persecuzione sistematica.",
+      "history": "Nel novembre 1938 il regime nazista organizzò una diffusa violenza contro gli ebrei. Più di 1.400 sinagoghe e sale di preghiera furono distrutte, negozi e case ebraiche furono attaccate e circa 30.000 uomini ebrei furono imprigionati nei campi di concentramento. I pogrom rappresentarono una grave escalation della persecuzione nazista.",
       "traditions": "Le commemorazioni si tengono nelle sinagoghe e nei luoghi della memoria; in molte città la gente pulisce le Stolpersteine, piccole targhe di ottone incastonate sul pavimento davanti alle ultime case delle vittime, e mette accanto delle candele. Le scuole discutono la storia della giornata.",
       "funFacts": [
         "Il 9 novembre è chiamato il \"giorno del destino\" della Germania: la repubblica fu proclamata nel 1918 e nello stesso giorno il muro di Berlino cadde nel 1989.",
         "Dal 1992 sono state posate in tutta Europa più di 100.000 Stolpersteine.",
-        "Il termine nazista 'Notte dei cristalli' oggi viene evitato perché banalizza la violenza."
+        "Il termine \"Notte dei cristalli\" viene spesso criticato perché banalizza la violenza; I \"pogrom di novembre\" descrivono la persecuzione in modo più chiaro."
       ]
     },
     "memorial_de_victims_of_national_socialism": {

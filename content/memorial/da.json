@@ -105,7 +105,7 @@
     },
     "memorial_ca_remembrance_day": {
       "intro": "Remembrance Day den 11. november hylder canadiere, der gjorde tjeneste og døde i krig, symboliseret ved den røde valmue.",
-      "history": "11. november minder om våbenhvilen i 1918, der afsluttede Første Verdenskrig. Canada, som mistede mere end 60.000 i den krig, ærer de faldne i alle konflikter. Valmuen kommer fra digtet 'In Flanders Fields' af canadiske John McCrae.",
+      "history": "11. november minder om våbenhvilen i 1918, der afsluttede kampene på vestfronten. Canada ærer dem, der tjente og døde i krig. Den røde valmue som symbol på erindring er forbundet med digtet 'In Flanders Fields' af canadiske John McCrae.",
       "traditions": "Klokken 11.00 holder canadiere to minutters stilhed. Den nationale ceremoni ved National War Memorial i Ottawa byder på kranse, The Last Post og en flyopvisning, og millioner bærer valmuer i ugerne før.",
       "funFacts": [
         "'In Flanders Fields' blev skrevet af canadiske John McCrae i 1915.",
@@ -114,7 +114,7 @@
       ]
     },
     "memorial_fr_armistice_day": {
-      "intro": "Den 11. november markerer våbenhvilen i 1918, der afsluttede Første Verdenskrig og ærer alle franske soldater, der døde for landet.",
+      "intro": "Den 11. november mindes våbenhvilen i 1918, der afsluttede kampene på vestfronten. Dagen ærer dem, der døde for Frankrig.",
       "history": "Klokken 11 den 11. november 1918 bragte våbenhvilen, der var underskrevet i Compiègne, vestfrontens kanoner til tavshed. Frankrig mistede omkring 1,4 millioner soldater. Siden 1922 har datoen været en national mindedag, senere udvidet til alle kriges faldne.",
       "traditions": "Præsidenten lægger en krans ved den ukendte soldats grav under Triumfbuen i Paris, hvor en evig flamme brænder. Over hele landet samles borgere og veteraner ved krigsmindesmærker til et minuts stilhed.",
       "funFacts": [
@@ -186,7 +186,7 @@
       ]
     },
     "memorial_be_armistice_day": {
-      "intro": "Våbenstilstandsdag den 11. november fejrer afslutningen på Første Verdenskrig i 1918 og hylder de belgiske soldater og civile, der døde i begge verdenskrige.",
+      "intro": "Våbenstilstandsdagen den 11. november minder om våbenhvilen i 1918 på Vestfronten og ærer de belgiske soldater og civile, der døde i verdenskrigene.",
       "history": "Klokken 11.00 den 11. november 1918 trådte våbenhvilen underskrevet i Compiègne i kraft, og kanonerne blev stille på vestfronten. Belgien havde været besat i fire år, og store dele af Flandern lå i ruiner. Dagen har været helligdag siden 1922.",
       "traditions": "Kongen lægger en krans ved den ukendte soldats grav i Colonne du Congrès i Bruxelles. I Ypres lyder Last Post under Meninporten, som det er hver aften, efterfulgt af en stor parade. Valmuer bæres til minde om de døde.",
       "funFacts": [
@@ -206,8 +206,8 @@
       ]
     },
     "memorial_ca_armistice_day": {
-      "intro": "Våbenstilstandsdag den 11. november markerer afslutningen på Første Verdenskrig i 1918; i Canada er den blevet holdt som Remembrance Day siden 1931.",
-      "history": "Våbenstilstanden trådte i kraft kl. 11.00 den 11. november 1918. Canada markerede første gang våbenstilstandens dag i 1919 sammen med Thanksgiving, indtil parlamentet adskilte de to og omdøbte dagen i 1931 for at ære alle, der gjorde tjeneste.",
+      "intro": "Våbenstilstandsdagen den 11. november minder om våbenhvilen i 1918 på Vestfronten. I Canada har helligholdelsen været kendt som Remembrance Day siden 1931.",
+      "history": "Våbenhvilen trådte i kraft klokken 11 den 11. november 1918 og afsluttede kampene på vestfronten. Canada markerede første gang våbenstilstandsdagen i 1919. Fra 1921 faldt den på samme dato som Thanksgiving. I 1931 adskilte det canadiske parlament de to mærkedage og fastlagde Remembrance Day til den 11. november.",
       "traditions": "To minutters stilhed overholdes kl. 11.00, og der lægges kranse ved det nationale krigsmindesmærke i Ottawa og ved cenotafer over hele landet. Canadiere bærer en rød valmue i ugerne før dagen.",
       "funFacts": [
         "Mere end 66.000 canadiere døde i Første Verdenskrig, ud af en befolkning på omkring otte millioner.",
@@ -272,7 +272,7 @@
       "funFacts": [
         "Det fulde navn på dagen er 'Mindedag for Holocaust og Heltemod'.",
         "'De levendes march' bringer tusindvis af unge mennesker fra Auschwitz til Birkenau på denne dag hvert år.",
-        "Yad Vashem har navnene på omkring 4,8 millioner af de seks millioner ofre i sin centrale database."
+        "Yad Vashems centrale navnedatabase mindes millioner af jøder myrdet under Holocaust og bevarer deres biografiske detaljer."
       ]
     },
     "memorial_il_yom_hazikaron": {
@@ -366,7 +366,7 @@
       ]
     },
     "memorial_rs_armistice_day": {
-      "intro": "Våbenstilstandsdagen den 11. november mindes afslutningen på Første Verdenskrig i 1918 og de serbiske soldater og civile, der døde i den.",
+      "intro": "Våbenstilstandsdagen den 11. november minder om våbenhvilen i 1918 på Vestfronten og mindes de serbiske soldater og civile, der døde i Første Verdenskrig.",
       "history": "Serbien mistede mere end en fjerdedel af sin befolkning i Første Verdenskrig, en højere andel end noget andet land. Dagen blev indført som en helligdag i 2012 for at ære ofrene og den serbiske hærs rolle i den allierede sejr.",
       "traditions": "Kranse nedlægges ved monumentet til den ukendte helt på Avala-bjerget nær Beograd og ved krigsmindesmærker over hele landet. Folk bærer Natalies ramonda, en lille lilla blomst, til minde om de faldne.",
       "funFacts": [
@@ -387,7 +387,7 @@
     },
     "memorial_us_lincolns_birthday": {
       "intro": "Lincolns fødselsdag den 12. februar hylder Abraham Lincoln, USA's 16. præsident, som førte landet gennem borgerkrigen og gjorde en ende på slaveriet.",
-      "history": "Lincoln blev født i en bjælkehytte i Kentucky i 1809 og blev myrdet i april 1865, dage efter afslutningen på borgerkrigen. Hans fødselsdag blev først fejret offentligt i 1866 og blev en lovlig helligdag i flere stater, dog aldrig en føderal. I dag kombinerer mange stater det med Washingtons fødselsdag som præsidentens dag.",
+      "history": "Lincoln blev født i Kentucky den 12. februar 1809. Han blev skudt i Ford's Theatre i Washington den 14. april 1865 og døde den følgende morgen, kort efter general Lees overgivelse. Hans fødselsdag blev en helligdag i flere stater, men aldrig en føderal helligdag.",
       "traditions": "Der afholdes en kransenedlæggelse ved Lincoln Memorial i Washington, og Gettysburg-talen læses på mange skoler. I Illinois, 'Land of Lincoln', er dagen fortsat en statsferie.",
       "funFacts": [
         "Med sine 1,93 meter var Lincoln den højeste amerikanske præsident.",
@@ -497,7 +497,7 @@
     },
     "memorial_lv_international_day_of_the_family": {
       "intro": "Den internationale familiedag den 15. maj gør opmærksom på vigtigheden af ​​familier og de udfordringer, de står over for.",
-      "history": "De Forenede Nationers Generalforsamling udråbte dagen i 1993 efter det internationale familieår i 1994. Letland inkluderede den i sin officielle kalender som en dag, der skulle fejres.",
+      "history": "I 1993 udpegede De Forenede Nationers Generalforsamling 15. maj til den internationale familiedag, der skal holdes fra 1994. Året 1994 var også det internationale familieår. Letland inkluderer dagen i sin officielle helligdagskalender.",
       "traditions": "Familiefestivaler, udendørsarrangementer og sportsdage arrangeres i parker og kulturcentre. Organisationer bruger dagen til at diskutere støtte til forældre og børn, og mange familier tilbringer simpelthen dagen sammen.",
       "funFacts": [
         "Hvert år vælger FN et tema, såsom familier og klimaforandringer eller digital teknologi.",
@@ -507,7 +507,7 @@
     },
     "memorial_lv_firefighter_and_rescuer_day": {
       "intro": "Brandmands- og redningsmandsdag den 17. maj hylder mænd og kvinder i Letlands brand- og redningstjenester.",
-      "history": "Datoen minder om den 17. maj 1865, hvor Riga Frivillige Brandmandsforening blev grundlagt, den første i landet. I dag reagerer Statens Brand- og Redningsvæsen (VUGD) på brande, ulykker og naturkatastrofer i hele landet.",
+      "history": "Den 17. maj 1865 reagerede Rigas frivillige brandvæsen på sin første brand i den gamle bydel. Denne begivenhed mindes som begyndelsen på organiseret brandslukning i Letland. Statens Brand- og Redningsvæsen (VUGD) reagerer på brande, ulykker og nødsituationer.",
       "traditions": "Brandstationer åbner deres døre, og børn kan klatre ind i brandbiler. Ceremonier ærer mangeårige og fornemme brandmænd, og demonstrationer viser redningsholdenes arbejde.",
       "funFacts": [
         "Det lettiske brandmuseum i Riga har til huse i en brandstation bygget i 1912.",
@@ -592,7 +592,7 @@
       "funFacts": [
         "Island var det første land, der anerkendte den genoprettede lettiske uafhængighed den 22. august 1991.",
         "Afstemningen i det øverste råd blev foretaget, mens sovjetiske tropper stadig var i landet.",
-        "Letland tilsluttede sig igen FN den 17. september 1991."
+        "Letland blev medlem af De Forenede Nationer den 17. september 1991."
       ]
     },
     "memorial_lv_day_of_remembrance_for_victims_of_stalinism_and_nazism": {
@@ -602,7 +602,7 @@
       "funFacts": [
         "The Baltic Way strakte sig omkring 675 kilometer på tværs af de tre lande.",
         "Dokumenterne for Baltic Way blev tilføjet til UNESCOs Memory of the World Register i 2009.",
-        "Europa-Parlamentet udråbte mindedagen i 2009."
+        "I 2008 opfordrede Europa-Parlamentet til, at den 23. august skulle blive en mindedag for ofrene for stalinismen og nazismen."
       ]
     },
     "memorial_lv_knowledge_day": {
@@ -671,7 +671,7 @@
       "traditions": "Om aftenen placerer tusindvis af mennesker stearinlys langs muren af ​​Riga Slot på Daugava-dæmningen og skaber et hav af lys. Der afholdes fakkeloptog og ceremonier i hele landet, og folk bærer et rød-hvid-rødt bånd.",
       "funFacts": [
         "Det episke 'Lāčplēsis' blev skrevet af Andrejs Pumpurs i 1888.",
-        "The Order of Lāčplēsis blev tildelt 2.146 personer, heraf 11 kvinder.",
+        "Tre kvinder modtog Lāčplēsisordenen: Valija Veščunas-Jansone, Līna Čanka-Freidenfelde og Elza Žiglevica.",
         "Lystraditionen på Riga Slot begyndte i 1988 under uafhængighedsbevægelsen."
       ]
     },
@@ -682,7 +682,7 @@
       "funFacts": [
         "Premierministeren trådte tilbage seks dage efter katastrofen og tog politisk ansvar.",
         "Mindesmærket på stedet bærer navnene på alle 54 ofre.",
-        "En national sørgedag blev erklæret for første gang i det uafhængige Letland."
+        "Letland erklærede tre dages national sorg efter katastrofen, fra 23. til 25. november 2013."
       ]
     },
     "memorial_lv_police_day": {
@@ -740,7 +740,7 @@
       "history": "Efter Første Verdenskrig var Littoral blevet tildelt Italien, hvor den slovenske befolkning led tvungen italienisering under fascismen. Fredstraktaten fra 1947 med Italien returnerede størstedelen af ​​regionen til Jugoslavien og dermed til Slovenien. Dagen blev en national helligdag i 2005.",
       "traditions": "En statsceremoni finder sted i en af Littoral-byerne som Nova Gorica, Koper eller Sežana, med taler og koncerter. Littoral-hymnen 'Vstala Primorska' synges, og kor optræder i hele regionen.",
       "funFacts": [
-        "Trieste, regionens historiske centrum, forblev i Italien og var omstridt indtil 1954.",
+        "Det frie territorium Trieste blev etableret i 1947. Dets zone A, inklusive byen Trieste, kom under italiensk administration i 1954.",
         "Nova Gorica blev bygget efter 1947 som en ny by, fordi Gorizia blev på den italienske side.",
         "Sloveniens korte kystlinje på omkring 47 kilometer ligger udelukkende i Primorska."
       ]
@@ -767,17 +767,17 @@
     },
     "memorial_sk_day_of_the_constitution_of_the_slovak_republic": {
       "intro": "Grundlovsdag den 1. september mindes vedtagelsen af ​​Den Slovakiske Republiks forfatning i 1992, fire måneder før landet blev uafhængigt.",
-      "history": "Det slovakiske nationalråd vedtog forfatningen den 1. september 1992, og den blev underskrevet to dage senere på Bratislava Slot. Den 1. januar 1993 blev Tjekkoslovakiet fredeligt opløst i Den Tjekkiske Republik og Slovakiet. Dagen var en helligdag indtil 2024 og er fortsat en mindedag.",
+      "history": "Det slovakiske nationalråd vedtog forfatningen den 1. september 1992. Den 1. januar 1993 blev Tjekkoslovakiet fredeligt opløst i Den Tjekkiske Republik og Slovakiet. Grundlovsdag er fortsat en helligdag, men er ikke en fridag.",
       "traditions": "Bratislava Slot åbner dørene, og Nationalrådet holder en ceremoni. Præsidenten tildeler statslige æresbevisninger til fornemme borgere, og flaget er hejst på offentlige bygninger.",
       "funFacts": [
         "Forfatningen blev underskrevet i riddersalen på Bratislava Slot.",
         "Den fredelige adskillelse af Tjekkoslovakiet er kendt som 'Fløjlsskilsmissen'.",
-        "Slovakiet indførte euroen i 2009, fire år efter, at dets nabo, Tjekkiet, ikke gjorde det."
+        "Slovakiet indførte euroen den 1. januar 2009."
       ]
     },
     "memorial_sk_struggle_for_freedom_and_democracy_day": {
       "intro": "17. november mindes de studerendes protester i 1939 og 1989 og begyndelsen på fløjlsrevolutionen, der afsluttede det kommunistiske styre i Tjekkoslovakiet.",
-      "history": "Den 17. november 1939 lukkede de nazistiske besættere tjekkiske universiteter og henrettede ni studerende efter protester i Prag. Halvtreds år senere, den 17. november 1989, blev en studenterdemonstration i Prag voldsomt spredt, hvilket udløste de masseprotester, der inden for få uger væltede regimet. Dagen er en helligdag i både Slovakiet og Tjekkiet.",
+      "history": "Den 17. november 1939 lukkede de nazistiske besættere tjekkiske universiteter og henrettede ni studenterledere. Den 17. november 1989 blev en studenterdemonstration i Prag voldsomt spredt, hvilket udløste fløjlsrevolutionens masseprotester. I Slovakiet er jubilæet fortsat en national mærkedag, men er ikke en fridag.",
       "traditions": "Der afholdes sammenkomster med stearinlys og taler i Bratislava og andre byer, og folk ringer på nøgler, som de gjorde i 1989. Koncerter og diskussioner med deltagere i revolutionen finder sted, og dagen er også International Students' Day.",
       "funFacts": [
         "Jingling keys blev lyden af ​​fløjlsrevolutionen, der symboliserer budskabet 'time to go' til kommunisterne.",
@@ -818,7 +818,7 @@
     "memorial_ve_foundation_anniversary_day_of_san_cristobal_tachira": {
       "intro": "31. marts markerer grundlæggelsen af San Cristóbal, hovedstaden i den andinske delstat Táchira, af den spanske kaptajn Juan Maldonado i 1561.",
       "history": "Juan Maldonado y Ordóñez grundlagde 'Villa de San Cristóbal' den 31. marts 1561 som et stoppunkt på vejen mellem Andesbjergene og sletterne. Byen voksede til et handelscenter for kaffe og har i dag omkring 300.000 indbyggere.",
-      "traditions": "Byen fejres med en borgerparade, koncerter og en messe i katedralen. Jubilæet ligger tæt på Feria Internacional de San Sebastián i januar, regionens største festival, og lokal stolthed kommer til udtryk med musik og mad.",
+      "traditions": "Borgerlige ceremonier, kulturelle begivenheder og gudstjenester markerer byens jubilæum. Beboerne husker historien om San Cristóbal og fejrer dens lokale traditioner.",
       "funFacts": [
         "San Cristóbal ligger omkring 800 meter over havets overflade i en dal i Andesbjergene.",
         "Byens fodboldklub, Deportivo Táchira, er en af ​​Venezuelas mest succesrige.",
@@ -857,7 +857,7 @@
     },
     "memorial_de_june_17_uprising": {
       "intro": "17. juni mindes den folkelige opstand i 1953 i Østtyskland, hvor mere end en million mennesker protesterede mod SED-regimet og blev knust af sovjetiske kampvogne.",
-      "history": "Opstanden begyndte den 16. juni 1953 med en strejke fra bygningsarbejdere på Stalinallee i Østberlin mod øgede arbejdskvoter og spredte sig inden for en dag til hundredvis af byer. Sovjetiske tropper erklærede krigslov, og mindst 55 mennesker døde. Vesttyskland gjorde den 17. juni til \"Dag for Tysk Enhed\" fra 1954 til genforeningen i 1990.",
+      "history": "Oprøret begyndte den 16. juni 1953 med en strejke fra bygningsarbejdere i Østberlin mod øgede arbejdskvoter og spredte sig til hundredvis af byer. Sovjetiske tropper undertrykte voldsomt protesterne. I august 1953 etablerede Vesttyskland den 17. juni som dag for tysk enhed; den blev markeret årligt indtil genforeningen i 1990.",
       "traditions": "Der nedlægges kranse ved mindesmærket foran det tidligere Ministerhus på Leipziger Straße i Berlin og ved ofrenes grave på Seestraße kirkegård. Forbundsdagen og delstatsparlamenterne holder mindehøjtideligheder.",
       "funFacts": [
         "Boulevarden, der fører til Brandenburger Tor i Berlin, er siden 1953 blevet kaldt 'Straße des 17. Juni'.",
@@ -867,12 +867,12 @@
     },
     "memorial_de_november_pogroms": {
       "intro": "9. november mindes novemberpogromerne i 1938, hvor synagoger, jødiske butikker og hjem i hele Tyskland og Østrig blev angrebet og ødelagt.",
-      "history": "Natten mellem den 9. og 10. november 1938 organiserede det nazistiske regime landsdækkende vold mod jøder: mere end 1.400 synagoger blev sat i brand, omkring 30.000 jødiske mænd blev deporteret til koncentrationslejre og hundredvis af mennesker blev dræbt. Pogromerne markerede overgangen fra diskrimination til systematisk forfølgelse.",
+      "history": "I november 1938 organiserede det nazistiske regime udbredt vold mod jøder. Mere end 1.400 synagoger og bederum blev ødelagt, jødiske butikker og hjem blev angrebet, og omkring 30.000 jødiske mænd blev fængslet i koncentrationslejre. Pogromerne var en stor eskalering af nazistforfølgelsen.",
       "traditions": "Mindehøjtideligheder afholdes ved synagoger og mindesteder; i mange byer renser folk Stolpersteine, små messingplader sat på fortovet foran ofrenes sidste hjem og stiller stearinlys ved siden af ​​dem. Skoler diskuterer dagens historie.",
       "funFacts": [
         "Den 9. november kaldes Tysklands 'skæbnedag': republikken blev udråbt i 1918 og Berlinmuren faldt i 1989 på samme dato.",
         "Mere end 100.000 Stolpersteine er blevet lagt i hele Europa siden 1992.",
-        "Det nazistiske udtryk 'Kristallnat' undgås i dag, fordi det bagatelliserer volden."
+        "Begrebet 'Kristallnat' bliver ofte kritiseret for at bagatellisere volden; 'November-pogromer' beskriver forfølgelsen mere tydeligt."
       ]
     },
     "memorial_de_victims_of_national_socialism": {

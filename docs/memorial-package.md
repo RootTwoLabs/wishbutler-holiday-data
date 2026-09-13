@@ -8,17 +8,18 @@ content/memorial/catalog.json enthält die kuratierten Definitionen und Themen.
 Das Thema memorial führt zu stillem Gedenken, awareness zu einem sachlichen
 Aktionstag. Die App übermittelt diese Unterscheidung bei Nachrichten an die KI.
 
-Alle Einträge haben eine Bildreferenz. Drei CC0-Fotomotive werden als Symbolbilder
-verwendet; Urheber, Quellseite, Lizenz und Prüfdatum stehen in images.json und
-CREDITS.md. Es handelt sich nicht um ereignisspezifische historische Fotos.
-Neun Hintergrundtexte sind in allen 17 Sprachen vorhanden; die restlichen
-Einträge haben Titel, Termine und Quellenlinks.
+Alle Einträge haben eine kuratierte Bildreferenz. Urheber, Quellseite und Lizenz
+stehen in images.json und CREDITS.md; drei CC0-Symbolmotive dienen als Rückfall.
+Alle 80 Hintergrundartikel sind in allen 17 App-Sprachen vorhanden, jeweils mit
+Einleitung, Geschichte, Bräuchen und ergänzenden Fakten. Die Prüfung vom
+13. September 2026 ist in memorial-text-review-2026-09-13.md dokumentiert.
 
 npm run build:memorial erzeugt nur bei Änderung eine neue Paketversion.
 npm run build:index führt das Paket unter index.memorial, getrennt von countries.
 Der reguläre Daten-Build führt beide Schritte aus. Anschließend aktualisiert
 node scripts/sync-memorial-bundle.mjs im benachbarten App-Repository den Offline-
-Katalog und die drei Bilddateien. Alte Paketversionen bleiben erhalten.
+Katalog und die drei Bilddateien. Die Artikel bleiben im Remote-Paket und werden
+nicht ins Offline-Bundle kopiert. Alte Paketversionen bleiben erhalten.
 
 Gesetzliche Gedenkfeiertage bleiben im Länderkalender. Die App verwendet separate
 MEMORIAL-Identitäten für die freiwillige Personenauswahl und Nachrichtenerstellung.

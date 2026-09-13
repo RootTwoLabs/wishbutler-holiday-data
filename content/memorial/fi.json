@@ -105,7 +105,7 @@
     },
     "memorial_ca_remembrance_day": {
       "intro": "Muistopäivänä 11. marraskuuta kunnioitetaan sodassa palvelleita ja sodassa kuolleita kanadalaisia, jota symboloi punainen unikko.",
-      "history": "11. marraskuuta muistetaan vuoden 1918 aselepo, joka päätti ensimmäisen maailmansodan. Kanada, joka menetti sodassa yli 60 000 ihmistä, kunnioittaa kaikissa konflikteissa kaatuneita. Unikko tulee kanadalaisen John McCraen runosta \"In Flanders Fields\".",
+      "history": "11. marraskuuta muistetaan vuoden 1918 aselepo, joka päätti taistelut länsirintamalla. Kanada kunnioittaa niitä, jotka palvelivat ja kuolivat sodassa. Punainen unikko muiston symbolina yhdistetään kanadalaisen John McCraen runoon In Flanders Fields.",
       "traditions": "Kello 11 kanadalaiset viettävät kahden minuutin hiljaisuuden. Ottawan kansallisella sotamuistomerkillä lasketaan seppeleitä, soitetaan Last Post ja järjestetään ylilento. Miljoonat käyttävät punaista unikkoa edeltävien viikkojen aikana.",
       "funFacts": [
         "'In Flanders Fields' on kirjoittanut kanadalainen John McCrae vuonna 1915.",
@@ -114,7 +114,7 @@
       ]
     },
     "memorial_fr_armistice_day": {
-      "intro": "Marraskuun 11. päivänä muistetaan vuoden 1918 aselepoa, joka päätti ensimmäisen maailmansodan taistelut länsirintamalla. Päivänä kunnioitetaan kaikkia maansa puolesta kaatuneita ranskalaisia sotilaita.",
+      "intro": "11. marraskuuta muistetaan vuoden 1918 aselepoa, joka päätti taistelut länsirintamalla, ja kunnioitetaan Ranskan puolesta kuolleita.",
       "history": "Compiègnessa allekirjoitettu aselepo hiljensi länsirintaman aseet 11. marraskuuta 1918 kello 11. Ranska menetti sodassa noin 1,4 miljoonaa sotilasta. Vuodesta 1922 päivämäärä on ollut kansallinen muistopäivä, joka laajennettiin myöhemmin kaikkien sotien kaatuneiden muistopäiväksi.",
       "traditions": "Presidentti laskee seppeleen Tuntemattoman sotilaan haudalle Riemukaaren alla Pariisissa, jossa ikuinen liekki palaa. Eri puolilla maata kansalaiset ja veteraanit kokoontuvat sotamuistomerkeille minuutin hiljaisuudelle.",
       "funFacts": [
@@ -186,7 +186,7 @@
       ]
     },
     "memorial_be_armistice_day": {
-      "intro": "Aselepopäivä 11. marraskuuta juhlistaa ensimmäisen maailmansodan päättymistä vuonna 1918 ja kunnioittaa molemmissa maailmansodissa kuolleita belgialaisia ​​sotilaita ja siviilejä.",
+      "intro": "Aselepopäivä 11. marraskuuta muistuttaa vuoden 1918 aselepoa länsirintamalla ja kunnioittaa maailmansodissa kuolleita belgialaisia sotilaita ja siviilejä.",
       "history": "Kello 11.00 11. marraskuuta 1918 Compiègnessa allekirjoitettu aselepo tuli voimaan ja aseet vaienivat länsirintamalla. Belgia oli ollut miehitetty neljä vuotta ja suuri osa Flanderista oli raunioina. Päivä on ollut yleinen vapaapäivä vuodesta 1922 lähtien.",
       "traditions": "Kuningas laskee seppeleen Tuntemattoman sotilaan haudalle Colonne du Congrèsissa Brysselissä. Ypresissä viimeinen viesti soi Menin-portin alta, kuten joka ilta, ja sitä seuraa suuri paraati. Unikkoja käytetään kuolleiden muistoksi.",
       "funFacts": [
@@ -206,8 +206,8 @@
       ]
     },
     "memorial_ca_armistice_day": {
-      "intro": "Aselepopäivä 11. marraskuuta merkitsee ensimmäisen maailmansodan päättymistä vuonna 1918; Kanadassa sitä on vietetty muistopäivänä vuodesta 1931.",
-      "history": "Aselepo tuli voimaan klo 11.00 11. marraskuuta 1918. Kanada vietti ensimmäisen kerran aselepopäivää vuonna 1919 yhdessä kiitospäivän kanssa, kunnes parlamentti erotti nämä kaksi ja nimesi päivän uudelleen vuonna 1931 kaikkien palvelleiden kunniaksi.",
+      "intro": "Aselepopäivä 11. marraskuuta muistuttaa vuoden 1918 aselepoa länsirintamalla. Kanadassa vietto on tunnettu muistopäivänä vuodesta 1931 lähtien.",
+      "history": "Aselepo tuli voimaan kello 11.00 11. marraskuuta 1918, jolloin taistelut länsirintamalla päättyivät. Kanada vietti ensimmäisen kerran aselepopäivää vuonna 1919. Vuodesta 1921 se jakoi päivämäärän kiitospäivän kanssa; Vuonna 1931 eduskunta erotti juhlat ja asetti muistopäivän 11. marraskuuta.",
       "traditions": "Kahden minuutin hiljaisuus vietetään klo 11, ja seppeleitä lasketaan kansalliselle sotamuistomerkille Ottawassa ja kenotafeille eri puolilla maata. Kanadalaiset käyttävät punaista unikkoa päivää edeltävinä viikkoina.",
       "funFacts": [
         "Yli 66 000 kanadalaista kuoli ensimmäisessä maailmansodassa noin kahdeksan miljoonan väestön joukosta.",
@@ -272,7 +272,7 @@
       "funFacts": [
         "Päivän koko nimi on \"Holokaustin ja sankaruuden muistopäivä\".",
         "\"Elävien marssi\" tuo tuhansia nuoria Auschwitzista Birkenauhun tänä päivänä joka vuosi.",
-        "Yad Vashem pitää keskustietokannassaan noin 4,8 miljoonan nimet kuudesta miljoonasta uhrista."
+        "Yad Vashemin keskusnimitietokanta muistaa miljoonia holokaustissa murhattuja juutalaisia ja säilyttää heidän elämäkerransa."
       ]
     },
     "memorial_il_yom_hazikaron": {
@@ -366,7 +366,7 @@
       ]
     },
     "memorial_rs_armistice_day": {
-      "intro": "Aselepopäivänä 11. marraskuuta muistetaan ensimmäisen maailmansodan päättymistä vuonna 1918 ja siinä kuolleita serbialaisia ​​sotilaita ja siviilejä.",
+      "intro": "Aselepopäivänä 11. marraskuuta muistetaan länsirintamalla vuoden 1918 aselepoa ja muistetaan ensimmäisessä maailmansodassa kuolleita serbialaisia sotilaita ja siviilejä.",
       "history": "Serbia menetti yli neljänneksen väestöstään ensimmäisessä maailmansodassa, mikä on suurempi osuus kuin mikään muu maa. Päivä otettiin käyttöön yleisenä vapaapäivänä vuonna 2012 uhrien ja Serbian armeijan roolin kunnioittamiseksi liittoutuneiden voitossa.",
       "traditions": "Seppeleitä lasketaan Tuntemattoman sankarin muistomerkille Avala-vuorella lähellä Belgradia ja sotamuistomerkeille eri puolilla maata. Ihmiset käyttävät Natalien ramondaa, pientä violettia kukkaa, kaatuneiden muistoksi.",
       "funFacts": [
@@ -387,7 +387,7 @@
     },
     "memorial_us_lincolns_birthday": {
       "intro": "Lincolnin syntymäpäivänä 12. helmikuuta kunnioitetaan Abraham Lincolnia, Yhdysvaltain 16. presidenttiä, joka johti maan sisällissodan läpi ja lopetti orjuuden.",
-      "history": "Lincoln syntyi hirsimökissä Kentuckyssa vuonna 1809 ja hänet murhattiin huhtikuussa 1865, päiviä sisällissodan päättymisen jälkeen. Hänen syntymäpäiväänsä vietettiin ensimmäisen kerran julkisesti vuonna 1866, ja siitä tuli laillinen vapaapäivä useissa osavaltioissa, vaikkakaan ei koskaan liittovaltion. Nykyään monet osavaltiot yhdistävät sen Washingtonin syntymäpäivään presidenttien päivänä.",
+      "history": "Lincoln syntyi Kentuckyssa 12. helmikuuta 1809. Hänet ammuttiin Fordin teatterissa Washingtonissa 14. huhtikuuta 1865 ja kuoli seuraavana aamuna, pian kenraali Leen antautumisen jälkeen. Hänen syntymäpäivästään tuli vapaapäivä useissa osavaltioissa, mutta ei koskaan liittovaltion vapaapäivä.",
       "traditions": "Seppeleenlaskuseremonia pidetään Lincoln Memorialissa Washingtonissa, ja Gettysburgin puhe luetaan monissa kouluissa. Illinoisissa, \"Lincolnin osavaltiossa\", päivä on edelleen osavaltion vapaapäivä.",
       "funFacts": [
         "Lincoln oli 1,93 metrisenä Yhdysvaltain pisin presidentti.",
@@ -497,7 +497,7 @@
     },
     "memorial_lv_international_day_of_the_family": {
       "intro": "Kansainvälinen perhepäivä 15. toukokuuta kiinnittää huomion perheiden tärkeyteen ja heidän kohtaamiinsa haasteisiin.",
-      "history": "Yhdistyneiden Kansakuntien yleiskokous julisti päivän vuonna 1993 kansainvälisen perheen vuoden 1994 jälkeen. Latvia sisällytti sen viralliseen kalenteriinsa juhlapäivänä.",
+      "history": "Vuonna 1993 Yhdistyneiden Kansakuntien yleiskokous nimesi 15. toukokuuta kansainväliseksi perhepäiväksi, jota vietetään vuodesta 1994 alkaen. Vuosi 1994 oli myös kansainvälinen perheen vuosi. Latvia on sisällyttänyt päivän viralliseen juhlakalenteriinsa.",
       "traditions": "Puistoissa ja kulttuurikeskuksissa järjestetään perhefestivaaleja, ulkoilmatapahtumia ja liikuntapäiviä. Järjestöt käyttävät päivää keskustelemaan vanhempien ja lasten tukemisesta, ja monet perheet viettävät päivän vain yhdessä.",
       "funFacts": [
         "YK valitsee joka vuosi teeman, kuten perheet ja ilmastonmuutos tai digitaaliteknologia.",
@@ -507,7 +507,7 @@
     },
     "memorial_lv_firefighter_and_rescuer_day": {
       "intro": "Palomies- ja pelastuspäivänä 17. toukokuuta kunnioitetaan Latvian palo- ja pelastuspalveluiden miehiä ja naisia.",
-      "history": "Päivämäärä muistuttaa 17. toukokuuta 1865, jolloin perustettiin Riian Vapaaehtoinen Palomiesseura, ensimmäinen maassa. Tänään Valtion palo- ja pelastuslaitos (VUGD) vastaa tulipaloihin, onnettomuuksiin ja luonnonkatastrofeihin valtakunnallisesti.",
+      "history": "17. toukokuuta 1865 Riian vapaaehtoinen palokunta vastasi ensimmäiseen tulipaloonsa vanhassakaupungissa. Tätä tapahtumaa muistetaan järjestäytyneen palontorjunnan alkuna Latviassa. Valtion palo- ja pelastuslaitos (VUGD) vastaa tulipaloihin, onnettomuuksiin ja hätätilanteisiin.",
       "traditions": "Paloasemat avaavat ovensa, ja lapset voivat kiivetä paloautoihin. Seremonioissa kunnioitetaan pitkäaikaisia ​​ja ansioituneita palomiehiä, ja mielenosoitukset esittelevät pelastusryhmien työtä.",
       "funFacts": [
         "Latvian palomuseo Riiassa sijaitsee vuonna 1912 rakennetussa paloasemassa.",
@@ -592,7 +592,7 @@
       "funFacts": [
         "Islanti oli ensimmäinen maa, joka tunnusti Latvian palautetun itsenäisyyden 22. elokuuta 1991.",
         "Äänestys korkeimmassa neuvostossa toimitettiin Neuvostoliiton joukkojen ollessa vielä maassa.",
-        "Latvia liittyi uudelleen Yhdistyneisiin Kansakuntiin 17. syyskuuta 1991."
+        "Latvia liittyi Yhdistyneisiin Kansakuntiin 17. syyskuuta 1991."
       ]
     },
     "memorial_lv_day_of_remembrance_for_victims_of_stalinism_and_nazism": {
@@ -602,7 +602,7 @@
       "funFacts": [
         "Baltian tie ulottui noin 675 kilometriä kolmen maan halki.",
         "Baltian tien asiakirjat lisättiin Unescon maailmanmuisti -rekisteriin vuonna 2009.",
-        "Euroopan parlamentti julisti muistopäiväksi vuonna 2009."
+        "Vuonna 2008 Euroopan parlamentti vaati, että elokuun 23. päivästä tulisi stalinismin ja natsismin uhrien muistopäivä."
       ]
     },
     "memorial_lv_knowledge_day": {
@@ -671,7 +671,7 @@
       "traditions": "Illalla tuhannet ihmiset asettavat kynttilöitä Riian linnan seinälle Daugavan pengerrelle luoden valomeren. Soihtukulkueita ja seremonioita järjestetään kaikkialla maassa, ja ihmiset käyttävät puna-valko-punaista nauhaa.",
       "funFacts": [
         "Eepoksen \"Lāčplēsis\" kirjoitti Andrejs Pumpurs vuonna 1888.",
-        "Lāčplēsisin ritarikunta myönnettiin 2 146 henkilölle, joista 11 oli naista.",
+        "Kolme naista sai Lāčplēsisin sotilasritarikunnan kunniamerkin: Valija Veščunas-Jansone, Līna Čanka-Freidenfelde ja Elza Žiglevica.",
         "Riian linnan kynttiläperinne sai alkunsa vuonna 1988 itsenäisyysliikkeen aikana."
       ]
     },
@@ -682,7 +682,7 @@
       "funFacts": [
         "Pääministeri erosi kuusi päivää katastrofin jälkeen ja otti poliittisen vastuun.",
         "Paikan muistomerkillä on kaikkien 54 uhrin nimet.",
-        "Kansallinen surupäivä julistettiin ensimmäistä kertaa itsenäisessä Latviassa."
+        "Latvia julisti katastrofin jälkeen kolmen päivän kansallisen surun 23.–25. marraskuuta 2013."
       ]
     },
     "memorial_lv_police_day": {
@@ -740,7 +740,7 @@
       "history": "Ensimmäisen maailmansodan jälkeen rannikko oli osoitettu Italiaan, jossa slovenialaiset kärsivät pakkoitalisoitumisesta fasismin alaisina. Vuoden 1947 rauhansopimus Italian kanssa palautti suurimman osan alueesta Jugoslavialle ja siten Slovenialle. Päivästä tuli kansallinen vapaapäivä vuonna 2005.",
       "traditions": "Osavaltion seremonia järjestetään jossakin rannikkokaupungissa, kuten Nova Goricassa, Koperissa tai Sežanassa, puheiden ja konserttien kera. Laulataan Litoral-hymni Vstala Primorska, ja kuorot esiintyvät eri puolilla aluetta.",
       "funFacts": [
-        "Trieste, alueen historiallinen keskus, pysyi Italiassa ja kiistanalainen vuoteen 1954 asti.",
+        "Triesten vapaa alue perustettiin vuonna 1947. Sen vyöhyke A, mukaan lukien Triesten kaupunki, joutui Italian hallinnon alaisuuteen vuonna 1954.",
         "Nova Gorica rakennettiin vuoden 1947 jälkeen uudeksi kaupungiksi, koska Gorizia pysyi Italian puolella.",
         "Slovenian lyhyt, noin 47 kilometrin rantaviiva sijaitsee kokonaan Primorskassa."
       ]
@@ -767,17 +767,17 @@
     },
     "memorial_sk_day_of_the_constitution_of_the_slovak_republic": {
       "intro": "Perustuslakipäivänä 1. syyskuuta juhlistetaan Slovakian tasavallan perustuslain hyväksymistä vuonna 1992, neljä kuukautta ennen maan itsenäistymistä.",
-      "history": "Slovakian kansallisneuvosto hyväksyi perustuslain 1. syyskuuta 1992, ja se allekirjoitettiin kaksi päivää myöhemmin Bratislavan linnassa. 1. tammikuuta 1993 Tšekkoslovakia hajosi rauhanomaisesti Tšekin tasavaltaan ja Slovakiaan. Päivä oli yleinen vapaapäivä vuoteen 2024 asti ja on edelleen muistopäivä.",
+      "history": "Slovakian kansallisneuvosto hyväksyi perustuslain 1. syyskuuta 1992. Tšekkoslovakia jakautui rauhanomaisesti Tšekiksi ja Slovakiaksi 1. tammikuuta 1993. Perustuslain päivä on edelleen valtiollinen juhlapäivä, mutta se ei ole työstä vapaa päivä.",
       "traditions": "Bratislavan linna avaa ovensa, ja kansallisneuvosto pitää seremonian. Presidentti myöntää valtion kunniamerkit ansioituneille kansalaisille, ja lippu nostetaan julkisiin rakennuksiin.",
       "funFacts": [
         "Perustuslaki allekirjoitettiin Bratislavan linnan ritarisalissa.",
         "Tšekkoslovakian rauhanomainen erottaminen tunnetaan nimellä \"Velvet Divorce\".",
-        "Slovakia otti euron käyttöön vuonna 2009, neljä vuotta sen jälkeen, kun sen naapuri Tšekki ei ottanut sitä käyttöön."
+        "Slovakia otti euron käyttöön 1. tammikuuta 2009."
       ]
     },
     "memorial_sk_struggle_for_freedom_and_democracy_day": {
       "intro": "17. marraskuuta muistetaan opiskelijoiden mielenosoituksia vuosina 1939 ja 1989 sekä samettivallankumouksen alkamista, joka päätti kommunistisen hallinnon Tšekkoslovakiassa.",
-      "history": "17. marraskuuta 1939 natsimiehittäjät sulkivat tšekkiläiset yliopistot ja teloittivat yhdeksän opiskelijaa Prahan mielenosoitusten jälkeen. Viisikymmentä vuotta myöhemmin, 17. marraskuuta 1989, Prahassa järjestetty opiskelijamielenosoitus hajotettiin väkivaltaisesti, mikä laukaisi joukkomielenosoitukset, jotka kaatoivat hallinnon muutamassa viikossa. Päivä on yleinen vapaapäivä sekä Slovakiassa että Tšekin tasavallassa.",
+      "history": "Natsimiehittäjät sulkivat tšekkiläiset yliopistot ja teloittivat yhdeksän opiskelijajohtajaa 17. marraskuuta 1939. Prahassa 17. marraskuuta 1989 järjestetyn opiskelijamielenosoituksen väkivaltainen hajottaminen käynnisti samettivallankumouksen joukkomielenosoitukset. Slovakiassa vuosipäivä on edelleen valtiollinen juhlapäivä, mutta se ei ole työstä vapaa päivä.",
       "traditions": "Bratislavassa ja muissa kaupungeissa pidetään kynttiläistuntoja ja puheita, ja ihmiset soittavat avaimia kuten vuonna 1989. Vallankumouksen osallistujien kanssa järjestetään konsertteja ja keskusteluja, ja päivä on myös kansainvälinen opiskelijoiden päivä.",
       "funFacts": [
         "Jingling avaimet tulivat Velvet Revolutionin ääni, joka symboloi viestiä \"aika mennä\" kommunisteille.",
@@ -818,7 +818,7 @@
     "memorial_ve_foundation_anniversary_day_of_san_cristobal_tachira": {
       "intro": "Espanjan kapteeni Juan Maldonado perusti 31. maaliskuuta 1561 San Cristóbalin, Andien Táchiran osavaltion pääkaupungin.",
       "history": "Juan Maldonado y Ordóñez perusti \"Villa de San Cristóbalin\" 31. maaliskuuta 1561 pysähdyspaikaksi Andien ja tasankojen väliselle tielle. Kaupunki kasvoi kahvin kauppakeskukseksi ja nykyään siellä on noin 300 000 asukasta.",
-      "traditions": "Kaupunki juhlii kansalaisparaatilla, konserteilla ja messulla katedraalissa. Juhlapäivä on lähellä Feria Internacional de San Sebastiánia tammikuussa, alueen suurinta festivaalia, ja paikallinen ylpeys ilmaistaan ​​musiikilla ja ruoalla.",
+      "traditions": "Kaupungin vuosipäivää juhlistavat kansalaisseremoniat, kulttuuritapahtumat ja jumalanpalvelukset. Asukkaat muistelevat San Cristóbalin historiaa ja juhlivat sen paikallisia perinteitä.",
       "funFacts": [
         "San Cristóbal sijaitsee noin 800 metriä merenpinnan yläpuolella Andien laaksossa.",
         "Kaupungin jalkapalloseura Deportivo Táchira on yksi Venezuelan menestyneimmistä.",
@@ -857,7 +857,7 @@
     },
     "memorial_de_june_17_uprising": {
       "intro": "17. kesäkuuta muistetaan vuoden 1953 kansannousua Itä-Saksassa, kun yli miljoona ihmistä protestoi SED-hallintoa vastaan ​​ja Neuvostoliiton panssarivaunut murskasivat heidät.",
-      "history": "Kapina alkoi 16. kesäkuuta 1953 Itä-Berliinin Stalinalleella rakennustyöläisten lakolla korotettuja työkiintiöitä vastaan ​​ja levisi päivässä satoihin kaupunkeihin. Neuvostoliiton joukot julistivat sotatilan, ja ainakin 55 ihmistä kuoli. Länsi-Saksa julisti 17. kesäkuuta \"Saksan yhtenäisyyden päiväksi\" vuodesta 1954 vuoden 1990 yhdistymiseen asti.",
+      "history": "Kapina alkoi 16. kesäkuuta 1953 Itä-Berliinin rakennustyöläisten lakolla korotettuja työkiintiöitä vastaan ja levisi satoihin kaupunkeihin. Neuvostoliiton joukot tukahduttivat mielenosoitukset väkivaltaisesti. Elokuussa 1953 Länsi-Saksa asetti 17. kesäkuuta Saksan yhtenäisyyden päiväksi; sitä noudatettiin vuosittain vuoden 1990 yhdistämiseen asti.",
       "traditions": "Seppeleitä lasketaan Berliinin Leipziger Straßella entisen ministeriöiden talon edessä olevalle muistomerkille ja Seestraßen hautausmaalla uhrien haudoille. Bundestag ja osavaltioiden parlamentit pitävät muistotilaisuuksia.",
       "funFacts": [
         "Berliinin Brandenburgin portille johtava bulevardi on ollut nimeltään \"Straße des 17. Juni\" vuodesta 1953 lähtien.",
@@ -867,12 +867,12 @@
     },
     "memorial_de_november_pogroms": {
       "intro": "9. marraskuuta muistetaan vuoden 1938 marraskuun pogromeja, jolloin synagogien, juutalaiskauppojen ja kotien kimppuun Saksassa ja Itävallassa hyökättiin ja ne tuhottiin.",
-      "history": "Yöllä 9. ja 10. marraskuuta 1938 natsihallinto järjesti valtakunnallista väkivaltaa juutalaisia ​​vastaan: yli 1 400 synagogaa sytytettiin tuleen, noin 30 000 juutalaista karkotettiin keskitysleireille ja satoja ihmisiä tapettiin. Pogromit merkitsivät siirtymistä syrjinnästä järjestelmälliseen vainoon.",
+      "history": "Marraskuussa 1938 natsihallinto järjesti laajaa väkivaltaa juutalaisia vastaan. Yli 1 400 synagogaa ja rukoushuonetta tuhottiin, juutalaisten kauppoihin ja koteihin hyökättiin ja noin 30 000 juutalaista miestä vangittiin keskitysleireihin. Pogromit olivat natsien vainon merkittävä eskalaatio.",
       "traditions": "Muistotilaisuuksia pidetään synagogissa ja muistopaikoissa; monissa kaupungeissa ihmiset puhdistavat Stolpersteinen, pieniä messinkilaattoja, jotka asetetaan jalkakäytävälle uhrien viimeisten kotien eteen, ja asettavat kynttilöitä niiden viereen. Koulut keskustelevat päivän historiasta.",
       "funFacts": [
         "9. marraskuuta kutsutaan Saksan \"kohtalon päiväksi\": tasavalta julistettiin vuonna 1918 ja Berliinin muuri kaatui vuonna 1989 samana päivänä.",
         "Yli 100 000 Stolpersteinea on munittu eri puolilla Eurooppaa vuodesta 1992 lähtien.",
-        "Natsien termiä \"Kristallnacht\" vältetään nykyään, koska se vähättelee väkivaltaa."
+        "Termiä \"Kristallnacht\" kritisoidaan usein väkivallan vähättelystä; \"Marraskuun pogromit\" kuvaa vainoa selkeämmin."
       ]
     },
     "memorial_de_victims_of_national_socialism": {

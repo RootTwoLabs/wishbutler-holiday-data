@@ -105,7 +105,7 @@
     },
     "memorial_ca_remembrance_day": {
       "intro": "Remembrance Day on 11 November honours Canadians who served and died in war, symbolised by the red poppy.",
-      "history": "11 November recalls the 1918 armistice that ended the First World War. Canada, which lost more than 60,000 in that war, honours the fallen of all conflicts. The poppy comes from the poem ‚In Flanders Fields‘ by Canadian John McCrae.",
+      "history": "11 November recalls the armistice of 1918 that ended the fighting on the Western Front. Canada honours those who served and died in war. The red poppy as a symbol of remembrance is associated with the poem 'In Flanders Fields' by Canadian John McCrae.",
       "traditions": "At 11 a.m. Canadians observe two minutes of silence. The national ceremony at the National War Memorial in Ottawa features wreaths, the Last Post and a flypast, and millions wear poppies in the weeks before.",
       "funFacts": [
         "‚In Flanders Fields‘ was written by Canadian John McCrae in 1915.",
@@ -114,7 +114,7 @@
       ]
     },
     "memorial_fr_armistice_day": {
-      "intro": "11 November marks the 1918 armistice that ended the First World War and honours all French soldiers who died for the country.",
+      "intro": "11 November commemorates the 1918 armistice that ended the fighting on the Western Front and honours those who died for France.",
       "history": "At 11 a.m. on 11 November 1918 the armistice signed at Compiègne silenced the guns of the Western Front. France lost some 1.4 million soldiers. Since 1922 the date has been a national day of remembrance, later extended to the fallen of all wars.",
       "traditions": "The President lays a wreath at the Tomb of the Unknown Soldier beneath the Arc de Triomphe in Paris, where an eternal flame burns. Across the country, citizens and veterans gather at war memorials for a minute of silence.",
       "funFacts": [
@@ -147,7 +147,7 @@
     },
     "memorial_de_june_17_uprising": {
       "intro": "17 June commemorates the popular uprising of 1953 in East Germany, when more than a million people protested against the SED regime and were crushed by Soviet tanks.",
-      "history": "The uprising began on 16 June 1953 with a strike by construction workers on the Stalinallee in East Berlin against increased work quotas and spread within a day to hundreds of towns. Soviet troops declared martial law, and at least 55 people died. West Germany made 17 June the 'Day of German Unity' from 1954 until reunification in 1990.",
+      "history": "The uprising began on 16 June 1953 with a strike by construction workers in East Berlin against increased work quotas and spread to hundreds of towns. Soviet troops violently suppressed the protests. In August 1953 West Germany established 17 June as the Day of German Unity; it was observed annually until reunification in 1990.",
       "traditions": "Wreaths are laid at the memorial in front of the former House of Ministries on Leipziger Straße in Berlin and at the graves of the victims in Seestraße cemetery. The Bundestag and state parliaments hold commemorations.",
       "funFacts": [
         "The boulevard leading to the Brandenburg Gate in Berlin has been called 'Straße des 17. Juni' since 1953.",
@@ -157,12 +157,12 @@
     },
     "memorial_de_november_pogroms": {
       "intro": "9 November commemorates the November pogroms of 1938, when synagogues, Jewish shops and homes across Germany and Austria were attacked and destroyed.",
-      "history": "On the night of 9 to 10 November 1938 the Nazi regime organised nationwide violence against Jews: more than 1,400 synagogues were set on fire, about 30,000 Jewish men were deported to concentration camps and hundreds of people were killed. The pogroms marked the transition from discrimination to systematic persecution.",
+      "history": "In November 1938 the Nazi regime organised widespread violence against Jews. More than 1,400 synagogues and prayer rooms were destroyed, Jewish shops and homes were attacked, and about 30,000 Jewish men were imprisoned in concentration camps. The pogroms were a major escalation of Nazi persecution.",
       "traditions": "Commemorations are held at synagogues and memorial sites; in many towns people clean the Stolpersteine, small brass plaques set into the pavement in front of the last homes of victims, and place candles beside them. Schools discuss the history of the day.",
       "funFacts": [
         "9 November is called Germany's 'day of fate': the republic was proclaimed in 1918 and the Berlin Wall fell in 1989 on the same date.",
         "More than 100,000 Stolpersteine have been laid across Europe since 1992.",
-        "The Nazi term 'Kristallnacht' is avoided today because it trivialises the violence."
+        "The term 'Kristallnacht' is often criticised for trivialising the violence; 'November pogroms' describes the persecution more clearly."
       ]
     },
     "memorial_de_victims_of_national_socialism": {
@@ -216,7 +216,7 @@
       ]
     },
     "memorial_be_armistice_day": {
-      "intro": "Armistice Day on 11 November commemorates the end of the First World War in 1918 and honours the Belgian soldiers and civilians who died in both world wars.",
+      "intro": "Armistice Day on 11 November recalls the 1918 armistice on the Western Front and honours the Belgian soldiers and civilians who died in the world wars.",
       "history": "At 11 a.m. on 11 November 1918 the armistice signed at Compiègne came into force and the guns fell silent on the Western Front. Belgium had been occupied for four years and much of Flanders lay in ruins. The day has been a public holiday since 1922.",
       "traditions": "The King lays a wreath at the Tomb of the Unknown Soldier at the Colonne du Congrès in Brussels. In Ypres the Last Post is sounded under the Menin Gate, as it is every evening, followed by a large parade. Poppies are worn in memory of the dead.",
       "funFacts": [
@@ -236,8 +236,8 @@
       ]
     },
     "memorial_ca_armistice_day": {
-      "intro": "Armistice Day on 11 November marks the end of the First World War in 1918; in Canada it has been observed as Remembrance Day since 1931.",
-      "history": "The armistice took effect at 11 a.m. on 11 November 1918. Canada first marked Armistice Day in 1919 together with Thanksgiving, until Parliament separated the two and renamed the day in 1931 to honour all who served.",
+      "intro": "Armistice Day on 11 November recalls the 1918 armistice on the Western Front. In Canada the observance has been known as Remembrance Day since 1931.",
+      "history": "The armistice took effect at 11 a.m. on 11 November 1918, ending the fighting on the Western Front. Canada first observed Armistice Day in 1919. From 1921 it shared a date with Thanksgiving; in 1931 Parliament separated the observances and established Remembrance Day on 11 November.",
       "traditions": "Two minutes of silence are observed at 11 a.m., and wreaths are laid at the National War Memorial in Ottawa and at cenotaphs across the country. Canadians wear a red poppy in the weeks before the day.",
       "funFacts": [
         "More than 66,000 Canadians died in the First World War, out of a population of about eight million.",
@@ -302,7 +302,7 @@
       "funFacts": [
         "The full name of the day is 'Day of Remembrance of the Holocaust and Heroism'.",
         "The 'March of the Living' brings thousands of young people from Auschwitz to Birkenau on this day each year.",
-        "Yad Vashem holds the names of about 4.8 million of the six million victims in its central database."
+        "Yad Vashem's central names database commemorates millions of Jews murdered in the Holocaust and preserves their biographical details."
       ]
     },
     "memorial_il_yom_hazikaron": {
@@ -396,7 +396,7 @@
       ]
     },
     "memorial_rs_armistice_day": {
-      "intro": "Armistice Day on 11 November commemorates the end of the First World War in 1918 and the Serbian soldiers and civilians who died in it.",
+      "intro": "Armistice Day on 11 November recalls the 1918 armistice on the Western Front and commemorates the Serbian soldiers and civilians who died in the First World War.",
       "history": "Serbia lost more than a quarter of its population in the First World War, a higher share than any other country. The day was introduced as a public holiday in 2012 to honour the victims and the role of the Serbian army in the Allied victory.",
       "traditions": "Wreaths are laid at the monument to the Unknown Hero on Avala mountain near Belgrade and at war memorials across the country. People wear the Natalie's ramonda, a small purple flower, in memory of the fallen.",
       "funFacts": [
@@ -417,7 +417,7 @@
     },
     "memorial_us_lincolns_birthday": {
       "intro": "Lincoln's Birthday on 12 February honours Abraham Lincoln, the 16th president of the United States, who led the country through the Civil War and ended slavery.",
-      "history": "Lincoln was born in a log cabin in Kentucky in 1809 and was assassinated in April 1865, days after the end of the Civil War. His birthday was first celebrated publicly in 1866 and became a legal holiday in several states, though never a federal one. Today many states combine it with Washington's Birthday as Presidents' Day.",
+      "history": "Lincoln was born in Kentucky on 12 February 1809. He was shot at Ford's Theatre in Washington on 14 April 1865 and died the following morning, shortly after General Lee's surrender. His birthday became a holiday in several states, but never a federal holiday.",
       "traditions": "A wreath-laying ceremony is held at the Lincoln Memorial in Washington, and the Gettysburg Address is read in many schools. In Illinois, the 'Land of Lincoln', the day remains a state holiday.",
       "funFacts": [
         "At 1.93 metres, Lincoln was the tallest US president.",
@@ -527,7 +527,7 @@
     },
     "memorial_lv_international_day_of_the_family": {
       "intro": "The International Day of Families on 15 May draws attention to the importance of families and the challenges they face.",
-      "history": "The United Nations General Assembly proclaimed the day in 1993, following the International Year of the Family in 1994. Latvia included it in its official calendar as a day to be celebrated.",
+      "history": "In 1993 the United Nations General Assembly designated 15 May as the International Day of Families, to be observed from 1994. The year 1994 was also the International Year of the Family. Latvia includes the day in its official calendar of observances.",
       "traditions": "Family festivals, open-air events and sports days are organised in parks and cultural centres. Organisations use the day to discuss support for parents and children, and many families simply spend the day together.",
       "funFacts": [
         "Each year the UN chooses a theme, such as families and climate change or digital technology.",
@@ -537,7 +537,7 @@
     },
     "memorial_lv_firefighter_and_rescuer_day": {
       "intro": "Firefighter and Rescuer Day on 17 May honours the men and women of Latvia's fire and rescue services.",
-      "history": "The date recalls 17 May 1865, when the Riga Voluntary Firefighters' Society was founded, the first in the country. Today the State Fire and Rescue Service (VUGD) responds to fires, accidents and natural disasters nationwide.",
+      "history": "On 17 May 1865 Riga's volunteer fire brigade responded to its first fire in the Old Town. This event is commemorated as the beginning of organised firefighting in Latvia. The State Fire and Rescue Service (VUGD) responds to fires, accidents and emergencies.",
       "traditions": "Fire stations open their doors, and children can climb into fire engines. Ceremonies honour long-serving and distinguished firefighters, and demonstrations show the work of the rescue teams.",
       "funFacts": [
         "The Latvian Fire Museum in Riga is housed in a fire station built in 1912.",
@@ -622,7 +622,7 @@
       "funFacts": [
         "Iceland was the first country to recognise the restored Latvian independence, on 22 August 1991.",
         "The vote in the Supreme Council was taken while Soviet troops were still in the country.",
-        "Latvia rejoined the United Nations on 17 September 1991."
+        "Latvia joined the United Nations on 17 September 1991."
       ]
     },
     "memorial_lv_day_of_remembrance_for_victims_of_stalinism_and_nazism": {
@@ -632,7 +632,7 @@
       "funFacts": [
         "The Baltic Way stretched about 675 kilometres across the three countries.",
         "The documents of the Baltic Way were added to the UNESCO Memory of the World Register in 2009.",
-        "The European Parliament proclaimed the day of remembrance in 2009."
+        "In 2008 the European Parliament called for 23 August to become a day of remembrance for the victims of Stalinism and Nazism."
       ]
     },
     "memorial_lv_knowledge_day": {
@@ -701,7 +701,7 @@
       "traditions": "In the evening thousands of people place candles along the wall of Riga Castle on the Daugava embankment, creating a sea of light. Torchlight processions and ceremonies are held throughout the country, and people wear a red-white-red ribbon.",
       "funFacts": [
         "The epic 'Lāčplēsis' was written by Andrejs Pumpurs in 1888.",
-        "The Order of Lāčplēsis was awarded to 2,146 people, including 11 women.",
+        "Three women received the Military Order of Lāčplēsis: Valija Veščunas-Jansone, Līna Čanka-Freidenfelde and Elza Žiglevica.",
         "The candle tradition at Riga Castle began in 1988 during the independence movement."
       ]
     },
@@ -712,7 +712,7 @@
       "funFacts": [
         "The prime minister resigned six days after the disaster, taking political responsibility.",
         "The memorial at the site bears the names of all 54 victims.",
-        "A national day of mourning was declared for the first time in independent Latvia."
+        "Latvia declared three days of national mourning after the disaster, from 23 to 25 November 2013."
       ]
     },
     "memorial_lv_police_day": {
@@ -770,7 +770,7 @@
       "history": "After the First World War the Littoral had been assigned to Italy, where the Slovene population suffered forced Italianisation under Fascism. The 1947 peace treaty with Italy returned the greater part of the region to Yugoslavia and thus to Slovenia. The day became a national holiday in 2005.",
       "traditions": "A state ceremony takes place in one of the Littoral towns such as Nova Gorica, Koper or Sežana, with speeches and concerts. The Littoral anthem 'Vstala Primorska' is sung, and choirs perform across the region.",
       "funFacts": [
-        "Trieste, the historic centre of the region, remained in Italy and was disputed until 1954.",
+        "The Free Territory of Trieste was established in 1947. Its Zone A, including the city of Trieste, came under Italian administration in 1954.",
         "Nova Gorica was built after 1947 as a new town because Gorizia stayed on the Italian side.",
         "Slovenia's short coastline of about 47 kilometres lies entirely in Primorska."
       ]
@@ -797,17 +797,17 @@
     },
     "memorial_sk_day_of_the_constitution_of_the_slovak_republic": {
       "intro": "Constitution Day on 1 September commemorates the adoption of the constitution of the Slovak Republic in 1992, four months before the country became independent.",
-      "history": "The Slovak National Council adopted the constitution on 1 September 1992, and it was signed two days later at Bratislava Castle. On 1 January 1993 Czechoslovakia peacefully dissolved into the Czech Republic and Slovakia. The day was a public holiday until 2024 and remains a memorial day.",
+      "history": "The Slovak National Council adopted the constitution on 1 September 1992. On 1 January 1993 Czechoslovakia peacefully dissolved into the Czech Republic and Slovakia. Constitution Day remains a state holiday, but is not a day off work.",
       "traditions": "Bratislava Castle opens its doors, and the National Council holds a ceremony. The president awards state honours to distinguished citizens, and the flag is raised on public buildings.",
       "funFacts": [
         "The constitution was signed in the Knights' Hall of Bratislava Castle.",
         "The peaceful separation of Czechoslovakia is known as the 'Velvet Divorce'.",
-        "Slovakia introduced the euro in 2009, four years after its neighbour the Czech Republic did not."
+        "Slovakia adopted the euro on 1 January 2009."
       ]
     },
     "memorial_sk_struggle_for_freedom_and_democracy_day": {
       "intro": "17 November commemorates the students' protests of 1939 and 1989 and the beginning of the Velvet Revolution that ended communist rule in Czechoslovakia.",
-      "history": "On 17 November 1939 the Nazi occupiers closed Czech universities and executed nine students after protests in Prague. Fifty years later, on 17 November 1989, a student demonstration in Prague was violently dispersed, triggering the mass protests that brought down the regime within weeks. The day is a public holiday in both Slovakia and the Czech Republic.",
+      "history": "On 17 November 1939 the Nazi occupiers closed Czech universities and executed nine student leaders. On 17 November 1989 a student demonstration in Prague was violently dispersed, triggering the mass protests of the Velvet Revolution. In Slovakia the anniversary remains a state holiday, but is not a day off work.",
       "traditions": "Gatherings with candles and speeches are held in Bratislava and other towns, and people ring keys as they did in 1989. Concerts and discussions with participants of the revolution take place, and the day is also International Students' Day.",
       "funFacts": [
         "Jingling keys became the sound of the Velvet Revolution, symbolising the message 'time to go' to the communists.",
@@ -848,7 +848,7 @@
     "memorial_ve_foundation_anniversary_day_of_san_cristobal_tachira": {
       "intro": "31 March marks the founding of San Cristóbal, the capital of the Andean state of Táchira, by the Spanish captain Juan Maldonado in 1561.",
       "history": "Juan Maldonado y Ordóñez founded the 'Villa de San Cristóbal' on 31 March 1561 as a stopping point on the road between the Andes and the plains. The town grew into a trading centre for coffee and today has about 300,000 inhabitants.",
-      "traditions": "The city celebrates with a civic parade, concerts and a mass in the cathedral. The anniversary lies close to the Feria Internacional de San Sebastián in January, the region's biggest festival, and local pride is expressed with music and food.",
+      "traditions": "Civic ceremonies, cultural events and religious services mark the city's anniversary. Residents recall the history of San Cristóbal and celebrate its local traditions.",
       "funFacts": [
         "San Cristóbal lies at about 800 metres above sea level in a valley of the Andes.",
         "The city's football club, Deportivo Táchira, is one of Venezuela's most successful.",
