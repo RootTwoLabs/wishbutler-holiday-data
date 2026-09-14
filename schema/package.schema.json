@@ -125,6 +125,12 @@
           },
           "originalId": {
             "type": "string"
+          },
+          "scope": {
+            "enum": [
+              "global",
+              "national"
+            ]
           }
         }
       }

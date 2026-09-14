@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "baseUrl": "https://cdn.jsdelivr.net/gh/RootTwoLabs/wishbutler-holiday-data@main/data",
-  "generatedAt": "2026-09-14T09:31:56.203Z",
+  "generatedAt": "2026-09-14T13:08:25.125Z",
   "countries": [
     {
       "code": "AD",
@@ -3544,9 +3544,9 @@
   },
   "memorial": {
     "code": "MEMORIAL",
-    "version": 10,
-    "package": "packages/MEMORIAL/v10/package.json",
-    "sizeBytes": 1917992,
+    "version": 12,
+    "package": "packages/MEMORIAL/v12/package.json",
+    "sizeBytes": 2791824,
     "locales": [
       "da",
       "de",

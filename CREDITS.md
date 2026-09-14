@@ -529,7 +529,12 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 - `images/MEMORIAL/ar_day_of_remembrance_for_truth_and_justice/01.jpg` — Blmurch (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Monumento_a_las_V%C3%ADctimas_del_Terrorismo_de_Estado.jpg>
 - `images/MEMORIAL/ar_day_of_the_veterans_and_fallen_of_the_malvinas_war/01.jpg` — Leandro Kibisz (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:CABA_-_Retiro_-_Monumento_a_los_caidos_en_Malvinas_en_Plaza_San_Martin.jpg>
 - `images/MEMORIAL/ar_general_jose_de_san_martin_memorial_day/01.jpg` — Bernard Gagnon (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Equestrian_statue_of_Jos%C3%A9_de_San_Mart%C3%ADn%2C_Buenos_Aires.jpg>
+- `images/MEMORIAL/ar_general_manuel_belgrano_memorial_day/01.jpg` — Marcelaguelfi (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Monumento_a_la_Bandera%2C_Rosario%2C_Argentina._Vista_nocturna_del_Propileo_y_Venus..JPG>
+- `images/MEMORIAL/at_day_of_remembrance_against_violence_and_racism/01.jpg` — Dnalor 01 (CC BY-SA 3.0 at) — <https://commons.wikimedia.org/wiki/File:Stacheldraht-Mahnmal%2C_Gedenkst%C3%A4tte_KZ_Mauthausen.JPG>
 - `images/MEMORIAL/au_anzac_day/01.jpg` — Thennicke (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:ANZAC_Parade_from_the_Australian_War_Memorial%2C_Canberra_ACT.jpg>
+- `images/MEMORIAL/ba_srebrenica_remembrance_day/01.jpg` — Yoann.gonthier (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:M%C3%A9morial_de_Srebrenica-Poto%C4%8Dari.jpg>
+- `images/MEMORIAL/bd_language_martyrs_day/01.jpg` — Biswarup Ganguly (CC BY 3.0) — <https://commons.wikimedia.org/wiki/File:Central_Shaheed_Minar_-_Dhaka_Medical_College_Campus_-_Dhaka_2015-05-31_2585.JPG>
+- `images/MEMORIAL/bd_victory_day/01.jpg` — Mfsam12 (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Jatiyo_Smriti_Soudho%2C_Savar_(1).jpg>
 - `images/MEMORIAL/be_armistice_day/01.jpg` — Trougnouf (Benoit Brummer) (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Last_Post_ceremony_at_the_Menin_Gate_in_Ypres_(DSCF9452).jpg>
 - `images/MEMORIAL/by_commemoration_day/01.jpg` — Eugene Zelenko (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Belarus-Rakaw-Orthodox_cemetery-Grave-2.jpg>
 - `images/MEMORIAL/ca_armistice_day/01.jpg` — Michael Ignatieff (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Remembrance_Day_National_War_Memorial_Ottawa_2010.jpg>
@@ -537,16 +542,32 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 - `images/MEMORIAL/ca_remembrance_day/01.jpg` — Brian Burger from Victoria, Canada (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Placing_poppies_on_the_cenotaph.jpg>
 - `images/MEMORIAL/cd_congolese_genocide_day/01.jpg` — Alphonse Masandi (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:M%C3%A9morial_du_genocost.jpg>
 - `images/MEMORIAL/cd_laurent_desire_kabila_assassination/01.jpg` — Henri van der Noot (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Kinshasa_-_Mausol%C3%A9e_de_Laurent_D%C3%A9sir%C3%A9_Kabila_(2%2C_cropped).jpg>
+- `images/MEMORIAL/cd_martyrs_day/01.jpg` — MONUSCO Photos (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Kinshasa_train_station_(21237028852).jpg>
 - `images/MEMORIAL/cd_patrice_lumumba_assassination/01.jpg` — MONUSCO Photos (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Le_17_janvier_1961%2C_Patrice_Lumumba_mourrait%2C_victime_de_son_%C2%AB_r%C3%AAve_%C2%BB_pour_un_Congo_libre%2C_d%C3%A9mocratique_et_d%C3%A9velopp%C3%A9._(16112526649).jpg>
+- `images/MEMORIAL/cn_nanjing_massacre_memorial_day/01.jpg` — Kevin Dooley from Chander, AZ, USA (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Square%2C_Nanjing_Massacre_Memorial_Hall_(flickr_9106317623).jpg>
+- `images/MEMORIAL/cz_liberation_day/01.jpg` — MirkoS18 (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:N%C3%A1rodn%C3%AD_pam%C3%A1tn%C3%ADk_na_V%C3%ADtkov%C4%9B_(CZ)_-_%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B8_%D1%81%D0%BF%D0%BE%D0%BC%D0%B5%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%92%D0%B8%D1%82%D0%BA%D0%BE%D0%B2%D1%83_(SR)_14.jpg>
 - `images/MEMORIAL/de_june_17_uprising/01.jpg` — ubahnverleih (CC0) — <https://commons.wikimedia.org/wiki/File:Denkmal_Volksaufstand_17._Juni_1953,_Postplatz_Dresden.jpg>
 - `images/MEMORIAL/de_november_pogroms/01.jpg` — Neuköllner (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Neue_Synagoge%2C_Oranienburger_Stra%C3%9Fe%2C_Berlin-Mitte.jpg>
 - `images/MEMORIAL/de_victims_of_national_socialism/01.jpg` — Dietmar Rabich (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Berlin%2C_Denkmal_f%C3%BCr_die_ermordeten_Juden_Europas_--_2011_--_2415.jpg>
+- `images/MEMORIAL/de_volkstrauertag/01.jpg` — Johann H. Addicks (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Berlin%2C_Neue_Wache%2C_interior_view%2C_2005.jpg>
+- `images/MEMORIAL/ee_day_of_mourning/01.jpg` — Carl.eryk (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Kommunismiohvritememoriaal.jpg>
+- `images/MEMORIAL/ee_victory_day/01.jpg` — Pauloleong2002 (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Independence_War_Victory_Column%2C_Tallinn%2C_Estonia.jpg>
+- `images/MEMORIAL/eu_day_of_remembrance_for_victims_of_terrorism/01.jpg` — Felipe Gabaldón (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:11-M_Memorial._Atocha_Station._Madrid%2C_Spain._(4425265732).jpg>
+- `images/MEMORIAL/gb_remembrance_sunday/01.jpg` — Peter Barr (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:The_Cenotaph%2C_Whitehall%2C_Remembrance_Sunday_-_geograph.org.uk_-_3740396.jpg>
 - `images/MEMORIAL/gi_workers_memorial_day/01.jpg` — Jungpionier (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Manchester_Workers'_Memorial.jpg>
 - `images/MEMORIAL/hr_remembrance_day/01.jpg` — Tromber (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Vukovar_Memorial_Cemetery_%E2%80%93_Eternal_Flame%2C_20150429160745.jpg>
+- `images/MEMORIAL/hu_1848_revolution_memorial_day/01.jpg` — August Dominus (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Statue_of_S%C3%A1ndor_Pet%C5%91fi_by_Adolf_Husz%C3%A1r_and_Mikl%C3%B3s_Izs%C3%B3%2C_1882._-_Pet%C5%91fi_Square%2C_Budapest_District_V.jpg>
 - `images/MEMORIAL/il_tisha_bav/01.jpg` — IPPA photographer (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Tisha_B'Av_at_the_Western_Wall_(FL61957791).jpg>
 - `images/MEMORIAL/il_yom_hashoah/01.jpg` — Bahnfrend (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Hall_of_Remembrance%2C_Yad_Vashem%2C_2019_(02).jpg>
 - `images/MEMORIAL/il_yom_hazikaron/01.jpg` — יעקב (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Ofra5136.JPG>
+- `images/MEMORIAL/in_martyrs_day/01.jpg` — Ssriram mt (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Raj_Ghat_Panorama_(3).jpg>
+- `images/MEMORIAL/it_giorno_del_ricordo/01.jpg` — Dans (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Foiba_di_Basovizza.JPG>
+- `images/MEMORIAL/it_liberation_day/01.jpg` — Massimo Mancini (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Altare_Della_Patria_(247482781).jpeg>
+- `images/MEMORIAL/jp_hiroshima_peace_memorial_day/01.jpg` — DXR (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Peace_Memorial_Park_and_Cenotaph%2C_Hiroshima%2C_South_view_20190417_1.jpg>
+- `images/MEMORIAL/kr_gwangju_democratization_movement_day/01.jpg` — Ulrich Lange, Bochum, Germany (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Gwangju_-_May_18th_National_Cemetery_-_graves.jpg>
+- `images/MEMORIAL/kr_liberation_day/01.jpg` — USAG- Humphreys (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Battle_of_Cheonan_Ceremony-Visit_to_Independence_Hall_Museum_-_Cheonan%2C_South_Korea_-_6_July_2012_(7579276020).jpg>
 - `images/MEMORIAL/kr_memorial_day/01.jpg` — Republic of Korea from Seoul, Republic of Korea (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Seoul_National_Cemetery_01_(18290569278).jpg>
+- `images/MEMORIAL/lt_freedom_defenders_day/01.jpg` — Nenea hartia (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:View_from_Gediminas_Tower_Vilnius_(05.09.2022).01.jpg>
 - `images/MEMORIAL/lv_baltic_unity_day/01.jpg` — Steven1991 (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Baltic_States%E2%80%99_Flags_in_Riga_Old_Town,_May_2024.jpg>
 - `images/MEMORIAL/lv_border_guards_day/01.jpg` — Jevgēnijs Šlihto (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Latvian_Coast_Guard_Ship_Valpas.jpg>
 - `images/MEMORIAL/lv_commemoration_day_of_defenders_of_the_barricades_in_1991/01.jpg` — Jens-Olaf (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Riga_barricades_TV_station_1991.jpg>
@@ -576,21 +597,42 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 - `images/MEMORIAL/lv_remembrance_day_of_the_tragedy_of_21_november_2013/01.jpg` — Saeima (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Saeimas_Prezidija_p%C4%81rst%C4%81vji_godina_Zolit%C5%ABdes_tra%C4%A3%C4%93dijas_upuru_piemi%C5%86u_(31044989127).jpg>
 - `images/MEMORIAL/lv_world_non_governmental_organization_day/01.jpg` — Joshua Tree National Park (Public domain) — <https://commons.wikimedia.org/wiki/File:Volunteers_planting_(55066598042).jpg>
 - `images/MEMORIAL/md_victory_and_commemoration_day/01.jpg` — Pudelek (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Chi%C8%99in%C4%83u_-_Memorial_complex_Eternitate_(by_Pudelek).jpg>
+- `images/MEMORIAL/mg_martyrs_day/01.jpg` — Torbenbrinker (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:MoramangaDenkmal.jpg>
 - `images/MEMORIAL/na_cassinga_day/01.jpg` — Olga Ernst & Hp.Baumeler (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Heldenacker_Namibia_Vogelperspektive._2017.jpg>
 - `images/MEMORIAL/na_genocide_remembrance_day/01.jpg` — Pemba.mpimaji (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Genozid-Denkmal_vor_der_Alten_Feste_in_Windhoek2.jpg>
+- `images/MEMORIAL/na_heroes_day/01.jpg` — Olga Ernst & Hp.Baumeler (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Heldenacker_Namibia_Vogelperspektive._2017.jpg>
+- `images/MEMORIAL/nl_remembrance_of_the_dead/01.jpg` — Txllxt TxllxT (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Amsterdam_-_Dam_-_View_SE_towards_Nationaal_Monument_-_1940-45_War_Memorial.jpg>
+- `images/MEMORIAL/no_22_july_remembrance_day/01.jpg` — Geir Hval (www.MacWhale.eu) (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Oslo_Domkirke_blomsterhav_juli_2011_Norway_(2011.07.31).jpg>
 - `images/MEMORIAL/nz_anzac_day/01.jpg` — Daan Hoffmann / Auckland War Memorial Museum Tāmaki Paenga Hira (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Auckland_War_Memorial_Museum_in_2021.jpg>
+- `images/MEMORIAL/pa_martyrs_day/01.jpg` — yakovlev.alexey from Moscow, Russia (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Catedral_de_Panam%C3%A1_%E2%80%94_Casco_Viejo%2C_Panama_City_(23983779940).jpg>
 - `images/MEMORIAL/pg_remembrance_day/01.jpg` — U.S. Navy photo by Chief Petty Officer Shannon Smith (Public domain) — <https://commons.wikimedia.org/wiki/File:CDRUSINDOPACOM_Visits_Port_Moresby_(Bomana)_War_Cemetery_(8529263).jpg>
+- `images/MEMORIAL/ph_day_of_valor/01.jpg` — Maningsambale (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Colonnade_Mount_Samat_National_Shrine.jpg>
+- `images/MEMORIAL/ph_national_heroes_day/01.jpg` — CNEcija12345 (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Libingan_ng_mga_Bayani_gateCNE.jpg>
+- `images/MEMORIAL/pl_katyn_remembrance_day/01.jpg` — Kgbo (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Katyn_Museum_in_Warsaw%2C_2023%2C_25.jpg>
+- `images/MEMORIAL/pl_warsaw_ghetto_uprising_remembrance_day/01.jpg` — Pudelek (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Monument_to_the_Ghetto_Heroes%2C_Warsaw.JPG>
+- `images/MEMORIAL/pl_warsaw_uprising_remembrance_day/01.jpg` — Jules9687 (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Warsaw_Uprising_Monument_in_Warsaw.jpg>
 - `images/MEMORIAL/pr_memorial_day/01.jpg` — P. Hughes (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Puerto_Rico_National_Cemetery_-_partial_view.jpg>
+- `images/MEMORIAL/py_heroes_day/01.jpg` — Garcia.dennis (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Pante%C3%B3n_nacional_de_los_H%C3%A9roes_-_Paraguay.jpg>
 - `images/MEMORIAL/rs_armistice_day/01.jpg` — Francine Riez (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Ramonda_nathaliae.jpg>
+- `images/MEMORIAL/rw_genocide_remembrance_day/01.jpg` — Dave Proffer (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Kigali_Genocide_Memorial_Centre_-_Flickr_-_Dave_Proffer.jpg>
+- `images/MEMORIAL/si_day_of_uprising_against_occupation/01.jpg` — Doremo (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Ljubljana_Slovenia_-_Vidmar_house.JPG>
 - `images/MEMORIAL/si_integration_of_primorska_into_the_homeland/01.jpg` — Michal Klajban (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:View_to_Piran_from_St._George's_Parish_Church%2C_Piran%2C_Slovenia_11.jpg>
 - `images/MEMORIAL/si_primoz_trubar_day/01.jpg` — Sjaak Kempe from Groningen, The Netherlands (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:20230429_06_Ljubljana_-_Trubarjev_Spomenik_(52911398068).jpg>
 - `images/MEMORIAL/si_rudolf_maister_day/01.jpg` — Fred Romero from Paris, France (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Ljubljana_-_%C5%BDelezni%C5%A1ka_postaja_Ljubljana_%26_Spomenik_Rudolfu_Maistru_(48874550281).jpg>
 - `images/MEMORIAL/si_slovenian_sports_day/01.jpg` — Pinky sl (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:PlanicaSkiJumps2009Final.JPG>
 - `images/MEMORIAL/si_sovereignty_day/01.jpg` — Adam Jones from Kelowna, BC, Canada (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Slovenian_Flag_Flying_over_Ljubljana_Castle_-_Ljubljana_-_Slovenia_(54556430852).jpg>
 - `images/MEMORIAL/sk_day_of_the_constitution_of_the_slovak_republic/01.jpg` — Dennis G. Jarvis (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Slovakia-03091_-_Leaving_Bratislava_Castle_(32167165711).jpg>
+- `images/MEMORIAL/sk_slovak_national_uprising_anniversary/01.jpg` — Patrik Kunec (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Bansk%C3%A1_Bystrica%2C_Slovakia_-_Slovak_National_Uprising_Memorial_and_Museum_-_2023.jpg>
 - `images/MEMORIAL/sk_struggle_for_freedom_and_democracy_day/01.jpg` — RobbieIanMorrison (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:1989_November_Prague_Velvet_Revolution_protest_crowd_fingers_in_air_tight_shot.jpg>
 - `images/MEMORIAL/sm_commemoration_of_all_those_who_died_at_war/01.jpg` — Szeder László (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:RSM-San_Marino043.jpg>
+- `images/MEMORIAL/tr_ataturk_memorial_day/01.jpg` — Diego Delso (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:An%C4%B1tkabir%2C_Ankara%2C_Turqu%C3%ADa%2C_2024-10-03%2C_DD_27.jpg>
+- `images/MEMORIAL/ua_chernobyl_remembrance_day/01.jpg` — Xsandriel (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Memorial_sign_to_Chornobyl_liquidators_from_Podil%2C_Kyiv_(2).jpg>
+- `images/MEMORIAL/ua_holodomor_remembrance_day/01.jpg` — Adam Jones from Kelowna, BC, Canada (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Interior_of_Holodomor_Memorial_Museum_-_Kiev_-_Ukraine_-_01_(26757672050).jpg>
+- `images/MEMORIAL/ua_victory_day_over_nazism_in_world_war_ii/01.jpg` — Oleh Kushch (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Park_of_Eternal_Glory%2C_Kyiv_03.jpg>
+- `images/MEMORIAL/ug_martyrs_day/01.jpg` — Isabelle Prondzynski (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Namugongo_Martyrs_Shrine_exterior_view.jpg>
+- `images/MEMORIAL/un_remembrance_of_victims_of_slavery/01.jpg` — Fawaz.tairou (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Gor%C3%A9e_2024_-_Maison_des_esclaves_-_13.jpg>
 - `images/MEMORIAL/us_lincolns_birthday/01.jpg` — Frank Schulenburg (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Statue_of_Abraham_Lincoln%2C_Lincoln_Memorial_(2024)-L1005507.jpg>
+- `images/MEMORIAL/us_patriot_day/01.jpg` — Christian David (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:North_reflecting_pool_of_the_National_September_11_Memorial%2C_New_York_City.jpg>
 - `images/MEMORIAL/ve_caracas_city_foundation_day/01.jpg` — Flauta (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Caracas_skyline_and_Avila_mountain_from_my_penthouse.JPG>
 - `images/MEMORIAL/ve_flag_day/01.jpg` — Pulkstenis (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Monumento_a_la_Bandera_en_La_Vela_de_Coro.jpg>
 - `images/MEMORIAL/ve_journalists_day/01.jpg` — Bernerlover (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Vecteezy_stack-of-newspaper_1961329.jpg>
@@ -598,6 +640,8 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 - `images/MEMORIAL/ve_teachers_day/01.jpg` — Wolfmann (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Karmsund_folkemuseum_Haugesund_Norway_Interior_Skolestue_klasserom_Class_room_ca_1910_Skolepulter_skrivepulter_benker_school_room_benches_writing_desks_Kateter_Tavle_Blackboard_etc_2020-06-10_DSC00312.jpg>
 - `images/MEMORIAL/ve_youth_day/01.jpg` — Gustavo Dos Santos (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:MONUMENT_TO_YOUTH_VENEZUELA.jpg>
 - `images/MEMORIAL/za_human_rights_day/01.jpg` — ljswaan (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Freedom_Park_Amphitheatre_01.jpg>
+- `images/MEMORIAL/za_youth_day/01.jpg` — Andrew Hall (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Hector_Pieterson_shooting_site%2C_cnr_Vilakazi_%26_Moema_Streets%2C_Soweto.jpg>
+- `images/MEMORIAL/zw_heroes_day/01.jpg` — Gary Bembridge (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Heroes_Acre%2C_Harare%2C_Zimbabwe_(1).jpg>
 - `images/mothers_day/01.jpg` — Amanda Slater from Coventry, West Midlands, UK (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Mother%27s_Day_Narcissi_(24960968354).jpg>
 - `images/mothers_day/02.jpg` — Tianmu peter (CC BY 3.0) — <https://commons.wikimedia.org/wiki/File:%E6%AF%8D%E8%A6%AA%E7%AF%80%E8%B7%AF%E9%82%8A%E8%B3%A3%E7%9A%84%E9%AE%AE%E8%8A%B1_-_panoramio_-_Tianmu_peter_(2).jpg>
 - `images/mothers_day/03.jpg` — Erol Ahmed erol (CC0) — <https://commons.wikimedia.org/wiki/File:Mother%27s_Day_flower_sale_(Unsplash).jpg>

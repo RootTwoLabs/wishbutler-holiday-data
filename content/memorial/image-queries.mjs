@@ -272,4 +272,173 @@ export const MEMORIAL_IMAGE_QUERIES = {
   MEMORIAL_DE_victims_of_national_socialism: {
     terms: ['Denkmal für die ermordeten Juden Europas', 'Holocaust memorial Berlin stelae', 'Memorial to the Murdered Jews of Europe'],
   },
+  MEMORIAL_SI_day_of_uprising_against_occupation: {
+    terms: ["Liberation Front Slovenia monument Ljubljana","Spomenik OF Ljubljana","Ljubljana Congress Square"],
+  },
+  MEMORIAL_SK_slovak_national_uprising_anniversary: {
+    terms: ["Slovak National Uprising Museum Banská Bystrica","SNP memorial Banska Bystrica","Banská Bystrica Museum SNP"],
+  },
+  MEMORIAL_HU_1956_revolution_memorial_day: {
+    terms: ["Kossuth tér 1956 memorial flame Budapest", "Budapest 1956 memorial Műegyetem rakpart", "Hungarian Revolution 1956 memorial Budapest"],
+    avoid: ["explanation", "plaque", "sign"],
+  },
+  MEMORIAL_HU_1848_revolution_memorial_day: {
+    terms: ["Petőfi statue Budapest","Hungarian National Museum Budapest","Budapest March 15 cockade"],
+  },
+  MEMORIAL_PH_day_of_valor: {
+    terms: ["Dambana ng Kagitingan Mount Samat","Shrine of Valor Bataan","Mount Samat cross"],
+  },
+  MEMORIAL_PH_national_heroes_day: {
+    terms: ["Libingan ng mga Bayani","Bonifacio Monument Caloocan","Rizal Monument Manila"],
+  },
+  MEMORIAL_FR_victory_in_europe_day: {
+    terms: ["Arc de Triomphe Paris tomb unknown soldier flame 2019", "Arc de Triomphe de l'Étoile Paris", "Flamme du Souvenir Arc de Triomphe"],
+    avoid: ["napoléon", "1921", "centenaire"],
+  },
+  MEMORIAL_IT_liberation_day: {
+    terms: ["25 aprile Festa della Liberazione corteo","Altare della Patria 25 aprile","Liberation Day Italy ceremony"],
+  },
+  MEMORIAL_NL_liberation_day: {
+    terms: ["Bevrijdingsdag Wageningen","Bevrijdingsvuur","Liberation Day Netherlands 5 May"],
+  },
+  MEMORIAL_KR_liberation_day: {
+    terms: ["Independence Hall of Korea Cheonan","Gwangbokjeol","Seodaemun Prison History Hall"],
+  },
+  MEMORIAL_CZ_liberation_day: {
+    terms: ["Vítkov National Memorial Prague","Národní památník na Vítkově","Prague Uprising memorial"],
+  },
+  MEMORIAL_UA_victory_day_over_nazism_in_world_war_ii: {
+    terms: ["Park of Eternal Glory Kyiv","Tomb of the Unknown Soldier Kyiv","red poppy Ukraine remembrance"],
+  },
+  MEMORIAL_EE_victory_day: {
+    terms: ["War of Independence Victory Column Tallinn","Vabadussõja võidusammas","Freedom Square Tallinn"],
+  },
+  MEMORIAL_CD_martyrs_day: {
+    terms: ["Kinshasa monument","Kinshasa boulevard","Democratic Republic of the Congo Kinshasa skyline"],
+  },
+  MEMORIAL_TN_martyrs_day: {
+    terms: ["Séjoumi cemetery Tunis martyrs","Tunis Avenue Habib Bourguiba","Tunis medina panorama"],
+  },
+  MEMORIAL_PA_martyrs_day: {
+    terms: ["Plaza de la Independencia Casco Viejo Panamá", "Casco Antiguo Panama City cathedral", "Panama City Cinta Costera"],
+    avoid: ["dubrovnik", "croacia", "croatia"],
+  },
+  MEMORIAL_MG_martyrs_day: {
+    terms: ["Moramanga memorial 1947","Antananarivo monument","Antananarivo Lake Anosy"],
+  },
+  MEMORIAL_UG_martyrs_day: {
+    terms: ["Namugongo Martyrs Shrine","Uganda Martyrs Shrine Namugongo","Namugongo basilica"],
+  },
+  MEMORIAL_NA_heroes_day: {
+    terms: ["Heroes' Acre Windhoek","Heroes Acre Namibia obelisk","Windhoek Heroes Acre"],
+  },
+  MEMORIAL_ZW_heroes_day: {
+    terms: ["National Heroes Acre Harare","Heroes Acre Zimbabwe","Harare National Heroes Acre monument"],
+  },
+  MEMORIAL_PY_heroes_day: {
+    terms: ["Panteón Nacional de los Héroes Asunción","Pantheon of Heroes Asuncion","Asunción Panteón"],
+  },
+  MEMORIAL_AR_general_manuel_belgrano_memorial_day: {
+    terms: ["Monumento Nacional a la Bandera Rosario propileo", "National Flag Memorial Rosario Argentina", "Monumento a la Bandera Rosario"],
+    avoid: ["pintos", "concierto", "concert"],
+  },
+  MEMORIAL_US_veterans_day: {
+    terms: ["Veterans Day ceremony Arlington National Cemetery","Tomb of the Unknown Soldier Arlington wreath","Arlington National Cemetery Veterans Day"],
+  },
+  MEMORIAL_BD_victory_day: {
+    terms: ["Jatiyo Smriti Soudho Savar","National Martyrs Memorial Bangladesh","Savar memorial Bangladesh"],
+  },
+  MEMORIAL_BD_language_martyrs_day: {
+    terms: ["Shaheed Minar Dhaka","Central Shaheed Minar","Shaheed Minar 21 February"],
+  },
+  MEMORIAL_ZA_youth_day: {
+    terms: ["Hector Pieterson Memorial Soweto","Hector Pieterson Museum","Soweto Orlando West memorial"],
+  },
+  MEMORIAL_DE_volkstrauertag: {
+    terms: ["Neue Wache Berlin interior Kollwitz","Neue Wache Berlin","Volkstrauertag Kranzniederlegung"],
+  },
+  MEMORIAL_AT_day_of_remembrance_against_violence_and_racism: {
+    terms: ["KZ-Gedenkstätte Mauthausen","Mauthausen Memorial","Mauthausen concentration camp memorial"],
+  },
+  MEMORIAL_GB_remembrance_sunday: {
+    terms: ["The Cenotaph Whitehall Remembrance Sunday","Cenotaph London poppy wreaths","Remembrance Sunday Cenotaph"],
+  },
+  MEMORIAL_US_patriot_day: {
+    terms: ["National September 11 Memorial reflecting pool","9/11 Memorial New York","Tribute in Light"],
+    avoid: ['attack', 'collapse', 'smoke', 'plane'],
+  },
+  MEMORIAL_US_pearl_harbor_remembrance_day: {
+    terms: ["USS Arizona Memorial","USS Arizona Memorial Pearl Harbor aerial","Pearl Harbor memorial"],
+  },
+  MEMORIAL_NL_remembrance_of_the_dead: {
+    terms: ["Nationaal Monument Dam Amsterdam","National Monument Dam Square","Dodenherdenking Dam"],
+  },
+  MEMORIAL_PL_warsaw_uprising_remembrance_day: {
+    terms: ["Warsaw Uprising Monument","Pomnik Powstania Warszawskiego","Warsaw Uprising Museum"],
+  },
+  MEMORIAL_PL_katyn_remembrance_day: {
+    terms: ["Katyn Museum Warsaw","Katyń memorial Warsaw","Katyn war cemetery"],
+    avoid: ['exhumation', 'bodies', 'corpse'],
+  },
+  MEMORIAL_PL_warsaw_ghetto_uprising_remembrance_day: {
+    terms: ["Monument to the Ghetto Heroes Warsaw","Pomnik Bohaterów Getta","POLIN Museum Warsaw daffodil"],
+  },
+  MEMORIAL_IT_giorno_del_ricordo: {
+    terms: ["Foiba di Basovizza", "Monumento nazionale Foiba di Basovizza Trieste", "Basovizza foiba"],
+  },
+  MEMORIAL_LT_freedom_defenders_day: {
+    terms: ["Vilnius TV tower", "Vilniaus televizijos bokštas", "January 13 memorial crosses Vilnius television tower"],
+  },
+  MEMORIAL_EE_day_of_mourning: {
+    terms: ["Memorial to the Victims of Communism Tallinn", "Kommunismiohvrite memoriaal Maarjamäe", "Tallinn Maarjamäe memorial names wall 2018"],
+    avoid: ["washington"],
+  },
+  MEMORIAL_NO_22_july_remembrance_day: {
+    terms: ["Regjeringskvartalet 22. juli minnesmerke", "Oslo Cathedral flowers July 2011", "Utøya Hegnhuset", "Oslo domkirke blomsterhav"],
+    avoid: ["breivik"],
+  },
+  MEMORIAL_EU_day_of_remembrance_for_victims_of_terrorism: {
+    terms: ["Atocha station memorial 11-M Madrid","Bosque del Recuerdo Retiro Madrid","Madrid 11M memorial"],
+  },
+  MEMORIAL_UN_remembrance_of_victims_of_slavery: {
+    terms: ["Maison des Esclaves Gorée", "House of Slaves Gorée Island Senegal", "Door of No Return Gorée"],
+    avoid: ["museum print", "engraving", "political ark"],
+  },
+  MEMORIAL_RW_genocide_remembrance_day: {
+    terms: ["Kigali Genocide Memorial Centre", "Gisozi Genocide Memorial Kigali", "Kigali Genocide Memorial garden"],
+    avoid: ["skull", "remains", "bones"],
+  },
+  MEMORIAL_BA_srebrenica_remembrance_day: {
+    terms: ["Srebrenica Potočari Memorial cemetery gravestones", "Potočari Memorial Center Srebrenica", "Memorijalni centar Potočari"],
+    avoid: ["vučić", "vucic", "exhum", "remains", "coffins", "politician"],
+  },
+  MEMORIAL_UA_holodomor_remembrance_day: {
+    terms: ["Holodomor Genocide Museum Kyiv","National Museum of the Holodomor-Genocide","Holodomor memorial candle Kyiv"],
+  },
+  MEMORIAL_UA_chernobyl_remembrance_day: {
+    terms: ["Chernobyl Museum Kyiv", "Chornobyl liquidators monument Kyiv", "Slavutych Chernobyl memorial"],
+    avoid: ["osh", "kyrgyz", "bishkek"],
+  },
+  MEMORIAL_JP_hiroshima_peace_memorial_day: {
+    terms: ["Hiroshima Peace Memorial Park cenotaph","Atomic Bomb Dome Hiroshima","Hiroshima Peace Memorial lanterns"],
+  },
+  MEMORIAL_JP_nagasaki_peace_memorial_day: {
+    terms: ["Nagasaki Peace Park Peace Statue","Nagasaki Peace Statue","Nagasaki hypocenter park"],
+  },
+  MEMORIAL_JP_end_of_war_memorial_day: {
+    terms: ["Chidorigafuchi National Cemetery","Chidorigafuchi cemetery Tokyo","Nippon Budokan"],
+  },
+  MEMORIAL_CN_nanjing_massacre_memorial_day: {
+    terms: ["Nanjing Massacre Memorial Hall","Memorial Hall of the Victims in Nanjing Massacre","Nanjing memorial hall sculpture"],
+    avoid: ['remains', 'bones', 'skull'],
+  },
+  MEMORIAL_TR_ataturk_memorial_day: {
+    terms: ["Anıtkabir Ankara","Anitkabir mausoleum","Anıtkabir Hall of Honor"],
+  },
+  MEMORIAL_KR_gwangju_democratization_movement_day: {
+    terms: ["May 18th National Cemetery Gwangju","5.18 National Cemetery","Gwangju 5·18 memorial"],
+  },
+  MEMORIAL_IN_martyrs_day: {
+    terms: ["Raj Ghat Delhi","Raj Ghat Gandhi memorial","Rajghat New Delhi"],
+  },
 };

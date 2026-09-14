@@ -27,8 +27,9 @@ test('memorial images are curated per entry, not one shared motif',()=>{
  assert(paths.size>=pkg.definitions.length*0.9,'zu viele Eintraege teilen ein Symbolbild: '+paths.size);
 });
 test('memorial catalog is separate, sourced, complete in all app languages',()=>{
- assert.equal(rows.length,80);assert.equal(new Set(rows.map(r=>r.definition.id)).size,80);
- for(const r of rows){assert.equal(r.definition.countryCode,'MEMORIAL');assert(r.definition.id.startsWith('MEMORIAL_'));assert(['memorial','awareness'].includes(r.meta.topic));assert.match(r.meta.source,/^https:\/\//);}
+ // Kuratierung 2026-09-14 (Evgeny): nur historische Gedenktage — v11 41, v12 nach Erweiterung 93 Einträge.
+ assert.equal(rows.length,93);assert.equal(new Set(rows.map(r=>r.definition.id)).size,93);
+ for(const r of rows){assert.equal(r.definition.countryCode,'MEMORIAL');assert(r.definition.id.startsWith('MEMORIAL_'));assert(['memorial','awareness'].includes(r.meta.topic));assert.match(r.meta.source,/^https:\/\//);assert(['global','national'].includes(r.meta.scope),r.definition.id+': scope');}
  for(const l of CONTENT_LOCALES){const t=JSON.parse(fs.readFileSync(new URL(`../content/memorial/${l}.json`,import.meta.url)));for(const r of rows)assert(t.labels[r.definition.labelKey.slice(9)]?.trim(),l+'/'+r.definition.id);}
 });
 test('every memorial day has a full article in every content locale',()=>{
@@ -65,13 +66,22 @@ test('memorial translations contain no English fallback prose and ship without m
   }
  }
 });
-test('Slovenian and Moldovan dates follow the official calendars',()=>{
+test('curation 2026-09-14: only historical remembrance days, no duplicates per date, remembrance dates instead of substitute holidays',()=>{
+ const ids=new Set(rows.map(r=>r.definition.id));
+ // Berufs-/Themen-/Verwaltungstage, Staatsfeiertage, religiöse Totengedenken und Doppelungen sind raus.
+ for(const gone of ['MEMORIAL_LV_police_day','MEMORIAL_LV_medical_worker_day','MEMORIAL_LV_international_day_of_the_family','MEMORIAL_SI_slovenian_sports_day','MEMORIAL_SI_sovereignty_day','MEMORIAL_SK_day_of_the_constitution_of_the_slovak_republic','MEMORIAL_VE_journalists_day','MEMORIAL_US_lincolns_birthday','MEMORIAL_PR_memorial_day','MEMORIAL_NZ_anzac_day','MEMORIAL_CA_armistice_day','MEMORIAL_BE_armistice_day','MEMORIAL_RS_armistice_day','MEMORIAL_BY_commemoration_day','MEMORIAL_MD_memorial_day','MEMORIAL_IL_tisha_bav'])assert(!ids.has(gone),gone+' sollte entfernt sein');
+ // Weltweit begangene Tage tragen scope global — genau diese elf (v12: + EU-Terrorismusopfer, UN-Sklaverei, Kwibuka, Srebrenica).
+ const global=rows.filter(r=>r.meta.scope==='global').map(r=>r.definition.id).sort();
+ assert.deepEqual(global,['MEMORIAL_AM_armenian_genocide_remembrance_day','MEMORIAL_AU_anzac_day','MEMORIAL_BA_srebrenica_remembrance_day','MEMORIAL_DE_victims_of_national_socialism','MEMORIAL_EU_day_of_remembrance_for_victims_of_terrorism','MEMORIAL_FR_armistice_day','MEMORIAL_GI_workers_memorial_day','MEMORIAL_IL_yom_hashoah','MEMORIAL_LV_day_of_remembrance_for_victims_of_stalinism_and_nazism','MEMORIAL_RW_genocide_remembrance_day','MEMORIAL_UN_remembrance_of_victims_of_slavery']);
+ // Gedenkdatum statt Ersatzfeiertag.
  const rule=id=>rows.find(r=>r.definition.id===id).definition.rule;
- assert.deepEqual(rule('MEMORIAL_SI_primoz_trubar_day'),{type:'fixed',month:6,day:8});
- assert.deepEqual(rule('MEMORIAL_SI_sovereignty_day'),{type:'fixed',month:10,day:25});
- assert.deepEqual(rule('MEMORIAL_SI_unification_of_prekmurje_slovenes_with_the_mother_nation'),{type:'fixed',month:8,day:17});
- // Pastele Blajinilor = Montag nach der orthodoxen Osterwoche = Radonitsa (BY) minus ein Tag
- const md=rule('MEMORIAL_MD_memorial_day'),by=rule('MEMORIAL_BY_commemoration_day');
- assert.equal(md.type,'precomputed');
- for(const [y,d] of Object.entries(md.dates)){const a=new Date(`${y}-${d}T12:00:00Z`),b=new Date(`${y}-${by.dates[y]}T12:00:00Z`);assert.equal((b-a)/864e5,1,y);}
+ assert.deepEqual(rule('MEMORIAL_AR_general_jose_de_san_martin_memorial_day'),{type:'fixed',month:8,day:17});
+ assert.deepEqual(rule('MEMORIAL_ZA_human_rights_day'),{type:'fixed',month:3,day:21});
+ assert.deepEqual(rule('MEMORIAL_AU_anzac_day'),{type:'fixed',month:4,day:25});
+ // Opfer-/Gefallenengedenken sind stilles Gedenken, kein neutraler Aktionstag.
+ for(const id of ['MEMORIAL_LV_day_of_the_occupation_of_the_republic_of_latvia','MEMORIAL_LV_lacplesis_day'])assert.equal(rows.find(r=>r.definition.id===id).meta.topic,'memorial',id);
+ // Je festem Datum höchstens ein globaler Eintrag; national darf sich ein Datum nur über Ländergrenzen teilen.
+ const byDate=new Map();
+ for(const r of rows){const d=r.definition.rule;if(d.type!=='fixed')continue;const k=`${d.month}-${d.day}`;const list=byDate.get(k)??[];list.push(r);byDate.set(k,list);}
+ for(const [k,list] of byDate){assert(list.filter(r=>r.meta.scope==='global').length<=1,k+': mehrere globale Einträge');assert.equal(new Set(list.map(r=>r.meta.originCountry)).size,list.length,k+': zwei Einträge desselben Landes');}
 });

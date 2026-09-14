@@ -17,7 +17,8 @@
       "originCountry": "AM",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Armenian_Genocide_Remembrance_Day",
-      "originalId": "AM_armenian_genocide_remembrance_day"
+      "originalId": "AM_armenian_genocide_remembrance_day",
+      "scope": "global"
     }
   },
   {
@@ -38,7 +39,8 @@
       "originCountry": "AR",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Day_of_Remembrance_for_Truth_and_Justice",
-      "originalId": "AR_day_of_remembrance_for_truth_and_justice"
+      "originalId": "AR_day_of_remembrance_for_truth_and_justice",
+      "scope": "national"
     }
   },
   {
@@ -59,38 +61,73 @@
       "originCountry": "AR",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Malvinas_Day",
-      "originalId": "AR_day_of_the_veterans_and_fallen_of_the_malvinas_war"
+      "originalId": "AR_day_of_the_veterans_and_fallen_of_the_malvinas_war",
+      "scope": "national"
     }
   },
   {
     "definition": {
       "id": "MEMORIAL_AR_general_jose_de_san_martin_memorial_day",
       "countryCode": "MEMORIAL",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.memorial_ar_general_jose_de_san_martin_memorial_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "08-17",
-          "2027": "08-16",
-          "2028": "08-21",
-          "2029": "08-20",
-          "2030": "08-17",
-          "2031": "08-17",
-          "2032": "08-16",
-          "2033": "08-15",
-          "2034": "08-21",
-          "2035": "08-20"
-        }
+        "type": "fixed",
+        "month": 8,
+        "day": 17
       }
     },
     "meta": {
       "originCountry": "AR",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
-      "originalId": "AR_general_jose_de_san_martin_memorial_day"
+      "originalId": "AR_general_jose_de_san_martin_memorial_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_AR_general_manuel_belgrano_memorial_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_ar_general_manuel_belgrano_memorial_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 20
+      }
+    },
+    "meta": {
+      "originCountry": "AR",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Manuel_Belgrano",
+      "originalId": "AR_general_manuel_belgrano_memorial_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_AT_day_of_remembrance_against_violence_and_racism",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_at_day_of_remembrance_against_violence_and_racism",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 5
+      }
+    },
+    "meta": {
+      "originCountry": "AT",
+      "topic": "memorial",
+      "source": "https://de.wikipedia.org/wiki/Gedenktag_gegen_Gewalt_und_Rassismus_im_Gedenken_an_die_Opfer_des_Nationalsozialismus",
+      "scope": "national"
     }
   },
   {
@@ -111,59 +148,73 @@
       "originCountry": "AU",
       "topic": "memorial",
       "source": "https://www.awm.gov.au/commemoration/anzac-day",
-      "originalId": "AU_anzac_day"
+      "originalId": "AU_anzac_day",
+      "scope": "global"
     }
   },
   {
     "definition": {
-      "id": "MEMORIAL_BE_armistice_day",
+      "id": "MEMORIAL_BA_srebrenica_remembrance_day",
       "countryCode": "MEMORIAL",
       "kind": "fixed",
-      "labelKey": "holidays.memorial_be_armistice_day",
+      "labelKey": "holidays.memorial_ba_srebrenica_remembrance_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
         "type": "fixed",
-        "month": 11,
+        "month": 7,
         "day": 11
       }
     },
     "meta": {
-      "originCountry": "BE",
+      "originCountry": "BA",
       "topic": "memorial",
-      "source": "https://en.wikipedia.org/wiki/Armistice_Day",
-      "originalId": "BE_armistice_day"
+      "source": "https://en.wikipedia.org/wiki/Srebrenica_Genocide_Memorial",
+      "scope": "global"
     }
   },
   {
     "definition": {
-      "id": "MEMORIAL_BY_commemoration_day",
+      "id": "MEMORIAL_BD_language_martyrs_day",
       "countryCode": "MEMORIAL",
-      "kind": "precomputed",
-      "labelKey": "holidays.memorial_by_commemoration_day",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_bd_language_martyrs_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "04-21",
-          "2027": "05-11",
-          "2028": "04-25",
-          "2029": "04-17",
-          "2030": "05-07",
-          "2031": "04-22",
-          "2032": "05-11",
-          "2033": "05-03",
-          "2034": "04-18",
-          "2035": "05-08"
-        }
+        "type": "fixed",
+        "month": 2,
+        "day": 21
       }
     },
     "meta": {
-      "originCountry": "BY",
+      "originCountry": "BD",
       "topic": "memorial",
-      "source": "https://en.wikipedia.org/wiki/Radonitsa",
-      "originalId": "BY_commemoration_day"
+      "source": "https://en.wikipedia.org/wiki/Language_Movement_Day",
+      "originalId": "BD_international_mother_language_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_BD_victory_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_bd_victory_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 16
+      }
+    },
+    "meta": {
+      "originCountry": "BD",
+      "topic": "awareness",
+      "source": "https://en.wikipedia.org/wiki/Victory_Day_(Bangladesh)",
+      "originalId": "BD_victory_day",
+      "scope": "national"
     }
   },
   {
@@ -184,28 +235,8 @@
       "originCountry": "CA",
       "topic": "memorial",
       "source": "https://www.canada.ca/en/canadian-heritage/campaigns/national-day-truth-reconciliation.html",
-      "originalId": "CA_national_day_for_truth_and_reconciliation"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_CA_armistice_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_ca_armistice_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 11,
-        "day": 11
-      }
-    },
-    "meta": {
-      "originCountry": "CA",
-      "topic": "memorial",
-      "source": "https://en.wikipedia.org/wiki/Armistice_Day",
-      "originalId": "CA_armistice_day"
+      "originalId": "CA_national_day_for_truth_and_reconciliation",
+      "scope": "national"
     }
   },
   {
@@ -226,49 +257,8 @@
       "originCountry": "CA",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Remembrance_Day",
-      "originalId": "CA_remembrance_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_CD_laurent_desire_kabila_assassination",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_cd_laurent_desire_kabila_assassination",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 1,
-        "day": 16
-      }
-    },
-    "meta": {
-      "originCountry": "CD",
-      "topic": "memorial",
-      "source": "https://en.wikipedia.org/wiki/Laurent-D%C3%A9sir%C3%A9_Kabila",
-      "originalId": "CD_laurent_desire_kabila_assassination"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_CD_patrice_lumumba_assassination",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_cd_patrice_lumumba_assassination",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 1,
-        "day": 17
-      }
-    },
-    "meta": {
-      "originCountry": "CD",
-      "topic": "memorial",
-      "source": "https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba",
-      "originalId": "CD_patrice_lumumba_assassination"
+      "originalId": "CA_remembrance_day",
+      "scope": "national"
     }
   },
   {
@@ -289,7 +279,275 @@
       "originCountry": "CD",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Genocost",
-      "originalId": "CD_congolese_genocide_day"
+      "originalId": "CD_congolese_genocide_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_CD_laurent_desire_kabila_assassination",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_cd_laurent_desire_kabila_assassination",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 16
+      }
+    },
+    "meta": {
+      "originCountry": "CD",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Laurent-D%C3%A9sir%C3%A9_Kabila",
+      "originalId": "CD_laurent_desire_kabila_assassination",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_CD_martyrs_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_cd_martyrs_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 4
+      }
+    },
+    "meta": {
+      "originCountry": "CD",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/L%C3%A9opoldville_riots",
+      "originalId": "CD_martyrs_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_CD_patrice_lumumba_assassination",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_cd_patrice_lumumba_assassination",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 17
+      }
+    },
+    "meta": {
+      "originCountry": "CD",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Assassination_of_Patrice_Lumumba",
+      "originalId": "CD_patrice_lumumba_assassination",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_CN_nanjing_massacre_memorial_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_cn_nanjing_massacre_memorial_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 12,
+        "day": 13
+      }
+    },
+    "meta": {
+      "originCountry": "CN",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Nanjing_Massacre_Memorial_Hall",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_CZ_liberation_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_cz_liberation_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 8
+      }
+    },
+    "meta": {
+      "originCountry": "CZ",
+      "topic": "awareness",
+      "source": "https://en.wikipedia.org/wiki/Victory_in_Europe_Day",
+      "originalId": "CZ_liberation_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_DE_june_17_uprising",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_de_june_17_uprising",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 17
+      }
+    },
+    "meta": {
+      "originCountry": "DE",
+      "topic": "memorial",
+      "source": "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/70-jahre-volksaufstand-2192738",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_DE_november_pogroms",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_de_november_pogroms",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 9
+      }
+    },
+    "meta": {
+      "originCountry": "DE",
+      "topic": "memorial",
+      "source": "https://www.bundestag.de/dokumente/textarchiv/2025/kw45-9-november-865194",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_DE_victims_of_national_socialism",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_de_victims_of_national_socialism",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 27
+      }
+    },
+    "meta": {
+      "originCountry": "DE",
+      "topic": "memorial",
+      "source": "https://www.bundestag.de/en/parliament/history/remembrance",
+      "scope": "global"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_DE_volkstrauertag",
+      "countryCode": "MEMORIAL",
+      "kind": "precomputed",
+      "labelKey": "holidays.memorial_de_volkstrauertag",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "precomputed",
+        "dates": {
+          "2026": "11-15",
+          "2027": "11-14",
+          "2028": "11-19",
+          "2029": "11-18",
+          "2030": "11-17",
+          "2031": "11-16",
+          "2032": "11-14",
+          "2033": "11-13",
+          "2034": "11-19",
+          "2035": "11-18"
+        }
+      }
+    },
+    "meta": {
+      "originCountry": "DE",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Volkstrauertag",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_EE_day_of_mourning",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_ee_day_of_mourning",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 14
+      }
+    },
+    "meta": {
+      "originCountry": "EE",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/June_deportation",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_EE_victory_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_ee_victory_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 23
+      }
+    },
+    "meta": {
+      "originCountry": "EE",
+      "topic": "awareness",
+      "source": "https://en.wikipedia.org/wiki/Victory_Day_(Estonia)",
+      "originalId": "EE_victory_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_EU_day_of_remembrance_for_victims_of_terrorism",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_eu_day_of_remembrance_for_victims_of_terrorism",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 11
+      }
+    },
+    "meta": {
+      "originCountry": "EU",
+      "topic": "memorial",
+      "source": "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/criminal-justice/protecting-victims-rights/victims-terrorism_en",
+      "scope": "global"
     }
   },
   {
@@ -310,7 +568,52 @@
       "originCountry": "FR",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Armistice_Day",
-      "originalId": "FR_armistice_day"
+      "originalId": "FR_armistice_day",
+      "scope": "global"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_FR_victory_in_europe_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_fr_victory_in_europe_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 8
+      }
+    },
+    "meta": {
+      "originCountry": "FR",
+      "topic": "awareness",
+      "source": "https://en.wikipedia.org/wiki/Victory_in_Europe_Day",
+      "originalId": "FR_victory_in_europe_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_GB_remembrance_sunday",
+      "countryCode": "MEMORIAL",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.memorial_gb_remembrance_sunday",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 11,
+        "nth": 2,
+        "weekday": 0
+      }
+    },
+    "meta": {
+      "originCountry": "GB",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Remembrance_Sunday",
+      "scope": "national"
     }
   },
   {
@@ -331,7 +634,8 @@
       "originCountry": "GI",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Workers%27_Memorial_Day",
-      "originalId": "GI_workers_memorial_day"
+      "originalId": "GI_workers_memorial_day",
+      "scope": "global"
     }
   },
   {
@@ -352,7 +656,52 @@
       "originCountry": "HR",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Remembrance_Day_(Croatia)",
-      "originalId": "HR_remembrance_day"
+      "originalId": "HR_remembrance_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_HU_1848_revolution_memorial_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_hu_1848_revolution_memorial_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 15
+      }
+    },
+    "meta": {
+      "originCountry": "HU",
+      "topic": "awareness",
+      "source": "https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1848",
+      "originalId": "HU_1848_revolution_memorial_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_HU_1956_revolution_memorial_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_hu_1956_revolution_memorial_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 10,
+        "day": 23
+      }
+    },
+    "meta": {
+      "originCountry": "HU",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956",
+      "originalId": "HU_1956_revolution_memorial_day",
+      "scope": "national"
     }
   },
   {
@@ -383,7 +732,8 @@
       "originCountry": "IL",
       "topic": "memorial",
       "source": "https://www.hebcal.com/holidays/yom-hashoah?i=on",
-      "originalId": "IL_yom_hashoah"
+      "originalId": "IL_yom_hashoah",
+      "scope": "global"
     }
   },
   {
@@ -414,38 +764,178 @@
       "originCountry": "IL",
       "topic": "memorial",
       "source": "https://www.hebcal.com/holidays/",
-      "originalId": "IL_yom_hazikaron"
+      "originalId": "IL_yom_hazikaron",
+      "scope": "national"
     }
   },
   {
     "definition": {
-      "id": "MEMORIAL_IL_tisha_bav",
+      "id": "MEMORIAL_IN_martyrs_day",
       "countryCode": "MEMORIAL",
-      "kind": "precomputed",
-      "labelKey": "holidays.memorial_il_tisha_bav",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_in_martyrs_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "07-23",
-          "2027": "08-12",
-          "2028": "08-01",
-          "2029": "07-22",
-          "2030": "08-08",
-          "2031": "07-29",
-          "2032": "07-18",
-          "2033": "08-04",
-          "2034": "07-25",
-          "2035": "08-14"
-        }
+        "type": "fixed",
+        "month": 1,
+        "day": 30
       }
     },
     "meta": {
-      "originCountry": "IL",
+      "originCountry": "IN",
       "topic": "memorial",
-      "source": "https://www.hebcal.com/holidays/",
-      "originalId": "IL_tisha_bav"
+      "source": "https://en.wikipedia.org/wiki/Martyrs%27_Day_(India)",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_IT_giorno_del_ricordo",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_it_giorno_del_ricordo",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 2,
+        "day": 10
+      }
+    },
+    "meta": {
+      "originCountry": "IT",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/National_Memorial_Day_of_the_Exiles_and_Foibe",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_IT_liberation_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_it_liberation_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 25
+      }
+    },
+    "meta": {
+      "originCountry": "IT",
+      "topic": "awareness",
+      "source": "https://en.wikipedia.org/wiki/Liberation_Day_(Italy)",
+      "originalId": "IT_liberation_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_JP_end_of_war_memorial_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_jp_end_of_war_memorial_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    "meta": {
+      "originCountry": "JP",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Victory_over_Japan_Day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_JP_hiroshima_peace_memorial_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_jp_hiroshima_peace_memorial_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 6
+      }
+    },
+    "meta": {
+      "originCountry": "JP",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial_Ceremony",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_JP_nagasaki_peace_memorial_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_jp_nagasaki_peace_memorial_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 9
+      }
+    },
+    "meta": {
+      "originCountry": "JP",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Nagasaki_Peace_Park",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_KR_gwangju_democratization_movement_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_kr_gwangju_democratization_movement_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 18
+      }
+    },
+    "meta": {
+      "originCountry": "KR",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Gwangju_Uprising",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_KR_liberation_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_kr_liberation_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 15
+      }
+    },
+    "meta": {
+      "originCountry": "KR",
+      "topic": "awareness",
+      "source": "https://en.wikipedia.org/wiki/National_Liberation_Day_of_Korea",
+      "originalId": "KR_liberation_day",
+      "scope": "national"
     }
   },
   {
@@ -466,7 +956,29 @@
       "originCountry": "KR",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Memorial_Day_(South_Korea)",
-      "originalId": "KR_memorial_day"
+      "originalId": "KR_memorial_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_LT_freedom_defenders_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_lt_freedom_defenders_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 13
+      }
+    },
+    "meta": {
+      "originCountry": "LT",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/January_Events_(Lithuania)",
+      "scope": "national"
     }
   },
   {
@@ -487,302 +999,8 @@
       "originCountry": "LV",
       "topic": "memorial",
       "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_commemoration_day_of_defenders_of_the_barricades_in_1991"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_day_of_the_international_de_jure_recognition_of_the_republic_of_latvia",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_day_of_the_international_de_jure_recognition_of_the_republic_of_latvia",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 1,
-        "day": 26
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_day_of_the_international_de_jure_recognition_of_the_republic_of_latvia"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_world_non_governmental_organization_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_world_non_governmental_organization_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 2,
-        "day": 27
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_world_non_governmental_organization_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_national_partisan_armed_resistance_remembrance_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_national_partisan_armed_resistance_remembrance_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 3,
-        "day": 2
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "memorial",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_national_partisan_armed_resistance_remembrance_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_national_resistance_movement_remembrance_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_national_resistance_movement_remembrance_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 3,
-        "day": 17
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "memorial",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_national_resistance_movement_remembrance_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_commemoration_day_of_victims_of_communist_terror",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_commemoration_day_of_victims_of_communist_terror",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 6,
-        "day": 14
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "memorial",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_commemoration_day_of_victims_of_communist_terror"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_latgale_congress_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_latgale_congress_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 4,
-        "day": 27
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_latgale_congress_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_day_of_the_defeat_of_nazism_and_commemoration_day_of_victims_of_world_war_ii",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_day_of_the_defeat_of_nazism_and_commemoration_day_of_victims_of_world_war_ii",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 5,
-        "day": 8
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "memorial",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_day_of_the_defeat_of_nazism_and_commemoration_day_of_victims_of_world_war_ii"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_europe_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_europe_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 5,
-        "day": 9
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_europe_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_international_day_of_the_family",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_international_day_of_the_family",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 5,
-        "day": 15
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_international_day_of_the_family"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_firefighter_and_rescuer_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_firefighter_and_rescuer_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 5,
-        "day": 17
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_firefighter_and_rescuer_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_international_day_for_protection_of_children",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_international_day_for_protection_of_children",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 6,
-        "day": 1
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_international_day_for_protection_of_children"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_day_of_the_occupation_of_the_republic_of_latvia",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_day_of_the_occupation_of_the_republic_of_latvia",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 6,
-        "day": 17
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_day_of_the_occupation_of_the_republic_of_latvia"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_medical_worker_day",
-      "countryCode": "MEMORIAL",
-      "kind": "nth_weekday",
-      "labelKey": "holidays.memorial_lv_medical_worker_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "nth_weekday",
-        "month": 6,
-        "nth": 3,
-        "weekday": 0
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_medical_worker_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_heroes_commemoration_day_anniversary_of_the_battle_of_cesis",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_heroes_commemoration_day_anniversary_of_the_battle_of_cesis",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 6,
-        "day": 22
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "memorial",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_heroes_commemoration_day_anniversary_of_the_battle_of_cesis"
+      "originalId": "LV_commemoration_day_of_defenders_of_the_barricades_in_1991",
+      "scope": "national"
     }
   },
   {
@@ -803,281 +1021,30 @@
       "originCountry": "LV",
       "topic": "memorial",
       "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_commemoration_day_of_genocide_against_the_jews"
+      "originalId": "LV_commemoration_day_of_genocide_against_the_jews",
+      "scope": "national"
     }
   },
   {
     "definition": {
-      "id": "MEMORIAL_LV_day_of_the_sea_festival",
-      "countryCode": "MEMORIAL",
-      "kind": "nth_weekday",
-      "labelKey": "holidays.memorial_lv_day_of_the_sea_festival",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "nth_weekday",
-        "month": 7,
-        "nth": 2,
-        "weekday": 6
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_day_of_the_sea_festival"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_latvian_freedom_fighters_remembrance_day",
+      "id": "MEMORIAL_LV_commemoration_day_of_victims_of_communist_terror",
       "countryCode": "MEMORIAL",
       "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_latvian_freedom_fighters_remembrance_day",
+      "labelKey": "holidays.memorial_lv_commemoration_day_of_victims_of_communist_terror",
       "iconName": "info",
       "category": "observance",
       "rule": {
         "type": "fixed",
-        "month": 8,
-        "day": 11
+        "month": 6,
+        "day": 14
       }
     },
     "meta": {
       "originCountry": "LV",
       "topic": "memorial",
       "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_latvian_freedom_fighters_remembrance_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_day_of_the_passing_of_the_constitutional_law_on_the_status_of_the_republic_of_latvia_as_a_state",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_day_of_the_passing_of_the_constitutional_law_on_the_status_of_the_republic_of_latvia_as_a_state",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 8,
-        "day": 21
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_day_of_the_passing_of_the_constitutional_law_on_the_status_of_the_republic_of_latvia_as_a_state"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_day_of_remembrance_for_victims_of_stalinism_and_nazism",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_day_of_remembrance_for_victims_of_stalinism_and_nazism",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 8,
-        "day": 23
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "memorial",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_day_of_remembrance_for_victims_of_stalinism_and_nazism"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_knowledge_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_knowledge_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 9,
-        "day": 1
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_knowledge_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_baltic_unity_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_baltic_unity_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 9,
-        "day": 22
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_baltic_unity_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_international_day_of_older_persons",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_international_day_of_older_persons",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 10,
-        "day": 1
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_international_day_of_older_persons"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_teachers_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_teachers_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 10,
-        "day": 5
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_teachers_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_official_language_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_official_language_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 10,
-        "day": 15
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_official_language_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_border_guards_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_border_guards_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 11,
-        "day": 7
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_border_guards_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_lacplesis_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_lacplesis_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 11,
-        "day": 11
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_lacplesis_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_remembrance_day_of_the_tragedy_of_21_november_2013",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_remembrance_day_of_the_tragedy_of_21_november_2013",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 11,
-        "day": 21
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "memorial",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_remembrance_day_of_the_tragedy_of_21_november_2013"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_LV_police_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_lv_police_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 12,
-        "day": 5
-      }
-    },
-    "meta": {
-      "originCountry": "LV",
-      "topic": "awareness",
-      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_police_day"
+      "originalId": "LV_commemoration_day_of_victims_of_communist_terror",
+      "scope": "national"
     }
   },
   {
@@ -1099,7 +1066,206 @@
       "originCountry": "LV",
       "topic": "memorial",
       "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
-      "originalId": "LV_commemoration_day_of_victims_of_genocide_against_the_latvian_people_by_the_totalitarian_communist_regime"
+      "originalId": "LV_commemoration_day_of_victims_of_genocide_against_the_latvian_people_by_the_totalitarian_communist_regime",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_LV_day_of_remembrance_for_victims_of_stalinism_and_nazism",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_lv_day_of_remembrance_for_victims_of_stalinism_and_nazism",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 23
+      }
+    },
+    "meta": {
+      "originCountry": "LV",
+      "topic": "memorial",
+      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
+      "originalId": "LV_day_of_remembrance_for_victims_of_stalinism_and_nazism",
+      "scope": "global"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_LV_day_of_the_defeat_of_nazism_and_commemoration_day_of_victims_of_world_war_ii",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_lv_day_of_the_defeat_of_nazism_and_commemoration_day_of_victims_of_world_war_ii",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 8
+      }
+    },
+    "meta": {
+      "originCountry": "LV",
+      "topic": "memorial",
+      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
+      "originalId": "LV_day_of_the_defeat_of_nazism_and_commemoration_day_of_victims_of_world_war_ii",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_LV_day_of_the_occupation_of_the_republic_of_latvia",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_lv_day_of_the_occupation_of_the_republic_of_latvia",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 17
+      }
+    },
+    "meta": {
+      "originCountry": "LV",
+      "topic": "memorial",
+      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
+      "originalId": "LV_day_of_the_occupation_of_the_republic_of_latvia",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_LV_heroes_commemoration_day_anniversary_of_the_battle_of_cesis",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_lv_heroes_commemoration_day_anniversary_of_the_battle_of_cesis",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 22
+      }
+    },
+    "meta": {
+      "originCountry": "LV",
+      "topic": "memorial",
+      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
+      "originalId": "LV_heroes_commemoration_day_anniversary_of_the_battle_of_cesis",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_LV_lacplesis_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_lv_lacplesis_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 11
+      }
+    },
+    "meta": {
+      "originCountry": "LV",
+      "topic": "memorial",
+      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
+      "originalId": "LV_lacplesis_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_LV_latvian_freedom_fighters_remembrance_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_lv_latvian_freedom_fighters_remembrance_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 11
+      }
+    },
+    "meta": {
+      "originCountry": "LV",
+      "topic": "memorial",
+      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
+      "originalId": "LV_latvian_freedom_fighters_remembrance_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_LV_national_partisan_armed_resistance_remembrance_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_lv_national_partisan_armed_resistance_remembrance_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 2
+      }
+    },
+    "meta": {
+      "originCountry": "LV",
+      "topic": "memorial",
+      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
+      "originalId": "LV_national_partisan_armed_resistance_remembrance_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_LV_national_resistance_movement_remembrance_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_lv_national_resistance_movement_remembrance_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 17
+      }
+    },
+    "meta": {
+      "originCountry": "LV",
+      "topic": "memorial",
+      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
+      "originalId": "LV_national_resistance_movement_remembrance_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_LV_remembrance_day_of_the_tragedy_of_21_november_2013",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_lv_remembrance_day_of_the_tragedy_of_21_november_2013",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 21
+      }
+    },
+    "meta": {
+      "originCountry": "LV",
+      "topic": "memorial",
+      "source": "https://likumi.lv/ta/en/en/id/72608-on-public-holidays-commemoration-days-and-celebration-days",
+      "originalId": "LV_remembrance_day_of_the_tragedy_of_21_november_2013",
+      "scope": "national"
     }
   },
   {
@@ -1120,38 +1286,30 @@
       "originCountry": "MD",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Victory_Day_(9_May)",
-      "originalId": "MD_victory_and_commemoration_day"
+      "originalId": "MD_victory_and_commemoration_day",
+      "scope": "national"
     }
   },
   {
     "definition": {
-      "id": "MEMORIAL_MD_memorial_day",
+      "id": "MEMORIAL_MG_martyrs_day",
       "countryCode": "MEMORIAL",
-      "kind": "precomputed",
-      "labelKey": "holidays.memorial_md_memorial_day",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_mg_martyrs_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "04-20",
-          "2027": "05-10",
-          "2028": "04-24",
-          "2029": "04-16",
-          "2030": "05-06",
-          "2031": "04-21",
-          "2032": "05-10",
-          "2033": "05-02",
-          "2034": "04-17",
-          "2035": "05-07"
-        }
+        "type": "fixed",
+        "month": 3,
+        "day": 29
       }
     },
     "meta": {
-      "originCountry": "MD",
+      "originCountry": "MG",
       "topic": "memorial",
-      "source": "https://en.wikipedia.org/wiki/Radonitsa",
-      "originalId": "MD_memorial_day"
+      "source": "https://en.wikipedia.org/wiki/Malagasy_Uprising",
+      "originalId": "MG_martyrs_day",
+      "scope": "national"
     }
   },
   {
@@ -1172,7 +1330,8 @@
       "originCountry": "NA",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Cassinga_Day",
-      "originalId": "NA_cassinga_day"
+      "originalId": "NA_cassinga_day",
+      "scope": "national"
     }
   },
   {
@@ -1193,38 +1352,116 @@
       "originCountry": "NA",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Herero_and_Nama_genocide",
-      "originalId": "NA_genocide_remembrance_day"
+      "originalId": "NA_genocide_remembrance_day",
+      "scope": "national"
     }
   },
   {
     "definition": {
-      "id": "MEMORIAL_NZ_anzac_day",
+      "id": "MEMORIAL_NA_heroes_day",
       "countryCode": "MEMORIAL",
-      "kind": "precomputed",
-      "labelKey": "holidays.memorial_nz_anzac_day",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_na_heroes_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "04-27",
-          "2027": "04-26",
-          "2028": "04-25",
-          "2029": "04-25",
-          "2030": "04-25",
-          "2031": "04-25",
-          "2032": "04-26",
-          "2033": "04-25",
-          "2034": "04-25",
-          "2035": "04-25"
-        }
+        "type": "fixed",
+        "month": 8,
+        "day": 26
       }
     },
     "meta": {
-      "originCountry": "NZ",
+      "originCountry": "NA",
       "topic": "memorial",
-      "source": "https://en.wikipedia.org/wiki/Anzac_Day",
-      "originalId": "NZ_anzac_day"
+      "source": "https://en.wikipedia.org/wiki/Heroes%27_Day_(Namibia)",
+      "originalId": "NA_heroes_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_NL_liberation_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_nl_liberation_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 5
+      }
+    },
+    "meta": {
+      "originCountry": "NL",
+      "topic": "awareness",
+      "source": "https://en.wikipedia.org/wiki/Liberation_Day_(Netherlands)",
+      "originalId": "NL_liberation_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_NL_remembrance_of_the_dead",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_nl_remembrance_of_the_dead",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 4
+      }
+    },
+    "meta": {
+      "originCountry": "NL",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Remembrance_of_the_Dead",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_NO_22_july_remembrance_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_no_22_july_remembrance_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 7,
+        "day": 22
+      }
+    },
+    "meta": {
+      "originCountry": "NO",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/2011_Norway_attacks",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_PA_martyrs_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_pa_martyrs_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 1,
+        "day": 9
+      }
+    },
+    "meta": {
+      "originCountry": "PA",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Martyrs%27_Day_(Panama)",
+      "originalId": "PA_martyrs_day",
+      "scope": "national"
     }
   },
   {
@@ -1245,198 +1482,204 @@
       "originCountry": "PG",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Public_holidays_in_Papua_New_Guinea",
-      "originalId": "PG_remembrance_day"
+      "originalId": "PG_remembrance_day",
+      "scope": "national"
     }
   },
   {
     "definition": {
-      "id": "MEMORIAL_PR_memorial_day",
+      "id": "MEMORIAL_PH_day_of_valor",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_ph_day_of_valor",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 9
+      }
+    },
+    "meta": {
+      "originCountry": "PH",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Bataan_Day",
+      "originalId": "PH_day_of_valor",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_PH_national_heroes_day",
       "countryCode": "MEMORIAL",
       "kind": "nth_weekday",
-      "labelKey": "holidays.memorial_pr_memorial_day",
+      "labelKey": "holidays.memorial_ph_national_heroes_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
         "type": "nth_weekday",
-        "month": 5,
+        "month": 8,
         "nth": 5,
         "weekday": 1,
         "last": true
       }
     },
     "meta": {
-      "originCountry": "PR",
+      "originCountry": "PH",
       "topic": "memorial",
-      "source": "https://en.wikipedia.org/wiki/Memorial_Day",
-      "originalId": "PR_memorial_day"
+      "source": "https://en.wikipedia.org/wiki/National_Heroes_Day_(Philippines)",
+      "originalId": "PH_national_heroes_day",
+      "scope": "national"
     }
   },
   {
     "definition": {
-      "id": "MEMORIAL_RS_armistice_day",
+      "id": "MEMORIAL_PL_katyn_remembrance_day",
       "countryCode": "MEMORIAL",
       "kind": "fixed",
-      "labelKey": "holidays.memorial_rs_armistice_day",
+      "labelKey": "holidays.memorial_pl_katyn_remembrance_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
         "type": "fixed",
-        "month": 11,
-        "day": 11
+        "month": 4,
+        "day": 13
       }
     },
     "meta": {
-      "originCountry": "RS",
+      "originCountry": "PL",
       "topic": "memorial",
-      "source": "https://en.wikipedia.org/wiki/Armistice_Day",
-      "originalId": "RS_armistice_day"
+      "source": "https://en.wikipedia.org/wiki/Katyn_massacre",
+      "scope": "national"
     }
   },
   {
     "definition": {
-      "id": "MEMORIAL_SI_primoz_trubar_day",
+      "id": "MEMORIAL_PL_warsaw_ghetto_uprising_remembrance_day",
       "countryCode": "MEMORIAL",
       "kind": "fixed",
-      "labelKey": "holidays.memorial_si_primoz_trubar_day",
+      "labelKey": "holidays.memorial_pl_warsaw_ghetto_uprising_remembrance_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
         "type": "fixed",
-        "month": 6,
-        "day": 8
+        "month": 4,
+        "day": 19
       }
     },
     "meta": {
-      "originCountry": "SI",
-      "topic": "awareness",
-      "source": "https://www.gov.si/en/topics/national-holidays/",
-      "originalId": "SI_primoz_trubar_day"
+      "originCountry": "PL",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Warsaw_Ghetto_Uprising",
+      "scope": "national"
     }
   },
   {
     "definition": {
-      "id": "MEMORIAL_SI_sovereignty_day",
+      "id": "MEMORIAL_PL_warsaw_uprising_remembrance_day",
       "countryCode": "MEMORIAL",
       "kind": "fixed",
-      "labelKey": "holidays.memorial_si_sovereignty_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 10,
-        "day": 25
-      }
-    },
-    "meta": {
-      "originCountry": "SI",
-      "topic": "awareness",
-      "source": "https://www.gov.si/en/topics/national-holidays/",
-      "originalId": "SI_sovereignty_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_SI_unification_of_prekmurje_slovenes_with_the_mother_nation",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_si_unification_of_prekmurje_slovenes_with_the_mother_nation",
+      "labelKey": "holidays.memorial_pl_warsaw_uprising_remembrance_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
         "type": "fixed",
         "month": 8,
-        "day": 17
-      }
-    },
-    "meta": {
-      "originCountry": "SI",
-      "topic": "awareness",
-      "source": "https://www.gov.si/en/topics/national-holidays/",
-      "originalId": "SI_unification_of_prekmurje_slovenes_with_the_mother_nation"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_SI_integration_of_primorska_into_the_homeland",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_si_integration_of_primorska_into_the_homeland",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 9,
-        "day": 15
-      }
-    },
-    "meta": {
-      "originCountry": "SI",
-      "topic": "awareness",
-      "source": "https://www.gov.si/en/topics/national-holidays/",
-      "originalId": "SI_integration_of_primorska_into_the_homeland"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_SI_slovenian_sports_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_si_slovenian_sports_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 9,
-        "day": 23
-      }
-    },
-    "meta": {
-      "originCountry": "SI",
-      "topic": "awareness",
-      "source": "https://www.gov.si/en/topics/national-holidays/",
-      "originalId": "SI_slovenian_sports_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_SI_rudolf_maister_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_si_rudolf_maister_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 11,
-        "day": 23
-      }
-    },
-    "meta": {
-      "originCountry": "SI",
-      "topic": "awareness",
-      "source": "https://www.gov.si/en/topics/national-holidays/",
-      "originalId": "SI_rudolf_maister_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_SK_day_of_the_constitution_of_the_slovak_republic",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_sk_day_of_the_constitution_of_the_slovak_republic",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 9,
         "day": 1
+      }
+    },
+    "meta": {
+      "originCountry": "PL",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Warsaw_Uprising",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_PY_heroes_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_py_heroes_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 1
+      }
+    },
+    "meta": {
+      "originCountry": "PY",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Heroes%27_Day_(Paraguay)",
+      "originalId": "PY_heroes_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_RW_genocide_remembrance_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_rw_genocide_remembrance_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 7
+      }
+    },
+    "meta": {
+      "originCountry": "RW",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Kigali_Genocide_Memorial",
+      "scope": "global"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_SI_day_of_uprising_against_occupation",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_si_day_of_uprising_against_occupation",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 27
+      }
+    },
+    "meta": {
+      "originCountry": "SI",
+      "topic": "awareness",
+      "source": "https://en.wikipedia.org/wiki/Day_of_Uprising_Against_Occupation",
+      "originalId": "SI_day_of_uprising_against_occupation",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_SK_slovak_national_uprising_anniversary",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_sk_slovak_national_uprising_anniversary",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 8,
+        "day": 29
       }
     },
     "meta": {
       "originCountry": "SK",
       "topic": "awareness",
-      "source": "https://en.wikipedia.org/wiki/Constitution_of_Slovakia",
-      "originalId": "SK_day_of_the_constitution_of_the_slovak_republic"
+      "source": "https://en.wikipedia.org/wiki/Slovak_National_Uprising",
+      "originalId": "SK_slovak_national_uprising_anniversary",
+      "scope": "national"
     }
   },
   {
@@ -1457,7 +1700,8 @@
       "originCountry": "SK",
       "topic": "awareness",
       "source": "https://en.wikipedia.org/wiki/Struggle_for_Freedom_and_Democracy_Day",
-      "originalId": "SK_struggle_for_freedom_and_democracy_day"
+      "originalId": "SK_struggle_for_freedom_and_democracy_day",
+      "scope": "national"
     }
   },
   {
@@ -1478,28 +1722,159 @@
       "originCountry": "SM",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Public_holidays_in_San_Marino",
-      "originalId": "SM_commemoration_of_all_those_who_died_at_war"
+      "originalId": "SM_commemoration_of_all_those_who_died_at_war",
+      "scope": "national"
     }
   },
   {
     "definition": {
-      "id": "MEMORIAL_US_lincolns_birthday",
+      "id": "MEMORIAL_TN_martyrs_day",
       "countryCode": "MEMORIAL",
       "kind": "fixed",
-      "labelKey": "holidays.memorial_us_lincolns_birthday",
+      "labelKey": "holidays.memorial_tn_martyrs_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
         "type": "fixed",
-        "month": 2,
-        "day": 12
+        "month": 4,
+        "day": 9
       }
     },
     "meta": {
-      "originCountry": "US",
-      "topic": "awareness",
-      "source": "https://en.wikipedia.org/wiki/Lincoln%27s_Birthday",
-      "originalId": "US_lincolns_birthday"
+      "originCountry": "TN",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Martyr%27s_Day_(Tunisia)",
+      "originalId": "TN_martyrs_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_TR_ataturk_memorial_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_tr_ataturk_memorial_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 10
+      }
+    },
+    "meta": {
+      "originCountry": "TR",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Mustafa_Kemal_Atat%C3%BCrk",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_UA_chernobyl_remembrance_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_ua_chernobyl_remembrance_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 4,
+        "day": 26
+      }
+    },
+    "meta": {
+      "originCountry": "UA",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Chernobyl_disaster",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_UA_holodomor_remembrance_day",
+      "countryCode": "MEMORIAL",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.memorial_ua_holodomor_remembrance_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "nth_weekday",
+        "month": 11,
+        "nth": 4,
+        "weekday": 6
+      }
+    },
+    "meta": {
+      "originCountry": "UA",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Holodomor_Memorial_Day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_UA_victory_day_over_nazism_in_world_war_ii",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_ua_victory_day_over_nazism_in_world_war_ii",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 5,
+        "day": 8
+      }
+    },
+    "meta": {
+      "originCountry": "UA",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Day_of_Remembrance_and_Victory_over_Nazism_in_World_War_II_1939_%E2%80%93_1945",
+      "originalId": "UA_victory_day_over_nazism_in_world_war_ii",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_UG_martyrs_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_ug_martyrs_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 6,
+        "day": 3
+      }
+    },
+    "meta": {
+      "originCountry": "UG",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Uganda_Martyrs",
+      "originalId": "UG_martyrs_day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_UN_remembrance_of_victims_of_slavery",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_un_remembrance_of_victims_of_slavery",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 3,
+        "day": 25
+      }
+    },
+    "meta": {
+      "originCountry": "UN",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/International_Day_of_Remembrance_of_the_Victims_of_Slavery_and_the_Transatlantic_Slave_Trade",
+      "scope": "global"
     }
   },
   {
@@ -1522,49 +1897,72 @@
       "originCountry": "US",
       "topic": "memorial",
       "source": "https://en.wikipedia.org/wiki/Memorial_Day",
-      "originalId": "US_memorial_day"
+      "originalId": "US_memorial_day",
+      "scope": "national"
     }
   },
   {
     "definition": {
-      "id": "MEMORIAL_VE_teachers_day",
+      "id": "MEMORIAL_US_patriot_day",
       "countryCode": "MEMORIAL",
       "kind": "fixed",
-      "labelKey": "holidays.memorial_ve_teachers_day",
+      "labelKey": "holidays.memorial_us_patriot_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
         "type": "fixed",
-        "month": 1,
-        "day": 15
+        "month": 9,
+        "day": 11
       }
     },
     "meta": {
-      "originCountry": "VE",
-      "topic": "awareness",
-      "source": "https://en.wikipedia.org/wiki/Teachers%27_Day",
-      "originalId": "VE_teachers_day"
+      "originCountry": "US",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Patriot_Day",
+      "scope": "national"
     }
   },
   {
     "definition": {
-      "id": "MEMORIAL_VE_youth_day",
+      "id": "MEMORIAL_US_pearl_harbor_remembrance_day",
       "countryCode": "MEMORIAL",
       "kind": "fixed",
-      "labelKey": "holidays.memorial_ve_youth_day",
+      "labelKey": "holidays.memorial_us_pearl_harbor_remembrance_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
         "type": "fixed",
-        "month": 2,
-        "day": 12
+        "month": 12,
+        "day": 7
       }
     },
     "meta": {
-      "originCountry": "VE",
-      "topic": "awareness",
-      "source": "https://en.wikipedia.org/wiki/Battle_of_La_Victoria_(1814)",
-      "originalId": "VE_youth_day"
+      "originCountry": "US",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/National_Pearl_Harbor_Remembrance_Day",
+      "scope": "national"
+    }
+  },
+  {
+    "definition": {
+      "id": "MEMORIAL_US_veterans_day",
+      "countryCode": "MEMORIAL",
+      "kind": "fixed",
+      "labelKey": "holidays.memorial_us_veterans_day",
+      "iconName": "info",
+      "category": "observance",
+      "rule": {
+        "type": "fixed",
+        "month": 11,
+        "day": 11
+      }
+    },
+    "meta": {
+      "originCountry": "US",
+      "topic": "memorial",
+      "source": "https://en.wikipedia.org/wiki/Veterans_Day",
+      "originalId": "US_veterans_day",
+      "scope": "national"
     }
   },
   {
@@ -1585,182 +1983,75 @@
       "originCountry": "VE",
       "topic": "awareness",
       "source": "https://en.wikipedia.org/wiki/Public_holidays_in_Venezuela",
-      "originalId": "VE_slavery_abolition_anniversary"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_VE_foundation_anniversary_day_of_san_cristobal_tachira",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_ve_foundation_anniversary_day_of_san_cristobal_tachira",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 3,
-        "day": 31
-      }
-    },
-    "meta": {
-      "originCountry": "VE",
-      "topic": "awareness",
-      "source": "https://en.wikipedia.org/wiki/San_Crist%C3%B3bal,_T%C3%A1chira",
-      "originalId": "VE_foundation_anniversary_day_of_san_cristobal_tachira"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_VE_journalists_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_ve_journalists_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 6,
-        "day": 27
-      }
-    },
-    "meta": {
-      "originCountry": "VE",
-      "topic": "awareness",
-      "source": "https://en.wikipedia.org/wiki/Correo_del_Orinoco",
-      "originalId": "VE_journalists_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_VE_caracas_city_foundation_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_ve_caracas_city_foundation_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 7,
-        "day": 25
-      }
-    },
-    "meta": {
-      "originCountry": "VE",
-      "topic": "awareness",
-      "source": "https://en.wikipedia.org/wiki/Caracas",
-      "originalId": "VE_caracas_city_foundation_day"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_VE_flag_day",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_ve_flag_day",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 8,
-        "day": 3
-      }
-    },
-    "meta": {
-      "originCountry": "VE",
-      "topic": "awareness",
-      "source": "https://en.wikipedia.org/wiki/Flag_of_Venezuela",
-      "originalId": "VE_flag_day"
+      "originalId": "VE_slavery_abolition_anniversary",
+      "scope": "national"
     }
   },
   {
     "definition": {
       "id": "MEMORIAL_ZA_human_rights_day",
       "countryCode": "MEMORIAL",
-      "kind": "precomputed",
+      "kind": "fixed",
       "labelKey": "holidays.memorial_za_human_rights_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
-        "type": "precomputed",
-        "dates": {
-          "2026": "03-21",
-          "2027": "03-22",
-          "2028": "03-21",
-          "2029": "03-21",
-          "2030": "03-21",
-          "2031": "03-21",
-          "2032": "03-22",
-          "2033": "03-21",
-          "2034": "03-21",
-          "2035": "03-21"
-        }
+        "type": "fixed",
+        "month": 3,
+        "day": 21
       }
     },
     "meta": {
       "originCountry": "ZA",
       "topic": "memorial",
       "source": "https://www.gov.za/HumanRightsDay2026",
-      "originalId": "ZA_human_rights_day"
+      "originalId": "ZA_human_rights_day",
+      "scope": "national"
     }
   },
   {
     "definition": {
-      "id": "MEMORIAL_DE_june_17_uprising",
+      "id": "MEMORIAL_ZA_youth_day",
       "countryCode": "MEMORIAL",
       "kind": "fixed",
-      "labelKey": "holidays.memorial_de_june_17_uprising",
+      "labelKey": "holidays.memorial_za_youth_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
         "type": "fixed",
         "month": 6,
-        "day": 17
+        "day": 16
       }
     },
     "meta": {
-      "originCountry": "DE",
+      "originCountry": "ZA",
       "topic": "memorial",
-      "source": "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/70-jahre-volksaufstand-2192738"
+      "source": "https://en.wikipedia.org/wiki/Youth_Day_(South_Africa)",
+      "originalId": "ZA_youth_day",
+      "scope": "national"
     }
   },
   {
     "definition": {
-      "id": "MEMORIAL_DE_november_pogroms",
+      "id": "MEMORIAL_ZW_heroes_day",
       "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_de_november_pogroms",
+      "kind": "nth_weekday",
+      "labelKey": "holidays.memorial_zw_heroes_day",
       "iconName": "info",
       "category": "observance",
       "rule": {
-        "type": "fixed",
-        "month": 11,
-        "day": 9
+        "type": "nth_weekday",
+        "month": 8,
+        "nth": 2,
+        "weekday": 1
       }
     },
     "meta": {
-      "originCountry": "DE",
+      "originCountry": "ZW",
       "topic": "memorial",
-      "source": "https://www.bundestag.de/dokumente/textarchiv/2025/kw45-9-november-865194"
-    }
-  },
-  {
-    "definition": {
-      "id": "MEMORIAL_DE_victims_of_national_socialism",
-      "countryCode": "MEMORIAL",
-      "kind": "fixed",
-      "labelKey": "holidays.memorial_de_victims_of_national_socialism",
-      "iconName": "info",
-      "category": "observance",
-      "rule": {
-        "type": "fixed",
-        "month": 1,
-        "day": 27
-      }
-    },
-    "meta": {
-      "originCountry": "DE",
-      "topic": "memorial",
-      "source": "https://www.bundestag.de/en/parliament/history/remembrance"
+      "source": "https://en.wikipedia.org/wiki/Heroes%27_Day_(Zimbabwe)",
+      "originalId": "ZW_heroes_day",
+      "scope": "national"
     }
   }
 ]
