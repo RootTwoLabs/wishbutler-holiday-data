@@ -441,4 +441,8 @@ export const MEMORIAL_IMAGE_QUERIES = {
   MEMORIAL_IN_martyrs_day: {
     terms: ["Raj Ghat Delhi","Raj Ghat Gandhi memorial","Rajghat New Delhi"],
   },
+  MEMORIAL_EU_end_of_second_world_war_in_europe: {
+    terms: ["Soviet War Memorial Tiergarten Berlin", "Neue Wache Berlin", "wreath laying war memorial 8 May 1945"],
+    avoid: ["parade", "tank photo"],
+  },
 };

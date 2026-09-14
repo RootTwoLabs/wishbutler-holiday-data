@@ -27,8 +27,8 @@ test('memorial images are curated per entry, not one shared motif',()=>{
  assert(paths.size>=pkg.definitions.length*0.9,'zu viele Eintraege teilen ein Symbolbild: '+paths.size);
 });
 test('memorial catalog is separate, sourced, complete in all app languages',()=>{
- // Kuratierung 2026-09-14 (Evgeny): nur historische Gedenktage — v11 41, v12 nach Erweiterung 93 Einträge.
- assert.equal(rows.length,93);assert.equal(new Set(rows.map(r=>r.definition.id)).size,93);
+ // Kuratierung 2026-09-14 (Evgeny): nur historische Gedenktage — v11 41, v12 93, v13 (max. ein Anlass pro Kalendertag) 78 Einträge.
+ assert.equal(rows.length,78);assert.equal(new Set(rows.map(r=>r.definition.id)).size,78);
  for(const r of rows){assert.equal(r.definition.countryCode,'MEMORIAL');assert(r.definition.id.startsWith('MEMORIAL_'));assert(['memorial','awareness'].includes(r.meta.topic));assert.match(r.meta.source,/^https:\/\//);assert(['global','national'].includes(r.meta.scope),r.definition.id+': scope');}
  for(const l of CONTENT_LOCALES){const t=JSON.parse(fs.readFileSync(new URL(`../content/memorial/${l}.json`,import.meta.url)));for(const r of rows)assert(t.labels[r.definition.labelKey.slice(9)]?.trim(),l+'/'+r.definition.id);}
 });
@@ -70,18 +70,19 @@ test('curation 2026-09-14: only historical remembrance days, no duplicates per d
  const ids=new Set(rows.map(r=>r.definition.id));
  // Berufs-/Themen-/Verwaltungstage, Staatsfeiertage, religiöse Totengedenken und Doppelungen sind raus.
  for(const gone of ['MEMORIAL_LV_police_day','MEMORIAL_LV_medical_worker_day','MEMORIAL_LV_international_day_of_the_family','MEMORIAL_SI_slovenian_sports_day','MEMORIAL_SI_sovereignty_day','MEMORIAL_SK_day_of_the_constitution_of_the_slovak_republic','MEMORIAL_VE_journalists_day','MEMORIAL_US_lincolns_birthday','MEMORIAL_PR_memorial_day','MEMORIAL_NZ_anzac_day','MEMORIAL_CA_armistice_day','MEMORIAL_BE_armistice_day','MEMORIAL_RS_armistice_day','MEMORIAL_BY_commemoration_day','MEMORIAL_MD_memorial_day','MEMORIAL_IL_tisha_bav'])assert(!ids.has(gone),gone+' sollte entfernt sein');
- // Weltweit begangene Tage tragen scope global — genau diese elf (v12: + EU-Terrorismusopfer, UN-Sklaverei, Kwibuka, Srebrenica).
+ // Weltweit begangene Tage tragen scope global — genau diese zwölf (v12: + EU-Terrorismusopfer, UN-Sklaverei, Kwibuka, Srebrenica; v13: + Kriegsende in Europa 8. Mai).
  const global=rows.filter(r=>r.meta.scope==='global').map(r=>r.definition.id).sort();
- assert.deepEqual(global,['MEMORIAL_AM_armenian_genocide_remembrance_day','MEMORIAL_AU_anzac_day','MEMORIAL_BA_srebrenica_remembrance_day','MEMORIAL_DE_victims_of_national_socialism','MEMORIAL_EU_day_of_remembrance_for_victims_of_terrorism','MEMORIAL_FR_armistice_day','MEMORIAL_GI_workers_memorial_day','MEMORIAL_IL_yom_hashoah','MEMORIAL_LV_day_of_remembrance_for_victims_of_stalinism_and_nazism','MEMORIAL_RW_genocide_remembrance_day','MEMORIAL_UN_remembrance_of_victims_of_slavery']);
+ assert.deepEqual(global,['MEMORIAL_AM_armenian_genocide_remembrance_day','MEMORIAL_AU_anzac_day','MEMORIAL_BA_srebrenica_remembrance_day','MEMORIAL_DE_victims_of_national_socialism','MEMORIAL_EU_day_of_remembrance_for_victims_of_terrorism','MEMORIAL_EU_end_of_second_world_war_in_europe','MEMORIAL_FR_armistice_day','MEMORIAL_GI_workers_memorial_day','MEMORIAL_IL_yom_hashoah','MEMORIAL_LV_day_of_remembrance_for_victims_of_stalinism_and_nazism','MEMORIAL_RW_genocide_remembrance_day','MEMORIAL_UN_remembrance_of_victims_of_slavery']);
  // Gedenkdatum statt Ersatzfeiertag.
  const rule=id=>rows.find(r=>r.definition.id===id).definition.rule;
  assert.deepEqual(rule('MEMORIAL_AR_general_jose_de_san_martin_memorial_day'),{type:'fixed',month:8,day:17});
  assert.deepEqual(rule('MEMORIAL_ZA_human_rights_day'),{type:'fixed',month:3,day:21});
  assert.deepEqual(rule('MEMORIAL_AU_anzac_day'),{type:'fixed',month:4,day:25});
- // Opfer-/Gefallenengedenken sind stilles Gedenken, kein neutraler Aktionstag.
- for(const id of ['MEMORIAL_LV_day_of_the_occupation_of_the_republic_of_latvia','MEMORIAL_LV_lacplesis_day'])assert.equal(rows.find(r=>r.definition.id===id).meta.topic,'memorial',id);
- // Je festem Datum höchstens ein globaler Eintrag; national darf sich ein Datum nur über Ländergrenzen teilen.
+ // Opfer-/Gefallenengedenken sind stilles Gedenken, kein neutraler Aktionstag (LV Besetzung/Lāčplēsis sind seit v13 der Ein-Anlass-pro-Tag-Regel gewichen).
+ for(const id of ['MEMORIAL_LV_commemoration_day_of_victims_of_communist_terror','MEMORIAL_DE_volkstrauertag','MEMORIAL_EU_end_of_second_world_war_in_europe'])assert.equal(rows.find(r=>r.definition.id===id).meta.topic,'memorial',id);
+ // Entscheidung Evgeny 2026-09-14: höchstens EIN Gedenktag je festem Kalendertag (11.11., 8.5. und 9.5. sind ein Anlass).
  const byDate=new Map();
- for(const r of rows){const d=r.definition.rule;if(d.type!=='fixed')continue;const k=`${d.month}-${d.day}`;const list=byDate.get(k)??[];list.push(r);byDate.set(k,list);}
- for(const [k,list] of byDate){assert(list.filter(r=>r.meta.scope==='global').length<=1,k+': mehrere globale Einträge');assert.equal(new Set(list.map(r=>r.meta.originCountry)).size,list.length,k+': zwei Einträge desselben Landes');}
+ for(const r of rows){const d=r.definition.rule;if(d.type!=='fixed')continue;const k=`${d.month}-${d.day}`;const list=byDate.get(k)??[];list.push(r.definition.id);byDate.set(k,list);}
+ for(const [k,list] of byDate)assert.equal(list.length,1,k+': mehrere Einträge '+list.join(','));
+ assert(!rows.some(r=>r.definition.rule.type==='fixed'&&r.definition.rule.month===5&&r.definition.rule.day===9),'9. Mai ist dasselbe Gedenken wie der 8. Mai');
 });

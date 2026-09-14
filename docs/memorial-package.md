@@ -1,13 +1,17 @@
 # Globales MEMORIAL-Paket
 
-93 Einträge, 17 Sprachen (v12, Kuratierung und Erweiterung vom 14. September
-2026): ausschließlich historische Gedenktage — Opfer-, Gefallenen- und
+78 Einträge, 17 Sprachen (v13, Kuratierung und Erweiterung vom 14. September
+2026; höchstens ein Gedenktag je Kalendertag): ausschließlich historische Gedenktage — Opfer-, Gefallenen- und
 Ereignisgedenken. v11 hatte den Altbestand auf 41 Einträge gekürzt; v12 hebt
 26 historische Gedenk- und Befreiungstage aus den Länderkalendern (mit
 `originalId`) und ergänzt 26 neue Tage, die in keinem Paket standen
 (Volkstrauertag, Remembrance Sunday, 11. September, Dodenherdenking,
 Srebrenica, Kwibuka, Holodomor, Hiroshima, Nanjing …). Die 9.-Mai-Siegestage
-bleiben bewusst draußen. Berufs-, Themen- und Verwaltungstage (Polizei, Lehrer,
+bleiben bewusst draußen; der 8. Mai ist ein globaler Eintrag „Kriegsende in
+Europa“. Regel seit v13: je Kalendertag höchstens ein Eintrag — bei
+Doppelungen bleibt der bedeutendere (11.11. Armistice Day global, 14.6. LV,
+17.6. DE, 15.8. JP, 25.4. Anzac, 5.5. AT); die übrigen Tage leben im
+Länderkalender weiter. Berufs-, Themen- und Verwaltungstage (Polizei, Lehrer,
 Familie, Europatag …), nicht arbeitsfreie Staatsfeiertage (SI, SK), religiöse
 Totengedenken (Radonitsa, Paștele Blajinilor, Tischa beAv) und Doppelungen
 (PR/US Memorial Day, NZ/AU Anzac Day, BE/RS/CA Armistice Day) wurden entfernt;
@@ -18,7 +22,7 @@ content/memorial/catalog.json enthält die kuratierten Definitionen und Themen.
 Das Thema memorial führt zu stillem Gedenken, awareness zu einem sachlichen
 Ereignisgedenken ohne Trauerton (Befreiungs-, Aufstands- und Kriegsende-Tage). Die App übermittelt diese Unterscheidung bei Nachrichten an die KI.
 
-`scope` je Eintrag steuert die Vorauswahl in der App: `global` (elf weltweit
+`scope` je Eintrag steuert die Vorauswahl in der App: `global` (zwölf weltweit
 begangene Tage, z. B. 27. Januar, Anzac Day, 11. November, 23. August, 11. März,
 Srebrenica, Kwibuka) wird
 beim Einschalten für jeden Nutzer aktiviert; `national` nur, wenn das

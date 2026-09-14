@@ -553,6 +553,7 @@ generated automatically by `scripts/fetch-images.mjs` and listed below.
 - `images/MEMORIAL/ee_day_of_mourning/01.jpg` — Carl.eryk (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Kommunismiohvritememoriaal.jpg>
 - `images/MEMORIAL/ee_victory_day/01.jpg` — Pauloleong2002 (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Independence_War_Victory_Column%2C_Tallinn%2C_Estonia.jpg>
 - `images/MEMORIAL/eu_day_of_remembrance_for_victims_of_terrorism/01.jpg` — Felipe Gabaldón (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:11-M_Memorial._Atocha_Station._Madrid%2C_Spain._(4425265732).jpg>
+- `images/MEMORIAL/eu_end_of_second_world_war_in_europe/01.jpg` — Flocci Nivis (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:20220805_Soviet_Cenotaph_in_Berlin-Tiergarten_02.jpg>
 - `images/MEMORIAL/gb_remembrance_sunday/01.jpg` — Peter Barr (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:The_Cenotaph%2C_Whitehall%2C_Remembrance_Sunday_-_geograph.org.uk_-_3740396.jpg>
 - `images/MEMORIAL/gi_workers_memorial_day/01.jpg` — Jungpionier (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Manchester_Workers'_Memorial.jpg>
 - `images/MEMORIAL/hr_remembrance_day/01.jpg` — Tromber (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Vukovar_Memorial_Cemetery_%E2%80%93_Eternal_Flame%2C_20150429160745.jpg>
