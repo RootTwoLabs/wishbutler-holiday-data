@@ -119,3 +119,29 @@ test('index: funOccasions mit unbekanntem Key wird abgelehnt', () => {
   };
   assert.equal(validateIndex(index), false);
 });
+
+// --- G-5 / G-11 (Audit 2026-09-20, Paket 2a) --------------------------------
+
+test('G-5: regions akzeptiert ISO-3166-2-Codes (1–64, unique), landesweit ohne Feld', () => {
+  assert.equal(validatePackage(pkg()), true);
+  assert.equal(validatePackage(pkg({ definitions: [def({ regions: ['DE-BY', 'DE-TH'] })] })), true);
+  assert.equal(validatePackage(pkg({ definitions: [def({ countryCode: 'AT', regions: ['AT-4'] })] })), true);
+});
+
+test('G-5: regions lehnt leere Liste, Duplikate, Kleinschreibung und Fremdformate ab', () => {
+  for (const regions of [[], ['DE-BY', 'DE-BY'], ['de-by'], ['DE_BY'], ['DEBY'], ['DE-ABCDEF'], 'DE-BY', [1]]) {
+    assert.equal(validatePackage(pkg({ definitions: [def({ regions })] })), false, JSON.stringify(regions));
+  }
+  assert.equal(validatePackage(pkg({ definitions: [def({ regions: Array.from({ length: 65 }, (_, i) => `DE-${i}`) })] })), false);
+});
+
+test('G-11: index namedayDays ist optional, 0–366, ganzzahlig', () => {
+  const country = (over) => ({ code: 'DE', version: 1, package: 'packages/DE/v1/package.json', ...over });
+  const index = (c) => ({ schemaVersion: 1, baseUrl: 'https://cdn.example/data', countries: [c] });
+  assert.equal(validateIndex(index(country({}))), true);
+  assert.equal(validateIndex(index(country({ hasNamedays: true, namedayDays: 366 }))), true);
+  assert.equal(validateIndex(index(country({ hasNamedays: false, namedayDays: 0 }))), true);
+  assert.equal(validateIndex(index(country({ namedayDays: 367 }))), false);
+  assert.equal(validateIndex(index(country({ namedayDays: -1 }))), false);
+  assert.equal(validateIndex(index(country({ namedayDays: '366' }))), false);
+});

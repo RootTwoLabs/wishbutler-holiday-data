@@ -34,8 +34,12 @@ export async function listVersions(countryDir) {
 /**
  * Baut eine Paket-Definition. `rule.type` (fixed | easter_relative |
  * nth_weekday | precomputed) entspricht 1:1 dem HolidayKind der App.
+ *
+ * G-5: `regions` (ISO-3166-2-Codes, siehe lib/nagerScope.mjs) steht nur bei
+ * regionalen Feiertagen im Paket — landesweite Definitionen tragen das Feld
+ * nicht (undefined oder leer = weglassen).
  */
-export function holidayDefinition({ id, countryCode, slug, rule, category = 'public' }) {
+export function holidayDefinition({ id, countryCode, slug, rule, category = 'public', regions }) {
   return {
     id,
     countryCode,
@@ -43,6 +47,7 @@ export function holidayDefinition({ id, countryCode, slug, rule, category = 'pub
     labelKey: `holidays.${slug}`,
     iconName: 'event',
     category,
+    ...(Array.isArray(regions) && regions.length > 0 ? { regions } : {}),
     rule,
   };
 }

@@ -80,6 +80,59 @@ after `until` it fails again. Fix by refreshing the source
 (`npm run build:holidays -- <CC>`), not by extending the allowlist.
 `VALIDATE_YEAR` / `VALIDATE_TODAY` override the clock for reproduction.
 
+### Regional holidays (`regions`) and `category`
+
+Nager.Date marks holidays that apply only in some subdivisions with
+`global: false` plus a `counties` list (ISO 3166-2 codes). Since data tag
+`data-2026-09-20-regions` (Audit G-5) the package keeps that information:
+
+```json
+{
+  "id": "DE_world_childrens_day",
+  "countryCode": "DE",
+  "kind": "fixed",
+  "labelKey": "holidays.world_childrens_day",
+  "iconName": "event",
+  "category": "public",
+  "regions": ["DE-TH"],
+  "rule": { "type": "fixed", "month": 9, "day": 20 }
+}
+```
+
+- `regions` is **only present for regional holidays**: the sorted, deduplicated
+  union of Nager's `counties` over all fetched years (1–64 codes matching
+  `^[A-Z]{2}-[A-Z0-9]{1,5}$`, always prefixed with the package's country code —
+  `npm run validate` fails otherwise). Nationwide holidays carry **no** field.
+  If an occasion is nationwide in any year it is nationwide (no `regions`);
+  `global: false` without `counties` counts as nationwide too. Regional
+  variants of a bundled global holiday keep the global `labelKey`
+  (`DE_corpus_christi` → `holidays.corpus_christi`) and add `regions`.
+  Nager lists some holidays per subdivision even when every subdivision has
+  them (GB New Year's Day → all four nations, AU King's Birthday → all eight
+  states/territories). `NAGER_FULL_REGION_SETS` in `scripts/config.mjs` holds
+  the curated complete set for such countries; a union covering it is
+  nationwide and gets no `regions` (`npm run validate` fails if a package
+  still carries one).
+- `category` follows Nager's `types`: `Public` in at least one year →
+  `public`, otherwise (`Bank`, `School`, `Authorities`, `Optional`,
+  `Observance`) → `observance`. `religious` is only emitted by the Hebcal
+  generator (Israel). The app decides how to present each category.
+- Both are derived in `scripts/lib/nagerScope.mjs`; the contract is mirrored by
+  `sanitizeRegions` in the app's `packageManager.ts`.
+
+Nager occasionally renames an occasion in single years (PE 2031/2033: "Labour
+Day" ↔ "International Workers' Day"), which would split it into two
+`precomputed` definitions with gaps. `NAGER_NAME_ALIASES` in
+`scripts/config.mjs` maps such names back per country. New Nager IDs that
+have no labels in all 17 locales yet are parked in `UNTRANSLATED_HOLIDAY_IDS`
+(`scripts/lib/holidaySelection.mjs`) until translated — translation is a
+manual step, never part of CI.
+
+`NAGER_CACHE_DIR=<dir> npm run build:holidays` caches every Nager year
+response in `<dir>` and replays it on the next run (local reproduction of a
+build without re-fetching, e.g. after editing the exclusion list). CI does
+not set it.
+
 ## Data sources
 
 - Public holidays: [Nager.Date](https://date.nager.at/), [OpenHolidays API](https://openholidaysapi.org/),
@@ -159,7 +212,17 @@ curated step: fetch, review with `curate-images.mjs promote|drop`, run
 
 - `build:namedays` writes the nameday table as a new package version via
   `writePackageIfChanged` (unchanged table = no bump; a sparser table than the
-  published one is still never taken over).
+  published one is still never taken over). abalin mixes feast names, role
+  descriptors and junk into its name lists ("Johannes Döparens dag", "Vescovo
+  E Dottore Della Chiesa", "40"); `scripts/lib/namedayFilter.mjs` drops the
+  unambiguous non-names (`NON_NAME_PATTERNS`, grouped by language — only
+  strings that are clearly not a given name; "Santo Stefano Primo Martire" or
+  "Noël" stay). `node scripts/prune-namedays.mjs [--dry-run] [CC …]` applies
+  the same filter offline to the published tables and bumps only changed
+  packages — run it after extending the patterns instead of re-fetching.
+  `index.json` reports `namedayDays` (days with ≥ 1 name, 0–366) next to
+  `hasNamedays` (true from one day on); `npm run validate` warns when a
+  country has fewer than 300 days (BG 101, GR 176 are known abalin gaps).
 - `FUN_VERSION=<n> npm run build:fun-occasions` is only accepted for
   `n > latest FUN version` (exit 2 otherwise).
 - `curate-images.mjs promote|drop` swaps image bytes **under the same path**,

@@ -116,6 +116,43 @@ export const HOLIDAY_SLUG_ALIASES = {
   new_years_eve: 'new_years_eve',
 };
 
+/**
+ * Nager benennt denselben Anlass in einzelnen Jahren anders (PE 2031/2033:
+ * "International Workers' Day" + "Holy Thursday", alle anderen Jahre "Labour
+ * Day" + "Maundy Thursday"). Ohne Abgleich zerfaellt der Anlass in ZWEI
+ * `precomputed`-Definitionen mit Jahresluecken (wie bei G-6 "(tentative
+ * date)"). Der Abgleich bildet den neuen Namen auf den bisherigen ab, damit
+ * die etablierte ID samt 17-Sprachen-Label bestehen bleibt. Nur je Land, nur
+ * fuer belegte Faelle — kein globales Synonymwoerterbuch.
+ */
+export const NAGER_NAME_ALIASES = {
+  PE: {
+    'Labour Day': "International Workers' Day",
+    'Maundy Thursday': 'Holy Thursday',
+  },
+};
+
+/**
+ * G-5: Vollstaendige Regionsmengen. Nager listet manche Feiertage je
+ * Landesteil, obwohl JEDER Landesteil sie hat (GB New Year's Day und Summer
+ * Bank Holiday in allen vier Nationen, AU King's Birthday in allen acht
+ * Bundesstaaten/Territorien). Deckt die vereinigte Regionsmenge einer
+ * Definition das Full-Set ab, ist der Anlass landesweit und traegt KEIN
+ * `regions` — sonst behandelt die App ihn als „regional" ohne Vorauswahl.
+ * Kuratiert (nicht aus Nager abgeleitet: Nager kennt z. B. fuer BA nur 2 von
+ * 3 Entitaeten, fuer PT nur die 2 Inselregionen); nur Laender, bei denen
+ * der Fall tatsaechlich auftritt. Codes gegen die Nager-Antworten geprueft.
+ */
+export const NAGER_FULL_REGION_SETS = {
+  GB: ['GB-ENG', 'GB-NIR', 'GB-SCT', 'GB-WLS'],
+  AU: ['AU-ACT', 'AU-NSW', 'AU-NT', 'AU-QLD', 'AU-SA', 'AU-TAS', 'AU-VIC', 'AU-WA'],
+};
+
+/** Loest einen Nager-Namen ueber NAGER_NAME_ALIASES auf (unveraendert, wenn kein Eintrag). */
+export function canonicalNagerName(cc, name) {
+  return NAGER_NAME_ALIASES[cc]?.[name] ?? name;
+}
+
 /** Years to precompute for non-Gregorian / table-only feasts. */
 export const PRECOMPUTE_FROM_YEAR = new Date().getFullYear();
 export const PRECOMPUTE_YEARS = 10;

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "baseUrl": "https://cdn.jsdelivr.net/gh/RootTwoLabs/wishbutler-holiday-data@main/data",
-  "generatedAt": "2026-09-20T00:38:02.566Z",
+  "generatedAt": "2026-09-20T01:58:45.776Z",
   "countries": [
     {
       "code": "AD",
@@ -29,6 +29,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -58,6 +59,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -87,6 +89,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -115,6 +118,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -143,14 +147,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "AT",
-      "version": 28,
-      "package": "packages/AT/v28/package.json",
-      "sizeBytes": 607003,
+      "version": 29,
+      "package": "packages/AT/v29/package.json",
+      "sizeBytes": 607302,
       "locales": [
         "da",
         "de",
@@ -171,14 +176,15 @@
         "zh-Hant"
       ],
       "hasNamedays": true,
+      "namedayDays": 366,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "AU",
-      "version": 33,
-      "package": "packages/AU/v33/package.json",
-      "sizeBytes": 429611,
+      "version": 34,
+      "package": "packages/AU/v34/package.json",
+      "sizeBytes": 430211,
       "locales": [
         "da",
         "de",
@@ -199,6 +205,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -227,14 +234,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "BA",
-      "version": 25,
-      "package": "packages/BA/v25/package.json",
-      "sizeBytes": 109395,
+      "version": 26,
+      "package": "packages/BA/v26/package.json",
+      "sizeBytes": 109890,
       "locales": [
         "bs",
         "da",
@@ -256,6 +264,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -284,6 +293,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -313,14 +323,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "BE",
-      "version": 24,
-      "package": "packages/BE/v24/package.json",
-      "sizeBytes": 364040,
+      "version": 25,
+      "package": "packages/BE/v25/package.json",
+      "sizeBytes": 364052,
       "locales": [
         "da",
         "de",
@@ -341,6 +352,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -370,6 +382,7 @@
         "zh-Hant"
       ],
       "hasNamedays": true,
+      "namedayDays": 101,
       "hasInfo": true,
       "hasImages": true
     },
@@ -398,6 +411,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -426,14 +440,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "BR",
-      "version": 28,
-      "package": "packages/BR/v28/package.json",
-      "sizeBytes": 273353,
+      "version": 29,
+      "package": "packages/BR/v29/package.json",
+      "sizeBytes": 273401,
       "locales": [
         "da",
         "de",
@@ -454,6 +469,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -482,6 +498,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -510,6 +527,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -539,14 +557,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "BZ",
-      "version": 28,
-      "package": "packages/BZ/v28/package.json",
-      "sizeBytes": 269148,
+      "version": 29,
+      "package": "packages/BZ/v29/package.json",
+      "sizeBytes": 269152,
       "locales": [
         "da",
         "de",
@@ -567,14 +586,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "CA",
-      "version": 28,
-      "package": "packages/CA/v28/package.json",
-      "sizeBytes": 435855,
+      "version": 29,
+      "package": "packages/CA/v29/package.json",
+      "sizeBytes": 437187,
       "locales": [
         "da",
         "de",
@@ -595,6 +615,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -623,6 +644,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -651,14 +673,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "CH",
-      "version": 28,
-      "package": "packages/CH/v28/package.json",
-      "sizeBytes": 690396,
+      "version": 29,
+      "package": "packages/CH/v29/package.json",
+      "sizeBytes": 693977,
       "locales": [
         "da",
         "de",
@@ -679,14 +702,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "CL",
-      "version": 30,
-      "package": "packages/CL/v30/package.json",
-      "sizeBytes": 330067,
+      "version": 31,
+      "package": "packages/CL/v31/package.json",
+      "sizeBytes": 330111,
       "locales": [
         "da",
         "de",
@@ -707,6 +731,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -736,6 +761,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -764,6 +790,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -792,6 +819,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -820,14 +848,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "CY",
-      "version": 26,
-      "package": "packages/CY/v26/package.json",
-      "sizeBytes": 275407,
+      "version": 27,
+      "package": "packages/CY/v27/package.json",
+      "sizeBytes": 275411,
       "locales": [
         "da",
         "de",
@@ -849,14 +878,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "CZ",
-      "version": 26,
-      "package": "packages/CZ/v26/package.json",
-      "sizeBytes": 280561,
+      "version": 27,
+      "package": "packages/CZ/v27/package.json",
+      "sizeBytes": 279855,
       "locales": [
         "cs",
         "da",
@@ -878,14 +908,15 @@
         "zh-Hant"
       ],
       "hasNamedays": true,
+      "namedayDays": 357,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "DE",
-      "version": 30,
-      "package": "packages/DE/v30/package.json",
-      "sizeBytes": 628193,
+      "version": 31,
+      "package": "packages/DE/v31/package.json",
+      "sizeBytes": 626897,
       "locales": [
         "da",
         "de",
@@ -906,14 +937,15 @@
         "zh-Hant"
       ],
       "hasNamedays": true,
+      "namedayDays": 365,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "DK",
-      "version": 29,
-      "package": "packages/DK/v29/package.json",
-      "sizeBytes": 384598,
+      "version": 30,
+      "package": "packages/DK/v30/package.json",
+      "sizeBytes": 384614,
       "locales": [
         "da",
         "de",
@@ -934,6 +966,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -962,6 +995,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -990,6 +1024,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1019,6 +1054,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1048,14 +1084,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "ES",
-      "version": 30,
-      "package": "packages/ES/v30/package.json",
-      "sizeBytes": 458100,
+      "version": 31,
+      "package": "packages/ES/v31/package.json",
+      "sizeBytes": 459393,
       "locales": [
         "da",
         "de",
@@ -1076,6 +1113,7 @@
         "zh-Hant"
       ],
       "hasNamedays": true,
+      "namedayDays": 364,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1104,6 +1142,7 @@
         "zh-Hant"
       ],
       "hasNamedays": true,
+      "namedayDays": 363,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1133,14 +1172,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "FR",
-      "version": 28,
-      "package": "packages/FR/v28/package.json",
-      "sizeBytes": 340619,
+      "version": 29,
+      "package": "packages/FR/v29/package.json",
+      "sizeBytes": 339573,
       "locales": [
         "da",
         "de",
@@ -1161,6 +1201,7 @@
         "zh-Hant"
       ],
       "hasNamedays": true,
+      "namedayDays": 341,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1189,14 +1230,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "GB",
-      "version": 29,
-      "package": "packages/GB/v29/package.json",
-      "sizeBytes": 273609,
+      "version": 30,
+      "package": "packages/GB/v30/package.json",
+      "sizeBytes": 273915,
       "locales": [
         "da",
         "de",
@@ -1217,6 +1259,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1245,6 +1288,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1274,6 +1318,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1302,6 +1347,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1330,6 +1376,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1358,14 +1405,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "GL",
-      "version": 29,
-      "package": "packages/GL/v29/package.json",
-      "sizeBytes": 403125,
+      "version": 30,
+      "package": "packages/GL/v30/package.json",
+      "sizeBytes": 403141,
       "locales": [
         "da",
         "de",
@@ -1387,6 +1435,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1415,6 +1464,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1444,6 +1494,7 @@
         "zh-Hant"
       ],
       "hasNamedays": true,
+      "namedayDays": 176,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1472,6 +1523,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1500,6 +1552,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1529,6 +1582,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1557,14 +1611,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "HR",
-      "version": 24,
-      "package": "packages/HR/v24/package.json",
-      "sizeBytes": 331342,
+      "version": 25,
+      "package": "packages/HR/v25/package.json",
+      "sizeBytes": 330179,
       "locales": [
         "da",
         "de",
@@ -1586,6 +1641,7 @@
         "zh-Hant"
       ],
       "hasNamedays": true,
+      "namedayDays": 356,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1614,6 +1670,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1643,6 +1700,7 @@
         "zh-Hant"
       ],
       "hasNamedays": true,
+      "namedayDays": 365,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1672,14 +1730,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "IE",
-      "version": 28,
-      "package": "packages/IE/v28/package.json",
-      "sizeBytes": 215944,
+      "version": 29,
+      "package": "packages/IE/v29/package.json",
+      "sizeBytes": 215948,
       "locales": [
         "da",
         "de",
@@ -1700,6 +1759,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1729,6 +1789,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1757,6 +1818,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1786,14 +1848,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "IT",
-      "version": 28,
-      "package": "packages/IT/v28/package.json",
-      "sizeBytes": 398961,
+      "version": 29,
+      "package": "packages/IT/v29/package.json",
+      "sizeBytes": 393894,
       "locales": [
         "da",
         "de",
@@ -1814,6 +1877,7 @@
         "zh-Hant"
       ],
       "hasNamedays": true,
+      "namedayDays": 307,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1842,6 +1906,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1870,6 +1935,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1898,6 +1964,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1926,6 +1993,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1954,6 +2022,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -1983,14 +2052,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "LI",
-      "version": 29,
-      "package": "packages/LI/v29/package.json",
-      "sizeBytes": 528067,
+      "version": 30,
+      "package": "packages/LI/v30/package.json",
+      "sizeBytes": 528087,
       "locales": [
         "da",
         "de",
@@ -2011,6 +2081,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2039,6 +2110,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2068,14 +2140,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "LU",
-      "version": 24,
-      "package": "packages/LU/v24/package.json",
-      "sizeBytes": 368347,
+      "version": 25,
+      "package": "packages/LU/v25/package.json",
+      "sizeBytes": 368351,
       "locales": [
         "da",
         "de",
@@ -2096,14 +2169,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "LV",
-      "version": 32,
-      "package": "packages/LV/v32/package.json",
-      "sizeBytes": 518973,
+      "version": 33,
+      "package": "packages/LV/v33/package.json",
+      "sizeBytes": 519035,
       "locales": [
         "da",
         "de",
@@ -2125,6 +2199,7 @@
         "zh-Hant"
       ],
       "hasNamedays": true,
+      "namedayDays": 365,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2154,6 +2229,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2182,6 +2258,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2211,14 +2288,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "ME",
-      "version": 25,
-      "package": "packages/ME/v25/package.json",
-      "sizeBytes": 136345,
+      "version": 26,
+      "package": "packages/ME/v26/package.json",
+      "sizeBytes": 136381,
       "locales": [
         "da",
         "de",
@@ -2240,6 +2318,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2269,6 +2348,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2298,6 +2378,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2327,6 +2408,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2355,6 +2437,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2384,14 +2467,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "MX",
-      "version": 31,
-      "package": "packages/MX/v31/package.json",
-      "sizeBytes": 177418,
+      "version": 32,
+      "package": "packages/MX/v32/package.json",
+      "sizeBytes": 177426,
       "locales": [
         "da",
         "de",
@@ -2412,6 +2496,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2440,6 +2525,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2468,6 +2554,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2496,6 +2583,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2524,6 +2612,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2552,14 +2641,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "NL",
-      "version": 25,
-      "package": "packages/NL/v25/package.json",
-      "sizeBytes": 340320,
+      "version": 26,
+      "package": "packages/NL/v26/package.json",
+      "sizeBytes": 340328,
       "locales": [
         "da",
         "de",
@@ -2580,6 +2670,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2608,14 +2699,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "NZ",
-      "version": 31,
-      "package": "packages/NZ/v31/package.json",
-      "sizeBytes": 587659,
+      "version": 32,
+      "package": "packages/NZ/v32/package.json",
+      "sizeBytes": 588289,
       "locales": [
         "da",
         "de",
@@ -2636,6 +2728,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2664,14 +2757,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "PE",
-      "version": 25,
-      "package": "packages/PE/v25/package.json",
-      "sizeBytes": 227799,
+      "version": 26,
+      "package": "packages/PE/v26/package.json",
+      "sizeBytes": 228030,
       "locales": [
         "da",
         "de",
@@ -2692,6 +2786,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2720,6 +2815,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2748,6 +2844,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2776,6 +2873,7 @@
         "zh-Hant"
       ],
       "hasNamedays": true,
+      "namedayDays": 366,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2804,14 +2902,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "PT",
-      "version": 28,
-      "package": "packages/PT/v28/package.json",
-      "sizeBytes": 376428,
+      "version": 29,
+      "package": "packages/PT/v29/package.json",
+      "sizeBytes": 376564,
       "locales": [
         "da",
         "de",
@@ -2832,6 +2931,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2860,6 +2960,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2889,6 +2990,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2918,6 +3020,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2946,6 +3049,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -2974,14 +3078,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "SE",
-      "version": 29,
-      "package": "packages/SE/v29/package.json",
-      "sizeBytes": 449476,
+      "version": 30,
+      "package": "packages/SE/v30/package.json",
+      "sizeBytes": 449101,
       "locales": [
         "da",
         "de",
@@ -3002,6 +3107,7 @@
         "zh-Hant"
       ],
       "hasNamedays": true,
+      "namedayDays": 357,
       "hasInfo": true,
       "hasImages": true
     },
@@ -3030,14 +3136,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "SI",
-      "version": 26,
-      "package": "packages/SI/v26/package.json",
-      "sizeBytes": 241704,
+      "version": 27,
+      "package": "packages/SI/v27/package.json",
+      "sizeBytes": 241728,
       "locales": [
         "da",
         "de",
@@ -3059,6 +3166,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -3087,14 +3195,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "SK",
-      "version": 25,
-      "package": "packages/SK/v25/package.json",
-      "sizeBytes": 265149,
+      "version": 26,
+      "package": "packages/SK/v26/package.json",
+      "sizeBytes": 264984,
       "locales": [
         "da",
         "de",
@@ -3116,6 +3225,7 @@
         "zh-Hant"
       ],
       "hasNamedays": true,
+      "namedayDays": 362,
       "hasInfo": true,
       "hasImages": true
     },
@@ -3144,6 +3254,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -3172,6 +3283,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -3200,6 +3312,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -3229,6 +3342,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -3258,6 +3372,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -3286,6 +3401,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -3314,14 +3430,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "US",
-      "version": 30,
-      "package": "packages/US/v30/package.json",
-      "sizeBytes": 360021,
+      "version": 31,
+      "package": "packages/US/v31/package.json",
+      "sizeBytes": 360817,
       "locales": [
         "da",
         "de",
@@ -3342,6 +3459,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -3370,6 +3488,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -3398,14 +3517,15 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
     {
       "code": "VE",
-      "version": 29,
-      "package": "packages/VE/v29/package.json",
-      "sizeBytes": 442273,
+      "version": 30,
+      "package": "packages/VE/v30/package.json",
+      "sizeBytes": 442361,
       "locales": [
         "da",
         "de",
@@ -3426,6 +3546,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -3455,6 +3576,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -3483,6 +3605,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     },
@@ -3511,6 +3634,7 @@
         "zh-Hant"
       ],
       "hasNamedays": false,
+      "namedayDays": 0,
       "hasInfo": true,
       "hasImages": true
     }

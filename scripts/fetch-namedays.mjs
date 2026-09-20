@@ -13,9 +13,9 @@ import { pathToFileURL } from 'node:url';
 import { NAMEDAY_COUNTRIES, SOURCES } from './config.mjs';
 import { fetchWithTimeout, FailureBudget } from './lib/httpClient.mjs';
 import { readLatestPackage, writePackageIfChanged } from './lib/packageWriter.mjs';
-
-/** Strings abalin returns that are not personal names. */
-const NON_NAME = /^(n\/a|support ukraine)/i;
+// G-11: Nicht-Namen-Filter (Festtage, Rollenbeschreibungen, Muell) liegt in
+// lib/namedayFilter.mjs — geteilt mit prune-namedays.mjs (Offline-Nachzug).
+import { parseNames } from './lib/namedayFilter.mjs';
 
 // abalin drosselt auf 60 Requests/Minute (Header x-ratelimit-limit: 60). Ohne
 // Pacing liefert der Endpoint ab Tag 61 nur noch 429 — die Run vom 2026-09-01
@@ -84,15 +84,6 @@ export async function applyNamedays(cc, namedays, { packagesDir } = {}) {
     packagesDir ? { packagesDir } : {},
   );
   return { status: changed ? 'written' : 'unchanged', version, prev: latest.version };
-}
-
-/** Splits abalin's comma-separated string into clean personal names. */
-function parseNames(raw) {
-  if (typeof raw !== 'string') return [];
-  return raw
-    .split(',')
-    .map((s) => s.trim())
-    .filter((s) => s.length > 0 && !NON_NAME.test(s));
 }
 
 async function main() {

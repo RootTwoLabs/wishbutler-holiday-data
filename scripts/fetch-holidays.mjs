@@ -24,16 +24,37 @@ import {
   localeForCountry,
   GLOBAL_RULES,
   HOLIDAY_SLUG_ALIASES,
+  NAGER_FULL_REGION_SETS,
+  canonicalNagerName,
 } from './config.mjs';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 import { detectRule, pickHolidayStart, rulesEqual } from './lib/ruleDetection.mjs';
 import { fetchJsonWithTimeout, FailureBudget } from './lib/httpClient.mjs';
 import { holidayDefinition, writePackage } from './lib/packageWriter.mjs';
 import { isSelectedHoliday } from './lib/holidaySelection.mjs';
 import { slugify, stripTentativeSuffix } from './lib/nagerSlug.mjs';
+import { newScope, collectScope, resolveScope } from './lib/nagerScope.mjs';
+
+/**
+ * Optionaler Antwort-Cache fuer Reproduktion ohne Netz (`NAGER_CACHE_DIR=<dir>`):
+ * jede Jahresantwort wird einmal geholt und danach aus dem Verzeichnis gelesen.
+ * Nur fuer lokale Wiederholungslaeufe gedacht (z. B. nach einer Aenderung an
+ * der Ausschlussliste) — CI setzt die Variable nicht und holt immer frisch.
+ */
+const NAGER_CACHE_DIR = process.env.NAGER_CACHE_DIR || null;
 
 // #130: Timeout + Retry/Backoff statt nacktem fetch (kein unbegrenztes Haengen).
 async function fetchJson(url) {
-  return fetchJsonWithTimeout(url, { timeoutMs: 15000, retries: 2, backoffMs: 500 });
+  const cacheFile = NAGER_CACHE_DIR ? join(NAGER_CACHE_DIR, `${encodeURIComponent(url)}.json`) : null;
+  if (cacheFile && existsSync(cacheFile)) return JSON.parse(await readFile(cacheFile, 'utf8'));
+  const json = await fetchJsonWithTimeout(url, { timeoutMs: 15000, retries: 2, backoffMs: 500 });
+  if (cacheFile) {
+    await mkdir(NAGER_CACHE_DIR, { recursive: true });
+    await writeFile(cacheFile, JSON.stringify(json), 'utf8');
+  }
+  return json;
 }
 
 // #130: Fehlerquote ueber den gesamten Lauf budgetieren — bei zu vielen
@@ -60,15 +81,20 @@ async function buildCountry(cc) {
       // native-language label we surface to users in their locale.
       // G-6: "(tentative date)" ist kein eigener Anlass — Suffix weg, damit
       // bestaetigte und vorlaeufige Jahre in EINER Definition landen.
-      const name = stripTentativeSuffix(h.name);
+      // NAGER_NAME_ALIASES: jahrweise Umbenennungen (PE) auf den etablierten
+      // Namen zurueckfuehren, sonst zerfaellt der Anlass in zwei Definitionen.
+      const name = canonicalNagerName(cc, stripTentativeSuffix(h.name));
       const key = name;
       const mmdd = h.date.slice(5);
       const entry =
         byName.get(key) ??
-        { years: {}, observed: {}, slug: slugify(name), name, localName: stripTentativeSuffix(h.localName) };
+        { years: {}, observed: {}, slug: slugify(name), name, localName: stripTentativeSuffix(h.localName), scope: newScope() };
       // Gleicher Name kann pro Jahr mehrfach kommen (mehrtaegiges Fest ODER
       // regionale Varianten) — erst alle Tage sammeln, unten aufloesen.
       (entry.observed[year] ??= []).push(mmdd);
+      // G-5: global/counties/types ueber alle Jahre und Zeilen sammeln
+      // (landesweit gewinnt, Regionen werden vereinigt, Public gewinnt).
+      collectScope(entry.scope, h);
       if (!entry.localName && h.localName) entry.localName = stripTentativeSuffix(h.localName);
       byName.set(key, entry);
     }
@@ -109,7 +135,15 @@ async function buildCountry(cc) {
       labelSlug = entry.slug;
     }
 
-    definitions.push(holidayDefinition({ id, countryCode: cc, slug: labelSlug, rule }));
+    // G-5: Regionale Feiertage bekommen `regions` (Nager counties) und die
+    // Kategorie folgt den Nager-Typen. Der labelKey-Merge oben bleibt davon
+    // unberuehrt — ein regionaler Fronleichnam nutzt weiter die gebuendelte
+    // Uebersetzung `holidays.corpus_christi`, traegt aber `regions`.
+    const { category, regions } = resolveScope(entry.scope, {
+      warn: (msg) => console.warn(`  ${id}: ${msg}`),
+      fullSet: NAGER_FULL_REGION_SETS[cc], // alle Regionen des Landes = landesweit
+    });
+    definitions.push(holidayDefinition({ id, countryCode: cc, slug: labelSlug, rule, category, regions }));
 
     // Global holidays reuse the app's bundled (fully translated) labels/articles,
     // so we only emit package labels for genuinely country-specific holidays.

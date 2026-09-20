@@ -272,6 +272,17 @@
             "observance"
           ]
         },
+        "regions": {
+          "type": "array",
+          "description": "G-5: Nur bei regionalen Feiertagen — ISO-3166-2-Codes (Nager `counties`, z. B. DE-BY, CH-GL, AT-4), in denen der Anlass gilt. Landesweite Feiertage tragen das Feld nicht. Codes muessen mit dem countryCode des Pakets beginnen (validate.mjs).",
+          "minItems": 1,
+          "maxItems": 64,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}-[A-Z0-9]{1,5}$"
+          }
+        },
         "requiredGender": {
           "enum": [
             "female",

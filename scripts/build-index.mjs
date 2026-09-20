@@ -8,6 +8,7 @@ import { existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { deliveredByteLength } from './lib/packageWriter.mjs';
+import { countNamedayDays } from './lib/namedayFilter.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -108,13 +109,17 @@ async function main() {
     }
 
     const locales = pkg.i18n?.holidays ? Object.keys(pkg.i18n.holidays).sort() : [];
+    // G-11: Tage mit mindestens einem Namen — hasNamedays bleibt ab 1 Tag true
+    // (App-Kompatibilitaet), namedayDays macht die Abdeckung sichtbar.
+    const namedayDays = countNamedayDays(pkg.namedays);
     countries.push({
       code,
       version: best.version,
       package: rel,
       sizeBytes: size,
       locales,
-      hasNamedays: Boolean(pkg.namedays && Object.keys(pkg.namedays).length > 0),
+      hasNamedays: namedayDays > 0,
+      namedayDays,
       hasInfo: Boolean(
         pkg.i18n?.holidayInfo && Object.keys(pkg.i18n.holidayInfo).length > 0,
       ),

@@ -57,6 +57,12 @@
           "hasNamedays": {
             "type": "boolean"
           },
+          "namedayDays": {
+            "type": "integer",
+            "description": "G-11: Anzahl Kalendertage mit mindestens einem Namen (0–366). hasNamedays bleibt true ab 1 Tag; unter 300 Tagen warnt validate.mjs.",
+            "minimum": 0,
+            "maximum": 366
+          },
           "hasInfo": {
             "type": "boolean"
           },

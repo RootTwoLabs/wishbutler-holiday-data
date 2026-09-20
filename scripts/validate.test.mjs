@@ -5,6 +5,9 @@ import {
   checkFunDefinitions,
   ONE_OFF_HOLIDAY_IDS,
   STALE_PRECOMPUTED_ALLOWLIST,
+  checkRegions,
+  checkNamedayCoverage,
+  NAMEDAY_MIN_DAYS,
 } from './validate.mjs';
 
 const CLOCK_2026 = { currentYear: 2026, today: '2026-09-20' };
@@ -109,4 +112,52 @@ test('checkFunDefinitions: CC BY-Bild braucht Credit im Ref UND im Artikel-image
   const cc0 = [];
   checkFunDefinitions(funPackage({ path: 'images/FUN/day/01.jpg', license: 'CC0' }, undefined), cc0);
   assert.deepEqual(only(cc0), []);
+});
+
+// --- G-5 / G-11 (Audit 2026-09-20, Paket 2a) --------------------------------
+
+test('G-5: checkRegions — Regionscodes muessen mit dem Paketland beginnen', () => {
+  const def = (id, regions) => ({
+    id, countryCode: id.slice(0, 2), kind: 'fixed', labelKey: `holidays.${id.slice(3)}`,
+    iconName: 'event', category: 'public', ...(regions ? { regions } : {}), rule: { type: 'fixed', month: 1, day: 1 },
+  });
+  const errors = [];
+  checkRegions('DE', { definitions: [def('DE_national'), def('DE_regional', ['DE-BY', 'DE-TH'])] }, errors);
+  assert.deepEqual(errors, []);
+
+  checkRegions('AT', { definitions: [def('AT_x', ['AT-4', 'DE-BY'])] }, errors);
+  assert.equal(errors.length, 1);
+  assert.match(errors[0], /AT AT_x: regions ausserhalb des Pakets \(DE-BY\)/);
+
+  // Sammelpakete (GLOBAL/FUN/MEMORIAL) werden nicht geprueft.
+  const none = [];
+  checkRegions('FUN', { definitions: [def('FUN_x', ['DE-BY'])] }, none);
+  assert.deepEqual(none, []);
+});
+
+test('G-11: checkNamedayCoverage — eine Sammelwarnung unter 300 Tagen, kein Fehler', () => {
+  const warnings = [];
+  checkNamedayCoverage([{ code: 'DE', days: 366 }, { code: 'GR', days: 176 }, { code: 'BG', days: 101 }, { code: 'IT', days: 300 }], warnings);
+  assert.equal(warnings.length, 1);
+  assert.match(warnings[0], /unter 300\/366 Tagen: BG 101, GR 176/);
+  assert.doesNotMatch(warnings[0], /IT|DE/);
+
+  const quiet = [];
+  checkNamedayCoverage([{ code: 'DE', days: 366 }, { code: 'RO', days: 0 }], quiet);
+  assert.deepEqual(quiet, []);
+  assert.equal(NAMEDAY_MIN_DAYS, 300);
+});
+
+test('G-5: checkRegions — regions ueber dem Full-Set des Landes ist ein Fehler (landesweit)', () => {
+  const def = (id, regions) => ({
+    id, countryCode: id.slice(0, 2), kind: 'fixed', labelKey: `holidays.${id.slice(3)}`,
+    iconName: 'event', category: 'public', regions, rule: { type: 'fixed', month: 1, day: 1 },
+  });
+  const errors = [];
+  checkRegions('GB', { definitions: [def('GB_new_years_day', ['GB-ENG', 'GB-NIR', 'GB-SCT', 'GB-WLS']), def('GB_2_january', ['GB-SCT'])] }, errors);
+  assert.equal(errors.length, 1);
+  assert.match(errors[0], /GB GB_new_years_day: regions deckt alle 4 Regionen ab/);
+  const ok = [];
+  checkRegions('DE', { definitions: [def('DE_x', ['DE-BY'])] }, ok, { GB: ['GB-ENG'] });
+  assert.deepEqual(ok, []);
 });

@@ -9,11 +9,13 @@ import { join, dirname, relative, sep } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
-import { LOCALES } from './config.mjs';
+import { LOCALES, NAGER_FULL_REGION_SETS } from './config.mjs';
+import { coversFullRegionSet } from './lib/nagerScope.mjs';
 import { expectedFunDays, FUN_LOCALES } from './lib/funDays.mjs';
 import { isCc0OrPd } from './lib/imageLicense.mjs';
 import { loadCreditHints } from './lib/imageCredits.mjs';
 import { deliveredByteLength } from './lib/packageWriter.mjs';
+import { countNamedayDays } from './lib/namedayFilter.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -123,6 +125,48 @@ export function checkPrecomputedHorizon(countryCode, pkg, errors, warnings, cloc
         ` — run build:holidays ${countryCode}, or list a genuine one-off in ONE_OFF_HOLIDAY_IDS`,
     );
   }
+}
+
+/**
+ * G-5: `regions` (ISO-3166-2, z. B. DE-BY) muss zum Paketland gehoeren — ein
+ * `DE-…` in einem AT-Paket ist ein Generatorfehler, kein Datenstand. Form
+ * (Pattern, 1–64, unique) prueft das Schema; hier nur der Laenderbezug.
+ */
+export function checkRegions(countryCode, pkg, errors, fullSets = NAGER_FULL_REGION_SETS) {
+  if (!/^[A-Z]{2}$/.test(countryCode)) return;
+  const prefix = `${countryCode}-`;
+  const fullSet = fullSets[countryCode];
+  for (const def of pkg.definitions ?? []) {
+    if (!Array.isArray(def.regions)) continue;
+    const foreign = def.regions.filter((code) => typeof code !== 'string' || !code.startsWith(prefix));
+    if (foreign.length > 0) {
+      errors.push(`${countryCode} ${def.id}: regions ausserhalb des Pakets (${foreign.join(', ')}) — erwartet Praefix ${prefix}`);
+    }
+    // Sicherheitsnetz: alle Regionen des Landes = landesweit, darf kein
+    // `regions` tragen (sonst in der App „regional" ohne Vorauswahl).
+    if (coversFullRegionSet(def.regions, fullSet)) {
+      errors.push(`${countryCode} ${def.id}: regions deckt alle ${fullSet.length} Regionen ab — landesweit, Feld weglassen (NAGER_FULL_REGION_SETS)`);
+    }
+  }
+}
+
+/**
+ * G-11: Namenstags-Abdeckung. Unter NAMEDAY_MIN_DAYS Tagen nur eine Warnung
+ * (eine Sammelzeile mit Laenderliste) — BG (101) und GR (176) sind bekannte
+ * Quellenluecken bei abalin, kein Build-Fehler. `hasNamedays` bleibt ab
+ * einem Tag true; die Zahl steht als `namedayDays` im Index.
+ *
+ * @param {Array<{code: string, days: number}>} coverage  je Land mit Namenstagen
+ */
+export const NAMEDAY_MIN_DAYS = 300;
+export function checkNamedayCoverage(coverage, warnings) {
+  const sparse = coverage
+    .filter((c) => c.days > 0 && c.days < NAMEDAY_MIN_DAYS)
+    .sort((a, b) => a.days - b.days || a.code.localeCompare(b.code));
+  if (sparse.length === 0) return;
+  warnings.push(
+    `Namenstage unter ${NAMEDAY_MIN_DAYS}/366 Tagen: ${sparse.map((c) => `${c.code} ${c.days}`).join(', ')} — Quellenluecke (abalin), zweite Quelle noetig`,
+  );
 }
 
 async function readJson(path) {
@@ -383,6 +427,7 @@ async function main() {
     }
   }
 
+  const namedayCoverage = [];
   for (const country of index.countries ?? []) {
     const pkgPath = join(DATA, country.package);
     if (!existsSync(pkgPath)) {
@@ -407,10 +452,22 @@ async function main() {
       ids.add(def.id);
     }
 
+    // G-11: Index-Felder muessen zum Paket passen (sonst build:index vergessen).
+    const namedayDays = countNamedayDays(pkg.namedays);
+    if (country.namedayDays !== undefined && country.namedayDays !== namedayDays) {
+      errors.push(`${country.code}: index namedayDays ${country.namedayDays} != ${namedayDays} — run build:index`);
+    }
+    if (country.hasNamedays !== undefined && country.hasNamedays !== namedayDays > 0) {
+      errors.push(`${country.code}: index hasNamedays ${country.hasNamedays} != ${namedayDays > 0} — run build:index`);
+    }
+    if (namedayDays > 0) namedayCoverage.push({ code: country.code, days: namedayDays });
+
+    checkRegions(country.code, pkg, errors);
     checkPrecomputedHorizon(country.code, pkg, errors, warnings);
     checkHolidayInfo(country.code, pkg, errors, warnings);
     checkImages(country.code, pkg, errors, creditHints);
   }
+  checkNamedayCoverage(namedayCoverage, warnings);
 
   // The GLOBAL package (global holiday articles + hero images, no definitions)
   // lives outside `countries` under the top-level `global` field.
