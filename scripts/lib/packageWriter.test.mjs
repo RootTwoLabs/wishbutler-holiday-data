@@ -80,3 +80,16 @@ test('packageContentKey ignoriert version, deliveredByteLength zaehlt LF-Bytes',
   assert.equal(deliveredByteLength('{\r\n  "a": 1\r\n}\r\n'), deliveredByteLength('{\n  "a": 1\n}\n'));
   assert.equal(deliveredByteLength('{\n  "ä": 1\n}\n'), Buffer.byteLength('{\n  "ä": 1\n}\n'));
 });
+
+test('G-7: force legt auch bei byte-gleichem Inhalt eine neue Version an', async () => {
+  await withPackagesDir(async (packagesDir) => {
+    const content = { countryCode: 'XX', schemaVersion: 1, definitions: [DEF], i18n: { holidays: LABELS } };
+    assert.deepEqual(await writePackageIfChanged('XX', content, { packagesDir }), { version: 1, changed: true });
+    assert.deepEqual(await writePackageIfChanged('XX', content, { packagesDir }), { version: 1, changed: false });
+    assert.deepEqual(await writePackageIfChanged('XX', content, { packagesDir, force: true }), { version: 2, changed: true });
+    assert.deepEqual(await readdir(join(packagesDir, 'XX')), ['v1', 'v2']);
+    const v2 = JSON.parse(await readFile(join(packagesDir, 'XX', 'v2', 'package.json'), 'utf8'));
+    assert.equal(v2.version, 2);
+    assert.equal(packageContentKey(v2), packageContentKey({ ...content, version: 2 }));
+  });
+});

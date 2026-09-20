@@ -9,15 +9,10 @@
  *
  * Usage: node scripts/fetch-namedays.mjs [CC ...]
  */
-import { readFile, writeFile, readdir } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
-import { join, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { pathToFileURL } from 'node:url';
 import { NAMEDAY_COUNTRIES, SOURCES } from './config.mjs';
 import { fetchWithTimeout, FailureBudget } from './lib/httpClient.mjs';
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const PACKAGES = join(__dirname, '..', 'data', 'packages');
+import { readLatestPackage, writePackageIfChanged } from './lib/packageWriter.mjs';
 
 /** Strings abalin returns that are not personal names. */
 const NON_NAME = /^(n\/a|support ukraine)/i;
@@ -51,18 +46,45 @@ async function fetchJson(url) {
   }
 }
 
-async function latestPackagePath(cc) {
-  const countryDir = join(PACKAGES, cc);
-  if (!existsSync(countryDir)) return null;
-  const versions = (await readdir(countryDir, { withFileTypes: true }))
-    .filter((e) => e.isDirectory() && /^v\d+$/.test(e.name))
-    .map((e) => parseInt(e.name.slice(1), 10))
-    .sort((a, b) => b - a);
-  if (versions.length === 0) return null;
-  return join(countryDir, `v${versions[0]}`, 'package.json');
+const pad = (n) => String(n).padStart(2, '0');
+
+/**
+ * Paket-Inhalt (ohne `version`, kanonische Feldreihenfolge wie packageWriter)
+ * mit ersetzter Namenstags-Tabelle.
+ */
+export function withNamedays(pkg, namedays) {
+  return {
+    countryCode: pkg.countryCode,
+    schemaVersion: pkg.schemaVersion,
+    definitions: pkg.definitions,
+    namedays,
+    i18n: pkg.i18n ?? { holidays: {} },
+    ...(pkg.images ? { images: pkg.images } : {}),
+  };
 }
 
-const pad = (n) => String(n).padStart(2, '0');
+/**
+ * G-7 (a): Namenstage landen als NEUE Paketversion (writePackageIfChanged),
+ * nicht mehr in-place in der letzten — eine verteilte Version aendert ihren
+ * Inhalt nie. Die Regel "nie eine lueckenhaftere Tabelle uebernehmen" bleibt.
+ *
+ * @returns {{ status: 'no-package' | 'kept' | 'unchanged' | 'written', version?: number, prev?: number }}
+ */
+export async function applyNamedays(cc, namedays, { packagesDir } = {}) {
+  const latest = await readLatestPackage(cc, packagesDir ? { packagesDir } : {});
+  if (!latest) return { status: 'no-package' };
+  const entries = Object.keys(namedays).length;
+  const existing = Object.keys(latest.pkg.namedays ?? {}).length;
+  // Nie eine vollstaendigere Tabelle durch eine lueckenhaftere ersetzen
+  // (Teil-Ausfall der Quelle) — die vorhandene bleibt dann stehen.
+  if (entries < existing) return { status: 'kept', version: latest.version, existing, entries };
+  const { version, changed } = await writePackageIfChanged(
+    cc,
+    withNamedays(latest.pkg, namedays),
+    packagesDir ? { packagesDir } : {},
+  );
+  return { status: changed ? 'written' : 'unchanged', version, prev: latest.version };
+}
 
 /** Splits abalin's comma-separated string into clean personal names. */
 function parseNames(raw) {
@@ -112,26 +134,23 @@ async function main() {
       console.warn(`  ${cc}: no namedays parsed`);
       continue;
     }
-    const pkgPath = await latestPackagePath(cc);
-    if (!pkgPath) {
+    const result = await applyNamedays(cc, maps[cc]);
+    if (result.status === 'no-package') {
       console.warn(`  ${cc}: no package yet, run fetch-holidays first`);
-      continue;
+    } else if (result.status === 'kept') {
+      console.warn(`  ${cc}: nur ${entries} Tage geholt, behalte vorhandene ${result.existing}`);
+    } else if (result.status === 'unchanged') {
+      console.log(`  ${cc}: ${entries} nameday entries (unveraendert, v${result.version})`);
+    } else {
+      console.log(`  ${cc}: ${entries} nameday entries -> v${result.prev} -> v${result.version}`);
     }
-    const pkg = JSON.parse(await readFile(pkgPath, 'utf8'));
-    // Nie eine vollstaendigere Tabelle durch eine lueckenhaftere ersetzen
-    // (Teil-Ausfall der Quelle) — die vorhandene bleibt dann stehen.
-    const existing = Object.keys(pkg.namedays ?? {}).length;
-    if (entries < existing) {
-      console.warn(`  ${cc}: nur ${entries} Tage geholt, behalte vorhandene ${existing}`);
-      continue;
-    }
-    pkg.namedays = maps[cc];
-    await writeFile(pkgPath, JSON.stringify(pkg, null, 2) + '\n', 'utf8');
-    console.log(`  ${cc}: ${entries} nameday entries`);
   }
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+// Nur als Skript ausfuehren — beim Import (Tests) nicht.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

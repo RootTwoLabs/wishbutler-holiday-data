@@ -46,6 +46,85 @@ const FUN_BLACKOUT = (() => {
 })();
 const FUN_EXPECTED_DAYS = new Set(expectedFunDays(FUN_BLACKOUT));
 
+/**
+ * G-6 (Audit 2026-09-20): Bewusste Einmaltermine — genau ein Jahr in der
+ * `precomputed`-Tabelle, kein wiederkehrender Anlass (docs/holiday-relevance-
+ * 2026-09-11.md). Sie loesen im Horizont-Check nur eine Warnung aus, damit ein
+ * verstrichener Termin sichtbar bleibt, ohne CI rot zu faerben.
+ */
+export const ONE_OFF_HOLIDAY_IDS = new Set([
+  'BG_currency_change_day', // Euro-Einfuehrung 2026 — einmalig
+  'GB_world_cup_bank_holiday', // schottischer WM-Bankfeiertag 2026 (gov.scot) — einmalig
+  'KR_local_election_day', // Kommunalwahl alle 4 Jahre; Nager listet nur den naechsten Termin (2026)
+]);
+
+/**
+ * G-6: Wiederkehrende `precomputed`-Regeln, denen die Quelle das Folgejahr
+ * (noch) nicht liefert. Befristet — nach `until` wird der Eintrag wieder zum
+ * Fehler, damit die Nachbesserung nicht versandet. Nachholen per
+ * `npm run build:holidays -- <CC>` (Netz, Nager.Date), nicht per Verlaengerung.
+ */
+export const STALE_PRECOMPUTED_ALLOWLIST = new Map([
+  [
+    'EG_eid_al_adha',
+    {
+      until: '2026-12-31',
+      reason: 'Nager liefert fuer EG Eid al-Adha nur 2026 (kein tentative-Gegenstueck); build:holidays EG muss 2027+ nachholen',
+    },
+  ],
+]);
+
+/** Jahr/Tag fuer den Horizont-Check; per Env ueberschreibbar (Tests, Reproduktion). */
+function validationClock() {
+  const today = process.env.VALIDATE_TODAY ?? new Date().toISOString().slice(0, 10);
+  const currentYear = Number(process.env.VALIDATE_YEAR) || Number(today.slice(0, 4));
+  return { currentYear, today };
+}
+
+/**
+ * G-6 / D-1: `precomputed`-Regeln muessen mindestens `currentYear + 1` tragen —
+ * sonst verliert die App den Anlass ab Januar still (holidayScheduler faengt
+ * den Wurf und ueberspringt). Bisher endeten 13 Regeln (TR ×7, EG ×2, AU, BG,
+ * GB, KR) im laufenden Jahr, ohne dass CI es merkte.
+ *
+ *   - max(Jahr) >= currentYear + 1           -> ok
+ *   - ID in ONE_OFF_HOLIDAY_IDS              -> Warnung (Einmaltermin, ggf. verstrichen)
+ *   - ID in STALE_PRECOMPUTED_ALLOWLIST      -> Warnung bis `until`, danach Fehler
+ *   - sonst                                  -> Fehler (auch bei genau einem Jahr:
+ *     ein wiederkehrender Anlass mit nur einem Jahr ist genau die Luecke, die
+ *     der Check finden soll; echte Einmaltermine gehoeren in ONE_OFF_HOLIDAY_IDS)
+ */
+export function checkPrecomputedHorizon(countryCode, pkg, errors, warnings, clock = validationClock()) {
+  const { currentYear, today } = clock;
+  const required = currentYear + 1;
+  for (const def of pkg.definitions ?? []) {
+    if (def.kind !== 'precomputed' || def.rule?.type !== 'precomputed') continue;
+    const years = Object.keys(def.rule.dates ?? {}).map(Number).filter(Number.isFinite);
+    if (years.length === 0) {
+      errors.push(`${countryCode} ${def.id}: precomputed rule without dates`);
+      continue;
+    }
+    const maxYear = Math.max(...years);
+    if (maxYear >= required) continue;
+    const span = years.length === 1 ? `nur ${maxYear}` : `${Math.min(...years)}–${maxYear}`;
+
+    if (ONE_OFF_HOLIDAY_IDS.has(def.id)) {
+      warnings.push(`${countryCode} ${def.id}: Einmaltermin (${span}), kein ${required} — entfernen, sobald verstrichen`);
+      continue;
+    }
+    const allow = STALE_PRECOMPUTED_ALLOWLIST.get(def.id);
+    if (allow && today <= allow.until) {
+      warnings.push(`${countryCode} ${def.id}: precomputed endet ${maxYear} (Allowlist bis ${allow.until}: ${allow.reason})`);
+      continue;
+    }
+    errors.push(
+      `${countryCode} ${def.id}: precomputed rule ends ${maxYear} (${span}), needs ${required}` +
+        (allow ? ` — Allowlist abgelaufen am ${allow.until} (${allow.reason})` : '') +
+        ` — run build:holidays ${countryCode}, or list a genuine one-off in ONE_OFF_HOLIDAY_IDS`,
+    );
+  }
+}
+
 async function readJson(path) {
   return JSON.parse(await readFile(path, 'utf8'));
 }
@@ -187,7 +266,12 @@ export function checkFunDefinitions(pkg, errors) {
       if (!licenseIsFree) {
         for (const locale of FUN_LOCALES) {
           const article = info[locale]?.[key];
-          if (article && !(typeof article.imageCredit === 'string' && article.imageCredit.includes(ref.credit ?? ' '))) {
+          if (!article) continue;
+          // Ohne Credit im Ref kann der Artikel den Autor nicht nennen -> Fehler
+          // (frueher: includes-Fallback mit literalem NUL-Byte, Git sah die Datei als Binaer).
+          const creditShown =
+            hasCredit && typeof article.imageCredit === 'string' && article.imageCredit.includes(ref.credit);
+          if (!creditShown) {
             errors.push(`FUN ${def.id}: article imageCredit missing or without author in "${locale}"`);
           }
         }
@@ -323,6 +407,7 @@ async function main() {
       ids.add(def.id);
     }
 
+    checkPrecomputedHorizon(country.code, pkg, errors, warnings);
     checkHolidayInfo(country.code, pkg, errors, warnings);
     checkImages(country.code, pkg, errors, creditHints);
   }
@@ -371,6 +456,7 @@ async function main() {
         if (pkg.version !== m.version) {
           errors.push(`MEMORIAL: version mismatch (index ${m.version} vs pkg ${pkg.version})`);
         }
+        checkPrecomputedHorizon('MEMORIAL', pkg, errors, warnings);
         checkImages('MEMORIAL', pkg, errors, creditHints);
       }
     }

@@ -29,6 +29,7 @@ import { detectRule, pickHolidayStart, rulesEqual } from './lib/ruleDetection.mj
 import { fetchJsonWithTimeout, FailureBudget } from './lib/httpClient.mjs';
 import { holidayDefinition, writePackage } from './lib/packageWriter.mjs';
 import { isSelectedHoliday } from './lib/holidaySelection.mjs';
+import { slugify, stripTentativeSuffix } from './lib/nagerSlug.mjs';
 
 // #130: Timeout + Retry/Backoff statt nacktem fetch (kein unbegrenztes Haengen).
 async function fetchJson(url) {
@@ -57,15 +58,18 @@ async function buildCountry(cc) {
     for (const h of holidays) {
       // English `name` is the stable key seed across years; `localName` is the
       // native-language label we surface to users in their locale.
-      const key = h.name;
+      // G-6: "(tentative date)" ist kein eigener Anlass — Suffix weg, damit
+      // bestaetigte und vorlaeufige Jahre in EINER Definition landen.
+      const name = stripTentativeSuffix(h.name);
+      const key = name;
       const mmdd = h.date.slice(5);
       const entry =
         byName.get(key) ??
-        { years: {}, observed: {}, slug: slugify(h.name), name: h.name, localName: h.localName };
+        { years: {}, observed: {}, slug: slugify(name), name, localName: stripTentativeSuffix(h.localName) };
       // Gleicher Name kann pro Jahr mehrfach kommen (mehrtaegiges Fest ODER
       // regionale Varianten) — erst alle Tage sammeln, unten aufloesen.
       (entry.observed[year] ??= []).push(mmdd);
-      if (!entry.localName && h.localName) entry.localName = h.localName;
+      if (!entry.localName && h.localName) entry.localName = stripTentativeSuffix(h.localName);
       byName.set(key, entry);
     }
   }
@@ -134,17 +138,8 @@ async function buildCountry(cc) {
 
 // detectRule, rulesEqual + Helfer (inkl. #134-Rueckverprobung und G-1
 // Ersatztag-Toleranz) liegen in lib/ruleDetection.mjs — geteilt mit
-// migrate-observed-rules.mjs.
-
-function slugify(name) {
-  return name
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/\p{M}/gu, '')
-    .replace(/['\u2019\u2018]/g, '') // drop apostrophes so "New Year's" -> "new_years"
-    .replace(/[^a-z0-9]+/g, '_')
-    .replace(/^_+|_+$/g, '');
-}
+// migrate-observed-rules.mjs. slugify/stripTentativeSuffix (G-6) liegen in
+// lib/nagerSlug.mjs — geteilt mit migrate-tentative-rules.mjs.
 
 // holidayDefinition + writePackage (inkl. Uebernahme von Namenstagen/Bildern/
 // Artikeln aus der Vorversion) liegen in lib/packageWriter.mjs — geteilt mit

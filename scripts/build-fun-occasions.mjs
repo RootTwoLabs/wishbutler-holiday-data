@@ -10,7 +10,8 @@
  * Versionierung wie build-articles: bei Inhaltsänderung neues v<N+1>-Verzeichnis,
  * sonst wird die aktuelle Version unverändert neu geschrieben.
  *
- * Usage: node scripts/build-fun-occasions.mjs   (FUN_VERSION=<n> erzwingt eine Version)
+ * Usage: node scripts/build-fun-occasions.mjs   (FUN_VERSION=<n> erzwingt eine Version,
+ *        nur n > letzte Version — G-7: veröffentlichte Versionen werden nie überschrieben)
  */
 import { mkdir, writeFile, readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -46,14 +47,32 @@ export function contentKey(pkg) {
 }
 
 /**
+ * G-7: `FUN_VERSION=<n>` darf eine veröffentlichte Version nie überschreiben —
+ * `n` muss größer als die letzte vorhandene Version sein. Wirft sonst.
+ */
+export function assertForcedVersion(forced, prev) {
+  if (forced == null || prev == null) return;
+  if (forced <= prev) {
+    throw new Error(
+      `FUN_VERSION=${forced} würde FUN v${prev} überschreiben oder zurückdrehen — ` +
+        `veröffentlichte Versionen sind unveränderlich, erlaubt ist nur FUN_VERSION>=${prev + 1}.`,
+    );
+  }
+}
+
+/**
  * Entscheidet die zu schreibende Version.
- * - `forced` gesetzt: exakt diese Version, kein Inhaltsvergleich.
+ * - `forced` gesetzt: exakt diese Version (muss > `prev` sein, s. assertForcedVersion),
+ *   kein Inhaltsvergleich.
  * - kein bisheriges Paket (`prev == null`): startet bei 1.
  * - sonst: unverändert (`prev`), oder `prev + 1` wenn sich der Inhalt (ohne
  *   `version`) gegenüber `prevPkg` geändert hat.
  */
 export function decideVersion({ prev, forced, prevPkg, candidate }) {
-  if (forced != null) return { version: forced, bumped: forced !== prev };
+  if (forced != null) {
+    assertForcedVersion(forced, prev);
+    return { version: forced, bumped: true };
+  }
   if (prev == null) return { version: 1, bumped: true };
   const changed = !prevPkg || contentKey(prevPkg) !== contentKey(candidate);
   return { version: changed ? prev + 1 : prev, bumped: changed };
@@ -74,9 +93,17 @@ function parseForcedVersion(raw) {
 async function main() {
   const forced = parseForcedVersion(process.env.FUN_VERSION);
 
+  const prev = await latestVersion(OUT_DIR);
+  // G-7: Vor jeder Arbeit abbrechen, wenn FUN_VERSION eine bestehende Version träfe.
+  try {
+    assertForcedVersion(forced, prev);
+  } catch (err) {
+    console.error(`build-fun-occasions: ${err.message}`);
+    process.exit(2);
+  }
+
   const data = await loadFunDays(CONTENT);
   const errors = validateFunDays(data, { imagesRoot: join(DATA, 'images'), requireImages: true });
-  const prev = await latestVersion(OUT_DIR);
 
   if (errors.length > 0) {
     const shown = errors.slice(0, MAX_SHOWN_ERRORS);

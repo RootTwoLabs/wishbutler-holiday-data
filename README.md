@@ -60,6 +60,26 @@ Genuine date changes (NL Koningsdag Sun → Sat, astronomical equinox holidays,
 "nearest Friday" rules) stay `precomputed`. Existing packages were migrated once
 with `npm run migrate:observed-rules` (offline, bumps only changed packages).
 
+Nager marks unconfirmed future dates with a "(tentative date)" name suffix
+(Islamic feasts, AFL Grand Final …). The suffix is stripped before slugging
+(`stripTentativeSuffix` in `scripts/lib/nagerSlug.mjs`), so confirmed and
+tentative years end up in **one** `precomputed` definition instead of a
+`<id>` (this year only) + `<id>_tentative_date` (following years) pair that
+made the activated holiday silently end after the current year. Existing
+packages were merged once with `npm run migrate:tentative-rules` (offline;
+canonical years win on collision, tentative labels/articles/image keys are
+dropped, orphaned `_tentative_date` keys are pruned from
+`content/holiday-labels/`).
+
+`npm run validate` enforces the look-ahead: every `precomputed` rule must
+carry at least `currentYear + 1` (`checkPrecomputedHorizon` in
+`scripts/validate.mjs`). Genuine one-off dates listed in `ONE_OFF_HOLIDAY_IDS`
+only warn; a recurring holiday the source does not (yet) deliver for next
+year can be parked in `STALE_PRECOMPUTED_ALLOWLIST` **with an expiry date** —
+after `until` it fails again. Fix by refreshing the source
+(`npm run build:holidays -- <CC>`), not by extending the allowlist.
+`VALIDATE_YEAR` / `VALIDATE_TODAY` override the clock for reproduction.
+
 ## Data sources
 
 - Public holidays: [Nager.Date](https://date.nager.at/), [OpenHolidays API](https://openholidaysapi.org/),
@@ -133,6 +153,26 @@ unchanged monthly run therefore produces no commit and no tag.
 (`scripts/fetch-images.mjs [CC/slug …]`, FUN with `--fun`) is a manual,
 curated step: fetch, review with `curate-images.mjs promote|drop`, run
 `build:thumbnails`, then commit images + `CREDITS.md` together.
+
+**Published versions are immutable — no script writes into an existing
+`v<N>` any more:**
+
+- `build:namedays` writes the nameday table as a new package version via
+  `writePackageIfChanged` (unchanged table = no bump; a sparser table than the
+  published one is still never taken over).
+- `FUN_VERSION=<n> npm run build:fun-occasions` is only accepted for
+  `n > latest FUN version` (exit 2 otherwise).
+- `curate-images.mjs promote|drop` swaps image bytes **under the same path**,
+  which the package JSON cannot see. It therefore re-runs the content merge for
+  every package whose latest version references the folder and force-bumps the
+  owning package (`<CC>/…` → that country, global slug → GLOBAL) even when the
+  JSON is byte-identical; other referencing packages (a global folder such as
+  `new_year` is referenced by ~120 country packages) bump only when their
+  credit/licence changed — the app resolves image URIs against the tag-pinned
+  base URL, so a new data tag serves the new bytes there anyway. FUN and
+  MEMORIAL have their own generators; the script prints the exact command
+  (`FUN_VERSION=<prev+1> npm run build:fun-occasions`). `--no-bump` skips the
+  step for batch curation — then bump before committing.
 
 `CREDITS.md`, `*.json` and `*.mjs` are forced to LF via `.gitattributes`
 (Windows checkouts with `core.autocrlf` used to make `CREDITS.md` unparsable,

@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
 import { FUN_LOCALES, expectedFunDays, loadFunDays, buildFunPackage } from './lib/funDays.mjs';
-import { latestVersion, contentKey, decideVersion } from './build-fun-occasions.mjs';
+import { latestVersion, contentKey, decideVersion, assertForcedVersion } from './build-fun-occasions.mjs';
 import { checkFunDefinitions } from './validate.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -93,13 +93,24 @@ test('decideVersion: geänderte images/Credits -> prev + 1', () => {
   assert.deepEqual(result, { version: 8, bumped: true });
 });
 
-test('decideVersion: forced überschreibt den Bump-Check', () => {
+test('decideVersion: forced überschreibt den Bump-Check, aber nur nach vorn (G-7)', () => {
   const candidate = { countryCode: 'FUN', foo: 'bar' };
   const prevPkg = { version: 3, countryCode: 'FUN', foo: 'bar' };
   const result = decideVersion({ prev: 3, forced: 9, prevPkg, candidate });
   assert.deepEqual(result, { version: 9, bumped: true });
-  // forced gleich prev: kein Bump, aber trotzdem kein Inhaltsvergleich nötig
-  assert.deepEqual(decideVersion({ prev: 3, forced: 3, prevPkg, candidate }), { version: 3, bumped: false });
+  // forced gleich prev oder kleiner: würde eine veröffentlichte Version überschreiben -> Fehler
+  assert.throws(() => decideVersion({ prev: 3, forced: 3, prevPkg, candidate }), /FUN_VERSION=3 würde FUN v3 überschreiben/);
+  assert.throws(() => decideVersion({ prev: 3, forced: 2, prevPkg, candidate }), /FUN_VERSION>=4/);
+  // ohne Vorgänger ist jede Version erlaubt
+  assert.deepEqual(decideVersion({ prev: null, forced: 1, prevPkg: null, candidate }), { version: 1, bumped: true });
+});
+
+test('assertForcedVersion: n > prev ok, n <= prev wirft, ohne forced/prev no-op', () => {
+  assert.doesNotThrow(() => assertForcedVersion(4, 3));
+  assert.doesNotThrow(() => assertForcedVersion(null, 3));
+  assert.doesNotThrow(() => assertForcedVersion(1, null));
+  assert.throws(() => assertForcedVersion(3, 3));
+  assert.throws(() => assertForcedVersion(1, 3));
 });
 
 test('decideVersion: kein Vorgänger -> Version 1', () => {
@@ -219,4 +230,20 @@ test('build-fun-occasions.mjs: FUN_VERSION=abc beendet mit Exit-Code 2', () => {
   });
   assert.equal(result.status, 2);
   assert.ok(result.stderr.includes('FUN_VERSION'), result.stderr);
+});
+
+test('build-fun-occasions.mjs: FUN_VERSION=<letzte Version> bricht ab, ohne etwas zu schreiben (G-7)', async () => {
+  const outDir = join(__dirname, '..', 'data', 'packages', 'FUN');
+  const prev = await latestVersion(outDir);
+  if (prev == null) return; // kein FUN-Paket im Checkout
+  const before = readFileSync(join(outDir, `v${prev}`, 'package.json'), 'utf8');
+  const script = join(__dirname, 'build-fun-occasions.mjs');
+  const result = spawnSync(process.execPath, [script], {
+    env: { ...process.env, FUN_VERSION: String(prev) },
+    encoding: 'utf8',
+  });
+  assert.equal(result.status, 2, result.stderr);
+  assert.match(result.stderr, new RegExp(`FUN_VERSION=${prev} würde FUN v${prev} überschreiben`));
+  assert.equal(readFileSync(join(outDir, `v${prev}`, 'package.json'), 'utf8'), before);
+  assert.equal(await latestVersion(outDir), prev);
 });

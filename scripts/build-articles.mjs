@@ -160,7 +160,7 @@ async function mergePackage(cc, ctx) {
  * Versioned like country packages (new v<N> dir), but only bumps when the
  * resolved content actually changes, to avoid needless re-downloads.
  */
-async function buildGlobalPackage(globalArticles, creditHints) {
+export async function buildGlobalContent(globalArticles, creditHints) {
   const holidayInfo = {};
   for (const locale of CONTENT_LOCALES) {
     const bySlug = globalArticles[locale];
@@ -186,13 +186,21 @@ async function buildGlobalPackage(globalArticles, creditHints) {
   const i18n = { holidays: {} };
   if (Object.keys(holidayInfo).length > 0) i18n.holidayInfo = holidayInfo;
 
-  const base = {
+  return {
     countryCode: 'GLOBAL',
     schemaVersion: 1,
     definitions: [],
     i18n,
     ...(Object.keys(images).length > 0 ? { images } : {}),
   };
+}
+
+async function buildGlobalPackage(globalArticles, creditHints) {
+  // Inhalt getrennt gebaut (buildGlobalContent), damit curate-images.mjs nach
+  // einem Bildtausch denselben Stand offline erzeugen und erzwungen bumpen kann (G-7).
+  const base = await buildGlobalContent(globalArticles, creditHints);
+  const holidayInfo = base.i18n.holidayInfo ?? {};
+  const images = base.images ?? {};
 
   // Reuse the previous version when nothing changed; otherwise bump (G-4).
   const { version } = await writePackageIfChanged('GLOBAL', base);

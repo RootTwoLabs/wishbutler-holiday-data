@@ -86,12 +86,16 @@ export async function readLatestPackage(cc, { packagesDir = PACKAGES } = {}) {
  * wenn es sich von der letzten Version unterscheidet. Veroeffentlichte
  * Versionen werden nie ueberschrieben.
  *
+ * `force: true` (G-7, curate-images) legt auch bei byte-gleichem Inhalt eine
+ * neue Version an — noetig, wenn sich eine referenzierte Bilddatei unter
+ * gleichem Pfad geaendert hat und das Paket-JSON davon nichts weiss.
+ *
  * @returns {{ version: number, changed: boolean }} — `version` ist die Version,
  *   die den Inhalt jetzt traegt (bei `changed: false` die bisherige).
  */
-export async function writePackageIfChanged(cc, content, { packagesDir = PACKAGES } = {}) {
+export async function writePackageIfChanged(cc, content, { packagesDir = PACKAGES, force = false } = {}) {
   const latest = await readLatestPackage(cc, { packagesDir });
-  if (latest && packageContentKey(latest.pkg) === packageContentKey(content)) {
+  if (!force && latest && packageContentKey(latest.pkg) === packageContentKey(content)) {
     return { version: latest.version, changed: false };
   }
   const next = (latest?.version ?? 0) + 1;

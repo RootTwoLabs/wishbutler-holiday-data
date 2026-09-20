@@ -3,80 +3,98 @@
  * Bild-Kuratierung nach fetch-images.mjs (die Commons/Openverse-Treffer sind
  * Zufallsware und werden gesichtet):
  *
- *   node scripts/curate-images.mjs promote <dir> <n>   # <n>.jpg wird Titelbild (Tausch mit 01.jpg)
- *   node scripts/curate-images.mjs drop <dir> <n>      # <n>.jpg loeschen, folgende ruecken nach
+ *   node scripts/curate-images.mjs promote <dir> <n> [--no-bump]  # <n>.jpg wird Titelbild (Tausch mit 01.jpg)
+ *   node scripts/curate-images.mjs drop <dir> <n>    [--no-bump]  # <n>.jpg loeschen, folgende ruecken nach
  *
  * <dir> relativ zu data/images, z. B. `IL/rosh_hashanah` oder `pentecost`.
  * Die Attributionszeilen in CREDITS.md (Pfad -> Credit) werden mit umbenannt
- * bzw. entfernt, damit build-articles.mjs die richtigen Credits zuordnet.
+ * bzw. entfernt, damit build-articles.mjs die richtigen Credits zuordnet
+ * (Kern in lib/imageCuration.mjs, offline getestet).
  *
  * Thumbnail-Sidecars (`NN.thumb.jpg`, s. build-thumbnails.mjs) werden von
  * promote/drop nicht mitgezaehlt (Filter `^\d\d\.jpg$`). Nach dem Umbenennen
  * passen sie aber nicht mehr zu ihren Originalen, daher werden alle Thumbs des
  * Ordners geloescht — anschliessend `npm run build:thumbnails -- <dir>` laufen lassen.
+ *
+ * G-7 (c) — Versions-Bump nach dem Dateitausch (Audit 2026-09-20):
+ * promote/drop aendern Bildbytes UNTER GLEICHEM PFAD; das Paket-JSON merkt das
+ * nur, wenn sich dabei der Credit aendert. Deshalb wird hier direkt danach —
+ * offline, gleiche Mechanik wie build-articles — der Content-Merge fuer jedes
+ * Paket ausgefuehrt, das den Ordner referenziert:
+ *   - das BESITZENDE Paket (`<CC>/…` -> Land, globaler Slug -> GLOBAL) wird
+ *     mit `force: true` gebumpt, auch bei byte-gleichem Inhalt;
+ *   - weitere referenzierende Pakete (globale Ordner wie `new_year` haengen an
+ *     ~120 Laenderpaketen) werden nur bei Inhaltsaenderung (Credit/Lizenz)
+ *     gebumpt — die App loest Bild-URIs gegen die tag-gepinnte Basis-URL auf,
+ *     ein neuer Daten-Tag liefert die neuen Bytes dort ohnehin;
+ *   - FUN und MEMORIAL haben eigene Generatoren mit Content-Validierung; fuer
+ *     sie wird der genaue Befehl ausgegeben (`FUN_VERSION=<prev+1>`, das seit
+ *     G-7 (b) nur noch vorwaerts erlaubt ist).
+ * `--no-bump` ueberspringt den Schritt (z. B. mehrere Ordner nacheinander) —
+ * dann ist der Bump Pflicht, bevor committet wird.
  */
-import { readFile, writeFile, rename, unlink, readdir } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { promoteImage, dropImage, packageCodeForImageDir, referencingPackages } from './lib/imageCuration.mjs';
+import { PACKAGES, readLatestPackage, writePackageIfChanged, listVersions } from './lib/packageWriter.mjs';
+import { loadMergeContext, mergeContent, buildGlobalContent } from './build-articles.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CREDITS = join(ROOT, 'CREDITS.md');
+const IMAGES = join(ROOT, 'data', 'images');
 
-const [, , cmd, dir, nArg] = process.argv;
+const args = process.argv.slice(2);
+const noBump = args.includes('--no-bump');
+const [cmd, dir, nArg] = args.filter((a) => !a.startsWith('-'));
 const n = Number(nArg);
 if (!['promote', 'drop'].includes(cmd) || !dir || !Number.isInteger(n) || n < 1) {
-  console.error('usage: curate-images.mjs promote|drop <dir> <n>');
+  console.error('usage: curate-images.mjs promote|drop <dir> <n> [--no-bump]');
   process.exit(1);
 }
-const abs = join(ROOT, 'data', 'images', dir);
-const rel = (f) => `images/${dir}/${f}`;
-const name = (i) => `${String(i).padStart(2, '0')}.jpg`;
 
-let credits = await readFile(CREDITS, 'utf8');
-const creditLine = (path) =>
-  credits.split('\n').find((l) => l.startsWith(`- \`${path}\` — `)) ?? null;
-const setCredit = (path, line) => {
-  credits = credits.split('\n').filter((l) => !l.startsWith(`- \`${path}\` — `)).join('\n');
-  if (line) credits = credits.replace('<!-- END:IMAGE-CREDITS -->', `${line}\n<!-- END:IMAGE-CREDITS -->`);
-};
+const op = cmd === 'promote' ? promoteImage : dropImage;
+const result = await op({ imagesRoot: IMAGES, creditsPath: CREDITS, dir, n });
+console.log(cmd === 'promote' ? `${dir}: ${String(n).padStart(2, '0')}.jpg -> 01.jpg` : `${dir}: ${String(n).padStart(2, '0')}.jpg geloescht`);
+if (result.staleThumbs > 0) {
+  console.log(`${dir}: ${result.staleThumbs} Thumbnail(s) geloescht — jetzt \`npm run build:thumbnails -- ${dir}\` ausfuehren`);
+}
 
-if (cmd === 'promote') {
-  if (n !== 1) {
-    const a = creditLine(rel(name(1)));
-    const b = creditLine(rel(name(n)));
-    await rename(join(abs, name(1)), join(abs, 'tmp.jpg'));
-    await rename(join(abs, name(n)), join(abs, name(1)));
-    await rename(join(abs, 'tmp.jpg'), join(abs, name(n)));
-    setCredit(rel(name(1)), b ? b.replace(rel(name(n)), rel(name(1))) : null);
-    setCredit(rel(name(n)), a ? a.replace(rel(name(1)), rel(name(n))) : null);
+/** G-7 (c): Pakete nachziehen, die den Ordner referenzieren (s. Kopfkommentar). */
+async function bumpReferencingPackages() {
+  const owner = packageCodeForImageDir(dir);
+  const codes = [...new Set([owner, ...(await referencingPackages(dir, PACKAGES))])];
+  const ctx = await loadMergeContext();
+  const bumped = [];
+  const manual = [];
+
+  for (const code of codes) {
+    if (code === 'FUN' || code === 'MEMORIAL') {
+      const prev = (await listVersions(join(PACKAGES, code))).at(-1) ?? 0;
+      manual.push(
+        code === 'FUN'
+          ? `FUN_VERSION=${prev + 1} npm run build:fun-occasions`
+          : `npm run build:memorial   (MEMORIAL v${prev}; bumpt nur bei Inhaltsaenderung)`,
+      );
+      continue;
+    }
+    const latest = await readLatestPackage(code);
+    if (!latest && code !== 'GLOBAL') continue;
+    const content =
+      code === 'GLOBAL'
+        ? await buildGlobalContent(ctx.globalArticles, ctx.creditHints)
+        : await mergeContent(code, latest.pkg, ctx);
+    const { version, changed } = await writePackageIfChanged(code, content, { force: code === owner });
+    if (changed) bumped.push(`${code} v${latest?.version ?? 0}->v${version}${code === owner ? ' (erzwungen)' : ''}`);
   }
-  console.log(`${dir}: ${name(n)} -> 01.jpg`);
+
+  console.log(`Bump: ${bumped.join(', ') || 'keine Paketaenderung'}`);
+  if (manual.length > 0) console.log(`Manuell nachziehen:\n  ${manual.join('\n  ')}`);
+  return bumped.length;
+}
+
+if (noBump) {
+  console.warn(`--no-bump: Paket ${packageCodeForImageDir(dir)} wurde NICHT gebumpt — vor dem Commit nachholen (erneut ohne --no-bump oder build:articles).`);
 } else {
-  const files = (await readdir(abs)).filter((f) => /^\d\d\.jpg$/.test(f)).sort();
-  await unlink(join(abs, name(n)));
-  setCredit(rel(name(n)), null);
-  for (let i = n + 1; i <= files.length; i++) {
-    const line = creditLine(rel(name(i)));
-    await rename(join(abs, name(i)), join(abs, name(i - 1)));
-    setCredit(rel(name(i)), null);
-    setCredit(rel(name(i - 1)), line ? line.replace(rel(name(i)), rel(name(i - 1))) : null);
-  }
-  console.log(`${dir}: ${name(n)} geloescht`);
+  const count = await bumpReferencingPackages();
+  if (count > 0) console.log('Jetzt: npm run build:index && npm run validate');
 }
-
-// Veraltete Thumbs entsorgen: nach promote/drop stimmt die NN-Zuordnung nicht mehr.
-const staleThumbs = (await readdir(abs)).filter((f) => /\.thumb\.jpe?g$/i.test(f));
-for (const f of staleThumbs) await unlink(join(abs, f));
-if (staleThumbs.length > 0) {
-  console.log(`${dir}: ${staleThumbs.length} Thumbnail(s) geloescht — jetzt \`npm run build:thumbnails -- ${dir}\` ausfuehren`);
-}
-
-// Credit-Block sortiert halten (wie fetch-images.mjs ihn schreibt).
-const m = credits.match(
-  /(<!-- BEGIN:IMAGE-CREDITS \(auto-generated\) -->\n)([\s\S]*?)(<!-- END:IMAGE-CREDITS -->)/,
-);
-if (m) {
-  const lines = m[2].split('\n').filter((l) => l.startsWith('- `')).sort();
-  credits = credits.replace(m[0], `${m[1]}${lines.join('\n')}\n${m[3]}`);
-}
-await writeFile(CREDITS, credits, 'utf8');
