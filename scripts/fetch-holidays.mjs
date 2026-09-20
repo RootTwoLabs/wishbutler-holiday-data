@@ -25,7 +25,7 @@ import {
   GLOBAL_RULES,
   HOLIDAY_SLUG_ALIASES,
 } from './config.mjs';
-import { detectRule, pickHolidayStart } from './lib/ruleDetection.mjs';
+import { detectRule, pickHolidayStart, rulesEqual } from './lib/ruleDetection.mjs';
 import { fetchJsonWithTimeout, FailureBudget } from './lib/httpClient.mjs';
 import { holidayDefinition, writePackage } from './lib/packageWriter.mjs';
 import { isSelectedHoliday } from './lib/holidaySelection.mjs';
@@ -125,20 +125,16 @@ async function buildCountry(cc) {
   if (Object.keys(enLabels).length > 0) labels.en = enLabels;
   if (Object.keys(nativeLabels).length > 0) labels[nativeLocale] = nativeLabels;
 
-  await writePackage(cc, definitions, labels);
+  // G-4: writePackage legt nur bei Inhaltsaenderung eine neue Version an.
+  const { version, changed } = await writePackage(cc, definitions, labels);
   console.log(
-    `  ${cc}: ${definitions.length} definitions, labels: ${Object.keys(labels).join('+') || 'none'}`,
+    `  ${cc}: v${version}${changed ? ' (neu)' : ' (unveraendert)'}, ${definitions.length} definitions, labels: ${Object.keys(labels).join('+') || 'none'}`,
   );
 }
 
-function rulesEqual(a, b) {
-  if (a.type !== b.type) return false;
-  if (a.type === 'fixed') return a.month === b.month && a.day === b.day;
-  if (a.type === 'easter_relative') return a.offsetDays === b.offsetDays;
-  return false;
-}
-
-// detectRule + Helfer (inkl. #134-Rueckverprobung) liegen jetzt in lib/ruleDetection.mjs.
+// detectRule, rulesEqual + Helfer (inkl. #134-Rueckverprobung und G-1
+// Ersatztag-Toleranz) liegen in lib/ruleDetection.mjs — geteilt mit
+// migrate-observed-rules.mjs.
 
 function slugify(name) {
   return name

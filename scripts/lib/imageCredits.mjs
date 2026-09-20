@@ -21,7 +21,11 @@ export async function loadCreditHints(creditsPath) {
     /<!-- BEGIN:IMAGE-CREDITS \(auto-generated\) -->([\s\S]*?)<!-- END:IMAGE-CREDITS -->/,
   );
   if (!block) return hints;
-  for (const line of block[1].split('\n')) {
+  // G-2: CREDITS.md kann im Working Tree mit CRLF liegen (core.autocrlf=true auf
+  // Windows). Ohne Normalisierung matcht CREDIT_LINE_RE keine einzige Zeile
+  // (`$` vor `\r`), decorateImageRef markiert dann JEDES Bild als CC0 ohne
+  // Namensnennung. Deshalb zeilenweise CR-tolerant splitten.
+  for (const line of block[1].split(/\r?\n/)) {
     const m = line.match(CREDIT_LINE_RE);
     if (m) hints.set(m[1], { credit: m[2], license: m[3], ...(m[4] ? { sourceUrl: m[4] } : {}) });
   }

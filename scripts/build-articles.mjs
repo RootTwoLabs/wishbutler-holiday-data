@@ -4,11 +4,16 @@
  * country's latest package.json.
  *
  * Usage: node scripts/build-articles.mjs [CC ...]
+ *
+ * `mergeContent()` (Artikel + Bilder + Label-Katalog fuer ein gegebenes Paket)
+ * ist exportiert, damit migrate-observed-rules.mjs nach einer Regelaenderung
+ * denselben Content-Stand in EINEM Bump erzeugen kann, den die CI-Pipeline
+ * (fetch-holidays -> build-articles) liefern wuerde.
  */
-import { readFile, writeFile, readdir, mkdir } from 'node:fs/promises';
+import { readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import {
   CONTENT_LOCALES,
   loadGlobalArticles,
@@ -22,6 +27,7 @@ import {
 import { loadCreditHints, decorateImageRef } from './lib/imageCredits.mjs';
 import { FUN_COUNTRY_CODE } from './lib/funDays.mjs';
 import { loadLabelCatalog, mergeHolidayLabels } from './lib/labelCatalog.mjs';
+import { writePackageIfChanged } from './lib/packageWriter.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -59,13 +65,22 @@ async function latestPackageInfo(cc) {
   };
 }
 
-async function mergePackage(cc, globalArticles, countryArticles, creditHints, labelCatalog) {
-  const info = await latestPackageInfo(cc);
-  if (!info) {
-    console.warn(`  ${cc}: no package, skip`);
-    return;
-  }
-  const pkg = await readJson(info.path);
+/** Laedt einmalig alles, was mergeContent() braucht (Artikel, Credits, Label-Katalog). */
+export async function loadMergeContext() {
+  return {
+    globalArticles: await loadGlobalArticles(CONTENT),
+    countryArticles: await loadCountryArticles(CONTENT),
+    creditHints: await loadCreditHints(join(ROOT, 'CREDITS.md')),
+    labelCatalog: await loadLabelCatalog(join(CONTENT, 'holiday-labels')),
+  };
+}
+
+/**
+ * Reiner Content-Merge: liefert das Paket `pkg` (ohne `version`) mit
+ * aufgeloesten Artikeln, Bild-Refs und Katalog-Labels — in der kanonischen
+ * Feldreihenfolge, damit der Inhaltsvergleich in writePackageIfChanged stabil ist.
+ */
+export async function mergeContent(cc, pkg, { globalArticles, countryArticles, creditHints, labelCatalog }) {
   const slugs = [...new Set(pkg.definitions.map((d) => slugFromLabelKey(d.labelKey)))];
 
   const holidayInfo = {};
@@ -97,7 +112,7 @@ async function mergePackage(cc, globalArticles, countryArticles, creditHints, la
   const i18n = { holidays: mergeHolidayLabels(pkg.i18n?.holidays, labelCatalog) };
   if (Object.keys(holidayInfo).length > 0) i18n.holidayInfo = holidayInfo;
 
-  const base = {
+  return {
     countryCode: pkg.countryCode,
     schemaVersion: pkg.schemaVersion,
     definitions: pkg.definitions,
@@ -105,42 +120,34 @@ async function mergePackage(cc, globalArticles, countryArticles, creditHints, la
     i18n,
     ...(Object.keys(images).length > 0 ? { images } : {}),
   };
+}
+
+async function mergePackage(cc, ctx) {
+  const info = await latestPackageInfo(cc);
+  if (!info) {
+    console.warn(`  ${cc}: no package, skip`);
+    return;
+  }
+  const pkg = await readJson(info.path);
+  const base = await mergeContent(cc, pkg, ctx);
 
   // Data discipline: a content change (e.g. newly added articles/images) MUST
   // bump the version into a new v<N> dir so the generated index advertises a
   // higher version and clients reliably re-download. Editing the existing
   // version in place (the previous behaviour) left stale copies on devices that
-  // had already cached that version. Reuse the version only when nothing moved.
-  let version = info.version;
-  let outPath = info.path;
-  if (packageContentKey(pkg) !== packageContentKey({ ...base, version: info.version })) {
-    version = info.version + 1;
-    const dir = join(PACKAGES, cc, `v${version}`);
-    await mkdir(dir, { recursive: true });
-    outPath = join(dir, 'package.json');
-  }
+  // had already cached that version. Reuse the version only when nothing moved
+  // (G-4: gemeinsamer Inhaltsvergleich in writePackageIfChanged).
+  const { version, changed } = await writePackageIfChanged(cc, base);
 
-  const out = { ...base, version };
-  // Published versions are immutable, including formatting and field order.
-  if (outPath !== info.path) {
-    await writeFile(outPath, JSON.stringify(out, null, 2) + '\n', 'utf8');
-  }
-
-  const articleCount = Object.values(holidayInfo).reduce(
+  const articleCount = Object.values(base.i18n.holidayInfo ?? {}).reduce(
     (n, m) => n + Object.keys(m).length,
     0,
   );
-  const imageCount = Object.keys(images).length;
-  const bumped = version !== info.version ? ` -> v${version}` : '';
+  const imageCount = Object.keys(base.images ?? {}).length;
+  const bumped = changed ? ` -> v${version}` : '';
   console.log(
     `  ${cc}${bumped}: ${articleCount} article entries, ${imageCount} image slugs`,
   );
-}
-
-/** Content of a package without the (auto-incrementing) version field. */
-function packageContentKey(pkg) {
-  const { version, ...rest } = pkg;
-  return JSON.stringify(rest);
 }
 
 /**
@@ -176,13 +183,6 @@ async function buildGlobalPackage(globalArticles, creditHints) {
     }
   }
 
-  const globalDir = join(PACKAGES, 'GLOBAL');
-  const versions = (await listDirs(globalDir))
-    .map(versionFromDir)
-    .filter((v) => v != null)
-    .sort((a, b) => a - b);
-  const prevVersion = versions.at(-1) ?? null;
-
   const i18n = { holidays: {} };
   if (Object.keys(holidayInfo).length > 0) i18n.holidayInfo = holidayInfo;
 
@@ -194,27 +194,8 @@ async function buildGlobalPackage(globalArticles, creditHints) {
     ...(Object.keys(images).length > 0 ? { images } : {}),
   };
 
-  // Reuse the previous version when nothing changed; otherwise bump.
-  let version = prevVersion ?? 1;
-  if (prevVersion != null) {
-    try {
-      const prevPkg = await readJson(
-        join(globalDir, `v${prevVersion}`, 'package.json'),
-      );
-      if (packageContentKey({ ...prevPkg }) !== packageContentKey({ ...base, version: prevVersion })) {
-        version = prevVersion + 1;
-      }
-    } catch {
-      version = prevVersion + 1;
-    }
-  }
-
-  const pkg = { ...base, version };
-  const dir = join(globalDir, `v${version}`);
-  if (version !== prevVersion) {
-    await mkdir(dir, { recursive: true });
-    await writeFile(join(dir, 'package.json'), JSON.stringify(pkg, null, 2) + '\n', 'utf8');
-  }
+  // Reuse the previous version when nothing changed; otherwise bump (G-4).
+  const { version } = await writePackageIfChanged('GLOBAL', base);
 
   const articleCount = Object.values(holidayInfo).reduce(
     (n, m) => n + Object.keys(m).length,
@@ -227,30 +208,30 @@ async function buildGlobalPackage(globalArticles, creditHints) {
 
 async function main() {
   const only = process.argv.slice(2).filter((a) => !a.startsWith('-'));
-  const globalArticles = await loadGlobalArticles(CONTENT);
-  const countryArticles = await loadCountryArticles(CONTENT);
-  const creditHints = await loadCreditHints(join(ROOT, 'CREDITS.md'));
-  const labelCatalog = await loadLabelCatalog(join(CONTENT, 'holiday-labels'));
+  const ctx = await loadMergeContext();
 
   const countries =
     only.length > 0 ? only : (await listDirs(PACKAGES)).filter((c) => /^[A-Z]{2}$/.test(c));
 
   console.log(`Merging articles into ${countries.length} country packages...`);
   for (const cc of countries.sort()) {
-    await mergePackage(cc, globalArticles, countryArticles, creditHints, labelCatalog);
+    await mergePackage(cc, ctx);
   }
 
   // The GLOBAL package is independent of the per-country build above and is only
   // (re)built on a full run (no specific countries requested).
   if (only.length === 0) {
     console.log('Building GLOBAL package...');
-    await buildGlobalPackage(globalArticles, creditHints);
+    await buildGlobalPackage(ctx.globalArticles, ctx.creditHints);
   }
 
   console.log('Done.');
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+// Nur als Skript ausfuehren — beim Import (migrate-observed-rules.mjs) nicht.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

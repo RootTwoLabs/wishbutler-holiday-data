@@ -40,6 +40,30 @@ test('loadCreditHints: Zeile mit Quell-URL liefert sourceUrl', async () => {
   );
 });
 
+test('G-2: CRLF-Zeilenenden (Windows-Checkout) liefern dieselben Hints wie LF', async () => {
+  const lines = [
+    '- `images/foo/01.jpg` — Jane Doe (CC BY-SA 4.0)',
+    '- `images/FUN/x_day/01.jpg` — Peter Häll (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Time_clock.jpg>',
+  ];
+  let lfHints;
+  await withCredits(lines.join('\n'), async (file) => {
+    lfHints = await loadCreditHints(file);
+  });
+  const dir = await mkdtemp(join(tmpdir(), 'credits-crlf-'));
+  const file = join(dir, 'CREDITS.md');
+  try {
+    await writeFile(
+      file,
+      `# Credits\r\n\r\n<!-- BEGIN:IMAGE-CREDITS (auto-generated) -->\r\n${lines.join('\r\n')}\r\n<!-- END:IMAGE-CREDITS -->\r\n`,
+    );
+    const crlfHints = await loadCreditHints(file);
+    assert.equal(crlfHints.size, 2);
+    assert.deepEqual([...crlfHints.entries()], [...lfHints.entries()]);
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
+});
+
 test('decorateImageRef: übernimmt sourceUrl aus dem Hint, überschreibt aber keine vorhandene', () => {
   const hints = new Map([['images/a/01.jpg', { credit: 'A', license: 'CC BY 4.0', sourceUrl: 'https://c/1' }]]);
   assert.deepEqual(decorateImageRef({ path: 'images/a/01.jpg' }, hints), {

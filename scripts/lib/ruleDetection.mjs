@@ -96,6 +96,17 @@ export function detectNthWeekday(years, byYear) {
   return null;
 }
 
+/**
+ * Exakte Regelgleichheit fuer das Alias-Merging auf GLOBAL_RULES (fetch-holidays
+ * und migrate-observed-rules): nur fixed/easter_relative sind vergleichbar.
+ */
+export function rulesEqual(a, b) {
+  if (!a || !b || a.type !== b.type) return false;
+  if (a.type === 'fixed') return a.month === b.month && a.day === b.day;
+  if (a.type === 'easter_relative') return a.offsetDays === b.offsetDays;
+  return false;
+}
+
 /** Picks a fixed date when one MM-DD is a strict majority across the years. */
 export function detectModeFixed(mmdds) {
   const counts = new Map();
@@ -158,6 +169,62 @@ export function ruleMatchesAllYears(rule, years, byYear) {
   return true;
 }
 
+/**
+ * Abstand (in Tagen) eines beobachteten MM-DD zum Fixdatum desselben Jahres —
+ * ueber den Jahreswechsel hinweg: Nager liefert fuer "New Year's Day 2028"
+ * (Samstag) den Ersatztag 2027-12-31 im Jahr-2028-Response, fetch-holidays
+ * speichert davon nur "12-31" unter 2028. Deshalb das naechstgelegene
+ * Vorkommen des MM-DD in y-1, y, y+1 nehmen.
+ */
+function nearestOffsetDays(year, actualMmdd, fixedMmdd) {
+  const fixed = dayNumber(year, fixedMmdd);
+  let best = null;
+  for (const y of [year - 1, year, year + 1]) {
+    const diff = dayNumber(y, actualMmdd) - fixed;
+    if (best === null || Math.abs(diff) < Math.abs(best)) best = diff;
+  }
+  return best;
+}
+
+/**
+ * G-1: Ein Fixdatum, dessen Tabelle nur "observed"-Ersatztage abweicht, ist
+ * fuer die App ein `fixed`-Anlass — gratuliert wird zum Anlass, nicht zum
+ * arbeitsfreien Ersatztag. Sonst stehen z. B. US-Weihnachten 2027 am 24.12.
+ * (precomputed) UND das GLOBAL-Weihnachten am 25.12. nebeneinander, weil das
+ * Alias-Merging auf GLOBAL nur bei exakt gleicher Regel greift.
+ *
+ * Akzeptiert wird die Mehrheits-Fixregel aus detectModeFixed, wenn JEDE
+ * Abweichung ein Ersatztag-Muster ist:
+ *   - das Fixdatum faellt in dem Jahr auf Samstag oder Sonntag, UND
+ *   - der Ersatztag liegt hoechstens 3 Kalendertage entfernt, und zwar
+ *     Samstag -> Freitag (-1, US-Stil) oder Montag/Dienstag (+2/+3,
+ *     Commonwealth-Stil, +3 wenn der Montag schon belegt ist),
+ *     Sonntag  -> Montag/Dienstag/Mittwoch (+1..+3, je nach belegten Tagen).
+ * Bewusst NICHT akzeptiert: Sonntag -> Samstag (-1). Das ist kein Ersatztag,
+ * sondern ein echter Datumswechsel (NL Koningsdag wird am Samstag gefeiert,
+ * wenn der 27.04. ein Sonntag ist) — solche Tabellen bleiben `precomputed`.
+ * Ebenso bleibt alles precomputed, was in einem Werktags-Jahr abweicht
+ * (astronomische Termine wie JP-Aequinoktien, "naechster Freitag"-Regeln in
+ * CL/EG, Kaskaden-Verschiebungen wie GB "2 January").
+ */
+export function isObservedShift(year, actualMmdd, fixedRule) {
+  const fixedMmdd = mmddFromRule(fixedRule, year);
+  if (actualMmdd === fixedMmdd) return true;
+  const [m, d] = fixedMmdd.split('-').map(Number);
+  const weekday = new Date(Date.UTC(year, m - 1, d)).getUTCDay();
+  const diff = nearestOffsetDays(year, actualMmdd, fixedMmdd);
+  if (weekday === 6) return diff === -1 || diff === 2 || diff === 3;
+  if (weekday === 0) return diff >= 1 && diff <= 3;
+  return false;
+}
+
+/** G-1: Mehrheits-Fixdatum, dessen Abweichungen alle Ersatztage sind — sonst null. */
+export function detectObservedFixed(years, byYear) {
+  const candidate = detectModeFixed(years.map((y) => byYear[y]));
+  if (!candidate) return null;
+  return years.every((y) => isObservedShift(y, byYear[y], candidate)) ? candidate : null;
+}
+
 export function detectRule(entry, { expectedYears = [] } = {}) {
   const years = Object.keys(entry.years)
     .map(Number)
@@ -185,5 +252,10 @@ export function detectRule(entry, { expectedYears = [] } = {}) {
 
   // #134: closed-form Kandidat gegen ALLE Jahre rueckverproben; sonst precomputed.
   if (candidate && ruleMatchesAllYears(candidate, years, entry.years)) return candidate;
+
+  // G-1: Fixdatum mit reinen Wochenend-Ersatztagen -> trotzdem fixed.
+  const observedFixed = detectObservedFixed(years, entry.years);
+  if (observedFixed) return observedFixed;
+
   return { type: 'precomputed', dates: entry.years };
 }

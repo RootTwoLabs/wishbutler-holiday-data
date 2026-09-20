@@ -3,10 +3,11 @@
  * Scans data/packages/<CC>/v<N>/package.json, selects the highest version per
  * country, and (re)writes data/index.json. Preserves the existing baseUrl.
  */
-import { readFile, writeFile, readdir, stat } from 'node:fs/promises';
+import { readFile, writeFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { deliveredByteLength } from './lib/packageWriter.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -44,8 +45,11 @@ async function bestVersionEntry(code) {
 
   const rel = `packages/${code}/${best.dir}/package.json`;
   const abs = join(DATA, rel);
-  const pkg = await readJson(abs);
-  const { size } = await stat(abs);
+  // G-9: sizeBytes = Bytes, wie das CDN sie ausliefert (LF). `stat.size` waere
+  // auf Windows-Checkouts mit CRLF im Working Tree zu gross.
+  const text = await readFile(abs, 'utf8');
+  const pkg = JSON.parse(text);
+  const size = deliveredByteLength(text);
   return { best, rel, pkg, size };
 }
 

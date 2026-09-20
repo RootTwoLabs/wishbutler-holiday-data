@@ -56,9 +56,10 @@ async function main() {
   const nativeLocale = localeForCountry(COUNTRY);
   const packageLabels = { en: labels.en, [nativeLocale]: labels.he };
 
-  const version = await writePackage(COUNTRY, packaged, packageLabels);
+  // G-4: writePackage legt nur bei Inhaltsaenderung eine neue Version an.
+  const { version, changed } = await writePackage(COUNTRY, packaged, packageLabels);
   console.log(
-    `  ${COUNTRY}: v${version}, ${packaged.length} definitions, labels: ${Object.keys(packageLabels).join('+')}`,
+    `  ${COUNTRY}: v${version}${changed ? ' (neu)' : ' (unveraendert)'}, ${packaged.length} definitions, labels: ${Object.keys(packageLabels).join('+')}`,
   );
 }
 

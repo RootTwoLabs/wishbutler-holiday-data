@@ -1,12 +1,18 @@
 /**
  * Gemeinsames Schreiben von data/packages/<CC>/v<N>/package.json fuer alle
  * Feiertags-Generatoren (Nager.Date in fetch-holidays.mjs, Hebcal in
- * fetch-holidays-hebcal.mjs).
+ * fetch-holidays-hebcal.mjs) und die Content-Merger (build-articles.mjs,
+ * migrate-observed-rules.mjs).
  *
  * Redaktionelle Inhalte, die ein Generator nicht ableiten kann (Namenstage,
  * kuratierte Bilder, handgeschriebene Artikel in `i18n.holidayInfo`), werden
  * aus der letzten Version uebernommen. Feiertags-Labels (`i18n.holidays`)
  * werden immer neu erzeugt, damit sie zu den (Slug-)labelKeys passen.
+ *
+ * G-4: Eine neue Version entsteht NUR, wenn sich der Inhalt (ohne `version`)
+ * gegenueber der letzten Version aendert. Vorher bumpte writePackage
+ * bedingungslos — jeder Monats-Cron erzeugte 124 byte-gleiche Versionen, die
+ * alle Geraete neu luden.
  */
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -41,38 +47,89 @@ export function holidayDefinition({ id, countryCode, slug, rule, category = 'pub
   };
 }
 
-/** Schreibt die naechste Paketversion und gibt deren Nummer zurueck. */
-export async function writePackage(cc, definitions, labels) {
-  const countryDir = join(PACKAGES, cc);
-  const versions = await listVersions(countryDir);
-  const prev = versions.at(-1);
-  let preserved = {};
-  if (prev != null) {
-    const prevPkg = JSON.parse(
-      await readFile(join(countryDir, `v${prev}`, 'package.json'), 'utf8'),
-    );
-    preserved = {
-      namedays: prevPkg.namedays,
-      images: prevPkg.images,
-      holidayInfo: prevPkg.i18n?.holidayInfo,
-    };
+/**
+ * Inhaltlicher Fingerabdruck eines Pakets ohne die (hochzaehlende) `version`.
+ * Feldreihenfolge zaehlt mit — Aufrufer bauen ihre Pakete deshalb in der
+ * kanonischen Reihenfolge (countryCode, schemaVersion, definitions, namedays,
+ * i18n, images), damit der Vergleich stabil ist.
+ */
+export function packageContentKey(pkg) {
+  const { version, ...rest } = pkg;
+  return JSON.stringify(rest);
+}
+
+/** Serialisierte Form, exakt so wie sie auf der Platte / im CDN liegt. */
+export function serializePackage(pkg) {
+  return JSON.stringify(pkg, null, 2) + '\n';
+}
+
+/**
+ * Bytes einer Textdatei, wie das CDN sie ausliefert (LF). Auf Windows-Checkouts
+ * mit core.autocrlf liegen die JSON-Dateien teils mit CRLF im Working Tree;
+ * `stat.size` waere dann um die Zeilenzahl zu gross (G-9).
+ */
+export function deliveredByteLength(text) {
+  return Buffer.byteLength(text.replace(/\r\n/g, '\n'), 'utf8');
+}
+
+/** Liest die hoechste Version eines Landes: { version, pkg } oder null. */
+export async function readLatestPackage(cc, { packagesDir = PACKAGES } = {}) {
+  const countryDir = join(packagesDir, cc);
+  const prev = (await listVersions(countryDir)).at(-1);
+  if (prev == null) return null;
+  const pkg = JSON.parse(await readFile(join(countryDir, `v${prev}`, 'package.json'), 'utf8'));
+  return { version: prev, pkg };
+}
+
+/**
+ * Schreibt `content` (Paket OHNE `version`) als naechste Version — aber nur,
+ * wenn es sich von der letzten Version unterscheidet. Veroeffentlichte
+ * Versionen werden nie ueberschrieben.
+ *
+ * @returns {{ version: number, changed: boolean }} — `version` ist die Version,
+ *   die den Inhalt jetzt traegt (bei `changed: false` die bisherige).
+ */
+export async function writePackageIfChanged(cc, content, { packagesDir = PACKAGES } = {}) {
+  const latest = await readLatestPackage(cc, { packagesDir });
+  if (latest && packageContentKey(latest.pkg) === packageContentKey(content)) {
+    return { version: latest.version, changed: false };
   }
-  const next = (prev ?? 0) + 1;
-  const dir = join(countryDir, `v${next}`);
+  const next = (latest?.version ?? 0) + 1;
+  const dir = join(packagesDir, cc, `v${next}`);
   await mkdir(dir, { recursive: true });
+  // `version` steht an zweiter Stelle (nach countryCode) — wie bisher.
+  const { countryCode, ...rest } = content;
+  const pkg = { countryCode, version: next, ...rest };
+  await writeFile(join(dir, 'package.json'), serializePackage(pkg), 'utf8');
+  return { version: next, changed: true };
+}
+
+/**
+ * Baut aus neuen Definitionen + Labels das naechste Paket (Namenstage, Bilder
+ * und Artikel aus der Vorversion uebernommen) und schreibt es, falls es sich
+ * geaendert hat.
+ *
+ * @returns {{ version: number, changed: boolean }}
+ */
+export async function writePackage(cc, definitions, labels, { packagesDir = PACKAGES } = {}) {
+  const latest = await readLatestPackage(cc, { packagesDir });
+  const prevPkg = latest?.pkg;
+  const preserved = {
+    namedays: prevPkg?.namedays,
+    images: prevPkg?.images,
+    holidayInfo: prevPkg?.i18n?.holidayInfo,
+  };
 
   const i18n = { holidays: labels };
   if (preserved.holidayInfo) i18n.holidayInfo = preserved.holidayInfo;
 
-  const pkg = {
+  const content = {
     countryCode: cc,
-    version: next,
     schemaVersion: 1,
     definitions,
     ...(preserved.namedays ? { namedays: preserved.namedays } : {}),
     i18n,
     ...(preserved.images ? { images: preserved.images } : {}),
   };
-  await writeFile(join(dir, 'package.json'), JSON.stringify(pkg, null, 2) + '\n', 'utf8');
-  return next;
+  return writePackageIfChanged(cc, content, { packagesDir });
 }

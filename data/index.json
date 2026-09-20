@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "baseUrl": "https://cdn.jsdelivr.net/gh/RootTwoLabs/wishbutler-holiday-data@main/data",
-  "generatedAt": "2026-09-14T13:35:18.323Z",
+  "generatedAt": "2026-09-20T00:08:54.262Z",
   "countries": [
     {
       "code": "AD",
@@ -34,9 +34,9 @@
     },
     {
       "code": "AL",
-      "version": 26,
-      "package": "packages/AL/v26/package.json",
-      "sizeBytes": 111745,
+      "version": 27,
+      "package": "packages/AL/v27/package.json",
+      "sizeBytes": 139729,
       "locales": [
         "da",
         "de",
@@ -176,9 +176,9 @@
     },
     {
       "code": "AU",
-      "version": 31,
-      "package": "packages/AU/v31/package.json",
-      "sizeBytes": 458717,
+      "version": 32,
+      "package": "packages/AU/v32/package.json",
+      "sizeBytes": 455065,
       "locales": [
         "da",
         "de",
@@ -346,9 +346,9 @@
     },
     {
       "code": "BG",
-      "version": 28,
-      "package": "packages/BG/v28/package.json",
-      "sizeBytes": 186732,
+      "version": 29,
+      "package": "packages/BG/v29/package.json",
+      "sizeBytes": 214713,
       "locales": [
         "bg",
         "da",
@@ -544,9 +544,9 @@
     },
     {
       "code": "BZ",
-      "version": 27,
-      "package": "packages/BZ/v27/package.json",
-      "sizeBytes": 209806,
+      "version": 28,
+      "package": "packages/BZ/v28/package.json",
+      "sizeBytes": 269148,
       "locales": [
         "da",
         "de",
@@ -684,9 +684,9 @@
     },
     {
       "code": "CL",
-      "version": 29,
-      "package": "packages/CL/v29/package.json",
-      "sizeBytes": 331126,
+      "version": 30,
+      "package": "packages/CL/v30/package.json",
+      "sizeBytes": 330067,
       "locales": [
         "da",
         "de",
@@ -1053,9 +1053,9 @@
     },
     {
       "code": "ES",
-      "version": 29,
-      "package": "packages/ES/v29/package.json",
-      "sizeBytes": 458372,
+      "version": 30,
+      "package": "packages/ES/v30/package.json",
+      "sizeBytes": 458100,
       "locales": [
         "da",
         "de",
@@ -1194,9 +1194,9 @@
     },
     {
       "code": "GB",
-      "version": 28,
-      "package": "packages/GB/v28/package.json",
-      "sizeBytes": 277804,
+      "version": 29,
+      "package": "packages/GB/v29/package.json",
+      "sizeBytes": 273609,
       "locales": [
         "da",
         "de",
@@ -1307,9 +1307,9 @@
     },
     {
       "code": "GH",
-      "version": 26,
-      "package": "packages/GH/v26/package.json",
-      "sizeBytes": 145550,
+      "version": 27,
+      "package": "packages/GH/v27/package.json",
+      "sizeBytes": 173114,
       "locales": [
         "da",
         "de",
@@ -1505,9 +1505,9 @@
     },
     {
       "code": "HK",
-      "version": 30,
-      "package": "packages/HK/v30/package.json",
-      "sizeBytes": 188682,
+      "version": 31,
+      "package": "packages/HK/v31/package.json",
+      "sizeBytes": 248678,
       "locales": [
         "da",
         "de",
@@ -1734,9 +1734,9 @@
     },
     {
       "code": "IM",
-      "version": 26,
-      "package": "packages/IM/v26/package.json",
-      "sizeBytes": 144937,
+      "version": 27,
+      "package": "packages/IM/v27/package.json",
+      "sizeBytes": 174763,
       "locales": [
         "da",
         "de",
@@ -1847,9 +1847,9 @@
     },
     {
       "code": "JM",
-      "version": 25,
-      "package": "packages/JM/v25/package.json",
-      "sizeBytes": 173981,
+      "version": 26,
+      "package": "packages/JM/v26/package.json",
+      "sizeBytes": 173708,
       "locales": [
         "da",
         "de",
@@ -1875,9 +1875,9 @@
     },
     {
       "code": "JP",
-      "version": 30,
-      "package": "packages/JP/v30/package.json",
-      "sizeBytes": 152775,
+      "version": 31,
+      "package": "packages/JP/v31/package.json",
+      "sizeBytes": 149266,
       "locales": [
         "da",
         "de",
@@ -1903,9 +1903,9 @@
     },
     {
       "code": "KE",
-      "version": 25,
-      "package": "packages/KE/v25/package.json",
-      "sizeBytes": 144331,
+      "version": 26,
+      "package": "packages/KE/v26/package.json",
+      "sizeBytes": 171724,
       "locales": [
         "da",
         "de",
@@ -1931,9 +1931,9 @@
     },
     {
       "code": "KR",
-      "version": 30,
-      "package": "packages/KR/v30/package.json",
-      "sizeBytes": 161280,
+      "version": 31,
+      "package": "packages/KR/v31/package.json",
+      "sizeBytes": 190249,
       "locales": [
         "da",
         "de",
@@ -2101,9 +2101,9 @@
     },
     {
       "code": "LV",
-      "version": 31,
-      "package": "packages/LV/v31/package.json",
-      "sizeBytes": 519517,
+      "version": 32,
+      "package": "packages/LV/v32/package.json",
+      "sizeBytes": 518973,
       "locales": [
         "da",
         "de",
@@ -2159,9 +2159,9 @@
     },
     {
       "code": "MC",
-      "version": 26,
-      "package": "packages/MC/v26/package.json",
-      "sizeBytes": 302211,
+      "version": 27,
+      "package": "packages/MC/v27/package.json",
+      "sizeBytes": 299544,
       "locales": [
         "da",
         "de",
@@ -2389,9 +2389,9 @@
     },
     {
       "code": "MX",
-      "version": 30,
-      "package": "packages/MX/v30/package.json",
-      "sizeBytes": 147874,
+      "version": 31,
+      "package": "packages/MX/v31/package.json",
+      "sizeBytes": 177418,
       "locales": [
         "da",
         "de",
@@ -2501,9 +2501,9 @@
     },
     {
       "code": "NG",
-      "version": 25,
-      "package": "packages/NG/v25/package.json",
-      "sizeBytes": 142529,
+      "version": 26,
+      "package": "packages/NG/v26/package.json",
+      "sizeBytes": 173414,
       "locales": [
         "da",
         "de",
@@ -2613,9 +2613,9 @@
     },
     {
       "code": "NZ",
-      "version": 30,
-      "package": "packages/NZ/v30/package.json",
-      "sizeBytes": 590328,
+      "version": 31,
+      "package": "packages/NZ/v31/package.json",
+      "sizeBytes": 587659,
       "locales": [
         "da",
         "de",
@@ -2781,9 +2781,9 @@
     },
     {
       "code": "PR",
-      "version": 26,
-      "package": "packages/PR/v26/package.json",
-      "sizeBytes": 161332,
+      "version": 27,
+      "package": "packages/PR/v27/package.json",
+      "sizeBytes": 159729,
       "locales": [
         "da",
         "de",
@@ -2894,9 +2894,9 @@
     },
     {
       "code": "RS",
-      "version": 25,
-      "package": "packages/RS/v25/package.json",
-      "sizeBytes": 107499,
+      "version": 26,
+      "package": "packages/RS/v26/package.json",
+      "sizeBytes": 136690,
       "locales": [
         "da",
         "de",
@@ -3007,9 +3007,9 @@
     },
     {
       "code": "SG",
-      "version": 30,
-      "package": "packages/SG/v30/package.json",
-      "sizeBytes": 192695,
+      "version": 31,
+      "package": "packages/SG/v31/package.json",
+      "sizeBytes": 220901,
       "locales": [
         "da",
         "de",
@@ -3319,9 +3319,9 @@
     },
     {
       "code": "US",
-      "version": 29,
-      "package": "packages/US/v29/package.json",
-      "sizeBytes": 362961,
+      "version": 30,
+      "package": "packages/US/v30/package.json",
+      "sizeBytes": 360021,
       "locales": [
         "da",
         "de",
@@ -3460,9 +3460,9 @@
     },
     {
       "code": "ZA",
-      "version": 25,
-      "package": "packages/ZA/v25/package.json",
-      "sizeBytes": 115051,
+      "version": 26,
+      "package": "packages/ZA/v26/package.json",
+      "sizeBytes": 110751,
       "locales": [
         "da",
         "de",

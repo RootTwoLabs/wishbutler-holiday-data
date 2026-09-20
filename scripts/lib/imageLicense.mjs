@@ -1,9 +1,17 @@
-/** License classification for holiday info images. */
+/**
+ * License classification for holiday info images.
+ *
+ * G-3: Es gilt eine explizite Allowlist — CC0, Public Domain (PD-*), CC BY x.y
+ * und CC BY-SA x.y. Alles andere (insbesondere NC/ND-Varianten, GFDL, Fair Use)
+ * ist fuer eine kommerzielle App nicht nutzbar und wird abgelehnt. Frueher gab
+ * es einen Fallback „enthaelt 'cc' oder 'public'“, der CC BY-NC/ND durchliess.
+ */
 
 const ACCEPTED_LICENSE =
-  /(^public domain|^pd[ -]|cc[ -]?0|cc[ -]?by(?:[ -]sa)?(?:[ -]\d|$))/i;
-const REJECTED_LICENSE = /fair use|all rights reserved|copyrighted free use/i;
-const CC0_PD = /(^public domain|^pd[ -]|cc[ -]?0)/i;
+  /(^public domain|^pd[ -]|^cc[ -]?0\b|^cc[ -]?by(?:[ -]sa)?(?:[ -]\d+(?:\.\d+)?)?(?:\s|$))/i;
+const REJECTED_LICENSE =
+  /fair use|all rights reserved|copyrighted free use|\bnc\b|\bnd\b|non[ -]?commercial|no[ -]?deriv|gfdl|gnu free doc/i;
+const CC0_PD = /(^public domain|^pd[ -]|^cc[ -]?0\b)/i;
 
 export function stripHtml(s) {
   if (!s) return '';
@@ -18,10 +26,11 @@ export function stripHtml(s) {
     .trim();
 }
 
+/** Liefert den bereinigten Lizenz-String, wenn er auf der Allowlist steht, sonst null. */
 export function classifyLicense(licenseShort) {
   const lic = stripHtml(licenseShort || '');
   if (!lic || REJECTED_LICENSE.test(lic)) return null;
-  if (!ACCEPTED_LICENSE.test(lic) && !/public/i.test(lic) && !/cc/i.test(lic)) return null;
+  if (!ACCEPTED_LICENSE.test(lic)) return null;
   return lic;
 }
 

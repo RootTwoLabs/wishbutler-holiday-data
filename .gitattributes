@@ -1,0 +1,14 @@
+# G-2: Textdateien im Repo immer mit LF ausliefern — unabhaengig von
+# core.autocrlf auf dem Entwicklerrechner. CREDITS.md wird zeilenweise mit
+# einer `$`-verankerten Regex geparst (scripts/lib/imageCredits.mjs) und die
+# JSON-Pakete werden per jsDelivr byte-genau ausgeliefert (index.json
+# `sizeBytes`); CRLF im Working Tree verfaelscht beides.
+* text=auto
+*.md text eol=lf
+*.json text eol=lf
+*.mjs text eol=lf
+*.yml text eol=lf
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary

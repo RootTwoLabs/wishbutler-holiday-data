@@ -1,17 +1,22 @@
 #!/usr/bin/env node
 /**
  * Orchestrates the full generation pipeline:
- *   holidays -> hebcal -> namedays -> images -> fun-occasions -> articles -> labels -> index -> validate
+ *   holidays -> hebcal -> namedays -> fun-occasions -> articles -> labels -> memorial -> index -> validate
  *
  * Each step is a separate module so they can also be run individually.
  *
  * FUN (kuriose Feiertage) wird ausschliesslich aus dem kuratierten Content in
  * content/fun-days/ gebaut (Labels + Artikel in allen 17 Locales als Content,
- * kein Harvest, keine Uebersetzungs-Skripte). Die FUN-Bilder holt der CI-Lauf
- * nie selbst (fetch-images.mjs ohne --fun ueberspringt FUN); sie werden lokal
- * mit `node scripts/fetch-images.mjs --fun` kuratiert und eingecheckt.
- * build-fun-occasions.mjs laeuft NACH fetch-images.mjs, weil das Paket die
- * vorhandenen Bilddateien referenziert.
+ * kein Harvest, keine Uebersetzungs-Skripte).
+ *
+ * G-8: Bilder holt die Pipeline NICHT mehr selbst. `fetch-images.mjs` laeuft nur
+ * noch manuell (`npm run build:images [CC/slug …]`, FUN mit `--fun`), gefolgt
+ * von Kuratierung (`curate-images.mjs`), `build:thumbnails` und Commit.
+ * Vorher haette der monatliche CI-Cron fuer jedes Ziel ohne Bild (z. B.
+ * `fathers_day_de`) bis zu drei unkuratierte Commons/Openverse-Treffer samt
+ * CREDITS-Zeilen committet — ohne Thumbnails und am Kuratierungs-Workflow
+ * vorbei. build-articles/build-fun-occasions referenzieren nur die
+ * eingecheckten Bilddateien.
  */
 import { spawn } from 'node:child_process';
 import { dirname, join } from 'node:path';
@@ -31,7 +36,7 @@ async function main() {
     'fetch-holidays.mjs',
     'fetch-holidays-hebcal.mjs',
     'fetch-namedays.mjs',
-    'fetch-images.mjs',
+    // 'fetch-images.mjs' — bewusst NICHT in der Pipeline (G-8, siehe Kopf).
     'build-fun-occasions.mjs',
     'build-articles.mjs',
     'build-labels.mjs',

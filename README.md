@@ -51,6 +51,15 @@ Dates are described by rules so the client computes any year offline:
 - `precomputed` — `year -> "MM-DD"` table for non-Gregorian feasts (Islamic, Jewish,
   Orthodox, …) that have no closed-form rule
 
+Nager.Date reports weekend **substitute days** ("observed": US Christmas 2027 on
+24 Dec, UK Boxing Day 2026 on 28 Dec). The occasion itself does not move, so
+`detectRule` still emits `fixed` when the only deviations from the majority
+date are such substitutes (fixed date on Sat/Sun, substitute ≤ 3 days later or
+Sat → Fri, see `detectObservedFixed` in `scripts/lib/ruleDetection.mjs`).
+Genuine date changes (NL Koningsdag Sun → Sat, astronomical equinox holidays,
+"nearest Friday" rules) stay `precomputed`. Existing packages were migrated once
+with `npm run migrate:observed-rules` (offline, bumps only changed packages).
+
 ## Data sources
 
 - Public holidays: [Nager.Date](https://date.nager.at/), [OpenHolidays API](https://openholidaysapi.org/),
@@ -114,7 +123,23 @@ npm install
 npm run build        # fetch sources -> write data/ -> rebuild index.json
 ```
 
-CI (`.github/workflows/build.yml`) runs the generators, commits `data/`, and tags a release.
+CI (`.github/workflows/build.yml`) runs the generators, commits `data/`, and tags a
+release — only when something changed. A package gets a new `v<N>` directory
+only when its content (everything except `version`) differs from the latest
+version (`writePackageIfChanged` in `scripts/lib/packageWriter.mjs`); an
+unchanged monthly run therefore produces no commit and no tag.
+
+**Images are never fetched by `npm run build` or CI.** `npm run build:images`
+(`scripts/fetch-images.mjs [CC/slug …]`, FUN with `--fun`) is a manual,
+curated step: fetch, review with `curate-images.mjs promote|drop`, run
+`build:thumbnails`, then commit images + `CREDITS.md` together.
+
+`CREDITS.md`, `*.json` and `*.mjs` are forced to LF via `.gitattributes`
+(Windows checkouts with `core.autocrlf` used to make `CREDITS.md` unparsable,
+which would have written every image as CC0 without attribution). `npm run
+validate` fails when a credit line does not parse or a package's image ref
+disagrees with its `CREDITS.md` line, and when `index.json` `sizeBytes` does
+not match the delivered (LF) file size.
 
 ### Thumbnails
 

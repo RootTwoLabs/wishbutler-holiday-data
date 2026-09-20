@@ -74,7 +74,11 @@ jobs:
             echo "::warning::jsDelivr purge failed after 3 attempts - clients may see a stale manifest for up to 12h"
           fi
 
+      # G-14: Nur taggen, wenn der Commit-Schritt tatsaechlich etwas committet
+      # hat (`changed=true` in $GITHUB_OUTPUT). Vorher entstand bei jedem Lauf
+      # ein Tag — auch ohne Datenaenderung, also ein Tag auf einem alten Commit.
       - name: Tag release
+        if: steps.commit.outputs.changed == 'true'
         run: |
           TAG="data-$(date +%Y%m%d-%H%M%S)"
           git tag "$TAG"

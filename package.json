@@ -18,6 +18,7 @@
     "build:labels": "node scripts/build-labels.mjs",
     "translate:labels": "node scripts/translate-holiday-labels.mjs",
     "migrate:articles": "node scripts/migrate-articles.mjs",
+    "migrate:observed-rules": "node scripts/migrate-observed-rules.mjs",
     "build:index": "node scripts/build-index.mjs",
     "validate": "node scripts/validate.mjs",
     "test": "node --test scripts/*.test.mjs scripts/lib/*.test.mjs",
