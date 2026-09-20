@@ -224,7 +224,13 @@ CI (`.github/workflows/build.yml`) runs the generators, commits `data/`, and tag
 release — only when something changed. A package gets a new `v<N>` directory
 only when its content (everything except `version`) differs from the latest
 version (`writePackageIfChanged` in `scripts/lib/packageWriter.mjs`); an
-unchanged monthly run therefore produces no commit and no tag.
+unchanged monthly run therefore produces no commit and no tag. The holiday
+generators only know `en` + the native language, so `writePackage` compares
+just what they own (definitions + their label locales,
+`generatorOutputUnchanged`) — comparing the whole package made every fetch
+write a version with truncated labels and `build:articles` the next one with
+the old content (two bumps per country and run; found on the real Nager run
+for GB, 2026-09-20).
 
 **Images are never fetched by `npm run build` or CI.** `npm run build:images`
 (`scripts/fetch-images.mjs [CC/slug …]`, FUN with `--fun`) is a manual,
@@ -272,7 +278,30 @@ line-less files turned out to be CC BY / CC BY-SA. Files whose source cannot be
 established are **not** given a guessed line; they sit in
 `UNVERIFIED_IMAGE_PROVENANCE` (`scripts/validate.mjs`) with an expiry date and
 warn until then. Resolve by proving the source or replacing the image, not by
-extending the date.
+extending the date. The list is currently empty.
+
+`npm run verify:credits` (`scripts/verify-credits.mjs`, **manual only — never
+part of `npm run build` or CI**) checks every `CREDITS.md` line against today's
+state on Wikimedia Commons: file still exists, licence still matches and is on
+the allowlist, and — for CC BY / CC BY-SA — the credited author matches what
+Commons asks for (`extmetadata.Attribution` wins over `Artist`; spelling and
+wikilink leftovers are ignored, see `scripts/lib/creditVerification.mjs`). The
+source is the line's URL, else the `sourceUrl` of the image ref in the latest
+package (FUN's curated `imageFile`). ~20 API requests for ~900 lines, cached
+per title in `.cache/verify-credits/` (git-ignored; `--refresh`,
+`--max-age-days=<n>`, `--only=images/DE/`, `--json=<file>`). Exit 1 on a
+finding that needs action: `missing-on-commons` / `license-not-allowed` →
+replace the image, `license-mismatch` / `author-*` → correct the line (and
+`content/memorial/images.json` for MEMORIAL), then rebuild. Run it before a data
+tag that touches images.
+
+To swap one image for a hand-picked Commons file use
+`node scripts/curate-images.mjs replace <dir> <n> "File:<title>.jpg"` (licence
+checked against the allowlist, 1280 px JPEG rendition like every other image,
+credit line written from Commons; `--credit="…"` only for an author that is
+documented but missing from the `Artist` field). Look at candidates first
+(`node scripts/commons-candidates.mjs "<term>"`), then `npm run
+build:thumbnails`.
 
 `data/images/<slug>/` is a global slug only when the folder name looks like a
 slug (lower-case snake_case, `isGlobalImageFolder` in

@@ -118,9 +118,15 @@ function augustMonday(year, which) {
   return `08-${String(day).padStart(2, '0')}`;
 }
 
-/** Nager-Zeilen, wie die API sie fuer GB liefert: gleiche `name`, zwei Zeilen je Jahr. */
+/**
+ * Nager-Zeilen, wie die API sie fuer GB liefert: gleiche `name`, zwei Zeilen je
+ * Jahr. Form und Feldwerte 1:1 aus dem echten Response uebernommen
+ * (date.nager.at/api/v3/PublicHolidays/2026/GB, abgerufen 2026-09-20:
+ * 2026-08-03 `["GB-SCT"]`, 2026-08-31 `["GB-ENG","GB-WLS","GB-NIR"]`); der
+ * regulaere Fetch gegen Nager ergab exakt die zwei Definitionen unten.
+ */
 function gbSummerRows(year) {
-  const base = { localName: 'Summer Bank Holiday', name: 'Summer Bank Holiday', countryCode: 'GB', global: false, types: ['Public'] };
+  const base = { localName: 'Summer Bank Holiday', name: 'Summer Bank Holiday', countryCode: 'GB', fixed: false, global: false, launchYear: null, types: ['Public'] };
   return [
     { ...base, date: `${year}-${augustMonday(year, 'first')}`, counties: ['GB-SCT'] },
     { ...base, date: `${year}-${augustMonday(year, 'last')}`, counties: ['GB-ENG', 'GB-WLS', 'GB-NIR'] },

@@ -350,24 +350,21 @@ export async function checkCreditsParsable(creditsPath, hints, errors) {
 }
 
 /**
- * G-10: Bilddateien, deren Herkunft sich (noch) nicht belegen laesst. Beim
- * Nachtragen der CREDITS-Zeilen (2026-09-20) liessen sich 5 von 216 Dateien
- * ueber die Commons-API weder byte- noch bildgleich wiederfinden (vermutlich
- * Openverse-Treffer ausserhalb von Commons; der Fetcher schrieb damals fuer
- * CC0/PD keine Zeile). Lizenz und Urheber werden NICHT geraten: die Dateien
- * haben bewusst keine Zeile und loesen bis `until` nur eine Warnung aus, danach
- * wieder einen Fehler. Aufloesen = Quelle belegen und Zeile eintragen ODER das
- * Bild ersetzen/entfernen (`curate-images.mjs drop`), nicht die Frist schieben.
+ * G-10: Bilddateien, deren Herkunft sich (noch) nicht belegen laesst — Lizenz
+ * und Urheber werden NICHT geraten: so eine Datei bekommt bewusst keine
+ * CREDITS-Zeile, steht hier mit Frist und loest bis `until` nur eine Warnung
+ * aus, danach wieder einen Fehler. Aufloesen = Quelle belegen und Zeile
+ * eintragen ODER das Bild ersetzen/entfernen (`curate-images.mjs replace|drop`),
+ * nicht die Frist schieben.
+ *
+ * Eintrag: `['images/<…>/NN.jpg', { until: 'YYYY-MM-DD', reason: '…' }]`.
+ *
+ * Aktuell leer: Die fuenf Eintraege vom 2026-09-20 sind aufgeloest — vier
+ * Dateien byteidentisch auf Commons wiedergefunden (drei behalten, BR ersetzt),
+ * eine entfernt. `npm run verify:credits` prueft die vorhandenen Zeilen gegen
+ * den heutigen Commons-Stand.
  */
-export const UNVERIFIED_IMAGE_PROVENANCE = new Map(
-  [
-    'images/AU/melbourne_cup/01.jpg',
-    'images/BR/independence_day/01.jpg',
-    'images/GB/early_may_bank_holiday/03.jpg',
-    'images/NZ/canterbury_anniversary_day/02.jpg',
-    'images/TR/ataturk_commemoration_youth_day/01.jpg',
-  ].map((path) => [path, { until: '2026-10-31', reason: 'Quelle ueber Commons nicht auffindbar (Audit G-10)' }]),
-);
+export const UNVERIFIED_IMAGE_PROVENANCE = new Map([]);
 
 const IMAGE_FILE_RE = /\.(jpe?g|png|webp)$/i;
 const THUMB_FILE_RE = /\.thumb\.jpe?g$/i;

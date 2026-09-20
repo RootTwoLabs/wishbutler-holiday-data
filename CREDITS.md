@@ -10,9 +10,11 @@ file, Public Domain and CC0 included** (`npm run validate` fails on an image
 without a line and on a line without an image; thumbnails `NN.thumb.jpg` are
 derived and carry no line). The lines for files that had none before
 2026-09-20 were reconstructed against the Wikimedia Commons API (byte-identical
-or visually identical 1280 px rendition of the named file). Five files whose
-source could not be established carry **no** line and are listed in
-`UNVERIFIED_IMAGE_PROVENANCE` (`scripts/validate.mjs`) until resolved.
+or visually identical 1280 px rendition of the named file). A file whose
+source cannot be established gets **no** line and is parked in
+`UNVERIFIED_IMAGE_PROVENANCE` (`scripts/validate.mjs`) until resolved — that
+list is empty since 2026-09-20. `npm run verify:credits` re-checks every line
+against the current state on Commons (licence, author, file still there).
 
 <!-- BEGIN:IMAGE-CREDITS (auto-generated) -->
 - `images/all_saints_day/01.jpg` — MichalPL (CC0) — <https://commons.wikimedia.org/wiki/File:Graves_in_a_Polish_cemetery,_decorated_with_candles_for_All_Saints%27_Day_on_November_1st,_Zabrze,_Silesian_Voivodeship,_Poland,_November_2024.jpg>
@@ -20,7 +22,7 @@ source could not be established carry **no** line and are listed in
 - `images/all_saints_day/03.jpg` — MichalPL (CC0) — <https://commons.wikimedia.org/wiki/File:Graves_in_a_Polish_cemetery,_decorated_with_candles_for_All_Saints%27_Day_on_November_1st,_Zabrze,_Silesian_Voivodeship,_Poland,_November_2024_(2).jpg>
 - `images/AR/independence_day/01.jpg` — Cloudcounter (CC0) — <https://commons.wikimedia.org/wiki/File:Flag_of_Argentina_(16-9).png>
 - `images/AR/independence_day/02.jpg` — Sunoro (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Casa_Hist%C3%B3rica_de_Tucum%C3%A1n.jpg>
-- `images/AR/independence_day/03.jpg` — Ermell (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Rosario_National_Flag_Memorial-20110510-RM-142842.jpg>
+- `images/AR/independence_day/03.jpg` — Reinhold Möller (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Rosario_National_Flag_Memorial-20110510-RM-142842.jpg>
 - `images/AR/may_revolution/01.jpg` — Francisco Fortuny (Public domain) — <https://commons.wikimedia.org/wiki/File:25_de_mayo_por_F._Fortuny.jpg>
 - `images/AR/may_revolution/02.jpg` — Juan Manuel Blanes (Public domain) — <https://commons.wikimedia.org/wiki/File:Cabildo_abierto.jpg>
 - `images/AR/may_revolution/03.jpg` — Green Mostaza (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Pir%C3%A1mide_de_Mayo,_AA_2014.jpg>
@@ -33,17 +35,17 @@ source could not be established carry **no** line and are listed in
 - `images/AT/national_holiday/01.jpg` — Cloudcounter (CC0) — <https://commons.wikimedia.org/wiki/File:Flag_of_Austria_(16-9).png>
 - `images/AT/national_holiday/02.jpg` — D-Kuru (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Parliament_Building_in_Vienna,_Austria-open_day_-_oblique_left_full_PNr%C2%B01017.jpg>
 - `images/AT/national_holiday/03.jpg` — Arz (Public domain) — <https://commons.wikimedia.org/wiki/File:Flag_of_Austria_in_Vilnius_Austrian_Embassy.jpg>
-- `images/AT/saint_florians_day/01.jpg` — Lehotsky (CC BY-SA 3.0)
+- `images/AT/saint_florians_day/01.jpg` — Lehotsky (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Socha_sv._Flori%C3%A1na_(Moravsk%C3%A1_T%C5%99ebov%C3%A1).JPG>
 - `images/AT/saint_florians_day/02.jpg` — Photo: Andreas Praefcke (CC BY 3.0) — <https://commons.wikimedia.org/wiki/File:Salzburg_Florianibrunnen_Skulptur.jpg>
 - `images/AT/saint_florians_day/03.jpg` — Duke of W4 (CC BY-SA 3.0 at) — <https://commons.wikimedia.org/wiki/File:Florianibrunnen_am_Hauptplatz_Horn_2014-08.jpg>
 - `images/AT/saint_leopolds_day/01.jpg` — Zeitblick (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Leopold_der_Dritte.JPG>
-- `images/AT/saint_leopolds_day/02.jpg` — Dguendel (CC BY 4.0)
-- `images/AT/saint_leopolds_day/03.jpg` — C.Stadler/Bwag (talk / email) (CC BY-SA 4.0)
+- `images/AT/saint_leopolds_day/02.jpg` — Dguendel (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Stift_Klosterneuburg%2C_S%C3%BCdwestseite.JPG>
+- `images/AT/saint_leopolds_day/03.jpg` — C.Stadler/Bwag (talk / email) (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Klosterneuburg_-_Stift_(1).JPG>
 - `images/AT/saint_martins_day/01.jpg` — Audriusa (Public domain) — <https://commons.wikimedia.org/wiki/File:R%C3%A4b%C3%A4lichtli2.jpg>
 - `images/AT/saint_martins_day/02.jpg` — Eva K. / Eva K. (CC BY-SA 2.5) — <https://commons.wikimedia.org/wiki/File:H%C3%B6chster_Schlo%C3%9F_Tor_St_Martin.jpg>
 - `images/AT/saint_martins_day/03.jpg` — Karl Gruber (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Martinigans_4192.JPG>
-- `images/AT/saint_ruperts_day/01.jpg` — Dr Murali Mohan Gurram (CC BY-SA 3.0 at)
-- `images/AT/saint_ruperts_day/02.jpg` — Eweht (CC BY-SA 4.0)
+- `images/AT/saint_ruperts_day/01.jpg` — Dr Murali Mohan Gurram (CC BY-SA 3.0 at) — <https://commons.wikimedia.org/wiki/File:Rupertikirtag_2013_-_Residenzplatz_Salzburg.jpg>
+- `images/AT/saint_ruperts_day/02.jpg` — Eweht (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Rupertikirtag_2014_-_07.jpg>
 - `images/AT/saint_ruperts_day/03.jpg` — JokiVatanen (CC0) — <https://commons.wikimedia.org/wiki/File:Hl._Rupertus.jpg>
 - `images/AU/anzac_day/01.jpg` — Josh Parris (Public domain) — <https://commons.wikimedia.org/wiki/File:Edward_Dunlop_(statue_in_Melbourne_Botantic_Gardens).jpg>
 - `images/AU/anzac_day/02.jpg` — Digital fuel (talk) (Public domain) — <https://commons.wikimedia.org/wiki/File:ANZAC_Memorial_Sydney_Australia_-_June_2007.jpg>
@@ -52,17 +54,18 @@ source could not be established carry **no** line and are listed in
 - `images/AU/australia_day/02.jpg` — Australian Overseas Information Service (Public domain) — <https://commons.wikimedia.org/wiki/File:Sydney-tall-ships.jpg>
 - `images/AU/australia_day/03.jpg` — Orderinchaos (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Perth_Australia_Day_2015_flag_at_sunset.jpg>
 - `images/AU/canberra_day/01.jpg` — Grahamec (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Floriade_Canberra_2015_2.JPG>
-- `images/AU/canberra_day/02.jpg` — Dietmar Rabich (CC BY-SA 4.0)
-- `images/AU/canberra_day/03.jpg` — Thennicke (CC BY-SA 4.0)
+- `images/AU/canberra_day/02.jpg` — Dietmar Rabich (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Canberra_(AU)%2C_Commonwealth_Avenue_Bridge_--_2019_--_1811.jpg>
+- `images/AU/canberra_day/03.jpg` — Thennicke (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Parliament_House_at_dusk%2C_Canberra_ACT.jpg>
 - `images/AU/friday_before_afl_grand_final/01.jpg` — Alexander Sheko (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:AFL_Grand_Final_2010_on_the_Melbourne_Cricket_Ground.jpg>
-- `images/AU/friday_before_afl_grand_final/02.jpg` — SwoopingMagpie10 (CC BY-SA 4.0)
-- `images/AU/friday_before_afl_grand_final/03.jpg` — Storm machine (CC BY-SA 4.0)
+- `images/AU/friday_before_afl_grand_final/02.jpg` — SwoopingMagpie10 (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:2023_AFL_Grand_Final_MCG.jpg>
+- `images/AU/friday_before_afl_grand_final/03.jpg` — Storm machine (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:MCG_2022_AFL_Grand_Final.jpg>
 - `images/AU/kings_birthday/01.jpg` — The White House (Public domain) — <https://commons.wikimedia.org/wiki/File:Charles,_Prince_of_Wales_in_2021_(cropped)_(2).jpg>
 - `images/AU/kings_birthday/02.jpg` — White House (Public domain) — <https://commons.wikimedia.org/wiki/File:King_Charles_III_in_July_2023.jpg>
 - `images/AU/kings_birthday/03.jpg` — NSW Government (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:2024_Royal_Visit_Sydney_(2).jpg>
 - `images/AU/labour_day_au/01.jpg` — Peter Dowley from Dubai, United Arab Emirates (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Melbourne_during_Moomba_(2444656467).jpg>
 - `images/AU/labour_day_au/02.jpg` — Tom Reynolds from Melbourne, Australia (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:DSC_7382_(32636474773).jpg>
 - `images/AU/labour_day_au/03.jpg` — The original uploader was Tirin at English Wikipedia. (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Melbourne_Trades_Hall_entrance.jpg>
+- `images/AU/melbourne_cup/01.jpg` — Unknown author (State Library of Victoria) (Public domain) — <https://commons.wikimedia.org/wiki/File:Melbourne_Cup_1883.jpg>
 - `images/AU/melbourne_cup/02.jpg` — Chris Phutully (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Protectionist_before_the_2014_Melbourne_Cup.jpg>
 - `images/AU/melbourne_cup/03.jpg` — Jupiter Firelyte (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Flemington_main_stand,_2013_Melbourne_Cup.jpg>
 - `images/AU/western_australia_day/01.jpg` — Unknown authorUnknown author (Public domain) — <https://commons.wikimedia.org/wiki/File:Perth_skyline_from_swan_river_foreshore.jpg>
@@ -72,11 +75,12 @@ source could not be established carry **no** line and are listed in
 - `images/boxing_day/02.jpg` — Dylan Moore (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Newport_Beach,_Boxing_Day_2024_-_geograph.org.uk_-_7946292.jpg>
 - `images/boxing_day/03.jpg` — Bim24 (CC0) — <https://commons.wikimedia.org/wiki/File:A_Christmas_tree_with_gifts_underneath.jpg>
 - `images/BR/carnival/01.jpg` — Alan Betensley (Abetens at en.wikipedia) (Public domain) — <https://commons.wikimedia.org/wiki/File:Samba_school_parades_2004.jpg>
-- `images/BR/carnival/02.jpg` — Michel Renaudeau (CC BY-SA 2.0)
-- `images/BR/carnival/03.jpg` — Leandro Neumann Ciuffo (CC BY 2.0)
+- `images/BR/carnival/02.jpg` — Michel Renaudeau (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Carnaval_1991%2C_Rio_de_Janeiro._Mangueira.jpg>
+- `images/BR/carnival/03.jpg` — Leandro Neumann Ciuffo (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Samb%C3%B3dromo_-_desfile_das_campe%C3%A3s_2012_(6786844504).jpg>
+- `images/BR/independence_day/01.jpg` — Ministério da Defesa (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Drag%C3%B5es_da_Independ%C3%AAncia_em_desfile_c%C3%ADvico-militar_em_Bras%C3%ADlia_(7950087882).jpg>
 - `images/BR/independence_day/02.jpg` — Boaventuravinicius (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Brazilian_Flag_2023.jpg>
 - `images/BR/independence_day/03.jpg` — Leandro Neumann Ciuffo (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Fireworks_(8333336004).jpg>
-- `images/BR/our_lady_of_aparecida/01.jpg` — HVL (CC BY 3.0)
+- `images/BR/our_lady_of_aparecida/01.jpg` — HVL (CC BY 3.0) — <https://commons.wikimedia.org/wiki/File:Vista_da_Bas%C3%ADlica_de_Nossa_Senhora_Aparecida%2C_Aparecida_SP.JPG>
 - `images/CA/canada_day/01.jpg` — Brian Gratwicke (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Canada_Day_fireworks_Ottawa_2011.jpg>
 - `images/CA/canada_day/02.jpg` — Wladyslaw (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Flagge_Kanadas.jpg>
 - `images/CA/canada_day/03.jpg` — Naimi Grondin (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Canada_Day_2008_Snowbirds_over_Parliament.jpg>
@@ -89,9 +93,9 @@ source could not be established carry **no** line and are listed in
 - `images/CA/labour_day_ca/01.jpg` — Kotsy (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Canadian_National_Exhibition_2012.jpg>
 - `images/CA/labour_day_ca/02.jpg` — Ken Mist from Brampton, Canada (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:CIAS_2011_-_CNE_Air_Show_(6122530360).jpg>
 - `images/CA/labour_day_ca/03.jpg` — Filip Mroz mroz (CC0) — <https://commons.wikimedia.org/wiki/File:Ferris_Wheel_(Unsplash).jpg>
-- `images/CA/national_aboriginal_day/01.jpg` — Dennis G. Jarvis (CC BY-SA 2.0)
-- `images/CA/national_aboriginal_day/02.jpg` — Dennis G. Jarvis (CC BY-SA 2.0)
-- `images/CA/national_aboriginal_day/03.jpg` — Dennis G. Jarvis (CC BY-SA 2.0)
+- `images/CA/national_aboriginal_day/01.jpg` — Dennis G. Jarvis (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:DSC00329_-_National_Aboriginal_Day_in_Canada_(48152201431).jpg>
+- `images/CA/national_aboriginal_day/02.jpg` — Dennis G. Jarvis (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:DSC00310_-_National_Aboriginal_Day_(48152297417).jpg>
+- `images/CA/national_aboriginal_day/03.jpg` — Dennis G. Jarvis (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:DSC00320_-_National_Aboriginal_Day_(48152292867).jpg>
 - `images/CA/national_day_for_truth_and_reconciliation/01.jpg` — Dillan Payne (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:National_Day_for_Truth_and_Reconciliation_in_Toronto,_2024_(IMG_06).jpg>
 - `images/CA/national_day_for_truth_and_reconciliation/02.jpg` — U.S. Embassy and Consulates in Canada (Public domain) — <https://commons.wikimedia.org/wiki/File:Orange_Shirt_Day_(54195767901).jpg>
 - `images/CA/national_day_for_truth_and_reconciliation/03.jpg` — U.S. Embassy and Consulates in Canada (Public domain) — <https://commons.wikimedia.org/wiki/File:Orange_Shirt_Day_(54196022894).jpg>
@@ -105,13 +109,13 @@ source could not be established carry **no** line and are listed in
 - `images/CA/victoria_day/01.jpg` — Jason Zhang (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Milliken_Park_fireworks,_Victoria_Day_2018.jpg>
 - `images/CA/victoria_day/02.jpg` — ImagePerson (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Parliament_Hill_Queen_Vic_Statue_Sunset_3676.jpg>
 - `images/CH/federal_day_of_thanksgiving/01.jpg` — Agnes Monkelbaan (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Reformierte_Kirche_Scuol._11-10-2024._(actm.)_02.jpg>
-- `images/CH/federal_fast_monday/01.jpg` — Lorenz Poffet (CC BY-SA 4.0)
-- `images/CH/federal_fast_monday/02.jpg` — Krzysztof Golik (CC BY-SA 4.0)
+- `images/CH/federal_fast_monday/01.jpg` — Lorenz Poffet (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Lavaux_Switzerland.jpg>
+- `images/CH/federal_fast_monday/02.jpg` — Krzysztof Golik (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Lake_Geneva_from_Lavaux_vineyard_terraces_02.jpg>
 - `images/CH/federal_fast_monday/03.jpg` — Jean-Paul Gagnère (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Le_vignoble_du_Lavaux_en_automne.jpg>
 - `images/CH/geneva_prayday/01.jpg` — Schnäggli (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Tarte_pruneaux_Je%C3%BBne_Genevois.jpg>
-- `images/CH/geneva_prayday/02.jpg` — Graymo86 (CC BY-SA 4.0)
-- `images/CH/geneva_prayday/03.jpg` — Laurie Nevay (CC BY-SA 2.0)
-- `images/CH/nafels_procession/01.jpg` — Kanton Glarus, Samuel Trümpy Photography (CC BY 2.0)
+- `images/CH/geneva_prayday/02.jpg` — Graymo86 (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Jet_dEau%2C_Rainbow.jpg>
+- `images/CH/geneva_prayday/03.jpg` — Laurie Nevay (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Total_Lunar_Eclipse_in_Geneva_II_(43663344762).jpg>
+- `images/CH/nafels_procession/01.jpg` — Kanton Glarus, Samuel Trümpy Photography (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:N%C3%A4felser_Fahrt_in_Glarus_Nord%2C_Kanton_Glarus.jpg>
 - `images/CH/republic_day/01.jpg` — Martouf (CC0) — <https://commons.wikimedia.org/wiki/File:Facade_est_du_ch%C3%A2teau_de_Neuch%C3%A2tel_au_lever_du_soleil.jpg>
 - `images/CH/republic_day/02.jpg` — Ypsilon from Finland (CC0) — <https://commons.wikimedia.org/wiki/File:Neuch%C3%A2tel_castle_courtyard.JPG>
 - `images/CH/republic_day/03.jpg` — Photochrom Print Collection (Public domain) — <https://commons.wikimedia.org/wiki/File:The_town,_general_view_showing_the_alps,_Neuchatel,_and_the_castle,_Switzerland-LCCN2001703134.jpg>
@@ -125,7 +129,7 @@ source could not be established carry **no** line and are listed in
 - `images/christmas_day_orthodox/01.jpg` — Unknown authorUnknown author (CC0) — <https://commons.wikimedia.org/wiki/File:Nativity_icon.jpg>
 - `images/christmas_day_orthodox/02.jpg` — unknown Russian painter (Public domain) — <https://commons.wikimedia.org/wiki/File:Russian_nativity_icon.jpg>
 - `images/christmas_day_orthodox/03.jpg` — Dionysius of Fourna (Public domain) — <https://commons.wikimedia.org/wiki/File:The_Nativity_of_Christ_Dionysius_of_Fourna.png>
-- `images/christmas_eve/01.jpg` — Ermell (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Stettfeld_Krippe_-20200112-RM-155644.jpg>
+- `images/christmas_eve/01.jpg` — Reinhold Möller (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Stettfeld_Krippe_-20200112-RM-155644.jpg>
 - `images/christmas_eve/02.jpg` — Šarūnas Burdulis from USA (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Christmas_Tree_Lights_(5325889736).jpg>
 - `images/christmas_eve/03.jpg` — Schetm (CC0) — <https://commons.wikimedia.org/wiki/File:Kramer_Chapel_candlelight_service.jpg>
 - `images/christmas/01.jpg` — Lotus Head from Johannesburg, Gauteng, South Africa (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Christmas_tree_sxc_hu.jpg>
@@ -135,19 +139,19 @@ source could not be established carry **no** line and are listed in
 - `images/CL/navy_day/01.jpg` — Carlos Figueroa (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Buque_escuela_Esmeralda,_Conc%C3%B3n_20200104_03.jpg>
 - `images/CL/navy_day/02.jpg` — United States Navy, Photographer's Mate 1st Class Dennis C. Cantrell (Public domain) — <https://commons.wikimedia.org/wiki/File:Esmeralda_BE43.jpg>
 - `images/CL/navy_day/03.jpg` — AntoArias 6 (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Monumento_a_los_H%C3%A9roes_de_Iquique,_Valpara%C3%ADso.jpg>
-- `images/CN/chinese_new_year_spring_festival/01.jpg` — Paul Louis (CC BY-SA 3.0)
-- `images/CN/mid_autumn_festival/01.jpg` — Lybil BER (CC BY-SA 3.0)
-- `images/CN/national_day/01.jpg` — Christophe95 (CC BY-SA 4.0)
+- `images/CN/chinese_new_year_spring_festival/01.jpg` — Paul Louis (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Red_lanterns%2C_Spring_Festival%2C_Ditan_Park_Beijing.JPG>
+- `images/CN/mid_autumn_festival/01.jpg` — Lybil BER (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Mooncake.jpg>
+- `images/CN/national_day/01.jpg` — Christophe95 (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Flower_basket_displayed_at_Tiananmen_Square_for_National_Day.jpg>
 - `images/CO/battle_of_boyaca/01.jpg` — Juanme17 (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Puente_de_Boyac%C3%A1_Junio_2014.JPG>
 - `images/CO/battle_of_boyaca/02.jpg` — Esdajones (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Monumento_a_Sim%C3%B3n_Bol%C3%ADvar,_Puente_de_Boyac%C3%A1..jpg>
 - `images/CO/battle_of_boyaca/03.jpg` — Kamilokardona (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Arco_del_triunfo,_Puente_de_Boyac%C3%A1._Ventaquemada,_Colombia.JPG>
 - `images/CO/declaration_of_independence/01.jpg` — Mark Koester (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Colombian_Flag.jpg>
-- `images/CO/declaration_of_independence/02.jpg` — National Police of Colombia (CC BY-SA 2.0)
+- `images/CO/declaration_of_independence/02.jpg` — National Police of Colombia (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Celebraciones_del_D%C3%ADa_de_la_Independencia%2C_Bogot%C3%A1%2C_Colombia%2C_2017-07-20_(35919277311).jpg>
 - `images/CO/declaration_of_independence/03.jpg` — Julián Ortega Martínez (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Bandera_de_Colombia_enastada.jpg>
 - `images/corpus_christi/01.jpg` — unknown (Public domain) — <https://commons.wikimedia.org/wiki/File:Lithuanian_Catholic_Representatives_of_the_St._Zita_Society_in_Vilnius_in_the_Corpus_Christi_procession_on_Pilies_street._Vilnius,_1917,_Lithuania.jpg>
 - `images/corpus_christi/02.jpg` — Josef Moser (CC0) — <https://commons.wikimedia.org/wiki/File:Deutschlandsberg_2025-06-19_Fronleichnam_Blumenteppich_zac.jpg>
 - `images/corpus_christi/03.jpg` — Tranceliner (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Corpus_Christi_Procession,_Tarxien.jpg>
-- `images/CZ/independent_czechoslovak_state_day/01.jpg` — spaceman117 (CC BY 3.0)
+- `images/CZ/independent_czechoslovak_state_day/01.jpg` — spaceman117 (CC BY 3.0) — <https://commons.wikimedia.org/wiki/File:Czech_flags_and_cathedral_-_panoramio.jpg>
 - `images/DE/german_unity_day/01.jpg` — Ввласенко (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Flag_of_the_Federal_Republic_of_Germany_before_of_the_Reichstag._Berlin,_Germany.jpg>
 - `images/DE/german_unity_day/02.jpg` — א (Aleph) Creator: Johann Gottfried Schadow (CC BY-SA 2.5) — <https://commons.wikimedia.org/wiki/File:Brandenburg_Gate_Quadriga_at_Night.jpg>
 - `images/DE/german_unity_day/03.jpg` — Thomas Wolf, www.foto-tw.de (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_morgens.jpg>
@@ -177,7 +181,7 @@ source could not be established carry **no** line and are listed in
 - `images/EG/eid_al_adha/02.jpg` — Mohamedalmaazon (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:1652%D8%B5%D9%84%D8%A7%D8%A9_%D8%A7%D9%84%D8%B9%D9%8A%D8%AF_,_%D8%A3%D8%A8%D9%88_%D8%B5%D9%8A%D8%B1_2026.jpg>
 - `images/EG/eid_al_adha/03.jpg` — Hmkree (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:%D8%A7%D9%88%D9%84_%D8%AC%D8%A7%D9%85%D8%B9_%D9%81%D9%8A_%D9%85%D8%B5%D8%B1.jpg>
 - `images/EG/islamic_new_year/01.jpg` — Jean-Léon Gérôme (Public domain) — <https://commons.wikimedia.org/wiki/File:Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_Evening_Prayer,_Cairo_(1865).jpg>
-- `images/EG/islamic_new_year/02.jpg` — Maro tharwat (CC BY-SA 3.0)
+- `images/EG/islamic_new_year/02.jpg` — Maro tharwat (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:El_moez_street_..jpg>
 - `images/EG/islamic_new_year/03.jpg` — Mohamddhassann (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Sunset_in_the_cityy.jpg>
 - `images/EG/june_30_revolution/01.jpg` — Robert Prazeres (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Tahrir_square_2019.jpg>
 - `images/EG/june_30_revolution/02.jpg` — Mohamed Raheem (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Cairo_Tower_With_Egyptian_Flag_Colors.jpg>
@@ -189,7 +193,7 @@ source could not be established carry **no** line and are listed in
 - `images/EG/revolution_day_2011_national_police_day/02.jpg` — Mohamedusrii (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:%D9%85%D9%8A%D8%AF%D8%A7%D9%86_%D8%A7%D9%84%D8%AA%D8%AD%D8%B1%D9%8A%D8%B1..!.jpg>
 - `images/EG/revolution_day_2011_national_police_day/03.jpg` — Jonathan Rashad (CC BY 3.0) — <https://commons.wikimedia.org/wiki/File:Egyptian_Flag.png>
 - `images/EG/revolution_day/01.jpg` — Ahmed Ezzeldien (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:%D8%B9%D9%84%D9%85_%D9%85%D8%B5%D8%B1_%D9%8A%D8%B1%D9%81%D8%B1%D9%81_%D9%81%D9%88%D9%82_%D9%82%D9%84%D8%B9%D8%A9_%D9%82%D8%A7%D9%8A%D8%AA%D8%A8%D8%A7%D9%8A.jpg>
-- `images/EG/sinai_liberation_day/01.jpg` — Vyacheslav Argenberg (CC BY 4.0)
+- `images/EG/sinai_liberation_day/01.jpg` — Vyacheslav Argenberg (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Sinai%2C_Egypt%2C_Canyon_through_the_mountains%2C_majestic_desert_landscape.jpg>
 - `images/EG/sinai_liberation_day/02.jpg` — Sara Nabih (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Sunrise_from_the_summit_of_Mount_Sinai_or_Gabal_Musa.jpg>
 - `images/epiphany/01.jpg` — Edward Burne-Jones (Public domain) — <https://commons.wikimedia.org/wiki/File:Edward_Burne-Jones_-_The_Adoration_of_the_Magi_-_Google_Art_Project.jpg>
 - `images/epiphany/02.jpg` — Javiertrad (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Cabalgata_de_Reyes_de_Ibi.jpg>
@@ -198,19 +202,19 @@ source could not be established carry **no** line and are listed in
 - `images/ES/constitution_day/02.jpg` — Benjamín Núñez González (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Bandera_de_Espa%C3%B1a,_Plaza_de_Col%C3%B3n,_Madrid,_Espa%C3%B1a,_2021_01.jpg>
 - `images/ES/constitution_day/03.jpg` — Zarateman (CC0) — <https://commons.wikimedia.org/wiki/File:Madrid_-_Monumento_a_la_Constituci%C3%B3n_Espa%C3%B1ola_de_1978.jpg>
 - `images/ES/national_day_of_spain/01.jpg` — Nils van der Burg from Madrid, Spain (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Patrulla_%C3%81guila-2009.jpg>
-- `images/ES/national_day_of_spain/02.jpg` — Draceane (CC BY-SA 4.0)
-- `images/ES/national_day_of_spain/03.jpg` — Draceane (CC BY-SA 4.0)
+- `images/ES/national_day_of_spain/02.jpg` — Draceane (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Fiesta_nacional%2C_parada_militar_en_Madrid%2C_2016_(09).jpg>
+- `images/ES/national_day_of_spain/03.jpg` — Draceane (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Fiesta_nacional%2C_parada_militar_en_Madrid%2C_2016_(08).jpg>
 - `images/fathers_day/01.jpg` — Alextredz (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Dad_teaching_child_to_ride_a_bike.jpg>
 - `images/fathers_day/02.jpg` — Srichakra Pranav (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Father_and_Daughter_at_RK_Beach_in_Visakhapatnam.jpg>
 - `images/FI/independence_day/01.jpg` — Htm (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Finnish_flag_on_independence_day_2011.jpg>
-- `images/FI/midsummer_day/01.jpg` — Poyhosa (CC BY-SA 3.0)
+- `images/FI/midsummer_day/01.jpg` — Poyhosa (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Juhannus.jpg>
 - `images/FR/armistice_day/01.jpg` — Jebulon (CC0) — <https://commons.wikimedia.org/wiki/File:Flamme_Arc_triomphe.jpg>
 - `images/FR/armistice_day/02.jpg` — SDASM Archives (Public domain) — <https://commons.wikimedia.org/wiki/File:Tomb_of_the_Unknown_Soldier_in_Paris_France_1941-1945.jpg>
 - `images/FR/armistice_day/03.jpg` — Malindine (Capt), Hanford (Lt.), Hardy (Sgt), No. 5 Army Film and Photographic Unit (Public domain) — <https://commons.wikimedia.org/wiki/File:General_Charles_de_Gaulle_laying_a_wreath_at_the_Tomb_of_the_Unknown_Warrior_at_the_Arc_de_Triomphe_in_Paris,_26_August_1944._BU93.jpg>
 - `images/FR/bastille_day/01.jpg` — Yann Caradec from Paris, France (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:2013_Fireworks_on_Eiffel_Tower_20.jpg>
 - `images/FR/bastille_day/02.jpg` — Yann Caradec from Paris, France (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Feu_d%27artifice_du_14_juillet_2012_sur_le_sites_de_la_Tour_Eiffel_et_du_Trocad%C3%A9ro.jpg>
-- `images/FR/bastille_day/03.jpg` — Kenneth Lu from San Francisco, CA (CC BY 2.0)
-- `images/FR/victory_in_europe_day/01.jpg` — xiquinhosilva (CC BY 2.0)
+- `images/FR/bastille_day/03.jpg` — Kenneth Lu from San Francisco, CA (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Eiffel_Tower_fireworks_on_Bastille_Day_2017_(36303814541).jpg>
+- `images/FR/victory_in_europe_day/01.jpg` — xiquinhosilva (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_(2017).jpg>
 - `images/FUN/absurdity_day/01.jpg` — Loz Pycock (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Upside_Down_House,_Brighton_Seafront.jpg>
 - `images/FUN/alice_in_wonderland_day/01.jpg` — GreenReaper (Public domain) — <https://commons.wikimedia.org/wiki/File:Alice_in_Wonderland_sculpture_in_Central_Park.jpg>
 - `images/FUN/almond_day/01.jpg` — Ivar Leidus (CC BY-SA 4.0)
@@ -385,7 +389,7 @@ source could not be established carry **no** line and are listed in
 - `images/FUN/lighthouse_day/01.jpg` — Marco Leiter (CC BY-SA 4.0)
 - `images/FUN/limerick_day/01.jpg` — David P Howard (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Thomond_Bridge_and_River_Shannon,_Limerick_-_geograph.org.uk_-_5141684.jpg>
 - `images/FUN/linguine_day/01.jpg` — Sebastian Zurkuhl (= Circle357) (CC BY-SA 2.0 de)
-- `images/FUN/lobster_day/01.jpg` — Ermell (CC BY-SA 4.0)
+- `images/FUN/lobster_day/01.jpg` — Reinhold Möller (CC BY-SA 4.0)
 - `images/FUN/lost_sock_memorial_day/01.jpg` — Colonel Warden (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Smelly_socks.jpg>
 - `images/FUN/love_your_pet_day/01.jpg` — S. J. Pyrotechnic from Boise, ID, USA (CC BY-SA 2.0)
 - `images/FUN/macadamia_nut_day/01.jpg` — Fumikas Sagisavas (CC0) — <https://commons.wikimedia.org/wiki/File:Macadamia_nut_kernels.jpg>
@@ -501,8 +505,8 @@ source could not be established carry **no** line and are listed in
 - `images/FUN/take_a_hike_day/01.jpg` — Pudelek (CC BY-SA 4.0)
 - `images/FUN/talk_like_a_pirate_day/01.jpg` — Pauline E (CC BY-SA 2.0)
 - `images/FUN/tango_day/01.jpg` — Manticora87 (CC BY-SA 4.0)
-- `images/FUN/tapioca_pudding_day/01.jpg` — Wikimedia Commons (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Tapioca_pudding-3.jpg>
-- `images/FUN/tartan_day/01.jpg` — Wikimedia Commons (CC BY-SA 3.0)
+- `images/FUN/tapioca_pudding_day/01.jpg` — Interiot, reworked by Rainer Zenz (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Tapioca_pudding-3.jpg>
+- `images/FUN/tartan_day/01.jpg` — Dreamyshade (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Three_tartans.jpg>
 - `images/FUN/tau_day/01.jpg` — Benny Mazur (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Two_pumpkin_pies_in_glass_bakeware.jpg>
 - `images/FUN/teddy_bear_day/01.jpg` — Jacek Halicki (CC BY-SA 4.0)
 - `images/FUN/tell_a_fairy_tale_day/01.jpg` — Kritzolina (CC BY-SA 4.0)
@@ -589,12 +593,12 @@ source could not be established carry **no** line and are listed in
 - `images/good_friday/02.jpg` — Naturpuur (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Karfreitag_Kreuz,_Danielsberg_966_m,_M%C3%B6lltal,_K%C3%A4rnten.jpg>
 - `images/good_friday/03.jpg` — Marijke Blazer (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Scottish_hot_cross_buns_in_basket.jpg>
 - `images/GR/independence_day/01.jpg` — George E. Koronaios (CC0) — <https://commons.wikimedia.org/wiki/File:The_Hellenic_flag_on_the_Acropolis_on_September_13,_2020.jpg>
-- `images/GR/ochi_day/01.jpg` — Chrischerf (CC BY-SA 3.0)
+- `images/GR/ochi_day/01.jpg` — Chrischerf (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Ochi-tag_rhodos_2011-1.jpg>
 - `images/halloween/01.jpg` — Unknown authorUnknown author (Public domain) — <https://commons.wikimedia.org/wiki/File:Jack_o_lantern_pumpkin_in_leaves.jpg>
 - `images/halloween/02.jpg` — Unknown authorUnknown author (Public domain) — <https://commons.wikimedia.org/wiki/File:%22Halloween_Greetings.%22_(Two_boys_carrying_a_large_Jack-O-Lantern).jpg>
 - `images/halloween/03.jpg` — www.Pixel.la Free Stock Photos (CC0) — <https://commons.wikimedia.org/wiki/File:Lamp-halloween-lantern-pumpkin_(24217627862).jpg>
-- `images/HK/dragon_boat_festival/01.jpg` — Ceeseven (CC BY-SA 4.0)
-- `images/HK/dragon_boat_festival/02.jpg` — Stewart~惡龍 (CC BY 3.0)
+- `images/HK/dragon_boat_festival/01.jpg` — Ceeseven (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Hong_Kong_Dragon_Boat_Carnival_Race.jpg>
+- `images/HK/dragon_boat_festival/02.jpg` — Stewart~惡龍 (CC BY 3.0) — <https://commons.wikimedia.org/wiki/File:Eastern_District_Dragon_Boat_Race_-_2008-06-01_09h52m48s_SN201360.jpg>
 - `images/HK/dragon_boat_festival/03.jpg` — Kelvin Ma (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Tai_O_Dragon_Boat_Water_Parade_%E5%A4%A7%E6%BE%B3%E7%AB%AF%E5%8D%88%E9%BE%8D%E8%88%9F%E9%81%8A%E6%B6%8C.jpg>
 - `images/HK/hong_kong_special_administrative_region_establishment_day/01.jpg` — Bernard Spragg. NZ from Christchurch, New Zealand (CC0) — <https://commons.wikimedia.org/wiki/File:Golden_Bauhinia_Square._Hong_Kong._(16034131277).jpg>
 - `images/HK/hong_kong_special_administrative_region_establishment_day/02.jpg` — Michael Elleray from England, United Kingdom (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Victoria_Harbour_Fireworks_Display_(6834868007).jpg>
@@ -602,14 +606,14 @@ source could not be established carry **no** line and are listed in
 - `images/holy_saturday/01.jpg` — ElHeineken (CC BY 3.0) — <https://commons.wikimedia.org/wiki/File:Easter_Fire.JPG>
 - `images/holy_saturday/02.jpg` — Black Lyn (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Easter_Fire_Ritual_02.jpg>
 - `images/holy_saturday/03.jpg` — Dietmar Rabich (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_St.-Viktor-Kirche,_Innenansicht_--_2018_--_0653.jpg>
-- `images/IE/saint_brigids_day/01.jpg` — Nheyob (CC BY-SA 3.0)
-- `images/IE/saint_brigids_day/02.jpg` — Qwertzu111111 (CC BY-SA 4.0)
+- `images/IE/saint_brigids_day/01.jpg` — Nheyob (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Saint_Brigid_of_Kildare_Church_(Dublin%2C_Ohio)_-_Eucharistic_adoration.jpg>
+- `images/IE/saint_brigids_day/02.jpg` — Qwertzu111111 (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:IRL_2025%3B_Statues_of_Brigid_of_Kildare_in_Ireland%3B_Saint_Brigid's_Church%2C_Kildare%2C_June_2025_Republic_of_Ireland_photographs.jpg>
 - `images/IE/saint_brigids_day/03.jpg` — Culnacreann (CC BY 3.0) — <https://commons.wikimedia.org/wiki/File:Saint_Brigid%27s_cross.jpg>
 - `images/IE/saint_patricks_day/01.jpg` — Rijksmuseum (CC0) — <https://commons.wikimedia.org/wiki/File:Drinkende_mensen_in_een_kroeg_op_St._Patrick%27s_Day_Scenes_of_Irish_Life._St.Patrick%27s_Day-Drowning_the_Shamrock_(titel_op_object),_RP-F-F10671.jpg>
 - `images/IE/saint_patricks_day/02.jpg` — Unknown authorUnknown author (Public domain) — <https://commons.wikimedia.org/wiki/File:%22Erin_Go_Braugh._St._Patricks_Day_Greetings.%22.jpg>
 - `images/IE/saint_patricks_day/03.jpg` — Unknown authorUnknown author (Public domain) — <https://commons.wikimedia.org/wiki/File:%22Erin_Go_Braugh._St._Patrick%27s_Greetings.%22.jpg>
 - `images/IL/hanukkah/01.jpg` — Noam Furer (CC0) — <https://commons.wikimedia.org/wiki/File:Classic_Hanukkah_sufganiyot.JPG>
-- `images/IL/hanukkah/02.jpg` — HaJunkiyada (CC BY-SA 4.0)
+- `images/IL/hanukkah/02.jpg` — HaJunkiyada (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Sufganiyot_from_Jewish_bakery_in_San_Francisco.jpg>
 - `images/IL/passover/01.jpg` — Mikael Häggström (CC0) — <https://commons.wikimedia.org/wiki/File:Passover_Seder_plate_with_wine_and_matzot.jpg>
 - `images/IL/passover/02.jpg` — User:RadRafe~commonswiki (Public domain) — <https://commons.wikimedia.org/wiki/File:A_Seder_table_setting.jpg>
 - `images/IL/passover/03.jpg` — Edsel Little (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Passover_Seder_plate,_original.jpg>
@@ -631,28 +635,28 @@ source could not be established carry **no** line and are listed in
 - `images/immaculate_conception/01.jpg` — Bartolomé Esteban Murillo (Public domain) — <https://commons.wikimedia.org/wiki/File:Bartolom%C3%A9_Esteban_Murillo_-_Immaculada_Concepci%C3%B3n,_c._1670.jpg>
 - `images/immaculate_conception/02.jpg` — Nheyob (CC0) — <https://commons.wikimedia.org/wiki/File:Immaculate_Conception_Church_(Melbourne_Beach,_Florida)_-_St._Mary_statue.jpg>
 - `images/immaculate_conception/03.jpg` — Deensel (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Santuario_de_la_Inmaculada_Concepci%C3%B3n,_Cerro_San_Crist%C3%B3bal_(25059260397).jpg>
-- `images/IT/liberation_day/01.jpg` — Alex Valli from Los Angeles, USA (CC BY 2.0)
+- `images/IT/liberation_day/01.jpg` — Alex Valli from Los Angeles, USA (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Festa_della_Liberazione_-_Florence%2C_Italy_-_25_April_2009.jpg>
 - `images/IT/liberation_day/02.jpg` — Andreas Liasis (CC0) — <https://commons.wikimedia.org/wiki/File:Italian_flag_in_Vittoriano.jpg>
 - `images/IT/liberation_day/03.jpg` — Sailko (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Delio_Granchi,_Monumento_al_partigiano_di_Sesto_Fiorentino,_1949,_02.jpg>
 - `images/IT/republic_day/01.jpg` — Justinawind (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Frecce_tricolori_su_Roma.jpg>
 - `images/IT/republic_day/02.jpg` — Bumba at Italian Wikipedia (Public domain) — <https://commons.wikimedia.org/wiki/File:Vittoriano_(30_05_06).JPG>
-- `images/IT/republic_day/03.jpg` — Nicholas Gemini (CC BY-SA 3.0)
-- `images/JP/childrens_day/01.jpg` — kiukey from Nagoya (CC BY 2.0)
+- `images/IT/republic_day/03.jpg` — Nicholas Gemini (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Festa_della_Repubblica_37.JPG>
+- `images/JP/childrens_day/01.jpg` — kiukey from Nagoya (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Koinobori_in_the_sky_by_kiukey.jpg>
 - `images/JP/coming_of_age_day/01.jpg` — Dick Johnson (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Coming_of_Age_Day_Ceremony.jpg>
-- `images/JP/coming_of_age_day/02.jpg` — Marc Dalmulder (CC BY 2.0)
-- `images/JP/coming_of_age_day/03.jpg` — Nikita from Russian Federation (CC BY 2.0)
-- `images/JP/constitution_memorial_day/01.jpg` — Daderot (CC0)
-- `images/JP/culture_day/01.jpg` — Wiiii (CC BY-SA 3.0)
+- `images/JP/coming_of_age_day/02.jpg` — Marc Dalmulder (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:2019-01-14_Kimono_Girls_at_Asakusa%2C_Tokyo_on_Coming_of_Age_day.jpg>
+- `images/JP/coming_of_age_day/03.jpg` — Nikita from Russian Federation (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Four_beauties.jpg>
+- `images/JP/constitution_memorial_day/01.jpg` — Daderot (CC0) — <https://commons.wikimedia.org/wiki/File:National_Diet_Building_-_Tokyo%2C_Japan_-_DSC06736.JPG>
+- `images/JP/culture_day/01.jpg` — Wiiii (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum%2C_Honkan_2010.jpg>
 - `images/JP/foundation_day/01.jpg` — 663highland (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:251206_Kashihara_Shrine_Kashihara_Nara_pref_Japan02s3.jpg>
 - `images/JP/foundation_day/02.jpg` — Mj-bird (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Waving_Japanese_flag.jpg>
 - `images/JP/foundation_day/03.jpg` — 名古屋太郎 (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Kashihara-unebi.JPG>
 - `images/KR/chuseok/01.jpg` — Namwon030 (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Chuseok_table_01.JPG>
-- `images/KR/chuseok/02.jpg` — by Joseph Steinberg (Baltimoron in Korea) at Flickr (CC BY-SA 2.0)
-- `images/KR/chuseok/03.jpg` — by 'Speculando (CC BY 2.0)
+- `images/KR/chuseok/02.jpg` — by Joseph Steinberg (Baltimoron in Korea) at Flickr (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Korean_rice_cake-Songpyeon-02.jpg>
+- `images/KR/chuseok/03.jpg` — by 'Speculando (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Korean_food-Songpyeon-01.jpg>
 - `images/KR/hangul_day/01.jpg` — Republic of Korea (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Statue_of_King_Sejong.jpg>
 - `images/KR/hangul_day/02.jpg` — Republic of Korea from Seoul, Republic of Korea (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Korea_National_Hangeul_Museum_05_(15230810367).jpg>
 - `images/KR/hangul_day/03.jpg` — Republic of Korea from Seoul, Republic of Korea (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Korea_National_Hangeul_Museum_08_(15414180041).jpg>
-- `images/KR/liberation_day/01.jpg` — Korea.net / Korean Culture and Information Service (CC BY-SA 2.0)
+- `images/KR/liberation_day/01.jpg` — Korea.net / Korean Culture and Information Service (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Korea_Liberation_Day_12_(7779856252).jpg>
 - `images/KR/lunar_new_year/01.jpg` — soscs (CC0) — <https://commons.wikimedia.org/wiki/File:Tteokguk.jpg>
 - `images/labour_day/01.jpg` — Shixart1985 (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Baker_woman%27s_hands_kneading_bread_dough.jpg>
 - `images/labour_day/02.jpg` — Airman 1st Class David Owsianka (Public domain) — <https://commons.wikimedia.org/wiki/File:Sparks_fly_at_metal_tech_150623-F-CB366-073.jpg>
@@ -684,7 +688,7 @@ source could not be established carry **no** line and are listed in
 - `images/MEMORIAL/de_june_17_uprising/01.jpg` — ubahnverleih (CC0) — <https://commons.wikimedia.org/wiki/File:Denkmal_Volksaufstand_17._Juni_1953,_Postplatz_Dresden.jpg>
 - `images/MEMORIAL/de_november_pogroms/01.jpg` — Neuköllner (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Neue_Synagoge%2C_Oranienburger_Stra%C3%9Fe%2C_Berlin-Mitte.jpg>
 - `images/MEMORIAL/de_victims_of_national_socialism/01.jpg` — Dietmar Rabich (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Berlin%2C_Denkmal_f%C3%BCr_die_ermordeten_Juden_Europas_--_2011_--_2415.jpg>
-- `images/MEMORIAL/de_volkstrauertag/01.jpg` — Johann H. Addicks (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Berlin%2C_Neue_Wache%2C_interior_view%2C_2005.jpg>
+- `images/MEMORIAL/de_volkstrauertag/01.jpg` — Johann H. Addicks (-jha-) (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Berlin%2C_Neue_Wache%2C_interior_view%2C_2005.jpg>
 - `images/MEMORIAL/ee_victory_day/01.jpg` — Pauloleong2002 (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Independence_War_Victory_Column%2C_Tallinn%2C_Estonia.jpg>
 - `images/MEMORIAL/eu_day_of_remembrance_for_victims_of_terrorism/01.jpg` — Felipe Gabaldón (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:11-M_Memorial._Atocha_Station._Madrid%2C_Spain._(4425265732).jpg>
 - `images/MEMORIAL/eu_end_of_second_world_war_in_europe/01.jpg` — Flocci Nivis (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:20220805_Soviet_Cenotaph_in_Berlin-Tiergarten_02.jpg>
@@ -750,9 +754,9 @@ source could not be established carry **no** line and are listed in
 - `images/MX/independence_day/01.jpg` — EneasMx (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:15_de_Septiembre_20202_en_el_Z%C3%B3calo_3.jpg>
 - `images/MX/independence_day/02.jpg` — Juan Carlos Fonseca Mata (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Grito_de_independencia_2007_(Dolores,_Gto.).jpg>
 - `images/MX/independence_day/03.jpg` — Mikemamer (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Z%C3%B3calo_CDMX_2019.jpg>
-- `images/MX/revolution_day/01.jpg` — AlejandroLinaresGarcia (CC BY-SA 4.0)
-- `images/MX/revolution_day/02.jpg` — AlejandroLinaresGarcia (CC BY-SA 4.0)
-- `images/MX/revolution_day/03.jpg` — Carlos Valenzuela (CC BY-SA 4.0)
+- `images/MX/revolution_day/01.jpg` — AlejandroLinaresGarcia (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:2015ConstitutionDayChapala_56.JPG>
+- `images/MX/revolution_day/02.jpg` — AlejandroLinaresGarcia (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:2015ConstitutionDayChapala_29.JPG>
+- `images/MX/revolution_day/03.jpg` — Carlos Valenzuela (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Monumento_a_la_revoluci%C3%B3n2017.jpg>
 - `images/nameday/01.jpg` — George Chernilevsky (Public domain) — <https://commons.wikimedia.org/wiki/File:Poppies_bouquet_2017_G1.jpg>
 - `images/nameday/02.jpg` — Abraham (CC0) — <https://commons.wikimedia.org/wiki/File:20230818_rose_flower_father_Miron%27s_name_day_bouquet_04.jpg>
 - `images/nameday/03.jpg` — Abraham (CC0) — <https://commons.wikimedia.org/wiki/File:20230818_rose_flower_father_Miron%27s_name_day_bouquet_03.jpg>
@@ -760,17 +764,17 @@ source could not be established carry **no** line and are listed in
 - `images/new_year/02.jpg` — Vyacheslav Argenberg (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Anjuna_Beach,_Goa,_India,_New_Year%27s_Eve,_Fireworks_in_the_sky,_Beach_party.jpg>
 - `images/new_year/03.jpg` — Vyacheslav Argenberg (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Anjuna_Beach,_Goa,_India,_New_Year%27s_Eve,_Fireworks_in_the_sky.jpg>
 - `images/new_years_eve/01.jpg` — sergejf (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:London_Eye_-_New_Year_2020_Fireworks.jpg>
-- `images/new_years_eve/02.jpg` — Vivu Vietnam (CC BY-SA 4.0)
-- `images/new_years_eve/03.jpg` — Btezra (CC BY-SA 2.0)
+- `images/new_years_eve/02.jpg` — Vivu Vietnam (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Da_Nang_International_Fireworks_Festival_DIFF_Dragon_Bridge_Han_River_night_skyline_Vietnam.jpg>
+- `images/new_years_eve/03.jpg` — Btezra (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Night_view_of_Pittsburgh%2C_with_fireworks_(July_22%2C_2005).jpg>
 - `images/NL/kings_day/01.jpg` — Alf van Beem (Public domain) — <https://commons.wikimedia.org/wiki/File:Koningsdag_in_Amsterdam,_Lauriergracht_foto_7.JPG>
 - `images/NL/kings_day/02.jpg` — Alf van Beem (Public domain) — <https://commons.wikimedia.org/wiki/File:Koningsdag_in_Amsterdam,_Prinsengracht_foto_5.JPG>
 - `images/NL/kings_day/03.jpg` — Mariia Khristosenko (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:King%27s_Day_celebration_on_a_canal_in_Amsterdam.jpg>
 - `images/NL/liberation_day/01.jpg` — Lumaag (CC0) — <https://commons.wikimedia.org/wiki/File:Bevrijdingsdag_(Liberation_Day)_2025_-_De_Savornin_Lohmanplein,_Den_Haag_(The_Hague).jpg>
 - `images/NL/liberation_day/02.jpg` — Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Original publication 📤: --Donald Trung 『徵國單』 (No Fake News 💬) (WikiProject Numismatics 💴) (Articles 📚) 13:54, 6 June 2022 (UTC) (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:National_Dutch_flag_out_for_Liberation_Day,_Rotterdam-Centrum,_Rotterdam_(2022)_07.jpg>
 - `images/NL/liberation_day/03.jpg` — Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Original publication 📤: --Donald Trung 『徵國單』 (No Fake News 💬) (WikiProject Numismatics 💴) (Articles 📚) 13:54, 6 June 2022 (UTC) (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:National_Dutch_flag_out_for_Liberation_Day,_Rotterdam-Centrum,_Rotterdam_(2022)_02.jpg>
-- `images/NO/constitution_day/01.jpg` — Bjoertvedt (CC BY-SA 3.0 no)
-- `images/NO/constitution_day/02.jpg` — Bjoertvedt (CC BY-SA 3.0 no)
-- `images/NO/constitution_day/03.jpg` — Bjoertvedt. (CC BY-SA 3.0 no)
+- `images/NO/constitution_day/01.jpg` — Bjoertvedt (CC BY-SA 3.0 no) — <https://commons.wikimedia.org/wiki/File:Grand_Hotel_oslo_IMG_6109_rk_163607.JPG>
+- `images/NO/constitution_day/02.jpg` — Bjoertvedt (CC BY-SA 3.0 no) — <https://commons.wikimedia.org/wiki/File:Grand_Hotel_oslo_IMG_6111_rk_163607.JPG>
+- `images/NO/constitution_day/03.jpg` — Bjoertvedt. (CC BY-SA 3.0 no) — <https://commons.wikimedia.org/wiki/File:Constitution_Day_parade_passing_by_the_Domus_Bibliotheca_and_Domus_Academica%2C_University_of_Oslo_-_20100517-02.jpg>
 - `images/NZ/anzac_day/01.jpg` — Michal Klajban (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Napier,_New_Zealand_02.JPG>
 - `images/NZ/anzac_day/02.jpg` — Sgt. Ashley Bell (Public domain) — <https://commons.wikimedia.org/wiki/File:ANZAC_Day_dawn_service_in_Kandahar_130425-A-VM825-087.jpg>
 - `images/NZ/anzac_day/03.jpg` — Sgt. Ashley Bell (Public domain) — <https://commons.wikimedia.org/wiki/File:ANZAC_Day_dawn_service_in_Kandahar_130425-A-VM825-013.jpg>
@@ -778,6 +782,7 @@ source could not be established carry **no** line and are listed in
 - `images/NZ/auckland_anniversary_day/02.jpg` — Henry Winkelmann (Public domain) — <https://commons.wikimedia.org/wiki/File:Lavona,_29_January_1926_9787.jpg>
 - `images/NZ/auckland_anniversary_day/03.jpg` — Henry Winkelmann (Public domain) — <https://commons.wikimedia.org/wiki/File:Speedwell_(Mahurangi_Heads_Regatta)_1901,_8181.jpg>
 - `images/NZ/canterbury_anniversary_day/01.jpg` — Muff at Italian Wikipedia (Public domain) — <https://commons.wikimedia.org/wiki/File:Christchurch_Cathedral_Square_004.jpg>
+- `images/NZ/canterbury_anniversary_day/02.jpg` — Unknown author (Public domain) — <https://commons.wikimedia.org/wiki/File:A_stagecoach_in_Cathedral_Square%2C_Christchurch.jpg>
 - `images/NZ/canterbury_anniversary_day/03.jpg` — Bernard Spragg. NZ from Christchurch, New Zealand (CC0) — <https://commons.wikimedia.org/wiki/File:Russell_Lupins_in_Lake_Tekapo.NZ_(10339185584).jpg>
 - `images/NZ/canterbury_south_anniversary_day/01.jpg` — Bernard Spragg. NZ from Christchurch, New Zealand (CC0) — <https://commons.wikimedia.org/wiki/File:Russell_Lupins_in_Lake_Tekapo.NZ_(10339185584).jpg>
 - `images/NZ/canterbury_south_anniversary_day/02.jpg` — Bernard Spragg. NZ from Christchurch, New Zealand (CC0) — <https://commons.wikimedia.org/wiki/File:Russell_Lupins._Lake_Tekapo._NZ_(17568169196).jpg>
@@ -816,12 +821,12 @@ source could not be established carry **no** line and are listed in
 - `images/NZ/wellington_anniversary_day/01.jpg` — Haines, John (photographer), October 1914, New Zealand (Public domain) — <https://commons.wikimedia.org/wiki/File:Wellington_Harbour_1914_with_Japanese_and_New_Zealand_troopships.jpg>
 - `images/NZ/wellington_anniversary_day/02.jpg` — Octagon (CC BY 3.0) — <https://commons.wikimedia.org/wiki/File:Oriental_Bay_-_Wellington.JPG>
 - `images/NZ/wellington_anniversary_day/03.jpg` — Clilly4 (CC0) — <https://commons.wikimedia.org/wiki/File:Wellington_city_with_Cable_Car_(cropped).jpg>
-- `images/NZ/westland_anniversary_day/01.jpg` — Stewart Nimmo (CC BY-SA 4.0)
+- `images/NZ/westland_anniversary_day/01.jpg` — Stewart Nimmo (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:TWC_Hokitika_Gorge_%E2%80%A2_Stewart_Nimmo_%E2%80%A2_MRD_29.jpg>
 - `images/NZ/westland_anniversary_day/02.jpg` — Krzysztof Golik (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Pancake_Rocks_22.jpg>
-- `images/NZ/westland_anniversary_day/03.jpg` — Michal Klajban (CC BY-SA 4.0)
+- `images/NZ/westland_anniversary_day/03.jpg` — Michal Klajban (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Hokitika_Gorge%2C_West_Coast%2C_New_Zealand_04.jpg>
 - `images/pentecost/01.jpg` — Anne C. Richardson, Jim Womack (Public domain) — <https://commons.wikimedia.org/wiki/File:Clermont-Ferrand_stained_glass_-_Vanderbilt_ACT_-_Clermont_Cathedral_028.jpg>
 - `images/pentecost/02.jpg` — Ввласенко (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:The_central_part_of_the_Pentecost_stained_glass_in_St._Andrew_chapel_of_St._Vitus_Cathedral,_Prague.jpg>
-- `images/pentecost/03.jpg` — Ermell (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Banz_Deckenfresko_Pfingsten_3070549.jpg>
+- `images/pentecost/03.jpg` — Reinhold Möller (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Banz_Deckenfresko_Pfingsten_3070549.jpg>
 - `images/PL/constitution_day/01.jpg` — Jan Matejko (Public domain) — <https://commons.wikimedia.org/wiki/File:Jan_Matejko_-_Konstytucja_3_maja_1791.jpg>
 - `images/PL/constitution_day/02.jpg` — A.Savin (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Warsaw_07-13_img08_Old_town.jpg>
 - `images/PL/constitution_day/03.jpg` — U.S. Army photo by Spc. Devin Klecan (Public domain) — <https://commons.wikimedia.org/wiki/File:Polish,_U_S_Forces_Recognize_Constitution_Day_in_Poland_(8379617).jpg>
@@ -841,30 +846,31 @@ source could not be established carry **no** line and are listed in
 - `images/saint_peter_and_saint_paul/02.jpg` — Bis-Serjetà? (CC0) — <https://commons.wikimedia.org/wiki/File:Church_of_Saints_Peter_and_Paul,_Kriva_Reka_-_Saint_Peter_Mosaic_Icon.jpg>
 - `images/saint_peter_and_saint_paul/03.jpg` — BLAGO Fund, Inc. (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Fresco_St_Peter_and_Paul_-_St_Peter_and_Paul_Church_MUSNIKOVO2_1_IMG_7239.jpg>
 - `images/SE/midsummer_eve/01.jpg` — Mikael Häggström (Public domain) — <https://commons.wikimedia.org/wiki/File:Midsommar_p%C3%A5_%C3%85rsn%C3%A4s.png>
-- `images/SE/midsummer_eve/02.jpg` — Plankbil (CC BY-SA 4.0)
+- `images/SE/midsummer_eve/02.jpg` — Plankbil (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Midsummer_in_R%C3%A4lta%2C_Sweden_(Midsommar_i_R%C3%A4lta%2C_Sverige).jpg>
 - `images/SE/midsummer_eve/03.jpg` — Håkan Dahlström from Malmö, Sweden (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Swedish_midsummer_(9112233823).jpg>
 - `images/SE/national_day_of_sweden/01.jpg` — AleWi (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Skansen,_nationaldagen_2016,_bild_20.jpg>
 - `images/SE/national_day_of_sweden/02.jpg` — Peter Isotalo (Public domain) — <https://commons.wikimedia.org/wiki/File:Swedish_flag_flown_outside_home.jpg>
-- `images/SE/national_day_of_sweden/03.jpg` — Bengt Nyman (CC BY-SA 4.0)
+- `images/SE/national_day_of_sweden/03.jpg` — Bengt Nyman (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:National_Day_of_Sweden_2015_7900.jpg>
 - `images/SG/chinese_new_year/01.jpg` — C1815. (CC0) — <https://commons.wikimedia.org/wiki/File:Chinese_New_Year_decorations_and_the_Merlion_statue,_Sentosa,_Singapore_-_20150222.jpg>
 - `images/SG/chinese_new_year/02.jpg` — Aaaatu (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Chinese_lanterns_in_the_side_of_Buddha_Tooth_Relic_temple.jpg>
-- `images/SG/chinese_new_year/03.jpg` — Anubhab91 (CC BY-SA 4.0)
-- `images/SG/deepavali/01.jpg` — Public domain: Use these pix for any purpose (CC BY 2.0)
+- `images/SG/chinese_new_year/03.jpg` — Anubhab91 (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Tiger_light_decoration_in_Singapore_during_Chinese_New_Year_2022.jpg>
+- `images/SG/deepavali/01.jpg` — Public domain: Use these pix for any purpose (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Little_India_Singapore_Deepavali_2013.jpg>
 - `images/SG/national_day/01.jpg` — Spc. Anita VanderMolen (Public domain) — <https://commons.wikimedia.org/wiki/File:Military,_cultures_join_during_Tiger_Balm_2011_DVIDS436398.jpg>
 - `images/SG/national_day/02.jpg` — Spc. Anita VanderMolen (Public domain) — <https://commons.wikimedia.org/wiki/File:Military,_cultures_join_during_Tiger_Balm_2011_DVIDS436396.jpg>
 - `images/SG/national_day/03.jpg` — Spc. Anita VanderMolen (Public domain) — <https://commons.wikimedia.org/wiki/File:Military,_cultures_join_during_Tiger_Balm_2011_DVIDS436399.jpg>
-- `images/SG/vesak_day/01.jpg` — Amilawapc (CC BY-SA 4.0)
+- `images/SG/vesak_day/01.jpg` — Amilawapc (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Vesak_in_Singapore.jpg>
 - `images/st_stephen/01.jpg` — Tilman Riemenschneider (CC0) — <https://commons.wikimedia.org/wiki/File:Clevelandart_1959.43.jpg>
 - `images/st_stephen/02.jpg` — C.Stadler/Bwag (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Wien_-_Stephansdom,_Dach,_nordseitige_Wappen.JPG>
 - `images/st_stephen/03.jpg` — Andreas F. Borchert (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Nicorps_%E2%80%93_%C3%89glise_Saint-Corneille_%E2%80%93_Baie_0_%E2%80%93_Saint_%C3%89tienne_2023_08_14.jpg>
+- `images/TR/ataturk_commemoration_youth_day/01.jpg` — Republic of Turkey (Public domain) — <https://commons.wikimedia.org/wiki/File:Atat%C3%BCrk_looking_into_Central_asia.jpg>
 - `images/TR/ataturk_commemoration_youth_day/02.jpg` — Cobija (CC0) — <https://commons.wikimedia.org/wiki/File:Onur_An%C4%B1t%C4%B1.JPG>
 - `images/TR/democracy_and_national_unity_day/01.jpg` — KLMircea from Focsani, Romania (CC BY-SA 2.0) — <https://commons.wikimedia.org/wiki/File:Turkey_flag.jpg>
 - `images/TR/democracy_and_national_unity_day/02.jpg` — Wienerschmäh (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:15_Temmuz_%C5%9Eehitler_An%C4%B1t%C4%B1_ve_M%C3%BCzesi.jpg>
 - `images/TR/democracy_and_national_unity_day/03.jpg` — Ank Kumar (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Turkish_flag_(T%C3%BCrk_bayra%C4%9F%C4%B1),_Bosphorus_Strait,_Istanbul,_T%C3%BCrkiye_(_Ank_Kumar_,_Infosys_Limited_)_03.jpg>
 - `images/TR/eid_al_adha_first_day/01.jpg` — Enkizu (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Bayram_%C5%9Eekeri.jpg>
-- `images/TR/eid_al_fitr_first_day/01.jpg` — James Gordon from Los Angeles, California, USA (CC BY 2.0)
-- `images/TR/eid_al_fitr_first_day/02.jpg` — James Gordon from Los Angeles, California, USA (CC BY 2.0)
-- `images/TR/eid_al_fitr_first_day/03.jpg` — James Gordon from Los Angeles, California, USA (CC BY 2.0)
+- `images/TR/eid_al_fitr_first_day/01.jpg` — James Gordon from Los Angeles, California, USA (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Baklava_shop%2C_Damascus%2C_Syria_-_1.jpg>
+- `images/TR/eid_al_fitr_first_day/02.jpg` — James Gordon from Los Angeles, California, USA (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Baklava_shop%2C_Damascus%2C_Syria.jpg>
+- `images/TR/eid_al_fitr_first_day/03.jpg` — James Gordon from Los Angeles, California, USA (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Baklava_shop%2C_Damascus%2C_Syria_-_2.jpg>
 - `images/TR/national_independence_childrens_day/01.jpg` — user:ozgurmulazimoglu (CC BY 3.0) — <https://commons.wikimedia.org/wiki/File:23_April_2011_festival.jpg>
 - `images/TR/republic_day/01.jpg` — Unknown authorUnknown author (Public domain) — <https://commons.wikimedia.org/wiki/File:Atat%C3%BCrk_Cumhuriyet_Bayram%C4%B1_kutlamalar%C4%B1nda_k%C3%BCrs%C3%BCde.jpg>
 - `images/TR/republic_day/02.jpg` — Nicoleon (CC0) — <https://commons.wikimedia.org/wiki/File:An%C4%B1tkabir_2025.jpg>
@@ -874,7 +880,7 @@ source could not be established carry **no** line and are listed in
 - `images/US/independence_day/01.jpg` — Carol M. Highsmith (Public domain) — <https://commons.wikimedia.org/wiki/File:July_4th_fireworks,_Washington,_D.C._(LOC).jpg>
 - `images/US/independence_day/02.jpg` — U.S. Navy photo by Senior Chief Mass Communication Specialist Gary Ward (Public domain) — <https://commons.wikimedia.org/wiki/File:US_Navy_090704-N-3271W-343_Mass_Communication_Specialist_2nd_Class_Scott_Webb_salutes_as_the_American_flag_is_presented_on_stage_during_the_Boston_Pops_Fireworks_Spectacular_at_the_Charles_River_Esplanade.jpg>
 - `images/US/independence_day/03.jpg` — Steve Herman (Public domain) — <https://commons.wikimedia.org/wiki/File:2019_Independence_Day_fireworks_in_White_House.jpg>
-- `images/US/juneteenth_national_independence_day/01.jpg` — Mrs. Charles Stephenson (Grace Murray) (Public domain)
+- `images/US/juneteenth_national_independence_day/01.jpg` — Mrs. Charles Stephenson (Grace Murray) (Public domain) — <https://commons.wikimedia.org/wiki/File:Emancipation_Day_celebration_-_1900-06-19.jpg>
 - `images/US/labour_day_us/01.jpg` — skua47 (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:1968_Labor_Day_Parade,_Wagner,_SD-14.jpg>
 - `images/US/labour_day_us/02.jpg` — Declan Rex d3c1an (CC0) — <https://commons.wikimedia.org/wiki/File:Grill_Out_(Unsplash).jpg>
 - `images/US/labour_day_us/03.jpg` — skua47 (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:1968_Labor_Day_Parade,_Wagner,_SD-20.jpg>
@@ -891,8 +897,8 @@ source could not be established carry **no** line and are listed in
 - `images/US/thanksgiving_day/02.jpg` — Missvain (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Thanksgiving_place_setting_-_Stierch_01.jpg>
 - `images/US/thanksgiving_day/03.jpg` — Unknown authorUnknown author or not provided (Public domain) — <https://commons.wikimedia.org/wiki/File:Great_Lakes_Seaway_Trail_-_Cornucopia_-_NARA_-_7718821.jpg>
 - `images/US/veterans_day/01.jpg` — usarmyband (CC BY 2.0) — <https://commons.wikimedia.org/wiki/File:Armed_Forces_Full_Honors_Wreath-Laying_Ceremony_(AFFHWC)_at_Arlington_National_Cemetery_on_Veterans_Day_on_November_11,_2024_-_8.jpg>
-- `images/valentines_day/01.jpg` — Wikimedia Commons (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Valentines_Card_Wellcome_L0043878.jpg>
-- `images/valentines_day/02.jpg` — Wikimedia Commons (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Valentines_Card_Wellcome_L0043879.jpg>
+- `images/valentines_day/01.jpg` — Wellcome Collection (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Valentines_Card_Wellcome_L0043878.jpg>
+- `images/valentines_day/02.jpg` — Wellcome Collection (CC BY 4.0) — <https://commons.wikimedia.org/wiki/File:Valentines_Card_Wellcome_L0043879.jpg>
 - `images/valentines_day/03.jpg` — Montanabw (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Red_roses_from_bouquet_2.jpg>
 - `images/whit_monday/01.jpg` — Nheyob (CC BY-SA 4.0) — <https://commons.wikimedia.org/wiki/File:Saint_James_the_Greater_Catholic_Church_(Concord,_North_Carolina)_-_stained_glass,_Holy_Spirit_at_Pentecost.JPG>
 - `images/whit_monday/02.jpg` — Kor!An (Андрей Корзун) (CC BY-SA 3.0) — <https://commons.wikimedia.org/wiki/File:Bouquet_of_peonies_03.JPG>

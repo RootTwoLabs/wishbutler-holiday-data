@@ -9,6 +9,7 @@ import {
   packageContentKey,
   deliveredByteLength,
   holidayDefinition,
+  generatorOutputUnchanged,
 } from './packageWriter.mjs';
 
 async function withPackagesDir(fn) {
@@ -92,4 +93,33 @@ test('G-7: force legt auch bei byte-gleichem Inhalt eine neue Version an', async
     assert.equal(v2.version, 2);
     assert.equal(packageContentKey(v2), packageContentKey({ ...content, version: 2 }));
   });
+});
+
+test('G-4 Nachtrag: Fetch nach dem Katalog-Merge bumpt nicht (Generator kennt nur en + Landessprache)', async () => {
+  await withPackagesDir(async (packagesDir) => {
+    // Stand nach build-articles: 3 Sprachen aus dem Katalog, Artikel, Bilder.
+    const merged = {
+      countryCode: 'XX',
+      schemaVersion: 1,
+      definitions: [DEF],
+      i18n: {
+        holidays: { en: { national_day: 'National Day' }, de: { national_day: 'Nationalfeiertag' }, fr: { national_day: 'Fête nationale' } },
+        holidayInfo: { en: { national_day: { intro: 'x' } } },
+      },
+      images: { national_day: [{ path: 'images/XX/national_day/01.jpg', license: 'CC0' }] },
+    };
+    await writePackageIfChanged('XX', merged, { packagesDir });
+
+    // Monatlicher Fetch: gleiche Definitionen, nur das englische Label.
+    assert.deepEqual(await writePackage('XX', [DEF], LABELS, { packagesDir }), { version: 1, changed: false });
+    assert.deepEqual(await readdir(join(packagesDir, 'XX')), ['v1']);
+
+    // Echte Aenderungen bumpen weiter: Label-Text, neuer Schluessel, Regel.
+    assert.equal((await writePackage('XX', [DEF], { en: { national_day: 'Independence Day' } }, { packagesDir })).changed, true);
+  });
+  const prev = { definitions: [DEF], i18n: { holidays: { en: { a: 'A' }, de: { a: 'Ä' } } } };
+  assert.equal(generatorOutputUnchanged(prev, [DEF], { en: { a: 'A' } }), true);
+  assert.equal(generatorOutputUnchanged(prev, [DEF], { en: { a: 'A', b: 'B' } }), false);
+  assert.equal(generatorOutputUnchanged(prev, [DEF], { en: { a: 'A' }, he: { a: 'א' } }), false);
+  assert.equal(generatorOutputUnchanged(prev, [{ ...DEF, rule: { type: 'fixed', month: 1, day: 1 } }], { en: { a: 'A' } }), false);
 });

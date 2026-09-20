@@ -10,6 +10,7 @@
 import { readFile, writeFile, rename, unlink, readdir } from 'node:fs/promises';
 import { join } from 'node:path';
 import { listVersions } from './packageWriter.mjs';
+import { formatCreditLine } from './imageCredits.mjs';
 
 export const IMAGE_FILE_RE = /^\d\d\.jpg$/;
 const THUMB_RE = /\.thumb\.jpe?g$/i;
@@ -39,8 +40,13 @@ function creditsEditor(text) {
   const sorted = () => {
     const m = credits.match(CREDITS_BLOCK_RE);
     if (!m) return credits;
-    const lines = m[2].split('\n').filter((l) => l.startsWith('- `')).sort();
-    return credits.replace(m[0], `${m[1]}${lines.join('\n')}\n${m[3]}`);
+    // Gleiche Ordnung wie die Fetcher (localeCompare auf dem PFAD) — ein
+    // Code-Unit-Sort der ganzen Zeile wuerfelte den Block bei jedem
+    // promote/drop um (`images/AR/…` vor `images/ascension/…`). Ersetzung per
+    // Funktion, damit ein `$` in einem Credit kein Ersetzungsmuster wird.
+    const pathOf = (l) => /^- `([^`]+)`/.exec(l)?.[1] ?? l;
+    const lines = m[2].split('\n').filter((l) => l.startsWith('- `')).sort((a, b) => pathOf(a).localeCompare(pathOf(b)));
+    return credits.replace(m[0], () => `${m[1]}${lines.join('\n')}\n${m[3]}`);
   };
   return { lineFor, set, sorted };
 }
@@ -98,6 +104,36 @@ export async function dropImage({ imagesRoot, creditsPath, dir, n }) {
   const staleThumbs = await deleteStaleThumbs(abs);
   await writeFile(creditsPath, editor.sorted(), 'utf8');
   return { dir, remaining: files.length - 1, staleThumbs };
+}
+
+/**
+ * `<n>.jpg` durch ein anderes Bild ersetzen (curate-images `replace`): neue
+ * Bytes unter GLEICHEM Pfad, CREDITS-Zeile des Pfads neu (genau eine, s. G-10),
+ * nur der Thumbnail DIESER Datei faellt weg (die anderen passen weiter).
+ * `n` darf auch die naechste freie Nummer sein (Bild anhaengen). Der Aufrufer
+ * bumpt das besitzende Paket erzwungen (G-7) — das Paket-JSON sieht einen
+ * Bytetausch unter gleichem Pfad sonst nicht.
+ * @returns {{ dir: string, file: string, added: boolean, staleThumbs: number }}
+ */
+export async function replaceImage({ imagesRoot, creditsPath, dir, n, bytes, credit, license, sourceUrl }) {
+  const abs = join(imagesRoot, dir);
+  const file = fileName(n);
+  const path = `images/${dir}/${file}`;
+  const files = (await readdir(abs)).filter((f) => IMAGE_FILE_RE.test(f)).sort();
+  if (n > files.length + 1) throw new Error(`${dir}: ${file} liesse eine Luecke (vorhanden: ${files.join(', ') || 'nichts'})`);
+  // Erst die Zeile bauen (wirft bei unparsebarem Credit), dann Dateien anfassen.
+  const line = formatCreditLine({ path, credit, license, sourceUrl });
+  const editor = creditsEditor(await readFile(creditsPath, 'utf8'));
+  await writeFile(join(abs, file), bytes);
+  editor.set(path, line);
+  const thumb = file.replace(/\.jpg$/, '.thumb.jpg');
+  let staleThumbs = 0;
+  if ((await readdir(abs)).includes(thumb)) {
+    await unlink(join(abs, thumb));
+    staleThumbs = 1;
+  }
+  await writeFile(creditsPath, editor.sorted(), 'utf8');
+  return { dir, file, added: !files.includes(file), staleThumbs };
 }
 
 /**

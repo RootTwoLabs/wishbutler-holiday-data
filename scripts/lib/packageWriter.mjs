@@ -114,6 +114,20 @@ export async function writePackageIfChanged(cc, content, { packagesDir = PACKAGE
 }
 
 /**
+ * true, wenn ein Generatorlauf gegenueber `prevPkg` nichts Neues bringt:
+ * identische Definitionen und — je vom Generator gelieferter Sprache —
+ * identische Labels (Schluessel, Reihenfolge, Text). Sprachen, die nur der
+ * Label-Katalog beisteuert, bleiben ausser Betracht.
+ */
+export function generatorOutputUnchanged(prevPkg, definitions, labels) {
+  if (JSON.stringify(prevPkg.definitions) !== JSON.stringify(definitions)) return false;
+  const prevLabels = prevPkg.i18n?.holidays ?? {};
+  return Object.entries(labels ?? {}).every(
+    ([locale, map]) => JSON.stringify(prevLabels[locale]) === JSON.stringify(map),
+  );
+}
+
+/**
  * Baut aus neuen Definitionen + Labels das naechste Paket (Namenstage, Bilder
  * und Artikel aus der Vorversion uebernommen) und schreibt es, falls es sich
  * geaendert hat.
@@ -128,6 +142,18 @@ export async function writePackage(cc, definitions, labels, { packagesDir = PACK
     images: prevPkg?.images,
     holidayInfo: prevPkg?.i18n?.holidayInfo,
   };
+
+  // G-4 (Nachtrag, am echten Nager-Lauf fuer GB gefunden): Die Generatoren
+  // liefern nur `en` + Landessprache; die uebrigen 15 Sprachen ergaenzt erst der
+  // Katalog-Merge (build-articles). Ein Vergleich des ganzen Pakets schlug
+  // deshalb IMMER an — jeder Fetch schrieb eine Version mit gekuerzten Labels,
+  // build-articles direkt danach die naechste mit dem alten Inhalt (zwei Bumps
+  // je Land und Lauf, ohne dass sich etwas geaendert hatte). Hat der Generator
+  // nichts Neues (gleiche Definitionen, gleiche Labels in SEINEN Sprachen),
+  // bleibt die letzte Version stehen.
+  if (prevPkg && generatorOutputUnchanged(prevPkg, definitions, labels)) {
+    return { version: latest.version, changed: false };
+  }
 
   const i18n = { holidays: labels };
   if (preserved.holidayInfo) i18n.holidayInfo = preserved.holidayInfo;

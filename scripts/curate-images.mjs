@@ -5,6 +5,15 @@
  *
  *   node scripts/curate-images.mjs promote <dir> <n> [--no-bump]  # <n>.jpg wird Titelbild (Tausch mit 01.jpg)
  *   node scripts/curate-images.mjs drop <dir> <n>    [--no-bump]  # <n>.jpg loeschen, folgende ruecken nach
+ *   node scripts/curate-images.mjs replace <dir> <n> "File:<Commons-Titel>.jpg" [--credit="…"] [--no-bump]
+ *                                                                  # <n>.jpg durch genau DIESE Commons-Datei ersetzen
+ *
+ * `replace` ist der Weg fuer ein gezielt ausgesuchtes Ersatzbild (fetch-images
+ * --force wuerde den ganzen Ordner per Suche neu wuerfeln): Lizenz per API
+ * gegen die Allowlist, 1280-px-JPEG wie alle anderen Bilder, CREDITS-Zeile mit
+ * Urheber/Lizenz/Quell-URL aus Commons. `--credit` nur, wenn Commons keinen
+ * Urheber im Artist-Feld fuehrt und er anderweitig BELEGT ist (nie raten).
+ * Vorher ansehen: `node scripts/commons-candidates.mjs "<Begriff>"`.
  *
  * <dir> relativ zu data/images, z. B. `IL/rosh_hashanah` oder `pentecost`.
  * Die Attributionszeilen in CREDITS.md (Pfad -> Credit) werden mit umbenannt
@@ -35,7 +44,8 @@
  */
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { promoteImage, dropImage, packageCodeForImageDir, referencingPackages } from './lib/imageCuration.mjs';
+import { promoteImage, dropImage, replaceImage, packageCodeForImageDir, referencingPackages } from './lib/imageCuration.mjs';
+import { fetchCommonsImageInfo, creditFromImageInfo, downloadJpeg } from './lib/commonsFile.mjs';
 import { PACKAGES, readLatestPackage, writePackageIfChanged, listVersions } from './lib/packageWriter.mjs';
 import { loadMergeContext, mergeContent, buildGlobalContent } from './build-articles.mjs';
 
@@ -45,16 +55,30 @@ const IMAGES = join(ROOT, 'data', 'images');
 
 const args = process.argv.slice(2);
 const noBump = args.includes('--no-bump');
-const [cmd, dir, nArg] = args.filter((a) => !a.startsWith('-'));
+const [cmd, dir, nArg, fileTitle] = args.filter((a) => !a.startsWith('-'));
+const creditOverride = args.find((a) => a.startsWith('--credit='))?.slice('--credit='.length);
 const n = Number(nArg);
-if (!['promote', 'drop'].includes(cmd) || !dir || !Number.isInteger(n) || n < 1) {
-  console.error('usage: curate-images.mjs promote|drop <dir> <n> [--no-bump]');
+if (
+  !['promote', 'drop', 'replace'].includes(cmd) || !dir || !Number.isInteger(n) || n < 1 ||
+  (cmd === 'replace' && !/^File:.+\.jpe?g$/i.test(fileTitle ?? ''))
+) {
+  console.error('usage: curate-images.mjs promote|drop <dir> <n> [--no-bump]\n       curate-images.mjs replace <dir> <n> "File:<Commons-Titel>.jpg" [--credit="…"] [--no-bump]');
   process.exit(1);
 }
 
-const op = cmd === 'promote' ? promoteImage : dropImage;
-const result = await op({ imagesRoot: IMAGES, creditsPath: CREDITS, dir, n });
-console.log(cmd === 'promote' ? `${dir}: ${String(n).padStart(2, '0')}.jpg -> 01.jpg` : `${dir}: ${String(n).padStart(2, '0')}.jpg geloescht`);
+let result;
+if (cmd === 'replace') {
+  // Erst alles pruefen und laden, dann das Repo anfassen.
+  const { title, info } = await fetchCommonsImageInfo(fileTitle);
+  const credit = creditFromImageInfo(title, info, { creditOverride });
+  const bytes = await downloadJpeg(info.thumburl ?? info.url);
+  result = await replaceImage({ imagesRoot: IMAGES, creditsPath: CREDITS, dir, n, bytes, ...credit });
+  console.log(`${dir}: ${result.file} ${result.added ? 'neu' : 'ersetzt'} <- ${title} — ${credit.credit} (${credit.license}), ${(bytes.length / 1024).toFixed(0)} KB`);
+} else {
+  const op = cmd === 'promote' ? promoteImage : dropImage;
+  result = await op({ imagesRoot: IMAGES, creditsPath: CREDITS, dir, n });
+  console.log(cmd === 'promote' ? `${dir}: ${String(n).padStart(2, '0')}.jpg -> 01.jpg` : `${dir}: ${String(n).padStart(2, '0')}.jpg geloescht`);
+}
 if (result.staleThumbs > 0) {
   console.log(`${dir}: ${result.staleThumbs} Thumbnail(s) geloescht — jetzt \`npm run build:thumbnails -- ${dir}\` ausfuehren`);
 }

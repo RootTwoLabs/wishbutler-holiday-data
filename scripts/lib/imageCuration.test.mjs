@@ -3,7 +3,9 @@ import assert from 'node:assert/strict';
 import { mkdtemp, mkdir, writeFile, readFile, readdir, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { promoteImage, dropImage, packageCodeForImageDir, referencingPackages } from './imageCuration.mjs';
+import { promoteImage, dropImage, replaceImage, packageCodeForImageDir, referencingPackages } from './imageCuration.mjs';
+import { loadCreditHints } from './imageCredits.mjs';
+import { creditFromImageInfo } from './commonsFile.mjs';
 
 const CREDITS = [
   '# Credits',
@@ -52,11 +54,13 @@ test('promoteImage: 03 wird 01, Credits tauschen, Thumbs weg, Block sortiert', a
   assert.equal(await readFile(join(dir, '03.jpg'), 'utf8'), 'ONE');
   assert.equal(await readFile(join(dir, '02.jpg'), 'utf8'), 'TWO');
   assert.deepEqual((await readdir(dir)).sort(), ['01.jpg', '02.jpg', '03.jpg']);
+  // Ordnung wie die Fetcher: localeCompare auf dem Pfad (`other` vor `XX`),
+  // nicht Code-Unit-Sort — sonst wuerfelt jedes promote/drop den Block um.
   assert.deepEqual(await creditLines(creditsPath), [
+    '- `images/other/01.jpg` — Dave · CC0',
     '- `images/XX/day/01.jpg` — Carol · CC0',
     '- `images/XX/day/02.jpg` — Bob · CC BY-SA 4.0',
     '- `images/XX/day/03.jpg` — Alice · CC BY 4.0',
-    '- `images/other/01.jpg` — Dave · CC0',
   ]);
 });
 
@@ -78,9 +82,9 @@ test('dropImage: 02 geloescht, 03 rueckt auf 02, Credits folgen', async (t) => {
   assert.deepEqual((await readdir(dir)).sort(), ['01.jpg', '02.jpg']);
   assert.equal(await readFile(join(dir, '02.jpg'), 'utf8'), 'THREE');
   assert.deepEqual(await creditLines(creditsPath), [
+    '- `images/other/01.jpg` — Dave · CC0',
     '- `images/XX/day/01.jpg` — Alice · CC BY 4.0',
     '- `images/XX/day/02.jpg` — Carol · CC0',
-    '- `images/other/01.jpg` — Dave · CC0',
   ]);
 });
 
@@ -110,4 +114,49 @@ test('referencingPackages: findet Pakete, deren letzte Version den Ordner refere
   assert.deepEqual(await referencingPackages('new_year', root), ['GLOBAL']);
   assert.deepEqual(await referencingPackages('other', root), ['BB']);
   assert.deepEqual(await referencingPackages('nothing', root), []);
+});
+
+test('replaceImage: neue Bytes unter gleichem Pfad, genau eine (neue) CREDITS-Zeile, nur der eigene Thumb faellt', async (t) => {
+  const { root, imagesRoot, dir, creditsPath } = await fixture();
+  t.after(() => rm(root, { recursive: true, force: true }));
+
+  const result = await replaceImage({
+    imagesRoot, creditsPath, dir: 'XX/day', n: 1, bytes: Buffer.from('NEW'),
+    credit: 'Ministério da Defesa', license: 'CC BY 2.0', sourceUrl: 'https://commons.wikimedia.org/wiki/File:X_(1).jpg',
+  });
+  assert.deepEqual(result, { dir: 'XX/day', file: '01.jpg', added: false, staleThumbs: 1 });
+  assert.equal(await readFile(join(dir, '01.jpg'), 'utf8'), 'NEW');
+  assert.deepEqual((await readdir(dir)).sort(), ['01.jpg', '02.jpg', '02.thumb.jpg', '03.jpg']);
+  const lines = await creditLines(creditsPath);
+  assert.equal(lines.length, 4);
+  assert.equal(lines.filter((l) => l.includes('`images/XX/day/01.jpg`')).length, 1);
+  // Die Zeile ist fuer den Parser lesbar (G-10: Schreiber und Parser aus einer Quelle).
+  assert.deepEqual(
+    (await loadCreditHints(creditsPath)).get('images/XX/day/01.jpg'),
+    { credit: 'Ministério da Defesa', license: 'CC BY 2.0', sourceUrl: 'https://commons.wikimedia.org/wiki/File:X_(1).jpg' },
+  );
+});
+
+test('replaceImage: anhaengen ja, Luecke nein; unparsebarer Credit fasst nichts an', async (t) => {
+  const { root, imagesRoot, dir, creditsPath } = await fixture();
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const base = { imagesRoot, creditsPath, dir: 'XX/day', bytes: Buffer.from('NEW'), credit: 'Jane', license: 'CC0' };
+
+  assert.equal((await replaceImage({ ...base, n: 4 })).added, true);
+  await assert.rejects(replaceImage({ ...base, n: 6 }), /Luecke/);
+  await assert.rejects(replaceImage({ ...base, n: 1, credit: '' }), /nicht parsebar/);
+  assert.equal(await readFile(join(dir, '01.jpg'), 'utf8'), 'ONE');
+});
+
+test('creditFromImageInfo: Allowlist und Urheber werden erzwungen, nie geraten', () => {
+  const info = (license, artist) => ({ thumburl: 'https://x/1280px-a.jpg', descriptionurl: 'https://commons.wikimedia.org/wiki/File:A.jpg', extmetadata: { LicenseShortName: { value: license }, Artist: { value: artist } } });
+  assert.deepEqual(creditFromImageInfo('File:A b.jpg', info('CC BY 2.0', '<a href="x">Ministério da Defesa</a>')), {
+    credit: 'Ministério da Defesa', license: 'CC BY 2.0', sourceUrl: 'https://commons.wikimedia.org/wiki/File:A_b.jpg',
+  });
+  assert.throws(() => creditFromImageInfo('File:A.jpg', info('CC BY-NC 2.0', 'X')), /Allowlist/);
+  assert.throws(() => creditFromImageInfo('File:A.jpg', info('GFDL', 'X')), /Allowlist/);
+  assert.throws(() => creditFromImageInfo('File:A.jpg', info('CC BY 4.0', '')), /verlangt Namensnennung/);
+  assert.throws(() => creditFromImageInfo('File:A.jpg', info('Public domain', '')), /--credit/);
+  assert.throws(() => creditFromImageInfo('File:A.jpg', undefined), /nicht gefunden/);
+  assert.equal(creditFromImageInfo('File:A.jpg', info('CC BY 4.0', ''), { creditOverride: 'Wellcome Collection' }).credit, 'Wellcome Collection');
 });
