@@ -153,6 +153,43 @@ export function canonicalNagerName(cc, name) {
   return NAGER_NAME_ALIASES[cc]?.[name] ?? name;
 }
 
+/**
+ * Regionale Aufspaltung: Nager fuehrt manche Anlaesse unter EINEM Namen mit
+ * zwei verschiedenen Terminen je Landesteil. GB „Summer Bank Holiday": erster
+ * Montag im August in Schottland (`GB-SCT`), letzter Montag im August in
+ * England/Wales/Nordirland. Ohne Aufspaltung landen beide Zeilen in einer
+ * Definition — der letzte Eintrag gewinnt (letzter Montag), die Regionen
+ * vereinigen sich zum Full-Set, und Schottland bekommt landesweit den falschen
+ * Tag.
+ *
+ * Eine Nager-Zeile wandert in die Split-Definition, wenn ALLE ihre `counties`
+ * in `counties` des Splits liegen (`regionalSplitName` in lib/nagerScope.mjs).
+ * Der Rest behaelt Name und damit die etablierte ID (`GB_summer_bank_holiday`,
+ * jetzt mit `regions` ENG/NIR/WLS); der Split bekommt ueber `name` eine neue ID
+ * (`GB_summer_bank_holiday_scotland`). `name` ist zugleich das englische Label;
+ * Labels fuer alle 17 Sprachen liegen in content/holiday-labels/, Artikel und
+ * Bilder kommen ueber ARTICLE_ALIASES (content/key-map.mjs) vom Hauptanlass.
+ *
+ * `rule` ist die erwartete geschlossene Regel: Sie dient der Offline-Migration
+ * (scripts/migrate-regional-splits.mjs — das Paket kennt die Split-Termine
+ * nicht) und als Gegenprobe im Fetch (Warnung, wenn Nager etwas anderes
+ * liefert). Massgeblich bleibt im Fetch die aus Nager erkannte Regel.
+ * Nur je Land, nur fuer belegte Faelle.
+ */
+export const NAGER_REGIONAL_SPLITS = {
+  GB: {
+    'Summer Bank Holiday': [
+      {
+        counties: ['GB-SCT'],
+        name: 'Summer Bank Holiday (Scotland)',
+        // Bank Holidays Act 1871 / Banking and Financial Dealings Act 1971, Sched. 1:
+        // Schottland erster Montag im August (weekday 1 = Montag).
+        rule: { type: 'nth_weekday', month: 8, nth: 1, weekday: 1 },
+      },
+    ],
+  },
+};
+
 /** Years to precompute for non-Gregorian / table-only feasts. */
 export const PRECOMPUTE_FROM_YEAR = new Date().getFullYear();
 export const PRECOMPUTE_YEARS = 10;

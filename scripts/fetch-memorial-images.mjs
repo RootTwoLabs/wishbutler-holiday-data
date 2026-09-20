@@ -4,7 +4,7 @@
  * content/memorial/image-queries.mjs und schreibt
  *   data/images/MEMORIAL/<slug>/01.jpg     (1280 px breit)
  *   content/memorial/images.json           (Provenienz je Eintrag)
- *   CREDITS.md                             (Attributionszeile bei CC BY / CC BY-SA)
+ *   CREDITS.md                             (eine Zeile je Bild, auch Public Domain/CC0 — G-10)
  *
  * Lizenzrang: Public Domain / CC0 > CC BY > CC BY-SA (alle frei weiterverteilbar;
  * `classifyLicense` verwirft alles andere). Quality Images und größere Bilder
@@ -18,10 +18,10 @@ import { existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { MEMORIAL_IMAGE_QUERIES } from '../content/memorial/image-queries.mjs';
-import { classifyLicense, isCc0OrPd, needsCredit, stripHtml } from './lib/imageLicense.mjs';
+import { classifyLicense, isCc0OrPd, stripHtml } from './lib/imageLicense.mjs';
 import { fetchWithTimeout } from './lib/httpClient.mjs';
 import { sniffImageType, isImageContentType, MAX_IMAGE_BYTES } from './lib/imageValidation.mjs';
-import { commonsFileUrl } from './lib/imageCredits.mjs';
+import { commonsFileUrl, formatCreditLine } from './lib/imageCredits.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CATALOG = join(ROOT, 'content', 'memorial', 'catalog.json');
@@ -173,7 +173,7 @@ async function pickFor(id, spec) {
 }
 
 function creditLine(path, c) {
-  return `- \`${path}\` — ${c.author} (${c.license}) — <${c.sourceUrl}>`;
+  return formatCreditLine({ path, credit: c.author, license: c.license, sourceUrl: c.sourceUrl });
 }
 
 async function updateCredits(entries) {
@@ -185,10 +185,9 @@ async function updateCredits(entries) {
     const m = line.match(/^- `([^`]+)` — /);
     if (m) lines.set(m[1], line.trim());
   }
-  for (const [path, c] of entries) {
-    if (needsCredit(c.license)) lines.set(path, creditLine(path, c));
-    else lines.delete(path);
-  }
+  // G-10: jede Datei bekommt eine Zeile, auch Public Domain/CC0 (frueher wurde
+  // die Zeile dort geloescht — validate.mjs verlangt sie jetzt fuer jede Datei).
+  for (const [path, c] of entries) lines.set(path, creditLine(path, c));
   const body = [...lines.entries()].sort((a, b) => a[0].localeCompare(b[0])).map((e) => e[1]).join('\n');
   md = md.replace(block[0], `<!-- BEGIN:IMAGE-CREDITS (auto-generated) -->\n${body}\n<!-- END:IMAGE-CREDITS -->`);
   await writeFile(CREDITS, md, 'utf8');

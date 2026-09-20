@@ -87,3 +87,26 @@ export function resolveScope(scope, { warn = () => {}, fullSet } = {}) {
   if (coversFullRegionSet(valid, fullSet)) return { category, regions: undefined };
   return { category, regions: valid };
 }
+
+/**
+ * Regionale Aufspaltung (NAGER_REGIONAL_SPLITS in config.mjs): liefert den
+ * Split-Eintrag `{ counties, name, rule? }`, in den die Nager-Zeile `holiday`
+ * gehoert, oder `null`. Eine Zeile gehoert in einen Split, wenn sie regional
+ * ist (`global: false` mit `counties`) und ALLE ihre `counties` im Split
+ * liegen — eine Zeile, die Schottland zusammen mit England fuehrt, bleibt beim
+ * Hauptanlass (dann gibt es nichts aufzuspalten).
+ *
+ * @param {Record<string, Array<{counties: string[], name: string}>>|undefined} countrySplits
+ *   Splits des Landes, Schluessel = kanonischer Nager-Name.
+ */
+export function regionalSplitFor(countrySplits, name, holiday) {
+  const splits = countrySplits?.[name];
+  if (!Array.isArray(splits) || splits.length === 0) return null;
+  const counties = Array.isArray(holiday?.counties) ? holiday.counties.filter((c) => typeof c === 'string') : [];
+  if (holiday?.global !== false || counties.length === 0) return null;
+  for (const split of splits) {
+    const allowed = new Set(split.counties);
+    if (counties.every((c) => allowed.has(c))) return split;
+  }
+  return null;
+}

@@ -218,6 +218,9 @@ export const ARTICLE_ALIASES = {
   st_stephens_day: 'boxing_day',
   boxing_day_nz: 'boxing_day',
   labour_day_eg: 'labour_day',
+  // NAGER_REGIONAL_SPLITS (scripts/config.mjs): schottischer Termin desselben
+  // Anlasses — der GB-Artikel behandelt beide Termine, Bilder sind dieselben.
+  summer_bank_holiday_scotland: 'summer_bank_holiday',
 };
 
 /** Kanonischer Artikel-Slug fuer einen Paket-Slug (Identitaet, wenn kein Alias). */

@@ -13,7 +13,7 @@ import { LOCALES, NAGER_FULL_REGION_SETS } from './config.mjs';
 import { coversFullRegionSet } from './lib/nagerScope.mjs';
 import { expectedFunDays, FUN_LOCALES } from './lib/funDays.mjs';
 import { isCc0OrPd } from './lib/imageLicense.mjs';
-import { loadCreditHints } from './lib/imageCredits.mjs';
+import { loadCreditHints, duplicateCreditPaths } from './lib/imageCredits.mjs';
 import { deliveredByteLength } from './lib/packageWriter.mjs';
 import { countNamedayDays } from './lib/namedayFilter.mjs';
 
@@ -350,6 +350,69 @@ export async function checkCreditsParsable(creditsPath, hints, errors) {
 }
 
 /**
+ * G-10: Bilddateien, deren Herkunft sich (noch) nicht belegen laesst. Beim
+ * Nachtragen der CREDITS-Zeilen (2026-09-20) liessen sich 5 von 216 Dateien
+ * ueber die Commons-API weder byte- noch bildgleich wiederfinden (vermutlich
+ * Openverse-Treffer ausserhalb von Commons; der Fetcher schrieb damals fuer
+ * CC0/PD keine Zeile). Lizenz und Urheber werden NICHT geraten: die Dateien
+ * haben bewusst keine Zeile und loesen bis `until` nur eine Warnung aus, danach
+ * wieder einen Fehler. Aufloesen = Quelle belegen und Zeile eintragen ODER das
+ * Bild ersetzen/entfernen (`curate-images.mjs drop`), nicht die Frist schieben.
+ */
+export const UNVERIFIED_IMAGE_PROVENANCE = new Map(
+  [
+    'images/AU/melbourne_cup/01.jpg',
+    'images/BR/independence_day/01.jpg',
+    'images/GB/early_may_bank_holiday/03.jpg',
+    'images/NZ/canterbury_anniversary_day/02.jpg',
+    'images/TR/ataturk_commemoration_youth_day/01.jpg',
+  ].map((path) => [path, { until: '2026-10-31', reason: 'Quelle ueber Commons nicht auffindbar (Audit G-10)' }]),
+);
+
+const IMAGE_FILE_RE = /\.(jpe?g|png|webp)$/i;
+const THUMB_FILE_RE = /\.thumb\.jpe?g$/i;
+
+/**
+ * G-10: Jede Bilddatei unter data/images braucht GENAU EINE CREDITS-Zeile —
+ * auch CC0/Public Domain. Vorher schrieben die Fetcher nur fuer CC BY/BY-SA
+ * eine Zeile; eine verlorene Zeile war damit von „CC0" nicht zu unterscheiden
+ * (22 der 216 zeilenlosen Dateien waren in Wahrheit CC BY/BY-SA). Umgekehrt
+ * ist eine Zeile ohne Datei ein Ueberbleibsel (geloeschtes Bild).
+ * Thumbnail-Sidecars (`NN.thumb.jpg`) sind abgeleitet und brauchen keine Zeile.
+ */
+export async function checkCreditsCoverage(imagesRoot, creditHints, errors, warnings, { allowlist = UNVERIFIED_IMAGE_PROVENANCE, today = validationClock().today, duplicates = [] } = {}) {
+  for (const path of duplicates) errors.push(`CREDITS.md: mehrere Zeilen fuer ${path} — genau eine je Bilddatei`);
+  if (!existsSync(imagesRoot)) return;
+  const entries = await readdir(imagesRoot, { recursive: true });
+  const files = new Set(
+    entries
+      .map((e) => `images/${e.split(sep).join('/')}`)
+      .filter((f) => IMAGE_FILE_RE.test(f) && !THUMB_FILE_RE.test(f)),
+  );
+  for (const file of [...files].sort()) {
+    if (creditHints.has(file)) {
+      if (allowlist.has(file)) errors.push(`${file}: hat eine CREDITS-Zeile — aus UNVERIFIED_IMAGE_PROVENANCE streichen`);
+      continue;
+    }
+    const allow = allowlist.get(file);
+    if (allow && today <= allow.until) {
+      warnings.push(`${file}: keine CREDITS-Zeile, Herkunft unbelegt (Frist ${allow.until}: ${allow.reason})`);
+    } else {
+      errors.push(
+        `${file}: Bilddatei ohne CREDITS-Zeile (auch CC0/PD braucht eine)` +
+          (allow ? ` — Frist ${allow.until} abgelaufen (${allow.reason})` : ''),
+      );
+    }
+  }
+  for (const path of [...creditHints.keys()].sort()) {
+    if (!files.has(path)) errors.push(`CREDITS.md: Zeile ohne Bilddatei: ${path}`);
+  }
+  for (const path of allowlist.keys()) {
+    if (!files.has(path)) errors.push(`UNVERIFIED_IMAGE_PROVENANCE: ${path} existiert nicht mehr — Eintrag streichen`);
+  }
+}
+
+/**
  * G-2 (b): Ein Bild-Ref, dessen Datei eine CREDITS-Zeile hat, muss deren
  * Lizenz und Credit-Text tragen. MEMORIAL schreibt den Credit als
  * "<Autor> · <Lizenz>" (build-memorial.mjs), alle anderen Pakete 1:1.
@@ -410,6 +473,9 @@ async function main() {
 
   const creditHints = await loadCreditHints(CREDITS);
   await checkCreditsParsable(CREDITS, creditHints, errors);
+  await checkCreditsCoverage(join(DATA, 'images'), creditHints, errors, warnings, {
+    duplicates: await duplicateCreditPaths(CREDITS),
+  });
 
   const index = await readJson(join(DATA, 'index.json'));
   if (!validateIndex(index)) {

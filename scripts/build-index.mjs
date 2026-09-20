@@ -129,6 +129,13 @@ async function main() {
 
   countries.sort((a, b) => a.code.localeCompare(b.code));
 
+  // G-13 (g): `baseUrl` ist rein informativ und zeigt bewusst auf `@main`. Ein
+  // Commit kann den Tag nicht kennen, der spaeter auf ihn zeigt (Tags sind
+  // unveraenderlich, der Index liegt IM getaggten Commit) — ein Tag-Wert hier
+  // waere also immer der des VORIGEN Releases und damit falsch. Die App liest
+  // das Feld nicht (sie baut alle URLs aus ihrem Build-Pin
+  // EXPO_PUBLIC_HOLIDAY_DATA_TAG); es bleibt nur, weil index.schema.json es
+  // verlangt und aeltere Clients es als Pflichtfeld kennen.
   let baseUrl = DEFAULT_BASE_URL;
   if (existsSync(INDEX)) {
     try {

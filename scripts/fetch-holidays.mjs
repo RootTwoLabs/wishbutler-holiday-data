@@ -25,6 +25,7 @@ import {
   GLOBAL_RULES,
   HOLIDAY_SLUG_ALIASES,
   NAGER_FULL_REGION_SETS,
+  NAGER_REGIONAL_SPLITS,
   canonicalNagerName,
 } from './config.mjs';
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
@@ -35,7 +36,7 @@ import { fetchJsonWithTimeout, FailureBudget } from './lib/httpClient.mjs';
 import { holidayDefinition, writePackage } from './lib/packageWriter.mjs';
 import { isSelectedHoliday } from './lib/holidaySelection.mjs';
 import { slugify, stripTentativeSuffix } from './lib/nagerSlug.mjs';
-import { newScope, collectScope, resolveScope } from './lib/nagerScope.mjs';
+import { newScope, collectScope, resolveScope, regionalSplitFor } from './lib/nagerScope.mjs';
 
 /**
  * Optionaler Antwort-Cache fuer Reproduktion ohne Netz (`NAGER_CACHE_DIR=<dir>`):
@@ -65,6 +66,7 @@ async function buildCountry(cc) {
   const years = Array.from({ length: PRECOMPUTE_YEARS }, (_, i) => PRECOMPUTE_FROM_YEAR + i);
   // name -> { mmdd per year, isFixed, easterOffsets }
   const byName = new Map();
+  const matchedSplits = new Set();
 
   for (const year of years) {
     let holidays;
@@ -83,12 +85,27 @@ async function buildCountry(cc) {
       // bestaetigte und vorlaeufige Jahre in EINER Definition landen.
       // NAGER_NAME_ALIASES: jahrweise Umbenennungen (PE) auf den etablierten
       // Namen zurueckfuehren, sonst zerfaellt der Anlass in zwei Definitionen.
-      const name = canonicalNagerName(cc, stripTentativeSuffix(h.name));
+      const baseName = canonicalNagerName(cc, stripTentativeSuffix(h.name));
+      // NAGER_REGIONAL_SPLITS: gleicher Name, aber je Landesteil ein anderer
+      // Termin (GB Summer Bank Holiday: Schottland erster, Rest letzter Montag
+      // im August) -> die regionale Zeile wird eine eigene Definition.
+      const split = regionalSplitFor(NAGER_REGIONAL_SPLITS[cc], baseName, h);
+      if (split) matchedSplits.add(split.name);
+      const name = split ? split.name : baseName;
       const key = name;
       const mmdd = h.date.slice(5);
       const entry =
         byName.get(key) ??
-        { years: {}, observed: {}, slug: slugify(name), name, localName: stripTentativeSuffix(h.localName), scope: newScope() };
+        {
+          years: {},
+          observed: {},
+          slug: slugify(name),
+          name,
+          // Der Split traegt seinen eigenen Namen auch als natives Label (GB: en).
+          localName: split ? split.name : stripTentativeSuffix(h.localName),
+          expectedRule: split?.rule,
+          scope: newScope(),
+        };
       // Gleicher Name kann pro Jahr mehrfach kommen (mehrtaegiges Fest ODER
       // regionale Varianten) — erst alle Tage sammeln, unten aufloesen.
       (entry.observed[year] ??= []).push(mmdd);
@@ -107,6 +124,16 @@ async function buildCountry(cc) {
     }
   }
 
+  // Ein konfigurierter Split, den keine Zeile mehr trifft, heisst: Nager hat die
+  // Struktur geaendert — die Split-ID wuerde still aus dem Paket verschwinden.
+  for (const splits of Object.values(NAGER_REGIONAL_SPLITS[cc] ?? {})) {
+    for (const split of splits) {
+      if (!matchedSplits.has(split.name)) {
+        console.warn(`  ${cc}: NAGER_REGIONAL_SPLITS „${split.name}" ohne Treffer — Nager-Struktur geaendert?`);
+      }
+    }
+  }
+
   const nativeLocale = localeForCountry(cc);
   const enLabels = {};
   const nativeLabels = {};
@@ -116,6 +143,11 @@ async function buildCountry(cc) {
     const id = `${cc}_${entry.slug}`;
     if (!isSelectedHoliday(id)) continue;
     const rule = detectRule(entry, { expectedYears: years });
+    // Bewusst Wortvergleich statt rulesEqual: das kennt (fuer den Global-Merge)
+    // nur fixed/easter_relative und wuerde nth_weekday immer als ungleich melden.
+    if (entry.expectedRule && JSON.stringify(rule) !== JSON.stringify(entry.expectedRule)) {
+      console.warn(`  ${id}: Regel ${JSON.stringify(rule)} weicht von NAGER_REGIONAL_SPLITS ab (${JSON.stringify(entry.expectedRule)}) — Nager-Daten pruefen`);
+    }
 
     // Merge onto a bundled global holiday only when an alias AND the exact rule
     // match (so e.g. NZ "Labour Day" in October never collapses onto May 1st).

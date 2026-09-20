@@ -20,6 +20,7 @@
     "migrate:articles": "node scripts/migrate-articles.mjs",
     "migrate:observed-rules": "node scripts/migrate-observed-rules.mjs",
     "migrate:tentative-rules": "node scripts/migrate-tentative-rules.mjs",
+    "migrate:regional-splits": "node scripts/migrate-regional-splits.mjs",
     "build:index": "node scripts/build-index.mjs",
     "validate": "node scripts/validate.mjs",
     "test": "node --test scripts/*.test.mjs scripts/lib/*.test.mjs",

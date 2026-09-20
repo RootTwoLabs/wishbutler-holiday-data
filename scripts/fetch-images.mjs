@@ -2,7 +2,8 @@
 /**
  * Downloads holiday images into data/images/<slug>/ or data/images/<CC>/<slug>/.
  * Prefers CC0/Public Domain (Wikimedia Commons + Openverse), falls back to
- * CC-BY / CC-BY-SA with attribution recorded in CREDITS.md.
+ * CC-BY / CC-BY-SA. Every downloaded file gets a line in CREDITS.md (author,
+ * licence, source URL) — CC0/Public Domain included (G-10).
  *
  * Idempotent: skips targets that already have at least one image on disk.
  *
@@ -15,7 +16,8 @@ import { existsSync, readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { listImageTargets, termsForSlug } from '../content/image-queries.mjs';
-import { classifyLicense, isCc0OrPd, needsCredit, stripHtml } from './lib/imageLicense.mjs';
+import { classifyLicense, isCc0OrPd, stripHtml } from './lib/imageLicense.mjs';
+import { formatCreditLine } from './lib/imageCredits.mjs';
 import { fetchWithTimeout } from './lib/httpClient.mjs';
 import { sniffImageType, isImageContentType, MAX_IMAGE_BYTES } from './lib/imageValidation.mjs';
 import { funImageTargets, expectedFunDays } from './lib/funDays.mjs';
@@ -404,10 +406,11 @@ async function updateCredits(allSaved) {
 
   for (const item of allSaved) {
     if (item.skipped) continue;
-    if (!needsCredit(item.license)) continue;
-    // Quell-URL (Commons-Dateiseite) hinten anhängen, s. imageCredits.mjs.
-    const source = /^https?:\/\/\S+$/.test(item.sourceUrl ?? '') ? ` — <${item.sourceUrl}>` : '';
-    preserved.set(item.path, `- \`${item.path}\` — ${item.credit} (${item.license})${source}`);
+    // G-10: JEDE geholte Datei bekommt eine Zeile, auch CC0/Public Domain —
+    // sonst ist eine verlorene Zeile nicht von „braucht keine" zu unterscheiden
+    // (validate.mjs: Bilddatei ohne CREDITS-Zeile = Fehler). Format inkl.
+    // Quell-URL (Commons-Dateiseite) zentral in imageCredits.mjs.
+    preserved.set(item.path, formatCreditLine(item));
   }
 
   const lines = [...preserved.entries()].sort((a, b) => a[0].localeCompare(b[0])).map((e) => e[1]);

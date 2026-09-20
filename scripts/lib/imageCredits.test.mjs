@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { mkdtemp, writeFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { loadCreditHints, decorateImageRef, commonsFileUrl } from './imageCredits.mjs';
+import { loadCreditHints, decorateImageRef, commonsFileUrl, formatCreditLine, duplicateCreditPaths } from './imageCredits.mjs';
 
 async function withCredits(body, fn) {
   const dir = await mkdtemp(join(tmpdir(), 'credits-'));
@@ -88,4 +88,58 @@ test('commonsFileUrl: Titel → Dateiseite, Leerzeichen als Unterstrich, Sonderz
   assert.equal(commonsFileUrl('File:Straße & Café.jpg'), 'https://commons.wikimedia.org/wiki/File:Stra%C3%9Fe_%26_Caf%C3%A9.jpg');
   assert.equal(commonsFileUrl('Popcorn.jpg'), undefined);
   assert.equal(commonsFileUrl(undefined), undefined);
+});
+
+// ── G-10: eine Zeile je Bilddatei, Schreiber und Parser aus EINER Quelle ────────
+
+test('G-10: formatCreditLine <-> loadCreditHints sind ein Rundlauf (auch CC0/Public Domain)', async () => {
+  const items = [
+    { path: 'images/new_year/01.jpg', credit: 'Vyacheslav Argenberg', license: 'CC BY 4.0', sourceUrl: 'https://commons.wikimedia.org/wiki/File:Anjuna_Beach.jpg' },
+    { path: 'images/IL/sukkot/01.jpg', credit: 'Leopold Pilichowski', license: 'Public domain', sourceUrl: 'https://commons.wikimedia.org/wiki/File:Leopold_Pilichowski_Sukkot.jpg' },
+    // Klammern im Autor und in der URL, keine Quell-URL, Mehrfach-Leerzeichen
+    { path: 'images/whit_monday/02.jpg', credit: 'Kor!An  (Андрей Корзун)', license: 'CC BY-SA 3.0', sourceUrl: 'https://commons.wikimedia.org/wiki/File:Bouquet_(1).JPG' },
+    { path: 'images/MEMORIAL/candle.jpg', credit: 'USER-62114', license: 'CC0' },
+  ];
+  const body = items.map(formatCreditLine).join('\n');
+  await withCredits(body, async (file) => {
+    const hints = await loadCreditHints(file);
+    assert.equal(hints.size, items.length);
+    assert.deepEqual(hints.get('images/IL/sukkot/01.jpg'), {
+      credit: 'Leopold Pilichowski',
+      license: 'Public domain',
+      sourceUrl: 'https://commons.wikimedia.org/wiki/File:Leopold_Pilichowski_Sukkot.jpg',
+    });
+    assert.deepEqual(hints.get('images/whit_monday/02.jpg'), {
+      credit: 'Kor!An (Андрей Корзун)',
+      license: 'CC BY-SA 3.0',
+      sourceUrl: 'https://commons.wikimedia.org/wiki/File:Bouquet_(1).JPG',
+    });
+    assert.deepEqual(hints.get('images/MEMORIAL/candle.jpg'), { credit: 'USER-62114', license: 'CC0' });
+  });
+});
+
+test('G-10: formatCreditLine wirft statt eine unparsebare Zeile zu schreiben', () => {
+  const ok = { path: 'images/x/01.jpg', credit: 'Jane', license: 'CC0' };
+  assert.throws(() => formatCreditLine({ ...ok, credit: '' }), /nicht parsebar/);
+  assert.throws(() => formatCreditLine({ ...ok, credit: undefined }), /nicht parsebar/);
+  assert.throws(() => formatCreditLine({ ...ok, license: '' }), /nicht parsebar/);
+  assert.throws(() => formatCreditLine({ ...ok, license: 'CC BY (generic)' }), /nicht parsebar/);
+  assert.throws(() => formatCreditLine({ ...ok, path: 'images/x`y/01.jpg' }), /nicht parsebar/);
+  // Eine kaputte Quell-URL faellt weg, die Zeile bleibt gueltig.
+  assert.equal(formatCreditLine({ ...ok, sourceUrl: 'not a url' }), '- `images/x/01.jpg` — Jane (CC0)');
+});
+
+test('G-10: duplicateCreditPaths findet doppelte Pfade (die Hint-Map verdeckt sie)', async () => {
+  const body = [
+    '- `images/a/01.jpg` — A (CC0)',
+    '- `images/b/01.jpg` — B (CC BY 4.0)',
+    '- `images/a/01.jpg` — Someone Else (CC BY-SA 4.0)',
+  ].join('\r\n'); // CRLF-fest wie loadCreditHints
+  await withCredits(body, async (file) => {
+    assert.deepEqual(await duplicateCreditPaths(file), ['images/a/01.jpg']);
+    assert.equal((await loadCreditHints(file)).size, 2);
+  });
+  await withCredits('- `images/a/01.jpg` — A (CC0)', async (file) => {
+    assert.deepEqual(await duplicateCreditPaths(file), []);
+  });
 });

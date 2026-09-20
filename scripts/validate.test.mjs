@@ -8,7 +8,14 @@ import {
   checkRegions,
   checkNamedayCoverage,
   NAMEDAY_MIN_DAYS,
+  checkCreditsCoverage,
+  UNVERIFIED_IMAGE_PROVENANCE,
 } from './validate.mjs';
+import { mkdtemp, mkdir, writeFile, rm } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 const CLOCK_2026 = { currentYear: 2026, today: '2026-09-20' };
 
@@ -160,4 +167,87 @@ test('G-5: checkRegions — regions ueber dem Full-Set des Landes ist ein Fehler
   const ok = [];
   checkRegions('DE', { definitions: [def('DE_x', ['DE-BY'])] }, ok, { GB: ['GB-ENG'] });
   assert.deepEqual(ok, []);
+});
+
+// ── G-10: jede Bilddatei genau eine CREDITS-Zeile ─────────────────────────────
+
+async function withImages(files, fn) {
+  const root = await mkdtemp(join(tmpdir(), 'wb-credits-cov-'));
+  try {
+    for (const f of files) {
+      await mkdir(dirname(join(root, f)), { recursive: true });
+      await writeFile(join(root, f), 'x');
+    }
+    await fn(root);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+}
+
+const hint = (license = 'CC0') => ({ credit: 'Jane', license });
+
+test('G-10: Bilddatei ohne CREDITS-Zeile ist ein Fehler — auch bei CC0/PD; Thumbs brauchen keine', async () => {
+  await withImages(['new_year/01.jpg', 'new_year/01.thumb.jpg', 'DE/german_unity_day/02.jpg', 'MEMORIAL/candle.jpg'], async (root) => {
+    const errors = [];
+    const warnings = [];
+    const hints = new Map([['images/new_year/01.jpg', hint('Public domain')]]);
+    await checkCreditsCoverage(root, hints, errors, warnings, { allowlist: new Map(), today: '2026-09-20' });
+    assert.deepEqual(warnings, []);
+    assert.equal(errors.length, 2);
+    assert.match(errors[0], /^images\/DE\/german_unity_day\/02\.jpg: Bilddatei ohne CREDITS-Zeile/);
+    assert.match(errors[1], /^images\/MEMORIAL\/candle\.jpg: Bilddatei ohne CREDITS-Zeile/);
+  });
+});
+
+test('G-10: Zeile ohne Bilddatei und doppelte Zeilen sind Fehler; vollstaendige Abdeckung ist still', async () => {
+  await withImages(['new_year/01.jpg'], async (root) => {
+    const errors = [];
+    const hints = new Map([
+      ['images/new_year/01.jpg', hint()],
+      ['images/FUN/checkers_day/01.jpg', hint('CC BY-SA 4.0')],
+    ]);
+    await checkCreditsCoverage(root, hints, errors, [], { allowlist: new Map(), today: '2026-09-20', duplicates: ['images/new_year/01.jpg'] });
+    assert.deepEqual(errors, [
+      'CREDITS.md: mehrere Zeilen fuer images/new_year/01.jpg — genau eine je Bilddatei',
+      'CREDITS.md: Zeile ohne Bilddatei: images/FUN/checkers_day/01.jpg',
+    ]);
+
+    const clean = [];
+    await checkCreditsCoverage(root, new Map([['images/new_year/01.jpg', hint()]]), clean, [], { allowlist: new Map(), today: '2026-09-20' });
+    assert.deepEqual(clean, []);
+  });
+});
+
+test('G-10: unbelegte Herkunft warnt nur bis zur Frist und raeumt sich selbst auf', async () => {
+  await withImages(['AU/melbourne_cup/01.jpg'], async (root) => {
+    const allowlist = new Map([
+      ['images/AU/melbourne_cup/01.jpg', { until: '2026-10-31', reason: 'Quelle unbekannt' }],
+      ['images/GONE/x/01.jpg', { until: '2026-10-31', reason: 'Quelle unbekannt' }],
+    ]);
+    const before = { errors: [], warnings: [] };
+    await checkCreditsCoverage(root, new Map(), before.errors, before.warnings, { allowlist, today: '2026-10-31' });
+    assert.equal(before.warnings.length, 1);
+    assert.match(before.warnings[0], /Herkunft unbelegt \(Frist 2026-10-31/);
+    // Allowlist-Eintrag fuer eine geloeschte Datei darf nicht liegen bleiben.
+    assert.deepEqual(before.errors, ['UNVERIFIED_IMAGE_PROVENANCE: images/GONE/x/01.jpg existiert nicht mehr — Eintrag streichen']);
+
+    const after = { errors: [], warnings: [] };
+    await checkCreditsCoverage(root, new Map(), after.errors, after.warnings, { allowlist: new Map([...allowlist].slice(0, 1)), today: '2026-11-01' });
+    assert.deepEqual(after.warnings, []);
+    assert.match(after.errors[0], /Bilddatei ohne CREDITS-Zeile.*Frist 2026-10-31 abgelaufen/);
+
+    // Zeile nachgetragen, aber Allowlist vergessen -> Fehler statt stiller Doppelbuchfuehrung.
+    const resolved = [];
+    await checkCreditsCoverage(root, new Map([['images/AU/melbourne_cup/01.jpg', hint()]]), resolved, [], { allowlist: new Map([...allowlist].slice(0, 1)), today: '2026-09-20' });
+    assert.match(resolved[0], /aus UNVERIFIED_IMAGE_PROVENANCE streichen/);
+  });
+});
+
+test('G-10: UNVERIFIED_IMAGE_PROVENANCE ist befristet und zeigt nur auf vorhandene Dateien', () => {
+  const data = join(dirname(fileURLToPath(import.meta.url)), '..', 'data');
+  for (const [path, entry] of UNVERIFIED_IMAGE_PROVENANCE) {
+    assert.match(entry.until, /^\d{4}-\d{2}-\d{2}$/, path);
+    assert.ok(entry.reason?.trim(), path);
+    assert.ok(existsSync(join(data, path)), `${path} fehlt`);
+  }
 });

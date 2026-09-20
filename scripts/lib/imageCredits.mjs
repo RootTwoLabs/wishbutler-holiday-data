@@ -12,6 +12,51 @@ import { existsSync } from 'node:fs';
  */
 const CREDIT_LINE_RE = /^- `([^`]+)` — (.+) \(([^)]+)\)(?: — <(https?:\/\/[^>\s]+)>)?$/;
 
+/**
+ * G-10: EINE Stelle, die eine CREDITS-Zeile formatiert — Gegenstueck zu
+ * CREDIT_LINE_RE, damit Schreiber (fetch-images, fetch-memorial-images) und
+ * Parser nicht auseinanderlaufen. Seit G-10 bekommt JEDE Bilddatei eine Zeile,
+ * auch CC0/Public Domain: Fehlt eine Zeile, ist das ein Validator-Fehler und
+ * nicht mehr von „CC0, braucht keine Zeile" zu unterscheiden.
+ *
+ * Wirft, wenn die Zeile nicht wieder parsebar waere (Zeilenumbruch/Backtick im
+ * Pfad, `)` in der Lizenz, leerer Autor) — lieber ein lauter Abbruch beim
+ * Fetch als eine stille Luecke im Build.
+ */
+export function formatCreditLine({ path, credit, license, sourceUrl }) {
+  const author = String(credit ?? '').replace(/\s+/g, ' ').trim();
+  const lic = String(license ?? '').replace(/\s+/g, ' ').trim();
+  const source = typeof sourceUrl === 'string' && /^https?:\/\/[^>\s]+$/.test(sourceUrl) ? ` — <${sourceUrl}>` : '';
+  const line = `- \`${path}\` — ${author} (${lic})${source}`;
+  const m = line.match(CREDIT_LINE_RE);
+  if (!author || !lic || !m || m[1] !== path || m[2] !== author || m[3] !== lic) {
+    throw new Error(`CREDITS-Zeile nicht parsebar: ${line}`);
+  }
+  return line;
+}
+
+/**
+ * Alle Pfade im auto-generierten Block, die mehr als eine Zeile haben
+ * (`loadCreditHints` ist eine Map und verdeckt Duplikate — die letzte gewinnt).
+ */
+export async function duplicateCreditPaths(creditsPath) {
+  if (!existsSync(creditsPath)) return [];
+  const md = await readFile(creditsPath, 'utf8');
+  const block = md.match(
+    /<!-- BEGIN:IMAGE-CREDITS \(auto-generated\) -->([\s\S]*?)<!-- END:IMAGE-CREDITS -->/,
+  );
+  if (!block) return [];
+  const seen = new Set();
+  const dupes = new Set();
+  for (const line of block[1].split(/\r?\n/)) {
+    const path = /^- `([^`]+)`/.exec(line)?.[1];
+    if (!path) continue;
+    if (seen.has(path)) dupes.add(path);
+    seen.add(path);
+  }
+  return [...dupes].sort();
+}
+
 /** Reads license/credit hints from CREDITS.md for attributed images: path -> { credit, license, sourceUrl? }. */
 export async function loadCreditHints(creditsPath) {
   const hints = new Map();
@@ -32,7 +77,13 @@ export async function loadCreditHints(creditsPath) {
   return hints;
 }
 
-/** Applies CREDITS.md hints to an image ref (or marks it CC0). */
+/**
+ * Applies CREDITS.md hints to an image ref (or marks it CC0).
+ *
+ * G-10: Der CC0-Rueckfall ist nur noch ein Netz, damit der Build nicht
+ * abbricht — `npm run validate` meldet jede Bilddatei ohne CREDITS-Zeile als
+ * Fehler (checkCreditsCoverage), eine verlorene Zeile faellt also auf.
+ */
 export function decorateImageRef(ref, creditHints) {
   const hint = creditHints.get(ref.path);
   const out = { ...ref };

@@ -19,6 +19,11 @@ https://cdn.jsdelivr.net/gh/RootTwoLabs/wishbutler-holiday-data@main/data/index.
 ```
 
 1. Fetch `data/index.json` — the manifest of available countries + versions.
+   The manifest's `baseUrl` field is **informational only**: it always reads
+   `…@main/data` because a commit cannot know the tag that will later point at
+   it, and tags are immutable. The app never resolves anything against it — it
+   builds every URL from its own build-time tag pin
+   (`EXPO_PUBLIC_HOLIDAY_DATA_TAG`). Do not start reading it in a client.
 2. When a user activates a country, download `data/packages/<CC>/v<N>/package.json`.
 3. Resolve concrete dates **on-device** with the rule engine (no server compute).
 4. Lazy-load images by relative path against the same base URL.
@@ -120,6 +125,22 @@ Nager.Date marks holidays that apply only in some subdivisions with
 - Both are derived in `scripts/lib/nagerScope.mjs`; the contract is mirrored by
   `sanitizeRegions` in the app's `packageManager.ts`.
 
+Nager lists some occasions under **one name with two dates per subdivision**
+(GB "Summer Bank Holiday": first Monday in August in Scotland, last Monday in
+August in England, Wales and Northern Ireland). Left alone, both rows collapse
+into one nationwide definition carrying the last row's date — wrong for
+Scotland. `NAGER_REGIONAL_SPLITS` in `scripts/config.mjs` splits such rows at
+fetch time (`regionalSplitFor` in `scripts/lib/nagerScope.mjs`): rows whose
+`counties` all belong to the split become their own definition with a new ID
+(`GB_summer_bank_holiday_scotland`, `regions: ["GB-SCT"]`, first Monday as a
+closed `nth_weekday` rule), the established ID keeps the remaining regions
+(`GB_summer_bank_holiday`, `regions: ["GB-ENG","GB-NIR","GB-WLS"]`, last
+Monday). The split's labels live in `content/holiday-labels/` (main label +
+region in parentheses, like the existing "… (Moldova)" entries); article and
+images come from the main occasion via `ARTICLE_ALIASES`. Published packages
+were migrated once, offline, with `npm run migrate:regional-splits`; the fetch
+warns when a configured split no longer matches any Nager row.
+
 Nager occasionally renames an occasion in single years (PE 2031/2033: "Labour
 Day" ↔ "International Workers' Day"), which would split it into two
 `precomputed` definitions with gaps. `NAGER_NAME_ALIASES` in
@@ -139,7 +160,10 @@ not set it.
   plus a curated static list in this repo (religious/non-Gregorian, regional specials)
 - Israel (IL): [Hebcal](https://www.hebcal.com/) (neither Nager.Date nor OpenHolidays cover it);
   the holiday selection is curated in `scripts/lib/hebcalHolidays.mjs`, multi-day feasts
-  are dated by their first day (`npm run build:holidays:il`)
+  are dated by their first day (`npm run build:holidays:il`). That includes
+  Hanukkah: 25 Kislev, i.e. the civil day **after** the first candle is lit
+  (Hebcal's "Chanukah: 2 Candles" entry, cross-checked against `hdate`) — not
+  the eve (2025 → 15 Dec, 2026 → 5 Dec, 2027 → 25 Dec)
 - Namedays: [abalin](https://nameday.abalin.net/) + country-specific calendars
 - Images: [Wikimedia Commons](https://commons.wikimedia.org/) (PD / CC)
 - Fun days (`FUN` package): curated in `content/fun-days/` — names and dates are
@@ -236,6 +260,24 @@ curated step: fetch, review with `curate-images.mjs promote|drop`, run
   MEMORIAL have their own generators; the script prints the exact command
   (`FUN_VERSION=<prev+1> npm run build:fun-occasions`). `--no-bump` skips the
   step for batch curation — then bump before committing.
+
+**Every image file has exactly one line in `CREDITS.md`** — Public Domain and
+CC0 included (author, licence, source URL; format and parser live together in
+`scripts/lib/imageCredits.mjs`, `formatCreditLine` / `loadCreditHints`). Both
+fetchers write the line for every download. `npm run validate` fails on an
+image without a line, a line without an image, and a path with two lines
+(`checkCreditsCoverage`); thumbnails are exempt. Before 2026-09-20 only CC BY /
+CC BY-SA files got a line, so a lost line looked like "CC0" — 22 of the 216
+line-less files turned out to be CC BY / CC BY-SA. Files whose source cannot be
+established are **not** given a guessed line; they sit in
+`UNVERIFIED_IMAGE_PROVENANCE` (`scripts/validate.mjs`) with an expiry date and
+warn until then. Resolve by proving the source or replacing the image, not by
+extending the date.
+
+`data/images/<slug>/` is a global slug only when the folder name looks like a
+slug (lower-case snake_case, `isGlobalImageFolder` in
+`scripts/build-articles.mjs`); upper-case folders (`<CC>`, `FUN`, `MEMORIAL`)
+are package namespaces and never end up in the GLOBAL package.
 
 `CREDITS.md`, `*.json` and `*.mjs` are forced to LF via `.gitattributes`
 (Windows checkouts with `core.autocrlf` used to make `CREDITS.md` unparsable,

@@ -1,7 +1,9 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { newScope, collectScope, resolveScope, categoryFromTypes, coversFullRegionSet, REGION_CODE_RE } from './nagerScope.mjs';
-import { NAGER_FULL_REGION_SETS } from '../config.mjs';
+import { newScope, collectScope, resolveScope, categoryFromTypes, coversFullRegionSet, regionalSplitFor, REGION_CODE_RE } from './nagerScope.mjs';
+import { NAGER_FULL_REGION_SETS, NAGER_REGIONAL_SPLITS } from '../config.mjs';
+import { detectRule, pickHolidayStart } from './ruleDetection.mjs';
+import { slugify } from './nagerSlug.mjs';
 import { holidayDefinition } from './packageWriter.mjs';
 
 function scopeOf(rows) {
@@ -102,4 +104,97 @@ test('G-5: Vereinigung deckt das Full-Set des Landes ab -> landesweit (kein regi
   assert.equal(coversFullRegionSet(['GB-ENG'], NAGER_FULL_REGION_SETS.GB), false);
   assert.equal(coversFullRegionSet(['DE-BY'], undefined), false);
   assert.equal(coversFullRegionSet(['DE-BY'], []), false);
+});
+
+// ── GB Summer Bank Holiday: ein Nager-Name, zwei Termine je Landesteil ─────────
+
+/** n-ter (bzw. letzter) Montag im August als "MM-DD". */
+function augustMonday(year, which) {
+  const mondays = [];
+  for (let day = 1; day <= 31; day++) {
+    if (new Date(Date.UTC(year, 7, day)).getUTCDay() === 1) mondays.push(day);
+  }
+  const day = which === 'last' ? mondays.at(-1) : mondays[0];
+  return `08-${String(day).padStart(2, '0')}`;
+}
+
+/** Nager-Zeilen, wie die API sie fuer GB liefert: gleiche `name`, zwei Zeilen je Jahr. */
+function gbSummerRows(year) {
+  const base = { localName: 'Summer Bank Holiday', name: 'Summer Bank Holiday', countryCode: 'GB', global: false, types: ['Public'] };
+  return [
+    { ...base, date: `${year}-${augustMonday(year, 'first')}`, counties: ['GB-SCT'] },
+    { ...base, date: `${year}-${augustMonday(year, 'last')}`, counties: ['GB-ENG', 'GB-WLS', 'GB-NIR'] },
+  ];
+}
+
+/** Gruppierung wie in fetch-holidays.mjs `buildCountry` (Name -> Termine + Scope). */
+function groupLikeFetch(cc, rowsByYear, splits) {
+  const byName = new Map();
+  for (const [year, rows] of Object.entries(rowsByYear)) {
+    for (const h of rows) {
+      const split = regionalSplitFor(splits?.[cc], h.name, h);
+      const name = split ? split.name : h.name;
+      const entry = byName.get(name) ?? { name, slug: slugify(name), observed: {}, years: {}, scope: newScope() };
+      (entry.observed[year] ??= []).push(h.date.slice(5));
+      collectScope(entry.scope, h);
+      byName.set(name, entry);
+    }
+  }
+  const years = Object.keys(rowsByYear).map(Number);
+  return [...byName.values()].map((entry) => {
+    for (const [year, mmdds] of Object.entries(entry.observed)) entry.years[year] = pickHolidayStart(Number(year), mmdds);
+    const { category, regions } = resolveScope(entry.scope, { fullSet: NAGER_FULL_REGION_SETS[cc] });
+    return holidayDefinition({ id: `${cc}_${entry.slug}`, countryCode: cc, slug: entry.slug, rule: detectRule(entry, { expectedYears: years }), category, regions });
+  });
+}
+
+const GB_YEARS = Object.fromEntries(Array.from({ length: 10 }, (_, i) => [2026 + i, gbSummerRows(2026 + i)]));
+
+test('regionalSplitFor: nur rein schottische Zeilen wandern in den Split', () => {
+  const splits = NAGER_REGIONAL_SPLITS.GB;
+  const sct = { global: false, counties: ['GB-SCT'] };
+  assert.equal(regionalSplitFor(splits, 'Summer Bank Holiday', sct)?.name, 'Summer Bank Holiday (Scotland)');
+  // England/Wales/Nordirland, gemischte Zeile, landesweite Zeile, fremder Name, fremdes Land -> kein Split
+  assert.equal(regionalSplitFor(splits, 'Summer Bank Holiday', { global: false, counties: ['GB-ENG', 'GB-WLS', 'GB-NIR'] }), null);
+  assert.equal(regionalSplitFor(splits, 'Summer Bank Holiday', { global: false, counties: ['GB-SCT', 'GB-ENG'] }), null);
+  assert.equal(regionalSplitFor(splits, 'Summer Bank Holiday', { global: true, counties: null }), null);
+  assert.equal(regionalSplitFor(splits, 'Summer Bank Holiday', { global: false, counties: [] }), null);
+  assert.equal(regionalSplitFor(splits, '2 January', sct), null);
+  assert.equal(regionalSplitFor(undefined, 'Summer Bank Holiday', sct), null);
+});
+
+test('GB Summer Bank Holiday: OHNE Split eine landesweite Definition mit dem falschen Tag fuer Schottland (Ausgangsbefund)', () => {
+  const defs = groupLikeFetch('GB', GB_YEARS, {});
+  assert.equal(defs.length, 1);
+  assert.equal(defs[0].id, 'GB_summer_bank_holiday');
+  assert.equal(defs[0].regions, undefined);
+  assert.deepEqual(defs[0].rule, { type: 'nth_weekday', month: 8, nth: 5, weekday: 1, last: true });
+});
+
+test('GB Summer Bank Holiday: MIT Split zwei geschlossene nth_weekday-Definitionen, alte ID bleibt', () => {
+  const defs = groupLikeFetch('GB', GB_YEARS, NAGER_REGIONAL_SPLITS);
+  assert.deepEqual(defs, [
+    {
+      id: 'GB_summer_bank_holiday_scotland',
+      countryCode: 'GB',
+      kind: 'nth_weekday',
+      labelKey: 'holidays.summer_bank_holiday_scotland',
+      iconName: 'event',
+      category: 'public',
+      regions: ['GB-SCT'],
+      rule: { type: 'nth_weekday', month: 8, nth: 1, weekday: 1 },
+    },
+    {
+      id: 'GB_summer_bank_holiday',
+      countryCode: 'GB',
+      kind: 'nth_weekday',
+      labelKey: 'holidays.summer_bank_holiday',
+      iconName: 'event',
+      category: 'public',
+      regions: ['GB-ENG', 'GB-NIR', 'GB-WLS'],
+      rule: { type: 'nth_weekday', month: 8, nth: 5, weekday: 1, last: true },
+    },
+  ]);
+  // Die im Split hinterlegte Regel (Offline-Migration) ist genau die, die der Fetch erkennt.
+  assert.deepEqual(defs[0].rule, NAGER_REGIONAL_SPLITS.GB['Summer Bank Holiday'][0].rule);
 });

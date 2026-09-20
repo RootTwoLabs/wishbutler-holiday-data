@@ -7,7 +7,10 @@
  *
  * Mehrtaegige Feste (Pessach, Sukkot, Chanukka) tragen genau EIN Datum: den
  * ersten Tag — das Paket-Schema kennt (noch) kein Dauer-Feld, gratuliert wird
- * am ersten Tag. Fuer Pessach und Sukkot ist der letzte Feiertag (Pessach VII,
+ * am ersten Tag. Das gilt auch fuer Chanukka (Betreiber-Entscheidung G-12,
+ * 2026-09-20): 25. Kislew, also der buergerliche Tag NACH dem Anzuenden der
+ * ersten Kerze — nicht der Vorabend (2025 -> 15.12., 2026 -> 05.12., 2027 -> 25.12.).
+ * Fuer Pessach und Sukkot ist der letzte Feiertag (Pessach VII,
  * Schmini Azeret) in Israel ein eigener arbeitsfreier Tag und deshalb eine
  * eigene Definition.
  *
@@ -22,7 +25,12 @@ export const ISRAEL_HOLIDAYS = [
   { slug: 'yom_kippur', match: /^Yom Kippur$/, en: 'Yom Kippur', he: 'יום כיפור', category: 'public' },
   { slug: 'sukkot', match: /^Sukkot I$/, en: 'Sukkot', he: 'סוכות', category: 'public' },
   { slug: 'shemini_atzeret_simchat_torah', match: /^Shmini Atzeret$/, en: 'Shemini Atzeret & Simchat Torah', he: 'שמיני עצרת ושמחת תורה', category: 'public' },
-  { slug: 'hanukkah', match: /^Chanukah: 1 Candle$/, en: 'Hanukkah', he: 'חנוכה', category: 'religious' },
+  // G-12: erster TAG = 25. Kislew. Hebcal fuehrt den Vorabend (24. Kislew, Anzuenden
+  // der 1. Kerze) als „Chanukah: 1 Candle“; der 25. Kislew ist der Eintrag
+  // „Chanukah: 2 Candles“ (am Abend dieses Tages brennt die 2. Kerze). `hdate`
+  // sichert das ab: aendert Hebcal die Titel-Semantik, faellt der Eintrag weg
+  // (-> `missing`-Warnung im Build) statt still einen falschen Tag zu liefern.
+  { slug: 'hanukkah', match: /^Chanukah: 2 Candles$/, hdate: /^25 Kislev /, en: 'Hanukkah', he: 'חנוכה', category: 'religious' },
   { slug: 'tu_bishvat', match: /^Tu BiShvat$/, en: 'Tu BiShvat', he: 'ט״ו בשבט', category: 'observance' },
   { slug: 'purim', match: /^Purim$/, en: 'Purim', he: 'פורים', category: 'religious' },
   { slug: 'passover', match: /^Pesach I$/, en: 'Passover', he: 'פסח', category: 'public' },
@@ -53,6 +61,8 @@ export function collectIsraelDates(items) {
     const [, year, mmdd] = m;
     for (const h of ISRAEL_HOLIDAYS) {
       if (!h.match.test(item.title)) continue;
+      // Optionaler Gegencheck ueber das hebraeische Datum (nur wenn Hebcal es mitliefert).
+      if (h.hdate && typeof item.hdate === 'string' && !h.hdate.test(item.hdate)) continue;
       const years = bySlug.get(h.slug);
       if (years[year] == null || mmdd < years[year]) years[year] = mmdd;
     }

@@ -25,7 +25,6 @@ import {
   canonicalArticleSlug,
 } from './lib/contentLoader.mjs';
 import { loadCreditHints, decorateImageRef } from './lib/imageCredits.mjs';
-import { FUN_COUNTRY_CODE } from './lib/funDays.mjs';
 import { loadLabelCatalog, mergeHolidayLabels } from './lib/labelCatalog.mjs';
 import { writePackageIfChanged } from './lib/packageWriter.mjs';
 
@@ -160,7 +159,21 @@ async function mergePackage(cc, ctx) {
  * Versioned like country packages (new v<N> dir), but only bumps when the
  * resolved content actually changes, to avoid needless re-downloads.
  */
-export async function buildGlobalContent(globalArticles, creditHints) {
+/**
+ * G-13 (c): Ein Top-Level-Ordner unter data/images ist nur dann ein globaler
+ * Slug, wenn er wie ein Slug aussieht (klein, snake_case: `new_year`).
+ * Paket-Namensraeume sind gross geschrieben (`DE`, `FUN`, `MEMORIAL`) und
+ * gehoeren NICHT ins GLOBAL-Paket. Frueher wurde nur `[A-Z]{2}` + `FUN`
+ * ausgeschlossen — der Ordner `MEMORIAL` landete mit seinen drei Symbolmotiven
+ * als Bild-Key `MEMORIAL` im GLOBAL-Paket und damit als Eintrag „MEMORIAL" auf
+ * der Bildnachweis-Seite der App. Positivliste statt Ausschlussliste, damit
+ * ein kuenftiger Paket-Ordner nicht wieder durchrutscht.
+ */
+export function isGlobalImageFolder(name) {
+  return /^[a-z][a-z0-9_]*$/.test(name);
+}
+
+export async function buildGlobalContent(globalArticles, creditHints, { imagesDataRoot = DATA } = {}) {
   const holidayInfo = {};
   for (const locale of CONTENT_LOCALES) {
     const bySlug = globalArticles[locale];
@@ -172,12 +185,13 @@ export async function buildGlobalContent(globalArticles, creditHints) {
   }
 
   // Global slug image folders are the top-level dirs under data/images that are
-  // NOT country folders (country-namespaced images live under data/images/<CC>/).
-  const imagesRoot = join(DATA, 'images');
+  // NOT package namespaces (country-namespaced images live under
+  // data/images/<CC>/, FUN/MEMORIAL images under their package code).
+  const imagesRoot = join(imagesDataRoot, 'images');
   const images = {};
   for (const name of (await listDirs(imagesRoot)).sort()) {
-    if (/^[A-Z]{2}$/.test(name) || name === FUN_COUNTRY_CODE) continue; // country/FUN folder, skip
-    const refs = await buildImageRefs(DATA, name, null);
+    if (!isGlobalImageFolder(name)) continue; // <CC>/FUN/MEMORIAL/… folder, skip
+    const refs = await buildImageRefs(imagesDataRoot, name, null);
     if (refs.length > 0) {
       images[name] = refs.map((ref) => decorateImageRef(ref, creditHints));
     }

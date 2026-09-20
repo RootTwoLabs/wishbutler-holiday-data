@@ -14,8 +14,9 @@ const ITEMS_2026 = [
   { title: 'Herzl Day', date: '2026-04-27', category: 'holiday', subcat: 'modern' },
   { title: 'Rosh Hashana 5787', date: '2026-09-12', category: 'holiday', subcat: 'major', yomtov: true },
   { title: 'Rosh Hashana II', date: '2026-09-13', category: 'holiday', subcat: 'major', yomtov: true },
-  { title: 'Chanukah: 1 Candle', date: '2026-12-04', category: 'holiday', subcat: 'major' },
-  { title: 'Chanukah: 2 Candles', date: '2026-12-05', category: 'holiday', subcat: 'major' },
+  { title: 'Chanukah: 1 Candle', date: '2026-12-04', hdate: '24 Kislev 5787', category: 'holiday', subcat: 'major' },
+  { title: 'Chanukah: 2 Candles', date: '2026-12-05', hdate: '25 Kislev 5787', category: 'holiday', subcat: 'major' },
+  { title: 'Chanukah: 3 Candles', date: '2026-12-06', hdate: '26 Kislev 5787', category: 'holiday', subcat: 'major' },
   { title: 'Tish’a B’Av', date: '2026-07-23', category: 'holiday', subcat: 'major' },
   { title: 'Tu B’Av', date: '2026-07-29', category: 'holiday', subcat: 'minor' },
 ];
@@ -34,8 +35,33 @@ test('collectIsraelDates: verschobenes Tischa beAv "(observed)" wird erkannt', (
 test('collectIsraelDates: nimmt nur den ERSTEN Tag mehrtaegiger Feste', () => {
   const bySlug = collectIsraelDates(ITEMS_2026);
   assert.deepEqual(bySlug.get('passover'), { 2026: '04-02' });
-  assert.deepEqual(bySlug.get('hanukkah'), { 2026: '12-04' });
+  // G-12: Chanukka = 25. Kislew (Tag NACH der 1. Kerze), nicht der Vorabend 12-04.
+  assert.deepEqual(bySlug.get('hanukkah'), { 2026: '12-05' });
   assert.deepEqual(bySlug.get('rosh_hashanah'), { 2026: '09-12' });
+});
+
+test('collectIsraelDates: Chanukka ist der 25. Kislew — bekannte Termine 2025–2027 (G-12)', () => {
+  // Echte Hebcal-Antworten (i=on), abgerufen 2026-09-20.
+  const items = [
+    { title: 'Chanukah: 8 Candles', date: '2025-01-01', hdate: '1 Tevet 5785', category: 'holiday', subcat: 'major' },
+    { title: 'Chanukah: 1 Candle', date: '2025-12-14', hdate: '24 Kislev 5786', category: 'holiday', subcat: 'major' },
+    { title: 'Chanukah: 2 Candles', date: '2025-12-15', hdate: '25 Kislev 5786', category: 'holiday', subcat: 'major' },
+    { title: 'Chanukah: 1 Candle', date: '2026-12-04', hdate: '24 Kislev 5787', category: 'holiday', subcat: 'major' },
+    { title: 'Chanukah: 2 Candles', date: '2026-12-05', hdate: '25 Kislev 5787', category: 'holiday', subcat: 'major' },
+    { title: 'Chanukah: 1 Candle', date: '2027-12-24', hdate: '24 Kislev 5788', category: 'holiday', subcat: 'major' },
+    { title: 'Chanukah: 2 Candles', date: '2027-12-25', hdate: '25 Kislev 5788', category: 'holiday', subcat: 'major' },
+  ];
+  assert.deepEqual(collectIsraelDates(items).get('hanukkah'), { 2025: '12-15', 2026: '12-05', 2027: '12-25' });
+});
+
+test('collectIsraelDates: hdate-Gegencheck verwirft einen umgedeuteten Hebcal-Titel', () => {
+  // Wuerde Hebcal „2 Candles“ kuenftig auf den 26. Kislew legen, darf kein
+  // falscher Tag ins Paket — der Slug faellt dann als `missing` auf.
+  const items = [{ title: 'Chanukah: 2 Candles', date: '2026-12-06', hdate: '26 Kislev 5787', category: 'holiday' }];
+  assert.deepEqual(collectIsraelDates(items).get('hanukkah'), {});
+  // Ohne hdate (aeltere Fixtures/Antworten) entscheidet allein der Titel.
+  const noHdate = [{ title: 'Chanukah: 2 Candles', date: '2026-12-05', category: 'holiday' }];
+  assert.deepEqual(collectIsraelDates(noHdate).get('hanukkah'), { 2026: '12-05' });
 });
 
 test('collectIsraelDates: Erev-Tage, Chol HaMoed und Fremd-Gedenktage bleiben draussen', () => {
