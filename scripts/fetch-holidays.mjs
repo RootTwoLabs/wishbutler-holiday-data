@@ -34,6 +34,7 @@ import { join } from 'node:path';
 import { detectRule, pickHolidayStart, rulesEqual } from './lib/ruleDetection.mjs';
 import { fetchJsonWithTimeout, FailureBudget } from './lib/httpClient.mjs';
 import { holidayDefinition, writePackage } from './lib/packageWriter.mjs';
+import { loadMergeContext, mergeContent } from './build-articles.mjs';
 import { isSelectedHoliday } from './lib/holidaySelection.mjs';
 import { slugify, stripTentativeSuffix } from './lib/nagerSlug.mjs';
 import { newScope, collectScope, resolveScope, regionalSplitFor } from './lib/nagerScope.mjs';
@@ -62,7 +63,7 @@ async function fetchJson(url) {
 // fehlgeschlagenen Fetches scheitert der Build hart statt stille Luecken zu schreiben.
 const fetchBudget = new FailureBudget({ maxFailureRate: 0.25, minSamples: 10 });
 
-async function buildCountry(cc) {
+async function buildCountry(cc, mergeCtx) {
   const years = Array.from({ length: PRECOMPUTE_YEARS }, (_, i) => PRECOMPUTE_FROM_YEAR + i);
   // name -> { mmdd per year, isFixed, easterOffsets }
   const byName = new Map();
@@ -195,8 +196,11 @@ async function buildCountry(cc) {
   if (Object.keys(enLabels).length > 0) labels.en = enLabels;
   if (Object.keys(nativeLabels).length > 0) labels[nativeLocale] = nativeLabels;
 
-  // G-4: writePackage legt nur bei Inhaltsaenderung eine neue Version an.
-  const { version, changed } = await writePackage(cc, definitions, labels);
+  // G-4: writePackage legt nur bei Inhaltsaenderung eine neue Version an —
+  // gleich mit Katalog-Labels/Artikeln/Bildern (finalize), also EIN Bump.
+  const { version, changed } = await writePackage(cc, definitions, labels, {
+    finalize: (content) => mergeContent(cc, content, mergeCtx),
+  });
   console.log(
     `  ${cc}: v${version}${changed ? ' (neu)' : ' (unveraendert)'}, ${definitions.length} definitions, labels: ${Object.keys(labels).join('+') || 'none'}`,
   );
@@ -215,8 +219,9 @@ async function main() {
   const only = process.argv.slice(2);
   const countries = only.length > 0 ? only : HOLIDAY_COUNTRIES;
   console.log(`Building holidays for ${countries.length} countries...`);
+  const mergeCtx = await loadMergeContext();
   for (const cc of countries) {
-    await buildCountry(cc);
+    await buildCountry(cc, mergeCtx);
   }
   // #130: Bei zu hoher Fetch-Fehlerquote hart abbrechen statt stiller Datenluecken.
   fetchBudget.assertWithinBudget('fetch-holidays');

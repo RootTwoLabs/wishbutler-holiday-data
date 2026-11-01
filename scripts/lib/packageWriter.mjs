@@ -132,9 +132,15 @@ export function generatorOutputUnchanged(prevPkg, definitions, labels) {
  * und Artikel aus der Vorversion uebernommen) und schreibt es, falls es sich
  * geaendert hat.
  *
+ * `finalize` (async content -> content): Die Generatoren uebergeben hier
+ * build-articles' `mergeContent`, damit eine echte Aenderung EINE fertige
+ * Version ergibt. Ohne das schrieb der Fetch ein Paket mit nur en +
+ * Landessprache und build-articles direkt danach die naechste — zwei Bumps je
+ * geaendertem Land und Lauf, die erste mit unvollstaendigen Labels.
+ *
  * @returns {{ version: number, changed: boolean }}
  */
-export async function writePackage(cc, definitions, labels, { packagesDir = PACKAGES } = {}) {
+export async function writePackage(cc, definitions, labels, { packagesDir = PACKAGES, finalize } = {}) {
   const latest = await readLatestPackage(cc, { packagesDir });
   const prevPkg = latest?.pkg;
   const preserved = {
@@ -166,5 +172,5 @@ export async function writePackage(cc, definitions, labels, { packagesDir = PACK
     i18n,
     ...(preserved.images ? { images: preserved.images } : {}),
   };
-  return writePackageIfChanged(cc, content, { packagesDir });
+  return writePackageIfChanged(cc, finalize ? await finalize(content) : content, { packagesDir });
 }

@@ -16,6 +16,7 @@ import { SOURCES, PRECOMPUTE_FROM_YEAR, PRECOMPUTE_YEARS, localeForCountry } fro
 import { fetchJsonWithTimeout, FailureBudget } from './lib/httpClient.mjs';
 import { buildIsraelDefinitions } from './lib/hebcalHolidays.mjs';
 import { holidayDefinition, writePackage } from './lib/packageWriter.mjs';
+import { loadMergeContext, mergeContent } from './build-articles.mjs';
 
 const COUNTRY = 'IL';
 
@@ -56,8 +57,12 @@ async function main() {
   const nativeLocale = localeForCountry(COUNTRY);
   const packageLabels = { en: labels.en, [nativeLocale]: labels.he };
 
-  // G-4: writePackage legt nur bei Inhaltsaenderung eine neue Version an.
-  const { version, changed } = await writePackage(COUNTRY, packaged, packageLabels);
+  // G-4: writePackage legt nur bei Inhaltsaenderung eine neue Version an —
+  // gleich mit Katalog-Labels/Artikeln/Bildern (finalize), also EIN Bump.
+  const mergeCtx = await loadMergeContext();
+  const { version, changed } = await writePackage(COUNTRY, packaged, packageLabels, {
+    finalize: (content) => mergeContent(COUNTRY, content, mergeCtx),
+  });
   console.log(
     `  ${COUNTRY}: v${version}${changed ? ' (neu)' : ' (unveraendert)'}, ${packaged.length} definitions, labels: ${Object.keys(packageLabels).join('+')}`,
   );

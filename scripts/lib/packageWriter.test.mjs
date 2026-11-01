@@ -117,6 +117,38 @@ test('G-4 Nachtrag: Fetch nach dem Katalog-Merge bumpt nicht (Generator kennt nu
     // Echte Aenderungen bumpen weiter: Label-Text, neuer Schluessel, Regel.
     assert.equal((await writePackage('XX', [DEF], { en: { national_day: 'Independence Day' } }, { packagesDir })).changed, true);
   });
+});
+
+test('G-4 Nachtrag 2: echte Generator-Aenderung -> EIN Bump mit fertig gemergtem Inhalt (finalize)', async () => {
+  await withPackagesDir(async (packagesDir) => {
+    // Cron 2026-11-01: jede Nager-Aenderung erzeugte zwei Versionen — erst das
+    // Fetch-Paket mit nur en+Landessprache, direkt danach den Katalog-Merge.
+    const merged = {
+      countryCode: 'XX',
+      schemaVersion: 1,
+      definitions: [DEF],
+      i18n: { holidays: { en: { national_day: 'National Day' }, de: { national_day: 'Nationalfeiertag' } } },
+    };
+    await writePackageIfChanged('XX', merged, { packagesDir });
+
+    const finalize = async (content) => ({
+      ...content,
+      i18n: { ...content.i18n, holidays: { ...content.i18n.holidays, de: { national_day: 'Nationalfeiertag' } } },
+    });
+    const result = await writePackage('XX', [DEF], { en: { national_day: 'Independence Day' } }, { packagesDir, finalize });
+    assert.deepEqual(result, { version: 2, changed: true });
+    const v2 = JSON.parse(await readFile(join(packagesDir, 'XX', 'v2', 'package.json'), 'utf8'));
+    assert.deepEqual(v2.i18n.holidays, { en: { national_day: 'Independence Day' }, de: { national_day: 'Nationalfeiertag' } });
+
+    // Der anschliessende Merge-Schritt (build-articles) findet nichts Neues mehr.
+    assert.deepEqual(await writePackageIfChanged('XX', await finalize({ ...v2, version: undefined }), { packagesDir }), {
+      version: 2,
+      changed: false,
+    });
+  });
+});
+
+test('generatorOutputUnchanged vergleicht nur die Sprachen des Generators', () => {
   const prev = { definitions: [DEF], i18n: { holidays: { en: { a: 'A' }, de: { a: 'Ä' } } } };
   assert.equal(generatorOutputUnchanged(prev, [DEF], { en: { a: 'A' } }), true);
   assert.equal(generatorOutputUnchanged(prev, [DEF], { en: { a: 'A', b: 'B' } }), false);
