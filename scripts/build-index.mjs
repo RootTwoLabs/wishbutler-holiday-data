@@ -136,14 +136,15 @@ async function main() {
   // das Feld nicht (sie baut alle URLs aus ihrem Build-Pin
   // EXPO_PUBLIC_HOLIDAY_DATA_TAG); es bleibt nur, weil index.schema.json es
   // verlangt und aeltere Clients es als Pflichtfeld kennen.
-  let baseUrl = DEFAULT_BASE_URL;
+  let prevIndex = null;
   if (existsSync(INDEX)) {
     try {
-      baseUrl = (await readJson(INDEX)).baseUrl ?? DEFAULT_BASE_URL;
+      prevIndex = await readJson(INDEX);
     } catch {
-      /* keep default */
+      /* keep defaults */
     }
   }
+  const baseUrl = prevIndex?.baseUrl ?? DEFAULT_BASE_URL;
 
   const index = {
     schemaVersion: 1,
@@ -154,6 +155,14 @@ async function main() {
     ...(memorial ? { memorial } : {}),
     ...(funOccasions ? { funOccasions } : {}),
   };
+
+  // G-4 (Audit 2026-09-20, Rest): `generatedAt` nur fortschreiben, wenn sich
+  // sonst etwas am Index aendert. Sonst machte allein der Zeitstempel jeden
+  // CI-Lauf zum Daten-Commit samt Tag und CDN-Purge. Die App liest das Feld nicht.
+  const withoutStamp = ({ generatedAt, ...rest }) => JSON.stringify(rest);
+  if (prevIndex?.generatedAt && withoutStamp(prevIndex) === withoutStamp(index)) {
+    index.generatedAt = prevIndex.generatedAt;
+  }
 
   await writeFile(INDEX, JSON.stringify(index, null, 2) + '\n', 'utf8');
   console.log(
