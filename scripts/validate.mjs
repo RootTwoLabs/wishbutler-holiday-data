@@ -58,6 +58,7 @@ export const ONE_OFF_HOLIDAY_IDS = new Set([
   'BG_currency_change_day', // Euro-Einfuehrung 2026 — einmalig
   'GB_world_cup_bank_holiday', // schottischer WM-Bankfeiertag 2026 (gov.scot) — einmalig
   'KR_local_election_day', // Kommunalwahl alle 4 Jahre; Nager listet nur den naechsten Termin (2026)
+  'ZA_election_day', // Kommunalwahl 04.11.2026 (Nager seit 10/2026); Wahltage ohne festen Rhythmus — einmalig
 ]);
 
 /**
@@ -636,9 +637,14 @@ async function main() {
     console.warn('Validation warnings:\n' + warnings.map((w) => `  - ${w}`).join('\n'));
   }
 
+  // process.exitCode statt process.exit(): bei Pipe-stdio (CI) schreibt Node
+  // asynchron, process.exit() verwarf den Rest des Puffers — die ~850
+  // Warnungen fuellten ihn, und genau die Fehlerzeilen fehlten im Log
+  // (Cron 2026-10-01/11-01).
   if (errors.length > 0) {
     console.error('Validation failed:\n' + errors.map((e) => `  - ${e}`).join('\n'));
-    process.exit(1);
+    process.exitCode = 1;
+    return;
   }
   console.log('All packages valid.');
 }
@@ -646,6 +652,6 @@ async function main() {
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main().catch((err) => {
     console.error(err);
-    process.exit(1);
+    process.exitCode = 1;
   });
 }
